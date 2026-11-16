@@ -21,6 +21,6 @@ pkgbase = beluga-bin
 	options = !debug
 	options = !strip
 	source_x86_64 = https://github.com/TheElevatedOne/beluga/releases/download/0.1.0/beluga-0.1.0-linux-x86_64.tar.gz
-	sha256sums_x86_64 = SKIP
+	sha256sums_x86_64 = f306ca177a30db0d9168584ae9b4c8766452f129dec0534676713a4b96a61532
 
 pkgname = beluga-bin
