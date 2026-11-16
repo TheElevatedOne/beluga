@@ -376,6 +376,9 @@ int run_selftest(int argc, char **argv)
     g_root = tmp;
     g_free(tmp);
     for (const char *d : {"config", "data", "state", "cache", "files"}) g_mkdir_with_parents((g_root + "/" + d).c_str(), 0700);
+    // Without XDG_RUNTIME_DIR, GLib falls back to the cache folder, where the display server
+    // (e.g. gtk4-broadwayd) put its socket. Keep pointing there after XDG_CACHE_HOME changes.
+    if (!g_getenv("XDG_RUNTIME_DIR")) g_setenv("XDG_RUNTIME_DIR", g_get_user_runtime_dir(), TRUE);
     g_setenv("XDG_CONFIG_HOME", (g_root + "/config").c_str(), TRUE);
     g_setenv("XDG_DATA_HOME", (g_root + "/data").c_str(), TRUE);
     g_setenv("XDG_STATE_HOME", (g_root + "/state").c_str(), TRUE);
