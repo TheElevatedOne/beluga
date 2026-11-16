@@ -1,0 +1,1881 @@
+# Beluga translation (sl).
+# Imported from KDE Dolphin's translation, which was written by:
+# Copyright (C) 2024 This file is copyright:
+# Andrej Vernekar <andrej.vernekar@moj.net>, 2007 - 2008, 2011.
+# Marko Burjek <email4marko@gmail.com>, 2007.
+# SPDX-FileCopyrightText: 2007 - 2011, 2012, 2024 Jure Repinc <jlp@holodeck1.com>
+# Klemen Košir <klemen.kosir@gmx.com>, 2011.
+# Andrej Mernik <andrejm@ubuntu.si>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024 Matjaž Jeran <matjaz.jeran@amis.net>
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-09 07:10+0100\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "Mesta"
+
+msgid "Remote"
+msgstr "Oddaljeno"
+
+msgid "Recent"
+msgstr "Nedavne"
+
+msgid "Search For"
+msgstr "Poišči"
+
+msgid "Devices"
+msgstr "Naprave"
+
+msgid "Home"
+msgstr "Dom"
+
+msgid "Desktop"
+msgstr "Namizje"
+
+msgid "Documents"
+msgstr "Dokumenti"
+
+msgid "Downloads"
+msgstr "Prejemi"
+
+msgid "Music"
+msgstr "Glasba"
+
+msgid "Pictures"
+msgstr "Slike"
+
+msgid "Videos"
+msgstr "Videi"
+
+msgid "Trash"
+msgstr "Smeti"
+
+msgid "Network"
+msgstr "Omrežje"
+
+msgid "Recent Files"
+msgstr "Nedavne datoteke"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "Zvok"
+
+msgid "Folders"
+msgstr "Mape"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "Vse datoteke"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "Povezava"
+
+msgid "Rename"
+msgstr "Preimenuj"
+
+msgid "Move to Trash"
+msgstr "Premakni v Smeti"
+
+msgid "Create Folder"
+msgstr "Ustvari mapo"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "Razveljavi"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "Uveljavi"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d predmetov"
+msgstr[1] "%d predmet"
+msgstr[2] "%d predmeta"
+msgstr[3] "%d predmeti"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "%s kopija"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "Ime"
+
+msgid "Size"
+msgstr "Velikost"
+
+msgid "Modified"
+msgstr "Spremenjeno"
+
+msgid "Created"
+msgstr "Ustvarjeno"
+
+msgid "Accessed"
+msgstr "Dostopano"
+
+msgid "Type"
+msgstr "Vrsta"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "Dovoljenja"
+
+msgid "Owner"
+msgstr "Lastnik"
+
+msgid "User Group"
+msgstr "Skupina"
+
+msgid "Path"
+msgstr "Pot"
+
+msgid "Link Destination"
+msgstr "Cilj povezave"
+
+msgid "Deletion Time"
+msgstr "Čas izbrisa"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "Mere"
+
+msgid "New Window"
+msgstr "Novo okno"
+
+msgid "New Tab"
+msgstr "Nov zavihek"
+
+msgid "Close Tab"
+msgstr "Zapri zavihek"
+
+msgid "Undo Close Tab"
+msgstr "Razveljavi zapiranje zavihka"
+
+msgid "Quit"
+msgstr "Končaj"
+
+msgid "Delete"
+msgstr "Izbriši"
+
+msgid "Duplicate Here"
+msgstr "Podvoji sem"
+
+msgid "Properties"
+msgstr "Lastnosti"
+
+msgid "Cut"
+msgstr "Izreži"
+
+msgid "Copy Location"
+msgstr "Kopiraj mesto"
+
+msgid "Paste"
+msgstr "Prilepi"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Search"
+msgstr "Poišči"
+
+msgid "Select Files and Folders"
+msgstr "Izberi datoteke in mape"
+
+msgid "Select All"
+msgstr "Izberi vse"
+
+msgid "Invert Selection"
+msgstr "Obrni izbiro"
+
+msgid "Copy to Other View"
+msgstr "Kopiraj v drugi pogled"
+
+msgid "Move to Other View"
+msgstr "Premakni v drugi pogled"
+
+msgid "Icons View"
+msgstr "Pogled ikon"
+
+msgid "Compact View"
+msgstr "Kompaktni pogled"
+
+msgid "Details View"
+msgstr "Podrobni pogled"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "Približaj"
+
+msgid "Zoom Out"
+msgstr "Oddalji"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "Pokaži skrite datoteke"
+
+msgid "Split View"
+msgstr "Razdeli pogled"
+
+msgid "Focus Other View"
+msgstr "Fokus na drugi pogled"
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr "Razdeli pogled na zavihke"
+
+msgid "Reload"
+msgstr "Znova naloži"
+
+msgid "Editable Location"
+msgstr "Mesto je mogoče urediti"
+
+msgid "Replace Location"
+msgstr "Zamenjaj Mesto"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr "Plošča map"
+
+msgid "Information Panel"
+msgstr "Informacijska plošča"
+
+msgid "Focus Places Panel"
+msgstr "Plošča mest fokusa"
+
+msgid "Show Menubar"
+msgstr "Pokaži menijsko vrstico"
+
+msgid "Back"
+msgstr "Nazaj"
+
+msgid "Forward"
+msgstr "Naprej"
+
+msgid "Up"
+msgstr "Gor"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr "Pojdi na zadnji zavihek"
+
+msgid "Next Tab"
+msgstr "Naslednji zavihek"
+
+msgid "Previous Tab"
+msgstr "Predhodni zavihek"
+
+msgid "Open Terminal"
+msgstr "Odpri terminal"
+
+msgid "Open Terminal Here"
+msgstr "Odpri terminal tukaj"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "Ustvari novo"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "Prebrskaj…"
+
+msgid "Move To"
+msgstr "Premakni v"
+
+msgid "Copy To"
+msgstr "Kopiraj v"
+
+msgid "Open"
+msgstr "Odpri"
+
+msgid "Open With…"
+msgstr "Odpri z…"
+
+#, c-format
+msgid "Open with %s"
+msgstr "Odpri z %s"
+
+msgid "Other Application…"
+msgstr "Drug program…"
+
+msgid "Open With"
+msgstr "Odpri z"
+
+msgid "Empty Trash"
+msgstr "Izprazni Smeti"
+
+msgid "Add to Places"
+msgstr "Dodaj na pult Mesta"
+
+msgid "Sort By"
+msgstr "Razvrsti po"
+
+msgid "View Mode"
+msgstr "Način prikaza"
+
+msgid "Restore"
+msgstr "Obnovi"
+
+msgid "Open in New Tab"
+msgstr "Odpri v novem zavihku"
+
+msgid "Open in New Tabs"
+msgstr "Odpri v novih zavihkih"
+
+msgid "Open in New Window"
+msgstr "Odpri v novem oknu"
+
+msgid "Open in Split View"
+msgstr "Odpri v razdeljenem pogledu"
+
+msgid "Open Containing Folder"
+msgstr "Odpri vsebujočo mapo"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "Preimenuj …"
+
+msgid "Show Target"
+msgstr "Prikaži cilj"
+
+msgid "Close"
+msgstr "Zapri"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "Preimenuj postavko"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgid "Rename Items"
+msgstr "Preimenuj postavke"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "Novo ime #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "Dodaj med Mesta"
+
+msgid "Edit Places Entry"
+msgstr "Uredi vnos Mesta"
+
+msgid "Label:"
+msgstr "Oznaka:"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "Mesto:"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "Poglej način prikaza"
+
+msgid "Icons"
+msgstr "Ikone"
+
+msgid "Compact"
+msgstr "Strnjeno"
+
+msgid "Details"
+msgstr "Podrobnosti"
+
+msgid "Columns"
+msgstr "Stolpci"
+
+msgid "View mode:"
+msgstr "Način prikaza:"
+
+msgid "Sorting:"
+msgstr "Razvrščanje:"
+
+msgid "Ascending"
+msgstr "Naraščajoče"
+
+msgid "Descending"
+msgstr "Padajoče"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "Se nanaša na"
+
+msgid "Current folder"
+msgstr "Trenutno mapo"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "Vse mape"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "Mapa že obstaja"
+
+msgid "File Already Exists"
+msgstr "Datoteka že obstaja"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "Preskoči"
+
+msgid "Skip All"
+msgstr "Preskoči vse"
+
+msgid "Retry"
+msgstr "Poskusi znova"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "Velikost:"
+
+msgid "Type:"
+msgstr "Vrsta:"
+
+msgid "Folder"
+msgstr "Mapa"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Neznano"
+
+msgid "Modified:"
+msgstr "Spremenjena:"
+
+msgid "Created:"
+msgstr "Ustvarjena:"
+
+msgid "Accessed:"
+msgstr "Zadnji dostop:"
+
+msgid "Points to:"
+msgstr "Kaže na:"
+
+msgid "Permissions:"
+msgstr "Dovoljenja:"
+
+msgid "Owner:"
+msgstr "Lastnik:"
+
+msgid "Group:"
+msgstr "Skupina:"
+
+msgid "Dimensions:"
+msgstr "Mere:"
+
+msgid "Duration:"
+msgstr "Trajanje:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr "Poglej nastavitve"
+
+msgid "Menu"
+msgstr "Meni"
+
+msgid "Folders First"
+msgstr "Najprej mape"
+
+msgid "Hidden Files Last"
+msgstr "Skrite datoteke kot zadnje"
+
+msgid "Show in Groups"
+msgstr "Pokaži po skupinah"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr "Filter …"
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "Ponastavi raven približanja"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "Prikaži dodatne informacije"
+
+msgid "Show Previews"
+msgstr "Pokaži predoglede"
+
+msgid "Restore to Defaults"
+msgstr "Obnovi na privzete"
+
+msgid "Adjust View Display Style…"
+msgstr "Prilagodi slog prikaza …"
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "Zaustavi"
+
+msgid "Panels"
+msgstr "Plošče"
+
+msgid "Information"
+msgstr "Podatki"
+
+msgid "Location Bar"
+msgstr "Naslovna vrstica"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "Nedavno zaprti zavihki"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "Nova mapa"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "Varno odstrani"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "Priklop"
+
+msgid "Unmount"
+msgstr "Odklopi"
+
+msgid "Edit…"
+msgstr "Uredi…"
+
+msgid "Remove"
+msgstr "Odstrani"
+
+msgid "Show"
+msgstr "Pokaži"
+
+msgid "Hide"
+msgstr "Skrij"
+
+msgid "Hide Section"
+msgstr "Skrij odsek"
+
+msgid "Add Entry…"
+msgstr "Dodaj vnos …"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "Pokaži vse vnose"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "Velikost ikon:"
+
+msgid "Preview size:"
+msgstr "Velikost predogledov:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "Ime:"
+
+msgid "Command:"
+msgstr "ukaz:"
+
+msgid "File names:"
+msgstr "Imena datoteke:"
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "Splošno"
+
+msgid "Startup"
+msgstr "Zagon"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "Obnašanje"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "Terminal"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "Pogled"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "Naravno"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Abecedni red, neobčutljiv na male/velike črke"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Abecedni red, občutljivo na male/velike črke"
+
+msgid "Folder size:"
+msgstr "Velikost mape:"
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "Noben"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Širina oznake:"
+
+msgid "Small"
+msgstr "Majhne datoteke"
+
+msgid "Medium"
+msgstr "Srednje datoteke"
+
+msgid "Large"
+msgstr "Veliko"
+
+msgid "Huge"
+msgstr "Ogromno"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "Neomejeno"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "Predogledi"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr "Pokaži predoglede za"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "Potrditve"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "Ob odpiranju izvedljive datoteke:"
+
+msgid "Always ask"
+msgstr "Vedno vprašaj"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr "Vrstica stanja"
+
+msgid "Status bar:"
+msgstr "Vrstica stanja:"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr "Polna širina"
+
+msgid "Hidden"
+msgstr "Skrito"
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "Vsebinski meni"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "Računanje…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr "Prazen prostor:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu bytov"
+msgstr[1] "%llu byte"
+msgstr[2] "%llu byta"
+msgstr[3] "%llu byti"
+
+msgid "Forbidden"
+msgstr "Prepovedano"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "Mogoča ogled in spreminjanje"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "Mogoča ogled in spreminjanje vsebine"
+
+msgid "Others:"
+msgstr "Drugi:"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "Uporabnik:"
+
+msgid "Mode:"
+msgstr "Način:"
+
+msgid "Calculate"
+msgstr "Izračunaj"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "Lastnosti za %s"
+
+msgid "Checksums"
+msgstr "Nadzorne vsote"
+
+msgid "Filter:"
+msgstr "Filter:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr "Poišči …"
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr "Povsod"
+
+msgid "File Names"
+msgstr "Imena datoteke"
+
+msgid "File Names and Contents"
+msgstr "Imena in vsebina datotek"
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "Danes"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "Približanje"
+
+#, c-format
+msgid "%s free"
+msgstr "Prosto: %s"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "Odpni zavihek"
+
+msgid "Close Other Tabs"
+msgstr "Zapri druge zavihke"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "Velikost: %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "Včeraj"
+
+msgid "One Week Ago"
+msgstr "Pred enim tednom"
+
+msgid "Two Weeks Ago"
+msgstr "Pred dvema tednoma"
+
+msgid "Three Weeks Ago"
+msgstr "Pred tremi tedni"
+
+msgid "Earlier this Month"
+msgstr "V začetku tega meseca"
+
+msgid "0 - 9"
+msgstr "0 - 9"
+
+msgid "Others"
+msgstr "Drugo"
+
+msgid "Big"
+msgstr "Velike datoteke"
+
+msgid "Searching…"
+msgstr "Iskanje …"
+
+msgid "No items matching the filter"
+msgstr "Ni predmetov, ki bi ustrezali filtru"
+
+msgid "No items found"
+msgstr ""
+
+msgid "Trash is empty"
+msgstr "Smeti so prazne"
+
+msgid "Folder is empty"
+msgstr "Mapa je prazna"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr "Nalaganje mape …"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""

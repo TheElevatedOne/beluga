@@ -1,0 +1,1883 @@
+# Beluga translation (he).
+# Imported from KDE Dolphin's translation, which was written by:
+# translation of dolphin.po to hebrew
+# translation of dolphin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# tahmar1900 <tahmar1900@gmail.com>, 2007, 2008, 2009.
+# Diego Iastrubni <elcuco@kde.org>, 2008, 2009, 2012, 2013, 2014.
+# elkana bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata.
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020.
+# SPDX-FileCopyrightText: 2023-2026 Yaron Shahrabani <sh.yaron@gmail.com>
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-13 13:50+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <kde-l10n-he@kde.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "מקומות"
+
+msgid "Remote"
+msgstr "מרוחק"
+
+msgid "Recent"
+msgstr "אחרונים"
+
+msgid "Search For"
+msgstr "חיפוש אחר"
+
+msgid "Devices"
+msgstr "התקנים"
+
+msgid "Home"
+msgstr "תיקיית הבית"
+
+msgid "Desktop"
+msgstr "שולחן עבודה"
+
+msgid "Documents"
+msgstr "מסמכים"
+
+msgid "Downloads"
+msgstr "הורדות"
+
+msgid "Music"
+msgstr "מוזיקה"
+
+msgid "Pictures"
+msgstr "תמונות"
+
+msgid "Videos"
+msgstr "סרטונים"
+
+msgid "Trash"
+msgstr "אשפה"
+
+msgid "Network"
+msgstr "רשת"
+
+msgid "Recent Files"
+msgstr "קבצים אחרונים"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "שמע"
+
+msgid "Folders"
+msgstr "תיקיות"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "כל הקבצים"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "העתקה"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "קישור"
+
+msgid "Rename"
+msgstr "שינוי שם"
+
+msgid "Move to Trash"
+msgstr "העבר לאשפה"
+
+msgid "Create Folder"
+msgstr "יצירת תיקייה"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "הסגה"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "ביצוע מחדש"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld שנ׳"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "עותק %s"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "שם"
+
+msgid "Size"
+msgstr "גודל"
+
+msgid "Modified"
+msgstr "תאריך שינוי"
+
+msgid "Created"
+msgstr "תאריך יצירה"
+
+msgid "Accessed"
+msgstr "תאריך גישה"
+
+msgid "Type"
+msgstr "סוג"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "הרשאות"
+
+msgid "Owner"
+msgstr "בעלים"
+
+msgid "User Group"
+msgstr "קבוצה"
+
+msgid "Path"
+msgstr "נתיב"
+
+msgid "Link Destination"
+msgstr "יעד הקישור"
+
+msgid "Deletion Time"
+msgstr "זמן מחיקה"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "ממדים"
+
+msgid "New Window"
+msgstr "חלון חדש"
+
+msgid "New Tab"
+msgstr "לשונית חדשה"
+
+msgid "Close Tab"
+msgstr "סגירת לשונית"
+
+msgid "Undo Close Tab"
+msgstr "ביטול סגירת לשונית"
+
+msgid "Quit"
+msgstr "יציאה"
+
+msgid "Delete"
+msgstr "מחק"
+
+msgid "Duplicate Here"
+msgstr "שכפול לכאן"
+
+msgid "Properties"
+msgstr "מאפיינים"
+
+msgid "Cut"
+msgstr "גזירה"
+
+msgid "Copy Location"
+msgstr "העתקת מיקום"
+
+msgid "Paste"
+msgstr "הדבקה"
+
+msgid "Filter"
+msgstr "מסנן"
+
+msgid "Search"
+msgstr "חיפוש"
+
+msgid "Select Files and Folders"
+msgstr "בחירת קבצים ותיקיות"
+
+msgid "Select All"
+msgstr "בחירה בהכול"
+
+msgid "Invert Selection"
+msgstr "היפוך הבחירה"
+
+msgid "Copy to Other View"
+msgstr "העתקה לתצוגה אחרת"
+
+msgid "Move to Other View"
+msgstr "העברה לתצוגה אחרת"
+
+msgid "Icons View"
+msgstr "תצוגת סמלים"
+
+msgid "Compact View"
+msgstr "תצוגה מצומצמת"
+
+msgid "Details View"
+msgstr "תצוגה מפורטת"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "התקרבות"
+
+msgid "Zoom Out"
+msgstr "התרחקות"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "הצגת קבצים מוסתרים"
+
+msgid "Split View"
+msgstr "תצוגה מפוצלת"
+
+msgid "Focus Other View"
+msgstr "התמקדות בתצוגה אחרת"
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr "פיצול התצוגה ללשוניות"
+
+msgid "Reload"
+msgstr "טעינה מחדש"
+
+msgid "Editable Location"
+msgstr "מקום בר־עריכה"
+
+msgid "Replace Location"
+msgstr "החלפת מיקום"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr "לוח תיקיות"
+
+msgid "Information Panel"
+msgstr "לוח מידע"
+
+msgid "Focus Places Panel"
+msgstr "התמקדות בלוח מקומות"
+
+msgid "Show Menubar"
+msgstr "הצגת שורת־תפריטים"
+
+msgid "Back"
+msgstr "אחורה"
+
+msgid "Forward"
+msgstr "קדימה"
+
+msgid "Up"
+msgstr "מעלה"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr "מעבר ללשונית האחרונה"
+
+msgid "Next Tab"
+msgstr "הלשונית הבאה"
+
+msgid "Previous Tab"
+msgstr "הלשונית הקודמת"
+
+msgid "Open Terminal"
+msgstr "פתיחת המסוף"
+
+msgid "Open Terminal Here"
+msgstr "פתיחת המסוף כאן"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "יצירת חדש"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "עיון…"
+
+msgid "Move To"
+msgstr "העברה אל"
+
+msgid "Copy To"
+msgstr "העתקה אל"
+
+msgid "Open"
+msgstr "פתיחה"
+
+msgid "Open With…"
+msgstr "פתיחה עם…"
+
+#, c-format
+msgid "Open with %s"
+msgstr "פתיחה עם %s"
+
+msgid "Other Application…"
+msgstr "יישום אחר…"
+
+msgid "Open With"
+msgstr "פתיחה עם"
+
+msgid "Empty Trash"
+msgstr "פינוי האשפה"
+
+msgid "Add to Places"
+msgstr "הוספה למקומות"
+
+msgid "Sort By"
+msgstr "מיון לפי"
+
+msgid "View Mode"
+msgstr "מצב תצוגה"
+
+msgid "Restore"
+msgstr "שחזור"
+
+msgid "Open in New Tab"
+msgstr "פתיחה בלשונית חדשה"
+
+msgid "Open in New Tabs"
+msgstr "פתיחה בלשוניות חדשות"
+
+msgid "Open in New Window"
+msgstr "פתיחה בחלון חדש"
+
+msgid "Open in Split View"
+msgstr "פתיחה בתצוגה מפוצלת"
+
+msgid "Open Containing Folder"
+msgstr "פתיחת התיקייה המכיל"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "שינוי שם…"
+
+msgid "Show Target"
+msgstr "הצגת יעד"
+
+msgid "Close"
+msgstr "סגירה"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "שינוי שם פריט"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "ביטול"
+
+msgid "Rename Items"
+msgstr "שינוי שמות פריטים"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "שם חדש #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "הוספת רשומת מקומות"
+
+msgid "Edit Places Entry"
+msgstr "עריכת רשומת מקומות"
+
+msgid "Label:"
+msgstr "תווית:"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "מקום:"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "סגנון הצגת התצוגות"
+
+msgid "Icons"
+msgstr "סמלים"
+
+msgid "Compact"
+msgstr "חסכונית"
+
+msgid "Details"
+msgstr "פרטים"
+
+msgid "Columns"
+msgstr "עמודות"
+
+msgid "View mode:"
+msgstr "מצב תצוגה:"
+
+msgid "Sorting:"
+msgstr "מיון לפי:"
+
+msgid "Ascending"
+msgstr "בסדר עולה"
+
+msgid "Descending"
+msgstr "בסדר יורד"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "החלה על"
+
+msgid "Current folder"
+msgstr "התיקייה הנוכחית"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "כל התיקיות"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "התיקייה כבר קיימת"
+
+msgid "File Already Exists"
+msgstr "הקובץ כבר קיים"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "דילוג"
+
+msgid "Skip All"
+msgstr "לדלג על הכול"
+
+msgid "Retry"
+msgstr "לנסות שוב"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "גודל:"
+
+msgid "Type:"
+msgstr "סוג:"
+
+msgid "Folder"
+msgstr "תיקייה"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "לא מוכר"
+
+msgid "Modified:"
+msgstr "שינוי:"
+
+msgid "Created:"
+msgstr "יצירה:"
+
+msgid "Accessed:"
+msgstr "גישה אחרונה:"
+
+msgid "Points to:"
+msgstr "הפניה אל:"
+
+msgid "Permissions:"
+msgstr "הרשאות:"
+
+msgid "Owner:"
+msgstr "בעלים:"
+
+msgid "Group:"
+msgstr "קבוצה:"
+
+msgid "Dimensions:"
+msgstr "ממדים:"
+
+msgid "Duration:"
+msgstr "משך:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr "הצגת ההגדרות"
+
+msgid "Menu"
+msgstr "תפריט"
+
+msgid "Folders First"
+msgstr "תיקיות תחילה"
+
+msgid "Hidden Files Last"
+msgstr "קבצים מוסתרים בסוף"
+
+msgid "Show in Groups"
+msgstr "הצגה בקבוצות"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr "סינון…"
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "איפוס רמת התקריב"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "הצגת מידע נוסף"
+
+msgid "Show Previews"
+msgstr "הצגת תצוגות מקדימות"
+
+msgid "Restore to Defaults"
+msgstr "שחזור לברירות מחדל"
+
+msgid "Adjust View Display Style…"
+msgstr "התאמת סגנון הצגת התצוגות…"
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "עצירה"
+
+msgid "Panels"
+msgstr "לוחות"
+
+msgid "Information"
+msgstr "פרטים"
+
+msgid "Location Bar"
+msgstr "סרגל המיקום"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "הלשוניות שנסגרו לאחרונה"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "תיקייה חדשה"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "שליפה בטוחה"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "עיגון"
+
+msgid "Unmount"
+msgstr "ניתוק"
+
+msgid "Edit…"
+msgstr "עריכה…"
+
+msgid "Remove"
+msgstr "הסרה"
+
+msgid "Show"
+msgstr "הצגה"
+
+msgid "Hide"
+msgstr "הסתרה"
+
+msgid "Hide Section"
+msgstr "הסתרת אזור"
+
+msgid "Add Entry…"
+msgstr "הוספת רשומה…"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "הצגת כל הרשומות"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "גודל סמלים:"
+
+msgid "Preview size:"
+msgstr "גודל תצוגה מקדימה:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "שם:"
+
+msgid "Command:"
+msgstr "פקודה:"
+
+msgid "File names:"
+msgstr "שמות קבצים:"
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "כללי"
+
+msgid "Startup"
+msgstr "עלייה"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "התנהגות"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "מסוף"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "תצוגה"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "האופן הטבעי"
+
+msgid "Alphabetical, case insensitive"
+msgstr "אלפאביתי, ללא יחס לאותיות רישיות"
+
+msgid "Alphabetical, case sensitive"
+msgstr "אלפאביתי, עם יחס לאותיות רישיות"
+
+msgid "Folder size:"
+msgstr "גודל תיקייה:"
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "ללא"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "רוחב תווית:"
+
+msgid "Small"
+msgstr "קטן"
+
+msgid "Medium"
+msgstr "בינוני"
+
+msgid "Large"
+msgstr "גדול"
+
+msgid "Huge"
+msgstr "ענק"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "ללא הגבלה"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "תצוגות מקדימות"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr "הצגת תצוגות מקדימות עבור"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "אישורים"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "בעת פתיחת קובץ הניתן להרצה:"
+
+msgid "Always ask"
+msgstr "תמיד לשאול"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr "שורת מצב"
+
+msgid "Status bar:"
+msgstr "שורת מצב:"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr "רוחב מלא"
+
+msgid "Hidden"
+msgstr "מוסתר"
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "תפריט הקשר"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "מחושב…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr "מקום פנוי:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+msgid "Forbidden"
+msgstr "אסור"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "אפשר לצפות ולערוך"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "אפשר להציג את התוכן ולשנותו"
+
+msgid "Others:"
+msgstr "אחרים:"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "משתמש:"
+
+msgid "Mode:"
+msgstr "מצב:"
+
+msgid "Calculate"
+msgstr "חישוב"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "מאפייני %s"
+
+msgid "Checksums"
+msgstr "סיכומי ביקורת"
+
+msgid "Filter:"
+msgstr "מסנן:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr "חיפוש…"
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr "בכל מקום"
+
+msgid "File Names"
+msgstr "שמות קבצים"
+
+msgid "File Names and Contents"
+msgstr "שמות קבצים ותוכנם"
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "היום"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "תקריב"
+
+#, c-format
+msgid "%s free"
+msgstr "%s פנוי"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "ניתוק לשונית"
+
+msgid "Close Other Tabs"
+msgstr "סגירת הלשוניות האחרות"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "גודל: %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "אתמול"
+
+msgid "One Week Ago"
+msgstr "לפני שבוע"
+
+msgid "Two Weeks Ago"
+msgstr "לפני שבועיים"
+
+msgid "Three Weeks Ago"
+msgstr "לפני שלושה שבועות"
+
+msgid "Earlier this Month"
+msgstr "מוקדם יותר החודש"
+
+msgid "0 - 9"
+msgstr "0 - 9"
+
+msgid "Others"
+msgstr "אחרות"
+
+msgid "Big"
+msgstr "גדול"
+
+msgid "Searching…"
+msgstr "מתבצע חיפוש…"
+
+msgid "No items matching the filter"
+msgstr "אין פריטים שעונים למסנן"
+
+msgid "No items found"
+msgstr ""
+
+msgid "Trash is empty"
+msgstr "האשפה ריקה"
+
+msgid "Folder is empty"
+msgstr "התיקייה ריקה"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr "התיקייה נטענת…"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""

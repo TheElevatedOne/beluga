@@ -1,0 +1,1870 @@
+# Beluga translation (is).
+# Imported from KDE Dolphin's translation, which was written by:
+# translation of dolphin.po to Icelandic
+# Copyright (C) 2008, 2009 This_file_is_part_of_KDE
+# íslensk þýðing Dolphin
+# þýðing byggð á eldri þýðingum Konqueror og KDE
+# SPDX-FileCopyrightText: 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Sveinn í Felli <sveinki@nett.is>
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Guðmundur Erlingsson <gudmundure@gmail.com>
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-10 08:48+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "Staðir"
+
+msgid "Remote"
+msgstr "Fjartengt"
+
+msgid "Recent"
+msgstr "Nýlegt"
+
+msgid "Search For"
+msgstr "Leita að"
+
+msgid "Devices"
+msgstr "Tæki"
+
+msgid "Home"
+msgstr "Heimamappa"
+
+msgid "Desktop"
+msgstr "Skjáborð"
+
+msgid "Documents"
+msgstr "Skjöl"
+
+msgid "Downloads"
+msgstr "Sóttar skrár"
+
+msgid "Music"
+msgstr "Tónlist"
+
+msgid "Pictures"
+msgstr "Myndir"
+
+msgid "Videos"
+msgstr "Myndskeið"
+
+msgid "Trash"
+msgstr "Rusl"
+
+msgid "Network"
+msgstr "Netkerfi"
+
+msgid "Recent Files"
+msgstr "Nýlegar skrár"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "Hljóð"
+
+msgid "Folders"
+msgstr "Möppur"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "Allar skrár"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "Afrita"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "Tengill"
+
+msgid "Rename"
+msgstr "Endurnefna"
+
+msgid "Move to Trash"
+msgstr "Setja í ruslið"
+
+msgid "Create Folder"
+msgstr "Búa til möppu"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "Afturkalla"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "Endurtaka"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d hlutur"
+msgstr[1] "%d hlutir"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "%s afrit"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "Heiti"
+
+msgid "Size"
+msgstr "Stærð"
+
+msgid "Modified"
+msgstr "Breytt"
+
+msgid "Created"
+msgstr "Búið til"
+
+msgid "Accessed"
+msgstr "Opnað"
+
+msgid "Type"
+msgstr "Gerð"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "Heimildir"
+
+msgid "Owner"
+msgstr "Eigandi"
+
+msgid "User Group"
+msgstr "Notandahópur"
+
+msgid "Path"
+msgstr "Slóð"
+
+msgid "Link Destination"
+msgstr "Áfangastaður tengils"
+
+msgid "Deletion Time"
+msgstr "Eyðingartími"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "Stærðir"
+
+msgid "New Window"
+msgstr "Nýr gluggi"
+
+msgid "New Tab"
+msgstr "Nýr flipi"
+
+msgid "Close Tab"
+msgstr "Loka flipa"
+
+msgid "Undo Close Tab"
+msgstr "Afturkalla lokun á flipa"
+
+msgid "Quit"
+msgstr "Hætta"
+
+msgid "Delete"
+msgstr "Eyða"
+
+msgid "Duplicate Here"
+msgstr "Tvítaka hér"
+
+msgid "Properties"
+msgstr "Eiginleikar"
+
+msgid "Cut"
+msgstr "Klippa"
+
+msgid "Copy Location"
+msgstr "Afrita staðsetningu"
+
+msgid "Paste"
+msgstr "Líma"
+
+msgid "Filter"
+msgstr "Sía"
+
+msgid "Search"
+msgstr "Leita"
+
+msgid "Select Files and Folders"
+msgstr "Veldu skrár og möppur"
+
+msgid "Select All"
+msgstr "Velja allt"
+
+msgid "Invert Selection"
+msgstr "Umsnúa vali"
+
+msgid "Copy to Other View"
+msgstr "Afrita í hitt yfirlitið"
+
+msgid "Move to Other View"
+msgstr "Færa í hitt yfirlitið"
+
+msgid "Icons View"
+msgstr "Tákn"
+
+msgid "Compact View"
+msgstr "Þjappað"
+
+msgid "Details View"
+msgstr "Ítarlegt"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "Auka aðdrátt"
+
+msgid "Zoom Out"
+msgstr "Minnka aðdrátt"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "Sýna faldar skrár"
+
+msgid "Split View"
+msgstr "Tvískipt yfirlit"
+
+msgid "Focus Other View"
+msgstr "Gera hitt yfirlitið virkt"
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr "Skipta yfirliti í flipa"
+
+msgid "Reload"
+msgstr "Endurhlaða"
+
+msgid "Editable Location"
+msgstr "Breytanleg staðsetning"
+
+msgid "Replace Location"
+msgstr "Skipta út staðsetningu"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr ""
+
+msgid "Information Panel"
+msgstr "Upplýsingastika"
+
+msgid "Focus Places Panel"
+msgstr "Gefa staðaspjaldi fókus"
+
+msgid "Show Menubar"
+msgstr "Sýna valmyndastiku"
+
+msgid "Back"
+msgstr "Til baka"
+
+msgid "Forward"
+msgstr "Áfram"
+
+msgid "Up"
+msgstr "Upp"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr "Fara á síðasta flipann"
+
+msgid "Next Tab"
+msgstr "Næsti flipi"
+
+msgid "Previous Tab"
+msgstr "Fyrri flipi"
+
+msgid "Open Terminal"
+msgstr "Opna skjáhermi"
+
+msgid "Open Terminal Here"
+msgstr "Opna skjáhermi hér"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "Búa til nýtt"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "Velja…"
+
+msgid "Move To"
+msgstr "Færa í"
+
+msgid "Copy To"
+msgstr "Afrita í"
+
+msgid "Open"
+msgstr "Opna"
+
+msgid "Open With…"
+msgstr "Opna með…"
+
+#, c-format
+msgid "Open with %s"
+msgstr "Opna með %s"
+
+msgid "Other Application…"
+msgstr "Annað forrit…"
+
+msgid "Open With"
+msgstr "Opna með"
+
+msgid "Empty Trash"
+msgstr "Tæma rusl"
+
+msgid "Add to Places"
+msgstr "Bæta við Staði"
+
+msgid "Sort By"
+msgstr "Raða eftir"
+
+msgid "View Mode"
+msgstr "Yfirlitssnið"
+
+msgid "Restore"
+msgstr "Endurheimta"
+
+msgid "Open in New Tab"
+msgstr "Opna í nýjum flipa"
+
+msgid "Open in New Tabs"
+msgstr "Opna í nýjum flipum"
+
+msgid "Open in New Window"
+msgstr "Opna í nýjum glugga"
+
+msgid "Open in Split View"
+msgstr "Opna í tvískiptu yfirliti"
+
+msgid "Open Containing Folder"
+msgstr "Opna umlykjandi möppu"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "Endurnefna…"
+
+msgid "Show Target"
+msgstr "Sýna viðtökustað"
+
+msgid "Close"
+msgstr "Loka"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "Endurnefna atriði"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Hætta við"
+
+msgid "Rename Items"
+msgstr "Endurnefna atriði"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "Nýtt heiti #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "Bæta við staðsetningarfærslu"
+
+msgid "Edit Places Entry"
+msgstr "Breyta staðsetningarfærslu"
+
+msgid "Label:"
+msgstr "Merking:"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "Staðsetning:"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "Birtingarsnið í yfirliti"
+
+msgid "Icons"
+msgstr "Tákn"
+
+msgid "Compact"
+msgstr "Þétt"
+
+msgid "Details"
+msgstr "Ítarlegt"
+
+msgid "Columns"
+msgstr "Dálkar"
+
+msgid "View mode:"
+msgstr "Yfirlitssnið:"
+
+msgid "Sorting:"
+msgstr "Röðun:"
+
+msgid "Ascending"
+msgstr "Hækkandi"
+
+msgid "Descending"
+msgstr "Lækkandi"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "Nota á"
+
+msgid "Current folder"
+msgstr "Þessa möppu"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "Allar möppur"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "Mappan er nú þegar til"
+
+msgid "File Already Exists"
+msgstr "Skráin er nú þegar til"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "Sleppa"
+
+msgid "Skip All"
+msgstr "Sleppa öllu"
+
+msgid "Retry"
+msgstr "Reyna aftur"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "Stærð:"
+
+msgid "Type:"
+msgstr "Tegund:"
+
+msgid "Folder"
+msgstr "Mappa"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Óþekkt"
+
+msgid "Modified:"
+msgstr "Breytt:"
+
+msgid "Created:"
+msgstr "Búið til:"
+
+msgid "Accessed:"
+msgstr "Notað:"
+
+msgid "Points to:"
+msgstr "Vísar á:"
+
+msgid "Permissions:"
+msgstr "Heimildir:"
+
+msgid "Owner:"
+msgstr "Eigandi:"
+
+msgid "Group:"
+msgstr "Hópur:"
+
+msgid "Dimensions:"
+msgstr "Stærðir:"
+
+msgid "Duration:"
+msgstr "Tímalengd:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr "Yfirlitsstillingar"
+
+msgid "Menu"
+msgstr "Valmynd"
+
+msgid "Folders First"
+msgstr "Möppur fremst"
+
+msgid "Hidden Files Last"
+msgstr "Faldar skrár aftast"
+
+msgid "Show in Groups"
+msgstr "Sýna í flokkum"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr "Sía…"
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "Endurstilla aðdráttarstig"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "Birta viðbótarupplýsingar"
+
+msgid "Show Previews"
+msgstr "Birta forskoðun"
+
+msgid "Restore to Defaults"
+msgstr "Endurheimta sjálfgefið"
+
+msgid "Adjust View Display Style…"
+msgstr "Breyta birtingarsniði yfirlits…"
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "Stöðva"
+
+msgid "Panels"
+msgstr "Spjöld"
+
+msgid "Information"
+msgstr "Upplýsingar"
+
+msgid "Location Bar"
+msgstr "Staðsetningarstika"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "Nýlega lokaðir flipar"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "Ný mappa"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "Fjarlægja örugglega"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "Tengja í skráakerfið"
+
+msgid "Unmount"
+msgstr "Aftengja skráakerfinu"
+
+msgid "Edit…"
+msgstr "Breyta…"
+
+msgid "Remove"
+msgstr "Fjarlægja"
+
+msgid "Show"
+msgstr "Birta"
+
+msgid "Hide"
+msgstr "Fela"
+
+msgid "Hide Section"
+msgstr "Fela hlutann"
+
+msgid "Add Entry…"
+msgstr "Bæta við færslu…"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "Sýna allar færslur"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "Táknastærð:"
+
+msgid "Preview size:"
+msgstr "Stærð forskoðunar:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "Heiti:"
+
+msgid "Command:"
+msgstr "skipun:"
+
+msgid "File names:"
+msgstr "Skráaheiti:"
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "Almennt"
+
+msgid "Startup"
+msgstr "Ræsing"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "Hegðun"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "Skjáhermir"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "Skoða"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "Venjuleg röðun"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Raða í stafrófsröð, óháð há-/lágstöfum"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Raða í stafrófsröð, háð há-/lágstöfum"
+
+msgid "Folder size:"
+msgstr "Möppustærð:"
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "Ekkert"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Breidd textalínu:"
+
+msgid "Small"
+msgstr "Lítið"
+
+msgid "Medium"
+msgstr "Miðlungs"
+
+msgid "Large"
+msgstr "Mikil"
+
+msgid "Huge"
+msgstr "Mjög mikil"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "Ótakmörkuð"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "Forskoðanir"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr "Sýna forskoðun fyrir"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "Staðfestingar"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "Þegar keyranleg skrá er opnuð:"
+
+msgid "Always ask"
+msgstr "Alltaf spyrja"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr "Stöðustika"
+
+msgid "Status bar:"
+msgstr "Stöðustika:"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr "Fullbreidd"
+
+msgid "Hidden"
+msgstr "Falið"
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "Samhengisvalmynd"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "Reikna…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr "Laust pláss:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Forbidden"
+msgstr "Bannað"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "Má skoða og breyta"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "Má skoða og breyta innihaldi"
+
+msgid "Others:"
+msgstr "Aðrir:"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "Notandi:"
+
+msgid "Mode:"
+msgstr "Hamur:"
+
+msgid "Calculate"
+msgstr "Reikna"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "Eiginleikar %s"
+
+msgid "Checksums"
+msgstr "Gátsummur"
+
+msgid "Filter:"
+msgstr "Sía:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr "Leita…"
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr "Allsstaðar"
+
+msgid "File Names"
+msgstr "Skráaheiti"
+
+msgid "File Names and Contents"
+msgstr "Skráaheiti og innihald"
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "Í dag"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "Aðdráttur"
+
+#, c-format
+msgid "%s free"
+msgstr "%s laust"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "Aftengja flipa"
+
+msgid "Close Other Tabs"
+msgstr "Loka öðrum flipum"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "Stærð: %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "Í gær"
+
+msgid "One Week Ago"
+msgstr "Fyrir viku"
+
+msgid "Two Weeks Ago"
+msgstr "Fyrir tveimur vikum"
+
+msgid "Three Weeks Ago"
+msgstr "Fyrir þremur vikum"
+
+msgid "Earlier this Month"
+msgstr "Fyrr í mánuðinum"
+
+msgid "0 - 9"
+msgstr "0 - 9"
+
+msgid "Others"
+msgstr "Annað"
+
+msgid "Big"
+msgstr "Stórt"
+
+msgid "Searching…"
+msgstr "Leita…"
+
+msgid "No items matching the filter"
+msgstr "Engin atriði samsvara þessari síu"
+
+msgid "No items found"
+msgstr ""
+
+msgid "Trash is empty"
+msgstr "Ruslið er tómt"
+
+msgid "Folder is empty"
+msgstr "Mappan er tóm"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr "Hleð inn möppu…"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""

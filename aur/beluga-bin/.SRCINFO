@@ -1,0 +1,26 @@
+pkgbase = beluga-bin
+	pkgdesc = File manager written with plain GTK 4, a rewrite of KDE Dolphin without Qt or KDE Frameworks (prebuilt)
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/TheElevatedOne/beluga
+	arch = x86_64
+	license = GPL-2.0-or-later
+	depends = gcc-libs
+	depends = glibc
+	depends = glib2
+	depends = gtk4
+	depends = gdk-pixbuf2
+	depends = pango
+	depends = cairo
+	optdepends = udisks2: drives and partitions in the Places panel
+	optdepends = tumbler: previews of videos and documents
+	optdepends = gvfs: network locations such as sftp:// and smb://
+	optdepends = libarchive: the "Extract Here" and compress actions (bsdtar)
+	provides = beluga=0.1.0
+	conflicts = beluga
+	options = !debug
+	options = !strip
+	source_x86_64 = https://github.com/TheElevatedOne/beluga/releases/download/0.1.0/beluga-0.1.0-linux-x86_64.tar.gz
+	sha256sums_x86_64 = SKIP
+
+pkgname = beluga-bin

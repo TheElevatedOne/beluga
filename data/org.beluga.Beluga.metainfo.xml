@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.beluga.Beluga</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <name>Beluga</name>
+  <summary>File manager written with plain GTK 4</summary>
+  <description>
+    <p>Beluga is a rewrite of KDE's Dolphin file manager in C++ with plain GTK 4, without Qt, KDE Frameworks or libadwaita.</p>
+    <ul>
+      <li>Icons, Compact, Details and Columns views with grouping and previews</li>
+      <li>Tabs and split view</li>
+      <li>Places, Folders and Information panels</li>
+      <li>Threaded file operations with undo and redo</li>
+      <li>freedesktop.org trash, search by name and content, UDisks2 devices</li>
+      <li>F4 opens your own terminal; custom context menu actions</li>
+      <li>Colours from your GTK theme</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">org.beluga.Beluga.desktop</launchable>
+  <provides>
+    <binary>beluga</binary>
+    <id>org.beluga.Beluga.desktop</id>
+  </provides>
+  <developer id="io.github.theelevatedone">
+    <name>TheElevatedOne</name>
+  </developer>
+  <url type="homepage">https://github.com/TheElevatedOne/beluga</url>
+  <url type="bugtracker">https://github.com/TheElevatedOne/beluga/issues</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Places panel and a folder in the Icons view</caption>
+      <image>https://raw.githubusercontent.com/TheElevatedOne/beluga/master/docs/screenshots/main.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Split view with tabs and the Folders and Information panels</caption>
+      <image>https://raw.githubusercontent.com/TheElevatedOne/beluga/master/docs/screenshots/split.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.1.0" date="2026-11-16"/>
+  </releases>
+</component>

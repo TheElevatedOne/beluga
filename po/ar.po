@@ -1,0 +1,1895 @@
+# Beluga translation (ar).
+# Imported from KDE Dolphin's translation, which was written by:
+# translation of dolphin.po to Arabic
+# translation of dolphin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# SPDX-FileCopyrightText: 2008, 2012, 2021-2026 zayed <zayed.alsaidi@gmail.com>
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# محمد الحرقان <imksa@hotmail.com>, 2008.
+# Anas Husseini <linux.anas@gmail.com>, 2008.
+# OsamaKhalid <osamak.wfm@gmail.com>, 2009.
+# Abdalrahim G. Fakhouri <abdilra7eem@yahoo.com>, 2012.
+# Safa Alfulaij <safaalfulaij@hotmail.con>, 2013, 2014, 2016, 2017.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2024.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-12 08:49+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "الأماكن"
+
+msgid "Remote"
+msgstr "البعيد"
+
+msgid "Recent"
+msgstr "الحديثة"
+
+msgid "Search For"
+msgstr "ابحث عن"
+
+msgid "Devices"
+msgstr "الأجهزة"
+
+msgid "Home"
+msgstr "المنزل"
+
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+msgid "Documents"
+msgstr "المستندات"
+
+msgid "Downloads"
+msgstr "التنزيلات"
+
+msgid "Music"
+msgstr "الموسيقى"
+
+msgid "Pictures"
+msgstr "الصور"
+
+msgid "Videos"
+msgstr "الفيديوهات"
+
+msgid "Trash"
+msgstr "المهملات"
+
+msgid "Network"
+msgstr "الشّبكة"
+
+msgid "Recent Files"
+msgstr "الملفات الحديثة"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "صوت"
+
+msgid "Folders"
+msgstr "المجلّدات"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "كلّ الملفّات"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "انسخ"
+
+msgid "Move"
+msgstr "انقل"
+
+msgid "Link"
+msgstr "ربط"
+
+msgid "Rename"
+msgstr "غيّر الاسم"
+
+msgid "Move to Trash"
+msgstr "انقل إلى المهملات"
+
+msgid "Create Folder"
+msgstr "أنشئ مجلّدًا"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "تراجع"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "أعِد"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "‏%s، ‏%s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld ث"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "‏%s نسخة"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Size"
+msgstr "الحجم"
+
+msgid "Modified"
+msgstr "عُدّل"
+
+msgid "Created"
+msgstr "أُنشئ"
+
+msgid "Accessed"
+msgstr "وُصِل إليه"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "الأذون"
+
+msgid "Owner"
+msgstr "المالك"
+
+msgid "User Group"
+msgstr "مجموعة المستخدمين"
+
+msgid "Path"
+msgstr "المسار"
+
+msgid "Link Destination"
+msgstr "مقصد الرابط"
+
+msgid "Deletion Time"
+msgstr "وقت الحذف"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "الأبعاد"
+
+msgid "New Window"
+msgstr "نافذة جديدة"
+
+msgid "New Tab"
+msgstr "لسان جديد"
+
+msgid "Close Tab"
+msgstr "أغلق اللسان"
+
+msgid "Undo Close Tab"
+msgstr "تراجع عن إغلاق اللسان"
+
+msgid "Quit"
+msgstr "أنهِ"
+
+msgid "Delete"
+msgstr "احذف"
+
+msgid "Duplicate Here"
+msgstr "كرر هنا"
+
+msgid "Properties"
+msgstr "خصائص"
+
+msgid "Cut"
+msgstr "قصّ"
+
+msgid "Copy Location"
+msgstr "انسخ المكان"
+
+msgid "Paste"
+msgstr "ألصق"
+
+msgid "Filter"
+msgstr "المرشّح"
+
+msgid "Search"
+msgstr "ابحث"
+
+msgid "Select Files and Folders"
+msgstr "حدد الملفات والمجلدات"
+
+msgid "Select All"
+msgstr "حدّد الكل"
+
+msgid "Invert Selection"
+msgstr "اعكس التحديد"
+
+msgid "Copy to Other View"
+msgstr "انسخ إلى العرض الآخر"
+
+msgid "Move to Other View"
+msgstr "انقل إلى العرض الآخر"
+
+msgid "Icons View"
+msgstr "عرض أيقونات"
+
+msgid "Compact View"
+msgstr "عرض مضغوط"
+
+msgid "Details View"
+msgstr "عرض مفصّل"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "قرّب"
+
+msgid "Zoom Out"
+msgstr "بعّد"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "أظهر الملفات المخفية"
+
+msgid "Split View"
+msgstr "اقسم العرض"
+
+msgid "Focus Other View"
+msgstr "ركّز على العرض الآخر"
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr "نقل العرض المنقسم إلى ألسنة"
+
+msgid "Reload"
+msgstr "أعد التحميل"
+
+msgid "Editable Location"
+msgstr "موقع قابل للتحرير"
+
+msgid "Replace Location"
+msgstr "استبدل الموقع"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr "لوحة المجلدات"
+
+msgid "Information Panel"
+msgstr "لوحة المعلومات"
+
+msgid "Focus Places Panel"
+msgstr "ركز على لوحة الأماكن"
+
+msgid "Show Menubar"
+msgstr "اعرض شريط القوائم"
+
+msgid "Back"
+msgstr "عُد"
+
+msgid "Forward"
+msgstr "تقدّم"
+
+msgid "Up"
+msgstr "لأعلى"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr "انتقل إلى  آخر لسان"
+
+msgid "Next Tab"
+msgstr "اللسان التالي"
+
+msgid "Previous Tab"
+msgstr "اللسان السابق"
+
+msgid "Open Terminal"
+msgstr "افتح الطرفية"
+
+msgid "Open Terminal Here"
+msgstr "افتح الطرفية هنا"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "أنشئ جديدًا"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "تصفّح…"
+
+msgid "Move To"
+msgstr "انقل إلى"
+
+msgid "Copy To"
+msgstr "انسخ إلى"
+
+msgid "Open"
+msgstr "افتح"
+
+msgid "Open With…"
+msgstr "افتح ب‍…"
+
+#, c-format
+msgid "Open with %s"
+msgstr "افتح في %s"
+
+msgid "Other Application…"
+msgstr "تطبيق آخر…"
+
+msgid "Open With"
+msgstr "افتح في"
+
+msgid "Empty Trash"
+msgstr "أفرغ المهملات"
+
+msgid "Add to Places"
+msgstr "أضف إلى الأماكن"
+
+msgid "Sort By"
+msgstr "افرز حسب"
+
+msgid "View Mode"
+msgstr "وضع العرض"
+
+msgid "Restore"
+msgstr "استعِد"
+
+msgid "Open in New Tab"
+msgstr "افتح في لسان جديد"
+
+msgid "Open in New Tabs"
+msgstr "افتح في ألسنة جديدة"
+
+msgid "Open in New Window"
+msgstr "افتح في نافذة جديدة"
+
+msgid "Open in Split View"
+msgstr "افتح في عرض منقسم"
+
+msgid "Open Containing Folder"
+msgstr "افتح المجلد الحاوي"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "أعد التسمية…"
+
+msgid "Show Target"
+msgstr "اظهر المقصد"
+
+msgid "Close"
+msgstr "أغلق"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "تغيير التّسمية"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "ألغ"
+
+msgid "Rename Items"
+msgstr "تغيير التّسمية"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "الاسم الجديد #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "أضف مدخلة أماكن"
+
+msgid "Edit Places Entry"
+msgstr "حرّر مدخلة الأماكن"
+
+msgid "Label:"
+msgstr "اللصيقة:"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "المكان:"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "نمط مشاهدة العرض"
+
+msgid "Icons"
+msgstr "أيقونات"
+
+msgid "Compact"
+msgstr "مُدمج"
+
+msgid "Details"
+msgstr "تفاصيل"
+
+msgid "Columns"
+msgstr "الأعمدة"
+
+msgid "View mode:"
+msgstr "وضع العرض:"
+
+msgid "Sorting:"
+msgstr "الفرز:"
+
+msgid "Ascending"
+msgstr "تصاعديًا"
+
+msgid "Descending"
+msgstr "تنازليًا"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "طبّق على"
+
+msgid "Current folder"
+msgstr "المجلد الحالي"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "كلّ المجلدات"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "المجلّد موجود فعلًا"
+
+msgid "File Already Exists"
+msgstr "الملفّ موجود فعلًا"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "تخطّ"
+
+msgid "Skip All"
+msgstr "تخطى الكل"
+
+msgid "Retry"
+msgstr "أعِد المحاولة"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "الحجم:"
+
+msgid "Type:"
+msgstr "النّوع:"
+
+msgid "Folder"
+msgstr "مجلد"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "مجهول"
+
+msgid "Modified:"
+msgstr "عُدّل في:"
+
+msgid "Created:"
+msgstr "أُنشئ في:"
+
+msgid "Accessed:"
+msgstr "آخر وصول:"
+
+msgid "Points to:"
+msgstr "يشير إلى:"
+
+msgid "Permissions:"
+msgstr "الأذون:"
+
+msgid "Owner:"
+msgstr "المالك:"
+
+msgid "Group:"
+msgstr "المجموعة:"
+
+msgid "Dimensions:"
+msgstr "الأبعاد:"
+
+msgid "Duration:"
+msgstr "المدّة:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr "إعدادات المنظور"
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Folders First"
+msgstr "المجلدات أولًا"
+
+msgid "Hidden Files Last"
+msgstr "الملفّات المخفيّة في الأخير"
+
+msgid "Show in Groups"
+msgstr "أظهر في مجموعات"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr "المرشّح…"
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "صفّر مستوى التكبير"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "أظهر معلومات إضافية"
+
+msgid "Show Previews"
+msgstr "اعرض المعاينات"
+
+msgid "Restore to Defaults"
+msgstr "صفّر إلى المبدئيات"
+
+msgid "Adjust View Display Style…"
+msgstr "عدل نمط مشاهدة العرض…"
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "توقّف"
+
+msgid "Panels"
+msgstr "اللوحات"
+
+msgid "Information"
+msgstr "المعلومات"
+
+msgid "Location Bar"
+msgstr "شريط الموقع"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "الألسنة المُغلقة حديثًا"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "مجلد جديد"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr "التطبيقات المُزكّاة"
+
+msgid "Other Applications"
+msgstr "التطبيقات الأخرى"
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "أزِل بأمان…"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "صِل"
+
+msgid "Unmount"
+msgstr "أزل الوصل"
+
+msgid "Edit…"
+msgstr "حرّر…"
+
+msgid "Remove"
+msgstr "أزِل"
+
+msgid "Show"
+msgstr ""
+
+msgid "Hide"
+msgstr "أخفِ"
+
+msgid "Hide Section"
+msgstr "أخفِ القسم"
+
+msgid "Add Entry…"
+msgstr "أضف مدخلة…"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "اعرض كلّ المدخلات"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "حجم الأيقونة:"
+
+msgid "Preview size:"
+msgstr "حجم المعاينة:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "الاسم:"
+
+msgid "Command:"
+msgstr ""
+
+msgid "File names:"
+msgstr "أسماء الملفات:"
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "عامّ"
+
+msgid "Startup"
+msgstr "البدء"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "السلوك"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "الطرفية"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "اعرض"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "طبيعي"
+
+msgid "Alphabetical, case insensitive"
+msgstr "أبجديّ، غير حسّاس للحالة"
+
+msgid "Alphabetical, case sensitive"
+msgstr "أبجديّ، حسّاس للحالة"
+
+msgid "Folder size:"
+msgstr "حجم المجلّدات:"
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "لا شيء"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "عرض اللصيقة:"
+
+msgid "Small"
+msgstr "صغيرة"
+
+msgid "Medium"
+msgstr "متوسّطة"
+
+msgid "Large"
+msgstr "كبير"
+
+msgid "Huge"
+msgstr "ضخم"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "غير محدود"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "المعاينات"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr "أظهر معاينة"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "التأكيدات"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "عند فتح ملف تنفيذي:"
+
+msgid "Always ask"
+msgstr "اسأل دائمًا"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr "شريط الحالة"
+
+msgid "Status bar:"
+msgstr "شريط الحالة:"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr "كامل العرض"
+
+msgid "Hidden"
+msgstr "مخفي"
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "قائمة السياق"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "يحسب…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr "المساحة الفارغة:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr "المتبقي %s من أصل %s (%d٪ مستخدمة)"
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "Forbidden"
+msgstr "ممنوع"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "إمكانيّة عرض المحتويات وتعديلها"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "إمكانيّة عرض المحتويات وتعديلها"
+
+msgid "Others:"
+msgstr "الآخرون:"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "المستخدم:"
+
+msgid "Mode:"
+msgstr ""
+
+msgid "Calculate"
+msgstr "احسب"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "خصائص %s"
+
+msgid "Checksums"
+msgstr "تدقيقات المجموع"
+
+msgid "Filter:"
+msgstr "المرشّح:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr "ابحث…"
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr "في كل مكان"
+
+msgid "File Names"
+msgstr "أسماء الملفات"
+
+msgid "File Names and Contents"
+msgstr "أسماء الملفات ومحتوياتها"
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "اليوم"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "التّكبير"
+
+#, c-format
+msgid "%s free"
+msgstr "المتبقي ‏%s"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "افصل اللسان"
+
+msgid "Close Other Tabs"
+msgstr "أغلق الألسنة الأخرى"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "الحجم: %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "الأمس"
+
+msgid "One Week Ago"
+msgstr "قبل أسبوع واحد"
+
+msgid "Two Weeks Ago"
+msgstr "قبل أسبوعين"
+
+msgid "Three Weeks Ago"
+msgstr "قبل ثلاثة أسابيع"
+
+msgid "Earlier this Month"
+msgstr "أولّ هذا الشهر"
+
+msgid "0 - 9"
+msgstr "0 - 9"
+
+msgid "Others"
+msgstr "أخرى"
+
+msgid "Big"
+msgstr "كبيرة"
+
+msgid "Searching…"
+msgstr "يبحث…"
+
+msgid "No items matching the filter"
+msgstr "لا توجد عناصر مطابقة للمرشح"
+
+msgid "No items found"
+msgstr "لم يُعثر على أي عنصر"
+
+msgid "Trash is empty"
+msgstr "المهملات فارغة"
+
+msgid "Folder is empty"
+msgstr "المجلد فارغ"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr "يحمّل المجلد…"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""

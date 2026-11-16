@@ -1,0 +1,1884 @@
+# Beluga translation (fr).
+# Imported from KDE Dolphin's translation, which was written by:
+# translation of dolphin.po to Français
+# translation of dolphin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# Brice Rothschild <brice.rothschild@gmail.com>, 2007.
+# Sébastien Renard <Sebastien.Renard@digitalfox.org>, 2007, 2008.
+# Nicolas Ternisien <nicolas.ternisien@gmail.com>, 2008.
+# Stanislas Zeller <uncensored.assault@gmail.com>, 2008.
+# Bruno Patri <bruno.patri@gmail.com>, 2008.
+# Sébastien Renard <renard@kde.org>, 2012.
+# Joëlle Cornavin <jcorn@free.fr>, 2009, 2010, 2011, 2012, 2013.
+# Geoffray Levasseur <geoffray.levasseurbrandin@numericable.fr>, 2013, 2014.
+# Yoann Laissus <yoann.laissus@gmail.com>, 2016.
+# Vincent Pinon <vpinon@kde.org>, 2017, 2018.
+# Johan Claude-Breuninger <johan.claudebreuninger@gmail.com>, 2017, 2018.
+# Simon Depiets <sdepiets@gmail.com>, 2018, 2019, 2020.
+# William Oprandi <william.oprandi@gmail.com>, 2019, 2020.
+# Johnny Jazeix <jazeix@gmail.com>, 2020.
+# SPDX-FileCopyrightText: 2020-2026 Xavier Besnard <xavier.besnard@kde.org>
+# Xavier Besnard <xavier.besnard@kde.org>, 2023.
+# Thomas Vergnaud <thomas.vergnaud@mailo.eu>, 2023.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-10 13:28+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
+"Language-Team: fr\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "Emplacements"
+
+msgid "Remote"
+msgstr "Distant"
+
+msgid "Recent"
+msgstr "Récent"
+
+msgid "Search For"
+msgstr "Chercher"
+
+msgid "Devices"
+msgstr "Périphériques"
+
+msgid "Home"
+msgstr "Dossier Personnel"
+
+msgid "Desktop"
+msgstr "Bureau"
+
+msgid "Documents"
+msgstr "Documents"
+
+msgid "Downloads"
+msgstr "Téléchargements"
+
+msgid "Music"
+msgstr "Musique"
+
+msgid "Pictures"
+msgstr "Images"
+
+msgid "Videos"
+msgstr "Vidéos"
+
+msgid "Trash"
+msgstr "Corbeille"
+
+msgid "Network"
+msgstr "Réseau"
+
+msgid "Recent Files"
+msgstr "Fichiers récents"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Folders"
+msgstr "Dossiers"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "Lien"
+
+msgid "Rename"
+msgstr "Renommer"
+
+msgid "Move to Trash"
+msgstr "Mettre à la corbeille"
+
+msgid "Create Folder"
+msgstr "Créer un dossier"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "Annuler"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "Refaire"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d élément"
+msgstr[1] "%d éléments"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "%s copie"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Size"
+msgstr "Taille"
+
+msgid "Modified"
+msgstr "Modifié"
+
+msgid "Created"
+msgstr "Créé"
+
+msgid "Accessed"
+msgstr "Accès"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "Droits d'accès"
+
+msgid "Owner"
+msgstr "Propriétaire"
+
+msgid "User Group"
+msgstr "Groupe d'utilisateurs"
+
+msgid "Path"
+msgstr "Emplacement"
+
+msgid "Link Destination"
+msgstr "Destination du lien"
+
+msgid "Deletion Time"
+msgstr "Heure de suppression"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "Dimensions"
+
+msgid "New Window"
+msgstr "Nouvelle fenêtre"
+
+msgid "New Tab"
+msgstr "Nouvel onglet"
+
+msgid "Close Tab"
+msgstr "Fermer l'onglet"
+
+msgid "Undo Close Tab"
+msgstr "Annuler la fermeture de l'onglet"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "Duplicate Here"
+msgstr "Dupliquer ici"
+
+msgid "Properties"
+msgstr "Propriétés"
+
+msgid "Cut"
+msgstr "Couper"
+
+msgid "Copy Location"
+msgstr "Copier l'emplacement"
+
+msgid "Paste"
+msgstr "Coller"
+
+msgid "Filter"
+msgstr "Filtrer"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Select Files and Folders"
+msgstr "Sélectionner des fichiers et des dossiers"
+
+msgid "Select All"
+msgstr "Tout sélectionner"
+
+msgid "Invert Selection"
+msgstr "Inverser la sélection"
+
+msgid "Copy to Other View"
+msgstr "Copier vers l'autre vue"
+
+msgid "Move to Other View"
+msgstr "Déplacer vers l'autre vue"
+
+msgid "Icons View"
+msgstr "Vue en icônes"
+
+msgid "Compact View"
+msgstr "Affichage compact"
+
+msgid "Details View"
+msgstr "Vue détaillée"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "Zoom avant"
+
+msgid "Zoom Out"
+msgstr "Zoom arrière"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "Afficher les fichiers cachés"
+
+msgid "Split View"
+msgstr "Vue scindée"
+
+msgid "Focus Other View"
+msgstr "Donner le focus à une autre vue"
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr "Diviser la vue en onglets"
+
+msgid "Reload"
+msgstr "Recharger"
+
+msgid "Editable Location"
+msgstr "Emplacement modifiable"
+
+msgid "Replace Location"
+msgstr "Substituer un emplacement"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr "Panneau des dossiers "
+
+msgid "Information Panel"
+msgstr "Panneau d'informations "
+
+msgid "Focus Places Panel"
+msgstr "Mettre le focus sur le panneau « Emplacements »"
+
+msgid "Show Menubar"
+msgstr "Afficher la barre de menus"
+
+msgid "Back"
+msgstr "Précédent"
+
+msgid "Forward"
+msgstr "Suivant"
+
+msgid "Up"
+msgstr "Haut"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr "Aller au dernier onglet"
+
+msgid "Next Tab"
+msgstr "Onglet suivant"
+
+msgid "Previous Tab"
+msgstr "Onglet précédent"
+
+msgid "Open Terminal"
+msgstr "Ouvrir un terminal"
+
+msgid "Open Terminal Here"
+msgstr "Ouvrir un terminal ici"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "Créer un nouveau"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "Parcourir…"
+
+msgid "Move To"
+msgstr "Déplacer vers"
+
+msgid "Copy To"
+msgstr "Copier vers"
+
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Open With…"
+msgstr "Ouvrir avec…"
+
+#, c-format
+msgid "Open with %s"
+msgstr "Ouvrir avec %s"
+
+msgid "Other Application…"
+msgstr "Autre application…"
+
+msgid "Open With"
+msgstr "Ouvrir avec"
+
+msgid "Empty Trash"
+msgstr "Vider la corbeille"
+
+msgid "Add to Places"
+msgstr "Ajouter aux emplacements"
+
+msgid "Sort By"
+msgstr "Trier par"
+
+msgid "View Mode"
+msgstr "Type d'affichage"
+
+msgid "Restore"
+msgstr "Restaurer"
+
+msgid "Open in New Tab"
+msgstr "Ouvrir dans un nouvel onglet"
+
+msgid "Open in New Tabs"
+msgstr "Ouvrir dans de nouveaux onglets"
+
+msgid "Open in New Window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+msgid "Open in Split View"
+msgstr "Ouvrir dans une fenêtre scindée"
+
+msgid "Open Containing Folder"
+msgstr "Ouvrir le dossier contenant"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "Renommer…"
+
+msgid "Show Target"
+msgstr "Afficher à la cible"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "Renommer l'élément"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Rename Items"
+msgstr "Renommer les éléments"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "Nouveau nom #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "Ajouter un emplacement"
+
+msgid "Edit Places Entry"
+msgstr "Modifier la liste des emplacements"
+
+msgid "Label:"
+msgstr "Nom :"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "Emplacement :"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "Style d'affichage de la vue"
+
+msgid "Icons"
+msgstr "Icônes"
+
+msgid "Compact"
+msgstr "Synthétique"
+
+msgid "Details"
+msgstr "Détails"
+
+msgid "Columns"
+msgstr "Colonnes"
+
+msgid "View mode:"
+msgstr "Type d'affichage :"
+
+msgid "Sorting:"
+msgstr "Tri :"
+
+msgid "Ascending"
+msgstr "Croissant"
+
+msgid "Descending"
+msgstr "Décroissant"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "Appliquer à "
+
+msgid "Current folder"
+msgstr "Dossier actuel"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "Tous les dossiers"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "Le dossier existe déjà"
+
+msgid "File Already Exists"
+msgstr "Le fichier existe déjà"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "Ignorer"
+
+msgid "Skip All"
+msgstr "Tout ignorer"
+
+msgid "Retry"
+msgstr "Réessayer"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "Taille :"
+
+msgid "Type:"
+msgstr "Type :"
+
+msgid "Folder"
+msgstr "Dossier"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "Modified:"
+msgstr "Modification :"
+
+msgid "Created:"
+msgstr "Création :"
+
+msgid "Accessed:"
+msgstr "Accès :"
+
+msgid "Points to:"
+msgstr "Pointe vers :"
+
+msgid "Permissions:"
+msgstr "Droits d'accès:"
+
+msgid "Owner:"
+msgstr "Propriétaire :"
+
+msgid "Group:"
+msgstr "Groupe :"
+
+msgid "Dimensions:"
+msgstr "Dimensions:"
+
+msgid "Duration:"
+msgstr "Durée:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr "Configuration des affichages"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Folders First"
+msgstr "Les dossiers d'abord"
+
+msgid "Hidden Files Last"
+msgstr "Fichiers cachés en dernier"
+
+msgid "Show in Groups"
+msgstr "Afficher par groupes"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr "Filtrer…"
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "Réinitialise le niveau de zoom"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "Afficher des informations supplémentaires"
+
+msgid "Show Previews"
+msgstr "Afficher les aperçus"
+
+msgid "Restore to Defaults"
+msgstr "Restaurer la configuration par défaut"
+
+msgid "Adjust View Display Style…"
+msgstr "Ajuster le style d'affichage de la vue…"
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "Arrêter"
+
+msgid "Panels"
+msgstr "Panneaux"
+
+msgid "Information"
+msgstr "Informations"
+
+msgid "Location Bar"
+msgstr "Barre d'emplacement"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "Onglets récemment fermés"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "Nouveau dossier"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "Enlever en toute sécurité"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "Monter"
+
+msgid "Unmount"
+msgstr "Libérer"
+
+msgid "Edit…"
+msgstr "Modifier…"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Show"
+msgstr "Afficher"
+
+msgid "Hide"
+msgstr "Masquer"
+
+msgid "Hide Section"
+msgstr "Masquer la section"
+
+msgid "Add Entry…"
+msgstr "Ajouter une entrée…"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "Afficher toutes les entrées"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "Taille des icônes:"
+
+msgid "Preview size:"
+msgstr "Taille des aperçus:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "Nom :"
+
+msgid "Command:"
+msgstr "commande:"
+
+msgid "File names:"
+msgstr "Noms de fichiers:"
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "Général"
+
+msgid "Startup"
+msgstr "Démarrage"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "Comportement"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "Terminal"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "Affichage"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "Naturel"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alphabétique, insensible à la casse"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alphabétique, sensible à la casse"
+
+msgid "Folder size:"
+msgstr "Taille de dossier :"
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Largeur de l'intitulé :"
+
+msgid "Small"
+msgstr "Petite"
+
+msgid "Medium"
+msgstr "Moyenne"
+
+msgid "Large"
+msgstr "Grande"
+
+msgid "Huge"
+msgstr "Énorme"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "Illimité"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "Aperçus"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr "Afficher des aperçus pour"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "Confirmations"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "Lors de l'ouverture d'un fichier exécutable :"
+
+msgid "Always ask"
+msgstr "Toujours demander"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr "Barre d'état "
+
+msgid "Status bar:"
+msgstr "Barre d'état :"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr "Pleine largeur"
+
+msgid "Hidden"
+msgstr "Masqué"
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "Menu contextuel"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "Calcul en cours…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr "Espace libre :"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu octet"
+msgstr[1] "%llu octets"
+
+msgid "Forbidden"
+msgstr "Interdit"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "Peut consulter et modifier"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "Peut consulter et modifier le contenu"
+
+msgid "Others:"
+msgstr "Autres :"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "Utilisateur :"
+
+msgid "Mode:"
+msgstr "Mode:"
+
+msgid "Calculate"
+msgstr "Calculer"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "Propriétés de %s"
+
+msgid "Checksums"
+msgstr "Sommes de contrôle"
+
+msgid "Filter:"
+msgstr "Filtrer:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr "Rechercher…"
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr "Partout"
+
+msgid "File Names"
+msgstr "Noms de fichiers"
+
+msgid "File Names and Contents"
+msgstr "Noms et contenu des fichiers"
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "Aujourd'hui"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "Zoom"
+
+#, c-format
+msgid "%s free"
+msgstr "%s libre(s)"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "Détacher l'onglet"
+
+msgid "Close Other Tabs"
+msgstr "Fermer les autres onglets"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "Taille : %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "Hier"
+
+msgid "One Week Ago"
+msgstr "Il y a une semaine"
+
+msgid "Two Weeks Ago"
+msgstr "Il y a deux semaines"
+
+msgid "Three Weeks Ago"
+msgstr "Il y a trois semaines"
+
+msgid "Earlier this Month"
+msgstr "Plus tôt ce mois-ci"
+
+msgid "0 - 9"
+msgstr "0 - 9"
+
+msgid "Others"
+msgstr "Autres"
+
+msgid "Big"
+msgstr "Grande"
+
+msgid "Searching…"
+msgstr "Recherche en cours…"
+
+msgid "No items matching the filter"
+msgstr "Aucun élément correspondant à votre filtrage"
+
+msgid "No items found"
+msgstr ""
+
+msgid "Trash is empty"
+msgstr "La corbeille est vide."
+
+msgid "Folder is empty"
+msgstr "Le dossier est vide."
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr "Chargement du dossier…"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""

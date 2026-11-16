@@ -1,0 +1,1861 @@
+# Beluga translation (my).
+# Imported from KDE Dolphin's translation, which was written by:
+# Copyright (C) YEAR This file is copyright:
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2022-10-05 19:49+0630\n"
+"Last-Translator: ဇေယျာလွင် <lw1nzayar@yandex.com>\n"
+"Language-Team: Burmese <kde-i18n-doc@kde.org>\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "နေရာများ"
+
+msgid "Remote"
+msgstr "အဝေး"
+
+msgid "Recent"
+msgstr "လတ်တလော"
+
+msgid "Search For"
+msgstr "ရှာရန်"
+
+msgid "Devices"
+msgstr "စက်များ"
+
+msgid "Home"
+msgstr "အိမ်"
+
+msgid "Desktop"
+msgstr "ဒက်စ်တော့ပ်"
+
+msgid "Documents"
+msgstr "မှတ်တမ်းစာအုပ်"
+
+msgid "Downloads"
+msgstr "ဒေါင်းလုတ်"
+
+msgid "Music"
+msgstr "ဂီတ"
+
+msgid "Pictures"
+msgstr "ပုံ"
+
+msgid "Videos"
+msgstr "ဗွီဒီယိုများ"
+
+msgid "Trash"
+msgstr "အမှိုက်ပုံး"
+
+msgid "Network"
+msgstr "ကွန်ရက်"
+
+msgid "Recent Files"
+msgstr "မကြာသေးမီကဖိုင်များ"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "အသံ"
+
+msgid "Folders"
+msgstr "ဖိုလ်ဒါများ"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "ဖိုင်အားလုံး"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "ကူးယူရန်"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "လင့်ခ်"
+
+msgid "Rename"
+msgstr "Rအမည်ပြောင်း"
+
+msgid "Move to Trash"
+msgstr "အမှိုက်ပုံးသို့ရွေ့ယူရန်"
+
+msgid "Create Folder"
+msgstr "ဖိုင်တွဲကို ဖန်တီးပါ"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "oပြန်ဆုတ်"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "ပြန်လုပ်"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "အိုင်တမ် %dခု"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "%s၊ %s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "%s မိတ္တူ"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "အမည်"
+
+msgid "Size"
+msgstr "အရွယ်အစား"
+
+msgid "Modified"
+msgstr "မွမ်းမံခဲ့သည်"
+
+msgid "Created"
+msgstr "ဖန်တီးခဲ့သည်"
+
+msgid "Accessed"
+msgstr "အသုံးပြုခဲ့သည်"
+
+msgid "Type"
+msgstr "ရိုက်သွင်းမည်"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "ခွင့်ပြုချက်များ"
+
+msgid "Owner"
+msgstr "ပိုင်ရှင်"
+
+msgid "User Group"
+msgstr "အသုံးပြုသူအုပ်စု"
+
+msgid "Path"
+msgstr "လမ်းကြောင်း"
+
+msgid "Link Destination"
+msgstr "လင့်ခ် ဦးတည်နေရာ"
+
+msgid "Deletion Time"
+msgstr "ဖျက်မည့်အချိန်"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "အတိုင်းအတာ"
+
+msgid "New Window"
+msgstr "Wဝင်းဒိုးအသစ်"
+
+msgid "New Tab"
+msgstr "တပ်ဘ်အသစ်"
+
+msgid "Close Tab"
+msgstr "တပ်ဘ်ပိတ်မည်"
+
+msgid "Undo Close Tab"
+msgstr "တပ်ဘ်ပိတ်ခြင်းပြန်ဆုတ်မည်"
+
+msgid "Quit"
+msgstr "ပိတ်ပါ"
+
+msgid "Delete"
+msgstr "ဖျက်မည်"
+
+msgid "Duplicate Here"
+msgstr "ဤတွင် ပုံတူပွားမည်"
+
+msgid "Properties"
+msgstr "ကိုယ်ပိုင်လက္ခဏာများ"
+
+msgid "Cut"
+msgstr "ကတ်"
+
+msgid "Copy Location"
+msgstr "တည်နေရာကူးယူမည်"
+
+msgid "Paste"
+msgstr "ပွား"
+
+msgid "Filter"
+msgstr "စစ်ထုတ်မည်"
+
+msgid "Search"
+msgstr "ရှာမည်"
+
+msgid "Select Files and Folders"
+msgstr "ဖိုင်လ်နှင့်ဖိုလ်ဒါရွေးမည်"
+
+msgid "Select All"
+msgstr "အားလုံးကို ရွေးချယ်ပါ"
+
+msgid "Invert Selection"
+msgstr "ရွေးထားသည်များ ပြောင်းပြန်လုပ်မည်"
+
+msgid "Copy to Other View"
+msgstr ""
+
+msgid "Move to Other View"
+msgstr ""
+
+msgid "Icons View"
+msgstr "အိုင်ကွန်နှင့်ပြသော မြင်ကွင်း"
+
+msgid "Compact View"
+msgstr "ကျစ်လစ်-မြင်ကွင်း"
+
+msgid "Details View"
+msgstr "အသေးစိတ်ပြမြင်ကွင်း"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "ချဲ့ကားပါ"
+
+msgid "Zoom Out"
+msgstr "ကျုံ့ပါ"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "ဖွက်ထားသောဖိုင်လ်များပြမည်"
+
+msgid "Split View"
+msgstr "မြင်ကွင်းခွဲမည်"
+
+msgid "Focus Other View"
+msgstr ""
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr ""
+
+msgid "Reload"
+msgstr "ပြန်တွန်းတင်"
+
+msgid "Editable Location"
+msgstr "တည်းဖြတ်၍ရသော တည်နေရာ"
+
+msgid "Replace Location"
+msgstr "တည်နေရာအစားထိုးမည်"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr ""
+
+msgid "Information Panel"
+msgstr ""
+
+msgid "Focus Places Panel"
+msgstr ""
+
+msgid "Show Menubar"
+msgstr ""
+
+msgid "Back"
+msgstr "နောက်သို့"
+
+msgid "Forward"
+msgstr "ရှေ့သို့"
+
+msgid "Up"
+msgstr "အထက်သို့"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr ""
+
+msgid "Next Tab"
+msgstr "နောက်တပ်ဘ်"
+
+msgid "Previous Tab"
+msgstr "ရှေ့တပ်ဘ်"
+
+msgid "Open Terminal"
+msgstr "တာမီနယ်ဖွင့်မည်"
+
+msgid "Open Terminal Here"
+msgstr "ဤတွင်တာမီနယ်ဖွင့်မည်"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "အသစ်ဖန်တီးရန်"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "Bရှောက်ကြည့်…"
+
+msgid "Move To"
+msgstr "သို့ရွေ့ယူရန်"
+
+msgid "Copy To"
+msgstr "သို့ကူးယူရန်"
+
+msgid "Open"
+msgstr "Oဖွင့်"
+
+msgid "Open With…"
+msgstr "ဖြင့်ဖွင့်ရန်"
+
+#, c-format
+msgid "Open with %s"
+msgstr "O %s ဖြင့်ဖွင့်ရန်"
+
+msgid "Other Application…"
+msgstr "အခြားအပ္ပလီကေးရှင်း…"
+
+msgid "Open With"
+msgstr "Oဖြင့်ဖွင့်ရန်"
+
+msgid "Empty Trash"
+msgstr "အမှိုက်ပုံးရှင်း"
+
+msgid "Add to Places"
+msgstr "နေရာများ သို့ ထည့်မည်"
+
+msgid "Sort By"
+msgstr "ဖြင့်စီမည်"
+
+msgid "View Mode"
+msgstr "မြင်ကွင်းထုံးနည်း"
+
+msgid "Restore"
+msgstr ""
+
+msgid "Open in New Tab"
+msgstr "တပ်ဘ်အသစ်တွင် ဖွင့်မည်"
+
+msgid "Open in New Tabs"
+msgstr "တပ်ဘ်အသစ်များတွင် ဖွင့်မည်"
+
+msgid "Open in New Window"
+msgstr "ဝင်းဒိုးအသစ်တွင် ဖွင့်မည်"
+
+msgid "Open in Split View"
+msgstr ""
+
+msgid "Open Containing Folder"
+msgstr "ဖိုင်ပါဝင်သောဖိုင်တွဲကို ဖွင့်မည်"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "အမည်ပြောင်းပါ…"
+
+msgid "Show Target"
+msgstr "ဦိးတည်ပစ်မှတ် ပြမည်"
+
+msgid "Close"
+msgstr "ပိတ်မည်"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "အိုင်တမ်အမည်ပြောင်းရန်"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "ပယ်ဖျက်"
+
+msgid "Rename Items"
+msgstr "အိုင်တမ်များအမည်ပြောင်းရန်"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "ဖိုင်အသစ် #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "နေရာများစာရင်းမှတ်ချက် ထည့်မည်"
+
+msgid "Edit Places Entry"
+msgstr "နေရာများစာရင်းမှတ်ချက် တည်းဖြတ်မည်"
+
+msgid "Label:"
+msgstr "aအညွှန်း -"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "Lတည်နေရာ -"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "ပြသ-စတိုင် ကြည့်မည်"
+
+msgid "Icons"
+msgstr "အိုင်ကွန်များ"
+
+msgid "Compact"
+msgstr "ကျစ်လစ်"
+
+msgid "Details"
+msgstr "အသေးစိတ်"
+
+msgid "Columns"
+msgstr ""
+
+msgid "View mode:"
+msgstr "မြင်ကွင်းထုံးနည်း"
+
+msgid "Sorting:"
+msgstr "စီသည် -"
+
+msgid "Ascending"
+msgstr "တက်နေသည်"
+
+msgid "Descending"
+msgstr "ဆင်းနေသည်"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "သို့သက်ရောက်စေမည် -"
+
+msgid "Current folder"
+msgstr "လက်ရှိဖိုလ်ဒါ"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "ဖိုလ်ဒါအားလုံး"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "ဖိုင်တွဲရှိနှင့်ပြီးဖြစ်ပါသည်"
+
+msgid "File Already Exists"
+msgstr "ဖိုင်ရှိနှင့်ပြီးဖြစ်ပါသည်"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "Sကျော်"
+
+msgid "Skip All"
+msgstr "အားလုံးကျော်"
+
+msgid "Retry"
+msgstr "ပြန်ကြိုးစား"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "အရွယ်အစား -"
+
+msgid "Type:"
+msgstr "အမျိုးအစား -"
+
+msgid "Folder"
+msgstr ""
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "မသိ"
+
+msgid "Modified:"
+msgstr "မွမ်းမံခဲ့သည် -"
+
+msgid "Created:"
+msgstr "ဖန်တီးခဲ့သည် -"
+
+msgid "Accessed:"
+msgstr "အသုံးပြုခဲ့သည် -"
+
+msgid "Points to:"
+msgstr "ညွှန်ပြသည် -"
+
+msgid "Permissions:"
+msgstr "ခွင့်ပြုချက်များ:"
+
+msgid "Owner:"
+msgstr "wပိုင်ရှင် -"
+
+msgid "Group:"
+msgstr "uအုပ်စု -"
+
+msgid "Dimensions:"
+msgstr "အတိုင်းအတာ:"
+
+msgid "Duration:"
+msgstr "ကြာချိန်:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr ""
+
+msgid "Menu"
+msgstr "မီနူး"
+
+msgid "Folders First"
+msgstr "ဖိုလ်ဒါများ အရင်"
+
+msgid "Hidden Files Last"
+msgstr "ဖွက်ထားသောဖိုင်လ်များနောက်ဆုံး"
+
+msgid "Show in Groups"
+msgstr "အုပ်စုများတွင်ပြမည်"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr ""
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "ဇွန်းပမာဏ ပြန်သတ်မှတ်မည်"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "နောက်ထပ်သတင်းအချက်အလက်များ ပြမည်"
+
+msgid "Show Previews"
+msgstr "အကြိုမြင်ကွင်းများ ပြမည်"
+
+msgid "Restore to Defaults"
+msgstr ""
+
+msgid "Adjust View Display Style…"
+msgstr ""
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "ရပ်မည်"
+
+msgid "Panels"
+msgstr ""
+
+msgid "Information"
+msgstr "သတင်းအချက်အလက်"
+
+msgid "Location Bar"
+msgstr "တည်နေရာပြ-တန်း"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "မကြာမီကပိတ်ခဲ့သောတပ်ဘ်များ"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "ဖိုင်တွဲအသစ်"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "Sအထိအခိုက်မရှိစွာဖယ်ရှားမည်"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "တပ်ဆင်"
+
+msgid "Unmount"
+msgstr "Uဖြုတ်ရန်"
+
+msgid "Edit…"
+msgstr "တည်းဖြတ်…"
+
+msgid "Remove"
+msgstr "ဖယ်ရှား"
+
+msgid "Show"
+msgstr ""
+
+msgid "Hide"
+msgstr "Hဖွက်မည်"
+
+msgid "Hide Section"
+msgstr "အပိုင်းဖွက်ရန်"
+
+msgid "Add Entry…"
+msgstr "စာရင်းမှတ်ချက်ထည့်မည်…"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "Sစာရင်းမှတ်ချက်များအားလုံးပြမည်"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "အိုင်ကွန်အရွယ်အစား:"
+
+msgid "Preview size:"
+msgstr "အကြိုမြင်ကွင်းအရွယ်အစား:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "Nအမည် -"
+
+msgid "Command:"
+msgstr ""
+
+msgid "File names:"
+msgstr ""
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "Gယေဘုယျ"
+
+msgid "Startup"
+msgstr "ပရိုဂရမ်စတင်ချိန်"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "အမူအကျင့်"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "တာမီနယ်"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "Vမြင်ကွင်း"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "သဘာဝ"
+
+msgid "Alphabetical, case insensitive"
+msgstr "အက္ခရာစဉ်၊ စာလုံးအကြီးအသေးသတိမပြု"
+
+msgid "Alphabetical, case sensitive"
+msgstr "အက္ခရာစဉ်၊ စာလုံးအကြီးအသေး သတိပြုမည်"
+
+msgid "Folder size:"
+msgstr ""
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "မသတ်မှတ်ထား"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "အညွှန်းစာ အနံ"
+
+msgid "Small"
+msgstr "သေးငယ်"
+
+msgid "Medium"
+msgstr "အလယ်အလတ်"
+
+msgid "Large"
+msgstr "ကြီး"
+
+msgid "Huge"
+msgstr "အလွန်ကြီး"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "အကန့်အသတ်မရှိ"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "အကြိုမြင်ကွင်းများ"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr ""
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "အတည်ပြုချက်များ"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "လုပ်ဆောင်-ဖိုင်လ်ဖွင်သောအခါ -"
+
+msgid "Always ask"
+msgstr "အမြဲတမ်းမေးပါ"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr ""
+
+msgid "Status bar:"
+msgstr ""
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "ဆက်စပ်မီနူး"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "တွက်နေသည်…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "ကြည့်၍ မွမ်းမံနိုင်သည်"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "ပါဝင်သောအကြောင်းအရာ ကြည့်၍မွမ်းမံနိုင်သည်"
+
+msgid "Others:"
+msgstr "tအခြားလူများ -"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "အသုံးပြုသူ -"
+
+msgid "Mode:"
+msgstr ""
+
+msgid "Calculate"
+msgstr "တွက်ချက်ရန်"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "%sအတွက် ကိုယ်ပိုင်လက္ခဏာများ"
+
+msgid "Checksums"
+msgstr "hပေါင်းလဒ်စစ်တမ်းများ"
+
+msgid "Filter:"
+msgstr "စစ်ထုတ်မည်:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr ""
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr ""
+
+msgid "File Names"
+msgstr ""
+
+msgid "File Names and Contents"
+msgstr ""
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "ယနေ့"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "ဇွန်း"
+
+#, c-format
+msgid "%s free"
+msgstr "%s ဖရီး"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "တပ်ဘ် ဖြုတ်ပစ်မည်"
+
+msgid "Close Other Tabs"
+msgstr "အခြားတပ်ဘ်များပိတ်မည်"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "အရွယ်အစား - %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "မနေ့"
+
+msgid "One Week Ago"
+msgstr "လွန်ခဲ့သော တစ်ပတ်က"
+
+msgid "Two Weeks Ago"
+msgstr "လွန်ခဲ့သောနှစ်ရက်က"
+
+msgid "Three Weeks Ago"
+msgstr "လွန်ခဲ့သောသုံးပတ်က"
+
+msgid "Earlier this Month"
+msgstr "ဤလအစောပိုင်းက"
+
+msgid "0 - 9"
+msgstr "၀-၉"
+
+msgid "Others"
+msgstr "အခြား"
+
+msgid "Big"
+msgstr "ကြီးမား"
+
+msgid "Searching…"
+msgstr ""
+
+msgid "No items matching the filter"
+msgstr "မည်သည်အိုင်တမ်မှ စစ်ထုတ်ချက်နှင့် မကိုက်ညီပါ"
+
+msgid "No items found"
+msgstr "အချက်အလက်များ မတွေ့ရဘူး"
+
+msgid "Trash is empty"
+msgstr "အမှိုက်ပုံး ဗလာ"
+
+msgid "Folder is empty"
+msgstr "ဖိုလ်ဒါသည် ဗလာဖြစ်နေသည်"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr ""
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""

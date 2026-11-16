@@ -1,0 +1,1863 @@
+# Beluga translation (ko).
+# Imported from KDE Dolphin's translation, which was written by:
+# Translation of dolphin.po to Korean
+# SPDX-FileCopyrightText: 2007-2026 Shinjo Park <kde@peremen.name>
+# Minori Hiraoka <minori@mnetwork.co.kr>, 2018.
+# JungHee Lee <daemul72@gmail.com>, 2019, 2020, 2021.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-10-05 00:20+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Places"
+msgstr "위치"
+
+msgid "Remote"
+msgstr "원격"
+
+msgid "Recent"
+msgstr "최근"
+
+msgid "Search For"
+msgstr "검색 대상"
+
+msgid "Devices"
+msgstr "장치"
+
+msgid "Home"
+msgstr "홈"
+
+msgid "Desktop"
+msgstr "바탕 화면"
+
+msgid "Documents"
+msgstr "문서"
+
+msgid "Downloads"
+msgstr "다운로드"
+
+msgid "Music"
+msgstr "음악"
+
+msgid "Pictures"
+msgstr "사진"
+
+msgid "Videos"
+msgstr "비디오"
+
+msgid "Trash"
+msgstr "휴지통"
+
+msgid "Network"
+msgstr "네트워크"
+
+msgid "Recent Files"
+msgstr "최근 파일"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "오디오"
+
+msgid "Folders"
+msgstr "폴더"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr "모든 파일"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "복사"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "링크"
+
+msgid "Rename"
+msgstr "이름 바꾸기"
+
+msgid "Move to Trash"
+msgstr "휴지통으로 이동"
+
+msgid "Create Folder"
+msgstr "폴더 만들기"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "실행 취소(O)"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "다시 실행(R)"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "항목 %d개"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld초"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "사본 - %s"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Size"
+msgstr "크기"
+
+msgid "Modified"
+msgstr "수정한 날짜"
+
+msgid "Created"
+msgstr "만든 날짜"
+
+msgid "Accessed"
+msgstr "접근한 날짜"
+
+msgid "Type"
+msgstr "형식"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "권한"
+
+msgid "Owner"
+msgstr "소유자"
+
+msgid "User Group"
+msgstr "사용자 그룹"
+
+msgid "Path"
+msgstr "경로"
+
+msgid "Link Destination"
+msgstr "링크 대상"
+
+msgid "Deletion Time"
+msgstr "삭제 시간"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "크기"
+
+msgid "New Window"
+msgstr "새 창(W)"
+
+msgid "New Tab"
+msgstr "새 탭"
+
+msgid "Close Tab"
+msgstr "탭 닫기"
+
+msgid "Undo Close Tab"
+msgstr "탭 닫기 실행 취소"
+
+msgid "Quit"
+msgstr "끝내기(Q)"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Duplicate Here"
+msgstr "여기에 복제"
+
+msgid "Properties"
+msgstr "속성"
+
+msgid "Cut"
+msgstr "잘라내기"
+
+msgid "Copy Location"
+msgstr "위치 복사"
+
+msgid "Paste"
+msgstr "붙여넣기"
+
+msgid "Filter"
+msgstr "필터"
+
+msgid "Search"
+msgstr "검색"
+
+msgid "Select Files and Folders"
+msgstr "파일 및 폴더 선택"
+
+msgid "Select All"
+msgstr "모두 선택(A)"
+
+msgid "Invert Selection"
+msgstr "선택 반전"
+
+msgid "Copy to Other View"
+msgstr "다른 보기로 복사"
+
+msgid "Move to Other View"
+msgstr "다른 보기로 이동"
+
+msgid "Icons View"
+msgstr "아이콘 보기"
+
+msgid "Compact View"
+msgstr "축소된 보기"
+
+msgid "Details View"
+msgstr "자세히 보기"
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "확대(I)"
+
+msgid "Zoom Out"
+msgstr "축소(O)"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "숨겨진 파일 표시"
+
+msgid "Split View"
+msgstr "보기 나누기"
+
+msgid "Focus Other View"
+msgstr "다른 보기에 포커스"
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr ""
+
+msgid "Reload"
+msgstr "새로 고침"
+
+msgid "Editable Location"
+msgstr "위치 표시줄 편집하기"
+
+msgid "Replace Location"
+msgstr "위치 바꾸기"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr ""
+
+msgid "Information Panel"
+msgstr "정보 패널"
+
+msgid "Focus Places Panel"
+msgstr "위치 패널에 포커스 맞추기"
+
+msgid "Show Menubar"
+msgstr "메뉴 표시줄 표시(M)"
+
+msgid "Back"
+msgstr "뒤로(B)"
+
+msgid "Forward"
+msgstr "앞으로(F)"
+
+msgid "Up"
+msgstr "위로(U)"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr "마지막 탭으로 이동"
+
+msgid "Next Tab"
+msgstr "다음 탭"
+
+msgid "Previous Tab"
+msgstr "이전 탭"
+
+msgid "Open Terminal"
+msgstr "터미널 열기"
+
+msgid "Open Terminal Here"
+msgstr "여기에서 터미널 열기"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "새로 만들기"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "찾아보기(B)…"
+
+msgid "Move To"
+msgstr "다음으로 이동"
+
+msgid "Copy To"
+msgstr "다음으로 복사"
+
+msgid "Open"
+msgstr "열기(O)"
+
+msgid "Open With…"
+msgstr "다음으로 열기(O)…"
+
+#, c-format
+msgid "Open with %s"
+msgstr ""
+
+msgid "Other Application…"
+msgstr "다른 앱(O)…"
+
+msgid "Open With"
+msgstr "다음으로 열기(O)"
+
+msgid "Empty Trash"
+msgstr "휴지통 비우기"
+
+msgid "Add to Places"
+msgstr "위치에 추가"
+
+msgid "Sort By"
+msgstr "정렬 순서"
+
+msgid "View Mode"
+msgstr "보기 모드"
+
+msgid "Restore"
+msgstr "복구"
+
+msgid "Open in New Tab"
+msgstr "새 탭으로 열기"
+
+msgid "Open in New Tabs"
+msgstr "새 탭으로 열기"
+
+msgid "Open in New Window"
+msgstr "새 창으로 열기"
+
+msgid "Open in Split View"
+msgstr "분할 보기로 열기"
+
+msgid "Open Containing Folder"
+msgstr "포함하는 폴더 열기"
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr "이름 바꾸기…"
+
+msgid "Show Target"
+msgstr "대상 표시"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr "항목 이름 바꾸기"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Rename Items"
+msgstr "항목 이름 바꾸기"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr "새 이름 #"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr "위치 항목 추가"
+
+msgid "Edit Places Entry"
+msgstr "위치 항목 편집"
+
+msgid "Label:"
+msgstr "이름(A):"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "위치(L):"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "보기 표시 스타일"
+
+msgid "Icons"
+msgstr "아이콘"
+
+msgid "Compact"
+msgstr "축소됨"
+
+msgid "Details"
+msgstr "자세히"
+
+msgid "Columns"
+msgstr ""
+
+msgid "View mode:"
+msgstr "보기 모드:"
+
+msgid "Sorting:"
+msgstr "정렬:"
+
+msgid "Ascending"
+msgstr "오름차순"
+
+msgid "Descending"
+msgstr "내림차순"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "적용"
+
+msgid "Current folder"
+msgstr "현재 폴더"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "모든 폴더"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "폴더가 이미 존재함"
+
+msgid "File Already Exists"
+msgstr "파일이 이미 존재함"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "건너뛰기(S)"
+
+msgid "Skip All"
+msgstr "모두 건너뛰기"
+
+msgid "Retry"
+msgstr "다시 시도"
+
+msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "크기:"
+
+msgid "Type:"
+msgstr "형식:"
+
+msgid "Folder"
+msgstr "폴더"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "Modified:"
+msgstr "수정한 날짜:"
+
+msgid "Created:"
+msgstr "만든 날짜:"
+
+msgid "Accessed:"
+msgstr "접근한 날짜:"
+
+msgid "Points to:"
+msgstr "가리키는 곳:"
+
+msgid "Permissions:"
+msgstr "권한:"
+
+msgid "Owner:"
+msgstr "소유자(W):"
+
+msgid "Group:"
+msgstr "그룹(U):"
+
+msgid "Dimensions:"
+msgstr "크기:"
+
+msgid "Duration:"
+msgstr "시간:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr "보기 설정"
+
+msgid "Menu"
+msgstr "메뉴"
+
+msgid "Folders First"
+msgstr "폴더 우선"
+
+msgid "Hidden Files Last"
+msgstr "숨김 파일 마지막에"
+
+msgid "Show in Groups"
+msgstr "그룹으로 표시"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr "필터…"
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "확대/축소 수준 초기화"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "추가 정보 표시"
+
+msgid "Show Previews"
+msgstr "미리 보기 표시"
+
+msgid "Restore to Defaults"
+msgstr "기본값 복원"
+
+msgid "Adjust View Display Style…"
+msgstr "보기 표시 스타일 조정…"
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Stop"
+msgstr "정지"
+
+msgid "Panels"
+msgstr "패널"
+
+msgid "Information"
+msgstr "정보"
+
+msgid "Location Bar"
+msgstr "위치 표시줄"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "최근에 닫은 탭"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+msgid "New Folder"
+msgstr "새 폴더"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr "안전하게 제거(S)"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "마운트"
+
+msgid "Unmount"
+msgstr "마운트 해제(U)"
+
+msgid "Edit…"
+msgstr "편집…"
+
+msgid "Remove"
+msgstr "삭제"
+
+msgid "Show"
+msgstr "보이기"
+
+msgid "Hide"
+msgstr "숨기기"
+
+msgid "Hide Section"
+msgstr "부분 숨기기"
+
+msgid "Add Entry…"
+msgstr "항목 추가…"
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "모든 항목 보기(S)"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "View font:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "아이콘 크기:"
+
+msgid "Preview size:"
+msgstr "미리 보기 크기:"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "이름(N):"
+
+msgid "Command:"
+msgstr "명령:"
+
+msgid "File names:"
+msgstr "파일 이름:"
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "General"
+msgstr "일반"
+
+msgid "Startup"
+msgstr "시작"
+
+msgid "_Home folder:"
+msgstr ""
+
+msgid "_Remember open folders and tabs"
+msgstr ""
+
+msgid "Begin in _split view mode"
+msgstr ""
+
+msgid "Show _filter bar"
+msgstr ""
+
+msgid "Make location bar _editable"
+msgstr ""
+
+msgid "Show full path inside _location bar"
+msgstr ""
+
+msgid "Show full path in _title bar"
+msgstr ""
+
+msgid "Mouse"
+msgstr ""
+
+msgid "These used to be KDE system settings."
+msgstr ""
+
+msgid "Clicking files or folders:"
+msgstr ""
+
+msgid "Selects them (double-click opens)"
+msgstr ""
+
+msgid "Opens them"
+msgstr ""
+
+msgid "Double-clicking empty space:"
+msgstr ""
+
+msgid "Does nothing"
+msgstr ""
+
+msgid "Selects all items"
+msgstr ""
+
+msgid "Goes up"
+msgstr ""
+
+msgid "Opens a new tab"
+msgstr ""
+
+msgid "Toggles hidden files"
+msgstr ""
+
+msgid "Tabs and Split View"
+msgstr ""
+
+msgid "Open new tabs after the _last tab"
+msgstr ""
+
+msgid "_Always show the tab bar"
+msgstr ""
+
+msgid "Show _close buttons on tabs"
+msgstr ""
+
+msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Closing split view closes:"
+msgstr ""
+
+msgid "The active view"
+msgstr ""
+
+msgid "The inactive view"
+msgstr ""
+
+msgid "The right view"
+msgstr ""
+
+msgid "Behavior"
+msgstr "동작"
+
+msgid "Rename single items _inline"
+msgstr ""
+
+msgid "Show selection _marker"
+msgstr ""
+
+msgid "Show item information on _hover"
+msgstr ""
+
+msgid "Open folders while _dragging items over them"
+msgstr ""
+
+msgid "Terminal"
+msgstr "터미널"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Terminal _command:"
+msgstr ""
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+msgid "View"
+msgstr "보기(V)"
+
+msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "Natural"
+msgstr "자연스럽게"
+
+msgid "Alphabetical, case insensitive"
+msgstr "가나다순, 대소문자 구분 안 함"
+
+msgid "Alphabetical, case sensitive"
+msgstr "가나다순, 대소문자 구분"
+
+msgid "Folder size:"
+msgstr "폴더 크기:"
+
+msgid "Number of items"
+msgstr ""
+
+msgid "Size of contents"
+msgstr ""
+
+msgid "None"
+msgstr "없음"
+
+msgid "Folder size depth limit:"
+msgstr ""
+
+msgid "Dates:"
+msgstr ""
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Short"
+msgstr ""
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Shorten long names:"
+msgstr ""
+
+msgid "At the end"
+msgstr ""
+
+msgid "In the middle"
+msgstr ""
+
+msgid "Hide _backup files (ending in ~)"
+msgstr ""
+
+msgid "Label width:"
+msgstr "이름표 너비:"
+
+msgid "Small"
+msgstr "작음"
+
+msgid "Medium"
+msgstr "중간"
+
+msgid "Large"
+msgstr "크게"
+
+msgid "Huge"
+msgstr "매우 크게"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr ""
+
+msgid "Co_mpact spacing"
+msgstr ""
+
+msgid "Maximum label width:"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "무제한"
+
+msgid "E_xpandable folders"
+msgstr ""
+
+msgid "Highlight the entire _row"
+msgstr ""
+
+msgid "Previews"
+msgstr "미리 보기"
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews for"
+msgstr "다음의 미리 보기 표시:"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Limits"
+msgstr ""
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr ""
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "확인"
+
+msgid "Ask for confirmation when"
+msgstr ""
+
+msgid "Moving files or folders to the _trash"
+msgstr ""
+
+msgid "_Deleting files or folders"
+msgstr ""
+
+msgid "_Emptying the trash"
+msgstr ""
+
+msgid "Closing windows with _multiple tabs"
+msgstr ""
+
+msgid "Opening many _folders at once"
+msgstr ""
+
+msgid "Opening many t_erminals at once"
+msgstr ""
+
+msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "실행 파일을 열 때:"
+
+msgid "Always ask"
+msgstr "항상 묻기"
+
+msgid "Open in an application"
+msgstr ""
+
+msgid "Run it"
+msgstr ""
+
+msgid "Bars and Panels"
+msgstr ""
+
+msgid "Status Bar"
+msgstr "상태 표시줄"
+
+msgid "Status bar:"
+msgstr "상태 표시줄:"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr ""
+
+msgid "Full width"
+msgstr "전체 너비"
+
+msgid "Hidden"
+msgstr "감춤(H)"
+
+msgid "Show _zoom slider"
+msgstr ""
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Limit to the home folder when inside it"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Play media files _automatically"
+msgstr ""
+
+msgid "Show the _hovered item"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "상황에 맞는 메뉴"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr ""
+
+msgid "Days:"
+msgstr ""
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr ""
+
+msgid "Percent of the disk:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr "계산 중…"
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr "남은 공간:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu바이트"
+
+msgid "Forbidden"
+msgstr "거부됨"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr "보기 및 수정 가능"
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "내용 보기 및 수정 가능"
+
+msgid "Others:"
+msgstr "기타(T):"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "사용자:"
+
+msgid "Mode:"
+msgstr "모드:"
+
+msgid "Calculate"
+msgstr "계산하기"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr "%s 속성"
+
+msgid "Checksums"
+msgstr "체크섬(H)"
+
+msgid "Filter:"
+msgstr "필터:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "Search…"
+msgstr "검색…"
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr "어디서나"
+
+msgid "File Names"
+msgstr "파일 이름"
+
+msgid "File Names and Contents"
+msgstr "파일 이름과 내용"
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "오늘"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom"
+msgstr "확대/축소"
+
+#, c-format
+msgid "%s free"
+msgstr "%s 남음"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "탭 떼내기"
+
+msgid "Close Other Tabs"
+msgstr "다른 탭 닫기"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr "크기: %s"
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "어제"
+
+msgid "One Week Ago"
+msgstr "1주 전"
+
+msgid "Two Weeks Ago"
+msgstr "2주 전"
+
+msgid "Three Weeks Ago"
+msgstr "3주 전"
+
+msgid "Earlier this Month"
+msgstr "이번 달 초"
+
+msgid "0 - 9"
+msgstr "0 - 9"
+
+msgid "Others"
+msgstr "기타"
+
+msgid "Big"
+msgstr "큼"
+
+msgid "Searching…"
+msgstr "찾는 중…"
+
+msgid "No items matching the filter"
+msgstr "필터와 일치하는 항목 없음"
+
+msgid "No items found"
+msgstr ""
+
+msgid "Trash is empty"
+msgstr "휴지통이 비어 있음"
+
+msgid "Folder is empty"
+msgstr "폴더가 비어 있음"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr "폴더 불러오는 중…"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
