@@ -7,6 +7,7 @@
 #include <glib-unix.h>
 
 #include <clocale>
+#include <cstdio>
 #include <cstring>
 #include <iostream>
 #include <libintl.h>
@@ -84,6 +85,12 @@ int main(int argc, char **argv)
     g_signal_connect(app, "startup", G_CALLBACK(+[](GtkApplication *a) { App::instance().init(a); }), nullptr);
     g_signal_connect(app, "shutdown", G_CALLBACK(+[](GtkApplication *) { App::instance().shutdown(); }), nullptr);
     g_signal_connect(app, "command-line", G_CALLBACK(on_command_line), nullptr);
+    // --version before GTK starts, so it works without a display (ssh, CI, scripts).
+    g_signal_connect(app, "handle-local-options", G_CALLBACK(+[](GApplication *, GVariantDict *opts) -> int {
+        if (!g_variant_dict_contains(opts, "version")) return -1;
+        std::printf("beluga %s\n", BELUGA_VERSION);
+        return 0;
+    }), nullptr);
     // SIGTERM/SIGINT/SIGHUP (logout, `kill`, Ctrl+C): save the session and exit cleanly.
     for (int sig : {SIGTERM, SIGINT, SIGHUP})
         g_unix_signal_add(sig, [](gpointer a) -> gboolean {
