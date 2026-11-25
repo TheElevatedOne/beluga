@@ -1202,8 +1202,9 @@ void ItemView::setScrollPosition(double v)
     if (!a) return;
     if (gtk_adjustment_get_upper(a) < v + gtk_adjustment_get_page_size(a)) {
         // Layout not done yet: retry after the next allocation.
-        struct D { ItemView *v; double val; int tries; };
-        auto *d = new D{this, v, 0};
+        // Holds a reference to the widget: the ItemView is deleted when the widget is finalized.
+        struct D { ItemView *v; double val; int tries; Ref<GtkWidget> keep; };
+        auto *d = new D{this, v, 0, Ref<GtkWidget>::share(w_)};
         g_timeout_add(30, [](gpointer p) -> gboolean {
             auto *d = static_cast<D *>(p);
             if (d->v->disposed_) { delete d; return G_SOURCE_REMOVE; }
@@ -1494,14 +1495,18 @@ void ItemView::startRename(int pos, int selStart, int selEnd, std::function<void
     gtk_widget_add_controller(renameEntry_, key);
     GtkEventController *focus = gtk_event_controller_focus_new();
     g_signal_connect_swapped(focus, "leave", CB([](ItemView *v) {
+        // Focus also leaves when the view is closed, so keep the widget alive until this runs.
         g_idle_add([](gpointer p) -> gboolean {
-            auto *v = static_cast<ItemView *>(p);
+            Ref<GtkWidget> w(GTK_WIDGET(p));
+            ItemView *v = item_view_get(w.get());
+            if (!v || v->disposed_) return G_SOURCE_REMOVE;
             if (v->renameEntry_ && !gtk_widget_has_focus(v->renameEntry_) && !gtk_widget_is_focus(v->renameEntry_)) {
-                GtkWidget *f = gtk_root_get_focus(gtk_widget_get_root(v->w_));
+                GtkRoot *root = gtk_widget_get_root(v->w_);
+                GtkWidget *f = root ? gtk_root_get_focus(root) : nullptr;
                 if (!f || !gtk_widget_is_ancestor(f, v->renameEntry_)) v->finishRename(true);
             }
             return G_SOURCE_REMOVE;
-        }, v);
+        }, g_object_ref(v->w_));
     }), this);
     gtk_widget_add_controller(renameEntry_, focus);
     gtk_widget_grab_focus(renameEntry_);

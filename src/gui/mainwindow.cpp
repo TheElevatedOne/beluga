@@ -127,9 +127,25 @@ MainWindow::MainWindow(GtkApplication *app)
         return FALSE;
     }), this);
 
+    // GTK runs application shortcuts before the focused widget sees a key, so Delete, BackSpace,
+    // Space, "/", Ctrl+C and the like would act on the files while you type in the location bar,
+    // the filter or an inline rename. Offer those keys to a focused text field first; the shortcut
+    // still runs when the field has no use for the key (F2, F5, Ctrl+W, ...). Added last, so it
+    // runs before the window's other capture-phase controllers.
+    GtkEventController *keys = gtk_event_controller_key_new();
+    gtk_event_controller_set_propagation_phase(keys, GTK_PHASE_CAPTURE);
+    g_signal_connect(keys, "key-pressed", CB([](GtkEventControllerKey *k, guint, guint, GdkModifierType, gpointer p) -> gboolean {
+        GtkWidget *focus = gtk_root_get_focus(GTK_ROOT(static_cast<MainWindow *>(p)->win_));
+        if (!focus || !GTK_IS_EDITABLE(focus)) return FALSE;
+        GdkEvent *ev = gtk_event_controller_get_current_event(GTK_EVENT_CONTROLLER(k));
+        if (!ev || !App::instance().isShortcut(ev)) return FALSE;
+        return gtk_event_controller_key_forward(k, focus);
+    }), this);
+
     settingsListener_ = add_settings_listener([this] { applySettings(); });
     undoListener_ = UndoManager::instance().addListener([this] { updateActions(); });
     applySettings();
+    gtk_widget_add_controller(win_, keys);
 }
 
 MainWindow::~MainWindow()
@@ -166,6 +182,7 @@ void MainWindow::closeWindow()
     s.save();
     App::instance().windowClosed(this);
     g_object_set_data(G_OBJECT(win_), "beluga-mainwindow", nullptr);
+    life_.reset();
     g_idle_add([](gpointer p) -> gboolean {
         delete static_cast<MainWindow *>(p);
         return G_SOURCE_REMOVE;
@@ -810,7 +827,8 @@ void MainWindow::dropFiles(GFile *dest, const std::vector<Ref<GFile>> &files, Gd
     else if (action == GDK_ACTION_LINK) job = FileJob::link(files, dest);
     else job = FileJob::copy(files, dest);
     std::string destUri = dest ? file_uri(dest) : std::string();
-    job->onFinished = [this, destUri](FileJob &j) {
+    job->onFinished = [this, alive = lifeToken(), destUri](FileJob &j) {
+        if (alive.expired()) return;
         View *v = activeView();
         if (!v || destUri.empty() || v->location() != destUri) return;
         std::vector<std::string> uris;

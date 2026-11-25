@@ -8,17 +8,27 @@ namespace beluga {
 
 static std::string store_path() { return config_dir() + "/actions.conf"; }
 
+// The default actions never overwrite: Extract Here keeps existing files, and the archive gets a
+// free name ("name (1).tar.gz").
+static const char *kExtractCommand = "bsdtar -xkf %f -C %d";
+static const char *kCompressCommand =
+    "n=\"$(basename %f)\"; o=\"$n.tar.gz\"; i=1; while [ -e \"$o\" ]; do o=\"$n ($i).tar.gz\"; i=$((i+1)); done; "
+    "tar -czf \"$o\" -- %N";
+// Commands of 0.1.0's default actions, which overwrote existing files.
+static const char *kOldExtractCommand = "bsdtar -xf %f -C %d";
+static const char *kOldCompressCommand = "tar -czf \"$(basename %f).tar.gz\" -- %N";
+
 std::vector<CustomAction> default_custom_actions()
 {
     std::vector<CustomAction> v;
     char *bsdtar = g_find_program_in_path("bsdtar");
     if (bsdtar) {
-        v.push_back({_("Extract Here"), "archive-extract", "bsdtar -xf %f -C %d",
+        v.push_back({_("Extract Here"), "archive-extract", kExtractCommand,
                      "*.zip;*.tar;*.tar.*;*.tgz;*.tbz2;*.txz;*.7z;*.rar;*.cpio;*.iso;*.xz;*.gz;*.bz2;*.zst", "",
                      true, false, false, false});
         g_free(bsdtar);
     }
-    v.push_back({_("Compress to .tar.gz"), "archive-insert", "tar -czf \"$(basename %f).tar.gz\" -- %N", "", "", true, true, true, false});
+    v.push_back({_("Compress to .tar.gz"), "archive-insert", kCompressCommand, "", "", true, true, true, false});
     return v;
 }
 
@@ -41,6 +51,8 @@ std::vector<CustomAction> load_custom_actions()
         a.name = take(g_key_file_get_string(kf, g, "Name", nullptr));
         a.icon = take(g_key_file_get_string(kf, g, "Icon", nullptr));
         a.command = take(g_key_file_get_string(kf, g, "Command", nullptr));
+        if (a.command == kOldExtractCommand) a.command = kExtractCommand;
+        else if (a.command == kOldCompressCommand) a.command = kCompressCommand;
         a.patterns = take(g_key_file_get_string(kf, g, "Patterns", nullptr));
         a.mimeTypes = take(g_key_file_get_string(kf, g, "MimeTypes", nullptr));
         a.forFiles = g_key_file_get_boolean(kf, g, "Files", nullptr);
@@ -139,7 +151,7 @@ bool run_custom_action(const CustomAction &a, const std::vector<ActionTarget> &t
     std::string cmd = expand_action_command(a, targets, folder);
     std::string full;
     if (a.runInTerminal) {
-        std::string term = terminal::effective_command();
+        std::string term = terminal::command_for(folder);
         if (term.empty()) {
             g_set_error(err, G_IO_ERROR, G_IO_ERROR_NOT_FOUND, _("No terminal emulator was found."));
             return false;

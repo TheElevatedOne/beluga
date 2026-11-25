@@ -1,5 +1,27 @@
 # Changelog
 
+## Unreleased
+
+- Fixed: typing in the location bar, the filter, the search field or an inline rename no longer triggers
+  shortcuts. Delete used to move the selected files to the trash, and Backspace, Space, `/`, Ctrl+C/V/X/Z/A
+  acted on the files instead of the text.
+- Fixed: removing an entry from the Places panel's context menu froze Beluga.
+- Fixed: dragging an entry in the Places panel to reorder it always moved the first entry.
+- Fixed: opening a broken `.desktop` file crashed Beluga.
+- Fixed: closing a window while a paste, drop, duplicate or device mount was still running could crash Beluga.
+- Fixed: closing a window while a "File Already Exists" question was open left that copy or move hanging.
+- Fixed: Paste waited for the program that owned the clipboard and froze the window when it was slow; long
+  lists of copied files were cut off at 1 MiB.
+- Fixed: "Apply to all subfolders and files" in Properties → Permissions also changed the owner, group or others
+  permissions you didn't touch.
+- Fixed: deleting an item in the Trash, or moving it out, left its `.trashinfo` file behind.
+- Fixed: "Extract Here" overwrote existing files and "Compress to .tar.gz" overwrote an existing archive. Both
+  now keep existing files; the archive gets a free name such as `name (1).tar.gz`. Existing `actions.conf`
+  files with the old default commands are updated.
+- Fixed: custom actions run in a terminal ignored `%d` in the terminal command.
+- Fixed: selecting files in a remote folder (sftp, smb) queried the server on every click.
+- Fixed: a negative zoom level in `viewprops.conf` gave negative icon sizes.
+
 ## 0.1.0
 
 First release of Beluga, a rewrite of KDE's Dolphin with plain GTK 4.

@@ -618,10 +618,16 @@ void GtkJobUi::conflict(FileJob &job, const ConflictRequest &req, std::function<
     GtkWidget *renameBtn = add_button(p, _("_Rename"), true);
     on_click_close(renameBtn, p.window, [answer] { answer(ConflictChoice::Rename); });
     gtk_window_set_default_widget(GTK_WINDOW(p.window), renameBtn);
+    // Any other way the dialog goes away (closed by hand, or destroyed with the window it belongs
+    // to) cancels: the job's thread waits for an answer and would otherwise wait forever.
     auto *closeData = new std::function<void()>([answer] { answer(ConflictChoice::Cancel); });
-    g_signal_connect_data(p.window, "close-request", CB([](GtkWindow *, gpointer d) -> gboolean {
-        (*static_cast<std::function<void()> *>(d))();
-        return FALSE;
+    // Deferred: the buttons destroy the dialog before they answer, and their answer must win.
+    g_signal_connect_data(p.window, "destroy", CB([](GtkWidget *, gpointer d) {
+        g_idle_add_full(G_PRIORITY_DEFAULT, [](gpointer f) -> gboolean {
+            (*static_cast<std::function<void()> *>(f))();
+            return G_SOURCE_REMOVE;
+        }, new std::function<void()>(*static_cast<std::function<void()> *>(d)),
+           [](gpointer f) { delete static_cast<std::function<void()> *>(f); });
     }), closeData, [](gpointer d, GClosure *) { delete static_cast<std::function<void()> *>(d); }, GConnectFlags(0));
     gtk_window_present(GTK_WINDOW(p.window));
 }

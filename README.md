@@ -169,7 +169,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 42 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 43 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.

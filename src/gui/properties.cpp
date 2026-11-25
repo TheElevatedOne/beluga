@@ -124,6 +124,7 @@ guint32 apply_level(guint32 mode, int shift, int level, bool isDir)
     return (mode & ~mask) | (bits << shift);
 }
 
+// levels[i] < 0 leaves that class alone, so only what the user changed reaches the children.
 void apply_recursive(GFile *f, const int levels[3], bool execChange, bool exec)
 {
     GFileInfo *info = g_file_query_info(f, "standard::type,unix::mode,standard::name", G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, nullptr);
@@ -132,7 +133,8 @@ void apply_recursive(GFile *f, const int levels[3], bool execChange, bool exec)
     bool link = g_file_info_get_file_type(info) == G_FILE_TYPE_SYMBOLIC_LINK;
     guint32 mode = g_file_info_get_attribute_uint32(info, G_FILE_ATTRIBUTE_UNIX_MODE);
     guint32 nm = mode;
-    for (int i = 0; i < 3; ++i) nm = apply_level(nm, 6 - 3 * i, levels[i], dir);
+    for (int i = 0; i < 3; ++i)
+        if (levels[i] >= 0) nm = apply_level(nm, 6 - 3 * i, levels[i], dir);
     if (!dir && execChange) nm = exec ? (nm | (((nm & 0444) >> 2))) : (nm & ~0111u);
     if (!link && nm != mode) g_file_set_attribute_uint32(f, G_FILE_ATTRIBUTE_UNIX_MODE, nm, G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, nullptr);
     if (dir) {
@@ -396,8 +398,11 @@ void apply(State *st, GtkWidget *parent)
             show_error(parent, _("Could not change the permissions."), err->message);
             g_error_free(err);
         } else if (recursive) {
+            for (int i = 0; i < 3; ++i)
+                if (levels[i] == class_level(st->mode, 6 - 3 * i)) levels[i] = -1;
             Ref<GFile> f = st->files[0];
-            std::thread([f, levels0 = levels[0], levels1 = levels[1], levels2 = levels[2]] {
+            if (levels[0] >= 0 || levels[1] >= 0 || levels[2] >= 0)
+                std::thread([f, levels0 = levels[0], levels1 = levels[1], levels2 = levels[2]] {
                 int lv[3] = {levels0, levels1, levels2};
                 apply_recursive(f.get(), lv, false, false);
             }).detach();

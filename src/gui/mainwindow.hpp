@@ -43,6 +43,9 @@ public:
     TabPage *activeTab() const;
     ViewContainer *activeContainer() const;
     PlacesPanel *placesPanel() const { return places_.get(); }
+    // Expires when the window closes. Callbacks that may run later (file jobs, dialogs, clipboard
+    // reads) hold this instead of trusting a raw MainWindow pointer.
+    std::weak_ptr<void> lifeToken() const { return life_; }
     View *activeView() const;
     void activateTab(int index);
     void present();
@@ -116,6 +119,7 @@ private:
     int undoListener_ = 0;
     bool closing_ = false;
     bool updatingActions_ = false;
+    std::shared_ptr<void> life_ = std::make_shared<char>(0);
 };
 
 } // namespace beluga

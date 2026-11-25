@@ -8,6 +8,7 @@
 #include <gtk/gtk.h>
 
 #include <functional>
+#include <memory>
 #include <string>
 
 namespace beluga {
@@ -42,6 +43,8 @@ private:
     int settingsListener_ = 0;
     std::string menuKey_;   // row the context menu belongs to
     bool rebuilding_ = false;
+    // Expires with the panel: device callbacks can arrive after the window closed.
+    std::shared_ptr<void> life_ = std::make_shared<char>(0);
 };
 
 } // namespace beluga

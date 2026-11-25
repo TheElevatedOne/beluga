@@ -45,6 +45,8 @@ public:
     void ownFileManagerName();
     void applySettings();
     void updateAccels();
+    // Whether a key event is one of the window shortcuts (as configured).
+    bool isShortcut(GdkEvent *event) const;
 
     bool selftest = false;
 
@@ -58,6 +60,7 @@ private:
     bool canPaste_ = false;
     GtkJobUi jobUi_;
     guint busOwner_ = 0;
+    std::vector<GtkShortcutTrigger *> triggers_;
     guint busRegistration_ = 0;
     int settingsListener_ = 0;
 };

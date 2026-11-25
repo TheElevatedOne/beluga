@@ -6,6 +6,8 @@
 
 #include <glib.h>
 
+#include <algorithm>
+
 namespace beluga {
 
 const std::vector<RoleInfo> &all_roles()
@@ -120,6 +122,7 @@ bool read_group(GKeyFile *kf, const std::string &g, ViewProps &p)
     gi("ViewMode", p.viewMode);
     if (p.viewMode < 0 || p.viewMode > 3) p.viewMode = ModeIcons;
     gi("ZoomLevel", p.zoomLevel);
+    p.zoomLevel = std::clamp(p.zoomLevel, 0, kMaxZoom);
     gb("PreviewsShown", p.previewsShown);
     gb("HiddenFilesShown", p.hiddenFilesShown);
     gb("GroupedSorting", p.groupedSorting);

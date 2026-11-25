@@ -91,7 +91,8 @@ const std::vector<ActionDef> &action_defs()
              }
              if (items.empty()) return;
              auto job = FileJob::copyPairs(items);
-             job->onFinished = [w](FileJob &j) {
+             job->onFinished = [w, alive = w->lifeToken()](FileJob &j) {
+                 if (alive.expired()) return;
                  std::vector<std::string> uris;
                  for (auto &i : j.done()) uris.push_back(file_uri(i.dest.get()));
                  if (AV(w)) AV(w)->selectUris(uris);
@@ -458,7 +459,9 @@ void MainWindow::updateActions()
     bool trashView = v && v->isTrash();
     bool virt = v && v->isVirtual();
     bool writable = v && !virt;
-    if (writable) {
+    // Only for local folders: this runs on every selection change, and for sftp:// or smb:// it
+    // would be a network round trip each time. Elsewhere the operation reports the error.
+    if (writable && g_file_is_native(v->locationFile().get())) {
         GFileInfo *info = g_file_query_info(v->locationFile().get(), G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE, G_FILE_QUERY_INFO_NONE, nullptr, nullptr);
         if (info) {
             if (g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE))
@@ -667,12 +670,13 @@ void MainWindow::paste(GFile *destDir)
 {
     if (!destDir) return;
     Ref<GFile> dest = Ref<GFile>::share(destDir);
-    App::instance().readClipboard([this, dest](std::vector<Ref<GFile>> files, bool cut) {
-        if (files.empty()) return;
+    App::instance().readClipboard([this, alive = lifeToken(), dest](std::vector<Ref<GFile>> files, bool cut) {
+        if (files.empty() || alive.expired()) return;
         auto job = cut ? FileJob::move(files, dest.get()) : FileJob::copy(files, dest.get());
         std::string destUri = file_uri(dest.get());
-        job->onFinished = [this, destUri, cut](FileJob &j) {
+        job->onFinished = [this, alive, destUri, cut](FileJob &j) {
             if (cut) App::instance().clearClipboardAfterMove();
+            if (alive.expired()) return;
             View *v = activeView();
             if (!v || v->location() != destUri) return;
             std::vector<std::string> uris;
@@ -692,6 +696,7 @@ void MainWindow::copyOrMoveTo(const std::string &destUri, bool move)
         gtk_file_dialog_set_title(fd, move ? _("Move To") : _("Copy To"));
         struct D {
             MainWindow *w;
+            std::weak_ptr<void> alive;
             std::vector<Ref<GFile>> files;
             bool move;
         };
@@ -699,9 +704,9 @@ void MainWindow::copyOrMoveTo(const std::string &destUri, bool move)
             std::unique_ptr<D> d(static_cast<D *>(p));
             GFile *f = gtk_file_dialog_select_folder_finish(GTK_FILE_DIALOG(src), res, nullptr);
             if (!f) return;
-            if (MainWindow::from(d->w->window())) d->w->dropFiles(f, d->files, d->move ? GDK_ACTION_MOVE : GDK_ACTION_COPY);
+            if (!d->alive.expired()) d->w->dropFiles(f, d->files, d->move ? GDK_ACTION_MOVE : GDK_ACTION_COPY);
             g_object_unref(f);
-        }, new D{this, files, move});
+        }, new D{this, lifeToken(), files, move});
         g_object_unref(fd);
         return;
     }

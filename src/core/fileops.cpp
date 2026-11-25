@@ -3,6 +3,8 @@
 
 #include "undo.hpp"
 
+#include <glib/gstdio.h>
+
 #include <chrono>
 #include <condition_variable>
 #include <thread>
@@ -25,6 +27,21 @@ std::string name_of(GFile *f)
 }
 
 std::string parse_name(GFile *f) { return take(g_file_get_parse_name(f)); }
+
+// The .trashinfo file of an item at the top of a trash "files" folder (the Trash view lists those).
+// Deleting the item there or moving it out must remove its info file too.
+std::string trash_info_of(GFile *f)
+{
+    std::string p = take(g_file_get_path(f));
+    trash::Entry e;
+    if (p.empty() || !trash::is_in_trash(p) || !trash::entry_for_trashed_path(p, e)) return {};
+    return e.infoPath;
+}
+
+void drop_trash_info(const std::string &info, GFile *f)
+{
+    if (!info.empty() && !g_file_query_exists(f, nullptr)) g_unlink(info.c_str());
+}
 
 } // namespace
 
@@ -612,7 +629,9 @@ void FileJob::run()
         for (auto &it : items_) {
             if (cancelled_) break;
             OpItem r;
+            std::string info = kind_ == OpKind::Move ? trash_info_of(it.source.get()) : std::string();
             if (copyOne(it.source.get(), it.dest.get(), true, kind_ == OpKind::Move, &r)) doneItems_.push_back(r);
+            drop_trash_info(info, it.source.get());
         }
         break;
     case OpKind::Link:
@@ -643,7 +662,9 @@ void FileJob::run()
     case OpKind::Delete:
         for (auto &it : items_) {
             if (cancelled_) break;
+            std::string info = trash_info_of(it.source.get());
             if (deleteTree(it.source.get())) doneItems_.push_back({it.source, {}});
+            drop_trash_info(info, it.source.get());
         }
         break;
     case OpKind::Restore:

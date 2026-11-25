@@ -127,6 +127,15 @@ void core_tests()
     run_job(FileJob::remove({F("a copy.txt")}));
     check(!exists("a copy.txt"), "delete permanently");
 
+    // Deleting an item in the Trash view removes its .trashinfo too.
+    write("doomed.txt", "x");
+    auto doomed = FileJob::trash({F("doomed.txt")});
+    run_job(doomed);
+    std::string doomedInfo = doomed->trashed().empty() ? std::string() : doomed->trashed()[0].infoPath;
+    if (!doomed->trashed().empty())
+        run_job(FileJob::remove({Ref<GFile>(g_file_new_for_path(doomed->trashed()[0].trashedPath.c_str()))}));
+    check(!doomedInfo.empty() && !g_file_test(doomedInfo.c_str(), G_FILE_TEST_EXISTS), "delete from the trash removes its info file");
+
     run_job(FileJob::emptyTrash());
     check(trash::is_empty(), "empty trash");
 

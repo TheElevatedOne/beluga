@@ -51,17 +51,23 @@ std::string effective_command()
     return c.empty() ? detect() : c;
 }
 
-bool open(const std::string &folder, GError **err)
+std::string command_for(const std::string &folder)
 {
     std::string cmd = effective_command();
+    std::string dir = folder.empty() ? home_dir() : folder;
+    if (cmd.find("%d") != std::string::npos) cmd = replace_all(cmd, "%d", shell_quote(dir));
+    return cmd;
+}
+
+bool open(const std::string &folder, GError **err)
+{
+    std::string cmd = command_for(folder);
     if (cmd.empty()) {
         g_set_error(err, G_IO_ERROR, G_IO_ERROR_NOT_FOUND,
                     _("No terminal emulator was found. Set one in Configure Beluga › General › Terminal."));
         return false;
     }
-    std::string dir = folder.empty() ? home_dir() : folder;
-    if (cmd.find("%d") != std::string::npos) cmd = replace_all(cmd, "%d", shell_quote(dir));
-    return spawn_command(cmd, dir, err);
+    return spawn_command(cmd, folder.empty() ? home_dir() : folder, err);
 }
 
 } // namespace beluga::terminal

@@ -14,6 +14,8 @@ namespace beluga::terminal {
 std::vector<std::string> installed();
 std::string detect();
 std::string effective_command();
+// The terminal command for a folder: effective_command() with "%d" replaced by the quoted folder.
+std::string command_for(const std::string &folder);
 // "%d" in the command is replaced by the folder; else the folder is the working dir.
 bool open(const std::string &folder, GError **err);
 

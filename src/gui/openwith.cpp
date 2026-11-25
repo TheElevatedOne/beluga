@@ -106,10 +106,9 @@ void open_files(GtkWidget *parent, const std::vector<OpenTarget> &targets)
     std::vector<OpenTarget> normal;
     Ref<GtkWidget> par = Ref<GtkWidget>::share(parent);
     for (auto &t : targets) {
-        char *path = g_file_get_path(t.file.get());
-        if (path && t.mime == "application/x-desktop") {
-            GDesktopAppInfo *app = g_desktop_app_info_new_from_filename(path);
-            g_free(path);
+        std::string path = take(g_file_get_path(t.file.get()));
+        if (!path.empty() && t.mime == "application/x-desktop") {
+            GDesktopAppInfo *app = g_desktop_app_info_new_from_filename(path.c_str());
             if (app) {
                 GdkAppLaunchContext *ctx = gdk_display_get_app_launch_context(gtk_widget_get_display(parent));
                 GError *err = nullptr;
@@ -122,8 +121,7 @@ void open_files(GtkWidget *parent, const std::vector<OpenTarget> &targets)
                 continue;
             }
         }
-        if (path && t.executable) {
-            g_free(path);
+        if (!path.empty() && t.executable) {
             ExecAction a = settings().executableAction;
             if (a == ExecAction::Run) {
                 run_executable(parent, t.file.get());
@@ -140,8 +138,6 @@ void open_files(GtkWidget *parent, const std::vector<OpenTarget> &targets)
                     });
                 continue;
             }
-        } else {
-            g_free(path);
         }
         normal.push_back(t);
     }

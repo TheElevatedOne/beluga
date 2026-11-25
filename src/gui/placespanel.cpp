@@ -10,6 +10,7 @@
 #include "trash.hpp"
 
 #include <algorithm>
+#include <cstring>
 
 namespace beluga {
 
@@ -111,7 +112,7 @@ PlacesPanel::PlacesPanel()
         auto *pp = static_cast<PlacesPanel *>(p);
         std::string s = g_value_get_string(v) ? g_value_get_string(v) : "";
         if (!starts_with(s, "beluga-place:")) return FALSE;
-        int from = std::atoi(s.c_str() + 10);
+        int from = std::atoi(s.c_str() + strlen("beluga-place:"));
         GtkListBoxRow *row = gtk_list_box_get_row_at_y(GTK_LIST_BOX(pp->list_), (int)y);
         RowData *d = row_data(row);
         int to = d && d->placeIndex >= 0 ? d->placeIndex : (int)Places::instance().list().size();
@@ -271,7 +272,8 @@ void PlacesPanel::activateRow(GtkListBoxRow *row, bool newTab)
     if (!d) return;
     if (!d->deviceId.empty() && d->uri.empty()) {
         std::string id = d->deviceId;
-        DeviceManager::instance().mount(id, [this, newTab](bool ok, const std::string &result) {
+        DeviceManager::instance().mount(id, [this, alive = std::weak_ptr<void>(life_), newTab](bool ok, const std::string &result) {
+            if (alive.expired()) return;
             if (!ok) {
                 if (onError) onError(printf_str(_("Could not mount the device: %s"), result.c_str()));
                 return;
@@ -415,13 +417,13 @@ void PlacesPanel::runRowAction(const std::string &action)
         s.save();
         notify_settings_changed();
     } else if (action == "mount") {
-        DeviceManager::instance().mount(id, [this](bool ok, const std::string &r) {
-            if (!ok && onError) onError(printf_str(_("Could not mount the device: %s"), r.c_str()));
+        DeviceManager::instance().mount(id, [this, alive = std::weak_ptr<void>(life_)](bool ok, const std::string &r) {
+            if (!alive.expired() && !ok && onError) onError(printf_str(_("Could not mount the device: %s"), r.c_str()));
         });
     } else if (action == "unmount" || action == "eject") {
         bool eject = action == "eject";
-        auto done = [this, eject](bool ok, const std::string &r) {
-            if (!ok && onError) onError(printf_str(eject ? _("Could not safely remove the device: %s") : _("Could not unmount the device: %s"), r.c_str()));
+        auto done = [this, alive = std::weak_ptr<void>(life_), eject](bool ok, const std::string &r) {
+            if (!alive.expired() && !ok && onError) onError(printf_str(eject ? _("Could not safely remove the device: %s") : _("Could not unmount the device: %s"), r.c_str()));
         };
         // Leave the device first if a view shows it.
         if (!uri.empty() && starts_with(current_, uri) && onNavigate) onNavigate(settings().homeUrl);

@@ -144,15 +144,27 @@ void App::shutdown()
 void App::updateAccels()
 {
     if (!app_) return;
+    for (GtkShortcutTrigger *t : triggers_) g_object_unref(t);
+    triggers_.clear();
     for (auto &s : shortcut_table()) {
         std::vector<std::string> accels = s.defaults;
         auto it = settings().shortcuts.find(s.action);
         if (it != settings().shortcuts.end()) accels = it->second;
         std::vector<const char *> p;
-        for (auto &a : accels) p.push_back(a.c_str());
+        for (auto &a : accels) {
+            p.push_back(a.c_str());
+            if (GtkShortcutTrigger *t = gtk_shortcut_trigger_parse_string(a.c_str())) triggers_.push_back(t);
+        }
         p.push_back(nullptr);
         gtk_application_set_accels_for_action(app_, s.action, p.data());
     }
+}
+
+bool App::isShortcut(GdkEvent *event) const
+{
+    for (GtkShortcutTrigger *t : triggers_)
+        if (gtk_shortcut_trigger_trigger(t, event, FALSE) == GDK_KEY_MATCH_EXACT) return true;
+    return false;
 }
 
 void App::applySettings() { updateAccels(); }
@@ -300,13 +312,26 @@ struct ReadData {
     std::vector<Ref<GFile>> files;
 };
 
-std::string read_stream(GInputStream *in)
+// Reads a clipboard stream to the end without blocking the main loop: another program writes it,
+// and a slow or hung one would otherwise freeze the window.
+void read_stream(GInputStream *in, std::function<void(std::string)> done)
 {
-    std::string out;
-    char buf[4096];
-    gssize n;
-    while (out.size() < (1u << 20) && (n = g_input_stream_read(in, buf, sizeof buf, nullptr, nullptr)) > 0) out.append(buf, n);
-    return out;
+    GOutputStream *out = g_memory_output_stream_new_resizable();
+    g_output_stream_splice_async(
+        out, in, GOutputStreamSpliceFlags(G_OUTPUT_STREAM_SPLICE_CLOSE_SOURCE | G_OUTPUT_STREAM_SPLICE_CLOSE_TARGET),
+        G_PRIORITY_DEFAULT, nullptr,
+        [](GObject *src, GAsyncResult *res, gpointer p) {
+            std::unique_ptr<std::function<void(std::string)>> fn(static_cast<std::function<void(std::string)> *>(p));
+            GOutputStream *o = G_OUTPUT_STREAM(src);
+            std::string s;
+            if (g_output_stream_splice_finish(o, res, nullptr) >= 0) {
+                auto *m = G_MEMORY_OUTPUT_STREAM(o);
+                s.assign(static_cast<const char *>(g_memory_output_stream_get_data(m)), g_memory_output_stream_get_data_size(m));
+            }
+            g_object_unref(o);
+            (*fn)(std::move(s));
+        },
+        new std::function<void(std::string)>(std::move(done)));
 }
 } // namespace
 
@@ -325,14 +350,16 @@ void App::readClipboard(std::function<void(std::vector<Ref<GFile>>, bool)> cb)
             std::unique_ptr<ReadData> d(static_cast<ReadData *>(p));
             GInputStream *in = gdk_clipboard_read_finish(GDK_CLIPBOARD(src), res, nullptr, nullptr);
             if (!in) return;
-            auto lines = split(read_stream(in), '\n');
+            read_stream(in, [d = std::shared_ptr<ReadData>(d.release())](std::string text) {
+                auto lines = split(text, '\n');
+                bool cut = !lines.empty() && trim(lines[0]) == "cut";
+                for (size_t i = 1; i < lines.size(); ++i) {
+                    std::string u = trim(lines[i]);
+                    if (!u.empty()) d->files.push_back(Ref<GFile>(g_file_new_for_uri(u.c_str())));
+                }
+                d->cb(d->files, cut);
+            });
             g_object_unref(in);
-            bool cut = !lines.empty() && trim(lines[0]) == "cut";
-            for (size_t i = 1; i < lines.size(); ++i) {
-                std::string u = trim(lines[i]);
-                if (!u.empty()) d->files.push_back(Ref<GFile>(g_file_new_for_uri(u.c_str())));
-            }
-            d->cb(d->files, cut);
         }, data);
         return;
     }
@@ -353,12 +380,14 @@ void App::readClipboard(std::function<void(std::vector<Ref<GFile>>, bool)> cb)
         gdk_clipboard_read_async(GDK_CLIPBOARD(src), mimes, G_PRIORITY_DEFAULT, nullptr, [](GObject *src2, GAsyncResult *res2, gpointer p2) {
             std::unique_ptr<ReadData> d2(static_cast<ReadData *>(p2));
             GInputStream *in = gdk_clipboard_read_finish(GDK_CLIPBOARD(src2), res2, nullptr, nullptr);
-            bool cut = false;
-            if (in) {
-                cut = trim(read_stream(in)) == "1";
-                g_object_unref(in);
+            if (!in) {
+                d2->cb(d2->files, false);
+                return;
             }
-            d2->cb(d2->files, cut);
+            read_stream(in, [d3 = std::shared_ptr<ReadData>(d2.release())](std::string text) {
+                d3->cb(d3->files, trim(text) == "1");
+            });
+            g_object_unref(in);
         }, d.release());
     }, data);
 }
