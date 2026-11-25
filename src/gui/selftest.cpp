@@ -7,6 +7,7 @@
 #include "fileops.hpp"
 #include "mainwindow.hpp"
 #include "places.hpp"
+#include "placespanel.hpp"
 #include "preferences.hpp"
 #include "search.hpp"
 #include "settings.hpp"
@@ -302,6 +303,17 @@ void gui_tests(GtkApplication *app)
     int sf = 0, sd = 0;
     w->activeView()->countItems(sf, sd, size);
     check(sf == 30, printf_str("search results in the view (%d)", sf));
+
+    // Removing a place from its context menu rebuilds the list while the menu is still a child of it.
+    {
+        Places &pl = Places::instance();
+        size_t n = pl.list().size();
+        pl.add({"Menu Test", file_uri(F("Folder 1").get()), "folder", false});
+        wait_ms(200);
+        w->placesPanel()->runMenuAction((int)n, "remove");
+        wait_ms(300);
+        check(pl.list().size() == n, "remove a place from its context menu");
+    }
 
     // Run the actions a user reaches from menus and shortcuts on a selected file, so that the
     // dialogs and panels they open are built at least once (catches crashes under ASan).

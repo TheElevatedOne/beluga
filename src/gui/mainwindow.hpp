@@ -42,6 +42,7 @@ public:
     TabPage *tab(int index) const { return index >= 0 && index < (int)tabs_.size() ? tabs_[index].get() : nullptr; }
     TabPage *activeTab() const;
     ViewContainer *activeContainer() const;
+    PlacesPanel *placesPanel() const { return places_.get(); }
     View *activeView() const;
     void activateTab(int index);
     void present();

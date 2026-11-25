@@ -19,6 +19,8 @@ public:
     GtkWidget *widget() const { return root_; }
     void setCurrentUri(const std::string &uri);
     void focus();
+    // Self-test: opens the context menu of a place and runs one of its actions while the menu is up.
+    void runMenuAction(int placeIndex, const std::string &action);
 
     std::function<void(const std::string &uri)> onNavigate;
     std::function<void(const std::string &uri)> onOpenInNewTab;

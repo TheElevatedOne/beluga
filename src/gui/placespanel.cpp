@@ -133,6 +133,11 @@ PlacesPanel::~PlacesPanel()
     Places::instance().removeListener(placesListener_);
     DeviceManager::instance().removeListener(devicesListener_);
     remove_settings_listener(settingsListener_);
+    // A context menu that is still open hangs off root_.
+    for (GtkWidget *c = gtk_widget_get_first_child(root_), *next; c; c = next) {
+        next = gtk_widget_get_next_sibling(c);
+        if (GTK_IS_POPOVER(c)) gtk_widget_unparent(c);
+    }
     g_object_unref(root_);
 }
 
@@ -141,7 +146,7 @@ void PlacesPanel::focus() { gtk_widget_grab_focus(list_); }
 void PlacesPanel::rebuild()
 {
     rebuilding_ = true;
-    gtk_list_box_remove_all(GTK_LIST_BOX(list_));
+    list_box_remove_rows(GTK_LIST_BOX(list_));
     const Settings &s = settings();
     auto hiddenSection = [&](PlaceSection sec) {
         return std::find(s.hiddenPlaceSections.begin(), s.hiddenPlaceSections.end(), section_id(sec)) != s.hiddenPlaceSections.end();
@@ -297,7 +302,7 @@ void PlacesPanel::showMenu(GtkListBoxRow *row, double x, double y)
         g_action_map_add_action(G_ACTION_MAP(group), G_ACTION(a));
         g_object_unref(a);
     }
-    gtk_widget_insert_action_group(list_, "places", G_ACTION_GROUP(group));
+    gtk_widget_insert_action_group(root_, "places", G_ACTION_GROUP(group));
     g_object_unref(group);
 
     GMenu *m = g_menu_new();
@@ -335,8 +340,26 @@ void PlacesPanel::showMenu(GtkListBoxRow *row, double x, double y)
     g_menu_append(s, _("Add Entry…"), "places.add");
     g_menu_append(s, settings().showHiddenPlaces || !settings().hiddenPlaceSections.empty() ? _("Hide Hidden Entries") : _("Show All Entries"),
                   "places.show-all");
-    popup_menu(list_, G_MENU_MODEL(m), x, y);
+    // The menu hangs off the scrolled window, not the list box: GtkListBox can't remove a child that
+    // isn't a row, so rebuilding or disposing it with the menu attached loops forever.
+    graphene_point_t in = GRAPHENE_POINT_INIT((float)x, (float)y), pt = in;
+    if (!gtk_widget_compute_point(list_, root_, &in, &pt)) pt = in;
+    popup_menu(root_, G_MENU_MODEL(m), pt.x, pt.y);
     g_object_unref(m);
+}
+
+void PlacesPanel::runMenuAction(int placeIndex, const std::string &action)
+{
+    for (GtkWidget *c = gtk_widget_get_first_child(list_); c; c = gtk_widget_get_next_sibling(c)) {
+        if (!GTK_IS_LIST_BOX_ROW(c)) continue;
+        RowData *d = row_data(GTK_LIST_BOX_ROW(c));
+        if (!d || d->placeIndex != placeIndex) continue;
+        graphene_point_t in = GRAPHENE_POINT_INIT(4, 4), pt = GRAPHENE_POINT_INIT(0, 0);
+        if (!gtk_widget_compute_point(c, list_, &in, &pt)) pt = GRAPHENE_POINT_INIT(0, 0);
+        showMenu(GTK_LIST_BOX_ROW(c), pt.x, pt.y);
+        runRowAction(action);
+        return;
+    }
 }
 
 void PlacesPanel::runRowAction(const std::string &action)

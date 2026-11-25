@@ -277,7 +277,7 @@ struct ActionsUi {
 
 void fill_actions(ActionsUi *ui)
 {
-    gtk_list_box_remove_all(GTK_LIST_BOX(ui->list));
+    list_box_remove_rows(GTK_LIST_BOX(ui->list));
     for (auto &a : ui->actions) {
         GtkWidget *r = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
         gtk_box_append(GTK_BOX(r), gtk_image_new_from_icon_name(a.icon.empty() ? "system-run" : a.icon.c_str()));

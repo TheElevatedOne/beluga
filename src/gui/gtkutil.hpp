@@ -24,4 +24,17 @@ inline GdkTexture *texture_from_pixbuf(GdkPixbuf *p)
     return t;
 }
 
+// Removes the rows of a list box. gtk_list_box_remove_all() loops forever when the box also holds
+// a popover (a context menu parented to it), because it can't remove that child.
+inline void list_box_remove_rows(GtkListBox *box)
+{
+    // Removing a row also removes its header, which may be the next sibling, so start over each time.
+    for (;;) {
+        GtkWidget *c = gtk_widget_get_first_child(GTK_WIDGET(box));
+        while (c && !GTK_IS_LIST_BOX_ROW(c)) c = gtk_widget_get_next_sibling(c);
+        if (!c) break;
+        gtk_list_box_remove(box, c);
+    }
+}
+
 } // namespace beluga

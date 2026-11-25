@@ -442,7 +442,7 @@ void LocationBar::updateCompletion()
         gtk_scrolled_window_set_child(GTK_SCROLLED_WINDOW(scroll), completionList_);
         gtk_popover_set_child(GTK_POPOVER(completionPop_), scroll);
     }
-    gtk_list_box_remove_all(GTK_LIST_BOX(completionList_));
+    list_box_remove_rows(GTK_LIST_BOX(completionList_));
     for (auto &[name, isDir] : matches) {
         GtkWidget *row = gtk_list_box_row_new();
         GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
