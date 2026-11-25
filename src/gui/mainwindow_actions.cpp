@@ -5,6 +5,7 @@
 #include "app.hpp"
 #include "customactions.hpp"
 #include "dialogs.hpp"
+#include "diskusagewindow.hpp"
 #include "fileops.hpp"
 #include "gtkutil.hpp"
 #include "openwith.hpp"
@@ -40,6 +41,16 @@ struct Binding {
 
 ViewContainer *AC(MainWindow *w) { return w->activeContainer(); }
 View *AV(MainWindow *w) { return w->activeView(); }
+
+// The local folder Disk Usage looks at: the one selected folder, else the folder shown.
+std::string disk_usage_target(MainWindow *w)
+{
+    auto items = w->selectedItems();
+    if (items.size() == 1 && item_data(items[0]).isDir) return take(g_file_get_path(item_data(items[0]).file.get()));
+    View *v = AV(w);
+    if (!v || v->isVirtual()) return {};
+    return take(g_file_get_path(v->locationFile().get()));
+}
 
 const char *mode_name(int m) { return m == ModeCompact ? "compact" : m == ModeDetails ? "details" : m == ModeColumns ? "columns" : "icons"; }
 
@@ -209,6 +220,10 @@ const std::vector<ActionDef> &action_defs()
         {"show-groups", nullptr, "false", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setGrouped(!AV(w)->props().groupedSorting); }},
         {"show-previews", nullptr, "true", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setPreviewsShown(!AV(w)->props().previewsShown); }},
         {"show-hidden", nullptr, "false", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setHiddenShown(!AV(w)->props().hiddenFilesShown); }},
+        {"disk-usage", nullptr, nullptr, [](MainWindow *w, GVariant *) {
+             std::string p = disk_usage_target(w);
+             if (!p.empty()) show_disk_usage(w, p);
+         }},
         {"remember-view", nullptr, "false", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setOwnProps(!AV(w)->hasOwnProps()); }},
         {"view-properties", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              View *v = AV(w);
@@ -514,6 +529,7 @@ void MainWindow::updateActions()
     enable(this, "open-containing-folder", sel && virt && !trashView);
     enable(this, "folder-properties", !virt);
     enable(this, "remember-view", v && !virt);
+    enable(this, "disk-usage", !disk_usage_target(this).empty());
     enable(this, "properties", sel || !virt);
 
     if (v) {

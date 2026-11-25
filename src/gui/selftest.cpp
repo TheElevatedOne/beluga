@@ -4,6 +4,8 @@
 // Everything runs in a throwaway profile (XDG dirs point into the temporary folder), so
 // the user's settings, places and trash are never touched.
 #include "app.hpp"
+#include "diskusage.hpp"
+#include "diskusagewindow.hpp"
 #include "fileops.hpp"
 #include "mainwindow.hpp"
 #include "places.hpp"
@@ -18,6 +20,7 @@
 #include <glib/gstdio.h>
 
 #include <cstring>
+#include <unistd.h>
 #include <iostream>
 
 namespace beluga {
@@ -159,6 +162,28 @@ void core_tests()
     check(found == 2, printf_str("search by content (%d)", found));
     SearchQuery back;
     check(SearchQuery::fromUri(q.toUri(), back) && back.text == "needle" && back.content, "search URI round trip");
+
+    // Disk usage: sizes add up, a hard link counts once, a folder lists its biggest files.
+    write("du/a/big.bin", std::string(300000, 'x'));
+    write("du/a/small.txt", "hello");
+    write("du/b/mid.bin", std::string(100000, 'y'));
+    link((g_root + "/files/du/a/big.bin").c_str(), (g_root + "/files/du/a/big-link.bin").c_str());
+    {
+        du::Scanner sc;
+        du::Options o;
+        o.apparentSize = true;
+        o.filesPerFolder = 1;
+        auto tree = sc.run(g_root + "/files/du", o);
+        const du::Node *a = tree && !tree->children.empty() ? tree->children[0].get() : nullptr;
+        check(tree && tree->files == 3 && tree->folders == 2 && tree->size == 400005,
+              printf_str("disk usage adds up and counts a hard link once (%llu bytes)", tree ? (unsigned long long)tree->size : 0ull));
+        check(a && a->name == "a" && a->children.size() == 2 && a->children[0]->size == 300000 && a->children[1]->rest()
+                  && a->children[1]->files == 1,
+              "disk usage lists the biggest files first and sums the rest");
+        du::Totals t = du::totals(g_root + "/files/du", true, 1);
+        check(tree && t.files == 3 && t.folders == 2 && t.size == tree->size, "folder totals match the tree");
+    }
+    trash::delete_recursive(F("du").get(), nullptr, nullptr);
 
     check(collate_key("file2", 0) < collate_key("file10", 0), "natural sorting");
     check(filter_match("*.txt", "notes.TXT") && filter_match("ote", "Notes") && !filter_match("*.md", "a.txt"), "filter patterns");
@@ -389,6 +414,16 @@ void gui_tests(GtkApplication *app)
     g_list_free(tops);
     wait_ms(300);
     check(dialogs >= 3, printf_str("menu actions and dialogs (%d dialogs)", dialogs));
+
+    {
+        GtkWidget *duw = show_disk_usage(w, g_root + "/files");
+        gint64 until = g_get_monotonic_time() + 10 * G_USEC_PER_SEC;
+        while (disk_usage_busy(duw) && g_get_monotonic_time() < until) wait_ms(50);
+        wait_ms(300);
+        check(!disk_usage_busy(duw) && disk_usage_rows(duw) >= 4, printf_str("disk usage window (%u rows)", disk_usage_rows(duw)));
+        shoot(duw, "10-disk-usage");
+        gtk_window_destroy(GTK_WINDOW(duw));
+    }
 
     w->activeContainer()->navigate("trash:///");
     wait_ms(600);

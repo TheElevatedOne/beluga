@@ -39,6 +39,9 @@ struct Settings {
     int closeSplitViewChoice = 0;        // 0 active, 1 inactive, 2 right
     bool useTabForSwitchingSplitView = false;
     bool globalViewProps = true;
+    // Disk Usage window
+    bool duApparentSize = false;
+    bool duOneFileSystem = true;
     bool renameInline = true;
     bool showSelectionToggle = true;
     bool showPasteBarAfterCopying = true;

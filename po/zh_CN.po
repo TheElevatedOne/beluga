@@ -4,8 +4,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -456,6 +454,9 @@ msgstr "打开终端"
 msgid "Open Terminal Here"
 msgstr "在此位置打开终端"
 
+msgid "Disk Usage"
+msgstr ""
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -754,6 +755,72 @@ msgid "This location is not a folder."
 msgstr ""
 
 #, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] ""
+
+msgid "(another drive, not counted)"
+msgstr ""
+
+msgid "Some of its contents could not be read."
+msgstr ""
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid "This folder could not be read."
+msgstr ""
+
+#, c-format
+msgid "%s in files"
+msgstr ""
+
+#, c-format
+msgid "%s on disk"
+msgstr ""
+
+#, c-format
+msgid "%s files and %s folders, read in %.1f s"
+msgstr ""
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ""
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives that are mounted inside this folder."
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "共享"
+
+msgid "Files"
+msgstr ""
+
+#, c-format
 msgid "%zu items selected"
 msgstr ""
 
@@ -1008,6 +1075,9 @@ msgstr ""
 msgid "Open Terminal _Here"
 msgstr ""
 
+msgid "_Disk Usage…"
+msgstr ""
+
 msgid "_Settings"
 msgstr ""
 
@@ -1050,9 +1120,7 @@ msgid "New Folder"
 msgstr "新建文件夹"
 
 #, c-format
-msgid ""
-"Create new folder in:\n"
-"%s"
+msgid "Create new folder in:\n%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1062,9 +1130,7 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid ""
-"Create new file in:\n"
-"%s"
+msgid "Create new file in:\n%s"
 msgstr ""
 
 msgid "Could not create the file."

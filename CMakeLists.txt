@@ -42,6 +42,8 @@ add_library(belugacore STATIC
   src/core/devices.cpp
   src/core/customactions.cpp
   src/core/dirsize.cpp
+  src/core/walker.cpp
+  src/core/diskusage.cpp
 )
 target_include_directories(belugacore PUBLIC src/core)
 target_compile_definitions(belugacore PUBLIC ${BELUGA_DEFS})
@@ -82,6 +84,7 @@ add_executable(beluga
   src/gui/infopanel.cpp
   src/gui/jobs.cpp
   src/gui/dialogs.cpp
+  src/gui/diskusagewindow.cpp
   src/gui/properties.cpp
   src/gui/openwith.cpp
   src/gui/preferences.cpp

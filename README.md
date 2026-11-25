@@ -53,8 +53,15 @@ limits, places) live in Beluga's own preferences.
   into) and undo/redo.
 - **Trash without gvfs**: browse, restore and empty the freedesktop.org trash, including trash folders on other
   drives. Optional age and size limits.
-- **Search without an indexer**: by name (wildcards work), by text content, file type and modification date, from
-  the current folder, your home folder or everywhere. Results stream in while the search runs.
+- **Search without an indexer**: no Baloo or other index. By name (wildcards work), by text content, file type
+  and modification date, from the current folder, your home folder or everywhere. Local folders are read on all
+  CPU cores, and results stream in while the search runs.
+- **Disk Usage** (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>, **Tools → Disk Usage…** or a folder's context menu):
+  what takes up the space in a folder, as a tree with the biggest items first, like
+  [dust](https://github.com/bootandy/dust). It reads folders the way dust does, on all CPU cores, and counts hard
+  links once: 2 million files under `/usr` take 0.3 s with a warm cache (dust: 1.4 s, `du`: 2.6 s), with the
+  same total as `du`. Shows disk usage or file sizes, and can stay on one drive. Double-click an entry to open it.
+  Folder sizes in the views and in Properties use the same reader.
 - **Previews**: the shared freedesktop thumbnail cache, filled by gdk-pixbuf, the system's `.thumbnailer`
   programs and Tumbler when installed.
 - **Devices**: drives and partitions from UDisks2 with usage bars, mount, unmount and safe removal.
@@ -70,6 +77,8 @@ limits, places) live in Beluga's own preferences.
   corners, no titlebar of its own.
 
 ![Split view with tabs, the Folders panel and the Information panel](docs/screenshots/split.png)
+
+![The Disk Usage window: a folder's contents as a tree, biggest first, with size, share bars and file counts](docs/screenshots/disk-usage.png)
 
 ## Requirements
 
@@ -141,6 +150,7 @@ Open folders from other applications in a new tab** is on.
 | <kbd>Space</kbd> | selection mode |
 | <kbd>Alt</kbd>+<kbd>←</kbd> / <kbd>Backspace</kbd> / <kbd>Alt</kbd>+<kbd>↑</kbd> | back / back / up |
 | <kbd>Ctrl</kbd>+<kbd>M</kbd> | show the menu bar |
+| <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd> | Disk Usage of the selected or current folder |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>,</kbd> | Configure Beluga |
 
 Every shortcut can be changed in **Configure Beluga → Keyboard Shortcuts**. Typing a name in a view jumps to the
@@ -152,7 +162,7 @@ first matching item.
   stash, "Act as Administrator", Get New Stuff), Baloo tags/ratings/comments, version control plugins and
   browsing inside archives.
 - **Moved into Beluga**: single/double click behaviour, the terminal command, trash limits, places and keyboard
-  shortcuts.
+  shortcuts. **Disk Usage** takes the place of Filelight.
 - **Places**: on the first start Beluga copies your entries from `~/.local/share/user-places.xbel` (Dolphin's
   places) or GTK bookmarks. After that it keeps its own list.
 - **View properties** are stored in Beluga's data folder instead of `.directory` files inside your folders.
@@ -172,7 +182,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 46 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 50 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.
@@ -198,8 +208,8 @@ repository's history and the KDE Frameworks and GTK catalogs installed on the ma
 - Translations cover about 40% of the messages.
 - No browsing inside archives (`.zip`, `.tar.gz`, …). Use **Extract Here**.
 - Network locations (`sftp://`, `smb://`, `network:///`) need gvfs.
-- Search reads the disk every time. Content search reads text files up to 64 MiB and skips binary files, so it
-  does not find text inside PDFs or office documents.
+- Search has no index: it reads the folders every time, on all CPU cores. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
+  inside PDFs or office documents.
 - The Information panel shows image dimensions and audio/video duration, but no tags (artist, album, camera, …).
 
 ## License

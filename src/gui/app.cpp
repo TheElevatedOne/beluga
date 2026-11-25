@@ -81,6 +81,7 @@ const std::vector<ShortcutInfo> &shortcut_table()
         {"win.prev-tab", N_("Previous Tab"), {"<Control><Shift>ISO_Left_Tab", "<Control><Shift>Tab", "<Control>Page_Up"}},
         {"win.open-terminal", N_("Open Terminal"), {"F4", "<Shift>F4"}},
         {"win.open-terminal-here", N_("Open Terminal Here"), {"<Alt><Shift>F4"}},
+        {"win.disk-usage", N_("Disk Usage"), {"<Control><Shift>u"}},
         {"win.preferences", N_("Configure Beluga"), {"<Control><Shift>comma"}},
     };
     return t;

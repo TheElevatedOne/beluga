@@ -2,9 +2,11 @@
 #include "search.hpp"
 
 #include "fileops.hpp"
+#include "walker.hpp"
 
 #include <cstring>
 #include <deque>
+#include <mutex>
 #include <thread>
 
 namespace beluga {
@@ -171,7 +173,94 @@ bool SearchJob::matches(GFile *f, GFileInfo *info)
     return false;
 }
 
+bool SearchJob::matchesLocal(const std::string &path, const char *name, const struct stat &st)
+{
+    const bool isDir = S_ISDIR(st.st_mode);
+    if (q_.modifiedWithinDays > 0) {
+        gint64 limit = g_get_real_time() / G_USEC_PER_SEC - (gint64)q_.modifiedWithinDays * 86400;
+        if ((gint64)st.st_mtime < limit) return false;
+    }
+    if (q_.minSize > 0 && (isDir || (guint64)st.st_size < q_.minSize)) return false;
+    if (!q_.type.empty() && !isDir) {
+        // The type from the name; the file's first bytes only when the name doesn't tell.
+        gboolean uncertain = FALSE;
+        std::string ct = take(g_content_type_guess(name, nullptr, 0, &uncertain));
+        if (uncertain && S_ISREG(st.st_mode)) {
+            Ref<GFile> f(g_file_new_for_path(path.c_str()));
+            Ref<GFileInfo> info(g_file_query_info(f.get(), G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE, G_FILE_QUERY_INFO_NONE, nullptr, nullptr));
+            if (info) ct = content_type_of(info.get());
+        }
+        if (!type_matches(q_.type, ct, false)) return false;
+    } else if (!type_matches(q_.type, {}, isDir)) {
+        return false;
+    }
+    if (q_.text.empty()) return true;
+    std::string display = g_utf8_validate(name, -1, nullptr) ? std::string(name) : take(g_filename_display_name(name));
+    if (filter_match(q_.text, display)) return true;
+    if (q_.content && S_ISREG(st.st_mode)) {
+        Ref<GFile> f(g_file_new_for_path(path.c_str()));
+        return contentMatches(f.get());
+    }
+    return false;
+}
+
 void SearchJob::run()
+{
+    Ref<GFile> root(g_file_new_for_uri(q_.rootUri.c_str()));
+    std::string path = take(g_file_get_path(root.get()));
+    if (!path.empty() && g_file_is_native(root.get())) runLocal(path);
+    else runGio();
+}
+
+void SearchJob::runLocal(const std::string &rootPath)
+{
+    auto self = shared_from_this();
+    std::mutex m;
+    std::vector<std::pair<Ref<GFile>, Ref<GFileInfo>>> batch;
+    gint64 lastFlush = g_get_monotonic_time();
+    auto flushLocked = [&] {
+        if (batch.empty()) return;
+        auto moved = std::make_shared<std::vector<std::pair<Ref<GFile>, Ref<GFileInfo>>>>(std::move(batch));
+        batch.clear();
+        run_on_main([self, moved] {
+            if (!self->cancelled_) self->onResults_(std::move(*moved));
+        });
+        lastFlush = g_get_monotonic_time();
+    };
+    Walker w;
+    w.onEntry = [&](const WalkEntry &e, void **) {
+        if (cancelled_) {
+            w.cancel();
+            return false;
+        }
+        std::string path = e.dir + "/" + e.name;
+        const bool isDir = S_ISDIR(e.st.st_mode);
+        if (isDir) folders_++;
+        if (matchesLocal(path, e.name, e.st)) {
+            Ref<GFile> f(g_file_new_for_path(path.c_str()));
+            Ref<GFileInfo> info(g_file_query_info(f.get(), kItemAttributes, G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, nullptr));
+            if (info) {
+                std::lock_guard<std::mutex> l(m);
+                batch.emplace_back(f, info);
+                if (batch.size() >= 200 || g_get_monotonic_time() - lastFlush > 150000) flushLocked();
+            }
+        }
+        // Not into the FUSE mounts of remote locations (gvfs) under /run/user.
+        return isDir && path != "/run/user";
+    };
+    Walker::Options wo;
+    wo.skipHidden = !q_.includeHidden;
+    w.run(rootPath, nullptr, wo);
+    {
+        std::lock_guard<std::mutex> l(m);
+        flushLocked();
+    }
+    run_on_main([self] {
+        if (self->onDone_) self->onDone_();
+    });
+}
+
+void SearchJob::runGio()
 {
     std::vector<std::pair<Ref<GFile>, Ref<GFileInfo>>> batch;
     gint64 lastFlush = g_get_monotonic_time();

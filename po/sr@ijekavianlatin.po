@@ -9,8 +9,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2026-10-09 10:30+0200\n"
 "Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -134,9 +132,7 @@ msgid "Images"
 msgstr ""
 
 msgid "Audio"
-msgstr ""
-"audio|/|$[svojstva naredbeno 'detalji:\n"
-"audio' spiskovno 'dopunski detalji: audio']"
+msgstr "audio|/|$[svojstva naredbeno 'detalji:\naudio' spiskovno 'dopunski detalji: audio']"
 
 msgid "Folders"
 msgstr "Fascikle"
@@ -244,7 +240,7 @@ msgstr ""
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
@@ -263,67 +259,43 @@ msgid "%s copy %d"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-"ime|/|$[svojstva naredbeno 'detalji:\n"
-"ime' spiskovno 'dopunski detalji: ime']"
+msgstr "ime|/|$[svojstva naredbeno 'detalji:\nime' spiskovno 'dopunski detalji: ime']"
 
 msgid "Size"
-msgstr ""
-"veličina|/|$[svojstva naredbeno 'detalji:\n"
-"veličina' spiskovno 'dopunski detalji: veličina']"
+msgstr "veličina|/|$[svojstva naredbeno 'detalji:\nveličina' spiskovno 'dopunski detalji: veličina']"
 
 msgid "Modified"
-msgstr ""
-"izmijenjeno|/|$[svojstva naredbeno 'detalji:\n"
-"izmijenjeno' spiskovno 'dopunski detalji: izmijenjeno']"
+msgstr "izmijenjeno|/|$[svojstva naredbeno 'detalji:\nizmijenjeno' spiskovno 'dopunski detalji: izmijenjeno']"
 
 msgid "Created"
-msgstr ""
-"stvoreno|/|$[svojstva naredbeno 'detalji:\n"
-"stvoreno' spiskovno 'dopunski detalji: stvoreno']"
+msgstr "stvoreno|/|$[svojstva naredbeno 'detalji:\nstvoreno' spiskovno 'dopunski detalji: stvoreno']"
 
 msgid "Accessed"
-msgstr ""
-"pristupljeno|/|$[svojstva naredbeno 'detalji:\n"
-"pristupljeno' spiskovno 'dopunski detalji: pristupljeno']"
+msgstr "pristupljeno|/|$[svojstva naredbeno 'detalji:\npristupljeno' spiskovno 'dopunski detalji: pristupljeno']"
 
 msgid "Type"
-msgstr ""
-"tip|/|$[svojstva naredbeno 'detalji:\n"
-"tip' spiskovno 'dopunski detalji: tip']"
+msgstr "tip|/|$[svojstva naredbeno 'detalji:\ntip' spiskovno 'dopunski detalji: tip']"
 
 msgid "Extension"
 msgstr ""
 
 msgid "Permissions"
-msgstr ""
-"dozvole|/|$[svojstva naredbeno 'detalji:\n"
-"dozvole' spiskovno 'dopunski detalji: dozvole']"
+msgstr "dozvole|/|$[svojstva naredbeno 'detalji:\ndozvole' spiskovno 'dopunski detalji: dozvole']"
 
 msgid "Owner"
-msgstr ""
-"vlasnik|/|$[svojstva naredbeno 'detalji:\n"
-"vlasnik' spiskovno 'dopunski detalji: vlasnik']"
+msgstr "vlasnik|/|$[svojstva naredbeno 'detalji:\nvlasnik' spiskovno 'dopunski detalji: vlasnik']"
 
 msgid "User Group"
-msgstr ""
-"korisnička grupa|/|$[svojstva naredbeno 'detalji:\n"
-"korisnička grupa' spiskovno 'dopunski detalji: korisnička grupa']"
+msgstr "korisnička grupa|/|$[svojstva naredbeno 'detalji:\nkorisnička grupa' spiskovno 'dopunski detalji: korisnička grupa']"
 
 msgid "Path"
-msgstr ""
-"putanja|/|$[svojstva naredbeno 'detalji:\n"
-"putanja' spiskovno 'dopunski detalji: putanja']"
+msgstr "putanja|/|$[svojstva naredbeno 'detalji:\nputanja' spiskovno 'dopunski detalji: putanja']"
 
 msgid "Link Destination"
-msgstr ""
-"odredište veze|/|$[svojstva naredbeno 'detalji:\n"
-"odredište veze' spiskovno 'dopunski detalji: odredište veze']"
+msgstr "odredište veze|/|$[svojstva naredbeno 'detalji:\nodredište veze' spiskovno 'dopunski detalji: odredište veze']"
 
 msgid "Deletion Time"
-msgstr ""
-"vrijeme brisanja|/|$[svojstva naredbeno 'detalji:\n"
-"vrijeme brisanja' spiskovno 'dopunski detalji: vrijeme brisanja']"
+msgstr "vrijeme brisanja|/|$[svojstva naredbeno 'detalji:\nvrijeme brisanja' spiskovno 'dopunski detalji: vrijeme brisanja']"
 
 msgid "Original Location"
 msgstr ""
@@ -496,6 +468,9 @@ msgstr "Otvori terminal"
 msgid "Open Terminal Here"
 msgstr "Otvori terminal ovdje"
 
+msgid "Disk Usage"
+msgstr ""
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -577,7 +552,7 @@ msgid "Open in Split View"
 msgstr "Otvori u podijeljenom prikazu"
 
 msgid "Open Containing Folder"
-msgstr "Otvori fasciklu stavke"
+msgstr "Otvori obuhvatajuću fasciklu"
 
 msgid "Paste into Folder"
 msgstr ""
@@ -794,6 +769,78 @@ msgid "This location is not a folder."
 msgstr ""
 
 #, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+msgid "(another drive, not counted)"
+msgstr ""
+
+msgid "Some of its contents could not be read."
+msgstr ""
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid "This folder could not be read."
+msgstr ""
+
+#, c-format
+msgid "%s in files"
+msgstr ""
+
+#, c-format
+msgid "%s on disk"
+msgstr ""
+
+#, c-format
+msgid "%s files and %s folders, read in %.1f s"
+msgstr ""
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives that are mounted inside this folder."
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Dijeljenje"
+
+msgid "Files"
+msgstr ""
+
+#, c-format
 msgid "%zu items selected"
 msgstr ""
 
@@ -831,9 +878,7 @@ msgid "Points to:"
 msgstr "Veza ka:"
 
 msgid "Permissions:"
-msgstr ""
-"dozvole|/|$[svojstva naredbeno 'detalji:\n"
-"dozvole' spiskovno 'dopunski detalji: dozvole']:"
+msgstr "dozvole|/|$[svojstva naredbeno 'detalji:\ndozvole' spiskovno 'dopunski detalji: dozvole']:"
 
 msgid "Owner:"
 msgstr "Vlasnik:"
@@ -845,9 +890,7 @@ msgid "Dimensions:"
 msgstr "dimenzije:"
 
 msgid "Duration:"
-msgstr ""
-"trajanje|/|$[svojstva naredbeno 'detalji:\n"
-"trajanje' spiskovno 'dopunski detalji: trajanje']:"
+msgstr "trajanje|/|$[svojstva naredbeno 'detalji:\ntrajanje' spiskovno 'dopunski detalji: trajanje']:"
 
 msgid "Broken Link"
 msgstr ""
@@ -1052,6 +1095,9 @@ msgstr ""
 msgid "Open Terminal _Here"
 msgstr ""
 
+msgid "_Disk Usage…"
+msgstr ""
+
 msgid "_Settings"
 msgstr ""
 
@@ -1094,9 +1140,7 @@ msgid "New Folder"
 msgstr "nova‑fascikla"
 
 #, c-format
-msgid ""
-"Create new folder in:\n"
-"%s"
+msgid "Create new folder in:\n%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1106,9 +1150,7 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid ""
-"Create new file in:\n"
-"%s"
+msgid "Create new file in:\n%s"
 msgstr ""
 
 msgid "Could not create the file."

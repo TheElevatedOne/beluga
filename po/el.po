@@ -20,8 +20,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2026-10-23 14:43+0300\n"
 "Last-Translator: Petros Vidalis <pvidalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -206,7 +204,7 @@ msgid "Undo: %s"
 msgstr ""
 
 msgid "Redo"
-msgstr "Επαναφορά"
+msgstr "Επανάληψη"
 
 #, c-format
 msgid "Redo: %s"
@@ -475,6 +473,9 @@ msgstr "Άνοιγμα τερματικού"
 msgid "Open Terminal Here"
 msgstr "Άνοιγμα τερματικού εδώ"
 
+msgid "Disk Usage"
+msgstr ""
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -723,10 +724,10 @@ msgid "modified %s"
 msgstr ""
 
 msgid "Folder Already Exists"
-msgstr "Ο φάκελος υπάρχει ήδη"
+msgstr "Ο φάκελος Υπάρχει Ήδη"
 
 msgid "File Already Exists"
-msgstr "Το αρχείο υπάρχει ήδη"
+msgstr "Το αρχείο Υπάρχει Ήδη"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
@@ -770,6 +771,74 @@ msgid "Retry"
 msgstr "Επανάληψη"
 
 msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "(another drive, not counted)"
+msgstr ""
+
+msgid "Some of its contents could not be read."
+msgstr ""
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid "This folder could not be read."
+msgstr ""
+
+#, c-format
+msgid "%s in files"
+msgstr ""
+
+#, c-format
+msgid "%s on disk"
+msgstr ""
+
+#, c-format
+msgid "%s files and %s folders, read in %.1f s"
+msgstr ""
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives that are mounted inside this folder."
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Κοινοποίηση"
+
+msgid "Files"
 msgstr ""
 
 #, c-format
@@ -1027,6 +1096,9 @@ msgstr ""
 msgid "Open Terminal _Here"
 msgstr ""
 
+msgid "_Disk Usage…"
+msgstr ""
+
 msgid "_Settings"
 msgstr ""
 
@@ -1069,9 +1141,7 @@ msgid "New Folder"
 msgstr "Νέος φάκελος"
 
 #, c-format
-msgid ""
-"Create new folder in:\n"
-"%s"
+msgid "Create new folder in:\n%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1081,9 +1151,7 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid ""
-"Create new file in:\n"
-"%s"
+msgid "Create new file in:\n%s"
 msgstr ""
 
 msgid "Could not create the file."
@@ -1663,7 +1731,7 @@ msgid "Opens with:"
 msgstr ""
 
 msgid "Free space:"
-msgstr ""
+msgstr "Ελεύθερος χώρος:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
@@ -1672,8 +1740,8 @@ msgstr ""
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu byte"
+msgstr[1] "%llu bytes"
 
 msgid "Forbidden"
 msgstr "Απαγορευμένο"

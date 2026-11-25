@@ -7,8 +7,14 @@
   returns the folder to the shared style. **Adjust View Display Style** can now apply to the current folder (and its
   subfolders) when all folders share one style, and "All folders" sets the shared style and clears the folders'
   own settings.
-- Changed: Beluga has its own icon, a white beluga whale on a folder (`org.beluga.Beluga`), instead of the
-  system file manager icon.
+- Added: **Disk Usage** (Ctrl+Shift+U, Tools → Disk Usage…, a folder's context menu): a tree of what takes up the
+  space in a folder, biggest first, with share bars and file counts, like dust. It reads folders on all CPU cores
+  and counts hard links once (2 million files under `/usr`: 0.3 s with a warm cache, the same total as `du`).
+  Disk usage or apparent size; optionally stays on one drive. Double-click opens an entry in Beluga.
+- Changed: searching local folders, folder sizes in the views and the size in Properties use the same parallel
+  reader instead of GIO. Search still needs no index (no Baloo).
+- Changed: Beluga has its own icon (`org.beluga.Beluga`) instead of the system file manager icon: a folder in the
+  style of Dolphin's icon, with a beluga where Dolphin has its dolphin.
 - Fixed: typing in the location bar, the filter, the search field or an inline rename no longer triggers
   shortcuts. Delete used to move the selected files to the trash, and Backspace, Space, `/`, Ctrl+C/V/X/Z/A
   acted on the files instead of the text.

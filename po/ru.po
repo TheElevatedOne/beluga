@@ -20,8 +20,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2026-11-11 22:59+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -103,7 +101,7 @@ msgid "Remote"
 msgstr "В сети"
 
 msgid "Recent"
-msgstr "Недавно изменённые"
+msgstr "Недавние"
 
 msgid "Search For"
 msgstr "Поиск"
@@ -481,6 +479,9 @@ msgstr "Открыть терминал"
 msgid "Open Terminal Here"
 msgstr "Открыть терминал в этой папке"
 
+msgid "Disk Usage"
+msgstr ""
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -529,7 +530,7 @@ msgid "Other Application…"
 msgstr "Другое приложение…"
 
 msgid "Open With"
-msgstr "Открыть с помощью…"
+msgstr "Открыть с помощью"
 
 msgid "Empty Trash"
 msgstr "Очистить корзину"
@@ -776,6 +777,78 @@ msgid "Retry"
 msgstr "Повторить"
 
 msgid "This location is not a folder."
+msgstr ""
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+msgid "(another drive, not counted)"
+msgstr ""
+
+msgid "Some of its contents could not be read."
+msgstr ""
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid "This folder could not be read."
+msgstr ""
+
+#, c-format
+msgid "%s in files"
+msgstr ""
+
+#, c-format
+msgid "%s on disk"
+msgstr ""
+
+#, c-format
+msgid "%s files and %s folders, read in %.1f s"
+msgstr ""
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives that are mounted inside this folder."
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Публикация"
+
+msgid "Files"
 msgstr ""
 
 #, c-format
@@ -1033,6 +1106,9 @@ msgstr ""
 msgid "Open Terminal _Here"
 msgstr ""
 
+msgid "_Disk Usage…"
+msgstr ""
+
 msgid "_Settings"
 msgstr ""
 
@@ -1075,9 +1151,7 @@ msgid "New Folder"
 msgstr "Новая папка"
 
 #, c-format
-msgid ""
-"Create new folder in:\n"
-"%s"
+msgid "Create new folder in:\n%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1087,9 +1161,7 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid ""
-"Create new file in:\n"
-"%s"
+msgid "Create new file in:\n%s"
 msgstr ""
 
 msgid "Could not create the file."

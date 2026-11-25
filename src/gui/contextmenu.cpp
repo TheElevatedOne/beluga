@@ -191,7 +191,11 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
         }
         item(s, _("Show Hidden Files"), "win.show-hidden");
         if (!v->isVirtual()) item(s, _("Remember View for This Folder"), "win.remember-view");
-        if (!v->isVirtual()) item(sec(m), _("Properties"), "win.folder-properties", "document-properties");
+        if (!v->isVirtual()) {
+            GMenu *t = sec(m);
+            item(t, _("Disk Usage"), "win.disk-usage", "drive-harddisk");
+            item(t, _("Properties"), "win.folder-properties", "document-properties");
+        }
     } else if (v->isTrash()) {
         GMenu *s = sec(m);
         item(s, _("Restore"), "win.restore", "edit-undo");
@@ -231,6 +235,7 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
         s = sec(m);
         if (items.size() == 1 && allDirs && st.ctxAddToPlaces) item(s, _("Add to Places"), "win.add-to-places", "list-add");
         if (st.ctxOpenTerminal) item(s, _("Open Terminal Here"), "win.open-terminal-here", "utilities-terminal");
+        if (items.size() == 1 && allDirs) item(s, _("Disk Usage"), "win.disk-usage", "drive-harddisk");
         if (items.size() == 1 && item_data(items[0]).isLink) item(s, _("Show Target"), "win.show-target", "go-jump");
         add_custom_actions(m, items);
         item(sec(m), _("Properties"), "win.properties", "document-properties");

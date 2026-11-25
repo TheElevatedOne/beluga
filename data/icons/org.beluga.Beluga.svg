@@ -1,29 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <!-- Beluga: a white beluga whale swimming across a folder. -->
-  <!-- folder, back with tab -->
-  <path d="M10 18 H48 L56 26 H118 V112 H10 Z" fill="#1a5fb4" stroke="#0b2c56" stroke-width="4" stroke-linejoin="round"/>
-  <!-- folder, front -->
-  <path d="M10 38 H118 V112 H10 Z" fill="#3584e4" stroke="#0b2c56" stroke-width="4" stroke-linejoin="round"/>
-  <!-- waves -->
-  <path d="M18 103 Q28 98 38 103 T58 103 T78 103 T98 103 T110 101" fill="none" stroke="#99c1f1" stroke-width="3" stroke-linecap="round"/>
-  <g stroke="#241f31" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
-    <!-- tail flukes, spread sideways at the top of the raised tail -->
-    <path d="M30 52 C24 45 16 42 8 43 C11 36 20 34 28 40 C31 33 39 30 47 32 C43 39 37 46 33 52 Z" fill="#deddda"/>
-    <!-- body: tail curving up on the left, the round melon of the head on the right -->
-    <path d="M33 48 C38 59 48 62 60 57 C72 51 82 46 93 46 C107 46 118 55 118 67 C118 73 115 77 109 79 C97 89 77 92 61 89 C45 86 34 73 28 53 Z" fill="#ffffff"/>
-    <!-- belly shade -->
-    <path d="M50 83 C64 88 82 89 98 84" fill="none" stroke="#c0bfbc" stroke-width="3"/>
-    <!-- flipper -->
-    <path d="M80 89 C79 96 74 101 67 103 C68 96 70 91 73 89 Z" fill="#deddda"/>
-    <!-- mouth -->
-    <path d="M105 76 Q111 77 116 72" fill="none" stroke-width="2.5"/>
-  </g>
-  <!-- eye -->
-  <circle cx="102" cy="64" r="3.2" fill="#241f31"/>
-  <!-- spout from the blowhole -->
-  <g fill="#99c1f1" stroke="#0b2c56" stroke-width="2">
-    <circle cx="90" cy="38" r="3.5"/>
-    <circle cx="84" cy="29" r="3"/>
-    <circle cx="96" cy="29" r="3"/>
+  <!-- Beluga: a Breeze-style folder with a beluga's head on the front, after the layout of Dolphin's icon. -->
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2e7ec6"/>
+      <stop offset="1" stop-color="#2a76ba"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ebebeb"/>
+    </linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ba1ea"/>
+      <stop offset="0.55" stop-color="#3a8ad3"/>
+      <stop offset="1" stop-color="#2870af"/>
+    </linearGradient>
+    <!-- the front flap: lower on the left, a slanted step, then straight to the right edge -->
+    <clipPath id="flap">
+      <path d="M6 58 H42 L50 49 H122 V113 Q122 115 120 115 H8 Q6 115 6 113 Z"/>
+    </clipPath>
+  </defs>
+  <!-- back with tab -->
+  <path d="M8 11 H55 L63 20 H120 Q122 20 122 22 V113 H6 V13 Q6 11 8 11 Z" fill="url(#back)"/>
+  <path d="M8 11 H55 L63 20 H120 Q122 20 122 22 V23 Q122 21 120 21 H62.5 L54.5 12 H8 Q6 12 6 14 V13 Q6 11 8 11 Z" fill="#ffffff" opacity="0.25"/>
+  <!-- sheet of paper -->
+  <rect x="12" y="29" width="104" height="40" fill="url(#sheet)"/>
+  <!-- front flap -->
+  <path d="M6 58 H42 L50 49 H122 V113 Q122 115 120 115 H8 Q6 115 6 113 Z" fill="url(#front)"/>
+  <path d="M6 58 H42 L50 49 H122 V50.5 H50.7 L42.7 59.5 H6 Z" fill="#ffffff" opacity="0.3"/>
+  <path d="M6 113 Q6 115 8 115 H120 Q122 115 122 113 V112 H6 Z" fill="#000000" opacity="0.1"/>
+  <!-- beluga: a whole whale swimming across the flap, tail flukes raised on the left, round melon and short
+       beak on the right -->
+  <g clip-path="url(#flap)">
+    <g transform="translate(0 4)" fill="#ffffff" opacity="0.38">
+      <path d="M25 74 C20 69 13 66 6 66 C9 60 17 59 23 64 C25 58 30 55 36 55 C34 61 30 67 27 74 Z"/>
+      <path d="M24 72 C34 76 46 69 64 67 C84 64 104 66 112 76 C116 81 115 86 111 88 C116 89 118 92 115 95 C105 100 88 102 72 100 C52 98 36 90 26 79 Z"/>
+      <path d="M80 99 C79 104 75 108 69 110 C70 105 72 101 75 99 Z"/>
+    </g>
+    <g transform="translate(0 4)">
+      <!-- smile -->
+      <path d="M113 93 C106 95.5 99 95 94 92.5" fill="none" stroke="#358cda" stroke-width="2" stroke-linecap="round"/>
+      <!-- eye -->
+      <circle cx="98" cy="79" r="3.4" fill="#358cda"/>
+    </g>
   </g>
 </svg>

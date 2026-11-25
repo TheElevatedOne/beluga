@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "dirsize.hpp"
 
+#include "diskusage.hpp"
 #include "fileops.hpp"
 #include "workqueue.hpp"
 
@@ -55,7 +56,15 @@ void request(const std::string &uri, bool includeHidden, bool wantSize, int dept
             }
             g_object_unref(en);
         }
-        guint64 size = wantSize && count >= 0 ? tree_size(dir, 0, depthLimit, owner) : 0;
+        guint64 size = 0;
+        if (wantSize && count >= 0) {
+            // Local folders with the fast walker (one thread: several folders are measured at once).
+            std::string path = take(g_file_get_path(dir));
+            if (!path.empty() && g_file_is_native(dir))
+                size = du::totals(path, true, 1, depthLimit, [owner] { return owner.expired(); }).size;
+            else
+                size = tree_size(dir, 0, depthLimit, owner);
+        }
         g_object_unref(dir);
         run_on_main([owner, cb, count, size] {
             if (!owner.expired()) cb(count, size);

@@ -194,6 +194,10 @@ void transfer(IO &io, ST &st)
     io.b(S, "Content", st.searchContent);
     io.b(S, "IncludeHidden", st.searchHidden);
 
+    const char *DU = "DiskUsage";
+    io.b(DU, "ApparentSize", st.duApparentSize);
+    io.b(DU, "OneFileSystem", st.duOneFileSystem);
+
     const char *W = "Window";
     io.i(W, "Width", st.windowWidth);
     io.i(W, "Height", st.windowHeight);

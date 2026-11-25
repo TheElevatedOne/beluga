@@ -2,6 +2,7 @@
 #include "properties.hpp"
 
 #include "dialogs.hpp"
+#include "diskusage.hpp"
 #include "fileops.hpp"
 #include "gtkutil.hpp"
 #include "openwith.hpp"
@@ -234,7 +235,17 @@ GtkWidget *general_page(State *st, GtkWidget *parent)
         auto t = std::make_shared<Totals>();
         for (auto &f : files) {
             Totals one;
-            walk(f.get(), one, alive, 0);
+            // Local folders with the parallel walker; remote ones through GIO.
+            std::string path = take(g_file_get_path(f.get()));
+            struct stat ps;
+            if (!path.empty() && g_file_is_native(f.get()) && lstat(path.c_str(), &ps) == 0 && S_ISDIR(ps.st_mode)) {
+                du::Totals r = du::totals(path, true, 0, -1, [alive] { return alive.expired(); });
+                one.size = r.size;
+                one.files = (int)r.files;
+                one.folders = (int)r.folders;
+            } else {
+                walk(f.get(), one, alive, 0);
+            }
             t->size += one.size;
             t->files += one.files;
             t->folders += one.folders;

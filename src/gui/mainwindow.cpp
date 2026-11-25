@@ -474,6 +474,8 @@ void MainWindow::buildMenus()
     s = section(tools);
     add(s, _("Open _Terminal"), "win.open-terminal");
     add(s, _("Open Terminal _Here"), "win.open-terminal-here");
+    s = section(tools);
+    add(s, _("_Disk Usage…"), "win.disk-usage");
 
     GMenu *set = submenu(bar, _("_Settings"));
     s = section(set);
