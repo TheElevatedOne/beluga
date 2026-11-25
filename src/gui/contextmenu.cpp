@@ -4,6 +4,7 @@
 #include "mainwindow.hpp"
 
 #include "app.hpp"
+#include "archive.hpp"
 #include "customactions.hpp"
 #include "dialogs.hpp"
 #include "openwith.hpp"
@@ -206,18 +207,20 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
     } else {
         bool allDirs = std::all_of(items.begin(), items.end(), [](BelugaItem *i) { return item_data(i).isDir; });
         bool anyDir = std::any_of(items.begin(), items.end(), [](BelugaItem *i) { return item_data(i).isDir; });
+        // Entries of an archive open as extracted copies; other programs can't read them in place.
+        bool inArchive = archive::is_archive_uri(v->location());
         GMenu *s = sec(m);
         if (allDirs) {
             if (items.size() == 1) item(s, _("Open"), "win.open-selected", "document-open");
             if (st.ctxOpenInNewTab) item(s, items.size() == 1 ? _("Open in New Tab") : _("Open in New Tabs"), "win.open-in-new-tab", "tab-new");
             if (st.ctxOpenInNewWindow) item(s, _("Open in New Window"), "win.open-in-new-window", "window-new");
             if (st.ctxOpenInSplitView && items.size() == 1) item(s, _("Open in Split View"), "win.open-in-split-view", "view-split-left-right");
-        } else if (!anyDir) {
+        } else if (!anyDir && !inArchive) {
             add_open_with(s, items);
         } else {
             item(s, _("Open"), "win.open-selected", "document-open");
         }
-        if (v->isVirtual()) item(s, _("Open Containing Folder"), "win.open-containing-folder", "document-open-folder");
+        if (v->isVirtual() && !inArchive) item(s, _("Open Containing Folder"), "win.open-containing-folder", "document-open-folder");
         s = sec(m);
         item(s, _("Cut"), "win.cut", "edit-cut");
         item(s, _("Copy"), "win.copy", "edit-copy");
@@ -237,7 +240,7 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
         if (st.ctxOpenTerminal) item(s, _("Open Terminal Here"), "win.open-terminal-here", "utilities-terminal");
         if (items.size() == 1 && allDirs) item(s, _("Disk Usage"), "win.disk-usage", "drive-harddisk");
         if (items.size() == 1 && item_data(items[0]).isLink) item(s, _("Show Target"), "win.show-target", "go-jump");
-        add_custom_actions(m, items);
+        if (!inArchive) add_custom_actions(m, items);
         item(sec(m), _("Properties"), "win.properties", "document-properties");
     }
     popup_menu(v->itemView()->widget(), G_MENU_MODEL(m), x, y);

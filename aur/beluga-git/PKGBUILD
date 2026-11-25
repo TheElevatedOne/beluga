@@ -8,12 +8,11 @@ pkgdesc='File manager written with plain GTK 4, a rewrite of KDE Dolphin without
 arch=('x86_64' 'aarch64')
 url='https://github.com/TheElevatedOne/beluga'
 license=('GPL-2.0-or-later')
-depends=('gcc-libs' 'glibc' 'glib2' 'gtk4' 'gdk-pixbuf2' 'pango' 'cairo')
+depends=('gcc-libs' 'glibc' 'glib2' 'gtk4' 'gdk-pixbuf2' 'pango' 'cairo' 'libarchive')
 makedepends=('git' 'cmake' 'pkgconf' 'gettext')
 optdepends=('udisks2: drives and partitions in the Places panel'
             'tumbler: previews of videos and documents'
-            'gvfs: network locations such as sftp:// and smb://'
-            'libarchive: the "Extract Here" and compress actions (bsdtar)')
+            'gvfs: network locations such as sftp:// and smb://')
 provides=('beluga')
 conflicts=('beluga')
 source=("$_pkgname::git+$url.git")

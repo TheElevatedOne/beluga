@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "view.hpp"
 
+#include "archive.hpp"
 #include "dialogs.hpp"
 #include "dirsize.hpp"
 #include "gtkutil.hpp"
@@ -121,10 +122,12 @@ View::View()
     };
     iv_->canDropOn = [this](int pos) {
         BelugaItem *it = itemAt(pos);
-        return it && item_data(it).isDir && !isTrash();
+        return it && item_data(it).isDir && !isTrash() && !archive::is_archive_uri(uri_);
     };
     iv_->onDrop = [this](int pos, GdkFileList *files, GdkModifierType mods, double x, double y) {
-        if (!onDrop) return;
+        // Archives are read only. (A drop without a folder means "to the trash", which only the Trash view
+        // should ever ask for.)
+        if (!onDrop || archive::is_archive_uri(uri_)) return;
         BelugaItem *it = pos >= 0 ? itemAt(pos) : nullptr;
         if (it) {
             onDrop(item_data(it).file.get(), files, mods, x, y);
@@ -808,7 +811,7 @@ void View::setSelectionMode(bool on)
 void View::requestPreview(BelugaItem *item)
 {
     ItemData &d = item_data(item);
-    if (d.isDir) {
+    if (d.isDir || archive::is_archive_uri(d.uri)) {
         d.thumbFailed = true;
         return;
     }

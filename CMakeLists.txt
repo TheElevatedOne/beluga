@@ -16,6 +16,7 @@ find_package(PkgConfig REQUIRED)
 find_package(Threads REQUIRED)
 pkg_check_modules(GIO REQUIRED IMPORTED_TARGET glib-2.0>=2.84 gio-2.0 gio-unix-2.0 gdk-pixbuf-2.0)
 pkg_check_modules(GTK4 REQUIRED IMPORTED_TARGET gtk4>=4.16)
+pkg_check_modules(ARCHIVE REQUIRED IMPORTED_TARGET libarchive>=3.6)
 
 set(BELUGA_APP_ID "org.beluga.Beluga")
 set(BELUGA_WARN -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers)
@@ -44,11 +45,12 @@ add_library(belugacore STATIC
   src/core/dirsize.cpp
   src/core/walker.cpp
   src/core/diskusage.cpp
+  src/core/archive.cpp
 )
 target_include_directories(belugacore PUBLIC src/core)
 target_compile_definitions(belugacore PUBLIC ${BELUGA_DEFS})
 target_compile_options(belugacore PRIVATE ${BELUGA_WARN})
-target_link_libraries(belugacore PUBLIC PkgConfig::GIO Threads::Threads)
+target_link_libraries(belugacore PUBLIC PkgConfig::GIO PkgConfig::ARCHIVE Threads::Threads)
 
 # The app icon, also built into the binary (see data/beluga.gresource.xml).
 find_program(GLIB_COMPILE_RESOURCES glib-compile-resources)

@@ -130,7 +130,14 @@ void App::init(GtkApplication *app)
                         if (w->activeContainer()) w->activeContainer()->showMessage(warn, false);
                 });
         }).detach();
-    if (!selftest) ownFileManagerName();
+    if (!selftest) {
+        ownFileManagerName();
+        // Files opened from archives last session (copies in the cache) are no longer needed.
+        std::thread([] {
+            Ref<GFile> d(g_file_new_for_path((std::string(g_get_user_cache_dir()) + "/beluga/archives").c_str()));
+            trash::delete_recursive(d.get(), nullptr, nullptr);
+        }).detach();
+    }
 }
 
 void App::shutdown()

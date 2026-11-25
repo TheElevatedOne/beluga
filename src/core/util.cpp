@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "util.hpp"
 
+#include "archive.hpp"
+
 #include <glib/gstdio.h>
 #include <sys/stat.h>
 
@@ -218,13 +220,17 @@ std::string dirname_of(const std::string &path) { return take(g_path_get_dirname
 bool is_trash_uri(const std::string &uri) { return starts_with(uri, "trash:"); }
 bool is_search_uri(const std::string &uri) { return starts_with(uri, "search:"); }
 bool is_recent_uri(const std::string &uri) { return starts_with(uri, "recent:"); }
-bool is_virtual_uri(const std::string &uri) { return is_trash_uri(uri) || is_search_uri(uri) || is_recent_uri(uri); }
+bool is_virtual_uri(const std::string &uri)
+{
+    return is_trash_uri(uri) || is_search_uri(uri) || is_recent_uri(uri) || archive::is_archive_uri(uri);
+}
 
 std::string file_uri(GFile *f) { return f ? take(g_file_get_uri(f)) : std::string(); }
 
 std::string display_location(GFile *f)
 {
     if (!f) return {};
+    if (g_file_has_uri_scheme(f, archive::kScheme)) return archive::display_path(file_uri(f));
     char *p = g_file_get_path(f);
     if (p) return take(p);
     return take(g_file_get_parse_name(f));
@@ -232,6 +238,7 @@ std::string display_location(GFile *f)
 
 std::string display_location(const std::string &uri)
 {
+    if (archive::is_archive_uri(uri)) return archive::display_path(uri);
     if (is_virtual_uri(uri)) return uri;
     GFile *f = g_file_new_for_uri(uri.c_str());
     std::string s = display_location(f);

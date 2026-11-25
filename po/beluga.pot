@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 16:40+0100\n"
+"POT-Creation-Date: 2026-11-25 17:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/core/archive.cpp:62
+msgid "The archive could not be opened."
+msgstr ""
+
+#: src/core/archive.cpp:231 src/core/archive.cpp:258 src/core/archive.cpp:355
+msgid "The archive could not be read."
+msgstr ""
+
+#: src/core/archive.cpp:271 src/core/archive.cpp:335
+msgid "Cancelled."
+msgstr ""
+
+#: src/core/archive.cpp:334
+msgid "This file is encrypted with a password."
+msgstr ""
+
+#: src/core/archive.cpp:337
+#, c-format
+msgid "“%s” could not be read."
+msgstr ""
+
+#: src/core/archive.cpp:370
+msgid "This is not a file in an archive."
+msgstr ""
 
 #: src/core/customactions.cpp:26
 msgid "Extract Here"
@@ -51,58 +76,67 @@ msgstr ""
 msgid "The device is gone."
 msgstr ""
 
-#: src/core/fileops.cpp:184
+#: src/core/fileops.cpp:187
 #, c-format
 msgid "Copying %s to “%s”"
 msgstr ""
 
-#: src/core/fileops.cpp:185
+#: src/core/fileops.cpp:188
 #, c-format
 msgid "Moving %s to “%s”"
 msgstr ""
 
-#: src/core/fileops.cpp:186
+#: src/core/fileops.cpp:189
 #, c-format
 msgid "Linking %s in “%s”"
 msgstr ""
 
-#: src/core/fileops.cpp:187
+#: src/core/fileops.cpp:190
 #, c-format
 msgid "Moving %s to the trash"
 msgstr ""
 
-#: src/core/fileops.cpp:188
+#: src/core/fileops.cpp:191
 #, c-format
 msgid "Deleting %s"
 msgstr ""
 
-#: src/core/fileops.cpp:189
+#: src/core/fileops.cpp:192
 #, c-format
 msgid "Restoring %s"
 msgstr ""
 
-#: src/core/fileops.cpp:190
+#: src/core/fileops.cpp:193
 msgid "Emptying the trash"
 msgstr ""
 
-#: src/core/fileops.cpp:250
+#: src/core/fileops.cpp:253
 msgid "Counting files…"
 msgstr ""
 
-#: src/core/fileops.cpp:347
+#: src/core/fileops.cpp:350
 #, c-format
 msgid "“%s”: %s"
 msgstr ""
 
-#: src/core/fileops.cpp:395
+#: src/core/fileops.cpp:398
 msgid "A folder cannot be moved into itself."
 msgstr ""
 
-#: src/core/fileops.cpp:395
+#: src/core/fileops.cpp:398
 msgid "A folder cannot be copied into itself."
 msgstr ""
 
-#: src/core/places.cpp:24 src/gui/mainwindow.cpp:451
+#: src/core/fileops.cpp:580
+msgid "Files can only be extracted into local folders."
+msgstr ""
+
+#: src/core/fileops.cpp:594
+#, c-format
+msgid "Extracting from “%s”"
+msgstr ""
+
+#: src/core/places.cpp:24 src/gui/mainwindow.cpp:453
 msgid "Places"
 msgstr ""
 
@@ -122,7 +156,7 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: src/core/places.cpp:75 src/gui/app.cpp:69 src/gui/mainwindow.cpp:272
+#: src/core/places.cpp:75 src/gui/app.cpp:69 src/gui/mainwindow.cpp:274
 msgid "Home"
 msgstr ""
 
@@ -148,13 +182,13 @@ msgid "Pictures"
 msgstr ""
 
 #: src/core/places.cpp:82 src/core/places.cpp:96 src/core/search.cpp:64
-#: src/gui/preferences.cpp:517 src/gui/searchbar.cpp:108
+#: src/gui/preferences.cpp:518 src/gui/searchbar.cpp:108
 msgid "Videos"
 msgstr ""
 
 #: src/core/places.cpp:88 src/gui/infopanel.cpp:71 src/gui/infopanel.cpp:164
-#: src/gui/locationbar.cpp:199 src/gui/preferences.cpp:591
-#: src/gui/viewcontainer.cpp:498
+#: src/gui/locationbar.cpp:201 src/gui/preferences.cpp:592
+#: src/gui/viewcontainer.cpp:518
 msgid "Trash"
 msgstr ""
 
@@ -163,11 +197,11 @@ msgid "Network"
 msgstr ""
 
 #: src/core/places.cpp:92 src/gui/infopanel.cpp:72 src/gui/infopanel.cpp:164
-#: src/gui/locationbar.cpp:200 src/gui/viewcontainer.cpp:499
+#: src/gui/locationbar.cpp:202 src/gui/viewcontainer.cpp:519
 msgid "Recent Files"
 msgstr ""
 
-#: src/core/places.cpp:94 src/core/search.cpp:62 src/gui/preferences.cpp:517
+#: src/core/places.cpp:94 src/core/search.cpp:62 src/gui/preferences.cpp:518
 #: src/gui/searchbar.cpp:108
 msgid "Images"
 msgstr ""
@@ -176,8 +210,8 @@ msgstr ""
 msgid "Audio"
 msgstr ""
 
-#: src/core/search.cpp:60 src/gui/mainwindow.cpp:452 src/gui/searchbar.cpp:108
-#: src/gui/view.cpp:362
+#: src/core/search.cpp:60 src/gui/mainwindow.cpp:454 src/gui/searchbar.cpp:108
+#: src/gui/view.cpp:365
 msgid "Folders"
 msgstr ""
 
@@ -218,8 +252,8 @@ msgstr ""
 msgid "The trash is larger than its limit of %s. Consider emptying it."
 msgstr ""
 
-#: src/core/undo.cpp:41 src/gui/app.cpp:36 src/gui/contextmenu.cpp:203
-#: src/gui/contextmenu.cpp:223
+#: src/core/undo.cpp:41 src/gui/app.cpp:36 src/gui/contextmenu.cpp:204
+#: src/gui/contextmenu.cpp:226
 msgid "Copy"
 msgstr ""
 
@@ -232,12 +266,12 @@ msgid "Link"
 msgstr ""
 
 #: src/core/undo.cpp:44 src/gui/app.cpp:28 src/gui/dialogs.cpp:223
-#: src/gui/view.cpp:951
+#: src/gui/view.cpp:954
 msgid "Rename"
 msgstr ""
 
-#: src/core/undo.cpp:45 src/gui/app.cpp:29 src/gui/contextmenu.cpp:229
-#: src/gui/mainwindow_actions.cpp:682
+#: src/core/undo.cpp:45 src/gui/app.cpp:29 src/gui/contextmenu.cpp:232
+#: src/gui/mainwindow_actions.cpp:687
 msgid "Move to Trash"
 msgstr ""
 
@@ -267,67 +301,67 @@ msgstr ""
 msgid "Redo: %s"
 msgstr ""
 
-#: src/core/util.cpp:120
+#: src/core/util.cpp:122
 #, c-format
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/core/util.cpp:125
+#: src/core/util.cpp:127
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/core/util.cpp:126
+#: src/core/util.cpp:128
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/core/util.cpp:129
+#: src/core/util.cpp:131
 #, c-format
 msgid "%s, %s"
 msgstr ""
 
-#: src/core/util.cpp:153
+#: src/core/util.cpp:155
 #, c-format
 msgid "Today at %s"
 msgstr ""
 
-#: src/core/util.cpp:154
+#: src/core/util.cpp:156
 #, c-format
 msgid "Yesterday at %s"
 msgstr ""
 
-#: src/core/util.cpp:155
+#: src/core/util.cpp:157
 msgid "%A at %H:%M"
-msgstr ""
-
-#: src/core/util.cpp:186
-#, c-format
-msgid "%ld s"
-msgstr ""
-
-#: src/core/util.cpp:187
-#, c-format
-msgid "%ld min %ld s"
 msgstr ""
 
 #: src/core/util.cpp:188
 #, c-format
+msgid "%ld s"
+msgstr ""
+
+#: src/core/util.cpp:189
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#: src/core/util.cpp:190
+#, c-format
 msgid "%ld h %ld min"
 msgstr ""
 
-#: src/core/util.cpp:303
+#: src/core/util.cpp:310
 #, c-format
 msgid "%s copy"
 msgstr ""
 
-#: src/core/util.cpp:305
+#: src/core/util.cpp:312
 #, c-format
 msgid "%s copy %d"
 msgstr ""
@@ -340,8 +374,8 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: src/core/viewprops.cpp:18 src/gui/app.cpp:84 src/gui/contextmenu.cpp:196
-#: src/gui/contextmenu.cpp:238
+#: src/core/viewprops.cpp:18 src/gui/app.cpp:84 src/gui/contextmenu.cpp:197
+#: src/gui/contextmenu.cpp:241
 msgid "Disk Usage"
 msgstr ""
 
@@ -401,7 +435,7 @@ msgstr ""
 msgid "New Window"
 msgstr ""
 
-#: src/gui/app.cpp:23 src/gui/mainwindow.cpp:68 src/gui/tabpage.cpp:63
+#: src/gui/app.cpp:23 src/gui/mainwindow.cpp:70 src/gui/tabpage.cpp:63
 msgid "New Tab"
 msgstr ""
 
@@ -409,7 +443,7 @@ msgstr ""
 msgid "Close Tab"
 msgstr ""
 
-#: src/gui/app.cpp:25 src/gui/mainwindow.cpp:382
+#: src/gui/app.cpp:25 src/gui/mainwindow.cpp:384
 msgid "Undo Close Tab"
 msgstr ""
 
@@ -417,43 +451,43 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
-#: src/gui/app.cpp:30 src/gui/contextmenu.cpp:204 src/gui/contextmenu.cpp:230
-#: src/gui/mainwindow_actions.cpp:680
+#: src/gui/app.cpp:30 src/gui/contextmenu.cpp:205 src/gui/contextmenu.cpp:233
+#: src/gui/mainwindow_actions.cpp:685
 msgid "Delete"
 msgstr ""
 
-#: src/gui/app.cpp:31 src/gui/contextmenu.cpp:228 src/gui/preferences.cpp:583
+#: src/gui/app.cpp:31 src/gui/contextmenu.cpp:231 src/gui/preferences.cpp:584
 msgid "Duplicate Here"
 msgstr ""
 
-#: src/gui/app.cpp:32 src/gui/contextmenu.cpp:197 src/gui/contextmenu.cpp:205
-#: src/gui/contextmenu.cpp:241 src/gui/placespanel.cpp:339
+#: src/gui/app.cpp:32 src/gui/contextmenu.cpp:198 src/gui/contextmenu.cpp:206
+#: src/gui/contextmenu.cpp:244 src/gui/placespanel.cpp:339
 #: src/gui/properties.cpp:439
 msgid "Properties"
 msgstr ""
 
-#: src/gui/app.cpp:35 src/gui/contextmenu.cpp:222
+#: src/gui/app.cpp:35 src/gui/contextmenu.cpp:225
 msgid "Cut"
 msgstr ""
 
-#: src/gui/app.cpp:37 src/gui/contextmenu.cpp:179 src/gui/contextmenu.cpp:224
-#: src/gui/mainwindow.cpp:409 src/gui/preferences.cpp:582
+#: src/gui/app.cpp:37 src/gui/contextmenu.cpp:180 src/gui/contextmenu.cpp:227
+#: src/gui/mainwindow.cpp:411 src/gui/preferences.cpp:583
 msgid "Copy Location"
 msgstr ""
 
-#: src/gui/app.cpp:38 src/gui/contextmenu.cpp:175
+#: src/gui/app.cpp:38 src/gui/contextmenu.cpp:176
 msgid "Paste"
 msgstr ""
 
-#: src/gui/app.cpp:39 src/gui/mainwindow.cpp:294
+#: src/gui/app.cpp:39 src/gui/mainwindow.cpp:296
 msgid "Filter"
 msgstr ""
 
-#: src/gui/app.cpp:40 src/gui/mainwindow.cpp:295
+#: src/gui/app.cpp:40 src/gui/mainwindow.cpp:297
 msgid "Search"
 msgstr ""
 
-#: src/gui/app.cpp:41 src/gui/mainwindow.cpp:415 src/gui/mainwindow.cpp:494
+#: src/gui/app.cpp:41 src/gui/mainwindow.cpp:417 src/gui/mainwindow.cpp:496
 msgid "Select Files and Folders"
 msgstr ""
 
@@ -461,17 +495,17 @@ msgstr ""
 msgid "Select All"
 msgstr ""
 
-#: src/gui/app.cpp:43 src/gui/mainwindow.cpp:419
+#: src/gui/app.cpp:43 src/gui/mainwindow.cpp:421
 msgid "Invert Selection"
 msgstr ""
 
-#: src/gui/app.cpp:44 src/gui/contextmenu.cpp:233 src/gui/mainwindow.cpp:416
-#: src/gui/preferences.cpp:585
+#: src/gui/app.cpp:44 src/gui/contextmenu.cpp:236 src/gui/mainwindow.cpp:418
+#: src/gui/preferences.cpp:586
 msgid "Copy to Other View"
 msgstr ""
 
-#: src/gui/app.cpp:45 src/gui/contextmenu.cpp:234 src/gui/mainwindow.cpp:417
-#: src/gui/preferences.cpp:586
+#: src/gui/app.cpp:45 src/gui/contextmenu.cpp:237 src/gui/mainwindow.cpp:419
+#: src/gui/preferences.cpp:587
 msgid "Move to Other View"
 msgstr ""
 
@@ -503,24 +537,24 @@ msgstr ""
 msgid "Reset Zoom"
 msgstr ""
 
-#: src/gui/app.cpp:53 src/gui/contextmenu.cpp:192 src/gui/mainwindow.cpp:437
-#: src/gui/mainwindow.cpp:495 src/gui/mainwindow.cpp:521
+#: src/gui/app.cpp:53 src/gui/contextmenu.cpp:193 src/gui/mainwindow.cpp:439
+#: src/gui/mainwindow.cpp:497 src/gui/mainwindow.cpp:523
 msgid "Show Hidden Files"
 msgstr ""
 
-#: src/gui/app.cpp:54 src/gui/mainwindow.cpp:293 src/gui/mainwindow.cpp:443
+#: src/gui/app.cpp:54 src/gui/mainwindow.cpp:295 src/gui/mainwindow.cpp:445
 msgid "Split View"
 msgstr ""
 
-#: src/gui/app.cpp:55 src/gui/mainwindow.cpp:446
+#: src/gui/app.cpp:55 src/gui/mainwindow.cpp:448
 msgid "Focus Other View"
 msgstr ""
 
-#: src/gui/app.cpp:56 src/gui/mainwindow.cpp:444
+#: src/gui/app.cpp:56 src/gui/mainwindow.cpp:446
 msgid "Pop out Split View"
 msgstr ""
 
-#: src/gui/app.cpp:57 src/gui/mainwindow.cpp:445
+#: src/gui/app.cpp:57 src/gui/mainwindow.cpp:447
 msgid "Split View to Tabs"
 msgstr ""
 
@@ -528,27 +562,27 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: src/gui/app.cpp:59 src/gui/mainwindow.cpp:456
+#: src/gui/app.cpp:59 src/gui/mainwindow.cpp:458
 msgid "Editable Location"
 msgstr ""
 
-#: src/gui/app.cpp:60 src/gui/mainwindow.cpp:457
+#: src/gui/app.cpp:60 src/gui/mainwindow.cpp:459
 msgid "Replace Location"
 msgstr ""
 
-#: src/gui/app.cpp:61 src/gui/preferences.cpp:558
+#: src/gui/app.cpp:61 src/gui/preferences.cpp:559
 msgid "Places Panel"
 msgstr ""
 
-#: src/gui/app.cpp:62 src/gui/preferences.cpp:562
+#: src/gui/app.cpp:62 src/gui/preferences.cpp:563
 msgid "Folders Panel"
 msgstr ""
 
-#: src/gui/app.cpp:63 src/gui/preferences.cpp:566
+#: src/gui/app.cpp:63 src/gui/preferences.cpp:567
 msgid "Information Panel"
 msgstr ""
 
-#: src/gui/app.cpp:64 src/gui/mainwindow.cpp:454
+#: src/gui/app.cpp:64 src/gui/mainwindow.cpp:456
 msgid "Focus Places Panel"
 msgstr ""
 
@@ -556,15 +590,15 @@ msgstr ""
 msgid "Show Menubar"
 msgstr ""
 
-#: src/gui/app.cpp:66 src/gui/mainwindow.cpp:265
+#: src/gui/app.cpp:66 src/gui/mainwindow.cpp:267
 msgid "Back"
 msgstr ""
 
-#: src/gui/app.cpp:67 src/gui/mainwindow.cpp:266
+#: src/gui/app.cpp:67 src/gui/mainwindow.cpp:268
 msgid "Forward"
 msgstr ""
 
-#: src/gui/app.cpp:68 src/gui/mainwindow.cpp:271
+#: src/gui/app.cpp:68 src/gui/mainwindow.cpp:273
 msgid "Up"
 msgstr ""
 
@@ -620,8 +654,8 @@ msgstr ""
 msgid "Open Terminal"
 msgstr ""
 
-#: src/gui/app.cpp:83 src/gui/contextmenu.cpp:178 src/gui/contextmenu.cpp:237
-#: src/gui/preferences.cpp:584
+#: src/gui/app.cpp:83 src/gui/contextmenu.cpp:179 src/gui/contextmenu.cpp:240
+#: src/gui/preferences.cpp:585
 msgid "Open Terminal Here"
 msgstr ""
 
@@ -633,126 +667,126 @@ msgstr ""
 msgid "Undo failed."
 msgstr ""
 
-#: src/gui/contextmenu.cpp:56 src/gui/mainwindow.cpp:385
+#: src/gui/contextmenu.cpp:57 src/gui/mainwindow.cpp:387
 msgid "Folder…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:57 src/gui/mainwindow.cpp:386
+#: src/gui/contextmenu.cpp:58 src/gui/mainwindow.cpp:388
 msgid "Text File…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:58
+#: src/gui/contextmenu.cpp:59
 msgid "Empty File…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:59 src/gui/mainwindow.cpp:387
+#: src/gui/contextmenu.cpp:60 src/gui/mainwindow.cpp:389
 msgid "Link to File or Folder…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:81
+#: src/gui/contextmenu.cpp:82
 msgid "Create New"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:93
+#: src/gui/contextmenu.cpp:94
 #, c-format
 msgid "Other View (%s)"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:101
+#: src/gui/contextmenu.cpp:102
 msgid "Browse…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:102 src/gui/mainwindow_actions.cpp:722
+#: src/gui/contextmenu.cpp:103 src/gui/mainwindow_actions.cpp:727
 msgid "Move To"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:102 src/gui/mainwindow_actions.cpp:722
+#: src/gui/contextmenu.cpp:103 src/gui/mainwindow_actions.cpp:727
 msgid "Copy To"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:112 src/gui/contextmenu.cpp:211
-#: src/gui/contextmenu.cpp:218 src/gui/openwith.cpp:134
+#: src/gui/contextmenu.cpp:113 src/gui/contextmenu.cpp:214
+#: src/gui/contextmenu.cpp:221 src/gui/openwith.cpp:134
 msgid "Open"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:113
+#: src/gui/contextmenu.cpp:114
 msgid "Open With…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:121
+#: src/gui/contextmenu.cpp:122
 #, c-format
 msgid "Open with %s"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:132
+#: src/gui/contextmenu.cpp:133
 msgid "Other Application…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:133 src/gui/openwith.cpp:153
+#: src/gui/contextmenu.cpp:134 src/gui/openwith.cpp:153
 msgid "Open With"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:170 src/gui/mainwindow.cpp:395
-#: src/gui/mainwindow_actions.cpp:155 src/gui/placespanel.cpp:324
-#: src/gui/placespanel.cpp:405 src/gui/preferences.cpp:611
+#: src/gui/contextmenu.cpp:171 src/gui/mainwindow.cpp:397
+#: src/gui/mainwindow_actions.cpp:156 src/gui/placespanel.cpp:324
+#: src/gui/placespanel.cpp:405 src/gui/preferences.cpp:612
 msgid "Empty Trash"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:177 src/gui/contextmenu.cpp:236
-#: src/gui/mainwindow.cpp:388 src/gui/preferences.cpp:576
+#: src/gui/contextmenu.cpp:178 src/gui/contextmenu.cpp:239
+#: src/gui/mainwindow.cpp:390 src/gui/preferences.cpp:577
 msgid "Add to Places"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:184 src/gui/mainwindow.cpp:428
-#: src/gui/mainwindow.cpp:514 src/gui/preferences.cpp:577
+#: src/gui/contextmenu.cpp:185 src/gui/mainwindow.cpp:430
+#: src/gui/mainwindow.cpp:516 src/gui/preferences.cpp:578
 msgid "Sort By"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:189 src/gui/mainwindow.cpp:431
-#: src/gui/preferences.cpp:578
+#: src/gui/contextmenu.cpp:190 src/gui/mainwindow.cpp:433
+#: src/gui/preferences.cpp:579
 msgid "View Mode"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:193 src/gui/mainwindow.cpp:439
-#: src/gui/mainwindow.cpp:527
+#: src/gui/contextmenu.cpp:194 src/gui/mainwindow.cpp:441
+#: src/gui/mainwindow.cpp:529
 msgid "Remember View for This Folder"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:201
+#: src/gui/contextmenu.cpp:202
 msgid "Restore"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:212 src/gui/placespanel.cpp:321
-#: src/gui/preferences.cpp:579
+#: src/gui/contextmenu.cpp:215 src/gui/placespanel.cpp:321
+#: src/gui/preferences.cpp:580
 msgid "Open in New Tab"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:212
+#: src/gui/contextmenu.cpp:215
 msgid "Open in New Tabs"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:213 src/gui/placespanel.cpp:322
-#: src/gui/preferences.cpp:580
+#: src/gui/contextmenu.cpp:216 src/gui/placespanel.cpp:322
+#: src/gui/preferences.cpp:581
 msgid "Open in New Window"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:214 src/gui/preferences.cpp:581
+#: src/gui/contextmenu.cpp:217 src/gui/preferences.cpp:582
 msgid "Open in Split View"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:220
+#: src/gui/contextmenu.cpp:223
 msgid "Open Containing Folder"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:225
+#: src/gui/contextmenu.cpp:228
 msgid "Paste into Folder"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:227
+#: src/gui/contextmenu.cpp:230
 msgid "Rename…"
 msgstr ""
 
-#: src/gui/contextmenu.cpp:239 src/gui/mainwindow.cpp:397
+#: src/gui/contextmenu.cpp:242 src/gui/mainwindow.cpp:399
 msgid "Show Target"
 msgstr ""
 
@@ -788,16 +822,16 @@ msgid "Rename “%s” to:"
 msgstr ""
 
 #: src/gui/dialogs.cpp:200 src/gui/dialogs.cpp:249 src/gui/dialogs.cpp:616
-#: src/gui/viewcontainer.cpp:86
+#: src/gui/viewcontainer.cpp:88
 msgid "_Rename"
 msgstr ""
 
-#: src/gui/dialogs.cpp:210 src/gui/properties.cpp:391 src/gui/view.cpp:936
+#: src/gui/dialogs.cpp:210 src/gui/properties.cpp:391 src/gui/view.cpp:939
 #, c-format
 msgid "Could not rename “%s”."
 msgstr ""
 
-#: src/gui/dialogs.cpp:221 src/gui/view.cpp:948
+#: src/gui/dialogs.cpp:221 src/gui/view.cpp:951
 msgid "Change the file type?"
 msgstr ""
 
@@ -807,11 +841,11 @@ msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
 
 #: src/gui/dialogs.cpp:223 src/gui/dialogs.cpp:637 src/gui/jobs.cpp:91
-#: src/gui/mainwindow.cpp:119 src/gui/mainwindow.cpp:802
-#: src/gui/mainwindow_actions.cpp:155 src/gui/mainwindow_actions.cpp:359
-#: src/gui/mainwindow_actions.cpp:680 src/gui/mainwindow_actions.cpp:682
+#: src/gui/mainwindow.cpp:121 src/gui/mainwindow.cpp:812
+#: src/gui/mainwindow_actions.cpp:156 src/gui/mainwindow_actions.cpp:360
+#: src/gui/mainwindow_actions.cpp:685 src/gui/mainwindow_actions.cpp:687
 #: src/gui/openwith.cpp:134 src/gui/placespanel.cpp:405
-#: src/gui/preferences.cpp:611 src/gui/view.cpp:951
+#: src/gui/preferences.cpp:612 src/gui/view.cpp:954
 msgid "Cancel"
 msgstr ""
 
@@ -894,23 +928,23 @@ msgstr ""
 msgid "View Display Style"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:274
-#: src/gui/mainwindow.cpp:355 src/gui/preferences.cpp:490
+#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:276
+#: src/gui/mainwindow.cpp:357 src/gui/preferences.cpp:491
 msgid "Icons"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:275
-#: src/gui/mainwindow.cpp:356 src/gui/preferences.cpp:497
+#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:277
+#: src/gui/mainwindow.cpp:358 src/gui/preferences.cpp:498
 msgid "Compact"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:276
-#: src/gui/mainwindow.cpp:357 src/gui/preferences.cpp:502
+#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:278
+#: src/gui/mainwindow.cpp:359 src/gui/preferences.cpp:503
 msgid "Details"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:277
-#: src/gui/mainwindow.cpp:358
+#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:279
+#: src/gui/mainwindow.cpp:360
 msgid "Columns"
 msgstr ""
 
@@ -918,7 +952,7 @@ msgstr ""
 msgid "View mode:"
 msgstr ""
 
-#: src/gui/dialogs.cpp:459 src/gui/preferences.cpp:478
+#: src/gui/dialogs.cpp:459 src/gui/preferences.cpp:479
 msgid "Sorting:"
 msgstr ""
 
@@ -926,7 +960,7 @@ msgstr ""
 msgid "Ascending"
 msgstr ""
 
-#: src/gui/dialogs.cpp:461 src/gui/mainwindow.cpp:344
+#: src/gui/dialogs.cpp:461 src/gui/mainwindow.cpp:346
 msgid "Descending"
 msgstr ""
 
@@ -938,7 +972,7 @@ msgstr ""
 msgid "Show hidden files _last"
 msgstr ""
 
-#: src/gui/dialogs.cpp:473 src/gui/preferences.cpp:567
+#: src/gui/dialogs.cpp:473 src/gui/preferences.cpp:568
 msgid "Show _previews"
 msgstr ""
 
@@ -1038,8 +1072,16 @@ msgstr ""
 msgid "Retry"
 msgstr ""
 
-#: src/gui/dirmodel.cpp:224
+#: src/gui/dirmodel.cpp:226
 msgid "This location is not a folder."
+msgstr ""
+
+#: src/gui/dirmodel.cpp:401
+msgid "This location is not valid."
+msgstr ""
+
+#: src/gui/dirmodel.cpp:408
+msgid "This folder is not in the archive."
 msgstr ""
 
 #: src/gui/diskusagewindow.cpp:95
@@ -1159,8 +1201,8 @@ msgstr ""
 msgid "Counting…"
 msgstr ""
 
-#: src/gui/infopanel.cpp:216 src/gui/item.cpp:125 src/gui/view.cpp:295
-#: src/gui/view.cpp:400
+#: src/gui/infopanel.cpp:216 src/gui/item.cpp:125 src/gui/view.cpp:298
+#: src/gui/view.cpp:403
 msgid "Unknown"
 msgstr ""
 
@@ -1180,7 +1222,7 @@ msgstr ""
 msgid "Points to:"
 msgstr ""
 
-#: src/gui/infopanel.cpp:229 src/gui/preferences.cpp:485
+#: src/gui/infopanel.cpp:229 src/gui/preferences.cpp:486
 msgid "Permissions:"
 msgstr ""
 
@@ -1229,7 +1271,7 @@ msgstr ""
 msgid "File operations in progress"
 msgstr ""
 
-#: src/gui/locationbar.cpp:281
+#: src/gui/locationbar.cpp:302
 msgid "No subfolders"
 msgstr ""
 
@@ -1257,334 +1299,339 @@ msgstr ""
 msgid "[FILE or FOLDER…]"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:117
+#: src/gui/mainwindow.cpp:119
 msgid "Close this window?"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:118
+#: src/gui/mainwindow.cpp:120
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
 msgstr ""
 
-#: src/gui/mainwindow.cpp:119
+#: src/gui/mainwindow.cpp:121
 msgid "Close Window"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:283
+#: src/gui/mainwindow.cpp:285
 msgid "View Settings"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:300
+#: src/gui/mainwindow.cpp:302
 msgid "Menu"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:346
+#: src/gui/mainwindow.cpp:348
 msgid "Folders First"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:347
+#: src/gui/mainwindow.cpp:349
 msgid "Hidden Files Last"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:348 src/gui/mainwindow.cpp:522
+#: src/gui/mainwindow.cpp:350 src/gui/mainwindow.cpp:524
 msgid "Show in Groups"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:377 src/gui/mainwindow.cpp:497
+#: src/gui/mainwindow.cpp:379 src/gui/mainwindow.cpp:499
 msgid "_File"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:379 src/gui/mainwindow.cpp:490
+#: src/gui/mainwindow.cpp:381 src/gui/mainwindow.cpp:492
 msgid "New _Window"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:380 src/gui/mainwindow.cpp:491
+#: src/gui/mainwindow.cpp:382 src/gui/mainwindow.cpp:493
 msgid "New _Tab"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:381
+#: src/gui/mainwindow.cpp:383
 msgid "_Close Tab"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:384
+#: src/gui/mainwindow.cpp:386
 msgid "Create _New"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:390
+#: src/gui/mainwindow.cpp:392
 msgid "_Rename…"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:391
+#: src/gui/mainwindow.cpp:393
 msgid "_Duplicate Here"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:392 src/gui/viewcontainer.cpp:88
+#: src/gui/mainwindow.cpp:394 src/gui/viewcontainer.cpp:90
 msgid "Move to _Trash"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:393
+#: src/gui/mainwindow.cpp:395
 msgid "_Delete"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:394
+#: src/gui/mainwindow.cpp:396
 msgid "Restore from Trash"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:398
+#: src/gui/mainwindow.cpp:400
 msgid "_Properties"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:400
+#: src/gui/mainwindow.cpp:402
 msgid "_Quit"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:402 src/gui/mainwindow.cpp:498
+#: src/gui/mainwindow.cpp:404 src/gui/mainwindow.cpp:500
 msgid "_Edit"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:404 src/gui/mainwindow.cpp:493
+#: src/gui/mainwindow.cpp:406 src/gui/mainwindow.cpp:495
 msgid "_Undo"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:405
+#: src/gui/mainwindow.cpp:407
 msgid "_Redo"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:407 src/gui/viewcontainer.cpp:83
+#: src/gui/mainwindow.cpp:409 src/gui/viewcontainer.cpp:85
 msgid "Cu_t"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:408 src/gui/viewcontainer.cpp:84
+#: src/gui/mainwindow.cpp:410 src/gui/viewcontainer.cpp:86
 msgid "_Copy"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:410 src/gui/viewcontainer.cpp:85
+#: src/gui/mainwindow.cpp:412 src/gui/viewcontainer.cpp:87
 msgid "_Paste"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:412
+#: src/gui/mainwindow.cpp:414
 msgid "Filter…"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:413
+#: src/gui/mainwindow.cpp:415
 msgid "_Search…"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:418 src/gui/viewcontainer.cpp:82
+#: src/gui/mainwindow.cpp:420 src/gui/viewcontainer.cpp:84
 msgid "Select _All"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:421 src/gui/mainwindow.cpp:499
+#: src/gui/mainwindow.cpp:423 src/gui/mainwindow.cpp:501
 msgid "_View"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:423 src/gui/mainwindow.cpp:524
+#: src/gui/mainwindow.cpp:425 src/gui/mainwindow.cpp:526
 msgid "Zoom _In"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:424
+#: src/gui/mainwindow.cpp:426
 msgid "Reset Zoom Level"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:425 src/gui/mainwindow.cpp:525
+#: src/gui/mainwindow.cpp:427 src/gui/mainwindow.cpp:527
 msgid "Zoom _Out"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:434 src/gui/mainwindow.cpp:517
+#: src/gui/mainwindow.cpp:436 src/gui/mainwindow.cpp:519
 msgid "Show Additional Information"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:436 src/gui/mainwindow.cpp:520
+#: src/gui/mainwindow.cpp:438 src/gui/mainwindow.cpp:522
 msgid "Show Previews"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:440
+#: src/gui/mainwindow.cpp:442
 msgid "Restore to Defaults"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:441 src/gui/mainwindow.cpp:528
+#: src/gui/mainwindow.cpp:443 src/gui/mainwindow.cpp:530
 msgid "Adjust View Display Style…"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:447
+#: src/gui/mainwindow.cpp:449
 msgid "Re_load"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:448
+#: src/gui/mainwindow.cpp:450
 msgid "Stop"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:450
+#: src/gui/mainwindow.cpp:452
 msgid "Panels"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:453
+#: src/gui/mainwindow.cpp:455
 msgid "Information"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:455
+#: src/gui/mainwindow.cpp:457
 msgid "Location Bar"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:459 src/gui/mainwindow.cpp:482
-#: src/gui/mainwindow.cpp:503
+#: src/gui/mainwindow.cpp:461 src/gui/mainwindow.cpp:484
+#: src/gui/mainwindow.cpp:505
 msgid "Show _Menubar"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:460
+#: src/gui/mainwindow.cpp:462
 msgid "Show _Toolbar"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:462 src/gui/mainwindow.cpp:500
+#: src/gui/mainwindow.cpp:464 src/gui/mainwindow.cpp:502
 msgid "_Go"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:464
+#: src/gui/mainwindow.cpp:466
 msgid "_Back"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:465
+#: src/gui/mainwindow.cpp:467
 msgid "_Forward"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:466
+#: src/gui/mainwindow.cpp:468
 msgid "_Up"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:467
+#: src/gui/mainwindow.cpp:469
 msgid "_Home"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:470
+#: src/gui/mainwindow.cpp:472
 msgid "Recently Closed Tabs"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:473 src/gui/mainwindow.cpp:501
+#: src/gui/mainwindow.cpp:475 src/gui/mainwindow.cpp:503
 msgid "_Tools"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:475
+#: src/gui/mainwindow.cpp:477
 msgid "Open _Terminal"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:476
+#: src/gui/mainwindow.cpp:478
 msgid "Open Terminal _Here"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:478
+#: src/gui/mainwindow.cpp:480
 msgid "_Disk Usage…"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:480
+#: src/gui/mainwindow.cpp:482
 msgid "_Settings"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:483 src/gui/mainwindow.cpp:504
+#: src/gui/mainwindow.cpp:485 src/gui/mainwindow.cpp:506
 msgid "_Configure Beluga…"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:547
+#: src/gui/mainwindow.cpp:549
 msgid "No recently closed tabs"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:802
+#: src/gui/mainwindow.cpp:812
 #, c-format
 msgid "Open %zu folders in new tabs?"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:802
+#: src/gui/mainwindow.cpp:812
 msgid "Open Folders"
 msgstr ""
 
-#: src/gui/mainwindow.cpp:814
+#: src/gui/mainwindow.cpp:836
+#, c-format
+msgid "Could not open “%s”."
+msgstr ""
+
+#: src/gui/mainwindow.cpp:853
 msgid "Could not open a terminal."
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:84
+#: src/gui/mainwindow_actions.cpp:85
 msgid "New Text File.txt"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:85 src/gui/mainwindow_actions.cpp:615
+#: src/gui/mainwindow_actions.cpp:86 src/gui/mainwindow_actions.cpp:620
 msgid "New File"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:154 src/gui/placespanel.cpp:405
-#: src/gui/preferences.cpp:611
+#: src/gui/mainwindow_actions.cpp:155 src/gui/placespanel.cpp:405
+#: src/gui/preferences.cpp:612
 msgid "Empty the trash?"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:154
+#: src/gui/mainwindow_actions.cpp:155
 msgid ""
 "All items in the trash will be deleted permanently. This cannot be undone."
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:359
+#: src/gui/mainwindow_actions.cpp:360
 #, c-format
 msgid "Open %zu terminals?"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:359
+#: src/gui/mainwindow_actions.cpp:360
 msgid "Open Terminals"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:590 src/gui/mainwindow_actions.cpp:591
+#: src/gui/mainwindow_actions.cpp:595 src/gui/mainwindow_actions.cpp:596
 msgid "New Folder"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:591
+#: src/gui/mainwindow_actions.cpp:596
 #, c-format
 msgid ""
 "Create new folder in:\n"
 "%s"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:592 src/gui/mainwindow_actions.cpp:616
-#: src/gui/mainwindow_actions.cpp:645
+#: src/gui/mainwindow_actions.cpp:597 src/gui/mainwindow_actions.cpp:621
+#: src/gui/mainwindow_actions.cpp:650
 msgid "C_reate"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:596
+#: src/gui/mainwindow_actions.cpp:601
 msgid "Could not create the folder."
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:615
+#: src/gui/mainwindow_actions.cpp:620
 #, c-format
 msgid ""
 "Create new file in:\n"
 "%s"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:628
+#: src/gui/mainwindow_actions.cpp:633
 msgid "Could not create the file."
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:645
+#: src/gui/mainwindow_actions.cpp:650
 msgid "Link to File or Folder"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:645
+#: src/gui/mainwindow_actions.cpp:650
 msgid "Path of the file or folder to link to:"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:653
+#: src/gui/mainwindow_actions.cpp:658
 msgid "Could not create the link."
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:679
+#: src/gui/mainwindow_actions.cpp:684
 #, c-format
 msgid "Permanently delete %s?"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:679
+#: src/gui/mainwindow_actions.cpp:684
 msgid "This cannot be undone."
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:682
+#: src/gui/mainwindow_actions.cpp:687
 #, c-format
 msgid "Move %s to the trash?"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:775 src/gui/openwith.cpp:80
+#: src/gui/mainwindow_actions.cpp:780 src/gui/openwith.cpp:80
 #, c-format
 msgid "Could not run “%s”."
 msgstr ""
@@ -1690,7 +1737,7 @@ msgstr ""
 msgid "Show All Entries"
 msgstr ""
 
-#: src/gui/placespanel.cpp:405 src/gui/preferences.cpp:611
+#: src/gui/placespanel.cpp:405 src/gui/preferences.cpp:612
 msgid "All items in the trash will be deleted permanently."
 msgstr ""
 
@@ -1717,7 +1764,7 @@ msgstr ""
 msgid "View font:"
 msgstr ""
 
-#: src/gui/preferences.cpp:185 src/gui/preferences.cpp:559
+#: src/gui/preferences.cpp:185 src/gui/preferences.cpp:560
 msgid "Icon size:"
 msgstr ""
 
@@ -1793,7 +1840,7 @@ msgid ""
 "with commas. Leave a field empty to use the default."
 msgstr ""
 
-#: src/gui/preferences.cpp:429 src/gui/preferences.cpp:474
+#: src/gui/preferences.cpp:429 src/gui/preferences.cpp:475
 #: src/gui/properties.cpp:449
 msgid "General"
 msgstr ""
@@ -1895,46 +1942,50 @@ msgid "Open folders from other applications in a new _tab"
 msgstr ""
 
 #: src/gui/preferences.cpp:458
+msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
+msgstr ""
+
+#: src/gui/preferences.cpp:459
 msgid "Closing split view closes:"
 msgstr ""
 
-#: src/gui/preferences.cpp:458
+#: src/gui/preferences.cpp:459
 msgid "The active view"
 msgstr ""
 
-#: src/gui/preferences.cpp:458
+#: src/gui/preferences.cpp:459
 msgid "The inactive view"
 msgstr ""
 
-#: src/gui/preferences.cpp:458
+#: src/gui/preferences.cpp:459
 msgid "The right view"
 msgstr ""
 
-#: src/gui/preferences.cpp:460
+#: src/gui/preferences.cpp:461
 msgid "Behavior"
 msgstr ""
 
-#: src/gui/preferences.cpp:461
+#: src/gui/preferences.cpp:462
 msgid "Rename single items _inline"
 msgstr ""
 
-#: src/gui/preferences.cpp:462
+#: src/gui/preferences.cpp:463
 msgid "Show selection _marker"
 msgstr ""
 
-#: src/gui/preferences.cpp:463
+#: src/gui/preferences.cpp:464
 msgid "Show item information on _hover"
 msgstr ""
 
-#: src/gui/preferences.cpp:464
+#: src/gui/preferences.cpp:465
 msgid "Open folders while _dragging items over them"
 msgstr ""
 
-#: src/gui/preferences.cpp:465
+#: src/gui/preferences.cpp:466
 msgid "Terminal"
 msgstr ""
 
-#: src/gui/preferences.cpp:466
+#: src/gui/preferences.cpp:467
 #, c-format
 msgid ""
 "Used by F4 and Open Terminal Here. %d in the command is replaced by the "
@@ -1942,154 +1993,154 @@ msgid ""
 "setting."
 msgstr ""
 
-#: src/gui/preferences.cpp:469
+#: src/gui/preferences.cpp:470
 msgid "Terminal _command:"
 msgstr ""
 
-#: src/gui/preferences.cpp:470
+#: src/gui/preferences.cpp:471
 msgid "No terminal found"
 msgstr ""
 
-#: src/gui/preferences.cpp:470
+#: src/gui/preferences.cpp:471
 #, c-format
 msgid "Detected: %s"
 msgstr ""
 
-#: src/gui/preferences.cpp:473
+#: src/gui/preferences.cpp:474
 msgid "View"
 msgstr ""
 
-#: src/gui/preferences.cpp:475
+#: src/gui/preferences.cpp:476
 msgid "Use the same display style for _all folders"
 msgstr ""
 
-#: src/gui/preferences.cpp:476
+#: src/gui/preferences.cpp:477
 msgid ""
 "When this is off, every folder remembers its own style. Either way, View › "
 "Remember View for This Folder gives one folder its own style."
 msgstr ""
 
-#: src/gui/preferences.cpp:478
+#: src/gui/preferences.cpp:479
 msgid "Natural"
 msgstr ""
 
-#: src/gui/preferences.cpp:478
+#: src/gui/preferences.cpp:479
 msgid "Alphabetical, case insensitive"
 msgstr ""
 
-#: src/gui/preferences.cpp:478
+#: src/gui/preferences.cpp:479
 msgid "Alphabetical, case sensitive"
 msgstr ""
 
-#: src/gui/preferences.cpp:480
+#: src/gui/preferences.cpp:481
 msgid "Folder size:"
 msgstr ""
 
-#: src/gui/preferences.cpp:480
+#: src/gui/preferences.cpp:481
 msgid "Number of items"
 msgstr ""
 
-#: src/gui/preferences.cpp:480
+#: src/gui/preferences.cpp:481
 msgid "Size of contents"
 msgstr ""
 
-#: src/gui/preferences.cpp:480
+#: src/gui/preferences.cpp:481
 msgid "None"
 msgstr ""
 
-#: src/gui/preferences.cpp:482
+#: src/gui/preferences.cpp:483
 msgid "Folder size depth limit:"
 msgstr ""
 
-#: src/gui/preferences.cpp:483
+#: src/gui/preferences.cpp:484
 msgid "Dates:"
 msgstr ""
 
-#: src/gui/preferences.cpp:483
+#: src/gui/preferences.cpp:484
 msgid "Relative (Today, Yesterday…)"
 msgstr ""
 
-#: src/gui/preferences.cpp:483
+#: src/gui/preferences.cpp:484
 msgid "Short"
 msgstr ""
 
-#: src/gui/preferences.cpp:485
+#: src/gui/preferences.cpp:486
 msgid "Symbolic (rwxr-xr-x)"
 msgstr ""
 
-#: src/gui/preferences.cpp:485
+#: src/gui/preferences.cpp:486
 msgid "Numeric (0755)"
 msgstr ""
 
-#: src/gui/preferences.cpp:485
+#: src/gui/preferences.cpp:486
 msgid "Combined"
 msgstr ""
 
-#: src/gui/preferences.cpp:487
+#: src/gui/preferences.cpp:488
 msgid "Shorten long names:"
 msgstr ""
 
-#: src/gui/preferences.cpp:487
+#: src/gui/preferences.cpp:488
 msgid "At the end"
 msgstr ""
 
-#: src/gui/preferences.cpp:487
+#: src/gui/preferences.cpp:488
 msgid "In the middle"
 msgstr ""
 
-#: src/gui/preferences.cpp:489
+#: src/gui/preferences.cpp:490
 msgid "Hide _backup files (ending in ~)"
 msgstr ""
 
-#: src/gui/preferences.cpp:492
+#: src/gui/preferences.cpp:493
 msgid "Label width:"
 msgstr ""
 
-#: src/gui/preferences.cpp:492 src/gui/preferences.cpp:499 src/gui/view.cpp:365
+#: src/gui/preferences.cpp:493 src/gui/preferences.cpp:500 src/gui/view.cpp:368
 msgid "Small"
 msgstr ""
 
-#: src/gui/preferences.cpp:492 src/gui/preferences.cpp:499 src/gui/view.cpp:368
+#: src/gui/preferences.cpp:493 src/gui/preferences.cpp:500 src/gui/view.cpp:371
 msgid "Medium"
 msgstr ""
 
-#: src/gui/preferences.cpp:492 src/gui/preferences.cpp:499
+#: src/gui/preferences.cpp:493 src/gui/preferences.cpp:500
 msgid "Large"
 msgstr ""
 
-#: src/gui/preferences.cpp:492
+#: src/gui/preferences.cpp:493
 msgid "Huge"
 msgstr ""
 
-#: src/gui/preferences.cpp:494
+#: src/gui/preferences.cpp:495
 msgid "Maximum label lines (0: no limit):"
 msgstr ""
 
-#: src/gui/preferences.cpp:495
+#: src/gui/preferences.cpp:496
 msgid "Co_mpact spacing"
 msgstr ""
 
-#: src/gui/preferences.cpp:499
+#: src/gui/preferences.cpp:500
 msgid "Maximum label width:"
 msgstr ""
 
-#: src/gui/preferences.cpp:499
+#: src/gui/preferences.cpp:500
 msgid "Unlimited"
 msgstr ""
 
-#: src/gui/preferences.cpp:504
+#: src/gui/preferences.cpp:505
 msgid "E_xpandable folders"
 msgstr ""
 
-#: src/gui/preferences.cpp:505
+#: src/gui/preferences.cpp:506
 msgid "Highlight the entire _row"
 msgstr ""
 
-#: src/gui/preferences.cpp:506
+#: src/gui/preferences.cpp:507
 msgid "Show a Disk _Usage column"
 msgstr ""
 
-#: src/gui/preferences.cpp:507
+#: src/gui/preferences.cpp:508
 msgid ""
 "The space each file and each whole folder takes up on disk, with a bar for "
 "its share of the folder, like Tools › Disk Usage. Folders are read in full "
@@ -2097,226 +2148,226 @@ msgid ""
 "this drive\" in the Disk Usage window applies here too."
 msgstr ""
 
-#: src/gui/preferences.cpp:513
+#: src/gui/preferences.cpp:514
 msgid "Previews"
 msgstr ""
 
-#: src/gui/preferences.cpp:514
+#: src/gui/preferences.cpp:515
 msgid "Show _previews in new folders"
 msgstr ""
 
-#: src/gui/preferences.cpp:515
+#: src/gui/preferences.cpp:516
 msgid "Show previews for"
 msgstr ""
 
-#: src/gui/preferences.cpp:517
+#: src/gui/preferences.cpp:518
 msgid "Audio (cover art)"
 msgstr ""
 
-#: src/gui/preferences.cpp:518
+#: src/gui/preferences.cpp:519
 msgid "PDF documents"
 msgstr ""
 
-#: src/gui/preferences.cpp:518
+#: src/gui/preferences.cpp:519
 msgid "Text files"
 msgstr ""
 
-#: src/gui/preferences.cpp:518
+#: src/gui/preferences.cpp:519
 msgid "Fonts"
 msgstr ""
 
-#: src/gui/preferences.cpp:519
+#: src/gui/preferences.cpp:520
 msgid "Office documents"
 msgstr ""
 
-#: src/gui/preferences.cpp:534
+#: src/gui/preferences.cpp:535
 msgid "Limits"
 msgstr ""
 
-#: src/gui/preferences.cpp:535
+#: src/gui/preferences.cpp:536
 msgid "Skip local files larger than (MiB, 0: no limit):"
 msgstr ""
 
-#: src/gui/preferences.cpp:536
+#: src/gui/preferences.cpp:537
 msgid "Remote files up to (MiB, 0: never):"
 msgstr ""
 
-#: src/gui/preferences.cpp:539
+#: src/gui/preferences.cpp:540
 msgid "Confirmations"
 msgstr ""
 
-#: src/gui/preferences.cpp:540
+#: src/gui/preferences.cpp:541
 msgid "Ask for confirmation when"
 msgstr ""
 
-#: src/gui/preferences.cpp:541
+#: src/gui/preferences.cpp:542
 msgid "Moving files or folders to the _trash"
 msgstr ""
 
-#: src/gui/preferences.cpp:542
+#: src/gui/preferences.cpp:543
 msgid "_Deleting files or folders"
 msgstr ""
 
-#: src/gui/preferences.cpp:543
+#: src/gui/preferences.cpp:544
 msgid "_Emptying the trash"
 msgstr ""
 
-#: src/gui/preferences.cpp:544
+#: src/gui/preferences.cpp:545
 msgid "Closing windows with _multiple tabs"
 msgstr ""
 
-#: src/gui/preferences.cpp:545
+#: src/gui/preferences.cpp:546
 msgid "Opening many _folders at once"
 msgstr ""
 
-#: src/gui/preferences.cpp:546
+#: src/gui/preferences.cpp:547
 msgid "Opening many t_erminals at once"
 msgstr ""
 
-#: src/gui/preferences.cpp:547
+#: src/gui/preferences.cpp:548
 msgid "Renaming changes a file's _type"
 msgstr ""
 
-#: src/gui/preferences.cpp:548
+#: src/gui/preferences.cpp:549
 msgid "When opening an executable file:"
 msgstr ""
 
-#: src/gui/preferences.cpp:548
+#: src/gui/preferences.cpp:549
 msgid "Always ask"
 msgstr ""
 
-#: src/gui/preferences.cpp:548
+#: src/gui/preferences.cpp:549
 msgid "Open in an application"
 msgstr ""
 
-#: src/gui/preferences.cpp:548
+#: src/gui/preferences.cpp:549
 msgid "Run it"
 msgstr ""
 
-#: src/gui/preferences.cpp:552
+#: src/gui/preferences.cpp:553
 msgid "Bars and Panels"
 msgstr ""
 
-#: src/gui/preferences.cpp:553
+#: src/gui/preferences.cpp:554
 msgid "Status Bar"
 msgstr ""
 
-#: src/gui/preferences.cpp:554
+#: src/gui/preferences.cpp:555
 msgid "Status bar:"
 msgstr ""
 
-#: src/gui/preferences.cpp:554
+#: src/gui/preferences.cpp:555
 msgid "Small (shows only when hovering or selecting)"
 msgstr ""
 
-#: src/gui/preferences.cpp:554
+#: src/gui/preferences.cpp:555
 msgid "Full width"
 msgstr ""
 
-#: src/gui/preferences.cpp:554
+#: src/gui/preferences.cpp:555
 msgid "Hidden"
 msgstr ""
 
-#: src/gui/preferences.cpp:556
+#: src/gui/preferences.cpp:557
 msgid "Show _zoom slider"
 msgstr ""
 
-#: src/gui/preferences.cpp:557
+#: src/gui/preferences.cpp:558
 msgid "Show free _space"
 msgstr ""
 
-#: src/gui/preferences.cpp:563
+#: src/gui/preferences.cpp:564
 msgid "Show _hidden folders"
 msgstr ""
 
-#: src/gui/preferences.cpp:564
+#: src/gui/preferences.cpp:565
 msgid "Limit to the home folder when inside it"
 msgstr ""
 
-#: src/gui/preferences.cpp:565
+#: src/gui/preferences.cpp:566
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-#: src/gui/preferences.cpp:568
+#: src/gui/preferences.cpp:569
 msgid "Play media files _automatically"
 msgstr ""
 
-#: src/gui/preferences.cpp:569
+#: src/gui/preferences.cpp:570
 msgid "Show the _hovered item"
 msgstr ""
 
-#: src/gui/preferences.cpp:570
+#: src/gui/preferences.cpp:571
 msgid "Use _long date format"
 msgstr ""
 
-#: src/gui/preferences.cpp:573
+#: src/gui/preferences.cpp:574
 msgid "Context Menu"
 msgstr ""
 
-#: src/gui/preferences.cpp:574
+#: src/gui/preferences.cpp:575
 msgid "Show in the context menu"
 msgstr ""
 
-#: src/gui/preferences.cpp:575
+#: src/gui/preferences.cpp:576
 msgid "'Copy To' and 'Move To'"
 msgstr ""
 
-#: src/gui/preferences.cpp:587
+#: src/gui/preferences.cpp:588
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-#: src/gui/preferences.cpp:592
+#: src/gui/preferences.cpp:593
 msgid ""
 "These used to be KDE system settings. Limits are applied when Beluga starts "
 "and after moving items to the trash."
 msgstr ""
 
-#: src/gui/preferences.cpp:593
+#: src/gui/preferences.cpp:594
 msgid "_Delete items that have been in the trash longer than:"
 msgstr ""
 
-#: src/gui/preferences.cpp:595
+#: src/gui/preferences.cpp:596
 msgid "Days:"
 msgstr ""
 
-#: src/gui/preferences.cpp:596
+#: src/gui/preferences.cpp:597
 msgid "_Limit the trash to a share of the disk:"
 msgstr ""
 
-#: src/gui/preferences.cpp:597
+#: src/gui/preferences.cpp:598
 msgid "Percent of the disk:"
 msgstr ""
 
-#: src/gui/preferences.cpp:598
+#: src/gui/preferences.cpp:599
 msgid "When the limit is reached:"
 msgstr ""
 
-#: src/gui/preferences.cpp:598
+#: src/gui/preferences.cpp:599
 msgid "Show a warning"
 msgstr ""
 
-#: src/gui/preferences.cpp:598
+#: src/gui/preferences.cpp:599
 msgid "Delete the oldest items"
 msgstr ""
 
-#: src/gui/preferences.cpp:598
+#: src/gui/preferences.cpp:599
 msgid "Delete the largest items"
 msgstr ""
 
-#: src/gui/preferences.cpp:600
+#: src/gui/preferences.cpp:601
 msgid "Calculating trash size…"
 msgstr ""
 
-#: src/gui/preferences.cpp:606
+#: src/gui/preferences.cpp:607
 #, c-format
 msgid "The trash currently uses %s."
 msgstr ""
 
-#: src/gui/preferences.cpp:608
+#: src/gui/preferences.cpp:609
 msgid "_Empty Trash Now"
 msgstr ""
 
-#: src/gui/preferences.cpp:617
+#: src/gui/preferences.cpp:618
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -2475,7 +2526,7 @@ msgstr ""
 msgid "Any Time"
 msgstr ""
 
-#: src/gui/searchbar.cpp:110 src/gui/view.cpp:305
+#: src/gui/searchbar.cpp:110 src/gui/view.cpp:308
 msgid "Today"
 msgstr ""
 
@@ -2516,148 +2567,148 @@ msgstr ""
 msgid "Close Other Tabs"
 msgstr ""
 
-#: src/gui/view.cpp:64
+#: src/gui/view.cpp:65
 msgid "Show Columns"
-msgstr ""
-
-#: src/gui/view.cpp:114
-#, c-format
-msgid "Size: %s"
 msgstr ""
 
 #: src/gui/view.cpp:115
 #, c-format
-msgid "Modified: %s"
+msgid "Size: %s"
 msgstr ""
 
 #: src/gui/view.cpp:116
 #, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#: src/gui/view.cpp:117
+#, c-format
 msgid "Original location: %s"
 msgstr ""
 
-#: src/gui/view.cpp:308
+#: src/gui/view.cpp:311
 msgid "Yesterday"
 msgstr ""
 
-#: src/gui/view.cpp:314
+#: src/gui/view.cpp:317
 msgid "One Week Ago"
 msgstr ""
 
-#: src/gui/view.cpp:317
+#: src/gui/view.cpp:320
 msgid "Two Weeks Ago"
 msgstr ""
 
-#: src/gui/view.cpp:320
+#: src/gui/view.cpp:323
 msgid "Three Weeks Ago"
 msgstr ""
 
-#: src/gui/view.cpp:323
+#: src/gui/view.cpp:326
 msgid "Earlier this Month"
 msgstr ""
 
-#: src/gui/view.cpp:347
+#: src/gui/view.cpp:350
 msgid "0 - 9"
 msgstr ""
 
-#: src/gui/view.cpp:355
+#: src/gui/view.cpp:358
 msgid "Others"
 msgstr ""
 
-#: src/gui/view.cpp:371
+#: src/gui/view.cpp:374
 msgid "Big"
 msgstr ""
 
-#: src/gui/view.cpp:379
+#: src/gui/view.cpp:382
 msgid "Less than 1 MiB"
 msgstr ""
 
-#: src/gui/view.cpp:379
+#: src/gui/view.cpp:382
 msgid "1 MiB to 100 MiB"
 msgstr ""
 
-#: src/gui/view.cpp:380
+#: src/gui/view.cpp:383
 msgid "100 MiB to 1 GiB"
 msgstr ""
 
-#: src/gui/view.cpp:380
+#: src/gui/view.cpp:383
 msgid "1 GiB or more"
 msgstr ""
 
-#: src/gui/view.cpp:384
+#: src/gui/view.cpp:387
 msgid "Not counted yet"
 msgstr ""
 
-#: src/gui/view.cpp:788 src/gui/viewcontainer.cpp:554
+#: src/gui/view.cpp:791 src/gui/viewcontainer.cpp:575
 msgid "Searching…"
 msgstr ""
 
-#: src/gui/view.cpp:789
+#: src/gui/view.cpp:792
 msgid "No items matching the filter"
 msgstr ""
 
-#: src/gui/view.cpp:790
+#: src/gui/view.cpp:793
 msgid "No items found"
 msgstr ""
 
-#: src/gui/view.cpp:791
+#: src/gui/view.cpp:794
 msgid "Trash is empty"
 msgstr ""
 
-#: src/gui/view.cpp:792
+#: src/gui/view.cpp:795
 msgid "Folder is empty"
 msgstr ""
 
-#: src/gui/view.cpp:926
+#: src/gui/view.cpp:929
 msgid "A file name cannot contain “/”."
 msgstr ""
 
-#: src/gui/view.cpp:949
+#: src/gui/view.cpp:952
 #, c-format
 msgid ""
 "Renaming “%s” to “%s” changes its extension. The file may open with a "
 "different application or not at all."
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:54
+#: src/gui/viewcontainer.cpp:56
 msgid "Selection Mode: click files or folders to select or deselect them."
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:59
+#: src/gui/viewcontainer.cpp:61
 msgid "_Exit Selection Mode"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:87
+#: src/gui/viewcontainer.cpp:89
 msgid "_Duplicate"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:89
+#: src/gui/viewcontainer.cpp:91
 msgid "De_lete"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:90
+#: src/gui/viewcontainer.cpp:92
 msgid "Pr_operties"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:428
+#: src/gui/viewcontainer.cpp:448
 #, c-format
 msgid "The folder “%s” no longer exists."
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:537
+#: src/gui/viewcontainer.cpp:558
 #, c-format
 msgid "“%s” selected (%s%s)"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:550
+#: src/gui/viewcontainer.cpp:571
 #, c-format
 msgid "%s selected"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:556
+#: src/gui/viewcontainer.cpp:577
 msgid "Loading folder…"
 msgstr ""
 
-#: src/gui/viewcontainer.cpp:567
+#: src/gui/viewcontainer.cpp:588
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"

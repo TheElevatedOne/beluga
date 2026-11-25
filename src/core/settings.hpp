@@ -33,6 +33,7 @@ struct Settings {
     bool showFullPath = false;
     bool showFullPathInTitlebar = false;
     bool openExternallyCalledFolderInNewTab = false;
+    bool browseArchives = true;   // open zip, tar, 7z, rar and ISO files as folders
     bool alwaysShowTabBar = false;
     bool showCloseButtonOnTabs = true;
     bool openNewTabAfterLastTab = false;

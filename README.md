@@ -53,6 +53,10 @@ limits, places) live in Beluga's own preferences.
   into) and undo/redo.
 - **Trash without gvfs**: browse, restore and empty the freedesktop.org trash, including trash folders on other
   drives. Optional age and size limits.
+- **Archives as folders**: zip, tar (`.tar.gz`, `.tar.xz`, `.tar.zst`, …), 7z, rar and ISO images open like
+  folders, through libarchive and without gvfs or Ark. They are read only: copy or drag entries out to extract
+  them, and double-click a file to open an extracted copy. Entries with `..` or absolute paths are never written
+  outside the target folder. **Configure Beluga → General → Open archives as folders** turns it off.
 - **Search without an indexer**: no Baloo or other index. By name (wildcards work), by text content, file type
   and modification date, from the current folder, your home folder or everywhere. Local folders are read on all
   CPU cores, and results stream in while the search runs.
@@ -84,7 +88,7 @@ limits, places) live in Beluga's own preferences.
 
 ## Requirements
 
-- GTK 4.16 or newer, GLib 2.84 or newer, gdk-pixbuf
+- GTK 4.16 or newer, GLib 2.84 or newer, gdk-pixbuf, libarchive 3.6 or newer
 - To build: a C++17 compiler, CMake 3.16, pkg-config, gettext (`msgfmt`, for the translations)
 - Optional at run time: UDisks2 (devices), Tumbler or `.thumbnailer` programs (video/PDF previews), gvfs
   (network locations such as `sftp://`), `bsdtar` (the "Extract Here" action)
@@ -103,9 +107,9 @@ or `~/.local`, or build it.
 ### Building
 
 ```sh
-# Arch:   sudo pacman -S base-devel cmake gtk4 gettext
-# Debian: sudo apt install build-essential cmake pkg-config gettext libgtk-4-dev
-# Fedora: sudo dnf install gcc-c++ cmake gettext gtk4-devel
+# Arch:   sudo pacman -S base-devel cmake gtk4 libarchive gettext
+# Debian: sudo apt install build-essential cmake pkg-config gettext libgtk-4-dev libarchive-dev
+# Fedora: sudo dnf install gcc-c++ cmake gettext gtk4-devel libarchive-devel
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 sudo cmake --install build
@@ -161,8 +165,7 @@ first matching item.
 ## Coming from Dolphin
 
 - **Removed**: the embedded Konsole panel, the Help menu, KDE-only actions (KFind, Kompare, Filelight, activities,
-  stash, "Act as Administrator", Get New Stuff), Baloo tags/ratings/comments, version control plugins and
-  browsing inside archives.
+  stash, "Act as Administrator", Get New Stuff), Baloo tags/ratings/comments and version control plugins.
 - **Moved into Beluga**: single/double click behaviour, the terminal command, trash limits, places and keyboard
   shortcuts. **Disk Usage** takes the place of Filelight.
 - **Places**: on the first start Beluga copies your entries from `~/.local/share/user-places.xbel` (Dolphin's
@@ -184,7 +187,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 51 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 62 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.
@@ -208,7 +211,8 @@ repository's history and the KDE Frameworks and GTK catalogs installed on the ma
 ## Known limitations
 
 - Translations cover about 40% of the messages.
-- No browsing inside archives (`.zip`, `.tar.gz`, …). Use **Extract Here**.
+- Archives are read only (no adding, renaming or deleting inside them) and files in password-protected archives
+  can't be opened. Dragging an entry out of an archive to another program doesn't work; copy it into a folder first.
 - Network locations (`sftp://`, `smb://`, `network:///`) need gvfs.
 - Search has no index: it reads the folders every time, on all CPU cores. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
   inside PDFs or office documents.

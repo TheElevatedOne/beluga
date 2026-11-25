@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "dirmodel.hpp"
 
+#include "archive.hpp"
 #include "fileops.hpp"
 #include "trash.hpp"
 
@@ -94,6 +95,7 @@ void DirLister::open(const std::string &uri)
     cancellable_ = g_cancellable_new();
     setLoading(true);
     if (is_trash_uri(uri)) startTrash();
+    else if (archive::is_archive_uri(uri)) startArchive();
     else if (is_recent_uri(uri)) startRecent();
     else if (is_search_uri(uri)) startSearch();
     else {
@@ -390,6 +392,64 @@ std::vector<RecentEntry> recent_entries()
     return v;
 }
 
+// The entries of a folder inside an archive, with the file information GIO would give for real files.
+std::vector<Listed> list_archive(const std::string &uri, std::string &error)
+{
+    std::vector<Listed> out;
+    std::string path, inner;
+    if (!archive::parse_uri(uri, path, inner)) {
+        error = _("This location is not valid.");
+        return out;
+    }
+    auto index = archive::load(path, &error);
+    if (!index) return out;
+    const auto *kids = index->children(inner);
+    if (!kids) {
+        error = _("This folder is not in the archive.");
+        return out;
+    }
+    for (auto &en : *kids) {
+        Listed l;
+        l.uri = archive::make_uri(path, inner.empty() ? en.name : inner + "/" + en.name);
+        l.file = Ref<GFile>(g_file_new_for_uri(l.uri.c_str()));
+        GFileInfo *info = g_file_info_new();
+        g_file_info_set_name(info, en.name.c_str());
+        std::string display = g_utf8_validate(en.name.c_str(), -1, nullptr) ? en.name : take(g_filename_display_name(en.name.c_str()));
+        g_file_info_set_display_name(info, display.c_str());
+        g_file_info_set_file_type(info, en.dir ? G_FILE_TYPE_DIRECTORY : G_FILE_TYPE_REGULAR);
+        g_file_info_set_is_hidden(info, en.name[0] == '.');
+        g_file_info_set_attribute_boolean(info, G_FILE_ATTRIBUTE_STANDARD_IS_BACKUP, FALSE);
+        g_file_info_set_is_symlink(info, en.link);
+        if (en.link) g_file_info_set_symlink_target(info, en.linkTarget.c_str());
+        g_file_info_set_size(info, (goffset)en.size);
+        std::string ct = en.dir ? std::string("inode/directory") : take(g_content_type_guess(en.name.c_str(), nullptr, 0, nullptr));
+        g_file_info_set_content_type(info, ct.c_str());
+        g_file_info_set_attribute_string(info, G_FILE_ATTRIBUTE_STANDARD_FAST_CONTENT_TYPE, ct.c_str());
+        GIcon *icon = g_content_type_get_icon(ct.c_str());
+        g_file_info_set_icon(info, icon);
+        g_object_unref(icon);
+        GIcon *sym = g_content_type_get_symbolic_icon(ct.c_str());
+        g_file_info_set_symbolic_icon(info, sym);
+        g_object_unref(sym);
+        if (en.mtime) {
+            GDateTime *dt = g_date_time_new_from_unix_utc(en.mtime);
+            if (dt) {
+                g_file_info_set_modification_date_time(info, dt);
+                g_date_time_unref(dt);
+            }
+        }
+        g_file_info_set_attribute_uint32(info, G_FILE_ATTRIBUTE_UNIX_MODE, (en.dir ? S_IFDIR : S_IFREG) | (en.mode & 07777));
+        // Read only: nothing in an archive can be renamed, deleted or run from here.
+        g_file_info_set_attribute_boolean(info, G_FILE_ATTRIBUTE_ACCESS_CAN_READ, !en.encrypted);
+        for (const char *a : {G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE, G_FILE_ATTRIBUTE_ACCESS_CAN_DELETE, G_FILE_ATTRIBUTE_ACCESS_CAN_TRASH,
+                              G_FILE_ATTRIBUTE_ACCESS_CAN_RENAME, G_FILE_ATTRIBUTE_ACCESS_CAN_EXECUTE})
+            g_file_info_set_attribute_boolean(info, a, FALSE);
+        l.info = Ref<GFileInfo>(info);
+        out.push_back(l);
+    }
+    return out;
+}
+
 BelugaItem *make_item(const Listed &l)
 {
     BelugaItem *it = item_new(l.file.get(), l.info.get());
@@ -448,6 +508,27 @@ void DirLister::startTrash()
             apply_full_list(self, self->store_, self->byUri_, *listed, added);
             self->addItems(added);
             self->stop();
+        });
+    }).detach();
+}
+
+void DirLister::startArchive()
+{
+    auto guard = guard_;
+    unsigned gen = generation_;
+    std::string uri = uri_;
+    std::thread([guard, gen, uri] {
+        auto error = std::make_shared<std::string>();
+        auto listed = std::make_shared<std::vector<Listed>>(list_archive(uri, *error));
+        run_on_main([guard, gen, listed, error] {
+            ListOp op{guard, gen, false};
+            DirLister *self = op.live();
+            if (!self) return;
+            std::vector<BelugaItem *> added;
+            apply_full_list(self, self->store_, self->byUri_, *listed, added);
+            self->addItems(added);
+            self->stop();
+            if (!error->empty() && self->onError) self->onError(*error);
         });
     }).detach();
 }

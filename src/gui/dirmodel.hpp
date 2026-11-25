@@ -49,6 +49,7 @@ public:
 private:
     void clear();
     void startTrash();
+    void startArchive();
     void startRecent();
     void startSearch();
     void setLoading(bool on);

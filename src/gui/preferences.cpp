@@ -455,6 +455,7 @@ void show_preferences(GtkWidget *parent)
     check(g, _("_Always show the tab bar"), s.alwaysShowTabBar);
     check(g, _("Show _close buttons on tabs"), s.showCloseButtonOnTabs);
     check(g, _("Open folders from other applications in a new _tab"), s.openExternallyCalledFolderInNewTab);
+    check(g, _("Open _archives as folders (zip, tar, 7z, rar, ISO)"), s.browseArchives);
     choice(g, _("Closing split view closes:"), {_("The active view"), _("The inactive view"), _("The right view")},
            [&s] { return s.closeSplitViewChoice; }, [&s](int i) { s.closeSplitViewChoice = i; });
     heading(g, _("Behavior"));

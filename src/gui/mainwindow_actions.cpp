@@ -3,6 +3,7 @@
 #include "mainwindow.hpp"
 
 #include "app.hpp"
+#include "archive.hpp"
 #include "customactions.hpp"
 #include "dialogs.hpp"
 #include "diskusagewindow.hpp"
@@ -494,6 +495,9 @@ void MainWindow::updateActions()
     }
     bool singleDir = items.size() == 1 && item_data(items[0]).isDir;
     bool split = t && t->split();
+    // Inside an archive: read only, and entries aren't files that other programs can use.
+    bool inArchive = v && archive::is_archive_uri(v->location());
+    bool readOnly = trashView || inArchive;
 
     enable(this, "back", c && c->canGoBack());
     enable(this, "forward", c && c->canGoForward());
@@ -504,33 +508,34 @@ void MainWindow::updateActions()
     enable(this, "create-empty-file", writable);
     enable(this, "new-from-template", writable);
     enable(this, "create-link", writable);
-    enable(this, "rename", sel && !trashView);
-    enable(this, "move-to-trash", sel && !trashView);
-    enable(this, "delete", sel);
+    enable(this, "rename", sel && !readOnly);
+    enable(this, "move-to-trash", sel && !readOnly);
+    enable(this, "delete", sel && !inArchive);
     enable(this, "duplicate", sel && !virt);
     enable(this, "restore", sel && trashView);
     enable(this, "empty-trash", trashView || !trash::is_empty());
-    enable(this, "cut", sel && !trashView);
+    enable(this, "cut", sel && !readOnly);
     enable(this, "copy", sel);
     enable(this, "paste", writable && App::instance().canPaste());
-    enable(this, "paste-into", singleDir && App::instance().canPaste() && !trashView);
+    enable(this, "paste-into", singleDir && App::instance().canPaste() && !readOnly);
     enable(this, "add-to-places", c != nullptr);
-    enable(this, "show-target", items.size() == 1 && item_data(items[0]).isLink);
+    enable(this, "show-target", items.size() == 1 && item_data(items[0]).isLink && !inArchive);
     enable(this, "undo", UndoManager::instance().canUndo());
     enable(this, "redo", UndoManager::instance().canRedo());
     enable(this, "copy-to-other-view", sel && split);
-    enable(this, "move-to-other-view", sel && split && !trashView);
+    enable(this, "move-to-other-view", sel && split && !readOnly);
+    enable(this, "move-to", sel && !inArchive);
     enable(this, "popout-split", split);
     enable(this, "split-to-tabs", split);
     enable(this, "focus-other-view", split);
     enable(this, "stop", v && v->loading());
-    enable(this, "open-terminal-here", sel || !virt);
-    enable(this, "open-with", sel);
-    enable(this, "open-containing-folder", sel && virt && !trashView);
+    enable(this, "open-terminal-here", (sel && !inArchive) || !virt);
+    enable(this, "open-with", sel && !inArchive);
+    enable(this, "open-containing-folder", sel && virt && !readOnly);
     enable(this, "folder-properties", !virt);
     enable(this, "remember-view", v && !virt);
     enable(this, "disk-usage", !disk_usage_target(this).empty());
-    enable(this, "properties", sel || !virt);
+    enable(this, "properties", (sel && !inArchive) || !virt);
 
     if (v) {
         const ViewProps &p = v->props();

@@ -101,6 +101,8 @@ private:
     void scan();
     guint64 scanFile(GFile *f, int depth);
     bool copyOne(GFile *src, GFile *dest, bool isTop, bool move, OpItem *result);
+    // Copies the items that come from archives (by index into items_): extracted, then moved into place.
+    void extractItems(const std::vector<size_t> &indices);
     bool copyTree(GFile *src, GFile *dest, GFileInfo *info, bool move);
     bool linkOne(GFile *src, GFile *dest, OpItem *result);
     bool deleteTree(GFile *f);

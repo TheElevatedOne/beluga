@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added: zip, tar (any compression), 7z, rar and ISO files open like folders (libarchive, no gvfs needed; turn it
+  off in Configure Beluga → General). Read only: copying or dragging entries out extracts them, with the usual
+  "already exists" questions, and double-clicking a file opens an extracted copy (programs and desktop entries
+  open as text). Typed paths such as `~/x.zip/docs` work too. Entries that try to leave the target folder
+  (`..`, absolute paths) are skipped. libarchive is now required to build.
 - Added: **View → Remember View for This Folder** (also in the toolbar's view menu and the folder's context menu)
   gives one folder its own view mode, sorting and columns while the others keep the shared style. Turning it off
   returns the folder to the shared style. **Adjust View Display Style** can now apply to the current folder (and its

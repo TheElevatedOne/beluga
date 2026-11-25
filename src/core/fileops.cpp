@@ -1,11 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "fileops.hpp"
 
+#include "archive.hpp"
 #include "undo.hpp"
 
 #include <glib/gstdio.h>
 
+#include <cerrno>
 #include <chrono>
+#include <map>
 #include <condition_variable>
 #include <thread>
 
@@ -559,6 +562,55 @@ bool FileJob::copyTree(GFile *src, GFile *dest, GFileInfo *info, bool move)
     return !cancelled_;
 }
 
+void FileJob::extractItems(const std::vector<size_t> &indices)
+{
+    // One pass over each archive for all its entries.
+    std::map<std::string, std::vector<std::pair<size_t, std::string>>> byArchive;
+    for (size_t i : indices) {
+        std::string path, inner;
+        if (archive::parse_uri(file_uri(items_[i].source.get()), path, inner) && !inner.empty()) byArchive[path].push_back({i, inner});
+    }
+    for (auto &[path, entries] : byArchive) {
+        if (cancelled_) return;
+        // Extracted into a new folder next to the destination (the same drive, so moving into place is a
+        // rename), then moved with the usual handling of names that already exist.
+        Ref<GFile> destDir(g_file_get_parent(items_[entries[0].first].dest.get()));
+        std::string destPath = destDir ? take(g_file_get_path(destDir.get())) : std::string();
+        if (destPath.empty()) {
+            handleError(g_error_new_literal(G_IO_ERROR, G_IO_ERROR_NOT_SUPPORTED, _("Files can only be extracted into local folders.")), nullptr);
+            continue;
+        }
+        std::string tmpl = destPath + "/.beluga-extract-XXXXXX";
+        std::vector<char> buf(tmpl.begin(), tmpl.end());
+        buf.push_back('\0');
+        if (!g_mkdtemp(buf.data())) {
+            int e = errno;
+            handleError(g_error_new_literal(G_IO_ERROR, g_io_error_from_errno(e), g_strerror(e)), destDir.get());
+            continue;
+        }
+        Ref<GFile> tmp(g_file_new_for_path(buf.data()));
+        std::vector<std::string> inner;
+        for (auto &e : entries) inner.push_back(e.second);
+        setCurrent(printf_str(_("Extracting from “%s”"), basename_of(path).c_str()));
+        for (;;) {
+            std::string err;
+            if (archive::extract(path, inner, buf.data(), &cancelled_, &err)) {
+                for (auto &[i, in] : entries) {
+                    if (cancelled_) break;
+                    Ref<GFile> got(g_file_get_child(tmp.get(), basename_of(in).c_str()));
+                    OpItem r;
+                    if (copyOne(got.get(), items_[i].dest.get(), true, true, &r)) doneItems_.push_back({items_[i].source, r.dest});
+                }
+                break;
+            }
+            if (cancelled_) break;
+            ErrorChoice c = handleError(g_error_new_literal(G_IO_ERROR, G_IO_ERROR_FAILED, err.c_str()), nullptr);
+            if (c != ErrorChoice::Retry) break;
+        }
+        trash::delete_recursive(tmp.get(), nullptr, nullptr);
+    }
+}
+
 bool FileJob::linkOne(GFile *src, GFile *dest, OpItem *result)
 {
     Ref<GFile> d = Ref<GFile>::share(dest);
@@ -625,15 +677,22 @@ void FileJob::run()
     scan();
     switch (kind_) {
     case OpKind::Copy:
-    case OpKind::Move:
+    case OpKind::Move: {
+        // Entries of archives are always copied: archives are read only.
+        std::vector<size_t> fromArchive;
+        for (size_t i = 0; i < items_.size(); ++i)
+            if (archive::is_archive_uri(file_uri(items_[i].source.get()))) fromArchive.push_back(i);
+        if (!fromArchive.empty()) extractItems(fromArchive);
         for (auto &it : items_) {
             if (cancelled_) break;
+            if (!fromArchive.empty() && archive::is_archive_uri(file_uri(it.source.get()))) continue;
             OpItem r;
             std::string info = kind_ == OpKind::Move ? trash_info_of(it.source.get()) : std::string();
             if (copyOne(it.source.get(), it.dest.get(), true, kind_ == OpKind::Move, &r)) doneItems_.push_back(r);
             drop_trash_info(info, it.source.get());
         }
         break;
+    }
     case OpKind::Link:
         for (auto &it : items_) {
             if (cancelled_) break;

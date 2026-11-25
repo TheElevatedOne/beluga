@@ -92,6 +92,7 @@ void transfer(IO &io, ST &st)
     io.b(G, "ShowFullPath", st.showFullPath);
     io.b(G, "ShowFullPathInTitlebar", st.showFullPathInTitlebar);
     io.b(G, "OpenExternallyCalledFolderInNewTab", st.openExternallyCalledFolderInNewTab);
+    io.b(G, "BrowseArchives", st.browseArchives);
     io.b(G, "AlwaysShowTabBar", st.alwaysShowTabBar);
     io.b(G, "ShowCloseButtonOnTabs", st.showCloseButtonOnTabs);
     io.b(G, "OpenNewTabAfterLastTab", st.openNewTabAfterLastTab);

@@ -2,6 +2,7 @@
 #include "mainwindow.hpp"
 
 #include "app.hpp"
+#include "archive.hpp"
 #include "dialogs.hpp"
 #include "fileops.hpp"
 #include "folderspanel.hpp"
@@ -18,6 +19,7 @@
 #include "undo.hpp"
 
 #include <algorithm>
+#include <thread>
 
 namespace beluga {
 
@@ -779,6 +781,14 @@ void MainWindow::openItems(ViewContainer *c, const std::vector<BelugaItem *> &it
     for (BelugaItem *it : items) {
         const ItemData &d = item_data(it);
         bool mountable = d.info && g_file_info_get_file_type(d.info.get()) == G_FILE_TYPE_MOUNTABLE;
+        // An archive opens as a folder: zip, tar, 7z, rar, ISO.
+        if (!d.isDir && settings().browseArchives && archive::can_browse(d.mime, d.name)) {
+            std::string path = take(g_file_get_path(d.file.get()));
+            if (!path.empty()) {
+                dirs.push_back(archive::make_uri(path, ""));
+                continue;
+            }
+        }
         if (d.isDir || mountable) {
             std::string target = d.uri;
             if (mountable) {
@@ -804,7 +814,36 @@ void MainWindow::openItems(ViewContainer *c, const std::vector<BelugaItem *> &it
     } else if (!dirs.empty()) {
         openDirs();
     }
+    // Files inside an archive open as a copy extracted to the cache folder.
+    std::vector<std::string> inArchive;
+    for (auto it = files.begin(); it != files.end();) {
+        std::string u = file_uri(it->file.get());
+        if (archive::is_archive_uri(u)) {
+            inArchive.push_back(u);
+            it = files.erase(it);
+        } else {
+            ++it;
+        }
+    }
     if (!files.empty()) open_files(win_, files);
+    for (auto &u : inArchive) {
+        std::thread([this, alive = lifeToken(), u] {
+            auto err = std::make_shared<std::string>();
+            auto path = std::make_shared<std::string>(archive::extract_to_cache(u, err.get()));
+            run_on_main([this, alive, u, path, err] {
+                if (alive.expired()) return;
+                if (path->empty()) {
+                    show_error(win_, printf_str(_("Could not open “%s”."), basename_of(archive::display_path(u)).c_str()), *err);
+                    return;
+                }
+                Ref<GFile> f(g_file_new_for_path(path->c_str()));
+                std::string ct = take(g_content_type_guess(path->c_str(), nullptr, 0, nullptr));
+                // Never start programs or desktop entries straight out of an archive: show them as text.
+                if (ct == "application/x-desktop" || g_content_type_can_be_executable(ct.c_str())) ct = "text/plain";
+                open_files(win_, {{f, ct, false}});
+            });
+        }).detach();
+    }
 }
 
 void MainWindow::openTerminal(const std::string &folder)
@@ -826,6 +865,13 @@ void MainWindow::showProperties(const std::vector<Ref<GFile>> &files)
 void MainWindow::dropFiles(GFile *dest, const std::vector<Ref<GFile>> &files, GdkDragAction action)
 {
     if (files.empty() || !action) return;
+    // Out of an archive, files can only be copied (extracted).
+    for (auto &f : files)
+        if (archive::is_archive_uri(file_uri(f.get()))) {
+            if (!dest) return;
+            action = GDK_ACTION_COPY;
+            break;
+        }
     FileJob::Ptr job;
     if (!dest) job = FileJob::trash(files);
     else if (action == GDK_ACTION_MOVE) job = FileJob::move(files, dest);

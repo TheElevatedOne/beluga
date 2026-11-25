@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          pacman -Syu --noconfirm --needed git cmake ninja gtk4 gettext desktop-file-utils appstream \
+          pacman -Syu --noconfirm --needed git cmake ninja gtk4 libarchive gettext desktop-file-utils appstream \
             dbus adwaita-icon-theme
 
       - uses: actions/checkout@v5

@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "locationbar.hpp"
 
+#include "archive.hpp"
+
 #include "gtkutil.hpp"
 #include "places.hpp"
 #include "search.hpp"
@@ -127,7 +129,7 @@ void LocationBar::setUri(const std::string &uri)
 {
     uri_ = uri;
     settingText_ = true;
-    gtk_editable_set_text(GTK_EDITABLE(entry_), is_virtual_uri(uri) ? uri.c_str() : display_location(uri).c_str());
+    gtk_editable_set_text(GTK_EDITABLE(entry_), is_virtual_uri(uri) && !archive::is_archive_uri(uri) ? uri.c_str() : display_location(uri).c_str());
     settingText_ = false;
     rebuild();
 }
@@ -203,13 +205,32 @@ std::vector<LocationBar::Crumb> LocationBar::crumbs() const
         SearchQuery::fromUri(uri_, q);
         return {{q.title(), uri_, "system-search"}};
     }
-    Ref<GFile> f(g_file_new_for_uri(uri_.c_str()));
+    if (archive::is_archive_uri(uri_)) {
+        // The folders up to the archive, the archive (its top), then the folders inside it.
+        std::string a, inner;
+        archive::parse_uri(uri_, a, inner);
+        out = fileCrumbs(file_uri(Ref<GFile>(g_file_new_for_path(a.c_str())).get()));
+        if (!out.empty()) out.back().uri = archive::make_uri(a, "");
+        std::string prefix;
+        for (auto &part : split(inner, '/')) {
+            prefix = prefix.empty() ? part : prefix + "/" + part;
+            out.push_back({part, archive::make_uri(a, prefix), ""});
+        }
+        return out;
+    }
+    return fileCrumbs(uri_);
+}
+
+std::vector<LocationBar::Crumb> LocationBar::fileCrumbs(const std::string &uri) const
+{
+    std::vector<Crumb> out;
+    Ref<GFile> f(g_file_new_for_uri(uri.c_str()));
     std::vector<Ref<GFile>> chain;
     for (Ref<GFile> cur = f; cur; cur = Ref<GFile>(g_file_get_parent(cur.get()))) chain.push_back(cur);
     std::reverse(chain.begin(), chain.end());
     size_t start = 0;
     Crumb root;
-    int pi = settings().showFullPath ? -1 : Places::instance().bestMatch(uri_);
+    int pi = settings().showFullPath ? -1 : Places::instance().bestMatch(uri);
     if (pi >= 0) {
         const Place &p = Places::instance().list()[pi];
         Ref<GFile> pf(g_file_new_for_uri(p.uri.c_str()));

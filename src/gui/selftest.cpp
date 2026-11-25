@@ -4,6 +4,7 @@
 // Everything runs in a throwaway profile (XDG dirs point into the temporary folder), so
 // the user's settings, places and trash are never touched.
 #include "app.hpp"
+#include "archive.hpp"
 #include "diskusage.hpp"
 #include "diskusagewindow.hpp"
 #include "fileops.hpp"
@@ -17,6 +18,8 @@
 #include "trash.hpp"
 #include "undo.hpp"
 
+#include <archive.h>
+#include <archive_entry.h>
 #include <glib/gstdio.h>
 
 #include <algorithm>
@@ -45,6 +48,46 @@ void write(const std::string &rel, const std::string &content)
     std::string p = g_root + "/files/" + rel;
     g_mkdir_with_parents(dirname_of(p).c_str(), 0755);
     g_file_set_contents(p.c_str(), content.c_str(), -1, nullptr);
+}
+
+// A test archive: a folder, a folder only implied by its file, a file, a symbolic link and an entry that
+// tries to escape with "..".
+void make_archive(const std::string &path, const std::string &format)
+{
+    struct archive *a = archive_write_new();
+    if (format == "zip") archive_write_set_format_zip(a);
+    else if (format == "7z") archive_write_set_format_7zip(a);
+    else if (format == "iso") archive_write_set_format_iso9660(a);
+    else {
+        archive_write_set_format_pax_restricted(a);
+        archive_write_add_filter_gzip(a);
+    }
+    archive_write_open_filename(a, path.c_str());
+    auto add = [&](const char *name, const std::string &data, unsigned type, const char *link = nullptr) {
+        struct archive_entry *e = archive_entry_new();
+        archive_entry_set_pathname(e, name);
+        archive_entry_set_filetype(e, type);
+        archive_entry_set_perm(e, type == AE_IFDIR ? 0755 : 0644);
+        archive_entry_set_size(e, type == AE_IFREG ? (la_int64_t)data.size() : 0);
+        archive_entry_set_mtime(e, 1700000000, 0);
+        if (link) archive_entry_set_symlink(e, link);
+        archive_write_header(a, e);
+        if (type == AE_IFREG) archive_write_data(a, data.data(), data.size());
+        archive_entry_free(e);
+    };
+    add("docs/", "", AE_IFDIR);
+    add("docs/readme.txt", "hello archive", AE_IFREG);
+    add("docs/sub/deep.txt", "deep", AE_IFREG);
+    add("top.bin", std::string(1000, 'z'), AE_IFREG);
+    if (format != "7z") add("link", "", AE_IFLNK, "docs/readme.txt");
+    if (format != "iso") add("../evil.txt", "evil", AE_IFREG);
+    archive_write_close(a);
+    archive_write_free(a);
+}
+
+bool has_entry(const std::vector<archive::Entry> *v, const char *name)
+{
+    return v && std::any_of(v->begin(), v->end(), [&](const archive::Entry &e) { return e.name == name; });
 }
 
 Ref<GFile> F(const std::string &rel) { return Ref<GFile>(g_file_new_for_path((g_root + "/files/" + rel).c_str())); }
@@ -185,6 +228,51 @@ void core_tests()
         check(tree && t.files == 3 && t.folders == 2 && t.size == tree->size, "folder totals match the tree");
     }
     trash::delete_recursive(F("du").get(), nullptr, nullptr);
+
+    // Archives: listed like folders, extracted without writing outside the target.
+    {
+        std::string dir = g_root + "/arch";
+        g_mkdir_with_parents(dir.c_str(), 0755);
+        for (const char *fmt : {"zip", "tar.gz", "7z", "iso"}) {
+            std::string path = dir + "/test." + fmt;
+            make_archive(path, fmt);
+            std::string err;
+            auto index = archive::load(path, &err);
+            const auto *top = index ? index->children("") : nullptr;
+            bool ok = top && has_entry(top, "docs") && has_entry(top, "top.bin") && !has_entry(top, "evil.txt")
+                   && has_entry(index->children("docs"), "readme.txt") && has_entry(index->children("docs/sub"), "deep.txt");
+            check(ok, printf_str("archive lists like a folder (%s)%s", fmt, err.empty() ? "" : (": " + err).c_str()));
+        }
+        std::string zip = dir + "/test.zip", out = dir + "/out";
+        g_mkdir_with_parents(out.c_str(), 0755);
+        std::string err;
+        bool ok = archive::extract(zip, {"docs"}, out, nullptr, &err);
+        char *text = nullptr;
+        g_file_get_contents((out + "/docs/readme.txt").c_str(), &text, nullptr, nullptr);
+        check(ok && text && std::string(text) == "hello archive" && g_file_test((out + "/docs/sub/deep.txt").c_str(), G_FILE_TEST_EXISTS),
+              "extract a folder from an archive" + (err.empty() ? std::string() : ": " + err));
+        g_free(text);
+        archive::extract(zip, {""}, out + "/all", nullptr, nullptr);
+        check(!g_file_test((dir + "/evil.txt").c_str(), G_FILE_TEST_EXISTS) && !g_file_test((out + "/evil.txt").c_str(), G_FILE_TEST_EXISTS)
+                  && g_file_test((out + "/all/top.bin").c_str(), G_FILE_TEST_EXISTS),
+              "extracting never writes outside the target folder");
+        check(archive::resolve_path(zip + "/docs/sub") == archive::make_uri(zip, "docs/sub") && archive::resolve_path(out).empty(),
+              "a typed path into an archive resolves");
+        std::string dest = dir + "/copied";
+        g_mkdir_with_parents(dest.c_str(), 0755);
+        Ref<GFile> destDir(g_file_new_for_path(dest.c_str()));
+        run_job(FileJob::copy({Ref<GFile>(g_file_new_for_uri(archive::make_uri(zip, "docs/readme.txt").c_str())),
+                               Ref<GFile>(g_file_new_for_uri(archive::make_uri(zip, "docs/sub").c_str()))},
+                              destDir.get()));
+        check(g_file_test((dest + "/readme.txt").c_str(), G_FILE_TEST_IS_REGULAR) && g_file_test((dest + "/sub/deep.txt").c_str(), G_FILE_TEST_IS_REGULAR),
+              "copy files and folders out of an archive");
+        GDir *d = g_dir_open(dest.c_str(), 0, nullptr);
+        bool leftover = false;
+        while (const char *n = d ? g_dir_read_name(d) : nullptr)
+            if (starts_with(n, ".beluga-extract-")) leftover = true;
+        if (d) g_dir_close(d);
+        check(!leftover, "no temporary folder left after copying out");
+    }
 
     check(collate_key("file2", 0) < collate_key("file10", 0), "natural sorting");
     check(filter_match("*.txt", "notes.TXT") && filter_match("ote", "Notes") && !filter_match("*.md", "a.txt"), "filter patterns");
@@ -452,6 +540,32 @@ void gui_tests(GtkApplication *app)
         check(!disk_usage_busy(duw) && disk_usage_rows(duw) >= 4, printf_str("disk usage window (%u rows)", disk_usage_rows(duw)));
         shoot(duw, "10-disk-usage");
         gtk_window_destroy(GTK_WINDOW(duw));
+    }
+
+    // Archives open like folders, and Up leads back out.
+    {
+        std::string archDir = file_uri(Ref<GFile>(g_file_new_for_path((g_root + "/arch").c_str())).get());
+        std::string zip = g_root + "/arch/test.zip";
+        ViewContainer *c = w->activeContainer();
+        c->navigate(archDir);
+        wait_ms(600);
+        BelugaItem *zi = w->activeView()->findItem(file_uri(Ref<GFile>(g_file_new_for_path(zip.c_str())).get()));
+        if (zi) w->openItems(c, {zi}, GdkModifierType(0));
+        wait_ms(900);
+        View *av = w->activeView();
+        check(av->location() == archive::make_uri(zip, "") && av->findItem(archive::make_uri(zip, "docs"))
+                  && av->findItem(archive::make_uri(zip, "top.bin")),
+              "open an archive as a folder");
+        shoot(w->widget(), "12-archive");
+        c->navigate(archive::make_uri(zip, "docs"));
+        wait_ms(700);
+        bool inside = w->activeView()->findItem(archive::make_uri(zip, "docs/readme.txt")) != nullptr;
+        c->goUp();
+        wait_ms(600);
+        bool atTop = w->activeView()->location() == archive::make_uri(zip, "");
+        c->goUp();
+        wait_ms(700);
+        check(inside && atTop && w->activeView()->location() == archDir, "browse into an archive and back out");
     }
 
     w->activeContainer()->navigate("trash:///");

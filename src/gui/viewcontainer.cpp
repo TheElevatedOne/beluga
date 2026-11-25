@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "viewcontainer.hpp"
 
+#include "archive.hpp"
+
 #include "gtkutil.hpp"
 #include "mainwindow.hpp"
 #include "places.hpp"
@@ -199,6 +201,7 @@ ViewContainer::~ViewContainer()
 
 bool ViewContainer::canGoUp() const
 {
+    if (archive::is_archive_uri(uri())) return true;
     if (is_virtual_uri(uri())) return is_search_uri(uri());
     Ref<GFile> f(g_file_new_for_uri(uri().c_str()));
     Ref<GFile> parent(g_file_get_parent(f.get()));
@@ -344,9 +347,18 @@ void ViewContainer::updateColumns()
     }, g_object_ref(colScroll_));
 }
 
-void ViewContainer::navigate(const std::string &target, bool addHistory)
+void ViewContainer::navigate(const std::string &targetIn, bool addHistory)
 {
-    if (target.empty()) return;
+    if (targetIn.empty()) return;
+    // A typed path that runs into an archive (~/x.zip/docs) opens inside it.
+    std::string target = targetIn;
+    if (starts_with(target, "file:")) {
+        std::string path = take(g_filename_from_uri(target.c_str(), nullptr, nullptr));
+        if (!path.empty() && !g_file_test(path.c_str(), G_FILE_TEST_EXISTS)) {
+            std::string inArchive = archive::resolve_path(path);
+            if (!inArchive.empty()) target = inArchive;
+        }
+    }
     if (index_ >= 0 && target == uri()) {
         view_->focus();
         return;
@@ -383,6 +395,14 @@ void ViewContainer::goUp()
         SearchQuery q;
         SearchQuery::fromUri(cur, q);
         navigate(q.rootUri);
+        return;
+    }
+    if (archive::is_archive_uri(cur)) {
+        // Up from the top of an archive: its folder, with the archive selected.
+        std::string a, inner;
+        archive::parse_uri(cur, a, inner);
+        navigate(archive::parent_uri(cur));
+        view_->selectAndShow(inner.empty() ? file_uri(Ref<GFile>(g_file_new_for_path(a.c_str())).get()) : cur);
         return;
     }
     if (is_virtual_uri(cur)) return;
@@ -503,6 +523,7 @@ std::string ViewContainer::title() const
         return q.title();
     }
     if (settings().showFullPathInTitlebar) return display_location(u);
+    if (archive::is_archive_uri(u)) return basename_of(archive::display_path(u));   // the archive or its folder
     int pi = Places::instance().indexOf(u);
     if (pi >= 0) return Places::instance().list()[pi].label;
     Ref<GFile> f(g_file_new_for_uri(u.c_str()));

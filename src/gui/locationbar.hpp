@@ -41,6 +41,7 @@ public:
 
 private:
     void rebuild();
+    std::vector<Crumb> fileCrumbs(const std::string &uri) const;
     void stopEditing();
     void navigateTo(const std::string &uri);
     void commit();

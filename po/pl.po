@@ -21,6 +21,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+msgid "The archive could not be opened."
+msgstr ""
+
+msgid "The archive could not be read."
+msgstr ""
+
+msgid "Cancelled."
+msgstr ""
+
+msgid "This file is encrypted with a password."
+msgstr ""
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr ""
+
+msgid "This is not a file in an archive."
+msgstr ""
+
 msgid "Extract Here"
 msgstr ""
 
@@ -84,6 +103,13 @@ msgid "A folder cannot be moved into itself."
 msgstr ""
 
 msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Files can only be extracted into local folders."
+msgstr ""
+
+#, c-format
+msgid "Extracting from “%s”"
 msgstr ""
 
 msgid "Places"
@@ -768,6 +794,12 @@ msgstr "Ponów"
 msgid "This location is not a folder."
 msgstr ""
 
+msgid "This location is not valid."
+msgstr ""
+
+msgid "This folder is not in the archive."
+msgstr ""
+
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
@@ -1112,6 +1144,10 @@ msgstr ""
 msgid "Open Folders"
 msgstr ""
 
+#, c-format
+msgid "Could not open “%s”."
+msgstr ""
+
 msgid "Could not open a terminal."
 msgstr ""
 
@@ -1403,6 +1439,9 @@ msgid "Show _close buttons on tabs"
 msgstr ""
 
 msgid "Open folders from other applications in a new _tab"
+msgstr ""
+
+msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
 msgstr ""
 
 msgid "Closing split view closes:"
