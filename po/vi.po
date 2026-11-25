@@ -7,6 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2023-03-21 18:35+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -518,6 +520,9 @@ msgstr "Sắp xếp theo"
 
 msgid "View Mode"
 msgstr "Chế độ xem"
+
+msgid "Remember View for This Folder"
+msgstr ""
 
 msgid "Restore"
 msgstr "Phục hồi"
@@ -1048,7 +1053,9 @@ msgid "New Folder"
 msgstr "Thư mục mới"
 
 #, c-format
-msgid "Create new folder in:\n%s"
+msgid ""
+"Create new folder in:\n"
+"%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1058,7 +1065,9 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid "Create new file in:\n%s"
+msgid ""
+"Create new file in:\n"
+"%s"
 msgstr ""
 
 msgid "Could not create the file."
@@ -1363,6 +1372,9 @@ msgid "View"
 msgstr "Xem"
 
 msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
 msgstr ""
 
 msgid "Natural"

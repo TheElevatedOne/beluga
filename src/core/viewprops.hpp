@@ -41,8 +41,17 @@ struct ViewProps {
     bool operator==(const ViewProps &o) const;
 };
 
+// A folder's own settings when it has them, else the default settings.
 ViewProps load_view_props(const std::string &uri);
+// Saves a change made in a folder: to the folder's own settings when it has them (or when every
+// folder remembers its own view), else to the default settings for all folders.
 void save_view_props(const std::string &uri, const ViewProps &props);
+// "Remember view for this folder": a folder's own settings, which override the default.
+bool has_own_view_props(const std::string &uri);
+void save_own_view_props(const std::string &uri, const ViewProps &props);
+void save_own_view_props(const std::vector<std::string> &uris, const ViewProps &props);   // one write
+void remove_own_view_props(const std::string &uri);
+void save_default_view_props(const ViewProps &props);
 // Defaults of the "global" set, used for new folders.
 ViewProps default_view_props(const std::string &uri);
 void reset_all_view_props();

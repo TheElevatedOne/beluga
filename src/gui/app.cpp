@@ -95,6 +95,7 @@ App &App::instance()
 void App::init(GtkApplication *app)
 {
     app_ = app;
+    gtk_window_set_default_icon_name(BELUGA_APP_ID);   // dialogs and the properties window too
     set_job_ui(&jobUi_);
     load_style();
     updateAccels();

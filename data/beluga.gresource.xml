@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <!-- GtkApplication adds /org/beluga/Beluga/icons to the icon theme, so windows show the app icon
+       even when Beluga runs from the build folder or an unpacked release. -->
+  <gresource prefix="/org/beluga/Beluga/icons/scalable/apps">
+    <file>org.beluga.Beluga.svg</file>
+  </gresource>
+</gresources>

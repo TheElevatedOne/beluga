@@ -48,7 +48,20 @@ target_compile_definitions(belugacore PUBLIC ${BELUGA_DEFS})
 target_compile_options(belugacore PRIVATE ${BELUGA_WARN})
 target_link_libraries(belugacore PUBLIC PkgConfig::GIO Threads::Threads)
 
+# The app icon, also built into the binary (see data/beluga.gresource.xml).
+find_program(GLIB_COMPILE_RESOURCES glib-compile-resources)
+if(NOT GLIB_COMPILE_RESOURCES)
+  message(FATAL_ERROR "glib-compile-resources (GLib's development tools) is required")
+endif()
+set(BELUGA_RESOURCES ${CMAKE_CURRENT_BINARY_DIR}/resources.c)
+add_custom_command(
+  OUTPUT ${BELUGA_RESOURCES}
+  COMMAND ${GLIB_COMPILE_RESOURCES} --generate-source --sourcedir=${CMAKE_CURRENT_SOURCE_DIR}/data/icons
+          --target=${BELUGA_RESOURCES} ${CMAKE_CURRENT_SOURCE_DIR}/data/beluga.gresource.xml
+  DEPENDS data/beluga.gresource.xml data/icons/${BELUGA_APP_ID}.svg)
+
 add_executable(beluga
+  ${BELUGA_RESOURCES}
   src/gui/main.cpp
   src/gui/app.cpp
   src/gui/style.cpp
@@ -83,6 +96,7 @@ configure_file(data/beluga.desktop.in ${CMAKE_CURRENT_BINARY_DIR}/${BELUGA_APP_I
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${BELUGA_APP_ID}.desktop
   DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
 install(FILES data/${BELUGA_APP_ID}.metainfo.xml DESTINATION ${CMAKE_INSTALL_DATADIR}/metainfo)
+install(FILES data/icons/${BELUGA_APP_ID}.svg DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps)
 if(BELUGA_INSTALL_FILEMANAGER1_SERVICE)
   configure_file(data/org.freedesktop.FileManager1.service.in
     ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.FileManager1.service @ONLY)

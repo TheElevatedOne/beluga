@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Added: **View → Remember View for This Folder** (also in the toolbar's view menu and the folder's context menu)
+  gives one folder its own view mode, sorting and columns while the others keep the shared style. Turning it off
+  returns the folder to the shared style. **Adjust View Display Style** can now apply to the current folder (and its
+  subfolders) when all folders share one style, and "All folders" sets the shared style and clears the folders'
+  own settings.
+- Changed: Beluga has its own icon, a white beluga whale on a folder (`org.beluga.Beluga`), instead of the
+  system file manager icon.
 - Fixed: typing in the location bar, the filter, the search field or an inline rename no longer triggers
   shortcuts. Delete used to move the selected files to the trash, and Backspace, Space, `/`, Ctrl+C/V/X/Z/A
   acted on the files instead of the text.

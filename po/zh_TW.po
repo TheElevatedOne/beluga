@@ -19,6 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2026-11-12 18:54+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -530,6 +532,9 @@ msgstr "排序依據"
 
 msgid "View Mode"
 msgstr "檢視模式"
+
+msgid "Remember View for This Folder"
+msgstr ""
 
 msgid "Restore"
 msgstr "還原"
@@ -1060,7 +1065,9 @@ msgid "New Folder"
 msgstr "新資料夾"
 
 #, c-format
-msgid "Create new folder in:\n%s"
+msgid ""
+"Create new folder in:\n"
+"%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1070,7 +1077,9 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid "Create new file in:\n%s"
+msgid ""
+"Create new file in:\n"
+"%s"
 msgstr ""
 
 msgid "Could not create the file."
@@ -1375,6 +1384,9 @@ msgid "View"
 msgstr "檢視(V)"
 
 msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
 msgstr ""
 
 msgid "Natural"

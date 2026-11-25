@@ -209,21 +209,28 @@ const std::vector<ActionDef> &action_defs()
         {"show-groups", nullptr, "false", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setGrouped(!AV(w)->props().groupedSorting); }},
         {"show-previews", nullptr, "true", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setPreviewsShown(!AV(w)->props().previewsShown); }},
         {"show-hidden", nullptr, "false", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setHiddenShown(!AV(w)->props().hiddenFilesShown); }},
+        {"remember-view", nullptr, "false", [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->setOwnProps(!AV(w)->hasOwnProps()); }},
         {"view-properties", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              View *v = AV(w);
              if (!v) return;
              std::string uri = v->location();
              view_properties_dialog(w->widget(), uri, v->props(), [w, uri](const ViewProps &p, int scope) {
-                 if (scope == 2 && !settings().globalViewProps) reset_all_view_props();
-                 if (scope == 1 && !is_virtual_uri(uri)) {
+                 if (is_virtual_uri(uri)) {
+                     save_own_view_props(uri, p);   // the trash, search and recent views keep their own
+                 } else if (scope == 2) {
+                     // All folders: the new default, and no folder keeps its own settings.
+                     reset_all_view_props();
+                     save_default_view_props(p);
+                 } else if (scope == 0) {
+                     save_own_view_props(uri, p);
+                 } else {
                      // Store the properties for every subfolder too.
                      std::vector<Ref<GFile>> stack{Ref<GFile>(g_file_new_for_uri(uri.c_str()))};
-                     int count = 0;
-                     while (!stack.empty() && count < 5000) {
+                     std::vector<std::string> folders;
+                     while (!stack.empty() && folders.size() < 5000) {
                          Ref<GFile> d = stack.back();
                          stack.pop_back();
-                         save_view_props(file_uri(d.get()), p);
-                         count++;
+                         folders.push_back(file_uri(d.get()));
                          GFileEnumerator *en = g_file_enumerate_children(d.get(), "standard::name,standard::type", G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, nullptr);
                          if (!en) continue;
                          GFileInfo *info;
@@ -234,8 +241,9 @@ const std::vector<ActionDef> &action_defs()
                          }
                          g_object_unref(en);
                      }
+                     save_own_view_props(folders, p);
                  }
-                 if (AV(w) && AV(w)->location() == uri) AV(w)->applyProps(p, true);
+                 if (AV(w) && AV(w)->location() == uri) AV(w)->reloadProps();
              });
          }},
         {"reset-view-props", nullptr, nullptr, [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->restoreDefaultProps(); }},
@@ -505,6 +513,7 @@ void MainWindow::updateActions()
     enable(this, "open-with", sel);
     enable(this, "open-containing-folder", sel && virt && !trashView);
     enable(this, "folder-properties", !virt);
+    enable(this, "remember-view", v && !virt);
     enable(this, "properties", sel || !virt);
 
     if (v) {
@@ -517,6 +526,7 @@ void MainWindow::updateActions()
         state(this, "show-groups", g_variant_new_boolean(p.groupedSorting));
         state(this, "show-previews", g_variant_new_boolean(p.previewsShown));
         state(this, "show-hidden", g_variant_new_boolean(p.hiddenFilesShown));
+        state(this, "remember-view", g_variant_new_boolean(v->hasOwnProps()));
         auto roles = p.rolesForMode(p.viewMode);
         for (auto &r : all_roles()) {
             if (std::string(r.id) == "text") continue;

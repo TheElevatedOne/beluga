@@ -56,6 +56,12 @@ public:
     void setRoles(const std::vector<std::string> &roles);
     void applyProps(const ViewProps &p, bool save);
     void restoreDefaultProps();
+    // "Remember view for this folder": whether the folder has its own view settings instead of the
+    // default ones. Turning it off returns the folder to the default settings.
+    bool hasOwnProps() const { return ownProps_; }
+    void setOwnProps(bool on);
+    // Re-reads the settings for the current folder after they were stored elsewhere.
+    void reloadProps();
     void settingsChanged();
 
     void setNameFilter(const std::string &f);
@@ -132,6 +138,7 @@ private:
     DirLister lister_;
     std::string uri_;
     ViewProps props_;
+    bool ownProps_ = false;
     std::string nameFilter_;
     GtkFilter *filter_ = nullptr;
     GtkFilterListModel *filterModel_ = nullptr;

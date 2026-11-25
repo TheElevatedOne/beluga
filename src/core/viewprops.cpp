@@ -97,14 +97,17 @@ GKeyFile *open_store()
     return kf;
 }
 
-std::string group_for(const std::string &uri)
+// The group holding a folder's own settings. Trash, search results and recent files always have their
+// own. GKeyFile group names can't contain brackets, which remote URIs such as sftp://[::1]/ have.
+std::string own_group(const std::string &uri)
 {
     if (is_trash_uri(uri)) return "trash";
     if (is_search_uri(uri)) return "search";
     if (is_recent_uri(uri)) return "recent";
-    if (settings().globalViewProps) return "global";
-    return uri;
+    return replace_all(replace_all(uri, "[", "%5B"), "]", "%5D");
 }
+
+void write_group(GKeyFile *kf, const std::string &g, const ViewProps &p);
 
 bool read_group(GKeyFile *kf, const std::string &g, ViewProps &p)
 {
@@ -181,17 +184,63 @@ ViewProps default_view_props(const std::string &uri)
 
 ViewProps load_view_props(const std::string &uri)
 {
+    // A folder's own settings win; every other folder uses the default ("global") settings.
     ViewProps p = default_view_props(uri);
     GKeyFile *kf = open_store();
-    read_group(kf, group_for(uri), p);
+    read_group(kf, own_group(uri), p);
     g_key_file_free(kf);
     return p;
 }
 
-void save_view_props(const std::string &uri, const ViewProps &p)
+bool has_own_view_props(const std::string &uri)
 {
     GKeyFile *kf = open_store();
-    std::string g = group_for(uri);
+    bool has = g_key_file_has_group(kf, own_group(uri).c_str());
+    g_key_file_free(kf);
+    return has;
+}
+
+namespace {
+void save_group(const std::string &g, const ViewProps &p)
+{
+    GKeyFile *kf = open_store();
+    write_group(kf, g, p);
+    g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
+    g_key_file_free(kf);
+}
+} // namespace
+
+void save_view_props(const std::string &uri, const ViewProps &p)
+{
+    // A change in a folder that has its own settings stays there. Otherwise it changes the default
+    // for all folders, unless each folder remembers its own view (the "same style" option is off).
+    bool own = is_virtual_uri(uri) || !settings().globalViewProps || has_own_view_props(uri);
+    save_group(own ? own_group(uri) : "global", p);
+}
+
+void save_own_view_props(const std::string &uri, const ViewProps &p) { save_group(own_group(uri), p); }
+
+void save_own_view_props(const std::vector<std::string> &uris, const ViewProps &p)
+{
+    GKeyFile *kf = open_store();
+    for (auto &u : uris) write_group(kf, own_group(u), p);
+    g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
+    g_key_file_free(kf);
+}
+
+void save_default_view_props(const ViewProps &p) { save_group("global", p); }
+
+void remove_own_view_props(const std::string &uri)
+{
+    if (is_virtual_uri(uri)) return;
+    GKeyFile *kf = open_store();
+    if (g_key_file_remove_group(kf, own_group(uri).c_str(), nullptr)) g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
+    g_key_file_free(kf);
+}
+
+namespace {
+void write_group(GKeyFile *kf, const std::string &g, const ViewProps &p)
+{
     const char *G = g.c_str();
     g_key_file_set_integer(kf, G, "ViewMode", p.viewMode);
     g_key_file_set_integer(kf, G, "ZoomLevel", p.zoomLevel);
@@ -210,9 +259,8 @@ void save_view_props(const std::string &uri, const ViewProps &p)
     std::vector<const char *> wp;
     for (auto &w : widths) wp.push_back(w.c_str());
     g_key_file_set_string_list(kf, G, "ColumnWidths", wp.data(), wp.size());
-    g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
-    g_key_file_free(kf);
 }
+} // namespace
 
 void reset_all_view_props()
 {

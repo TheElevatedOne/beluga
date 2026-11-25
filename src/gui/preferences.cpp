@@ -473,6 +473,8 @@ void show_preferences(GtkWidget *parent)
     Page v = page(stack, "view", _("View"));
     heading(v, _("General"));
     check(v, _("Use the same display style for _all folders"), s.globalViewProps);
+    note(v, _("When this is off, every folder remembers its own style. Either way, View › Remember View for "
+              "This Folder gives one folder its own style."));
     choice(v, _("Sorting:"), {_("Natural"), _("Alphabetical, case insensitive"), _("Alphabetical, case sensitive")},
            [&s] { return s.sortingChoice; }, [&s](int i) { s.sortingChoice = i; });
     choice(v, _("Folder size:"), {_("Number of items"), _("Size of contents"), _("None")},

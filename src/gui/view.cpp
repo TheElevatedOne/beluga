@@ -451,6 +451,7 @@ void View::setLocation(const std::string &uri)
     alive_ = std::make_shared<int>(0);
     g_clear_weak_pointer(&hovered_);
     props_ = load_view_props(uri);
+    ownProps_ = !isVirtual() && has_own_view_props(uri);
     if (useTree() != treeBuilt_ || (props_.groupedSorting && !gtk_sort_list_model_get_section_sorter(sortModel_))
         || (!props_.groupedSorting && gtk_sort_list_model_get_section_sorter(sortModel_)))
         buildPipeline();
@@ -486,7 +487,10 @@ void View::applyProps(const ViewProps &p, bool save)
                || p.sortFoldersFirst != props_.sortFoldersFirst || p.sortHiddenLast != props_.sortHiddenLast;
     bool refilter = p.hiddenFilesShown != props_.hiddenFilesShown;
     props_ = p;
-    if (save) save_view_props(uri_, props_);
+    if (save) {
+        save_view_props(uri_, props_);
+        ownProps_ = !isVirtual() && has_own_view_props(uri_);
+    }
     if (rebuild && (useTree() != treeBuilt_ || p.groupedSorting != (gtk_sort_list_model_get_section_sorter(sortModel_) != nullptr))) {
         buildPipeline();
     } else {
@@ -591,6 +595,22 @@ void View::setRoles(const std::vector<std::string> &roles)
     ViewProps p = props_;
     p.setRolesForMode(p.viewMode, roles);
     applyProps(p, true);
+}
+
+void View::setOwnProps(bool on)
+{
+    if (isVirtual() || on == ownProps_) return;
+    if (on) save_own_view_props(uri_, props_);
+    else remove_own_view_props(uri_);
+    ownProps_ = on;
+    if (!on) applyProps(load_view_props(uri_), false);   // back to the default settings
+    else if (onPropsChanged) onPropsChanged();
+}
+
+void View::reloadProps()
+{
+    ownProps_ = !isVirtual() && has_own_view_props(uri_);
+    applyProps(load_view_props(uri_), false);
 }
 
 void View::restoreDefaultProps()

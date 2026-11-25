@@ -33,7 +33,7 @@ MainWindow::MainWindow(GtkApplication *app)
     g_object_set_data(G_OBJECT(win_), "beluga-mainwindow", this);
     gtk_widget_add_css_class(win_, "beluga-window");
     gtk_window_set_default_size(GTK_WINDOW(win_), s.windowWidth, s.windowHeight);
-    gtk_window_set_icon_name(GTK_WINDOW(win_), "system-file-manager");
+    gtk_window_set_icon_name(GTK_WINDOW(win_), BELUGA_APP_ID);
     if (s.windowMaximized) gtk_window_maximize(GTK_WINDOW(win_));
 
     GtkWidget *vbox = gtk_box_new(GTK_ORIENTATION_VERTICAL, 0);
@@ -436,6 +436,7 @@ void MainWindow::buildMenus()
     add(s, _("Show Previews"), "win.show-previews");
     add(s, _("Show Hidden Files"), "win.show-hidden");
     s = section(view);
+    add(s, _("Remember View for This Folder"), "win.remember-view");
     add(s, _("Restore to Defaults"), "win.reset-view-props");
     add(s, _("Adjust View Display Style…"), "win.view-properties");
     s = section(view);
@@ -520,6 +521,8 @@ void MainWindow::buildMenus()
     s = section(vm);
     add(s, _("Zoom _In"), "win.zoom-in");
     add(s, _("Zoom _Out"), "win.zoom-out");
+    s = section(vm);
+    add(s, _("Remember View for This Folder"), "win.remember-view");
     add(s, _("Adjust View Display Style…"), "win.view-properties");
     gtk_menu_button_set_menu_model(GTK_MENU_BUTTON(g_object_get_data(G_OBJECT(toolbar_), "beluga-viewmenu")), G_MENU_MODEL(vm));
     g_object_unref(vm);

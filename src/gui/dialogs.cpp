@@ -486,12 +486,10 @@ void view_properties_dialog(GtkWidget *parent, const std::string &uri, const Vie
     GtkWidget *r2 = gtk_check_button_new_with_label(_("All folders"));
     gtk_check_button_set_group(GTK_CHECK_BUTTON(r1), GTK_CHECK_BUTTON(r0));
     gtk_check_button_set_group(GTK_CHECK_BUTTON(r2), GTK_CHECK_BUTTON(r0));
-    bool global = settings().globalViewProps;
-    gtk_check_button_set_active(GTK_CHECK_BUTTON(global ? r2 : r0), TRUE);
-    if (global) {
-        gtk_widget_set_sensitive(r0, FALSE);
-        gtk_widget_set_sensitive(r1, FALSE);
-    }
+    // A folder with its own settings, or every folder when each remembers its own view, starts on
+    // "Current folder"; otherwise the change is to the default for all folders.
+    bool own = !settings().globalViewProps || has_own_view_props(uri);
+    gtk_check_button_set_active(GTK_CHECK_BUTTON(own ? r0 : r2), TRUE);
     gtk_box_append(GTK_BOX(radios), r0);
     gtk_box_append(GTK_BOX(radios), r1);
     gtk_box_append(GTK_BOX(radios), r2);

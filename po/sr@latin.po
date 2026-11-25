@@ -9,6 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2026-10-09 10:30+0200\n"
 "Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -132,7 +134,9 @@ msgid "Images"
 msgstr ""
 
 msgid "Audio"
-msgstr "audio|/|$[svojstva naredbeno 'detalji:\naudio' spiskovno 'dopunski detalji: audio']"
+msgstr ""
+"audio|/|$[svojstva naredbeno 'detalji:\n"
+"audio' spiskovno 'dopunski detalji: audio']"
 
 msgid "Folders"
 msgstr "Fascikle"
@@ -259,43 +263,67 @@ msgid "%s copy %d"
 msgstr ""
 
 msgid "Name"
-msgstr "ime|/|$[svojstva naredbeno 'detalji:\nime' spiskovno 'dopunski detalji: ime']"
+msgstr ""
+"ime|/|$[svojstva naredbeno 'detalji:\n"
+"ime' spiskovno 'dopunski detalji: ime']"
 
 msgid "Size"
-msgstr "veličina|/|$[svojstva naredbeno 'detalji:\nveličina' spiskovno 'dopunski detalji: veličina']"
+msgstr ""
+"veličina|/|$[svojstva naredbeno 'detalji:\n"
+"veličina' spiskovno 'dopunski detalji: veličina']"
 
 msgid "Modified"
-msgstr "izmenjeno|/|$[svojstva naredbeno 'detalji:\nizmenjeno' spiskovno 'dopunski detalji: izmenjeno']"
+msgstr ""
+"izmenjeno|/|$[svojstva naredbeno 'detalji:\n"
+"izmenjeno' spiskovno 'dopunski detalji: izmenjeno']"
 
 msgid "Created"
-msgstr "stvoreno|/|$[svojstva naredbeno 'detalji:\nstvoreno' spiskovno 'dopunski detalji: stvoreno']"
+msgstr ""
+"stvoreno|/|$[svojstva naredbeno 'detalji:\n"
+"stvoreno' spiskovno 'dopunski detalji: stvoreno']"
 
 msgid "Accessed"
-msgstr "pristupljeno|/|$[svojstva naredbeno 'detalji:\npristupljeno' spiskovno 'dopunski detalji: pristupljeno']"
+msgstr ""
+"pristupljeno|/|$[svojstva naredbeno 'detalji:\n"
+"pristupljeno' spiskovno 'dopunski detalji: pristupljeno']"
 
 msgid "Type"
-msgstr "tip|/|$[svojstva naredbeno 'detalji:\ntip' spiskovno 'dopunski detalji: tip']"
+msgstr ""
+"tip|/|$[svojstva naredbeno 'detalji:\n"
+"tip' spiskovno 'dopunski detalji: tip']"
 
 msgid "Extension"
 msgstr ""
 
 msgid "Permissions"
-msgstr "dozvole|/|$[svojstva naredbeno 'detalji:\ndozvole' spiskovno 'dopunski detalji: dozvole']"
+msgstr ""
+"dozvole|/|$[svojstva naredbeno 'detalji:\n"
+"dozvole' spiskovno 'dopunski detalji: dozvole']"
 
 msgid "Owner"
-msgstr "vlasnik|/|$[svojstva naredbeno 'detalji:\nvlasnik' spiskovno 'dopunski detalji: vlasnik']"
+msgstr ""
+"vlasnik|/|$[svojstva naredbeno 'detalji:\n"
+"vlasnik' spiskovno 'dopunski detalji: vlasnik']"
 
 msgid "User Group"
-msgstr "korisnička grupa|/|$[svojstva naredbeno 'detalji:\nkorisnička grupa' spiskovno 'dopunski detalji: korisnička grupa']"
+msgstr ""
+"korisnička grupa|/|$[svojstva naredbeno 'detalji:\n"
+"korisnička grupa' spiskovno 'dopunski detalji: korisnička grupa']"
 
 msgid "Path"
-msgstr "putanja|/|$[svojstva naredbeno 'detalji:\nputanja' spiskovno 'dopunski detalji: putanja']"
+msgstr ""
+"putanja|/|$[svojstva naredbeno 'detalji:\n"
+"putanja' spiskovno 'dopunski detalji: putanja']"
 
 msgid "Link Destination"
-msgstr "odredište veze|/|$[svojstva naredbeno 'detalji:\nodredište veze' spiskovno 'dopunski detalji: odredište veze']"
+msgstr ""
+"odredište veze|/|$[svojstva naredbeno 'detalji:\n"
+"odredište veze' spiskovno 'dopunski detalji: odredište veze']"
 
 msgid "Deletion Time"
-msgstr "vreme brisanja|/|$[svojstva naredbeno 'detalji:\nvreme brisanja' spiskovno 'dopunski detalji: vreme brisanja']"
+msgstr ""
+"vreme brisanja|/|$[svojstva naredbeno 'detalji:\n"
+"vreme brisanja' spiskovno 'dopunski detalji: vreme brisanja']"
 
 msgid "Original Location"
 msgstr ""
@@ -529,6 +557,9 @@ msgstr "Poređaj po"
 
 msgid "View Mode"
 msgstr "Režim prikaza"
+
+msgid "Remember View for This Folder"
+msgstr ""
 
 msgid "Restore"
 msgstr "Povrati"
@@ -800,7 +831,9 @@ msgid "Points to:"
 msgstr "Veza ka:"
 
 msgid "Permissions:"
-msgstr "dozvole|/|$[svojstva naredbeno 'detalji:\ndozvole' spiskovno 'dopunski detalji: dozvole']:"
+msgstr ""
+"dozvole|/|$[svojstva naredbeno 'detalji:\n"
+"dozvole' spiskovno 'dopunski detalji: dozvole']:"
 
 msgid "Owner:"
 msgstr "Vlasnik:"
@@ -812,7 +845,9 @@ msgid "Dimensions:"
 msgstr "dimenzije:"
 
 msgid "Duration:"
-msgstr "trajanje|/|$[svojstva naredbeno 'detalji:\ntrajanje' spiskovno 'dopunski detalji: trajanje']:"
+msgstr ""
+"trajanje|/|$[svojstva naredbeno 'detalji:\n"
+"trajanje' spiskovno 'dopunski detalji: trajanje']:"
 
 msgid "Broken Link"
 msgstr ""
@@ -1059,7 +1094,9 @@ msgid "New Folder"
 msgstr "nova‑fascikla"
 
 #, c-format
-msgid "Create new folder in:\n%s"
+msgid ""
+"Create new folder in:\n"
+"%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1069,7 +1106,9 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid "Create new file in:\n%s"
+msgid ""
+"Create new file in:\n"
+"%s"
 msgstr ""
 
 msgid "Could not create the file."
@@ -1374,6 +1413,9 @@ msgid "View"
 msgstr "Prikaz"
 
 msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
 msgstr ""
 
 msgid "Natural"

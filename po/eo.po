@@ -10,6 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2025-03-01 17:55+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
@@ -524,6 +526,9 @@ msgstr "Ordigi laŭ"
 
 msgid "View Mode"
 msgstr "Rigarda moduso"
+
+msgid "Remember View for This Folder"
+msgstr ""
 
 msgid "Restore"
 msgstr "Restaŭri"
@@ -1054,7 +1059,9 @@ msgid "New Folder"
 msgstr "Nova Dosierujo"
 
 #, c-format
-msgid "Create new folder in:\n%s"
+msgid ""
+"Create new folder in:\n"
+"%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1064,7 +1071,9 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid "Create new file in:\n%s"
+msgid ""
+"Create new file in:\n"
+"%s"
 msgstr ""
 
 msgid "Could not create the file."
@@ -1369,6 +1378,9 @@ msgid "View"
 msgstr "Rigardi"
 
 msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
 msgstr ""
 
 msgid "Natural"

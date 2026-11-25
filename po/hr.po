@@ -10,6 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 13:50+0100\n"
 "PO-Revision-Date: 2011-05-08 17:45+0200\n"
 "Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -527,6 +529,9 @@ msgstr "Sortiranje po"
 
 msgid "View Mode"
 msgstr "Način prikaza"
+
+msgid "Remember View for This Folder"
+msgstr ""
 
 msgid "Restore"
 msgstr "Vrati"
@@ -1057,7 +1062,9 @@ msgid "New Folder"
 msgstr "Nova mapa"
 
 #, c-format
-msgid "Create new folder in:\n%s"
+msgid ""
+"Create new folder in:\n"
+"%s"
 msgstr ""
 
 msgid "C_reate"
@@ -1067,7 +1074,9 @@ msgid "Could not create the folder."
 msgstr ""
 
 #, c-format
-msgid "Create new file in:\n%s"
+msgid ""
+"Create new file in:\n"
+"%s"
 msgstr ""
 
 msgid "Could not create the file."
@@ -1372,6 +1381,9 @@ msgid "View"
 msgstr "Prikaz"
 
 msgid "Use the same display style for _all folders"
+msgstr ""
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
 msgstr ""
 
 msgid "Natural"

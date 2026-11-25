@@ -190,6 +190,7 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
             g_object_unref(mode);
         }
         item(s, _("Show Hidden Files"), "win.show-hidden");
+        if (!v->isVirtual()) item(s, _("Remember View for This Folder"), "win.remember-view");
         if (!v->isVirtual()) item(sec(m), _("Properties"), "win.folder-properties", "document-properties");
     } else if (v->isTrash()) {
         GMenu *s = sec(m);

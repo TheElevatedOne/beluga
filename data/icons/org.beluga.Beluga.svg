@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Beluga: a white beluga whale swimming across a folder. -->
+  <!-- folder, back with tab -->
+  <path d="M10 18 H48 L56 26 H118 V112 H10 Z" fill="#1a5fb4" stroke="#0b2c56" stroke-width="4" stroke-linejoin="round"/>
+  <!-- folder, front -->
+  <path d="M10 38 H118 V112 H10 Z" fill="#3584e4" stroke="#0b2c56" stroke-width="4" stroke-linejoin="round"/>
+  <!-- waves -->
+  <path d="M18 103 Q28 98 38 103 T58 103 T78 103 T98 103 T110 101" fill="none" stroke="#99c1f1" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#241f31" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- tail flukes, spread sideways at the top of the raised tail -->
+    <path d="M30 52 C24 45 16 42 8 43 C11 36 20 34 28 40 C31 33 39 30 47 32 C43 39 37 46 33 52 Z" fill="#deddda"/>
+    <!-- body: tail curving up on the left, the round melon of the head on the right -->
+    <path d="M33 48 C38 59 48 62 60 57 C72 51 82 46 93 46 C107 46 118 55 118 67 C118 73 115 77 109 79 C97 89 77 92 61 89 C45 86 34 73 28 53 Z" fill="#ffffff"/>
+    <!-- belly shade -->
+    <path d="M50 83 C64 88 82 89 98 84" fill="none" stroke="#c0bfbc" stroke-width="3"/>
+    <!-- flipper -->
+    <path d="M80 89 C79 96 74 101 67 103 C68 96 70 91 73 89 Z" fill="#deddda"/>
+    <!-- mouth -->
+    <path d="M105 76 Q111 77 116 72" fill="none" stroke-width="2.5"/>
+  </g>
+  <!-- eye -->
+  <circle cx="102" cy="64" r="3.2" fill="#241f31"/>
+  <!-- spout from the blowhole -->
+  <g fill="#99c1f1" stroke="#0b2c56" stroke-width="2">
+    <circle cx="90" cy="38" r="3.5"/>
+    <circle cx="84" cy="29" r="3"/>
+    <circle cx="96" cy="29" r="3"/>
+  </g>
+</svg>

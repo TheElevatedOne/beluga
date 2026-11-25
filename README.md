@@ -2,6 +2,8 @@
 
 ![Static Badge](https://img.shields.io/badge/CLAUDE-VIBECODED?style=for-the-badge&logo=claude&label=VIBECODED&labelColor=%23333333&color=%23de7356)
 
+<p align="center"><img src="data/icons/org.beluga.Beluga.svg" alt="Beluga icon: a white beluga whale swimming across a blue folder" width="128"></p>
+
 A file manager for Linux written in C++ with plain GTK 4. It is a rewrite of KDE's Dolphin: the same views,
 panels, tabs, split view and shortcuts, without Qt, KDE Frameworks or libadwaita.
 
@@ -40,7 +42,8 @@ limits, places) live in Beluga's own preferences.
 - **Views**: Icons, Compact, Details and Columns (<kbd>Ctrl</kbd>+<kbd>1</kbd>–<kbd>4</kbd>) in one virtualised
   widget, so folders with 100 000 items scroll without delay. Details has resizable columns and expandable
   folders. Columns shows each parent folder in its own column. All views can group items by name, size, date,
-  type and other columns.
+  type and other columns. Folders share one view style, and **View → Remember View for This Folder** gives a
+  folder its own view mode, sorting and columns.
 - **Tabs and split view**: tabs with drag-to-reorder, detach and "recently closed"; two views side by side
   (<kbd>F3</kbd>) with copy/move to the other view (<kbd>Shift</kbd>+<kbd>F5</kbd> / <kbd>F6</kbd>).
 - **Panels**: Places (<kbd>F9</kbd>), Folders tree (<kbd>F7</kbd>) and Information (<kbd>F11</kbd>, with
@@ -169,7 +172,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 43 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 46 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.

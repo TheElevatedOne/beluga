@@ -248,6 +248,8 @@ void gui_tests(GtkApplication *app)
     v->setViewMode(ModeIcons);
     wait_ms(1200);
     shoot(w->widget(), "1-icons");
+    check(gtk_icon_theme_has_icon(gtk_icon_theme_get_for_display(gtk_widget_get_display(w->widget())), BELUGA_APP_ID),
+          "the app icon is available without installing");
     v->setViewMode(ModeCompact);
     wait_ms(600);
     shoot(w->widget(), "2-compact");
@@ -272,6 +274,24 @@ void gui_tests(GtkApplication *app)
     check(w->activeView()->location() == file_uri(F("Folder 2/deep").get()) && w->activeView()->listMode(), "columns view follows into subfolders");
     shoot(w->widget(), "8-columns");
     w->activeView()->setViewMode(ModeIcons);
+
+    // A folder that remembers its own view keeps it; other folders keep using the default.
+    {
+        auto go = [w](const std::string &rel) {
+            w->activeContainer()->navigate(file_uri(F(rel).get()));
+            wait_ms(300);
+            return w->activeView();
+        };
+        View *pv = go("Folder 1");
+        pv->setOwnProps(true);
+        pv->setViewMode(ModeDetails);
+        int other = go("Folder 2")->props().viewMode;
+        pv = go("Folder 1");
+        check(pv->hasOwnProps() && pv->props().viewMode == ModeDetails && other == ModeIcons, "a folder remembers its own view mode");
+        pv->setOwnProps(false);
+        check(!pv->hasOwnProps() && pv->props().viewMode == ModeIcons, "a folder goes back to the default view mode");
+    }
+
     w->activeContainer()->navigate(file_uri(F("").get()));
     wait_ms(600);
     v = w->activeView();
@@ -332,7 +352,7 @@ void gui_tests(GtkApplication *app)
     wait_ms(300);
     {
         GActionGroup *ag = G_ACTION_GROUP(w->window());
-        const char *plain[] = {"properties", "folder-properties", "open-with", "view-properties", "selection-mode",
+        const char *plain[] = {"properties", "folder-properties", "open-with", "view-properties", "remember-view", "remember-view", "selection-mode",
                                "selection-mode", "select-all", "invert-selection", "zoom-in", "zoom-out", "zoom-reset",
                                "copy", "copy-location", "show-menubar", "show-menubar", "focus-other-view",
                                "focus-other-view", "editable-location", "editable-location", "toggle-filter",
@@ -412,6 +432,8 @@ int run_selftest(int argc, char **argv)
     core_tests();
 
     GtkApplication *app = gtk_application_new(BELUGA_APP_ID ".SelfTest", G_APPLICATION_NON_UNIQUE);
+    // The real app's resources (its icon), which GTK would otherwise look for under the test's own ID.
+    g_application_set_resource_base_path(G_APPLICATION(app), "/org/beluga/Beluga");
     g_signal_connect(app, "activate", G_CALLBACK(+[](GtkApplication *a) {
         g_application_hold(G_APPLICATION(a));
         gui_tests(a);
