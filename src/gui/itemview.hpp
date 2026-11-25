@@ -83,6 +83,9 @@ public:
     std::function<void()> onEscape;
     std::function<void(BelugaItem *)> onNeedPreview;
     std::function<void(BelugaItem *)> onNeedDirSize;
+    std::function<void(BelugaItem *)> onNeedUsage;   // a folder's disk usage, for the "diskusage" column
+    // What the Disk Usage column's bars are relative to: the space the shown items take up together.
+    void setUsageTotal(guint64 total);
     std::function<std::string(int pos)> groupLabel;
     std::function<bool(int pos, GtkTooltip *t)> onTooltip;
     // Drop of files: pos is the target item (-1: the view's folder).
@@ -114,6 +117,7 @@ private:
         GtkWidget *indent = nullptr;
         GtkWidget *name = nullptr;
         std::vector<GtkWidget *> extras;
+        std::vector<GtkWidget *> bars;    // the Disk Usage column's bar, or nullptr (same index as extras)
         int mode = -1;
         size_t columns = 0;
         BelugaItem *item = nullptr;
@@ -200,6 +204,7 @@ private:
 
     std::vector<Cell *> cells_;
     std::unordered_map<BelugaItem *, Cell *> bound_;
+    guint64 usageTotal_ = 0;
     std::vector<GroupHeader> groupHeaders_;
     GtkWidget *header_ = nullptr;            // details column header
     std::vector<GtkWidget *> headerCells_;

@@ -333,7 +333,7 @@ GMenu *build_sort_menu()
 {
     GMenu *m = g_menu_new();
     GMenu *roles = section(m);
-    static const char *ids[] = {"text", "size", "modificationtime", "creationtime", "accesstime", "type", "extension", "deletiontime", nullptr};
+    static const char *ids[] = {"text", "size", "diskusage", "modificationtime", "creationtime", "accesstime", "type", "extension", "deletiontime", nullptr};
     for (int i = 0; ids[i]; ++i) {
         GMenuItem *it = g_menu_item_new(role_title(ids[i]).c_str(), nullptr);
         g_menu_item_set_action_and_target_value(it, "win.sort-by", g_variant_new_string(ids[i]));

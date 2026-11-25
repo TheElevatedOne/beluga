@@ -34,6 +34,9 @@ public:
     void stop();
     bool loading() const { return lister_.loading(); }
     bool isVirtual() const { return is_virtual_uri(uri_); }
+    // The columns shown for the current mode: the folder's own, plus Disk Usage in the Details
+    // view when that setting is on.
+    std::vector<std::string> shownRoles() const;
     bool isTrash() const { return is_trash_uri(uri_); }
     bool isSearch() const { return is_search_uri(uri_); }
 
@@ -120,6 +123,11 @@ private:
     void updatePlaceholder();
     void requestPreview(BelugaItem *item);
     void requestDirSize(BelugaItem *item);
+    void requestUsage(BelugaItem *item);
+    // Recounts what the shown items take up on disk (the Disk Usage bars) and re-sorts by it, at
+    // most every 200 ms while folder sizes come in.
+    void scheduleUsageRefresh();
+    guint usageSource_ = 0;
     void doRename(BelugaItem *item, const std::string &newName);
     void checkPendingSelection();
     std::string groupLabelFor(BelugaItem *item) const;

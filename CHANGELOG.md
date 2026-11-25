@@ -11,6 +11,9 @@
   space in a folder, biggest first, with share bars and file counts, like dust. It reads folders on all CPU cores
   and counts hard links once (2 million files under `/usr`: 0.3 s with a warm cache, the same total as `du`).
   Disk usage or apparent size; optionally stays on one drive. Double-click opens an entry in Beluga.
+- Added: a **Disk Usage** column for the Details view (Configure Beluga → View → Details, or per folder in Show
+  Additional Information): the space each file and each whole folder takes up on disk, read in the background,
+  with a bar for its share of the folder. It can be sorted (also in Sort By) and grouped by.
 - Changed: searching local folders, folder sizes in the views and the size in Properties use the same parallel
   reader instead of GIO. Search still needs no index (no Baloo).
 - Changed: Beluga has its own icon (`org.beluga.Beluga`) instead of the system file manager icon: a folder in the

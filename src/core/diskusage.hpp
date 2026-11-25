@@ -62,6 +62,6 @@ struct Totals {
 };
 // maxDepth < 0: no limit. stop is polled now and then and ends the walk early when it returns true.
 Totals totals(const std::string &path, bool apparentSize, int threads, int maxDepth = -1,
-              std::function<bool()> stop = nullptr);
+              std::function<bool()> stop = nullptr, bool oneFileSystem = false);
 
 } // namespace beluga::du

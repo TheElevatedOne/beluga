@@ -61,7 +61,9 @@ limits, places) live in Beluga's own preferences.
   [dust](https://github.com/bootandy/dust). It reads folders the way dust does, on all CPU cores, and counts hard
   links once: 2 million files under `/usr` take 0.3 s with a warm cache (dust: 1.4 s, `du`: 2.6 s), with the
   same total as `du`. Shows disk usage or file sizes, and can stay on one drive. Double-click an entry to open it.
-  Folder sizes in the views and in Properties use the same reader.
+  Folder sizes in the views and in Properties use the same reader. **Configure Beluga → View → Details → Show a
+  Disk Usage column** adds the same numbers to the Details view: every file and whole folder with its size on disk
+  and a bar for its share of the folder; sort by the column to see the biggest first.
 - **Previews**: the shared freedesktop thumbnail cache, filled by gdk-pixbuf, the system's `.thumbnailer`
   programs and Tumbler when installed.
 - **Devices**: drives and partitions from UDisks2 with usage bars, mount, unmount and safe removal.
@@ -182,7 +184,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 50 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 51 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.

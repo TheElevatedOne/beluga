@@ -15,6 +15,7 @@ const std::vector<RoleInfo> &all_roles()
     static const std::vector<RoleInfo> roles = {
         {"text", N_("Name"), false, 260},
         {"size", N_("Size"), true, 90},
+        {"diskusage", N_("Disk Usage"), true, 160},
         {"modificationtime", N_("Modified"), false, 150},
         {"creationtime", N_("Created"), false, 150},
         {"accesstime", N_("Accessed"), false, 150},

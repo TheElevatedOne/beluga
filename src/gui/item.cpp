@@ -128,6 +128,16 @@ std::string item_size_text(BelugaItem *item)
     return format_items(d.dirCount);
 }
 
+gint64 item_usage(BelugaItem *item)
+{
+    ItemData &d = *item->d;
+    if (d.isDir) return d.usage >= 0 ? d.usage : -1;
+    GFileInfo *info = d.info.get();
+    if (info && g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_STANDARD_ALLOCATED_SIZE))
+        return (gint64)g_file_info_get_attribute_uint64(info, G_FILE_ATTRIBUTE_STANDARD_ALLOCATED_SIZE);
+    return (gint64)d.size;
+}
+
 static std::string date_text(gint64 t)
 {
     return format_date(t, settings().useShortRelativeDates ? DateStyle::Relative : DateStyle::Short);
@@ -139,6 +149,11 @@ std::string item_role_text(BelugaItem *item, const std::string &role)
     GFileInfo *info = d.info.get();
     if (role == "text") return d.name;
     if (role == "size") return item_size_text(item);
+    if (role == "diskusage") {
+        gint64 u = item_usage(item);
+        if (u >= 0) return format_size((guint64)u);
+        return d.isDir && d.usagePending ? std::string("…") : std::string();
+    }
     if (role == "modificationtime") return date_text(d.mtime);
     if (role == "creationtime") return date_text(d.ctime);
     if (role == "accesstime") return date_text(d.atime);

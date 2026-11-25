@@ -65,7 +65,7 @@ View::View()
         gtk_widget_add_css_class(title, "heading");
         gtk_label_set_xalign(GTK_LABEL(title), 0);
         gtk_box_append(GTK_BOX(box), title);
-        auto roles = props_.rolesForMode(props_.viewMode);
+        auto roles = shownRoles();
         for (auto &r : all_roles()) {
             std::string id = r.id;
             if (id == "text") continue;
@@ -102,6 +102,7 @@ View::View()
     iv_->onEscape = [this] { if (onEscape) onEscape(); };
     iv_->onNeedPreview = [this](BelugaItem *it) { requestPreview(it); };
     iv_->onNeedDirSize = [this](BelugaItem *it) { requestDirSize(it); };
+    iv_->onNeedUsage = [this](BelugaItem *it) { requestUsage(it); };
     iv_->groupLabel = [this](int pos) { BelugaItem *it = itemAt(pos); return it ? groupLabelFor(it) : std::string(); };
     iv_->onTooltip = [this](int pos, GtkTooltip *t) -> gboolean {
         if (!settings().showToolTips) return FALSE;
@@ -167,6 +168,7 @@ View::View()
     };
     lister_.onFinished = [this] {
         updatePlaceholder();
+        scheduleUsageRefresh();
         checkPendingSelection();
         if (onLoading) onLoading(false);
     };
@@ -180,6 +182,7 @@ View::View()
 
 View::~View()
 {
+    if (usageSource_) g_source_remove(usageSource_);
     remove_settings_listener(settingsListener_);
     alive_.reset();
     lister_.stop();
@@ -243,6 +246,7 @@ int View::compareRole(BelugaItem *a, BelugaItem *b, const std::string &role) con
         }
         return cmp_num((gint64)x.size, (gint64)y.size);
     }
+    if (role == "diskusage") return cmp_num(item_usage(a), item_usage(b));
     if (role == "modificationtime") return cmp_num(x.mtime, y.mtime);
     if (role == "creationtime") return cmp_num(x.ctime, y.ctime);
     if (role == "accesstime") return cmp_num(x.atime, y.atime);
@@ -368,6 +372,26 @@ GroupKey group_key(BelugaItem *it, const std::string &role)
         }
         return k;
     }
+    if (role == "diskusage") {
+        // Folders and files together, by how much they take up.
+        gint64 u = item_usage(it);
+        static const struct { gint64 below; const char *label; } bands[] = {
+            {1ll << 20, N_("Less than 1 MiB")}, {100ll << 20, N_("1 MiB to 100 MiB")},
+            {1ll << 30, N_("100 MiB to 1 GiB")}, {G_MAXINT64, N_("1 GiB or more")},
+        };
+        if (u < 0) {
+            k.num = -1;
+            k.label = _("Not counted yet");
+            return k;
+        }
+        for (int i = 0; i < 4; ++i)
+            if (u < bands[i].below) {
+                k.num = i;
+                k.label = _(bands[i].label);
+                break;
+            }
+        return k;
+    }
     if (role == "modificationtime") return date_group(d.mtime);
     if (role == "creationtime") return date_group(d.ctime);
     if (role == "accesstime") return date_group(d.atime);
@@ -434,7 +458,7 @@ void View::applyToItemView()
     bool list = listMode();
     iv_->setHeaderVisible(!list);
     iv_->setMode(list ? 2 : mode);
-    iv_->setRoles(list ? std::vector<std::string>() : props_.rolesForMode(mode));
+    iv_->setRoles(list ? std::vector<std::string>() : shownRoles());
     iv_->setColumnWidths(list ? std::map<std::string, int>() : props_.columnWidths);
     iv_->setIconSize(icon_size_for_zoom(zoomLevel()));
     iv_->setPreviews(props_.previewsShown);
@@ -502,6 +526,7 @@ void View::applyProps(const ViewProps &p, bool save)
     }
     applyToItemView();
     iv_->relayout();
+    scheduleUsageRefresh();
     if (onPropsChanged) onPropsChanged();
 }
 
@@ -830,6 +855,64 @@ void View::requestDirSize(BelugaItem *item)
         dd.dirSize = size;
         item_emit_changed(keep.get());
     });
+}
+
+std::vector<std::string> View::shownRoles() const
+{
+    auto roles = props_.rolesForMode(props_.viewMode);
+    if (props_.viewMode == ModeDetails && settings().detailsDiskUsage && !isVirtual()
+        && std::find(roles.begin(), roles.end(), "diskusage") == roles.end()) {
+        auto size = std::find(roles.begin(), roles.end(), "size");
+        roles.insert(size == roles.end() ? roles.end() : size + 1, "diskusage");
+    }
+    return roles;
+}
+
+void View::requestUsage(BelugaItem *item)
+{
+    ItemData &d = item_data(item);
+    d.usagePending = true;
+    Ref<BelugaItem> keep = Ref<BelugaItem>::share(item);
+    dirsize::request_usage(d.uri, settings().duOneFileSystem, alive_, [this, keep](gint64 bytes) {
+        ItemData &dd = item_data(keep.get());
+        dd.usagePending = false;
+        dd.usage = bytes;
+        item_emit_changed(keep.get());
+        scheduleUsageRefresh();   // alive_ still lives, so this View does too
+    });
+}
+
+void View::scheduleUsageRefresh()
+{
+    if (usageSource_) return;
+    auto roles = shownRoles();
+    if (std::find(roles.begin(), roles.end(), "diskusage") == roles.end() && props_.sortRole != "diskusage") return;
+    usageSource_ = g_timeout_add(200, [](gpointer p) -> gboolean {
+        auto *v = static_cast<View *>(p);
+        v->usageSource_ = 0;
+        guint64 total = 0;
+        guint n = v->sel_ ? g_list_model_get_n_items(G_LIST_MODEL(v->sel_)) : 0;
+        for (guint i = 0; i < n; ++i) {
+            gpointer obj = g_list_model_get_item(G_LIST_MODEL(v->sel_), i);
+            bool top = !GTK_IS_TREE_LIST_ROW(obj) || gtk_tree_list_row_get_depth(GTK_TREE_LIST_ROW(obj)) == 0;
+            if (BelugaItem *it = top ? item_from_object(obj) : nullptr) {
+                gint64 u = item_usage(it);
+                if (u > 0) total += (guint64)u;
+            }
+            g_object_unref(obj);
+        }
+        v->iv_->setUsageTotal(total);
+        // Sorted by disk usage without the column: ask for the folders' sizes here.
+        if (v->props_.sortRole == "diskusage")
+            for (guint i = 0; i < n; ++i)
+                if (BelugaItem *it = item_at(G_LIST_MODEL(v->sel_), i)) {
+                    ItemData &d = item_data(it);
+                    if (d.isDir && d.usage == -2 && !d.usagePending) v->requestUsage(it);
+                }
+        if (v->props_.sortRole == "diskusage")
+            gtk_sorter_changed(gtk_sort_list_model_get_sorter(v->sortModel_), GTK_SORTER_CHANGE_DIFFERENT);
+        return G_SOURCE_REMOVE;
+    }, this);
 }
 
 // ---- renaming --------------------------------------------------------------------------------

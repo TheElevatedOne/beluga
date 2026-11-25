@@ -17,4 +17,10 @@ using Callback = std::function<void(int count, guint64 size)>;
 void request(const std::string &uri, bool includeHidden, bool wantSize, int depthLimit,
              std::weak_ptr<void> owner, Callback cb);
 
+// The space a whole folder takes up on disk (every level, hard links once, the folder itself
+// included), for the Disk Usage column. Folders are read one after another, each on all CPU cores.
+// Callback on the main thread with -1 when it can't be read or isn't local.
+void request_usage(const std::string &uri, bool oneFileSystem, std::weak_ptr<void> owner,
+                   std::function<void(gint64 bytes)> cb);
+
 } // namespace beluga::dirsize

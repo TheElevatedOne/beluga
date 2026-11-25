@@ -503,6 +503,10 @@ void show_preferences(GtkWidget *parent)
     mode_sizes(v, s.details);
     check(v, _("E_xpandable folders"), s.detailsExpandableFolders);
     check(v, _("Highlight the entire _row"), s.detailsHighlightEntireRow);
+    check(v, _("Show a Disk _Usage column"), s.detailsDiskUsage);
+    note(v, _("The space each file and each whole folder takes up on disk, with a bar for its share of the folder, "
+              "like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the "
+              "biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."));
     font_row(v, s.details);
 
     // ---- Previews

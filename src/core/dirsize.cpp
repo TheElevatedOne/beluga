@@ -72,4 +72,24 @@ void request(const std::string &uri, bool includeHidden, bool wantSize, int dept
     });
 }
 
+void request_usage(const std::string &uri, bool oneFileSystem, std::weak_ptr<void> owner, std::function<void(gint64)> cb)
+{
+    static WorkQueue *usageQueue = new WorkQueue(1, true);   // never destroyed, like queue()
+    usageQueue->push([=] {
+        if (owner.expired()) return;
+        gint64 bytes = -1;
+        GFile *dir = g_file_new_for_uri(uri.c_str());
+        std::string path = take(g_file_get_path(dir));
+        struct stat st;
+        if (!path.empty() && g_file_is_native(dir) && lstat(path.c_str(), &st) == 0 && S_ISDIR(st.st_mode)) {
+            du::Totals t = du::totals(path, false, 0, -1, [owner] { return owner.expired(); }, oneFileSystem);
+            bytes = (gint64)(t.size + (guint64)st.st_blocks * 512);
+        }
+        g_object_unref(dir);
+        run_on_main([owner, cb, bytes] {
+            if (!owner.expired()) cb(bytes);
+        });
+    });
+}
+
 } // namespace beluga::dirsize

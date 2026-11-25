@@ -254,6 +254,9 @@ msgstr "이름"
 msgid "Size"
 msgstr "크기"
 
+msgid "Disk Usage"
+msgstr ""
+
 msgid "Modified"
 msgstr "수정한 날짜"
 
@@ -457,9 +460,6 @@ msgstr "터미널 열기"
 
 msgid "Open Terminal Here"
 msgstr "여기에서 터미널 열기"
-
-msgid "Disk Usage"
-msgstr ""
 
 msgid "Configure Beluga"
 msgstr ""
@@ -1531,6 +1531,12 @@ msgstr ""
 msgid "Highlight the entire _row"
 msgstr ""
 
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
 msgid "Previews"
 msgstr "미리 보기"
 
@@ -1882,6 +1888,21 @@ msgstr "기타"
 
 msgid "Big"
 msgstr "큼"
+
+msgid "Less than 1 MiB"
+msgstr ""
+
+msgid "1 MiB to 100 MiB"
+msgstr ""
+
+msgid "100 MiB to 1 GiB"
+msgstr ""
+
+msgid "1 GiB or more"
+msgstr ""
+
+msgid "Not counted yet"
+msgstr ""
 
 msgid "Searching…"
 msgstr "찾는 중…"

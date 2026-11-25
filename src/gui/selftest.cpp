@@ -19,6 +19,7 @@
 
 #include <glib/gstdio.h>
 
+#include <algorithm>
 #include <cstring>
 #include <unistd.h>
 #include <iostream>
@@ -315,6 +316,34 @@ void gui_tests(GtkApplication *app)
         check(pv->hasOwnProps() && pv->props().viewMode == ModeDetails && other == ModeIcons, "a folder remembers its own view mode");
         pv->setOwnProps(false);
         check(!pv->hasOwnProps() && pv->props().viewMode == ModeIcons, "a folder goes back to the default view mode");
+    }
+
+    // The Disk Usage column: whole folders counted in the background, the biggest first when sorted by it.
+    {
+        settings().detailsDiskUsage = true;
+        w->activeContainer()->navigate(file_uri(F("").get()));
+        wait_ms(400);
+        View *dv = w->activeView();
+        dv->setViewMode(ModeDetails);
+        dv->setSortRole("diskusage");
+        dv->setSortDescending(true);
+        BelugaItem *many = nullptr;
+        gint64 until = g_get_monotonic_time() + 5 * G_USEC_PER_SEC;
+        while (g_get_monotonic_time() < until) {
+            wait_ms(100);
+            many = dv->findItem(file_uri(F("many").get()));
+            if (many && item_usage(many) > 0) break;
+        }
+        wait_ms(500);   // the re-sort after the last folder
+        auto shown = dv->shownRoles();
+        check(std::find(shown.begin(), shown.end(), "diskusage") != shown.end() && many && item_usage(many) > 0
+                  && dv->itemAt(0) == many,
+              "disk usage column counts whole folders and sorts the biggest first");
+        shoot(w->widget(), "11-details-disk-usage");
+        dv->setSortDescending(false);
+        dv->setSortRole("text");
+        dv->setViewMode(ModeIcons);
+        settings().detailsDiskUsage = false;
     }
 
     w->activeContainer()->navigate(file_uri(F("").get()));

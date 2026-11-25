@@ -149,7 +149,7 @@ std::unique_ptr<Node> Scanner::run(const std::string &path, const Options &o)
     return root;
 }
 
-Totals totals(const std::string &path, bool apparentSize, int threads, int maxDepth, std::function<bool()> stop)
+Totals totals(const std::string &path, bool apparentSize, int threads, int maxDepth, std::function<bool()> stop, bool oneFileSystem)
 {
     std::atomic<guint64> size{0}, files{0}, folders{0}, seenEntries{0};
     SeenInodes seen;
@@ -170,6 +170,7 @@ Totals totals(const std::string &path, bool apparentSize, int threads, int maxDe
     };
     Walker::Options wo;
     wo.threads = threads;
+    wo.oneFileSystem = oneFileSystem;
     w.run(path, nullptr, wo);
     return {size, files, folders};
 }

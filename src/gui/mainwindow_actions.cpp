@@ -543,7 +543,7 @@ void MainWindow::updateActions()
         state(this, "show-previews", g_variant_new_boolean(p.previewsShown));
         state(this, "show-hidden", g_variant_new_boolean(p.hiddenFilesShown));
         state(this, "remember-view", g_variant_new_boolean(v->hasOwnProps()));
-        auto roles = p.rolesForMode(p.viewMode);
+        auto roles = v->shownRoles();
         for (auto &r : all_roles()) {
             if (std::string(r.id) == "text") continue;
             std::string name = std::string("role-") + r.id;

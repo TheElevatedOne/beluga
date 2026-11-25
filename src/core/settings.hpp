@@ -103,6 +103,7 @@ struct Settings {
     ModeSettings details{16, 32};
     bool detailsExpandableFolders = true;
     bool detailsHighlightEntireRow = true;
+    bool detailsDiskUsage = false;   // a Disk Usage column in every Details view
 
     // ---- Previews
     bool previewsDefault = true;

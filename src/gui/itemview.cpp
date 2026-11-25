@@ -783,11 +783,27 @@ void ItemView::buildCell(Cell *c)
             GtkWidget *l = make_label(false);
             const RoleInfo *ri = role_info(roles_[i]);
             if (ri && ri->rightAligned) gtk_label_set_xalign(GTK_LABEL(l), 1.0f);
-            gtk_widget_set_margin_start(l, 6);
-            gtk_widget_set_margin_end(l, 6);
             gtk_widget_add_css_class(l, "dim-label");
-            gtk_box_append(GTK_BOX(c->root), l);
+            GtkWidget *bar = nullptr;
+            GtkWidget *outer = l;
+            if (roles_[i] == "diskusage") {
+                // A bar for the item's share of the folder, like dust draws, then the size.
+                outer = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+                bar = gtk_level_bar_new_for_interval(0, 1);
+                for (const char *o : {GTK_LEVEL_BAR_OFFSET_LOW, GTK_LEVEL_BAR_OFFSET_HIGH, GTK_LEVEL_BAR_OFFSET_FULL})
+                    gtk_level_bar_remove_offset_value(GTK_LEVEL_BAR(bar), o);
+                gtk_widget_set_size_request(bar, 48, 6);
+                gtk_widget_set_valign(bar, GTK_ALIGN_CENTER);
+                gtk_widget_add_css_class(bar, "beluga-usage");
+                gtk_box_append(GTK_BOX(outer), bar);
+                gtk_widget_set_hexpand(l, TRUE);
+                gtk_box_append(GTK_BOX(outer), l);
+            }
+            gtk_widget_set_margin_start(outer, 6);
+            gtk_widget_set_margin_end(outer, 6);
+            gtk_box_append(GTK_BOX(c->root), outer);
             c->extras.push_back(l);
+            c->bars.push_back(bar);
         }
         c->highlight = settings().detailsHighlightEntireRow ? c->root : nameBox;
     }
@@ -835,7 +851,13 @@ void ItemView::bindCell(Cell *c, int pos, gpointer obj, BelugaItem *item)
     for (size_t i = 0; i < c->extras.size() && i < roles_.size(); ++i) {
         const std::string &role = roles_[i];
         if (role == "size" && d.isDir && d.dirCount == -2 && !d.dirPending && onNeedDirSize) onNeedDirSize(item);
+        if (role == "diskusage" && d.isDir && d.usage == -2 && !d.usagePending && onNeedUsage) onNeedUsage(item);
         gtk_label_set_text(GTK_LABEL(c->extras[i]), item_role_text(item, role).c_str());
+        if (i < c->bars.size() && c->bars[i]) {
+            gint64 u = item_usage(item);
+            gtk_widget_set_opacity(c->bars[i], u >= 0 && usageTotal_ ? 1.0 : 0.0);
+            gtk_level_bar_set_value(GTK_LEVEL_BAR(c->bars[i]), u >= 0 && usageTotal_ ? std::min(1.0, (double)u / (double)usageTotal_) : 0.0);
+        }
     }
     const char *emblem = nullptr;
     if (d.isLink) emblem = "emblem-symbolic-link";
@@ -858,12 +880,24 @@ void ItemView::bindCell(Cell *c, int pos, gpointer obj, BelugaItem *item)
         if (!columns_.empty()) {
             GtkWidget *nameBox = gtk_widget_get_first_child(c->root);
             gtk_widget_set_size_request(nameBox, columns_[0].width, -1);
-            for (size_t i = 0; i < c->extras.size() && i + 1 < columns_.size(); ++i)
-                gtk_widget_set_size_request(c->extras[i], std::max(0, columns_[i + 1].width - 12), -1);
+            for (size_t i = 0; i < c->extras.size() && i + 1 < columns_.size(); ++i) {
+                GtkWidget *outer = i < c->bars.size() && c->bars[i] ? gtk_widget_get_parent(c->extras[i]) : c->extras[i];
+                gtk_widget_set_size_request(outer, std::max(0, columns_[i + 1].width - 12), -1);
+            }
         }
     }
     gtk_accessible_update_property(GTK_ACCESSIBLE(c->root), GTK_ACCESSIBLE_PROPERTY_LABEL, d.name.c_str(), -1);
     updateCellState(c);
+}
+
+void ItemView::setUsageTotal(guint64 total)
+{
+    if (total == usageTotal_) return;
+    usageTotal_ = total;
+    std::vector<Cell *> cells;
+    for (auto &[item, c] : bound_) cells.push_back(c);
+    for (Cell *c : cells)
+        if (c->item) bindCell(c, c->pos, c->rowObj, c->item);
 }
 
 void ItemView::updateCellState(Cell *c)

@@ -263,6 +263,9 @@ msgstr "Nombre"
 msgid "Size"
 msgstr "Tamaño"
 
+msgid "Disk Usage"
+msgstr ""
+
 msgid "Modified"
 msgstr "Modificado"
 
@@ -466,9 +469,6 @@ msgstr "Abrir terminal"
 
 msgid "Open Terminal Here"
 msgstr "Abrir terminal aquí"
-
-msgid "Disk Usage"
-msgstr ""
 
 msgid "Configure Beluga"
 msgstr ""
@@ -1542,6 +1542,12 @@ msgstr ""
 msgid "Highlight the entire _row"
 msgstr ""
 
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
 msgid "Previews"
 msgstr "Vistas previas"
 
@@ -1894,6 +1900,21 @@ msgstr "Otros"
 
 msgid "Big"
 msgstr "Grande"
+
+msgid "Less than 1 MiB"
+msgstr ""
+
+msgid "1 MiB to 100 MiB"
+msgstr ""
+
+msgid "100 MiB to 1 GiB"
+msgstr ""
+
+msgid "1 GiB or more"
+msgstr ""
+
+msgid "Not counted yet"
+msgstr ""
 
 msgid "Searching…"
 msgstr "Buscando…"

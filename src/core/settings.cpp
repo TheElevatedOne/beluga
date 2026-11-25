@@ -157,6 +157,7 @@ void transfer(IO &io, ST &st)
     io.mode("DetailsMode", st.details);
     io.b("DetailsMode", "ExpandableFolders", st.detailsExpandableFolders);
     io.b("DetailsMode", "HighlightEntireRow", st.detailsHighlightEntireRow);
+    io.b("DetailsMode", "DiskUsageColumn", st.detailsDiskUsage);
 
     const char *P = "Previews";
     io.b(P, "ShowByDefault", st.previewsDefault);
