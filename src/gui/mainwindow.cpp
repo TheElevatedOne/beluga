@@ -101,7 +101,22 @@ MainWindow::MainWindow(GtkApplication *app)
     }), this);
 
     innerPaned_ = gtk_paned_new(GTK_ORIENTATION_HORIZONTAL);
-    gtk_paned_set_start_child(GTK_PANED(innerPaned_), notebook_);
+    // A zero-height probe over the notebook tells its width, so fixed-width tabs can shrink equally when they
+    // don't fit (GtkNotebook would scroll them instead).
+    GtkWidget *tabsOverlay = gtk_overlay_new();
+    gtk_overlay_set_child(GTK_OVERLAY(tabsOverlay), notebook_);
+    GtkWidget *probe = gtk_drawing_area_new();
+    gtk_widget_set_valign(probe, GTK_ALIGN_START);
+    gtk_widget_set_size_request(probe, -1, 1);
+    gtk_widget_set_can_target(probe, FALSE);
+    gtk_overlay_add_overlay(GTK_OVERLAY(tabsOverlay), probe);
+    g_signal_connect(probe, "resize", CB([](GtkDrawingArea *, int width, int, gpointer p) {
+        auto *w = static_cast<MainWindow *>(p);
+        if (width == w->tabsWidth_) return;
+        w->tabsWidth_ = width;
+        w->fitTabsLater();
+    }), this);
+    gtk_paned_set_start_child(GTK_PANED(innerPaned_), tabsOverlay);
     // The right side shows the Information panel, or the Disk Usage pane while that is open.
     duPane_ = disk_usage_pane_new(this);
     rightStack_ = gtk_stack_new();
@@ -175,6 +190,7 @@ MainWindow::MainWindow(GtkApplication *app)
 
 MainWindow::~MainWindow()
 {
+    if (fitSource_) g_source_remove(fitSource_);
     remove_settings_listener(settingsListener_);
     UndoManager::instance().removeListener(undoListener_);
     tabs_.clear();
@@ -701,10 +717,45 @@ void MainWindow::onTabSwitched(int index)
     updateActions();
 }
 
+// Fixed-width tabs: up to kTabWidth each; when they don't fit, all of them get the same smaller width, down to
+// kMinTabWidth, below which the notebook scrolls them.
+void MainWindow::fitTabs()
+{
+    constexpr int kTabWidth = 220, kMinTabWidth = 80;
+    int width = -1;
+    if (settings().tabStyle != 0) {
+        int n = std::max<int>(1, (int)tabs_.size());
+        // The New Tab button with its padding (allocated widths leave padding out), and the tab bar's own.
+        int avail = tabsWidth_ - 12;
+        if (GtkWidget *plus = gtk_notebook_get_action_widget(GTK_NOTEBOOK(notebook_), GTK_PACK_END)) {
+            int plusNat = 0;
+            gtk_widget_measure(plus, GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &plusNat, nullptr, nullptr);
+            avail -= plusNat;
+        }
+        int chrome = -1;
+        for (auto &t : tabs_) chrome = std::max(chrome, t->tabChrome());
+        if (chrome < 0) chrome = 24;   // not laid out yet: a theme's usual padding
+        width = avail > 0 ? std::clamp(avail / n - chrome - 2, kMinTabWidth, kTabWidth) : kTabWidth;   // 2: rounding
+    }
+    for (auto &t : tabs_) t->applyTabStyle(notebook_, width);
+}
+
+void MainWindow::fitTabsLater()
+{
+    if (fitSource_) return;
+    // Not during the size allocation that reported the width.
+    fitSource_ = g_idle_add([](gpointer p) -> gboolean {
+        auto *w = static_cast<MainWindow *>(p);
+        w->fitSource_ = 0;
+        w->fitTabs();
+        return G_SOURCE_REMOVE;
+    }, this);
+}
+
 void MainWindow::updateTabBar()
 {
     gtk_notebook_set_show_tabs(GTK_NOTEBOOK(notebook_), tabs_.size() > 1 || settings().alwaysShowTabBar);
-    for (auto &t : tabs_) t->applyTabStyle(notebook_, settings().tabStyle);
+    fitTabs();
 }
 
 // ---- container events ----------------------------------------------------------------------

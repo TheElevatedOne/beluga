@@ -29,8 +29,10 @@ public:
     // Closes one side of the split view and keeps the other.
     void closeView(ViewContainer *c);
     void updateLabel();
-    // Dolphin's tab styles (Settings::tabStyle) for this tab in the window's notebook.
-    void applyTabStyle(GtkWidget *notebook, int style);
+    // The tab's width: width > 0 is a fixed width (the window shares it out), else as wide as the name.
+    void applyTabStyle(GtkWidget *notebook, int width);
+    // The space the tab adds around its label (padding, borders); -1 before it's in the notebook.
+    int tabChrome() const;
 
 private:
     void attach();
@@ -40,6 +42,7 @@ private:
     GtkWidget *label_;
     GtkWidget *labelText_;
     GtkWidget *labelIcon_;
+    int fixedWidth_ = 0;
     std::unique_ptr<ViewContainer> primary_, secondary_;
     ViewContainer *active_ = nullptr;
 };

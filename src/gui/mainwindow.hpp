@@ -107,6 +107,8 @@ private:
     void rebuildClosedTabsMenu();
     void layoutRight();
     void syncLocationBars();
+    void fitTabs();
+    void fitTabsLater();
 
     GtkWidget *win_;
     GtkWidget *menubar_;
@@ -119,6 +121,10 @@ private:
     GtkWidget *backButton_, *forwardButton_;
     GtkWidget *viewModeIcon_ = nullptr, *splitButton_ = nullptr, *splitLabel_ = nullptr;
     GtkWidget *locSlot_ = nullptr;   // the active tab's location bars, in the tool bar
+public:
+    int tabsWidth_ = 0;              // the notebook's width, from the probe over it
+private:
+    guint fitSource_ = 0;
     GMenuModel *menu_ = nullptr;
     GMenu *closedTabsMenu_ = nullptr;
     std::vector<std::unique_ptr<TabPage>> tabs_;

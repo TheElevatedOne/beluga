@@ -2,12 +2,15 @@
 
 ## Unreleased
 
+- Changed: tabs no longer stretch across the bar. They have one fixed width and all get narrower by the same amount
+  when they don't fit; the "Tabs span the available width" style is gone.
 - Changed: the window is laid out like Dolphin's. The tool bar has Back, Forward, a view settings button showing
   the current view mode (modes, sorting and columns in its menu), the location bar (both views' side by side in
   split view; above each view when the tool bar is hidden), Disk Usage, Split ("Close" while split) and Search. Up
   and Home stay in the Go menu (<kbd>Alt</kbd>+<kbd>Up</kbd>, <kbd>Alt</kbd>+<kbd>Home</kbd>), Filter on
-  <kbd>Ctrl</kbd>+<kbd>I</kbd>. Tabs have one fixed width with the name centred (or follow their names, or fill
-  the bar: Interface → Folders & Tabs → Tab style). The status bar shows "Zoom:" and the free space as "N GiB
+  <kbd>Ctrl</kbd>+<kbd>I</kbd>. Tabs have one fixed width (220 px) with the name centred; when they don't fit, all
+  get narrower by the same amount, and only below 80 px does the tab bar scroll (or tabs are as wide as their names:
+  Interface → Folders & Tabs → Tab style). The status bar shows "Zoom:" and the free space as "N GiB
   free", which opens the drive's usage.
 - Changed: **Configure Beluga** is laid out like Dolphin's settings: Interface (Folders & Tabs, Previews,
   Confirmations, Panels, Status & Location bars), View (General, Content Display, Icons, Compact, Details),

@@ -189,7 +189,8 @@ void TabPage::updateLabel()
     std::string title = active_->title();
     if (secondary_) title = primary_->title() + " | " + secondary_->title();
     gtk_label_set_text(GTK_LABEL(labelText_), title.c_str());
-    gtk_label_set_width_chars(GTK_LABEL(labelText_), std::min<int>(24, std::max<int>(4, g_utf8_strlen(title.c_str(), -1))));
+    if (fixedWidth_ <= 0)   // fixed-width tabs keep their width whatever the name
+        gtk_label_set_width_chars(GTK_LABEL(labelText_), std::min<int>(24, std::max<int>(4, g_utf8_strlen(title.c_str(), -1))));
     gtk_widget_set_tooltip_text(label_, display_location(active_->uri()).c_str());
     std::string icon = Places::iconForUri(active_->uri());
     gtk_image_set_from_icon_name(GTK_IMAGE(labelIcon_), icon.c_str());
@@ -197,17 +198,31 @@ void TabPage::updateLabel()
         gtk_widget_set_visible(close, settings().showCloseButtonOnTabs);
 }
 
-void TabPage::applyTabStyle(GtkWidget *notebook, int style)
+void TabPage::applyTabStyle(GtkWidget *notebook, int width)
 {
     if (GtkNotebookPage *pg = gtk_notebook_get_page(GTK_NOTEBOOK(notebook), root_))
-        g_object_set(pg, "tab-expand", style == 2, "tab-fill", TRUE, nullptr);
-    // Fixed and spanning tabs centre their name and shorten it to fit; others are as wide as the name.
-    gtk_widget_set_size_request(label_, style == 1 ? 200 : -1, -1);
-    gtk_widget_set_hexpand(labelText_, style != 0);
-    gtk_widget_set_hexpand(label_, style == 2);   // set explicitly: the label's expand mustn't widen fixed tabs
-    gtk_label_set_xalign(GTK_LABEL(labelText_), style == 0 ? 0.0f : 0.5f);
-    gtk_label_set_width_chars(GTK_LABEL(labelText_), style == 0 ? 6 : 1);
-    gtk_label_set_max_width_chars(GTK_LABEL(labelText_), style == 0 ? 24 : 1);
+        g_object_set(pg, "tab-expand", FALSE, "tab-fill", TRUE, nullptr);
+    // Fixed tabs centre their name and shorten it to fit; others are as wide as the name. The label box says
+    // explicitly that it doesn't expand, so the name's expanding can't widen the tab.
+    bool fixed = width > 0;
+    fixedWidth_ = width;
+    gtk_widget_set_size_request(label_, fixed ? width : -1, -1);
+    gtk_widget_set_hexpand(label_, FALSE);
+    gtk_widget_set_hexpand(labelText_, fixed);
+    gtk_label_set_xalign(GTK_LABEL(labelText_), fixed ? 0.5f : 0.0f);
+    gtk_label_set_width_chars(GTK_LABEL(labelText_), fixed ? 1 : 6);
+    gtk_label_set_max_width_chars(GTK_LABEL(labelText_), fixed ? 1 : 24);
+}
+
+int TabPage::tabChrome() const
+{
+    // From what each asks for: allocated widths leave out CSS padding and borders.
+    GtkWidget *tab = gtk_widget_get_parent(label_);
+    if (!tab) return -1;
+    int outer = 0, inner = 0;
+    gtk_widget_measure(tab, GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &outer, nullptr, nullptr);
+    gtk_widget_measure(label_, GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &inner, nullptr, nullptr);
+    return std::max(0, outer - inner);
 }
 
 } // namespace beluga

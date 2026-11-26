@@ -590,6 +590,33 @@ void gui_tests(GtkApplication *app)
             g_action_group_activate_action(ag, "sort-by", g_variant_new_string(role));
             wait_ms(80);
         }
+        // Tabs: one fixed width; when they don't fit, all get narrower by the same amount.
+        {
+            while (w->tabCount() > 1) w->closeTab(w->tabCount() - 1, false);
+            wait_ms(300);
+            int single = 0;
+            gtk_widget_measure(w->tab(0)->label(), GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &single, nullptr, nullptr);
+            std::string here = w->activeContainer()->uri();
+            for (int i = 0; i < 4; ++i) w->openTab(here, {}, false);   // 5 tabs in a 1100 px window don't fit at 220 px
+            wait_ms(600);
+            // The widths the tabs ask for (an offscreen window isn't laid out again until it's drawn).
+            int lo = 100000, hi = 0, sum = 0;
+            for (int i = 0; i < w->tabCount(); ++i) {
+                int nat = 0, tabNat = 0;
+                gtk_widget_measure(w->tab(i)->label(), GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &nat, nullptr, nullptr);
+                gtk_widget_measure(gtk_widget_get_parent(w->tab(i)->label()), GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &tabNat, nullptr, nullptr);
+                lo = std::min(lo, nat);
+                hi = std::max(hi, nat);
+                sum += tabNat;   // with the tab's padding
+            }
+            int avail = w->tabsWidth_;
+            wait_ms(500);
+            shoot(w->widget(), "14-many-tabs");
+            check(single == 220 && hi < 220 && hi - lo <= 1 && sum <= avail,
+                  printf_str("tabs share the width equally (1 tab: %d px; 5 tabs: %d–%d px, %d of %d px)", single, lo, hi, sum, avail));
+            while (w->tabCount() > 1) w->closeTab(w->tabCount() - 1, false);
+            wait_ms(300);
+        }
         // Context menus fit a 1080p screen (with a bar) without scrolling: the longest ones, for a file and a folder.
         auto menuHeight = [&](const char *name, const char *shot) {
             w->activeView()->selectUris({file_uri(F(name).get())});

@@ -111,7 +111,8 @@ limits, places) live in Beluga's own preferences.
   24–46% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
   is shown in English.
 - **Look**: laid out like Dolphin: Back and Forward, the view settings, the location bar (two side by side in split
-  view), Split and Search in one tool bar; tabs of one fixed width (or following their names, or filling the bar);
+  view), Split and Search in one tool bar; tabs of one fixed width that all get narrower by the same amount when
+  they don't fit (or as wide as their names);
   "Zoom:" and the free space in the status bar. **Configure Beluga** has Dolphin's pages (Interface, View, Context
   Menu, Trash) and tabs, with a search field, **Restore Defaults**, **OK**, **Cancel** and **Apply**. Colours come
   from your GTK theme's named colours (pywal and Noctalia style sheets work), square corners, no titlebar of its
@@ -257,7 +258,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 77 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 78 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view, and `BELUGA_SELFTEST_GTK_CONFIG=~/.config/gtk-4.0` to take them

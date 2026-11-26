@@ -816,8 +816,9 @@ GtkWidget *build(GtkWindow *parent, const std::string &startPage, int startTab)
         check(f, _("Always show tab bar"), s.alwaysShowTabBar);
         check(f, _("Show close button on tabs"), s.showCloseButtonOnTabs);
         label(f, _("Tab style:"));
-        radios(f, {_("Tab width adapts to folder name"), _("Tabs all have the same fixed width"), _("Tabs span the available width")},
-               [&s] { return s.tabStyle; }, [&s](int i) { s.tabStyle = i; });
+        radios(f, {_("Tab width adapts to folder name"), _("Tabs all have the same fixed width")},
+               [&s] { return std::min(s.tabStyle, 1); }, [&s](int i) { s.tabStyle = i; });
+        note(f, _("Fixed-width tabs get narrower, all by the same amount, when they don't fit."));
         label(f, _("Open new tabs:"));
         radios(f, {_("After current tab"), _("At end of tab bar")},
                [&s] { return s.openNewTabAfterLastTab ? 1 : 0; }, [&s](int i) { s.openNewTabAfterLastTab = i == 1; });
