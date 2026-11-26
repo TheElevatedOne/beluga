@@ -706,6 +706,7 @@ void gui_tests(GtkApplication *app)
                              line, snake, cut, made, unknown, cd));
         }
         // Context menus fit a 1080p screen (with a bar) without scrolling: the longest ones, for a file and a folder.
+        bool scrolls = false;
         auto menuHeight = [&](const char *name, const char *shot) {
             w->activeView()->selectUris({file_uri(F(name).get())});
             wait_ms(200);
@@ -715,6 +716,15 @@ void gui_tests(GtkApplication *app)
             for (GtkWidget *c = gtk_widget_get_first_child(w->activeView()->itemView()->widget()); c; c = gtk_widget_get_next_sibling(c))
                 if (GTK_IS_POPOVER_MENU(c) && gtk_widget_get_visible(c)) {
                     gtk_widget_measure(c, GTK_ORIENTATION_VERTICAL, -1, nullptr, &nat, nullptr, nullptr);
+                    // Rows that are cut off show as a scroll range larger than the visible page.
+                    std::function<void(GtkWidget *)> walk = [&](GtkWidget *x) {
+                        if (GTK_IS_SCROLLED_WINDOW(x) && gtk_widget_get_mapped(x)) {
+                            GtkAdjustment *a = gtk_scrolled_window_get_vadjustment(GTK_SCROLLED_WINDOW(x));
+                            if (gtk_adjustment_get_upper(a) > gtk_adjustment_get_page_size(a) + 0.5) scrolls = true;
+                        }
+                        for (GtkWidget *k = gtk_widget_get_first_child(x); k; k = gtk_widget_get_next_sibling(k)) walk(k);
+                    };
+                    walk(c);
                     shoot(c, shot);
                     gtk_popover_popdown(GTK_POPOVER(c));
                 }
@@ -722,7 +732,7 @@ void gui_tests(GtkApplication *app)
             return nat;
         };
         int fileMenu = menuHeight("picture.png", "13-menu-file"), folderMenu = menuHeight("Folder 1", "13-menu-folder");
-        check(fileMenu > 0 && folderMenu > 0 && fileMenu <= 520 && folderMenu <= 520,
+        check(fileMenu > 0 && folderMenu > 0 && fileMenu <= 520 && folderMenu <= 520 && !scrolls,
               printf_str("context menus fit without scrolling (file %d px, folder %d px)", fileMenu, folderMenu));
         w->activeView()->selectUris({file_uri(F("picture.png").get())});
         wait_ms(200);

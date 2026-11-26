@@ -6,6 +6,7 @@
 #include "undo.hpp"
 
 #include <algorithm>
+#include <functional>
 #include <memory>
 
 namespace beluga {
@@ -293,6 +294,39 @@ void menu_icon_item(GMenu *menu, const std::string &label, const char *action, G
     v.push_back({id, label, action, target ? g_variant_ref_sink(target) : nullptr, icon ? G_ICON(g_object_ref(icon)) : nullptr});
 }
 
+void fit_menu(GtkPopover *pop)
+{
+    int cap = 900;
+    GtkNative *parent = gtk_widget_get_native(gtk_widget_get_parent(GTK_WIDGET(pop)));
+    if (GdkSurface *ps = parent ? gtk_native_get_surface(parent) : nullptr)
+        if (GdkMonitor *m = gdk_display_get_monitor_at_surface(gdk_surface_get_display(ps), ps)) {
+            GdkRectangle r;
+            gdk_monitor_get_geometry(m, &r);
+            cap = std::max(200, r.height - 80);
+        }
+    g_object_set_data(G_OBJECT(pop), "beluga-cap", GINT_TO_POINTER(cap));
+    // GTK measures the rows shorter than they are once laid out (by ~30 px), so the page scrolled. When a page's
+    // scroll range is larger than what it shows, give it that height (up to most of the screen).
+    std::function<void(GtkWidget *)> walk = [&](GtkWidget *w) {
+        if (GTK_IS_SCROLLED_WINDOW(w) && !g_object_get_data(G_OBJECT(w), "beluga-fit")) {
+            g_object_set_data(G_OBJECT(w), "beluga-fit", GINT_TO_POINTER(1));
+            GtkAdjustment *adj = gtk_scrolled_window_get_vadjustment(GTK_SCROLLED_WINDOW(w));
+            g_signal_connect(adj, "changed", CB([](GtkAdjustment *a, gpointer sw) {
+                double upper = gtk_adjustment_get_upper(a), page = gtk_adjustment_get_page_size(a);
+                GtkWidget *popover = gtk_widget_get_ancestor(GTK_WIDGET(sw), GTK_TYPE_POPOVER);
+                if (!popover || page <= 0 || upper <= page + 0.5) return;
+                int cap = GPOINTER_TO_INT(g_object_get_data(G_OBJECT(popover), "beluga-cap"));
+                int want = (int)std::min<double>(upper, cap > 0 ? cap : upper);
+                if (want <= gtk_scrolled_window_get_min_content_height(GTK_SCROLLED_WINDOW(sw))) return;
+                gtk_scrolled_window_set_min_content_height(GTK_SCROLLED_WINDOW(sw), want);
+                gtk_popover_present(GTK_POPOVER(popover));
+            }), w);
+        }
+        for (GtkWidget *c = gtk_widget_get_first_child(w); c; c = gtk_widget_get_next_sibling(c)) walk(c);
+    };
+    walk(GTK_WIDGET(pop));
+}
+
 void popup_menu(GtkWidget *widget, GMenuModel *model, double x, double y)
 {
     GtkWidget *pop = gtk_popover_menu_new_from_model_full(model, GTK_POPOVER_MENU_NESTED);
@@ -339,6 +373,8 @@ void popup_menu(GtkWidget *widget, GMenuModel *model, double x, double y)
         }, g_object_ref(p));
     }), nullptr);
     gtk_popover_popup(GTK_POPOVER(pop));
+    // GTK gave context menus a surface 30 px shorter than they need, so they scrolled although they fit.
+    fit_menu(GTK_POPOVER(pop));
 }
 
 void show_drop_menu(GtkWidget *widget, double x, double y, bool canMove, std::function<void(GdkDragAction)> cb)

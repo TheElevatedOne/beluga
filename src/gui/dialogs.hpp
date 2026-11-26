@@ -32,6 +32,9 @@ void view_properties_dialog(GtkWidget *parent, const std::string &uri, const Vie
                             std::function<void(const ViewProps &, int scope)> cb);   // scope 0 folder, 1 subfolders, 2 all
 // Pops up a GMenuModel at a point of a widget.
 void popup_menu(GtkWidget *widget, GMenuModel *model, double x, double y);
+// Makes a popover menu as tall as its rows (up to most of the screen) so it doesn't scroll when it fits.
+// popup_menu() does this itself; call it once for other menus (a menu button's popover).
+void fit_menu(GtkPopover *pop);
 // Picks an icon: one of the icon theme's (searchable) or an image file. done gets an icon name or a path, or "" for
 // the default icon; it isn't called when cancelled.
 void choose_icon(GtkWidget *parent, const std::string &current, std::function<void(const std::string &)> done);

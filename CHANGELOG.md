@@ -18,6 +18,8 @@
 - Changed: cut items look different from hidden ones (fainter, in italics); the dividers between panels and views
   show in dark themes.
 - Fixed: a crash when a window closed while a setting changed.
+- Fixed: context and tool bar menus were about 30 px too short, so their last rows scrolled although the menu
+  fitted on screen.
 - Fixed: the long date format had two spaces before single-digit days ("Created:" in Properties); the Open With row
   in Properties is aligned and shows the program's icon.
 - Fixed: Backspace or Delete in an empty text field no longer beeps.

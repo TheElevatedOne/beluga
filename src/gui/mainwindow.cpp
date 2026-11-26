@@ -452,7 +452,12 @@ void MainWindow::attachToolbarMenus()
         const char *which = GTK_IS_MENU_BUTTON(c) ? static_cast<const char *>(g_object_get_data(G_OBJECT(c), "beluga-menu")) : nullptr;
         if (!which) continue;
         GMenuModel *m = !strcmp(which, "view") ? viewMenuModel_ : !strcmp(which, "sort") ? sortMenuModel_ : mainMenuModel_;
-        if (m) gtk_menu_button_set_menu_model(GTK_MENU_BUTTON(c), m);
+        if (!m) continue;
+        gtk_menu_button_set_menu_model(GTK_MENU_BUTTON(c), m);
+        if (GtkPopover *pop = gtk_menu_button_get_popover(GTK_MENU_BUTTON(c))) {
+            fit_menu(pop);
+            g_signal_connect(pop, "show", CB([](GtkWidget *p) { fit_menu(GTK_POPOVER(p)); }), nullptr);
+        }
     }
 }
 
