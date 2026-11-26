@@ -641,6 +641,9 @@ msgstr "Відкрити термінал"
 msgid "Open Terminal Here"
 msgstr "Викликати термінал тут"
 
+msgid "Configure Toolbars"
+msgstr "Налаштовування панелей інструментів"
+
 msgid "Configure Beluga"
 msgstr "Налаштувати Beluga"
 
@@ -1229,14 +1232,14 @@ msgstr "У цьому вікні відкрито вкладок: %zu. Закр�
 msgid "Close Window"
 msgstr "Закрити вікно"
 
-msgid "View Settings"
-msgstr "Параметри перегляду"
+msgid "Configure Toolbars…"
+msgstr "Налаштувати панелі…"
+
+msgid "Show _Toolbar"
+msgstr "Показати панель _інструментів"
 
 msgid "Split"
 msgstr "Розділити"
-
-msgid "Menu"
-msgstr "Меню"
 
 msgid "Folders First"
 msgstr "Теки спочатку"
@@ -1349,9 +1352,6 @@ msgstr "Панель адреси"
 msgid "Show _Menubar"
 msgstr "Показати _меню"
 
-msgid "Show _Toolbar"
-msgstr "Показати панель _інструментів"
-
 msgid "Show _Statusbar"
 msgstr "Показати рядок _стану"
 
@@ -1387,6 +1387,9 @@ msgstr "_Використання диска…"
 
 msgid "_Settings"
 msgstr "_Параметри"
+
+msgid "Configure Tool_bars…"
+msgstr "Налаштувати _панелі інструментів…"
 
 msgid "_Configure Beluga…"
 msgstr "_Налаштувати Beluga…"
@@ -2249,6 +2252,36 @@ msgstr "Відокремити вкладку"
 
 msgid "Close Other Tabs"
 msgstr "Закрити інші вкладки"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "--- separator ---"
+msgstr "--- роздільник ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Дії над панеллю адреси у списку стоять ліворуч від неї, інші праворуч."
+
+msgid "A_vailable actions:"
+msgstr "_Доступні дії:"
+
+msgid "Add to the tool bar"
+msgstr "Додати на панель інструментів"
+
+msgid "Remove from the tool bar"
+msgstr "Вилучити з панелі інструментів"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Вгору (лівіше на панелі)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Вниз (правіше на панелі)"
+
+msgid "C_urrent actions:"
+msgstr "_Поточні дії:"
+
+msgid "_Defaults"
+msgstr "_Типові"
 
 msgid "Show Columns"
 msgstr "Показати стовпчики"

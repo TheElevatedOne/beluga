@@ -631,6 +631,9 @@ msgstr "Terminal openen"
 msgid "Open Terminal Here"
 msgstr "Terminal hier openen"
 
+msgid "Configure Toolbars"
+msgstr "Werkbalken configureren"
+
 msgid "Configure Beluga"
 msgstr "Beluga instellen"
 
@@ -1211,14 +1214,14 @@ msgstr "In dit venster zijn %zu tabbladen geopend. Sluiten sluit ze allemaal."
 msgid "Close Window"
 msgstr "Venster sluiten"
 
-msgid "View Settings"
-msgstr "Weergave-instellingen"
+msgid "Configure Toolbars…"
+msgstr "Werkbalken configureren…"
+
+msgid "Show _Toolbar"
+msgstr "_Werkbalk tonen"
 
 msgid "Split"
 msgstr "Splitsen"
-
-msgid "Menu"
-msgstr "Menu"
 
 msgid "Folders First"
 msgstr "Mappen eerst"
@@ -1331,9 +1334,6 @@ msgstr "Locatiebalk"
 msgid "Show _Menubar"
 msgstr "_Menubalk tonen"
 
-msgid "Show _Toolbar"
-msgstr "_Werkbalk tonen"
-
 msgid "Show _Statusbar"
 msgstr "_Statusbalk tonen"
 
@@ -1369,6 +1369,9 @@ msgstr "_Schijfgebruik…"
 
 msgid "_Settings"
 msgstr "_Instellingen"
+
+msgid "Configure Tool_bars…"
+msgstr "_Werkbalken instellen…"
 
 msgid "_Configure Beluga…"
 msgstr "Beluga _instellen…"
@@ -2229,6 +2232,36 @@ msgstr "Tabblad losmaken"
 
 msgid "Close Other Tabs"
 msgstr "Andere tabbladen sluiten"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "--- separator ---"
+msgstr "--- scheiding ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Acties boven de locatiebalk in de lijst staan links ervan, de andere rechts."
+
+msgid "A_vailable actions:"
+msgstr "_Beschikbare acties:"
+
+msgid "Add to the tool bar"
+msgstr "Aan de werkbalk toevoegen"
+
+msgid "Remove from the tool bar"
+msgstr "Van de werkbalk verwijderen"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Omhoog (naar links op de balk)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Omlaag (naar rechts op de balk)"
+
+msgid "C_urrent actions:"
+msgstr "_Huidige acties:"
+
+msgid "_Defaults"
+msgstr "_Standaard"
 
 msgid "Show Columns"
 msgstr "Kolommen tonen"

@@ -622,6 +622,9 @@ msgstr "打开终端"
 msgid "Open Terminal Here"
 msgstr "在此位置打开终端"
 
+msgid "Configure Toolbars"
+msgstr "配置工具栏"
+
 msgid "Configure Beluga"
 msgstr "配置 Beluga"
 
@@ -1198,14 +1201,14 @@ msgstr "此窗口打开了 %zu 个标签页。关闭窗口将关闭所有标签�
 msgid "Close Window"
 msgstr "关闭窗口"
 
-msgid "View Settings"
-msgstr "视图设置"
+msgid "Configure Toolbars…"
+msgstr "配置工具栏(B)…"
+
+msgid "Show _Toolbar"
+msgstr "显示工具栏(_T)"
 
 msgid "Split"
 msgstr "拆分视图"
-
-msgid "Menu"
-msgstr "菜单"
 
 msgid "Folders First"
 msgstr "文件夹靠前"
@@ -1318,9 +1321,6 @@ msgstr "位置栏"
 msgid "Show _Menubar"
 msgstr "显示菜单栏(_M)"
 
-msgid "Show _Toolbar"
-msgstr "显示工具栏(_T)"
-
 msgid "Show _Statusbar"
 msgstr "显示状态栏(_S)"
 
@@ -1356,6 +1356,9 @@ msgstr "磁盘占用(_D)…"
 
 msgid "_Settings"
 msgstr "设置(_S)"
+
+msgid "Configure Tool_bars…"
+msgstr "配置工具栏(_B)…"
 
 msgid "_Configure Beluga…"
 msgstr "配置 Beluga(_C)…"
@@ -2215,6 +2218,36 @@ msgstr "分离标签页"
 
 msgid "Close Other Tabs"
 msgstr "关闭其他标签页"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "--- separator ---"
+msgstr "--- 分隔线 ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "列表中位于位置栏上方的动作显示在其左侧，其余的显示在右侧。"
+
+msgid "A_vailable actions:"
+msgstr "可用动作(_V)："
+
+msgid "Add to the tool bar"
+msgstr "添加到工具栏"
+
+msgid "Remove from the tool bar"
+msgstr "从工具栏移除"
+
+msgid "Move up (left on the tool bar)"
+msgstr "上移（工具栏中靠左）"
+
+msgid "Move down (right on the tool bar)"
+msgstr "下移（工具栏中靠右）"
+
+msgid "C_urrent actions:"
+msgstr "当前动作(_U)："
+
+msgid "_Defaults"
+msgstr "默认值(_D)"
 
 msgid "Show Columns"
 msgstr "显示列"

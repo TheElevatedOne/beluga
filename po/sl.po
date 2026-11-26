@@ -641,6 +641,9 @@ msgstr "Odpri terminal"
 msgid "Open Terminal Here"
 msgstr "Odpri terminal tukaj"
 
+msgid "Configure Toolbars"
+msgstr "Nastavi orodne vrstice"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1229,14 +1232,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
-msgstr "Poglej nastavitve"
+msgid "Configure Toolbars…"
+msgstr "Nastavi orodne vrstice …"
+
+msgid "Show _Toolbar"
+msgstr ""
 
 msgid "Split"
 msgstr "Razdeli"
-
-msgid "Menu"
-msgstr "Meni"
 
 msgid "Folders First"
 msgstr "Najprej mape"
@@ -1349,9 +1352,6 @@ msgstr "Naslovna vrstica"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1386,6 +1386,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2249,6 +2252,36 @@ msgstr "Odpni zavihek"
 
 msgid "Close Other Tabs"
 msgstr "Zapri druge zavihke"
+
+msgid "Menu"
+msgstr "Meni"
+
+msgid "--- separator ---"
+msgstr "— ločilnik —"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

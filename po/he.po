@@ -643,6 +643,9 @@ msgstr "פתיחת המסוף"
 msgid "Open Terminal Here"
 msgstr "פתיחת המסוף כאן"
 
+msgid "Configure Toolbars"
+msgstr "הגדרת סרגלי־כלים"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1231,14 +1234,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
-msgstr "הצגת ההגדרות"
+msgid "Configure Toolbars…"
+msgstr "הגדרת סרגלי־כלים…"
+
+msgid "Show _Toolbar"
+msgstr ""
 
 msgid "Split"
 msgstr "פיצול"
-
-msgid "Menu"
-msgstr "תפריט"
 
 msgid "Folders First"
 msgstr "תיקיות תחילה"
@@ -1351,9 +1354,6 @@ msgstr "סרגל המיקום"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1388,6 +1388,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2251,6 +2254,36 @@ msgstr "ניתוק לשונית"
 
 msgid "Close Other Tabs"
 msgstr "סגירת הלשוניות האחרות"
+
+msgid "Menu"
+msgstr "תפריט"
+
+msgid "--- separator ---"
+msgstr "--- מפריד ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

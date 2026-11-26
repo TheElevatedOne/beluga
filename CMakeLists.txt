@@ -102,6 +102,7 @@ add_executable(beluga
   src/gui/statusbar.cpp
   src/gui/searchbar.cpp
   src/gui/tabpage.cpp
+  src/gui/toolbar.cpp
   src/gui/mainwindow.cpp
   src/gui/mainwindow_actions.cpp
   src/gui/contextmenu.cpp

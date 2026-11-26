@@ -638,6 +638,9 @@ msgstr "Otwórz osobne okno terminala"
 msgid "Open Terminal Here"
 msgstr "Otwórz tutaj terminal"
 
+msgid "Configure Toolbars"
+msgstr "Ustawienia pasków narzędzi"
+
 msgid "Configure Beluga"
 msgstr "Ustawienia Belugi"
 
@@ -1222,14 +1225,14 @@ msgstr "To okno ma otwarte karty (%zu). Zamknięcie okna zamknie je wszystkie."
 msgid "Close Window"
 msgstr "Zamknij okno"
 
-msgid "View Settings"
-msgstr "Ustawienia widoku"
+msgid "Configure Toolbars…"
+msgstr "Ustawienia pasków narzędzi…"
+
+msgid "Show _Toolbar"
+msgstr "Pokaż pasek _narzędzi"
 
 msgid "Split"
 msgstr "Podziel"
-
-msgid "Menu"
-msgstr "Menu"
 
 msgid "Folders First"
 msgstr "Najpierw katalogi"
@@ -1342,9 +1345,6 @@ msgstr "Pasek położenia"
 msgid "Show _Menubar"
 msgstr "Pokaż pasek _menu"
 
-msgid "Show _Toolbar"
-msgstr "Pokaż pasek _narzędzi"
-
 msgid "Show _Statusbar"
 msgstr "Pokaż pasek _stanu"
 
@@ -1380,6 +1380,9 @@ msgstr "_Zajętość dysku…"
 
 msgid "_Settings"
 msgstr "_Ustawienia"
+
+msgid "Configure Tool_bars…"
+msgstr "Ustawienia _pasków narzędzi…"
 
 msgid "_Configure Beluga…"
 msgstr "_Ustawienia Belugi…"
@@ -2241,6 +2244,36 @@ msgstr "Odłącz kartę"
 
 msgid "Close Other Tabs"
 msgstr "Zamknij inne karty"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "--- separator ---"
+msgstr "--- element oddzielający ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Działania nad paskiem położenia na liście są po jego lewej stronie, pozostałe po prawej."
+
+msgid "A_vailable actions:"
+msgstr "_Dostępne działania:"
+
+msgid "Add to the tool bar"
+msgstr "Dodaj do paska narzędzi"
+
+msgid "Remove from the tool bar"
+msgstr "Usuń z paska narzędzi"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Przesuń w górę (w lewo na pasku)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Przesuń w dół (w prawo na pasku)"
+
+msgid "C_urrent actions:"
+msgstr "_Bieżące działania:"
+
+msgid "_Defaults"
+msgstr "_Domyślne"
 
 msgid "Show Columns"
 msgstr "Pokaż kolumny"

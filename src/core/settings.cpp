@@ -108,6 +108,7 @@ void transfer(IO &io, ST &st)
     io.b(G, "SingleClick", st.singleClick);
     io.b(G, "ShowMenuBar", st.showMenuBar);
     io.b(G, "ShowToolBar", st.showToolBar);
+    io.l("Toolbar", "Items", st.toolbarItems);
     io.e(G, "ShowStatusBar", st.statusBar);
     io.e(G, "ShownStatusBar", st.statusBarShown);
     io.b(G, "ShowZoomSlider", st.showZoomSlider);

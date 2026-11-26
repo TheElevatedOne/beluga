@@ -630,6 +630,9 @@ msgstr "Aperi terminal"
 msgid "Open Terminal Here"
 msgstr "Aperi le terminal ci"
 
+msgid "Configure Toolbars"
+msgstr "Configura le barras de instrumentos"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1210,14 +1213,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
-msgstr "Preferentias de vista"
+msgid "Configure Toolbars…"
+msgstr "Configura le barras de instrumentos…"
+
+msgid "Show _Toolbar"
+msgstr ""
 
 msgid "Split"
 msgstr "Scinde"
-
-msgid "Menu"
-msgstr "Menu"
 
 msgid "Folders First"
 msgstr "Prime le dossieres"
@@ -1330,9 +1333,6 @@ msgstr "Barra de location"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1367,6 +1367,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2228,6 +2231,36 @@ msgstr "Distacca scheda"
 
 msgid "Close Other Tabs"
 msgstr "Claude altere schedas"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "--- separator ---"
+msgstr "--- separator ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

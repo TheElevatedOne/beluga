@@ -630,6 +630,9 @@ msgstr "முனையத்தைத் திற"
 msgid "Open Terminal Here"
 msgstr "முனையத்தை இங்கு திற"
 
+msgid "Configure Toolbars"
+msgstr "கருவிப்பட்டைகளை அமை"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1210,14 +1213,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
-msgstr "காட்சிமுறை அமைப்புகள்"
+msgid "Configure Toolbars…"
+msgstr "கருவிப்பட்டைகளை அமை…"
+
+msgid "Show _Toolbar"
+msgstr ""
 
 msgid "Split"
 msgstr "துண்டாக்கு"
-
-msgid "Menu"
-msgstr "பட்டி"
 
 msgid "Folders First"
 msgstr "அடைவுகள் முதலில்"
@@ -1330,9 +1333,6 @@ msgstr "இடப் பட்டை"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1367,6 +1367,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2228,6 +2231,36 @@ msgstr "கீற்றை பிரித்தெடு"
 
 msgid "Close Other Tabs"
 msgstr "மற்ற கீற்றுகளை மூடு"
+
+msgid "Menu"
+msgstr "பட்டி"
+
+msgid "--- separator ---"
+msgstr "--- பிரிப்பான் ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

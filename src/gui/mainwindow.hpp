@@ -72,6 +72,8 @@ public:
     void updateCutState();
     void focusPlaces();
     void toggleDiskUsagePane();
+    GtkWidget *toolbarWidget() const { return toolbar_; }
+    GtkWidget *menubarWidget() const { return menubar_; }
     bool diskUsagePaneOpen() const { return duPaneOpen_; }
     GtkWidget *diskUsagePane() const { return duPane_; }
 
@@ -102,6 +104,8 @@ public:
 private:
     friend struct WindowActions;
     void buildToolbar();
+    void populateToolbar();
+    void attachToolbarMenus();
     void buildMenus();
     void onTabSwitched(int index);
     void rebuildClosedTabsMenu();
@@ -119,7 +123,9 @@ private:
     GtkWidget *duPane_ = nullptr;
     bool duPaneOpen_ = false;
     GtkWidget *backButton_, *forwardButton_;
-    GtkWidget *viewModeIcon_ = nullptr, *splitButton_ = nullptr, *splitLabel_ = nullptr;
+    GtkWidget *viewModeIcon_ = nullptr, *splitLabel_ = nullptr;   // weak: cleared with their widgets
+    std::vector<std::string> toolbarItems_;   // what the tool bar was built from
+    GMenuModel *mainMenuModel_ = nullptr, *viewMenuModel_ = nullptr, *sortMenuModel_ = nullptr;
     GtkWidget *locSlot_ = nullptr;   // the active tab's location bars, in the tool bar
 public:
     int tabsWidth_ = 0;              // the notebook's width, from the probe over it

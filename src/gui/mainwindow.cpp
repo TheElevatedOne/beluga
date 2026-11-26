@@ -3,6 +3,7 @@
 
 #include "admin.hpp"
 #include "diskusagewindow.hpp"
+#include "toolbar.hpp"
 
 #include "app.hpp"
 #include "archive.hpp"
@@ -191,6 +192,9 @@ MainWindow::MainWindow(GtkApplication *app)
 MainWindow::~MainWindow()
 {
     if (fitSource_) g_source_remove(fitSource_);
+    g_clear_object(&mainMenuModel_);
+    g_clear_object(&viewMenuModel_);
+    g_clear_object(&sortMenuModel_);
     remove_settings_listener(settingsListener_);
     UndoManager::instance().removeListener(undoListener_);
     tabs_.clear();
@@ -291,84 +295,121 @@ void MainWindow::buildToolbar()
     toolbar_ = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 2);
     gtk_widget_add_css_class(toolbar_, "toolbar");
     gtk_widget_add_css_class(toolbar_, "beluga-toolbar");
-    static const char *back[] = {"go-previous", "go-previous-symbolic", nullptr};
-    static const char *fwd[] = {"go-next", "go-next-symbolic", nullptr};
-    static const char *up[] = {"go-up", "go-up-symbolic", nullptr};
-    static const char *home[] = {"go-home", "user-home", nullptr};
-    static const char *icons[] = {"view-list-icons", "view-grid-symbolic", nullptr};
-    static const char *compact[] = {"view-list-details", "view-list-compact-symbolic", "view-list-symbolic", nullptr};
-    static const char *details[] = {"view-list-tree", "view-list-symbolic", nullptr};
-    static const char *columns[] = {"view-column", "view-file-columns", "view-columns-symbolic", "view-dual-symbolic", "view-list-symbolic", nullptr};
-    static const char *split[] = {"view-split-left-right", "view-dual-symbolic", nullptr};
-    static const char *search[] = {"edit-find", "system-search-symbolic", nullptr};
-    static const char *filter[] = {"view-filter", "edit-find-replace", nullptr};
-    static const char *menu[] = {"application-menu", "open-menu-symbolic", nullptr};
-    static const char *sort[] = {"view-sort", "view-sort-ascending-symbolic", nullptr};
+    // Right click: Configure Toolbars…, as in Dolphin.
+    GtkGesture *g = gtk_gesture_click_new();
+    gtk_gesture_single_set_button(GTK_GESTURE_SINGLE(g), GDK_BUTTON_SECONDARY);
+    g_signal_connect(g, "pressed", CB([](GtkGestureClick *g, int, double x, double y) {
+        GMenu *m = g_menu_new();
+        g_menu_append(m, _("Configure Toolbars…"), "win.configure-toolbars");
+        g_menu_append(m, _("Show _Toolbar"), "win.show-toolbar");
+        popup_menu(gtk_event_controller_get_widget(GTK_EVENT_CONTROLLER(g)), G_MENU_MODEL(m), x, y);
+        g_object_unref(m);
+    }), nullptr);
+    gtk_widget_add_controller(toolbar_, GTK_EVENT_CONTROLLER(g));
+    populateToolbar();
+}
 
-    // Laid out like Dolphin's tool bar: Back, Forward, the view settings, the location bar (one per view in split
-    // view), then Disk Usage, Split, Search and the menu. Up and Home are in the Go menu and on Alt+Up / Alt+Home.
-    (void)up;
-    (void)home;
-    (void)icons;
-    (void)compact;
-    (void)details;
-    (void)columns;
-    (void)filter;
-    (void)sort;
-    backButton_ = tool_button(back, _("Back"), "win.back");
-    forwardButton_ = tool_button(fwd, _("Forward"), "win.forward");
-    history_menu_on_right_click(backButton_, this, true);
-    history_menu_on_right_click(forwardButton_, this, false);
-    gtk_box_append(GTK_BOX(toolbar_), backButton_);
-    gtk_box_append(GTK_BOX(toolbar_), forwardButton_);
+// Builds the tool bar from Settings::toolbarItems (Configure Toolbars). The location bar takes the free space;
+// what comes after it sits on the right.
+void MainWindow::populateToolbar()
+{
+    while (GtkWidget *c = gtk_widget_get_first_child(toolbar_)) gtk_box_remove(GTK_BOX(toolbar_), c);
+    backButton_ = forwardButton_ = nullptr;
+    toolbarItems_ = settings().toolbarItems;
+    bool jobs = false;
+    auto weak = [](GtkWidget *w, GtkWidget **slot) {
+        *slot = w;
+        g_object_add_weak_pointer(G_OBJECT(w), reinterpret_cast<gpointer *>(slot));
+    };
+    for (const std::string &id : toolbarItems_) {
+        const ToolItemInfo *info = tool_item(id);
+        if (!info) continue;
+        GtkWidget *w = nullptr;
+        switch (info->kind) {
+        case ToolKind::Button:
+            w = tool_button(info->icons, _(info->title), info->action);
+            if (id == "back" || id == "forward") {
+                history_menu_on_right_click(w, this, id == "back");
+                if (id == "back") backButton_ = w;
+                else forwardButton_ = w;
+            }
+            break;
+        case ToolKind::Toggle:
+            w = tool_toggle(info->icons, _(info->title), info->action);
+            break;
+        case ToolKind::ViewMenu:
+        case ToolKind::SortMenu:
+        case ToolKind::Menu: {
+            w = gtk_menu_button_new();
+            GtkWidget *img = gtk_image_new();
+            GIcon *gi = g_themed_icon_new_from_names((char **)info->icons, -1);
+            gtk_image_set_from_gicon(GTK_IMAGE(img), gi);
+            g_object_unref(gi);
+            gtk_menu_button_set_child(GTK_MENU_BUTTON(w), img);
+            gtk_widget_set_tooltip_text(w, _(info->title));
+            gtk_widget_add_css_class(w, "flat");
+            gtk_widget_set_focusable(w, FALSE);
+            if (info->kind == ToolKind::ViewMenu) {
+                // The current view mode's icon (updateActions), as in Dolphin.
+                gtk_menu_button_set_always_show_arrow(GTK_MENU_BUTTON(w), TRUE);
+                weak(img, &viewModeIcon_);
+                g_object_set_data(G_OBJECT(w), "beluga-menu", (gpointer)"view");
+            } else if (info->kind == ToolKind::SortMenu) {
+                gtk_menu_button_set_always_show_arrow(GTK_MENU_BUTTON(w), TRUE);
+                g_object_set_data(G_OBJECT(w), "beluga-menu", (gpointer)"sort");
+            } else {
+                g_object_set_data(G_OBJECT(w), "beluga-menu", (gpointer)"main");
+            }
+            break;
+        }
+        case ToolKind::Split: {
+            // Split with its name ("Close" while split), as in Dolphin.
+            w = gtk_toggle_button_new();
+            GtkWidget *sbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+            GIcon *si = g_themed_icon_new_from_names((char **)info->icons, -1);
+            gtk_box_append(GTK_BOX(sbox), gtk_image_new_from_gicon(si));
+            g_object_unref(si);
+            GtkWidget *label = gtk_label_new(_("Split"));
+            gtk_box_append(GTK_BOX(sbox), label);
+            weak(label, &splitLabel_);
+            gtk_button_set_child(GTK_BUTTON(w), sbox);
+            gtk_widget_set_tooltip_text(w, _(info->title));
+            gtk_actionable_set_action_name(GTK_ACTIONABLE(w), info->action);
+            gtk_widget_add_css_class(w, "flat");
+            gtk_widget_set_focusable(w, FALSE);
+            break;
+        }
+        case ToolKind::Location:
+            w = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+            gtk_box_set_homogeneous(GTK_BOX(w), TRUE);
+            gtk_widget_set_hexpand(w, TRUE);
+            gtk_widget_add_css_class(w, "beluga-location-slot");
+            weak(w, &locSlot_);
+            break;
+        case ToolKind::Separator:
+            w = gtk_separator_new(GTK_ORIENTATION_VERTICAL);
+            break;
+        }
+        if (!w) continue;
+        gtk_box_append(GTK_BOX(toolbar_), w);
+        if (info->kind == ToolKind::Location) {
+            gtk_box_append(GTK_BOX(toolbar_), jobs_indicator_new());
+            jobs = true;
+        }
+    }
+    if (!jobs) gtk_box_append(GTK_BOX(toolbar_), jobs_indicator_new());
+    attachToolbarMenus();
+}
 
-    // View settings: the current view mode's icon; the menu has the modes, sorting and the shown columns.
-    GtkWidget *viewMenu = gtk_menu_button_new();
-    viewModeIcon_ = gtk_image_new();
-    gtk_menu_button_set_child(GTK_MENU_BUTTON(viewMenu), viewModeIcon_);
-    gtk_menu_button_set_always_show_arrow(GTK_MENU_BUTTON(viewMenu), TRUE);
-    gtk_widget_set_tooltip_text(viewMenu, _("View Settings"));
-    gtk_widget_add_css_class(viewMenu, "flat");
-    gtk_widget_set_focusable(viewMenu, FALSE);
-    g_object_set_data(G_OBJECT(toolbar_), "beluga-viewmenu", viewMenu);
-    gtk_box_append(GTK_BOX(toolbar_), viewMenu);
-
-    locSlot_ = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
-    gtk_box_set_homogeneous(GTK_BOX(locSlot_), TRUE);
-    gtk_widget_set_hexpand(locSlot_, TRUE);
-    gtk_widget_add_css_class(locSlot_, "beluga-location-slot");
-    gtk_box_append(GTK_BOX(toolbar_), locSlot_);
-    gtk_box_append(GTK_BOX(toolbar_), jobs_indicator_new());
-    static const char *usage[] = {"disk-quota", "baobab", "org.gnome.baobab", "drive-harddisk", nullptr};
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(usage, _("Disk Usage"), "win.show-disk-usage"));
-    // Split with its name, as in Dolphin ("Close" while split).
-    splitButton_ = gtk_toggle_button_new();
-    GtkWidget *sbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
-    GIcon *si = g_themed_icon_new_from_names((char **)split, -1);
-    gtk_box_append(GTK_BOX(sbox), gtk_image_new_from_gicon(si));
-    g_object_unref(si);
-    splitLabel_ = gtk_label_new(_("Split"));
-    gtk_box_append(GTK_BOX(sbox), splitLabel_);
-    gtk_button_set_child(GTK_BUTTON(splitButton_), sbox);
-    gtk_widget_set_tooltip_text(splitButton_, _("Split View"));
-    gtk_actionable_set_action_name(GTK_ACTIONABLE(splitButton_), "win.split");
-    gtk_widget_add_css_class(splitButton_, "flat");
-    gtk_widget_set_focusable(splitButton_, FALSE);
-    gtk_box_append(GTK_BOX(toolbar_), splitButton_);
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(search, _("Search"), "win.toggle-search"));
-    // Signals still arrive while the window is torn down: these pointers clear themselves with their widgets.
-    g_object_add_weak_pointer(G_OBJECT(locSlot_), reinterpret_cast<gpointer *>(&locSlot_));
-    g_object_add_weak_pointer(G_OBJECT(viewModeIcon_), reinterpret_cast<gpointer *>(&viewModeIcon_));
-    g_object_add_weak_pointer(G_OBJECT(splitLabel_), reinterpret_cast<gpointer *>(&splitLabel_));
-    GtkWidget *ham = gtk_menu_button_new();
-    GIcon *mi = g_themed_icon_new_from_names((char **)menu, -1);
-    gtk_menu_button_set_child(GTK_MENU_BUTTON(ham), gtk_image_new_from_gicon(mi));
-    g_object_unref(mi);
-    gtk_widget_set_tooltip_text(ham, _("Menu"));
-    gtk_widget_add_css_class(ham, "flat");
-    gtk_widget_set_focusable(ham, FALSE);
-    g_object_set_data(G_OBJECT(toolbar_), "beluga-hamburger", ham);
-    gtk_box_append(GTK_BOX(toolbar_), ham);
+// The tool bar's menu buttons get their menus (built in buildMenus).
+void MainWindow::attachToolbarMenus()
+{
+    for (GtkWidget *c = gtk_widget_get_first_child(toolbar_); c; c = gtk_widget_get_next_sibling(c)) {
+        const char *which = GTK_IS_MENU_BUTTON(c) ? static_cast<const char *>(g_object_get_data(G_OBJECT(c), "beluga-menu")) : nullptr;
+        if (!which) continue;
+        GMenuModel *m = !strcmp(which, "view") ? viewMenuModel_ : !strcmp(which, "sort") ? sortMenuModel_ : mainMenuModel_;
+        if (m) gtk_menu_button_set_menu_model(GTK_MENU_BUTTON(c), m);
+    }
 }
 
 static void add(GMenu *m, const char *label, const char *action)
@@ -552,6 +593,7 @@ void MainWindow::buildMenus()
     add(s, _("Show _Menubar"), "win.show-menubar");
     add(s, _("Show _Toolbar"), "win.show-toolbar");
     add(s, _("Show _Statusbar"), "win.show-statusbar");
+    add(s, _("Configure Tool_bars…"), "win.configure-toolbars");
     add(s, _("_Configure Beluga…"), "win.preferences");
 
     menu_ = G_MENU_MODEL(bar);
@@ -573,9 +615,10 @@ void MainWindow::buildMenus()
     g_menu_append_submenu(s, _("_Tools"), G_MENU_MODEL(tools));
     s = section(ham);
     add(s, _("Show _Menubar"), "win.show-menubar");
+    add(s, _("Configure Tool_bars…"), "win.configure-toolbars");
     add(s, _("_Configure Beluga…"), "win.preferences");
-    gtk_menu_button_set_menu_model(GTK_MENU_BUTTON(g_object_get_data(G_OBJECT(toolbar_), "beluga-hamburger")), G_MENU_MODEL(ham));
-    g_object_unref(ham);
+    g_clear_object(&mainMenuModel_);
+    mainMenuModel_ = G_MENU_MODEL(ham);
 
     GMenu *vm = g_menu_new();
     s = section(vm);
@@ -598,8 +641,11 @@ void MainWindow::buildMenus()
     s = section(vm);
     add(s, _("Remember View for This Folder"), "win.remember-view");
     add(s, _("Adjust View Display Style…"), "win.view-properties");
-    gtk_menu_button_set_menu_model(GTK_MENU_BUTTON(g_object_get_data(G_OBJECT(toolbar_), "beluga-viewmenu")), G_MENU_MODEL(vm));
-    g_object_unref(vm);
+    g_clear_object(&viewMenuModel_);
+    viewMenuModel_ = G_MENU_MODEL(vm);
+    g_clear_object(&sortMenuModel_);
+    sortMenuModel_ = G_MENU_MODEL(build_sort_menu());
+    attachToolbarMenus();
 }
 
 void MainWindow::rebuildClosedTabsMenu()
@@ -832,7 +878,10 @@ void MainWindow::updateTitle()
 void MainWindow::applySettings()
 {
     const Settings &s = settings();
-    gtk_widget_set_visible(menubar_, s.showMenuBar);
+    if (toolbarItems_ != s.toolbarItems) populateToolbar();
+    // Without the menu button on the tool bar, the menu bar shows, so the menus stay reachable.
+    bool menuButton = s.showToolBar && std::find(toolbarItems_.begin(), toolbarItems_.end(), "menu") != toolbarItems_.end();
+    gtk_widget_set_visible(menubar_, s.showMenuBar || !menuButton);
     gtk_widget_set_visible(toolbar_, s.showToolBar);
     gtk_widget_set_visible(places_->widget(), s.placesPanel);
     gtk_widget_set_visible(folders_->widget(), s.foldersPanel);
@@ -859,8 +908,8 @@ void MainWindow::applySettings()
 // typing in a location bar isn't interrupted.
 void MainWindow::syncLocationBars()
 {
-    if (!locSlot_) return;
-    bool inToolbar = settings().showToolBar;
+    // Not in the tool bar (hidden, or the location bar taken out of it): above each view.
+    bool inToolbar = settings().showToolBar && locSlot_;
     TabPage *active = activeTab();
     std::vector<GtkWidget *> want;
     if (inToolbar && active) {
@@ -874,8 +923,9 @@ void MainWindow::syncLocationBars()
         }
     };
     std::vector<GtkWidget *> have;
-    for (GtkWidget *c = gtk_widget_get_first_child(locSlot_); c; c = gtk_widget_get_next_sibling(c)) have.push_back(c);
-    if (have != want) {
+    if (locSlot_)
+        for (GtkWidget *c = gtk_widget_get_first_child(locSlot_); c; c = gtk_widget_get_next_sibling(c)) have.push_back(c);
+    if (locSlot_ && have != want) {
         for (GtkWidget *w : have) detach(w);
         for (GtkWidget *w : want) {
             detach(w);

@@ -639,6 +639,9 @@ msgstr "Abrir terminal"
 msgid "Open Terminal Here"
 msgstr "Abrir terminal aqui"
 
+msgid "Configure Toolbars"
+msgstr "Configurar barras de ferramentas"
+
 msgid "Configure Beluga"
 msgstr "Configurar o Beluga"
 
@@ -1219,14 +1222,14 @@ msgstr "Esta janela tem %zu abas abertas. Fechá-la fecha todas."
 msgid "Close Window"
 msgstr "Fechar janela"
 
-msgid "View Settings"
-msgstr "Configurações de visualização"
+msgid "Configure Toolbars…"
+msgstr "Configurar barras de ferramentas…"
+
+msgid "Show _Toolbar"
+msgstr "Mostrar a barra de _ferramentas"
 
 msgid "Split"
 msgstr "Dividir"
-
-msgid "Menu"
-msgstr "Menu"
 
 msgid "Folders First"
 msgstr "Primeiro as pastas"
@@ -1339,9 +1342,6 @@ msgstr "Barra de localização"
 msgid "Show _Menubar"
 msgstr "Mostrar a barra de _menus"
 
-msgid "Show _Toolbar"
-msgstr "Mostrar a barra de _ferramentas"
-
 msgid "Show _Statusbar"
 msgstr "Mostrar a barra de _status"
 
@@ -1377,6 +1377,9 @@ msgstr "_Uso do disco…"
 
 msgid "_Settings"
 msgstr "_Configurações"
+
+msgid "Configure Tool_bars…"
+msgstr "Configurar _barras de ferramentas…"
 
 msgid "_Configure Beluga…"
 msgstr "_Configurar o Beluga…"
@@ -2237,6 +2240,36 @@ msgstr "Desanexar aba"
 
 msgid "Close Other Tabs"
 msgstr "Fechar as outras abas"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "--- separator ---"
+msgstr "--- separador ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "As ações acima da barra de endereço na lista ficam à esquerda dela, as outras à direita."
+
+msgid "A_vailable actions:"
+msgstr "Ações _disponíveis:"
+
+msgid "Add to the tool bar"
+msgstr "Adicionar à barra de ferramentas"
+
+msgid "Remove from the tool bar"
+msgstr "Remover da barra de ferramentas"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Mover para cima (à esquerda na barra)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Mover para baixo (à direita na barra)"
+
+msgid "C_urrent actions:"
+msgstr "Ações _atuais:"
+
+msgid "_Defaults"
+msgstr "_Padrões"
 
 msgid "Show Columns"
 msgstr "Mostrar colunas"

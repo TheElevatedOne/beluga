@@ -633,6 +633,9 @@ msgstr "टर्मिनल खोलें"
 msgid "Open Terminal Here"
 msgstr "यहाँ टर्मिनल खोलें"
 
+msgid "Configure Toolbars"
+msgstr "औज़ार पट्टी विन्यस्त करें"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1213,14 +1216,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
+msgid "Configure Toolbars…"
+msgstr ""
+
+msgid "Show _Toolbar"
 msgstr ""
 
 msgid "Split"
 msgstr "विभाजित करें"
-
-msgid "Menu"
-msgstr "मेन्यू"
 
 msgid "Folders First"
 msgstr "पहले फ़ोल्डर"
@@ -1333,9 +1336,6 @@ msgstr "स्थान पट्टी"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1370,6 +1370,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2231,6 +2234,36 @@ msgstr "पट्टी अलग करें"
 
 msgid "Close Other Tabs"
 msgstr "अन्य टैब बन्द करें"
+
+msgid "Menu"
+msgstr "मेन्यू"
+
+msgid "--- separator ---"
+msgstr "--- सेपरेटर ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

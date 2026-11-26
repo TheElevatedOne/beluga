@@ -4,6 +4,7 @@
 
 #include "admin.hpp"
 #include "app.hpp"
+#include "toolbar.hpp"
 #include "archive.hpp"
 #include "customactions.hpp"
 #include "dialogs.hpp"
@@ -405,6 +406,7 @@ const std::vector<ActionDef> &action_defs()
              std::string uri = v && !v->isVirtual() && g_file_is_native(v->locationFile().get()) ? v->location() : std::string("/");
              act_as_admin(w->widget(), uri);
          }},
+        {"configure-toolbars", nullptr, nullptr, [](MainWindow *w, GVariant *) { show_toolbar_editor(w->widget()); }},
         {"browse-archive", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              auto items = w->selectedItems();
              if (items.size() != 1 || !AC(w)) return;

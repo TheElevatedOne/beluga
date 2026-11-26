@@ -639,6 +639,9 @@ msgstr "Otevřít terminál"
 msgid "Open Terminal Here"
 msgstr "Zde otevřít terminál"
 
+msgid "Configure Toolbars"
+msgstr "Nastavit panely nástrojů"
+
 msgid "Configure Beluga"
 msgstr "Nastavit Belugu"
 
@@ -1223,14 +1226,14 @@ msgstr "Toto okno má otevřené karty (%zu). Jeho zavřením se zavřou všechn
 msgid "Close Window"
 msgstr "Zavřít okno"
 
-msgid "View Settings"
-msgstr "Nastavení zobrazení"
+msgid "Configure Toolbars…"
+msgstr "Nastavit panely nástrojů…"
+
+msgid "Show _Toolbar"
+msgstr "Zobrazit _panel nástrojů"
 
 msgid "Split"
 msgstr "Rozdělit"
-
-msgid "Menu"
-msgstr "Nabídka"
 
 msgid "Folders First"
 msgstr "Složky první"
@@ -1343,9 +1346,6 @@ msgstr "Panel umístění"
 msgid "Show _Menubar"
 msgstr "Zobrazit _nabídku"
 
-msgid "Show _Toolbar"
-msgstr "Zobrazit _panel nástrojů"
-
 msgid "Show _Statusbar"
 msgstr "Zobrazit _stavový řádek"
 
@@ -1381,6 +1381,9 @@ msgstr "_Využití disku…"
 
 msgid "_Settings"
 msgstr "Na_stavení"
+
+msgid "Configure Tool_bars…"
+msgstr "Nastavit _panely nástrojů…"
 
 msgid "_Configure Beluga…"
 msgstr "_Nastavit Belugu…"
@@ -2242,6 +2245,36 @@ msgstr "Vytrhnout kartu"
 
 msgid "Close Other Tabs"
 msgstr "Zavřít ostatní karty"
+
+msgid "Menu"
+msgstr "Nabídka"
+
+msgid "--- separator ---"
+msgstr "--- oddělovač ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Činnosti nad adresním řádkem v seznamu jsou vlevo od něj, ostatní vpravo."
+
+msgid "A_vailable actions:"
+msgstr "_Dostupné činnosti:"
+
+msgid "Add to the tool bar"
+msgstr "Přidat na panel nástrojů"
+
+msgid "Remove from the tool bar"
+msgstr "Odebrat z panelu nástrojů"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Posunout nahoru (doleva na panelu)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Posunout dolů (doprava na panelu)"
+
+msgid "C_urrent actions:"
+msgstr "_Aktuální činnosti:"
+
+msgid "_Defaults"
+msgstr "_Výchozí"
 
 msgid "Show Columns"
 msgstr "Zobrazit sloupce"

@@ -637,6 +637,9 @@ msgstr "開啟終端機"
 msgid "Open Terminal Here"
 msgstr "在此開啟終端機"
 
+msgid "Configure Toolbars"
+msgstr "設定工具列"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1213,14 +1216,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
-msgstr "檢視模式設定"
+msgid "Configure Toolbars…"
+msgstr "設定工具列(B)…"
+
+msgid "Show _Toolbar"
+msgstr ""
 
 msgid "Split"
 msgstr "分割"
-
-msgid "Menu"
-msgstr "選單"
 
 msgid "Folders First"
 msgstr "資料夾優先"
@@ -1333,9 +1336,6 @@ msgstr "位置工具列"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1370,6 +1370,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2230,6 +2233,36 @@ msgstr "分離分頁"
 
 msgid "Close Other Tabs"
 msgstr "關閉其他分頁"
+
+msgid "Menu"
+msgstr "選單"
+
+msgid "--- separator ---"
+msgstr "--- 分隔 ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

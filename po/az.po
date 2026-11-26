@@ -629,6 +629,9 @@ msgstr "Terminalı açmaq"
 msgid "Open Terminal Here"
 msgstr "Terminalı burada açın"
 
+msgid "Configure Toolbars"
+msgstr "Alətlər Panelini Ayarla"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1209,14 +1212,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
+msgid "Configure Toolbars…"
+msgstr ""
+
+msgid "Show _Toolbar"
 msgstr ""
 
 msgid "Split"
 msgstr "İkili panel"
-
-msgid "Menu"
-msgstr "Menyu"
 
 msgid "Folders First"
 msgstr "Öncə qovluqlar"
@@ -1329,9 +1332,6 @@ msgstr "Ünvan sətri"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1366,6 +1366,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2227,6 +2230,36 @@ msgstr "Vərəqi ayırmaq"
 
 msgid "Close Other Tabs"
 msgstr "Digər vərəqləri bağlamaq"
+
+msgid "Menu"
+msgstr "Menyu"
+
+msgid "--- separator ---"
+msgstr "--- ayırıcı ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

@@ -625,6 +625,9 @@ msgstr "Mở dòng lệnh"
 msgid "Open Terminal Here"
 msgstr "Mở dòng lệnh tại đây"
 
+msgid "Configure Toolbars"
+msgstr "Cấu hình thanh công cụ"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1201,14 +1204,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
+msgid "Configure Toolbars…"
+msgstr ""
+
+msgid "Show _Toolbar"
 msgstr ""
 
 msgid "Split"
 msgstr "Chia đôi"
-
-msgid "Menu"
-msgstr "Trình đơn"
 
 msgid "Folders First"
 msgstr "Thư mục lên đầu"
@@ -1321,9 +1324,6 @@ msgstr "Thanh địa điểm"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1358,6 +1358,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2218,6 +2221,36 @@ msgstr "Tách thẻ"
 
 msgid "Close Other Tabs"
 msgstr "Đóng các thẻ khác"
+
+msgid "Menu"
+msgstr "Trình đơn"
+
+msgid "--- separator ---"
+msgstr "--- phần phân cách ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

@@ -650,6 +650,9 @@ msgstr "Открыть терминал"
 msgid "Open Terminal Here"
 msgstr "Открыть терминал в этой папке"
 
+msgid "Configure Toolbars"
+msgstr "Настройка панелей инструментов"
+
 msgid "Configure Beluga"
 msgstr "Настроить Beluga"
 
@@ -1238,14 +1241,14 @@ msgstr "В этом окне открыто вкладок: %zu. При закр
 msgid "Close Window"
 msgstr "Закрыть окно"
 
-msgid "View Settings"
-msgstr "Настройка просмотра"
+msgid "Configure Toolbars…"
+msgstr "Настроить панели инструментов…"
+
+msgid "Show _Toolbar"
+msgstr "Показать панель _инструментов"
 
 msgid "Split"
 msgstr "Две панели"
-
-msgid "Menu"
-msgstr "Меню"
 
 msgid "Folders First"
 msgstr "Сначала папки"
@@ -1358,9 +1361,6 @@ msgstr "Строка адреса"
 msgid "Show _Menubar"
 msgstr "Показать _меню"
 
-msgid "Show _Toolbar"
-msgstr "Показать панель _инструментов"
-
 msgid "Show _Statusbar"
 msgstr "Показать строку _состояния"
 
@@ -1396,6 +1396,9 @@ msgstr "_Использование диска…"
 
 msgid "_Settings"
 msgstr "_Настройка"
+
+msgid "Configure Tool_bars…"
+msgstr "Настроить _панели инструментов…"
 
 msgid "_Configure Beluga…"
 msgstr "_Настроить Beluga…"
@@ -2258,6 +2261,36 @@ msgstr "Отделить вкладку"
 
 msgid "Close Other Tabs"
 msgstr "Закрыть другие вкладки"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "--- separator ---"
+msgstr "--- разделитель ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Действия выше адресной строки в списке стоят слева от неё, остальные справа."
+
+msgid "A_vailable actions:"
+msgstr "_Доступные действия:"
+
+msgid "Add to the tool bar"
+msgstr "Добавить на панель инструментов"
+
+msgid "Remove from the tool bar"
+msgstr "Убрать с панели инструментов"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Вверх (левее на панели)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Вниз (правее на панели)"
+
+msgid "C_urrent actions:"
+msgstr "_Текущие действия:"
+
+msgid "_Defaults"
+msgstr "_По умолчанию"
 
 msgid "Show Columns"
 msgstr "Показать столбцы"

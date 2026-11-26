@@ -635,6 +635,9 @@ msgstr "ターミナルを開く(T)"
 msgid "Open Terminal Here"
 msgstr "ここでターミナルを開く"
 
+msgid "Configure Toolbars"
+msgstr "ツールバーを設定"
+
 msgid "Configure Beluga"
 msgstr "Beluga を設定"
 
@@ -1211,14 +1214,14 @@ msgstr "このウィンドウには %zu 個のタブが開いています。閉�
 msgid "Close Window"
 msgstr "ウィンドウを閉じる"
 
-msgid "View Settings"
-msgstr "ビュー設定"
+msgid "Configure Toolbars…"
+msgstr "ツールバーを設定(B)…"
+
+msgid "Show _Toolbar"
+msgstr "ツールバーを表示(_T)"
 
 msgid "Split"
 msgstr "分割"
-
-msgid "Menu"
-msgstr "メニュー"
 
 msgid "Folders First"
 msgstr "フォルダを先に表示"
@@ -1331,9 +1334,6 @@ msgstr "場所バー"
 msgid "Show _Menubar"
 msgstr "メニューバーを表示(_M)"
 
-msgid "Show _Toolbar"
-msgstr "ツールバーを表示(_T)"
-
 msgid "Show _Statusbar"
 msgstr "ステータスバーを表示(_S)"
 
@@ -1369,6 +1369,9 @@ msgstr "ディスク使用量(_D)…"
 
 msgid "_Settings"
 msgstr "設定(_S)"
+
+msgid "Configure Tool_bars…"
+msgstr "ツールバーを設定(_B)…"
 
 msgid "_Configure Beluga…"
 msgstr "Beluga を設定(_C)…"
@@ -2228,6 +2231,36 @@ msgstr "タブを分離"
 
 msgid "Close Other Tabs"
 msgstr "他のタブを閉じる(C)"
+
+msgid "Menu"
+msgstr "メニュー"
+
+msgid "--- separator ---"
+msgstr "--- セパレータ ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "リストで場所バーより上のアクションはその左に、それ以外は右に表示されます。"
+
+msgid "A_vailable actions:"
+msgstr "利用可能なアクション(_V):"
+
+msgid "Add to the tool bar"
+msgstr "ツールバーに追加"
+
+msgid "Remove from the tool bar"
+msgstr "ツールバーから削除"
+
+msgid "Move up (left on the tool bar)"
+msgstr "上へ (バーの左側へ)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "下へ (バーの右側へ)"
+
+msgid "C_urrent actions:"
+msgstr "現在のアクション(_U):"
+
+msgid "_Defaults"
+msgstr "既定値(_D)"
 
 msgid "Show Columns"
 msgstr "列を表示"

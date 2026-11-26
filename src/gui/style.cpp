@@ -95,6 +95,12 @@ popover.menu separator { margin: 2px 0; }
 .beluga-prefs-side list row { padding: 2px 4px; color: @beluga_window_fg; }
 .beluga-prefs-side list row:hover { background-color: mix(@beluga_window_bg, @beluga_window_fg, 0.08); }
 .beluga-prefs-side list row:selected { background-color: @beluga_accent_bg; color: @beluga_accent_fg; }
+/* Lists in dialogs (Configure Toolbars, the Context Menu page): readable text in themes that dim list rows. */
+.beluga-dialog list > row, .beluga-preferences list > row { color: @beluga_window_fg; }
+.beluga-dialog list > row:selected, .beluga-preferences list > row:selected {
+  background-color: @beluga_accent_bg;
+  color: @beluga_accent_fg;
+}
 .beluga-admin-bar {
   background-color: mix(@beluga_window_bg, @beluga_error, 0.3);
   color: @beluga_window_fg;

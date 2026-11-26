@@ -630,6 +630,9 @@ msgstr "Apri terminale"
 msgid "Open Terminal Here"
 msgstr "Apri terminale qui"
 
+msgid "Configure Toolbars"
+msgstr "Configura barre degli strumenti"
+
 msgid "Configure Beluga"
 msgstr "Configura Beluga"
 
@@ -1210,14 +1213,14 @@ msgstr "Questa finestra ha %zu schede aperte. Chiudendola si chiudono tutte."
 msgid "Close Window"
 msgstr "Chiudi finestra"
 
-msgid "View Settings"
-msgstr "Impostazioni di visualizzazione"
+msgid "Configure Toolbars…"
+msgstr "Configura le barre degli strumenti…"
+
+msgid "Show _Toolbar"
+msgstr "Mostra la barra degli _strumenti"
 
 msgid "Split"
 msgstr "Dividi"
-
-msgid "Menu"
-msgstr "Menu"
 
 msgid "Folders First"
 msgstr "Prima le cartelle"
@@ -1330,9 +1333,6 @@ msgstr "Barra della posizione"
 msgid "Show _Menubar"
 msgstr "Mostra la barra dei _menu"
 
-msgid "Show _Toolbar"
-msgstr "Mostra la barra degli _strumenti"
-
 msgid "Show _Statusbar"
 msgstr "Mostra la barra di _stato"
 
@@ -1368,6 +1368,9 @@ msgstr "_Utilizzo del disco…"
 
 msgid "_Settings"
 msgstr "Imp_ostazioni"
+
+msgid "Configure Tool_bars…"
+msgstr "Configura le _barre degli strumenti…"
 
 msgid "_Configure Beluga…"
 msgstr "_Configura Beluga…"
@@ -2228,6 +2231,36 @@ msgstr "Sgancia scheda"
 
 msgid "Close Other Tabs"
 msgstr "Chiudi altre schede"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "--- separator ---"
+msgstr "--- separatore ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Le azioni sopra la barra degli indirizzi nell'elenco stanno alla sua sinistra, le altre alla sua destra."
+
+msgid "A_vailable actions:"
+msgstr "Azioni _disponibili:"
+
+msgid "Add to the tool bar"
+msgstr "Aggiungi alla barra degli strumenti"
+
+msgid "Remove from the tool bar"
+msgstr "Rimuovi dalla barra degli strumenti"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Sposta su (a sinistra nella barra)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Sposta giù (a destra nella barra)"
+
+msgid "C_urrent actions:"
+msgstr "Azioni _attuali:"
+
+msgid "_Defaults"
+msgstr "_Predefiniti"
 
 msgid "Show Columns"
 msgstr "Mostra colonne"

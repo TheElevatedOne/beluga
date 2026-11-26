@@ -628,6 +628,9 @@ msgstr "Aperter li terminal"
 msgid "Open Terminal Here"
 msgstr "Aperter li Terminal ci"
 
+msgid "Configure Toolbars"
+msgstr "Configurar li instrumentarium"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1208,14 +1211,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
+msgid "Configure Toolbars…"
+msgstr ""
+
+msgid "Show _Toolbar"
 msgstr ""
 
 msgid "Split"
 msgstr "Fender"
-
-msgid "Menu"
-msgstr "Menú"
 
 msgid "Folders First"
 msgstr "Fólderes unesimmen"
@@ -1328,9 +1331,6 @@ msgstr "Panel de localisation"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1365,6 +1365,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2226,6 +2229,36 @@ msgstr "Separar li carte"
 
 msgid "Close Other Tabs"
 msgstr "Cluder altri cartes"
+
+msgid "Menu"
+msgstr "Menú"
+
+msgid "--- separator ---"
+msgstr "--- separator ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""

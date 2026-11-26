@@ -641,6 +641,9 @@ msgstr "Terminal öffnen"
 msgid "Open Terminal Here"
 msgstr "Terminal hier öffnen"
 
+msgid "Configure Toolbars"
+msgstr "Werkzeugleisten einrichten"
+
 msgid "Configure Beluga"
 msgstr "Beluga einrichten"
 
@@ -1221,14 +1224,14 @@ msgstr "In diesem Fenster sind %zu Unterfenster geöffnet. Beim Schließen werde
 msgid "Close Window"
 msgstr "Fenster schließen"
 
-msgid "View Settings"
-msgstr "Ansicht-Einstellungen"
+msgid "Configure Toolbars…"
+msgstr "Werkzeugleisten einrichten …"
+
+msgid "Show _Toolbar"
+msgstr "_Werkzeugleiste anzeigen"
 
 msgid "Split"
 msgstr "Teilen"
-
-msgid "Menu"
-msgstr "Menü"
 
 msgid "Folders First"
 msgstr "Ordner zuerst"
@@ -1341,9 +1344,6 @@ msgstr "Adresse"
 msgid "Show _Menubar"
 msgstr "_Menüleiste anzeigen"
 
-msgid "Show _Toolbar"
-msgstr "_Werkzeugleiste anzeigen"
-
 msgid "Show _Statusbar"
 msgstr "_Statusleiste anzeigen"
 
@@ -1379,6 +1379,9 @@ msgstr "_Speicherbelegung …"
 
 msgid "_Settings"
 msgstr "_Einstellungen"
+
+msgid "Configure Tool_bars…"
+msgstr "_Werkzeugleisten einrichten …"
 
 msgid "_Configure Beluga…"
 msgstr "Beluga _einrichten …"
@@ -2239,6 +2242,36 @@ msgstr "Unterfenster verselbständigen"
 
 msgid "Close Other Tabs"
 msgstr "Andere Unterfenster schließen"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "--- separator ---"
+msgstr "--- Trenner ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "Aktionen über der Adressleiste in der Liste stehen links von ihr, die anderen rechts."
+
+msgid "A_vailable actions:"
+msgstr "_Verfügbare Aktionen:"
+
+msgid "Add to the tool bar"
+msgstr "Zur Werkzeugleiste hinzufügen"
+
+msgid "Remove from the tool bar"
+msgstr "Von der Werkzeugleiste entfernen"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Nach oben (in der Leiste nach links)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Nach unten (in der Leiste nach rechts)"
+
+msgid "C_urrent actions:"
+msgstr "_Aktuelle Aktionen:"
+
+msgid "_Defaults"
+msgstr "_Standard"
 
 msgid "Show Columns"
 msgstr "Spalten anzeigen"

@@ -1532,3 +1532,30 @@ msgstr "重命名会改变文件类型"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
 msgstr "固定宽度的标签页放不下时，会全部等量变窄。"
+
+msgid "_Defaults"
+msgstr "默认值(_D)"
+
+msgid "Remove from the tool bar"
+msgstr "从工具栏移除"
+
+msgid "Move up (left on the tool bar)"
+msgstr "上移（工具栏中靠左）"
+
+msgid "Move down (right on the tool bar)"
+msgstr "下移（工具栏中靠右）"
+
+msgid "Configure Tool_bars…"
+msgstr "配置工具栏(_B)…"
+
+msgid "C_urrent actions:"
+msgstr "当前动作(_U)："
+
+msgid "Add to the tool bar"
+msgstr "添加到工具栏"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr "列表中位于位置栏上方的动作显示在其左侧，其余的显示在右侧。"
+
+msgid "A_vailable actions:"
+msgstr "可用动作(_V)："

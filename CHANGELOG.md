@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added: **Settings → Configure Toolbars…** (also in the menu and on a right click on the tool bar), as in Dolphin:
+  available and current actions, the location bar and separators, in any order; actions before the location bar
+  sit left of it. Without the menu button on the tool bar the menu bar shows.
+- Changed: the default tool bar is Back, Forward, Up and the view mode, the location bar, then Disk Usage, Split, Sort
+  By, Search and the menu.
 - Changed: tabs no longer stretch across the bar. They have one fixed width and all get narrower by the same amount
   when they don't fit; the "Tabs span the available width" style is gone.
 - Changed: the window is laid out like Dolphin's. The tool bar has Back, Forward, a view settings button showing

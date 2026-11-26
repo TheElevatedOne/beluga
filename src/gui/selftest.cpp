@@ -617,6 +617,50 @@ void gui_tests(GtkApplication *app)
             while (w->tabCount() > 1) w->closeTab(w->tabCount() - 1, false);
             wait_ms(300);
         }
+        // The tool bar: Dolphin's defaults plus Up and Sort; Configure Toolbars changes it.
+        {
+            auto has = [&](const char *action, bool menu) {
+                for (GtkWidget *c = gtk_widget_get_first_child(w->toolbarWidget()); c; c = gtk_widget_get_next_sibling(c)) {
+                    if (menu && GTK_IS_MENU_BUTTON(c)) {
+                        const char *m = static_cast<const char *>(g_object_get_data(G_OBJECT(c), "beluga-menu"));
+                        if (m && !strcmp(m, action)) return true;
+                    } else if (!menu && GTK_IS_ACTIONABLE(c)) {
+                        const char *a = gtk_actionable_get_action_name(GTK_ACTIONABLE(c));
+                        if (a && !strcmp(a, action)) return true;
+                    }
+                }
+                return false;
+            };
+            GtkWidget *loc = w->activeContainer()->locationBar()->widget();
+            bool defaults = has("win.back", false) && has("win.up", false) && has("view", true) && has("sort", true) && has("main", true)
+                            && has("win.split", false) && has("win.show-disk-usage", false)
+                            && gtk_widget_is_ancestor(loc, w->toolbarWidget());
+            settings().toolbarItems = {"back", "forward", "home", "search"};
+            notify_settings_changed();
+            wait_ms(200);
+            bool changed = has("win.home", false) && !has("win.up", false) && !gtk_widget_is_ancestor(loc, w->toolbarWidget())
+                           && gtk_widget_is_ancestor(loc, w->activeContainer()->widget()) && gtk_widget_get_visible(w->menubarWidget());
+            settings().toolbarItems = Settings().toolbarItems;
+            notify_settings_changed();
+            wait_ms(200);
+            bool back = has("win.up", false) && gtk_widget_is_ancestor(loc, w->toolbarWidget()) && !gtk_widget_get_visible(w->menubarWidget());
+            check(defaults && changed && back,
+                  "tool bar: Back, Forward, Up, view, location, Disk Usage, Split, Sort, Search, menu; configurable");
+            g_action_group_activate_action(G_ACTION_GROUP(w->window()), "configure-toolbars", nullptr);
+            wait_ms(200);
+            GtkWindow *editor = nullptr;
+            GList *tops = gtk_window_list_toplevels();
+            for (GList *l = tops; l; l = l->next) {
+                const char *t = gtk_window_get_title(GTK_WINDOW(l->data));
+                if (t && !strcmp(t, _("Configure Toolbars"))) editor = GTK_WINDOW(l->data);
+            }
+            g_list_free(tops);
+            if (editor) {
+                shoot(GTK_WIDGET(editor), "15-configure-toolbars");
+                gtk_window_destroy(editor);
+            }
+            check(editor != nullptr, "Configure Toolbars window");
+        }
         // Context menus fit a 1080p screen (with a bar) without scrolling: the longest ones, for a file and a folder.
         auto menuHeight = [&](const char *name, const char *shot) {
             w->activeView()->selectUris({file_uri(F(name).get())});

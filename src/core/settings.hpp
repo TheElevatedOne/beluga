@@ -53,6 +53,8 @@ struct Settings {
     bool singleClick = false;            // was KDE "Clicking files or folders"
     bool showMenuBar = false;
     bool showToolBar = true;
+    // The tool bar's items in order (see gui/toolbar.cpp); "location" is the location bar.
+    std::vector<std::string> toolbarItems = {"back", "forward", "up", "view-menu", "location", "disk-usage", "split", "sort", "search", "menu"};
     StatusBarMode statusBar = StatusBarMode::FullWidth;
     StatusBarMode statusBarShown = StatusBarMode::FullWidth;   // what View › Show Statusbar brings back
     bool showZoomSlider = true;

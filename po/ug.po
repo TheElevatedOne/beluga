@@ -625,6 +625,9 @@ msgstr "تېرمىنال ئاچ"
 msgid "Open Terminal Here"
 msgstr "بۇ يەردە تېرمىنالنى ئاچ"
 
+msgid "Configure Toolbars"
+msgstr "قورال بالداق سەپلە"
+
 msgid "Configure Beluga"
 msgstr ""
 
@@ -1201,14 +1204,14 @@ msgstr ""
 msgid "Close Window"
 msgstr ""
 
-msgid "View Settings"
-msgstr "كۆرۈنۈش تەڭشىكى"
+msgid "Configure Toolbars…"
+msgstr "قورال بالداق سەپلە(B)…"
+
+msgid "Show _Toolbar"
+msgstr ""
 
 msgid "Split"
 msgstr "پارچىلا"
-
-msgid "Menu"
-msgstr "تىزىملىك"
 
 msgid "Folders First"
 msgstr "قىسقۇچ ئالدىدا"
@@ -1321,9 +1324,6 @@ msgstr "ئورۇن بالداق"
 msgid "Show _Menubar"
 msgstr ""
 
-msgid "Show _Toolbar"
-msgstr ""
-
 msgid "Show _Statusbar"
 msgstr ""
 
@@ -1358,6 +1358,9 @@ msgid "_Disk Usage…"
 msgstr ""
 
 msgid "_Settings"
+msgstr ""
+
+msgid "Configure Tool_bars…"
 msgstr ""
 
 msgid "_Configure Beluga…"
@@ -2218,6 +2221,36 @@ msgstr "بەتكۈچنى ئاجرات"
 
 msgid "Close Other Tabs"
 msgstr "باشقا بەتكۈچنى ياپ"
+
+msgid "Menu"
+msgstr "تىزىملىك"
+
+msgid "--- separator ---"
+msgstr "--- ئايرىغۇچ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgstr ""
+
+msgid "A_vailable actions:"
+msgstr ""
+
+msgid "Add to the tool bar"
+msgstr ""
+
+msgid "Remove from the tool bar"
+msgstr ""
+
+msgid "Move up (left on the tool bar)"
+msgstr ""
+
+msgid "Move down (right on the tool bar)"
+msgstr ""
+
+msgid "C_urrent actions:"
+msgstr ""
+
+msgid "_Defaults"
+msgstr ""
 
 msgid "Show Columns"
 msgstr ""
