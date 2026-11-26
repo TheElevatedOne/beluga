@@ -10,6 +10,7 @@
 #include "view.hpp"
 #include "viewcontainer.hpp"
 
+#include <algorithm>
 #include <memory>
 #include <thread>
 
@@ -40,7 +41,8 @@ struct DuWin {
     std::string path;
     MainWindow *mw = nullptr;
     std::weak_ptr<void> mwAlive;
-    std::unique_ptr<du::Node> root;
+    std::shared_ptr<du::Node> tree;          // the whole scan (maybe of a folder above this one)
+    du::Node *root = nullptr;                // the folder shown, inside tree
     std::shared_ptr<du::Scanner> scanner;   // the running scan; shared with its thread
     bool busy = false;
     bool rootApparent = false;              // how the shown tree was counted
@@ -168,7 +170,7 @@ GtkListItemFactory *column_factory(Column col, DuWin *d)
             gtk_image_set_from_gicon(GTK_IMAGE(img), icon);
             g_object_unref(icon);
             GtkWidget *l = gtk_widget_get_next_sibling(img);
-            gtk_label_set_text(GTK_LABEL(l), name_text(n).c_str());
+            gtk_label_set_text(GTK_LABEL(l), n == d->root ? d->path.c_str() : name_text(n).c_str());
             std::string tip = n->rest() ? std::string() : n->path();
             if (n->unreadable) tip += "\n" + std::string(_("Some of its contents could not be read."));
             gtk_widget_set_tooltip_text(box, tip.empty() ? nullptr : tip.c_str());
@@ -199,7 +201,7 @@ void add_column(DuWin *d, const char *title, Column col, bool expand, int width)
 void show_tree(DuWin *d)
 {
     GListStore *top = g_list_store_new(beluga_du_item_get_type());
-    BelugaDuItem *ri = item_new(d->root.get());
+    BelugaDuItem *ri = item_new(d->root);
     g_list_store_append(top, ri);
     g_object_unref(ri);
     GtkTreeListModel *tree = gtk_tree_list_model_new(G_LIST_MODEL(top), FALSE, FALSE, children_of, nullptr, nullptr);
@@ -210,6 +212,23 @@ void show_tree(DuWin *d)
         gtk_tree_list_row_set_expanded(r, TRUE);
         g_object_unref(r);
     }
+}
+
+// Shows a scan (or the folder inside it that this window is for).
+void show_result(DuWin *d, std::shared_ptr<du::Node> tree, du::Node *node, bool apparent)
+{
+    gtk_column_view_set_model(GTK_COLUMN_VIEW(d->view), nullptr);   // items point into the old tree
+    d->tree = std::move(tree);
+    d->root = node;
+    d->rootApparent = apparent;
+    show_tree(d);
+    gtk_label_set_text(GTK_LABEL(d->totalLabel),
+                       printf_str(apparent ? _("%s in files") : _("%s on disk"), format_size(d->root->size).c_str()).c_str());
+}
+
+std::string counts_text(const du::Node *n)
+{
+    return printf_str(_("%s files and %s folders"), count_text(n->files).c_str(), count_text(n->folders).c_str());
 }
 
 void set_busy(DuWin *d, bool on)
@@ -252,7 +271,9 @@ void start_scan(DuWin *d)
     std::weak_ptr<void> alive = d->life;
     std::string path = d->path;
     std::thread([sc, path, o, alive, d] {
-        auto result = std::make_shared<std::unique_ptr<du::Node>>(sc->run(path, o));
+        auto result = std::make_shared<std::shared_ptr<du::Node>>(sc->run(path, o));
+        gint64 when = g_get_real_time() / G_USEC_PER_SEC;
+        if (*result) du::remember_tree(*result, o, when);
         run_on_main([sc, result, alive, d, o] {
             if (alive.expired() || d->scanner != sc) return;   // closed, or a newer scan replaced this one
             set_busy(d, false);
@@ -260,15 +281,10 @@ void start_scan(DuWin *d)
                 gtk_label_set_text(GTK_LABEL(d->status), sc->cancelled() ? _("Stopped.") : _("This folder could not be read."));
                 return;
             }
-            gtk_column_view_set_model(GTK_COLUMN_VIEW(d->view), nullptr);   // items point into the old tree
-            d->root = std::move(*result);
-            d->rootApparent = o.apparentSize;
-            show_tree(d);
+            du::Node *top = result->get();
+            show_result(d, *result, top, o.apparentSize);
             double secs = (g_get_monotonic_time() - d->started) / 1e6;
-            gtk_label_set_text(GTK_LABEL(d->totalLabel),
-                               printf_str(o.apparentSize ? _("%s in files") : _("%s on disk"), format_size(d->root->size).c_str()).c_str());
-            std::string s = printf_str(_("%s files and %s folders, read in %.1f s"), count_text(d->root->files).c_str(),
-                                       count_text(d->root->folders).c_str(), secs);
+            std::string s = printf_str(_("%s, read in %.1f s"), counts_text(top).c_str(), secs);
             if (sc->errors)
                 s += printf_str(g_dngettext(GETTEXT_PACKAGE, ". %s folder could not be read.", ". %s folders could not be read.",
                                             (gulong)sc->errors.load()),
@@ -425,7 +441,22 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
     gtk_widget_add_controller(win, key);
 
     gtk_window_present(GTK_WINDOW(win));
-    start_scan(d);
+    // The last scan of this folder (or of one above it) shows at once; it's read again only when old.
+    du::Options o;
+    o.apparentSize = settings().duApparentSize;
+    o.oneFileSystem = settings().duOneFileSystem;
+    du::CachedTree ct;
+    if (du::cached_tree(path, o, ct)) {
+        show_result(d, ct.tree, ct.node, o.apparentSize);
+        gint64 age = std::max<gint64>(0, g_get_real_time() / G_USEC_PER_SEC - ct.when);
+        std::string when = age < 60 ? std::string(_("read less than a minute ago"))
+                         : age < 3600 ? printf_str(g_dngettext(GETTEXT_PACKAGE, "read %d minute ago", "read %d minutes ago", (gulong)(age / 60)), (int)(age / 60))
+                                      : printf_str(g_dngettext(GETTEXT_PACKAGE, "read %d hour ago", "read %d hours ago", (gulong)(age / 3600)), (int)(age / 3600));
+        gtk_label_set_text(GTK_LABEL(d->status), printf_str(_("%s, %s. Rescan to read it again."), counts_text(ct.node).c_str(), when.c_str()).c_str());
+        if (age >= du::kFreshSeconds) start_scan(d);
+    } else {
+        start_scan(d);
+    }
     return win;
 }
 

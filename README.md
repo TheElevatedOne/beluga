@@ -57,15 +57,22 @@ limits, places) live in Beluga's own preferences.
   folders, through libarchive and without gvfs or Ark. They are read only: copy or drag entries out to extract
   them, and double-click a file to open an extracted copy. Entries with `..` or absolute paths are never written
   outside the target folder. **Configure Beluga → General → Open archives as folders** turns it off.
-- **Search without an indexer**: no Baloo or other index. By name (wildcards work), by text content, file type
-  and modification date, from the current folder, your home folder or everywhere. Local folders are read on all
-  CPU cores, and results stream in while the search runs.
+- **Search without Baloo**: by name (wildcards work), by text content, file type and modification date, from the
+  current folder, your home folder or everywhere. Name and type searches in your home folder answer from Beluga's
+  own index of names, like Everything: for 360 000 names a search takes about 10 ms and a refresh that finds
+  nothing changed 15 ms (`find` with the same pattern: 145 ms; warm disk cache). The index needs no daemon: it
+  reads again only the folders whose time changed since the last search, and every hit is checked on the disk, so
+  deleted files never show. It takes about 27 MB of memory and 21 MB in `~/.cache/beluga`, and can be turned off
+  in **Configure Beluga → General**. Other searches (hidden files, contents, dates, sizes) read the folders on
+  all CPU cores; results stream in while the search runs.
 - **Disk Usage** (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>, **Tools → Disk Usage…** or a folder's context menu):
   what takes up the space in a folder, as a tree with the biggest items first, like
   [dust](https://github.com/bootandy/dust). It reads folders the way dust does, on all CPU cores, and counts hard
   links once: 2 million files under `/usr` take 0.3 s with a warm cache (dust: 1.4 s, `du`: 2.6 s), with the
   same total as `du`. Shows disk usage or file sizes, and can stay on one drive. Double-click an entry to open it.
-  Folder sizes in the views and in Properties use the same reader. **Configure Beluga → View → Details → Show a
+  Folder sizes in the views and in Properties use the same reader. Results are remembered: the window shows the
+  last scan of a folder (or of one above it) at once and reads again only after 10 minutes or on **Rescan**, and
+  remembered folder sizes stay in `~/.cache/beluga` until the folder changes. **Configure Beluga → View → Details → Show a
   Disk Usage column** adds the same numbers to the Details view: every file and whole folder with its size on disk
   and a bar for its share of the folder; sort by the column to see the biggest first.
 - **Previews**: the shared freedesktop thumbnail cache, filled by gdk-pixbuf, the system's `.thumbnailer`
@@ -184,10 +191,11 @@ Beluga creates its files the first time it needs them. Everything can be changed
 | `~/.config/beluga/actions.conf` | custom context menu actions |
 | `~/.local/share/beluga/viewprops.conf` | view mode, sorting and columns, globally or per folder |
 | `~/.local/state/beluga/session.conf` | open windows and tabs, when **Remember open folders and tabs** is on |
+| `~/.cache/beluga/` | the name index (`index-v1`), remembered folder sizes (`usage-v1`) and copies of files opened from archives; safe to delete |
 
 ## Testing
 
-`beluga --selftest` runs 62 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 66 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.
@@ -214,7 +222,8 @@ repository's history and the KDE Frameworks and GTK catalogs installed on the ma
 - Archives are read only (no adding, renaming or deleting inside them) and files in password-protected archives
   can't be opened. Dragging an entry out of an archive to another program doesn't work; copy it into a folder first.
 - Network locations (`sftp://`, `smb://`, `network:///`) need gvfs.
-- Search has no index: it reads the folders every time, on all CPU cores. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
+- The name index covers your home folder without its hidden folders; everything else is read from the disk for
+  each search. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
   inside PDFs or office documents.
 - The Information panel shows image dimensions and audio/video duration, but no tags (artist, album, camera, …).
 

@@ -48,6 +48,7 @@ public:
 private:
     void run();
     void runLocal(const std::string &rootPath);   // the parallel Walker, for local folders
+    void runIndexed(const std::string &rootPath); // the name index (fileindex), for plain name/type searches
     void runGio();                                 // one GIO walk, for remote locations
     bool matches(GFile *f, GFileInfo *info);
     bool matchesLocal(const std::string &path, const char *name, const struct stat &st);

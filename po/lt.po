@@ -818,6 +818,18 @@ msgid "Some of its contents could not be read."
 msgstr ""
 
 #, c-format
+msgid "%s in files"
+msgstr ""
+
+#, c-format
+msgid "%s on disk"
+msgstr ""
+
+#, c-format
+msgid "%s files and %s folders"
+msgstr ""
+
+#, c-format
 msgid "Reading… %s in %s files and %s folders"
 msgstr ""
 
@@ -828,15 +840,7 @@ msgid "This folder could not be read."
 msgstr ""
 
 #, c-format
-msgid "%s in files"
-msgstr ""
-
-#, c-format
-msgid "%s on disk"
-msgstr ""
-
-#, c-format
-msgid "%s files and %s folders, read in %.1f s"
+msgid "%s, read in %.1f s"
 msgstr ""
 
 #, c-format
@@ -873,6 +877,29 @@ msgid "Share"
 msgstr "Bendrinti"
 
 msgid "Files"
+msgstr ""
+
+msgid "read less than a minute ago"
+msgstr ""
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
 msgstr ""
 
 #, c-format
@@ -1447,6 +1474,9 @@ msgid "Open folders from other applications in a new _tab"
 msgstr ""
 
 msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
 msgstr ""
 
 msgid "Closing split view closes:"

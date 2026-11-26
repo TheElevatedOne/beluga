@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "app.hpp"
 
+#include "diskusage.hpp"
+#include "fileindex.hpp"
+
 #include "fileops.hpp"
 #include "gtkutil.hpp"
 #include "mainwindow.hpp"
@@ -132,6 +135,7 @@ void App::init(GtkApplication *app)
         }).detach();
     if (!selftest) {
         ownFileManagerName();
+        fileindex::start();
         // Files opened from archives last session (copies in the cache) are no longer needed.
         std::thread([] {
             Ref<GFile> d(g_file_new_for_path((std::string(g_get_user_cache_dir()) + "/beluga/archives").c_str()));
@@ -148,6 +152,8 @@ void App::shutdown()
     }
     if (busOwner_) g_bus_unown_name(busOwner_);
     settings().save();
+    fileindex::save();
+    du::save_cache();
 }
 
 void App::updateAccels()

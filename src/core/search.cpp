@@ -1,12 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "search.hpp"
 
+#include "fileindex.hpp"
 #include "fileops.hpp"
 #include "walker.hpp"
 
 #include <cstring>
 #include <deque>
 #include <mutex>
+#include <set>
 #include <thread>
 
 namespace beluga {
@@ -208,8 +210,72 @@ void SearchJob::run()
 {
     Ref<GFile> root(g_file_new_for_uri(q_.rootUri.c_str()));
     std::string path = take(g_file_get_path(root.get()));
-    if (!path.empty() && g_file_is_native(root.get())) runLocal(path);
-    else runGio();
+    if (path.empty() || !g_file_is_native(root.get())) {
+        runGio();
+        return;
+    }
+    // The index knows names and folders only: dates, sizes, contents and hidden files need the disk.
+    if (!q_.content && !q_.includeHidden && q_.modifiedWithinDays <= 0 && q_.minSize == 0 && fileindex::covers(path)) runIndexed(path);
+    else runLocal(path);
+}
+
+void SearchJob::runIndexed(const std::string &rootPath)
+{
+    auto self = shared_from_this();
+    std::string needle = casefold(q_.text);
+    bool wildcard = q_.text.find_first_of("*?[") != std::string::npos;
+    GPatternSpec *spec = wildcard ? g_pattern_spec_new(needle.c_str()) : nullptr;
+    const std::string type = q_.type;
+    // The same test as matchesLocal() on the name, and the type when the name tells it.
+    fileindex::Matcher match = [&](const char *name, const char *folded, bool dir) {
+        if (type == "folders" && !dir) return false;
+        if (!type.empty() && type != "folders") {
+            if (dir) return false;
+            gboolean uncertain = FALSE;
+            std::string ct = take(g_content_type_guess(name, nullptr, 0, &uncertain));
+            if (!uncertain && !type_matches(type, ct, false)) return false;
+        }
+        if (needle.empty()) return true;
+        return spec ? (bool)g_pattern_spec_match_string(spec, folded) : strstr(folded, needle.c_str()) != nullptr;
+    };
+    std::set<std::string> sent;
+    std::vector<std::pair<Ref<GFile>, Ref<GFileInfo>>> batch;
+    gint64 lastFlush = g_get_monotonic_time();
+    auto flush = [&] {
+        if (batch.empty()) return;
+        auto moved = std::make_shared<std::vector<std::pair<Ref<GFile>, Ref<GFileInfo>>>>(std::move(batch));
+        batch.clear();
+        run_on_main([self, moved] {
+            if (!self->cancelled_) self->onResults_(std::move(*moved));
+        });
+        lastFlush = g_get_monotonic_time();
+    };
+    // Every hit is checked on the disk, so files deleted since the index was made never show.
+    auto emit = [&](std::vector<fileindex::Hit> hits) {
+        for (auto &h : hits) {
+            if (cancelled_) return;
+            if (!sent.insert(h.path).second) continue;
+            struct stat st;
+            if (lstat(h.path.c_str(), &st) != 0) continue;
+            if (!matchesLocal(h.path, basename_of(h.path).c_str(), st)) continue;
+            Ref<GFile> f(g_file_new_for_path(h.path.c_str()));
+            Ref<GFileInfo> info(g_file_query_info(f.get(), kItemAttributes, G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, nullptr));
+            if (!info) continue;
+            batch.emplace_back(f, info);
+            if (batch.size() >= 200 || g_get_monotonic_time() - lastFlush > 100000) flush();
+        }
+        flush();
+    };
+    emit(fileindex::query(rootPath, match));
+    // Then whatever changed since: only folders whose time changed are read again.
+    std::vector<std::string> changed = fileindex::refresh(rootPath, &cancelled_);
+    folders_ = (int)fileindex::stats().folders;
+    if (!changed.empty() && !cancelled_) emit(fileindex::queryFolders(changed, match));
+    if (spec) g_pattern_spec_free(spec);
+    std::thread([] { fileindex::save(); }).detach();
+    run_on_main([self] {
+        if (self->onDone_) self->onDone_();
+    });
 }
 
 void SearchJob::runLocal(const std::string &rootPath)

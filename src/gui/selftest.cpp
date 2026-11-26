@@ -6,6 +6,7 @@
 #include "app.hpp"
 #include "archive.hpp"
 #include "diskusage.hpp"
+#include "fileindex.hpp"
 #include "diskusagewindow.hpp"
 #include "fileops.hpp"
 #include "mainwindow.hpp"
@@ -272,6 +273,58 @@ void core_tests()
             if (starts_with(n, ".beluga-extract-")) leftover = true;
         if (d) g_dir_close(d);
         check(!leftover, "no temporary folder left after copying out");
+    }
+
+    // The name index: answers searches, picks up new files, never shows deleted ones.
+    {
+        auto search = [](const std::string &text) {
+            SearchQuery sq;
+            sq.rootUri = file_uri(F("").get());
+            sq.text = text;
+            int n = 0;
+            bool done = false;
+            auto job = SearchJob::start(sq, [&](std::vector<std::pair<Ref<GFile>, Ref<GFileInfo>>> &&r) { n += (int)r.size(); }, [&] { done = true; });
+            while (!done) g_main_context_iteration(nullptr, TRUE);
+            return n;
+        };
+        fileindex::start(g_root + "/files");
+        gint64 until = g_get_monotonic_time() + 10 * G_USEC_PER_SEC;
+        while (!fileindex::ready() && g_get_monotonic_time() < until) g_usleep(10000);
+        write("Folder 1/.secret/x.txt", "x");
+        check(fileindex::ready() && fileindex::covers(g_root + "/files") && !fileindex::covers(g_root + "/files/Folder 1/.secret"),
+              "the name index covers the folder, not hidden ones");
+        write("Folder 2/indexed-new-file.txt", "new");
+        int found = search("indexed-new");
+        g_unlink((g_root + "/files/Folder 2/indexed-new-file.txt").c_str());
+        auto stale = fileindex::query(g_root + "/files", [](const char *, const char *f, bool) { return strstr(f, "indexed-new") != nullptr; });
+        int after = search("indexed-new");
+        check(found == 1 && after == 0, printf_str("indexed search finds new files and drops deleted ones (%d, then %d; %zu in the index before refreshing)",
+                                                   found, after, stale.size()));
+        trash::delete_recursive(F("Folder 1/.secret").get(), nullptr, nullptr);
+    }
+
+    // Remembered disk usage: current until the folder changes; a scan answers for its subfolders.
+    {
+        std::string folder = g_root + "/files/Folder 1";
+        struct stat st;
+        lstat(folder.c_str(), &st);
+        du::remember_total(folder, true, {12345, 3, 0, g_get_real_time() / G_USEC_PER_SEC, (gint64)st.st_mtim.tv_sec, (gint64)st.st_mtim.tv_nsec});
+        du::CachedTotal c;
+        bool fresh = du::cached_total(folder, true, c) && c.size == 12345 && du::is_fresh(folder, c);
+        g_usleep(20000);
+        write("Folder 1/touch.txt", "t");
+        bool stale = !du::is_fresh(folder, c);
+        g_unlink((folder + "/touch.txt").c_str());
+        check(fresh && stale, "remembered folder sizes stay current until the folder changes");
+        du::Scanner sc;
+        du::Options o;
+        std::shared_ptr<du::Node> tree = sc.run(g_root + "/files", o);
+        if (tree) du::remember_tree(tree, o, g_get_real_time() / G_USEC_PER_SEC);
+        du::CachedTree ct;
+        bool sub = du::cached_tree(folder, o, ct) && ct.node && ct.node->name == "Folder 1";
+        du::CachedTotal fromTree;
+        check(sub && du::cached_total(folder, true, fromTree) && fromTree.size == ct.node->size,
+              "a remembered scan answers for its subfolders");
     }
 
     check(collate_key("file2", 0) < collate_key("file10", 0), "natural sorting");

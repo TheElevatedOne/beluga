@@ -43,6 +43,7 @@ struct Settings {
     // Disk Usage window
     bool duApparentSize = false;
     bool duOneFileSystem = true;
+    bool searchIndex = true;   // keep an index of the home folder's names for instant search
     bool renameInline = true;
     bool showSelectionToggle = true;
     bool showPasteBarAfterCopying = true;

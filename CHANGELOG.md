@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Added: an index of the names in your home folder for instant name and type searches (about 10 ms for 360 000
+  names, against 145 ms for `find`), kept current without a daemon by re-reading only folders whose time
+  changed; hits are checked on the disk. Saved in `~/.cache/beluga`; Configure Beluga → General turns it off.
+- Added: disk usage is remembered. The Disk Usage window shows the last scan of a folder or of a folder above it at
+  once and reads again after 10 minutes or on Rescan; the Disk Usage column shows remembered sizes at once and
+  reads a folder again only when it changed or its size is older than 10 minutes.
 - Added: zip, tar (any compression), 7z, rar and ISO files open like folders (libarchive, no gvfs needed; turn it
   off in Configure Beluga → General). Read only: copying or dragging entries out extracts them, with the usual
   "already exists" questions, and double-clicking a file opens an extracted copy (programs and desktop entries

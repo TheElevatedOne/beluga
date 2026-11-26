@@ -75,6 +75,16 @@ void request(const std::string &uri, bool includeHidden, bool wantSize, int dept
 void request_usage(const std::string &uri, bool oneFileSystem, std::weak_ptr<void> owner, std::function<void(gint64)> cb)
 {
     static WorkQueue *usageQueue = new WorkQueue(1, true);   // never destroyed, like queue()
+    // A remembered total shows at once; the folder is read again only when it isn't current.
+    std::string local = take(g_filename_from_uri(uri.c_str(), nullptr, nullptr));
+    du::CachedTotal c;
+    if (!local.empty() && du::cached_total(local, oneFileSystem, c)) {
+        gint64 bytes = (gint64)c.size;
+        run_on_main([owner, cb, bytes] {
+            if (!owner.expired()) cb(bytes);
+        });
+        if (du::is_fresh(local, c)) return;
+    }
     usageQueue->push([=] {
         if (owner.expired()) return;
         gint64 bytes = -1;
@@ -84,6 +94,9 @@ void request_usage(const std::string &uri, bool oneFileSystem, std::weak_ptr<voi
         if (!path.empty() && g_file_is_native(dir) && lstat(path.c_str(), &st) == 0 && S_ISDIR(st.st_mode)) {
             du::Totals t = du::totals(path, false, 0, -1, [owner] { return owner.expired(); }, oneFileSystem);
             bytes = (gint64)(t.size + (guint64)st.st_blocks * 512);
+            if (!owner.expired())
+                du::remember_total(path, oneFileSystem, {(guint64)bytes, t.files, t.folders, g_get_real_time() / G_USEC_PER_SEC,
+                                                         (gint64)st.st_mtim.tv_sec, (gint64)st.st_mtim.tv_nsec});
         }
         g_object_unref(dir);
         run_on_main([owner, cb, bytes] {

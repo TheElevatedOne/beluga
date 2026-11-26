@@ -46,6 +46,7 @@ add_library(belugacore STATIC
   src/core/walker.cpp
   src/core/diskusage.cpp
   src/core/archive.cpp
+  src/core/fileindex.cpp
 )
 target_include_directories(belugacore PUBLIC src/core)
 target_compile_definitions(belugacore PUBLIC ${BELUGA_DEFS})

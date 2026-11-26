@@ -1,8 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "diskusage.hpp"
 
+#include "util.hpp"
+
+#include <sys/stat.h>
+
 #include <algorithm>
 #include <mutex>
+#include <thread>
+#include <unordered_map>
 #include <unordered_set>
 
 namespace beluga::du {
@@ -75,6 +81,8 @@ std::unique_ptr<Node> Scanner::run(const std::string &path, const Options &o)
     root->name = path;
     root->dir = true;
     root->size = size_of(st, o.apparentSize);
+    root->mtimeSec = st.st_mtim.tv_sec;
+    root->mtimeNsec = st.st_mtim.tv_nsec;
     SeenInodes seen;
     const size_t keep = (size_t)std::max(0, o.filesPerFolder);
 
@@ -89,6 +97,8 @@ std::unique_ptr<Node> Scanner::run(const std::string &path, const Options &o)
         n->size = size_of(e.st, o.apparentSize);
         if (dir) {
             n->otherFileSystem = e.otherFileSystem;
+            n->mtimeSec = e.st.st_mtim.tv_sec;
+            n->mtimeNsec = e.st.st_mtim.tv_nsec;
             *childData = n.get();
             parent->children.push_back(std::move(n));
             return !(e.otherFileSystem && o.oneFileSystem);
@@ -173,6 +183,166 @@ Totals totals(const std::string &path, bool apparentSize, int threads, int maxDe
     wo.oneFileSystem = oneFileSystem;
     w.run(path, nullptr, wo);
     return {size, files, folders};
+}
+
+// ---- cache ----------------------------------------------------------------------------------------
+
+namespace {
+
+std::mutex g_cacheMutex;
+std::unordered_map<std::string, CachedTotal> g_totals;   // "1" or "0" (one drive) + path
+bool g_totalsLoaded = false, g_totalsDirty = false;
+gint64 g_lastSave = 0;
+struct TreeEntry {
+    std::shared_ptr<Node> tree;
+    bool apparent, oneFs;
+    gint64 when;
+};
+std::vector<TreeEntry> g_trees;   // newest last
+constexpr size_t kMaxTotals = 20000, kMaxTrees = 3;
+
+std::string totals_file() { return std::string(g_get_user_cache_dir()) + "/beluga/usage-v1"; }
+std::string key_of(const std::string &path, bool oneFs) { return (oneFs ? "1" : "0") + path; }
+
+// Lines: one-drive size files folders when mtime-sec mtime-nsec path (tab-separated, the path last).
+void load_totals_locked()
+{
+    if (g_totalsLoaded) return;
+    g_totalsLoaded = true;
+    char *data = nullptr;
+    if (!g_file_get_contents(totals_file().c_str(), &data, nullptr, nullptr)) return;
+    std::string text = take(data);
+    for (auto &line : split(text, '\n')) {
+        size_t pos = 0;
+        std::vector<std::string> f;
+        for (int i = 0; i < 7; ++i) {
+            size_t t = line.find('\t', pos);
+            if (t == std::string::npos) break;
+            f.push_back(line.substr(pos, t - pos));
+            pos = t + 1;
+        }
+        if (f.size() != 7 || pos >= line.size()) continue;
+        CachedTotal c;
+        c.size = g_ascii_strtoull(f[1].c_str(), nullptr, 10);
+        c.files = g_ascii_strtoull(f[2].c_str(), nullptr, 10);
+        c.folders = g_ascii_strtoull(f[3].c_str(), nullptr, 10);
+        c.when = g_ascii_strtoll(f[4].c_str(), nullptr, 10);
+        c.mtimeSec = g_ascii_strtoll(f[5].c_str(), nullptr, 10);
+        c.mtimeNsec = g_ascii_strtoll(f[6].c_str(), nullptr, 10);
+        g_totals[key_of(line.substr(pos), f[0] == "1")] = c;
+    }
+}
+
+} // namespace
+
+bool cached_total(const std::string &path, bool oneFileSystem, CachedTotal &out)
+{
+    std::lock_guard<std::mutex> l(g_cacheMutex);
+    load_totals_locked();
+    auto it = g_totals.find(key_of(path, oneFileSystem));
+    if (it == g_totals.end()) return false;
+    out = it->second;
+    return true;
+}
+
+void remember_total(const std::string &path, bool oneFileSystem, const CachedTotal &t)
+{
+    bool saveNow = false;
+    {
+        std::lock_guard<std::mutex> l(g_cacheMutex);
+        load_totals_locked();
+        g_totals[key_of(path, oneFileSystem)] = t;
+        g_totalsDirty = true;
+        if (g_totals.size() > kMaxTotals) {
+            // Drop the oldest tenth.
+            std::vector<std::pair<gint64, std::string>> ages;
+            for (auto &[k, v] : g_totals) ages.push_back({v.when, k});
+            std::nth_element(ages.begin(), ages.begin() + kMaxTotals / 10, ages.end());
+            for (size_t i = 0; i < kMaxTotals / 10; ++i) g_totals.erase(ages[i].second);
+        }
+        gint64 now = g_get_monotonic_time();
+        if (now - g_lastSave > 30 * G_USEC_PER_SEC) {
+            g_lastSave = now;
+            saveNow = true;
+        }
+    }
+    if (saveNow) std::thread(save_cache).detach();
+}
+
+bool is_fresh(const std::string &path, const CachedTotal &t)
+{
+    struct stat st;
+    if (lstat(path.c_str(), &st) != 0) return false;
+    gint64 age = g_get_real_time() / G_USEC_PER_SEC - t.when;
+    return st.st_mtim.tv_sec == t.mtimeSec && st.st_mtim.tv_nsec == t.mtimeNsec && age >= 0 && age < kFreshSeconds;
+}
+
+void save_cache()
+{
+    std::string out;
+    {
+        std::lock_guard<std::mutex> l(g_cacheMutex);
+        if (!g_totalsDirty) return;
+        g_totalsDirty = false;
+        for (auto &[k, c] : g_totals)
+            out += printf_str("%c\t%llu\t%llu\t%llu\t%lld\t%lld\t%lld\t", k[0], (unsigned long long)c.size, (unsigned long long)c.files,
+                              (unsigned long long)c.folders, (long long)c.when, (long long)c.mtimeSec, (long long)c.mtimeNsec)
+                 + k.substr(1) + "\n";
+    }
+    ensure_dir(dirname_of(totals_file()));
+    g_file_set_contents_full(totals_file().c_str(), out.data(), (gssize)out.size(), G_FILE_SET_CONTENTS_CONSISTENT, 0600, nullptr);
+}
+
+bool cached_tree(const std::string &path, const Options &o, CachedTree &out)
+{
+    std::lock_guard<std::mutex> l(g_cacheMutex);
+    for (auto it = g_trees.rbegin(); it != g_trees.rend(); ++it) {
+        if (it->apparent != o.apparentSize || it->oneFs != o.oneFileSystem) continue;
+        const std::string &top = it->tree->name;
+        Node *n = nullptr;
+        if (path == top) {
+            n = it->tree.get();
+        } else if (starts_with(path, top == "/" ? top : top + "/")) {
+            n = it->tree.get();
+            for (auto &part : split(path.substr(top.size()), '/')) {
+                Node *next = nullptr;
+                for (auto &c : n->children)
+                    if (c->dir && c->name == part) next = c.get();
+                n = next;
+                if (!n) break;
+            }
+        }
+        if (n && (n == it->tree.get() || !n->children.empty() || n->folders == 0)) {
+            out = {it->tree, n, it->when};
+            return true;
+        }
+    }
+    return false;
+}
+
+void remember_tree(const std::shared_ptr<Node> &tree, const Options &o, gint64 when)
+{
+    {
+        std::lock_guard<std::mutex> l(g_cacheMutex);
+        g_trees.erase(std::remove_if(g_trees.begin(), g_trees.end(), [&](const TreeEntry &e) {
+                          return e.tree->name == tree->name && e.apparent == o.apparentSize && e.oneFs == o.oneFileSystem;
+                      }),
+                      g_trees.end());
+        g_trees.push_back({tree, o.apparentSize, o.oneFileSystem, when});
+        if (g_trees.size() > kMaxTrees) g_trees.erase(g_trees.begin());
+    }
+    if (o.apparentSize) return;   // the remembered totals are space on disk, like the Disk Usage column
+    // The folders near the top, for the Disk Usage column.
+    std::vector<std::pair<const Node *, int>> stack{{tree.get(), 0}};
+    while (!stack.empty()) {
+        auto [n, depth] = stack.back();
+        stack.pop_back();
+        if (!n->dir || (n->otherFileSystem && n->children.empty())) continue;
+        CachedTotal c{n->size, n->files, n->folders, when, n->mtimeSec, n->mtimeNsec};
+        remember_total(n->path(), o.oneFileSystem, c);
+        if (depth < 3)
+            for (auto &ch : n->children) stack.push_back({ch.get(), depth + 1});
+    }
 }
 
 } // namespace beluga::du

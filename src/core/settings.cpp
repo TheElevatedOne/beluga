@@ -195,6 +195,7 @@ void transfer(IO &io, ST &st)
     io.b(S, "Everywhere", st.searchEverywhere);
     io.b(S, "Content", st.searchContent);
     io.b(S, "IncludeHidden", st.searchHidden);
+    io.b(S, "Index", st.searchIndex);
 
     const char *DU = "DiskUsage";
     io.b(DU, "ApparentSize", st.duApparentSize);
