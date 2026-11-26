@@ -6,6 +6,11 @@
 
 namespace beluga {
 
+// The window class the compositor sees (Hyprland's `class`, X11's WM_CLASS): plain "Beluga" instead of the
+// application ID (org.beluga.Beluga), which must contain dots. Call it once at startup.
+inline constexpr const char *kWindowClass = "Beluga";
+void use_window_class();
+
 // G_CALLBACK for captureless lambdas (a macro would split the lambda at its commas).
 template <typename F>
 inline GCallback CB(F f)

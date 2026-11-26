@@ -69,6 +69,7 @@ add_executable(beluga
   ${BELUGA_RESOURCES}
   src/gui/main.cpp
   src/gui/app.cpp
+  src/gui/gtkutil.cpp
   src/gui/style.cpp
   src/gui/item.cpp
   src/gui/dirmodel.cpp

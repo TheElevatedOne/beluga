@@ -7,6 +7,7 @@ Exec=@CMAKE_INSTALL_FULL_BINDIR@/beluga %U
 Icon=@BELUGA_APP_ID@
 Terminal=false
 StartupNotify=true
+StartupWMClass=Beluga
 DBusActivatable=false
 Categories=GTK;System;FileTools;FileManager;
 Keywords=files;folders;browse;explorer;manager;

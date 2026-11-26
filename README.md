@@ -34,7 +34,7 @@ limits, places) live in Beluga's own preferences.
 
 | Part | Binary / file | Use it for |
 |---|---|---|
-| File manager | `beluga` | browsing and managing files |
+| File manager | `beluga` (window class `Beluga`) | browsing and managing files |
 | Engine | `belugacore` (static library) | file operations, trash, search, previews, places, devices, settings (GLib/GIO only) |
 | Desktop entry | `org.beluga.Beluga.desktop` | launchers and "open folder" from other apps |
 | File chooser | `beluga --portal`, `beluga.portal` | the Open and Save dialogs of other programs, through xdg-desktop-portal |

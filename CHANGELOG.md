@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Changed: windows report the class `Beluga` (Hyprland's `class`, X11's WM_CLASS) instead of the application ID
+  `org.beluga.Beluga`, so window rules can match `Beluga`. The desktop entry has `StartupWMClass=Beluga` so
+  taskbars still find its icon.
 - Added: a file chooser for other programs through xdg-desktop-portal (`beluga --portal`), laid out like KDE's
   Dolphin-based dialog: Places, a Beluga view, back/forward/up, view modes, hidden files, new folder, name, file
   types and the program's options. Open, open several, choose folders, save, save several. Nothing changes until

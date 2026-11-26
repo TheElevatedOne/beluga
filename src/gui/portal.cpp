@@ -4,6 +4,7 @@
 #include "filechooser.hpp"
 #include "settings.hpp"
 #include "style.hpp"
+#include "gtkutil.hpp"
 #include "util.hpp"
 
 #include <cstring>
@@ -246,6 +247,7 @@ int run_portal(int, char **argv)
     g_signal_connect(app, "startup", G_CALLBACK(+[](GtkApplication *a) {
         load_style();
         gtk_window_set_default_icon_name(BELUGA_APP_ID);
+        use_window_class();
         g_application_hold(G_APPLICATION(a));
         // The object is exported when the bus is there, before the name is taken, so that no call arrives
         // before it exists.
