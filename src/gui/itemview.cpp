@@ -1400,6 +1400,51 @@ int ItemView::neighbor(int pos, int dx, int dy)
     return pos + dy;
 }
 
+int ItemView::step(int pos, int dx, int dy)
+{
+    int n = count();
+    if (n == 0) return -1;
+    pos = std::clamp(pos, 0, n - 1);
+    return std::clamp(neighbor(pos, dx, dy), 0, n - 1);
+}
+
+std::vector<int> ItemView::block(int a, int b)
+{
+    std::vector<int> out;
+    int la = lineOf(a), lb = lineOf(b);
+    if (la < 0 || lb < 0 || mode_ == 2) {   // Details: one item per line
+        for (int p = std::min(a, b); p <= std::max(a, b); ++p) out.push_back(p);
+        return out;
+    }
+    int ia = a - lines_[la].first, ib = b - lines_[lb].first;
+    int l0 = std::min(la, lb), l1 = std::max(la, lb), i0 = std::min(ia, ib), i1 = std::max(ia, ib);
+    for (int l = l0; l <= l1; ++l) {
+        if (lines_[l].header) continue;
+        for (int i = i0; i <= i1 && i < lines_[l].count; ++i) out.push_back(lines_[l].first + i);
+    }
+    return out;
+}
+
+void ItemView::selectPositions(const std::vector<int> &positions)
+{
+    if (!sel_) return;
+    GtkBitset *bs = gtk_bitset_new_empty();
+    for (int p : positions)
+        if (p >= 0 && p < count()) gtk_bitset_add(bs, (guint)p);
+    GtkBitset *mask = gtk_bitset_new_range(0, (guint)count());
+    gtk_selection_model_set_selection(sel_, bs, mask);
+    gtk_bitset_unref(bs);
+    gtk_bitset_unref(mask);
+}
+
+int ItemView::pageLines()
+{
+    if (lines_.empty()) return 1;
+    double ext = lines_[lines_.size() / 2].ext;
+    double page = vertical() ? (vadj_ ? gtk_adjustment_get_page_size(vadj_) : 0) : (hadj_ ? gtk_adjustment_get_page_size(hadj_) : 0);
+    return ext > 0 && page > 0 ? std::max(1, (int)(page / ext)) : 10;
+}
+
 // ---- rubber band & autoscroll --------------------------------------------------------------
 
 void ItemView::updateRubberband()

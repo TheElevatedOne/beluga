@@ -967,7 +967,7 @@ void View::doRename(BelugaItem *item, const std::string &newName)
     perform();
 }
 
-void View::renameSelected()
+void View::renameSelected(int cursor)
 {
     auto items = selectedItems();
     if (items.empty() || isTrash()) return;
@@ -984,7 +984,8 @@ void View::renameSelected()
         const ItemData &d = item_data(it);
         int stem = (int)g_utf8_strlen(split_extension(d.name, d.isDir).first.c_str(), -1);
         Ref<BelugaItem> keep = Ref<BelugaItem>::share(it);
-        iv_->startRename(pos, 0, stem, [this, keep](const std::string &name) { doRename(keep.get(), name); });
+        int from = cursor < 0 ? 0 : cursor == 0 ? 0 : stem, to = cursor == 0 ? 0 : stem;
+        iv_->startRename(pos, from, to, [this, keep](const std::string &name) { doRename(keep.get(), name); });
         return;
     }
     show_rename_dialog(overlay_, items);

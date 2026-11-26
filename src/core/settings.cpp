@@ -109,6 +109,9 @@ void transfer(IO &io, ST &st)
     io.b(G, "ShowMenuBar", st.showMenuBar);
     io.b(G, "ShowToolBar", st.showToolBar);
     io.l("Toolbar", "Items", st.toolbarItems);
+    io.b("Vim", "Enabled", st.vimMode);
+    io.s("Vim", "Leader", st.vimLeader);
+    io.i("Vim", "Timeout", st.vimTimeout);
     io.e(G, "ShowStatusBar", st.statusBar);
     io.e(G, "ShownStatusBar", st.statusBarShown);
     io.b(G, "ShowZoomSlider", st.showZoomSlider);
@@ -245,6 +248,13 @@ void Settings::load()
             shortcuts[keys[i]] = accels;
         }
         g_strfreev(keys);
+        keys = g_key_file_get_keys(kf, "VimKeys", &n, nullptr);
+        for (gsize i = 0; keys && i < n; ++i) {
+            std::vector<std::string> seqs;
+            r.l("VimKeys", keys[i], seqs);
+            vimKeys[keys[i]] = seqs;
+        }
+        g_strfreev(keys);
     }
     g_key_file_free(kf);
     if (homeUrl.empty()) homeUrl = file_uri(Ref<GFile>(g_file_new_for_path(g_get_home_dir())).get());
@@ -258,6 +268,8 @@ void Settings::save() const
     transfer(w, const_cast<Settings &>(*this));
     g_key_file_remove_group(kf, "Shortcuts", nullptr);
     for (auto &[k, v] : shortcuts) w.l("Shortcuts", k.c_str(), v);
+    g_key_file_remove_group(kf, "VimKeys", nullptr);
+    for (auto &[k, v] : vimKeys) w.l("VimKeys", k.c_str(), v);
     GError *err = nullptr;
     if (!g_key_file_save_to_file(kf, conf_path().c_str(), &err)) {
         g_warning("Could not save settings: %s", err->message);

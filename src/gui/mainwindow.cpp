@@ -4,6 +4,7 @@
 #include "admin.hpp"
 #include "diskusagewindow.hpp"
 #include "toolbar.hpp"
+#include "vimmode.hpp"
 
 #include "app.hpp"
 #include "archive.hpp"
@@ -138,6 +139,8 @@ MainWindow::MainWindow(GtkApplication *app)
     gtk_paned_set_position(GTK_PANED(outerPaned_), s.leftPanelWidth);
     gtk_widget_set_vexpand(outerPaned_, TRUE);
     gtk_box_append(GTK_BOX(vbox), outerPaned_);
+    vim_ = std::make_unique<VimMode>(this);
+    gtk_box_append(GTK_BOX(vbox), vim_->bar());
     gtk_widget_set_size_request(info_->widget(), 200, -1);
     gtk_widget_set_size_request(places_->widget(), 120, -1);
 
@@ -187,10 +190,19 @@ MainWindow::MainWindow(GtkApplication *app)
     undoListener_ = UndoManager::instance().addListener([this] { updateActions(); });
     applySettings();
     gtk_widget_add_controller(win_, keys);
+    // Vim mode (when on) sees keys first, before Beluga's shortcuts: Space is its leader key, not selection mode.
+    GtkEventController *vimKeys = gtk_event_controller_key_new();
+    gtk_event_controller_set_propagation_phase(vimKeys, GTK_PHASE_CAPTURE);
+    g_signal_connect(vimKeys, "key-pressed", CB([](GtkEventControllerKey *, guint keyval, guint, GdkModifierType state, gpointer p) -> gboolean {
+        auto *w = static_cast<MainWindow *>(p);
+        return w->vim_ && w->vim_->key(keyval, state);
+    }), this);
+    gtk_widget_add_controller(win_, vimKeys);
 }
 
 MainWindow::~MainWindow()
 {
+    vim_.reset();
     if (fitSource_) g_source_remove(fitSource_);
     g_clear_object(&mainMenuModel_);
     g_clear_object(&viewMenuModel_);
@@ -879,6 +891,7 @@ void MainWindow::applySettings()
 {
     const Settings &s = settings();
     if (toolbarItems_ != s.toolbarItems) populateToolbar();
+    if (vim_) vim_->applySettings();
     // Without the menu button on the tool bar, the menu bar shows, so the menus stay reachable.
     bool menuButton = s.showToolBar && std::find(toolbarItems_.begin(), toolbarItems_.end(), "menu") != toolbarItems_.end();
     gtk_widget_set_visible(menubar_, s.showMenuBar || !menuButton);

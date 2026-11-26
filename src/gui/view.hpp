@@ -91,7 +91,8 @@ public:
     void selectAndShow(const std::string &uri);
     void countItems(int &files, int &folders, guint64 &size) const;
 
-    void renameSelected();
+    // cursor: -1 selects the name without its extension, 0 puts the cursor at the start, 1 after the name.
+    void renameSelected(int cursor = -1);
     // Plain name list, used for the columns of the Columns view.
     void setColumnMode(bool on) { columnMode_ = on; applyToItemView(); }
     bool listMode() const { return columnMode_ || props_.viewMode == ModeColumns; }

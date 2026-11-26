@@ -157,6 +157,12 @@ struct Settings {
     // ---- Keyboard shortcuts: action name -> accelerators (overrides defaults)
     std::map<std::string, std::vector<std::string>> shortcuts;
 
+    // ---- Vim mode (off by default): action id -> key sequences in Vim notation, overriding the defaults
+    bool vimMode = false;
+    std::string vimLeader = "<Space>";
+    int vimTimeout = 800;                 // ms to wait for the rest of a sequence (Vim's timeoutlen)
+    std::map<std::string, std::vector<std::string>> vimKeys;
+
     ModeSettings &mode(int viewMode);
     void load();
     void save() const;

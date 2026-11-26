@@ -19,6 +19,8 @@
 #include "search.hpp"
 #include "settings.hpp"
 #include "tabpage.hpp"
+#include "vimmode.hpp"
+#include "itemview.hpp"
 #include "trash.hpp"
 #include "undo.hpp"
 
@@ -660,6 +662,48 @@ void gui_tests(GtkApplication *app)
                 gtk_window_destroy(editor);
             }
             check(editor != nullptr, "Configure Toolbars window");
+        }
+        // Vim mode: motions, the three visual modes, counts, sequences with a timeout, the command line.
+        {
+            settings().vimMode = true;
+            notify_settings_changed();
+            VimMode *vim = w->vim();
+            ViewContainer *vc = w->activeContainer();
+            std::string before = vc->uri();
+            vc->navigate(file_uri(F("many").get()));
+            wait_ms(700);
+            ItemView *iv = w->activeView()->itemView();
+            auto selected = [&] { return (int)w->activeView()->selectedItems().size(); };
+            vim->feed("gg");
+            vim->feed("3l");
+            bool count = iv->currentPosition() == 3;
+            int perRow = iv->step(0, 0, 1);   // the first item of the second row
+            vim->feed("gg<C-v>lj");
+            bool block = selected() == 4 && !strcmp(vim->modeName(), "V-BLOCK");
+            vim->feed("<Esc>ggVll");
+            bool line = selected() == 3 && !strcmp(vim->modeName(), "V-LINE");
+            vim->feed("<Esc>ggvlj");
+            bool snake = selected() == 3 && !strcmp(vim->modeName(), "VISUAL");
+            vim->feed("<Esc>");
+            vim->feed("d");   // d alone (the wait ran out): cut
+            bool cut = !App::instance().cutUris().empty();
+            vim->feed("<Esc>");
+            std::string err = vim->command("mkdir vim-made");
+            wait_ms(300);
+            bool made = err.empty() && g_file_test((g_root + "/files/many/vim-made").c_str(), G_FILE_TEST_IS_DIR);
+            g_rmdir((g_root + "/files/many/vim-made").c_str());
+            bool unknown = !vim->command("frobnicate").empty();
+            vim->command("e " + g_root + "/files");
+            wait_ms(500);
+            bool cd = vc->uri() == file_uri(F("").get());
+            App::instance().clearClipboardAfterMove();
+            settings().vimMode = false;
+            notify_settings_changed();
+            vc->navigate(before);
+            wait_ms(300);
+            check(count && block && line && snake && cut && made && unknown && cd && perRow > 1,
+                  printf_str("Vim mode (count %d, block %d, line %d, visual %d, cut %d, :mkdir %d, error %d, :e %d)", count, block,
+                             line, snake, cut, made, unknown, cd));
         }
         // Context menus fit a 1080p screen (with a bar) without scrolling: the longest ones, for a file and a folder.
         auto menuHeight = [&](const char *name, const char *shot) {

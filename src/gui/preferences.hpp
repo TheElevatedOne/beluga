@@ -5,8 +5,12 @@
 
 #include <gtk/gtk.h>
 
+#include <string>
+
 namespace beluga {
 
 void show_preferences(GtkWidget *parent);
+// Opens it on a page: "interface", "view", "vim", "contextmenu", "trash", "shortcuts".
+void show_preferences(GtkWidget *parent, const std::string &page);
 
 } // namespace beluga

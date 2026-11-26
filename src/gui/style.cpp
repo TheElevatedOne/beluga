@@ -101,6 +101,16 @@ popover.menu separator { margin: 2px 0; }
   background-color: @beluga_accent_bg;
   color: @beluga_accent_fg;
 }
+/* Vim mode: the mode line and command line at the bottom of the window. */
+.beluga-vim-bar {
+  padding: 1px 8px;
+  background-color: @beluga_window_bg;
+  border-top: 1px solid mix(@beluga_window_bg, @beluga_window_fg, 0.12);
+}
+.beluga-vim-mode { font-weight: bold; }
+.beluga-vim-mode.visual { color: @beluga_accent_bg; }
+.beluga-vim-bar entry.beluga-vim-command { min-height: 0; padding: 0 4px; border: none; background: none; }
+.beluga-vim-bar label.error { color: @beluga_error; }
 .beluga-admin-bar {
   background-color: mix(@beluga_window_bg, @beluga_error, 0.3);
   color: @beluga_window_fg;

@@ -72,6 +72,9 @@ public:
     void updateCutState();
     void focusPlaces();
     void toggleDiskUsagePane();
+    // Closes the window without asking about its tabs (Vim's :q!).
+    void closeWithoutAsking() { closing_ = true; gtk_window_close(GTK_WINDOW(win_)); }
+    class VimMode *vim() const { return vim_.get(); }
     GtkWidget *toolbarWidget() const { return toolbar_; }
     GtkWidget *menubarWidget() const { return menubar_; }
     bool diskUsagePaneOpen() const { return duPaneOpen_; }
@@ -137,6 +140,9 @@ private:
     std::unique_ptr<PlacesPanel> places_;
     std::unique_ptr<FoldersPanel> folders_;
     std::unique_ptr<InfoPanel> info_;
+public:
+    std::unique_ptr<class VimMode> vim_;
+private:
     int settingsListener_ = 0;
     int undoListener_ = 0;
     bool closing_ = false;

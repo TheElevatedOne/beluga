@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Added: **Vim mode** (off by default; Configure Beluga → Vim Mode). Normal mode: h j k l and the arrows move, counts
+  (5j), gg / G, Enter opens, - goes up, H / L back and forward. v selects every item the cursor passes, V a range
+  like Shift, Ctrl+V a block of the grid. y copies, d cuts, dd moves to the trash, D deletes, p pastes, i / a / cw
+  rename (insert mode), o / O create a folder / file, u / Ctrl+R undo and redo, gt / gT switch tabs, qq closes a tab,
+  the leader key (Space) starts more (<leader>t new tab, <leader>s split, <leader>h hidden files …). : opens a
+  command line: :q, :q!, :qa, :e PATH, :tabnew, :sp, :mkdir, :touch, :set hidden, :sort size, :!COMMAND … Every
+  key sequence can be changed; the mode line shows the mode and the keys typed so far.
 - Added: **Settings → Configure Toolbars…** (also in the menu and on a right click on the tool bar), as in Dolphin:
   available and current actions, the location bar and separators, in any order; actions before the location bar
   sit left of it. Without the menu button on the tool bar the menu bar shows.

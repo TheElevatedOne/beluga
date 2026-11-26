@@ -63,6 +63,12 @@ public:
     void invertSelection();
     void selectItems(const std::vector<BelugaItem *> &items, bool scroll);
     void startRename(int pos, int selStart, int selEnd, std::function<void(const std::string &)> done);
+    // Vim mode: the item next to pos in the layout (dx/dy: -1, 0, 1), the items in the rectangle between two items
+    // of the grid, exactly these items selected, and the lines (rows, or columns in Compact) on screen.
+    int step(int pos, int dx, int dy);
+    std::vector<int> block(int a, int b);
+    void selectPositions(const std::vector<int> &positions);
+    int pageLines();
     bool renaming() const { return renameEntry_ != nullptr; }
     // Rectangle of an item in widget coordinates (for popovers).
     bool itemRect(int pos, GdkRectangle &r) const;

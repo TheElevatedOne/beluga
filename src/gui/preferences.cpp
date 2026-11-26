@@ -9,6 +9,7 @@
 #include "settings.hpp"
 #include "terminal.hpp"
 #include "trash.hpp"
+#include "vimmode.hpp"
 
 #include <algorithm>
 #include <functional>
@@ -624,6 +625,11 @@ void restore_defaults(const std::string &page)
         s.trashLimitAction = d.trashLimitAction;
     } else if (page == "shortcuts") {
         s.shortcuts.clear();
+    } else if (page == "vim") {
+        s.vimMode = d.vimMode;
+        s.vimLeader = d.vimLeader;
+        s.vimTimeout = d.vimTimeout;
+        s.vimKeys.clear();
     }
 }
 
@@ -1105,6 +1111,79 @@ GtkWidget *build(GtkWindow *parent, const std::string &startPage, int startTab)
         add_page("trash", _("Trash"), icons, GTK_WIDGET(g_object_get_data(G_OBJECT(t.grid), "beluga-scroll")), w);
     }
 
+    // ---- Vim mode: its own keys, off by default
+    {
+        std::string w;
+        Form f = form_tab(nullptr, _("Vim Mode"), &w);
+        label(f, _("Vim mode:"));
+        check(f, _("Use Vim-like keys in the views"), s.vimMode);
+        note(f, _("Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename "
+                  "(insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt "
+                  "that aren't listed here keep their usual meaning."));
+        label(f, _("Leader key:"));
+        GtkWidget *leader = gtk_entry_new();
+        gtk_editable_set_text(GTK_EDITABLE(leader), s.vimLeader.c_str());
+        gtk_editable_set_width_chars(GTK_EDITABLE(leader), 12);
+        g_signal_connect(leader, "changed", CB([](GtkEditable *e) {
+            std::string t = trim(gtk_editable_get_text(e));
+            if (vim_parse(t).empty()) {
+                gtk_widget_add_css_class(GTK_WIDGET(e), "error");
+                return;
+            }
+            gtk_widget_remove_css_class(GTK_WIDGET(e), "error");
+            settings().vimLeader = t;
+            changed();
+        }), nullptr);
+        put(f, inline_row({leader, text_label(_("<leader> in the keys below, e.g. <Space> or ,"), &w)}));
+        label(f, _("Wait for more keys:"));
+        put(f, inline_row({spin(100, 5000, 50, [&s] { return s.vimTimeout; }, [&s](int i) { s.vimTimeout = i; }),
+                           text_label(_("ms (dd after d, gg after g)"), &w)}));
+        title(f, _("Keys"));
+        note(f, _("Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. "
+                  "Leave a field empty for the default."));
+        for (auto &a : vim_actions()) {
+            label(f, (std::string(_(a.title)) + ":").c_str());
+            GtkWidget *e = gtk_entry_new();
+            gtk_editable_set_width_chars(GTK_EDITABLE(e), 24);
+            std::string defaults;
+            for (const char *k : a.defaults) defaults += (defaults.empty() ? "" : " ") + std::string(k);
+            g_object_set(e, "placeholder-text", defaults.c_str(), nullptr);
+            auto it = s.vimKeys.find(a.id);
+            if (it != s.vimKeys.end()) gtk_editable_set_text(GTK_EDITABLE(e), join(it->second, " ").c_str());
+            g_object_set_data(G_OBJECT(e), "beluga-vim", (gpointer)a.id);
+            g_signal_connect(e, "changed", CB([](GtkEditable *ed) {
+                std::string id = static_cast<const char *>(g_object_get_data(G_OBJECT(ed), "beluga-vim"));
+                std::vector<std::string> seqs;
+                bool ok = true;
+                for (auto &part : split(gtk_editable_get_text(ed), ' ')) {
+                    std::string t = trim(part);
+                    if (t.empty()) continue;
+                    if (vim_parse(t).empty()) ok = false;
+                    seqs.push_back(t);
+                }
+                if (!ok) {
+                    gtk_widget_add_css_class(GTK_WIDGET(ed), "error");
+                    return;
+                }
+                gtk_widget_remove_css_class(GTK_WIDGET(ed), "error");
+                if (seqs.empty()) settings().vimKeys.erase(id);
+                else settings().vimKeys[id] = seqs;
+                changed();
+            }), nullptr);
+            w += " " + defaults;
+            put(f, e);
+        }
+        title(f, _("Command line"));
+        note(f, _(":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a "
+                  "folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other "
+                  "view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|"
+                  "columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the "
+                  "folder."));
+        w += " :q :q! :qa :e :cd :tabnew :mkdir :touch :set :sort :help vim";
+        static const char *icons[] = {"input-keyboard", "preferences-desktop-keyboard", "accessories-text-editor", nullptr};
+        add_page("vim", _("Vim Mode"), icons, GTK_WIDGET(g_object_get_data(G_OBJECT(f.grid), "beluga-scroll")), w);
+    }
+
     // ---- Keyboard shortcuts
     {
         std::string w;
@@ -1181,15 +1260,22 @@ GtkWidget *build(GtkWindow *parent, const std::string &startPage, int startTab)
 
 } // namespace
 
-void show_preferences(GtkWidget *parent)
+void show_preferences(GtkWidget *parent) { show_preferences(parent, std::string()); }
+
+void show_preferences(GtkWidget *parent, const std::string &page)
 {
     if (g_open) {
+        if (!page.empty())
+            if (auto *P = static_cast<Prefs *>(g_object_get_data(G_OBJECT(g_open), "beluga-prefs")))
+                for (GtkWidget *row : P->rows)
+                    if (page == static_cast<const char *>(g_object_get_data(G_OBJECT(row), "beluga-page")))
+                        gtk_list_box_select_row(GTK_LIST_BOX(P->side), GTK_LIST_BOX_ROW(row));
         gtk_window_present(GTK_WINDOW(g_open));
         return;
     }
     delete g_snapshot;
     g_snapshot = new Settings(settings());
-    GtkWidget *w = build(window_of(parent), {}, 0);
+    GtkWidget *w = build(window_of(parent), page, 0);
     gtk_window_present(GTK_WINDOW(w));
 }
 
