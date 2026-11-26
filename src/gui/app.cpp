@@ -111,6 +111,8 @@ void App::init(GtkApplication *app)
     set_job_ui(&jobUi_);
     use_invoking_users_theme();   // root (Act as Administrator, sudo): the user's theme, before the style reads its colours
     load_style();
+    // No beep from text fields (Backspace in an empty search field, the end of a line, …).
+    g_object_set(gtk_settings_get_default(), "gtk-error-bell", FALSE, nullptr);
     updateAccels();
     UndoManager::instance().onError = [this](const std::string &e) {
         MainWindow *w = activeWindow();

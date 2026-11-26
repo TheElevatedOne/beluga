@@ -22,7 +22,7 @@
   fitted on screen.
 - Fixed: the long date format had two spaces before single-digit days ("Created:" in Properties); the Open With row
   in Properties is aligned and shows the program's icon.
-- Fixed: Backspace or Delete in an empty text field no longer beeps.
+- Fixed: text fields no longer beep (Backspace in an empty search field, also in Configure Beluga).
 - Fixed: network locations without gvfs now say that gvfs is needed instead of "Operation not supported".
 - Fixed: GTK's frame timing warnings no longer fill the terminal.
 
