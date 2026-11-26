@@ -15,6 +15,7 @@
 #include "tabpage.hpp"
 #include "trash.hpp"
 #include "undo.hpp"
+#include "viewcontainer.hpp"
 
 #include <algorithm>
 #include <thread>
@@ -161,6 +162,12 @@ void App::shutdown()
     settings().save();
     fileindex::save();
     du::save_cache();
+}
+
+std::string App::currentUriOf(GtkWindow *window) const
+{
+    MainWindow *w = window ? MainWindow::from(window) : nullptr;
+    return w && w->activeContainer() ? w->activeContainer()->uri() : std::string();
 }
 
 void App::updateAccels()

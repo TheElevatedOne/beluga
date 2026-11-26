@@ -87,6 +87,14 @@ popover.menu modelbutton:selected {
 }
 popover.menu modelbutton:disabled { color: mix(@beluga_popover_bg, @beluga_popover_fg, 0.5); }
 popover.menu separator { margin: 2px 0; }
+/* Configure Beluga, laid out like Dolphin's settings. */
+.beluga-prefs-title { font-size: 1.35em; padding: 8px 14px 6px 14px; }
+.beluga-prefs-buttons { padding: 6px; }
+.beluga-prefs-side { background-color: @beluga_window_bg; }
+.beluga-prefs-side list { background-color: transparent; }
+.beluga-prefs-side list row { padding: 2px 4px; color: @beluga_window_fg; }
+.beluga-prefs-side list row:hover { background-color: mix(@beluga_window_bg, @beluga_window_fg, 0.08); }
+.beluga-prefs-side list row:selected { background-color: @beluga_accent_bg; color: @beluga_accent_fg; }
 .beluga-admin-bar {
   background-color: mix(@beluga_window_bg, @beluga_error, 0.3);
   color: @beluga_window_fg;
@@ -115,6 +123,13 @@ popover.menu separator { margin: 2px 0; }
 .beluga-location menubutton.crumb-arrow > button:hover { background-color: mix(@beluga_window_bg, @beluga_window_fg, 0.08); }
 .beluga-location.inactive button.crumb { color: mix(@beluga_window_fg, @beluga_window_bg, 0.45); }
 .beluga-location entry { min-height: 0; }
+/* In the tool bar the location bar is a field, as in Dolphin. */
+.beluga-location-slot .beluga-location {
+  background-color: @beluga_view_bg;
+  border: 1px solid mix(@beluga_window_bg, @beluga_window_fg, 0.18);
+  padding: 0 2px;
+}
+.beluga-location-slot .beluga-location.inactive { background-color: @beluga_window_bg; }
 .beluga-container.inactive beluga-view { background-color: mix(@beluga_view_bg, @beluga_window_bg, 0.35); }
 
 .beluga-statusbar {
@@ -122,8 +137,7 @@ popover.menu separator { margin: 2px 0; }
   background-color: @beluga_window_bg;
   border-top: 1px solid mix(@beluga_window_bg, @beluga_window_fg, 0.12);
 }
-.beluga-statusbar levelbar trough { min-height: 14px; }
-.beluga-statusbar .space-label { font-size: 0.85em; }
+.beluga-statusbar menubutton.beluga-space > button { padding: 0 6px; min-height: 0; }
 .beluga-statusbar-small {
   background-color: @beluga_window_bg;
   color: @beluga_window_fg;

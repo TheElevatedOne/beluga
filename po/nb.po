@@ -1217,6 +1217,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Vis innstillinger"
 
+msgid "Split"
+msgstr "Del"
+
 msgid "Menu"
 msgstr "Meny"
 
@@ -1535,14 +1538,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Skrifttype for merkelapp:"
 
-msgid "Icon size:"
-msgstr "Ikonstørrelse:"
+msgid "Default icon size:"
+msgstr "Standard ikonstørrelse:"
 
-msgid "Preview size:"
-msgstr "Forhåndsvisningens størrelse:"
+msgid "Preview icon size:"
+msgstr "Forhåndsvisningens ikonstørrelse"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1592,123 +1595,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Generelt"
+msgid "no file"
+msgstr "ingen filer"
 
-msgid "Startup"
-msgstr "Oppstart"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Oppførsel"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Terminal"
+msgid "files of any size"
+msgstr "filer av alle størrelser"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Søk …"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Vis ved oppstart:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Mapper, faner og vindutilstand fra sist gang"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Bruk gjeldende plassering"
+
+msgid "Use Default Location"
+msgstr "Bruk standardplassering"
+
+msgid "Opening Folders:"
+msgstr "Åpning av mapper:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Vindu:"
+
+msgid "Show full path in title bar"
+msgstr "Vis hele stien i tittellinja"
+
+msgid "Show filter bar"
+msgstr "Vis filterlinja"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Vis alltid fanelinja"
+
+msgid "Show close button on tabs"
+msgstr "Vis lukkeknapp på faner"
+
+msgid "Tab style:"
+msgstr "Fanestil: "
+
+msgid "Tab width adapts to folder name"
+msgstr "Faner tilpasser seg mappenavn"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Faner har samme faste bredde"
+
+msgid "Tabs span the available width"
+msgstr "Faner strekker seg på tilgjengelig bredde"
+
+msgid "Open new tabs:"
+msgstr "Åpne ny fane:"
+
+msgid "After current tab"
+msgstr "Etter gjeldende fane"
+
+msgid "At end of tab bar"
+msgstr "Sist på fanelinja"
+
+msgid "Split view:"
+msgstr "Delt visning:"
+
+msgid "When closing a split view"
+msgstr "Ved lukking av en delt visning"
+
+msgid "Close the active pane"
+msgstr "Lukk gjeldende panel"
+
+msgid "Close the inactive pane"
+msgstr "Lukk inaktivt panel"
+
+msgid "Close the right pane"
+msgstr "Lukk høyre panel"
+
+msgid "Open new windows in split view mode"
+msgstr "Åpne et nytt vindu i delt visningsmodus"
+
+msgid "Terminal:"
+msgstr "Terminal:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1717,116 +1705,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Vis"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Naturlig"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Alfabetisk, ikke skill mellom små og store bokstaver "
-
-msgid "Alphabetical, case sensitive"
-msgstr "Alfabetisk, skill mellom små og store bokstaver "
-
-msgid "Folder size:"
-msgstr "Mappestørrelse:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Ingen"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Bredde på merkelapp:"
-
-msgid "Small"
-msgstr "Liten"
-
-msgid "Medium"
-msgstr "Middels"
-
-msgid "Large"
-msgstr "Stor"
-
-msgid "Huge"
-msgstr "Enorm"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Ubegrenset"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Forhåndsvisninger"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Vis forhåndsvisning for"
+msgid "Show previews in the view for:"
+msgstr "Vis forhåndsvisninger for:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1843,44 +1736,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Local storage:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Vis forhåndsvisning for"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Fjernlagring:"
 
 msgid "Confirmations"
 msgstr "Bekreftelser"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Flytting av filer eller mapper til papirkurven"
+
+msgid "Emptying trash"
+msgstr "Tømming av papirkurven"
+
+msgid "Deleting files or folders"
+msgstr "Sletting av filer eller mapper"
+
+msgid "Renaming a file will change its type"
 msgstr ""
 
-msgid "_Deleting files or folders"
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Lukker vinduer med flere faner"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Åpning av mange faner samtidig"
 
-msgid "Opening many _folders at once"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Åpning av mange teminaler samtidig"
 
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Bytter til administratormodus"
 
 msgid "When opening an executable file:"
 msgstr "Ved åpning av en kjørbar fil:"
@@ -1888,56 +1784,245 @@ msgstr "Ved åpning av en kjørbar fil:"
 msgid "Always ask"
 msgstr "Alltid spør"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Åpne i program"
+
+msgid "Run script"
+msgstr "Kjør skript"
+
+msgid "Information Panel:"
+msgstr "Informasjonspanel:"
+
+msgid "Show previews"
+msgstr "Vis forhåndsvisning"
+
+msgid "Auto-play media files"
+msgstr "Spill av mediefiler automatisk"
+
+msgid "Show item on hover"
+msgstr "Vis når pekeren er over"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
+msgid "Folders Panel:"
 msgstr ""
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Statuslinje"
-
-msgid "Status bar:"
-msgstr "Statuslinje:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Full bredde"
-
-msgid "Hidden"
-msgstr "Skjult"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
+msgid "Limit to home directory when inside it"
 msgstr ""
 
 msgid "Show _hidden folders"
 msgstr ""
 
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Ikonstørrelse:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Statuslinje:"
+
+msgid "Small"
+msgstr "Liten"
+
+msgid "Full width"
+msgstr "Full bredde"
+
+msgid "Disabled"
+msgstr "Slått av"
+
+msgid "Show zoom slider"
+msgstr "Vis glidebryter for forstørring/forminsking"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Sprettoppmeny"
+msgid "Location bar:"
+msgstr "Adresselinje:"
+
+msgid "Make location bar editable"
+msgstr "Gjør adresselinja redigerbar"
+
+msgid "Show full path inside location bar"
+msgstr "Vis hele stien i adresselinja"
+
+msgid "Interface"
+msgstr "Grensesnitt"
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "Display style:"
+msgstr "Visningsstil: "
+
+msgid "Use common display style for all folders"
+msgstr "Bruk felles visningsinnstillinger for alle mapper"
+
+msgid "Remember display style for each folder"
+msgstr "Husk visningsinnstillinger for hver mappe"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Ser gjennom: "
+
+msgid "Browse compressed files as folders"
+msgstr "Se gjennom komprimerte filer som mapper"
+
+msgid "Open folders during drag operations"
+msgstr "Åpne mapper under dra-operasjoner"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Diverse:"
+
+msgid "Show item information on hover"
+msgstr "Vis informasjon om elementer når pekeren er over"
+
+msgid "Show selection marker"
+msgstr "Vis utvalgsmarkør"
+
+msgid "Rename single items inline"
+msgstr "Endre navn på enkeltenheter direkte"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Skjul også sikkerhetskopifiler når skjulte filer skjules"
+
+msgid "Background:"
+msgstr "Bakgrunn: "
+
+msgid "Double-click triggers"
+msgstr "Dobbeltklikk starter"
+
+msgid "Nothing"
+msgstr "Ingenting"
+
+msgid "Go Up"
+msgstr "Gå opp"
+
+msgid "Content Display"
+msgstr "Innholdsvisning"
+
+msgid "Sorting mode:"
+msgstr "Sorteringsmåte:"
+
+msgid "Natural"
+msgstr "Naturlig"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alfabetisk, ikke skill mellom små og store bokstaver "
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alfabetisk, skill mellom små og store bokstaver "
+
+msgid "Folder size:"
+msgstr "Mappestørrelse:"
+
+msgid "Show number of items"
+msgstr "Vis antall elementer"
+
+msgid "Show size of contents, up to "
+msgstr "Vis innholdstørrelse, inntil "
+
+msgid "Show no size"
+msgstr "Ikke vis størrelse"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Datovisning:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Tilgangsformatering:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Lange filnavn:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Bredde på merkelapp:"
+
+msgid "Medium"
+msgstr "Middels"
+
+msgid "Large"
+msgstr "Stor"
+
+msgid "Huge"
+msgstr "Enorm"
+
+msgid "Maximum lines:"
+msgstr "Største antall linjer:"
+
+msgid "Unlimited"
+msgstr "Ubegrenset"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "Største bredde:"
+
+msgid "Folders:"
+msgstr "Mapper:"
+
+msgid "Expandable"
+msgstr "Utvidbar"
+
+msgid "Open files and folders:"
+msgstr "Åpne filer og mapper:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Ved å trykke hvor som helst i raden"
+
+msgid "By clicking on icon or name"
+msgstr "Ved å trykke på ikon eller navn"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Vis"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1948,19 +2033,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Sprettoppmeny"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1975,8 +2066,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Papirkurv:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2084,9 +2181,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Søk …"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2119,6 +2213,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Skalering:"
 
 msgid "Zoom"
 msgstr "Skalering"

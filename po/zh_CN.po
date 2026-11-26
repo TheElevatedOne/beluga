@@ -1201,6 +1201,9 @@ msgstr "关闭窗口"
 msgid "View Settings"
 msgstr "视图设置"
 
+msgid "Split"
+msgstr "拆分视图"
+
 msgid "Menu"
 msgstr "菜单"
 
@@ -1519,14 +1522,14 @@ msgstr "%d 像素"
 msgid "Use the system _font"
 msgstr "使用系统字体(_F)"
 
-msgid "View font:"
-msgstr "视图字体："
+msgid "Label font:"
+msgstr "标签字体："
 
-msgid "Icon size:"
-msgstr "图标大小:"
+msgid "Default icon size:"
+msgstr "默认图标大小："
 
-msgid "Preview size:"
-msgstr "预览图大小:"
+msgid "Preview icon size:"
+msgstr "预览图大小："
 
 msgid "Context Menu Action"
 msgstr "右键菜单动作"
@@ -1576,123 +1579,108 @@ msgstr "移除(_R)"
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr "快捷键写法如 <Control>c 或 <Shift>Delete。多个快捷键用逗号分隔。留空则使用默认值。"
 
-msgid "General"
-msgstr "常规"
+msgid "no file"
+msgstr "不显示预览图"
 
-msgid "Startup"
-msgstr "启动"
-
-msgid "_Home folder:"
-msgstr "主文件夹(_H)："
-
-msgid "_Remember open folders and tabs"
-msgstr "记住打开的文件夹和标签页(_R)"
-
-msgid "Begin in _split view mode"
-msgstr "以拆分视图启动(_S)"
-
-msgid "Show _filter bar"
-msgstr "显示过滤栏(_F)"
-
-msgid "Make location bar _editable"
-msgstr "使位置栏可编辑(_E)"
-
-msgid "Show full path inside _location bar"
-msgstr "在位置栏中显示完整路径(_L)"
-
-msgid "Show full path in _title bar"
-msgstr "在标题栏中显示完整路径(_T)"
-
-msgid "Mouse"
-msgstr "鼠标"
-
-msgid "These used to be KDE system settings."
-msgstr "这些以前是 KDE 系统设置。"
-
-msgid "Clicking files or folders:"
-msgstr "点击文件或文件夹："
-
-msgid "Selects them (double-click opens)"
-msgstr "选中它们（双击打开）"
-
-msgid "Opens them"
-msgstr "打开它们"
-
-msgid "Double-clicking empty space:"
-msgstr "双击空白处："
-
-msgid "Does nothing"
-msgstr "无操作"
-
-msgid "Selects all items"
-msgstr "选中所有项目"
-
-msgid "Goes up"
-msgstr "转到上一级"
-
-msgid "Opens a new tab"
-msgstr "打开新标签页"
-
-msgid "Toggles hidden files"
-msgstr "切换隐藏文件"
-
-msgid "Tabs and Split View"
-msgstr "标签页和拆分视图"
-
-msgid "Open new tabs after the _last tab"
-msgstr "在最后一个标签页之后打开新标签页(_L)"
-
-msgid "_Always show the tab bar"
-msgstr "总是显示标签栏(_A)"
-
-msgid "Show _close buttons on tabs"
-msgstr "在标签页上显示关闭按钮(_C)"
-
-msgid "Open folders from other applications in a new _tab"
-msgstr "在新标签页中打开来自其他应用程序的文件夹(_T)"
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr "将归档文件作为文件夹打开（zip、tar、7z、rar、ISO）(_A)"
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr "为主文件夹维护索引以便即时搜索(_I)"
-
-msgid "Closing split view closes:"
-msgstr "关闭拆分视图时关闭："
-
-msgid "The active view"
-msgstr "活动视图"
-
-msgid "The inactive view"
-msgstr "非活动视图"
-
-msgid "The right view"
-msgstr "右侧视图"
-
-msgid "Behavior"
-msgstr "行为"
-
-msgid "Rename single items _inline"
-msgstr "就地重命名单个项目(_I)"
-
-msgid "Show selection _marker"
-msgstr "显示选择标记(_M)"
-
-msgid "Show item information on _hover"
-msgstr "悬停时显示项目信息(_H)"
-
-msgid "Open folders while _dragging items over them"
-msgstr "将项目拖到文件夹上时打开文件夹(_D)"
-
-msgid "Terminal"
-msgstr "终端"
+msgid "files of any size"
+msgstr "任意大小"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr "由 F4 和“在此处打开终端”使用。命令中的 %d 会被替换为文件夹；否则终端会在该文件夹中启动。这以前是 KDE 系统设置。"
+msgid "files below %d MiB"
+msgstr "小于 %d MiB 的文件"
 
-msgid "Terminal _command:"
-msgstr "终端命令(_C)："
+msgid "Search…"
+msgstr "搜索…"
+
+msgid "_Restore Defaults"
+msgstr "恢复默认值(_R)"
+
+msgid "_Apply"
+msgstr "应用(_A)"
+
+msgid "Folders & Tabs"
+msgstr "文件夹和标签页"
+
+msgid "Show on startup:"
+msgstr "启动时显示："
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "恢复之前的文件夹、标签页和窗口状态"
+
+msgid "This location:"
+msgstr "此位置："
+
+msgid "Use Current Location"
+msgstr "使用当前位置"
+
+msgid "Use Default Location"
+msgstr "使用默认位置"
+
+msgid "Opening Folders:"
+msgstr "打开文件夹："
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "保持一个 Beluga 窗口，在标签页中打开新文件夹"
+
+msgid "Window:"
+msgstr "窗口："
+
+msgid "Show full path in title bar"
+msgstr "标题栏显示完整路径"
+
+msgid "Show filter bar"
+msgstr "显示过滤栏"
+
+msgid "Tabs:"
+msgstr "标签页："
+
+msgid "Always show tab bar"
+msgstr "总是显示标签页栏"
+
+msgid "Show close button on tabs"
+msgstr "显示标签页的关闭按钮"
+
+msgid "Tab style:"
+msgstr "标签页样式："
+
+msgid "Tab width adapts to folder name"
+msgstr "标签页宽度按文件夹名称调整"
+
+msgid "Tabs all have the same fixed width"
+msgstr "标签页使用相同的固定宽度"
+
+msgid "Tabs span the available width"
+msgstr "标签页占满可用宽度"
+
+msgid "Open new tabs:"
+msgstr "新标签页位置："
+
+msgid "After current tab"
+msgstr "当前标签页右侧"
+
+msgid "At end of tab bar"
+msgstr "标签页栏最右侧"
+
+msgid "Split view:"
+msgstr "拆分视图:："
+
+msgid "When closing a split view"
+msgstr "关闭拆分视图时"
+
+msgid "Close the active pane"
+msgstr "关闭活动窗格"
+
+msgid "Close the inactive pane"
+msgstr "关闭非活动窗格"
+
+msgid "Close the right pane"
+msgstr "关闭右侧窗格"
+
+msgid "Open new windows in split view mode"
+msgstr "在拆分视图模式中打开新窗口"
+
+msgid "Terminal:"
+msgstr "终端:"
 
 msgid "No terminal found"
 msgstr "未找到终端"
@@ -1701,116 +1689,21 @@ msgstr "未找到终端"
 msgid "Detected: %s"
 msgstr "已检测到：%s"
 
-msgid "View"
-msgstr "视图(V)"
-
-msgid "Use the same display style for _all folders"
-msgstr "所有文件夹使用相同的显示样式(_A)"
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr "关闭后，每个文件夹会记住自己的样式。无论哪种情况，视图 › 记住此文件夹的视图 都能为某个文件夹设置独立样式。"
-
-msgid "Natural"
-msgstr "按语言习惯"
-
-msgid "Alphabetical, case insensitive"
-msgstr "按字母顺序，不区分大小写"
-
-msgid "Alphabetical, case sensitive"
-msgstr "按字母顺序，区分大小写"
-
-msgid "Folder size:"
-msgstr "文件夹大小："
-
-msgid "Number of items"
-msgstr "项目数"
-
-msgid "Size of contents"
-msgstr "内容大小"
-
-msgid "None"
-msgstr "无"
-
-msgid "Folder size depth limit:"
-msgstr "文件夹大小深度上限："
-
-msgid "Dates:"
-msgstr "日期："
-
-msgid "Relative (Today, Yesterday…)"
-msgstr "相对（今天、昨天…）"
-
-msgid "Short"
-msgstr "简短"
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr "符号（rwxr-xr-x）"
-
-msgid "Numeric (0755)"
-msgstr "数字（0755）"
-
-msgid "Combined"
-msgstr "组合"
-
-msgid "Shorten long names:"
-msgstr "缩短长名称："
-
-msgid "At the end"
-msgstr "在末尾"
-
-msgid "In the middle"
-msgstr "在中间"
-
-msgid "Hide _backup files (ending in ~)"
-msgstr "隐藏备份文件（以 ~ 结尾）(_B)"
-
-msgid "Label width:"
-msgstr "标签宽度："
-
-msgid "Small"
-msgstr "小"
-
-msgid "Medium"
-msgstr "中"
-
-msgid "Large"
-msgstr "大"
-
-msgid "Huge"
-msgstr "超大"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr "标签最大行数（0：不限）："
-
-msgid "Co_mpact spacing"
-msgstr "紧凑间距(_M)"
-
-msgid "Maximum label width:"
-msgstr "标签最大宽度："
-
-msgid "Unlimited"
-msgstr "无限制"
-
-msgid "E_xpandable folders"
-msgstr "可展开的文件夹(_X)"
-
-msgid "Highlight the entire _row"
-msgstr "高亮整行(_R)"
-
-msgid "Show a Disk _Usage column"
-msgstr "显示磁盘占用列(_U)"
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr "每个文件和每个完整文件夹在磁盘上占用的空间，并用条形显示其在文件夹中的占比，与 工具 › 磁盘占用 相同。文件夹会在后台完整读取；按此列排序可先看到最大的项目。磁盘占用窗口中的“留在此驱动器上”在这里同样适用。"
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "由 F4 和“在此处打开终端”使用。命令中的 %d 会被替换为文件夹；否则终端会在该文件夹中启动。这以前是 KDE 系统设置。"
 
 msgid "Previews"
 msgstr "预览图"
 
+msgid "New folders:"
+msgstr "新文件夹："
+
 msgid "Show _previews in new folders"
 msgstr "在新文件夹中显示预览(_P)"
 
-msgid "Show previews for"
-msgstr "显示预览图的文件大小限制："
+msgid "Show previews in the view for:"
+msgstr "显示预览图的项目类型："
 
 msgid "Audio (cover art)"
 msgstr "音频（封面图）"
@@ -1827,44 +1720,47 @@ msgstr "字体"
 msgid "Office documents"
 msgstr "办公文档"
 
-msgid "Limits"
-msgstr "限制"
+msgid "Local storage:"
+msgstr "本地存储："
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr "跳过大于此值的本地文件（MiB，0：不限）："
+msgid "Show previews for"
+msgstr "显示预览图的文件大小限制："
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr "远程文件上限（MiB，0：从不）："
+msgid "Remote storage:"
+msgstr "远程存储："
 
 msgid "Confirmations"
 msgstr "请求确认"
 
-msgid "Ask for confirmation when"
-msgstr "以下情况时请求确认"
+msgid "Ask for confirmation when:"
+msgstr "以下情况时请求确认："
 
-msgid "Moving files or folders to the _trash"
-msgstr "将文件或文件夹移到回收站(_T)"
+msgid "Moving files or folders to trash"
+msgstr "移动文件或者文件夹到回收站"
 
-msgid "_Deleting files or folders"
-msgstr "删除文件或文件夹(_D)"
+msgid "Emptying trash"
+msgstr "清空回收站"
 
-msgid "_Emptying the trash"
-msgstr "清空回收站(_E)"
+msgid "Deleting files or folders"
+msgstr "彻底删除文件或者文件夹"
 
-msgid "Closing windows with _multiple tabs"
-msgstr "关闭有多个标签页的窗口(_M)"
+msgid "Renaming a file will change its type"
+msgstr "重命名会改变文件类型"
 
-msgid "Opening many _folders at once"
-msgstr "一次打开很多文件夹(_F)"
+msgid "Ask for confirmation in Beluga when:"
+msgstr "在 Beluga 中以下情况时请求确认："
 
-msgid "Opening many t_erminals at once"
-msgstr "一次打开很多终端(_E)"
+msgid "Closing windows with multiple tabs"
+msgstr "关闭窗口时有多个标签页"
 
-msgid "Renaming changes a file's _type"
-msgstr "重命名会改变文件类型(_T)"
+msgid "Opening many folders at once"
+msgstr "一次打开大量文件夹"
 
-msgid "Acting as _administrator"
-msgstr "以管理员身份操作(_A)"
+msgid "Opening many terminals at once"
+msgstr "一次打开大量终端"
+
+msgid "Switching to act as an administrator"
+msgstr "正在切换到以管理员身份操作"
 
 msgid "When opening an executable file:"
 msgstr "打开可执行文件时："
@@ -1872,56 +1768,245 @@ msgstr "打开可执行文件时："
 msgid "Always ask"
 msgstr "总是询问"
 
-msgid "Open in an application"
+msgid "Open in application"
 msgstr "在应用程序中打开"
 
-msgid "Run it"
-msgstr "运行它"
+msgid "Run script"
+msgstr "作为脚本运行"
 
-msgid "Bars and Panels"
-msgstr "栏和面板"
+msgid "Information Panel:"
+msgstr "信息面板："
 
-msgid "Status Bar"
-msgstr "状态栏"
+msgid "Show previews"
+msgstr "显示预览"
 
-msgid "Status bar:"
-msgstr "状态栏:"
+msgid "Auto-play media files"
+msgstr "自动播放媒体文件"
 
-msgid "Small (shows only when hovering or selecting)"
-msgstr "小（仅在悬停或选择时显示）"
-
-msgid "Full width"
-msgstr "完整宽度"
-
-msgid "Hidden"
-msgstr "隐藏(H)"
-
-msgid "Show _zoom slider"
-msgstr "显示缩放滑块(_Z)"
-
-msgid "Show free _space"
-msgstr "显示可用空间(_S)"
-
-msgid "Show _hidden folders"
-msgstr "显示隐藏文件夹(_H)"
-
-msgid "Limit to the home folder when inside it"
-msgstr "位于主文件夹内时限制在主文件夹"
-
-msgid "Scroll to the current folder _automatically"
-msgstr "自动滚动到当前文件夹(_A)"
-
-msgid "Play media files _automatically"
-msgstr "自动播放媒体文件(_A)"
-
-msgid "Show the _hovered item"
-msgstr "显示悬停的项目(_H)"
+msgid "Show item on hover"
+msgstr "悬停时显示项目"
 
 msgid "Use _long date format"
 msgstr "使用长日期格式(_L)"
 
-msgid "Context Menu"
-msgstr "右键菜单"
+msgid "Folders Panel:"
+msgstr "文件夹面板："
+
+msgid "Limit to home directory when inside it"
+msgstr "位于主文件夹内时限制在主文件夹"
+
+msgid "Show _hidden folders"
+msgstr "显示隐藏文件夹(_H)"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "自动滚动到当前文件夹(_A)"
+
+msgid "Places Panel:"
+msgstr "位置面板："
+
+msgid "Icon size:"
+msgstr "图标大小:"
+
+msgid "Status & Location bars"
+msgstr "状态栏和位置栏"
+
+msgid "Status Bar:"
+msgstr "状态栏："
+
+msgid "Small"
+msgstr "小"
+
+msgid "Full width"
+msgstr "完整宽度"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "Show zoom slider"
+msgstr "显示缩放滑动条"
+
+msgid "Show free _space"
+msgstr "显示可用空间(_S)"
+
+msgid "Location bar:"
+msgstr "位置栏："
+
+msgid "Make location bar editable"
+msgstr "位置栏默认在可编辑状态"
+
+msgid "Show full path inside location bar"
+msgstr "位置栏显示完整路径"
+
+msgid "Interface"
+msgstr "界面"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Display style:"
+msgstr "显示样式："
+
+msgid "Use common display style for all folders"
+msgstr "所有文件夹使用相同的显示样式"
+
+msgid "Remember display style for each folder"
+msgstr "单独记忆每个文件夹的显示样式"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "无论哪种情况，视图 › 记住此文件夹的视图 都能为某个文件夹设置独立样式。搜索、最近文件或回收站等特殊视图始终使用自己的样式。"
+
+msgid "Browsing:"
+msgstr "浏览： "
+
+msgid "Browse compressed files as folders"
+msgstr "将压缩文件作为文件夹浏览"
+
+msgid "Open folders during drag operations"
+msgstr "拖放操作时打开文件夹"
+
+msgid "Open files and folders with a single click"
+msgstr "单击打开文件和文件夹"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "为主文件夹维护索引以便即时搜索(_I)"
+
+msgid "Miscellaneous:"
+msgstr "其他功能："
+
+msgid "Show item information on hover"
+msgstr "悬停时显示项目信息"
+
+msgid "Show selection marker"
+msgstr "显示选择标记"
+
+msgid "Rename single items inline"
+msgstr "重命名单个项目"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "隐藏隐藏文件时同时隐藏备份文件"
+
+msgid "Background:"
+msgstr "背景："
+
+msgid "Double-click triggers"
+msgstr "双击触发"
+
+msgid "Nothing"
+msgstr "无操作"
+
+msgid "Go Up"
+msgstr "跳转到上一级"
+
+msgid "Content Display"
+msgstr "内容"
+
+msgid "Sorting mode:"
+msgstr "排序方式："
+
+msgid "Natural"
+msgstr "按语言习惯"
+
+msgid "Alphabetical, case insensitive"
+msgstr "按字母顺序，不区分大小写"
+
+msgid "Alphabetical, case sensitive"
+msgstr "按字母顺序，区分大小写"
+
+msgid "Folder size:"
+msgstr "文件夹大小："
+
+msgid "Show number of items"
+msgstr "显示项目数量"
+
+msgid "Show size of contents, up to "
+msgstr "显示内容大小，上限为 "
+
+msgid "Show no size"
+msgstr "不显示大小"
+
+msgid "levels deep"
+msgstr "层深"
+
+msgid "Date style:"
+msgstr "日期样式："
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "相对（今天、昨天…）"
+
+msgid "Absolute"
+msgstr "绝对"
+
+msgid "Permissions style:"
+msgstr "权限格式："
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "符号（rwxr-xr-x）"
+
+msgid "Numeric (0755)"
+msgstr "数字（0755）"
+
+msgid "Combined"
+msgstr "组合"
+
+msgid "Long file names:"
+msgstr "长文件名："
+
+msgid "Elide in the middle"
+msgstr "在中间省略"
+
+msgid "Elide at the end"
+msgstr "在末尾省略"
+
+msgid "Label width:"
+msgstr "标签宽度："
+
+msgid "Medium"
+msgstr "中"
+
+msgid "Large"
+msgstr "大"
+
+msgid "Huge"
+msgstr "超大"
+
+msgid "Maximum lines:"
+msgstr "最大行数："
+
+msgid "Unlimited"
+msgstr "无限制"
+
+msgid "Spacing:"
+msgstr "间距："
+
+msgid "Maximum width:"
+msgstr "最大宽度："
+
+msgid "Folders:"
+msgstr "文件夹："
+
+msgid "Expandable"
+msgstr "可展开"
+
+msgid "Open files and folders:"
+msgstr "打开文件和文件夹："
+
+msgid "By clicking anywhere on the row"
+msgstr "点击行内任意位置高亮"
+
+msgid "By clicking on icon or name"
+msgstr "点击图标或者文件名高亮"
+
+msgid "Disk usage:"
+msgstr "磁盘占用："
+
+msgid "Show a Disk _Usage column"
+msgstr "显示磁盘占用列(_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "每个文件和每个完整文件夹在磁盘上占用的空间，并用条形显示其在文件夹中的占比，与 工具 › 磁盘占用 相同。文件夹会在后台完整读取；按此列排序可先看到最大的项目。磁盘占用窗口中的“留在此驱动器上”在这里同样适用。"
+
+msgid "View"
+msgstr "视图(V)"
 
 msgid "Show in the context menu"
 msgstr "在右键菜单中显示"
@@ -1932,20 +2017,26 @@ msgstr "“复制到”和“移动到”"
 msgid "Delete (in addition to Move to Trash)"
 msgstr "删除（除“移到回收站”外）"
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr "这些以前是 KDE 系统设置。限制会在 Beluga 启动时以及将项目移到回收站后应用。"
+msgid "Context Menu"
+msgstr "右键菜单"
 
-msgid "_Delete items that have been in the trash longer than:"
-msgstr "删除在回收站中超过以下时间的项目(_D)："
+msgid "Cleanup:"
+msgstr "清理："
 
-msgid "Days:"
-msgstr "天数："
+msgid "Delete files older than"
+msgstr "删除早于以下时间的文件"
 
-msgid "_Limit the trash to a share of the disk:"
-msgstr "将回收站限制为磁盘的一定比例(_L)："
+msgid "days"
+msgstr "天"
 
-msgid "Percent of the disk:"
-msgstr "磁盘百分比："
+msgid "Limit to"
+msgstr "限制为"
+
+msgid "percent of the disk"
+msgstr "磁盘百分比"
+
+msgid "Full trash:"
+msgstr "回收站已满："
 
 msgid "When the limit is reached:"
 msgstr "达到上限时："
@@ -1959,8 +2050,14 @@ msgstr "删除最旧的项目"
 msgid "Delete the largest items"
 msgstr "删除最大的项目"
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "这些以前是 KDE 系统设置。限制会在 Beluga 启动时以及将项目移到回收站后应用。"
+
 msgid "Calculating trash size…"
 msgstr "正在计算回收站大小…"
+
+msgid "Trash:"
+msgstr "回收站:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2067,9 +2164,6 @@ msgstr "按名称过滤（可使用 *.txt 等通配符）"
 msgid "Keep the filter when changing folders"
 msgstr "切换文件夹时保留过滤"
 
-msgid "Search…"
-msgstr "搜索…"
-
 msgid "In This Folder"
 msgstr "在此文件夹中"
 
@@ -2102,6 +2196,9 @@ msgstr "最近一年"
 
 msgid "Hidden files"
 msgstr "隐藏文件"
+
+msgid "Zoom:"
+msgstr "缩放："
 
 msgid "Zoom"
 msgstr "缩放"

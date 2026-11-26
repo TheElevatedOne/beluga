@@ -289,39 +289,61 @@ void MainWindow::buildToolbar()
     static const char *menu[] = {"application-menu", "open-menu-symbolic", nullptr};
     static const char *sort[] = {"view-sort", "view-sort-ascending-symbolic", nullptr};
 
+    // Laid out like Dolphin's tool bar: Back, Forward, the view settings, the location bar (one per view in split
+    // view), then Disk Usage, Split, Search and the menu. Up and Home are in the Go menu and on Alt+Up / Alt+Home.
+    (void)up;
+    (void)home;
+    (void)icons;
+    (void)compact;
+    (void)details;
+    (void)columns;
+    (void)filter;
+    (void)sort;
     backButton_ = tool_button(back, _("Back"), "win.back");
     forwardButton_ = tool_button(fwd, _("Forward"), "win.forward");
     history_menu_on_right_click(backButton_, this, true);
     history_menu_on_right_click(forwardButton_, this, false);
     gtk_box_append(GTK_BOX(toolbar_), backButton_);
     gtk_box_append(GTK_BOX(toolbar_), forwardButton_);
-    gtk_box_append(GTK_BOX(toolbar_), tool_button(up, _("Up"), "win.up"));
-    gtk_box_append(GTK_BOX(toolbar_), tool_button(home, _("Home"), "win.home"));
-    gtk_box_append(GTK_BOX(toolbar_), gtk_separator_new(GTK_ORIENTATION_VERTICAL));
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(icons, _("Icons"), "win.view-mode::icons"));
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(compact, _("Compact"), "win.view-mode::compact"));
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(details, _("Details"), "win.view-mode::details"));
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(columns, _("Columns"), "win.view-mode::columns"));
 
+    // View settings: the current view mode's icon; the menu has the modes, sorting and the shown columns.
     GtkWidget *viewMenu = gtk_menu_button_new();
-    GIcon *si = g_themed_icon_new_from_names((char **)sort, -1);
-    gtk_menu_button_set_child(GTK_MENU_BUTTON(viewMenu), gtk_image_new_from_gicon(si));
-    g_object_unref(si);
+    viewModeIcon_ = gtk_image_new();
+    gtk_menu_button_set_child(GTK_MENU_BUTTON(viewMenu), viewModeIcon_);
+    gtk_menu_button_set_always_show_arrow(GTK_MENU_BUTTON(viewMenu), TRUE);
     gtk_widget_set_tooltip_text(viewMenu, _("View Settings"));
     gtk_widget_add_css_class(viewMenu, "flat");
     gtk_widget_set_focusable(viewMenu, FALSE);
     g_object_set_data(G_OBJECT(toolbar_), "beluga-viewmenu", viewMenu);
     gtk_box_append(GTK_BOX(toolbar_), viewMenu);
 
-    GtkWidget *spacer = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
-    gtk_widget_set_hexpand(spacer, TRUE);
-    gtk_box_append(GTK_BOX(toolbar_), spacer);
+    locSlot_ = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+    gtk_box_set_homogeneous(GTK_BOX(locSlot_), TRUE);
+    gtk_widget_set_hexpand(locSlot_, TRUE);
+    gtk_widget_add_css_class(locSlot_, "beluga-location-slot");
+    gtk_box_append(GTK_BOX(toolbar_), locSlot_);
     gtk_box_append(GTK_BOX(toolbar_), jobs_indicator_new());
     static const char *usage[] = {"disk-quota", "baobab", "org.gnome.baobab", "drive-harddisk", nullptr};
     gtk_box_append(GTK_BOX(toolbar_), tool_toggle(usage, _("Disk Usage"), "win.show-disk-usage"));
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(split, _("Split View"), "win.split"));
-    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(filter, _("Filter"), "win.toggle-filter"));
+    // Split with its name, as in Dolphin ("Close" while split).
+    splitButton_ = gtk_toggle_button_new();
+    GtkWidget *sbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+    GIcon *si = g_themed_icon_new_from_names((char **)split, -1);
+    gtk_box_append(GTK_BOX(sbox), gtk_image_new_from_gicon(si));
+    g_object_unref(si);
+    splitLabel_ = gtk_label_new(_("Split"));
+    gtk_box_append(GTK_BOX(sbox), splitLabel_);
+    gtk_button_set_child(GTK_BUTTON(splitButton_), sbox);
+    gtk_widget_set_tooltip_text(splitButton_, _("Split View"));
+    gtk_actionable_set_action_name(GTK_ACTIONABLE(splitButton_), "win.split");
+    gtk_widget_add_css_class(splitButton_, "flat");
+    gtk_widget_set_focusable(splitButton_, FALSE);
+    gtk_box_append(GTK_BOX(toolbar_), splitButton_);
     gtk_box_append(GTK_BOX(toolbar_), tool_toggle(search, _("Search"), "win.toggle-search"));
+    // Signals still arrive while the window is torn down: these pointers clear themselves with their widgets.
+    g_object_add_weak_pointer(G_OBJECT(locSlot_), reinterpret_cast<gpointer *>(&locSlot_));
+    g_object_add_weak_pointer(G_OBJECT(viewModeIcon_), reinterpret_cast<gpointer *>(&viewModeIcon_));
+    g_object_add_weak_pointer(G_OBJECT(splitLabel_), reinterpret_cast<gpointer *>(&splitLabel_));
     GtkWidget *ham = gtk_menu_button_new();
     GIcon *mi = g_themed_icon_new_from_names((char **)menu, -1);
     gtk_menu_button_set_child(GTK_MENU_BUTTON(ham), gtk_image_new_from_gicon(mi));
@@ -682,6 +704,7 @@ void MainWindow::onTabSwitched(int index)
 void MainWindow::updateTabBar()
 {
     gtk_notebook_set_show_tabs(GTK_NOTEBOOK(notebook_), tabs_.size() > 1 || settings().alwaysShowTabBar);
+    for (auto &t : tabs_) t->applyTabStyle(notebook_, settings().tabStyle);
 }
 
 // ---- container events ----------------------------------------------------------------------
@@ -778,6 +801,47 @@ void MainWindow::applySettings()
     updateTitle();
     syncPanels();
     updateActions();
+}
+
+// The location bars of the active tab go into the tool bar (both, side by side, in split view), as in Dolphin.
+// With the tool bar hidden, each view shows its own above it. Widgets are only moved when something changed, so
+// typing in a location bar isn't interrupted.
+void MainWindow::syncLocationBars()
+{
+    if (!locSlot_) return;
+    bool inToolbar = settings().showToolBar;
+    TabPage *active = activeTab();
+    std::vector<GtkWidget *> want;
+    if (inToolbar && active) {
+        want.push_back(active->primary()->locationBar()->widget());
+        if (active->secondary()) want.push_back(active->secondary()->locationBar()->widget());
+    }
+    auto detach = [](GtkWidget *w) {
+        if (GtkWidget *p = gtk_widget_get_parent(w)) {
+            if (GTK_IS_BOX(p)) gtk_box_remove(GTK_BOX(p), w);
+            else gtk_widget_unparent(w);
+        }
+    };
+    std::vector<GtkWidget *> have;
+    for (GtkWidget *c = gtk_widget_get_first_child(locSlot_); c; c = gtk_widget_get_next_sibling(c)) have.push_back(c);
+    if (have != want) {
+        for (GtkWidget *w : have) detach(w);
+        for (GtkWidget *w : want) {
+            detach(w);
+            gtk_box_append(GTK_BOX(locSlot_), w);
+        }
+    }
+    for (auto &t : tabs_)
+        for (ViewContainer *c : {t->primary(), t->secondary()}) {
+            if (!c) continue;
+            GtkWidget *w = c->locationBar()->widget();
+            if (inToolbar) {
+                if (std::find(want.begin(), want.end(), w) == want.end() && gtk_widget_get_parent(w)) detach(w);
+            } else if (gtk_widget_get_parent(w) != c->widget()) {
+                detach(w);
+                gtk_box_prepend(GTK_BOX(c->widget()), w);
+            }
+        }
 }
 
 // Shows the right side for the Information panel or the Disk Usage pane, at that one's width.

@@ -37,6 +37,7 @@ struct Settings {
     bool alwaysShowTabBar = true;
     bool showCloseButtonOnTabs = true;
     bool openNewTabAfterLastTab = true;
+    int tabStyle = 1;                    // 0 width follows the name, 1 all the same width, 2 tabs fill the bar
     int closeSplitViewChoice = 1;        // 0 active, 1 inactive, 2 right
     bool useTabForSwitchingSplitView = false;
     bool globalViewProps = true;

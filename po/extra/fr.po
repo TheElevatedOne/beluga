@@ -1440,3 +1440,79 @@ msgstr "Créer un nouveau dossier dans :\n%s"
 #, c-format
 msgid "Create new file in:\n%s"
 msgstr "Créer un nouveau fichier dans :\n%s"
+
+msgid "levels deep"
+msgstr "niveaux de profondeur"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "fichiers de moins de %d Mio"
+
+msgid "days"
+msgstr "jours"
+
+msgid "_Restore Defaults"
+msgstr "_Restaurer les valeurs par défaut"
+
+msgid "_Apply"
+msgstr "_Appliquer"
+
+msgid "This location:"
+msgstr "Cet emplacement :"
+
+msgid "Tabs:"
+msgstr "Onglets :"
+
+msgid "Status & Location bars"
+msgstr "Barres d'état et d'emplacement"
+
+msgid "Places Panel:"
+msgstr "Panneau Emplacements :"
+
+msgid "Open files and folders with a single click"
+msgstr "Ouvrir les fichiers et dossiers d'un simple clic"
+
+msgid "New folders:"
+msgstr "Nouveaux dossiers :"
+
+msgid "Limit to"
+msgstr "Limiter à"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Garder une seule fenêtre de Beluga, en ouvrant les nouveaux dossiers dans des onglets"
+
+msgid "Full trash:"
+msgstr "Corbeille pleine :"
+
+msgid "Folders & Tabs"
+msgstr "Dossiers et onglets"
+
+msgid "Elide in the middle"
+msgstr "Raccourcir au milieu"
+
+msgid "Elide at the end"
+msgstr "Raccourcir à la fin"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Dans tous les cas, Affichage › Mémoriser l'affichage de ce dossier donne à un dossier son propre style. Certaines vues spéciales comme la recherche, les fichiers récents ou la corbeille gardent toujours leur propre style."
+
+msgid "Disk usage:"
+msgstr "Utilisation du disque :"
+
+msgid "Delete files older than"
+msgstr "Supprimer les fichiers de plus de"
+
+msgid "Cleanup:"
+msgstr "Nettoyage :"
+
+msgid "Ask for confirmation when:"
+msgstr "Demander une confirmation lors de :"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Demander une confirmation dans Beluga lors de :"
+
+msgid "Absolute"
+msgstr "Absolue"
+
+msgid "percent of the disk"
+msgstr "pour cent du disque"

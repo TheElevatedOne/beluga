@@ -1219,6 +1219,9 @@ msgstr "Cerrar ventana"
 msgid "View Settings"
 msgstr "Preferencias de la vista"
 
+msgid "Split"
+msgstr "Dividir"
+
 msgid "Menu"
 msgstr "Menú"
 
@@ -1537,14 +1540,14 @@ msgstr "%d px"
 msgid "Use the system _font"
 msgstr "Usar la _tipografía del sistema"
 
-msgid "View font:"
-msgstr "Tipografía de la vista:"
+msgid "Label font:"
+msgstr "Tipo de letra para etiquetas:"
 
-msgid "Icon size:"
-msgstr "Tamaño de los iconos:"
+msgid "Default icon size:"
+msgstr "Tamaño de iconos por omisión:"
 
-msgid "Preview size:"
-msgstr "Tamaño de la vista previa:"
+msgid "Preview icon size:"
+msgstr "Vista previa del tamaño de los iconos:"
 
 msgid "Context Menu Action"
 msgstr "Acción del menú contextual"
@@ -1594,123 +1597,108 @@ msgstr "_Quitar"
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr "Los atajos se escriben como <Control>c o <Shift>Delete. Separe varios con comas. Deje un campo vacío para usar el predeterminado."
 
-msgid "General"
-msgstr "General"
+msgid "no file"
+msgstr "ningún archivo"
 
-msgid "Startup"
-msgstr "Inicio"
-
-msgid "_Home folder:"
-msgstr "Carpeta _personal:"
-
-msgid "_Remember open folders and tabs"
-msgstr "_Recordar las carpetas y pestañas abiertas"
-
-msgid "Begin in _split view mode"
-msgstr "Empezar en vista _dividida"
-
-msgid "Show _filter bar"
-msgstr "Mostrar la barra de _filtro"
-
-msgid "Make location bar _editable"
-msgstr "Hacer _editable la barra de ubicación"
-
-msgid "Show full path inside _location bar"
-msgstr "Mostrar la ruta completa en la barra de _ubicación"
-
-msgid "Show full path in _title bar"
-msgstr "Mostrar la ruta completa en la barra de _título"
-
-msgid "Mouse"
-msgstr "Ratón"
-
-msgid "These used to be KDE system settings."
-msgstr "Antes eran ajustes del sistema de KDE."
-
-msgid "Clicking files or folders:"
-msgstr "Al pulsar en archivos o carpetas:"
-
-msgid "Selects them (double-click opens)"
-msgstr "Los selecciona (doble clic abre)"
-
-msgid "Opens them"
-msgstr "Los abre"
-
-msgid "Double-clicking empty space:"
-msgstr "Doble clic en un espacio vacío:"
-
-msgid "Does nothing"
-msgstr "No hace nada"
-
-msgid "Selects all items"
-msgstr "Selecciona todos los elementos"
-
-msgid "Goes up"
-msgstr "Sube un nivel"
-
-msgid "Opens a new tab"
-msgstr "Abre una pestaña nueva"
-
-msgid "Toggles hidden files"
-msgstr "Muestra u oculta los archivos ocultos"
-
-msgid "Tabs and Split View"
-msgstr "Pestañas y vista dividida"
-
-msgid "Open new tabs after the _last tab"
-msgstr "Abrir pestañas nuevas tras la _última"
-
-msgid "_Always show the tab bar"
-msgstr "Mostrar _siempre la barra de pestañas"
-
-msgid "Show _close buttons on tabs"
-msgstr "Mostrar botones de _cerrar en las pestañas"
-
-msgid "Open folders from other applications in a new _tab"
-msgstr "Abrir carpetas de otras aplicaciones en una _pestaña nueva"
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr "Abrir los _archivos comprimidos como carpetas (zip, tar, 7z, rar, ISO)"
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr "Mantener un _índice de la carpeta personal para búsquedas instantáneas"
-
-msgid "Closing split view closes:"
-msgstr "Al cerrar la vista dividida se cierra:"
-
-msgid "The active view"
-msgstr "La vista activa"
-
-msgid "The inactive view"
-msgstr "La vista inactiva"
-
-msgid "The right view"
-msgstr "La vista derecha"
-
-msgid "Behavior"
-msgstr "Comportamiento"
-
-msgid "Rename single items _inline"
-msgstr "Renombrar elementos sueltos _en el sitio"
-
-msgid "Show selection _marker"
-msgstr "Mostrar el _marcador de selección"
-
-msgid "Show item information on _hover"
-msgstr "Mostrar información del elemento al _pasar el ratón"
-
-msgid "Open folders while _dragging items over them"
-msgstr "Abrir carpetas al _arrastrar elementos sobre ellas"
-
-msgid "Terminal"
-msgstr "Terminal"
+msgid "files of any size"
+msgstr "archivos de cualquier tamaño"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr "Lo usan F4 y Abrir terminal aquí. %d en la orden se sustituye por la carpeta; si no, el terminal se inicia en ella. Antes era un ajuste del sistema de KDE."
+msgid "files below %d MiB"
+msgstr "archivos de menos de %d MiB"
 
-msgid "Terminal _command:"
-msgstr "_Orden del terminal:"
+msgid "Search…"
+msgstr "Buscar…"
+
+msgid "_Restore Defaults"
+msgstr "_Restaurar valores predeterminados"
+
+msgid "_Apply"
+msgstr "_Aplicar"
+
+msgid "Folders & Tabs"
+msgstr "Carpetas y pestañas"
+
+msgid "Show on startup:"
+msgstr "Mostrar al inicio:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Estado de las carpetas, pestañas y ventana del último uso"
+
+msgid "This location:"
+msgstr "Esta ubicación:"
+
+msgid "Use Current Location"
+msgstr "Usar la ubicación actual"
+
+msgid "Use Default Location"
+msgstr "Usar la ubicación predeterminada"
+
+msgid "Opening Folders:"
+msgstr "Apertura de carpetas:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Mantener una sola ventana de Beluga y abrir las carpetas nuevas en pestañas"
+
+msgid "Window:"
+msgstr "Ventana:"
+
+msgid "Show full path in title bar"
+msgstr "Mostrar la ruta completa en la barra de título"
+
+msgid "Show filter bar"
+msgstr "Mostrar la barra de filtro"
+
+msgid "Tabs:"
+msgstr "Pestañas:"
+
+msgid "Always show tab bar"
+msgstr "Mostrar siempre la barra de pestañas"
+
+msgid "Show close button on tabs"
+msgstr "Mostrar botones de cierre en las pestañas"
+
+msgid "Tab style:"
+msgstr "Estilo de pestañas: "
+
+msgid "Tab width adapts to folder name"
+msgstr "La anchura de la pestaña se adapta al nombre de la carpeta"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Todas las pestañas tienen la misma anchura fija"
+
+msgid "Tabs span the available width"
+msgstr "Las pestañas ocupan el espacio disponible"
+
+msgid "Open new tabs:"
+msgstr "Abrir nuevas pestañas: "
+
+msgid "After current tab"
+msgstr "Tras la pestaña actual"
+
+msgid "At end of tab bar"
+msgstr "Al final de la barra de pestañas"
+
+msgid "Split view:"
+msgstr "Vista dividida: "
+
+msgid "When closing a split view"
+msgstr "Cuando se cierra una vista dividida"
+
+msgid "Close the active pane"
+msgstr "Cerrar el panel activo"
+
+msgid "Close the inactive pane"
+msgstr "Cerrar el panel inactivo"
+
+msgid "Close the right pane"
+msgstr "Cerrar el panel derecho"
+
+msgid "Open new windows in split view mode"
+msgstr "Abrir nuevas ventanas en modo de vista dividida"
+
+msgid "Terminal:"
+msgstr "Terminal:"
 
 msgid "No terminal found"
 msgstr "No se encontró ningún terminal"
@@ -1719,116 +1707,21 @@ msgstr "No se encontró ningún terminal"
 msgid "Detected: %s"
 msgstr "Detectado: %s"
 
-msgid "View"
-msgstr "Ver"
-
-msgid "Use the same display style for _all folders"
-msgstr "Usar el mismo estilo de vista para _todas las carpetas"
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr "Si está desactivado, cada carpeta recuerda su propio estilo. En ambos casos, Ver › Recordar la vista de esta carpeta da a una carpeta su propio estilo."
-
-msgid "Natural"
-msgstr "Natural"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Alfabética, no distingue entre mayúsculas y minúsculas"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Alfabética, distingue entre mayúsculas y minúsculas"
-
-msgid "Folder size:"
-msgstr "Tamaño de las carpetas:"
-
-msgid "Number of items"
-msgstr "Número de elementos"
-
-msgid "Size of contents"
-msgstr "Tamaño del contenido"
-
-msgid "None"
-msgstr "Ninguna"
-
-msgid "Folder size depth limit:"
-msgstr "Profundidad máxima del tamaño de carpetas:"
-
-msgid "Dates:"
-msgstr "Fechas:"
-
-msgid "Relative (Today, Yesterday…)"
-msgstr "Relativas (Hoy, Ayer…)"
-
-msgid "Short"
-msgstr "Cortas"
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr "Simbólico (rwxr-xr-x)"
-
-msgid "Numeric (0755)"
-msgstr "Numérico (0755)"
-
-msgid "Combined"
-msgstr "Combinado"
-
-msgid "Shorten long names:"
-msgstr "Acortar nombres largos:"
-
-msgid "At the end"
-msgstr "Al final"
-
-msgid "In the middle"
-msgstr "En el medio"
-
-msgid "Hide _backup files (ending in ~)"
-msgstr "Ocultar archivos de _respaldo (terminados en ~)"
-
-msgid "Label width:"
-msgstr "Anchura de las etiquetas:"
-
-msgid "Small"
-msgstr "Pequeño"
-
-msgid "Medium"
-msgstr "Mediano"
-
-msgid "Large"
-msgstr "Grande"
-
-msgid "Huge"
-msgstr "Enorme"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr "Líneas máximas de la etiqueta (0: sin límite):"
-
-msgid "Co_mpact spacing"
-msgstr "Espaciado _compacto"
-
-msgid "Maximum label width:"
-msgstr "Anchura máxima de la etiqueta:"
-
-msgid "Unlimited"
-msgstr "Sin límite"
-
-msgid "E_xpandable folders"
-msgstr "Carpetas _desplegables"
-
-msgid "Highlight the entire _row"
-msgstr "Resaltar toda la _fila"
-
-msgid "Show a Disk _Usage column"
-msgstr "Mostrar una columna de _uso del disco"
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr "El espacio que ocupa en disco cada archivo y cada carpeta completa, con una barra para su parte de la carpeta, como Herramientas › Uso del disco. Las carpetas se leen completas en segundo plano; ordene por la columna para ver primero las más grandes. «Quedarse en esta unidad» de la ventana Uso del disco también se aplica aquí."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Lo usan F4 y Abrir terminal aquí. %d en la orden se sustituye por la carpeta; si no, el terminal se inicia en ella. Antes era un ajuste del sistema de KDE."
 
 msgid "Previews"
 msgstr "Vistas previas"
 
+msgid "New folders:"
+msgstr "Carpetas nuevas:"
+
 msgid "Show _previews in new folders"
 msgstr "Mostrar _vistas previas en carpetas nuevas"
 
-msgid "Show previews for"
-msgstr "Mostrar vistas previas para"
+msgid "Show previews in the view for:"
+msgstr "Mostrar vistas previas en la vista para:"
 
 msgid "Audio (cover art)"
 msgstr "Audio (portada)"
@@ -1845,44 +1738,47 @@ msgstr "Tipografías"
 msgid "Office documents"
 msgstr "Documentos de oficina"
 
-msgid "Limits"
-msgstr "Límites"
+msgid "Local storage:"
+msgstr "Almacenamiento local:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr "Omitir archivos locales de más de (MiB, 0: sin límite):"
+msgid "Show previews for"
+msgstr "Mostrar vistas previas para"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr "Archivos remotos de hasta (MiB, 0: nunca):"
+msgid "Remote storage:"
+msgstr "Almacenamiento remoto:"
 
 msgid "Confirmations"
 msgstr "Confirmaciones"
 
-msgid "Ask for confirmation when"
-msgstr "Pedir confirmación al"
+msgid "Ask for confirmation when:"
+msgstr "Pedir confirmación al:"
 
-msgid "Moving files or folders to the _trash"
-msgstr "Mover archivos o carpetas a la _papelera"
+msgid "Moving files or folders to trash"
+msgstr "Mover archivos o carpetas a la papelera"
 
-msgid "_Deleting files or folders"
-msgstr "_Eliminar archivos o carpetas"
+msgid "Emptying trash"
+msgstr "Vaciar la papelera"
 
-msgid "_Emptying the trash"
-msgstr "_Vaciar la papelera"
+msgid "Deleting files or folders"
+msgstr "Borrar archivos o carpetas"
 
-msgid "Closing windows with _multiple tabs"
-msgstr "Cerrar ventanas con _varias pestañas"
+msgid "Renaming a file will change its type"
+msgstr "El cambio de nombre de un archivo modifica su tipo"
 
-msgid "Opening many _folders at once"
-msgstr "Abrir muchas _carpetas a la vez"
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Pedir confirmación en Beluga al:"
 
-msgid "Opening many t_erminals at once"
-msgstr "Abrir muchos t_erminales a la vez"
+msgid "Closing windows with multiple tabs"
+msgstr "Cerrar ventanas con varias pestañas"
 
-msgid "Renaming changes a file's _type"
-msgstr "Renombrar cambia el _tipo de un archivo"
+msgid "Opening many folders at once"
+msgstr "Abrir muchas carpetas a la vez"
 
-msgid "Acting as _administrator"
-msgstr "Actuar como _administrador"
+msgid "Opening many terminals at once"
+msgstr "Abrir muchas terminales a la vez"
+
+msgid "Switching to act as an administrator"
+msgstr "Cambiando a operar como administrador"
 
 msgid "When opening an executable file:"
 msgstr "Al abrir un archivo ejecutable:"
@@ -1890,56 +1786,245 @@ msgstr "Al abrir un archivo ejecutable:"
 msgid "Always ask"
 msgstr "Preguntar siempre"
 
-msgid "Open in an application"
-msgstr "Abrir en una aplicación"
+msgid "Open in application"
+msgstr "Abrir en aplicación"
 
-msgid "Run it"
-msgstr "Ejecutarlo"
+msgid "Run script"
+msgstr "Ejecutar script"
 
-msgid "Bars and Panels"
-msgstr "Barras y paneles"
+msgid "Information Panel:"
+msgstr "Panel de información:"
 
-msgid "Status Bar"
-msgstr "Barra de estado"
+msgid "Show previews"
+msgstr "Mostrar vistas previas"
 
-msgid "Status bar:"
-msgstr "Barra de estado:"
+msgid "Auto-play media files"
+msgstr "Reproducir automáticamente archivos multimedia"
 
-msgid "Small (shows only when hovering or selecting)"
-msgstr "Pequeña (solo se muestra al pasar el ratón o seleccionar)"
-
-msgid "Full width"
-msgstr "Anchura completa"
-
-msgid "Hidden"
-msgstr "Oculto"
-
-msgid "Show _zoom slider"
-msgstr "Mostrar el control de _zoom"
-
-msgid "Show free _space"
-msgstr "Mostrar el espacio _libre"
-
-msgid "Show _hidden folders"
-msgstr "Mostrar carpetas _ocultas"
-
-msgid "Limit to the home folder when inside it"
-msgstr "Limitarse a la carpeta personal cuando se está dentro"
-
-msgid "Scroll to the current folder _automatically"
-msgstr "Desplazarse _automáticamente a la carpeta actual"
-
-msgid "Play media files _automatically"
-msgstr "Reproducir archivos multimedia _automáticamente"
-
-msgid "Show the _hovered item"
-msgstr "Mostrar el elemento bajo el _ratón"
+msgid "Show item on hover"
+msgstr "Mostrar elemento al pasar por encima"
 
 msgid "Use _long date format"
 msgstr "Usar el formato de fecha _largo"
 
-msgid "Context Menu"
-msgstr "Menú de contexto"
+msgid "Folders Panel:"
+msgstr "Panel de carpetas:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Limitar al directorio personal cuando esté en él"
+
+msgid "Show _hidden folders"
+msgstr "Mostrar carpetas _ocultas"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Desplazarse _automáticamente a la carpeta actual"
+
+msgid "Places Panel:"
+msgstr "Panel de lugares:"
+
+msgid "Icon size:"
+msgstr "Tamaño de los iconos:"
+
+msgid "Status & Location bars"
+msgstr "Barras de estado y de ubicación"
+
+msgid "Status Bar:"
+msgstr "Barra de estado:"
+
+msgid "Small"
+msgstr "Pequeño"
+
+msgid "Full width"
+msgstr "Anchura completa"
+
+msgid "Disabled"
+msgstr "Desactivada"
+
+msgid "Show zoom slider"
+msgstr "Mostrar deslizador de ampliación"
+
+msgid "Show free _space"
+msgstr "Mostrar el espacio _libre"
+
+msgid "Location bar:"
+msgstr "Barra de ubicación:"
+
+msgid "Make location bar editable"
+msgstr "Hacer la barra de ubicación editable"
+
+msgid "Show full path inside location bar"
+msgstr "Mostrar la ruta completa en la barra de direcciones"
+
+msgid "Interface"
+msgstr "Interfaz"
+
+msgid "General"
+msgstr "General"
+
+msgid "Display style:"
+msgstr "Estilo de visualización: "
+
+msgid "Use common display style for all folders"
+msgstr "Usar el estilo de visualización común para todas las carpetas"
+
+msgid "Remember display style for each folder"
+msgstr "Recordar el estilo de visualización para cada carpeta"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "En cualquier caso, Ver › Recordar la vista de esta carpeta da a una carpeta su propio estilo. Algunas vistas especiales, como la búsqueda, los archivos recientes o la papelera, siempre usan su propio estilo."
+
+msgid "Browsing:"
+msgstr "Navegación: "
+
+msgid "Browse compressed files as folders"
+msgstr "Explorar los archivos comprimidos como carpetas"
+
+msgid "Open folders during drag operations"
+msgstr "Abrir carpetas durante operaciones de arrastre"
+
+msgid "Open files and folders with a single click"
+msgstr "Abrir archivos y carpetas con un solo clic"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Mantener un _índice de la carpeta personal para búsquedas instantáneas"
+
+msgid "Miscellaneous:"
+msgstr "Varios: "
+
+msgid "Show item information on hover"
+msgstr "Mostrar información de los elementos al pasar por encima"
+
+msgid "Show selection marker"
+msgstr "Mostrar marcador de selección"
+
+msgid "Rename single items inline"
+msgstr "Cambiar el nombre de elementos individuales en línea"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Ocultar también los archivos de copia de seguridad al ocultar archivos"
+
+msgid "Background:"
+msgstr "Fondo: "
+
+msgid "Double-click triggers"
+msgstr "Un doble clic ejecuta"
+
+msgid "Nothing"
+msgstr "Nada"
+
+msgid "Go Up"
+msgstr "Ir arriba"
+
+msgid "Content Display"
+msgstr "Visualización del contenido"
+
+msgid "Sorting mode:"
+msgstr "Modo de ordenación: "
+
+msgid "Natural"
+msgstr "Natural"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alfabética, no distingue entre mayúsculas y minúsculas"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alfabética, distingue entre mayúsculas y minúsculas"
+
+msgid "Folder size:"
+msgstr "Tamaño de las carpetas:"
+
+msgid "Show number of items"
+msgstr "Mostrar el número de elementos"
+
+msgid "Show size of contents, up to "
+msgstr "Mostrar el tamaño del contenido hasta "
+
+msgid "Show no size"
+msgstr "No mostrar el tamaño"
+
+msgid "levels deep"
+msgstr "niveles de profundidad"
+
+msgid "Date style:"
+msgstr "Estilo de fechas:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativas (Hoy, Ayer…)"
+
+msgid "Absolute"
+msgstr "Absoluta"
+
+msgid "Permissions style:"
+msgstr "Estilo de los permisos:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simbólico (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numérico (0755)"
+
+msgid "Combined"
+msgstr "Combinado"
+
+msgid "Long file names:"
+msgstr "Nombres de archivos largos:"
+
+msgid "Elide in the middle"
+msgstr "Acortar en el medio"
+
+msgid "Elide at the end"
+msgstr "Acortar al final"
+
+msgid "Label width:"
+msgstr "Anchura de las etiquetas:"
+
+msgid "Medium"
+msgstr "Mediano"
+
+msgid "Large"
+msgstr "Grande"
+
+msgid "Huge"
+msgstr "Enorme"
+
+msgid "Maximum lines:"
+msgstr "Máximo de líneas:"
+
+msgid "Unlimited"
+msgstr "Sin límite"
+
+msgid "Spacing:"
+msgstr "Espaciado:"
+
+msgid "Maximum width:"
+msgstr "Anchura máxima:"
+
+msgid "Folders:"
+msgstr "Carpetas:"
+
+msgid "Expandable"
+msgstr "Expansible"
+
+msgid "Open files and folders:"
+msgstr "Abrir archivos y carpetas:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Al pulsar en cualquier lugar de la fila"
+
+msgid "By clicking on icon or name"
+msgstr "Al pulsar sobre el icono o el nombre"
+
+msgid "Disk usage:"
+msgstr "Uso del disco:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Mostrar una columna de _uso del disco"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "El espacio que ocupa en disco cada archivo y cada carpeta completa, con una barra para su parte de la carpeta, como Herramientas › Uso del disco. Las carpetas se leen completas en segundo plano; ordene por la columna para ver primero las más grandes. «Quedarse en esta unidad» de la ventana Uso del disco también se aplica aquí."
+
+msgid "View"
+msgstr "Ver"
 
 msgid "Show in the context menu"
 msgstr "Mostrar en el menú contextual"
@@ -1950,20 +2035,26 @@ msgstr "«Copiar a» y «Mover a»"
 msgid "Delete (in addition to Move to Trash)"
 msgstr "Eliminar (además de Mover a la papelera)"
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr "Antes eran ajustes del sistema de KDE. Los límites se aplican al iniciar Beluga y después de mover elementos a la papelera."
+msgid "Context Menu"
+msgstr "Menú de contexto"
 
-msgid "_Delete items that have been in the trash longer than:"
-msgstr "_Eliminar los elementos que lleven en la papelera más de:"
+msgid "Cleanup:"
+msgstr "Limpieza:"
 
-msgid "Days:"
-msgstr "Días:"
+msgid "Delete files older than"
+msgstr "Eliminar archivos de más de"
 
-msgid "_Limit the trash to a share of the disk:"
-msgstr "_Limitar la papelera a una parte del disco:"
+msgid "days"
+msgstr "días"
 
-msgid "Percent of the disk:"
-msgstr "Porcentaje del disco:"
+msgid "Limit to"
+msgstr "Limitar a"
+
+msgid "percent of the disk"
+msgstr "por ciento del disco"
+
+msgid "Full trash:"
+msgstr "Papelera llena:"
 
 msgid "When the limit is reached:"
 msgstr "Al alcanzar el límite:"
@@ -1977,8 +2068,14 @@ msgstr "Eliminar los elementos más antiguos"
 msgid "Delete the largest items"
 msgstr "Eliminar los elementos más grandes"
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Antes eran ajustes del sistema de KDE. Los límites se aplican al iniciar Beluga y después de mover elementos a la papelera."
+
 msgid "Calculating trash size…"
 msgstr "Calculando el tamaño de la papelera…"
+
+msgid "Trash:"
+msgstr "Papelera:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2086,9 +2183,6 @@ msgstr "Filtrar por nombre (funcionan comodines como *.txt)"
 msgid "Keep the filter when changing folders"
 msgstr "Mantener el filtro al cambiar de carpeta"
 
-msgid "Search…"
-msgstr "Buscar…"
-
 msgid "In This Folder"
 msgstr "En esta carpeta"
 
@@ -2121,6 +2215,9 @@ msgstr "Último año"
 
 msgid "Hidden files"
 msgstr "Archivos ocultos"
+
+msgid "Zoom:"
+msgstr "Ampliación:"
 
 msgid "Zoom"
 msgstr "Ampliación"

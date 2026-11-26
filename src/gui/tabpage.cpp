@@ -197,4 +197,17 @@ void TabPage::updateLabel()
         gtk_widget_set_visible(close, settings().showCloseButtonOnTabs);
 }
 
+void TabPage::applyTabStyle(GtkWidget *notebook, int style)
+{
+    if (GtkNotebookPage *pg = gtk_notebook_get_page(GTK_NOTEBOOK(notebook), root_))
+        g_object_set(pg, "tab-expand", style == 2, "tab-fill", TRUE, nullptr);
+    // Fixed and spanning tabs centre their name and shorten it to fit; others are as wide as the name.
+    gtk_widget_set_size_request(label_, style == 1 ? 200 : -1, -1);
+    gtk_widget_set_hexpand(labelText_, style != 0);
+    gtk_widget_set_hexpand(label_, style == 2);   // set explicitly: the label's expand mustn't widen fixed tabs
+    gtk_label_set_xalign(GTK_LABEL(labelText_), style == 0 ? 0.0f : 0.5f);
+    gtk_label_set_width_chars(GTK_LABEL(labelText_), style == 0 ? 6 : 1);
+    gtk_label_set_max_width_chars(GTK_LABEL(labelText_), style == 0 ? 24 : 1);
+}
+
 } // namespace beluga

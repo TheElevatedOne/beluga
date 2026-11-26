@@ -1216,6 +1216,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Configureu la visualització"
 
+msgid "Split"
+msgstr "Dividix"
+
 msgid "Menu"
 msgstr "Menú"
 
@@ -1534,14 +1537,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Lletra de les etiquetes:"
 
-msgid "Icon size:"
-msgstr "Mida de la icona:"
+msgid "Default icon size:"
+msgstr "Mida predeterminada de les icones:"
 
-msgid "Preview size:"
-msgstr "Mida de la vista prèvia:"
+msgid "Preview icon size:"
+msgstr "Mida de la vista prèvia de les icones:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1591,123 +1594,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "General"
+msgid "no file"
+msgstr "cap fitxer"
 
-msgid "Startup"
-msgstr "Inici"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Comportament"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Terminal"
+msgid "files of any size"
+msgstr "fitxers de qualsevol mida"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Busca…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Mostra en iniciar:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Carpetes, pestanyes i estat de la finestra de l'última vegada"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Utilitza la ubicació actual"
+
+msgid "Use Default Location"
+msgstr "Utilitza la ubicació predeterminada"
+
+msgid "Opening Folders:"
+msgstr "Obertura de carpetes:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Finestra:"
+
+msgid "Show full path in title bar"
+msgstr "Mostra el camí sencer en la barra de títol"
+
+msgid "Show filter bar"
+msgstr "Mostra la barra de filtres"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Mostra sempre la barra de pestanyes"
+
+msgid "Show close button on tabs"
+msgstr "Mostra el botó de tancament en les pestanyes"
+
+msgid "Tab style:"
+msgstr "Estil de les pestanyes: "
+
+msgid "Tab width adapts to folder name"
+msgstr "L'amplària de la pestanya s'adapta al nom de la carpeta"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Totes les pestanyes tenen la mateixa amplària fixa"
+
+msgid "Tabs span the available width"
+msgstr "Les pestanyes ocupen l'amplària disponible"
+
+msgid "Open new tabs:"
+msgstr "Obri en pestanyes noves: "
+
+msgid "After current tab"
+msgstr "Després de la pestanya actual"
+
+msgid "At end of tab bar"
+msgstr "Al final de la barra de pestanyes"
+
+msgid "Split view:"
+msgstr "Vista dividida: "
+
+msgid "When closing a split view"
+msgstr "En tancar una vista dividida"
+
+msgid "Close the active pane"
+msgstr "Tanca la subfinestra activa"
+
+msgid "Close the inactive pane"
+msgstr "Tanca la subfinestra inactiva"
+
+msgid "Close the right pane"
+msgstr "Tanca la subfinestra de la dreta"
+
+msgid "Open new windows in split view mode"
+msgstr "Obri les finestres noves en el mode de vista dividida"
+
+msgid "Terminal:"
+msgstr "Terminal:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1716,116 +1704,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Visualitza"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Natural"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Alfabètica, sense distingir entre majúscules i minúscules"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Alfabètica, distingint entre majúscules i minúscules"
-
-msgid "Folder size:"
-msgstr "Mida de la carpeta:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Cap"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Amplària de les etiquetes:"
-
-msgid "Small"
-msgstr "Xicoteta"
-
-msgid "Medium"
-msgstr "Mitjana"
-
-msgid "Large"
-msgstr "Gran"
-
-msgid "Huge"
-msgstr "Enorme"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Sense límit"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Vistes prèvies"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Mostra les vistes prèvies per a"
+msgid "Show previews in the view for:"
+msgstr "Mostra les vistes prèvies en la visualització per a:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1842,44 +1735,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Emmagatzematge local:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Mostra les vistes prèvies per a"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Emmagatzematge remot:"
 
 msgid "Confirmations"
 msgstr "Confirmacions"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Es moguen fitxers o carpetes cap a dins de la paperera"
+
+msgid "Emptying trash"
+msgstr "Es buide la paperera"
+
+msgid "Deleting files or folders"
+msgstr "Se suprimisquen fitxers o carpetes"
+
+msgid "Renaming a file will change its type"
+msgstr "Canviar de nom un fitxer canviarà el seu tipus"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Es tanquen finestres amb múltiples pestanyes"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "En obrir moltes carpetes a la vegada"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "En obrir molts terminals a la vegada"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Canvia per a actuar com a administrador"
 
 msgid "When opening an executable file:"
 msgstr "En obrir un fitxer executable:"
@@ -1887,56 +1783,245 @@ msgstr "En obrir un fitxer executable:"
 msgid "Always ask"
 msgstr "Pregunta sempre"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Obri en l'aplicació"
+
+msgid "Run script"
+msgstr "Executa un script"
+
+msgid "Information Panel:"
+msgstr "Quadro d'informació:"
+
+msgid "Show previews"
+msgstr "Mostra les vistes prèvies"
+
+msgid "Auto-play media files"
+msgstr "Reproduïx automàticament els fitxers multimèdia"
+
+msgid "Show item on hover"
+msgstr "Mostra l'element en passar-hi per damunt"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "Quadro de carpetes:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Barra d'estat"
-
-msgid "Status bar:"
-msgstr "Barra d'estat:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Amplària total"
-
-msgid "Hidden"
-msgstr "ocult"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "Limita al directori d'inici si es troba dins d'ell"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Mida de la icona:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Barra d'estat:"
+
+msgid "Small"
+msgstr "Xicoteta"
+
+msgid "Full width"
+msgstr "Amplària total"
+
+msgid "Disabled"
+msgstr "Desactivada"
+
+msgid "Show zoom slider"
+msgstr "Mostra el control lliscant del zoom"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Menú contextual"
+msgid "Location bar:"
+msgstr "Barra d'ubicació:"
+
+msgid "Make location bar editable"
+msgstr "Fes editable la barra d'ubicació"
+
+msgid "Show full path inside location bar"
+msgstr "Mostra el camí sencer en la barra d'ubicació"
+
+msgid "Interface"
+msgstr "Interfície"
+
+msgid "General"
+msgstr "General"
+
+msgid "Display style:"
+msgstr "Estil de la vista: "
+
+msgid "Use common display style for all folders"
+msgstr "Utilitza l'estil de presentació comú per a totes les carpetes"
+
+msgid "Remember display style for each folder"
+msgstr "Recorda l'estil de presentació per a cada carpeta"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Navegueu: "
+
+msgid "Browse compressed files as folders"
+msgstr "Explora els fitxers comprimits com a carpetes"
+
+msgid "Open folders during drag operations"
+msgstr "Obri les carpetes en les operacions d'arrossegament"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Miscel·lània: "
+
+msgid "Show item information on hover"
+msgstr "Mostra informació de l'element en passar-hi per damunt"
+
+msgid "Show selection marker"
+msgstr "Mostra un marcador de selecció"
+
+msgid "Rename single items inline"
+msgstr "Canvia el nom d'elements individuals inclosos"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Oculta també els fitxers de còpia de seguretat en ocultar fitxers ocults"
+
+msgid "Background:"
+msgstr "Fons: "
+
+msgid "Double-click triggers"
+msgstr "Activadors de doble clic"
+
+msgid "Nothing"
+msgstr "Res"
+
+msgid "Go Up"
+msgstr "Puja"
+
+msgid "Content Display"
+msgstr "Visualització del contingut"
+
+msgid "Sorting mode:"
+msgstr "Mode d'ordenació: "
+
+msgid "Natural"
+msgstr "Natural"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alfabètica, sense distingir entre majúscules i minúscules"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alfabètica, distingint entre majúscules i minúscules"
+
+msgid "Folder size:"
+msgstr "Mida de la carpeta:"
+
+msgid "Show number of items"
+msgstr "Mostra el nombre d'elements"
+
+msgid "Show size of contents, up to "
+msgstr "Mostra la mida del contingut, fins a "
+
+msgid "Show no size"
+msgstr "No mostra la mida"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Estil de la data:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Estil dels permisos:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Noms llargs de fitxers:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Amplària de les etiquetes:"
+
+msgid "Medium"
+msgstr "Mitjana"
+
+msgid "Large"
+msgstr "Gran"
+
+msgid "Huge"
+msgstr "Enorme"
+
+msgid "Maximum lines:"
+msgstr "Màxim de línies:"
+
+msgid "Unlimited"
+msgstr "Sense límit"
+
+msgid "Spacing:"
+msgstr "Espaiat:"
+
+msgid "Maximum width:"
+msgstr "Amplària màxima:"
+
+msgid "Folders:"
+msgstr "Carpetes:"
+
+msgid "Expandable"
+msgstr "Ampliable"
+
+msgid "Open files and folders:"
+msgstr "Obri fitxers i carpetes:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Clicant damunt de qualsevol lloc de la fila"
+
+msgid "By clicking on icon or name"
+msgstr "Clicant damunt de la icona o el nom"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Visualitza"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1947,19 +2032,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Menú contextual"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1974,8 +2065,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Paperera:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2083,9 +2180,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Busca…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2118,6 +2212,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Zoom:"
 
 msgid "Zoom"
 msgstr "Zoom"

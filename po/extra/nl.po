@@ -1449,3 +1449,79 @@ msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] "%d item"
 msgstr[1] "%d items"
+
+msgid "levels deep"
+msgstr "niveaus diep"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "bestanden kleiner dan %d MiB"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "_Restore Defaults"
+msgstr "_Standaardwaarden herstellen"
+
+msgid "_Apply"
+msgstr "_Toepassen"
+
+msgid "This location:"
+msgstr "Deze locatie:"
+
+msgid "Tabs:"
+msgstr "Tabbladen:"
+
+msgid "Status & Location bars"
+msgstr "Status- en locatiebalk"
+
+msgid "Places Panel:"
+msgstr "Paneel Plaatsen:"
+
+msgid "Open files and folders with a single click"
+msgstr "Bestanden en mappen met één klik openen"
+
+msgid "New folders:"
+msgstr "Nieuwe mappen:"
+
+msgid "Limit to"
+msgstr "Beperken tot"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Eén Beluga-venster houden en nieuwe mappen in tabbladen openen"
+
+msgid "Full trash:"
+msgstr "Volle prullenbak:"
+
+msgid "Folders & Tabs"
+msgstr "Mappen en tabbladen"
+
+msgid "Elide in the middle"
+msgstr "In het midden inkorten"
+
+msgid "Elide at the end"
+msgstr "Aan het einde inkorten"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Hoe dan ook geeft Beeld › Weergave voor deze map onthouden één map een eigen stijl. Sommige speciale weergaven, zoals zoeken, recente bestanden of de prullenbak, gebruiken altijd een eigen stijl."
+
+msgid "Disk usage:"
+msgstr "Schijfgebruik:"
+
+msgid "Delete files older than"
+msgstr "Bestanden verwijderen die ouder zijn dan"
+
+msgid "Cleanup:"
+msgstr "Opruimen:"
+
+msgid "Ask for confirmation when:"
+msgstr "Om bevestiging vragen bij:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "In Beluga om bevestiging vragen bij:"
+
+msgid "Absolute"
+msgstr "Absoluut"
+
+msgid "percent of the disk"
+msgstr "procent van de schijf"

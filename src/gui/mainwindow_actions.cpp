@@ -498,6 +498,7 @@ void MainWindow::setupActions()
 
 void MainWindow::updateActions()
 {
+    syncLocationBars();
     if (updatingActions_) return;
     updatingActions_ = true;
     ViewContainer *c = activeContainer();
@@ -566,6 +567,18 @@ void MainWindow::updateActions()
     if (v) {
         const ViewProps &p = v->props();
         state(this, "view-mode", g_variant_new_string(mode_name(p.viewMode)));
+        if (viewModeIcon_) {
+            // The view settings button shows the current mode, as in Dolphin.
+            static const char *icons[] = {"view-list-icons", "view-grid-symbolic", nullptr};
+            static const char *compact[] = {"view-list-details", "view-list-compact-symbolic", "view-list-symbolic", nullptr};
+            static const char *details[] = {"view-list-tree", "view-list-symbolic", nullptr};
+            static const char *columns[] = {"view-column", "view-file-columns", "view-columns-symbolic", "view-dual-symbolic", nullptr};
+            const char *const *names = p.viewMode == ModeCompact ? compact : p.viewMode == ModeDetails ? details
+                                     : p.viewMode == ModeColumns ? columns : icons;
+            GIcon *gi = g_themed_icon_new_from_names((char **)names, -1);
+            gtk_image_set_from_gicon(GTK_IMAGE(viewModeIcon_), gi);
+            g_object_unref(gi);
+        }
         state(this, "sort-by", g_variant_new_string(p.sortRole.c_str()));
         state(this, "sort-descending", g_variant_new_boolean(p.sortDescending));
         state(this, "folders-first", g_variant_new_boolean(p.sortFoldersFirst));
@@ -590,6 +603,7 @@ void MainWindow::updateActions()
     }
     const Settings &s = settings();
     state(this, "split", g_variant_new_boolean(split));
+    if (splitLabel_) gtk_label_set_text(GTK_LABEL(splitLabel_), split ? _("Close") : _("Split"));
     state(this, "editable-location", g_variant_new_boolean(s.editableUrl));
     state(this, "show-places", g_variant_new_boolean(s.placesPanel));
     state(this, "show-folders", g_variant_new_boolean(s.foldersPanel));

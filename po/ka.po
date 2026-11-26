@@ -1211,6 +1211,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "ხედის მორგება"
 
+msgid "Split"
+msgstr "გაყოფა"
+
 msgid "Menu"
 msgstr "მენიუ"
 
@@ -1529,14 +1532,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "ჭდის ფონტი:"
 
-msgid "Icon size:"
-msgstr "ხატულების ზომა:"
+msgid "Default icon size:"
+msgstr "ხატულას ნაგულისხმევი ზომა:"
 
-msgid "Preview size:"
-msgstr "მინიატურის ზომა:"
+msgid "Preview icon size:"
+msgstr "ხატულას მინიატურის ზომა:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1586,123 +1589,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "საერთო"
+msgid "no file"
+msgstr "ფაილის გარეშე"
 
-msgid "Startup"
-msgstr "გაშვება"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "ქცევა"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "ტერმინალი"
+msgid "files of any size"
+msgstr "ნებისმიერი ზომის ფაილები"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "ძებნა…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "გაშვებისას ჩვენება:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "საქაღალდეების, ჩანართებისა და ფანჯრების მდგომარეობა ბოლო გახსნის შემდეგ"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "მიმდინარე მდებარეობის გამოყენება"
+
+msgid "Use Default Location"
+msgstr "ნაგულისხმევი მდებარეობის გამოყენება"
+
+msgid "Opening Folders:"
+msgstr "საქაღალდეების გახსნა:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "ფანჯარა:"
+
+msgid "Show full path in title bar"
+msgstr "სათაურის ზოლში სრული ბილიკის ჩვენება"
+
+msgid "Show filter bar"
+msgstr "ფილტრის ზოლის ჩვენება"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "ჩანართების ზოლის ყოველთვის ჩვენება"
+
+msgid "Show close button on tabs"
+msgstr "ჩანართებზე დახურვის ღილაკის ჩვენება"
+
+msgid "Tab style:"
+msgstr "ჩანართის სტილი: "
+
+msgid "Tab width adapts to folder name"
+msgstr "ჩანართის სიგანე საქაღალდის სახელს ერგება"
+
+msgid "Tabs all have the same fixed width"
+msgstr "ჩანართებს ექნებათ იგივე ფიქსირებული ზომა"
+
+msgid "Tabs span the available width"
+msgstr "ჩანართები დაიკავებს ხელმისაწვდომ სიგანეს"
+
+msgid "Open new tabs:"
+msgstr "ახალი ჩანართების გახსნა: "
+
+msgid "After current tab"
+msgstr "მიმდინარე ჩანართის შემდეგ"
+
+msgid "At end of tab bar"
+msgstr "ჩანართების ზოლის ბოლოში"
+
+msgid "Split view:"
+msgstr "ხედის გაყოფა: "
+
+msgid "When closing a split view"
+msgstr "დაყოფილი ხედის დახურვისას"
+
+msgid "Close the active pane"
+msgstr "აქტიური პანელის დახურვა"
+
+msgid "Close the inactive pane"
+msgstr "არააქტიური პანელის დახურვა"
+
+msgid "Close the right pane"
+msgstr "მარჯვენა პანელის დახურვა"
+
+msgid "Open new windows in split view mode"
+msgstr "ახალი ფანჯრების დაყოფილი ხედის რეჟიმში გახსნა"
+
+msgid "Terminal:"
+msgstr "ტერმინალი:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1711,116 +1699,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "ხედი"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "ნატურალური"
-
-msgid "Alphabetical, case insensitive"
-msgstr "ანბანური, რეგისტრზე დამოუკიდებელი"
-
-msgid "Alphabetical, case sensitive"
-msgstr "ანბანური, რეგისტრზე დამოკიდებული"
-
-msgid "Folder size:"
-msgstr "საქაღალდის ზომა:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "არცერთი"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "ხაზის სიგანე:"
-
-msgid "Small"
-msgstr "პატარა"
-
-msgid "Medium"
-msgstr "საშუალო"
-
-msgid "Large"
-msgstr "დიდი"
-
-msgid "Huge"
-msgstr "უზარმაზარი"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "შეუზღუდავი"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "გადახედვები"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "მინიატურების ჩვენება ზომისთვის"
+msgid "Show previews in the view for:"
+msgstr "მინიატურების ჩვენება ხედში რისთვის:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1837,44 +1730,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "ლოკალური საცავი:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "მინიატურების ჩვენება ზომისთვის"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "დაშორებული საცავი:"
 
 msgid "Confirmations"
 msgstr "დადასტურებები"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "ფაილების გადაადგილება ნაგვის ურნაში"
+
+msgid "Emptying trash"
+msgstr "სანაგვე ყუთის დაცარიელება"
+
+msgid "Deleting files or folders"
+msgstr "ფაილების და საქაღალდეების წაშლა"
+
+msgid "Renaming a file will change its type"
+msgstr "ფაილის სახელის გადარქმევა მის ტიპს შეცვლის"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "ერთზე მეტი ჩანართის მქონე ფანჯრის დახურვისას"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "ერთზე მეტ საქაღალდის ერთდროული გახსნა"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "ბევრი ტერმინალის ერთდროული გახსნა"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "ადმინისტრატორზე გადართვა"
 
 msgid "When opening an executable file:"
 msgstr "გამშვები ფაილის გახსნისას:"
@@ -1882,56 +1778,245 @@ msgstr "გამშვები ფაილის გახსნისას:
 msgid "Always ask"
 msgstr "ყოველთვის კითხვა"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "აპლიკაციაში გახსნა"
+
+msgid "Run script"
+msgstr "სკრიპტის გაშვება"
+
+msgid "Information Panel:"
+msgstr "ინფორმაციის პანელი:"
+
+msgid "Show previews"
+msgstr "მინიატურების ჩვენება"
+
+msgid "Auto-play media files"
+msgstr "მედია ფაილების ავტომატური დაკვრა"
+
+msgid "Show item on hover"
+msgstr "ელემენტის ჩვენება კურსორის გადატარებისას"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "საქაღალდეების პანელი:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "სტატუსის ზოლი"
-
-msgid "Status bar:"
-msgstr "სტატუსის ზოლი:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "სრული სიგანე"
-
-msgid "Hidden"
-msgstr "დამალული"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "საწყის საქაღალდეზე შეზღუდვა შიგნით ყოფნისას"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "ხატულების ზომა:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "სტატუსის ზოლი:"
+
+msgid "Small"
+msgstr "პატარა"
+
+msgid "Full width"
+msgstr "სრული სიგანე"
+
+msgid "Disabled"
+msgstr "გამორთულია"
+
+msgid "Show zoom slider"
+msgstr "გადიდების ცოციის ჩვენება"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "კონტექსტური მენიუ"
+msgid "Location bar:"
+msgstr "მდებარეობის ზოლი:"
+
+msgid "Make location bar editable"
+msgstr "მდებარეობის ზოლის ჩასწორებადობა"
+
+msgid "Show full path inside location bar"
+msgstr "მდებარეობის ზოლში სრული ბილიკის ჩვენება"
+
+msgid "Interface"
+msgstr "ინტერფეისი"
+
+msgid "General"
+msgstr "საერთო"
+
+msgid "Display style:"
+msgstr "ჩვენების სტილი: "
+
+msgid "Use common display style for all folders"
+msgstr "საერთო ჩვენების სტილის გამოყენება ყველა საქაღალდისთვის"
+
+msgid "Remember display style for each folder"
+msgstr "თითოეული საქაღალდისთვის ცალ-ცალკე სტილის დამახსოვრება"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "დათვალიერება: "
+
+msgid "Browse compressed files as folders"
+msgstr "შეკუმშული ფაილების დათვალიერება საქაღალდეების სახით"
+
+msgid "Open folders during drag operations"
+msgstr "გადათრევისას საქაღალდეების გახსნა"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "სხვადასხვა: "
+
+msgid "Show item information on hover"
+msgstr "ელემენტის ინფორმაციის ჩვენება კურსორის გადატარებისას"
+
+msgid "Show selection marker"
+msgstr "მონიშვნის მაჩვენებლის ჩვენება"
+
+msgid "Rename single items inline"
+msgstr "ერთი ელემენტის სახელის ხაზშივე გადარქმევა"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "დამალული ფაილების დამალვისას მარქაფის ფაილებიც დაიმალება"
+
+msgid "Background:"
+msgstr "ფონი: "
+
+msgid "Double-click triggers"
+msgstr "ორმაგი-წკაპის ტრიგერები"
+
+msgid "Nothing"
+msgstr "არაფერი"
+
+msgid "Go Up"
+msgstr "მაღლა ასვლა"
+
+msgid "Content Display"
+msgstr "შემცველობის ჩვენება"
+
+msgid "Sorting mode:"
+msgstr "დახარისხების რეჟიმი: "
+
+msgid "Natural"
+msgstr "ნატურალური"
+
+msgid "Alphabetical, case insensitive"
+msgstr "ანბანური, რეგისტრზე დამოუკიდებელი"
+
+msgid "Alphabetical, case sensitive"
+msgstr "ანბანური, რეგისტრზე დამოკიდებული"
+
+msgid "Folder size:"
+msgstr "საქაღალდის ზომა:"
+
+msgid "Show number of items"
+msgstr "ელემენტების რაოდენობის ჩვენება"
+
+msgid "Show size of contents, up to "
+msgstr "შემცველობის ზომის ჩვენება. მაქს "
+
+msgid "Show no size"
+msgstr "ზომა ნაჩვენები არ იქნება"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "თარიღის სტილი:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "წვდომების სტილი:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "გრძელი ფაილის სახელები:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "ხაზის სიგანე:"
+
+msgid "Medium"
+msgstr "საშუალო"
+
+msgid "Large"
+msgstr "დიდი"
+
+msgid "Huge"
+msgstr "უზარმაზარი"
+
+msgid "Maximum lines:"
+msgstr "მაქსიმალური ხაზები:"
+
+msgid "Unlimited"
+msgstr "შეუზღუდავი"
+
+msgid "Spacing:"
+msgstr "დაშორება:"
+
+msgid "Maximum width:"
+msgstr "მაქსიმალური სიგანე:"
+
+msgid "Folders:"
+msgstr "საქაღალდეები:"
+
+msgid "Expandable"
+msgstr "გაფართოებადი"
+
+msgid "Open files and folders:"
+msgstr "ფაილები და საქაღალდეების გახსნა:"
+
+msgid "By clicking anywhere on the row"
+msgstr "მწკრივში ნებისმიერ ადგილას დაწკაპუნებით"
+
+msgid "By clicking on icon or name"
+msgstr "ხატულაზე ან სახელზე დაწკაპუნებით"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "ხედი"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1942,19 +2027,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "კონტექსტური მენიუ"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1969,8 +2060,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "ნაგვის ყუთი:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2078,9 +2175,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "ძებნა…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2113,6 +2207,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "გადიდება:"
 
 msgid "Zoom"
 msgstr "გადიდება"

@@ -1214,6 +1214,9 @@ msgstr "Venster sluiten"
 msgid "View Settings"
 msgstr "Weergave-instellingen"
 
+msgid "Split"
+msgstr "Splitsen"
+
 msgid "Menu"
 msgstr "Menu"
 
@@ -1532,14 +1535,14 @@ msgstr "%d px"
 msgid "Use the system _font"
 msgstr "Het _systeemlettertype gebruiken"
 
-msgid "View font:"
-msgstr "Lettertype van de weergave:"
+msgid "Label font:"
+msgstr "Lettertype van het label:"
 
-msgid "Icon size:"
-msgstr "Pictogramgrootte:"
+msgid "Default icon size:"
+msgstr "Standaard pictogramgrootte:"
 
-msgid "Preview size:"
-msgstr "Voorbeeldgrootte:"
+msgid "Preview icon size:"
+msgstr "Pictogramgrootte van voorbeeld:"
 
 msgid "Context Menu Action"
 msgstr "Contextmenu-actie"
@@ -1589,123 +1592,108 @@ msgstr "_Verwijderen"
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr "Sneltoetsen schrijft u als <Control>c of <Shift>Delete. Scheid er meerdere met komma's. Laat een veld leeg voor de standaard."
 
-msgid "General"
-msgstr "Algemeen"
+msgid "no file"
+msgstr "geen bestand"
 
-msgid "Startup"
-msgstr "Opstarten"
-
-msgid "_Home folder:"
-msgstr "_Persoonlijke map:"
-
-msgid "_Remember open folders and tabs"
-msgstr "Geopende mappen en tabbladen _onthouden"
-
-msgid "Begin in _split view mode"
-msgstr "Beginnen in _gesplitste weergave"
-
-msgid "Show _filter bar"
-msgstr "_Filterbalk tonen"
-
-msgid "Make location bar _editable"
-msgstr "Locatiebalk _bewerkbaar maken"
-
-msgid "Show full path inside _location bar"
-msgstr "Volledig pad in de _locatiebalk tonen"
-
-msgid "Show full path in _title bar"
-msgstr "Volledig pad in de _titelbalk tonen"
-
-msgid "Mouse"
-msgstr "Muis"
-
-msgid "These used to be KDE system settings."
-msgstr "Dit waren vroeger KDE-systeeminstellingen."
-
-msgid "Clicking files or folders:"
-msgstr "Klikken op bestanden of mappen:"
-
-msgid "Selects them (double-click opens)"
-msgstr "Selecteert ze (dubbelklikken opent)"
-
-msgid "Opens them"
-msgstr "Opent ze"
-
-msgid "Double-clicking empty space:"
-msgstr "Dubbelklikken op lege ruimte:"
-
-msgid "Does nothing"
-msgstr "Doet niets"
-
-msgid "Selects all items"
-msgstr "Selecteert alle items"
-
-msgid "Goes up"
-msgstr "Gaat omhoog"
-
-msgid "Opens a new tab"
-msgstr "Opent een nieuw tabblad"
-
-msgid "Toggles hidden files"
-msgstr "Schakelt verborgen bestanden om"
-
-msgid "Tabs and Split View"
-msgstr "Tabbladen en gesplitste weergave"
-
-msgid "Open new tabs after the _last tab"
-msgstr "Nieuwe tabbladen na het _laatste openen"
-
-msgid "_Always show the tab bar"
-msgstr "Tabbladbalk _altijd tonen"
-
-msgid "Show _close buttons on tabs"
-msgstr "_Sluitknoppen op tabbladen tonen"
-
-msgid "Open folders from other applications in a new _tab"
-msgstr "Mappen uit andere toepassingen in een nieuw _tabblad openen"
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr "_Archieven als mappen openen (zip, tar, 7z, rar, ISO)"
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr "Een _index van de persoonlijke map bijhouden voor direct zoeken"
-
-msgid "Closing split view closes:"
-msgstr "Sluiten van de gesplitste weergave sluit:"
-
-msgid "The active view"
-msgstr "De actieve weergave"
-
-msgid "The inactive view"
-msgstr "De inactieve weergave"
-
-msgid "The right view"
-msgstr "De rechterweergave"
-
-msgid "Behavior"
-msgstr "Gedrag"
-
-msgid "Rename single items _inline"
-msgstr "Losse items _ter plaatse hernoemen"
-
-msgid "Show selection _marker"
-msgstr "Selectie_markering tonen"
-
-msgid "Show item information on _hover"
-msgstr "Iteminformatie tonen bij _aanwijzen"
-
-msgid "Open folders while _dragging items over them"
-msgstr "Mappen openen bij het _slepen van items erover"
-
-msgid "Terminal"
-msgstr "Terminal"
+msgid "files of any size"
+msgstr "bestanden van elke grootte"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr "Gebruikt door F4 en Terminal hier openen. %d in de opdracht wordt vervangen door de map; anders start de terminal erin. Dit was vroeger een KDE-systeeminstelling."
+msgid "files below %d MiB"
+msgstr "bestanden kleiner dan %d MiB"
 
-msgid "Terminal _command:"
-msgstr "Terminal_opdracht:"
+msgid "Search…"
+msgstr "Zoeken…"
+
+msgid "_Restore Defaults"
+msgstr "_Standaardwaarden herstellen"
+
+msgid "_Apply"
+msgstr "_Toepassen"
+
+msgid "Folders & Tabs"
+msgstr "Mappen en tabbladen"
+
+msgid "Show on startup:"
+msgstr "Bij opstarten tonen:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Mappen, tabbladen en vensterstatus van de laatste keer"
+
+msgid "This location:"
+msgstr "Deze locatie:"
+
+msgid "Use Current Location"
+msgstr "Huidige locatie gebruiken"
+
+msgid "Use Default Location"
+msgstr "Standaardlocatie gebruiken"
+
+msgid "Opening Folders:"
+msgstr "Mappen worden geopend:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Eén Beluga-venster houden en nieuwe mappen in tabbladen openen"
+
+msgid "Window:"
+msgstr "Venster:"
+
+msgid "Show full path in title bar"
+msgstr "Volledig pad in titelbalk tonen"
+
+msgid "Show filter bar"
+msgstr "Filterbalk tonen"
+
+msgid "Tabs:"
+msgstr "Tabbladen:"
+
+msgid "Always show tab bar"
+msgstr "Tabbladbalk altijd tonen"
+
+msgid "Show close button on tabs"
+msgstr "Toon sluitknop op de tabblad"
+
+msgid "Tab style:"
+msgstr "Tabbladstijl: "
+
+msgid "Tab width adapts to folder name"
+msgstr "De tabbladbreedte past zich aan aan de mapnaam"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Tabbladen hebben alle dezelfde vaste breedte"
+
+msgid "Tabs span the available width"
+msgstr "Tabbladen gebruiken de beschikbare breedte"
+
+msgid "Open new tabs:"
+msgstr "Nieuwe tabbladen openen: "
+
+msgid "After current tab"
+msgstr "Na huidig tabblad"
+
+msgid "At end of tab bar"
+msgstr "Aan eind van de tabbladbalk"
+
+msgid "Split view:"
+msgstr "Gesplitste weergave: "
+
+msgid "When closing a split view"
+msgstr "Bij gesplitste weergave sluiten"
+
+msgid "Close the active pane"
+msgstr "Het actieve paneel sluiten"
+
+msgid "Close the inactive pane"
+msgstr "Het inactieve paneel sluiten"
+
+msgid "Close the right pane"
+msgstr "Het rechter paneel sluiten"
+
+msgid "Open new windows in split view mode"
+msgstr "Nieuw venster in modus gesplitste weergave openen"
+
+msgid "Terminal:"
+msgstr "Terminal:"
 
 msgid "No terminal found"
 msgstr "Geen terminal gevonden"
@@ -1714,116 +1702,21 @@ msgstr "Geen terminal gevonden"
 msgid "Detected: %s"
 msgstr "Gevonden: %s"
 
-msgid "View"
-msgstr "Beeld"
-
-msgid "Use the same display style for _all folders"
-msgstr "Dezelfde weergavestijl voor _alle mappen gebruiken"
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr "Als dit uit staat, onthoudt elke map zijn eigen stijl. Hoe dan ook geeft Beeld › Weergave voor deze map onthouden één map een eigen stijl."
-
-msgid "Natural"
-msgstr "Natuurlijk"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Alfabetisch, hoofd-/kleine letter ongevoelig"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Alfabetisch, hoofd-/kleine letter gevoelig"
-
-msgid "Folder size:"
-msgstr "Mapgrootte:"
-
-msgid "Number of items"
-msgstr "Aantal items"
-
-msgid "Size of contents"
-msgstr "Grootte van de inhoud"
-
-msgid "None"
-msgstr "Geen"
-
-msgid "Folder size depth limit:"
-msgstr "Dieptelimiet voor mapgroottes:"
-
-msgid "Dates:"
-msgstr "Datums:"
-
-msgid "Relative (Today, Yesterday…)"
-msgstr "Relatief (Vandaag, Gisteren…)"
-
-msgid "Short"
-msgstr "Kort"
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr "Symbolisch (rwxr-xr-x)"
-
-msgid "Numeric (0755)"
-msgstr "Numeriek (0755)"
-
-msgid "Combined"
-msgstr "Gecombineerd"
-
-msgid "Shorten long names:"
-msgstr "Lange namen inkorten:"
-
-msgid "At the end"
-msgstr "Aan het einde"
-
-msgid "In the middle"
-msgstr "In het midden"
-
-msgid "Hide _backup files (ending in ~)"
-msgstr "_Reservekopieën verbergen (eindigend op ~)"
-
-msgid "Label width:"
-msgstr "Labelbreedte:"
-
-msgid "Small"
-msgstr "Klein"
-
-msgid "Medium"
-msgstr "Middel"
-
-msgid "Large"
-msgstr "Groot"
-
-msgid "Huge"
-msgstr "Zeer groot"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr "Maximaal aantal labelregels (0: geen limiet):"
-
-msgid "Co_mpact spacing"
-msgstr "_Compacte tussenruimte"
-
-msgid "Maximum label width:"
-msgstr "Maximale labelbreedte:"
-
-msgid "Unlimited"
-msgstr "Onbeperkt"
-
-msgid "E_xpandable folders"
-msgstr "_Uitklapbare mappen"
-
-msgid "Highlight the entire _row"
-msgstr "De hele _rij markeren"
-
-msgid "Show a Disk _Usage column"
-msgstr "Een kolom _Schijfgebruik tonen"
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr "De ruimte die elk bestand en elke hele map op de schijf inneemt, met een balk voor het aandeel in de map, zoals Hulpmiddelen › Schijfgebruik. Mappen worden op de achtergrond volledig gelezen; sorteer op de kolom om de grootste eerst te zien. ‘Op deze schijf blijven’ uit het venster Schijfgebruik geldt hier ook."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Gebruikt door F4 en Terminal hier openen. %d in de opdracht wordt vervangen door de map; anders start de terminal erin. Dit was vroeger een KDE-systeeminstelling."
 
 msgid "Previews"
 msgstr "Voorbeelden"
 
+msgid "New folders:"
+msgstr "Nieuwe mappen:"
+
 msgid "Show _previews in new folders"
 msgstr "_Voorbeelden in nieuwe mappen tonen"
 
-msgid "Show previews for"
-msgstr "Voorbeelden tonen voor"
+msgid "Show previews in the view for:"
+msgstr "Voorbeelden in het beeld tonen voor:"
 
 msgid "Audio (cover art)"
 msgstr "Audio (hoes)"
@@ -1840,44 +1733,47 @@ msgstr "Lettertypen"
 msgid "Office documents"
 msgstr "Kantoordocumenten"
 
-msgid "Limits"
-msgstr "Limieten"
+msgid "Local storage:"
+msgstr "Lokale opslag:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr "Lokale bestanden groter dan overslaan (MiB, 0: geen limiet):"
+msgid "Show previews for"
+msgstr "Voorbeelden tonen voor"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr "Externe bestanden tot (MiB, 0: nooit):"
+msgid "Remote storage:"
+msgstr "Opslag op afstand:"
 
 msgid "Confirmations"
 msgstr "Bevestigingen"
 
-msgid "Ask for confirmation when"
-msgstr "Om bevestiging vragen bij"
+msgid "Ask for confirmation when:"
+msgstr "Om bevestiging vragen bij:"
 
-msgid "Moving files or folders to the _trash"
-msgstr "Bestanden of mappen naar de _prullenbak verplaatsen"
+msgid "Moving files or folders to trash"
+msgstr "Verplaatsen van bestanden naar de prullenbak"
 
-msgid "_Deleting files or folders"
-msgstr "Bestanden of mappen _verwijderen"
+msgid "Emptying trash"
+msgstr "Prullenbak legen"
 
-msgid "_Emptying the trash"
-msgstr "De prullenbak _legen"
+msgid "Deleting files or folders"
+msgstr "verwijderen van bestanden of mappen"
 
-msgid "Closing windows with _multiple tabs"
-msgstr "Vensters met _meerdere tabbladen sluiten"
+msgid "Renaming a file will change its type"
+msgstr "Hernoemen van een bestand zal zijn type wijzigen"
 
-msgid "Opening many _folders at once"
-msgstr "Veel _mappen tegelijk openen"
+msgid "Ask for confirmation in Beluga when:"
+msgstr "In Beluga om bevestiging vragen bij:"
 
-msgid "Opening many t_erminals at once"
-msgstr "Veel t_erminals tegelijk openen"
+msgid "Closing windows with multiple tabs"
+msgstr "Vensters met meerdere tabbladen sluiten"
 
-msgid "Renaming changes a file's _type"
-msgstr "Hernoemen dat het _type van een bestand wijzigt"
+msgid "Opening many folders at once"
+msgstr "Tegelijk openen van vele mappen"
 
-msgid "Acting as _administrator"
-msgstr "Optreden als _beheerder"
+msgid "Opening many terminals at once"
+msgstr "Tegelijk openen van vele terminals"
+
+msgid "Switching to act as an administrator"
+msgstr "Omschakelen om als systeembeheerder te werken"
 
 msgid "When opening an executable file:"
 msgstr "Bij openen van een uitvoerbaar bestand:"
@@ -1885,56 +1781,245 @@ msgstr "Bij openen van een uitvoerbaar bestand:"
 msgid "Always ask"
 msgstr "Altijd vragen"
 
-msgid "Open in an application"
-msgstr "Openen in een toepassing"
+msgid "Open in application"
+msgstr "In toepassing openen"
 
-msgid "Run it"
-msgstr "Uitvoeren"
+msgid "Run script"
+msgstr "Script uitvoeren"
 
-msgid "Bars and Panels"
-msgstr "Balken en panelen"
+msgid "Information Panel:"
+msgstr "Informatiepaneel:"
 
-msgid "Status Bar"
-msgstr "Statusbalk"
+msgid "Show previews"
+msgstr "Voorbeelden tonen"
 
-msgid "Status bar:"
-msgstr "Statusbalk:"
+msgid "Auto-play media files"
+msgstr "Mediabestanden automatisch afspelen"
 
-msgid "Small (shows only when hovering or selecting)"
-msgstr "Klein (alleen zichtbaar bij aanwijzen of selecteren)"
-
-msgid "Full width"
-msgstr "Volledige breedte"
-
-msgid "Hidden"
-msgstr "Verborgen"
-
-msgid "Show _zoom slider"
-msgstr "_Zoomschuifregelaar tonen"
-
-msgid "Show free _space"
-msgstr "Vrije _ruimte tonen"
-
-msgid "Show _hidden folders"
-msgstr "_Verborgen mappen tonen"
-
-msgid "Limit to the home folder when inside it"
-msgstr "Beperken tot de persoonlijke map als u daarin bent"
-
-msgid "Scroll to the current folder _automatically"
-msgstr "_Automatisch naar de huidige map schuiven"
-
-msgid "Play media files _automatically"
-msgstr "Mediabestanden _automatisch afspelen"
-
-msgid "Show the _hovered item"
-msgstr "Het _aangewezen item tonen"
+msgid "Show item on hover"
+msgstr "Item tonen bij er boven zweven"
 
 msgid "Use _long date format"
 msgstr "_Lange datumnotatie gebruiken"
 
-msgid "Context Menu"
-msgstr "Contextmenu"
+msgid "Folders Panel:"
+msgstr "Mappenpaneel:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Tot persoonlijke map beperken wanneer binnen die map"
+
+msgid "Show _hidden folders"
+msgstr "_Verborgen mappen tonen"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Automatisch naar de huidige map schuiven"
+
+msgid "Places Panel:"
+msgstr "Paneel Plaatsen:"
+
+msgid "Icon size:"
+msgstr "Pictogramgrootte:"
+
+msgid "Status & Location bars"
+msgstr "Status- en locatiebalk"
+
+msgid "Status Bar:"
+msgstr "Statusbalk:"
+
+msgid "Small"
+msgstr "Klein"
+
+msgid "Full width"
+msgstr "Volledige breedte"
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+msgid "Show zoom slider"
+msgstr "Zoomschuifregelaar tonen"
+
+msgid "Show free _space"
+msgstr "Vrije _ruimte tonen"
+
+msgid "Location bar:"
+msgstr "Locatiebalk:"
+
+msgid "Make location bar editable"
+msgstr "Locatiebalk bewerkbaar maken"
+
+msgid "Show full path inside location bar"
+msgstr "Volledig pad in locatiebalk tonen"
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Display style:"
+msgstr "Weergavestijl: "
+
+msgid "Use common display style for all folders"
+msgstr "Algemene weergavestijl voor alle mappen gebruiken"
+
+msgid "Remember display style for each folder"
+msgstr "Weergavestijl voor elke map onthouden"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Hoe dan ook geeft Beeld › Weergave voor deze map onthouden één map een eigen stijl. Sommige speciale weergaven, zoals zoeken, recente bestanden of de prullenbak, gebruiken altijd een eigen stijl."
+
+msgid "Browsing:"
+msgstr "Bladeren: "
+
+msgid "Browse compressed files as folders"
+msgstr "Blader in gecomprimeerde bestanden als in mappen"
+
+msgid "Open folders during drag operations"
+msgstr "Mappen openen tijdens verslepen"
+
+msgid "Open files and folders with a single click"
+msgstr "Bestanden en mappen met één klik openen"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Een _index van de persoonlijke map bijhouden voor direct zoeken"
+
+msgid "Miscellaneous:"
+msgstr "Diversen: "
+
+msgid "Show item information on hover"
+msgstr "Informatie van item tonen bij er boven zweven"
+
+msgid "Show selection marker"
+msgstr "Selectiemarkeerder tonen"
+
+msgid "Rename single items inline"
+msgstr "Alleenstaande items inline hernoemen"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Ook reservekopiebestanden verbergen bij verbergen van verborgen bestanden"
+
+msgid "Background:"
+msgstr "Achtergrond: "
+
+msgid "Double-click triggers"
+msgstr "Starters bij dubbel klikken"
+
+msgid "Nothing"
+msgstr "Niets"
+
+msgid "Go Up"
+msgstr "Omhoog"
+
+msgid "Content Display"
+msgstr "Inhoud van scherm"
+
+msgid "Sorting mode:"
+msgstr "Wijze van sortering: "
+
+msgid "Natural"
+msgstr "Natuurlijk"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alfabetisch, hoofd-/kleine letter ongevoelig"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alfabetisch, hoofd-/kleine letter gevoelig"
+
+msgid "Folder size:"
+msgstr "Mapgrootte:"
+
+msgid "Show number of items"
+msgstr "Aantal items tonen"
+
+msgid "Show size of contents, up to "
+msgstr "Grootte van inhoud tonen, tot "
+
+msgid "Show no size"
+msgstr "Geen grootte tonen"
+
+msgid "levels deep"
+msgstr "niveaus diep"
+
+msgid "Date style:"
+msgstr "Datumstijl:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relatief (Vandaag, Gisteren…)"
+
+msgid "Absolute"
+msgstr "Absoluut"
+
+msgid "Permissions style:"
+msgstr "Stijl van toegangsrechten:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolisch (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numeriek (0755)"
+
+msgid "Combined"
+msgstr "Gecombineerd"
+
+msgid "Long file names:"
+msgstr "Lange bestandsnamen:"
+
+msgid "Elide in the middle"
+msgstr "In het midden inkorten"
+
+msgid "Elide at the end"
+msgstr "Aan het einde inkorten"
+
+msgid "Label width:"
+msgstr "Labelbreedte:"
+
+msgid "Medium"
+msgstr "Middel"
+
+msgid "Large"
+msgstr "Groot"
+
+msgid "Huge"
+msgstr "Zeer groot"
+
+msgid "Maximum lines:"
+msgstr "Maximum aantal regels:"
+
+msgid "Unlimited"
+msgstr "Onbeperkt"
+
+msgid "Spacing:"
+msgstr "Spatiëring:"
+
+msgid "Maximum width:"
+msgstr "Maximum breedte:"
+
+msgid "Folders:"
+msgstr "Mappen:"
+
+msgid "Expandable"
+msgstr "Uitbreidbaar"
+
+msgid "Open files and folders:"
+msgstr "Bestanden en mappen openen:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Door ergens in de rij te klikken"
+
+msgid "By clicking on icon or name"
+msgstr "Door op een pictogram of naam te klikken"
+
+msgid "Disk usage:"
+msgstr "Schijfgebruik:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Een kolom _Schijfgebruik tonen"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "De ruimte die elk bestand en elke hele map op de schijf inneemt, met een balk voor het aandeel in de map, zoals Hulpmiddelen › Schijfgebruik. Mappen worden op de achtergrond volledig gelezen; sorteer op de kolom om de grootste eerst te zien. ‘Op deze schijf blijven’ uit het venster Schijfgebruik geldt hier ook."
+
+msgid "View"
+msgstr "Beeld"
 
 msgid "Show in the context menu"
 msgstr "In het contextmenu tonen"
@@ -1945,20 +2030,26 @@ msgstr "‘Kopiëren naar’ en ‘Verplaatsen naar’"
 msgid "Delete (in addition to Move to Trash)"
 msgstr "Verwijderen (naast Naar prullenbak verplaatsen)"
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr "Dit waren vroeger KDE-systeeminstellingen. Limieten worden toegepast bij het starten van Beluga en na het verplaatsen van items naar de prullenbak."
+msgid "Context Menu"
+msgstr "Contextmenu"
 
-msgid "_Delete items that have been in the trash longer than:"
-msgstr "Items _verwijderen die langer in de prullenbak staan dan:"
+msgid "Cleanup:"
+msgstr "Opruimen:"
 
-msgid "Days:"
-msgstr "Dagen:"
+msgid "Delete files older than"
+msgstr "Bestanden verwijderen die ouder zijn dan"
 
-msgid "_Limit the trash to a share of the disk:"
-msgstr "De prullenbak tot een deel van de schijf _beperken:"
+msgid "days"
+msgstr "dagen"
 
-msgid "Percent of the disk:"
-msgstr "Percentage van de schijf:"
+msgid "Limit to"
+msgstr "Beperken tot"
+
+msgid "percent of the disk"
+msgstr "procent van de schijf"
+
+msgid "Full trash:"
+msgstr "Volle prullenbak:"
 
 msgid "When the limit is reached:"
 msgstr "Als de limiet is bereikt:"
@@ -1972,8 +2063,14 @@ msgstr "De oudste items verwijderen"
 msgid "Delete the largest items"
 msgstr "De grootste items verwijderen"
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Dit waren vroeger KDE-systeeminstellingen. Limieten worden toegepast bij het starten van Beluga en na het verplaatsen van items naar de prullenbak."
+
 msgid "Calculating trash size…"
 msgstr "Grootte van de prullenbak berekenen…"
+
+msgid "Trash:"
+msgstr "Prullenbak:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2081,9 +2178,6 @@ msgstr "Filteren op naam (jokertekens zoals *.txt werken)"
 msgid "Keep the filter when changing folders"
 msgstr "Het filter behouden bij het wisselen van map"
 
-msgid "Search…"
-msgstr "Zoeken…"
-
 msgid "In This Folder"
 msgstr "In deze map"
 
@@ -2116,6 +2210,9 @@ msgstr "Afgelopen jaar"
 
 msgid "Hidden files"
 msgstr "Verborgen bestanden"
+
+msgid "Zoom:"
+msgstr "Zoomniveau:"
 
 msgid "Zoom"
 msgstr "Zoomen"

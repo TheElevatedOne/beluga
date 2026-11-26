@@ -1238,6 +1238,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Socruithe Féachana"
 
+msgid "Split"
+msgstr "Roinn"
+
 msgid "Menu"
 msgstr "Roghchlár"
 
@@ -1556,14 +1559,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Cló lipéid:"
 
-msgid "Icon size:"
-msgstr "Méid na ndeilbhíní:"
+msgid "Default icon size:"
+msgstr "Méid réamhshocraithe deilbhín:"
 
-msgid "Preview size:"
-msgstr "Méid an réamhamhairc:"
+msgid "Preview icon size:"
+msgstr "Méid deilbhín réamhamhairc:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1613,123 +1616,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Ginearálta"
+msgid "no file"
+msgstr "gan aon chomhad"
 
-msgid "Startup"
-msgstr "Tosaithe"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Oibriú"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Teirminéal"
+msgid "files of any size"
+msgstr "comhaid d'aon mhéid"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Cuardaigh…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Taispeáin ag am tosaithe:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Fillteáin, cluaisíní, agus staid na fuinneoige ón uair dheireanach"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Úsáid an Suíomh Reatha"
+
+msgid "Use Default Location"
+msgstr "Úsáid an Suíomh Réamhshocraithe"
+
+msgid "Opening Folders:"
+msgstr "Fillteáin a Oscailt:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Fuinneog:"
+
+msgid "Show full path in title bar"
+msgstr "Taispeáin an cosán iomlán sa bharra teidil"
+
+msgid "Show filter bar"
+msgstr "Taispeáin barra scagaire"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Taispeáin barra na gcluaisíní i gcónaí"
+
+msgid "Show close button on tabs"
+msgstr "Taispeáin an cnaipe dúnta ar chluaisíní"
+
+msgid "Tab style:"
+msgstr "Stíl cluaisín: "
+
+msgid "Tab width adapts to folder name"
+msgstr ""
+
+msgid "Tabs all have the same fixed width"
+msgstr ""
+
+msgid "Tabs span the available width"
+msgstr "Clúdaíonn cluaisíní an leithead atá ar fáil"
+
+msgid "Open new tabs:"
+msgstr "Oscail cluaisíní nua: "
+
+msgid "After current tab"
+msgstr "Tar éis an chluaisín reatha"
+
+msgid "At end of tab bar"
+msgstr "Ag deireadh an bharra cluaisíní"
+
+msgid "Split view:"
+msgstr "Radharc scoilte: "
+
+msgid "When closing a split view"
+msgstr "Agus radharc scoilte á dhúnadh"
+
+msgid "Close the active pane"
+msgstr "Dún an painéal gníomhach"
+
+msgid "Close the inactive pane"
+msgstr "Dún an painéal neamhghníomhach"
+
+msgid "Close the right pane"
+msgstr "Dún an phainéal ar dheis"
+
+msgid "Open new windows in split view mode"
+msgstr "Oscail fuinneoga nua i mód radhairc scoilte"
+
+msgid "Terminal:"
+msgstr "Teirminéal:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1738,116 +1726,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Amharc"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Nádúrtha"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Aibítreach, gan íogaireacht sna cásanna"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Aibítreach, cás-íogair"
-
-msgid "Folder size:"
-msgstr "Méid an fhillteáin:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Dada"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Leithead lipéid:"
-
-msgid "Small"
-msgstr "Beag"
-
-msgid "Medium"
-msgstr "Measartha"
-
-msgid "Large"
-msgstr "Mór"
-
-msgid "Huge"
-msgstr "Ollmhór"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Gan teorainn"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Réamhamharc"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Taispeáin réamhamhairc do"
+msgid "Show previews in the view for:"
+msgstr "Taispeáin réamhamhairc san amharc le haghaidh:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1864,44 +1757,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Stóráil áitiúil:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Taispeáin réamhamhairc do"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Stóráil iargúlta:"
 
 msgid "Confirmations"
 msgstr "Deimhniú"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Comhaid nó fillteáin a chur sa bhruscar"
+
+msgid "Emptying trash"
+msgstr "Ag folmhú an bhruscair"
+
+msgid "Deleting files or folders"
+msgstr "Comhaid nó fillteáin a scriosadh"
+
+msgid "Renaming a file will change its type"
 msgstr ""
 
-msgid "_Deleting files or folders"
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Fuinneoga a dhúnadh le cluaisíní iolracha"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Ag oscailt go leor fillteán ag an am céanna"
 
-msgid "Opening many _folders at once"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Oscailt go leor teirminéal ag an am céanna"
 
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Ag aistriú chun gníomhú mar riarthóir"
 
 msgid "When opening an executable file:"
 msgstr "Agus comhad inrite á oscailt:"
@@ -1909,56 +1805,245 @@ msgstr "Agus comhad inrite á oscailt:"
 msgid "Always ask"
 msgstr "Iarr i gcónaí"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Oscail san fheidhmchlár"
+
+msgid "Run script"
+msgstr "Rith an script"
+
+msgid "Information Panel:"
+msgstr "Painéal Faisnéise:"
+
+msgid "Show previews"
+msgstr "Taispeáin réamhamhairc"
+
+msgid "Auto-play media files"
+msgstr "Seinn comhaid meán go huathoibríoch"
+
+msgid "Show item on hover"
+msgstr "Taispeáin mír nuair a bhíonn tú ag luí"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
+msgid "Folders Panel:"
 msgstr ""
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Barra Stádais"
-
-msgid "Status bar:"
-msgstr "Barra Stádais:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Leithead iomlán"
-
-msgid "Hidden"
-msgstr "i bhfolach"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
+msgid "Limit to home directory when inside it"
 msgstr ""
 
 msgid "Show _hidden folders"
 msgstr ""
 
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Méid na ndeilbhíní:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Barra Stádais:"
+
+msgid "Small"
+msgstr "Beag"
+
+msgid "Full width"
+msgstr "Leithead iomlán"
+
+msgid "Disabled"
+msgstr "Díchumasaithe"
+
+msgid "Show zoom slider"
+msgstr "Taispeáin sleamhnán súmála"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Roghchlár Comhthéacs"
+msgid "Location bar:"
+msgstr "Barra suímh:"
+
+msgid "Make location bar editable"
+msgstr "Déan barra suímh in-eagarthóireachta"
+
+msgid "Show full path inside location bar"
+msgstr "Taispeáin an chonair iomláin sa bharra suímh"
+
+msgid "Interface"
+msgstr "Comhéadan"
+
+msgid "General"
+msgstr "Ginearálta"
+
+msgid "Display style:"
+msgstr "Stíl taispeána: "
+
+msgid "Use common display style for all folders"
+msgstr "Úsáid stíl taispeána choiteann do gach fillteán"
+
+msgid "Remember display style for each folder"
+msgstr "Cuimhnigh stíl taispeána do gach fillteán"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Ag brabhsáil: "
+
+msgid "Browse compressed files as folders"
+msgstr "Brabhsáil comhaid chomhbhrúite mar fhillteáin"
+
+msgid "Open folders during drag operations"
+msgstr "Oscail fillteáin le linn tarraingthe"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Ilghnéitheach: "
+
+msgid "Show item information on hover"
+msgstr "Taispeáin faisnéis faoi mhír nuair a bhíonn tú ag luí"
+
+msgid "Show selection marker"
+msgstr "Taispeáin marcóir roghnaithe"
+
+msgid "Rename single items inline"
+msgstr "Athainmnigh míreanna aonair inlíne"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Folaigh comhaid chúltaca agus comhaid fholaithe á gcur i bhfolach freisin"
+
+msgid "Background:"
+msgstr "Cúlra: "
+
+msgid "Double-click triggers"
+msgstr "Spreagthóirí cliceáil faoi dhó"
+
+msgid "Nothing"
+msgstr "Ní rud ar bith"
+
+msgid "Go Up"
+msgstr "Téigh suas"
+
+msgid "Content Display"
+msgstr "Taispeántas Ábhair"
+
+msgid "Sorting mode:"
+msgstr "Mód sórtála: "
+
+msgid "Natural"
+msgstr "Nádúrtha"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Aibítreach, gan íogaireacht sna cásanna"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Aibítreach, cás-íogair"
+
+msgid "Folder size:"
+msgstr "Méid an fhillteáin:"
+
+msgid "Show number of items"
+msgstr "Taispeáin líon na míreanna"
+
+msgid "Show size of contents, up to "
+msgstr "Taispeáin méid an ábhair, suas le "
+
+msgid "Show no size"
+msgstr "Ná taispeáin aon mhéid"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Stíl dáta:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Stíl ceadanna:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Ainmneacha comhad fada:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Leithead lipéid:"
+
+msgid "Medium"
+msgstr "Measartha"
+
+msgid "Large"
+msgstr "Mór"
+
+msgid "Huge"
+msgstr "Ollmhór"
+
+msgid "Maximum lines:"
+msgstr "Uasmhéid comhaid:"
+
+msgid "Unlimited"
+msgstr "Gan teorainn"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "Leithead uasta:"
+
+msgid "Folders:"
+msgstr "Fillteáin:"
+
+msgid "Expandable"
+msgstr "Inleathnaithe"
+
+msgid "Open files and folders:"
+msgstr "Oscail comhaid agus fillteáin:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Trí chliceáil áit ar bith ar an tsraith"
+
+msgid "By clicking on icon or name"
+msgstr "Trí chliceáil ar dheilbhín nó ainm"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Amharc"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1969,19 +2054,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Roghchlár Comhthéacs"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1996,8 +2087,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Bruscar:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2108,9 +2205,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Cuardaigh…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2143,6 +2237,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Zúmáil:"
 
 msgid "Zoom"
 msgstr "Súmáil"

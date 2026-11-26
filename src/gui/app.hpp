@@ -30,6 +30,8 @@ public:
     const std::vector<MainWindow *> &windows() const { return windows_; }
     void windowClosed(MainWindow *w);
     void quit();
+    // The folder shown in a main window (empty for other windows).
+    std::string currentUriOf(GtkWindow *window) const;
     // Opens folders (in tabs of the active window or a new window) and selects files.
     void openLocations(const std::vector<std::string> &uris, bool select, bool split, bool newWindow);
 

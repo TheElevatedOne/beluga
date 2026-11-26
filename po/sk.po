@@ -1227,6 +1227,9 @@ msgstr "Zavrieť okno"
 msgid "View Settings"
 msgstr "Nastavenia zobrazenia"
 
+msgid "Split"
+msgstr "Rozdeliť"
+
 msgid "Menu"
 msgstr "Ponuka"
 
@@ -1545,14 +1548,14 @@ msgstr "%d px"
 msgid "Use the system _font"
 msgstr "Použiť systémové _písmo"
 
-msgid "View font:"
-msgstr "Písmo zobrazenia:"
+msgid "Label font:"
+msgstr "Písmo popisku:"
 
-msgid "Icon size:"
-msgstr "Veľkosť ikony:"
+msgid "Default icon size:"
+msgstr "Predvolená veľkosť ikon:"
 
-msgid "Preview size:"
-msgstr "Veľkosť náhľadu:"
+msgid "Preview icon size:"
+msgstr "Veľkosť pri náhľade:"
 
 msgid "Context Menu Action"
 msgstr "Akcia kontextovej ponuky"
@@ -1602,123 +1605,108 @@ msgstr "_Odstrániť"
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr "Klávesové skratky sa zapisujú ako <Control>c alebo <Shift>Delete. Viac ich oddeľte čiarkami. Prázdne pole znamená predvolenú skratku."
 
-msgid "General"
-msgstr "Všeobecné"
+msgid "no file"
+msgstr "1 súbor"
 
-msgid "Startup"
-msgstr "Spustenie"
-
-msgid "_Home folder:"
-msgstr "_Domovský priečinok:"
-
-msgid "_Remember open folders and tabs"
-msgstr "_Pamätať si otvorené priečinky a karty"
-
-msgid "Begin in _split view mode"
-msgstr "Začať v _rozdelenom pohľade"
-
-msgid "Show _filter bar"
-msgstr "Zobraziť _filtrovací pruh"
-
-msgid "Make location bar _editable"
-msgstr "Umožniť _úpravy panela umiestnenia"
-
-msgid "Show full path inside _location bar"
-msgstr "Zobraziť celú cestu v _paneli umiestnenia"
-
-msgid "Show full path in _title bar"
-msgstr "Zobraziť celú cestu v _titulku okna"
-
-msgid "Mouse"
-msgstr "Myš"
-
-msgid "These used to be KDE system settings."
-msgstr "Kedysi to boli systémové nastavenia KDE."
-
-msgid "Clicking files or folders:"
-msgstr "Kliknutie na súbory alebo priečinky:"
-
-msgid "Selects them (double-click opens)"
-msgstr "Vyberie ich (dvojklik otvorí)"
-
-msgid "Opens them"
-msgstr "Otvorí ich"
-
-msgid "Double-clicking empty space:"
-msgstr "Dvojklik na prázdne miesto:"
-
-msgid "Does nothing"
-msgstr "Nerobí nič"
-
-msgid "Selects all items"
-msgstr "Vyberie všetky položky"
-
-msgid "Goes up"
-msgstr "Prejde vyššie"
-
-msgid "Opens a new tab"
-msgstr "Otvorí novú kartu"
-
-msgid "Toggles hidden files"
-msgstr "Prepne skryté súbory"
-
-msgid "Tabs and Split View"
-msgstr "Karty a rozdelený pohľad"
-
-msgid "Open new tabs after the _last tab"
-msgstr "Otvárať nové karty za _poslednou kartou"
-
-msgid "_Always show the tab bar"
-msgstr "_Vždy zobrazovať pruh kariet"
-
-msgid "Show _close buttons on tabs"
-msgstr "Zobraziť tlačidlá _zatvorenia na kartách"
-
-msgid "Open folders from other applications in a new _tab"
-msgstr "Otvárať priečinky z iných aplikácií v novej _karte"
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr "Otvárať _archívy ako priečinky (zip, tar, 7z, rar, ISO)"
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr "Udržiavať _register domovského priečinka na okamžité hľadanie"
-
-msgid "Closing split view closes:"
-msgstr "Zatvorenie rozdeleného pohľadu zatvorí:"
-
-msgid "The active view"
-msgstr "Aktívny pohľad"
-
-msgid "The inactive view"
-msgstr "Neaktívny pohľad"
-
-msgid "The right view"
-msgstr "Pravý pohľad"
-
-msgid "Behavior"
-msgstr "Správanie"
-
-msgid "Rename single items _inline"
-msgstr "Premenovávať jednotlivé položky _na mieste"
-
-msgid "Show selection _marker"
-msgstr "Zobraziť _značku výberu"
-
-msgid "Show item information on _hover"
-msgstr "Zobraziť informácie o položke pri _prechode myšou"
-
-msgid "Open folders while _dragging items over them"
-msgstr "Otvárať priečinky pri _ťahaní položiek nad nimi"
-
-msgid "Terminal"
-msgstr "Terminál"
+msgid "files of any size"
+msgstr "files of any size"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr "Používa F4 a Otvoriť terminál tu. %d v príkaze sa nahradí priečinkom; inak sa terminál spustí v ňom. Kedysi to bolo systémové nastavenie KDE."
+msgid "files below %d MiB"
+msgstr "súbory menšie ako %d MiB"
 
-msgid "Terminal _command:"
-msgstr "_Príkaz terminálu:"
+msgid "Search…"
+msgstr "Hľadať…"
+
+msgid "_Restore Defaults"
+msgstr "_Obnoviť predvolené"
+
+msgid "_Apply"
+msgstr "_Použiť"
+
+msgid "Folders & Tabs"
+msgstr "Priečinky a karty"
+
+msgid "Show on startup:"
+msgstr "Zobraziť pri spustení:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Priečinky, karty a stav okna od minulého otvorenia"
+
+msgid "This location:"
+msgstr "Toto umiestnenie:"
+
+msgid "Use Current Location"
+msgstr "Použiť aktuálne umiestnenie"
+
+msgid "Use Default Location"
+msgstr "Použiť predvolené umiestnenie"
+
+msgid "Opening Folders:"
+msgstr "Otváranie priečinkov:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Ponechať jediné okno Belugy a otvárať nové priečinky v kartách"
+
+msgid "Window:"
+msgstr "Okno:"
+
+msgid "Show full path in title bar"
+msgstr "Zobrazovať úplnú cestu v titulku okna"
+
+msgid "Show filter bar"
+msgstr "Zobraziť panel filtrovania"
+
+msgid "Tabs:"
+msgstr "Karty:"
+
+msgid "Always show tab bar"
+msgstr "Vždy zobrazovať lištu kariet"
+
+msgid "Show close button on tabs"
+msgstr "Zobrazovať tlačidlo zatvorenia na kartách"
+
+msgid "Tab style:"
+msgstr "Štýl karty: "
+
+msgid "Tab width adapts to folder name"
+msgstr "Tab width adapts to folder name"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Tabs all have rovnaký fixed width"
+
+msgid "Tabs span the available width"
+msgstr "Tabs span the available width"
+
+msgid "Open new tabs:"
+msgstr "Otvoriť nové karty: "
+
+msgid "After current tab"
+msgstr "Za aktuálnou kartou"
+
+msgid "At end of tab bar"
+msgstr "Na konci panelu kariet"
+
+msgid "Split view:"
+msgstr "Rozdelené zobrazenie: "
+
+msgid "When closing a split view"
+msgstr "Pri zatváraní rozdeleného zobrazenia"
+
+msgid "Close the active pane"
+msgstr "Close the active pane"
+
+msgid "Close the inactive pane"
+msgstr "Close the inactive pane"
+
+msgid "Close the right pane"
+msgstr "Zatvoriť pravý panel"
+
+msgid "Open new windows in split view mode"
+msgstr "Začať v režime s rozdeleným zobrazením"
+
+msgid "Terminal:"
+msgstr "Terminál:"
 
 msgid "No terminal found"
 msgstr "Terminál sa nenašiel"
@@ -1727,116 +1715,21 @@ msgstr "Terminál sa nenašiel"
 msgid "Detected: %s"
 msgstr "Zistené: %s"
 
-msgid "View"
-msgstr "Zobraziť"
-
-msgid "Use the same display style for _all folders"
-msgstr "Používať rovnaký štýl zobrazenia pre _všetky priečinky"
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr "Ak je vypnuté, každý priečinok si pamätá vlastný štýl. V oboch prípadoch dá Zobraziť › Pamätať si zobrazenie pre tento priečinok jednému priečinku vlastný štýl."
-
-msgid "Natural"
-msgstr "Prirodzené"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Abecedné triedenie, necitlivé na veľkosť písmen"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Abecedné triedenie, citlivé na veľkosť písmen"
-
-msgid "Folder size:"
-msgstr "Veľkosť priečinka:"
-
-msgid "Number of items"
-msgstr "Počet položiek"
-
-msgid "Size of contents"
-msgstr "Veľkosť obsahu"
-
-msgid "None"
-msgstr "Žiadne"
-
-msgid "Folder size depth limit:"
-msgstr "Hĺbka pre veľkosť priečinkov:"
-
-msgid "Dates:"
-msgstr "Dátumy:"
-
-msgid "Relative (Today, Yesterday…)"
-msgstr "Relatívne (Dnes, Včera…)"
-
-msgid "Short"
-msgstr "Krátke"
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr "Symbolicky (rwxr-xr-x)"
-
-msgid "Numeric (0755)"
-msgstr "Číselne (0755)"
-
-msgid "Combined"
-msgstr "Kombinovane"
-
-msgid "Shorten long names:"
-msgstr "Skracovať dlhé názvy:"
-
-msgid "At the end"
-msgstr "Na konci"
-
-msgid "In the middle"
-msgstr "V strede"
-
-msgid "Hide _backup files (ending in ~)"
-msgstr "Skryť _záložné súbory (končiace ~)"
-
-msgid "Label width:"
-msgstr "Šírka popisku:"
-
-msgid "Small"
-msgstr "Malá"
-
-msgid "Medium"
-msgstr "Stredná"
-
-msgid "Large"
-msgstr "Veľká"
-
-msgid "Huge"
-msgstr "Obrovská"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr "Najviac riadkov popisu (0: bez obmedzenia):"
-
-msgid "Co_mpact spacing"
-msgstr "_Kompaktné rozostupy"
-
-msgid "Maximum label width:"
-msgstr "Najväčšia šírka popisu:"
-
-msgid "Unlimited"
-msgstr "Neobmedzená"
-
-msgid "E_xpandable folders"
-msgstr "_Rozbaliteľné priečinky"
-
-msgid "Highlight the entire _row"
-msgstr "Zvýrazniť celý _riadok"
-
-msgid "Show a Disk _Usage column"
-msgstr "Zobraziť stĺpec _Využitie disku"
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr "Miesto, ktoré každý súbor a celý priečinok zaberá na disku, s pruhom jeho podielu na priečinku, ako Nástroje › Využitie disku. Priečinky sa čítajú celé na pozadí; zoradením podľa stĺpca uvidíte najväčšie ako prvé. Voľba „Zostať na tomto disku“ z okna Využitie disku platí aj tu."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Používa F4 a Otvoriť terminál tu. %d v príkaze sa nahradí priečinkom; inak sa terminál spustí v ňom. Kedysi to bolo systémové nastavenie KDE."
 
 msgid "Previews"
 msgstr "Náhľady"
 
+msgid "New folders:"
+msgstr "Nové priečinky:"
+
 msgid "Show _previews in new folders"
 msgstr "Zobraziť _náhľady v nových priečinkoch"
 
-msgid "Show previews for"
-msgstr "Zobrazovať náhľady pre"
+msgid "Show previews in the view for:"
+msgstr "Zobraziť náhľady v pohľade pre:"
 
 msgid "Audio (cover art)"
 msgstr "Zvuk (obal albumu)"
@@ -1853,44 +1746,47 @@ msgstr "Písma"
 msgid "Office documents"
 msgstr "Kancelárske dokumenty"
 
-msgid "Limits"
-msgstr "Limity"
+msgid "Local storage:"
+msgstr "Umiestnenie:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr "Preskočiť miestne súbory väčšie ako (MiB, 0: bez obmedzenia):"
+msgid "Show previews for"
+msgstr "Zobrazovať náhľady pre"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr "Vzdialené súbory do (MiB, 0: nikdy):"
+msgid "Remote storage:"
+msgstr "Vzdialené úložisko:"
 
 msgid "Confirmations"
 msgstr "Potvrdenia"
 
-msgid "Ask for confirmation when"
-msgstr "Žiadať o potvrdenie pri"
+msgid "Ask for confirmation when:"
+msgstr "Žiadať o potvrdenie pri:"
 
-msgid "Moving files or folders to the _trash"
-msgstr "Presúvaní súborov alebo priečinkov do _koša"
+msgid "Moving files or folders to trash"
+msgstr "Presúvaní súborov alebo priečinkov do koša"
 
-msgid "_Deleting files or folders"
-msgstr "_Mazaní súborov alebo priečinkov"
+msgid "Emptying trash"
+msgstr "Vyprázdňovaní koša"
 
-msgid "_Emptying the trash"
-msgstr "_Vyprázdňovaní koša"
+msgid "Deleting files or folders"
+msgstr "Odstránení súborov alebo priečinkov"
 
-msgid "Closing windows with _multiple tabs"
-msgstr "Zatváraní okien s _viacerými kartami"
+msgid "Renaming a file will change its type"
+msgstr "Renaming a file will change its type"
 
-msgid "Opening many _folders at once"
-msgstr "Otváraní mnohých _priečinkov naraz"
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Žiadať o potvrdenie v Beluge pri:"
 
-msgid "Opening many t_erminals at once"
-msgstr "Otváraní mnohých t_erminálov naraz"
+msgid "Closing windows with multiple tabs"
+msgstr "Zatváraní okien Dolphin s viacerými kartami"
 
-msgid "Renaming changes a file's _type"
-msgstr "Premenovaní, ktoré mení _typ súboru"
+msgid "Opening many folders at once"
+msgstr "Otváranie viacerých priečinkov naraz"
 
-msgid "Acting as _administrator"
-msgstr "Konaní ako _správca"
+msgid "Opening many terminals at once"
+msgstr "Otváranie viacerých terminálov naraz"
+
+msgid "Switching to act as an administrator"
+msgstr "Switching to act as an administrator"
 
 msgid "When opening an executable file:"
 msgstr "Pri otvorení spustiteľného súboru:"
@@ -1898,56 +1794,245 @@ msgstr "Pri otvorení spustiteľného súboru:"
 msgid "Always ask"
 msgstr "Vždy sa pýtať"
 
-msgid "Open in an application"
-msgstr "Otvoriť v aplikácii"
+msgid "Open in application"
+msgstr "Otvoriť v aplikácií"
 
-msgid "Run it"
-msgstr "Spustiť"
+msgid "Run script"
+msgstr "Spustiť skript"
 
-msgid "Bars and Panels"
-msgstr "Pruhy a panely"
+msgid "Information Panel:"
+msgstr "Panel informácií:"
 
-msgid "Status Bar"
-msgstr "Stavový riadok"
+msgid "Show previews"
+msgstr "Zobrazovať náhľady"
 
-msgid "Status bar:"
-msgstr "Stavový riadok:"
+msgid "Auto-play media files"
+msgstr "Automaticky prehrať mediálne súbory"
 
-msgid "Small (shows only when hovering or selecting)"
-msgstr "Malý (zobrazí sa len pri prechode myšou alebo výbere)"
-
-msgid "Full width"
-msgstr "Plná šírka"
-
-msgid "Hidden"
-msgstr "Skrytý"
-
-msgid "Show _zoom slider"
-msgstr "Zobraziť _posúvač priblíženia"
-
-msgid "Show free _space"
-msgstr "Zobraziť voľné _miesto"
-
-msgid "Show _hidden folders"
-msgstr "Zobraziť _skryté priečinky"
-
-msgid "Limit to the home folder when inside it"
-msgstr "Obmedziť na domovský priečinok, ak je v ňom"
-
-msgid "Scroll to the current folder _automatically"
-msgstr "_Automaticky posúvať na aktuálny priečinok"
-
-msgid "Play media files _automatically"
-msgstr "_Automaticky prehrávať multimediálne súbory"
-
-msgid "Show the _hovered item"
-msgstr "Zobraziť položku _pod kurzorom"
+msgid "Show item on hover"
+msgstr "Zobraziť položku pri prechádzaní myšou"
 
 msgid "Use _long date format"
 msgstr "Použiť _dlhý formát dátumu"
 
-msgid "Context Menu"
-msgstr "Kontextová ponuka"
+msgid "Folders Panel:"
+msgstr "Panel priečinkov:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Obmedziť na domovský adresár, ak je v ňom"
+
+msgid "Show _hidden folders"
+msgstr "Zobraziť _skryté priečinky"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Automaticky posúvať na aktuálny priečinok"
+
+msgid "Places Panel:"
+msgstr "Panel Miesta:"
+
+msgid "Icon size:"
+msgstr "Veľkosť ikony:"
+
+msgid "Status & Location bars"
+msgstr "Stavový riadok a panel umiestnenia"
+
+msgid "Status Bar:"
+msgstr "Stavový riadok: "
+
+msgid "Small"
+msgstr "Malá"
+
+msgid "Full width"
+msgstr "Plná šírka"
+
+msgid "Disabled"
+msgstr "Zakázané"
+
+msgid "Show zoom slider"
+msgstr "Zobrazovať posuvník zväčšenia"
+
+msgid "Show free _space"
+msgstr "Zobraziť voľné _miesto"
+
+msgid "Location bar:"
+msgstr "Panel umiestenia:"
+
+msgid "Make location bar editable"
+msgstr "Umožniť zmenu panelu umiestnenia"
+
+msgid "Show full path inside location bar"
+msgstr "Zobrazovať úplnú cestu v paneli umiestnenia"
+
+msgid "Interface"
+msgstr "Rozhranie"
+
+msgid "General"
+msgstr "Všeobecné"
+
+msgid "Display style:"
+msgstr "Štýl zobrazenia: "
+
+msgid "Use common display style for all folders"
+msgstr "Používať spoločné nastavenia pre všetky priečinky"
+
+msgid "Remember display style for each folder"
+msgstr "Zapamätať si nastavenia pre každý priečinok osobitne"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "V oboch prípadoch dá Zobraziť › Pamätať si zobrazenie pre tento priečinok jednému priečinku vlastný štýl. Niektoré zvláštne zobrazenia, ako hľadanie, nedávne súbory alebo kôš, majú vlastný štýl vždy."
+
+msgid "Browsing:"
+msgstr "Prehliadanie: "
+
+msgid "Browse compressed files as folders"
+msgstr "Prechádzať komprimovanými súbormi ako priečinkami"
+
+msgid "Open folders during drag operations"
+msgstr "Otvárať priečinky pri operáciach ťahania"
+
+msgid "Open files and folders with a single click"
+msgstr "Otvárať súbory a priečinky jedným kliknutím"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Udržiavať _register domovského priečinka na okamžité hľadanie"
+
+msgid "Miscellaneous:"
+msgstr "Rôzne: "
+
+msgid "Show item information on hover"
+msgstr "Zobraziť položku pri prejdení myšou"
+
+msgid "Show selection marker"
+msgstr "Zobrazovať indikátor výberu"
+
+msgid "Rename single items inline"
+msgstr "Premenovať v riadku"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Also hide backup files while hiding hidden files"
+
+msgid "Background:"
+msgstr "Background: "
+
+msgid "Double-click triggers"
+msgstr "Dvojité kliknutie otvorí súbory a priečinky"
+
+msgid "Nothing"
+msgstr "Nothing"
+
+msgid "Go Up"
+msgstr "Prejsť vyššie"
+
+msgid "Content Display"
+msgstr "Zobrazenie obsahu"
+
+msgid "Sorting mode:"
+msgstr "Režim zoraďovania: "
+
+msgid "Natural"
+msgstr "Prirodzené"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Abecedné triedenie, necitlivé na veľkosť písmen"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Abecedné triedenie, citlivé na veľkosť písmen"
+
+msgid "Folder size:"
+msgstr "Veľkosť priečinka:"
+
+msgid "Show number of items"
+msgstr "Počet položiek"
+
+msgid "Show size of contents, up to "
+msgstr "Veľkosť obsahu, až do "
+
+msgid "Show no size"
+msgstr "Nezobrazovať veľkosť"
+
+msgid "levels deep"
+msgstr "úrovní hlboko"
+
+msgid "Date style:"
+msgstr "Štýl dátumu:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relatívne (Dnes, Včera…)"
+
+msgid "Absolute"
+msgstr "Absolútne"
+
+msgid "Permissions style:"
+msgstr "Štýl oprávnení:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolicky (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Číselne (0755)"
+
+msgid "Combined"
+msgstr "Kombinovane"
+
+msgid "Long file names:"
+msgstr "Dlhé názvy súborov:"
+
+msgid "Elide in the middle"
+msgstr "Skrátiť v strede"
+
+msgid "Elide at the end"
+msgstr "Skrátiť na konci"
+
+msgid "Label width:"
+msgstr "Šírka popisku:"
+
+msgid "Medium"
+msgstr "Stredná"
+
+msgid "Large"
+msgstr "Veľká"
+
+msgid "Huge"
+msgstr "Obrovská"
+
+msgid "Maximum lines:"
+msgstr "Maximálny počet riadkov:"
+
+msgid "Unlimited"
+msgstr "Neobmedzená"
+
+msgid "Spacing:"
+msgstr "Rozostupy:"
+
+msgid "Maximum width:"
+msgstr "Maximálna šírka:"
+
+msgid "Folders:"
+msgstr "Priečinky:"
+
+msgid "Expandable"
+msgstr "Rozšíriteľné"
+
+msgid "Open files and folders:"
+msgstr "Otvoriť súbory a priečinky:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Kliknutím kdekoľvek na riadok"
+
+msgid "By clicking on icon or name"
+msgstr "Kliknutím na ikonu alebo názov"
+
+msgid "Disk usage:"
+msgstr "Využitie disku:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Zobraziť stĺpec _Využitie disku"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Miesto, ktoré každý súbor a celý priečinok zaberá na disku, s pruhom jeho podielu na priečinku, ako Nástroje › Využitie disku. Priečinky sa čítajú celé na pozadí; zoradením podľa stĺpca uvidíte najväčšie ako prvé. Voľba „Zostať na tomto disku“ z okna Využitie disku platí aj tu."
+
+msgid "View"
+msgstr "Zobraziť"
 
 msgid "Show in the context menu"
 msgstr "Zobraziť v kontextovej ponuke"
@@ -1958,20 +2043,26 @@ msgstr "„Kopírovať do“ a „Presunúť do“"
 msgid "Delete (in addition to Move to Trash)"
 msgstr "Vymazať (navyše k Presunúť do koša)"
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr "Kedysi to boli systémové nastavenia KDE. Limity sa uplatnia pri spustení Belugy a po presune položiek do koša."
+msgid "Context Menu"
+msgstr "Kontextová ponuka"
 
-msgid "_Delete items that have been in the trash longer than:"
-msgstr "_Mazať položky, ktoré sú v koši dlhšie ako:"
+msgid "Cleanup:"
+msgstr "Upratovanie:"
 
-msgid "Days:"
-msgstr "Dni:"
+msgid "Delete files older than"
+msgstr "Mazať súbory staršie ako"
 
-msgid "_Limit the trash to a share of the disk:"
-msgstr "_Obmedziť kôš na podiel disku:"
+msgid "days"
+msgstr "dní"
 
-msgid "Percent of the disk:"
-msgstr "Percent disku:"
+msgid "Limit to"
+msgstr "Obmedziť na"
+
+msgid "percent of the disk"
+msgstr "percent disku"
+
+msgid "Full trash:"
+msgstr "Plný kôš:"
 
 msgid "When the limit is reached:"
 msgstr "Po dosiahnutí limitu:"
@@ -1985,8 +2076,14 @@ msgstr "Vymazať najstaršie položky"
 msgid "Delete the largest items"
 msgstr "Vymazať najväčšie položky"
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Kedysi to boli systémové nastavenia KDE. Limity sa uplatnia pri spustení Belugy a po presune položiek do koša."
+
 msgid "Calculating trash size…"
 msgstr "Počítanie veľkosti koša…"
+
+msgid "Trash:"
+msgstr "Kôš:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2095,9 +2192,6 @@ msgstr "Filtrovať podľa názvu (fungujú zástupné znaky ako *.txt)"
 msgid "Keep the filter when changing folders"
 msgstr "Ponechať filter pri zmene priečinka"
 
-msgid "Search…"
-msgstr "Hľadať…"
-
 msgid "In This Folder"
 msgstr "V tomto priečinku"
 
@@ -2130,6 +2224,9 @@ msgstr "Posledný rok"
 
 msgid "Hidden files"
 msgstr "Skryté súbory"
+
+msgid "Zoom:"
+msgstr "Priblíženie:"
 
 msgid "Zoom"
 msgstr "Lupa"

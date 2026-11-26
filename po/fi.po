@@ -1227,6 +1227,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Näkymäasetukset"
 
+msgid "Split"
+msgstr "Puolita"
+
 msgid "Menu"
 msgstr "Valikko"
 
@@ -1545,14 +1548,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Nimikkeen fontti:"
 
-msgid "Icon size:"
-msgstr "Kuvakekoko:"
+msgid "Default icon size:"
+msgstr "Kuvakkeen oletuskoko:"
 
-msgid "Preview size:"
-msgstr "Esikatselukoko:"
+msgid "Preview icon size:"
+msgstr "Esikatselun kuvakekoko:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1602,123 +1605,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Perusasetukset"
+msgid "no file"
+msgstr "ei millekään tiedostolle"
 
-msgid "Startup"
-msgstr "Käynnistys"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Toiminta"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Pääte"
+msgid "files of any size"
+msgstr "kaiken kokoisille tiedostoille"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Etsi…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Näytä käynnistettäessä:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "viimekertaiset kansiot, välilehdet ja ikkunoiden tila"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Käytä nykyistä sijaintia"
+
+msgid "Use Default Location"
+msgstr "Käytä oletussijaintia"
+
+msgid "Opening Folders:"
+msgstr "Kansioiden avaaminen:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Ikkuna:"
+
+msgid "Show full path in title bar"
+msgstr "näytä otsikkopalkissa koko polku"
+
+msgid "Show filter bar"
+msgstr "näytä suodatusrivi"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "näytä välilehtipalkki aina"
+
+msgid "Show close button on tabs"
+msgstr "näytä välilehdissä sulkemispainikkeet"
+
+msgid "Tab style:"
+msgstr "Välilehtityyli:"
+
+msgid "Tab width adapts to folder name"
+msgstr "välilehtien leveys mukautuu kansion nimeen"
+
+msgid "Tabs all have the same fixed width"
+msgstr "välilehdillä on sama kiinteä leveys"
+
+msgid "Tabs span the available width"
+msgstr "välilehdet käyttävät käytettävissä olevan leveyden"
+
+msgid "Open new tabs:"
+msgstr "Avaa uusiin välilehtiin:"
+
+msgid "After current tab"
+msgstr "nykyisen välilehden jälkeen"
+
+msgid "At end of tab bar"
+msgstr "välilehtirivin loppuun"
+
+msgid "Split view:"
+msgstr "Jaettu näkymä: "
+
+msgid "When closing a split view"
+msgstr "Jakonäkymää suljettaessa"
+
+msgid "Close the active pane"
+msgstr "Sulje aktiivinen paneeli"
+
+msgid "Close the inactive pane"
+msgstr "Sulje passiivinen paneeli"
+
+msgid "Close the right pane"
+msgstr "Sulje oikeanpuoleinen paneeli"
+
+msgid "Open new windows in split view mode"
+msgstr "avaa uudet ikkunat jaettuun näkymään"
+
+msgid "Terminal:"
+msgstr "Pääte:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1727,116 +1715,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Näytä"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "luonnollinen"
-
-msgid "Alphabetical, case insensitive"
-msgstr "aakkosjärjestys, ei pien- ja suuraakkosten eroa"
-
-msgid "Alphabetical, case sensitive"
-msgstr "aakkosjärjestys, erota pien- ja suuraakkoset"
-
-msgid "Folder size:"
-msgstr "Kansion koko:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Ei mitään"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Nimikkeen leveys:"
-
-msgid "Small"
-msgstr "Pieni"
-
-msgid "Medium"
-msgstr "Keskisuuri"
-
-msgid "Large"
-msgstr "Suuri"
-
-msgid "Huge"
-msgstr "Valtava"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Rajoittamaton"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Esikatselut"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "näytä esikatselut"
+msgid "Show previews in the view for:"
+msgstr "Näytä esikatselut näkymässä kohteille:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1853,44 +1746,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Paikallinen talletustila:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "näytä esikatselut"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Etätalletustila:"
 
 msgid "Confirmations"
 msgstr "Vahvistukset"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "tiedostoja tai kansioita siirretään roskakoriin"
+
+msgid "Emptying trash"
+msgstr "roskakori tyhjennetään"
+
+msgid "Deleting files or folders"
+msgstr "tiedostoja tai kansioita poistetaan"
+
+msgid "Renaming a file will change its type"
+msgstr "Tiedoston nimen muuttaminen muuttaa sen tyyppiä"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "useampivälilehtistä ikkunaa suljetaan"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "avataan useampi kansio kerralla"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "avataan useampi pääte kerralla"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "vaihdetaan toimimaan pääkäyttäjänä"
 
 msgid "When opening an executable file:"
 msgstr "Avattaessa ohjelmatiedostoa:"
@@ -1898,56 +1794,245 @@ msgstr "Avattaessa ohjelmatiedostoa:"
 msgid "Always ask"
 msgstr "kysy aina"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "avaa sovellukseen"
+
+msgid "Run script"
+msgstr "suorita skripti"
+
+msgid "Information Panel:"
+msgstr "Tietopaneeli:"
+
+msgid "Show previews"
+msgstr "näytä esikatselut"
+
+msgid "Auto-play media files"
+msgstr "toista mediatiedostot automaattisesti"
+
+msgid "Show item on hover"
+msgstr "Näytä kohde leijuttaessa yllä"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
+msgid "Folders Panel:"
 msgstr ""
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Tilarivi"
-
-msgid "Status bar:"
-msgstr "Tilarivi:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "koko leveys"
-
-msgid "Hidden"
-msgstr "Piilotettu"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
+msgid "Limit to home directory when inside it"
 msgstr ""
 
 msgid "Show _hidden folders"
 msgstr ""
 
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Kuvakekoko:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Tilarivi:"
+
+msgid "Small"
+msgstr "Pieni"
+
+msgid "Full width"
+msgstr "koko leveys"
+
+msgid "Disabled"
+msgstr "ei käytössä"
+
+msgid "Show zoom slider"
+msgstr "näytä suurennusliukusäädin"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Kontekstivalikko"
+msgid "Location bar:"
+msgstr "Sijaintirivi:"
+
+msgid "Make location bar editable"
+msgstr "muokattava sijaintirivi"
+
+msgid "Show full path inside location bar"
+msgstr "näytä sijaintirivillä koko polku"
+
+msgid "Interface"
+msgstr "Käyttöliittymä"
+
+msgid "General"
+msgstr "Perusasetukset"
+
+msgid "Display style:"
+msgstr "Näkymätyyli: "
+
+msgid "Use common display style for all folders"
+msgstr "sama kaikkiin kansioihin"
+
+msgid "Remember display style for each folder"
+msgstr "muista kansiokohtaisesti"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Selaus: "
+
+msgid "Browse compressed files as folders"
+msgstr "selaa pakattuja tiedostoja kansioina"
+
+msgid "Open folders during drag operations"
+msgstr "avaa kansio vedettäessä kohde sen ylle"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Sekalaista:"
+
+msgid "Show item information on hover"
+msgstr "Näytä kohteen tiedot leijuttaessa sen yllä"
+
+msgid "Show selection marker"
+msgstr "näytä tiedostonvalintapainikkeet"
+
+msgid "Rename single items inline"
+msgstr "Muuta yksittäisen kohteen nimeä suoraan"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "tiedostoja piilotettaessa piilota myös varmuuskopiotiedostot"
+
+msgid "Background:"
+msgstr "Tausta: "
+
+msgid "Double-click triggers"
+msgstr "Kaksoisnapsautustoiminto:"
+
+msgid "Nothing"
+msgstr "Ei mitään"
+
+msgid "Go Up"
+msgstr "Siirry ylös"
+
+msgid "Content Display"
+msgstr "Sisältönäkymä"
+
+msgid "Sorting mode:"
+msgstr "Lajittelutapa:"
+
+msgid "Natural"
+msgstr "luonnollinen"
+
+msgid "Alphabetical, case insensitive"
+msgstr "aakkosjärjestys, ei pien- ja suuraakkosten eroa"
+
+msgid "Alphabetical, case sensitive"
+msgstr "aakkosjärjestys, erota pien- ja suuraakkoset"
+
+msgid "Folder size:"
+msgstr "Kansion koko:"
+
+msgid "Show number of items"
+msgstr "näytä kohteiden määrä"
+
+msgid "Show size of contents, up to "
+msgstr "näytä sisällön koko, enintään "
+
+msgid "Show no size"
+msgstr "älä näytä kokoa"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Päiväystapa:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Käyttöoikeuksien esitystapa:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Pitkät tiedostonimet:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Nimikkeen leveys:"
+
+msgid "Medium"
+msgstr "Keskisuuri"
+
+msgid "Large"
+msgstr "Suuri"
+
+msgid "Huge"
+msgstr "Valtava"
+
+msgid "Maximum lines:"
+msgstr "Rivejä enintään:"
+
+msgid "Unlimited"
+msgstr "Rajoittamaton"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "Enimmäisleveys:"
+
+msgid "Folders:"
+msgstr "Kansiot:"
+
+msgid "Expandable"
+msgstr "laajentuva"
+
+msgid "Open files and folders:"
+msgstr "Avaa tiedostot ja kansiot:"
+
+msgid "By clicking anywhere on the row"
+msgstr "napsauttamalla minne tahansa rivillä"
+
+msgid "By clicking on icon or name"
+msgstr "napsauttamalla kuvaketta tai nimeä"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Näytä"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1958,19 +2043,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Kontekstivalikko"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1985,8 +2076,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Roskakori:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2094,9 +2191,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Etsi…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2129,6 +2223,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Lähennys:"
 
 msgid "Zoom"
 msgstr "Suurennus"

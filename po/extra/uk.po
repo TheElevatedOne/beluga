@@ -1464,3 +1464,79 @@ msgstr[0] "%d елемент"
 msgstr[1] "%d елементи"
 msgstr[2] "%d елементів"
 msgstr[3] "%d елемент"
+
+msgid "levels deep"
+msgstr "рівнів углиб"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "файлів менших за %d МіБ"
+
+msgid "days"
+msgstr "днів"
+
+msgid "_Restore Defaults"
+msgstr "_Відновити типові"
+
+msgid "_Apply"
+msgstr "_Застосувати"
+
+msgid "This location:"
+msgstr "Це розташування:"
+
+msgid "Tabs:"
+msgstr "Вкладки:"
+
+msgid "Status & Location bars"
+msgstr "Рядок стану і панель адреси"
+
+msgid "Places Panel:"
+msgstr "Панель «Місця»:"
+
+msgid "Open files and folders with a single click"
+msgstr "Відкривати файли і теки одним клацанням"
+
+msgid "New folders:"
+msgstr "Нові теки:"
+
+msgid "Limit to"
+msgstr "Обмежити до"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Тримати одне вікно Beluga, відкриваючи нові теки у вкладках"
+
+msgid "Full trash:"
+msgstr "Заповнений смітник:"
+
+msgid "Folders & Tabs"
+msgstr "Теки і вкладки"
+
+msgid "Elide in the middle"
+msgstr "Скорочувати посередині"
+
+msgid "Elide at the end"
+msgstr "Скорочувати в кінці"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "У будь-якому разі «Перегляд › Запам'ятати вигляд для цієї теки» дає теці власний стиль. Деякі особливі перегляди, як-от пошук, недавні файли чи смітник, завжди мають власний стиль."
+
+msgid "Disk usage:"
+msgstr "Використання диска:"
+
+msgid "Delete files older than"
+msgstr "Вилучати файли, старші за"
+
+msgid "Cleanup:"
+msgstr "Очищення:"
+
+msgid "Ask for confirmation when:"
+msgstr "Просити підтвердження при:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Просити підтвердження в Beluga при:"
+
+msgid "Absolute"
+msgstr "Абсолютні"
+
+msgid "percent of the disk"
+msgstr "відсотків диска"

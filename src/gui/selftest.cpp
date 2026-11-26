@@ -29,6 +29,7 @@
 #include <algorithm>
 #include <cstring>
 #include <unistd.h>
+#include <functional>
 #include <iostream>
 
 namespace beluga {
@@ -844,9 +845,63 @@ void gui_tests(GtkApplication *app)
     GtkWindow *prefs = nullptr;
     for (GList *l = gtk_application_get_windows(app); l; l = l->next)
         if (gtk_widget_has_css_class(GTK_WIDGET(l->data), "beluga-preferences")) prefs = GTK_WINDOW(l->data);
+    // Finds a widget in the dialog by its text (a check button's label or a button's mnemonic label).
+    std::function<GtkWidget *(GtkWidget *, const char *)> find = [&](GtkWidget *root, const char *text) -> GtkWidget * {
+        for (GtkWidget *c = gtk_widget_get_first_child(root); c; c = gtk_widget_get_next_sibling(c)) {
+            const char *l = GTK_IS_CHECK_BUTTON(c) ? gtk_check_button_get_label(GTK_CHECK_BUTTON(c))
+                          : GTK_IS_BUTTON(c) ? gtk_button_get_label(GTK_BUTTON(c)) : nullptr;
+            if (l && !strcmp(l, text)) return c;
+            if (GtkWidget *r = find(c, text)) return r;
+        }
+        return nullptr;
+    };
     if (prefs) {
         shoot(GTK_WIDGET(prefs), "7-preferences");
-        gtk_window_destroy(prefs);
+        // Every page, and the View page's tabs.
+        std::function<GtkWidget *(GtkWidget *)> firstList = [&](GtkWidget *root) -> GtkWidget * {
+            for (GtkWidget *c = gtk_widget_get_first_child(root); c; c = gtk_widget_get_next_sibling(c)) {
+                if (GTK_IS_LIST_BOX(c)) return c;
+                if (GtkWidget *r = firstList(c)) return r;
+            }
+            return nullptr;
+        };
+        if (GtkWidget *side = firstList(GTK_WIDGET(prefs))) {
+            for (int i = 1; GtkListBoxRow *row = gtk_list_box_get_row_at_index(GTK_LIST_BOX(side), i); ++i) {
+                gtk_list_box_select_row(GTK_LIST_BOX(side), row);
+                wait_ms(150);
+                shoot(GTK_WIDGET(prefs), printf_str("7-preferences-%d", i));
+            }
+            gtk_list_box_select_row(GTK_LIST_BOX(side), gtk_list_box_get_row_at_index(GTK_LIST_BOX(side), 0));
+        }
+        // Dolphin's buttons: a change shows at once, Cancel takes it back, Apply keeps it.
+        bool before = settings().filterBar;
+        GtkWidget *filterCheck = find(GTK_WIDGET(prefs), _("Show filter bar"));
+        if (filterCheck) gtk_check_button_set_active(GTK_CHECK_BUTTON(filterCheck), !before);
+        wait_ms(450);
+        bool changedLive = settings().filterBar != before;
+        GtkWidget *apply = find(GTK_WIDGET(prefs), _("_Apply"));
+        bool applyOn = apply && gtk_widget_get_sensitive(apply);
+        if (GtkWidget *cancel = find(GTK_WIDGET(prefs), _("_Cancel"))) g_signal_emit_by_name(cancel, "clicked");
+        wait_ms(200);
+        check(filterCheck && changedLive && applyOn && settings().filterBar == before,
+              "settings show at once and Cancel takes them back");
+        show_preferences(w->widget());
+        wait_ms(500);
+        prefs = nullptr;
+        for (GList *l = gtk_application_get_windows(app); l; l = l->next)
+            if (gtk_widget_has_css_class(GTK_WIDGET(l->data), "beluga-preferences")) prefs = GTK_WINDOW(l->data);
+        if (prefs) {
+            filterCheck = find(GTK_WIDGET(prefs), _("Show filter bar"));
+            if (filterCheck) gtk_check_button_set_active(GTK_CHECK_BUTTON(filterCheck), !before);
+            wait_ms(100);
+            if (GtkWidget *a = find(GTK_WIDGET(prefs), _("_Apply"))) g_signal_emit_by_name(a, "clicked");
+            if (GtkWidget *c = find(GTK_WIDGET(prefs), _("_Cancel"))) g_signal_emit_by_name(c, "clicked");
+            wait_ms(200);
+            check(settings().filterBar != before, "Apply keeps settings that Cancel would otherwise take back");
+            settings().filterBar = before;
+            settings().save();
+            notify_settings_changed();
+        }
     }
     check(prefs != nullptr, "preferences window");
 }

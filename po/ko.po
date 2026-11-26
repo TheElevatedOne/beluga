@@ -1205,6 +1205,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "보기 설정"
 
+msgid "Split"
+msgstr "나누기"
+
 msgid "Menu"
 msgstr "메뉴"
 
@@ -1523,14 +1526,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "이름표 글꼴:"
 
-msgid "Icon size:"
-msgstr "아이콘 크기:"
+msgid "Default icon size:"
+msgstr "기본 아이콘 크기:"
 
-msgid "Preview size:"
-msgstr "미리 보기 크기:"
+msgid "Preview icon size:"
+msgstr "미리 보기 아이콘 크기:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1580,123 +1583,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "일반"
+msgid "no file"
+msgstr "안 함"
 
-msgid "Startup"
-msgstr "시작"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "동작"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "터미널"
+msgid "files of any size"
+msgstr "임의 크기의 파일"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "검색…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "시작 시 표시:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "마지막으로 사용한 폴더, 탭, 창 상태"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "현재 위치 사용하기"
+
+msgid "Use Default Location"
+msgstr "기본 위치 사용하기"
+
+msgid "Opening Folders:"
+msgstr "폴더 열기:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "창:"
+
+msgid "Show full path in title bar"
+msgstr "제목 표시줄에 전체 경로 표시"
+
+msgid "Show filter bar"
+msgstr "필터 표시줄 표시"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "항상 탭 목록 표시"
+
+msgid "Show close button on tabs"
+msgstr "탭에 닫기 단추 표시"
+
+msgid "Tab style:"
+msgstr "탭 스타일: "
+
+msgid "Tab width adapts to folder name"
+msgstr "폴더 이름에 따라서 탭 길이 조정"
+
+msgid "Tabs all have the same fixed width"
+msgstr "모든 탭을 똑같은 고정된 너비로 표시"
+
+msgid "Tabs span the available width"
+msgstr "사용 가능한 전체 너비로 확장"
+
+msgid "Open new tabs:"
+msgstr "새 탭 열기: "
+
+msgid "After current tab"
+msgstr "현재 탭 뒤에"
+
+msgid "At end of tab bar"
+msgstr "탭 표시줄의 끝"
+
+msgid "Split view:"
+msgstr "보기 나누기: "
+
+msgid "When closing a split view"
+msgstr "분할 보기를 닫을 때"
+
+msgid "Close the active pane"
+msgstr "활성 패널 닫기"
+
+msgid "Close the inactive pane"
+msgstr "비활성 패널 닫기"
+
+msgid "Close the right pane"
+msgstr "오른쪽 패널 닫기"
+
+msgid "Open new windows in split view mode"
+msgstr "새 창을 분할 보기 모드로 열기"
+
+msgid "Terminal:"
+msgstr "터미널:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1705,116 +1693,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "보기(V)"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "자연스럽게"
-
-msgid "Alphabetical, case insensitive"
-msgstr "가나다순, 대소문자 구분 안 함"
-
-msgid "Alphabetical, case sensitive"
-msgstr "가나다순, 대소문자 구분"
-
-msgid "Folder size:"
-msgstr "폴더 크기:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "없음"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "이름표 너비:"
-
-msgid "Small"
-msgstr "작음"
-
-msgid "Medium"
-msgstr "중간"
-
-msgid "Large"
-msgstr "크게"
-
-msgid "Huge"
-msgstr "매우 크게"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "무제한"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "미리 보기"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "다음의 미리 보기 표시:"
+msgid "Show previews in the view for:"
+msgstr "다음 보기에서 미리 보기 표시:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1831,44 +1724,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "로컬 저장소:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "다음의 미리 보기 표시:"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "원격 저장소:"
 
 msgid "Confirmations"
 msgstr "확인"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "파일이나 폴더를 휴지통으로 옮길 때"
+
+msgid "Emptying trash"
+msgstr "휴지통을 비울 때"
+
+msgid "Deleting files or folders"
+msgstr "파일이나 폴더를 삭제할 때"
+
+msgid "Renaming a file will change its type"
+msgstr "파일 이름을 바꾸면 형식도 같이 변경됨"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "탭이 여러 개 열린 창을 닫을 때"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "한 번에 여러 폴더를 열 때"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "한 번에 여러 터미널을 열 때"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "관리자로 작업하기로 전환"
 
 msgid "When opening an executable file:"
 msgstr "실행 파일을 열 때:"
@@ -1876,56 +1772,245 @@ msgstr "실행 파일을 열 때:"
 msgid "Always ask"
 msgstr "항상 묻기"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "앱에서 열기"
+
+msgid "Run script"
+msgstr "스크립트 실행"
+
+msgid "Information Panel:"
+msgstr "정보 패널:"
+
+msgid "Show previews"
+msgstr "미리 보기 표시"
+
+msgid "Auto-play media files"
+msgstr "미디어 파일 자동 재생"
+
+msgid "Show item on hover"
+msgstr "마우스를 올렸을 때 항목 표시"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
+msgid "Folders Panel:"
 msgstr ""
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "상태 표시줄"
-
-msgid "Status bar:"
-msgstr "상태 표시줄:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "전체 너비"
-
-msgid "Hidden"
-msgstr "감춤(H)"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
+msgid "Limit to home directory when inside it"
 msgstr ""
 
 msgid "Show _hidden folders"
 msgstr ""
 
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "아이콘 크기:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "상태 표시줄:"
+
+msgid "Small"
+msgstr "작음"
+
+msgid "Full width"
+msgstr "전체 너비"
+
+msgid "Disabled"
+msgstr "사용 안 함"
+
+msgid "Show zoom slider"
+msgstr "확대/축소 슬라이더 표시"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "상황에 맞는 메뉴"
+msgid "Location bar:"
+msgstr "위치 표시줄:"
+
+msgid "Make location bar editable"
+msgstr "위치 표시줄을 편집 가능으로 설정"
+
+msgid "Show full path inside location bar"
+msgstr "위치 표시줄에 전체 경로 표시"
+
+msgid "Interface"
+msgstr "인터페이스"
+
+msgid "General"
+msgstr "일반"
+
+msgid "Display style:"
+msgstr "표시 스타일: "
+
+msgid "Use common display style for all folders"
+msgstr "모든 폴더에 공통 표시 스타일 사용"
+
+msgid "Remember display style for each folder"
+msgstr "각 폴더의 표시 스타일 기억"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "탐색: "
+
+msgid "Browse compressed files as folders"
+msgstr "압축 파일을 폴더로 탐색"
+
+msgid "Open folders during drag operations"
+msgstr "드래그하는 동안 폴더 열기"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "기타: "
+
+msgid "Show item information on hover"
+msgstr "마우스를 올렸을 때 항목 정보 표시"
+
+msgid "Show selection marker"
+msgstr "선택 마커 표시"
+
+msgid "Rename single items inline"
+msgstr "단일 항목 이름 바로 바꾸기"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "숨김 파일을 숨길 때 백업 파일도 숨기기"
+
+msgid "Background:"
+msgstr "배경: "
+
+msgid "Double-click triggers"
+msgstr "두 번 클릭 트리거"
+
+msgid "Nothing"
+msgstr "없음"
+
+msgid "Go Up"
+msgstr "위로 이동"
+
+msgid "Content Display"
+msgstr "내용 표시"
+
+msgid "Sorting mode:"
+msgstr "정렬 모드: "
+
+msgid "Natural"
+msgstr "자연스럽게"
+
+msgid "Alphabetical, case insensitive"
+msgstr "가나다순, 대소문자 구분 안 함"
+
+msgid "Alphabetical, case sensitive"
+msgstr "가나다순, 대소문자 구분"
+
+msgid "Folder size:"
+msgstr "폴더 크기:"
+
+msgid "Show number of items"
+msgstr "항목 개수 표시"
+
+msgid "Show size of contents, up to "
+msgstr "내용의 크기 표시, 최대 "
+
+msgid "Show no size"
+msgstr "크기 표시 안 함"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "날짜 스타일:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "권한 스타일:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "긴 파일 이름:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "이름표 너비:"
+
+msgid "Medium"
+msgstr "중간"
+
+msgid "Large"
+msgstr "크게"
+
+msgid "Huge"
+msgstr "매우 크게"
+
+msgid "Maximum lines:"
+msgstr "최대 줄 수:"
+
+msgid "Unlimited"
+msgstr "무제한"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "최대 너비:"
+
+msgid "Folders:"
+msgstr "폴더:"
+
+msgid "Expandable"
+msgstr "확장 가능"
+
+msgid "Open files and folders:"
+msgstr "파일이나 폴더 열기:"
+
+msgid "By clicking anywhere on the row"
+msgstr "줄 어디든지 클릭했을 때"
+
+msgid "By clicking on icon or name"
+msgstr "아이콘이나 이름을 클릭했을 때"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "보기(V)"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1936,19 +2021,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "상황에 맞는 메뉴"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1963,8 +2054,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "휴지통:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2071,9 +2168,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "검색…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2106,6 +2200,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "확대/축소:"
 
 msgid "Zoom"
 msgstr "확대/축소"

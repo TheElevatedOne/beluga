@@ -1441,3 +1441,91 @@ msgstr "文件夹面板"
 
 msgid "Columns"
 msgstr "列"
+
+msgid "levels deep"
+msgstr "层深"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "小于 %d MiB 的文件"
+
+msgid "days"
+msgstr "天"
+
+msgid "_Restore Defaults"
+msgstr "恢复默认值(_R)"
+
+msgid "_Apply"
+msgstr "应用(_A)"
+
+msgid "This location:"
+msgstr "此位置："
+
+msgid "Tabs:"
+msgstr "标签页："
+
+msgid "Status & Location bars"
+msgstr "状态栏和位置栏"
+
+msgid "Places Panel:"
+msgstr "位置面板："
+
+msgid "Open files and folders with a single click"
+msgstr "单击打开文件和文件夹"
+
+msgid "New folders:"
+msgstr "新文件夹："
+
+msgid "Limit to"
+msgstr "限制为"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "保持一个 Beluga 窗口，在标签页中打开新文件夹"
+
+msgid "Full trash:"
+msgstr "回收站已满："
+
+msgid "Folders & Tabs"
+msgstr "文件夹和标签页"
+
+msgid "Elide in the middle"
+msgstr "在中间省略"
+
+msgid "Elide at the end"
+msgstr "在末尾省略"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "无论哪种情况，视图 › 记住此文件夹的视图 都能为某个文件夹设置独立样式。搜索、最近文件或回收站等特殊视图始终使用自己的样式。"
+
+msgid "Disk usage:"
+msgstr "磁盘占用："
+
+msgid "Delete files older than"
+msgstr "删除早于以下时间的文件"
+
+msgid "Cleanup:"
+msgstr "清理："
+
+msgid "Ask for confirmation when:"
+msgstr "以下情况时请求确认："
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "在 Beluga 中以下情况时请求确认："
+
+msgid "Absolute"
+msgstr "绝对"
+
+msgid "percent of the disk"
+msgstr "磁盘百分比"
+
+msgid "Spacing:"
+msgstr "间距："
+
+msgid "Limit to home directory when inside it"
+msgstr "位于主文件夹内时限制在主文件夹"
+
+msgid "Folders Panel:"
+msgstr "文件夹面板："
+
+msgid "Renaming a file will change its type"
+msgstr "重命名会改变文件类型"

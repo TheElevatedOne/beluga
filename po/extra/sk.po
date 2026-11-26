@@ -1451,3 +1451,79 @@ msgstr "Vytvoriť nový súbor v:\n%s"
 
 msgid "Columns"
 msgstr "Stĺpce"
+
+msgid "levels deep"
+msgstr "úrovní hlboko"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "súbory menšie ako %d MiB"
+
+msgid "days"
+msgstr "dní"
+
+msgid "_Restore Defaults"
+msgstr "_Obnoviť predvolené"
+
+msgid "_Apply"
+msgstr "_Použiť"
+
+msgid "This location:"
+msgstr "Toto umiestnenie:"
+
+msgid "Tabs:"
+msgstr "Karty:"
+
+msgid "Status & Location bars"
+msgstr "Stavový riadok a panel umiestnenia"
+
+msgid "Places Panel:"
+msgstr "Panel Miesta:"
+
+msgid "Open files and folders with a single click"
+msgstr "Otvárať súbory a priečinky jedným kliknutím"
+
+msgid "New folders:"
+msgstr "Nové priečinky:"
+
+msgid "Limit to"
+msgstr "Obmedziť na"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Ponechať jediné okno Belugy a otvárať nové priečinky v kartách"
+
+msgid "Full trash:"
+msgstr "Plný kôš:"
+
+msgid "Folders & Tabs"
+msgstr "Priečinky a karty"
+
+msgid "Elide in the middle"
+msgstr "Skrátiť v strede"
+
+msgid "Elide at the end"
+msgstr "Skrátiť na konci"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "V oboch prípadoch dá Zobraziť › Pamätať si zobrazenie pre tento priečinok jednému priečinku vlastný štýl. Niektoré zvláštne zobrazenia, ako hľadanie, nedávne súbory alebo kôš, majú vlastný štýl vždy."
+
+msgid "Disk usage:"
+msgstr "Využitie disku:"
+
+msgid "Delete files older than"
+msgstr "Mazať súbory staršie ako"
+
+msgid "Cleanup:"
+msgstr "Upratovanie:"
+
+msgid "Ask for confirmation when:"
+msgstr "Žiadať o potvrdenie pri:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Žiadať o potvrdenie v Beluge pri:"
+
+msgid "Absolute"
+msgstr "Absolútne"
+
+msgid "percent of the disk"
+msgstr "percent disku"

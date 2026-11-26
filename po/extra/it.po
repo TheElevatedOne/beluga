@@ -1443,3 +1443,79 @@ msgstr "Crea un nuovo file in:\n%s"
 
 msgid "Format:"
 msgstr "Formato:"
+
+msgid "levels deep"
+msgstr "livelli di profondità"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "file sotto %d MiB"
+
+msgid "days"
+msgstr "giorni"
+
+msgid "_Restore Defaults"
+msgstr "_Ripristina predefiniti"
+
+msgid "_Apply"
+msgstr "_Applica"
+
+msgid "This location:"
+msgstr "Questa posizione:"
+
+msgid "Tabs:"
+msgstr "Schede:"
+
+msgid "Status & Location bars"
+msgstr "Barre di stato e degli indirizzi"
+
+msgid "Places Panel:"
+msgstr "Pannello Risorse:"
+
+msgid "Open files and folders with a single click"
+msgstr "Apri file e cartelle con un clic singolo"
+
+msgid "New folders:"
+msgstr "Nuove cartelle:"
+
+msgid "Limit to"
+msgstr "Limita a"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Usa una sola finestra di Beluga e apri le nuove cartelle in schede"
+
+msgid "Full trash:"
+msgstr "Cestino pieno:"
+
+msgid "Folders & Tabs"
+msgstr "Cartelle e schede"
+
+msgid "Elide in the middle"
+msgstr "Abbrevia al centro"
+
+msgid "Elide at the end"
+msgstr "Abbrevia alla fine"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "In ogni caso, Visualizza › Ricorda la vista per questa cartella dà a una cartella il proprio stile. Alcune viste speciali, come la ricerca, i file recenti o il cestino, usano sempre uno stile proprio."
+
+msgid "Disk usage:"
+msgstr "Utilizzo del disco:"
+
+msgid "Delete files older than"
+msgstr "Elimina i file più vecchi di"
+
+msgid "Cleanup:"
+msgstr "Pulizia:"
+
+msgid "Ask for confirmation when:"
+msgstr "Chiedi conferma quando:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Chiedi conferma in Beluga quando:"
+
+msgid "Absolute"
+msgstr "Assoluta"
+
+msgid "percent of the disk"
+msgstr "per cento del disco"

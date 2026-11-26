@@ -1456,3 +1456,79 @@ msgstr "Создать новую папку в:\n%s"
 #, c-format
 msgid "Create new file in:\n%s"
 msgstr "Создать новый файл в:\n%s"
+
+msgid "levels deep"
+msgstr "уровней в глубину"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "файлов меньше %d МиБ"
+
+msgid "days"
+msgstr "дней"
+
+msgid "_Restore Defaults"
+msgstr "_Восстановить значения по умолчанию"
+
+msgid "_Apply"
+msgstr "_Применить"
+
+msgid "This location:"
+msgstr "Это расположение:"
+
+msgid "Tabs:"
+msgstr "Вкладки:"
+
+msgid "Status & Location bars"
+msgstr "Строка состояния и адресная строка"
+
+msgid "Places Panel:"
+msgstr "Панель «Точки входа»:"
+
+msgid "Open files and folders with a single click"
+msgstr "Открывать файлы и папки одним щелчком"
+
+msgid "New folders:"
+msgstr "Новые папки:"
+
+msgid "Limit to"
+msgstr "Ограничить до"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Использовать одно окно Beluga, открывая новые папки во вкладках"
+
+msgid "Full trash:"
+msgstr "Заполненная корзина:"
+
+msgid "Folders & Tabs"
+msgstr "Папки и вкладки"
+
+msgid "Elide in the middle"
+msgstr "Сокращать в середине"
+
+msgid "Elide at the end"
+msgstr "Сокращать в конце"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "В любом случае «Вид › Запомнить вид для этой папки» даёт папке собственный стиль. Некоторые особые виды, например поиск, недавние файлы или корзина, всегда используют свой стиль."
+
+msgid "Disk usage:"
+msgstr "Использование диска:"
+
+msgid "Delete files older than"
+msgstr "Удалять файлы старше"
+
+msgid "Cleanup:"
+msgstr "Очистка:"
+
+msgid "Ask for confirmation when:"
+msgstr "Спрашивать подтверждение при:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Спрашивать подтверждение в Beluga при:"
+
+msgid "Absolute"
+msgstr "Абсолютные"
+
+msgid "percent of the disk"
+msgstr "процентов диска"

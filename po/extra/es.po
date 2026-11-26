@@ -1440,3 +1440,79 @@ msgstr "Crear una carpeta nueva en:\n%s"
 #, c-format
 msgid "Create new file in:\n%s"
 msgstr "Crear un archivo nuevo en:\n%s"
+
+msgid "levels deep"
+msgstr "niveles de profundidad"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "archivos de menos de %d MiB"
+
+msgid "days"
+msgstr "días"
+
+msgid "_Restore Defaults"
+msgstr "_Restaurar valores predeterminados"
+
+msgid "_Apply"
+msgstr "_Aplicar"
+
+msgid "This location:"
+msgstr "Esta ubicación:"
+
+msgid "Tabs:"
+msgstr "Pestañas:"
+
+msgid "Status & Location bars"
+msgstr "Barras de estado y de ubicación"
+
+msgid "Places Panel:"
+msgstr "Panel de lugares:"
+
+msgid "Open files and folders with a single click"
+msgstr "Abrir archivos y carpetas con un solo clic"
+
+msgid "New folders:"
+msgstr "Carpetas nuevas:"
+
+msgid "Limit to"
+msgstr "Limitar a"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Mantener una sola ventana de Beluga y abrir las carpetas nuevas en pestañas"
+
+msgid "Full trash:"
+msgstr "Papelera llena:"
+
+msgid "Folders & Tabs"
+msgstr "Carpetas y pestañas"
+
+msgid "Elide in the middle"
+msgstr "Acortar en el medio"
+
+msgid "Elide at the end"
+msgstr "Acortar al final"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "En cualquier caso, Ver › Recordar la vista de esta carpeta da a una carpeta su propio estilo. Algunas vistas especiales, como la búsqueda, los archivos recientes o la papelera, siempre usan su propio estilo."
+
+msgid "Disk usage:"
+msgstr "Uso del disco:"
+
+msgid "Delete files older than"
+msgstr "Eliminar archivos de más de"
+
+msgid "Cleanup:"
+msgstr "Limpieza:"
+
+msgid "Ask for confirmation when:"
+msgstr "Pedir confirmación al:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Pedir confirmación en Beluga al:"
+
+msgid "Absolute"
+msgstr "Absoluta"
+
+msgid "percent of the disk"
+msgstr "por ciento del disco"

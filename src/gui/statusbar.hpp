@@ -29,6 +29,8 @@ private:
     GtkWidget *bar_;
     GtkWidget *label_;
     GtkWidget *zoom_;
+    GtkWidget *zoomLabel_;
+    GtkWidget *spaceDetail_;   // the free space popover's text
     GtkWidget *spaceBox_;
     GtkWidget *spaceBar_;
     GtkWidget *spaceLabel_;

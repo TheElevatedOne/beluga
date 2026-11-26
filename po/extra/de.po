@@ -1446,3 +1446,88 @@ msgstr "Ordner-Leiste"
 
 msgid "Columns"
 msgstr "Spalten"
+
+msgid "levels deep"
+msgstr "Ebenen tief"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "Dateien unter %d MiB"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "_Restore Defaults"
+msgstr "_Standardeinstellungen"
+
+msgid "_Apply"
+msgstr "_Anwenden"
+
+msgid "This location:"
+msgstr "Dieser Ort:"
+
+msgid "Tabs:"
+msgstr "Unterfenster:"
+
+msgid "Status & Location bars"
+msgstr "Status- und Adressleiste"
+
+msgid "Places Panel:"
+msgstr "Orte-Leiste:"
+
+msgid "Open files and folders with a single click"
+msgstr "Dateien und Ordner mit einem einfachen Klick öffnen"
+
+msgid "New folders:"
+msgstr "Neue Ordner:"
+
+msgid "Limit to"
+msgstr "Begrenzen auf"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Nur ein Beluga-Fenster verwenden und neue Ordner in Unterfenstern öffnen"
+
+msgid "Full trash:"
+msgstr "Voller Papierkorb:"
+
+msgid "Folders & Tabs"
+msgstr "Ordner & Unterfenster"
+
+msgid "Elide in the middle"
+msgstr "In der Mitte kürzen"
+
+msgid "Elide at the end"
+msgstr "Am Ende kürzen"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "In beiden Fällen gibt Ansicht › Ansicht für diesen Ordner merken einem Ordner einen eigenen Stil. Einige besondere Ansichten wie Suche, zuletzt verwendete Dateien oder der Papierkorb verwenden immer einen eigenen Stil."
+
+msgid "Disk usage:"
+msgstr "Speicherbelegung:"
+
+msgid "Delete files older than"
+msgstr "Dateien löschen, die älter sind als"
+
+msgid "Cleanup:"
+msgstr "Aufräumen:"
+
+msgid "Ask for confirmation when:"
+msgstr "Um Bestätigung bitten, wenn:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "In Beluga um Bestätigung bitten, wenn:"
+
+msgid "Absolute"
+msgstr "Absolut"
+
+msgid "percent of the disk"
+msgstr "Prozent des Datenträgers"
+
+msgid "Spacing:"
+msgstr "Abstände:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Auf den persönlichen Ordner beschränken, wenn man sich darin befindet"
+
+msgid "Folders Panel:"
+msgstr "Ordner-Leiste:"

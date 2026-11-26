@@ -17,6 +17,9 @@ StatusBar::StatusBar()
     gtk_widget_set_hexpand(label_, TRUE);
     gtk_box_append(GTK_BOX(bar_), label_);
 
+    // As in Dolphin: "Zoom:" and a slider, then the free space as a button that shows the drive's usage.
+    zoomLabel_ = gtk_label_new(_("Zoom:"));
+    gtk_box_append(GTK_BOX(bar_), zoomLabel_);
     zoom_ = gtk_scale_new_with_range(GTK_ORIENTATION_HORIZONTAL, kMinZoom, kMaxZoom, 1);
     gtk_scale_set_draw_value(GTK_SCALE(zoom_), FALSE);
     gtk_widget_set_size_request(zoom_, 140, -1);
@@ -27,19 +30,31 @@ StatusBar::StatusBar()
     }), this);
     gtk_box_append(GTK_BOX(bar_), zoom_);
 
-    spaceBox_ = gtk_overlay_new();
+    spaceBox_ = gtk_menu_button_new();
+    gtk_widget_add_css_class(spaceBox_, "flat");
+    gtk_widget_add_css_class(spaceBox_, "beluga-space");
+    gtk_menu_button_set_always_show_arrow(GTK_MENU_BUTTON(spaceBox_), TRUE);
+    spaceLabel_ = gtk_label_new(nullptr);
+    gtk_menu_button_set_child(GTK_MENU_BUTTON(spaceBox_), spaceLabel_);
+    GtkWidget *pop = gtk_popover_new();
+    GtkWidget *pbox = gtk_box_new(GTK_ORIENTATION_VERTICAL, 6);
+    gtk_widget_set_margin_start(pbox, 10);
+    gtk_widget_set_margin_end(pbox, 10);
+    gtk_widget_set_margin_top(pbox, 8);
+    gtk_widget_set_margin_bottom(pbox, 8);
     spaceBar_ = gtk_level_bar_new_for_interval(0, 1);
     gtk_level_bar_set_mode(GTK_LEVEL_BAR(spaceBar_), GTK_LEVEL_BAR_MODE_CONTINUOUS);
     gtk_level_bar_remove_offset_value(GTK_LEVEL_BAR(spaceBar_), GTK_LEVEL_BAR_OFFSET_LOW);
     gtk_level_bar_remove_offset_value(GTK_LEVEL_BAR(spaceBar_), GTK_LEVEL_BAR_OFFSET_HIGH);
     gtk_level_bar_remove_offset_value(GTK_LEVEL_BAR(spaceBar_), GTK_LEVEL_BAR_OFFSET_FULL);
     gtk_level_bar_add_offset_value(GTK_LEVEL_BAR(spaceBar_), "space-low", 0.9);
-    gtk_widget_set_size_request(spaceBar_, 160, -1);
-    gtk_widget_set_valign(spaceBar_, GTK_ALIGN_CENTER);
-    gtk_overlay_set_child(GTK_OVERLAY(spaceBox_), spaceBar_);
-    spaceLabel_ = gtk_label_new(nullptr);
-    gtk_widget_add_css_class(spaceLabel_, "space-label");
-    gtk_overlay_add_overlay(GTK_OVERLAY(spaceBox_), spaceLabel_);
+    gtk_widget_set_size_request(spaceBar_, 220, -1);
+    gtk_box_append(GTK_BOX(pbox), spaceBar_);
+    spaceDetail_ = gtk_label_new(nullptr);
+    gtk_label_set_xalign(GTK_LABEL(spaceDetail_), 0);
+    gtk_box_append(GTK_BOX(pbox), spaceDetail_);
+    gtk_popover_set_child(GTK_POPOVER(pop), pbox);
+    gtk_menu_button_set_popover(GTK_MENU_BUTTON(spaceBox_), pop);
     gtk_box_append(GTK_BOX(bar_), spaceBox_);
 
     small_ = gtk_label_new(nullptr);
@@ -52,6 +67,8 @@ StatusBar::StatusBar()
     gtk_widget_set_can_target(small_, FALSE);
     gtk_widget_set_visible(small_, FALSE);
 
+    // The free space is read once the bar is on screen (and every 15 s).
+    g_signal_connect(bar_, "map", CB([](GtkWidget *, gpointer p) { static_cast<StatusBar *>(p)->updateSpace(); }), this);
     timer_ = g_timeout_add_seconds(15, [](gpointer p) -> gboolean {
         static_cast<StatusBar *>(p)->updateSpace();
         return G_SOURCE_CONTINUE;
@@ -74,6 +91,7 @@ void StatusBar::applySettings()
 {
     const Settings &s = settings();
     gtk_widget_set_visible(zoom_, s.showZoomSlider);
+    gtk_widget_set_visible(zoomLabel_, s.showZoomSlider);
     gtk_widget_set_visible(spaceBox_, s.showSpaceInfo && !uri_.empty() && !is_virtual_uri(uri_));
 }
 
@@ -127,8 +145,8 @@ void StatusBar::updateSpace()
         }
         gtk_level_bar_set_value(GTK_LEVEL_BAR(s->spaceBar_), 1.0 - (double)free / total);
         gtk_label_set_text(GTK_LABEL(s->spaceLabel_), printf_str(_("%s free"), format_size(free).c_str()).c_str());
-        gtk_widget_set_tooltip_text(s->spaceBox_, printf_str(_("%s free of %s (%d%% used)"), format_size(free).c_str(),
-                                                             format_size(total).c_str(), (int)(100.0 * (total - free) / total)).c_str());
+        gtk_label_set_text(GTK_LABEL(s->spaceDetail_), printf_str(_("%s free of %s (%d%% used)"), format_size(free).c_str(),
+                                                                  format_size(total).c_str(), (int)(100.0 * (total - free) / total)).c_str());
         gtk_widget_set_visible(s->spaceBox_, settings().showSpaceInfo);
     }, this);
 }

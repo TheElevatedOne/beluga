@@ -29,6 +29,8 @@ public:
     // Closes one side of the split view and keeps the other.
     void closeView(ViewContainer *c);
     void updateLabel();
+    // Dolphin's tab styles (Settings::tabStyle) for this tab in the window's notebook.
+    void applyTabStyle(GtkWidget *notebook, int style);
 
 private:
     void attach();

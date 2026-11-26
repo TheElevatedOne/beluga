@@ -1204,6 +1204,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "كۆرۈنۈش تەڭشىكى"
 
+msgid "Split"
+msgstr "پارچىلا"
+
 msgid "Menu"
 msgstr "تىزىملىك"
 
@@ -1522,14 +1525,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "بەلگە خەت نۇسخىسى:"
 
-msgid "Icon size:"
-msgstr "سىنبەلگە چوڭلۇقى:"
+msgid "Default icon size:"
+msgstr "كۆڭۈلدىكى سىنبەلگە چوڭلۇقى:"
 
-msgid "Preview size:"
-msgstr "ئالدىن كۆزىتىش چوڭلۇقى:"
+msgid "Preview icon size:"
+msgstr "ئالدىن كۆزىتىش سىنبەلگە چوڭلۇقى:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1579,123 +1582,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "ئادەتتىكى"
+msgid "no file"
+msgstr "ھۆججەت يوق"
 
-msgid "Startup"
-msgstr "قوزغىلىش"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "قىلمىش"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "تېرمىنال"
+msgid "files of any size"
+msgstr "خالىغان چوڭلۇقتىكى ھۆججەت"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "ئىزدە…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "قوزغالغاندا كۆرسەت:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "ئەسلىگە كەلتۈرۈشتىن ئىلگىرى قىسقۇچ، بەتكۈچ ۋە كۆزنەك ھالىتى"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "نۆۋەتتىكى ئورۇننى ئىشلەت"
+
+msgid "Use Default Location"
+msgstr "كۆڭۈلدىكى ئورۇننى ئىشلەت"
+
+msgid "Opening Folders:"
+msgstr "قىسقۇچ ئېچىلىشى:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "كۆزنەك:"
+
+msgid "Show full path in title bar"
+msgstr "ماۋزۇ بالداقتا تولۇق يولنى كۆرسىتىدۇ"
+
+msgid "Show filter bar"
+msgstr "سۈزگۈچ بالداقنى كۆرسىتىدۇ"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "ھەمىشە بەتكۈچ بالداقنى كۆرسىتىدۇ"
+
+msgid "Show close button on tabs"
+msgstr "بەتكۈچتە ياپ توپچىنى كۆرسىتىدۇ"
+
+msgid "Tab style:"
+msgstr "بەتكۈچ ئۇسلۇبى: "
+
+msgid "Tab width adapts to folder name"
+msgstr "بەتكۈچ كەڭلىكى قىسقۇچ ئىسمىغا ماسلىشىدۇ"
+
+msgid "Tabs all have the same fixed width"
+msgstr "ھەممە بەتكۈچنىڭ كەڭلىكى مۇقىم"
+
+msgid "Tabs span the available width"
+msgstr "بەتكۈچ كەڭلىكى ئېلاستىك"
+
+msgid "Open new tabs:"
+msgstr "يېڭى بەتكۈچ ئاچ: "
+
+msgid "After current tab"
+msgstr "نۆۋەتتىكى بەتكۈچتىن كېيىن"
+
+msgid "At end of tab bar"
+msgstr "بەتكۈچ بالداقنىڭ ئاخىرى"
+
+msgid "Split view:"
+msgstr "بۆلۈنمە كۆرۈنۈش: "
+
+msgid "When closing a split view"
+msgstr "بۆلۈنمە كۆرۈنۈشنى ياپقاندا"
+
+msgid "Close the active pane"
+msgstr "ئاكتىپ كۆزنەكچىنى ياپ"
+
+msgid "Close the inactive pane"
+msgstr "ئاكتىپسىز كۆزنەكچىنى ياپ"
+
+msgid "Close the right pane"
+msgstr "ئوڭ كۆزنەكچىنى ياپ"
+
+msgid "Open new windows in split view mode"
+msgstr "بۆلۈنمە كۆرۈنۈش ھالىتىدە يېڭى كۆزنەك ئاچىدۇ"
+
+msgid "Terminal:"
+msgstr "تېرمىنال:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1704,116 +1692,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "كۆرۈنۈش(V)"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "تەبىئىي"
-
-msgid "Alphabetical, case insensitive"
-msgstr "ھەرپ، چوڭ كىچىك ھەرپنى پەرقلەندۈرمەيدۇ"
-
-msgid "Alphabetical, case sensitive"
-msgstr "ھەرپ، چوڭ كىچىك ھەرپنى پەرقلەندۈرىدۇ"
-
-msgid "Folder size:"
-msgstr "قىسقۇچ چوڭلۇقى:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "يوق"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "بەلگە كەڭلىكى:"
-
-msgid "Small"
-msgstr "كىچىك"
-
-msgid "Medium"
-msgstr "ئوتتۇرا ھال"
-
-msgid "Large"
-msgstr "چوڭ"
-
-msgid "Huge"
-msgstr "زور"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "چەكسىز"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "ئالدىن كۆزەت"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "ئالدىن كۆزىتىشنى كۆرسىتىدۇ"
+msgid "Show previews in the view for:"
+msgstr "كۆرۈنۈشتە ئالدىن كۆزىتىشنى كۆرسىتىدۇ:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1830,44 +1723,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "يەرلىك ساقلىغۇچ:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "ئالدىن كۆزىتىشنى كۆرسىتىدۇ"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "يىراقتىكى ساقلىغۇچ:"
 
 msgid "Confirmations"
 msgstr "جەزملە"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "ھۆججەت ياكى قىسقۇچلارنى ئەخلەتخانىغا يۆتكەۋاتىدۇ"
+
+msgid "Emptying trash"
+msgstr "ئەخلەتخانىنى بوشىتىۋاتىدۇ"
+
+msgid "Deleting files or folders"
+msgstr "ھۆججەت ياكى قىسقۇچلارنى ئۆچۈرۈۋاتىدۇ"
+
+msgid "Renaming a file will change its type"
+msgstr "ئات ئۆزگەرتىۋاتقاندا ھۆججەت تۈرى ئۆزگەرسە"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "كۆپ بەتكۈچلۈك كۆزنەكنى يېپىۋاتقاندا"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "بىرلا ۋاقىتتا نۇرغۇن قىسقۇچ ئاچقاندا"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "بىرلا ۋاقىتتا نۇرغۇن تېرمىنال ئاچقاندا"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "باشقۇرغۇچى سالاھىيىتىدە مەشغۇلات قىلىشقا ئالمىشىۋاتقاندا"
 
 msgid "When opening an executable file:"
 msgstr "ئىجرا قىلىنىدىغان ھۆججەتنى ئېچىۋاتقاندا:"
@@ -1875,56 +1771,245 @@ msgstr "ئىجرا قىلىنىدىغان ھۆججەتنى ئېچىۋاتقان�
 msgid "Always ask"
 msgstr "ئىزچىل سورا"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "پىروگراممىدا ئاچ"
+
+msgid "Run script"
+msgstr "قوليازما ئىجرا قىل"
+
+msgid "Information Panel:"
+msgstr "ئۇچۇر كۆزنەكچە:"
+
+msgid "Show previews"
+msgstr "ئالدىن كۆزىتىشىنى كۆرسىتىدۇ"
+
+msgid "Auto-play media files"
+msgstr "ۋاسىتە ھۆججەتنى ئۆزلۈكىدىن ياڭرىتىدۇ"
+
+msgid "Show item on hover"
+msgstr "نىشانلانسا تۈرنى كۆرسىتىدۇ"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "قىسقۇچ كۆزنەكچە:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "ھالەت بالداق"
-
-msgid "Status bar:"
-msgstr "ھالەت بالداق:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "تولۇق كەڭلىك"
-
-msgid "Hidden"
-msgstr "يوشۇرۇن(H)"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "ئۇ ئىچىدە بولغاندا باش مۇندەرىجىگە چەكلەيدۇ"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "سىنبەلگە چوڭلۇقى:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "ھالەت بالداق:"
+
+msgid "Small"
+msgstr "كىچىك"
+
+msgid "Full width"
+msgstr "تولۇق كەڭلىك"
+
+msgid "Disabled"
+msgstr "چەكلەنگەن"
+
+msgid "Show zoom slider"
+msgstr "نىسبەت سىيرىغۇچنى كۆرسىتىدۇ"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "مەزمۇن تىزىملىكى"
+msgid "Location bar:"
+msgstr "ئورۇن بالداق:"
+
+msgid "Make location bar editable"
+msgstr "ئورۇن بالداق تەھرىرلەشچان"
+
+msgid "Show full path inside location bar"
+msgstr "ئورۇن بالداقتا تولۇق يولنى كۆرسىتىدۇ"
+
+msgid "Interface"
+msgstr "ئارايۈز"
+
+msgid "General"
+msgstr "ئادەتتىكى"
+
+msgid "Display style:"
+msgstr "كۆرسىتىش ئۇسلۇبى: "
+
+msgid "Use common display style for all folders"
+msgstr "ھەممە قىسقۇچقا ئورتاق كۆرۈنۈش خاسلىقىنى ئىشلىتىدۇ"
+
+msgid "Remember display style for each folder"
+msgstr "ھەر بىر قىسقۇچنىڭ كۆرۈنۈش خاسلىقىنى ئەستە تۇتىدۇ"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "كۆز يۈگۈرتۈش: "
+
+msgid "Browse compressed files as folders"
+msgstr "قىسىلغان ھۆججەتكە قىسقۇچتەك كۆز يۈگۈرتىدۇ"
+
+msgid "Open folders during drag operations"
+msgstr "سۆرەش مەشغۇلاتى جەريانىدا قىسقۇچلارنى ئاچىدۇ"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "باشقىلار: "
+
+msgid "Show item information on hover"
+msgstr "نىشانلانسا تۈر ئۇچۇرىنى كۆرسىتىدۇ"
+
+msgid "Show selection marker"
+msgstr "تاللاش بەلگىسىنى كۆرسىتىدۇ"
+
+msgid "Rename single items inline"
+msgstr "يەككە تۈرنىڭ ئاتىنى ئۆزگەرتىدۇ"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "يوشۇرۇن ھۆججەت يوشۇرۇن ھالەتتە تۇرغاندا زاپاس ھۆججەتنىمۇ يوشۇرىدۇ"
+
+msgid "Background:"
+msgstr "تەگلىك: "
+
+msgid "Double-click triggers"
+msgstr "قوش چېكىش قوزغاتقۇچ"
+
+msgid "Nothing"
+msgstr "يوق"
+
+msgid "Go Up"
+msgstr "يۇقىرىغا يۆتكەل"
+
+msgid "Content Display"
+msgstr "مەزمۇن كۆرسىتىش"
+
+msgid "Sorting mode:"
+msgstr "تەرتىپلەش ھالىتى: "
+
+msgid "Natural"
+msgstr "تەبىئىي"
+
+msgid "Alphabetical, case insensitive"
+msgstr "ھەرپ، چوڭ كىچىك ھەرپنى پەرقلەندۈرمەيدۇ"
+
+msgid "Alphabetical, case sensitive"
+msgstr "ھەرپ، چوڭ كىچىك ھەرپنى پەرقلەندۈرىدۇ"
+
+msgid "Folder size:"
+msgstr "قىسقۇچ چوڭلۇقى:"
+
+msgid "Show number of items"
+msgstr "تۈرنىڭ سانىنى كۆرسىتىدۇ"
+
+msgid "Show size of contents, up to "
+msgstr "مەزمۇن چوڭلۇقىنى كۆرسىتىدۇ، يۇقىرى چېكى "
+
+msgid "Show no size"
+msgstr "چوڭلۇقىنى كۆرسەتمەيدۇ"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "چېسلا ئۇسلۇبى:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "ئىجازەت ئۇسلۇبى:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "ئۇزۇن ھۆججەت ئاتى:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "بەلگە كەڭلىكى:"
+
+msgid "Medium"
+msgstr "ئوتتۇرا ھال"
+
+msgid "Large"
+msgstr "چوڭ"
+
+msgid "Huge"
+msgstr "زور"
+
+msgid "Maximum lines:"
+msgstr "ئەڭ كۆپ قۇر سانى:"
+
+msgid "Unlimited"
+msgstr "چەكسىز"
+
+msgid "Spacing:"
+msgstr "ئارىلىق:"
+
+msgid "Maximum width:"
+msgstr "ئەڭ چوڭ كەڭلىكى:"
+
+msgid "Folders:"
+msgstr "قىسقۇچ:"
+
+msgid "Expandable"
+msgstr "يېيىلىشچان"
+
+msgid "Open files and folders:"
+msgstr "ھۆججەت ۋە قىسقۇچ ئېچىش:"
+
+msgid "By clicking anywhere on the row"
+msgstr "قۇردىكى خالىغان جاي چېكىلىدۇ"
+
+msgid "By clicking on icon or name"
+msgstr "سىنبەلگە ياكى ئات چېكىلىدۇ"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "كۆرۈنۈش(V)"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1935,19 +2020,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "مەزمۇن تىزىملىكى"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1962,8 +2053,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "ئەخلەتخانا:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2070,9 +2167,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "ئىزدە…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2105,6 +2199,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "نىسبەت:"
 
 msgid "Zoom"
 msgstr "نىسبەت"

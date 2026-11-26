@@ -106,6 +106,7 @@ private:
     void onTabSwitched(int index);
     void rebuildClosedTabsMenu();
     void layoutRight();
+    void syncLocationBars();
 
     GtkWidget *win_;
     GtkWidget *menubar_;
@@ -116,6 +117,8 @@ private:
     GtkWidget *duPane_ = nullptr;
     bool duPaneOpen_ = false;
     GtkWidget *backButton_, *forwardButton_;
+    GtkWidget *viewModeIcon_ = nullptr, *splitButton_ = nullptr, *splitLabel_ = nullptr;
+    GtkWidget *locSlot_ = nullptr;   // the active tab's location bars, in the tool bar
     GMenuModel *menu_ = nullptr;
     GMenu *closedTabsMenu_ = nullptr;
     std::vector<std::unique_ptr<TabPage>> tabs_;

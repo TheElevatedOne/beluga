@@ -1460,3 +1460,91 @@ msgstr "既定値に戻す"
 msgid "%llu byte"
 msgid_plural "%llu bytes"
 msgstr[0] "%llu バイト"
+
+msgid "levels deep"
+msgstr "階層の深さまで"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "%d MiB 未満のファイル"
+
+msgid "days"
+msgstr "日"
+
+msgid "_Restore Defaults"
+msgstr "既定値に戻す(_R)"
+
+msgid "_Apply"
+msgstr "適用(_A)"
+
+msgid "This location:"
+msgstr "この場所:"
+
+msgid "Tabs:"
+msgstr "タブ:"
+
+msgid "Status & Location bars"
+msgstr "ステータスバーと場所バー"
+
+msgid "Places Panel:"
+msgstr "場所パネル:"
+
+msgid "Open files and folders with a single click"
+msgstr "ファイルとフォルダーをシングルクリックで開く"
+
+msgid "New folders:"
+msgstr "新しいフォルダー:"
+
+msgid "Limit to"
+msgstr "上限"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Beluga のウィンドウを 1 つにして新しいフォルダーをタブで開く"
+
+msgid "Full trash:"
+msgstr "ごみ箱がいっぱいのとき:"
+
+msgid "Folders & Tabs"
+msgstr "フォルダーとタブ"
+
+msgid "Elide in the middle"
+msgstr "中央を省略"
+
+msgid "Elide at the end"
+msgstr "末尾を省略"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "どちらの場合でも、表示 › このフォルダーの表示を記憶 で 1 つのフォルダーに独自のスタイルを与えられます。検索、最近のファイル、ごみ箱などの特別な表示は常に独自のスタイルを使います。"
+
+msgid "Disk usage:"
+msgstr "ディスク使用量:"
+
+msgid "Delete files older than"
+msgstr "次より古いファイルを削除"
+
+msgid "Cleanup:"
+msgstr "クリーンアップ:"
+
+msgid "Ask for confirmation when:"
+msgstr "次の場合に確認する:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Beluga で次の場合に確認する:"
+
+msgid "Absolute"
+msgstr "絶対"
+
+msgid "percent of the disk"
+msgstr "ディスクのパーセント"
+
+msgid "Spacing:"
+msgstr "間隔:"
+
+msgid "Limit to home directory when inside it"
+msgstr "ホームフォルダー内にいるときはホームに限定"
+
+msgid "Folders Panel:"
+msgstr "フォルダーパネル:"
+
+msgid "Renaming a file will change its type"
+msgstr "名前の変更でファイルの種類が変わるとき"

@@ -1233,6 +1233,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Rodyti nuostatas"
 
+msgid "Split"
+msgstr "Padalyti"
+
 msgid "Menu"
 msgstr "Meniu"
 
@@ -1551,14 +1554,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Etikečių šriftas:"
 
-msgid "Icon size:"
-msgstr "Piktogramų dydis:"
+msgid "Default icon size:"
+msgstr "Numatytasis piktogramų dydis:"
 
-msgid "Preview size:"
-msgstr "Peržiūros dydis:"
+msgid "Preview icon size:"
+msgstr "Peržiūros piktogramų dydis:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1608,123 +1611,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Bendra"
+msgid "no file"
+msgstr "jokio failo"
 
-msgid "Startup"
-msgstr "Paleidimas"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Elgsena"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Terminalas"
+msgid "files of any size"
+msgstr "bet kokio dydžio failų"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Ieškoti…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Paleidus, rodyti:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Aplankus, korteles ir lango būseną iš ankstesnio karto"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Naudoti dabartinę vietą"
+
+msgid "Use Default Location"
+msgstr "Naudoti numatytąją vietą"
+
+msgid "Opening Folders:"
+msgstr "Aplankų atvėrimas:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Langas:"
+
+msgid "Show full path in title bar"
+msgstr "Lango antraštės juostoje rodyti visą kelią"
+
+msgid "Show filter bar"
+msgstr "Rodyti filtro juostą"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Visada rodyti kortelių juostą"
+
+msgid "Show close button on tabs"
+msgstr "Rodyti kortelėse užvėrimo mygtuką"
+
+msgid "Tab style:"
+msgstr "Kortelių stilius: "
+
+msgid "Tab width adapts to folder name"
+msgstr "Kortelės plotis prisitaiko prie aplanko pavadinimo"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Visos kortelės yra vienodo fiksuoto pločio"
+
+msgid "Tabs span the available width"
+msgstr "Kortelės užima visą prieinamą plotį"
+
+msgid "Open new tabs:"
+msgstr "Atverti naujas korteles: "
+
+msgid "After current tab"
+msgstr "Po esamos kortelės"
+
+msgid "At end of tab bar"
+msgstr "Kortelių juostos pabaigoje"
+
+msgid "Split view:"
+msgstr "Padalytas rodinys: "
+
+msgid "When closing a split view"
+msgstr "Užveriant padalytą rodinį"
+
+msgid "Close the active pane"
+msgstr "Užverti aktyvų polangį"
+
+msgid "Close the inactive pane"
+msgstr "Užverti neaktyvų polangį"
+
+msgid "Close the right pane"
+msgstr "Užverti dešinįjį polangį"
+
+msgid "Open new windows in split view mode"
+msgstr "Atverti naujus langus padalyto rodinio veiksenoje"
+
+msgid "Terminal:"
+msgstr "Terminalas:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1733,116 +1721,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Rodinys"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Įprasta"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Pagal abėcėlę, neskiriant raidžių dydžio"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Pagal abėcėlę, skiriant raidžių dydį"
-
-msgid "Folder size:"
-msgstr "Aplanko dydis:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Nėra"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Etikečių plotis:"
-
-msgid "Small"
-msgstr "Mažas"
-
-msgid "Medium"
-msgstr "Vidutinis"
-
-msgid "Large"
-msgstr "Didelis"
-
-msgid "Huge"
-msgstr "Didžiulis"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Neribotai"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Peržiūros"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Rodyti peržiūras"
+msgid "Show previews in the view for:"
+msgstr "Rodyti rodinyje peržiūras:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1859,44 +1752,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Vietinė saugykla:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Rodyti peržiūras"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Nuotolinė saugykla:"
 
 msgid "Confirmations"
 msgstr "Patvirtinimai"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Failai ar aplankai perkeliami į šiukšlinę"
+
+msgid "Emptying trash"
+msgstr "Išvaloma šiukšlinė"
+
+msgid "Deleting files or folders"
+msgstr "Ištrinami failai ar aplankai"
+
+msgid "Renaming a file will change its type"
 msgstr ""
 
-msgid "_Deleting files or folders"
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Užveriami langai su keliomis kortelėmis"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Vienu metu atveriama daug aplankų"
 
-msgid "Opening many _folders at once"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Vienu metu atveriama daug terminalų"
 
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Perjungiama naudotis administratoriaus teisėmis"
 
 msgid "When opening an executable file:"
 msgstr "Atveriant vykdomąjį failą:"
@@ -1904,56 +1800,245 @@ msgstr "Atveriant vykdomąjį failą:"
 msgid "Always ask"
 msgstr "Visada klausti"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Atverti programoje"
+
+msgid "Run script"
+msgstr "Paleisti scenarijų"
+
+msgid "Information Panel:"
+msgstr "Informacijos skydelis:"
+
+msgid "Show previews"
+msgstr "Rodyti peržiūras"
+
+msgid "Auto-play media files"
+msgstr "Automatiškai atkurti medijos failus"
+
+msgid "Show item on hover"
+msgstr "Rodyti elementą užvedus pelę"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
+msgid "Folders Panel:"
 msgstr ""
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Būsenos juosta"
-
-msgid "Status bar:"
-msgstr "Būsenos juosta:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Viso pločio"
-
-msgid "Hidden"
-msgstr "Paslėptas"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
+msgid "Limit to home directory when inside it"
 msgstr ""
 
 msgid "Show _hidden folders"
 msgstr ""
 
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Piktogramų dydis:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Būsenos juosta:"
+
+msgid "Small"
+msgstr "Mažas"
+
+msgid "Full width"
+msgstr "Viso pločio"
+
+msgid "Disabled"
+msgstr "Išjungta"
+
+msgid "Show zoom slider"
+msgstr "Rodyti mastelio slankiklį"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Kontekstinis meniu"
+msgid "Location bar:"
+msgstr "Vietos juosta:"
+
+msgid "Make location bar editable"
+msgstr "Paversti vietos juostą redaguojama"
+
+msgid "Show full path inside location bar"
+msgstr "Vietos juostoje rodyti visą kelią"
+
+msgid "Interface"
+msgstr "Sąsaja"
+
+msgid "General"
+msgstr "Bendra"
+
+msgid "Display style:"
+msgstr "Atvaizdavimo stilius: "
+
+msgid "Use common display style for all folders"
+msgstr "Naudoti bendrą rodinio stilių visiems aplankams"
+
+msgid "Remember display style for each folder"
+msgstr "Įsiminti rodinio stilių kiekvienam aplankui"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Naršymas: "
+
+msgid "Browse compressed files as folders"
+msgstr "Naršyti glaudintus failus kaip aplankus"
+
+msgid "Open folders during drag operations"
+msgstr "Tempimo operacijų metu, atverti aplankus"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Įvairūs: "
+
+msgid "Show item information on hover"
+msgstr "Rodyti informaciją apie elementą užvedus pelę"
+
+msgid "Show selection marker"
+msgstr "Rodyti žymėjimo žymeklį"
+
+msgid "Rename single items inline"
+msgstr "Pervadinti pavienius elementus tiesiogiai"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Slepiant paslėptus failus tuo pačiu slėpti ir atsarginės kopijos failus"
+
+msgid "Background:"
+msgstr "Fonas: "
+
+msgid "Double-click triggers"
+msgstr "Dvikartis spustelėjimas paleis"
+
+msgid "Nothing"
+msgstr "Nieko"
+
+msgid "Go Up"
+msgstr "Eiti aukštyn"
+
+msgid "Content Display"
+msgstr "Turinio atvaizdavimas"
+
+msgid "Sorting mode:"
+msgstr "Rikiavimo veiksena: "
+
+msgid "Natural"
+msgstr "Įprasta"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Pagal abėcėlę, neskiriant raidžių dydžio"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Pagal abėcėlę, skiriant raidžių dydį"
+
+msgid "Folder size:"
+msgstr "Aplanko dydis:"
+
+msgid "Show number of items"
+msgstr "Rodyti elementų skaičių"
+
+msgid "Show size of contents, up to "
+msgstr "Rodyti turinio dydį, iki "
+
+msgid "Show no size"
+msgstr "Nerodyti jokio dydžio"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Datos stilius:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Leidimų stilius:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Ilgi failų pavadinimai:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Etikečių plotis:"
+
+msgid "Medium"
+msgstr "Vidutinis"
+
+msgid "Large"
+msgstr "Didelis"
+
+msgid "Huge"
+msgstr "Didžiulis"
+
+msgid "Maximum lines:"
+msgstr "Daugiausiai eilučių:"
+
+msgid "Unlimited"
+msgstr "Neribotai"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "Didžiausias plotis:"
+
+msgid "Folders:"
+msgstr "Aplankai:"
+
+msgid "Expandable"
+msgstr "Išskleidžiami"
+
+msgid "Open files and folders:"
+msgstr "Atverti failus ir aplankus:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Spustelėjant bet kurioje eilutės vietoje"
+
+msgid "By clicking on icon or name"
+msgstr "Spustelėjant ant piktogramos ar pavadinimo"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Rodinys"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1964,19 +2049,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Kontekstinis meniu"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1991,8 +2082,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Šiukšlinė:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2102,9 +2199,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Ieškoti…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2137,6 +2231,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Mastelis:"
 
 msgid "Zoom"
 msgstr "Mastelis"

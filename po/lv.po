@@ -1226,6 +1226,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Skata iestatījumi"
 
+msgid "Split"
+msgstr "Sadalīt"
+
 msgid "Menu"
 msgstr "Izvēlne"
 
@@ -1544,14 +1547,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Datnes/mapes nosaukuma fonts:"
 
-msgid "Icon size:"
-msgstr "Ikonas izmērs:"
+msgid "Default icon size:"
+msgstr "Noklusējuma ikonu izmērs:"
 
-msgid "Preview size:"
-msgstr "Priekšskatījuma izmērs:"
+msgid "Preview icon size:"
+msgstr "Priekšskatījuma ikonu izmērs:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1601,123 +1604,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Vispārīgi"
+msgid "no file"
+msgstr "ne datnēm"
 
-msgid "Startup"
-msgstr "Palaišana"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Uzvedība"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Terminālis"
+msgid "files of any size"
+msgstr "jebkura izmēra datnēm"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Meklēt…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Ieslēdzot rādīt:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Mapju, ciļņu un logu stāvokli no iepriekšējās reizes"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Izmantot pašreizējo atrašanās vietu"
+
+msgid "Use Default Location"
+msgstr "Izmantot noklusējuma atrašanās vietu"
+
+msgid "Opening Folders:"
+msgstr "Mapju atvēršana:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Logs:"
+
+msgid "Show full path in title bar"
+msgstr "Virsraksta joslā rādīt pilnu ceļu"
+
+msgid "Show filter bar"
+msgstr "Rādīt filtra joslu"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Vienmēr rādīt ciļņu joslu"
+
+msgid "Show close button on tabs"
+msgstr "Cilnēs rādīt aizvēršanas pogu"
+
+msgid "Tab style:"
+msgstr "Ciļņu stils: "
+
+msgid "Tab width adapts to folder name"
+msgstr "Cilnes platums pielāgojas mapes nosaukumam"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Visām cilnēm ir viens fiksēts platums"
+
+msgid "Tabs span the available width"
+msgstr "Cilnes izmanto visu pieejamo platumu"
+
+msgid "Open new tabs:"
+msgstr "Atvērt jaunas cilnes: "
+
+msgid "After current tab"
+msgstr "Pēc pašreizējās cilnes"
+
+msgid "At end of tab bar"
+msgstr "Ciļņu joslas beigās"
+
+msgid "Split view:"
+msgstr "Sadalītais skats: "
+
+msgid "When closing a split view"
+msgstr "Aizverot dalīto skatu"
+
+msgid "Close the active pane"
+msgstr "Aizvērt aktīvo skatu"
+
+msgid "Close the inactive pane"
+msgstr "Aizvērt neaktīvo skatu"
+
+msgid "Close the right pane"
+msgstr "Aizvērt labās puses skatu"
+
+msgid "Open new windows in split view mode"
+msgstr "Jaunos logus atvērt dalītā skata režīmā"
+
+msgid "Terminal:"
+msgstr "Terminālis:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1726,116 +1714,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Skats"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Dabīgs"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Pēc alfabēta, ignorējot reģistrjutību"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Pēc alfabēta, reģistrjutīgi"
-
-msgid "Folder size:"
-msgstr "Mapes izmērs:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Nekas"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Datnes/mapes nosaukuma platums:"
-
-msgid "Small"
-msgstr "Mazas"
-
-msgid "Medium"
-msgstr "Vidējas"
-
-msgid "Large"
-msgstr "Liels"
-
-msgid "Huge"
-msgstr "Milzīgs"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Bez ierobežojuma"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Priekšskatījumi"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Rādīt priekšskatījumus"
+msgid "Show previews in the view for:"
+msgstr "Rādīt priekšskatījumus:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1852,44 +1745,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Lokālā krātuve:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Rādīt priekšskatījumus"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Attālinātā krātuve:"
 
 msgid "Confirmations"
 msgstr "Apstiprinājumi"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Pārvieto datnes vai mapes uz atkritni"
+
+msgid "Emptying trash"
+msgstr "Iztukšo atkritni"
+
+msgid "Deleting files or folders"
+msgstr "Dzēš datnes vai mapes"
+
+msgid "Renaming a file will change its type"
+msgstr "Datnes pārdēvēšana mainīs tās tipu"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Aizver logus ar vairākām cilnēm"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Vairāku mapju vienlaicīga atvēršana"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Vairāku termināļu vienlaicīga atvēršana"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Pārslēgties, lai rīkotos kā administratoram"
 
 msgid "When opening an executable file:"
 msgstr "Kad atver izpildāmu datni:"
@@ -1897,56 +1793,245 @@ msgstr "Kad atver izpildāmu datni:"
 msgid "Always ask"
 msgstr "Vienmēr vaicāt"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Atvērt programmā"
+
+msgid "Run script"
+msgstr "Palaist skriptu"
+
+msgid "Information Panel:"
+msgstr "Informācijas panelis:"
+
+msgid "Show previews"
+msgstr "Rādīt priekšskatījumus"
+
+msgid "Auto-play media files"
+msgstr "Automātiski atskaņot multimediju datnes"
+
+msgid "Show item on hover"
+msgstr "Rādīt vienumu, uzliekot peles kursoru"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "Mapju panelis:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Statusa josla"
-
-msgid "Status bar:"
-msgstr "Statusa josla:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Pilna platuma"
-
-msgid "Hidden"
-msgstr "Slēpts"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "Ierobežot līdz mājas mapei, kad atrodaties tajā"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Ikonas izmērs:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Statusa josla:"
+
+msgid "Small"
+msgstr "Mazas"
+
+msgid "Full width"
+msgstr "Pilna platuma"
+
+msgid "Disabled"
+msgstr "Izslēgts"
+
+msgid "Show zoom slider"
+msgstr "Rādīt tālummaiņas slīdni"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Konteksta izvēlne"
+msgid "Location bar:"
+msgstr "Vietas josla:"
+
+msgid "Make location bar editable"
+msgstr "Rediģējama atrašanās vietas josla"
+
+msgid "Show full path inside location bar"
+msgstr "Rādīt pilnu ceļu atrašanās vietas joslā"
+
+msgid "Interface"
+msgstr "Saskarne"
+
+msgid "General"
+msgstr "Vispārīgi"
+
+msgid "Display style:"
+msgstr "Parādīšanas stils: "
+
+msgid "Use common display style for all folders"
+msgstr "Izmantot vienādu attēlošanas stilu visām mapēm"
+
+msgid "Remember display style for each folder"
+msgstr "Atcerēties katras mapes attēlošanas stilu"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Pārlūkošana: "
+
+msgid "Browse compressed files as folders"
+msgstr "Pārlūkot saspiestas datnes kā mapes"
+
+msgid "Open folders during drag operations"
+msgstr "Atvērt mapes, veicot vilkšanas darbības"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Dažādi: "
+
+msgid "Show item information on hover"
+msgstr "Pārliekot peles kursoru, rādīt informāciju par vienumu"
+
+msgid "Show selection marker"
+msgstr "Rādīt atlases marķieri"
+
+msgid "Rename single items inline"
+msgstr "Atsevišķus vienumus pārdēvēt esošajā logā"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Slēpjot slēptas datnes, paslēpt arī rezerves datnes"
+
+msgid "Background:"
+msgstr "Fons:"
+
+msgid "Double-click triggers"
+msgstr "Dubultklikšķa darbības"
+
+msgid "Nothing"
+msgstr "Nekas"
+
+msgid "Go Up"
+msgstr "Iet uz augšu"
+
+msgid "Content Display"
+msgstr "Satur parādīšana"
+
+msgid "Sorting mode:"
+msgstr "Kārtošanas režīms: "
+
+msgid "Natural"
+msgstr "Dabīgs"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Pēc alfabēta, ignorējot reģistrjutību"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Pēc alfabēta, reģistrjutīgi"
+
+msgid "Folder size:"
+msgstr "Mapes izmērs:"
+
+msgid "Show number of items"
+msgstr "Rādīt vienumu skaitu"
+
+msgid "Show size of contents, up to "
+msgstr "Rādīt satura izmēru līdz "
+
+msgid "Show no size"
+msgstr "Nerādīt izmēru"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Datumu stils:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Atļauju stils:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Gari datņu nosaukumi:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Datnes/mapes nosaukuma platums:"
+
+msgid "Medium"
+msgstr "Vidējas"
+
+msgid "Large"
+msgstr "Liels"
+
+msgid "Huge"
+msgstr "Milzīgs"
+
+msgid "Maximum lines:"
+msgstr "Maksimālais rindu skaits:"
+
+msgid "Unlimited"
+msgstr "Bez ierobežojuma"
+
+msgid "Spacing:"
+msgstr "Atstarpes:"
+
+msgid "Maximum width:"
+msgstr "Maksimālais platums:"
+
+msgid "Folders:"
+msgstr "Mapes:"
+
+msgid "Expandable"
+msgstr "Izvēršamas"
+
+msgid "Open files and folders:"
+msgstr "Atvērt datnes un mapes:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Klikšķinot jebkur rindā"
+
+msgid "By clicking on icon or name"
+msgstr "Klikšķinot uz ikonas vai nosaukuma"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Skats"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1957,19 +2042,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Konteksta izvēlne"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1984,8 +2075,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Atkritne:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2094,9 +2191,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Meklēt…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2129,6 +2223,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Tālummaiņa:"
 
 msgid "Zoom"
 msgstr "Tālummaiņa"

@@ -1440,3 +1440,79 @@ msgstr "Criar nova pasta em:\n%s"
 #, c-format
 msgid "Create new file in:\n%s"
 msgstr "Criar novo arquivo em:\n%s"
+
+msgid "levels deep"
+msgstr "níveis de profundidade"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "arquivos com menos de %d MiB"
+
+msgid "days"
+msgstr "dias"
+
+msgid "_Restore Defaults"
+msgstr "_Restaurar padrões"
+
+msgid "_Apply"
+msgstr "_Aplicar"
+
+msgid "This location:"
+msgstr "Este local:"
+
+msgid "Tabs:"
+msgstr "Abas:"
+
+msgid "Status & Location bars"
+msgstr "Barras de status e de endereço"
+
+msgid "Places Panel:"
+msgstr "Painel Locais:"
+
+msgid "Open files and folders with a single click"
+msgstr "Abrir arquivos e pastas com um clique"
+
+msgid "New folders:"
+msgstr "Novas pastas:"
+
+msgid "Limit to"
+msgstr "Limitar a"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Manter uma única janela do Beluga, abrindo novas pastas em abas"
+
+msgid "Full trash:"
+msgstr "Lixeira cheia:"
+
+msgid "Folders & Tabs"
+msgstr "Pastas e abas"
+
+msgid "Elide in the middle"
+msgstr "Encurtar no meio"
+
+msgid "Elide at the end"
+msgstr "Encurtar no final"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "De qualquer forma, Exibir › Lembrar a visualização desta pasta dá a uma pasta o próprio estilo. Algumas visualizações especiais, como pesquisa, arquivos recentes ou lixeira, sempre usam um estilo próprio."
+
+msgid "Disk usage:"
+msgstr "Uso do disco:"
+
+msgid "Delete files older than"
+msgstr "Excluir arquivos com mais de"
+
+msgid "Cleanup:"
+msgstr "Limpeza:"
+
+msgid "Ask for confirmation when:"
+msgstr "Pedir confirmação ao:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Pedir confirmação no Beluga ao:"
+
+msgid "Absolute"
+msgstr "Absoluta"
+
+msgid "percent of the disk"
+msgstr "por cento do disco"

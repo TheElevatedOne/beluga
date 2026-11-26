@@ -1448,3 +1448,79 @@ msgstr "Utwórz nowy katalog w:\n%s"
 #, c-format
 msgid "Create new file in:\n%s"
 msgstr "Utwórz nowy plik w:\n%s"
+
+msgid "levels deep"
+msgstr "poziomów w głąb"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "pliki mniejsze niż %d MiB"
+
+msgid "days"
+msgstr "dni"
+
+msgid "_Restore Defaults"
+msgstr "_Przywróć domyślne"
+
+msgid "_Apply"
+msgstr "_Zastosuj"
+
+msgid "This location:"
+msgstr "To położenie:"
+
+msgid "Tabs:"
+msgstr "Karty:"
+
+msgid "Status & Location bars"
+msgstr "Paski stanu i położenia"
+
+msgid "Places Panel:"
+msgstr "Panel miejsc:"
+
+msgid "Open files and folders with a single click"
+msgstr "Otwieraj pliki i katalogi pojedynczym kliknięciem"
+
+msgid "New folders:"
+msgstr "Nowe katalogi:"
+
+msgid "Limit to"
+msgstr "Ogranicz do"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Zachowaj jedno okno Belugi, otwierając nowe katalogi w kartach"
+
+msgid "Full trash:"
+msgstr "Pełny kosz:"
+
+msgid "Folders & Tabs"
+msgstr "Katalogi i karty"
+
+msgid "Elide in the middle"
+msgstr "Skracaj w środku"
+
+msgid "Elide at the end"
+msgstr "Skracaj na końcu"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "W obu przypadkach Widok › Zapamiętaj widok dla tego katalogu daje katalogowi własny styl. Niektóre szczególne widoki, jak wyszukiwanie, ostatnie pliki czy kosz, zawsze mają własny styl."
+
+msgid "Disk usage:"
+msgstr "Zajętość dysku:"
+
+msgid "Delete files older than"
+msgstr "Usuwaj pliki starsze niż"
+
+msgid "Cleanup:"
+msgstr "Porządkowanie:"
+
+msgid "Ask for confirmation when:"
+msgstr "Pytaj o potwierdzenie przy:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Pytaj o potwierdzenie w Beludze przy:"
+
+msgid "Absolute"
+msgstr "Bezwzględne"
+
+msgid "percent of the disk"
+msgstr "procent dysku"

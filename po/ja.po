@@ -1214,6 +1214,9 @@ msgstr "ウィンドウを閉じる"
 msgid "View Settings"
 msgstr "ビュー設定"
 
+msgid "Split"
+msgstr "分割"
+
 msgid "Menu"
 msgstr "メニュー"
 
@@ -1532,14 +1535,14 @@ msgstr "%d px"
 msgid "Use the system _font"
 msgstr "システムのフォントを使う(_F)"
 
-msgid "View font:"
-msgstr "表示フォント:"
+msgid "Label font:"
+msgstr "ラベルフォント:"
 
-msgid "Icon size:"
-msgstr "アイコンサイズ:"
+msgid "Default icon size:"
+msgstr "標準のアイコンサイズ:"
 
-msgid "Preview size:"
-msgstr "プレビューのサイズ:"
+msgid "Preview icon size:"
+msgstr "プレビューのアイコンサイズ:"
 
 msgid "Context Menu Action"
 msgstr "コンテキストメニューのアクション"
@@ -1589,123 +1592,108 @@ msgstr "削除(_R)"
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr "ショートカットは <Control>c や <Shift>Delete のように書きます。複数ある場合はカンマで区切ります。既定値を使うには空欄にします。"
 
-msgid "General"
-msgstr "全般"
+msgid "no file"
+msgstr "ファイルなし"
 
-msgid "Startup"
-msgstr "起動"
-
-msgid "_Home folder:"
-msgstr "ホームフォルダー(_H):"
-
-msgid "_Remember open folders and tabs"
-msgstr "開いているフォルダーとタブを記憶(_R)"
-
-msgid "Begin in _split view mode"
-msgstr "分割表示で開始(_S)"
-
-msgid "Show _filter bar"
-msgstr "フィルターバーを表示(_F)"
-
-msgid "Make location bar _editable"
-msgstr "場所バーを編集可能にする(_E)"
-
-msgid "Show full path inside _location bar"
-msgstr "場所バーにフルパスを表示(_L)"
-
-msgid "Show full path in _title bar"
-msgstr "タイトルバーにフルパスを表示(_T)"
-
-msgid "Mouse"
-msgstr "マウス"
-
-msgid "These used to be KDE system settings."
-msgstr "以前は KDE のシステム設定でした。"
-
-msgid "Clicking files or folders:"
-msgstr "ファイルやフォルダーのクリック:"
-
-msgid "Selects them (double-click opens)"
-msgstr "選択する (ダブルクリックで開く)"
-
-msgid "Opens them"
-msgstr "開く"
-
-msgid "Double-clicking empty space:"
-msgstr "空いている場所のダブルクリック:"
-
-msgid "Does nothing"
-msgstr "何もしない"
-
-msgid "Selects all items"
-msgstr "すべての項目を選択"
-
-msgid "Goes up"
-msgstr "上の階層へ移動"
-
-msgid "Opens a new tab"
-msgstr "新しいタブを開く"
-
-msgid "Toggles hidden files"
-msgstr "隠しファイルの表示を切り替え"
-
-msgid "Tabs and Split View"
-msgstr "タブと分割表示"
-
-msgid "Open new tabs after the _last tab"
-msgstr "新しいタブを最後のタブの後に開く(_L)"
-
-msgid "_Always show the tab bar"
-msgstr "常にタブバーを表示(_A)"
-
-msgid "Show _close buttons on tabs"
-msgstr "タブに閉じるボタンを表示(_C)"
-
-msgid "Open folders from other applications in a new _tab"
-msgstr "他のアプリケーションからのフォルダーを新しいタブで開く(_T)"
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr "アーカイブをフォルダーとして開く (zip, tar, 7z, rar, ISO)(_A)"
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr "即時検索のためにホームフォルダーの索引を保持(_I)"
-
-msgid "Closing split view closes:"
-msgstr "分割表示を閉じると閉じるもの:"
-
-msgid "The active view"
-msgstr "アクティブな表示"
-
-msgid "The inactive view"
-msgstr "非アクティブな表示"
-
-msgid "The right view"
-msgstr "右側の表示"
-
-msgid "Behavior"
-msgstr "動作"
-
-msgid "Rename single items _inline"
-msgstr "単一の項目はその場で名前を変更(_I)"
-
-msgid "Show selection _marker"
-msgstr "選択マーカーを表示(_M)"
-
-msgid "Show item information on _hover"
-msgstr "ホバー時に項目の情報を表示(_H)"
-
-msgid "Open folders while _dragging items over them"
-msgstr "項目をドラッグして重ねたときにフォルダーを開く(_D)"
-
-msgid "Terminal"
-msgstr "ターミナル|/|$[~setProps ~full 'ターミナルを表示']"
+msgid "files of any size"
+msgstr "すべてのサイズのファイル"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr "F4 と「ここで端末を開く」で使われます。コマンド内の %d はフォルダーに置き換えられ、ない場合は端末がそのフォルダーで起動します。以前は KDE のシステム設定でした。"
+msgid "files below %d MiB"
+msgstr "%d MiB 未満のファイル"
 
-msgid "Terminal _command:"
-msgstr "端末のコマンド(_C):"
+msgid "Search…"
+msgstr "検索…"
+
+msgid "_Restore Defaults"
+msgstr "既定値に戻す(_R)"
+
+msgid "_Apply"
+msgstr "適用(_A)"
+
+msgid "Folders & Tabs"
+msgstr "フォルダーとタブ"
+
+msgid "Show on startup:"
+msgstr "起動時の表示:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "前回のフォルダ、タブ、ウィンドウの状態"
+
+msgid "This location:"
+msgstr "この場所:"
+
+msgid "Use Current Location"
+msgstr "現在の場所を使う"
+
+msgid "Use Default Location"
+msgstr "標準設定の場所を使う"
+
+msgid "Opening Folders:"
+msgstr "フォルダを開く:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Beluga のウィンドウを 1 つにして新しいフォルダーをタブで開く"
+
+msgid "Window:"
+msgstr "ウィンドウ:"
+
+msgid "Show full path in title bar"
+msgstr "タイトルバーにフルパスを表示する"
+
+msgid "Show filter bar"
+msgstr "フィルタバーを表示"
+
+msgid "Tabs:"
+msgstr "タブ:"
+
+msgid "Always show tab bar"
+msgstr "タブバーを常に表示"
+
+msgid "Show close button on tabs"
+msgstr "タブに閉じるボタンを表示"
+
+msgid "Tab style:"
+msgstr "タブのスタイル: "
+
+msgid "Tab width adapts to folder name"
+msgstr "フォルダ名に合わせる"
+
+msgid "Tabs all have the same fixed width"
+msgstr "固定の等幅"
+
+msgid "Tabs span the available width"
+msgstr "全幅に合わせる"
+
+msgid "Open new tabs:"
+msgstr "新しいタブで開く: "
+
+msgid "After current tab"
+msgstr "現在のタブの後"
+
+msgid "At end of tab bar"
+msgstr "タブバーの最後"
+
+msgid "Split view:"
+msgstr "ビューを分割:"
+
+msgid "When closing a split view"
+msgstr "分割ビューを閉じるとき"
+
+msgid "Close the active pane"
+msgstr "アクティブなパネルを閉じる"
+
+msgid "Close the inactive pane"
+msgstr "アクティブでないパネルを閉じる"
+
+msgid "Close the right pane"
+msgstr "右のパネルを閉じる"
+
+msgid "Open new windows in split view mode"
+msgstr "新しいウィンドウを分割ビューモードで表示"
+
+msgid "Terminal:"
+msgstr "ターミナル|/|$[~setProps ~full 'ターミナルを表示']:"
 
 msgid "No terminal found"
 msgstr "端末が見つかりません"
@@ -1714,116 +1702,21 @@ msgstr "端末が見つかりません"
 msgid "Detected: %s"
 msgstr "検出: %s"
 
-msgid "View"
-msgstr "表示(V)"
-
-msgid "Use the same display style for _all folders"
-msgstr "すべてのフォルダーで同じ表示スタイルを使う(_A)"
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr "オフにすると、各フォルダーが独自のスタイルを記憶します。どちらの場合でも、表示 › このフォルダーの表示を記憶 で 1 つのフォルダーに独自のスタイルを与えられます。"
-
-msgid "Natural"
-msgstr "自然"
-
-msgid "Alphabetical, case insensitive"
-msgstr "アルファベット順 (大文字と小文字を区別しない)"
-
-msgid "Alphabetical, case sensitive"
-msgstr "アルファベット順 (大文字と小文字を区別する)"
-
-msgid "Folder size:"
-msgstr "フォルダサイズ:"
-
-msgid "Number of items"
-msgstr "項目の数"
-
-msgid "Size of contents"
-msgstr "内容のサイズ"
-
-msgid "None"
-msgstr "なし"
-
-msgid "Folder size depth limit:"
-msgstr "フォルダーサイズの深さの上限:"
-
-msgid "Dates:"
-msgstr "日付:"
-
-msgid "Relative (Today, Yesterday…)"
-msgstr "相対 (今日、昨日…)"
-
-msgid "Short"
-msgstr "短い"
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr "記号 (rwxr-xr-x)"
-
-msgid "Numeric (0755)"
-msgstr "数値 (0755)"
-
-msgid "Combined"
-msgstr "組み合わせ"
-
-msgid "Shorten long names:"
-msgstr "長い名前の省略:"
-
-msgid "At the end"
-msgstr "末尾"
-
-msgid "In the middle"
-msgstr "中央"
-
-msgid "Hide _backup files (ending in ~)"
-msgstr "バックアップファイル (~ で終わる) を隠す(_B)"
-
-msgid "Label width:"
-msgstr "ラベルの幅:"
-
-msgid "Small"
-msgstr "小"
-
-msgid "Medium"
-msgstr "中"
-
-msgid "Large"
-msgstr "大"
-
-msgid "Huge"
-msgstr "最大"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr "ラベルの最大行数 (0: 制限なし):"
-
-msgid "Co_mpact spacing"
-msgstr "コンパクトな間隔(_M)"
-
-msgid "Maximum label width:"
-msgstr "ラベルの最大幅:"
-
-msgid "Unlimited"
-msgstr "無制限"
-
-msgid "E_xpandable folders"
-msgstr "展開可能なフォルダー(_X)"
-
-msgid "Highlight the entire _row"
-msgstr "行全体を強調表示(_R)"
-
-msgid "Show a Disk _Usage column"
-msgstr "ディスク使用量の列を表示(_U)"
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr "各ファイルとフォルダー全体がディスク上で占める容量を、フォルダー内での割合を示すバーとともに表示します (ツール › ディスク使用量 と同様)。フォルダーはバックグラウンドですべて読み込まれます。この列で並べ替えると大きいものから表示されます。ディスク使用量ウィンドウの「このドライブ内にとどまる」はここにも適用されます。"
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "F4 と「ここで端末を開く」で使われます。コマンド内の %d はフォルダーに置き換えられ、ない場合は端末がそのフォルダーで起動します。以前は KDE のシステム設定でした。"
 
 msgid "Previews"
 msgstr "プレビュー"
 
+msgid "New folders:"
+msgstr "新しいフォルダー:"
+
 msgid "Show _previews in new folders"
 msgstr "新しいフォルダーでプレビューを表示(_P)"
 
-msgid "Show previews for"
-msgstr "次のプレビューを表示"
+msgid "Show previews in the view for:"
+msgstr "ビューにプレビューを表示するファイル:"
 
 msgid "Audio (cover art)"
 msgstr "音声 (カバーアート)"
@@ -1840,44 +1733,47 @@ msgstr "フォント"
 msgid "Office documents"
 msgstr "オフィス文書"
 
-msgid "Limits"
-msgstr "制限"
+msgid "Local storage:"
+msgstr "ローカルストレージ:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr "次より大きいローカルファイルを省略 (MiB、0: 制限なし):"
+msgid "Show previews for"
+msgstr "次のプレビューを表示"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr "リモートファイルの上限 (MiB、0: なし):"
+msgid "Remote storage:"
+msgstr "リモートストレージ:"
 
 msgid "Confirmations"
 msgstr "確認"
 
-msgid "Ask for confirmation when"
-msgstr "次の場合に確認する"
+msgid "Ask for confirmation when:"
+msgstr "次の場合に確認する:"
 
-msgid "Moving files or folders to the _trash"
-msgstr "ファイルやフォルダーをごみ箱に移動するとき(_T)"
+msgid "Moving files or folders to trash"
+msgstr "ファイル/フォルダをごみ箱に移動"
 
-msgid "_Deleting files or folders"
-msgstr "ファイルやフォルダーを削除するとき(_D)"
+msgid "Emptying trash"
+msgstr "ごみ箱を空にする"
 
-msgid "_Emptying the trash"
-msgstr "ごみ箱を空にするとき(_E)"
+msgid "Deleting files or folders"
+msgstr "ファイル/フォルダを削除"
 
-msgid "Closing windows with _multiple tabs"
-msgstr "複数のタブがあるウィンドウを閉じるとき(_M)"
+msgid "Renaming a file will change its type"
+msgstr "名前の変更でファイルの種類が変わるとき"
 
-msgid "Opening many _folders at once"
-msgstr "多数のフォルダーを一度に開くとき(_F)"
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Beluga で次の場合に確認する:"
 
-msgid "Opening many t_erminals at once"
-msgstr "多数の端末を一度に開くとき(_E)"
+msgid "Closing windows with multiple tabs"
+msgstr "複数のタブを含むウィンドウを閉じる"
 
-msgid "Renaming changes a file's _type"
-msgstr "名前の変更でファイルの種類が変わるとき(_T)"
+msgid "Opening many folders at once"
+msgstr "多数のフォルダを開く"
 
-msgid "Acting as _administrator"
-msgstr "管理者として動作するとき(_A)"
+msgid "Opening many terminals at once"
+msgstr "多数のターミナルを開く"
+
+msgid "Switching to act as an administrator"
+msgstr "管理者としての行動に切り替える"
 
 msgid "When opening an executable file:"
 msgstr "実行ファイルを開く場合の動作:"
@@ -1885,56 +1781,245 @@ msgstr "実行ファイルを開く場合の動作:"
 msgid "Always ask"
 msgstr "常に確認する"
 
-msgid "Open in an application"
+msgid "Open in application"
 msgstr "アプリケーションで開く"
 
-msgid "Run it"
-msgstr "実行する"
+msgid "Run script"
+msgstr "スクリプトを実行"
 
-msgid "Bars and Panels"
-msgstr "バーとパネル"
+msgid "Information Panel:"
+msgstr "情報パネル:"
 
-msgid "Status Bar"
-msgstr "ステータスバー"
+msgid "Show previews"
+msgstr "プレビューを表示"
 
-msgid "Status bar:"
-msgstr "ステータスバー:"
+msgid "Auto-play media files"
+msgstr "メディアファイルを自動再生"
 
-msgid "Small (shows only when hovering or selecting)"
-msgstr "小 (ホバー時と選択時のみ表示)"
-
-msgid "Full width"
-msgstr "フルサイズ"
-
-msgid "Hidden"
-msgstr "隠しボリューム(H)"
-
-msgid "Show _zoom slider"
-msgstr "ズームスライダーを表示(_Z)"
-
-msgid "Show free _space"
-msgstr "空き容量を表示(_S)"
-
-msgid "Show _hidden folders"
-msgstr "隠しフォルダーを表示(_H)"
-
-msgid "Limit to the home folder when inside it"
-msgstr "ホームフォルダー内にいるときはホームに限定"
-
-msgid "Scroll to the current folder _automatically"
-msgstr "現在のフォルダーまで自動でスクロール(_A)"
-
-msgid "Play media files _automatically"
-msgstr "メディアファイルを自動で再生(_A)"
-
-msgid "Show the _hovered item"
-msgstr "ホバー中の項目を表示(_H)"
+msgid "Show item on hover"
+msgstr "マウスホバーでアイテムを表示"
 
 msgid "Use _long date format"
 msgstr "長い日付形式を使う(_L)"
 
-msgid "Context Menu"
-msgstr "コンテキストメニュー"
+msgid "Folders Panel:"
+msgstr "フォルダーパネル:"
+
+msgid "Limit to home directory when inside it"
+msgstr "ホームフォルダー内にいるときはホームに限定"
+
+msgid "Show _hidden folders"
+msgstr "隠しフォルダーを表示(_H)"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "現在のフォルダーまで自動でスクロール(_A)"
+
+msgid "Places Panel:"
+msgstr "場所パネル:"
+
+msgid "Icon size:"
+msgstr "アイコンサイズ:"
+
+msgid "Status & Location bars"
+msgstr "ステータスバーと場所バー"
+
+msgid "Status Bar:"
+msgstr "ステータスバー:"
+
+msgid "Small"
+msgstr "小"
+
+msgid "Full width"
+msgstr "フルサイズ"
+
+msgid "Disabled"
+msgstr "無効にする"
+
+msgid "Show zoom slider"
+msgstr "ズームスライダーを表示する"
+
+msgid "Show free _space"
+msgstr "空き容量を表示(_S)"
+
+msgid "Location bar:"
+msgstr "場所バー:"
+
+msgid "Make location bar editable"
+msgstr "編集可能な場所バーを表示する"
+
+msgid "Show full path inside location bar"
+msgstr "場所バーにフルパスを表示する"
+
+msgid "Interface"
+msgstr "インターフェース"
+
+msgid "General"
+msgstr "全般"
+
+msgid "Display style:"
+msgstr "表示スタイル:"
+
+msgid "Use common display style for all folders"
+msgstr "すべてのフォルダに共通の表示スタイルを使う"
+
+msgid "Remember display style for each folder"
+msgstr "フォルダごとにビューの表示スタイルを保存する"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "どちらの場合でも、表示 › このフォルダーの表示を記憶 で 1 つのフォルダーに独自のスタイルを与えられます。検索、最近のファイル、ごみ箱などの特別な表示は常に独自のスタイルを使います。"
+
+msgid "Browsing:"
+msgstr "ブラウズ:"
+
+msgid "Browse compressed files as folders"
+msgstr "圧縮されたファイルをフォルダとして閲覧"
+
+msgid "Open folders during drag operations"
+msgstr "ドラッグ操作中にフォルダを開く"
+
+msgid "Open files and folders with a single click"
+msgstr "ファイルとフォルダーをシングルクリックで開く"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "即時検索のためにホームフォルダーの索引を保持(_I)"
+
+msgid "Miscellaneous:"
+msgstr "その他: "
+
+msgid "Show item information on hover"
+msgstr "マウスホバーでアイテム情報を表示する"
+
+msgid "Show selection marker"
+msgstr "選択マーカーを表示"
+
+msgid "Rename single items inline"
+msgstr "シングルアイテムの名前をインラインで変更する"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "隠しファイルを非表示にしている間はバックアップファイルも非表示"
+
+msgid "Background:"
+msgstr "バックグラウンド: "
+
+msgid "Double-click triggers"
+msgstr "ダブルクリック時の動作"
+
+msgid "Nothing"
+msgstr "なし"
+
+msgid "Go Up"
+msgstr "上へ"
+
+msgid "Content Display"
+msgstr "表示"
+
+msgid "Sorting mode:"
+msgstr "ソートモード:"
+
+msgid "Natural"
+msgstr "自然"
+
+msgid "Alphabetical, case insensitive"
+msgstr "アルファベット順 (大文字と小文字を区別しない)"
+
+msgid "Alphabetical, case sensitive"
+msgstr "アルファベット順 (大文字と小文字を区別する)"
+
+msgid "Folder size:"
+msgstr "フォルダサイズ:"
+
+msgid "Show number of items"
+msgstr "アイテム数を表示する"
+
+msgid "Show size of contents, up to "
+msgstr "フォルダ内容のサイズを表示する / フォルダの深さ最大"
+
+msgid "Show no size"
+msgstr "サイズを表示しない"
+
+msgid "levels deep"
+msgstr "階層の深さまで"
+
+msgid "Date style:"
+msgstr "日付形式:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "相対 (今日、昨日…)"
+
+msgid "Absolute"
+msgstr "絶対"
+
+msgid "Permissions style:"
+msgstr "パーミッションの表示形式:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "記号 (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "数値 (0755)"
+
+msgid "Combined"
+msgstr "組み合わせ"
+
+msgid "Long file names:"
+msgstr "長いファイル名:"
+
+msgid "Elide in the middle"
+msgstr "中央を省略"
+
+msgid "Elide at the end"
+msgstr "末尾を省略"
+
+msgid "Label width:"
+msgstr "ラベルの幅:"
+
+msgid "Medium"
+msgstr "中"
+
+msgid "Large"
+msgstr "大"
+
+msgid "Huge"
+msgstr "最大"
+
+msgid "Maximum lines:"
+msgstr "最大表示行数:"
+
+msgid "Unlimited"
+msgstr "無制限"
+
+msgid "Spacing:"
+msgstr "間隔:"
+
+msgid "Maximum width:"
+msgstr "最大幅:"
+
+msgid "Folders:"
+msgstr "フォルダ:"
+
+msgid "Expandable"
+msgstr "展開可能にする"
+
+msgid "Open files and folders:"
+msgstr "ファイルとフォルダの開き方:"
+
+msgid "By clicking anywhere on the row"
+msgstr "列のどこかをクリック"
+
+msgid "By clicking on icon or name"
+msgstr "アイコンか名前をクリック"
+
+msgid "Disk usage:"
+msgstr "ディスク使用量:"
+
+msgid "Show a Disk _Usage column"
+msgstr "ディスク使用量の列を表示(_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "各ファイルとフォルダー全体がディスク上で占める容量を、フォルダー内での割合を示すバーとともに表示します (ツール › ディスク使用量 と同様)。フォルダーはバックグラウンドですべて読み込まれます。この列で並べ替えると大きいものから表示されます。ディスク使用量ウィンドウの「このドライブ内にとどまる」はここにも適用されます。"
+
+msgid "View"
+msgstr "表示(V)"
 
 msgid "Show in the context menu"
 msgstr "コンテキストメニューに表示"
@@ -1945,20 +2030,26 @@ msgstr "「コピー先」と「移動先」"
 msgid "Delete (in addition to Move to Trash)"
 msgstr "削除 (ごみ箱に移動に加えて)"
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr "以前は KDE のシステム設定でした。制限は Beluga の起動時と項目をごみ箱に移動した後に適用されます。"
+msgid "Context Menu"
+msgstr "コンテキストメニュー"
 
-msgid "_Delete items that have been in the trash longer than:"
-msgstr "次の期間よりも長くごみ箱にある項目を削除(_D):"
+msgid "Cleanup:"
+msgstr "クリーンアップ:"
 
-msgid "Days:"
-msgstr "日数:"
+msgid "Delete files older than"
+msgstr "次より古いファイルを削除"
 
-msgid "_Limit the trash to a share of the disk:"
-msgstr "ごみ箱をディスクの一定割合に制限(_L):"
+msgid "days"
+msgstr "日"
 
-msgid "Percent of the disk:"
-msgstr "ディスクの割合:"
+msgid "Limit to"
+msgstr "上限"
+
+msgid "percent of the disk"
+msgstr "ディスクのパーセント"
+
+msgid "Full trash:"
+msgstr "ごみ箱がいっぱいのとき:"
 
 msgid "When the limit is reached:"
 msgstr "上限に達したとき:"
@@ -1972,8 +2063,14 @@ msgstr "古い項目から削除"
 msgid "Delete the largest items"
 msgstr "大きい項目から削除"
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "以前は KDE のシステム設定でした。制限は Beluga の起動時と項目をごみ箱に移動した後に適用されます。"
+
 msgid "Calculating trash size…"
 msgstr "ごみ箱のサイズを計算中…"
+
+msgid "Trash:"
+msgstr "ごみ箱:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2080,9 +2177,6 @@ msgstr "名前でフィルター (*.txt などのワイルドカードが使え�
 msgid "Keep the filter when changing folders"
 msgstr "フォルダーを変更してもフィルターを維持"
 
-msgid "Search…"
-msgstr "検索…"
-
 msgid "In This Folder"
 msgstr "このフォルダー内"
 
@@ -2115,6 +2209,9 @@ msgstr "過去 1 年間"
 
 msgid "Hidden files"
 msgstr "隠しファイル"
+
+msgid "Zoom:"
+msgstr "ズーム:"
 
 msgid "Zoom"
 msgstr "ズーム"

@@ -1215,6 +1215,9 @@ msgstr ""
 msgid "View Settings"
 msgstr ""
 
+msgid "Split"
+msgstr "Dividi"
+
 msgid "Menu"
 msgstr "Menuo"
 
@@ -1533,14 +1536,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Etikeda tiparo:"
 
-msgid "Icon size:"
-msgstr "Piktograma grando:"
+msgid "Default icon size:"
+msgstr "Defaŭlta piktogramograndeco:"
 
-msgid "Preview size:"
-msgstr "Antaŭrigarda grandeco:"
+msgid "Preview icon size:"
+msgstr "Antaŭrigardi piktogramgrandecon:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1590,123 +1593,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Ĝenerala"
+msgid "no file"
+msgstr "neniu dosiero"
 
-msgid "Startup"
-msgstr "Ekfunkciigo"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Konduto"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Terminalo"
+msgid "files of any size"
+msgstr "dosieroj de ajna grandeco"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Serĉi…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Montri ĉe ekfunkciiĝo:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Dosierujoj, langetoj kaj fenestra stato de la lasta fojo"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Uzi Nunan Lokon"
+
+msgid "Use Default Location"
+msgstr "Uzi Defaŭltan Lokon"
+
+msgid "Opening Folders:"
+msgstr "Malfermante Dosierujojn:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Fenestro:"
+
+msgid "Show full path in title bar"
+msgstr "Montru plenan vojon en titolbreto"
+
+msgid "Show filter bar"
+msgstr "Montri filtrilobreton"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr ""
+
+msgid "Show close button on tabs"
+msgstr ""
+
+msgid "Tab style:"
+msgstr ""
+
+msgid "Tab width adapts to folder name"
+msgstr ""
+
+msgid "Tabs all have the same fixed width"
+msgstr ""
+
+msgid "Tabs span the available width"
+msgstr ""
+
+msgid "Open new tabs:"
+msgstr "Malfermi novajn langetojn:"
+
+msgid "After current tab"
+msgstr "Post aktuala langeto"
+
+msgid "At end of tab bar"
+msgstr "Fine de la langeto"
+
+msgid "Split view:"
+msgstr "Dividita vido:"
+
+msgid "When closing a split view"
+msgstr ""
+
+msgid "Close the active pane"
+msgstr ""
+
+msgid "Close the inactive pane"
+msgstr ""
+
+msgid "Close the right pane"
+msgstr ""
+
+msgid "Open new windows in split view mode"
+msgstr ""
+
+msgid "Terminal:"
+msgstr "Terminalo:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1715,116 +1703,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Rigardi"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Natura"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Alfabeta, uskleco"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Alfabeta, uskleco"
-
-msgid "Folder size:"
-msgstr "Dosieruja grandeco:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Neniu"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Larĝo de etikedo:"
-
-msgid "Small"
-msgstr "Malgranda"
-
-msgid "Medium"
-msgstr "Meza"
-
-msgid "Large"
-msgstr "Granda"
-
-msgid "Huge"
-msgstr "Grandega"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Senlima"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Antaŭrigardo"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Montri antaŭrigardojn por"
+msgid "Show previews in the view for:"
+msgstr "Montri antaŭrigardojn en la vido por:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1841,44 +1734,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Loka konservejo:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Montri antaŭrigardojn por"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Fora konservejo:"
 
 msgid "Confirmations"
 msgstr "Konfirmoj"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Movante dosierojn aŭ dosierujojn al la rubujo"
+
+msgid "Emptying trash"
+msgstr "Malplenigante rubon"
+
+msgid "Deleting files or folders"
+msgstr "Forigante dosierojn aŭ dosierujojn"
+
+msgid "Renaming a file will change its type"
 msgstr ""
 
-msgid "_Deleting files or folders"
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Fermante fenestron kun pluraj langetoj"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Malfermante multajn dosierujojn samtempe"
 
-msgid "Opening many _folders at once"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Malfermante multajn terminalojn samtempe"
 
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Ŝaltante por agi kiel administranto"
 
 msgid "When opening an executable file:"
 msgstr "Kiam vi malfermas plenumeblan dosieron:"
@@ -1886,56 +1782,245 @@ msgstr "Kiam vi malfermas plenumeblan dosieron:"
 msgid "Always ask"
 msgstr "Ĉiam demandi"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Malfermi en aplikaĵo"
+
+msgid "Run script"
+msgstr "Lanĉi skripton"
+
+msgid "Information Panel:"
+msgstr "Informpanelo:"
+
+msgid "Show previews"
+msgstr "Montri antaŭrigardojn"
+
+msgid "Auto-play media files"
+msgstr "Aŭtomate ludi aŭdvidaĵajn dosierojn"
+
+msgid "Show item on hover"
+msgstr "Montri elementon je musumo"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
+msgid "Folders Panel:"
 msgstr ""
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Statusbreto"
-
-msgid "Status bar:"
-msgstr "Statusbreto:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Plena larĝeco"
-
-msgid "Hidden"
-msgstr "Kaŝita"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
+msgid "Limit to home directory when inside it"
 msgstr ""
 
 msgid "Show _hidden folders"
 msgstr ""
 
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Piktograma grando:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Statusbreto:"
+
+msgid "Small"
+msgstr "Malgranda"
+
+msgid "Full width"
+msgstr "Plena larĝeco"
+
+msgid "Disabled"
+msgstr "Malŝaltita"
+
+msgid "Show zoom slider"
+msgstr "Montri zoman ŝovilon"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Kunteksta Menuo"
+msgid "Location bar:"
+msgstr "Lokobreto: "
+
+msgid "Make location bar editable"
+msgstr "Fari lokobreton redaktebla"
+
+msgid "Show full path inside location bar"
+msgstr "Montri plenan vojon ene de lokobreto"
+
+msgid "Interface"
+msgstr "Interfaco"
+
+msgid "General"
+msgstr "Ĝenerala"
+
+msgid "Display style:"
+msgstr "Bildiga stilo: "
+
+msgid "Use common display style for all folders"
+msgstr "Uzi komunan ekranstilon por ĉiuj dosierujoj"
+
+msgid "Remember display style for each folder"
+msgstr "Memori montrostilon por ĉiu dosierujo"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Foliumante: "
+
+msgid "Browse compressed files as folders"
+msgstr ""
+
+msgid "Open folders during drag operations"
+msgstr "Malfermi dosierujojn dum trenaj operacioj"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Diversaĵoj: "
+
+msgid "Show item information on hover"
+msgstr "Montri objekt-informon je musumo"
+
+msgid "Show selection marker"
+msgstr "Montri elektan markilon"
+
+msgid "Rename single items inline"
+msgstr "Alinomi unuopajn erojn enlinie"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Kaŝi ankaŭ sekurkopiajn dosierojn dum kaŝado de kaŝendaj dosieroj"
+
+msgid "Background:"
+msgstr "Fono:"
+
+msgid "Double-click triggers"
+msgstr "Duobla klako ekigas"
+
+msgid "Nothing"
+msgstr "Nenio"
+
+msgid "Go Up"
+msgstr "Iri supren"
+
+msgid "Content Display"
+msgstr "Montro de Enhavo"
+
+msgid "Sorting mode:"
+msgstr "Ordiga reĝimo: "
+
+msgid "Natural"
+msgstr "Natura"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alfabeta, uskleco"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alfabeta, uskleco"
+
+msgid "Folder size:"
+msgstr "Dosieruja grandeco:"
+
+msgid "Show number of items"
+msgstr "Montri nombron de eroj"
+
+msgid "Show size of contents, up to "
+msgstr "Montri grandecon de enhavo, ĝis "
+
+msgid "Show no size"
+msgstr "Montri neniun grandecon"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Datstilo:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Stilo de permesoj:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr ""
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Larĝo de etikedo:"
+
+msgid "Medium"
+msgstr "Meza"
+
+msgid "Large"
+msgstr "Granda"
+
+msgid "Huge"
+msgstr "Grandega"
+
+msgid "Maximum lines:"
+msgstr "Maksimumaj linioj:"
+
+msgid "Unlimited"
+msgstr "Senlima"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "Maksimuma larĝo:"
+
+msgid "Folders:"
+msgstr "Dosierujoj:"
+
+msgid "Expandable"
+msgstr "Vastebla"
+
+msgid "Open files and folders:"
+msgstr "Malfermi dosierojn kaj dosierujojn:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Klakante ie ajn sur la vico"
+
+msgid "By clicking on icon or name"
+msgstr "Klakante sur piktogramo aŭ nomo"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Rigardi"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1946,19 +2031,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Kunteksta Menuo"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1973,8 +2064,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Rubujo:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2082,9 +2179,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Serĉi…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2117,6 +2211,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Zomo:"
 
 msgid "Zoom"
 msgstr "Zomi"

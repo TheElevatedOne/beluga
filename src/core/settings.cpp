@@ -96,6 +96,7 @@ void transfer(IO &io, ST &st)
     io.b(G, "AlwaysShowTabBar", st.alwaysShowTabBar);
     io.b(G, "ShowCloseButtonOnTabs", st.showCloseButtonOnTabs);
     io.b(G, "OpenNewTabAfterLastTab", st.openNewTabAfterLastTab);
+    io.i(G, "TabStyle", st.tabStyle);
     io.i(G, "CloseSplitViewChoice", st.closeSplitViewChoice);
     io.b(G, "UseTabForSwitchingSplitView", st.useTabForSwitchingSplitView);
     io.b(G, "GlobalViewProps", st.globalViewProps);

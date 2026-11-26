@@ -1211,6 +1211,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Настройки на изгледа"
 
+msgid "Split"
+msgstr "Разделяне"
+
 msgid "Menu"
 msgstr "Меню"
 
@@ -1529,14 +1532,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Шрифт на етикета:"
 
-msgid "Icon size:"
-msgstr "Размер на икона:"
+msgid "Default icon size:"
+msgstr "Стандартен размер на икони:"
 
-msgid "Preview size:"
-msgstr "Предварителен преглед:"
+msgid "Preview icon size:"
+msgstr "Размер на иконите за преглед:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1586,123 +1589,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Общи"
+msgid "no file"
+msgstr "нито един файл"
 
-msgid "Startup"
-msgstr "Начално стартиране"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Поведение"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Терминал"
+msgid "files of any size"
+msgstr "файлове с всякакъв размер"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Търсене…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Показване при стартиране:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Папки, раздели и състояние на прозореца от последния достъп"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Използване на текущото местоположение"
+
+msgid "Use Default Location"
+msgstr "Използване на местоположение по подразбиране"
+
+msgid "Opening Folders:"
+msgstr "Отваряне на папки:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Прозорец:"
+
+msgid "Show full path in title bar"
+msgstr "Показване на пълното местоположение в заглавната лента"
+
+msgid "Show filter bar"
+msgstr "Показване на лентата на филтъра"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Винаги видима лента с раздели"
+
+msgid "Show close button on tabs"
+msgstr "Показване на затварящ бутон в разделите"
+
+msgid "Tab style:"
+msgstr "Стил на раздел: "
+
+msgid "Tab width adapts to folder name"
+msgstr "Ширината на раздела се адаптира към името на папката"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Всички раздели имат еднаква фиксирана ширина"
+
+msgid "Tabs span the available width"
+msgstr "Разделите се разгръщат по цялата ширина"
+
+msgid "Open new tabs:"
+msgstr "Отваряне на нови раздели: "
+
+msgid "After current tab"
+msgstr "Зад текущия раздел"
+
+msgid "At end of tab bar"
+msgstr "На края в лентата на разделите"
+
+msgid "Split view:"
+msgstr "Разделен изглед:"
+
+msgid "When closing a split view"
+msgstr "При затваряне на разделен изглед"
+
+msgid "Close the active pane"
+msgstr "Затваряне на активния панел"
+
+msgid "Close the inactive pane"
+msgstr "Затваряне на неактивния панел"
+
+msgid "Close the right pane"
+msgstr "Затваряне на десния панел"
+
+msgid "Open new windows in split view mode"
+msgstr "Отваряне на нов прозорец в режим на разделен изглед"
+
+msgid "Terminal:"
+msgstr "Терминал:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1711,116 +1699,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Изглед"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Естествено"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Азбучно, без значение на регистъра"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Азбучно, с отчитане на регистъра"
-
-msgid "Folder size:"
-msgstr "Размер на папки:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Без"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Широчина на етикета:"
-
-msgid "Small"
-msgstr "Малка"
-
-msgid "Medium"
-msgstr "Средна"
-
-msgid "Large"
-msgstr "Голяма"
-
-msgid "Huge"
-msgstr "Огромна"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Неограничено"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Предварителен преглед"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Предварителен преглед за"
+msgid "Show previews in the view for:"
+msgstr "Предварителен преглед за:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1837,44 +1730,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Локално хранилище:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Предварителен преглед за"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Отдалечено хранилище:"
 
 msgid "Confirmations"
 msgstr "Потвърждения"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Преместване на файлове и папки в кошчето"
+
+msgid "Emptying trash"
+msgstr "Изпразване на кошчето"
+
+msgid "Deleting files or folders"
+msgstr "Изтриване на файлове и папки"
+
+msgid "Renaming a file will change its type"
+msgstr "Преименуването на файла ще промени неговия тип"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Затваряне на прозорци с множество раздели"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Отваряне на много папки наведнъж:"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Отваряне на много терминали наведнъж"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Преминаване към действие като администратор"
 
 msgid "When opening an executable file:"
 msgstr "При отваряне на изпълним файл:"
@@ -1882,56 +1778,245 @@ msgstr "При отваряне на изпълним файл:"
 msgid "Always ask"
 msgstr "Запитване винаги"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Отваряне в приложение"
+
+msgid "Run script"
+msgstr "Изпълнение на скрипт"
+
+msgid "Information Panel:"
+msgstr "Панел с данни:"
+
+msgid "Show previews"
+msgstr "Показване на предварителен преглед"
+
+msgid "Auto-play media files"
+msgstr "Автоматично изпълнение на медийни файлове"
+
+msgid "Show item on hover"
+msgstr "Показване на елемент при посочване"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "Папки в панела:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Лента за състоянието"
-
-msgid "Status bar:"
-msgstr "Лента за състоянието:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Цяла ширина"
-
-msgid "Hidden"
-msgstr "Скрит"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "Ограничаване до началната директория при влизане в нея"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Размер на икона:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Лента за състоянието: "
+
+msgid "Small"
+msgstr "Малка"
+
+msgid "Full width"
+msgstr "Цяла ширина"
+
+msgid "Disabled"
+msgstr "Деактивирана"
+
+msgid "Show zoom slider"
+msgstr "Показване на плъзгача за мащабиране"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Контекстно меню"
+msgid "Location bar:"
+msgstr "Лента за местоположение: "
+
+msgid "Make location bar editable"
+msgstr "Позволяване на редактиране на лентата за местоположение"
+
+msgid "Show full path inside location bar"
+msgstr "Показване на пълния път в лентата за местоположение"
+
+msgid "Interface"
+msgstr "Интерфейс"
+
+msgid "General"
+msgstr "Общи"
+
+msgid "Display style:"
+msgstr "Стил на дисплея: "
+
+msgid "Use common display style for all folders"
+msgstr "Използване на общ стил на представяне за всички папки"
+
+msgid "Remember display style for each folder"
+msgstr "Запомняне на стил на представяне за всяка папка"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Преглед:"
+
+msgid "Browse compressed files as folders"
+msgstr "Преглеждане на компресирани файлове като папки"
+
+msgid "Open folders during drag operations"
+msgstr "Отваряне на папките по време на влачене"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Разни: "
+
+msgid "Show item information on hover"
+msgstr "Показване на информация на елемент при посочване"
+
+msgid "Show selection marker"
+msgstr "Показване на маркера на селекцията"
+
+msgid "Rename single items inline"
+msgstr "Преименуване на единичен елемент в прозореца за преглед"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Също така да се скриват и файловете за архивиране при скриване на скритите файлове"
+
+msgid "Background:"
+msgstr "Фон: "
+
+msgid "Double-click triggers"
+msgstr "Двойно кликване задейства"
+
+msgid "Nothing"
+msgstr "Без действие"
+
+msgid "Go Up"
+msgstr "Отиване нагоре"
+
+msgid "Content Display"
+msgstr "Показване на съдържание"
+
+msgid "Sorting mode:"
+msgstr "Режим на сортиране: "
+
+msgid "Natural"
+msgstr "Естествено"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Азбучно, без значение на регистъра"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Азбучно, с отчитане на регистъра"
+
+msgid "Folder size:"
+msgstr "Размер на папки:"
+
+msgid "Show number of items"
+msgstr "Показване на броя на елементите"
+
+msgid "Show size of contents, up to "
+msgstr "Показване на размер на съдържанието, до "
+
+msgid "Show no size"
+msgstr "Да не се показва размер"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Стил на датата:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Стил на права на достъп:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Дълги имена на файлове:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Широчина на етикета:"
+
+msgid "Medium"
+msgstr "Средна"
+
+msgid "Large"
+msgstr "Голяма"
+
+msgid "Huge"
+msgstr "Огромна"
+
+msgid "Maximum lines:"
+msgstr "Максимален брой редове:"
+
+msgid "Unlimited"
+msgstr "Неограничено"
+
+msgid "Spacing:"
+msgstr "Разстояние:"
+
+msgid "Maximum width:"
+msgstr "Максимална широчина:"
+
+msgid "Folders:"
+msgstr "Папки:"
+
+msgid "Expandable"
+msgstr "Разширяеми"
+
+msgid "Open files and folders:"
+msgstr "Отваряне на файлове и папки:"
+
+msgid "By clicking anywhere on the row"
+msgstr "При кликване където и да е в реда"
+
+msgid "By clicking on icon or name"
+msgstr "При кликване върху икона или име"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Изглед"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1942,19 +2027,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Контекстно меню"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1969,8 +2060,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Кошче:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2078,9 +2175,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Търсене…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2113,6 +2207,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Мащаб:"
 
 msgid "Zoom"
 msgstr "Мащаб"

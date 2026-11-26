@@ -122,6 +122,11 @@ LocationBar::~LocationBar()
 {
     g_object_set_data(G_OBJECT(root_), "beluga-bar", nullptr);
     if (completionPop_) gtk_widget_unparent(completionPop_);
+    // It may sit in the window's tool bar rather than in its view container.
+    if (GtkWidget *p = gtk_widget_get_parent(root_)) {
+        if (GTK_IS_BOX(p)) gtk_box_remove(GTK_BOX(p), root_);
+        else gtk_widget_unparent(root_);
+    }
     g_object_unref(root_);
 }
 

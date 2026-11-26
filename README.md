@@ -61,7 +61,8 @@ limits, places) live in Beluga's own preferences.
 - **Archives as folders**: zip, tar (`.tar.gz`, `.tar.xz`, `.tar.zst`, …), 7z, rar and ISO images can be browsed
   like folders, through libarchive and without gvfs or Ark. By default a double-click opens an archive in its
   program (Ark, File Roller, …) and **Open in Beluga** in its context menu browses it; with **Configure Beluga →
-  General → Open archives as folders** a double-click browses it and **Open With** offers the programs. Archives
+  View → General → Browse compressed files as folders** a double-click browses it and **Open With** offers the
+  programs. Archives
   without a program always open in Beluga. They are read only: copy or drag entries out to extract them, and
   double-click a file to open an extracted copy. Entries with `..` or absolute paths are never written outside the
   target folder.
@@ -73,7 +74,7 @@ limits, places) live in Beluga's own preferences.
   the folders whose time changed (about 70 ms when nothing changed), and every hit is checked on the disk, so
   deleted files never show. The cache folder (`~/.cache`) and other drives mounted inside your home folder aren't
   indexed; searches read them from the disk. The index takes about 140 MB of memory for these 1.6 million names
-  and 84 MB in `~/.cache/beluga`, and can be turned off in **Configure Beluga → General**. Other searches
+  and 84 MB in `~/.cache/beluga`, and can be turned off in **Configure Beluga → View → General**. Other searches
   (contents, dates, sizes) read the folders on all CPU cores; results stream in while the search runs.
 - **Disk Usage** (the tool bar's Disk Usage button or <kbd>Shift</kbd>+<kbd>F11</kbd> for a pane on the right that
   follows the folder you're in; <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>, **Tools → Disk Usage…** or a
@@ -105,14 +106,20 @@ limits, places) live in Beluga's own preferences.
 - **File chooser for other programs**: an xdg-desktop-portal backend, like the KDE one that uses Dolphin: Places,
   the folder in a Beluga view, name, file types and the program's own options. See
   [Beluga as the file chooser](#beluga-as-the-file-chooser).
-- **Translations**: 61 languages. Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
-  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (703 of 704 messages). The other 48 have
-  25–37% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
+- **Translations**: 63 languages. Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
+  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (735 of 736 messages). The other 50 have
+  24–46% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
   is shown in English.
-- **Look**: colours come from your GTK theme's named colours (pywal and Noctalia style sheets work), square
-  corners, no titlebar of its own.
+- **Look**: laid out like Dolphin: Back and Forward, the view settings, the location bar (two side by side in split
+  view), Split and Search in one tool bar; tabs of one fixed width (or following their names, or filling the bar);
+  "Zoom:" and the free space in the status bar. **Configure Beluga** has Dolphin's pages (Interface, View, Context
+  Menu, Trash) and tabs, with a search field, **Restore Defaults**, **OK**, **Cancel** and **Apply**. Colours come
+  from your GTK theme's named colours (pywal and Noctalia style sheets work), square corners, no titlebar of its
+  own.
 
 ![Split view with tabs, the Folders panel and the Information panel](docs/screenshots/split.png)
+
+![Configure Beluga laid out like Dolphin's settings: pages on the left, the Interface page's Folders & Tabs tab](docs/screenshots/settings.png)
 
 ![The Disk Usage window: a folder's contents as a tree, biggest first, with size, share bars and file counts](docs/screenshots/disk-usage.png)
 
@@ -175,8 +182,8 @@ Application Options:
   -v, --version             Show the version
 ```
 
-A second `beluga` call opens a new window in the running instance, or a new tab when **Configure Beluga → General →
-Open folders from other applications in a new tab** is on.
+A second `beluga` call opens a new window in the running instance, or a new tab when **Configure Beluga → Interface →
+Folders & Tabs → Keep a single Beluga window, opening new folders in tabs** is on.
 
 ### Keyboard shortcuts
 
@@ -250,7 +257,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 75 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 77 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view, and `BELUGA_SELFTEST_GTK_CONFIG=~/.config/gtk-4.0` to take them
@@ -277,7 +284,7 @@ translations written for Beluga's own messages. Add or correct translations in `
 
 ## Known limitations
 
-- 48 of the 61 languages cover only 25–37% of the messages.
+- 50 of the 63 languages cover only 24–46% of the messages.
 - Archives are read only (no adding, renaming or deleting inside them) and files in password-protected archives
   can't be opened. Dragging an entry out of an archive to another program doesn't work; copy it into a folder first.
 - Network locations (`sftp://`, `smb://`, `network:///`) need gvfs.

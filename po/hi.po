@@ -1,0 +1,2345 @@
+# Beluga translation (hi).
+# Imported from KDE Dolphin's translation, which was written by:
+# translation of dolphin.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2007.
+# Ravishankar Shrivastava <raviratlami@aol.in>, 2008.
+# G Karunakar <karunakar@indlinux.org>, 2010.
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2024-12-15 19:32+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "The archive could not be opened."
+msgstr ""
+
+msgid "The archive could not be read."
+msgstr ""
+
+msgid "Cancelled."
+msgstr ""
+
+msgid "This file is encrypted with a password."
+msgstr ""
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr ""
+
+msgid "This is not a file in an archive."
+msgstr ""
+
+msgid "Extract Here"
+msgstr ""
+
+msgid "Compress to .tar.gz"
+msgstr ""
+
+msgid "No terminal emulator was found."
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+#, c-format
+msgid "%s Volume"
+msgstr ""
+
+msgid "This device cannot be mounted."
+msgstr ""
+
+msgid "This device cannot be unmounted."
+msgstr ""
+
+msgid "The device is gone."
+msgstr ""
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr ""
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr ""
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr ""
+
+#, c-format
+msgid "Deleting %s"
+msgstr ""
+
+#, c-format
+msgid "Restoring %s"
+msgstr ""
+
+msgid "Emptying the trash"
+msgstr ""
+
+msgid "Counting files…"
+msgstr ""
+
+#, c-format
+msgid "“%s”: %s"
+msgstr ""
+
+msgid "A folder cannot be moved into itself."
+msgstr ""
+
+msgid "A folder cannot be copied into itself."
+msgstr ""
+
+msgid "Files can only be extracted into local folders."
+msgstr ""
+
+#, c-format
+msgid "Extracting from “%s”"
+msgstr ""
+
+msgid "Title:"
+msgstr "शीर्षक:"
+
+msgid "Artist:"
+msgstr "कलाकार:"
+
+msgid "Album artist:"
+msgstr "एल्बम कलाकार:"
+
+msgid "Album:"
+msgstr "एल्बम:"
+
+msgid "Track:"
+msgstr "ट्रैक:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "तारीख़ से:"
+
+msgid "Genre:"
+msgstr "घराना:"
+
+msgid "Composer:"
+msgstr "संगीतकार:"
+
+msgid "Performer:"
+msgstr "अभिनेता:"
+
+msgid "Publisher:"
+msgstr "प्रकाशक:"
+
+msgid "Copyright:"
+msgstr "कॉपीराइट:"
+
+msgid "Comment:"
+msgstr "टिप्पणीः (e)"
+
+msgid "Description:"
+msgstr "वर्णन:"
+
+msgid "Language:"
+msgstr "भाषा:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "अवधि:"
+
+msgid "Format:"
+msgstr ""
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "वीडियो:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "ऑडियो:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
+msgid "Places"
+msgstr "स्थान"
+
+msgid "Remote"
+msgstr "रिमोट"
+
+msgid "Recent"
+msgstr "हालिया"
+
+msgid "Search For"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "Home"
+msgstr "घर (H)"
+
+msgid "Desktop"
+msgstr "डेस्कटॉप"
+
+msgid "Documents"
+msgstr ""
+
+msgid "Downloads"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "Pictures"
+msgstr ""
+
+msgid "Videos"
+msgstr ""
+
+msgid "Trash"
+msgstr "कूड़ा"
+
+msgid "Network"
+msgstr ""
+
+msgid "Recent Files"
+msgstr "हालिया फाइलें"
+
+msgid "Images"
+msgstr ""
+
+msgid "Audio"
+msgstr "ऑडियो"
+
+msgid "Folders"
+msgstr "फ़ोल्डर"
+
+msgid "Archives"
+msgstr ""
+
+msgid "All Files"
+msgstr ""
+
+#, c-format
+msgid "Search for “%s”"
+msgstr ""
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr ""
+
+msgid "This file system has no trash."
+msgstr ""
+
+msgid "Could not create the trash information file."
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists."
+msgstr ""
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr ""
+
+msgid "Copy"
+msgstr "नक़ल"
+
+msgid "Move"
+msgstr ""
+
+msgid "Link"
+msgstr "लिंक "
+
+msgid "Rename"
+msgstr "नाम बदलें (R)"
+
+msgid "Move to Trash"
+msgstr "कूडे़ में डालें"
+
+msgid "Create Folder"
+msgstr "फोल्डर बनाएं"
+
+msgid "Create File"
+msgstr ""
+
+msgid "Undo"
+msgstr "पहले जैसा"
+
+#, c-format
+msgid "Undo: %s"
+msgstr ""
+
+msgid "Redo"
+msgstr "दोहराएँ"
+
+#, c-format
+msgid "Redo: %s"
+msgstr ""
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d वस्तु"
+msgstr[1] "%d वस्तुएँ"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%s, %s"
+msgstr ""
+
+#, c-format
+msgid "Today at %s"
+msgstr ""
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr ""
+
+msgid "%A at %H:%M"
+msgstr ""
+
+#, c-format
+msgid "%ld s"
+msgstr "%ld एस"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr ""
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr ""
+
+#, c-format
+msgid "%s copy"
+msgstr "%s नक़ल करें"
+
+#, c-format
+msgid "%s copy %d"
+msgstr ""
+
+msgid "Name"
+msgstr "नाम"
+
+msgid "Size"
+msgstr "आकार"
+
+msgid "Disk Usage"
+msgstr ""
+
+msgid "Modified"
+msgstr "परिवर्धित"
+
+msgid "Created"
+msgstr "निर्मित"
+
+msgid "Accessed"
+msgstr "अभिगमन"
+
+msgid "Type"
+msgstr "क़िस्म"
+
+msgid "Extension"
+msgstr ""
+
+msgid "Permissions"
+msgstr "अनुमतियाँ"
+
+msgid "Owner"
+msgstr "मालिक"
+
+msgid "User Group"
+msgstr "उपयोक्ता समूह"
+
+msgid "Path"
+msgstr "पथ"
+
+msgid "Link Destination"
+msgstr "लिंक वर्णन:"
+
+msgid "Deletion Time"
+msgstr "मिटाने का समय"
+
+msgid "Original Location"
+msgstr ""
+
+msgid "Dimensions"
+msgstr "आयाम"
+
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr ""
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "रद्द करें"
+
+msgid "I Understand and Accept These Risks"
+msgstr ""
+
+msgid "New Window"
+msgstr "नया विंडो (W)"
+
+msgid "New Tab"
+msgstr "नया टैब"
+
+msgid "Close Tab"
+msgstr "टैब बंद करें"
+
+msgid "Undo Close Tab"
+msgstr "बंद टैब को पूर्ववत करें"
+
+msgid "Quit"
+msgstr "बाहर जाएँ (Q)"
+
+msgid "Delete"
+msgstr "मिटाएँ"
+
+msgid "Duplicate Here"
+msgstr "यहां अनुकृति बनाएँ"
+
+msgid "Properties"
+msgstr "गुण"
+
+msgid "Cut"
+msgstr "काटें"
+
+msgid "Copy Location"
+msgstr "स्थान की नक़ल करें"
+
+msgid "Paste"
+msgstr "चिपकाएँ"
+
+msgid "Filter"
+msgstr "छाने"
+
+msgid "Search"
+msgstr "खोजें"
+
+msgid "Select Files and Folders"
+msgstr "फ़इल व फोल्डरों को चुने"
+
+msgid "Select All"
+msgstr "सभी चुनें (A)"
+
+msgid "Invert Selection"
+msgstr "चयन पलटें"
+
+msgid "Copy to Other View"
+msgstr ""
+
+msgid "Move to Other View"
+msgstr ""
+
+msgid "Icons View"
+msgstr ""
+
+msgid "Compact View"
+msgstr ""
+
+msgid "Details View"
+msgstr ""
+
+msgid "Columns View"
+msgstr ""
+
+msgid "Zoom In"
+msgstr "ज़ूम इन (I)"
+
+msgid "Zoom Out"
+msgstr "ज़ूम आउट (O)"
+
+msgid "Reset Zoom"
+msgstr ""
+
+msgid "Show Hidden Files"
+msgstr "छुपी फ़ाइलें दिखाएँ"
+
+msgid "Act as Administrator"
+msgstr ""
+
+msgid "Split View"
+msgstr "विभाजित दृश्य"
+
+msgid "Focus Other View"
+msgstr ""
+
+msgid "Pop out Split View"
+msgstr ""
+
+msgid "Split View to Tabs"
+msgstr ""
+
+msgid "Reload"
+msgstr "री-लोड"
+
+msgid "Editable Location"
+msgstr "संपादन योग्य स्थान"
+
+msgid "Replace Location"
+msgstr "स्थान बदलें"
+
+msgid "Places Panel"
+msgstr ""
+
+msgid "Folders Panel"
+msgstr ""
+
+msgid "Information Panel"
+msgstr ""
+
+msgid "Disk Usage Panel"
+msgstr ""
+
+msgid "Focus Places Panel"
+msgstr ""
+
+msgid "Show Menubar"
+msgstr "मेन्यू पट्टी दिखाएँ (M)"
+
+msgid "Show Statusbar"
+msgstr "स्थिति पट्टी दिखाएँ (a)"
+
+msgid "Back"
+msgstr "पीछे (B)"
+
+msgid "Forward"
+msgstr "आगे (F)"
+
+msgid "Up"
+msgstr "ऊपर (U)"
+
+msgid "Go to Tab 1"
+msgstr ""
+
+msgid "Go to Tab 2"
+msgstr ""
+
+msgid "Go to Tab 3"
+msgstr ""
+
+msgid "Go to Tab 4"
+msgstr ""
+
+msgid "Go to Tab 5"
+msgstr ""
+
+msgid "Go to Tab 6"
+msgstr ""
+
+msgid "Go to Tab 7"
+msgstr ""
+
+msgid "Go to Tab 8"
+msgstr ""
+
+msgid "Go to Tab 9"
+msgstr ""
+
+msgid "Go to Last Tab"
+msgstr ""
+
+msgid "Next Tab"
+msgstr "अगला टैब"
+
+msgid "Previous Tab"
+msgstr "पिछला टैब"
+
+msgid "Open Terminal"
+msgstr "टर्मिनल खोलें"
+
+msgid "Open Terminal Here"
+msgstr "यहाँ टर्मिनल खोलें"
+
+msgid "Configure Beluga"
+msgstr ""
+
+msgid "Undo failed."
+msgstr ""
+
+msgid "Folder…"
+msgstr ""
+
+msgid "Text File…"
+msgstr ""
+
+msgid "Empty File…"
+msgstr ""
+
+msgid "Link to File or Folder…"
+msgstr ""
+
+msgid "Create New"
+msgstr "नया बनाएँ"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr ""
+
+msgid "Browse…"
+msgstr "ब्राउज… (B)"
+
+msgid "Move To"
+msgstr ""
+
+msgid "Copy To"
+msgstr ""
+
+msgid "Open"
+msgstr "खोलें (O)"
+
+msgid "Open With…"
+msgstr ""
+
+#, c-format
+msgid "Open with %s"
+msgstr ""
+
+msgid "Other Application…"
+msgstr ""
+
+msgid "Open With"
+msgstr "के साथ खोलें"
+
+msgid "Empty Trash"
+msgstr "कूड़ा खाली करें"
+
+msgid "Add to Places"
+msgstr "स्थान में जोड़ें"
+
+msgid "Sort By"
+msgstr "इस आधार पर छांटें"
+
+msgid "View Mode"
+msgstr "दृश्य मोड"
+
+msgid "Remember View for This Folder"
+msgstr ""
+
+msgid "Restore"
+msgstr "पुनर्स्थापित करें"
+
+msgid "Open in New Tab"
+msgstr "नया टैब मे खोलें"
+
+msgid "Open in New Tabs"
+msgstr "नया टैबों मे खोलें"
+
+msgid "Open in New Window"
+msgstr "नया विंडो मे खोलें"
+
+msgid "Open in Split View"
+msgstr ""
+
+msgid "Open in Beluga"
+msgstr ""
+
+msgid "Open Containing Folder"
+msgstr ""
+
+msgid "Paste into Folder"
+msgstr ""
+
+msgid "Rename…"
+msgstr ""
+
+msgid "Show Target"
+msgstr "लक्ष्य दिखाएँ"
+
+msgid "Close"
+msgstr "बंद करें"
+
+msgid "_Cancel"
+msgstr ""
+
+msgid "The name cannot contain “/”."
+msgstr ""
+
+msgid "A name starting with a dot is hidden."
+msgstr ""
+
+msgid "Some items could not be renamed."
+msgstr ""
+
+msgid "Rename Item"
+msgstr ""
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr ""
+
+msgid "_Rename"
+msgstr ""
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr ""
+
+msgid "Change the file type?"
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr ""
+
+msgid "Rename Items"
+msgstr ""
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr ""
+
+msgid "New name #"
+msgstr ""
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr ""
+
+msgid "Start numbering at:"
+msgstr ""
+
+msgid "_Move Here"
+msgstr ""
+
+msgid "_Copy Here"
+msgstr ""
+
+msgid "_Link Here"
+msgstr ""
+
+msgid "C_ancel"
+msgstr ""
+
+msgid "Add Places Entry"
+msgstr ""
+
+msgid "Edit Places Entry"
+msgstr "स्थान प्रविष्टि संपादन"
+
+msgid "Label:"
+msgstr "लेबल:"
+
+msgid "Choose a folder"
+msgstr ""
+
+msgid "Location:"
+msgstr "स्थानः (L)"
+
+msgid "Icon name:"
+msgstr ""
+
+msgid "Choose a Folder"
+msgstr ""
+
+msgid "_Add"
+msgstr ""
+
+msgid "_Save"
+msgstr ""
+
+msgid "View Display Style"
+msgstr "दृश्य प्रदर्शन शैली"
+
+msgid "Icons"
+msgstr "प्रतीक"
+
+msgid "Compact"
+msgstr "सघन"
+
+msgid "Details"
+msgstr "विवरण"
+
+msgid "Columns"
+msgstr "स्तम्भ"
+
+msgid "View mode:"
+msgstr "दृश्य मोड:"
+
+msgid "Sorting:"
+msgstr "छांटा जा रहा है:"
+
+msgid "Ascending"
+msgstr "बढ़ते क्रम में"
+
+msgid "Descending"
+msgstr "घटते क्रम में"
+
+msgid "Show _folders first"
+msgstr ""
+
+msgid "Show hidden files _last"
+msgstr ""
+
+msgid "Show _previews"
+msgstr ""
+
+msgid "Show in _groups"
+msgstr ""
+
+msgid "Show _hidden files"
+msgstr ""
+
+msgid "Apply to"
+msgstr "यहाँ लागू करें"
+
+msgid "Current folder"
+msgstr "मौज़ूदा फ़ोल्डर"
+
+msgid "Current folder including all subfolders"
+msgstr ""
+
+msgid "All folders"
+msgstr "सभी फ़ोल्डर"
+
+msgid "_OK"
+msgstr ""
+
+#, c-format
+msgid "modified %s"
+msgstr ""
+
+msgid "Folder Already Exists"
+msgstr "फ़ोल्डर पहले से ही अस्तित्व में है"
+
+msgid "File Already Exists"
+msgstr "फ़ाइल पहले से ही अस्तित्व में है. "
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr ""
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr ""
+
+msgid "Existing item"
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "_Suggest New Name"
+msgstr ""
+
+msgid "New name:"
+msgstr ""
+
+msgid "Apply to _all"
+msgstr ""
+
+msgid "S_kip"
+msgstr ""
+
+msgid "_Write Into"
+msgstr ""
+
+msgid "_Overwrite"
+msgstr ""
+
+msgid "Skip"
+msgstr "छोड़ें (S)"
+
+msgid "Skip All"
+msgstr ""
+
+msgid "Retry"
+msgstr ""
+
+msgid "This location is not a folder."
+msgstr ""
+
+msgid "This location is not valid."
+msgstr ""
+
+msgid "This folder is not in the archive."
+msgstr ""
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "(another drive, not counted)"
+msgstr ""
+
+msgid "Some of its contents could not be read."
+msgstr ""
+
+#, c-format
+msgid "%s in files"
+msgstr ""
+
+#, c-format
+msgid "%s on disk"
+msgstr ""
+
+#, c-format
+msgid "%s files and %s folders"
+msgstr ""
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr ""
+
+msgid "Stopped."
+msgstr ""
+
+msgid "This folder could not be read."
+msgstr ""
+
+#, c-format
+msgid "%s, read in %.1f s"
+msgstr ""
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Only folders on this computer can be measured."
+msgstr ""
+
+msgid "read less than a minute ago"
+msgstr ""
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "रूकें"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Files"
+msgstr ""
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr ""
+
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr ""
+
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr ""
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr ""
+
+msgid "Replace"
+msgstr "बदलें"
+
+msgid "Choose a folder to save in."
+msgstr ""
+
+msgid "Select Folder"
+msgstr ""
+
+msgid "Open Files"
+msgstr ""
+
+msgid "Open File"
+msgstr ""
+
+msgid "Save File"
+msgstr ""
+
+msgid "Save Files"
+msgstr ""
+
+msgid "_Folder:"
+msgstr ""
+
+msgid "_Name:"
+msgstr ""
+
+msgid "_Type:"
+msgstr ""
+
+msgid "_Select"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+msgid "New Folder"
+msgstr ""
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
+msgid "%zu items selected"
+msgstr ""
+
+msgid "Contents:"
+msgstr ""
+
+msgid "Size:"
+msgstr "आकारः"
+
+msgid "Type:"
+msgstr "क़िस्मः"
+
+msgid "Folder"
+msgstr "फ़ोल्डर"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "Counting…"
+msgstr ""
+
+msgid "Unknown"
+msgstr "अज्ञात"
+
+msgid "Modified:"
+msgstr "परिवर्धितः"
+
+msgid "Created:"
+msgstr "सृजितः"
+
+msgid "Accessed:"
+msgstr "पहुंचाः"
+
+msgid "Points to:"
+msgstr "की ओर इशाराः"
+
+msgid "Permissions:"
+msgstr "अनुमतियाँ:"
+
+msgid "Owner:"
+msgstr "स्वामीः (w)"
+
+msgid "Group:"
+msgstr "समूहः (u)"
+
+msgid "Dimensions:"
+msgstr "आयाम:"
+
+msgid "Broken Link"
+msgstr ""
+
+#, c-format
+msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
+msgstr ""
+
+#, c-format
+msgid "%s of %s"
+msgstr ""
+
+#, c-format
+msgid "%s left"
+msgstr ""
+
+#, c-format
+msgid "%d of %d"
+msgstr ""
+
+msgid "File operations in progress"
+msgstr ""
+
+msgid "No subfolders"
+msgstr ""
+
+msgid "Select the given files in their folders"
+msgstr ""
+
+msgid "Open the window in split view"
+msgstr ""
+
+msgid "Always open a new window"
+msgstr ""
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr ""
+
+msgid "Show the version"
+msgstr ""
+
+msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr ""
+
+msgid "Close this window?"
+msgstr ""
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "View Settings"
+msgstr ""
+
+msgid "Split"
+msgstr "विभाजित करें"
+
+msgid "Menu"
+msgstr "मेन्यू"
+
+msgid "Folders First"
+msgstr "पहले फ़ोल्डर"
+
+msgid "Hidden Files Last"
+msgstr "छुपी फ़ाइलें अंत में"
+
+msgid "Show in Groups"
+msgstr "समूहों में दिखाएँ"
+
+msgid "_File"
+msgstr ""
+
+msgid "New _Window"
+msgstr ""
+
+msgid "New _Tab"
+msgstr ""
+
+msgid "_Close Tab"
+msgstr ""
+
+msgid "Create _New"
+msgstr ""
+
+msgid "_Rename…"
+msgstr ""
+
+msgid "_Duplicate Here"
+msgstr ""
+
+msgid "Move to _Trash"
+msgstr ""
+
+msgid "_Delete"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "_Properties"
+msgstr ""
+
+msgid "_Quit"
+msgstr ""
+
+msgid "_Edit"
+msgstr ""
+
+msgid "_Undo"
+msgstr ""
+
+msgid "_Redo"
+msgstr ""
+
+msgid "Cu_t"
+msgstr ""
+
+msgid "_Copy"
+msgstr ""
+
+msgid "_Paste"
+msgstr ""
+
+msgid "Filter…"
+msgstr ""
+
+msgid "_Search…"
+msgstr ""
+
+msgid "Select _All"
+msgstr ""
+
+msgid "_View"
+msgstr ""
+
+msgid "Zoom _In"
+msgstr ""
+
+msgid "Reset Zoom Level"
+msgstr "ज़ूम स्तर को पुनर्स्थापित करें"
+
+msgid "Zoom _Out"
+msgstr ""
+
+msgid "Show Additional Information"
+msgstr "अतिरिक्त जानकारी दिखाएँ"
+
+msgid "Show Previews"
+msgstr "पूर्वावलोकन दिखाएँ"
+
+msgid "Restore to Defaults"
+msgstr ""
+
+msgid "Adjust View Display Style…"
+msgstr ""
+
+msgid "Re_load"
+msgstr ""
+
+msgid "Panels"
+msgstr ""
+
+msgid "Information"
+msgstr "जानकारी"
+
+msgid "Location Bar"
+msgstr "स्थान पट्टी"
+
+msgid "Show _Menubar"
+msgstr ""
+
+msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
+msgstr ""
+
+msgid "_Go"
+msgstr ""
+
+msgid "_Back"
+msgstr ""
+
+msgid "_Forward"
+msgstr ""
+
+msgid "_Up"
+msgstr ""
+
+msgid "_Home"
+msgstr ""
+
+msgid "Recently Closed Tabs"
+msgstr "हाल ही में बंद किए गए टैब"
+
+msgid "_Tools"
+msgstr ""
+
+msgid "Open _Terminal"
+msgstr ""
+
+msgid "Open Terminal _Here"
+msgstr ""
+
+msgid "_Disk Usage…"
+msgstr ""
+
+msgid "_Settings"
+msgstr ""
+
+msgid "_Configure Beluga…"
+msgstr ""
+
+msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
+msgstr ""
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr ""
+
+msgid "Open Folders"
+msgstr ""
+
+#, c-format
+msgid "Could not open “%s”."
+msgstr ""
+
+msgid "Could not open a terminal."
+msgstr ""
+
+msgid "New Text File.txt"
+msgstr ""
+
+msgid "New File"
+msgstr ""
+
+msgid "Empty the trash?"
+msgstr ""
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr ""
+
+msgid "Open Terminals"
+msgstr ""
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr ""
+
+msgid "Could not create the file."
+msgstr ""
+
+msgid "Link to File or Folder"
+msgstr ""
+
+msgid "Path of the file or folder to link to:"
+msgstr ""
+
+msgid "Could not create the link."
+msgstr ""
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr ""
+
+msgid "This cannot be undone."
+msgstr ""
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr ""
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr ""
+
+#, c-format
+msgid "Could not start %s."
+msgstr ""
+
+msgid "Could not start the application."
+msgstr ""
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr ""
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr ""
+
+msgid "Recommended Applications"
+msgstr ""
+
+msgid "Other Applications"
+msgstr ""
+
+msgid "Or command:"
+msgstr ""
+
+msgid "Remember application association for this type of file"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s"
+msgstr ""
+
+msgid "Safely Remove"
+msgstr ""
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr ""
+
+msgid "Mount"
+msgstr "आरोहित करें (M)"
+
+msgid "Unmount"
+msgstr "अनारोहित करें"
+
+msgid "Edit…"
+msgstr ""
+
+msgid "Remove"
+msgstr "हटाएँ"
+
+msgid "Show"
+msgstr "दिखाएं"
+
+msgid "Hide"
+msgstr ""
+
+msgid "Hide Section"
+msgstr ""
+
+msgid "Add Entry…"
+msgstr ""
+
+msgid "Hide Hidden Entries"
+msgstr ""
+
+msgid "Show All Entries"
+msgstr "सभी प्रविष्टियाँ दिखाएँ (S)"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr ""
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr ""
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr ""
+
+#, c-format
+msgid "%d px"
+msgstr ""
+
+msgid "Use the system _font"
+msgstr ""
+
+msgid "Label font:"
+msgstr "लेबल फ़ॉन्ट :"
+
+msgid "Default icon size:"
+msgstr "पूर्वन्यस्त प्रतीक आकार :"
+
+msgid "Preview icon size:"
+msgstr "पूर्वावलोकन प्रतीक आकार :"
+
+msgid "Context Menu Action"
+msgstr ""
+
+msgid "Name:"
+msgstr "नाम: (N)"
+
+msgid "Command:"
+msgstr "कमांड:"
+
+msgid "File names:"
+msgstr ""
+
+msgid "Types:"
+msgstr ""
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr ""
+
+msgid "Show for _files"
+msgstr ""
+
+msgid "Show for f_olders"
+msgstr ""
+
+msgid "Show when _several items are selected"
+msgstr ""
+
+msgid "Run in a _terminal"
+msgstr ""
+
+msgid "Custom Actions"
+msgstr ""
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr ""
+
+msgid "_Add…"
+msgstr ""
+
+msgid "_Edit…"
+msgstr ""
+
+msgid "_Remove"
+msgstr ""
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr ""
+
+msgid "no file"
+msgstr ""
+
+msgid "files of any size"
+msgstr ""
+
+#, c-format
+msgid "files below %d MiB"
+msgstr ""
+
+msgid "Search…"
+msgstr "खोजें…"
+
+msgid "_Restore Defaults"
+msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "प्रारंभ में दिखाएँ :"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr ""
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "मौज़ूदा स्थान इस्तेमाल करें"
+
+msgid "Use Default Location"
+msgstr "डिफ़ॉल्ट स्थान इस्तेमाल करें"
+
+msgid "Opening Folders:"
+msgstr ""
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "विंडो:"
+
+msgid "Show full path in title bar"
+msgstr "शीर्षकपट्टी में पूरा पथ दिखाएँ"
+
+msgid "Show filter bar"
+msgstr "फ़िल्टर पट्टी दिखाएँ"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr ""
+
+msgid "Show close button on tabs"
+msgstr ""
+
+msgid "Tab style:"
+msgstr ""
+
+msgid "Tab width adapts to folder name"
+msgstr ""
+
+msgid "Tabs all have the same fixed width"
+msgstr ""
+
+msgid "Tabs span the available width"
+msgstr ""
+
+msgid "Open new tabs:"
+msgstr "नया टैबों मे खोलें : "
+
+msgid "After current tab"
+msgstr "वर्तमान टैब के बाद"
+
+msgid "At end of tab bar"
+msgstr "टैब पट्टी के अंत में"
+
+msgid "Split view:"
+msgstr "विभाजित दृश्य :"
+
+msgid "When closing a split view"
+msgstr ""
+
+msgid "Close the active pane"
+msgstr ""
+
+msgid "Close the inactive pane"
+msgstr ""
+
+msgid "Close the right pane"
+msgstr ""
+
+msgid "Open new windows in split view mode"
+msgstr ""
+
+msgid "Terminal:"
+msgstr "टर्मिनल:"
+
+msgid "No terminal found"
+msgstr ""
+
+#, c-format
+msgid "Detected: %s"
+msgstr ""
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr ""
+
+msgid "Previews"
+msgstr "पूर्वावलोकन"
+
+msgid "New folders:"
+msgstr ""
+
+msgid "Show _previews in new folders"
+msgstr ""
+
+msgid "Show previews in the view for:"
+msgstr "इसके लिए दृश्य में पूर्वावलोकन दिखाएं :"
+
+msgid "Audio (cover art)"
+msgstr ""
+
+msgid "PDF documents"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Office documents"
+msgstr ""
+
+msgid "Local storage:"
+msgstr ""
+
+msgid "Show previews for"
+msgstr ""
+
+msgid "Remote storage:"
+msgstr ""
+
+msgid "Confirmations"
+msgstr "पुष्टिकरण"
+
+msgid "Ask for confirmation when:"
+msgstr ""
+
+msgid "Moving files or folders to trash"
+msgstr "फ़ाइलों या फ़ोल्डरों को कूडे़ में डाला जा रहा है"
+
+msgid "Emptying trash"
+msgstr "कूडा खाली किया जा रहा है"
+
+msgid "Deleting files or folders"
+msgstr "फ़ाइलों या फ़ोल्डरों को मिटाया जा रहा है"
+
+msgid "Renaming a file will change its type"
+msgstr ""
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr ""
+
+msgid "Closing windows with multiple tabs"
+msgstr "एकाधिक टैब के साथ विंडो बंद करना"
+
+msgid "Opening many folders at once"
+msgstr ""
+
+msgid "Opening many terminals at once"
+msgstr ""
+
+msgid "Switching to act as an administrator"
+msgstr ""
+
+msgid "When opening an executable file:"
+msgstr "निष्पादन योग्य फ़ाइल खोलते समय :"
+
+msgid "Always ask"
+msgstr "हमेशा पूछें"
+
+msgid "Open in application"
+msgstr "अनुप्रयोग में खोलें"
+
+msgid "Run script"
+msgstr "स्क्रिप्ट चलाएँ"
+
+msgid "Information Panel:"
+msgstr ""
+
+msgid "Show previews"
+msgstr "पूर्वावलोकन दिखाएँ"
+
+msgid "Auto-play media files"
+msgstr "मीडिया फ़ाइलों को स्वचालित रूप से चलाएं"
+
+msgid "Show item on hover"
+msgstr ""
+
+msgid "Use _long date format"
+msgstr ""
+
+msgid "Folders Panel:"
+msgstr ""
+
+msgid "Limit to home directory when inside it"
+msgstr ""
+
+msgid "Show _hidden folders"
+msgstr ""
+
+msgid "Scroll to the current folder _automatically"
+msgstr ""
+
+msgid "Places Panel:"
+msgstr ""
+
+msgid "Icon size:"
+msgstr "प्रतीक आकार:"
+
+msgid "Status & Location bars"
+msgstr ""
+
+msgid "Status Bar:"
+msgstr ""
+
+msgid "Small"
+msgstr "छोटा"
+
+msgid "Full width"
+msgstr ""
+
+msgid "Disabled"
+msgstr "अक्षम"
+
+msgid "Show zoom slider"
+msgstr "ज़ूम स्लाइडर दिखाएँ"
+
+msgid "Show free _space"
+msgstr ""
+
+msgid "Location bar:"
+msgstr "स्थान पट्टी:"
+
+msgid "Make location bar editable"
+msgstr "स्थान-पट्टी को संपादन योग्य बनाएं"
+
+msgid "Show full path inside location bar"
+msgstr "स्थान पट्टी में पूरा स्थान दिखाएँ"
+
+msgid "Interface"
+msgstr ""
+
+msgid "General"
+msgstr "सामान्य"
+
+msgid "Display style:"
+msgstr ""
+
+msgid "Use common display style for all folders"
+msgstr "सभी फ़ोल्डरों के लिए समान दृश्य शैली का उपयोग करें"
+
+msgid "Remember display style for each folder"
+msgstr "प्रत्येक फ़ोल्डर के लिए दृष्य शैली को याद रखें"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr ""
+
+msgid "Browse compressed files as folders"
+msgstr ""
+
+msgid "Open folders during drag operations"
+msgstr "ड्रैग प्रक्रिया के दौरान फ़ोल्डर खोलें"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "विविध: "
+
+msgid "Show item information on hover"
+msgstr ""
+
+msgid "Show selection marker"
+msgstr "चयन चिन्ह दिखाएँ"
+
+msgid "Rename single items inline"
+msgstr ""
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr ""
+
+msgid "Background:"
+msgstr ""
+
+msgid "Double-click triggers"
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+msgid "Go Up"
+msgstr "ऊपर जाएं"
+
+msgid "Content Display"
+msgstr ""
+
+msgid "Sorting mode:"
+msgstr "छँटाई मोड :"
+
+msgid "Natural"
+msgstr "प्राकृतिक"
+
+msgid "Alphabetical, case insensitive"
+msgstr "वर्णानुक्रमिक, अक्षर असंवेदनशील"
+
+msgid "Alphabetical, case sensitive"
+msgstr "वर्णानुक्रमिक, अक्षर संवेदनशील"
+
+msgid "Folder size:"
+msgstr ""
+
+msgid "Show number of items"
+msgstr ""
+
+msgid "Show size of contents, up to "
+msgstr ""
+
+msgid "Show no size"
+msgstr ""
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "दिनांक शैलि :"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "अनुमतियाँ शैली :"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr ""
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "लेबल की चौड़ाई"
+
+msgid "Medium"
+msgstr "मध्यम"
+
+msgid "Large"
+msgstr "बड़ा"
+
+msgid "Huge"
+msgstr "विशाल"
+
+msgid "Maximum lines:"
+msgstr "अधिकतम पंक्तियाँ :"
+
+msgid "Unlimited"
+msgstr "असीमित"
+
+msgid "Spacing:"
+msgstr ""
+
+msgid "Maximum width:"
+msgstr "अधिकतम चौड़ाई :"
+
+msgid "Folders:"
+msgstr "फ़ोल्डर :"
+
+msgid "Expandable"
+msgstr "फैलाए जा सकने वाला"
+
+msgid "Open files and folders:"
+msgstr "फ़इल व फोल्डरों को खोलें :"
+
+msgid "By clicking anywhere on the row"
+msgstr ""
+
+msgid "By clicking on icon or name"
+msgstr ""
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "दृश्य (V)"
+
+msgid "Show in the context menu"
+msgstr ""
+
+msgid "'Copy To' and 'Move To'"
+msgstr ""
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr ""
+
+msgid "Context Menu"
+msgstr "संदर्भित मेन्यू"
+
+msgid "Cleanup:"
+msgstr ""
+
+msgid "Delete files older than"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "Limit to"
+msgstr ""
+
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
+msgstr ""
+
+msgid "When the limit is reached:"
+msgstr ""
+
+msgid "Show a warning"
+msgstr ""
+
+msgid "Delete the oldest items"
+msgstr ""
+
+msgid "Delete the largest items"
+msgstr ""
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
+msgid "Calculating trash size…"
+msgstr ""
+
+msgid "Trash:"
+msgstr "कूड़ा:"
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr ""
+
+msgid "_Empty Trash Now"
+msgstr ""
+
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#, c-format
+msgid "%zu items"
+msgstr ""
+
+msgid "Calculating…"
+msgstr ""
+
+msgid "No default application"
+msgstr ""
+
+msgid "C_hange…"
+msgstr ""
+
+msgid "Opens with:"
+msgstr ""
+
+msgid "Free space:"
+msgstr ""
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr ""
+
+#, c-format
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Forbidden"
+msgstr "निषेधित"
+
+msgid "Can View"
+msgstr ""
+
+msgid "Can View & Modify"
+msgstr ""
+
+msgid "Can View Content"
+msgstr ""
+
+msgid "Can View & Modify Content"
+msgstr "विषयवस्तु देख व बदल सकते हैं"
+
+msgid "Others:"
+msgstr "अन्यः (t)"
+
+msgid "Is _executable"
+msgstr ""
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr ""
+
+msgid "User:"
+msgstr "उपयोक्ता:"
+
+msgid "Mode:"
+msgstr "मोड:"
+
+msgid "Calculate"
+msgstr "गणना"
+
+msgid "Could not read the file."
+msgstr ""
+
+msgid "Paste a checksum to compare"
+msgstr ""
+
+msgid "Verify:"
+msgstr ""
+
+msgid "The checksums match."
+msgstr ""
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr ""
+
+msgid "Could not change the permissions."
+msgstr ""
+
+#, c-format
+msgid "Properties for %s"
+msgstr " %s के लिए गुण"
+
+msgid "Checksums"
+msgstr ""
+
+msgid "Filter:"
+msgstr "छाने:"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr ""
+
+msgid "Keep the filter when changing folders"
+msgstr ""
+
+msgid "In This Folder"
+msgstr ""
+
+msgid "In Your Files"
+msgstr ""
+
+msgid "Everywhere"
+msgstr ""
+
+msgid "File Names"
+msgstr ""
+
+msgid "File Names and Contents"
+msgstr ""
+
+msgid "Any Time"
+msgstr ""
+
+msgid "Today"
+msgstr "आज"
+
+msgid "Last 7 Days"
+msgstr ""
+
+msgid "Last 30 Days"
+msgstr ""
+
+msgid "Last Year"
+msgstr ""
+
+msgid "Hidden files"
+msgstr ""
+
+msgid "Zoom:"
+msgstr "ज़ूमः"
+
+msgid "Zoom"
+msgstr "ज़ूम"
+
+#, c-format
+msgid "%s free"
+msgstr "%s मुक्त"
+
+msgid "Duplicate Tab"
+msgstr ""
+
+msgid "Detach Tab"
+msgstr "पट्टी अलग करें"
+
+msgid "Close Other Tabs"
+msgstr "अन्य टैब बन्द करें"
+
+msgid "Show Columns"
+msgstr ""
+
+#, c-format
+msgid "Size: %s"
+msgstr ""
+
+#, c-format
+msgid "Modified: %s"
+msgstr ""
+
+#, c-format
+msgid "Original location: %s"
+msgstr ""
+
+msgid "Yesterday"
+msgstr "कल"
+
+msgid "One Week Ago"
+msgstr "एक सप्ताह पहले"
+
+msgid "Two Weeks Ago"
+msgstr "दो सप्ताह पहले"
+
+msgid "Three Weeks Ago"
+msgstr "तीन सप्ताह पहले"
+
+msgid "Earlier this Month"
+msgstr "इस महीने के शुरू में"
+
+msgid "0 - 9"
+msgstr "०-९"
+
+msgid "Others"
+msgstr "अन्य"
+
+msgid "Big"
+msgstr "बड़ा"
+
+msgid "Less than 1 MiB"
+msgstr ""
+
+msgid "1 MiB to 100 MiB"
+msgstr ""
+
+msgid "100 MiB to 1 GiB"
+msgstr ""
+
+msgid "1 GiB or more"
+msgstr ""
+
+msgid "Not counted yet"
+msgstr ""
+
+msgid "Searching…"
+msgstr ""
+
+msgid "No items matching the filter"
+msgstr "फ़िल्टर से मेल खाने वाला कोई वस्तुएं नहीं"
+
+msgid "No items found"
+msgstr ""
+
+msgid "Trash is empty"
+msgstr "कूडा-दान खाली है"
+
+msgid "Folder is empty"
+msgstr "फ़ोल्डर खाली है"
+
+msgid "A file name cannot contain “/”."
+msgstr ""
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr ""
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr ""
+
+msgid "_Exit Selection Mode"
+msgstr ""
+
+msgid "_Duplicate"
+msgstr ""
+
+msgid "De_lete"
+msgstr ""
+
+msgid "Pr_operties"
+msgstr ""
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr ""
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr ""
+
+#, c-format
+msgid "%s selected"
+msgstr ""
+
+msgid "Loading folder…"
+msgstr ""
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] ""
+msgstr[1] ""

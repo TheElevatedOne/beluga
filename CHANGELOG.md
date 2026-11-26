@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+- Changed: the window is laid out like Dolphin's. The tool bar has Back, Forward, a view settings button showing
+  the current view mode (modes, sorting and columns in its menu), the location bar (both views' side by side in
+  split view; above each view when the tool bar is hidden), Disk Usage, Split ("Close" while split) and Search. Up
+  and Home stay in the Go menu (<kbd>Alt</kbd>+<kbd>Up</kbd>, <kbd>Alt</kbd>+<kbd>Home</kbd>), Filter on
+  <kbd>Ctrl</kbd>+<kbd>I</kbd>. Tabs have one fixed width with the name centred (or follow their names, or fill
+  the bar: Interface → Folders & Tabs → Tab style). The status bar shows "Zoom:" and the free space as "N GiB
+  free", which opens the drive's usage.
+- Changed: **Configure Beluga** is laid out like Dolphin's settings: Interface (Folders & Tabs, Previews,
+  Confirmations, Panels, Status & Location bars), View (General, Content Display, Icons, Compact, Details),
+  Context Menu, Trash and Keyboard Shortcuts, as icons in a sidebar with a search field; forms with the labels on
+  the left; **Restore Defaults** for the page shown, **OK**, **Cancel** (takes back the changes, which show while
+  you make them) and **Apply**.
 - Fixed: context menus and other popovers use the theme's popover colours (`popover_bg_color`,
   `popover_fg_color`); style sheets that only colour `popover` (pywal, Noctalia) left them in GTK's grey. Menu rows
   are more compact, so the longest context menu (a folder's) is 502 px instead of 678 px and fits on a 1080p screen

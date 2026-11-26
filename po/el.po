@@ -1225,6 +1225,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "Ρυθμίσεις"
 
+msgid "Split"
+msgstr "Διαίρεση"
+
 msgid "Menu"
 msgstr "Μενού"
 
@@ -1543,14 +1546,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "Γραμματοσειρά ετικέτας:"
 
-msgid "Icon size:"
-msgstr "Μέγεθος εικονιδίου:"
+msgid "Default icon size:"
+msgstr "Προκαθορισμένο μέγεθος εικονιδίων:"
 
-msgid "Preview size:"
-msgstr "Μέγεθος προεπισκόπησης:"
+msgid "Preview icon size:"
+msgstr "Μέγεθος προεπισκόπησης εικονιδίων:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1600,123 +1603,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "Γενικά"
+msgid "no file"
+msgstr "κανένα αρχείο"
 
-msgid "Startup"
-msgstr "Εκκίνηση"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "Συμπεριφορά"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "Τερματικό"
+msgid "files of any size"
+msgstr "αρχεία οποιουδήποτε μεγέθους"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "Αναζήτηση…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "Εμφάνιση στην εκκίνηση:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Φάκελοι, καρτέλες και κατάσταση παραθύρου της τελευταίας φοράς"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "Χρήση τρέχουσας τοποθεσίας"
+
+msgid "Use Default Location"
+msgstr "Χρήση προεπιλεγμένης τοποθεσίας"
+
+msgid "Opening Folders:"
+msgstr "Άνοιγμα φακέλων:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "Παράθυρο:"
+
+msgid "Show full path in title bar"
+msgstr "Εμφάνιση πλήρους διαδρομής στη γραμμή τίτλου"
+
+msgid "Show filter bar"
+msgstr "Εμφάνιση γραμμής φίλτρου"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "Να εμφανίζεται πάντα η γραμμή καρτελών"
+
+msgid "Show close button on tabs"
+msgstr "Εμφάνιση κουμπιού κλεισίματος στις καρτέλες"
+
+msgid "Tab style:"
+msgstr "Στυλ καρτελών: "
+
+msgid "Tab width adapts to folder name"
+msgstr "Το πλάτος της καρτέλας προσαρμόζεται στο όνομα του φακέλου"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Όλες οι καρτέλες έχουν το ίδιο σταθερό πλάτος"
+
+msgid "Tabs span the available width"
+msgstr "Οι καρτέλες καταλαμβάνουν όλο το διαθέσιμο πλάτος"
+
+msgid "Open new tabs:"
+msgstr "Άνοιγμα σε νέων καρτελών: "
+
+msgid "After current tab"
+msgstr "Μετά από την τρέχουσα καρτέλα"
+
+msgid "At end of tab bar"
+msgstr "Στο τέλος της γραμμής καρτελών"
+
+msgid "Split view:"
+msgstr "Διαχωρισμένη προβολή: "
+
+msgid "When closing a split view"
+msgstr "Κατά το κλείσιμο διαιρεμένης προβολής"
+
+msgid "Close the active pane"
+msgstr "Κλείσιμο του ενεργού τμήματος"
+
+msgid "Close the inactive pane"
+msgstr "Κλείσιμο του ανενεργού τμήματος"
+
+msgid "Close the right pane"
+msgstr "Κλείσιμο δεξιάς προβολής"
+
+msgid "Open new windows in split view mode"
+msgstr "Άνοιγμα νέων παραθύρων σε λειτουργία διαιρεμένης προβολής"
+
+msgid "Terminal:"
+msgstr "Τερματικό:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1725,116 +1713,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "Προβολή"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "Φυσική"
-
-msgid "Alphabetical, case insensitive"
-msgstr "Αλφαβητική, χωρίς διάκριση πεζών-κεφαλαίων"
-
-msgid "Alphabetical, case sensitive"
-msgstr "Αλφαβητική, με διάκριση πεζών-κεφαλαίων"
-
-msgid "Folder size:"
-msgstr "Μέγεθος φακέλου:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "Κανένα"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "Πλάτος ετικέτας:"
-
-msgid "Small"
-msgstr "Μικρό"
-
-msgid "Medium"
-msgstr "Μεσαίο"
-
-msgid "Large"
-msgstr "Μεγάλο"
-
-msgid "Huge"
-msgstr "Τεράστιο"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "Απεριόριστο"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "Προεπισκοπήσεις"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "Εμφάνιση προεπισκοπήσεων για"
+msgid "Show previews in the view for:"
+msgstr "Εμφάνιση προεπισκοπήσεων στην προβολή για:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1851,44 +1744,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "Τοπική αποθήκευση:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "Εμφάνιση προεπισκοπήσεων για"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "Απομακρυσμένη αποθήκευση:"
 
 msgid "Confirmations"
 msgstr "Επιβεβαιώσεις"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "Μετακίνηση αρχείων ή φακέλων στα απορρίμματα"
+
+msgid "Emptying trash"
+msgstr "Άδειασμα απορριμμάτων"
+
+msgid "Deleting files or folders"
+msgstr "Διαγραφή αρχείων ή φακέλων"
+
+msgid "Renaming a file will change its type"
+msgstr "Η μετονομασία αρχείου θα αλλάξει τον τύπο του"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "Κλείσιμο παραθύρων με πολλαπλές καρτέλες"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "Άνοιγμα πολλών φακέλων ταυτόχρονα"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "Άνοιγμα πολλών τερματικών ταυτόχρονα"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "Εναλλαγή σε λειτουργία διαχειριστή"
 
 msgid "When opening an executable file:"
 msgstr "Στο άνοιγμα εκτελέσιμου αρχείου:"
@@ -1896,56 +1792,245 @@ msgstr "Στο άνοιγμα εκτελέσιμου αρχείου:"
 msgid "Always ask"
 msgstr "Να γίνεται πάντα ερώτηση"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "Άνοιγμα στην εφαρμογή"
+
+msgid "Run script"
+msgstr "Εκτέλεση σεναρίου"
+
+msgid "Information Panel:"
+msgstr "Πίνακας πληροφοριών:"
+
+msgid "Show previews"
+msgstr "Εμφάνιση προεπισκοπήσεων"
+
+msgid "Auto-play media files"
+msgstr "Αυτόματη αναπαραγωγή αρχείων πολυμέσων"
+
+msgid "Show item on hover"
+msgstr "Εμφάνιση αντικειμένου στην αιώρηση"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "Πίνακας φακέλων:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "Γραμμή κατάστασης"
-
-msgid "Status bar:"
-msgstr "Γραμμή κατάστασης:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "Πλήρες πλάτος"
-
-msgid "Hidden"
-msgstr "Κρυφό"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "Περιορισμός στον προσωπικό κατάλογο όταν βρίσκεστε μέσα σε αυτόν"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "Μέγεθος εικονιδίου:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "Γραμμή κατάστασης:"
+
+msgid "Small"
+msgstr "Μικρό"
+
+msgid "Full width"
+msgstr "Πλήρες πλάτος"
+
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+msgid "Show zoom slider"
+msgstr "Εμφάνιση κύλισης εστίασης"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "Σχετικό μενού"
+msgid "Location bar:"
+msgstr "Γραμμή τοποθεσίας"
+
+msgid "Make location bar editable"
+msgstr "Να γίνει η γραμμή τοποθεσίας επεξεργάσιμη"
+
+msgid "Show full path inside location bar"
+msgstr "Εμφάνιση πλήρους διαδρομής στη γραμμή τοποθεσίας"
+
+msgid "Interface"
+msgstr "Διεπαφή"
+
+msgid "General"
+msgstr "Γενικά"
+
+msgid "Display style:"
+msgstr "Στυλ εμφάνισης:"
+
+msgid "Use common display style for all folders"
+msgstr "Χρήση κοινού στιλ εμφάνισης για όλους τους φακέλους"
+
+msgid "Remember display style for each folder"
+msgstr "Να γίνεται απομνημόνευση του στιλ εμφάνισης για κάθε φάκελο"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "Περιήγηση:"
+
+msgid "Browse compressed files as folders"
+msgstr "Περιήγηση σε συμπιεσμένα αρχεία ως φακέλους"
+
+msgid "Open folders during drag operations"
+msgstr "Άνοιγμα φακέλων κατά τις λειτουργίες έλκυσης"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "Διάφορα: "
+
+msgid "Show item information on hover"
+msgstr "Εμφάνιση πληροφοριών αντικειμένου σε αιώρηση"
+
+msgid "Show selection marker"
+msgstr "Εμφάνιση σημείου επιλογής"
+
+msgid "Rename single items inline"
+msgstr "Μετονομασία μεμονωμένων αντικειμένων γραμμικά"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Απόκρυψη αρχείων αντιγράφων ασφαλείας κατά την απόκρυψη κρυφών αρχείων"
+
+msgid "Background:"
+msgstr "Παρασκήνιο: "
+
+msgid "Double-click triggers"
+msgstr "Διπλό κλικ προκαλεί"
+
+msgid "Nothing"
+msgstr "Τίποτα"
+
+msgid "Go Up"
+msgstr "Μετάβαση επάνω"
+
+msgid "Content Display"
+msgstr "Εμφάνιση περιεχομένων"
+
+msgid "Sorting mode:"
+msgstr "Τρόπος ταξινόμησης: "
+
+msgid "Natural"
+msgstr "Φυσική"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Αλφαβητική, χωρίς διάκριση πεζών-κεφαλαίων"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Αλφαβητική, με διάκριση πεζών-κεφαλαίων"
+
+msgid "Folder size:"
+msgstr "Μέγεθος φακέλου:"
+
+msgid "Show number of items"
+msgstr "Εμφάνιση αριθμού αντικειμένων"
+
+msgid "Show size of contents, up to "
+msgstr "Εμφάνιση του μεγέθους των περιεχομένων, έως"
+
+msgid "Show no size"
+msgstr "Εμφάνιση χωρίς μέγεθος"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "Στυλ ημερομηνίας:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "Μορφή δικαιωμάτων:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "Μεγάλα ονόματα αρχείων:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "Πλάτος ετικέτας:"
+
+msgid "Medium"
+msgstr "Μεσαίο"
+
+msgid "Large"
+msgstr "Μεγάλο"
+
+msgid "Huge"
+msgstr "Τεράστιο"
+
+msgid "Maximum lines:"
+msgstr "Μέγιστο πλήθος γραμμών:"
+
+msgid "Unlimited"
+msgstr "Απεριόριστο"
+
+msgid "Spacing:"
+msgstr "Απόσταση:"
+
+msgid "Maximum width:"
+msgstr "Μέγιστο πλάτος:"
+
+msgid "Folders:"
+msgstr "Φάκελοι:"
+
+msgid "Expandable"
+msgstr "Επεκτάσιμοι"
+
+msgid "Open files and folders:"
+msgstr "Άνοιγμα αρχείων και φακέλων:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Με κλικ οπουδήποτε πάνω στη γραμμή"
+
+msgid "By clicking on icon or name"
+msgstr "Με κλικ πάνω στο εικονίδιο ή στο όνομα"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "Προβολή"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1956,19 +2041,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "Σχετικό μενού"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -1983,8 +2074,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "Απορρίμματα:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2092,9 +2189,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "Αναζήτηση…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2127,6 +2221,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "Ζουμ:"
 
 msgid "Zoom"
 msgstr "Ζουμ"

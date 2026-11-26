@@ -1252,6 +1252,9 @@ msgstr ""
 msgid "View Settings"
 msgstr "إعدادات المنظور"
 
+msgid "Split"
+msgstr "اقسم"
+
 msgid "Menu"
 msgstr "القائمة"
 
@@ -1570,14 +1573,14 @@ msgstr ""
 msgid "Use the system _font"
 msgstr ""
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "خط اللاصقة:"
 
-msgid "Icon size:"
-msgstr "حجم الأيقونة:"
+msgid "Default icon size:"
+msgstr "حجم الأيقونة المبدئي:"
 
-msgid "Preview size:"
-msgstr "حجم المعاينة:"
+msgid "Preview icon size:"
+msgstr "حجم أيقونة المعاينة:"
 
 msgid "Context Menu Action"
 msgstr ""
@@ -1627,123 +1630,108 @@ msgstr ""
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
 msgstr ""
 
-msgid "General"
-msgstr "عامّ"
+msgid "no file"
+msgstr "لا يوجد ملف"
 
-msgid "Startup"
-msgstr "البدء"
-
-msgid "_Home folder:"
-msgstr ""
-
-msgid "_Remember open folders and tabs"
-msgstr ""
-
-msgid "Begin in _split view mode"
-msgstr ""
-
-msgid "Show _filter bar"
-msgstr ""
-
-msgid "Make location bar _editable"
-msgstr ""
-
-msgid "Show full path inside _location bar"
-msgstr ""
-
-msgid "Show full path in _title bar"
-msgstr ""
-
-msgid "Mouse"
-msgstr ""
-
-msgid "These used to be KDE system settings."
-msgstr ""
-
-msgid "Clicking files or folders:"
-msgstr ""
-
-msgid "Selects them (double-click opens)"
-msgstr ""
-
-msgid "Opens them"
-msgstr ""
-
-msgid "Double-clicking empty space:"
-msgstr ""
-
-msgid "Does nothing"
-msgstr ""
-
-msgid "Selects all items"
-msgstr ""
-
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
-
-msgid "Keep an _index of the home folder for instant search"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "السلوك"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "الطرفية"
+msgid "files of any size"
+msgstr "للملفات من أي حجم"
 
 #, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgid "files below %d MiB"
 msgstr ""
 
-msgid "Terminal _command:"
+msgid "Search…"
+msgstr "ابحث…"
+
+msgid "_Restore Defaults"
 msgstr ""
+
+msgid "_Apply"
+msgstr ""
+
+msgid "Folders & Tabs"
+msgstr ""
+
+msgid "Show on startup:"
+msgstr "أظهر عند البدء:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "المجلدات وألسنة وحالة النافذة من المرة السابقة"
+
+msgid "This location:"
+msgstr ""
+
+msgid "Use Current Location"
+msgstr "استخدم الموقع الحالي"
+
+msgid "Use Default Location"
+msgstr "استخدم الموقع المبدئي"
+
+msgid "Opening Folders:"
+msgstr "فتح المجلدات:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr ""
+
+msgid "Window:"
+msgstr "النافذة:"
+
+msgid "Show full path in title bar"
+msgstr "أظهر كامل المسار في شريط العنوان"
+
+msgid "Show filter bar"
+msgstr "أظهر شريط المرشّح"
+
+msgid "Tabs:"
+msgstr ""
+
+msgid "Always show tab bar"
+msgstr "أظهر شريط الألسنة دائمًا"
+
+msgid "Show close button on tabs"
+msgstr "أظهر زر الإغلاق في الألسنة"
+
+msgid "Tab style:"
+msgstr "نمط الألسنة:: "
+
+msgid "Tab width adapts to folder name"
+msgstr "عرض اللسان يتكيف مع اسم المجلد"
+
+msgid "Tabs all have the same fixed width"
+msgstr "جميع الألسنة لها نفس العرض الثابت"
+
+msgid "Tabs span the available width"
+msgstr "تغطي الألسنة العرض المتاح"
+
+msgid "Open new tabs:"
+msgstr "افتح ألسنة جديدة: "
+
+msgid "After current tab"
+msgstr "بعد اللسان الحالي"
+
+msgid "At end of tab bar"
+msgstr "عند نهاية شريط الألسنة"
+
+msgid "Split view:"
+msgstr "قسم العرض: "
+
+msgid "When closing a split view"
+msgstr "عند غلق العرض المقسم"
+
+msgid "Close the active pane"
+msgstr "أغلق اللوحة النشطة"
+
+msgid "Close the inactive pane"
+msgstr "أغلقة اللوحة خاملة"
+
+msgid "Close the right pane"
+msgstr "أغلق اللوحة اليمنى"
+
+msgid "Open new windows in split view mode"
+msgstr "افتح النوافذ جديدة بنمط العرض مقسم"
+
+msgid "Terminal:"
+msgstr "الطرفية:"
 
 msgid "No terminal found"
 msgstr ""
@@ -1752,116 +1740,21 @@ msgstr ""
 msgid "Detected: %s"
 msgstr ""
 
-msgid "View"
-msgstr "اعرض"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr "طبيعي"
-
-msgid "Alphabetical, case insensitive"
-msgstr "أبجديّ، غير حسّاس للحالة"
-
-msgid "Alphabetical, case sensitive"
-msgstr "أبجديّ، حسّاس للحالة"
-
-msgid "Folder size:"
-msgstr "حجم المجلّدات:"
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
-msgstr "لا شيء"
-
-msgid "Folder size depth limit:"
-msgstr ""
-
-msgid "Dates:"
-msgstr ""
-
-msgid "Relative (Today, Yesterday…)"
-msgstr ""
-
-msgid "Short"
-msgstr ""
-
-msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
-
-msgid "Numeric (0755)"
-msgstr ""
-
-msgid "Combined"
-msgstr ""
-
-msgid "Shorten long names:"
-msgstr ""
-
-msgid "At the end"
-msgstr ""
-
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
-
-msgid "Label width:"
-msgstr "عرض اللصيقة:"
-
-msgid "Small"
-msgstr "صغيرة"
-
-msgid "Medium"
-msgstr "متوسّطة"
-
-msgid "Large"
-msgstr "كبير"
-
-msgid "Huge"
-msgstr "ضخم"
-
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
-
-msgid "Unlimited"
-msgstr "غير محدود"
-
-msgid "E_xpandable folders"
-msgstr ""
-
-msgid "Highlight the entire _row"
-msgstr ""
-
-msgid "Show a Disk _Usage column"
-msgstr ""
-
-msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
 msgstr ""
 
 msgid "Previews"
 msgstr "المعاينات"
 
+msgid "New folders:"
+msgstr ""
+
 msgid "Show _previews in new folders"
 msgstr ""
 
-msgid "Show previews for"
-msgstr "أظهر معاينة"
+msgid "Show previews in the view for:"
+msgstr "أظهر معايناتٍ في العرض لِـ:"
 
 msgid "Audio (cover art)"
 msgstr ""
@@ -1878,44 +1771,47 @@ msgstr ""
 msgid "Office documents"
 msgstr ""
 
-msgid "Limits"
-msgstr ""
+msgid "Local storage:"
+msgstr "التخزين المحلي:"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show previews for"
+msgstr "أظهر معاينة"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "Remote storage:"
+msgstr "التخزين الخارجي:"
 
 msgid "Confirmations"
 msgstr "التأكيدات"
 
-msgid "Ask for confirmation when"
+msgid "Ask for confirmation when:"
 msgstr ""
 
-msgid "Moving files or folders to the _trash"
+msgid "Moving files or folders to trash"
+msgstr "نقل ملفات أو مجلدات إلى سلة المهملات"
+
+msgid "Emptying trash"
+msgstr "يفرغ المهملات"
+
+msgid "Deleting files or folders"
+msgstr "حذف ملفات أو مجلدات"
+
+msgid "Renaming a file will change its type"
+msgstr "إعادة تسميّة الملف ستغيّر نوعه"
+
+msgid "Ask for confirmation in Beluga when:"
 msgstr ""
 
-msgid "_Deleting files or folders"
-msgstr ""
+msgid "Closing windows with multiple tabs"
+msgstr "إغلاق نوافذ تحوي ألسنة متعدّدة"
 
-msgid "_Emptying the trash"
-msgstr ""
+msgid "Opening many folders at once"
+msgstr "فتح العديد من الملفات في آن واحد"
 
-msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgid "Opening many terminals at once"
+msgstr "فتح العديد من الطرفيات في آن واحد"
 
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "Acting as _administrator"
-msgstr ""
+msgid "Switching to act as an administrator"
+msgstr "التحول للعمل بدور مدير النظام"
 
 msgid "When opening an executable file:"
 msgstr "عند فتح ملف تنفيذي:"
@@ -1923,56 +1819,245 @@ msgstr "عند فتح ملف تنفيذي:"
 msgid "Always ask"
 msgstr "اسأل دائمًا"
 
-msgid "Open in an application"
+msgid "Open in application"
+msgstr "افتح في تطبيق"
+
+msgid "Run script"
+msgstr "شغل سكربت"
+
+msgid "Information Panel:"
+msgstr "لوحة المعلومات:"
+
+msgid "Show previews"
+msgstr "أظهر معاينة"
+
+msgid "Auto-play media files"
+msgstr "التشغيل الآليّ لملفات الوسائط"
+
+msgid "Show item on hover"
+msgstr "أظهر عنصر عند التحويم"
+
+msgid "Use _long date format"
 msgstr ""
 
-msgid "Run it"
-msgstr ""
+msgid "Folders Panel:"
+msgstr "لوحة المجلدات:"
 
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr "شريط الحالة"
-
-msgid "Status bar:"
-msgstr "شريط الحالة:"
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr "كامل العرض"
-
-msgid "Hidden"
-msgstr "مخفي"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
+msgid "Limit to home directory when inside it"
+msgstr "اقتصر على المجلد المنزلي عند التواجد داخله"
 
 msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
 msgstr ""
 
 msgid "Scroll to the current folder _automatically"
 msgstr ""
 
-msgid "Play media files _automatically"
+msgid "Places Panel:"
 msgstr ""
 
-msgid "Show the _hovered item"
+msgid "Icon size:"
+msgstr "حجم الأيقونة:"
+
+msgid "Status & Location bars"
 msgstr ""
 
-msgid "Use _long date format"
+msgid "Status Bar:"
+msgstr "شريط الحالة:"
+
+msgid "Small"
+msgstr "صغيرة"
+
+msgid "Full width"
+msgstr "كامل العرض"
+
+msgid "Disabled"
+msgstr "معطّلة"
+
+msgid "Show zoom slider"
+msgstr "أظهر منزلقة التكبير"
+
+msgid "Show free _space"
 msgstr ""
 
-msgid "Context Menu"
-msgstr "قائمة السياق"
+msgid "Location bar:"
+msgstr "شريط الموقع:"
+
+msgid "Make location bar editable"
+msgstr "اجعل شريط الموقع قابل للتحرير"
+
+msgid "Show full path inside location bar"
+msgstr "أظهر كامل المسار في شريط الموقع"
+
+msgid "Interface"
+msgstr "الواجهة"
+
+msgid "General"
+msgstr "عامّ"
+
+msgid "Display style:"
+msgstr "نمط العرض: "
+
+msgid "Use common display style for all folders"
+msgstr "استخدم نمط عرض مشترك لجميع المجلدات"
+
+msgid "Remember display style for each folder"
+msgstr "تذكّر نمط العرض لكلّ مجلد"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr ""
+
+msgid "Browsing:"
+msgstr "التصفح: "
+
+msgid "Browse compressed files as folders"
+msgstr "استعرض الملفات المضغوطة كمجلدات"
+
+msgid "Open folders during drag operations"
+msgstr "افتح المجلدات أثناء عمليات السحب"
+
+msgid "Open files and folders with a single click"
+msgstr ""
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr ""
+
+msgid "Miscellaneous:"
+msgstr "متفرقات: "
+
+msgid "Show item information on hover"
+msgstr "أظهر معلومات العنصر عند التحويم"
+
+msgid "Show selection marker"
+msgstr "أظهر مؤشّر الاختيار"
+
+msgid "Rename single items inline"
+msgstr "أعد تسمية العناصر الفردية المضمنة"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "أخف ملفات النسخ الاحتياطيّة عند إخفاء الملفات المخفية"
+
+msgid "Background:"
+msgstr "الخلفيّة: "
+
+msgid "Double-click triggers"
+msgstr "سيؤدي النقر المزدوج إلى"
+
+msgid "Nothing"
+msgstr "لا شيء"
+
+msgid "Go Up"
+msgstr "انتقل لأعلى"
+
+msgid "Content Display"
+msgstr "عرض المحتوى"
+
+msgid "Sorting mode:"
+msgstr "نمط الفرز:"
+
+msgid "Natural"
+msgstr "طبيعي"
+
+msgid "Alphabetical, case insensitive"
+msgstr "أبجديّ، غير حسّاس للحالة"
+
+msgid "Alphabetical, case sensitive"
+msgstr "أبجديّ، حسّاس للحالة"
+
+msgid "Folder size:"
+msgstr "حجم المجلّدات:"
+
+msgid "Show number of items"
+msgstr "أظهر عدد العناصر"
+
+msgid "Show size of contents, up to "
+msgstr "أظهر حجم المحتويات، حتى "
+
+msgid "Show no size"
+msgstr "أظهر أيّ حجم"
+
+msgid "levels deep"
+msgstr ""
+
+msgid "Date style:"
+msgstr "نمط التاريخ:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Permissions style:"
+msgstr "نمط الإذْنات:"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr ""
+
+msgid "Numeric (0755)"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Long file names:"
+msgstr "أسماء الملفات الطويلة:"
+
+msgid "Elide in the middle"
+msgstr ""
+
+msgid "Elide at the end"
+msgstr ""
+
+msgid "Label width:"
+msgstr "عرض اللصيقة:"
+
+msgid "Medium"
+msgstr "متوسّطة"
+
+msgid "Large"
+msgstr "كبير"
+
+msgid "Huge"
+msgstr "ضخم"
+
+msgid "Maximum lines:"
+msgstr "أقصى أسطر:"
+
+msgid "Unlimited"
+msgstr "غير محدود"
+
+msgid "Spacing:"
+msgstr "التباعد:"
+
+msgid "Maximum width:"
+msgstr "أقصى عرض:"
+
+msgid "Folders:"
+msgstr "المجلّدات:"
+
+msgid "Expandable"
+msgstr "قابلة للتوسيع"
+
+msgid "Open files and folders:"
+msgstr "افتح الملفات والمجلدات:"
+
+msgid "By clicking anywhere on the row"
+msgstr "بالنقر أي مكان على الصف"
+
+msgid "By clicking on icon or name"
+msgstr "بالنقر على أيقونة أو اسم"
+
+msgid "Disk usage:"
+msgstr ""
+
+msgid "Show a Disk _Usage column"
+msgstr ""
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr ""
+
+msgid "View"
+msgstr "اعرض"
 
 msgid "Show in the context menu"
 msgstr ""
@@ -1983,19 +2068,25 @@ msgstr ""
 msgid "Delete (in addition to Move to Trash)"
 msgstr ""
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgid "Context Menu"
+msgstr "قائمة السياق"
+
+msgid "Cleanup:"
 msgstr ""
 
-msgid "_Delete items that have been in the trash longer than:"
+msgid "Delete files older than"
 msgstr ""
 
-msgid "Days:"
+msgid "days"
 msgstr ""
 
-msgid "_Limit the trash to a share of the disk:"
+msgid "Limit to"
 msgstr ""
 
-msgid "Percent of the disk:"
+msgid "percent of the disk"
+msgstr ""
+
+msgid "Full trash:"
 msgstr ""
 
 msgid "When the limit is reached:"
@@ -2010,8 +2101,14 @@ msgstr ""
 msgid "Delete the largest items"
 msgstr ""
 
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr ""
+
 msgid "Calculating trash size…"
 msgstr ""
+
+msgid "Trash:"
+msgstr "المهملات:"
 
 #, c-format
 msgid "The trash currently uses %s."
@@ -2123,9 +2220,6 @@ msgstr ""
 msgid "Keep the filter when changing folders"
 msgstr ""
 
-msgid "Search…"
-msgstr "ابحث…"
-
 msgid "In This Folder"
 msgstr ""
 
@@ -2158,6 +2252,9 @@ msgstr ""
 
 msgid "Hidden files"
 msgstr ""
+
+msgid "Zoom:"
+msgstr "التّكبير:"
 
 msgid "Zoom"
 msgstr "التّكبير"

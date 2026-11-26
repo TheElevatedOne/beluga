@@ -31,7 +31,8 @@ ViewContainer::ViewContainer(MainWindow *win, const std::string &startUri) : win
     gtk_widget_set_hexpand(root_, TRUE);
     gtk_widget_set_vexpand(root_, TRUE);
 
-    gtk_box_append(GTK_BOX(root_), loc_.widget());
+    // The location bar lives in the window's tool bar (MainWindow::syncLocationBars), or at the top of this
+    // container while the tool bar is hidden.
 
     message_ = gtk_revealer_new();
     GtkWidget *mbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
