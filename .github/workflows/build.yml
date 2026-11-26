@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          pacman -Syu --noconfirm --needed git cmake ninja gtk4 libarchive gettext desktop-file-utils appstream \
+          pacman -Syu --noconfirm --needed git cmake ninja gtk4 libarchive ffmpeg gettext desktop-file-utils appstream \
             dbus adwaita-icon-theme
 
       - uses: actions/checkout@v5
@@ -38,7 +38,7 @@ jobs:
 
       - name: Build
         run: |
-          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DBELUGA_FFMPEG=ON
           cmake --build build
 
       - name: Test

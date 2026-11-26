@@ -110,6 +110,119 @@ msgstr ""
 msgid "Extracting from “%s”"
 msgstr ""
 
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Artist:"
+msgstr "Kunstner:"
+
+msgid "Album artist:"
+msgstr "Albummets kunstner:"
+
+msgid "Album:"
+msgstr "Album:"
+
+msgid "Track:"
+msgstr "Spor:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "Dato:"
+
+msgid "Genre:"
+msgstr "Genre:"
+
+msgid "Composer:"
+msgstr "Komponist:"
+
+msgid "Performer:"
+msgstr "Kunstner:"
+
+msgid "Publisher:"
+msgstr "Udgiver:"
+
+msgid "Copyright:"
+msgstr "Ophavsret:"
+
+msgid "Comment:"
+msgstr "Kommentar:"
+
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+msgid "Language:"
+msgstr "Sprog:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "Varighed:"
+
+msgid "Format:"
+msgstr "Format:"
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "Video:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "Lyd:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
 msgid "Places"
 msgstr "Steder"
 
@@ -327,6 +440,24 @@ msgstr ""
 msgid "Dimensions"
 msgstr "Dimensioner"
 
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Risici ved at agere som en administrator"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Annullér"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Jeg forstår og accepterer disse risici"
+
 msgid "New Window"
 msgstr "Nyt vindue"
 
@@ -405,6 +536,9 @@ msgstr ""
 msgid "Show Hidden Files"
 msgstr "Vis skjulte filer"
 
+msgid "Act as Administrator"
+msgstr "Agér som administrator"
+
 msgid "Split View"
 msgstr "Opdelt visning"
 
@@ -435,11 +569,17 @@ msgstr ""
 msgid "Information Panel"
 msgstr "Informationspanel"
 
+msgid "Disk Usage Panel"
+msgstr ""
+
 msgid "Focus Places Panel"
 msgstr "Fokusér på placeringspanel"
 
 msgid "Show Menubar"
 msgstr "Vis menulinje"
+
+msgid "Show Statusbar"
+msgstr "Vis statuslinje"
 
 msgid "Back"
 msgstr "Tilbage"
@@ -572,6 +712,9 @@ msgstr "Åbn i nyt vindue"
 msgid "Open in Split View"
 msgstr "Åbn i opdelt visning"
 
+msgid "Open in Beluga"
+msgstr ""
+
 msgid "Open Containing Folder"
 msgstr "Åbn indeholdende mappe"
 
@@ -619,9 +762,6 @@ msgstr ""
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
-
-msgid "Cancel"
-msgstr "Annullér"
 
 msgid "Rename Items"
 msgstr "Omdøb elementer"
@@ -839,32 +979,7 @@ msgid_plural ". %s folders could not be read."
 msgstr[0] ""
 msgstr[1] ""
 
-#, c-format
-msgid "Disk Usage – %s"
-msgstr ""
-
-msgid "_Apparent size"
-msgstr ""
-
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
-
-msgid "_Stay on this drive"
-msgstr ""
-
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
-
-msgid "_Rescan"
-msgstr ""
-
-msgid "S_top"
-msgstr ""
-
-msgid "Share"
-msgstr "Del"
-
-msgid "Files"
+msgid "Only folders on this computer can be measured."
 msgstr ""
 
 msgid "read less than a minute ago"
@@ -884,6 +999,43 @@ msgstr[1] ""
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Del"
+
+msgid "Files"
+msgstr ""
+
+#, c-format
+msgid "Disk Usage – %s"
 msgstr ""
 
 #, c-format
@@ -995,14 +1147,14 @@ msgstr "Gruppe:"
 msgid "Dimensions:"
 msgstr "Dimensioner:"
 
-msgid "Duration:"
-msgstr "Varighed:"
-
 msgid "Broken Link"
 msgstr ""
 
 #, c-format
 msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
 msgstr ""
 
 #, c-format
@@ -1035,6 +1187,9 @@ msgstr ""
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
@@ -1042,6 +1197,9 @@ msgid "Show the version"
 msgstr ""
 
 msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
 msgstr ""
 
 msgid "Close this window?"
@@ -1159,9 +1317,6 @@ msgstr "Justér visningsstil…"
 msgid "Re_load"
 msgstr ""
 
-msgid "Stop"
-msgstr "Stop"
-
 msgid "Panels"
 msgstr "Paneler"
 
@@ -1175,6 +1330,9 @@ msgid "Show _Menubar"
 msgstr ""
 
 msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
 msgstr ""
 
 msgid "_Go"
@@ -1214,6 +1372,9 @@ msgid "_Configure Beluga…"
 msgstr ""
 
 msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
 msgstr ""
 
 #, c-format
@@ -1714,6 +1875,9 @@ msgid "Opening many t_erminals at once"
 msgstr ""
 
 msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "Acting as _administrator"
 msgstr ""
 
 msgid "When opening an executable file:"

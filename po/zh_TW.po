@@ -119,6 +119,118 @@ msgstr ""
 msgid "Extracting from “%s”"
 msgstr ""
 
+msgid "Title:"
+msgstr "標題:"
+
+msgid "Artist:"
+msgstr "演出者:"
+
+msgid "Album artist:"
+msgstr "專輯的演出者:"
+
+msgid "Album:"
+msgstr "專輯:"
+
+msgid "Track:"
+msgstr "音軌:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "日期:"
+
+msgid "Genre:"
+msgstr "風格:"
+
+msgid "Composer:"
+msgstr "作曲家:"
+
+msgid "Performer:"
+msgstr "演員:"
+
+msgid "Publisher:"
+msgstr "出版社:"
+
+msgid "Copyright:"
+msgstr "版權:"
+
+msgid "Comment:"
+msgstr "備註(E)："
+
+msgid "Description:"
+msgstr "描述:"
+
+msgid "Language:"
+msgstr "語言:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "期間:"
+
+msgid "Format:"
+msgstr "格式："
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "影片:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "音效:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
 msgid "Places"
 msgstr "書籤"
 
@@ -333,6 +445,24 @@ msgstr ""
 msgid "Dimensions"
 msgstr "尺寸"
 
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr "管理員操作模式的風險"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "I Understand and Accept These Risks"
+msgstr "我瞭解並接受這些風險"
+
 msgid "New Window"
 msgstr "新視窗(W)"
 
@@ -411,6 +541,9 @@ msgstr ""
 msgid "Show Hidden Files"
 msgstr "顯示隱藏檔案"
 
+msgid "Act as Administrator"
+msgstr "管理員操作模式"
+
 msgid "Split View"
 msgstr "分割檢視"
 
@@ -441,11 +574,17 @@ msgstr "資料夾面板"
 msgid "Information Panel"
 msgstr "資訊面板"
 
+msgid "Disk Usage Panel"
+msgstr ""
+
 msgid "Focus Places Panel"
 msgstr "聚焦於書籤面板"
 
 msgid "Show Menubar"
 msgstr "顯示選單列(M)"
+
+msgid "Show Statusbar"
+msgstr "顯示狀態列(A)"
 
 msgid "Back"
 msgstr "上一步(B)"
@@ -578,6 +717,9 @@ msgstr "在新視窗開啟"
 msgid "Open in Split View"
 msgstr "用分割檢視開啟"
 
+msgid "Open in Beluga"
+msgstr ""
+
 msgid "Open Containing Folder"
 msgstr "開啟包含資料夾"
 
@@ -625,9 +767,6 @@ msgstr ""
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
-
-msgid "Cancel"
-msgstr "取消"
 
 msgid "Rename Items"
 msgstr "重新命名項目"
@@ -843,32 +982,7 @@ msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
 msgstr[0] ""
 
-#, c-format
-msgid "Disk Usage – %s"
-msgstr ""
-
-msgid "_Apparent size"
-msgstr ""
-
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
-
-msgid "_Stay on this drive"
-msgstr ""
-
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
-
-msgid "_Rescan"
-msgstr ""
-
-msgid "S_top"
-msgstr ""
-
-msgid "Share"
-msgstr "分享"
-
-msgid "Files"
+msgid "Only folders on this computer can be measured."
 msgstr ""
 
 msgid "read less than a minute ago"
@@ -886,6 +1000,43 @@ msgstr[0] ""
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "分享"
+
+msgid "Files"
+msgstr ""
+
+#, c-format
+msgid "Disk Usage – %s"
 msgstr ""
 
 #, c-format
@@ -997,14 +1148,14 @@ msgstr "群組(U)："
 msgid "Dimensions:"
 msgstr "尺寸:"
 
-msgid "Duration:"
-msgstr "期間:"
-
 msgid "Broken Link"
 msgstr ""
 
 #, c-format
 msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
 msgstr ""
 
 #, c-format
@@ -1037,6 +1188,9 @@ msgstr ""
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
@@ -1044,6 +1198,9 @@ msgid "Show the version"
 msgstr ""
 
 msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
 msgstr ""
 
 msgid "Close this window?"
@@ -1161,9 +1318,6 @@ msgstr "調整檢視顯示方式…"
 msgid "Re_load"
 msgstr ""
 
-msgid "Stop"
-msgstr "停止"
-
 msgid "Panels"
 msgstr "面板"
 
@@ -1177,6 +1331,9 @@ msgid "Show _Menubar"
 msgstr ""
 
 msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
 msgstr ""
 
 msgid "_Go"
@@ -1216,6 +1373,9 @@ msgid "_Configure Beluga…"
 msgstr ""
 
 msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
 msgstr ""
 
 #, c-format
@@ -1716,6 +1876,9 @@ msgid "Opening many t_erminals at once"
 msgstr ""
 
 msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "Acting as _administrator"
 msgstr ""
 
 msgid "When opening an executable file:"

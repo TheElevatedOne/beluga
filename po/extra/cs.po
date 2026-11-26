@@ -1,0 +1,1450 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-26 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "The archive could not be opened."
+msgstr "Archiv nelze otevřít."
+
+msgid "The archive could not be read."
+msgstr "Archiv nelze přečíst."
+
+msgid "Cancelled."
+msgstr "Zrušeno."
+
+msgid "This file is encrypted with a password."
+msgstr "Tento soubor je zašifrován heslem."
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr "„%s“ nelze přečíst."
+
+msgid "This is not a file in an archive."
+msgstr "Toto není soubor v archivu."
+
+msgid "Extract Here"
+msgstr "Rozbalit sem"
+
+msgid "Compress to .tar.gz"
+msgstr "Zabalit do .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Nebyl nalezen žádný emulátor terminálu."
+
+msgid "Root"
+msgstr "Kořen"
+
+#, c-format
+msgid "%s Volume"
+msgstr "Svazek %s"
+
+msgid "This device cannot be mounted."
+msgstr "Toto zařízení nelze připojit."
+
+msgid "This device cannot be unmounted."
+msgstr "Toto zařízení nelze odpojit."
+
+msgid "The device is gone."
+msgstr "Zařízení již není dostupné."
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr "Kopírování %s do „%s“"
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr "Přesouvání %s do „%s“"
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr "Vytváření odkazu na %s v „%s“"
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr "Přesouvání %s do koše"
+
+#, c-format
+msgid "Deleting %s"
+msgstr "Mazání %s"
+
+#, c-format
+msgid "Restoring %s"
+msgstr "Obnovování %s"
+
+msgid "Emptying the trash"
+msgstr "Vyprazdňování koše"
+
+msgid "Counting files…"
+msgstr "Počítání souborů…"
+
+#, c-format
+msgid "“%s”: %s"
+msgstr "„%s“: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Složku nelze přesunout do sebe sama."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Složku nelze zkopírovat do sebe sama."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Soubory lze rozbalit jen do místních složek."
+
+#, c-format
+msgid "Extracting from “%s”"
+msgstr "Rozbalování z „%s“"
+
+msgid "Disc:"
+msgstr "Disk:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Datový tok:"
+
+msgid "Cover:"
+msgstr "Obal:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ", %.0f sn./s"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ", %.3f sn./s"
+
+#, c-format
+msgid "Video %d:"
+msgstr "Video %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanál"
+msgstr[1] "%d kanály"
+msgstr[2] "%d kanálů"
+
+#, c-format
+msgid ", %d bit"
+msgstr ", %d bitů"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "Zvuk %d:"
+
+msgid "Subtitles:"
+msgstr "Titulky:"
+
+msgid "Chapters:"
+msgstr "Kapitoly:"
+
+msgid "Images"
+msgstr "Obrázky"
+
+msgid "Archives"
+msgstr "Archivy"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr "Hledat „%s“"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Nebyl nalezen žádný emulátor terminálu. Nastavte jej v Nastavit Belugu › Obecné › Terminál."
+
+msgid "This file system has no trash."
+msgstr "Tento souborový systém nemá koš."
+
+msgid "Could not create the trash information file."
+msgstr "Nelze vytvořit informační soubor koše."
+
+#, c-format
+msgid "“%s” already exists."
+msgstr "„%s“ již existuje."
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Koš je větší než jeho limit %s. Zvažte jeho vyprázdnění."
+
+msgid "Move"
+msgstr "Přesunout"
+
+msgid "Create File"
+msgstr "Vytvořit soubor"
+
+#, c-format
+msgid "Undo: %s"
+msgstr "Zpět: %s"
+
+#, c-format
+msgid "Redo: %s"
+msgstr "Znovu: %s"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d soubor"
+msgstr[1] "%d soubory"
+msgstr[2] "%d souborů"
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d složka"
+msgstr[1] "%d složky"
+msgstr[2] "%d složek"
+
+#, c-format
+msgid "Today at %s"
+msgstr "Dnes v %s"
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr "Včera v %s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+#, c-format
+msgid "%s copy %d"
+msgstr "%s kopie %d"
+
+msgid "Disk Usage"
+msgstr "Využití disku"
+
+msgid "Extension"
+msgstr "Přípona"
+
+msgid "Original Location"
+msgstr "Původní umístění"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga nemůže jednat jako správce."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "K dotazu na heslo správce je potřeba pkexec (polkit). Nainstalujte polkit a agenta polkitu pro své prostředí."
+
+msgid "Columns View"
+msgstr "Zobrazení ve sloupcích"
+
+msgid "Reset Zoom"
+msgstr "Obnovit přiblížení"
+
+msgid "Pop out Split View"
+msgstr "Vyjmout rozdělený pohled do okna"
+
+msgid "Places Panel"
+msgstr "Panel Místa"
+
+msgid "Disk Usage Panel"
+msgstr "Panel Využití disku"
+
+msgid "Go to Tab 1"
+msgstr "Přejít na kartu 1"
+
+msgid "Go to Tab 2"
+msgstr "Přejít na kartu 2"
+
+msgid "Go to Tab 3"
+msgstr "Přejít na kartu 3"
+
+msgid "Go to Tab 4"
+msgstr "Přejít na kartu 4"
+
+msgid "Go to Tab 5"
+msgstr "Přejít na kartu 5"
+
+msgid "Go to Tab 6"
+msgstr "Přejít na kartu 6"
+
+msgid "Go to Tab 7"
+msgstr "Přejít na kartu 7"
+
+msgid "Go to Tab 8"
+msgstr "Přejít na kartu 8"
+
+msgid "Go to Tab 9"
+msgstr "Přejít na kartu 9"
+
+msgid "Configure Beluga"
+msgstr "Nastavit Belugu"
+
+msgid "Undo failed."
+msgstr "Vrácení zpět selhalo."
+
+msgid "Folder…"
+msgstr "Složka…"
+
+msgid "Text File…"
+msgstr "Textový soubor…"
+
+msgid "Empty File…"
+msgstr "Prázdný soubor…"
+
+msgid "Link to File or Folder…"
+msgstr "Odkaz na soubor nebo složku…"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr "Druhý pohled (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Pamatovat si zobrazení pro tuto složku"
+
+msgid "Open in Beluga"
+msgstr "Otevřít v Beluze"
+
+msgid "Paste into Folder"
+msgstr "Vložit do složky"
+
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+msgid "The name cannot contain “/”."
+msgstr "Název nemůže obsahovat „/“."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Název začínající tečkou je skrytý."
+
+msgid "Some items could not be renamed."
+msgstr "Některé položky nebylo možné přejmenovat."
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr "Přejmenovat „%s“ na:"
+
+msgid "_Rename"
+msgstr "_Přejmenovat"
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr "„%s“ nelze přejmenovat."
+
+msgid "Change the file type?"
+msgstr "Změnit typ souboru?"
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Přejmenováním „%s“ na „%s“ se změní jeho přípona."
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr "Přejmenovat %zu vybraných položek na:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# se nahradí vzestupnými čísly; ## doplní úvodní nuly. Přípony zůstanou zachovány."
+
+msgid "Start numbering at:"
+msgstr "Začít číslovat od:"
+
+msgid "_Move Here"
+msgstr "_Přesunout sem"
+
+msgid "_Copy Here"
+msgstr "_Kopírovat sem"
+
+msgid "_Link Here"
+msgstr "_Odkázat sem"
+
+msgid "C_ancel"
+msgstr "Z_rušit"
+
+msgid "Choose a folder"
+msgstr "Vyberte složku"
+
+msgid "Icon name:"
+msgstr "Název ikony:"
+
+msgid "Choose a Folder"
+msgstr "Vyberte složku"
+
+msgid "_Add"
+msgstr "_Přidat"
+
+msgid "_Save"
+msgstr "_Uložit"
+
+msgid "Show _folders first"
+msgstr "Zobrazit _složky jako první"
+
+msgid "Show hidden files _last"
+msgstr "Zobrazit skryté soubory _nakonec"
+
+msgid "Show _previews"
+msgstr "Zobrazit _náhledy"
+
+msgid "Show in _groups"
+msgstr "Zobrazit ve _skupinách"
+
+msgid "Show _hidden files"
+msgstr "Zobrazit _skryté soubory"
+
+msgid "Current folder including all subfolders"
+msgstr "Aktuální složka včetně všech podsložek"
+
+msgid "_OK"
+msgstr "_OK"
+
+#, c-format
+msgid "modified %s"
+msgstr "změněno %s"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Složka s názvem „%s“ již v „%s“ existuje."
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Soubor s názvem „%s“ již v „%s“ existuje."
+
+msgid "Existing item"
+msgstr "Existující položka"
+
+msgid "New item"
+msgstr "Nová položka"
+
+msgid "_Suggest New Name"
+msgstr "_Navrhnout nový název"
+
+msgid "New name:"
+msgstr "Nový název:"
+
+msgid "Apply to _all"
+msgstr "Použít na _vše"
+
+msgid "S_kip"
+msgstr "_Přeskočit"
+
+msgid "_Write Into"
+msgstr "_Zapsat do"
+
+msgid "_Overwrite"
+msgstr "_Přepsat"
+
+msgid "This location is not a folder."
+msgstr "Toto umístění není složka."
+
+msgid "This location is not valid."
+msgstr "Toto umístění není platné."
+
+msgid "This folder is not in the archive."
+msgstr "Tato složka v archivu není."
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s menší soubor"
+msgstr[1] "%s menší soubory"
+msgstr[2] "%s menších souborů"
+
+msgid "(another drive, not counted)"
+msgstr "(jiný disk, nezapočítán)"
+
+msgid "Some of its contents could not be read."
+msgstr "Část jejího obsahu nelze přečíst."
+
+#, c-format
+msgid "%s in files"
+msgstr "%s v souborech"
+
+#, c-format
+msgid "%s on disk"
+msgstr "%s na disku"
+
+#, c-format
+msgid "%s files and %s folders"
+msgstr "%s souborů a %s složek"
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Čtení… %s v %s souborech a %s složkách"
+
+msgid "Stopped."
+msgstr "Zastaveno."
+
+msgid "This folder could not be read."
+msgstr "Tuto složku nelze přečíst."
+
+#, c-format
+msgid "%s, read in %.1f s"
+msgstr "%s, přečteno za %.1f s"
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s složku nelze přečíst."
+msgstr[1] ". %s složky nelze přečíst."
+msgstr[2] ". %s složek nelze přečíst."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Měřit lze jen složky na tomto počítači."
+
+msgid "read less than a minute ago"
+msgstr "přečteno před méně než minutou"
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "přečteno před %d minutou"
+msgstr[1] "přečteno před %d minutami"
+msgstr[2] "přečteno před %d minutami"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "přečteno před %d hodinou"
+msgstr[1] "přečteno před %d hodinami"
+msgstr[2] "přečteno před %d hodinami"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Pro nové načtení použijte Znovu prohledat."
+
+msgid "_Apparent size"
+msgstr "_Zdánlivá velikost"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Sčítat velikosti souborů místo místa, které soubory zabírají na disku."
+
+msgid "_Stay on this drive"
+msgstr "_Zůstat na tomto disku"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Nezapočítávat jiné disky připojené uvnitř této složky (např. složku s hudbou na jiném disku). Odkazy se nikdy nesledují."
+
+msgid "Rescan"
+msgstr "Znovu prohledat"
+
+msgid "Close Disk Usage"
+msgstr "Zavřít Využití disku"
+
+msgid "_Rescan"
+msgstr "_Znovu prohledat"
+
+msgid "S_top"
+msgstr "_Zastavit"
+
+msgid "Files"
+msgstr "Soubory"
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr "Využití disku – %s"
+
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr "„%s“ již existuje. Nahradit?"
+
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu z těchto souborů již existuje. Nahradit je?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Program, ze kterého ukládáte, přepíše stávající obsah."
+
+msgid "Choose a folder to save in."
+msgstr "Vyberte složku, do které se má ukládat."
+
+msgid "Select Folder"
+msgstr "Vybrat složku"
+
+msgid "Open Files"
+msgstr "Otevřít soubory"
+
+msgid "Open File"
+msgstr "Otevřít soubor"
+
+msgid "Save File"
+msgstr "Uložit soubor"
+
+msgid "Save Files"
+msgstr "Uložit soubory"
+
+msgid "_Folder:"
+msgstr "_Složka:"
+
+msgid "_Name:"
+msgstr "_Název:"
+
+msgid "_Type:"
+msgstr "_Typ:"
+
+msgid "_Select"
+msgstr "_Vybrat"
+
+msgid "_Open"
+msgstr "_Otevřít"
+
+msgid "C_reate"
+msgstr "_Vytvořit"
+
+msgid "Could not create the folder."
+msgstr "Složku nelze vytvořit."
+
+#, c-format
+msgid "%zu items selected"
+msgstr "Vybráno položek: %zu"
+
+msgid "Contents:"
+msgstr "Obsah:"
+
+msgid "Contains:"
+msgstr "Obsahuje:"
+
+msgid "Counting…"
+msgstr "Počítání…"
+
+msgid "Broken Link"
+msgstr "Nefunkční odkaz"
+
+#, c-format
+msgid "%s (link)"
+msgstr "%s (odkaz)"
+
+msgid "other drive"
+msgstr "jiný disk"
+
+#, c-format
+msgid "%s of %s"
+msgstr "%s z %s"
+
+#, c-format
+msgid "%s left"
+msgstr "zbývá %s"
+
+#, c-format
+msgid "%d of %d"
+msgstr "%d z %d"
+
+msgid "File operations in progress"
+msgstr "Probíhají operace se soubory"
+
+msgid "No subfolders"
+msgstr "Žádné podsložky"
+
+msgid "Select the given files in their folders"
+msgstr "Vybrat zadané soubory v jejich složkách"
+
+msgid "Open the window in split view"
+msgstr "Otevřít okno v rozděleném pohledu"
+
+msgid "Always open a new window"
+msgstr "Vždy otevřít nové okno"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Běžet na pozadí pro službu D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Odpojit se od terminálu (bez umístění: otevřít aktuální složku)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Spustit výběr souborů pro xdg-desktop-portal (spouští D-Bus)"
+
+msgid "Show the version"
+msgstr "Zobrazit verzi"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[SOUBOR nebo SLOŽKA…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Jednáte jako správce: změny v tomto okně mohou poškodit systém."
+
+msgid "Close this window?"
+msgstr "Zavřít toto okno?"
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Toto okno má otevřené karty (%zu). Jeho zavřením se zavřou všechny."
+
+msgid "Close Window"
+msgstr "Zavřít okno"
+
+msgid "_File"
+msgstr "_Soubor"
+
+msgid "New _Window"
+msgstr "Nové _okno"
+
+msgid "New _Tab"
+msgstr "Nová _karta"
+
+msgid "_Close Tab"
+msgstr "_Zavřít kartu"
+
+msgid "Create _New"
+msgstr "Vytvořit _nový"
+
+msgid "_Rename…"
+msgstr "_Přejmenovat…"
+
+msgid "_Duplicate Here"
+msgstr "_Duplikovat zde"
+
+msgid "Move to _Trash"
+msgstr "Přesunout do _koše"
+
+msgid "_Delete"
+msgstr "_Smazat"
+
+msgid "Restore from Trash"
+msgstr "Obnovit z koše"
+
+msgid "_Properties"
+msgstr "_Vlastnosti"
+
+msgid "_Quit"
+msgstr "_Ukončit"
+
+msgid "_Edit"
+msgstr "Úpr_avy"
+
+msgid "_Undo"
+msgstr "_Zpět"
+
+msgid "_Redo"
+msgstr "Z_novu"
+
+msgid "Cu_t"
+msgstr "Vyjmou_t"
+
+msgid "_Copy"
+msgstr "_Kopírovat"
+
+msgid "_Paste"
+msgstr "V_ložit"
+
+msgid "_Search…"
+msgstr "_Hledat…"
+
+msgid "Select _All"
+msgstr "Vybrat _vše"
+
+msgid "_View"
+msgstr "_Zobrazit"
+
+msgid "Zoom _In"
+msgstr "_Přiblížit"
+
+msgid "Zoom _Out"
+msgstr "_Oddálit"
+
+msgid "Re_load"
+msgstr "_Znovu načíst"
+
+msgid "Show _Menubar"
+msgstr "Zobrazit _nabídku"
+
+msgid "Show _Toolbar"
+msgstr "Zobrazit _panel nástrojů"
+
+msgid "Show _Statusbar"
+msgstr "Zobrazit _stavový řádek"
+
+msgid "_Go"
+msgstr "_Přejít"
+
+msgid "_Back"
+msgstr "_Zpět"
+
+msgid "_Forward"
+msgstr "_Vpřed"
+
+msgid "_Up"
+msgstr "_Nahoru"
+
+msgid "_Home"
+msgstr "_Domů"
+
+msgid "_Tools"
+msgstr "_Nástroje"
+
+msgid "Open _Terminal"
+msgstr "Otevřít _terminál"
+
+msgid "Open Terminal _Here"
+msgstr "Otevřít terminál _zde"
+
+msgid "_Disk Usage…"
+msgstr "_Využití disku…"
+
+msgid "_Settings"
+msgstr "Na_stavení"
+
+msgid "_Configure Beluga…"
+msgstr "_Nastavit Belugu…"
+
+msgid "No recently closed tabs"
+msgstr "Žádné nedávno zavřené karty"
+
+msgid "(Administrator)"
+msgstr "(Správce)"
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr "Otevřít složky (%zu) v nových kartách?"
+
+msgid "Open Folders"
+msgstr "Otevřít složky"
+
+#, c-format
+msgid "Could not open “%s”."
+msgstr "„%s“ nelze otevřít."
+
+msgid "Could not open a terminal."
+msgstr "Terminál nelze otevřít."
+
+msgid "New Text File.txt"
+msgstr "Nový textový soubor.txt"
+
+msgid "New File"
+msgstr "Nový soubor"
+
+msgid "Empty the trash?"
+msgstr "Vyprázdnit koš?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Všechny položky v koši budou trvale smazány. Tuto akci nelze vrátit zpět."
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr "Otevřít terminály (%zu)?"
+
+msgid "Open Terminals"
+msgstr "Otevřít terminály"
+
+msgid "Could not create the file."
+msgstr "Soubor nelze vytvořit."
+
+msgid "Link to File or Folder"
+msgstr "Odkaz na soubor nebo složku"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Cesta k souboru nebo složce, na kterou se má odkazovat:"
+
+msgid "Could not create the link."
+msgstr "Odkaz nelze vytvořit."
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr "Trvale smazat %s?"
+
+msgid "This cannot be undone."
+msgstr "Tuto akci nelze vrátit zpět."
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr "Přesunout %s do koše?"
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr "„%s“ nelze spustit."
+
+#, c-format
+msgid "Could not start %s."
+msgstr "%s nelze spustit."
+
+msgid "Could not start the application."
+msgstr "Aplikaci nelze spustit."
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr "„%s“ je spustitelný soubor."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Chcete jej spustit, nebo otevřít v aplikaci?"
+
+msgid "Run"
+msgstr "Spustit"
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr "Vyberte aplikaci pro otevření %s (%s):"
+
+msgid "Recommended Applications"
+msgstr "Doporučené aplikace"
+
+msgid "Other Applications"
+msgstr "Ostatní aplikace"
+
+msgid "Or command:"
+msgstr "Nebo příkaz:"
+
+msgid "Remember application association for this type of file"
+msgstr "Zapamatovat si přiřazení aplikace pro tento typ souboru"
+
+#, c-format
+msgid "%s free of %s"
+msgstr "%s volných z %s"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr "Zařízení nelze připojit: %s"
+
+msgid "Hide Hidden Entries"
+msgstr "Skrýt skryté položky"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Všechny položky v koši budou trvale smazány."
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr "Zařízení nelze bezpečně odebrat: %s"
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr "Zařízení nelze odpojit: %s"
+
+#, c-format
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Použít systémové _písmo"
+
+msgid "View font:"
+msgstr "Písmo zobrazení:"
+
+msgid "Context Menu Action"
+msgstr "Akce kontextové nabídky"
+
+msgid "Types:"
+msgstr "Typy:"
+
+#, c-format
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f první soubor, %F všechny soubory, %u / %U jako URI, %n / %N názvy, %d aktuální složka."
+
+msgid "Show for _files"
+msgstr "Zobrazit pro _soubory"
+
+msgid "Show for f_olders"
+msgstr "Zobrazit pro s_ložky"
+
+msgid "Show when _several items are selected"
+msgstr "Zobrazit, když je vybráno _více položek"
+
+msgid "Run in a _terminal"
+msgstr "Spustit v _terminálu"
+
+msgid "Custom Actions"
+msgstr "Vlastní akce"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Vaše vlastní položky kontextové nabídky souborů a složek."
+
+msgid "_Add…"
+msgstr "_Přidat…"
+
+msgid "_Edit…"
+msgstr "_Upravit…"
+
+msgid "_Remove"
+msgstr "_Odebrat"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Klávesové zkratky se zapisují jako <Control>c nebo <Shift>Delete. Více jich oddělte čárkami. Prázdné pole znamená výchozí zkratku."
+
+msgid "_Home folder:"
+msgstr "_Domovská složka:"
+
+msgid "_Remember open folders and tabs"
+msgstr "_Pamatovat si otevřené složky a karty"
+
+msgid "Begin in _split view mode"
+msgstr "Začít v _rozděleném pohledu"
+
+msgid "Show _filter bar"
+msgstr "Zobrazit _filtrovací pruh"
+
+msgid "Make location bar _editable"
+msgstr "Umožnit _úpravy adresního řádku"
+
+msgid "Show full path inside _location bar"
+msgstr "Zobrazit celou cestu v _adresním řádku"
+
+msgid "Show full path in _title bar"
+msgstr "Zobrazit celou cestu v _titulku okna"
+
+msgid "Mouse"
+msgstr "Myš"
+
+msgid "These used to be KDE system settings."
+msgstr "Dříve to byla systémová nastavení KDE."
+
+msgid "Clicking files or folders:"
+msgstr "Kliknutí na soubory nebo složky:"
+
+msgid "Selects them (double-click opens)"
+msgstr "Vybere je (dvojklik otevře)"
+
+msgid "Opens them"
+msgstr "Otevře je"
+
+msgid "Double-clicking empty space:"
+msgstr "Dvojklik na prázdné místo:"
+
+msgid "Does nothing"
+msgstr "Nedělá nic"
+
+msgid "Selects all items"
+msgstr "Vybere všechny položky"
+
+msgid "Goes up"
+msgstr "Přejde nahoru"
+
+msgid "Opens a new tab"
+msgstr "Otevře novou kartu"
+
+msgid "Toggles hidden files"
+msgstr "Přepne skryté soubory"
+
+msgid "Tabs and Split View"
+msgstr "Karty a rozdělený pohled"
+
+msgid "Open new tabs after the _last tab"
+msgstr "Otevírat nové karty za _poslední kartou"
+
+msgid "_Always show the tab bar"
+msgstr "_Vždy zobrazovat pruh karet"
+
+msgid "Show _close buttons on tabs"
+msgstr "Zobrazit tlačítka _zavření na kartách"
+
+msgid "Open folders from other applications in a new _tab"
+msgstr "Otevírat složky z jiných aplikací v nové _kartě"
+
+msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
+msgstr "Otevírat _archivy jako složky (zip, tar, 7z, rar, ISO)"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Udržovat _rejstřík domovské složky pro okamžité hledání"
+
+msgid "Closing split view closes:"
+msgstr "Zavření rozděleného pohledu zavře:"
+
+msgid "The active view"
+msgstr "Aktivní pohled"
+
+msgid "The inactive view"
+msgstr "Neaktivní pohled"
+
+msgid "The right view"
+msgstr "Pravý pohled"
+
+msgid "Rename single items _inline"
+msgstr "Přejmenovávat jednotlivé položky _na místě"
+
+msgid "Show selection _marker"
+msgstr "Zobrazit _značku výběru"
+
+msgid "Show item information on _hover"
+msgstr "Zobrazit informace o položce při _najetí myší"
+
+msgid "Open folders while _dragging items over them"
+msgstr "Otevírat složky při _přetahování položek nad nimi"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Používá F4 a Otevřít terminál zde. %d v příkazu se nahradí složkou; jinak se terminál spustí v ní. Dříve to bylo systémové nastavení KDE."
+
+msgid "Terminal _command:"
+msgstr "_Příkaz terminálu:"
+
+msgid "No terminal found"
+msgstr "Terminál nenalezen"
+
+#, c-format
+msgid "Detected: %s"
+msgstr "Zjištěno: %s"
+
+msgid "Use the same display style for _all folders"
+msgstr "Používat stejný styl zobrazení pro _všechny složky"
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
+msgstr "Je-li vypnuto, každá složka si pamatuje vlastní styl. V obou případech dá Zobrazit › Pamatovat si zobrazení pro tuto složku jedné složce vlastní styl."
+
+msgid "Number of items"
+msgstr "Počet položek"
+
+msgid "Size of contents"
+msgstr "Velikost obsahu"
+
+msgid "Folder size depth limit:"
+msgstr "Hloubka pro velikost složek:"
+
+msgid "Dates:"
+msgstr "Data:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativní (Dnes, Včera…)"
+
+msgid "Short"
+msgstr "Krátké"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolicky (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Číselně (0755)"
+
+msgid "Combined"
+msgstr "Kombinovaně"
+
+msgid "Shorten long names:"
+msgstr "Zkracovat dlouhé názvy:"
+
+msgid "At the end"
+msgstr "Na konci"
+
+msgid "In the middle"
+msgstr "Uprostřed"
+
+msgid "Hide _backup files (ending in ~)"
+msgstr "Skrýt _záložní soubory (končící ~)"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr "Nejvíce řádků popisku (0: bez omezení):"
+
+msgid "Co_mpact spacing"
+msgstr "_Kompaktní rozestupy"
+
+msgid "Maximum label width:"
+msgstr "Nejvyšší šířka popisku:"
+
+msgid "E_xpandable folders"
+msgstr "_Rozbalitelné složky"
+
+msgid "Highlight the entire _row"
+msgstr "Zvýraznit celý _řádek"
+
+msgid "Show a Disk _Usage column"
+msgstr "Zobrazit sloupec _Využití disku"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Místo, které každý soubor a celá složka zabírá na disku, s pruhem jeho podílu na složce, jako Nástroje › Využití disku. Složky se čtou celé na pozadí; řazením podle sloupce uvidíte největší jako první. Volba „Zůstat na tomto disku“ z okna Využití disku platí i zde."
+
+msgid "Show _previews in new folders"
+msgstr "Zobrazit _náhledy v nových složkách"
+
+msgid "Audio (cover art)"
+msgstr "Zvuk (obal alba)"
+
+msgid "PDF documents"
+msgstr "Dokumenty PDF"
+
+msgid "Text files"
+msgstr "Textové soubory"
+
+msgid "Fonts"
+msgstr "Písma"
+
+msgid "Office documents"
+msgstr "Kancelářské dokumenty"
+
+msgid "Limits"
+msgstr "Limity"
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr "Přeskočit místní soubory větší než (MiB, 0: bez omezení):"
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr "Vzdálené soubory do (MiB, 0: nikdy):"
+
+msgid "Ask for confirmation when"
+msgstr "Žádat o potvrzení při"
+
+msgid "Moving files or folders to the _trash"
+msgstr "Přesouvání souborů nebo složek do _koše"
+
+msgid "_Deleting files or folders"
+msgstr "_Mazání souborů nebo složek"
+
+msgid "_Emptying the trash"
+msgstr "_Vyprazdňování koše"
+
+msgid "Closing windows with _multiple tabs"
+msgstr "Zavírání oken s _více kartami"
+
+msgid "Opening many _folders at once"
+msgstr "Otevírání mnoha _složek najednou"
+
+msgid "Opening many t_erminals at once"
+msgstr "Otevírání mnoha t_erminálů najednou"
+
+msgid "Renaming changes a file's _type"
+msgstr "Přejmenování mění _typ souboru"
+
+msgid "Acting as _administrator"
+msgstr "Jednání jako _správce"
+
+msgid "Open in an application"
+msgstr "Otevřít v aplikaci"
+
+msgid "Run it"
+msgstr "Spustit"
+
+msgid "Bars and Panels"
+msgstr "Pruhy a panely"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr "Malý (zobrazí se jen při najetí nebo výběru)"
+
+msgid "Show _zoom slider"
+msgstr "Zobrazit _posuvník přiblížení"
+
+msgid "Show free _space"
+msgstr "Zobrazit volné _místo"
+
+msgid "Show _hidden folders"
+msgstr "Zobrazit _skryté složky"
+
+msgid "Limit to the home folder when inside it"
+msgstr "Omezit na domovskou složku, je-li uvnitř"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Automaticky posouvat na aktuální složku"
+
+msgid "Play media files _automatically"
+msgstr "_Automaticky přehrávat multimediální soubory"
+
+msgid "Show the _hovered item"
+msgstr "Zobrazit položku _pod kurzorem"
+
+msgid "Use _long date format"
+msgstr "Použít _dlouhý formát data"
+
+msgid "Show in the context menu"
+msgstr "Zobrazit v kontextové nabídce"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "„Kopírovat do“ a „Přesunout do“"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Smazat (navíc k Přesunout do koše)"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Dříve to byla systémová nastavení KDE. Limity se uplatní při spuštění Belugy a po přesunu položek do koše."
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr "_Mazat položky, které jsou v koši déle než:"
+
+msgid "Days:"
+msgstr "Dny:"
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr "_Omezit koš na podíl disku:"
+
+msgid "Percent of the disk:"
+msgstr "Procent disku:"
+
+msgid "When the limit is reached:"
+msgstr "Po dosažení limitu:"
+
+msgid "Show a warning"
+msgstr "Zobrazit varování"
+
+msgid "Delete the oldest items"
+msgstr "Smazat nejstarší položky"
+
+msgid "Delete the largest items"
+msgstr "Smazat největší položky"
+
+msgid "Calculating trash size…"
+msgstr "Počítání velikosti koše…"
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr "Koš nyní zabírá %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Vyprázdnit koš nyní"
+
+msgid "Keyboard Shortcuts"
+msgstr "Klávesové zkratky"
+
+#, c-format
+msgid "%zu items"
+msgstr "Položek: %zu"
+
+msgid "No default application"
+msgstr "Žádná výchozí aplikace"
+
+msgid "C_hange…"
+msgstr "_Změnit…"
+
+msgid "Opens with:"
+msgstr "Otevírá se v:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr "%s volných z %s (%d%% využito)"
+
+msgid "Can View"
+msgstr "Může zobrazit"
+
+msgid "Can View Content"
+msgstr "Může zobrazit obsah"
+
+msgid "Is _executable"
+msgstr "Je _spustitelný"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Použít změny na všechny _podsložky a jejich obsah"
+
+msgid "Could not read the file."
+msgstr "Soubor nelze přečíst."
+
+msgid "Paste a checksum to compare"
+msgstr "Vložte kontrolní součet k porovnání"
+
+msgid "Verify:"
+msgstr "Ověřit:"
+
+msgid "The checksums match."
+msgstr "Kontrolní součty se shodují."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Žádný vypočítaný kontrolní součet se neshoduje. Nejprve vypočítejte odpovídající typ."
+
+msgid "Could not change the permissions."
+msgstr "Oprávnění nelze změnit."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtrovat podle názvu (fungují zástupné znaky jako *.txt)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Ponechat filtr při změně složky"
+
+msgid "In This Folder"
+msgstr "V této složce"
+
+msgid "In Your Files"
+msgstr "Ve vašich souborech"
+
+msgid "Any Time"
+msgstr "Kdykoli"
+
+msgid "Last 7 Days"
+msgstr "Posledních 7 dní"
+
+msgid "Last 30 Days"
+msgstr "Posledních 30 dní"
+
+msgid "Last Year"
+msgstr "Poslední rok"
+
+msgid "Hidden files"
+msgstr "Skryté soubory"
+
+msgid "Duplicate Tab"
+msgstr "Duplikovat kartu"
+
+msgid "Show Columns"
+msgstr "Zobrazit sloupce"
+
+#, c-format
+msgid "Modified: %s"
+msgstr "Změněno: %s"
+
+#, c-format
+msgid "Original location: %s"
+msgstr "Původní umístění: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Méně než 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB až 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB až 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB a více"
+
+msgid "Not counted yet"
+msgstr "Zatím nespočítáno"
+
+msgid "No items found"
+msgstr "Nebyly nalezeny žádné položky"
+
+msgid "A file name cannot contain “/”."
+msgstr "Název souboru nemůže obsahovat „/“."
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Přejmenováním „%s“ na „%s“ se změní jeho přípona. Soubor se pak může otevírat v jiné aplikaci nebo vůbec."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Režim výběru: klepnutím na soubory nebo složky je vyberete nebo zrušíte jejich výběr."
+
+msgid "_Exit Selection Mode"
+msgstr "_Ukončit režim výběru"
+
+msgid "_Duplicate"
+msgstr "_Duplikovat"
+
+msgid "De_lete"
+msgstr "_Smazat"
+
+msgid "Pr_operties"
+msgstr "_Vlastnosti"
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr "Složka „%s“ již neexistuje."
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr "Vybráno „%s“ (%s%s)"
+
+#, c-format
+msgid "%s selected"
+msgstr "Vybráno: %s"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "Vybrán %d"
+msgstr[1] "Vybrány %d"
+msgstr[2] "Vybráno %d"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Okno Belugy s právy správce může měnit a mazat jakýkoli soubor na tomto počítači, včetně souborů, které systém potřebuje ke spuštění. Chyba v něm může systém znefunkčnit. Používejte jej jen pro soubory, které jinak změnit nelze, a po dokončení jej zavřete.\n\nBeluga se dále zeptá na heslo správce."
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr "Vytvořit novou složku v:\n%s"
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr "Vytvořit nový soubor v:\n%s"

@@ -1,0 +1,1450 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-26 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "The archive could not be opened."
+msgstr "Nie można otworzyć archiwum."
+
+msgid "The archive could not be read."
+msgstr "Nie można odczytać archiwum."
+
+msgid "Cancelled."
+msgstr "Anulowano."
+
+msgid "This file is encrypted with a password."
+msgstr "Ten plik jest zaszyfrowany hasłem."
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr "Nie można odczytać „%s”."
+
+msgid "This is not a file in an archive."
+msgstr "To nie jest plik w archiwum."
+
+msgid "Extract Here"
+msgstr "Wypakuj tutaj"
+
+msgid "Compress to .tar.gz"
+msgstr "Spakuj do .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Nie znaleziono emulatora terminala."
+
+msgid "Root"
+msgstr "Główny"
+
+#, c-format
+msgid "%s Volume"
+msgstr "Wolumin %s"
+
+msgid "This device cannot be mounted."
+msgstr "Tego urządzenia nie można zamontować."
+
+msgid "This device cannot be unmounted."
+msgstr "Tego urządzenia nie można odmontować."
+
+msgid "The device is gone."
+msgstr "Urządzenia już nie ma."
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr "Kopiowanie %s do „%s”"
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr "Przenoszenie %s do „%s”"
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr "Dowiązywanie %s w „%s”"
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr "Przenoszenie %s do kosza"
+
+#, c-format
+msgid "Deleting %s"
+msgstr "Usuwanie %s"
+
+#, c-format
+msgid "Restoring %s"
+msgstr "Przywracanie %s"
+
+msgid "Emptying the trash"
+msgstr "Opróżnianie kosza"
+
+msgid "Counting files…"
+msgstr "Liczenie plików…"
+
+#, c-format
+msgid "“%s”: %s"
+msgstr "„%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Katalogu nie można przenieść do niego samego."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Katalogu nie można skopiować do niego samego."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Pliki można wypakować tylko do katalogów lokalnych."
+
+#, c-format
+msgid "Extracting from “%s”"
+msgstr "Wypakowywanie z „%s”"
+
+msgid "Disc:"
+msgstr "Płyta:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Przepływność:"
+
+msgid "Cover:"
+msgstr "Okładka:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ", %.0f kl./s"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ", %.3f kl./s"
+
+#, c-format
+msgid "Video %d:"
+msgstr "Obraz %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanał"
+msgstr[1] "%d kanały"
+msgstr[2] "%d kanałów"
+
+#, c-format
+msgid ", %d bit"
+msgstr ", %d bitów"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "Dźwięk %d:"
+
+msgid "Subtitles:"
+msgstr "Napisy:"
+
+msgid "Chapters:"
+msgstr "Rozdziały:"
+
+msgid "Images"
+msgstr "Obrazy"
+
+msgid "Archives"
+msgstr "Archiwa"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr "Szukaj „%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Nie znaleziono emulatora terminala. Ustaw go w Ustawienia Belugi › Ogólne › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Ten system plików nie ma kosza."
+
+msgid "Could not create the trash information file."
+msgstr "Nie można utworzyć pliku informacji kosza."
+
+#, c-format
+msgid "“%s” already exists."
+msgstr "„%s” już istnieje."
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Kosz przekracza swój limit %s. Rozważ jego opróżnienie."
+
+msgid "Move"
+msgstr "Przenieś"
+
+msgid "Create File"
+msgstr "Utwórz plik"
+
+#, c-format
+msgid "Undo: %s"
+msgstr "Cofnij: %s"
+
+#, c-format
+msgid "Redo: %s"
+msgstr "Ponów: %s"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d plik"
+msgstr[1] "%d pliki"
+msgstr[2] "%d plików"
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d katalog"
+msgstr[1] "%d katalogi"
+msgstr[2] "%d katalogów"
+
+#, c-format
+msgid "Today at %s"
+msgstr "Dzisiaj o %s"
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr "Wczoraj o %s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr "%ld godz. %ld min"
+
+#, c-format
+msgid "%s copy %d"
+msgstr "%s kopia %d"
+
+msgid "Disk Usage"
+msgstr "Zajętość dysku"
+
+msgid "Extension"
+msgstr "Rozszerzenie"
+
+msgid "Original Location"
+msgstr "Pierwotne położenie"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga nie może działać jako administrator."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Do zapytania o hasło administratora potrzebny jest pkexec (polkit). Zainstaluj polkit i agenta polkit dla swojego środowiska."
+
+msgid "Columns View"
+msgstr "Widok kolumn"
+
+msgid "Reset Zoom"
+msgstr "Wyzeruj powiększenie"
+
+msgid "Pop out Split View"
+msgstr "Wydziel podzielony widok"
+
+msgid "Places Panel"
+msgstr "Panel miejsc"
+
+msgid "Disk Usage Panel"
+msgstr "Panel zajętości dysku"
+
+msgid "Go to Tab 1"
+msgstr "Przejdź do karty 1"
+
+msgid "Go to Tab 2"
+msgstr "Przejdź do karty 2"
+
+msgid "Go to Tab 3"
+msgstr "Przejdź do karty 3"
+
+msgid "Go to Tab 4"
+msgstr "Przejdź do karty 4"
+
+msgid "Go to Tab 5"
+msgstr "Przejdź do karty 5"
+
+msgid "Go to Tab 6"
+msgstr "Przejdź do karty 6"
+
+msgid "Go to Tab 7"
+msgstr "Przejdź do karty 7"
+
+msgid "Go to Tab 8"
+msgstr "Przejdź do karty 8"
+
+msgid "Go to Tab 9"
+msgstr "Przejdź do karty 9"
+
+msgid "Configure Beluga"
+msgstr "Ustawienia Belugi"
+
+msgid "Undo failed."
+msgstr "Cofanie nie powiodło się."
+
+msgid "Folder…"
+msgstr "Katalog…"
+
+msgid "Text File…"
+msgstr "Plik tekstowy…"
+
+msgid "Empty File…"
+msgstr "Pusty plik…"
+
+msgid "Link to File or Folder…"
+msgstr "Dowiązanie do pliku lub katalogu…"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr "Drugi widok (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Zapamiętaj widok dla tego katalogu"
+
+msgid "Open in Beluga"
+msgstr "Otwórz w Beludze"
+
+msgid "Paste into Folder"
+msgstr "Wklej do katalogu"
+
+msgid "_Cancel"
+msgstr "_Anuluj"
+
+msgid "The name cannot contain “/”."
+msgstr "Nazwa nie może zawierać „/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Nazwa zaczynająca się od kropki jest ukryta."
+
+msgid "Some items could not be renamed."
+msgstr "Nie udało się zmienić nazwy niektórych elementów."
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr "Zmień nazwę „%s” na:"
+
+msgid "_Rename"
+msgstr "_Zmień nazwę"
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr "Nie można zmienić nazwy „%s”."
+
+msgid "Change the file type?"
+msgstr "Zmienić typ pliku?"
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Zmiana nazwy „%s” na „%s” zmienia jego rozszerzenie."
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr "Zmień nazwę %zu zaznaczonych elementów na:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# zostanie zastąpiony kolejnymi liczbami; ## daje zera wiodące. Rozszerzenia zostają zachowane."
+
+msgid "Start numbering at:"
+msgstr "Zacznij numerowanie od:"
+
+msgid "_Move Here"
+msgstr "_Przenieś tutaj"
+
+msgid "_Copy Here"
+msgstr "_Kopiuj tutaj"
+
+msgid "_Link Here"
+msgstr "_Dowiąż tutaj"
+
+msgid "C_ancel"
+msgstr "A_nuluj"
+
+msgid "Choose a folder"
+msgstr "Wybierz katalog"
+
+msgid "Icon name:"
+msgstr "Nazwa ikony:"
+
+msgid "Choose a Folder"
+msgstr "Wybierz katalog"
+
+msgid "_Add"
+msgstr "_Dodaj"
+
+msgid "_Save"
+msgstr "_Zapisz"
+
+msgid "Show _folders first"
+msgstr "Pokazuj _katalogi jako pierwsze"
+
+msgid "Show hidden files _last"
+msgstr "Pokazuj ukryte pliki na _końcu"
+
+msgid "Show _previews"
+msgstr "Pokazuj _podglądy"
+
+msgid "Show in _groups"
+msgstr "Pokazuj w _grupach"
+
+msgid "Show _hidden files"
+msgstr "Pokazuj _ukryte pliki"
+
+msgid "Current folder including all subfolders"
+msgstr "Bieżący katalog wraz ze wszystkimi podkatalogami"
+
+msgid "_OK"
+msgstr "_OK"
+
+#, c-format
+msgid "modified %s"
+msgstr "zmieniono %s"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Katalog o nazwie „%s” już istnieje w „%s”."
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Plik o nazwie „%s” już istnieje w „%s”."
+
+msgid "Existing item"
+msgstr "Istniejący element"
+
+msgid "New item"
+msgstr "Nowy element"
+
+msgid "_Suggest New Name"
+msgstr "_Zaproponuj nową nazwę"
+
+msgid "New name:"
+msgstr "Nowa nazwa:"
+
+msgid "Apply to _all"
+msgstr "Zastosuj do _wszystkich"
+
+msgid "S_kip"
+msgstr "_Pomiń"
+
+msgid "_Write Into"
+msgstr "_Zapisz do środka"
+
+msgid "_Overwrite"
+msgstr "_Zastąp"
+
+msgid "This location is not a folder."
+msgstr "To położenie nie jest katalogiem."
+
+msgid "This location is not valid."
+msgstr "To położenie jest nieprawidłowe."
+
+msgid "This folder is not in the archive."
+msgstr "Tego katalogu nie ma w archiwum."
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s mniejszy plik"
+msgstr[1] "%s mniejsze pliki"
+msgstr[2] "%s mniejszych plików"
+
+msgid "(another drive, not counted)"
+msgstr "(inny dysk, nie liczony)"
+
+msgid "Some of its contents could not be read."
+msgstr "Części zawartości nie udało się odczytać."
+
+#, c-format
+msgid "%s in files"
+msgstr "%s w plikach"
+
+#, c-format
+msgid "%s on disk"
+msgstr "%s na dysku"
+
+#, c-format
+msgid "%s files and %s folders"
+msgstr "%s plików i %s katalogów"
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Odczytywanie… %s w %s plikach i %s katalogach"
+
+msgid "Stopped."
+msgstr "Zatrzymano."
+
+msgid "This folder could not be read."
+msgstr "Nie można odczytać tego katalogu."
+
+#, c-format
+msgid "%s, read in %.1f s"
+msgstr "%s, odczytano w %.1f s"
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Nie udało się odczytać %s katalogu."
+msgstr[1] ". Nie udało się odczytać %s katalogów."
+msgstr[2] ". Nie udało się odczytać %s katalogów."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Mierzyć można tylko katalogi na tym komputerze."
+
+msgid "read less than a minute ago"
+msgstr "odczytano mniej niż minutę temu"
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "odczytano %d minutę temu"
+msgstr[1] "odczytano %d minuty temu"
+msgstr[2] "odczytano %d minut temu"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "odczytano %d godzinę temu"
+msgstr[1] "odczytano %d godziny temu"
+msgstr[2] "odczytano %d godzin temu"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Przeskanuj, aby odczytać ponownie."
+
+msgid "_Apparent size"
+msgstr "Rozmiar _pozorny"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Sumuj rozmiary plików zamiast miejsca, które pliki zajmują na dysku."
+
+msgid "_Stay on this drive"
+msgstr "_Zostań na tym dysku"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Nie licz innych dysków zamontowanych w tym katalogu (np. katalogu z muzyką na innym dysku). Dowiązania nigdy nie są śledzone."
+
+msgid "Rescan"
+msgstr "Przeskanuj ponownie"
+
+msgid "Close Disk Usage"
+msgstr "Zamknij zajętość dysku"
+
+msgid "_Rescan"
+msgstr "_Przeskanuj ponownie"
+
+msgid "S_top"
+msgstr "_Zatrzymaj"
+
+msgid "Files"
+msgstr "Pliki"
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr "Zajętość dysku – %s"
+
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr "„%s” już istnieje. Zastąpić?"
+
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu z tych plików już istnieje. Zastąpić je?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Program, z którego zapisujesz, nadpisze istniejącą zawartość."
+
+msgid "Choose a folder to save in."
+msgstr "Wybierz katalog, w którym zapisać."
+
+msgid "Select Folder"
+msgstr "Wybierz katalog"
+
+msgid "Open Files"
+msgstr "Otwórz pliki"
+
+msgid "Open File"
+msgstr "Otwórz plik"
+
+msgid "Save File"
+msgstr "Zapisz plik"
+
+msgid "Save Files"
+msgstr "Zapisz pliki"
+
+msgid "_Folder:"
+msgstr "_Katalog:"
+
+msgid "_Name:"
+msgstr "_Nazwa:"
+
+msgid "_Type:"
+msgstr "_Typ:"
+
+msgid "_Select"
+msgstr "_Wybierz"
+
+msgid "_Open"
+msgstr "_Otwórz"
+
+msgid "C_reate"
+msgstr "_Utwórz"
+
+msgid "Could not create the folder."
+msgstr "Nie można utworzyć katalogu."
+
+#, c-format
+msgid "%zu items selected"
+msgstr "Zaznaczono elementów: %zu"
+
+msgid "Contents:"
+msgstr "Zawartość:"
+
+msgid "Contains:"
+msgstr "Zawiera:"
+
+msgid "Counting…"
+msgstr "Liczenie…"
+
+msgid "Broken Link"
+msgstr "Uszkodzone dowiązanie"
+
+#, c-format
+msgid "%s (link)"
+msgstr "%s (dowiązanie)"
+
+msgid "other drive"
+msgstr "inny dysk"
+
+#, c-format
+msgid "%s of %s"
+msgstr "%s z %s"
+
+#, c-format
+msgid "%s left"
+msgstr "pozostało %s"
+
+#, c-format
+msgid "%d of %d"
+msgstr "%d z %d"
+
+msgid "File operations in progress"
+msgstr "Trwają operacje na plikach"
+
+msgid "No subfolders"
+msgstr "Brak podkatalogów"
+
+msgid "Select the given files in their folders"
+msgstr "Zaznacz podane pliki w ich katalogach"
+
+msgid "Open the window in split view"
+msgstr "Otwórz okno w podzielonym widoku"
+
+msgid "Always open a new window"
+msgstr "Zawsze otwieraj nowe okno"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Działaj w tle dla usługi D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Odłącz od terminala (bez położenia: otwórz bieżący katalog)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Uruchom okno wyboru plików dla xdg-desktop-portal (uruchamiane przez D-Bus)"
+
+msgid "Show the version"
+msgstr "Pokaż wersję"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[PLIK lub KATALOG…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Działasz jako administrator: zmiany w tym oknie mogą uszkodzić system."
+
+msgid "Close this window?"
+msgstr "Zamknąć to okno?"
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "To okno ma otwarte karty (%zu). Zamknięcie okna zamknie je wszystkie."
+
+msgid "Close Window"
+msgstr "Zamknij okno"
+
+msgid "_File"
+msgstr "_Plik"
+
+msgid "New _Window"
+msgstr "Nowe _okno"
+
+msgid "New _Tab"
+msgstr "Nowa _karta"
+
+msgid "_Close Tab"
+msgstr "_Zamknij kartę"
+
+msgid "Create _New"
+msgstr "Utwórz _nowy"
+
+msgid "_Rename…"
+msgstr "_Zmień nazwę…"
+
+msgid "_Duplicate Here"
+msgstr "_Powiel tutaj"
+
+msgid "Move to _Trash"
+msgstr "Przenieś do _kosza"
+
+msgid "_Delete"
+msgstr "_Usuń"
+
+msgid "Restore from Trash"
+msgstr "Przywróć z kosza"
+
+msgid "_Properties"
+msgstr "_Właściwości"
+
+msgid "_Quit"
+msgstr "Za_kończ"
+
+msgid "_Edit"
+msgstr "_Edycja"
+
+msgid "_Undo"
+msgstr "_Cofnij"
+
+msgid "_Redo"
+msgstr "_Ponów"
+
+msgid "Cu_t"
+msgstr "_Wytnij"
+
+msgid "_Copy"
+msgstr "_Kopiuj"
+
+msgid "_Paste"
+msgstr "W_klej"
+
+msgid "_Search…"
+msgstr "_Szukaj…"
+
+msgid "Select _All"
+msgstr "Zaznacz _wszystko"
+
+msgid "_View"
+msgstr "_Widok"
+
+msgid "Zoom _In"
+msgstr "_Powiększ"
+
+msgid "Zoom _Out"
+msgstr "P_omniejsz"
+
+msgid "Re_load"
+msgstr "_Odśwież"
+
+msgid "Show _Menubar"
+msgstr "Pokaż pasek _menu"
+
+msgid "Show _Toolbar"
+msgstr "Pokaż pasek _narzędzi"
+
+msgid "Show _Statusbar"
+msgstr "Pokaż pasek _stanu"
+
+msgid "_Go"
+msgstr "_Przejdź"
+
+msgid "_Back"
+msgstr "_Wstecz"
+
+msgid "_Forward"
+msgstr "_Naprzód"
+
+msgid "_Up"
+msgstr "_W górę"
+
+msgid "_Home"
+msgstr "_Katalog domowy"
+
+msgid "_Tools"
+msgstr "_Narzędzia"
+
+msgid "Open _Terminal"
+msgstr "Otwórz _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Otwórz terminal _tutaj"
+
+msgid "_Disk Usage…"
+msgstr "_Zajętość dysku…"
+
+msgid "_Settings"
+msgstr "_Ustawienia"
+
+msgid "_Configure Beluga…"
+msgstr "_Ustawienia Belugi…"
+
+msgid "No recently closed tabs"
+msgstr "Brak ostatnio zamkniętych kart"
+
+msgid "(Administrator)"
+msgstr "(Administrator)"
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr "Otworzyć katalogi (%zu) w nowych kartach?"
+
+msgid "Open Folders"
+msgstr "Otwórz katalogi"
+
+#, c-format
+msgid "Could not open “%s”."
+msgstr "Nie można otworzyć „%s”."
+
+msgid "Could not open a terminal."
+msgstr "Nie można otworzyć terminala."
+
+msgid "New Text File.txt"
+msgstr "Nowy plik tekstowy.txt"
+
+msgid "New File"
+msgstr "Nowy plik"
+
+msgid "Empty the trash?"
+msgstr "Opróżnić kosz?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Wszystkie elementy w koszu zostaną trwale usunięte. Tego nie można cofnąć."
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr "Otworzyć terminale (%zu)?"
+
+msgid "Open Terminals"
+msgstr "Otwórz terminale"
+
+msgid "Could not create the file."
+msgstr "Nie można utworzyć pliku."
+
+msgid "Link to File or Folder"
+msgstr "Dowiązanie do pliku lub katalogu"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Ścieżka pliku lub katalogu, do którego ma prowadzić dowiązanie:"
+
+msgid "Could not create the link."
+msgstr "Nie można utworzyć dowiązania."
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr "Trwale usunąć %s?"
+
+msgid "This cannot be undone."
+msgstr "Tego nie można cofnąć."
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr "Przenieść %s do kosza?"
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr "Nie można uruchomić „%s”."
+
+#, c-format
+msgid "Could not start %s."
+msgstr "Nie można uruchomić %s."
+
+msgid "Could not start the application."
+msgstr "Nie można uruchomić aplikacji."
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr "„%s” jest plikiem wykonywalnym."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Uruchomić go czy otworzyć w aplikacji?"
+
+msgid "Run"
+msgstr "Uruchom"
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr "Wybierz aplikację do otwarcia %s (%s):"
+
+msgid "Recommended Applications"
+msgstr "Zalecane aplikacje"
+
+msgid "Other Applications"
+msgstr "Inne aplikacje"
+
+msgid "Or command:"
+msgstr "Lub polecenie:"
+
+msgid "Remember application association for this type of file"
+msgstr "Zapamiętaj powiązanie aplikacji z tym typem pliku"
+
+#, c-format
+msgid "%s free of %s"
+msgstr "%s wolne z %s"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr "Nie można zamontować urządzenia: %s"
+
+msgid "Hide Hidden Entries"
+msgstr "Ukryj ukryte wpisy"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Wszystkie elementy w koszu zostaną trwale usunięte."
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr "Nie można bezpiecznie usunąć urządzenia: %s"
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr "Nie można odmontować urządzenia: %s"
+
+#, c-format
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Używaj _czcionki systemowej"
+
+msgid "View font:"
+msgstr "Czcionka widoku:"
+
+msgid "Context Menu Action"
+msgstr "Działanie menu kontekstowego"
+
+msgid "Types:"
+msgstr "Typy:"
+
+#, c-format
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f pierwszy plik, %F wszystkie pliki, %u / %U jako URI, %n / %N nazwy, %d bieżący katalog."
+
+msgid "Show for _files"
+msgstr "Pokazuj dla _plików"
+
+msgid "Show for f_olders"
+msgstr "Pokazuj dla _katalogów"
+
+msgid "Show when _several items are selected"
+msgstr "Pokazuj, gdy zaznaczono _kilka elementów"
+
+msgid "Run in a _terminal"
+msgstr "Uruchom w _terminalu"
+
+msgid "Custom Actions"
+msgstr "Własne działania"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Twoje własne wpisy menu kontekstowego plików i katalogów."
+
+msgid "_Add…"
+msgstr "_Dodaj…"
+
+msgid "_Edit…"
+msgstr "_Edytuj…"
+
+msgid "_Remove"
+msgstr "_Usuń"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Skróty zapisuje się jak <Control>c lub <Shift>Delete. Kilka oddziel przecinkami. Puste pole oznacza skrót domyślny."
+
+msgid "_Home folder:"
+msgstr "Katalog _domowy:"
+
+msgid "_Remember open folders and tabs"
+msgstr "_Zapamiętuj otwarte katalogi i karty"
+
+msgid "Begin in _split view mode"
+msgstr "Zaczynaj w _podzielonym widoku"
+
+msgid "Show _filter bar"
+msgstr "Pokazuj pasek _filtra"
+
+msgid "Make location bar _editable"
+msgstr "Pozwól _edytować pasek położenia"
+
+msgid "Show full path inside _location bar"
+msgstr "Pokazuj pełną ścieżkę na pasku _położenia"
+
+msgid "Show full path in _title bar"
+msgstr "Pokazuj pełną ścieżkę na pasku _tytułu"
+
+msgid "Mouse"
+msgstr "Mysz"
+
+msgid "These used to be KDE system settings."
+msgstr "Dawniej były to ustawienia systemowe KDE."
+
+msgid "Clicking files or folders:"
+msgstr "Kliknięcie plików lub katalogów:"
+
+msgid "Selects them (double-click opens)"
+msgstr "Zaznacza je (podwójne kliknięcie otwiera)"
+
+msgid "Opens them"
+msgstr "Otwiera je"
+
+msgid "Double-clicking empty space:"
+msgstr "Podwójne kliknięcie pustego miejsca:"
+
+msgid "Does nothing"
+msgstr "Nic nie robi"
+
+msgid "Selects all items"
+msgstr "Zaznacza wszystkie elementy"
+
+msgid "Goes up"
+msgstr "Przechodzi wyżej"
+
+msgid "Opens a new tab"
+msgstr "Otwiera nową kartę"
+
+msgid "Toggles hidden files"
+msgstr "Przełącza ukryte pliki"
+
+msgid "Tabs and Split View"
+msgstr "Karty i podzielony widok"
+
+msgid "Open new tabs after the _last tab"
+msgstr "Otwieraj nowe karty za _ostatnią"
+
+msgid "_Always show the tab bar"
+msgstr "_Zawsze pokazuj pasek kart"
+
+msgid "Show _close buttons on tabs"
+msgstr "Pokazuj przyciski _zamykania na kartach"
+
+msgid "Open folders from other applications in a new _tab"
+msgstr "Otwieraj katalogi z innych aplikacji w nowej _karcie"
+
+msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
+msgstr "Otwieraj _archiwa jak katalogi (zip, tar, 7z, rar, ISO)"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Prowadź _indeks katalogu domowego dla natychmiastowego wyszukiwania"
+
+msgid "Closing split view closes:"
+msgstr "Zamknięcie podzielonego widoku zamyka:"
+
+msgid "The active view"
+msgstr "Aktywny widok"
+
+msgid "The inactive view"
+msgstr "Nieaktywny widok"
+
+msgid "The right view"
+msgstr "Prawy widok"
+
+msgid "Rename single items _inline"
+msgstr "Zmieniaj nazwę pojedynczych elementów _w miejscu"
+
+msgid "Show selection _marker"
+msgstr "Pokazuj _znacznik zaznaczenia"
+
+msgid "Show item information on _hover"
+msgstr "Pokazuj informacje o elemencie po _najechaniu"
+
+msgid "Open folders while _dragging items over them"
+msgstr "Otwieraj katalogi przy _przeciąganiu nad nimi elementów"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Używane przez F4 i Otwórz terminal tutaj. %d w poleceniu zostanie zastąpione katalogiem; w przeciwnym razie terminal uruchomi się w nim. Dawniej było to ustawienie systemowe KDE."
+
+msgid "Terminal _command:"
+msgstr "_Polecenie terminala:"
+
+msgid "No terminal found"
+msgstr "Nie znaleziono terminala"
+
+#, c-format
+msgid "Detected: %s"
+msgstr "Wykryto: %s"
+
+msgid "Use the same display style for _all folders"
+msgstr "Używaj tego samego stylu widoku dla _wszystkich katalogów"
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
+msgstr "Gdy wyłączone, każdy katalog pamięta własny styl. W obu przypadkach Widok › Zapamiętaj widok dla tego katalogu daje katalogowi własny styl."
+
+msgid "Number of items"
+msgstr "Liczba elementów"
+
+msgid "Size of contents"
+msgstr "Rozmiar zawartości"
+
+msgid "Folder size depth limit:"
+msgstr "Limit głębokości rozmiaru katalogów:"
+
+msgid "Dates:"
+msgstr "Daty:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Względne (Dzisiaj, Wczoraj…)"
+
+msgid "Short"
+msgstr "Krótkie"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolicznie (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Liczbowo (0755)"
+
+msgid "Combined"
+msgstr "Łącznie"
+
+msgid "Shorten long names:"
+msgstr "Skracaj długie nazwy:"
+
+msgid "At the end"
+msgstr "Na końcu"
+
+msgid "In the middle"
+msgstr "W środku"
+
+msgid "Hide _backup files (ending in ~)"
+msgstr "Ukryj pliki _kopii zapasowych (kończące się na ~)"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr "Maks. liczba wierszy etykiety (0: bez limitu):"
+
+msgid "Co_mpact spacing"
+msgstr "_Zwarte odstępy"
+
+msgid "Maximum label width:"
+msgstr "Maks. szerokość etykiety:"
+
+msgid "E_xpandable folders"
+msgstr "_Rozwijane katalogi"
+
+msgid "Highlight the entire _row"
+msgstr "Podświetlaj cały _wiersz"
+
+msgid "Show a Disk _Usage column"
+msgstr "Pokazuj kolumnę _zajętości dysku"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Miejsce, jakie każdy plik i każdy cały katalog zajmuje na dysku, z paskiem udziału w katalogu, jak Narzędzia › Zajętość dysku. Katalogi są odczytywane w całości w tle; posortuj według kolumny, aby zobaczyć największe najpierw. „Zostań na tym dysku” z okna Zajętość dysku obowiązuje także tutaj."
+
+msgid "Show _previews in new folders"
+msgstr "Pokazuj _podglądy w nowych katalogach"
+
+msgid "Audio (cover art)"
+msgstr "Dźwięk (okładka)"
+
+msgid "PDF documents"
+msgstr "Dokumenty PDF"
+
+msgid "Text files"
+msgstr "Pliki tekstowe"
+
+msgid "Fonts"
+msgstr "Czcionki"
+
+msgid "Office documents"
+msgstr "Dokumenty biurowe"
+
+msgid "Limits"
+msgstr "Limity"
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr "Pomijaj pliki lokalne większe niż (MiB, 0: bez limitu):"
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr "Pliki zdalne do (MiB, 0: nigdy):"
+
+msgid "Ask for confirmation when"
+msgstr "Pytaj o potwierdzenie przy"
+
+msgid "Moving files or folders to the _trash"
+msgstr "Przenoszeniu plików lub katalogów do _kosza"
+
+msgid "_Deleting files or folders"
+msgstr "_Usuwaniu plików lub katalogów"
+
+msgid "_Emptying the trash"
+msgstr "_Opróżnianiu kosza"
+
+msgid "Closing windows with _multiple tabs"
+msgstr "Zamykaniu okien z _wieloma kartami"
+
+msgid "Opening many _folders at once"
+msgstr "Otwieraniu wielu _katalogów naraz"
+
+msgid "Opening many t_erminals at once"
+msgstr "Otwieraniu wielu t_erminali naraz"
+
+msgid "Renaming changes a file's _type"
+msgstr "Zmianie nazwy zmieniającej _typ pliku"
+
+msgid "Acting as _administrator"
+msgstr "Działaniu jako _administrator"
+
+msgid "Open in an application"
+msgstr "Otwórz w aplikacji"
+
+msgid "Run it"
+msgstr "Uruchom go"
+
+msgid "Bars and Panels"
+msgstr "Paski i panele"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr "Mały (widoczny tylko po najechaniu lub przy zaznaczaniu)"
+
+msgid "Show _zoom slider"
+msgstr "Pokazuj suwak _powiększenia"
+
+msgid "Show free _space"
+msgstr "Pokazuj wolne _miejsce"
+
+msgid "Show _hidden folders"
+msgstr "Pokazuj _ukryte katalogi"
+
+msgid "Limit to the home folder when inside it"
+msgstr "Ograniczaj do katalogu domowego, gdy jest się w nim"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Automatycznie przewijaj do bieżącego katalogu"
+
+msgid "Play media files _automatically"
+msgstr "_Automatycznie odtwarzaj pliki multimedialne"
+
+msgid "Show the _hovered item"
+msgstr "Pokazuj element pod _kursorem"
+
+msgid "Use _long date format"
+msgstr "Używaj _długiego formatu daty"
+
+msgid "Show in the context menu"
+msgstr "Pokazuj w menu kontekstowym"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "„Kopiuj do” i „Przenieś do”"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Usuń (oprócz Przenieś do kosza)"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Dawniej były to ustawienia systemowe KDE. Limity są stosowane przy uruchamianiu Belugi i po przeniesieniu elementów do kosza."
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr "_Usuwaj elementy, które są w koszu dłużej niż:"
+
+msgid "Days:"
+msgstr "Dni:"
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr "_Ogranicz kosz do części dysku:"
+
+msgid "Percent of the disk:"
+msgstr "Procent dysku:"
+
+msgid "When the limit is reached:"
+msgstr "Po osiągnięciu limitu:"
+
+msgid "Show a warning"
+msgstr "Pokaż ostrzeżenie"
+
+msgid "Delete the oldest items"
+msgstr "Usuń najstarsze elementy"
+
+msgid "Delete the largest items"
+msgstr "Usuń największe elementy"
+
+msgid "Calculating trash size…"
+msgstr "Obliczanie rozmiaru kosza…"
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr "Kosz zajmuje obecnie %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Opróżnij kosz teraz"
+
+msgid "Keyboard Shortcuts"
+msgstr "Skróty klawiszowe"
+
+#, c-format
+msgid "%zu items"
+msgstr "Elementów: %zu"
+
+msgid "No default application"
+msgstr "Brak domyślnej aplikacji"
+
+msgid "C_hange…"
+msgstr "_Zmień…"
+
+msgid "Opens with:"
+msgstr "Otwiera się w:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr "%s wolne z %s (zajęte %d%%)"
+
+msgid "Can View"
+msgstr "Może przeglądać"
+
+msgid "Can View Content"
+msgstr "Może przeglądać zawartość"
+
+msgid "Is _executable"
+msgstr "Jest _wykonywalny"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Zastosuj zmiany do wszystkich _podkatalogów i ich zawartości"
+
+msgid "Could not read the file."
+msgstr "Nie można odczytać pliku."
+
+msgid "Paste a checksum to compare"
+msgstr "Wklej sumę kontrolną do porównania"
+
+msgid "Verify:"
+msgstr "Sprawdź:"
+
+msgid "The checksums match."
+msgstr "Sumy kontrolne są zgodne."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Żadna obliczona suma kontrolna nie jest zgodna. Najpierw oblicz odpowiedni typ."
+
+msgid "Could not change the permissions."
+msgstr "Nie można zmienić uprawnień."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtruj według nazwy (działają symbole wieloznaczne, np. *.txt)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Zachowaj filtr przy zmianie katalogu"
+
+msgid "In This Folder"
+msgstr "W tym katalogu"
+
+msgid "In Your Files"
+msgstr "W twoich plikach"
+
+msgid "Any Time"
+msgstr "Kiedykolwiek"
+
+msgid "Last 7 Days"
+msgstr "Ostatnie 7 dni"
+
+msgid "Last 30 Days"
+msgstr "Ostatnie 30 dni"
+
+msgid "Last Year"
+msgstr "Ostatni rok"
+
+msgid "Hidden files"
+msgstr "Ukryte pliki"
+
+msgid "Duplicate Tab"
+msgstr "Powiel kartę"
+
+msgid "Show Columns"
+msgstr "Pokaż kolumny"
+
+#, c-format
+msgid "Modified: %s"
+msgstr "Zmieniono: %s"
+
+#, c-format
+msgid "Original location: %s"
+msgstr "Pierwotne położenie: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Mniej niż 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "Od 1 MiB do 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "Od 100 MiB do 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB lub więcej"
+
+msgid "Not counted yet"
+msgstr "Jeszcze nie policzono"
+
+msgid "No items found"
+msgstr "Nie znaleziono elementów"
+
+msgid "A file name cannot contain “/”."
+msgstr "Nazwa pliku nie może zawierać „/”."
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Zmiana nazwy „%s” na „%s” zmienia jego rozszerzenie. Plik może otwierać się w innej aplikacji albo wcale."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Tryb zaznaczania: kliknij pliki lub katalogi, aby je zaznaczyć lub odznaczyć."
+
+msgid "_Exit Selection Mode"
+msgstr "_Wyjdź z trybu zaznaczania"
+
+msgid "_Duplicate"
+msgstr "_Powiel"
+
+msgid "De_lete"
+msgstr "_Usuń"
+
+msgid "Pr_operties"
+msgstr "_Właściwości"
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr "Katalog „%s” już nie istnieje."
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr "Zaznaczono „%s” (%s%s)"
+
+#, c-format
+msgid "%s selected"
+msgstr "Zaznaczono: %s"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "Zaznaczono %d"
+msgstr[1] "Zaznaczono %d"
+msgstr[2] "Zaznaczono %d"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Okno Belugi z uprawnieniami administratora może zmienić i usunąć każdy plik na tym komputerze, także pliki potrzebne systemowi do uruchomienia. Błąd w nim może sprawić, że system przestanie działać. Używaj go tylko do plików, których nie da się zmienić inaczej, i zamknij je po zakończeniu.\n\nNastępnie Beluga zapyta o hasło administratora."
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr "Utwórz nowy katalog w:\n%s"
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr "Utwórz nowy plik w:\n%s"

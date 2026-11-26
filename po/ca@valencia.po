@@ -111,6 +111,119 @@ msgstr ""
 msgid "Extracting from “%s”"
 msgstr ""
 
+msgid "Title:"
+msgstr "Títol:"
+
+msgid "Artist:"
+msgstr "Artista:"
+
+msgid "Album artist:"
+msgstr "Artista de l'àlbum:"
+
+msgid "Album:"
+msgstr "Àlbum:"
+
+msgid "Track:"
+msgstr "Peça:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "Genre:"
+msgstr "Gènere:"
+
+msgid "Composer:"
+msgstr "Compositor:"
+
+msgid "Performer:"
+msgstr "Intèrpret:"
+
+msgid "Publisher:"
+msgstr "Editorial:"
+
+msgid "Copyright:"
+msgstr "Copyright:"
+
+msgid "Comment:"
+msgstr "Comentari:"
+
+msgid "Description:"
+msgstr "Descripció:"
+
+msgid "Language:"
+msgstr "Idioma:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "Duració:"
+
+msgid "Format:"
+msgstr ""
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "Vídeo:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "Àudio:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
 msgid "Places"
 msgstr "Llocs"
 
@@ -328,6 +441,24 @@ msgstr ""
 msgid "Dimensions"
 msgstr "Dimensions"
 
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Riscos d'actuar com a administrador"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Entenc i accepte estos riscos"
+
 msgid "New Window"
 msgstr "Finestra nova"
 
@@ -406,6 +537,9 @@ msgstr ""
 msgid "Show Hidden Files"
 msgstr "Mostra els fitxers ocults"
 
+msgid "Act as Administrator"
+msgstr "Actua com a administrador"
+
 msgid "Split View"
 msgstr "Dividix la vista"
 
@@ -436,11 +570,17 @@ msgstr "Quadro de carpetes"
 msgid "Information Panel"
 msgstr "Quadro d'informació"
 
+msgid "Disk Usage Panel"
+msgstr ""
+
 msgid "Focus Places Panel"
 msgstr "Dona el focus al quadro de Llocs"
 
 msgid "Show Menubar"
 msgstr "Mostra la barra de menús"
+
+msgid "Show Statusbar"
+msgstr "Mostra la barra d'estat"
 
 msgid "Back"
 msgstr "Arrere"
@@ -573,6 +713,9 @@ msgstr "Obri en una finestra nova"
 msgid "Open in Split View"
 msgstr "Obri en una vista dividida"
 
+msgid "Open in Beluga"
+msgstr ""
+
 msgid "Open Containing Folder"
 msgstr "Obri la carpeta contenidora"
 
@@ -620,9 +763,6 @@ msgstr ""
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
-
-msgid "Cancel"
-msgstr "Cancel·la"
 
 msgid "Rename Items"
 msgstr "Canviar de nom els elements"
@@ -840,33 +980,8 @@ msgid_plural ". %s folders could not be read."
 msgstr[0] ""
 msgstr[1] ""
 
-#, c-format
-msgid "Disk Usage – %s"
+msgid "Only folders on this computer can be measured."
 msgstr ""
-
-msgid "_Apparent size"
-msgstr ""
-
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
-
-msgid "_Stay on this drive"
-msgstr ""
-
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
-
-msgid "_Rescan"
-msgstr ""
-
-msgid "S_top"
-msgstr ""
-
-msgid "Share"
-msgstr "Compartiu"
-
-msgid "Files"
-msgstr "Fitxers"
 
 msgid "read less than a minute ago"
 msgstr ""
@@ -885,6 +1000,43 @@ msgstr[1] ""
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "Para"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Compartiu"
+
+msgid "Files"
+msgstr "Fitxers"
+
+#, c-format
+msgid "Disk Usage – %s"
 msgstr ""
 
 #, c-format
@@ -996,14 +1148,14 @@ msgstr "Grup:"
 msgid "Dimensions:"
 msgstr "Dimensions:"
 
-msgid "Duration:"
-msgstr "Duració:"
-
 msgid "Broken Link"
 msgstr ""
 
 #, c-format
 msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
 msgstr ""
 
 #, c-format
@@ -1036,6 +1188,9 @@ msgstr ""
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
@@ -1043,6 +1198,9 @@ msgid "Show the version"
 msgstr ""
 
 msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
 msgstr ""
 
 msgid "Close this window?"
@@ -1160,9 +1318,6 @@ msgstr "Ajusta l'estil de presentació de la vista…"
 msgid "Re_load"
 msgstr ""
 
-msgid "Stop"
-msgstr "Para"
-
 msgid "Panels"
 msgstr "Quadros"
 
@@ -1176,6 +1331,9 @@ msgid "Show _Menubar"
 msgstr ""
 
 msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
 msgstr ""
 
 msgid "_Go"
@@ -1215,6 +1373,9 @@ msgid "_Configure Beluga…"
 msgstr ""
 
 msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
 msgstr ""
 
 #, c-format
@@ -1715,6 +1876,9 @@ msgid "Opening many t_erminals at once"
 msgstr ""
 
 msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "Acting as _administrator"
 msgstr ""
 
 msgid "When opening an executable file:"

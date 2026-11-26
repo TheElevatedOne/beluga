@@ -7,7 +7,8 @@ Only messages whose text matches (ignoring KDE context, '&' and '_' accelerators
 are filled. printf placeholders in Beluga (%s, %d, ...) are matched to Qt's %1, %2. Translations whose
 placeholders don't match are left out, so every file passes `msgfmt -c`.
 Usage: po/import-kde-translations.py <repo> <min-coverage-percent>   (Beluga uses 30)
-Overwrites po/<lang>.po: run it only for a new language or before anyone edits the files by hand.
+Overwrites po/<lang>.po. Translations written for Beluga go in po/extra/<lang>.po (same msgid, printf
+placeholders); they are used for the messages KDE's catalogs don't have, so they survive a new import.
 """
 import re, subprocess, sys, os
 
@@ -87,6 +88,9 @@ def valid(msgid, t):
     if msgid.endswith('\n') != t.endswith('\n') or msgid.startswith('\n') != t.startswith('\n'): return False
     if '%' not in msgid: return '%' not in t
     a, b = specs_of(msgid), specs_of(t)
+    if a is None and b is None:
+        # Not a printf message (custom action placeholders such as %n, %U): the same % codes.
+        return sorted(re.findall(r'%.', msgid)) == sorted(re.findall(r'%.', t))
     return a is not None and b is not None and sorted(a) == sorted(b)
 
 pot = parse(open(os.path.join(repo, 'po/beluga.pot'), encoding='utf-8').read())
@@ -133,6 +137,17 @@ for path in langs:
                     else:
                         # Different capitalisation, or a label that Beluga writes with a colon.
                         table.setdefault(('L', norm(e['msgid']).lower().rstrip(':')), e['msgstr'])
+    # Translations of Beluga's own messages, written for Beluga (po/extra/<lang>.po): used where KDE's
+    # catalogs have nothing.
+    extra = {}
+    xp = os.path.join(repo, 'po', 'extra', lang + '.po')
+    if os.path.exists(xp):
+        for x in parse(open(xp, encoding='utf-8').read())[1:]:
+            if 'msgid_plural' in x:
+                forms = [x[k] for k in sorted(k for k in x if k.startswith('msgstr['))]
+                if all(forms): extra[(x['msgid'], x['msgid_plural'])] = forms
+            elif x.get('msgstr'):
+                extra[x['msgid']] = x['msgstr']
     out, done = [], 0
     for e in msgs:
         tr = None
@@ -175,6 +190,11 @@ for path in langs:
         if tr is not None:
             ts = tr if isinstance(tr, list) else [tr]
             if not all(valid(e['msgid'], t) for t in ts): tr = None
+        if tr is None:
+            tr = extra.get((e['msgid'], e['msgid_plural'])) if 'msgid_plural' in e else extra.get(e['msgid'])
+            if tr is not None:
+                ts = tr if isinstance(tr, list) else [tr]
+                if not all(valid(e['msgid'], t) for t in ts): tr = None
         out.append((e, tr))
         if tr: done += 1
     cov = 100.0 * done / len(msgs)

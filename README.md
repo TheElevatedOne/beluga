@@ -49,29 +49,41 @@ limits, places) live in Beluga's own preferences.
 - **Tabs and split view**: tabs with drag-to-reorder, detach and "recently closed"; two views side by side
   (<kbd>F3</kbd>) with copy/move to the other view (<kbd>Shift</kbd>+<kbd>F5</kbd> / <kbd>F6</kbd>).
 - **Panels**: Places (<kbd>F9</kbd>), Folders tree (<kbd>F7</kbd>) and Information (<kbd>F11</kbd>, with
-  previews, image dimensions, audio/video duration and playback, and folder sizes).
+  previews, image dimensions, playback, folder sizes, and for audio and video what `ffprobe` shows: duration,
+  format, bit rate, tags such as title, artist and album, and each stream's codec, size, frame rate, sample rate
+  and channels, read with FFmpeg's libavformat). **View → Show Statusbar** hides or shows the status bar (zoom
+  slider, free space); give it a shortcut in **Configure Beluga → Keyboard Shortcuts**.
 - **File operations**: copy, move, link, rename (inline or batch with `#` numbering), duplicate, trash and delete
   run in worker threads with a progress button in the tool bar, conflict dialogs (skip, overwrite, rename, write
   into) and undo/redo.
 - **Trash without gvfs**: browse, restore and empty the freedesktop.org trash, including trash folders on other
   drives. Optional age and size limits.
-- **Archives as folders**: zip, tar (`.tar.gz`, `.tar.xz`, `.tar.zst`, …), 7z, rar and ISO images open like
-  folders, through libarchive and without gvfs or Ark. They are read only: copy or drag entries out to extract
-  them, and double-click a file to open an extracted copy. Entries with `..` or absolute paths are never written
-  outside the target folder. **Configure Beluga → General → Open archives as folders** turns it off.
+- **Archives as folders**: zip, tar (`.tar.gz`, `.tar.xz`, `.tar.zst`, …), 7z, rar and ISO images can be browsed
+  like folders, through libarchive and without gvfs or Ark. By default a double-click opens an archive in its
+  program (Ark, File Roller, …) and **Open in Beluga** in its context menu browses it; with **Configure Beluga →
+  General → Open archives as folders** a double-click browses it and **Open With** offers the programs. Archives
+  without a program always open in Beluga. They are read only: copy or drag entries out to extract them, and
+  double-click a file to open an extracted copy. Entries with `..` or absolute paths are never written outside the
+  target folder.
 - **Search without Baloo**: by name (wildcards work), by text content, file type and modification date, from the
   current folder, your home folder or everywhere. Name and type searches in your home folder answer from Beluga's
-  own index of names, like Everything: for 360 000 names a search takes about 10 ms and a refresh that finds
-  nothing changed 15 ms (`find` with the same pattern: 145 ms; warm disk cache). The index needs no daemon: it
-  reads again only the folders whose time changed since the last search, and every hit is checked on the disk, so
-  deleted files never show. It takes about 27 MB of memory and 21 MB in `~/.cache/beluga`, and can be turned off
-  in **Configure Beluga → General**. Other searches (hidden files, contents, dates, sizes) read the folders on
-  all CPU cores; results stream in while the search runs.
-- **Disk Usage** (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>, **Tools → Disk Usage…** or a folder's context menu):
+  own index of names, like Everything, hidden folders included. Measured on a home folder with 1.6 million
+  indexed names (warm disk cache): a search takes about 10 ms, or 32 ms with hidden files; `find ~ -xdev -iname`
+  with the same pattern takes 0.78 s. The index needs no daemon: before showing more results it reads again only
+  the folders whose time changed (about 70 ms when nothing changed), and every hit is checked on the disk, so
+  deleted files never show. The cache folder (`~/.cache`) and other drives mounted inside your home folder aren't
+  indexed; searches read them from the disk. The index takes about 140 MB of memory for these 1.6 million names
+  and 84 MB in `~/.cache/beluga`, and can be turned off in **Configure Beluga → General**. Other searches
+  (contents, dates, sizes) read the folders on all CPU cores; results stream in while the search runs.
+- **Disk Usage** (the tool bar's Disk Usage button or <kbd>Shift</kbd>+<kbd>F11</kbd> for a pane on the right that
+  follows the folder you're in; <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>, **Tools → Disk Usage…** or a
+  folder's context menu for a window of its own):
   what takes up the space in a folder, as a tree with the biggest items first, like
   [dust](https://github.com/bootandy/dust). It reads folders the way dust does, on all CPU cores, and counts hard
   links once: 2 million files under `/usr` take 0.3 s with a warm cache (dust: 1.4 s, `du`: 2.6 s), with the
-  same total as `du`. Shows disk usage or file sizes, and can stay on one drive. Double-click an entry to open it.
+  same total as `du`. Shows disk usage or file sizes. Links are never followed, and **Stay on this drive** leaves
+  out other drives mounted inside the folder (a music folder on another disk, say), also in the Disk Usage column,
+  which shows "other drive" for them. Double-click an entry to open it.
   Folder sizes in the views and in Properties use the same reader. Results are remembered: the window shows the
   last scan of a folder (or of one above it) at once and reads again only after 10 minutes or on **Rescan**, and
   remembered folder sizes stay in `~/.cache/beluga` until the folder changes. **Configure Beluga → View → Details → Show a
@@ -86,11 +98,17 @@ limits, places) live in Beluga's own preferences.
   patterns and types). They replace KDE service menus. "Extract Here" and "Compress to .tar.gz" are included.
 - **Integration**: drag and drop with other apps, a clipboard other GTK and KDE file managers understand, and the
   `org.freedesktop.FileManager1` D-Bus service browsers use for "Show in folder".
+- **Act as Administrator** (**View** menu): asks for the administrator password with polkit's prompt (`pkexec`)
+  and opens a second Beluga window that runs as root, marked by a warning bar and "(Administrator)" in its title.
+  It uses your theme. `sudo beluga` works too: a root Beluga finds your Wayland display and gets a D-Bus session
+  of its own.
 - **File chooser for other programs**: an xdg-desktop-portal backend, like the KDE one that uses Dolphin: Places,
   the folder in a Beluga view, name, file types and the program's own options. See
   [Beluga as the file chooser](#beluga-as-the-file-chooser).
-- **Translations**: 61 languages, about 40% of the messages each, taken from Dolphin, KDE Frameworks and GTK
-  where the English text is the same. The rest is shown in English.
+- **Translations**: 61 languages. Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
+  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (703 of 704 messages). The other 48 have
+  25–37% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
+  is shown in English.
 - **Look**: colours come from your GTK theme's named colours (pywal and Noctalia style sheets work), square
   corners, no titlebar of its own.
 
@@ -102,8 +120,12 @@ limits, places) live in Beluga's own preferences.
 
 - GTK 4.16 or newer, GLib 2.84 or newer, gdk-pixbuf, libarchive 3.6 or newer
 - To build: a C++17 compiler, CMake 3.16, pkg-config, gettext (`msgfmt`, for the translations)
+- Optional when building: FFmpeg's libavformat, libavcodec and libavutil (audio and video details in the
+  Information panel). `-DBELUGA_FFMPEG=AUTO` (the default) uses them when found, `ON` requires them, `OFF` leaves
+  them out.
 - Optional at run time: UDisks2 (devices), Tumbler or `.thumbnailer` programs (video/PDF previews), gvfs
-  (network locations such as `sftp://`), `bsdtar` (the "Extract Here" action)
+  (network locations such as `sftp://`), `bsdtar` (the "Extract Here" action), polkit with a polkit agent
+  (**Act as Administrator**)
 
 ## Installation
 
@@ -119,9 +141,9 @@ or `~/.local`, or build it.
 ### Building
 
 ```sh
-# Arch:   sudo pacman -S base-devel cmake gtk4 libarchive gettext
-# Debian: sudo apt install build-essential cmake pkg-config gettext libgtk-4-dev libarchive-dev
-# Fedora: sudo dnf install gcc-c++ cmake gettext gtk4-devel libarchive-devel
+# Arch:   sudo pacman -S base-devel cmake gtk4 libarchive ffmpeg gettext
+# Debian: sudo apt install build-essential cmake pkg-config gettext libgtk-4-dev libarchive-dev libavformat-dev
+# Fedora: sudo dnf install gcc-c++ cmake gettext gtk4-devel libarchive-devel ffmpeg-free-devel
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 sudo cmake --install build
@@ -133,7 +155,9 @@ isn't running. Leave it off if another file manager should own that service.
 ## Quick start
 
 Run `beluga` to open your home folder (or the tabs of your last session). Run `beluga ~/Downloads` to open a folder,
-or `beluga --select ~/Downloads/file.zip` to open its folder with the file selected.
+or `beluga --select ~/Downloads/file.zip` to open its folder with the file selected. From a terminal,
+`beluga --detach` opens the current folder and gives you the prompt back at once; Beluga keeps running when the
+terminal closes.
 
 ### Command line
 
@@ -146,6 +170,8 @@ Application Options:
   --split                   Open the window in split view
   --new-window              Always open a new window
   --daemon                  Keep running in the background for the FileManager1 D-Bus service
+  --detach                  Detach from the terminal (without a location: open the current folder)
+  --portal                  Run the file chooser for xdg-desktop-portal (started by D-Bus)
   -v, --version             Show the version
 ```
 
@@ -161,6 +187,7 @@ Open folders from other applications in a new tab** is on.
 | <kbd>F5</kbd> / <kbd>F6</kbd> / <kbd>Ctrl</kbd>+<kbd>L</kbd> | reload / editable location / replace location |
 | <kbd>Ctrl</kbd>+<kbd>1</kbd> … <kbd>Ctrl</kbd>+<kbd>4</kbd> | Icons / Compact / Details / Columns view |
 | <kbd>F7</kbd> / <kbd>F9</kbd> / <kbd>F11</kbd> | Folders / Places / Information panel |
+| <kbd>Shift</kbd>+<kbd>F11</kbd> | Disk Usage pane |
 | <kbd>F10</kbd> | new folder |
 | <kbd>Ctrl</kbd>+<kbd>I</kbd> or <kbd>/</kbd> / <kbd>Ctrl</kbd>+<kbd>F</kbd> | filter bar / search |
 | <kbd>Ctrl</kbd>+<kbd>H</kbd> | show hidden files |
@@ -198,7 +225,9 @@ settings of your folders or Beluga's own settings.
 ## Coming from Dolphin
 
 - **Removed**: the embedded Konsole panel, the Help menu, KDE-only actions (KFind, Kompare, Filelight, activities,
-  stash, "Act as Administrator", Get New Stuff), Baloo tags/ratings/comments and version control plugins.
+  stash, Get New Stuff), Baloo tags/ratings/comments and version control plugins.
+- **Changed**: **Act as Administrator** opens a separate root window through `pkexec` instead of Dolphin's
+  `admin:/` KIO worker, and Beluga doesn't refuse to run under `sudo`.
 - **Moved into Beluga**: single/double click behaviour, the terminal command, trash limits, places and keyboard
   shortcuts. **Disk Usage** takes the place of Filelight.
 - **Places**: on the first start Beluga copies your entries from `~/.local/share/user-places.xbel` (Dolphin's
@@ -217,11 +246,11 @@ Beluga creates its files the first time it needs them. Everything can be changed
 | `~/.config/beluga/actions.conf` | custom context menu actions |
 | `~/.local/share/beluga/viewprops.conf` | view mode, sorting and columns, globally or per folder |
 | `~/.local/state/beluga/session.conf` | open windows and tabs, when **Remember open folders and tabs** is on |
-| `~/.cache/beluga/` | the name index (`index-v1`), remembered folder sizes (`usage-v1`) and copies of files opened from archives; safe to delete |
+| `~/.cache/beluga/` | the name index (`index-v2`), remembered folder sizes (`usage-v1`) and copies of files opened from archives; safe to delete |
 
 ## Testing
 
-`beluga --selftest` runs 70 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 74 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.
@@ -239,21 +268,27 @@ The messages are in `po/beluga.pot` (gettext domain `beluga`). To translate Belu
 `po/<language>.po`, fill in the `msgstr` lines and build; CMake compiles every `po/*.po` file. After changing
 strings in the code, run `cmake --build build --target pot` and `msgmerge -U po/<language>.po po/beluga.pot`.
 
-`po/import-kde-translations.py` made the first version of each file from Dolphin's translations in this
-repository's history and the KDE Frameworks and GTK catalogs installed on the machine that ran it.
+`po/import-kde-translations.py` makes each file from Dolphin's translations in this repository's history, the KDE
+Frameworks and GTK catalogs installed on the machine that runs it, and `po/extra/<language>.po`, which holds the
+translations written for Beluga's own messages. Add or correct translations in `po/extra/<language>.po`, then run
+`cmake --build build --target pot` and `python3 po/import-kde-translations.py . 30`; translations in
+`po/extra/` are kept on every import.
 
 ## Known limitations
 
-- Translations cover about 40% of the messages.
+- 48 of the 61 languages cover only 25–37% of the messages.
 - Archives are read only (no adding, renaming or deleting inside them) and files in password-protected archives
   can't be opened. Dragging an entry out of an archive to another program doesn't work; copy it into a folder first.
 - Network locations (`sftp://`, `smb://`, `network:///`) need gvfs.
 - The file chooser stays above the program that opened it on Wayland only (X11 programs get it as a separate
   window), and it doesn't open archives as folders, because programs couldn't read the files inside.
-- The name index covers your home folder without its hidden folders; everything else is read from the disk for
-  each search. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
+- The name index covers your home folder (without `~/.cache` and other drives mounted inside it); everything else
+  is read from the disk for each search. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
   inside PDFs or office documents.
-- The Information panel shows image dimensions and audio/video duration, but no tags (artist, album, camera, …).
+- The Information panel shows image dimensions, but no photo details (camera, exposure, location). Audio and video
+  details need a build with FFmpeg.
+- Act as Administrator needs `pkexec` and a polkit agent running in your session (most desktops start one; on
+  Hyprland, for example `hyprpolkitagent`).
 
 ## License
 

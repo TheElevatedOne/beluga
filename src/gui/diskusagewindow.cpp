@@ -36,7 +36,7 @@ namespace {
 enum Column { ColName, ColSize, ColShare, ColFiles };
 
 struct DuWin {
-    GtkWidget *win = nullptr, *pathLabel = nullptr, *totalLabel = nullptr, *status = nullptr, *spinner = nullptr;
+    GtkWidget *win = nullptr, *box = nullptr, *rescan = nullptr, *pathLabel = nullptr, *totalLabel = nullptr, *status = nullptr, *spinner = nullptr;
     GtkWidget *apparent = nullptr, *oneFs = nullptr, *stop = nullptr, *view = nullptr;
     std::string path;
     MainWindow *mw = nullptr;
@@ -45,6 +45,7 @@ struct DuWin {
     du::Node *root = nullptr;                // the folder shown, inside tree
     std::shared_ptr<du::Scanner> scanner;   // the running scan; shared with its thread
     bool busy = false;
+    bool pane = false;                      // inside a main window instead of its own window
     bool rootApparent = false;              // how the shown tree was counted
     guint timer = 0;
     gint64 started = 0;
@@ -57,7 +58,12 @@ struct DuWin {
     }
 };
 
-DuWin *state_of(GtkWidget *w) { return w ? static_cast<DuWin *>(g_object_get_data(G_OBJECT(w), "beluga-du")) : nullptr; }
+// The state hangs on the content box; a window's content box is its child.
+DuWin *state_of(GtkWidget *w)
+{
+    if (w && GTK_IS_WINDOW(w)) w = gtk_window_get_child(GTK_WINDOW(w));
+    return w ? static_cast<DuWin *>(g_object_get_data(G_OBJECT(w), "beluga-du")) : nullptr;
+}
 
 BelugaDuItem *item_new(du::Node *n)
 {
@@ -125,6 +131,7 @@ GtkListItemFactory *column_factory(Column col, DuWin *d)
 {
     GtkListItemFactory *f = gtk_signal_list_item_factory_new();
     g_object_set_data(G_OBJECT(f), "beluga-col", GINT_TO_POINTER(col));
+    if (d->pane) g_object_set_data(G_OBJECT(f), "beluga-pane", GINT_TO_POINTER(1));
     g_signal_connect(f, "setup", CB([](GtkSignalListItemFactory *f, GtkListItem *li, gpointer) {
         int col = GPOINTER_TO_INT(g_object_get_data(G_OBJECT(f), "beluga-col"));
         if (col == ColName) {
@@ -139,7 +146,13 @@ GtkListItemFactory *column_factory(Column col, DuWin *d)
             gtk_list_item_set_child(li, exp);
         } else if (col == ColShare) {
             GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
-            GtkWidget *bar = gtk_progress_bar_new();
+            // The pane is narrow: a level bar, which themes don't give a large minimum width like progress bars.
+            bool pane = g_object_get_data(G_OBJECT(f), "beluga-pane") != nullptr;
+            GtkWidget *bar = pane ? gtk_level_bar_new() : gtk_progress_bar_new();
+            if (pane) {
+                gtk_widget_add_css_class(bar, "beluga-usage");
+                gtk_widget_set_size_request(bar, 40, 6);
+            }
             gtk_widget_set_hexpand(bar, TRUE);
             gtk_widget_set_valign(bar, GTK_ALIGN_CENTER);
             gtk_box_append(GTK_BOX(box), bar);
@@ -179,7 +192,8 @@ GtkListItemFactory *column_factory(Column col, DuWin *d)
         } else if (col == ColShare) {
             double frac = d->root->size ? (double)n->size / (double)d->root->size : 0;
             GtkWidget *bar = gtk_widget_get_first_child(child);
-            gtk_progress_bar_set_fraction(GTK_PROGRESS_BAR(bar), frac);
+            if (GTK_IS_LEVEL_BAR(bar)) gtk_level_bar_set_value(GTK_LEVEL_BAR(bar), frac);
+            else gtk_progress_bar_set_fraction(GTK_PROGRESS_BAR(bar), frac);
             gtk_label_set_text(GTK_LABEL(gtk_widget_get_next_sibling(bar)), printf_str("%.1f %%", 100.0 * frac).c_str());
         } else {
             gtk_label_set_text(GTK_LABEL(child), n->dir || n->rest() ? count_text(n->files).c_str() : "");
@@ -317,37 +331,78 @@ void open_node(DuWin *d, du::Node *n)
     d->mw->present();
 }
 
-} // namespace
-
-GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
+// Shows the folder: the last scan of it (or of a folder above it) at once, read again only when old.
+void load_folder(DuWin *d, const std::string &path)
 {
-    auto *d = new DuWin;
+    if (d->scanner) d->scanner->cancel();
+    d->scanner.reset();
+    set_busy(d, false);
     d->path = path;
-    d->mw = mw;
-    if (mw) d->mwAlive = mw->lifeToken();
-    GtkWidget *win = gtk_window_new();
-    d->win = win;
-    g_object_set_data_full(G_OBJECT(win), "beluga-du", d, [](gpointer p) { delete static_cast<DuWin *>(p); });
-    gtk_window_set_title(GTK_WINDOW(win), printf_str(_("Disk Usage – %s"), basename_of(path).c_str()).c_str());
-    if (mw) gtk_window_set_transient_for(GTK_WINDOW(win), mw->window());
-    gtk_window_set_destroy_with_parent(GTK_WINDOW(win), TRUE);
-    gtk_window_set_default_size(GTK_WINDOW(win), 880, 600);
-    gtk_widget_add_css_class(win, "beluga-dialog");
+    gtk_widget_set_sensitive(d->rescan, !path.empty());
+    if (path.empty()) {
+        gtk_column_view_set_model(GTK_COLUMN_VIEW(d->view), nullptr);
+        d->tree.reset();
+        d->root = nullptr;
+        gtk_label_set_text(GTK_LABEL(d->pathLabel), _("Disk Usage"));
+        gtk_label_set_text(GTK_LABEL(d->totalLabel), "");
+        gtk_label_set_text(GTK_LABEL(d->status), _("Only folders on this computer can be measured."));
+        return;
+    }
+    gtk_label_set_text(GTK_LABEL(d->pathLabel), path.c_str());
+    gtk_widget_set_tooltip_text(d->pathLabel, path.c_str());
+    du::Options o;
+    o.apparentSize = settings().duApparentSize;
+    o.oneFileSystem = settings().duOneFileSystem;
+    du::CachedTree ct;
+    if (du::cached_tree(path, o, ct)) {
+        show_result(d, ct.tree, ct.node, o.apparentSize);
+        gint64 age = std::max<gint64>(0, g_get_real_time() / G_USEC_PER_SEC - ct.when);
+        std::string when = age < 60 ? std::string(_("read less than a minute ago"))
+                         : age < 3600 ? printf_str(g_dngettext(GETTEXT_PACKAGE, "read %d minute ago", "read %d minutes ago", (gulong)(age / 60)), (int)(age / 60))
+                                      : printf_str(g_dngettext(GETTEXT_PACKAGE, "read %d hour ago", "read %d hours ago", (gulong)(age / 3600)), (int)(age / 3600));
+        gtk_label_set_text(GTK_LABEL(d->status), printf_str(_("%s, %s. Rescan to read it again."), counts_text(ct.node).c_str(), when.c_str()).c_str());
+        if (age >= du::kFreshSeconds) start_scan(d);
+    } else {
+        gtk_column_view_set_model(GTK_COLUMN_VIEW(d->view), nullptr);
+        d->tree.reset();
+        d->root = nullptr;
+        gtk_label_set_text(GTK_LABEL(d->totalLabel), "");
+        start_scan(d);
+    }
+}
 
-    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, 8);
-    gtk_widget_set_margin_start(box, 12);
-    gtk_widget_set_margin_end(box, 12);
-    gtk_widget_set_margin_top(box, 12);
-    gtk_widget_set_margin_bottom(box, 12);
-    gtk_window_set_child(GTK_WINDOW(win), box);
+GtkWidget *icon_button(const char *const *icons, const char *tooltip)
+{
+    GtkWidget *b = gtk_button_new();
+    GIcon *icon = g_themed_icon_new_from_names((char **)icons, -1);
+    gtk_button_set_child(GTK_BUTTON(b), gtk_image_new_from_gicon(icon));
+    g_object_unref(icon);
+    gtk_widget_set_tooltip_text(b, tooltip);
+    gtk_widget_add_css_class(b, "flat");
+    return b;
+}
 
-    GtkWidget *head = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
-    GtkWidget *icon = gtk_image_new_from_icon_name("folder");
-    gtk_image_set_pixel_size(GTK_IMAGE(icon), 32);
-    gtk_box_append(GTK_BOX(head), icon);
+// The content shared by the window and the pane. The state is freed with the box.
+GtkWidget *build(DuWin *d)
+{
+    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, d->pane ? 6 : 8);
+    d->box = box;
+    g_object_set_data_full(G_OBJECT(box), "beluga-du", d, [](gpointer p) { delete static_cast<DuWin *>(p); });
+    int margin = d->pane ? 6 : 12;
+    gtk_widget_set_margin_start(box, margin);
+    gtk_widget_set_margin_end(box, margin);
+    gtk_widget_set_margin_top(box, margin);
+    gtk_widget_set_margin_bottom(box, margin);
+
+    GtkWidget *head = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, d->pane ? 4 : 10);
+    if (!d->pane) {
+        GtkWidget *icon = gtk_image_new_from_icon_name("folder");
+        gtk_image_set_pixel_size(GTK_IMAGE(icon), 32);
+        gtk_box_append(GTK_BOX(head), icon);
+    }
     GtkWidget *texts = gtk_box_new(GTK_ORIENTATION_VERTICAL, 2);
     gtk_widget_set_hexpand(texts, TRUE);
-    d->pathLabel = gtk_label_new(path.c_str());
+    d->pathLabel = gtk_label_new(nullptr);
     gtk_label_set_xalign(GTK_LABEL(d->pathLabel), 0);
     gtk_label_set_ellipsize(GTK_LABEL(d->pathLabel), PANGO_ELLIPSIZE_START);
     gtk_widget_add_css_class(d->pathLabel, "heading");
@@ -363,17 +418,32 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
     gtk_widget_set_tooltip_text(d->apparent, _("Add up the file sizes instead of the disk space the files take up."));
     gtk_check_button_set_active(GTK_CHECK_BUTTON(d->apparent), settings().duApparentSize);
     d->oneFs = gtk_check_button_new_with_mnemonic(_("_Stay on this drive"));
-    gtk_widget_set_tooltip_text(d->oneFs, _("Don't count other drives that are mounted inside this folder."));
+    gtk_widget_set_tooltip_text(d->oneFs, _("Don't count other drives mounted inside this folder (such as a music folder on "
+                                            "another disk). Links are never followed."));
     gtk_check_button_set_active(GTK_CHECK_BUTTON(d->oneFs), settings().duOneFileSystem);
     gtk_box_append(GTK_BOX(opts), d->apparent);
     gtk_box_append(GTK_BOX(opts), d->oneFs);
-    GtkWidget *spacer = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
-    gtk_widget_set_hexpand(spacer, TRUE);
-    gtk_box_append(GTK_BOX(opts), spacer);
-    GtkWidget *rescan = gtk_button_new_with_mnemonic(_("_Rescan"));
-    d->stop = gtk_button_new_with_mnemonic(_("S_top"));
-    gtk_box_append(GTK_BOX(opts), rescan);
-    gtk_box_append(GTK_BOX(opts), d->stop);
+    if (d->pane) {
+        // Rescan, stop and close as icons next to the folder name.
+        static const char *rescanIcons[] = {"view-refresh", "view-refresh-symbolic", nullptr};
+        static const char *stopIcons[] = {"process-stop", "process-stop-symbolic", nullptr};
+        static const char *closeIcons[] = {"window-close", "window-close-symbolic", nullptr};
+        d->rescan = icon_button(rescanIcons, _("Rescan"));
+        d->stop = icon_button(stopIcons, _("Stop"));
+        GtkWidget *close = icon_button(closeIcons, _("Close Disk Usage"));
+        gtk_actionable_set_action_name(GTK_ACTIONABLE(close), "win.show-disk-usage");
+        gtk_box_append(GTK_BOX(head), d->rescan);
+        gtk_box_append(GTK_BOX(head), d->stop);
+        gtk_box_append(GTK_BOX(head), close);
+    } else {
+        GtkWidget *spacer = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+        gtk_widget_set_hexpand(spacer, TRUE);
+        gtk_box_append(GTK_BOX(opts), spacer);
+        d->rescan = gtk_button_new_with_mnemonic(_("_Rescan"));
+        d->stop = gtk_button_new_with_mnemonic(_("S_top"));
+        gtk_box_append(GTK_BOX(opts), d->rescan);
+        gtk_box_append(GTK_BOX(opts), d->stop);
+    }
     gtk_box_append(GTK_BOX(box), opts);
 
     GtkWidget *statusRow = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
@@ -382,6 +452,7 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
     d->status = gtk_label_new(nullptr);
     gtk_label_set_xalign(GTK_LABEL(d->status), 0);
     gtk_label_set_wrap(GTK_LABEL(d->status), TRUE);
+    gtk_widget_set_hexpand(d->status, TRUE);
     gtk_widget_add_css_class(d->status, "dim-label");
     gtk_box_append(GTK_BOX(statusRow), d->status);
     gtk_box_append(GTK_BOX(box), statusRow);
@@ -389,11 +460,13 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
     d->view = gtk_column_view_new(nullptr);
     gtk_column_view_set_show_column_separators(GTK_COLUMN_VIEW(d->view), FALSE);
     add_column(d, _("Name"), ColName, true, -1);
-    add_column(d, _("Size"), ColSize, false, 110);
-    add_column(d, _("Share"), ColShare, false, 260);   // themes give a progress bar ~150 px at least
-    add_column(d, _("Files"), ColFiles, false, 90);
+    add_column(d, _("Size"), ColSize, false, d->pane ? 80 : 110);
+    add_column(d, _("Share"), ColShare, false, d->pane ? 120 : 260);   // themes give a progress bar ~150 px at least
+    if (!d->pane) add_column(d, _("Files"), ColFiles, false, 90);
     GtkWidget *scroll = gtk_scrolled_window_new();
     gtk_widget_set_vexpand(scroll, TRUE);
+    gtk_scrolled_window_set_policy(GTK_SCROLLED_WINDOW(scroll), d->pane ? GTK_POLICY_NEVER : GTK_POLICY_AUTOMATIC,
+                                   GTK_POLICY_AUTOMATIC);
     gtk_scrolled_window_set_child(GTK_SCROLLED_WINDOW(scroll), d->view);
     gtk_box_append(GTK_BOX(box), scroll);
 
@@ -407,7 +480,10 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
         }
         g_object_unref(row);
     }), d);
-    g_signal_connect(rescan, "clicked", CB([](GtkButton *, gpointer p) { start_scan(static_cast<DuWin *>(p)); }), d);
+    g_signal_connect(d->rescan, "clicked", CB([](GtkButton *, gpointer p) {
+        auto *d = static_cast<DuWin *>(p);
+        if (!d->path.empty()) start_scan(d);
+    }), d);
     g_signal_connect(d->stop, "clicked", CB([](GtkButton *, gpointer p) {
         auto *d = static_cast<DuWin *>(p);
         if (d->scanner) d->scanner->cancel();
@@ -417,13 +493,13 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
         settings().duApparentSize = gtk_check_button_get_active(GTK_CHECK_BUTTON(d->apparent));
         settings().duOneFileSystem = gtk_check_button_get_active(GTK_CHECK_BUTTON(d->oneFs));
         settings().save();
-        start_scan(d);
+        if (!d->path.empty()) start_scan(d);
     });
     g_signal_connect(d->apparent, "toggled", optionChanged, d);
     g_signal_connect(d->oneFs, "toggled", optionChanged, d);
     // The widgets are gone when "destroy" runs: stop the scan and its progress timer, so nothing
     // that arrives later touches them.
-    g_signal_connect(win, "destroy", CB([](GtkWidget *w, gpointer) {
+    g_signal_connect(box, "destroy", CB([](GtkWidget *w, gpointer) {
         if (DuWin *d = state_of(w)) {
             if (d->scanner) d->scanner->cancel();
             d->scanner.reset();
@@ -432,6 +508,25 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
             d->life.reset();
         }
     }), nullptr);
+    set_busy(d, false);
+    return box;
+}
+
+} // namespace
+
+GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
+{
+    auto *d = new DuWin;
+    d->mw = mw;
+    if (mw) d->mwAlive = mw->lifeToken();
+    GtkWidget *win = gtk_window_new();
+    d->win = win;
+    gtk_window_set_title(GTK_WINDOW(win), printf_str(_("Disk Usage – %s"), basename_of(path).c_str()).c_str());
+    if (mw) gtk_window_set_transient_for(GTK_WINDOW(win), mw->window());
+    gtk_window_set_destroy_with_parent(GTK_WINDOW(win), TRUE);
+    gtk_window_set_default_size(GTK_WINDOW(win), 880, 600);
+    gtk_widget_add_css_class(win, "beluga-dialog");
+    gtk_window_set_child(GTK_WINDOW(win), build(d));
     GtkEventController *key = gtk_event_controller_key_new();
     g_signal_connect(key, "key-pressed", CB([](GtkEventControllerKey *, guint keyval, guint, GdkModifierType, gpointer w) -> gboolean {
         if (keyval != GDK_KEY_Escape) return FALSE;
@@ -439,25 +534,31 @@ GtkWidget *show_disk_usage(MainWindow *mw, const std::string &path)
         return TRUE;
     }), win);
     gtk_widget_add_controller(win, key);
-
     gtk_window_present(GTK_WINDOW(win));
-    // The last scan of this folder (or of one above it) shows at once; it's read again only when old.
-    du::Options o;
-    o.apparentSize = settings().duApparentSize;
-    o.oneFileSystem = settings().duOneFileSystem;
-    du::CachedTree ct;
-    if (du::cached_tree(path, o, ct)) {
-        show_result(d, ct.tree, ct.node, o.apparentSize);
-        gint64 age = std::max<gint64>(0, g_get_real_time() / G_USEC_PER_SEC - ct.when);
-        std::string when = age < 60 ? std::string(_("read less than a minute ago"))
-                         : age < 3600 ? printf_str(g_dngettext(GETTEXT_PACKAGE, "read %d minute ago", "read %d minutes ago", (gulong)(age / 60)), (int)(age / 60))
-                                      : printf_str(g_dngettext(GETTEXT_PACKAGE, "read %d hour ago", "read %d hours ago", (gulong)(age / 3600)), (int)(age / 3600));
-        gtk_label_set_text(GTK_LABEL(d->status), printf_str(_("%s, %s. Rescan to read it again."), counts_text(ct.node).c_str(), when.c_str()).c_str());
-        if (age >= du::kFreshSeconds) start_scan(d);
-    } else {
-        start_scan(d);
-    }
+    load_folder(d, path);
     return win;
+}
+
+GtkWidget *disk_usage_pane_new(MainWindow *mw)
+{
+    auto *d = new DuWin;
+    d->pane = true;
+    d->mw = mw;
+    d->mwAlive = mw->lifeToken();
+    GtkWidget *box = build(d);
+    gtk_widget_add_css_class(box, "beluga-du-pane");
+    return box;
+}
+
+void disk_usage_pane_show(GtkWidget *pane, const std::string &uri)
+{
+    DuWin *d = state_of(pane);
+    if (!d) return;
+    std::string path;
+    if (!uri.empty() && !is_virtual_uri(uri)) path = take(g_filename_from_uri(uri.c_str(), nullptr, nullptr));
+    if (path.size() > 1 && path.back() == '/') path.pop_back();
+    if (path == d->path && (d->root || d->busy)) return;
+    load_folder(d, path);
 }
 
 bool disk_usage_busy(GtkWidget *window)

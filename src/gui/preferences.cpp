@@ -547,6 +547,7 @@ void show_preferences(GtkWidget *parent)
     check(c, _("Opening many _folders at once"), s.confirmOpenManyFolders);
     check(c, _("Opening many t_erminals at once"), s.confirmOpenManyTerminals);
     check(c, _("Renaming changes a file's _type"), s.confirmRenameFileType);
+    check(c, _("Acting as _administrator"), s.confirmActAsAdmin);
     choice(c, _("When opening an executable file:"), {_("Always ask"), _("Open in an application"), _("Run it")},
            [&s] { return (int)s.executableAction; }, [&s](int i) { s.executableAction = (ExecAction)i; });
 
@@ -554,7 +555,10 @@ void show_preferences(GtkWidget *parent)
     Page b = page(stack, "panels", _("Bars and Panels"));
     heading(b, _("Status Bar"));
     choice(b, _("Status bar:"), {_("Small (shows only when hovering or selecting)"), _("Full width"), _("Hidden")},
-           [&s] { return (int)s.statusBar; }, [&s](int i) { s.statusBar = (StatusBarMode)i; });
+           [&s] { return (int)s.statusBar; }, [&s](int i) {
+               s.statusBar = (StatusBarMode)i;
+               if (s.statusBar != StatusBarMode::Hidden) s.statusBarShown = s.statusBar;
+           });
     check(b, _("Show _zoom slider"), s.showZoomSlider);
     check(b, _("Show free _space"), s.showSpaceInfo);
     heading(b, _("Places Panel"));

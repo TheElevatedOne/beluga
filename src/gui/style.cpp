@@ -68,6 +68,12 @@ beluga-view .beluga-header button.header-cell {
 beluga-view entry.beluga-rename { min-height: 0; padding: 2px 4px; }
 .beluga-placeholder { font-size: 1.2em; }
 .beluga-column { border-right: 1px solid mix(@beluga_view_bg, @beluga_view_fg, 0.15); }
+.beluga-admin-bar {
+  background-color: mix(@beluga_window_bg, @beluga_error, 0.3);
+  color: @beluga_window_fg;
+  padding: 6px 10px;
+  font-weight: bold;
+}
 
 .beluga-toolbar {
   padding: 3px 4px;

@@ -1,0 +1,1451 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-26 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "Het archief kan niet worden geopend."
+
+msgid "The archive could not be read."
+msgstr "Het archief kan niet worden gelezen."
+
+msgid "Cancelled."
+msgstr "Geannuleerd."
+
+msgid "This file is encrypted with a password."
+msgstr "Dit bestand is versleuteld met een wachtwoord."
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr "‘%s’ kan niet worden gelezen."
+
+msgid "This is not a file in an archive."
+msgstr "Dit is geen bestand in een archief."
+
+msgid "Extract Here"
+msgstr "Hier uitpakken"
+
+msgid "Compress to .tar.gz"
+msgstr "Comprimeren naar .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Er is geen terminalemulator gevonden."
+
+msgid "Root"
+msgstr "Root"
+
+#, c-format
+msgid "%s Volume"
+msgstr "Volume %s"
+
+msgid "This device cannot be mounted."
+msgstr "Dit apparaat kan niet worden aangekoppeld."
+
+msgid "This device cannot be unmounted."
+msgstr "Dit apparaat kan niet worden afgekoppeld."
+
+msgid "The device is gone."
+msgstr "Het apparaat is er niet meer."
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr "%s wordt gekopieerd naar ‘%s’"
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr "%s wordt verplaatst naar ‘%s’"
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr "%s wordt gekoppeld in ‘%s’"
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr "%s wordt naar de prullenbak verplaatst"
+
+#, c-format
+msgid "Deleting %s"
+msgstr "%s wordt verwijderd"
+
+#, c-format
+msgid "Restoring %s"
+msgstr "%s wordt hersteld"
+
+msgid "Emptying the trash"
+msgstr "De prullenbak wordt geleegd"
+
+msgid "Counting files…"
+msgstr "Bestanden worden geteld…"
+
+#, c-format
+msgid "“%s”: %s"
+msgstr "‘%s’: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Een map kan niet in zichzelf worden verplaatst."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Een map kan niet in zichzelf worden gekopieerd."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Bestanden kunnen alleen in lokale mappen worden uitgepakt."
+
+#, c-format
+msgid "Extracting from “%s”"
+msgstr "Uitpakken uit ‘%s’"
+
+msgid "Disc:"
+msgstr "Schijf:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bitsnelheid:"
+
+msgid "Cover:"
+msgstr "Hoes:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+#, c-format
+msgid "Video %d:"
+msgstr "Video %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanaal"
+msgstr[1] "%d kanalen"
+
+#, c-format
+msgid ", %d bit"
+msgstr ", %d bit"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "Audio %d:"
+
+msgid "Subtitles:"
+msgstr "Ondertitels:"
+
+msgid "Chapters:"
+msgstr "Hoofdstukken:"
+
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgid "Archives"
+msgstr "Archieven"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr "Zoeken naar ‘%s’"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Er is geen terminalemulator gevonden. Stel er een in via Beluga instellen › Algemeen › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Dit bestandssysteem heeft geen prullenbak."
+
+msgid "Could not create the trash information file."
+msgstr "Het informatiebestand van de prullenbak kan niet worden aangemaakt."
+
+#, c-format
+msgid "“%s” already exists."
+msgstr "‘%s’ bestaat al."
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "De prullenbak is groter dan de limiet van %s. Overweeg hem te legen."
+
+msgid "Move"
+msgstr "Verplaatsen"
+
+msgid "Create File"
+msgstr "Bestand aanmaken"
+
+#, c-format
+msgid "Undo: %s"
+msgstr "Ongedaan maken: %s"
+
+#, c-format
+msgid "Redo: %s"
+msgstr "Opnieuw: %s"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d bestand"
+msgstr[1] "%d bestanden"
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d map"
+msgstr[1] "%d mappen"
+
+#, c-format
+msgid "Today at %s"
+msgstr "Vandaag om %s"
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr "Gisteren om %s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr "%ld u %ld min"
+
+#, c-format
+msgid "%s copy %d"
+msgstr "%s kopie %d"
+
+msgid "Disk Usage"
+msgstr "Schijfgebruik"
+
+msgid "Extension"
+msgstr "Extensie"
+
+msgid "Original Location"
+msgstr "Oorspronkelijke locatie"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga kan niet als beheerder optreden."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "pkexec (polkit) is nodig om om het beheerderswachtwoord te vragen. Installeer polkit en een polkit-agent voor uw bureaublad."
+
+msgid "Columns View"
+msgstr "Kolommenweergave"
+
+msgid "Reset Zoom"
+msgstr "Zoom herstellen"
+
+msgid "Pop out Split View"
+msgstr "Gesplitste weergave losmaken"
+
+msgid "Places Panel"
+msgstr "Paneel Plaatsen"
+
+msgid "Disk Usage Panel"
+msgstr "Paneel Schijfgebruik"
+
+msgid "Go to Tab 1"
+msgstr "Naar tabblad 1"
+
+msgid "Go to Tab 2"
+msgstr "Naar tabblad 2"
+
+msgid "Go to Tab 3"
+msgstr "Naar tabblad 3"
+
+msgid "Go to Tab 4"
+msgstr "Naar tabblad 4"
+
+msgid "Go to Tab 5"
+msgstr "Naar tabblad 5"
+
+msgid "Go to Tab 6"
+msgstr "Naar tabblad 6"
+
+msgid "Go to Tab 7"
+msgstr "Naar tabblad 7"
+
+msgid "Go to Tab 8"
+msgstr "Naar tabblad 8"
+
+msgid "Go to Tab 9"
+msgstr "Naar tabblad 9"
+
+msgid "Configure Beluga"
+msgstr "Beluga instellen"
+
+msgid "Undo failed."
+msgstr "Ongedaan maken is mislukt."
+
+msgid "Folder…"
+msgstr "Map…"
+
+msgid "Text File…"
+msgstr "Tekstbestand…"
+
+msgid "Empty File…"
+msgstr "Leeg bestand…"
+
+msgid "Link to File or Folder…"
+msgstr "Koppeling naar bestand of map…"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr "Andere weergave (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Weergave voor deze map onthouden"
+
+msgid "Open in Beluga"
+msgstr "Openen in Beluga"
+
+msgid "Paste into Folder"
+msgstr "In map plakken"
+
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+msgid "The name cannot contain “/”."
+msgstr "De naam mag geen ‘/’ bevatten."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Een naam die met een punt begint, is verborgen."
+
+msgid "Some items could not be renamed."
+msgstr "Sommige items konden niet worden hernoemd."
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr "‘%s’ hernoemen naar:"
+
+msgid "_Rename"
+msgstr "_Hernoemen"
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr "‘%s’ kan niet worden hernoemd."
+
+msgid "Change the file type?"
+msgstr "Het bestandstype wijzigen?"
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Het hernoemen van ‘%s’ naar ‘%s’ wijzigt de extensie."
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr "De %zu geselecteerde items hernoemen naar:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# wordt vervangen door oplopende getallen; gebruik ## voor voorloopnullen. Extensies blijven behouden."
+
+msgid "Start numbering at:"
+msgstr "Nummering beginnen bij:"
+
+msgid "_Move Here"
+msgstr "Hierheen _verplaatsen"
+
+msgid "_Copy Here"
+msgstr "Hierheen _kopiëren"
+
+msgid "_Link Here"
+msgstr "Hier _koppelen"
+
+msgid "C_ancel"
+msgstr "A_nnuleren"
+
+msgid "Choose a folder"
+msgstr "Kies een map"
+
+msgid "Icon name:"
+msgstr "Pictogramnaam:"
+
+msgid "Choose a Folder"
+msgstr "Kies een map"
+
+msgid "_Add"
+msgstr "_Toevoegen"
+
+msgid "_Save"
+msgstr "Op_slaan"
+
+msgid "Show _folders first"
+msgstr "_Mappen eerst tonen"
+
+msgid "Show hidden files _last"
+msgstr "Verborgen bestanden _laatst tonen"
+
+msgid "Show _previews"
+msgstr "_Voorbeelden tonen"
+
+msgid "Show in _groups"
+msgstr "In _groepen tonen"
+
+msgid "Show _hidden files"
+msgstr "_Verborgen bestanden tonen"
+
+msgid "Current folder including all subfolders"
+msgstr "Huidige map inclusief alle submappen"
+
+msgid "_OK"
+msgstr "_OK"
+
+#, c-format
+msgid "modified %s"
+msgstr "gewijzigd %s"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Er bestaat al een map met de naam ‘%s’ in ‘%s’."
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Er bestaat al een bestand met de naam ‘%s’ in ‘%s’."
+
+msgid "Existing item"
+msgstr "Bestaand item"
+
+msgid "New item"
+msgstr "Nieuw item"
+
+msgid "_Suggest New Name"
+msgstr "Nieuwe naam _voorstellen"
+
+msgid "New name:"
+msgstr "Nieuwe naam:"
+
+msgid "Apply to _all"
+msgstr "Op _alles toepassen"
+
+msgid "S_kip"
+msgstr "Over_slaan"
+
+msgid "_Write Into"
+msgstr "_Erin schrijven"
+
+msgid "_Overwrite"
+msgstr "_Overschrijven"
+
+msgid "This location is not a folder."
+msgstr "Deze locatie is geen map."
+
+msgid "This location is not valid."
+msgstr "Deze locatie is ongeldig."
+
+msgid "This folder is not in the archive."
+msgstr "Deze map staat niet in het archief."
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s kleiner bestand"
+msgstr[1] "%s kleinere bestanden"
+
+msgid "(another drive, not counted)"
+msgstr "(andere schijf, niet meegeteld)"
+
+msgid "Some of its contents could not be read."
+msgstr "Een deel van de inhoud kon niet worden gelezen."
+
+#, c-format
+msgid "%s in files"
+msgstr "%s in bestanden"
+
+#, c-format
+msgid "%s on disk"
+msgstr "%s op schijf"
+
+#, c-format
+msgid "%s files and %s folders"
+msgstr "%s bestanden en %s mappen"
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Lezen… %s in %s bestanden en %s mappen"
+
+msgid "Stopped."
+msgstr "Gestopt."
+
+msgid "This folder could not be read."
+msgstr "Deze map kan niet worden gelezen."
+
+#, c-format
+msgid "%s, read in %.1f s"
+msgstr "%s, gelezen in %.1f s"
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s map kon niet worden gelezen."
+msgstr[1] ". %s mappen konden niet worden gelezen."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Alleen mappen op deze computer kunnen worden gemeten."
+
+msgid "read less than a minute ago"
+msgstr "minder dan een minuut geleden gelezen"
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d minuut geleden gelezen"
+msgstr[1] "%d minuten geleden gelezen"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d uur geleden gelezen"
+msgstr[1] "%d uur geleden gelezen"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Opnieuw scannen om het opnieuw te lezen."
+
+msgid "_Apparent size"
+msgstr "_Schijnbare grootte"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "De bestandsgroottes optellen in plaats van de schijfruimte die de bestanden innemen."
+
+msgid "_Stay on this drive"
+msgstr "Op deze _schijf blijven"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Andere schijven die in deze map zijn aangekoppeld (zoals een muziekmap op een andere schijf) niet meetellen. Koppelingen worden nooit gevolgd."
+
+msgid "Rescan"
+msgstr "Opnieuw scannen"
+
+msgid "Close Disk Usage"
+msgstr "Schijfgebruik sluiten"
+
+msgid "_Rescan"
+msgstr "_Opnieuw scannen"
+
+msgid "S_top"
+msgstr "_Stoppen"
+
+msgid "Files"
+msgstr "Bestanden"
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr "Schijfgebruik – %s"
+
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr "‘%s’ bestaat al. Vervangen?"
+
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu van deze bestanden bestaan al. Vervangen?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Het programma waaruit u opslaat, overschrijft de bestaande inhoud."
+
+msgid "Choose a folder to save in."
+msgstr "Kies een map om in op te slaan."
+
+msgid "Select Folder"
+msgstr "Map selecteren"
+
+msgid "Open Files"
+msgstr "Bestanden openen"
+
+msgid "Open File"
+msgstr "Bestand openen"
+
+msgid "Save File"
+msgstr "Bestand opslaan"
+
+msgid "Save Files"
+msgstr "Bestanden opslaan"
+
+msgid "_Folder:"
+msgstr "_Map:"
+
+msgid "_Name:"
+msgstr "_Naam:"
+
+msgid "_Type:"
+msgstr "_Type:"
+
+msgid "_Select"
+msgstr "_Selecteren"
+
+msgid "_Open"
+msgstr "_Openen"
+
+msgid "C_reate"
+msgstr "_Aanmaken"
+
+msgid "Could not create the folder."
+msgstr "De map kan niet worden aangemaakt."
+
+#, c-format
+msgid "%zu items selected"
+msgstr "%zu items geselecteerd"
+
+msgid "Contents:"
+msgstr "Inhoud:"
+
+msgid "Contains:"
+msgstr "Bevat:"
+
+msgid "Counting…"
+msgstr "Tellen…"
+
+msgid "Broken Link"
+msgstr "Verbroken koppeling"
+
+#, c-format
+msgid "%s (link)"
+msgstr "%s (koppeling)"
+
+msgid "other drive"
+msgstr "andere schijf"
+
+#, c-format
+msgid "%s of %s"
+msgstr "%s van %s"
+
+#, c-format
+msgid "%s left"
+msgstr "%s resterend"
+
+#, c-format
+msgid "%d of %d"
+msgstr "%d van %d"
+
+msgid "File operations in progress"
+msgstr "Bestandsbewerkingen bezig"
+
+msgid "No subfolders"
+msgstr "Geen submappen"
+
+msgid "Select the given files in their folders"
+msgstr "De opgegeven bestanden in hun mappen selecteren"
+
+msgid "Open the window in split view"
+msgstr "Het venster in gesplitste weergave openen"
+
+msgid "Always open a new window"
+msgstr "Altijd een nieuw venster openen"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Op de achtergrond blijven draaien voor de D-Bus-dienst FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Loskoppelen van de terminal (zonder locatie: de huidige map openen)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "De bestandskiezer voor xdg-desktop-portal uitvoeren (gestart door D-Bus)"
+
+msgid "Show the version"
+msgstr "De versie tonen"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[BESTAND of MAP…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Optreden als beheerder: wijzigingen in dit venster kunnen het systeem beschadigen."
+
+msgid "Close this window?"
+msgstr "Dit venster sluiten?"
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "In dit venster zijn %zu tabbladen geopend. Sluiten sluit ze allemaal."
+
+msgid "Close Window"
+msgstr "Venster sluiten"
+
+msgid "_File"
+msgstr "_Bestand"
+
+msgid "New _Window"
+msgstr "Nieuw _venster"
+
+msgid "New _Tab"
+msgstr "Nieuw _tabblad"
+
+msgid "_Close Tab"
+msgstr "Tabblad _sluiten"
+
+msgid "Create _New"
+msgstr "_Nieuw aanmaken"
+
+msgid "_Rename…"
+msgstr "_Hernoemen…"
+
+msgid "_Duplicate Here"
+msgstr "Hier _dupliceren"
+
+msgid "Move to _Trash"
+msgstr "Naar _prullenbak verplaatsen"
+
+msgid "_Delete"
+msgstr "_Verwijderen"
+
+msgid "Restore from Trash"
+msgstr "Herstellen uit de prullenbak"
+
+msgid "_Properties"
+msgstr "_Eigenschappen"
+
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+msgid "_Edit"
+msgstr "Be_werken"
+
+msgid "_Undo"
+msgstr "_Ongedaan maken"
+
+msgid "_Redo"
+msgstr "Opnie_uw"
+
+msgid "Cu_t"
+msgstr "K_nippen"
+
+msgid "_Copy"
+msgstr "_Kopiëren"
+
+msgid "_Paste"
+msgstr "_Plakken"
+
+msgid "_Search…"
+msgstr "_Zoeken…"
+
+msgid "Select _All"
+msgstr "_Alles selecteren"
+
+msgid "_View"
+msgstr "_Beeld"
+
+msgid "Zoom _In"
+msgstr "_Inzoomen"
+
+msgid "Zoom _Out"
+msgstr "_Uitzoomen"
+
+msgid "Re_load"
+msgstr "Op_nieuw laden"
+
+msgid "Show _Menubar"
+msgstr "_Menubalk tonen"
+
+msgid "Show _Toolbar"
+msgstr "_Werkbalk tonen"
+
+msgid "Show _Statusbar"
+msgstr "_Statusbalk tonen"
+
+msgid "_Go"
+msgstr "_Ga"
+
+msgid "_Back"
+msgstr "_Terug"
+
+msgid "_Forward"
+msgstr "_Vooruit"
+
+msgid "_Up"
+msgstr "_Omhoog"
+
+msgid "_Home"
+msgstr "_Persoonlijke map"
+
+msgid "_Tools"
+msgstr "_Hulpmiddelen"
+
+msgid "Open _Terminal"
+msgstr "_Terminal openen"
+
+msgid "Open Terminal _Here"
+msgstr "Terminal _hier openen"
+
+msgid "_Disk Usage…"
+msgstr "_Schijfgebruik…"
+
+msgid "_Settings"
+msgstr "_Instellingen"
+
+msgid "_Configure Beluga…"
+msgstr "Beluga _instellen…"
+
+msgid "No recently closed tabs"
+msgstr "Geen recent gesloten tabbladen"
+
+msgid "(Administrator)"
+msgstr "(Beheerder)"
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr "%zu mappen in nieuwe tabbladen openen?"
+
+msgid "Open Folders"
+msgstr "Mappen openen"
+
+#, c-format
+msgid "Could not open “%s”."
+msgstr "‘%s’ kan niet worden geopend."
+
+msgid "Could not open a terminal."
+msgstr "Er kan geen terminal worden geopend."
+
+msgid "New Text File.txt"
+msgstr "Nieuw tekstbestand.txt"
+
+msgid "New File"
+msgstr "Nieuw bestand"
+
+msgid "Empty the trash?"
+msgstr "De prullenbak legen?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Alle items in de prullenbak worden definitief verwijderd. Dit kan niet ongedaan worden gemaakt."
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr "%zu terminals openen?"
+
+msgid "Open Terminals"
+msgstr "Terminals openen"
+
+msgid "Could not create the file."
+msgstr "Het bestand kan niet worden aangemaakt."
+
+msgid "Link to File or Folder"
+msgstr "Koppeling naar bestand of map"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Pad van het bestand of de map om naar te koppelen:"
+
+msgid "Could not create the link."
+msgstr "De koppeling kan niet worden aangemaakt."
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr "%s definitief verwijderen?"
+
+msgid "This cannot be undone."
+msgstr "Dit kan niet ongedaan worden gemaakt."
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr "%s naar de prullenbak verplaatsen?"
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr "‘%s’ kan niet worden uitgevoerd."
+
+#, c-format
+msgid "Could not start %s."
+msgstr "%s kan niet worden gestart."
+
+msgid "Could not start the application."
+msgstr "De toepassing kan niet worden gestart."
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr "‘%s’ is een uitvoerbaar bestand."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Wilt u het uitvoeren of openen in een toepassing?"
+
+msgid "Run"
+msgstr "Uitvoeren"
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr "Kies de toepassing om %s (%s) mee te openen:"
+
+msgid "Recommended Applications"
+msgstr "Aanbevolen toepassingen"
+
+msgid "Other Applications"
+msgstr "Andere toepassingen"
+
+msgid "Or command:"
+msgstr "Of opdracht:"
+
+msgid "Remember application association for this type of file"
+msgstr "Toepassingskoppeling voor dit bestandstype onthouden"
+
+#, c-format
+msgid "%s free of %s"
+msgstr "%s vrij van %s"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr "Het apparaat kan niet worden aangekoppeld: %s"
+
+msgid "Hide Hidden Entries"
+msgstr "Verborgen items verbergen"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Alle items in de prullenbak worden definitief verwijderd."
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr "Het apparaat kan niet veilig worden verwijderd: %s"
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr "Het apparaat kan niet worden afgekoppeld: %s"
+
+#, c-format
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Het _systeemlettertype gebruiken"
+
+msgid "View font:"
+msgstr "Lettertype van de weergave:"
+
+msgid "Context Menu Action"
+msgstr "Contextmenu-actie"
+
+msgid "Types:"
+msgstr "Typen:"
+
+#, c-format
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f eerste bestand, %F alle bestanden, %u / %U als URI's, %n / %N namen, %d huidige map."
+
+msgid "Show for _files"
+msgstr "Tonen voor _bestanden"
+
+msgid "Show for f_olders"
+msgstr "Tonen voor _mappen"
+
+msgid "Show when _several items are selected"
+msgstr "Tonen als er _meerdere items zijn geselecteerd"
+
+msgid "Run in a _terminal"
+msgstr "In een _terminal uitvoeren"
+
+msgid "Custom Actions"
+msgstr "Eigen acties"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Uw eigen items in het contextmenu van bestanden en mappen."
+
+msgid "_Add…"
+msgstr "_Toevoegen…"
+
+msgid "_Edit…"
+msgstr "_Bewerken…"
+
+msgid "_Remove"
+msgstr "_Verwijderen"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Sneltoetsen schrijft u als <Control>c of <Shift>Delete. Scheid er meerdere met komma's. Laat een veld leeg voor de standaard."
+
+msgid "_Home folder:"
+msgstr "_Persoonlijke map:"
+
+msgid "_Remember open folders and tabs"
+msgstr "Geopende mappen en tabbladen _onthouden"
+
+msgid "Begin in _split view mode"
+msgstr "Beginnen in _gesplitste weergave"
+
+msgid "Show _filter bar"
+msgstr "_Filterbalk tonen"
+
+msgid "Make location bar _editable"
+msgstr "Locatiebalk _bewerkbaar maken"
+
+msgid "Show full path inside _location bar"
+msgstr "Volledig pad in de _locatiebalk tonen"
+
+msgid "Show full path in _title bar"
+msgstr "Volledig pad in de _titelbalk tonen"
+
+msgid "Mouse"
+msgstr "Muis"
+
+msgid "These used to be KDE system settings."
+msgstr "Dit waren vroeger KDE-systeeminstellingen."
+
+msgid "Clicking files or folders:"
+msgstr "Klikken op bestanden of mappen:"
+
+msgid "Selects them (double-click opens)"
+msgstr "Selecteert ze (dubbelklikken opent)"
+
+msgid "Opens them"
+msgstr "Opent ze"
+
+msgid "Double-clicking empty space:"
+msgstr "Dubbelklikken op lege ruimte:"
+
+msgid "Does nothing"
+msgstr "Doet niets"
+
+msgid "Selects all items"
+msgstr "Selecteert alle items"
+
+msgid "Goes up"
+msgstr "Gaat omhoog"
+
+msgid "Opens a new tab"
+msgstr "Opent een nieuw tabblad"
+
+msgid "Toggles hidden files"
+msgstr "Schakelt verborgen bestanden om"
+
+msgid "Tabs and Split View"
+msgstr "Tabbladen en gesplitste weergave"
+
+msgid "Open new tabs after the _last tab"
+msgstr "Nieuwe tabbladen na het _laatste openen"
+
+msgid "_Always show the tab bar"
+msgstr "Tabbladbalk _altijd tonen"
+
+msgid "Show _close buttons on tabs"
+msgstr "_Sluitknoppen op tabbladen tonen"
+
+msgid "Open folders from other applications in a new _tab"
+msgstr "Mappen uit andere toepassingen in een nieuw _tabblad openen"
+
+msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
+msgstr "_Archieven als mappen openen (zip, tar, 7z, rar, ISO)"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Een _index van de persoonlijke map bijhouden voor direct zoeken"
+
+msgid "Closing split view closes:"
+msgstr "Sluiten van de gesplitste weergave sluit:"
+
+msgid "The active view"
+msgstr "De actieve weergave"
+
+msgid "The inactive view"
+msgstr "De inactieve weergave"
+
+msgid "The right view"
+msgstr "De rechterweergave"
+
+msgid "Rename single items _inline"
+msgstr "Losse items _ter plaatse hernoemen"
+
+msgid "Show selection _marker"
+msgstr "Selectie_markering tonen"
+
+msgid "Show item information on _hover"
+msgstr "Iteminformatie tonen bij _aanwijzen"
+
+msgid "Open folders while _dragging items over them"
+msgstr "Mappen openen bij het _slepen van items erover"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Gebruikt door F4 en Terminal hier openen. %d in de opdracht wordt vervangen door de map; anders start de terminal erin. Dit was vroeger een KDE-systeeminstelling."
+
+msgid "Terminal _command:"
+msgstr "Terminal_opdracht:"
+
+msgid "No terminal found"
+msgstr "Geen terminal gevonden"
+
+#, c-format
+msgid "Detected: %s"
+msgstr "Gevonden: %s"
+
+msgid "Use the same display style for _all folders"
+msgstr "Dezelfde weergavestijl voor _alle mappen gebruiken"
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
+msgstr "Als dit uit staat, onthoudt elke map zijn eigen stijl. Hoe dan ook geeft Beeld › Weergave voor deze map onthouden één map een eigen stijl."
+
+msgid "Number of items"
+msgstr "Aantal items"
+
+msgid "Size of contents"
+msgstr "Grootte van de inhoud"
+
+msgid "Folder size depth limit:"
+msgstr "Dieptelimiet voor mapgroottes:"
+
+msgid "Dates:"
+msgstr "Datums:"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relatief (Vandaag, Gisteren…)"
+
+msgid "Short"
+msgstr "Kort"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolisch (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numeriek (0755)"
+
+msgid "Combined"
+msgstr "Gecombineerd"
+
+msgid "Shorten long names:"
+msgstr "Lange namen inkorten:"
+
+msgid "At the end"
+msgstr "Aan het einde"
+
+msgid "In the middle"
+msgstr "In het midden"
+
+msgid "Hide _backup files (ending in ~)"
+msgstr "_Reservekopieën verbergen (eindigend op ~)"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr "Maximaal aantal labelregels (0: geen limiet):"
+
+msgid "Co_mpact spacing"
+msgstr "_Compacte tussenruimte"
+
+msgid "Maximum label width:"
+msgstr "Maximale labelbreedte:"
+
+msgid "E_xpandable folders"
+msgstr "_Uitklapbare mappen"
+
+msgid "Highlight the entire _row"
+msgstr "De hele _rij markeren"
+
+msgid "Show a Disk _Usage column"
+msgstr "Een kolom _Schijfgebruik tonen"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "De ruimte die elk bestand en elke hele map op de schijf inneemt, met een balk voor het aandeel in de map, zoals Hulpmiddelen › Schijfgebruik. Mappen worden op de achtergrond volledig gelezen; sorteer op de kolom om de grootste eerst te zien. ‘Op deze schijf blijven’ uit het venster Schijfgebruik geldt hier ook."
+
+msgid "Show _previews in new folders"
+msgstr "_Voorbeelden in nieuwe mappen tonen"
+
+msgid "Audio (cover art)"
+msgstr "Audio (hoes)"
+
+msgid "PDF documents"
+msgstr "PDF-documenten"
+
+msgid "Text files"
+msgstr "Tekstbestanden"
+
+msgid "Fonts"
+msgstr "Lettertypen"
+
+msgid "Office documents"
+msgstr "Kantoordocumenten"
+
+msgid "Limits"
+msgstr "Limieten"
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr "Lokale bestanden groter dan overslaan (MiB, 0: geen limiet):"
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr "Externe bestanden tot (MiB, 0: nooit):"
+
+msgid "Ask for confirmation when"
+msgstr "Om bevestiging vragen bij"
+
+msgid "Moving files or folders to the _trash"
+msgstr "Bestanden of mappen naar de _prullenbak verplaatsen"
+
+msgid "_Deleting files or folders"
+msgstr "Bestanden of mappen _verwijderen"
+
+msgid "_Emptying the trash"
+msgstr "De prullenbak _legen"
+
+msgid "Closing windows with _multiple tabs"
+msgstr "Vensters met _meerdere tabbladen sluiten"
+
+msgid "Opening many _folders at once"
+msgstr "Veel _mappen tegelijk openen"
+
+msgid "Opening many t_erminals at once"
+msgstr "Veel t_erminals tegelijk openen"
+
+msgid "Renaming changes a file's _type"
+msgstr "Hernoemen dat het _type van een bestand wijzigt"
+
+msgid "Acting as _administrator"
+msgstr "Optreden als _beheerder"
+
+msgid "Open in an application"
+msgstr "Openen in een toepassing"
+
+msgid "Run it"
+msgstr "Uitvoeren"
+
+msgid "Bars and Panels"
+msgstr "Balken en panelen"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr "Klein (alleen zichtbaar bij aanwijzen of selecteren)"
+
+msgid "Show _zoom slider"
+msgstr "_Zoomschuifregelaar tonen"
+
+msgid "Show free _space"
+msgstr "Vrije _ruimte tonen"
+
+msgid "Show _hidden folders"
+msgstr "_Verborgen mappen tonen"
+
+msgid "Limit to the home folder when inside it"
+msgstr "Beperken tot de persoonlijke map als u daarin bent"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Automatisch naar de huidige map schuiven"
+
+msgid "Play media files _automatically"
+msgstr "Mediabestanden _automatisch afspelen"
+
+msgid "Show the _hovered item"
+msgstr "Het _aangewezen item tonen"
+
+msgid "Use _long date format"
+msgstr "_Lange datumnotatie gebruiken"
+
+msgid "Show in the context menu"
+msgstr "In het contextmenu tonen"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "‘Kopiëren naar’ en ‘Verplaatsen naar’"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Verwijderen (naast Naar prullenbak verplaatsen)"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Dit waren vroeger KDE-systeeminstellingen. Limieten worden toegepast bij het starten van Beluga en na het verplaatsen van items naar de prullenbak."
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr "Items _verwijderen die langer in de prullenbak staan dan:"
+
+msgid "Days:"
+msgstr "Dagen:"
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr "De prullenbak tot een deel van de schijf _beperken:"
+
+msgid "Percent of the disk:"
+msgstr "Percentage van de schijf:"
+
+msgid "When the limit is reached:"
+msgstr "Als de limiet is bereikt:"
+
+msgid "Show a warning"
+msgstr "Een waarschuwing tonen"
+
+msgid "Delete the oldest items"
+msgstr "De oudste items verwijderen"
+
+msgid "Delete the largest items"
+msgstr "De grootste items verwijderen"
+
+msgid "Calculating trash size…"
+msgstr "Grootte van de prullenbak berekenen…"
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr "De prullenbak gebruikt momenteel %s."
+
+msgid "_Empty Trash Now"
+msgstr "Prullenbak nu _legen"
+
+msgid "Keyboard Shortcuts"
+msgstr "Sneltoetsen"
+
+#, c-format
+msgid "%zu items"
+msgstr "%zu items"
+
+msgid "No default application"
+msgstr "Geen standaardtoepassing"
+
+msgid "C_hange…"
+msgstr "_Wijzigen…"
+
+msgid "Opens with:"
+msgstr "Opent met:"
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr "%s vrij van %s (%d%% gebruikt)"
+
+msgid "Can View"
+msgstr "Kan bekijken"
+
+msgid "Can View Content"
+msgstr "Kan inhoud bekijken"
+
+msgid "Is _executable"
+msgstr "Is _uitvoerbaar"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Wijzigingen toepassen op alle _submappen en hun inhoud"
+
+msgid "Could not read the file."
+msgstr "Het bestand kan niet worden gelezen."
+
+msgid "Paste a checksum to compare"
+msgstr "Plak een controlesom om te vergelijken"
+
+msgid "Verify:"
+msgstr "Controleren:"
+
+msgid "The checksums match."
+msgstr "De controlesommen komen overeen."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Geen berekende controlesom komt overeen. Bereken eerst het bijbehorende type."
+
+msgid "Could not change the permissions."
+msgstr "De rechten kunnen niet worden gewijzigd."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filteren op naam (jokertekens zoals *.txt werken)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Het filter behouden bij het wisselen van map"
+
+msgid "In This Folder"
+msgstr "In deze map"
+
+msgid "In Your Files"
+msgstr "In uw bestanden"
+
+msgid "Any Time"
+msgstr "Altijd"
+
+msgid "Last 7 Days"
+msgstr "Afgelopen 7 dagen"
+
+msgid "Last 30 Days"
+msgstr "Afgelopen 30 dagen"
+
+msgid "Last Year"
+msgstr "Afgelopen jaar"
+
+msgid "Hidden files"
+msgstr "Verborgen bestanden"
+
+msgid "Duplicate Tab"
+msgstr "Tabblad dupliceren"
+
+msgid "Show Columns"
+msgstr "Kolommen tonen"
+
+#, c-format
+msgid "Modified: %s"
+msgstr "Gewijzigd: %s"
+
+#, c-format
+msgid "Original location: %s"
+msgstr "Oorspronkelijke locatie: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Minder dan 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB tot 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB tot 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB of meer"
+
+msgid "Not counted yet"
+msgstr "Nog niet geteld"
+
+msgid "No items found"
+msgstr "Geen items gevonden"
+
+msgid "A file name cannot contain “/”."
+msgstr "Een bestandsnaam mag geen ‘/’ bevatten."
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Het hernoemen van ‘%s’ naar ‘%s’ wijzigt de extensie. Het bestand opent dan mogelijk met een andere toepassing of helemaal niet."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Selectiemodus: klik op bestanden of mappen om ze te selecteren of te deselecteren."
+
+msgid "_Exit Selection Mode"
+msgstr "Selectiemodus _verlaten"
+
+msgid "_Duplicate"
+msgstr "_Dupliceren"
+
+msgid "De_lete"
+msgstr "_Verwijderen"
+
+msgid "Pr_operties"
+msgstr "_Eigenschappen"
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr "De map ‘%s’ bestaat niet meer."
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr "‘%s’ geselecteerd (%s%s)"
+
+#, c-format
+msgid "%s selected"
+msgstr "%s geselecteerd"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d geselecteerd"
+msgstr[1] "%d geselecteerd"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Een Beluga-venster met beheerdersrechten kan elk bestand op deze computer wijzigen en verwijderen, ook de bestanden die het systeem nodig heeft om op te starten. Een fout daar kan het systeem onbruikbaar maken. Gebruik het alleen voor bestanden die u niet anders kunt wijzigen, en sluit het als u klaar bent.\n\nBeluga vraagt hierna om het beheerderswachtwoord."
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr "Nieuwe map aanmaken in:\n%s"
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr "Nieuw bestand aanmaken in:\n%s"
+
+msgid "Format:"
+msgstr "Formaat:"
+
+#, c-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d item"
+msgstr[1] "%d items"

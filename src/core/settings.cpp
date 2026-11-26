@@ -108,6 +108,7 @@ void transfer(IO &io, ST &st)
     io.b(G, "ShowMenuBar", st.showMenuBar);
     io.b(G, "ShowToolBar", st.showToolBar);
     io.e(G, "ShowStatusBar", st.statusBar);
+    io.e(G, "ShownStatusBar", st.statusBarShown);
     io.b(G, "ShowZoomSlider", st.showZoomSlider);
     io.b(G, "ShowSpaceInfo", st.showSpaceInfo);
     io.b(G, "EnlargeSmallPreviews", st.enlargeSmallPreviews);
@@ -123,6 +124,7 @@ void transfer(IO &io, ST &st)
     io.b(C, "OpenManyFolders", st.confirmOpenManyFolders);
     io.b(C, "OpenManyTerminals", st.confirmOpenManyTerminals);
     io.b(C, "RenameFileType", st.confirmRenameFileType);
+    io.b(C, "ActAsAdmin", st.confirmActAsAdmin);
     io.e(C, "ExecutableAction", st.executableAction);
 
     const char *M = "ContextMenu";
@@ -189,6 +191,7 @@ void transfer(IO &io, ST &st)
     io.b(PN, "InfoLongDates", st.infoLongDates);
     io.i(PN, "LeftWidth", st.leftPanelWidth);
     io.i(PN, "InfoWidth", st.infoPanelWidth);
+    io.i(PN, "DiskUsageWidth", st.duPaneWidth);
     io.i(PN, "FoldersHeight", st.foldersPanelHeight);
 
     const char *S = "Search";

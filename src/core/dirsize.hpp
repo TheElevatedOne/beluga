@@ -19,7 +19,9 @@ void request(const std::string &uri, bool includeHidden, bool wantSize, int dept
 
 // The space a whole folder takes up on disk (every level, hard links once, the folder itself
 // included), for the Disk Usage column. Folders are read one after another, each on all CPU cores.
-// Callback on the main thread with -1 when it can't be read or isn't local.
+// Callback on the main thread with -1 when it can't be read or isn't local, and kOtherDrive for a folder that is
+// another drive mounted there while oneFileSystem is set.
+constexpr gint64 kOtherDrive = -3;
 void request_usage(const std::string &uri, bool oneFileSystem, std::weak_ptr<void> owner,
                    std::function<void(gint64 bytes)> cb);
 

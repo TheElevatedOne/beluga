@@ -12,6 +12,7 @@
 #include "diskusagewindow.hpp"
 #include "fileops.hpp"
 #include "mainwindow.hpp"
+#include "mediainfo.hpp"
 #include "places.hpp"
 #include "placespanel.hpp"
 #include "preferences.hpp"
@@ -119,6 +120,27 @@ void wait_ms(int ms)
 
 void core_tests()
 {
+    // Audio details with FFmpeg (when built with it): one second of silence as a WAV file.
+    if (mediainfo::available()) {
+        std::string wav(44, '\0');
+        auto put32 = [&](size_t at, guint32 v) { for (int i = 0; i < 4; ++i) wav[at + i] = char((v >> (8 * i)) & 0xff); };
+        auto put16 = [&](size_t at, guint16 v) { wav[at] = char(v & 0xff); wav[at + 1] = char(v >> 8); };
+        memcpy(&wav[0], "RIFF", 4); put32(4, 36 + 16000); memcpy(&wav[8], "WAVEfmt ", 8); put32(16, 16); put16(20, 1);
+        put16(22, 1); put32(24, 8000); put32(28, 16000); put16(32, 2); put16(34, 16); memcpy(&wav[36], "data", 4); put32(40, 16000);
+        wav.append(16000, '\0');
+        std::string path = g_root + "/tone.wav";
+        g_file_set_contents(path.c_str(), wav.data(), (gssize)wav.size(), nullptr);
+        auto rows = mediainfo::probe(path);
+        std::string audio, duration;
+        for (auto &r : rows) {
+            if (r.first == _("Audio:")) audio = r.second;
+            if (r.first == _("Duration:")) duration = r.second;
+        }
+        check(duration == format_duration(1.0) && audio.find("8000 Hz") != std::string::npos && audio.find("16 bit") != std::string::npos,
+              "audio details with FFmpeg (" + duration + "; " + audio + ")");
+        g_unlink(path.c_str());
+    }
+
     write("a.txt", "alpha");
     write("b.txt", "beta needle");
     write("file10.txt", "x");
@@ -279,8 +301,8 @@ void core_tests()
 
     // The name index: answers searches, picks up new files, never shows deleted ones.
     {
-        auto search = [](const std::string &text) {
-            SearchQuery sq;
+        SearchQuery sq;
+        auto search = [&sq](const std::string &text) {
             sq.rootUri = file_uri(F("").get());
             sq.text = text;
             int n = 0;
@@ -292,9 +314,14 @@ void core_tests()
         fileindex::start(g_root + "/files");
         gint64 until = g_get_monotonic_time() + 10 * G_USEC_PER_SEC;
         while (!fileindex::ready() && g_get_monotonic_time() < until) g_usleep(10000);
-        write("Folder 1/.secret/x.txt", "x");
-        check(fileindex::ready() && fileindex::covers(g_root + "/files") && !fileindex::covers(g_root + "/files/Folder 1/.secret"),
-              "the name index covers the folder, not hidden ones");
+        write("Folder 1/.secret/x-hidden-entry.txt", "x");
+        int hiddenOff = search("x-hidden-entry");
+        sq.includeHidden = true;
+        int hiddenOn = search("x-hidden-entry");
+        sq.includeHidden = false;
+        check(fileindex::ready() && fileindex::covers(g_root + "/files") && fileindex::covers(g_root + "/files/Folder 1/.secret")
+                  && hiddenOff == 0 && hiddenOn == 1,
+              printf_str("the name index covers hidden folders, and shows them only when asked (%d, %d)", hiddenOff, hiddenOn));
         write("Folder 2/indexed-new-file.txt", "new");
         int found = search("indexed-new");
         g_unlink((g_root + "/files/Folder 2/indexed-new-file.txt").c_str());
@@ -595,6 +622,43 @@ void gui_tests(GtkApplication *app)
         check(!disk_usage_busy(duw) && disk_usage_rows(duw) >= 4, printf_str("disk usage window (%u rows)", disk_usage_rows(duw)));
         shoot(duw, "10-disk-usage");
         gtk_window_destroy(GTK_WINDOW(duw));
+
+        // The toolbar's Disk Usage opens it as a pane on the right, which follows the folder shown.
+        g_action_group_activate_action(G_ACTION_GROUP(w->window()), "show-disk-usage", nullptr);
+        GtkWidget *pane = w->diskUsagePane();
+        until = g_get_monotonic_time() + 10 * G_USEC_PER_SEC;
+        do wait_ms(100); while ((disk_usage_busy(pane) || disk_usage_rows(pane) == 0) && g_get_monotonic_time() < until);
+        bool paneShown = w->diskUsagePaneOpen() && gtk_widget_get_mapped(pane) && disk_usage_rows(pane) >= 2;
+        shoot(w->widget(), "12-disk-usage-pane");
+        g_action_group_activate_action(G_ACTION_GROUP(w->window()), "show-disk-usage", nullptr);
+        wait_ms(100);
+        check(paneShown && !w->diskUsagePaneOpen() && !gtk_widget_get_mapped(pane),
+              printf_str("disk usage pane opens and closes (%u rows)", disk_usage_rows(pane)));
+
+        // View › Show Statusbar hides the status bar and brings back the mode it had.
+        StatusBarMode before = settings().statusBar;
+        g_action_group_activate_action(G_ACTION_GROUP(w->window()), "show-statusbar", nullptr);
+        StatusBarMode hidden = settings().statusBar;
+        g_action_group_activate_action(G_ACTION_GROUP(w->window()), "show-statusbar", nullptr);
+        check(hidden == StatusBarMode::Hidden && settings().statusBar == before && before != StatusBarMode::Hidden,
+              "Show Statusbar toggles the status bar");
+
+        // Act as Administrator warns first; cancelling starts nothing.
+        GList *beforeTops = gtk_window_list_toplevels();
+        guint nBefore = g_list_length(beforeTops);
+        g_list_free(beforeTops);
+        g_action_group_activate_action(G_ACTION_GROUP(w->window()), "act-as-admin", nullptr);
+        wait_ms(200);
+        GList *tops = gtk_window_list_toplevels();
+        GtkWindow *warning = nullptr;
+        for (GList *l = tops; l; l = l->next)
+            if (gtk_window_get_transient_for(GTK_WINDOW(l->data)) == GTK_WINDOW(w->window()) && gtk_widget_get_visible(GTK_WIDGET(l->data)))
+                warning = GTK_WINDOW(l->data);
+        guint nAfter = g_list_length(tops);
+        g_list_free(tops);
+        if (warning) gtk_window_destroy(warning);
+        wait_ms(100);
+        check(warning && nAfter == nBefore + 1, "Act as Administrator asks before it starts");
     }
 
     // Archives open like folders, and Up leads back out.
@@ -604,8 +668,12 @@ void gui_tests(GtkApplication *app)
         ViewContainer *c = w->activeContainer();
         c->navigate(archDir);
         wait_ms(600);
-        BelugaItem *zi = w->activeView()->findItem(file_uri(Ref<GFile>(g_file_new_for_path(zip.c_str())).get()));
-        if (zi) w->openItems(c, {zi}, GdkModifierType(0));
+        // Archives open in their program by default; Open in Beluga (the context menu) browses them.
+        std::string zipUri = file_uri(Ref<GFile>(g_file_new_for_path(zip.c_str())).get());
+        if (w->activeView()->findItem(zipUri)) {
+            w->activeView()->selectUris({zipUri});
+            g_action_group_activate_action(G_ACTION_GROUP(w->window()), "browse-archive", nullptr);
+        }
         wait_ms(900);
         View *av = w->activeView();
         check(av->location() == archive::make_uri(zip, "") && av->findItem(archive::make_uri(zip, "docs"))

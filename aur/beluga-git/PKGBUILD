@@ -8,12 +8,13 @@ pkgdesc='File manager written with plain GTK 4, a rewrite of KDE Dolphin without
 arch=('x86_64' 'aarch64')
 url='https://github.com/TheElevatedOne/beluga'
 license=('GPL-2.0-or-later')
-depends=('gcc-libs' 'glibc' 'glib2' 'gtk4' 'gdk-pixbuf2' 'pango' 'cairo' 'libarchive')
+depends=('gcc-libs' 'glibc' 'glib2' 'gtk4' 'gdk-pixbuf2' 'pango' 'cairo' 'libarchive' 'ffmpeg')
 makedepends=('git' 'cmake' 'pkgconf' 'gettext')
 optdepends=('udisks2: drives and partitions in the Places panel'
             'tumbler: previews of videos and documents'
             'gvfs: network locations such as sftp:// and smb://'
-            'xdg-desktop-portal: Beluga as the file chooser of other programs')
+            'xdg-desktop-portal: Beluga as the file chooser of other programs'
+            'polkit: View › Act as Administrator (with a polkit agent)')
 provides=('beluga')
 conflicts=('beluga')
 source=("$_pkgname::git+$url.git")
@@ -28,6 +29,7 @@ build() {
   cmake -B build -S "$_pkgname" \
     -DCMAKE_BUILD_TYPE=None \
     -DCMAKE_INSTALL_PREFIX=/usr \
+    -DBELUGA_FFMPEG=ON \
     -Wno-dev
   cmake --build build
 }

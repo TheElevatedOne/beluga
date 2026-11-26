@@ -5,6 +5,7 @@
 #include "util.hpp"
 
 #include <dirent.h>
+#include <malloc.h>
 #include <fcntl.h>
 #include <glib/gstdio.h>
 #include <sys/stat.h>
@@ -15,6 +16,7 @@
 #include <cstring>
 #include <map>
 #include <mutex>
+#include <set>
 #include <shared_mutex>
 #include <thread>
 
@@ -23,29 +25,32 @@ namespace beluga::fileindex {
 namespace {
 
 struct Item {
-    guint32 nameOff;
-    guint32 foldOff;
-    guint8 dir;
+    guint32 off;       // the name's offset in names; the top bit marks a folder
+    guint32 foldOff;   // the folded name's offset in folded (when a folder has one)
+    guint32 nameOff() const { return off & 0x7fffffffu; }
+    bool dir() const { return (off >> 31) != 0; }
 };
 
 // One folder: its time when it was read, and the names in it (NUL-terminated, back to back).
 struct Dir {
     gint64 sec = 0, nsec = 0;
     guint64 ino = 0;
-    std::string names, folded;
+    std::string names, folded;   // folded is empty when every name folds to itself (lower case ASCII)
     std::vector<Item> items;
 };
 
 std::shared_mutex g_lock;
-std::map<std::string, Dir> g_dirs;   // full path → folder; hidden folders are left out
+std::map<std::string, Dir> g_dirs;   // full path → folder
 std::string g_root;                   // the indexed folder (home)
+std::string g_cacheDir;               // ~/.cache: regenerable data, not indexed
+std::set<std::string> g_skipped;      // folders inside the root that aren't indexed: other drives and the cache
 std::atomic<bool> g_ready{false};     // loaded from disk, or read in full once
 std::atomic<bool> g_dirty{false};
 std::mutex g_saveMutex;
 
-const char kMagic[] = "BELUGA-INDEX-1\n";
+const char kMagic[] = "BELUGA-INDEX-2\n";   // 2: hidden entries, packed items
 
-std::string cache_file() { return std::string(g_get_user_cache_dir()) + "/beluga/index-v1"; }
+std::string cache_file() { return std::string(g_get_user_cache_dir()) + "/beluga/index-v2"; }
 
 // The same folding as filter_match() (casefold), with a fast path for ASCII names.
 std::string fold(const char *s)
@@ -73,6 +78,7 @@ void erase_subtree_locked(const std::string &p)
     g_dirs.erase(p);
     std::string prefix = p + "/";
     for (auto it = g_dirs.lower_bound(prefix); it != g_dirs.end() && starts_with(it->first, prefix);) it = g_dirs.erase(it);
+    for (auto it = g_skipped.lower_bound(prefix); it != g_skipped.end() && starts_with(*it, prefix);) it = g_skipped.erase(it);
 }
 
 bool read_dir(const std::string &path, Dir &d, std::vector<std::string> &subdirs)
@@ -83,28 +89,38 @@ bool read_dir(const std::string &path, Dir &d, std::vector<std::string> &subdirs
         if (fd >= 0) close(fd);
         return false;
     }
+    bool sameFold = true;
     while (struct dirent *de = readdir(dp)) {
         const char *n = de->d_name;
-        if (n[0] == '.') continue;   // ".", ".." and hidden entries
+        if (n[0] == '.' && (!n[1] || (n[1] == '.' && !n[2]))) continue;   // "." and ".."
         bool isDir = de->d_type == DT_DIR;
         if (de->d_type == DT_UNKNOWN) {
             struct stat st;
             isDir = fstatat(dirfd(dp), n, &st, AT_SYMLINK_NOFOLLOW) == 0 && S_ISDIR(st.st_mode);
         }
-        d.items.push_back({(guint32)d.names.size(), (guint32)d.folded.size(), (guint8)isDir});
+        d.items.push_back({(guint32)d.names.size() | (isDir ? 0x80000000u : 0u), (guint32)d.folded.size()});
+        std::string f = fold(n);
+        if (f != n) sameFold = false;
         d.names.append(n).push_back('\0');
-        d.folded.append(fold(n)).push_back('\0');
+        d.folded.append(f).push_back('\0');
         if (isDir) subdirs.push_back(n);
     }
     closedir(dp);
+    // Keep only what is needed: most folders (caches, sources) have lower case names only.
+    if (sameFold) std::string().swap(d.folded);
+    else d.folded.shrink_to_fit();
+    d.names.shrink_to_fit();
+    d.items.shrink_to_fit();
     return true;
 }
 
-void collect(const std::string &key, const Dir &d, const Matcher &match, std::vector<Hit> &out)
+void collect(const std::string &key, const Dir &d, const Matcher &match, bool hidden, std::vector<Hit> &out)
 {
     for (const Item &it : d.items) {
-        const char *name = d.names.data() + it.nameOff;
-        if (match(name, d.folded.data() + it.foldOff, it.dir)) out.push_back({key + "/" + name, it.dir != 0});
+        const char *name = d.names.data() + it.nameOff();
+        if (!hidden && name[0] == '.') continue;
+        const char *folded = d.folded.empty() ? name : d.folded.data() + it.foldOff;
+        if (match(name, folded, it.dir())) out.push_back({key + "/" + name, it.dir()});
     }
 }
 
@@ -156,7 +172,7 @@ bool load()
             return false;
         d.items.resize(n);
         for (auto &it : d.items)
-            if (!r.get(it.nameOff) || !r.get(it.foldOff) || !r.get(it.dir) || it.nameOff >= d.names.size() || it.foldOff >= d.folded.size())
+            if (!r.get(it.off) || !r.get(it.foldOff) || it.nameOff() >= d.names.size() || (!d.folded.empty() && it.foldOff >= d.folded.size()))
                 return false;
         dirs.emplace(std::move(path), std::move(d));
     }
@@ -185,9 +201,8 @@ void save()
             put_str(b, d.folded);
             put<guint32>(b, (guint32)d.items.size());
             for (auto &it : d.items) {
-                put(b, it.nameOff);
+                put(b, it.off);
                 put(b, it.foldOff);
-                put(b, it.dir);
             }
         }
     }
@@ -203,43 +218,79 @@ void start(const std::string &root)
     if (started || !settings().searchIndex) return;
     started = true;
     g_root = root.empty() ? home_dir() : root;
+    g_cacheDir = g_get_user_cache_dir();
+    g_unlink((std::string(g_get_user_cache_dir()) + "/beluga/index-v1").c_str());   // without hidden entries
     std::thread([] {
         if (load()) g_ready = true;
         refresh(g_root);
         g_ready = true;   // now complete, also when there was nothing saved
         save();
+#ifdef __GLIBC__
+        malloc_trim(0);   // the file's buffer and the reading threads' memory go back to the system
+#endif
     }).detach();
 }
 
 bool covers(const std::string &folder)
 {
     if (!g_ready || g_root.empty() || !settings().searchIndex || !inside(folder, g_root)) return false;
-    // Hidden folders aren't indexed.
-    for (auto &part : split(folder.substr(g_root.size()), '/'))
-        if (part[0] == '.') return false;
     std::shared_lock<std::shared_mutex> l(g_lock);
     return g_dirs.count(folder) > 0;
 }
 
-std::vector<Hit> query(const std::string &folder, const Matcher &match)
+std::vector<std::string> skipped(const std::string &folder)
+{
+    std::vector<std::string> out;
+    std::shared_lock<std::shared_mutex> l(g_lock);
+    std::string prefix = folder == "/" ? folder : folder + "/";
+    for (auto it = g_skipped.lower_bound(prefix); it != g_skipped.end() && starts_with(*it, prefix); ++it) {
+        // Only the outermost ones (a drive inside the cache is walked with it).
+        bool nested = false;
+        for (auto &o : out)
+            if (starts_with(*it, o + "/")) nested = true;
+        if (!nested) out.push_back(*it);
+    }
+    return out;
+}
+
+// Whether a folder below `folder` lies inside a hidden folder (counting from `folder` on).
+bool hidden_below(const std::string &key, const std::string &folder)
+{
+    size_t from = folder == "/" ? 0 : folder.size();
+    return key.size() > from && key.find("/.", from) != std::string::npos;
+}
+
+std::vector<Hit> query(const std::string &folder, const Matcher &match, bool hidden)
 {
     std::vector<Hit> out;
     std::shared_lock<std::shared_mutex> l(g_lock);
     auto top = g_dirs.find(folder);
-    if (top != g_dirs.end()) collect(top->first, top->second, match, out);
+    if (top != g_dirs.end()) collect(top->first, top->second, match, hidden, out);
     std::string prefix = folder == "/" ? folder : folder + "/";
-    for (auto it = g_dirs.lower_bound(prefix); it != g_dirs.end() && starts_with(it->first, prefix); ++it)
-        collect(it->first, it->second, match, out);
+    for (auto it = g_dirs.lower_bound(prefix); it != g_dirs.end() && starts_with(it->first, prefix);) {
+        if (!hidden && hidden_below(it->first, folder)) {
+            // Jump past the hidden folder H: keys from H up to H + "0" are H's subtree ('/' sorts before '0') and
+            // siblings like "H-x", whose names start with the same dot.
+            size_t from = folder == "/" ? 0 : folder.size();
+            size_t dot = it->first.find("/.", from);
+            size_t end = it->first.find('/', dot + 1);
+            it = g_dirs.lower_bound(it->first.substr(0, end) + "0");
+            continue;
+        }
+        collect(it->first, it->second, match, hidden, out);
+        ++it;
+    }
     return out;
 }
 
-std::vector<Hit> queryFolders(const std::vector<std::string> &folders, const Matcher &match)
+std::vector<Hit> queryFolders(const std::string &folder, const std::vector<std::string> &folders, const Matcher &match, bool hidden)
 {
     std::vector<Hit> out;
     std::shared_lock<std::shared_mutex> l(g_lock);
     for (auto &f : folders) {
+        if (!hidden && hidden_below(f, folder)) continue;
         auto it = g_dirs.find(f);
-        if (it != g_dirs.end()) collect(it->first, it->second, match, out);
+        if (it != g_dirs.end()) collect(it->first, it->second, match, hidden, out);
     }
     return out;
 }
@@ -260,10 +311,14 @@ std::vector<std::string> refresh(const std::string &folder, const std::atomic<bo
     // Checks one folder: unchanged ones only give their subfolders; changed ones are read again.
     auto process = [&](const std::string &p, std::vector<std::string> &next) {
         struct stat st;
-        if (lstat(p.c_str(), &st) != 0 || !S_ISDIR(st.st_mode) || st.st_dev != dev) {
+        bool isDir = lstat(p.c_str(), &st) == 0 && S_ISDIR(st.st_mode);
+        if (!isDir || st.st_dev != dev || p == g_cacheDir) {
+            // Gone, or another drive (searches read those from the disk), or the cache.
             std::unique_lock<std::shared_mutex> l(g_lock);
             if (g_dirs.count(p)) g_dirty = true;
             erase_subtree_locked(p);
+            if (isDir) g_skipped.insert(p);
+            else g_skipped.erase(p);
             return;
         }
         std::vector<std::string> subdirs;
@@ -275,7 +330,7 @@ std::vector<std::string> refresh(const std::string &folder, const std::atomic<bo
                 && it->second.ino == (guint64)st.st_ino) {
                 same = true;
                 for (auto &item : it->second.items)
-                    if (item.dir) subdirs.push_back(it->second.names.data() + item.nameOff);
+                    if (item.dir()) subdirs.push_back(it->second.names.data() + item.nameOff());
             }
         }
         if (!same) {
@@ -292,8 +347,8 @@ std::vector<std::string> refresh(const std::string &folder, const std::atomic<bo
             auto old = g_dirs.find(p);
             if (old != g_dirs.end())
                 for (auto &item : old->second.items)
-                    if (item.dir) {
-                        std::string name = old->second.names.data() + item.nameOff;
+                    if (item.dir()) {
+                        std::string name = old->second.names.data() + item.nameOff();
                         if (std::find(subdirs.begin(), subdirs.end(), name) == subdirs.end()) erase_subtree_locked(p + "/" + name);
                     }
             g_dirs[p] = std::move(d);

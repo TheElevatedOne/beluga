@@ -27,95 +27,207 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "アーカイブを開けません。"
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "アーカイブを読み込めません。"
 
 msgid "Cancelled."
-msgstr ""
+msgstr "キャンセルしました。"
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "このファイルはパスワードで暗号化されています。"
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "「%s」を読み込めません。"
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "これはアーカイブ内のファイルではありません。"
 
 msgid "Extract Here"
-msgstr ""
+msgstr "ここに展開"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr ".tar.gz に圧縮"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "端末エミュレーターが見つかりません。"
 
 msgid "Root"
-msgstr ""
+msgstr "ルート"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s ボリューム"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "このデバイスはマウントできません。"
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "このデバイスはアンマウントできません。"
 
 msgid "The device is gone."
-msgstr ""
+msgstr "デバイスが見つかりません。"
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s を「%s」にコピー中"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s を「%s」に移動中"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s のリンクを「%s」に作成中"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s をごみ箱に移動中"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s を削除中"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s を復元中"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "ごみ箱を空にしています"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "ファイルを数えています…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "「%s」: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "フォルダーをそれ自身の中に移動することはできません。"
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "フォルダーをそれ自身の中にコピーすることはできません。"
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "ファイルはローカルフォルダーにのみ展開できます。"
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "「%s」から展開中"
+
+msgid "Title:"
+msgstr "タイトル:"
+
+msgid "Artist:"
+msgstr "アーティスト:"
+
+msgid "Album artist:"
+msgstr "アルバムのアーティスト:"
+
+msgid "Album:"
+msgstr "アルバム:"
+
+msgid "Track:"
+msgstr "トラック:"
+
+msgid "Disc:"
+msgstr "ディスク:"
+
+msgid "Date:"
+msgstr "日付:"
+
+msgid "Genre:"
+msgstr "ジャンル:"
+
+msgid "Composer:"
+msgstr "作曲:"
+
+msgid "Performer:"
+msgstr "演奏者:"
+
+msgid "Publisher:"
+msgstr "出版者:"
+
+msgid "Copyright:"
+msgstr "著作権:"
+
+msgid "Comment:"
+msgstr "コメント(E):"
+
+msgid "Description:"
+msgstr "説明:"
+
+msgid "Language:"
+msgstr "言語:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Duration:"
+msgstr "長さ:"
+
+msgid "Format:"
+msgstr "フォーマット:"
+
+msgid "Bit rate:"
+msgstr "ビットレート:"
+
+msgid "Cover:"
+msgstr "カバー:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video:"
+msgstr "動画:"
+
+#, c-format
+msgid "Video %d:"
+msgstr "映像 %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "モノラル"
+
+msgid "stereo"
+msgstr "ステレオ"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d チャンネル"
+
+#, c-format
+msgid ", %d bit"
+msgstr ", %d ビット"
+
+msgid "Audio:"
+msgstr "音声:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "音声 %d:"
+
+msgid "Subtitles:"
+msgstr "字幕:"
+
+msgid "Chapters:"
+msgstr "チャプター:"
 
 msgid "Places"
 msgstr "場所|/|$[~setProps ~full '場所パネルを表示']"
@@ -163,7 +275,7 @@ msgid "Recent Files"
 msgstr "最近使用したファイル"
 
 msgid "Images"
-msgstr ""
+msgstr "画像"
 
 msgid "Audio"
 msgstr "音声"
@@ -172,37 +284,37 @@ msgid "Folders"
 msgstr "フォルダ|/|$[~setProps ~full 'フォルダパネルを表示']"
 
 msgid "Archives"
-msgstr ""
+msgstr "アーカイブ"
 
 msgid "All Files"
 msgstr "すべてのファイル"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "「%s」を検索"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "端末エミュレーターが見つかりません。Beluga の設定 › 全般 › 端末 で設定してください。"
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "このファイルシステムにはごみ箱がありません。"
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "ごみ箱の情報ファイルを作成できません。"
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "「%s」は既に存在します。"
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "ごみ箱が上限の %s を超えています。空にすることを検討してください。"
 
 msgid "Copy"
 msgstr "コピー(C)"
 
 msgid "Move"
-msgstr ""
+msgstr "移動"
 
 msgid "Link"
 msgstr "リンク"
@@ -217,21 +329,21 @@ msgid "Create Folder"
 msgstr "フォルダーを作成"
 
 msgid "Create File"
-msgstr ""
+msgstr "ファイルを作成"
 
 msgid "Undo"
 msgstr "元に戻す(O)"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "元に戻す: %s"
 
 msgid "Redo"
 msgstr "やり直す"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "やり直す: %s"
 
 #, c-format
 msgid "%d item"
@@ -241,12 +353,12 @@ msgstr[0] "%d アイテム"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
+msgstr[0] "%d 個のファイル"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
+msgstr[0] "%d 個のフォルダー"
 
 #, c-format
 msgid "%s, %s"
@@ -254,26 +366,26 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "今日 %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "昨日 %s"
 
 msgid "%A at %H:%M"
 msgstr ""
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld 秒"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld 分 %ld 秒"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld 時間 %ld 分"
 
 #, c-format
 msgid "%s copy"
@@ -281,7 +393,7 @@ msgstr "%s コピー"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s のコピー %d"
 
 msgid "Name"
 msgstr "名前"
@@ -290,7 +402,7 @@ msgid "Size"
 msgstr "サイズ"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "ディスク使用量"
 
 msgid "Modified"
 msgstr "更新日"
@@ -305,7 +417,7 @@ msgid "Type"
 msgstr "タイプ"
 
 msgid "Extension"
-msgstr ""
+msgstr "拡張子"
 
 msgid "Permissions"
 msgstr "パーミッション"
@@ -326,10 +438,28 @@ msgid "Deletion Time"
 msgstr "削除日時"
 
 msgid "Original Location"
-msgstr ""
+msgstr "元の場所"
 
 msgid "Dimensions"
 msgstr "面積"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga は管理者として動作できません。"
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "管理者パスワードを尋ねるには pkexec (polkit) が必要です。polkit とデスクトップ用の polkit エージェントをインストールしてください。"
+
+msgid "Risks of Acting as an Administrator"
+msgstr "管理者として行動するリスク"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "管理者権限を持つ Beluga のウィンドウは、システムの起動に必要なファイルを含め、このコンピューター上のどのファイルでも変更・削除できます。誤操作によりシステムが使用不能になることがあります。他の方法では変更できないファイルにのみ使い、作業が終わったら閉じてください。\n\nこの後、Beluga が管理者パスワードを尋ねます。"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "I Understand and Accept These Risks"
+msgstr "リスクを理解し、受け入れる"
 
 msgid "New Window"
 msgstr "新しいウィンドウ(W)"
@@ -395,7 +525,7 @@ msgid "Details View"
 msgstr "詳細表示"
 
 msgid "Columns View"
-msgstr ""
+msgstr "カラム表示"
 
 msgid "Zoom In"
 msgstr "拡大(I)"
@@ -404,22 +534,25 @@ msgid "Zoom Out"
 msgstr "縮小(O)"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "ズームをリセット"
 
 msgid "Show Hidden Files"
 msgstr "隠しファイルを表示(H)"
+
+msgid "Act as Administrator"
+msgstr "管理者として行動する"
 
 msgid "Split View"
 msgstr "ビューを分割"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "もう一方の表示にフォーカス"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "分割表示を切り離す"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "分割表示をタブに"
 
 msgid "Reload"
 msgstr "再読み込み"
@@ -431,19 +564,25 @@ msgid "Replace Location"
 msgstr "場所を置換"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "場所パネル"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "フォルダーパネル"
 
 msgid "Information Panel"
 msgstr "情報パネル"
+
+msgid "Disk Usage Panel"
+msgstr "ディスク使用量パネル"
 
 msgid "Focus Places Panel"
 msgstr "場所パネルをフォーカスする"
 
 msgid "Show Menubar"
 msgstr "メニューバーを表示(M)"
+
+msgid "Show Statusbar"
+msgstr "ステータスバーを表示(A)"
 
 msgid "Back"
 msgstr "戻る(B)"
@@ -455,31 +594,31 @@ msgid "Up"
 msgstr "上へ(U)"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "タブ 1 へ移動"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "タブ 2 へ移動"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "タブ 3 へ移動"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "タブ 4 へ移動"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "タブ 5 へ移動"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "タブ 6 へ移動"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "タブ 7 へ移動"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "タブ 8 へ移動"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "タブ 9 へ移動"
 
 msgid "Go to Last Tab"
 msgstr "最後のタブに行く"
@@ -497,29 +636,29 @@ msgid "Open Terminal Here"
 msgstr "ここでターミナルを開く"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga を設定"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "元に戻せませんでした。"
 
 msgid "Folder…"
-msgstr ""
+msgstr "フォルダー…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "テキストファイル…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "空のファイル…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "ファイルまたはフォルダーへのリンク…"
 
 msgid "Create New"
 msgstr "新規作成(C)"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "もう一方の表示 (%s)"
 
 msgid "Browse…"
 msgstr "ブラウズ(B)…"
@@ -559,7 +698,7 @@ msgid "View Mode"
 msgstr "表示モード"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "このフォルダーの表示を記憶"
 
 msgid "Restore"
 msgstr "元のサイズに戻す"
@@ -576,11 +715,14 @@ msgstr "新しいウィンドウで開く"
 msgid "Open in Split View"
 msgstr "分割ビューで開く"
 
+msgid "Open in Beluga"
+msgstr "Beluga で開く"
+
 msgid "Open Containing Folder"
 msgstr "保存フォルダを開く"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "フォルダーに貼り付け"
 
 msgid "Rename…"
 msgstr "名前を変更…"
@@ -592,68 +734,65 @@ msgid "Close"
 msgstr "閉じる(C)"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "キャンセル(_C)"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "名前に「/」は使えません。"
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "ドットで始まる名前は隠しファイルになります。"
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "名前を変更できなかった項目があります。"
 
 msgid "Rename Item"
 msgstr "アイテムの名前を変更"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "「%s」の新しい名前:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "名前を変更(_R)"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "「%s」の名前を変更できません。"
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "ファイルの種類を変更しますか?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
-
-msgid "Cancel"
-msgstr "キャンセル"
+msgstr "「%s」を「%s」に変更すると拡張子が変わります。"
 
 msgid "Rename Items"
 msgstr "複数のアイテムの名前を変更"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "選択した %zu 個の項目の新しい名前:"
 
 msgid "New name #"
 msgstr "新しい名前 #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# は昇順の番号に置き換えられます。先頭をゼロで埋めるには ## を使います。拡張子は保持されます。"
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "番号の開始値:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "ここに移動(_M)"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "ここにコピー(_C)"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "ここにリンク(_L)"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "キャンセル(_A)"
 
 msgid "Add Places Entry"
 msgstr "場所エントリを追加"
@@ -665,22 +804,22 @@ msgid "Label:"
 msgstr "ラベル(A):"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "フォルダーを選択"
 
 msgid "Location:"
 msgstr "場所(L):"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "アイコン名:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "フォルダーを選択"
 
 msgid "_Add"
-msgstr ""
+msgstr "追加(_A)"
 
 msgid "_Save"
-msgstr ""
+msgstr "保存(_S)"
 
 msgid "View Display Style"
 msgstr "表示スタイル"
@@ -695,7 +834,7 @@ msgid "Details"
 msgstr "詳細"
 
 msgid "Columns"
-msgstr ""
+msgstr "列"
 
 msgid "View mode:"
 msgstr "表示モード:"
@@ -710,19 +849,19 @@ msgid "Descending"
 msgstr "降順"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "フォルダーを先に表示(_F)"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "隠しファイルを最後に表示(_L)"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "プレビューを表示(_P)"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "グループで表示(_G)"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "隠しファイルを表示(_H)"
 
 msgid "Apply to"
 msgstr "適用する"
@@ -731,17 +870,17 @@ msgid "Current folder"
 msgstr "現在のフォルダ"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "すべてのサブフォルダーを含む現在のフォルダー"
 
 msgid "All folders"
 msgstr "すべてのフォルダ"
 
 msgid "_OK"
-msgstr ""
+msgstr "OK(_O)"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "%s に変更"
 
 msgid "Folder Already Exists"
 msgstr "フォルダは既に存在します"
@@ -751,35 +890,35 @@ msgstr "ファイルは既に存在します"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "「%s」という名前のフォルダーは「%s」に既に存在します。"
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "「%s」という名前のファイルは「%s」に既に存在します。"
 
 msgid "Existing item"
-msgstr ""
+msgstr "既存の項目"
 
 msgid "New item"
-msgstr ""
+msgstr "新しい項目"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "新しい名前を提案(_S)"
 
 msgid "New name:"
-msgstr ""
+msgstr "新しい名前:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "すべてに適用(_A)"
 
 msgid "S_kip"
-msgstr ""
+msgstr "スキップ(_K)"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "中に書き込む(_W)"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "上書き(_O)"
 
 msgid "Skip"
 msgstr "スキップ(S)"
@@ -791,167 +930,179 @@ msgid "Retry"
 msgstr "再試行"
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "この場所はフォルダーではありません。"
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "この場所は無効です。"
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "このフォルダーはアーカイブ内にありません。"
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
+msgstr[0] "%s 個の小さなファイル"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(別のドライブ、未集計)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "内容の一部を読み込めませんでした。"
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "ファイルで %s"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "ディスク上で %s"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s 個のファイルと %s 個のフォルダー"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "読み込み中… %s (ファイル %s 個、フォルダー %s 個)"
 
 msgid "Stopped."
-msgstr ""
+msgstr "停止しました。"
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "このフォルダーを読み込めません。"
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s、%.1f 秒で読み込み"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
+msgstr[0] "。%s 個のフォルダーを読み込めませんでした。"
+
+msgid "Only folders on this computer can be measured."
+msgstr "測定できるのはこのコンピューター上のフォルダーだけです。"
+
+msgid "read less than a minute ago"
+msgstr "1 分以内に読み込み"
 
 #, c-format
-msgid "Disk Usage – %s"
-msgstr ""
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d 分前に読み込み"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d 時間前に読み込み"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s、%s。再読み込みするには再スキャンしてください。"
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "見かけのサイズ(_A)"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "ファイルがディスク上で占める容量ではなく、ファイルサイズを合計します。"
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "このドライブ内にとどまる(_S)"
 
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "このフォルダー内にマウントされた他のドライブ (別のディスクにある音楽フォルダーなど) を数えません。リンクはたどりません。"
+
+msgid "Rescan"
+msgstr "再スキャン"
+
+msgid "Stop"
+msgstr "停止(T)"
+
+msgid "Close Disk Usage"
+msgstr "ディスク使用量を閉じる"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "再スキャン(_R)"
 
 msgid "S_top"
-msgstr ""
+msgstr "停止(_T)"
 
 msgid "Share"
 msgstr "共有"
 
 msgid "Files"
-msgstr ""
-
-msgid "read less than a minute ago"
-msgstr ""
+msgstr "ファイル"
 
 #, c-format
-msgid "read %d minute ago"
-msgid_plural "read %d minutes ago"
-msgstr[0] ""
-
-#, c-format
-msgid "read %d hour ago"
-msgid_plural "read %d hours ago"
-msgstr[0] ""
-
-#, c-format
-msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgid "Disk Usage – %s"
+msgstr "ディスク使用量 – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "「%s」は既に存在します。置き換えますか?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "これらのファイルのうち %zu 個は既に存在します。置き換えますか?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "保存元のプログラムが既存の内容を上書きします。"
 
 msgid "Replace"
 msgstr "置換"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "保存先のフォルダーを選択してください。"
 
 msgid "Select Folder"
-msgstr ""
+msgstr "フォルダーを選択"
 
 msgid "Open Files"
-msgstr ""
+msgstr "ファイルを開く"
 
 msgid "Open File"
-msgstr ""
+msgstr "ファイルを開く"
 
 msgid "Save File"
-msgstr ""
+msgstr "ファイルを保存"
 
 msgid "Save Files"
-msgstr ""
+msgstr "ファイルを保存"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "フォルダー(_F):"
 
 msgid "_Name:"
-msgstr ""
+msgstr "名前(_N):"
 
 msgid "_Type:"
-msgstr ""
+msgstr "種類(_T):"
 
 msgid "_Select"
-msgstr ""
+msgstr "選択(_S)"
 
 msgid "_Open"
-msgstr ""
+msgstr "開く(_O)"
 
 msgid "New Folder"
 msgstr "新しいフォルダ"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "新しいフォルダーの作成先:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "作成(_R)"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "フォルダーを作成できません。"
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu 個の項目を選択"
 
 msgid "Contents:"
-msgstr ""
+msgstr "内容:"
 
 msgid "Size:"
 msgstr "サイズ:"
@@ -963,10 +1114,10 @@ msgid "Folder"
 msgstr "フォルダ"
 
 msgid "Contains:"
-msgstr ""
+msgstr "含む:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "数えています…"
 
 msgid "Unknown"
 msgstr "未知"
@@ -995,64 +1146,70 @@ msgstr "グループ(U):"
 msgid "Dimensions:"
 msgstr "面積:"
 
-msgid "Duration:"
-msgstr "長さ:"
-
 msgid "Broken Link"
-msgstr ""
+msgstr "壊れたリンク"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (リンク)"
+
+msgid "other drive"
+msgstr "別のドライブ"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "残り %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "ファイル操作を実行中"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "サブフォルダーはありません"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "指定したファイルをそのフォルダーで選択"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "分割表示でウィンドウを開く"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "常に新しいウィンドウを開く"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "FileManager1 D-Bus サービスのためにバックグラウンドで動作し続ける"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "端末から切り離す (場所なし: 現在のフォルダーを開く)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "xdg-desktop-portal 用のファイル選択を実行 (D-Bus から起動)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "バージョンを表示"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[ファイルまたはフォルダー…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "管理者として動作中: このウィンドウでの変更はシステムを損傷する可能性があります。"
 
 msgid "Close this window?"
-msgstr ""
+msgstr "このウィンドウを閉じますか?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "このウィンドウには %zu 個のタブが開いています。閉じるとすべてのタブが閉じます。"
 
 msgid "Close Window"
-msgstr ""
+msgstr "ウィンドウを閉じる"
 
 msgid "View Settings"
 msgstr "ビュー設定"
@@ -1070,79 +1227,79 @@ msgid "Show in Groups"
 msgstr "グループ化して表示する"
 
 msgid "_File"
-msgstr ""
+msgstr "ファイル(_F)"
 
 msgid "New _Window"
-msgstr ""
+msgstr "新しいウィンドウ(_W)"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "新しいタブ(_T)"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "タブを閉じる(_C)"
 
 msgid "Create _New"
-msgstr ""
+msgstr "新規作成(_N)"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "名前を変更(_R)…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "ここに複製(_D)"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "ごみ箱に移動(_T)"
 
 msgid "_Delete"
-msgstr ""
+msgstr "削除(_D)"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "ごみ箱から復元"
 
 msgid "_Properties"
-msgstr ""
+msgstr "プロパティ(_P)"
 
 msgid "_Quit"
-msgstr ""
+msgstr "終了(_Q)"
 
 msgid "_Edit"
-msgstr ""
+msgstr "編集(_E)"
 
 msgid "_Undo"
-msgstr ""
+msgstr "元に戻す(_U)"
 
 msgid "_Redo"
-msgstr ""
+msgstr "やり直す(_R)"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "切り取り(_T)"
 
 msgid "_Copy"
-msgstr ""
+msgstr "コピー(_C)"
 
 msgid "_Paste"
-msgstr ""
+msgstr "貼り付け(_P)"
 
 msgid "Filter…"
 msgstr "フィルタ…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "検索(_S)…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "すべて選択(_A)"
 
 msgid "_View"
-msgstr ""
+msgstr "表示(_V)"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "拡大(_I)"
 
 msgid "Reset Zoom Level"
 msgstr "ズームレベルをリセットする"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "縮小(_O)"
 
 msgid "Show Additional Information"
 msgstr "追加情報を表示"
@@ -1151,16 +1308,13 @@ msgid "Show Previews"
 msgstr "プレビューを表示"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "既定値に戻す"
 
 msgid "Adjust View Display Style…"
 msgstr "ビューの表示スタイルを調整…"
 
 msgid "Re_load"
-msgstr ""
-
-msgid "Stop"
-msgstr "停止(T)"
+msgstr "再読み込み(_L)"
 
 msgid "Panels"
 msgstr "パネル"
@@ -1172,157 +1326,163 @@ msgid "Location Bar"
 msgstr "場所バー"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "メニューバーを表示(_M)"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "ツールバーを表示(_T)"
+
+msgid "Show _Statusbar"
+msgstr "ステータスバーを表示(_S)"
 
 msgid "_Go"
-msgstr ""
+msgstr "移動(_G)"
 
 msgid "_Back"
-msgstr ""
+msgstr "戻る(_B)"
 
 msgid "_Forward"
-msgstr ""
+msgstr "進む(_F)"
 
 msgid "_Up"
-msgstr ""
+msgstr "上へ(_U)"
 
 msgid "_Home"
-msgstr ""
+msgstr "ホーム(_H)"
 
 msgid "Recently Closed Tabs"
 msgstr "最近閉じたタブ"
 
 msgid "_Tools"
-msgstr ""
+msgstr "ツール(_T)"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "端末を開く(_T)"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "ここで端末を開く(_H)"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "ディスク使用量(_D)…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "設定(_S)"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga を設定(_C)…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "最近閉じたタブはありません"
+
+msgid "(Administrator)"
+msgstr "(管理者)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "%zu 個のフォルダーを新しいタブで開きますか?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "フォルダーを開く"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "「%s」を開けません。"
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "端末を開けません。"
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "新しいテキストファイル.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "新しいファイル"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "ごみ箱を空にしますか?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "ごみ箱内のすべての項目が完全に削除されます。この操作は元に戻せません。"
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "%zu 個の端末を開きますか?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "端末を開く"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "新しいファイルの作成先:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "ファイルを作成できません。"
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "ファイルまたはフォルダーへのリンク"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "リンク先のファイルまたはフォルダーのパス:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "リンクを作成できません。"
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s を完全に削除しますか?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "この操作は元に戻せません。"
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s をごみ箱に移動しますか?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "「%s」を実行できません。"
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s を起動できません。"
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "アプリケーションを起動できません。"
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "「%s」は実行可能ファイルです。"
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "実行しますか、それともアプリケーションで開きますか?"
 
 msgid "Run"
-msgstr ""
+msgstr "実行"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "%s (%s) を開くアプリケーションを選択:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "おすすめのアプリケーション"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "その他のアプリケーション"
 
 msgid "Or command:"
-msgstr ""
+msgstr "またはコマンド:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "この種類のファイルにアプリケーションの関連付けを記憶する"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s 空き / %s"
 
 msgid "Safely Remove"
 msgstr "安全に取り外す(S)"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "デバイスをマウントできません: %s"
 
 msgid "Mount"
 msgstr "マウント"
@@ -1349,31 +1509,31 @@ msgid "Add Entry…"
 msgstr "エントリを追加…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "隠し項目を隠す"
 
 msgid "Show All Entries"
 msgstr "すべてのエントリを表示(S)"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "ごみ箱内のすべての項目が完全に削除されます。"
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "デバイスを安全に取り外せません: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "デバイスをアンマウントできません: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "システムのフォントを使う(_F)"
 
 msgid "View font:"
-msgstr ""
+msgstr "表示フォント:"
 
 msgid "Icon size:"
 msgstr "アイコンサイズ:"
@@ -1382,7 +1542,7 @@ msgid "Preview size:"
 msgstr "プレビューのサイズ:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "コンテキストメニューのアクション"
 
 msgid "Name:"
 msgstr "名前(N):"
@@ -1394,40 +1554,40 @@ msgid "File names:"
 msgstr "ファイル名:"
 
 msgid "Types:"
-msgstr ""
+msgstr "種類:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f 最初のファイル、%F すべてのファイル、%u / %U URI として、%n / %N 名前、%d 現在のフォルダー。"
 
 msgid "Show for _files"
-msgstr ""
+msgstr "ファイルで表示(_F)"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "フォルダーで表示(_O)"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "複数の項目を選択したときに表示(_S)"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "端末で実行(_T)"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "カスタムアクション"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "ファイルとフォルダーのコンテキストメニューに追加する独自の項目です。"
 
 msgid "_Add…"
-msgstr ""
+msgstr "追加(_A)…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "編集(_E)…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "削除(_R)"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "ショートカットは <Control>c や <Shift>Delete のように書きます。複数ある場合はカンマで区切ります。既定値を使うには空欄にします。"
 
 msgid "General"
 msgstr "全般"
@@ -1436,132 +1596,132 @@ msgid "Startup"
 msgstr "起動"
 
 msgid "_Home folder:"
-msgstr ""
+msgstr "ホームフォルダー(_H):"
 
 msgid "_Remember open folders and tabs"
-msgstr ""
+msgstr "開いているフォルダーとタブを記憶(_R)"
 
 msgid "Begin in _split view mode"
-msgstr ""
+msgstr "分割表示で開始(_S)"
 
 msgid "Show _filter bar"
-msgstr ""
+msgstr "フィルターバーを表示(_F)"
 
 msgid "Make location bar _editable"
-msgstr ""
+msgstr "場所バーを編集可能にする(_E)"
 
 msgid "Show full path inside _location bar"
-msgstr ""
+msgstr "場所バーにフルパスを表示(_L)"
 
 msgid "Show full path in _title bar"
-msgstr ""
+msgstr "タイトルバーにフルパスを表示(_T)"
 
 msgid "Mouse"
-msgstr ""
+msgstr "マウス"
 
 msgid "These used to be KDE system settings."
-msgstr ""
+msgstr "以前は KDE のシステム設定でした。"
 
 msgid "Clicking files or folders:"
-msgstr ""
+msgstr "ファイルやフォルダーのクリック:"
 
 msgid "Selects them (double-click opens)"
-msgstr ""
+msgstr "選択する (ダブルクリックで開く)"
 
 msgid "Opens them"
-msgstr ""
+msgstr "開く"
 
 msgid "Double-clicking empty space:"
-msgstr ""
+msgstr "空いている場所のダブルクリック:"
 
 msgid "Does nothing"
-msgstr ""
+msgstr "何もしない"
 
 msgid "Selects all items"
-msgstr ""
+msgstr "すべての項目を選択"
 
 msgid "Goes up"
-msgstr ""
+msgstr "上の階層へ移動"
 
 msgid "Opens a new tab"
-msgstr ""
+msgstr "新しいタブを開く"
 
 msgid "Toggles hidden files"
-msgstr ""
+msgstr "隠しファイルの表示を切り替え"
 
 msgid "Tabs and Split View"
-msgstr ""
+msgstr "タブと分割表示"
 
 msgid "Open new tabs after the _last tab"
-msgstr ""
+msgstr "新しいタブを最後のタブの後に開く(_L)"
 
 msgid "_Always show the tab bar"
-msgstr ""
+msgstr "常にタブバーを表示(_A)"
 
 msgid "Show _close buttons on tabs"
-msgstr ""
+msgstr "タブに閉じるボタンを表示(_C)"
 
 msgid "Open folders from other applications in a new _tab"
-msgstr ""
+msgstr "他のアプリケーションからのフォルダーを新しいタブで開く(_T)"
 
 msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
+msgstr "アーカイブをフォルダーとして開く (zip, tar, 7z, rar, ISO)(_A)"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "即時検索のためにホームフォルダーの索引を保持(_I)"
 
 msgid "Closing split view closes:"
-msgstr ""
+msgstr "分割表示を閉じると閉じるもの:"
 
 msgid "The active view"
-msgstr ""
+msgstr "アクティブな表示"
 
 msgid "The inactive view"
-msgstr ""
+msgstr "非アクティブな表示"
 
 msgid "The right view"
-msgstr ""
+msgstr "右側の表示"
 
 msgid "Behavior"
 msgstr "動作"
 
 msgid "Rename single items _inline"
-msgstr ""
+msgstr "単一の項目はその場で名前を変更(_I)"
 
 msgid "Show selection _marker"
-msgstr ""
+msgstr "選択マーカーを表示(_M)"
 
 msgid "Show item information on _hover"
-msgstr ""
+msgstr "ホバー時に項目の情報を表示(_H)"
 
 msgid "Open folders while _dragging items over them"
-msgstr ""
+msgstr "項目をドラッグして重ねたときにフォルダーを開く(_D)"
 
 msgid "Terminal"
 msgstr "ターミナル|/|$[~setProps ~full 'ターミナルを表示']"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "F4 と「ここで端末を開く」で使われます。コマンド内の %d はフォルダーに置き換えられ、ない場合は端末がそのフォルダーで起動します。以前は KDE のシステム設定でした。"
 
 msgid "Terminal _command:"
-msgstr ""
+msgstr "端末のコマンド(_C):"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "端末が見つかりません"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "検出: %s"
 
 msgid "View"
 msgstr "表示(V)"
 
 msgid "Use the same display style for _all folders"
-msgstr ""
+msgstr "すべてのフォルダーで同じ表示スタイルを使う(_A)"
 
 msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
+msgstr "オフにすると、各フォルダーが独自のスタイルを記憶します。どちらの場合でも、表示 › このフォルダーの表示を記憶 で 1 つのフォルダーに独自のスタイルを与えられます。"
 
 msgid "Natural"
 msgstr "自然"
@@ -1576,46 +1736,46 @@ msgid "Folder size:"
 msgstr "フォルダサイズ:"
 
 msgid "Number of items"
-msgstr ""
+msgstr "項目の数"
 
 msgid "Size of contents"
-msgstr ""
+msgstr "内容のサイズ"
 
 msgid "None"
 msgstr "なし"
 
 msgid "Folder size depth limit:"
-msgstr ""
+msgstr "フォルダーサイズの深さの上限:"
 
 msgid "Dates:"
-msgstr ""
+msgstr "日付:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "相対 (今日、昨日…)"
 
 msgid "Short"
-msgstr ""
+msgstr "短い"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "記号 (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "数値 (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "組み合わせ"
 
 msgid "Shorten long names:"
-msgstr ""
+msgstr "長い名前の省略:"
 
 msgid "At the end"
-msgstr ""
+msgstr "末尾"
 
 msgid "In the middle"
-msgstr ""
+msgstr "中央"
 
 msgid "Hide _backup files (ending in ~)"
-msgstr ""
+msgstr "バックアップファイル (~ で終わる) を隠す(_B)"
 
 msgid "Label width:"
 msgstr "ラベルの幅:"
@@ -1633,88 +1793,91 @@ msgid "Huge"
 msgstr "最大"
 
 msgid "Maximum label lines (0: no limit):"
-msgstr ""
+msgstr "ラベルの最大行数 (0: 制限なし):"
 
 msgid "Co_mpact spacing"
-msgstr ""
+msgstr "コンパクトな間隔(_M)"
 
 msgid "Maximum label width:"
-msgstr ""
+msgstr "ラベルの最大幅:"
 
 msgid "Unlimited"
 msgstr "無制限"
 
 msgid "E_xpandable folders"
-msgstr ""
+msgstr "展開可能なフォルダー(_X)"
 
 msgid "Highlight the entire _row"
-msgstr ""
+msgstr "行全体を強調表示(_R)"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "ディスク使用量の列を表示(_U)"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "各ファイルとフォルダー全体がディスク上で占める容量を、フォルダー内での割合を示すバーとともに表示します (ツール › ディスク使用量 と同様)。フォルダーはバックグラウンドですべて読み込まれます。この列で並べ替えると大きいものから表示されます。ディスク使用量ウィンドウの「このドライブ内にとどまる」はここにも適用されます。"
 
 msgid "Previews"
 msgstr "プレビュー"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "新しいフォルダーでプレビューを表示(_P)"
 
 msgid "Show previews for"
 msgstr "次のプレビューを表示"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "音声 (カバーアート)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF 文書"
 
 msgid "Text files"
-msgstr ""
+msgstr "テキストファイル"
 
 msgid "Fonts"
-msgstr ""
+msgstr "フォント"
 
 msgid "Office documents"
-msgstr ""
+msgstr "オフィス文書"
 
 msgid "Limits"
-msgstr ""
+msgstr "制限"
 
 msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgstr "次より大きいローカルファイルを省略 (MiB、0: 制限なし):"
 
 msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgstr "リモートファイルの上限 (MiB、0: なし):"
 
 msgid "Confirmations"
 msgstr "確認"
 
 msgid "Ask for confirmation when"
-msgstr ""
+msgstr "次の場合に確認する"
 
 msgid "Moving files or folders to the _trash"
-msgstr ""
+msgstr "ファイルやフォルダーをごみ箱に移動するとき(_T)"
 
 msgid "_Deleting files or folders"
-msgstr ""
+msgstr "ファイルやフォルダーを削除するとき(_D)"
 
 msgid "_Emptying the trash"
-msgstr ""
+msgstr "ごみ箱を空にするとき(_E)"
 
 msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgstr "複数のタブがあるウィンドウを閉じるとき(_M)"
 
 msgid "Opening many _folders at once"
-msgstr ""
+msgstr "多数のフォルダーを一度に開くとき(_F)"
 
 msgid "Opening many t_erminals at once"
-msgstr ""
+msgstr "多数の端末を一度に開くとき(_E)"
 
 msgid "Renaming changes a file's _type"
-msgstr ""
+msgstr "名前の変更でファイルの種類が変わるとき(_T)"
+
+msgid "Acting as _administrator"
+msgstr "管理者として動作するとき(_A)"
 
 msgid "When opening an executable file:"
 msgstr "実行ファイルを開く場合の動作:"
@@ -1723,13 +1886,13 @@ msgid "Always ask"
 msgstr "常に確認する"
 
 msgid "Open in an application"
-msgstr ""
+msgstr "アプリケーションで開く"
 
 msgid "Run it"
-msgstr ""
+msgstr "実行する"
 
 msgid "Bars and Panels"
-msgstr ""
+msgstr "バーとパネル"
 
 msgid "Status Bar"
 msgstr "ステータスバー"
@@ -1738,7 +1901,7 @@ msgid "Status bar:"
 msgstr "ステータスバー:"
 
 msgid "Small (shows only when hovering or selecting)"
-msgstr ""
+msgstr "小 (ホバー時と選択時のみ表示)"
 
 msgid "Full width"
 msgstr "フルサイズ"
@@ -1747,120 +1910,120 @@ msgid "Hidden"
 msgstr "隠しボリューム(H)"
 
 msgid "Show _zoom slider"
-msgstr ""
+msgstr "ズームスライダーを表示(_Z)"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "空き容量を表示(_S)"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "隠しフォルダーを表示(_H)"
 
 msgid "Limit to the home folder when inside it"
-msgstr ""
+msgstr "ホームフォルダー内にいるときはホームに限定"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "現在のフォルダーまで自動でスクロール(_A)"
 
 msgid "Play media files _automatically"
-msgstr ""
+msgstr "メディアファイルを自動で再生(_A)"
 
 msgid "Show the _hovered item"
-msgstr ""
+msgstr "ホバー中の項目を表示(_H)"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "長い日付形式を使う(_L)"
 
 msgid "Context Menu"
 msgstr "コンテキストメニュー"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "コンテキストメニューに表示"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "「コピー先」と「移動先」"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "削除 (ごみ箱に移動に加えて)"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "以前は KDE のシステム設定でした。制限は Beluga の起動時と項目をごみ箱に移動した後に適用されます。"
 
 msgid "_Delete items that have been in the trash longer than:"
-msgstr ""
+msgstr "次の期間よりも長くごみ箱にある項目を削除(_D):"
 
 msgid "Days:"
-msgstr ""
+msgstr "日数:"
 
 msgid "_Limit the trash to a share of the disk:"
-msgstr ""
+msgstr "ごみ箱をディスクの一定割合に制限(_L):"
 
 msgid "Percent of the disk:"
-msgstr ""
+msgstr "ディスクの割合:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "上限に達したとき:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "警告を表示"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "古い項目から削除"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "大きい項目から削除"
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "ごみ箱のサイズを計算中…"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "ごみ箱は現在 %s 使用しています。"
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "今すぐごみ箱を空にする(_E)"
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu 個の項目"
 
 msgid "Calculating…"
 msgstr "計算中…"
 
 msgid "No default application"
-msgstr ""
+msgstr "既定のアプリケーションはありません"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "変更(_H)…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "開くアプリケーション:"
 
 msgid "Free space:"
 msgstr "空き容量:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s 空き / %s (%d%% 使用)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
+msgstr[0] "%llu バイト"
 
 msgid "Forbidden"
 msgstr "禁止"
 
 msgid "Can View"
-msgstr ""
+msgstr "表示可能"
 
 msgid "Can View & Modify"
 msgstr "変更、表示が可能"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "内容を表示可能"
 
 msgid "Can View & Modify Content"
 msgstr "内容の変更、表示が可能"
@@ -1869,10 +2032,10 @@ msgid "Others:"
 msgstr "その他(T):"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "実行可能(_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "すべてのサブフォルダーとその内容に変更を適用(_S)"
 
 msgid "User:"
 msgstr "ユーザ:"
@@ -1884,22 +2047,22 @@ msgid "Calculate"
 msgstr "計算"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "ファイルを読み込めません。"
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "比較するチェックサムを貼り付け"
 
 msgid "Verify:"
-msgstr ""
+msgstr "検証:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "チェックサムが一致しました。"
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "一致するチェックサムがありません。先に対応する種類を計算してください。"
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "パーミッションを変更できません。"
 
 #, c-format
 msgid "Properties for %s"
@@ -1912,19 +2075,19 @@ msgid "Filter:"
 msgstr "フィルタ:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "名前でフィルター (*.txt などのワイルドカードが使えます)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "フォルダーを変更してもフィルターを維持"
 
 msgid "Search…"
 msgstr "検索…"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "このフォルダー内"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "あなたのファイル内"
 
 msgid "Everywhere"
 msgstr "すべての場所"
@@ -1936,22 +2099,22 @@ msgid "File Names and Contents"
 msgstr "ファイルの名前と内容"
 
 msgid "Any Time"
-msgstr ""
+msgstr "すべての期間"
 
 msgid "Today"
 msgstr "今日"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "過去 7 日間"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "過去 30 日間"
 
 msgid "Last Year"
-msgstr ""
+msgstr "過去 1 年間"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "隠しファイル"
 
 msgid "Zoom"
 msgstr "ズーム"
@@ -1961,7 +2124,7 @@ msgid "%s free"
 msgstr "%s 空き"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "タブを複製"
 
 msgid "Detach Tab"
 msgstr "タブを分離"
@@ -1970,7 +2133,7 @@ msgid "Close Other Tabs"
 msgstr "他のタブを閉じる(C)"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "列を表示"
 
 #, c-format
 msgid "Size: %s"
@@ -1978,11 +2141,11 @@ msgstr "サイズ: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "変更日時: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "元の場所: %s"
 
 msgid "Yesterday"
 msgstr "昨日"
@@ -2009,19 +2172,19 @@ msgid "Big"
 msgstr "大"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB 未満"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB から 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB から 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB 以上"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "まだ数えていません"
 
 msgid "Searching…"
 msgstr "検索中…"
@@ -2030,7 +2193,7 @@ msgid "No items matching the filter"
 msgstr "フィルタにマッチするアイテムはありません"
 
 msgid "No items found"
-msgstr ""
+msgstr "項目が見つかりません"
 
 msgid "Trash is empty"
 msgstr "ごみ箱は空です"
@@ -2039,38 +2202,38 @@ msgid "Folder is empty"
 msgstr "フォルダは空です"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "ファイル名に「/」は使えません。"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "「%s」を「%s」に変更すると拡張子が変わります。ファイルが別のアプリケーションで開かれるか、開けなくなる可能性があります。"
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "選択モード: ファイルやフォルダーをクリックして選択または選択解除します。"
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "選択モードを終了(_E)"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "複製(_D)"
 
 msgid "De_lete"
-msgstr ""
+msgstr "削除(_L)"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "プロパティ(_O)"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "フォルダー「%s」はもう存在しません。"
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "「%s」を選択 (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s を選択"
 
 msgid "Loading folder…"
 msgstr "フォルダを読み込んでいます…"
@@ -2078,4 +2241,4 @@ msgstr "フォルダを読み込んでいます…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
+msgstr[0] "%d 個を選択"

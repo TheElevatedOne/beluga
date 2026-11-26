@@ -28,20 +28,20 @@ struct Settings {
     std::string homeUrl;                 // start location (URI)
     bool rememberOpenedTabs = true;
     bool splitView = false;
-    bool filterBar = false;
+    bool filterBar = true;
     bool editableUrl = false;
-    bool showFullPath = false;
+    bool showFullPath = true;
     bool showFullPathInTitlebar = false;
-    bool openExternallyCalledFolderInNewTab = false;
-    bool browseArchives = true;   // open zip, tar, 7z, rar and ISO files as folders
-    bool alwaysShowTabBar = false;
+    bool openExternallyCalledFolderInNewTab = true;
+    bool browseArchives = false;  // open zip, tar, 7z, rar and ISO files as folders (off: in their program)
+    bool alwaysShowTabBar = true;
     bool showCloseButtonOnTabs = true;
-    bool openNewTabAfterLastTab = false;
-    int closeSplitViewChoice = 0;        // 0 active, 1 inactive, 2 right
+    bool openNewTabAfterLastTab = true;
+    int closeSplitViewChoice = 1;        // 0 active, 1 inactive, 2 right
     bool useTabForSwitchingSplitView = false;
     bool globalViewProps = true;
     // Disk Usage window
-    bool duApparentSize = false;
+    bool duApparentSize = true;
     bool duOneFileSystem = true;
     bool searchIndex = true;   // keep an index of the home folder's names for instant search
     bool renameInline = true;
@@ -52,8 +52,9 @@ struct Settings {
     bool singleClick = false;            // was KDE "Clicking files or folders"
     bool showMenuBar = false;
     bool showToolBar = true;
-    StatusBarMode statusBar = StatusBarMode::Small;
-    bool showZoomSlider = false;
+    StatusBarMode statusBar = StatusBarMode::FullWidth;
+    StatusBarMode statusBarShown = StatusBarMode::FullWidth;   // what View › Show Statusbar brings back
+    bool showZoomSlider = true;
     bool showSpaceInfo = true;
     bool enlargeSmallPreviews = true;
     int sortingChoice = 0;               // 0 natural, 1 case-insensitive, 2 case-sensitive
@@ -68,10 +69,11 @@ struct Settings {
     bool confirmOpenManyFolders = true;
     bool confirmOpenManyTerminals = true;
     bool confirmRenameFileType = true;
+    bool confirmActAsAdmin = true;
     ExecAction executableAction = ExecAction::Ask;
 
     // ---- Context menu entries
-    bool ctxCopyMoveMenu = false;
+    bool ctxCopyMoveMenu = true;
     bool ctxAddToPlaces = true;
     bool ctxSortBy = true;
     bool ctxViewMode = true;
@@ -105,13 +107,13 @@ struct Settings {
     ModeSettings details{16, 32};
     bool detailsExpandableFolders = true;
     bool detailsHighlightEntireRow = true;
-    bool detailsDiskUsage = false;   // a Disk Usage column in every Details view
+    bool detailsDiskUsage = true;    // a Disk Usage column in every Details view
 
     // ---- Previews
     bool previewsDefault = true;
     std::vector<std::string> disabledPreviewMime;   // e.g. "video/*"
-    int maxLocalPreviewMiB = 0;          // 0 = no limit
-    int maxRemotePreviewMiB = 0;         // 0 = never for remote files
+    int maxLocalPreviewMiB = 20;         // 0 = no limit
+    int maxRemotePreviewMiB = 5;         // 0 = never for remote files
 
     // ---- Trash (was the KDE trash KCM)
     bool trashUseTimeLimit = false;
@@ -127,7 +129,7 @@ struct Settings {
     int placesIconSize = 22;
     std::vector<std::string> hiddenPlaceSections;
     bool showHiddenPlaces = false;
-    bool foldersHiddenShown = false;
+    bool foldersHiddenShown = true;
     bool foldersLimitToHome = true;
     bool foldersAutoScroll = true;
     bool infoPreviews = true;
@@ -136,6 +138,7 @@ struct Settings {
     bool infoLongDates = true;
     int leftPanelWidth = 200;
     int infoPanelWidth = 260;
+    int duPaneWidth = 460;   // the Disk Usage pane
     int foldersPanelHeight = 260;
 
     // ---- Search
@@ -146,7 +149,7 @@ struct Settings {
     // ---- Window
     int windowWidth = 1100;
     int windowHeight = 700;
-    bool windowMaximized = false;
+    bool windowMaximized = true;
 
     // ---- Keyboard shortcuts: action name -> accelerators (overrides defaults)
     std::map<std::string, std::vector<std::string>> shortcuts;

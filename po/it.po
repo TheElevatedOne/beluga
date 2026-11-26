@@ -18,95 +18,208 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Impossibile aprire l'archivio."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Impossibile leggere l'archivio."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Annullato."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Questo file è cifrato con una password."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "Impossibile leggere «%s»."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Questo non è un file in un archivio."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Estrai qui"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Comprimi in .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Non è stato trovato alcun emulatore di terminale."
 
 msgid "Root"
-msgstr ""
+msgstr "Radice"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Volume %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Questo dispositivo non può essere montato."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Questo dispositivo non può essere smontato."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Il dispositivo non è più presente."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Copia di %s in «%s»"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Spostamento di %s in «%s»"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Collegamento di %s in «%s»"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Spostamento di %s nel cestino"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Eliminazione di %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Ripristino di %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Svuotamento del cestino"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Conteggio dei file…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "«%s»: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Una cartella non può essere spostata in se stessa."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Una cartella non può essere copiata in se stessa."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "I file possono essere estratti solo in cartelle locali."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Estrazione da «%s»"
+
+msgid "Title:"
+msgstr "Titolo:"
+
+msgid "Artist:"
+msgstr "Artista:"
+
+msgid "Album artist:"
+msgstr "Artista dell'album:"
+
+msgid "Album:"
+msgstr "Album:"
+
+msgid "Track:"
+msgstr "Traccia:"
+
+msgid "Disc:"
+msgstr "Disco:"
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "Genre:"
+msgstr "Genere:"
+
+msgid "Composer:"
+msgstr "Compositore:"
+
+msgid "Performer:"
+msgstr "Artista:"
+
+msgid "Publisher:"
+msgstr "Editore:"
+
+msgid "Copyright:"
+msgstr "Copyright:"
+
+msgid "Comment:"
+msgstr "Commento:"
+
+msgid "Description:"
+msgstr "Descrizione:"
+
+msgid "Language:"
+msgstr "Lingua:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Duration:"
+msgstr "Durata:"
+
+msgid "Format:"
+msgstr "Formato:"
+
+msgid "Bit rate:"
+msgstr "Bitrate:"
+
+msgid "Cover:"
+msgstr "Copertina:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video:"
+msgstr "Video:"
+
+#, c-format
+msgid "Video %d:"
+msgstr "Video %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d canale"
+msgstr[1] "%d canali"
+
+#, c-format
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio:"
+msgstr "Audio:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "Audio %d:"
+
+msgid "Subtitles:"
+msgstr "Sottotitoli:"
+
+msgid "Chapters:"
+msgstr "Capitoli:"
 
 msgid "Places"
 msgstr "Risorse"
@@ -154,7 +267,7 @@ msgid "Recent Files"
 msgstr "File recenti"
 
 msgid "Images"
-msgstr ""
+msgstr "Immagini"
 
 msgid "Audio"
 msgstr "Audio"
@@ -163,37 +276,37 @@ msgid "Folders"
 msgstr "Cartelle"
 
 msgid "Archives"
-msgstr ""
+msgstr "Archivi"
 
 msgid "All Files"
 msgstr "Tutti i file"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Cerca «%s»"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Non è stato trovato alcun emulatore di terminale. Impostane uno in Configura Beluga › Generale › Terminale."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Questo file system non ha un cestino."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Impossibile creare il file di informazioni del cestino."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "«%s» esiste già."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Il cestino supera il suo limite di %s. Valuta di svuotarlo."
 
 msgid "Copy"
 msgstr "Copia"
 
 msgid "Move"
-msgstr ""
+msgstr "Sposta"
 
 msgid "Link"
 msgstr "Collegamento"
@@ -208,21 +321,21 @@ msgid "Create Folder"
 msgstr "Crea cartella"
 
 msgid "Create File"
-msgstr ""
+msgstr "Crea file"
 
 msgid "Undo"
 msgstr "Annulla"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Annulla: %s"
 
 msgid "Redo"
 msgstr "Rifai"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Rifai: %s"
 
 #, c-format
 msgid "%d item"
@@ -233,14 +346,14 @@ msgstr[1] "%d elementi"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d file"
+msgstr[1] "%d file"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d cartella"
+msgstr[1] "%d cartelle"
 
 #, c-format
 msgid "%s, %s"
@@ -248,11 +361,11 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Oggi alle %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Ieri alle %s"
 
 msgid "%A at %H:%M"
 msgstr ""
@@ -263,11 +376,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld min %ld s"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld h %ld min"
 
 #, c-format
 msgid "%s copy"
@@ -275,7 +388,7 @@ msgstr "Copia di %s"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s copia %d"
 
 msgid "Name"
 msgstr "Nome"
@@ -284,7 +397,7 @@ msgid "Size"
 msgstr "Dimensione"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Utilizzo del disco"
 
 msgid "Modified"
 msgstr "Modificato"
@@ -299,7 +412,7 @@ msgid "Type"
 msgstr "Tipo"
 
 msgid "Extension"
-msgstr ""
+msgstr "Estensione"
 
 msgid "Permissions"
 msgstr "Permessi"
@@ -320,10 +433,28 @@ msgid "Deletion Time"
 msgstr "Ora di eliminazione"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Posizione originale"
 
 msgid "Dimensions"
 msgstr "Dimensioni"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga non può agire come amministratore."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Serve pkexec (polkit) per chiedere la password di amministratore. Installa polkit e un agente polkit per il tuo desktop."
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Rischi relativi all'agire come amministratore"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Una finestra di Beluga con diritti di amministratore può modificare ed eliminare qualsiasi file di questo computer, compresi quelli che servono al sistema per avviarsi. Un errore può rendere il sistema inutilizzabile. Usala solo per i file che non puoi modificare in altro modo e chiudila quando hai finito.\n\nBeluga chiederà ora la password di amministratore."
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Comprendo e accetto questi rischi"
 
 msgid "New Window"
 msgstr "Nuova finestra"
@@ -389,7 +520,7 @@ msgid "Details View"
 msgstr "Vista dettagliata"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Vista a colonne"
 
 msgid "Zoom In"
 msgstr "Ingrandisci"
@@ -398,10 +529,13 @@ msgid "Zoom Out"
 msgstr "Rimpicciolisci"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Ripristina lo zoom"
 
 msgid "Show Hidden Files"
 msgstr "Mostra i file nascosti"
+
+msgid "Act as Administrator"
+msgstr "Agisci come amministratore"
 
 msgid "Split View"
 msgstr "Vista divisa"
@@ -410,7 +544,7 @@ msgid "Focus Other View"
 msgstr "Altra vista in primo piano"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Separa la vista divisa"
 
 msgid "Split View to Tabs"
 msgstr "Vista divisa in schede"
@@ -425,7 +559,7 @@ msgid "Replace Location"
 msgstr "Sostituisci posizione"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Pannello Risorse"
 
 msgid "Folders Panel"
 msgstr "Pannello delle cartelle"
@@ -433,11 +567,17 @@ msgstr "Pannello delle cartelle"
 msgid "Information Panel"
 msgstr "Pannello informazioni"
 
+msgid "Disk Usage Panel"
+msgstr "Pannello Utilizzo del disco"
+
 msgid "Focus Places Panel"
 msgstr "Attiva pannello delle risorse"
 
 msgid "Show Menubar"
 msgstr "Mostra la barra dei menu"
+
+msgid "Show Statusbar"
+msgstr "Mostra la barra di stato"
 
 msgid "Back"
 msgstr "Indietro"
@@ -449,31 +589,31 @@ msgid "Up"
 msgstr "Su"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Vai alla scheda 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Vai alla scheda 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Vai alla scheda 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Vai alla scheda 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Vai alla scheda 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Vai alla scheda 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Vai alla scheda 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Vai alla scheda 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Vai alla scheda 9"
 
 msgid "Go to Last Tab"
 msgstr "Vai all'ultima scheda"
@@ -491,29 +631,29 @@ msgid "Open Terminal Here"
 msgstr "Apri terminale qui"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Configura Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Annullamento non riuscito."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Cartella…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "File di testo…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "File vuoto…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Collegamento a file o cartella…"
 
 msgid "Create New"
 msgstr "Crea"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Altra vista (%s)"
 
 msgid "Browse…"
 msgstr "Sfoglia…"
@@ -553,7 +693,7 @@ msgid "View Mode"
 msgstr "Modalità di visualizzazione"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Ricorda la vista per questa cartella"
 
 msgid "Restore"
 msgstr "Ripristina"
@@ -570,11 +710,14 @@ msgstr "Apri in una nuova finestra"
 msgid "Open in Split View"
 msgstr "Apri nella vista divisa"
 
+msgid "Open in Beluga"
+msgstr "Apri in Beluga"
+
 msgid "Open Containing Folder"
 msgstr "Apri cartella contenitore"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Incolla nella cartella"
 
 msgid "Rename…"
 msgstr "Rinomina…"
@@ -586,68 +729,65 @@ msgid "Close"
 msgstr "Chiudi"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Annulla"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Il nome non può contenere «/»."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Un nome che inizia con un punto è nascosto."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Alcuni elementi non sono stati rinominati."
 
 msgid "Rename Item"
 msgstr "Rinomina elemento"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Rinomina «%s» in:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Rinomina"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Impossibile rinominare «%s»."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Cambiare il tipo di file?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
-
-msgid "Cancel"
-msgstr "Annulla"
+msgstr "Rinominare «%s» in «%s» ne cambia l'estensione."
 
 msgid "Rename Items"
 msgstr "Rinomina elementi"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Rinomina i %zu elementi selezionati in:"
 
 msgid "New name #"
 msgstr "Nuovo nome #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# viene sostituito da numeri crescenti; usa ## per gli zeri iniziali. Le estensioni restano invariate."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Inizia la numerazione da:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Sposta qui"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Copia qui"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "C_ollega qui"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "A_nnulla"
 
 msgid "Add Places Entry"
 msgstr "Aggiungi voci nelle risorse"
@@ -659,22 +799,22 @@ msgid "Label:"
 msgstr "Etichetta:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Scegli una cartella"
 
 msgid "Location:"
 msgstr "Indirizzo:"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Nome dell'icona:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Scegli una cartella"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Aggiungi"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Salva"
 
 msgid "View Display Style"
 msgstr "Stile di visualizzazione della vista"
@@ -704,19 +844,19 @@ msgid "Descending"
 msgstr "Decrescente"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Mostra prima le _cartelle"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Mostra i file nascosti per _ultimi"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Mostra le _anteprime"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Mostra in _gruppi"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Mostra i file _nascosti"
 
 msgid "Apply to"
 msgstr "Applica a"
@@ -725,17 +865,17 @@ msgid "Current folder"
 msgstr "Cartella attuale"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Cartella attuale con tutte le sottocartelle"
 
 msgid "All folders"
 msgstr "Tutte le cartelle"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "modificato %s"
 
 msgid "Folder Already Exists"
 msgstr "La cartella esiste già"
@@ -745,35 +885,35 @@ msgstr "Il file esiste già"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Una cartella chiamata «%s» esiste già in «%s»."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Un file chiamato «%s» esiste già in «%s»."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Elemento esistente"
 
 msgid "New item"
-msgstr ""
+msgstr "Nuovo elemento"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Suggerisci un nuovo nome"
 
 msgid "New name:"
-msgstr ""
+msgstr "Nuovo nome:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Applica a _tutti"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Salta"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Scrivi dentro"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "S_ovrascrivi"
 
 msgid "Skip"
 msgstr "Salta"
@@ -785,171 +925,183 @@ msgid "Retry"
 msgstr "Riprova"
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Questa posizione non è una cartella."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Questa posizione non è valida."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Questa cartella non è nell'archivio."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s file più piccolo"
+msgstr[1] "%s file più piccoli"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(altra unità, non conteggiata)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Parte del suo contenuto non è stata letta."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s nei file"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s su disco"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s file e %s cartelle"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Lettura… %s in %s file e %s cartelle"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Fermato."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Impossibile leggere questa cartella."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, letto in %.1f s"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s cartella non è stata letta."
+msgstr[1] ". %s cartelle non sono state lette."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Si possono misurare solo cartelle di questo computer."
+
+msgid "read less than a minute ago"
+msgstr "letto meno di un minuto fa"
 
 #, c-format
-msgid "Disk Usage – %s"
-msgstr ""
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "letto %d minuto fa"
+msgstr[1] "letto %d minuti fa"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "letto %d ora fa"
+msgstr[1] "letto %d ore fa"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Ripeti l'analisi per rileggerlo."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "Dimensione _apparente"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Somma le dimensioni dei file invece dello spazio su disco che occupano."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Resta su questa unità"
 
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Non contare altre unità montate in questa cartella (come una cartella di musica su un altro disco). I collegamenti non vengono mai seguiti."
+
+msgid "Rescan"
+msgstr "Ripeti l'analisi"
+
+msgid "Stop"
+msgstr "Ferma"
+
+msgid "Close Disk Usage"
+msgstr "Chiudi Utilizzo del disco"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Ripeti l'analisi"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Ferma"
 
 msgid "Share"
 msgstr "Condivisione"
 
 msgid "Files"
-msgstr ""
-
-msgid "read less than a minute ago"
-msgstr ""
+msgstr "File"
 
 #, c-format
-msgid "read %d minute ago"
-msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-
-#, c-format
-msgid "read %d hour ago"
-msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
-
-#, c-format
-msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgid "Disk Usage – %s"
+msgstr "Utilizzo del disco – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "«%s» esiste già. Sostituirlo?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu di questi file esistono già. Sostituirli?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Il programma da cui stai salvando sovrascriverà il contenuto esistente."
 
 msgid "Replace"
 msgstr "Sostituisci"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Scegli una cartella in cui salvare."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Seleziona cartella"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Apri file"
 
 msgid "Open File"
-msgstr ""
+msgstr "Apri file"
 
 msgid "Save File"
-msgstr ""
+msgstr "Salva file"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Salva file"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Cartella:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Nome:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Tipo:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Seleziona"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Apri"
 
 msgid "New Folder"
 msgstr "Nuova cartella"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Crea una nuova cartella in:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "C_rea"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Impossibile creare la cartella."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu elementi selezionati"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Contenuto:"
 
 msgid "Size:"
 msgstr "Dimensione:"
@@ -961,10 +1113,10 @@ msgid "Folder"
 msgstr "Cartella"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Contiene:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Conteggio…"
 
 msgid "Unknown"
 msgstr "Sconosciuto"
@@ -993,64 +1145,70 @@ msgstr "Gruppo:"
 msgid "Dimensions:"
 msgstr "Dimensioni:"
 
-msgid "Duration:"
-msgstr "Durata:"
-
 msgid "Broken Link"
-msgstr ""
+msgstr "Collegamento interrotto"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (collegamento)"
+
+msgid "other drive"
+msgstr "altra unità"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s di %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s rimanenti"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d di %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Operazioni sui file in corso"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Nessuna sottocartella"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Seleziona i file indicati nelle loro cartelle"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Apri la finestra in vista divisa"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Apri sempre una nuova finestra"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Resta in esecuzione in background per il servizio D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Stacca dal terminale (senza posizione: apri la cartella attuale)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Esegui il selettore di file per xdg-desktop-portal (avviato da D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Mostra la versione"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[FILE o CARTELLA…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Stai agendo come amministratore: le modifiche in questa finestra possono danneggiare il sistema."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Chiudere questa finestra?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Questa finestra ha %zu schede aperte. Chiudendola si chiudono tutte."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Chiudi finestra"
 
 msgid "View Settings"
 msgstr "Impostazioni di visualizzazione"
@@ -1068,79 +1226,79 @@ msgid "Show in Groups"
 msgstr "Mostra in gruppi"
 
 msgid "_File"
-msgstr ""
+msgstr "_File"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Nuova _finestra"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Nuova _scheda"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Chiudi scheda"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Crea _nuovo"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Rinomina…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Duplica qui"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Sposta nel _cestino"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Elimina"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Ripristina dal cestino"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Proprietà"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Esci"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Modifica"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Annulla"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Rifai"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Taglia"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Copia"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Incolla"
 
 msgid "Filter…"
 msgstr "Filtro…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Cerca…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Seleziona _tutto"
 
 msgid "_View"
-msgstr ""
+msgstr "_Visualizza"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Ingrandisci"
 
 msgid "Reset Zoom Level"
 msgstr "Ripristina livello di zoom"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Rimpicciolisci"
 
 msgid "Show Additional Information"
 msgstr "Mostra informazioni aggiuntive"
@@ -1155,10 +1313,7 @@ msgid "Adjust View Display Style…"
 msgstr "Regola lo stile di visualizzazione della vista…"
 
 msgid "Re_load"
-msgstr ""
-
-msgid "Stop"
-msgstr "Ferma"
+msgstr "Ri_carica"
 
 msgid "Panels"
 msgstr "Pannelli"
@@ -1170,157 +1325,163 @@ msgid "Location Bar"
 msgstr "Barra della posizione"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Mostra la barra dei _menu"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Mostra la barra degli _strumenti"
+
+msgid "Show _Statusbar"
+msgstr "Mostra la barra di _stato"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Vai"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Indietro"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Avanti"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Su"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Home"
 
 msgid "Recently Closed Tabs"
 msgstr "Schede chiuse di recente"
 
 msgid "_Tools"
-msgstr ""
+msgstr "S_trumenti"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Apri _terminale"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Apri terminale _qui"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Utilizzo del disco…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "Imp_ostazioni"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Configura Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Nessuna scheda chiusa di recente"
+
+msgid "(Administrator)"
+msgstr "(Amministratore)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Aprire %zu cartelle in nuove schede?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Apri cartelle"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "Impossibile aprire «%s»."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Impossibile aprire un terminale."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Nuovo file di testo.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Nuovo file"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Svuotare il cestino?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Tutti gli elementi nel cestino saranno eliminati definitivamente. L'operazione non può essere annullata."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Aprire %zu terminali?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Apri terminali"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Crea un nuovo file in:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Impossibile creare il file."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Collegamento a file o cartella"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Percorso del file o della cartella da collegare:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Impossibile creare il collegamento."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Eliminare definitivamente %s?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "L'operazione non può essere annullata."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Spostare %s nel cestino?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "Impossibile eseguire «%s»."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "Impossibile avviare %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Impossibile avviare l'applicazione."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "«%s» è un file eseguibile."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Vuoi eseguirlo o aprirlo in un'applicazione?"
 
 msgid "Run"
-msgstr ""
+msgstr "Esegui"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Scegli l'applicazione per aprire %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Applicazioni consigliate"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Altre applicazioni"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Oppure comando:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Ricorda l'associazione dell'applicazione per questo tipo di file"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s liberi su %s"
 
 msgid "Safely Remove"
 msgstr "Rimuovi in sicurezza"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Impossibile montare il dispositivo: %s"
 
 msgid "Mount"
 msgstr "Monta"
@@ -1347,31 +1508,31 @@ msgid "Add Entry…"
 msgstr "Aggiungi voce…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Nascondi le voci nascoste"
 
 msgid "Show All Entries"
 msgstr "Mostra tutte le voci"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Tutti gli elementi nel cestino saranno eliminati definitivamente."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Impossibile rimuovere il dispositivo in sicurezza: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Impossibile smontare il dispositivo: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Usa il _carattere di sistema"
 
 msgid "View font:"
-msgstr ""
+msgstr "Carattere della vista:"
 
 msgid "Icon size:"
 msgstr "Dimensione delle icone:"
@@ -1380,7 +1541,7 @@ msgid "Preview size:"
 msgstr "Dimensione delle anteprime:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Azione del menu contestuale"
 
 msgid "Name:"
 msgstr "Nome:"
@@ -1392,40 +1553,40 @@ msgid "File names:"
 msgstr "Nomi dei file:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Tipi:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f primo file, %F tutti i file, %u / %U come URI, %n / %N nomi, %d cartella attuale."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Mostra per i _file"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Mostra per le c_artelle"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Mostra quando sono selezionati _più elementi"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Esegui in un _terminale"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Azioni personalizzate"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Voci personali per il menu contestuale di file e cartelle."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Aggiungi…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Modifica…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Rimuovi"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Le scorciatoie si scrivono come <Control>c o <Shift>Delete. Separane più di una con virgole. Lascia un campo vuoto per usare quella predefinita."
 
 msgid "General"
 msgstr "Generale"
@@ -1434,132 +1595,132 @@ msgid "Startup"
 msgstr "Avvio"
 
 msgid "_Home folder:"
-msgstr ""
+msgstr "Cartella _home:"
 
 msgid "_Remember open folders and tabs"
-msgstr ""
+msgstr "_Ricorda le cartelle e le schede aperte"
 
 msgid "Begin in _split view mode"
-msgstr ""
+msgstr "Inizia in vista _divisa"
 
 msgid "Show _filter bar"
-msgstr ""
+msgstr "Mostra la barra del _filtro"
 
 msgid "Make location bar _editable"
-msgstr ""
+msgstr "Rendi _modificabile la barra degli indirizzi"
 
 msgid "Show full path inside _location bar"
-msgstr ""
+msgstr "Mostra il percorso completo nella barra degli _indirizzi"
 
 msgid "Show full path in _title bar"
-msgstr ""
+msgstr "Mostra il percorso completo nella barra del _titolo"
 
 msgid "Mouse"
-msgstr ""
+msgstr "Mouse"
 
 msgid "These used to be KDE system settings."
-msgstr ""
+msgstr "Un tempo erano impostazioni di sistema di KDE."
 
 msgid "Clicking files or folders:"
-msgstr ""
+msgstr "Clic su file o cartelle:"
 
 msgid "Selects them (double-click opens)"
-msgstr ""
+msgstr "Li seleziona (il doppio clic apre)"
 
 msgid "Opens them"
-msgstr ""
+msgstr "Li apre"
 
 msgid "Double-clicking empty space:"
-msgstr ""
+msgstr "Doppio clic su uno spazio vuoto:"
 
 msgid "Does nothing"
-msgstr ""
+msgstr "Non fa nulla"
 
 msgid "Selects all items"
-msgstr ""
+msgstr "Seleziona tutti gli elementi"
 
 msgid "Goes up"
-msgstr ""
+msgstr "Sale di un livello"
 
 msgid "Opens a new tab"
-msgstr ""
+msgstr "Apre una nuova scheda"
 
 msgid "Toggles hidden files"
-msgstr ""
+msgstr "Mostra o nasconde i file nascosti"
 
 msgid "Tabs and Split View"
-msgstr ""
+msgstr "Schede e vista divisa"
 
 msgid "Open new tabs after the _last tab"
-msgstr ""
+msgstr "Apri le nuove schede dopo l'_ultima"
 
 msgid "_Always show the tab bar"
-msgstr ""
+msgstr "Mostra _sempre la barra delle schede"
 
 msgid "Show _close buttons on tabs"
-msgstr ""
+msgstr "Mostra i pulsanti di _chiusura sulle schede"
 
 msgid "Open folders from other applications in a new _tab"
-msgstr ""
+msgstr "Apri le cartelle da altre applicazioni in una nuova _scheda"
 
 msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
+msgstr "Apri gli _archivi come cartelle (zip, tar, 7z, rar, ISO)"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Mantieni un _indice della cartella home per la ricerca istantanea"
 
 msgid "Closing split view closes:"
-msgstr ""
+msgstr "Chiudere la vista divisa chiude:"
 
 msgid "The active view"
-msgstr ""
+msgstr "La vista attiva"
 
 msgid "The inactive view"
-msgstr ""
+msgstr "La vista inattiva"
 
 msgid "The right view"
-msgstr ""
+msgstr "La vista di destra"
 
 msgid "Behavior"
 msgstr "Comportamento"
 
 msgid "Rename single items _inline"
-msgstr ""
+msgstr "Rinomina i singoli elementi _sul posto"
 
 msgid "Show selection _marker"
-msgstr ""
+msgstr "Mostra l'indicatore di _selezione"
 
 msgid "Show item information on _hover"
-msgstr ""
+msgstr "Mostra le informazioni dell'elemento al _passaggio del mouse"
 
 msgid "Open folders while _dragging items over them"
-msgstr ""
+msgstr "Apri le cartelle _trascinandovi sopra degli elementi"
 
 msgid "Terminal"
 msgstr "Terminale"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Usato da F4 e Apri terminale qui. %d nel comando viene sostituito dalla cartella; altrimenti il terminale si avvia in essa. Un tempo era un'impostazione di sistema di KDE."
 
 msgid "Terminal _command:"
-msgstr ""
+msgstr "_Comando del terminale:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Nessun terminale trovato"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Rilevato: %s"
 
 msgid "View"
 msgstr "Visualizza"
 
 msgid "Use the same display style for _all folders"
-msgstr ""
+msgstr "Usa lo stesso stile di visualizzazione per _tutte le cartelle"
 
 msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
+msgstr "Se disattivato, ogni cartella ricorda il proprio stile. In entrambi i casi, Visualizza › Ricorda la vista per questa cartella dà a una cartella il proprio stile."
 
 msgid "Natural"
 msgstr "Naturale"
@@ -1574,46 +1735,46 @@ msgid "Folder size:"
 msgstr "Dimensione della cartella:"
 
 msgid "Number of items"
-msgstr ""
+msgstr "Numero di elementi"
 
 msgid "Size of contents"
-msgstr ""
+msgstr "Dimensione del contenuto"
 
 msgid "None"
 msgstr "Nessuna"
 
 msgid "Folder size depth limit:"
-msgstr ""
+msgstr "Profondità massima per la dimensione delle cartelle:"
 
 msgid "Dates:"
-msgstr ""
+msgstr "Date:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relative (Oggi, Ieri…)"
 
 msgid "Short"
-msgstr ""
+msgstr "Brevi"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Simbolico (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numerico (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Combinato"
 
 msgid "Shorten long names:"
-msgstr ""
+msgstr "Accorcia i nomi lunghi:"
 
 msgid "At the end"
-msgstr ""
+msgstr "Alla fine"
 
 msgid "In the middle"
-msgstr ""
+msgstr "Nel mezzo"
 
 msgid "Hide _backup files (ending in ~)"
-msgstr ""
+msgstr "Nascondi i file di _backup (che finiscono con ~)"
 
 msgid "Label width:"
 msgstr "Larghezza delle etichette:"
@@ -1631,88 +1792,91 @@ msgid "Huge"
 msgstr "Enorme"
 
 msgid "Maximum label lines (0: no limit):"
-msgstr ""
+msgstr "Righe massime dell'etichetta (0: nessun limite):"
 
 msgid "Co_mpact spacing"
-msgstr ""
+msgstr "Spaziatura _compatta"
 
 msgid "Maximum label width:"
-msgstr ""
+msgstr "Larghezza massima dell'etichetta:"
 
 msgid "Unlimited"
 msgstr "Illimitato"
 
 msgid "E_xpandable folders"
-msgstr ""
+msgstr "Cartelle _espandibili"
 
 msgid "Highlight the entire _row"
-msgstr ""
+msgstr "Evidenzia l'intera _riga"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Mostra una colonna _Utilizzo del disco"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Lo spazio che ogni file e ogni intera cartella occupa su disco, con una barra per la sua quota della cartella, come Strumenti › Utilizzo del disco. Le cartelle vengono lette per intero in background; ordina per la colonna per vedere prima le più grandi. «Resta su questa unità» della finestra Utilizzo del disco vale anche qui."
 
 msgid "Previews"
 msgstr "Anteprime"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Mostra le _anteprime nelle nuove cartelle"
 
 msgid "Show previews for"
 msgstr "Mostra anteprime per"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Audio (copertina)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Documenti PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "File di testo"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Caratteri"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Documenti d'ufficio"
 
 msgid "Limits"
-msgstr ""
+msgstr "Limiti"
 
 msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgstr "Salta i file locali più grandi di (MiB, 0: nessun limite):"
 
 msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgstr "File remoti fino a (MiB, 0: mai):"
 
 msgid "Confirmations"
 msgstr "Conferme"
 
 msgid "Ask for confirmation when"
-msgstr ""
+msgstr "Chiedi conferma quando"
 
 msgid "Moving files or folders to the _trash"
-msgstr ""
+msgstr "Si spostano file o cartelle nel _cestino"
 
 msgid "_Deleting files or folders"
-msgstr ""
+msgstr "Si _eliminano file o cartelle"
 
 msgid "_Emptying the trash"
-msgstr ""
+msgstr "Si _svuota il cestino"
 
 msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgstr "Si chiudono finestre con _più schede"
 
 msgid "Opening many _folders at once"
-msgstr ""
+msgstr "Si aprono molte _cartelle insieme"
 
 msgid "Opening many t_erminals at once"
-msgstr ""
+msgstr "Si aprono molti t_erminali insieme"
 
 msgid "Renaming changes a file's _type"
-msgstr ""
+msgstr "Una rinomina cambia il _tipo di un file"
+
+msgid "Acting as _administrator"
+msgstr "Si agisce come _amministratore"
 
 msgid "When opening an executable file:"
 msgstr "All'apertura di un file eseguibile:"
@@ -1721,13 +1885,13 @@ msgid "Always ask"
 msgstr "Chiedi sempre"
 
 msgid "Open in an application"
-msgstr ""
+msgstr "Apri in un'applicazione"
 
 msgid "Run it"
-msgstr ""
+msgstr "Eseguilo"
 
 msgid "Bars and Panels"
-msgstr ""
+msgstr "Barre e pannelli"
 
 msgid "Status Bar"
 msgstr "Barra di stato"
@@ -1736,7 +1900,7 @@ msgid "Status bar:"
 msgstr "Barra di stato:"
 
 msgid "Small (shows only when hovering or selecting)"
-msgstr ""
+msgstr "Piccola (visibile solo al passaggio del mouse o selezionando)"
 
 msgid "Full width"
 msgstr "Larghezza intera"
@@ -1745,103 +1909,103 @@ msgid "Hidden"
 msgstr "Nascosto"
 
 msgid "Show _zoom slider"
-msgstr ""
+msgstr "Mostra il cursore dello _zoom"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Mostra lo spazio _libero"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Mostra le cartelle _nascoste"
 
 msgid "Limit to the home folder when inside it"
-msgstr ""
+msgstr "Limita alla cartella home quando ci si trova dentro"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Scorri _automaticamente alla cartella attuale"
 
 msgid "Play media files _automatically"
-msgstr ""
+msgstr "Riproduci i file multimediali _automaticamente"
 
 msgid "Show the _hovered item"
-msgstr ""
+msgstr "Mostra l'elemento sotto il _mouse"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Usa il formato di data _lungo"
 
 msgid "Context Menu"
 msgstr "Menu contestuale"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Mostra nel menu contestuale"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "«Copia in» e «Sposta in»"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Elimina (oltre a Sposta nel cestino)"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Un tempo erano impostazioni di sistema di KDE. I limiti si applicano all'avvio di Beluga e dopo lo spostamento di elementi nel cestino."
 
 msgid "_Delete items that have been in the trash longer than:"
-msgstr ""
+msgstr "_Elimina gli elementi nel cestino da più di:"
 
 msgid "Days:"
-msgstr ""
+msgstr "Giorni:"
 
 msgid "_Limit the trash to a share of the disk:"
-msgstr ""
+msgstr "_Limita il cestino a una quota del disco:"
 
 msgid "Percent of the disk:"
-msgstr ""
+msgstr "Percentuale del disco:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Al raggiungimento del limite:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Mostra un avviso"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Elimina gli elementi più vecchi"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Elimina gli elementi più grandi"
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Calcolo della dimensione del cestino…"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Il cestino occupa attualmente %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Svuota il cestino ora"
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Scorciatoie da tastiera"
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu elementi"
 
 msgid "Calculating…"
 msgstr "Calcolo in corso…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Nessuna applicazione predefinita"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Cambia…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Si apre con:"
 
 msgid "Free space:"
 msgstr "Spazio libero:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s liberi su %s (%d%% usato)"
 
 #, c-format
 msgid "%llu byte"
@@ -1853,13 +2017,13 @@ msgid "Forbidden"
 msgstr "Vietato"
 
 msgid "Can View"
-msgstr ""
+msgstr "Può vedere"
 
 msgid "Can View & Modify"
 msgstr "Visibile e modificabile"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Può vedere il contenuto"
 
 msgid "Can View & Modify Content"
 msgstr "Contenuto visibile e modificabile"
@@ -1868,10 +2032,10 @@ msgid "Others:"
 msgstr "Altri:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "È _eseguibile"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Applica le modifiche a tutte le _sottocartelle e al loro contenuto"
 
 msgid "User:"
 msgstr "Utente:"
@@ -1883,22 +2047,22 @@ msgid "Calculate"
 msgstr "Calcola"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Impossibile leggere il file."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Incolla un codice di controllo da confrontare"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Verifica:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "I codici di controllo corrispondono."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Nessun codice di controllo calcolato corrisponde. Calcola prima il tipo corrispondente."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Impossibile cambiare i permessi."
 
 #, c-format
 msgid "Properties for %s"
@@ -1911,19 +2075,19 @@ msgid "Filter:"
 msgstr "Filtro:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Filtra per nome (funzionano caratteri jolly come *.txt)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Mantieni il filtro cambiando cartella"
 
 msgid "Search…"
 msgstr "Cerca…"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "In questa cartella"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Nei tuoi file"
 
 msgid "Everywhere"
 msgstr "Ovunque"
@@ -1935,22 +2099,22 @@ msgid "File Names and Contents"
 msgstr "Nomi e contenuti dei file"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Qualsiasi momento"
 
 msgid "Today"
 msgstr "Oggi"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Ultimi 7 giorni"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Ultimi 30 giorni"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Ultimo anno"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "File nascosti"
 
 msgid "Zoom"
 msgstr "Ingrandimento"
@@ -1960,7 +2124,7 @@ msgid "%s free"
 msgstr "%s liberi"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Duplica scheda"
 
 msgid "Detach Tab"
 msgstr "Sgancia scheda"
@@ -1969,7 +2133,7 @@ msgid "Close Other Tabs"
 msgstr "Chiudi altre schede"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Mostra colonne"
 
 #, c-format
 msgid "Size: %s"
@@ -1977,11 +2141,11 @@ msgstr "Dimensione: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Modificato: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Posizione originale: %s"
 
 msgid "Yesterday"
 msgstr "Ieri"
@@ -2008,19 +2172,19 @@ msgid "Big"
 msgstr "Grande"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Meno di 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "Da 1 MiB a 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "Da 100 MiB a 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB o più"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Non ancora conteggiato"
 
 msgid "Searching…"
 msgstr "Ricerca in corso…"
@@ -2029,7 +2193,7 @@ msgid "No items matching the filter"
 msgstr "Nessun elemento corrispondente al filtro"
 
 msgid "No items found"
-msgstr ""
+msgstr "Nessun elemento trovato"
 
 msgid "Trash is empty"
 msgstr "Il cestino è vuoto"
@@ -2038,38 +2202,38 @@ msgid "Folder is empty"
 msgstr "La cartella è vuota"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Un nome di file non può contenere «/»."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Rinominare «%s» in «%s» ne cambia l'estensione. Il file potrebbe aprirsi con un'altra applicazione o non aprirsi affatto."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Modalità di selezione: fai clic su file o cartelle per selezionarli o deselezionarli."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Esci dalla modalità di selezione"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Duplica"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Elimina"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "Pr_oprietà"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "La cartella «%s» non esiste più."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "«%s» selezionato (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s selezionato"
 
 msgid "Loading folder…"
 msgstr "Caricamento cartella…"
@@ -2077,5 +2241,5 @@ msgstr "Caricamento cartella…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d selezionato"
+msgstr[1] "%d selezionati"

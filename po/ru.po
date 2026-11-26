@@ -30,95 +30,210 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Не удалось открыть архив."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Не удалось прочитать архив."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Отменено."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Этот файл зашифрован паролем."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "Не удалось прочитать «%s»."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Это не файл в архиве."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Распаковать сюда"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Упаковать в .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Эмулятор терминала не найден."
 
 msgid "Root"
-msgstr ""
+msgstr "Корень"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Том %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Это устройство нельзя подключить."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Это устройство нельзя отключить."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Устройство больше недоступно."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Копирование %s в «%s»"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Перемещение %s в «%s»"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Создание ссылки на %s в «%s»"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Перемещение %s в корзину"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Удаление %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Восстановление %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Очистка корзины"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Подсчёт файлов…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "«%s»: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Папку нельзя переместить в саму себя."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Папку нельзя скопировать в саму себя."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Файлы можно распаковать только в локальные папки."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Распаковка из «%s»"
+
+msgid "Title:"
+msgstr "Название:"
+
+msgid "Artist:"
+msgstr "Исполнитель:"
+
+msgid "Album artist:"
+msgstr "Исполнитель альбома:"
+
+msgid "Album:"
+msgstr "Альбом:"
+
+msgid "Track:"
+msgstr "Дорожка:"
+
+msgid "Disc:"
+msgstr "Диск:"
+
+msgid "Date:"
+msgstr "Дата:"
+
+msgid "Genre:"
+msgstr "Жанр:"
+
+msgid "Composer:"
+msgstr "Композитор:"
+
+msgid "Performer:"
+msgstr "Исполнитель:"
+
+msgid "Publisher:"
+msgstr "Издатель:"
+
+msgid "Copyright:"
+msgstr "Авторские права:"
+
+msgid "Comment:"
+msgstr "Комментарий:"
+
+msgid "Description:"
+msgstr "Описание:"
+
+msgid "Language:"
+msgstr "Язык:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Мбит/с"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld кбит/с"
+
+msgid "Duration:"
+msgstr "Длительность:"
+
+msgid "Format:"
+msgstr "Формат:"
+
+msgid "Bit rate:"
+msgstr "Битрейт:"
+
+msgid "Cover:"
+msgstr "Обложка:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ", %.0f кадр/с"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ", %.3f кадр/с"
+
+msgid "Video:"
+msgstr "Видео:"
+
+#, c-format
+msgid "Video %d:"
+msgstr "Видео %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr ", %d Гц"
+
+msgid "mono"
+msgstr "моно"
+
+msgid "stereo"
+msgstr "стерео"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d канал"
+msgstr[1] "%d канала"
+msgstr[2] "%d каналов"
+msgstr[3] "%d канал"
+
+#, c-format
+msgid ", %d bit"
+msgstr ", %d бит"
+
+msgid "Audio:"
+msgstr "Аудио:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "Аудио %d:"
+
+msgid "Subtitles:"
+msgstr "Субтитры:"
+
+msgid "Chapters:"
+msgstr "Главы:"
 
 msgid "Places"
 msgstr "Точки входа"
@@ -166,7 +281,7 @@ msgid "Recent Files"
 msgstr "Последние файлы"
 
 msgid "Images"
-msgstr ""
+msgstr "Изображения"
 
 msgid "Audio"
 msgstr "Аудио"
@@ -175,37 +290,37 @@ msgid "Folders"
 msgstr "Папки"
 
 msgid "Archives"
-msgstr ""
+msgstr "Архивы"
 
 msgid "All Files"
 msgstr "Все файлы"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Поиск «%s»"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Эмулятор терминала не найден. Укажите его в Настроить Beluga › Общие › Терминал."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "В этой файловой системе нет корзины."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Не удалось создать информационный файл корзины."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "«%s» уже существует."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Корзина превышает свой предел в %s. Возможно, её стоит очистить."
 
 msgid "Copy"
 msgstr "Копировать"
 
 msgid "Move"
-msgstr ""
+msgstr "Переместить"
 
 msgid "Link"
 msgstr "Ссылка"
@@ -220,21 +335,21 @@ msgid "Create Folder"
 msgstr "Создать папку"
 
 msgid "Create File"
-msgstr ""
+msgstr "Создать файл"
 
 msgid "Undo"
 msgstr "Отменить"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Отменить: %s"
 
 msgid "Redo"
 msgstr "Повторить"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Повторить: %s"
 
 #, c-format
 msgid "%d item"
@@ -247,18 +362,18 @@ msgstr[3] "%d объект"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d файл"
+msgstr[1] "%d файла"
+msgstr[2] "%d файлов"
+msgstr[3] "%d файл"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d папка"
+msgstr[1] "%d папки"
+msgstr[2] "%d папок"
+msgstr[3] "%d папка"
 
 #, c-format
 msgid "%s, %s"
@@ -266,11 +381,11 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Сегодня в %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Вчера в %s"
 
 msgid "%A at %H:%M"
 msgstr ""
@@ -281,11 +396,11 @@ msgstr "%ld с"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld мин %ld с"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld ч %ld мин"
 
 #, c-format
 msgid "%s copy"
@@ -293,7 +408,7 @@ msgstr "%s (копия)"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s копия %d"
 
 msgid "Name"
 msgstr "Имя"
@@ -302,7 +417,7 @@ msgid "Size"
 msgstr "Размер"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Использование диска"
 
 msgid "Modified"
 msgstr "Дата изменения"
@@ -317,7 +432,7 @@ msgid "Type"
 msgstr "Тип"
 
 msgid "Extension"
-msgstr ""
+msgstr "Расширение"
 
 msgid "Permissions"
 msgstr "Права доступа"
@@ -338,10 +453,28 @@ msgid "Deletion Time"
 msgstr "Дата удаления"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Исходное расположение"
 
 msgid "Dimensions"
 msgstr "Размеры"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga не может действовать от имени администратора."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Для запроса пароля администратора нужен pkexec (polkit). Установите polkit и агент polkit для вашей среды."
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Риски выполнения действий с правами администратора"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Окно Beluga с правами администратора может изменить и удалить любой файл на этом компьютере, включая файлы, нужные системе для загрузки. Ошибка в нём может сделать систему неработоспособной. Используйте его только для файлов, которые нельзя изменить иначе, и закройте по окончании работы.\n\nДалее Beluga запросит пароль администратора."
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Я понимаю и принимаю риски"
 
 msgid "New Window"
 msgstr "Новое окно"
@@ -407,7 +540,7 @@ msgid "Details View"
 msgstr "Таблица"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Режим колонок"
 
 msgid "Zoom In"
 msgstr "Увеличить"
@@ -416,10 +549,13 @@ msgid "Zoom Out"
 msgstr "Уменьшить"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Сбросить масштаб"
 
 msgid "Show Hidden Files"
 msgstr "Показывать скрытые файлы"
+
+msgid "Act as Administrator"
+msgstr "С правами администратора"
 
 msgid "Split View"
 msgstr "Разделение области просмотра"
@@ -428,7 +564,7 @@ msgid "Focus Other View"
 msgstr "Активировать другую панель"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Вынести разделённый вид в окно"
 
 msgid "Split View to Tabs"
 msgstr "Разнести панели по вкладкам"
@@ -443,7 +579,7 @@ msgid "Replace Location"
 msgstr "Изменить путь"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Панель «Точки входа»"
 
 msgid "Folders Panel"
 msgstr "Панель папок"
@@ -451,11 +587,17 @@ msgstr "Панель папок"
 msgid "Information Panel"
 msgstr "Панель сведений"
 
+msgid "Disk Usage Panel"
+msgstr "Панель «Использование диска»"
+
 msgid "Focus Places Panel"
 msgstr "Активировать панель точек входа"
 
 msgid "Show Menubar"
 msgstr "Показать меню"
+
+msgid "Show Statusbar"
+msgstr "Показать строку состояния"
 
 msgid "Back"
 msgstr "Назад"
@@ -467,31 +609,31 @@ msgid "Up"
 msgstr "Вверх"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Перейти на вкладку 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Перейти на вкладку 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Перейти на вкладку 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Перейти на вкладку 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Перейти на вкладку 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Перейти на вкладку 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Перейти на вкладку 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Перейти на вкладку 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Перейти на вкладку 9"
 
 msgid "Go to Last Tab"
 msgstr "Перейти в последнюю вкладку"
@@ -509,29 +651,29 @@ msgid "Open Terminal Here"
 msgstr "Открыть терминал в этой папке"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Настроить Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Не удалось отменить."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Папка…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Текстовый файл…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Пустой файл…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Ссылка на файл или папку…"
 
 msgid "Create New"
 msgstr "Создать"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Другая панель (%s)"
 
 msgid "Browse…"
 msgstr "Просмотр…"
@@ -571,7 +713,7 @@ msgid "View Mode"
 msgstr "Режим просмотра"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Запомнить вид для этой папки"
 
 msgid "Restore"
 msgstr "Восстановить"
@@ -588,11 +730,14 @@ msgstr "Открыть в новом окне"
 msgid "Open in Split View"
 msgstr "Открыть в разделённом окне"
 
+msgid "Open in Beluga"
+msgstr "Открыть в Beluga"
+
 msgid "Open Containing Folder"
 msgstr "Открыть содержащую папку"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Вставить в папку"
 
 msgid "Rename…"
 msgstr "Переименовать…"
@@ -604,68 +749,65 @@ msgid "Close"
 msgstr "Закрыть панель"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Отмена"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Имя не может содержать «/»."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Имя, начинающееся с точки, скрыто."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Некоторые элементы не удалось переименовать."
 
 msgid "Rename Item"
 msgstr "Переименование объекта"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Переименовать «%s» в:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Переименовать"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Не удалось переименовать «%s»."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Изменить тип файла?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
-
-msgid "Cancel"
-msgstr "Отмена"
+msgstr "Переименование «%s» в «%s» меняет его расширение."
 
 msgid "Rename Items"
 msgstr "Переименование объектов"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Переименовать %zu выбранных элементов в:"
 
 msgid "New name #"
 msgstr "Новое имя #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# заменяется возрастающими числами; ## добавляет ведущие нули. Расширения сохраняются."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Начать нумерацию с:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Переместить сюда"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Копировать сюда"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "Создать _ссылку здесь"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "О_тмена"
 
 msgid "Add Places Entry"
 msgstr "Добавить пункт на панель быстрого доступа"
@@ -677,22 +819,22 @@ msgid "Label:"
 msgstr "Название:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Выберите папку"
 
 msgid "Location:"
 msgstr "Расположение:"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Имя значка:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Выберите папку"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Добавить"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Сохранить"
 
 msgid "View Display Style"
 msgstr "Режим просмотра"
@@ -722,19 +864,19 @@ msgid "Descending"
 msgstr "По убыванию"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Показывать _папки первыми"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Показывать скрытые файлы _последними"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Показывать _миниатюры"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Показывать по _группам"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Показывать _скрытые файлы"
 
 msgid "Apply to"
 msgstr "Применить к"
@@ -743,17 +885,17 @@ msgid "Current folder"
 msgstr "текущей папке"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Текущая папка со всеми вложенными папками"
 
 msgid "All folders"
 msgstr "всем папкам"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "изменено %s"
 
 msgid "Folder Already Exists"
 msgstr "Папка уже существует"
@@ -763,35 +905,35 @@ msgstr "Файл уже существует"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Папка с именем «%s» уже существует в «%s»."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Файл с именем «%s» уже существует в «%s»."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Существующий элемент"
 
 msgid "New item"
-msgstr ""
+msgstr "Новый элемент"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Предложить новое имя"
 
 msgid "New name:"
-msgstr ""
+msgstr "Новое имя:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Применить ко _всем"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Пропустить"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Записать внутрь"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Заменить"
 
 msgid "Skip"
 msgstr "Пропустить"
@@ -803,179 +945,191 @@ msgid "Retry"
 msgstr "Повторить"
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Это расположение не является папкой."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Это расположение недопустимо."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Этой папки нет в архиве."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s файл поменьше"
+msgstr[1] "%s файла поменьше"
+msgstr[2] "%s файлов поменьше"
+msgstr[3] "%s файл поменьше"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(другой диск, не учтён)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Часть содержимого не удалось прочитать."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s в файлах"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s на диске"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "Файлов: %s, папок: %s"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Чтение… %s, файлов: %s, папок: %s"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Остановлено."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Не удалось прочитать эту папку."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, прочитано за %.1f с"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] ". Не удалось прочитать %s папку."
+msgstr[1] ". Не удалось прочитать %s папки."
+msgstr[2] ". Не удалось прочитать %s папок."
+msgstr[3] ". Не удалось прочитать %s папку."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Измерять можно только папки на этом компьютере."
+
+msgid "read less than a minute ago"
+msgstr "прочитано меньше минуты назад"
 
 #, c-format
-msgid "Disk Usage – %s"
-msgstr ""
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "прочитано %d минуту назад"
+msgstr[1] "прочитано %d минуты назад"
+msgstr[2] "прочитано %d минут назад"
+msgstr[3] "прочитано %d минуту назад"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "прочитано %d час назад"
+msgstr[1] "прочитано %d часа назад"
+msgstr[2] "прочитано %d часов назад"
+msgstr[3] "прочитано %d час назад"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Нажмите «Пересканировать», чтобы прочитать заново."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Видимый размер"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Складывать размеры файлов вместо места, которое файлы занимают на диске."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Не выходить за пределы диска"
 
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Не учитывать другие диски, подключённые внутри этой папки (например, папку с музыкой на другом диске). По ссылкам переход не выполняется."
+
+msgid "Rescan"
+msgstr "Пересканировать"
+
+msgid "Stop"
+msgstr "Остановить"
+
+msgid "Close Disk Usage"
+msgstr "Закрыть «Использование диска»"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Пересканировать"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Остановить"
 
 msgid "Share"
 msgstr "Публикация"
 
 msgid "Files"
-msgstr ""
-
-msgid "read less than a minute ago"
-msgstr ""
+msgstr "Файлы"
 
 #, c-format
-msgid "read %d minute ago"
-msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#, c-format
-msgid "read %d hour ago"
-msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#, c-format
-msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgid "Disk Usage – %s"
+msgstr "Использование диска – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "«%s» уже существует. Заменить?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "Файлов, которые уже существуют: %zu. Заменить их?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Программа, из которой выполняется сохранение, перезапишет существующее содержимое."
 
 msgid "Replace"
 msgstr "Заменить"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Выберите папку для сохранения."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Выбрать папку"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Открыть файлы"
 
 msgid "Open File"
-msgstr ""
+msgstr "Открыть файл"
 
 msgid "Save File"
-msgstr ""
+msgstr "Сохранить файл"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Сохранить файлы"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Папка:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Имя:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Тип:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Выбрать"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Открыть"
 
 msgid "New Folder"
 msgstr "Новая папка"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Создать новую папку в:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Создать"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Не удалось создать папку."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "Выбрано элементов: %zu"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Содержимое:"
 
 msgid "Size:"
 msgstr "Размер:"
@@ -987,10 +1141,10 @@ msgid "Folder"
 msgstr "Папка"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Содержит:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Подсчёт…"
 
 msgid "Unknown"
 msgstr "Не определён"
@@ -1019,64 +1173,70 @@ msgstr "Группа:"
 msgid "Dimensions:"
 msgstr "Размеры:"
 
-msgid "Duration:"
-msgstr "Длительность:"
-
 msgid "Broken Link"
-msgstr ""
+msgstr "Битая ссылка"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (ссылка)"
+
+msgid "other drive"
+msgstr "другой диск"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s из %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "осталось %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d из %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Выполняются операции с файлами"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Нет вложенных папок"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Выделить указанные файлы в их папках"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Открыть окно в разделённом виде"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Всегда открывать новое окно"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Работать в фоне для службы D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Отсоединиться от терминала (без расположения: открыть текущую папку)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Запустить диалог выбора файлов для xdg-desktop-portal (запускается D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Показать версию"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[ФАЙЛ или ПАПКА…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Вы действуете как администратор: изменения в этом окне могут повредить систему."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Закрыть это окно?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "В этом окне открыто вкладок: %zu. При закрытии окна закроются все."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Закрыть окно"
 
 msgid "View Settings"
 msgstr "Настройка просмотра"
@@ -1094,79 +1254,79 @@ msgid "Show in Groups"
 msgstr "Группировать"
 
 msgid "_File"
-msgstr ""
+msgstr "_Файл"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Новое _окно"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Новая _вкладка"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Закрыть вкладку"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Созд_ать"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Переименовать…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Дублировать здесь"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Переместить в _корзину"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Удалить"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Восстановить из корзины"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Свойства"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Выход"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Правка"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Отменить"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Повторить"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Вырезать"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Копировать"
 
 msgid "_Paste"
-msgstr ""
+msgstr "Вст_авить"
 
 msgid "Filter…"
 msgstr "Фильтр…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Найти…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Выделить _всё"
 
 msgid "_View"
-msgstr ""
+msgstr "_Вид"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Увеличить"
 
 msgid "Reset Zoom Level"
 msgstr "Восстановить масштаб"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "У_меньшить"
 
 msgid "Show Additional Information"
 msgstr "Показывать дополнительные сведения"
@@ -1181,10 +1341,7 @@ msgid "Adjust View Display Style…"
 msgstr "Настроить режим просмотра…"
 
 msgid "Re_load"
-msgstr ""
-
-msgid "Stop"
-msgstr "Остановить"
+msgstr "_Обновить"
 
 msgid "Panels"
 msgstr "Панели"
@@ -1196,157 +1353,163 @@ msgid "Location Bar"
 msgstr "Строка адреса"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Показать _меню"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Показать панель _инструментов"
+
+msgid "Show _Statusbar"
+msgstr "Показать строку _состояния"
 
 msgid "_Go"
-msgstr ""
+msgstr "П_ерейти"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Назад"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Вперёд"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Вверх"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Домашняя папка"
 
 msgid "Recently Closed Tabs"
 msgstr "Недавно закрытые вкладки"
 
 msgid "_Tools"
-msgstr ""
+msgstr "С_ервис"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Открыть _терминал"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Открыть терминал _здесь"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Использование диска…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Настройка"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Настроить Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Нет недавно закрытых вкладок"
+
+msgid "(Administrator)"
+msgstr "(Администратор)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Открыть папки (%zu) в новых вкладках?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Открыть папки"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "Не удалось открыть «%s»."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Не удалось открыть терминал."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Новый текстовый файл.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Новый файл"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Очистить корзину?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Все элементы в корзине будут удалены безвозвратно. Это действие нельзя отменить."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Открыть терминалы (%zu)?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Открыть терминалы"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Создать новый файл в:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Не удалось создать файл."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Ссылка на файл или папку"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Путь к файлу или папке, на которые указывает ссылка:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Не удалось создать ссылку."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Удалить %s безвозвратно?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Это действие нельзя отменить."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Переместить %s в корзину?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "Не удалось запустить «%s»."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "Не удалось запустить %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Не удалось запустить приложение."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "«%s» — исполняемый файл."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Запустить его или открыть в приложении?"
 
 msgid "Run"
-msgstr ""
+msgstr "Запустить"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Выберите приложение для открытия %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Рекомендуемые приложения"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Другие приложения"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Или команда:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Запомнить связь приложения с этим типом файлов"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "Свободно %s из %s"
 
 msgid "Safely Remove"
 msgstr "Безопасно извлечь"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Не удалось подключить устройство: %s"
 
 msgid "Mount"
 msgstr "Подключить"
@@ -1373,31 +1536,31 @@ msgid "Add Entry…"
 msgstr "Добавить…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Скрыть скрытые элементы"
 
 msgid "Show All Entries"
 msgstr "Показать все"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Все элементы в корзине будут удалены безвозвратно."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Не удалось безопасно извлечь устройство: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Не удалось отключить устройство: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d пикс."
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Использовать _системный шрифт"
 
 msgid "View font:"
-msgstr ""
+msgstr "Шрифт просмотра:"
 
 msgid "Icon size:"
 msgstr "Размер значков:"
@@ -1406,7 +1569,7 @@ msgid "Preview size:"
 msgstr "Размер миниатюр:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Действие контекстного меню"
 
 msgid "Name:"
 msgstr "Имя:"
@@ -1418,40 +1581,40 @@ msgid "File names:"
 msgstr "Именам файлов:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Типы:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f первый файл, %F все файлы, %u / %U как URI, %n / %N имена, %d текущая папка."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Показывать для _файлов"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Показывать для _папок"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Показывать, когда выбрано _несколько элементов"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Запускать в _терминале"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Свои действия"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Ваши собственные пункты контекстного меню файлов и папок."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Добавить…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Изменить…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Удалить"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Комбинации клавиш записываются как <Control>c или <Shift>Delete. Несколько разделяйте запятыми. Пустое поле — комбинация по умолчанию."
 
 msgid "General"
 msgstr "Общие"
@@ -1460,132 +1623,132 @@ msgid "Startup"
 msgstr "Запуск"
 
 msgid "_Home folder:"
-msgstr ""
+msgstr "_Домашняя папка:"
 
 msgid "_Remember open folders and tabs"
-msgstr ""
+msgstr "_Запоминать открытые папки и вкладки"
 
 msgid "Begin in _split view mode"
-msgstr ""
+msgstr "Начинать в _разделённом виде"
 
 msgid "Show _filter bar"
-msgstr ""
+msgstr "Показывать панель _фильтра"
 
 msgid "Make location bar _editable"
-msgstr ""
+msgstr "Сделать адресную строку _редактируемой"
 
 msgid "Show full path inside _location bar"
-msgstr ""
+msgstr "Показывать полный путь в _адресной строке"
 
 msgid "Show full path in _title bar"
-msgstr ""
+msgstr "Показывать полный путь в _заголовке окна"
 
 msgid "Mouse"
-msgstr ""
+msgstr "Мышь"
 
 msgid "These used to be KDE system settings."
-msgstr ""
+msgstr "Раньше это были системные настройки KDE."
 
 msgid "Clicking files or folders:"
-msgstr ""
+msgstr "Щелчок по файлам или папкам:"
 
 msgid "Selects them (double-click opens)"
-msgstr ""
+msgstr "Выделяет их (двойной щелчок открывает)"
 
 msgid "Opens them"
-msgstr ""
+msgstr "Открывает их"
 
 msgid "Double-clicking empty space:"
-msgstr ""
+msgstr "Двойной щелчок по пустому месту:"
 
 msgid "Does nothing"
-msgstr ""
+msgstr "Ничего не делает"
 
 msgid "Selects all items"
-msgstr ""
+msgstr "Выделяет все элементы"
 
 msgid "Goes up"
-msgstr ""
+msgstr "Переходит вверх"
 
 msgid "Opens a new tab"
-msgstr ""
+msgstr "Открывает новую вкладку"
 
 msgid "Toggles hidden files"
-msgstr ""
+msgstr "Переключает скрытые файлы"
 
 msgid "Tabs and Split View"
-msgstr ""
+msgstr "Вкладки и разделённый вид"
 
 msgid "Open new tabs after the _last tab"
-msgstr ""
+msgstr "Открывать новые вкладки после _последней"
 
 msgid "_Always show the tab bar"
-msgstr ""
+msgstr "_Всегда показывать панель вкладок"
 
 msgid "Show _close buttons on tabs"
-msgstr ""
+msgstr "Показывать кнопки _закрытия на вкладках"
 
 msgid "Open folders from other applications in a new _tab"
-msgstr ""
+msgstr "Открывать папки из других приложений в новой _вкладке"
 
 msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
-msgstr ""
+msgstr "Открывать _архивы как папки (zip, tar, 7z, rar, ISO)"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Вести _индекс домашней папки для мгновенного поиска"
 
 msgid "Closing split view closes:"
-msgstr ""
+msgstr "Закрытие разделённого вида закрывает:"
 
 msgid "The active view"
-msgstr ""
+msgstr "Активную панель"
 
 msgid "The inactive view"
-msgstr ""
+msgstr "Неактивную панель"
 
 msgid "The right view"
-msgstr ""
+msgstr "Правую панель"
 
 msgid "Behavior"
 msgstr "Поведение"
 
 msgid "Rename single items _inline"
-msgstr ""
+msgstr "Переименовывать один элемент _на месте"
 
 msgid "Show selection _marker"
-msgstr ""
+msgstr "Показывать _значок выделения"
 
 msgid "Show item information on _hover"
-msgstr ""
+msgstr "Показывать сведения об элементе при _наведении"
 
 msgid "Open folders while _dragging items over them"
-msgstr ""
+msgstr "Открывать папки при _перетаскивании на них элементов"
 
 msgid "Terminal"
 msgstr "Терминал"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Используется F4 и «Открыть терминал здесь». %d в команде заменяется папкой; иначе терминал запускается в ней. Раньше это была системная настройка KDE."
 
 msgid "Terminal _command:"
-msgstr ""
+msgstr "_Команда терминала:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Терминал не найден"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Обнаружено: %s"
 
 msgid "View"
 msgstr "Вид"
 
 msgid "Use the same display style for _all folders"
-msgstr ""
+msgstr "Использовать один стиль отображения для _всех папок"
 
 msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
+msgstr "Если выключено, каждая папка запоминает свой стиль. В любом случае «Вид › Запомнить вид для этой папки» даёт папке собственный стиль."
 
 msgid "Natural"
 msgstr "Естественная алфавитно-числовая сортировка"
@@ -1600,46 +1763,46 @@ msgid "Folder size:"
 msgstr "Размер папок:"
 
 msgid "Number of items"
-msgstr ""
+msgstr "Количество элементов"
 
 msgid "Size of contents"
-msgstr ""
+msgstr "Размер содержимого"
 
 msgid "None"
 msgstr "Отсутствует"
 
 msgid "Folder size depth limit:"
-msgstr ""
+msgstr "Предел глубины для размера папок:"
 
 msgid "Dates:"
-msgstr ""
+msgstr "Даты:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Относительные (Сегодня, Вчера…)"
 
 msgid "Short"
-msgstr ""
+msgstr "Краткие"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Символьно (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Числом (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Вместе"
 
 msgid "Shorten long names:"
-msgstr ""
+msgstr "Сокращать длинные имена:"
 
 msgid "At the end"
-msgstr ""
+msgstr "В конце"
 
 msgid "In the middle"
-msgstr ""
+msgstr "В середине"
 
 msgid "Hide _backup files (ending in ~)"
-msgstr ""
+msgstr "Скрывать _резервные копии (оканчиваются на ~)"
 
 msgid "Label width:"
 msgstr "Ширина надписей:"
@@ -1657,88 +1820,91 @@ msgid "Huge"
 msgstr "Огромная"
 
 msgid "Maximum label lines (0: no limit):"
-msgstr ""
+msgstr "Наибольшее число строк подписи (0: без ограничения):"
 
 msgid "Co_mpact spacing"
-msgstr ""
+msgstr "_Компактные отступы"
 
 msgid "Maximum label width:"
-msgstr ""
+msgstr "Наибольшая ширина подписи:"
 
 msgid "Unlimited"
 msgstr "Не ограничено"
 
 msgid "E_xpandable folders"
-msgstr ""
+msgstr "_Раскрываемые папки"
 
 msgid "Highlight the entire _row"
-msgstr ""
+msgstr "Выделять всю _строку"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Показывать столбец «_Использование диска»"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Место, которое каждый файл и каждая папка целиком занимают на диске, с полосой доли в папке, как «Сервис › Использование диска». Папки читаются целиком в фоне; отсортируйте по столбцу, чтобы увидеть самые большие первыми. Параметр «Не выходить за пределы диска» из окна «Использование диска» действует и здесь."
 
 msgid "Previews"
 msgstr "Миниатюры"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Показывать _миниатюры в новых папках"
 
 msgid "Show previews for"
 msgstr "Показывать миниатюры"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Аудио (обложка)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Документы PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "Текстовые файлы"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Шрифты"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Офисные документы"
 
 msgid "Limits"
-msgstr ""
+msgstr "Ограничения"
 
 msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgstr "Пропускать локальные файлы больше (МиБ, 0: без ограничения):"
 
 msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgstr "Удалённые файлы до (МиБ, 0: никогда):"
 
 msgid "Confirmations"
 msgstr "Подтверждения"
 
 msgid "Ask for confirmation when"
-msgstr ""
+msgstr "Спрашивать подтверждение при"
 
 msgid "Moving files or folders to the _trash"
-msgstr ""
+msgstr "Перемещении файлов или папок в _корзину"
 
 msgid "_Deleting files or folders"
-msgstr ""
+msgstr "_Удалении файлов или папок"
 
 msgid "_Emptying the trash"
-msgstr ""
+msgstr "_Очистке корзины"
 
 msgid "Closing windows with _multiple tabs"
-msgstr ""
+msgstr "Закрытии окон с _несколькими вкладками"
 
 msgid "Opening many _folders at once"
-msgstr ""
+msgstr "Открытии многих _папок сразу"
 
 msgid "Opening many t_erminals at once"
-msgstr ""
+msgstr "Открытии многих т_ерминалов сразу"
 
 msgid "Renaming changes a file's _type"
-msgstr ""
+msgstr "Переименовании, меняющем _тип файла"
+
+msgid "Acting as _administrator"
+msgstr "Действиях от имени _администратора"
 
 msgid "When opening an executable file:"
 msgstr "При открытии исполняемого файла:"
@@ -1747,13 +1913,13 @@ msgid "Always ask"
 msgstr "Всегда спрашивать"
 
 msgid "Open in an application"
-msgstr ""
+msgstr "Открыть в приложении"
 
 msgid "Run it"
-msgstr ""
+msgstr "Запустить"
 
 msgid "Bars and Panels"
-msgstr ""
+msgstr "Панели"
 
 msgid "Status Bar"
 msgstr "Строка состояния"
@@ -1762,7 +1928,7 @@ msgid "Status bar:"
 msgstr "Строка состояния:"
 
 msgid "Small (shows only when hovering or selecting)"
-msgstr ""
+msgstr "Маленькая (видна только при наведении или выделении)"
 
 msgid "Full width"
 msgstr "Полная ширина"
@@ -1771,103 +1937,103 @@ msgid "Hidden"
 msgstr "Скрытый"
 
 msgid "Show _zoom slider"
-msgstr ""
+msgstr "Показывать ползунок _масштаба"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Показывать свободное _место"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Показывать _скрытые папки"
 
 msgid "Limit to the home folder when inside it"
-msgstr ""
+msgstr "Ограничиваться домашней папкой, находясь в ней"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "_Автоматически прокручивать к текущей папке"
 
 msgid "Play media files _automatically"
-msgstr ""
+msgstr "_Автоматически воспроизводить мультимедийные файлы"
 
 msgid "Show the _hovered item"
-msgstr ""
+msgstr "Показывать элемент под _указателем"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Использовать _длинный формат даты"
 
 msgid "Context Menu"
 msgstr "Контекстное меню"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Показывать в контекстном меню"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "«Копировать в» и «Переместить в»"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Удалить (в дополнение к «Переместить в корзину»)"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Раньше это были системные настройки KDE. Ограничения применяются при запуске Beluga и после перемещения элементов в корзину."
 
 msgid "_Delete items that have been in the trash longer than:"
-msgstr ""
+msgstr "_Удалять элементы, находящиеся в корзине дольше:"
 
 msgid "Days:"
-msgstr ""
+msgstr "Дней:"
 
 msgid "_Limit the trash to a share of the disk:"
-msgstr ""
+msgstr "_Ограничить корзину долей диска:"
 
 msgid "Percent of the disk:"
-msgstr ""
+msgstr "Процент диска:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "При достижении предела:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Показать предупреждение"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Удалить самые старые элементы"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Удалить самые большие элементы"
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Вычисление размера корзины…"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Сейчас корзина занимает %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Очистить корзину сейчас"
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Комбинации клавиш"
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "Элементов: %zu"
 
 msgid "Calculating…"
 msgstr "Вычисление…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Нет приложения по умолчанию"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Изменить…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Открывается в:"
 
 msgid "Free space:"
 msgstr "Свободно:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "Свободно %s из %s (занято %d%%)"
 
 #, c-format
 msgid "%llu byte"
@@ -1881,13 +2047,13 @@ msgid "Forbidden"
 msgstr "нет доступа"
 
 msgid "Can View"
-msgstr ""
+msgstr "Может просматривать"
 
 msgid "Can View & Modify"
 msgstr "Просмотр и изменение"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Может просматривать содержимое"
 
 msgid "Can View & Modify Content"
 msgstr "Просмотр и изменение содержимого"
@@ -1896,10 +2062,10 @@ msgid "Others:"
 msgstr "Остальные:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "_Исполняемый"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Применить изменения ко всем _вложенным папкам и их содержимому"
 
 msgid "User:"
 msgstr "Владелец:"
@@ -1911,22 +2077,22 @@ msgid "Calculate"
 msgstr "Вычислить"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Не удалось прочитать файл."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Вставьте контрольную сумму для сравнения"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Проверить:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Контрольные суммы совпадают."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Ни одна вычисленная контрольная сумма не совпадает. Сначала вычислите соответствующий тип."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Не удалось изменить права доступа."
 
 #, c-format
 msgid "Properties for %s"
@@ -1939,19 +2105,19 @@ msgid "Filter:"
 msgstr "Фильтр:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Фильтр по имени (работают шаблоны вроде *.txt)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Сохранять фильтр при смене папки"
 
 msgid "Search…"
 msgstr "Поиск…"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "В этой папке"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "В ваших файлах"
 
 msgid "Everywhere"
 msgstr "Везде"
@@ -1963,22 +2129,22 @@ msgid "File Names and Contents"
 msgstr "Именам и содержимому файлов"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Любое время"
 
 msgid "Today"
 msgstr "Сегодня"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Последние 7 дней"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Последние 30 дней"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Последний год"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Скрытые файлы"
 
 msgid "Zoom"
 msgstr "Масштаб"
@@ -1988,7 +2154,7 @@ msgid "%s free"
 msgstr "свободно %s"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Дублировать вкладку"
 
 msgid "Detach Tab"
 msgstr "Отделить вкладку"
@@ -1997,7 +2163,7 @@ msgid "Close Other Tabs"
 msgstr "Закрыть другие вкладки"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Показать столбцы"
 
 #, c-format
 msgid "Size: %s"
@@ -2005,11 +2171,11 @@ msgstr "Размер: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Изменено: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Исходное расположение: %s"
 
 msgid "Yesterday"
 msgstr "Вчера"
@@ -2036,19 +2202,19 @@ msgid "Big"
 msgstr "Большие"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Меньше 1 МиБ"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "От 1 МиБ до 100 МиБ"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "От 100 МиБ до 1 ГиБ"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 ГиБ и больше"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Ещё не подсчитано"
 
 msgid "Searching…"
 msgstr "Выполняется поиск…"
@@ -2057,7 +2223,7 @@ msgid "No items matching the filter"
 msgstr "Не найдено ни одного объекта, соответствующего фильтру."
 
 msgid "No items found"
-msgstr ""
+msgstr "Ничего не найдено"
 
 msgid "Trash is empty"
 msgstr "В корзине ничего нет."
@@ -2066,38 +2232,38 @@ msgid "Folder is empty"
 msgstr "В этой папке ничего нет."
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Имя файла не может содержать «/»."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Переименование «%s» в «%s» меняет его расширение. Файл может открыться в другом приложении или не открыться вовсе."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Режим выделения: щёлкайте по файлам или папкам, чтобы выделить их или снять выделение."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Выйти из режима выделения"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Дублировать"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Удалить"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Свойства"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Папка «%s» больше не существует."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "Выбрано «%s» (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "Выбрано: %s"
 
 msgid "Loading folder…"
 msgstr "Открытие папки…"
@@ -2105,7 +2271,7 @@ msgstr "Открытие папки…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Выбран %d"
+msgstr[1] "Выбрано %d"
+msgstr[2] "Выбрано %d"
+msgstr[3] "Выбран %d"

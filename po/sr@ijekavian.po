@@ -109,6 +109,121 @@ msgstr ""
 msgid "Extracting from “%s”"
 msgstr ""
 
+msgid "Title:"
+msgstr "наслов|/|$[својства наредбено 'детаљи:\nнаслов' списковно 'допунски детаљи: наслов']:"
+
+msgid "Artist:"
+msgstr "извођач|/|$[својства наредбено 'детаљи:\nизвођач' списковно 'допунски детаљи: извођач']:"
+
+msgid "Album artist:"
+msgstr "извођач албума:"
+
+msgid "Album:"
+msgstr "албум|/|$[својства наредбено 'детаљи:\nалбум' списковно 'допунски детаљи: албум']:"
+
+msgid "Track:"
+msgstr "нумера|/|$[својства наредбено 'детаљи:\nнумера' списковно 'допунски детаљи: нумера']:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "датум:"
+
+msgid "Genre:"
+msgstr "жанр|/|$[својства наредбено 'детаљи:\nжанр' списковно 'допунски детаљи: жанр']:"
+
+msgid "Composer:"
+msgstr "композитор:"
+
+msgid "Performer:"
+msgstr "интерпретатор:"
+
+msgid "Publisher:"
+msgstr "издавач:"
+
+msgid "Copyright:"
+msgstr "ауторска права:"
+
+msgid "Comment:"
+msgstr "Коментар:"
+
+msgid "Description:"
+msgstr "Опис:"
+
+msgid "Language:"
+msgstr "језик:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "трајање|/|$[својства наредбено 'детаљи:\nтрајање' списковно 'допунски детаљи: трајање']:"
+
+msgid "Format:"
+msgstr ""
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "видео:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "аудио|/|$[својства наредбено 'детаљи:\nаудио' списковно 'допунски детаљи: аудио']:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
 msgid "Places"
 msgstr "Мјеста"
 
@@ -332,6 +447,24 @@ msgstr ""
 msgid "Dimensions"
 msgstr "димензије"
 
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Ризици рада као администратор"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Одустани"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Разумијем и прихватам ове ризике"
+
 msgid "New Window"
 msgstr "Нови прозор"
 
@@ -410,6 +543,9 @@ msgstr ""
 msgid "Show Hidden Files"
 msgstr "Прикажи скривене фајлове"
 
+msgid "Act as Administrator"
+msgstr "Ради као администратор"
+
 msgid "Split View"
 msgstr "Подијељени приказ"
 
@@ -440,11 +576,17 @@ msgstr ""
 msgid "Information Panel"
 msgstr "Панел са подацима"
 
+msgid "Disk Usage Panel"
+msgstr ""
+
 msgid "Focus Places Panel"
 msgstr "Фокусирај панел мјеста"
 
 msgid "Show Menubar"
 msgstr "Прикажи траку менија"
+
+msgid "Show Statusbar"
+msgstr "Прикажи траку стања"
 
 msgid "Back"
 msgstr "Назад"
@@ -577,6 +719,9 @@ msgstr "Отвори у новом прозору"
 msgid "Open in Split View"
 msgstr "Отвори у подијељеном приказу"
 
+msgid "Open in Beluga"
+msgstr ""
+
 msgid "Open Containing Folder"
 msgstr "Отвори обухватајућу фасциклу"
 
@@ -624,9 +769,6 @@ msgstr ""
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
-
-msgid "Cancel"
-msgstr "Одустани"
 
 msgid "Rename Items"
 msgstr "Преименовање ставки"
@@ -848,32 +990,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#, c-format
-msgid "Disk Usage – %s"
-msgstr ""
-
-msgid "_Apparent size"
-msgstr ""
-
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
-
-msgid "_Stay on this drive"
-msgstr ""
-
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
-
-msgid "_Rescan"
-msgstr ""
-
-msgid "S_top"
-msgstr ""
-
-msgid "Share"
-msgstr "Дијељење"
-
-msgid "Files"
+msgid "Only folders on this computer can be measured."
 msgstr ""
 
 msgid "read less than a minute ago"
@@ -897,6 +1014,43 @@ msgstr[3] ""
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "Заустави"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Дијељење"
+
+msgid "Files"
+msgstr ""
+
+#, c-format
+msgid "Disk Usage – %s"
 msgstr ""
 
 #, c-format
@@ -1008,14 +1162,14 @@ msgstr "Група:"
 msgid "Dimensions:"
 msgstr "димензије:"
 
-msgid "Duration:"
-msgstr "трајање|/|$[својства наредбено 'детаљи:\nтрајање' списковно 'допунски детаљи: трајање']:"
-
 msgid "Broken Link"
 msgstr ""
 
 #, c-format
 msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
 msgstr ""
 
 #, c-format
@@ -1048,6 +1202,9 @@ msgstr ""
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
@@ -1055,6 +1212,9 @@ msgid "Show the version"
 msgstr ""
 
 msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
 msgstr ""
 
 msgid "Close this window?"
@@ -1172,9 +1332,6 @@ msgstr "Подеси стил приказа…"
 msgid "Re_load"
 msgstr ""
 
-msgid "Stop"
-msgstr "Заустави"
-
 msgid "Panels"
 msgstr "Панели"
 
@@ -1188,6 +1345,9 @@ msgid "Show _Menubar"
 msgstr ""
 
 msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
 msgstr ""
 
 msgid "_Go"
@@ -1227,6 +1387,9 @@ msgid "_Configure Beluga…"
 msgstr ""
 
 msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
 msgstr ""
 
 #, c-format
@@ -1727,6 +1890,9 @@ msgid "Opening many t_erminals at once"
 msgstr ""
 
 msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "Acting as _administrator"
 msgstr ""
 
 msgid "When opening an executable file:"

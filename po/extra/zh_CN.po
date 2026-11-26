@@ -1,0 +1,1443 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-26 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "The archive could not be opened."
+msgstr "无法打开归档文件。"
+
+msgid "The archive could not be read."
+msgstr "无法读取归档文件。"
+
+msgid "Cancelled."
+msgstr "已取消。"
+
+msgid "This file is encrypted with a password."
+msgstr "此文件已用密码加密。"
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr "无法读取“%s”。"
+
+msgid "This is not a file in an archive."
+msgstr "这不是归档文件中的文件。"
+
+msgid "Extract Here"
+msgstr "解压到此处"
+
+msgid "Compress to .tar.gz"
+msgstr "压缩为 .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "未找到终端模拟器。"
+
+msgid "Root"
+msgstr "根目录"
+
+#, c-format
+msgid "%s Volume"
+msgstr "%s 卷"
+
+msgid "This device cannot be mounted."
+msgstr "无法挂载此设备。"
+
+msgid "This device cannot be unmounted."
+msgstr "无法卸载此设备。"
+
+msgid "The device is gone."
+msgstr "设备已不存在。"
+
+#, c-format
+msgid "Copying %s to “%s”"
+msgstr "正在将 %s 复制到“%s”"
+
+#, c-format
+msgid "Moving %s to “%s”"
+msgstr "正在将 %s 移动到“%s”"
+
+#, c-format
+msgid "Linking %s in “%s”"
+msgstr "正在“%2$s”中创建 %1$s 的链接"
+
+#, c-format
+msgid "Moving %s to the trash"
+msgstr "正在将 %s 移到回收站"
+
+#, c-format
+msgid "Deleting %s"
+msgstr "正在删除 %s"
+
+#, c-format
+msgid "Restoring %s"
+msgstr "正在恢复 %s"
+
+msgid "Emptying the trash"
+msgstr "正在清空回收站"
+
+msgid "Counting files…"
+msgstr "正在统计文件…"
+
+#, c-format
+msgid "“%s”: %s"
+msgstr "“%s”：%s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "文件夹不能移动到自身中。"
+
+msgid "A folder cannot be copied into itself."
+msgstr "文件夹不能复制到自身中。"
+
+msgid "Files can only be extracted into local folders."
+msgstr "文件只能解压到本地文件夹。"
+
+#, c-format
+msgid "Extracting from “%s”"
+msgstr "正在从“%s”解压"
+
+msgid "Disc:"
+msgstr "碟片："
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "比特率："
+
+msgid "Cover:"
+msgstr "封面："
+
+#, c-format
+msgid ", %.0f fps"
+msgstr "，%.0f fps"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr "，%.3f fps"
+
+#, c-format
+msgid "Video %d:"
+msgstr "视频 %d："
+
+#, c-format
+msgid ", %d Hz"
+msgstr "，%d Hz"
+
+msgid "mono"
+msgstr "单声道"
+
+msgid "stereo"
+msgstr "立体声"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d 个声道"
+
+#, c-format
+msgid ", %d bit"
+msgstr "，%d 位"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "音频 %d："
+
+msgid "Subtitles:"
+msgstr "字幕："
+
+msgid "Chapters:"
+msgstr "章节："
+
+msgid "Images"
+msgstr "图像"
+
+msgid "Archives"
+msgstr "归档文件"
+
+#, c-format
+msgid "Search for “%s”"
+msgstr "搜索“%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "未找到终端模拟器。请在 配置 Beluga › 常规 › 终端 中设置。"
+
+msgid "This file system has no trash."
+msgstr "此文件系统没有回收站。"
+
+msgid "Could not create the trash information file."
+msgstr "无法创建回收站信息文件。"
+
+#, c-format
+msgid "“%s” already exists."
+msgstr "“%s”已存在。"
+
+#, c-format
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "回收站超过了 %s 的上限。请考虑清空它。"
+
+msgid "Move"
+msgstr "移动"
+
+msgid "Create File"
+msgstr "创建文件"
+
+#, c-format
+msgid "Undo: %s"
+msgstr "撤销：%s"
+
+#, c-format
+msgid "Redo: %s"
+msgstr "重做：%s"
+
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d 个文件"
+
+#, c-format
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d 个文件夹"
+
+#, c-format
+msgid "Today at %s"
+msgstr "今天 %s"
+
+#, c-format
+msgid "Yesterday at %s"
+msgstr "昨天 %s"
+
+#, c-format
+msgid "%ld min %ld s"
+msgstr "%ld 分 %ld 秒"
+
+#, c-format
+msgid "%ld h %ld min"
+msgstr "%ld 小时 %ld 分"
+
+#, c-format
+msgid "%s copy %d"
+msgstr "%s 副本 %d"
+
+msgid "Disk Usage"
+msgstr "磁盘占用"
+
+msgid "Extension"
+msgstr "扩展名"
+
+msgid "Original Location"
+msgstr "原始位置"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga 无法以管理员身份操作。"
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "需要 pkexec (polkit) 来询问管理员密码。请为您的桌面安装 polkit 和一个 polkit 代理。"
+
+msgid "Columns View"
+msgstr "分栏视图"
+
+msgid "Reset Zoom"
+msgstr "重置缩放"
+
+msgid "Pop out Split View"
+msgstr "分离拆分视图"
+
+msgid "Places Panel"
+msgstr "位置面板"
+
+msgid "Disk Usage Panel"
+msgstr "磁盘占用面板"
+
+msgid "Go to Tab 1"
+msgstr "转到标签页 1"
+
+msgid "Go to Tab 2"
+msgstr "转到标签页 2"
+
+msgid "Go to Tab 3"
+msgstr "转到标签页 3"
+
+msgid "Go to Tab 4"
+msgstr "转到标签页 4"
+
+msgid "Go to Tab 5"
+msgstr "转到标签页 5"
+
+msgid "Go to Tab 6"
+msgstr "转到标签页 6"
+
+msgid "Go to Tab 7"
+msgstr "转到标签页 7"
+
+msgid "Go to Tab 8"
+msgstr "转到标签页 8"
+
+msgid "Go to Tab 9"
+msgstr "转到标签页 9"
+
+msgid "Configure Beluga"
+msgstr "配置 Beluga"
+
+msgid "Undo failed."
+msgstr "撤销失败。"
+
+msgid "Folder…"
+msgstr "文件夹…"
+
+msgid "Text File…"
+msgstr "文本文件…"
+
+msgid "Empty File…"
+msgstr "空文件…"
+
+msgid "Link to File or Folder…"
+msgstr "文件或文件夹的链接…"
+
+#, c-format
+msgid "Other View (%s)"
+msgstr "另一个视图 (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "记住此文件夹的视图"
+
+msgid "Open in Beluga"
+msgstr "在 Beluga 中打开"
+
+msgid "Paste into Folder"
+msgstr "粘贴到文件夹"
+
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+msgid "The name cannot contain “/”."
+msgstr "名称不能包含“/”。"
+
+msgid "A name starting with a dot is hidden."
+msgstr "以点开头的名称是隐藏的。"
+
+msgid "Some items could not be renamed."
+msgstr "有些项目无法重命名。"
+
+#, c-format
+msgid "Rename “%s” to:"
+msgstr "将“%s”重命名为："
+
+msgid "_Rename"
+msgstr "重命名(_R)"
+
+#, c-format
+msgid "Could not rename “%s”."
+msgstr "无法重命名“%s”。"
+
+msgid "Change the file type?"
+msgstr "更改文件类型？"
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "将“%s”重命名为“%s”会改变其扩展名。"
+
+#, c-format
+msgid "Rename the %zu selected items to:"
+msgstr "将选中的 %zu 个项目重命名为："
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# 会被替换为递增的数字；使用 ## 补前导零。扩展名保持不变。"
+
+msgid "Start numbering at:"
+msgstr "编号起始值："
+
+msgid "_Move Here"
+msgstr "移动到此处(_M)"
+
+msgid "_Copy Here"
+msgstr "复制到此处(_C)"
+
+msgid "_Link Here"
+msgstr "在此处链接(_L)"
+
+msgid "C_ancel"
+msgstr "取消(_A)"
+
+msgid "Choose a folder"
+msgstr "选择文件夹"
+
+msgid "Icon name:"
+msgstr "图标名称："
+
+msgid "Choose a Folder"
+msgstr "选择文件夹"
+
+msgid "_Add"
+msgstr "添加(_A)"
+
+msgid "_Save"
+msgstr "保存(_S)"
+
+msgid "Show _folders first"
+msgstr "文件夹优先显示(_F)"
+
+msgid "Show hidden files _last"
+msgstr "隐藏文件最后显示(_L)"
+
+msgid "Show _previews"
+msgstr "显示预览(_P)"
+
+msgid "Show in _groups"
+msgstr "分组显示(_G)"
+
+msgid "Show _hidden files"
+msgstr "显示隐藏文件(_H)"
+
+msgid "Current folder including all subfolders"
+msgstr "当前文件夹及其所有子文件夹"
+
+msgid "_OK"
+msgstr "确定(_O)"
+
+#, c-format
+msgid "modified %s"
+msgstr "修改于 %s"
+
+#, c-format
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "“%2$s”中已存在名为“%1$s”的文件夹。"
+
+#, c-format
+msgid "A file named “%s” already exists in “%s”."
+msgstr "“%2$s”中已存在名为“%1$s”的文件。"
+
+msgid "Existing item"
+msgstr "已有项目"
+
+msgid "New item"
+msgstr "新项目"
+
+msgid "_Suggest New Name"
+msgstr "建议新名称(_S)"
+
+msgid "New name:"
+msgstr "新名称："
+
+msgid "Apply to _all"
+msgstr "全部应用(_A)"
+
+msgid "S_kip"
+msgstr "跳过(_K)"
+
+msgid "_Write Into"
+msgstr "写入其中(_W)"
+
+msgid "_Overwrite"
+msgstr "覆盖(_O)"
+
+msgid "This location is not a folder."
+msgstr "此位置不是文件夹。"
+
+msgid "This location is not valid."
+msgstr "此位置无效。"
+
+msgid "This folder is not in the archive."
+msgstr "此文件夹不在归档文件中。"
+
+#, c-format
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s 个较小的文件"
+
+msgid "(another drive, not counted)"
+msgstr "（其他驱动器，未计入）"
+
+msgid "Some of its contents could not be read."
+msgstr "部分内容无法读取。"
+
+#, c-format
+msgid "%s in files"
+msgstr "文件共 %s"
+
+#, c-format
+msgid "%s on disk"
+msgstr "磁盘上 %s"
+
+#, c-format
+msgid "%s files and %s folders"
+msgstr "%s 个文件和 %s 个文件夹"
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr "正在读取… %s，%s 个文件和 %s 个文件夹"
+
+msgid "Stopped."
+msgstr "已停止。"
+
+msgid "This folder could not be read."
+msgstr "无法读取此文件夹。"
+
+#, c-format
+msgid "%s, read in %.1f s"
+msgstr "%s，用时 %.1f 秒读取"
+
+#, c-format
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] "。%s 个文件夹无法读取。"
+
+msgid "Only folders on this computer can be measured."
+msgstr "只能测量此计算机上的文件夹。"
+
+msgid "read less than a minute ago"
+msgstr "不到一分钟前读取"
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d 分钟前读取"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d 小时前读取"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s，%s。重新扫描以再次读取。"
+
+msgid "_Apparent size"
+msgstr "表观大小(_A)"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "累加文件大小，而不是文件在磁盘上占用的空间。"
+
+msgid "_Stay on this drive"
+msgstr "留在此驱动器上(_S)"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "不计入挂载在此文件夹中的其他驱动器（例如另一块磁盘上的音乐文件夹）。从不跟随链接。"
+
+msgid "Rescan"
+msgstr "重新扫描"
+
+msgid "Close Disk Usage"
+msgstr "关闭磁盘占用"
+
+msgid "_Rescan"
+msgstr "重新扫描(_R)"
+
+msgid "S_top"
+msgstr "停止(_T)"
+
+msgid "Files"
+msgstr "文件"
+
+#, c-format
+msgid "Disk Usage – %s"
+msgstr "磁盘占用 – %s"
+
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s”已存在。要替换吗？"
+
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr "其中 %zu 个文件已存在。要替换吗？"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "您正在保存的程序将覆盖现有内容。"
+
+msgid "Choose a folder to save in."
+msgstr "请选择要保存到的文件夹。"
+
+msgid "Select Folder"
+msgstr "选择文件夹"
+
+msgid "Open Files"
+msgstr "打开文件"
+
+msgid "Open File"
+msgstr "打开文件"
+
+msgid "Save File"
+msgstr "保存文件"
+
+msgid "Save Files"
+msgstr "保存文件"
+
+msgid "_Folder:"
+msgstr "文件夹(_F)："
+
+msgid "_Name:"
+msgstr "名称(_N)："
+
+msgid "_Type:"
+msgstr "类型(_T)："
+
+msgid "_Select"
+msgstr "选择(_S)"
+
+msgid "_Open"
+msgstr "打开(_O)"
+
+msgid "C_reate"
+msgstr "创建(_R)"
+
+msgid "Could not create the folder."
+msgstr "无法创建文件夹。"
+
+#, c-format
+msgid "%zu items selected"
+msgstr "已选择 %zu 个项目"
+
+msgid "Contents:"
+msgstr "内容："
+
+msgid "Contains:"
+msgstr "包含："
+
+msgid "Counting…"
+msgstr "正在统计…"
+
+msgid "Broken Link"
+msgstr "损坏的链接"
+
+#, c-format
+msgid "%s (link)"
+msgstr "%s（链接）"
+
+msgid "other drive"
+msgstr "其他驱动器"
+
+#, c-format
+msgid "%s of %s"
+msgstr "%s / %s"
+
+#, c-format
+msgid "%s left"
+msgstr "剩余 %s"
+
+#, c-format
+msgid "%d of %d"
+msgstr "%d / %d"
+
+msgid "File operations in progress"
+msgstr "文件操作正在进行"
+
+msgid "No subfolders"
+msgstr "没有子文件夹"
+
+msgid "Select the given files in their folders"
+msgstr "在所在文件夹中选中给定的文件"
+
+msgid "Open the window in split view"
+msgstr "以拆分视图打开窗口"
+
+msgid "Always open a new window"
+msgstr "总是打开新窗口"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "为 FileManager1 D-Bus 服务在后台保持运行"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "脱离终端（不指定位置时：打开当前文件夹）"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "运行 xdg-desktop-portal 的文件选择器（由 D-Bus 启动）"
+
+msgid "Show the version"
+msgstr "显示版本"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[文件或文件夹…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "正在以管理员身份操作：此窗口中的更改可能损坏系统。"
+
+msgid "Close this window?"
+msgstr "关闭此窗口？"
+
+#, c-format
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "此窗口打开了 %zu 个标签页。关闭窗口将关闭所有标签页。"
+
+msgid "Close Window"
+msgstr "关闭窗口"
+
+msgid "_File"
+msgstr "文件(_F)"
+
+msgid "New _Window"
+msgstr "新建窗口(_W)"
+
+msgid "New _Tab"
+msgstr "新建标签页(_T)"
+
+msgid "_Close Tab"
+msgstr "关闭标签页(_C)"
+
+msgid "Create _New"
+msgstr "新建(_N)"
+
+msgid "_Rename…"
+msgstr "重命名(_R)…"
+
+msgid "_Duplicate Here"
+msgstr "在此处创建副本(_D)"
+
+msgid "Move to _Trash"
+msgstr "移到回收站(_T)"
+
+msgid "_Delete"
+msgstr "删除(_D)"
+
+msgid "Restore from Trash"
+msgstr "从回收站恢复"
+
+msgid "_Properties"
+msgstr "属性(_P)"
+
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+msgid "_Undo"
+msgstr "撤销(_U)"
+
+msgid "_Redo"
+msgstr "重做(_R)"
+
+msgid "Cu_t"
+msgstr "剪切(_T)"
+
+msgid "_Copy"
+msgstr "复制(_C)"
+
+msgid "_Paste"
+msgstr "粘贴(_P)"
+
+msgid "_Search…"
+msgstr "搜索(_S)…"
+
+msgid "Select _All"
+msgstr "全选(_A)"
+
+msgid "_View"
+msgstr "视图(_V)"
+
+msgid "Zoom _In"
+msgstr "放大(_I)"
+
+msgid "Zoom _Out"
+msgstr "缩小(_O)"
+
+msgid "Re_load"
+msgstr "重新加载(_L)"
+
+msgid "Show _Menubar"
+msgstr "显示菜单栏(_M)"
+
+msgid "Show _Toolbar"
+msgstr "显示工具栏(_T)"
+
+msgid "Show _Statusbar"
+msgstr "显示状态栏(_S)"
+
+msgid "_Go"
+msgstr "转到(_G)"
+
+msgid "_Back"
+msgstr "后退(_B)"
+
+msgid "_Forward"
+msgstr "前进(_F)"
+
+msgid "_Up"
+msgstr "向上(_U)"
+
+msgid "_Home"
+msgstr "主文件夹(_H)"
+
+msgid "_Tools"
+msgstr "工具(_T)"
+
+msgid "Open _Terminal"
+msgstr "打开终端(_T)"
+
+msgid "Open Terminal _Here"
+msgstr "在此处打开终端(_H)"
+
+msgid "_Disk Usage…"
+msgstr "磁盘占用(_D)…"
+
+msgid "_Settings"
+msgstr "设置(_S)"
+
+msgid "_Configure Beluga…"
+msgstr "配置 Beluga(_C)…"
+
+msgid "No recently closed tabs"
+msgstr "没有最近关闭的标签页"
+
+msgid "(Administrator)"
+msgstr "（管理员）"
+
+#, c-format
+msgid "Open %zu folders in new tabs?"
+msgstr "在新标签页中打开 %zu 个文件夹？"
+
+msgid "Open Folders"
+msgstr "打开文件夹"
+
+#, c-format
+msgid "Could not open “%s”."
+msgstr "无法打开“%s”。"
+
+msgid "Could not open a terminal."
+msgstr "无法打开终端。"
+
+msgid "New Text File.txt"
+msgstr "新建文本文件.txt"
+
+msgid "New File"
+msgstr "新文件"
+
+msgid "Empty the trash?"
+msgstr "清空回收站？"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "回收站中的所有项目将被永久删除。此操作无法撤销。"
+
+#, c-format
+msgid "Open %zu terminals?"
+msgstr "打开 %zu 个终端？"
+
+msgid "Open Terminals"
+msgstr "打开终端"
+
+msgid "Could not create the file."
+msgstr "无法创建文件。"
+
+msgid "Link to File or Folder"
+msgstr "文件或文件夹的链接"
+
+msgid "Path of the file or folder to link to:"
+msgstr "要链接到的文件或文件夹的路径："
+
+msgid "Could not create the link."
+msgstr "无法创建链接。"
+
+#, c-format
+msgid "Permanently delete %s?"
+msgstr "永久删除 %s？"
+
+msgid "This cannot be undone."
+msgstr "此操作无法撤销。"
+
+#, c-format
+msgid "Move %s to the trash?"
+msgstr "将 %s 移到回收站？"
+
+#, c-format
+msgid "Could not run “%s”."
+msgstr "无法运行“%s”。"
+
+#, c-format
+msgid "Could not start %s."
+msgstr "无法启动 %s。"
+
+msgid "Could not start the application."
+msgstr "无法启动应用程序。"
+
+#, c-format
+msgid "“%s” is an executable file."
+msgstr "“%s”是可执行文件。"
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "要运行它，还是在应用程序中打开？"
+
+msgid "Run"
+msgstr "运行"
+
+#, c-format
+msgid "Choose the application to open %s (%s):"
+msgstr "选择用来打开 %s (%s) 的应用程序："
+
+msgid "Recommended Applications"
+msgstr "推荐的应用程序"
+
+msgid "Other Applications"
+msgstr "其他应用程序"
+
+msgid "Or command:"
+msgstr "或命令："
+
+msgid "Remember application association for this type of file"
+msgstr "记住此类文件的应用程序关联"
+
+#, c-format
+msgid "%s free of %s"
+msgstr "%s 可用，共 %s"
+
+#, c-format
+msgid "Could not mount the device: %s"
+msgstr "无法挂载设备：%s"
+
+msgid "Hide Hidden Entries"
+msgstr "隐藏隐藏的条目"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "回收站中的所有项目将被永久删除。"
+
+#, c-format
+msgid "Could not safely remove the device: %s"
+msgstr "无法安全移除设备：%s"
+
+#, c-format
+msgid "Could not unmount the device: %s"
+msgstr "无法卸载设备：%s"
+
+#, c-format
+msgid "%d px"
+msgstr "%d 像素"
+
+msgid "Use the system _font"
+msgstr "使用系统字体(_F)"
+
+msgid "View font:"
+msgstr "视图字体："
+
+msgid "Context Menu Action"
+msgstr "右键菜单动作"
+
+msgid "Types:"
+msgstr "类型："
+
+#, c-format
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f 第一个文件，%F 所有文件，%u / %U 作为 URI，%n / %N 名称，%d 当前文件夹。"
+
+msgid "Show for _files"
+msgstr "对文件显示(_F)"
+
+msgid "Show for f_olders"
+msgstr "对文件夹显示(_O)"
+
+msgid "Show when _several items are selected"
+msgstr "选中多个项目时显示(_S)"
+
+msgid "Run in a _terminal"
+msgstr "在终端中运行(_T)"
+
+msgid "Custom Actions"
+msgstr "自定义动作"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "您自己的文件和文件夹右键菜单条目。"
+
+msgid "_Add…"
+msgstr "添加(_A)…"
+
+msgid "_Edit…"
+msgstr "编辑(_E)…"
+
+msgid "_Remove"
+msgstr "移除(_R)"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "快捷键写法如 <Control>c 或 <Shift>Delete。多个快捷键用逗号分隔。留空则使用默认值。"
+
+msgid "_Home folder:"
+msgstr "主文件夹(_H)："
+
+msgid "_Remember open folders and tabs"
+msgstr "记住打开的文件夹和标签页(_R)"
+
+msgid "Begin in _split view mode"
+msgstr "以拆分视图启动(_S)"
+
+msgid "Show _filter bar"
+msgstr "显示过滤栏(_F)"
+
+msgid "Make location bar _editable"
+msgstr "使位置栏可编辑(_E)"
+
+msgid "Show full path inside _location bar"
+msgstr "在位置栏中显示完整路径(_L)"
+
+msgid "Show full path in _title bar"
+msgstr "在标题栏中显示完整路径(_T)"
+
+msgid "Mouse"
+msgstr "鼠标"
+
+msgid "These used to be KDE system settings."
+msgstr "这些以前是 KDE 系统设置。"
+
+msgid "Clicking files or folders:"
+msgstr "点击文件或文件夹："
+
+msgid "Selects them (double-click opens)"
+msgstr "选中它们（双击打开）"
+
+msgid "Opens them"
+msgstr "打开它们"
+
+msgid "Double-clicking empty space:"
+msgstr "双击空白处："
+
+msgid "Does nothing"
+msgstr "无操作"
+
+msgid "Selects all items"
+msgstr "选中所有项目"
+
+msgid "Goes up"
+msgstr "转到上一级"
+
+msgid "Opens a new tab"
+msgstr "打开新标签页"
+
+msgid "Toggles hidden files"
+msgstr "切换隐藏文件"
+
+msgid "Tabs and Split View"
+msgstr "标签页和拆分视图"
+
+msgid "Open new tabs after the _last tab"
+msgstr "在最后一个标签页之后打开新标签页(_L)"
+
+msgid "_Always show the tab bar"
+msgstr "总是显示标签栏(_A)"
+
+msgid "Show _close buttons on tabs"
+msgstr "在标签页上显示关闭按钮(_C)"
+
+msgid "Open folders from other applications in a new _tab"
+msgstr "在新标签页中打开来自其他应用程序的文件夹(_T)"
+
+msgid "Open _archives as folders (zip, tar, 7z, rar, ISO)"
+msgstr "将归档文件作为文件夹打开（zip、tar、7z、rar、ISO）(_A)"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "为主文件夹维护索引以便即时搜索(_I)"
+
+msgid "Closing split view closes:"
+msgstr "关闭拆分视图时关闭："
+
+msgid "The active view"
+msgstr "活动视图"
+
+msgid "The inactive view"
+msgstr "非活动视图"
+
+msgid "The right view"
+msgstr "右侧视图"
+
+msgid "Rename single items _inline"
+msgstr "就地重命名单个项目(_I)"
+
+msgid "Show selection _marker"
+msgstr "显示选择标记(_M)"
+
+msgid "Show item information on _hover"
+msgstr "悬停时显示项目信息(_H)"
+
+msgid "Open folders while _dragging items over them"
+msgstr "将项目拖到文件夹上时打开文件夹(_D)"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "由 F4 和“在此处打开终端”使用。命令中的 %d 会被替换为文件夹；否则终端会在该文件夹中启动。这以前是 KDE 系统设置。"
+
+msgid "Terminal _command:"
+msgstr "终端命令(_C)："
+
+msgid "No terminal found"
+msgstr "未找到终端"
+
+#, c-format
+msgid "Detected: %s"
+msgstr "已检测到：%s"
+
+msgid "Use the same display style for _all folders"
+msgstr "所有文件夹使用相同的显示样式(_A)"
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
+msgstr "关闭后，每个文件夹会记住自己的样式。无论哪种情况，视图 › 记住此文件夹的视图 都能为某个文件夹设置独立样式。"
+
+msgid "Number of items"
+msgstr "项目数"
+
+msgid "Size of contents"
+msgstr "内容大小"
+
+msgid "Folder size depth limit:"
+msgstr "文件夹大小深度上限："
+
+msgid "Dates:"
+msgstr "日期："
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "相对（今天、昨天…）"
+
+msgid "Short"
+msgstr "简短"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "符号（rwxr-xr-x）"
+
+msgid "Numeric (0755)"
+msgstr "数字（0755）"
+
+msgid "Combined"
+msgstr "组合"
+
+msgid "Shorten long names:"
+msgstr "缩短长名称："
+
+msgid "At the end"
+msgstr "在末尾"
+
+msgid "In the middle"
+msgstr "在中间"
+
+msgid "Hide _backup files (ending in ~)"
+msgstr "隐藏备份文件（以 ~ 结尾）(_B)"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr "标签最大行数（0：不限）："
+
+msgid "Co_mpact spacing"
+msgstr "紧凑间距(_M)"
+
+msgid "Maximum label width:"
+msgstr "标签最大宽度："
+
+msgid "E_xpandable folders"
+msgstr "可展开的文件夹(_X)"
+
+msgid "Highlight the entire _row"
+msgstr "高亮整行(_R)"
+
+msgid "Show a Disk _Usage column"
+msgstr "显示磁盘占用列(_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "每个文件和每个完整文件夹在磁盘上占用的空间，并用条形显示其在文件夹中的占比，与 工具 › 磁盘占用 相同。文件夹会在后台完整读取；按此列排序可先看到最大的项目。磁盘占用窗口中的“留在此驱动器上”在这里同样适用。"
+
+msgid "Show _previews in new folders"
+msgstr "在新文件夹中显示预览(_P)"
+
+msgid "Audio (cover art)"
+msgstr "音频（封面图）"
+
+msgid "PDF documents"
+msgstr "PDF 文档"
+
+msgid "Text files"
+msgstr "文本文件"
+
+msgid "Fonts"
+msgstr "字体"
+
+msgid "Office documents"
+msgstr "办公文档"
+
+msgid "Limits"
+msgstr "限制"
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr "跳过大于此值的本地文件（MiB，0：不限）："
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr "远程文件上限（MiB，0：从不）："
+
+msgid "Ask for confirmation when"
+msgstr "以下情况时请求确认"
+
+msgid "Moving files or folders to the _trash"
+msgstr "将文件或文件夹移到回收站(_T)"
+
+msgid "_Deleting files or folders"
+msgstr "删除文件或文件夹(_D)"
+
+msgid "_Emptying the trash"
+msgstr "清空回收站(_E)"
+
+msgid "Closing windows with _multiple tabs"
+msgstr "关闭有多个标签页的窗口(_M)"
+
+msgid "Opening many _folders at once"
+msgstr "一次打开很多文件夹(_F)"
+
+msgid "Opening many t_erminals at once"
+msgstr "一次打开很多终端(_E)"
+
+msgid "Renaming changes a file's _type"
+msgstr "重命名会改变文件类型(_T)"
+
+msgid "Acting as _administrator"
+msgstr "以管理员身份操作(_A)"
+
+msgid "Open in an application"
+msgstr "在应用程序中打开"
+
+msgid "Run it"
+msgstr "运行它"
+
+msgid "Bars and Panels"
+msgstr "栏和面板"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr "小（仅在悬停或选择时显示）"
+
+msgid "Show _zoom slider"
+msgstr "显示缩放滑块(_Z)"
+
+msgid "Show free _space"
+msgstr "显示可用空间(_S)"
+
+msgid "Show _hidden folders"
+msgstr "显示隐藏文件夹(_H)"
+
+msgid "Limit to the home folder when inside it"
+msgstr "位于主文件夹内时限制在主文件夹"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "自动滚动到当前文件夹(_A)"
+
+msgid "Play media files _automatically"
+msgstr "自动播放媒体文件(_A)"
+
+msgid "Show the _hovered item"
+msgstr "显示悬停的项目(_H)"
+
+msgid "Use _long date format"
+msgstr "使用长日期格式(_L)"
+
+msgid "Show in the context menu"
+msgstr "在右键菜单中显示"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "“复制到”和“移动到”"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "删除（除“移到回收站”外）"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "这些以前是 KDE 系统设置。限制会在 Beluga 启动时以及将项目移到回收站后应用。"
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr "删除在回收站中超过以下时间的项目(_D)："
+
+msgid "Days:"
+msgstr "天数："
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr "将回收站限制为磁盘的一定比例(_L)："
+
+msgid "Percent of the disk:"
+msgstr "磁盘百分比："
+
+msgid "When the limit is reached:"
+msgstr "达到上限时："
+
+msgid "Show a warning"
+msgstr "显示警告"
+
+msgid "Delete the oldest items"
+msgstr "删除最旧的项目"
+
+msgid "Delete the largest items"
+msgstr "删除最大的项目"
+
+msgid "Calculating trash size…"
+msgstr "正在计算回收站大小…"
+
+#, c-format
+msgid "The trash currently uses %s."
+msgstr "回收站当前占用 %s。"
+
+msgid "_Empty Trash Now"
+msgstr "立即清空回收站(_E)"
+
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#, c-format
+msgid "%zu items"
+msgstr "%zu 个项目"
+
+msgid "No default application"
+msgstr "没有默认应用程序"
+
+msgid "C_hange…"
+msgstr "更改(_H)…"
+
+msgid "Opens with:"
+msgstr "打开方式："
+
+#, c-format
+msgid "%s free of %s (%d%% used)"
+msgstr "%s 可用，共 %s（已用 %d%%）"
+
+msgid "Can View"
+msgstr "可查看"
+
+msgid "Can View Content"
+msgstr "可查看内容"
+
+msgid "Is _executable"
+msgstr "可执行(_E)"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "将更改应用到所有子文件夹及其内容(_S)"
+
+msgid "Could not read the file."
+msgstr "无法读取文件。"
+
+msgid "Paste a checksum to compare"
+msgstr "粘贴要比较的校验和"
+
+msgid "Verify:"
+msgstr "验证："
+
+msgid "The checksums match."
+msgstr "校验和一致。"
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "没有计算出的校验和一致。请先计算对应的类型。"
+
+msgid "Could not change the permissions."
+msgstr "无法更改权限。"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "按名称过滤（可使用 *.txt 等通配符）"
+
+msgid "Keep the filter when changing folders"
+msgstr "切换文件夹时保留过滤"
+
+msgid "In This Folder"
+msgstr "在此文件夹中"
+
+msgid "In Your Files"
+msgstr "在您的文件中"
+
+msgid "Any Time"
+msgstr "任何时间"
+
+msgid "Last 7 Days"
+msgstr "最近 7 天"
+
+msgid "Last 30 Days"
+msgstr "最近 30 天"
+
+msgid "Last Year"
+msgstr "最近一年"
+
+msgid "Hidden files"
+msgstr "隐藏文件"
+
+msgid "Duplicate Tab"
+msgstr "复制标签页"
+
+msgid "Show Columns"
+msgstr "显示列"
+
+#, c-format
+msgid "Modified: %s"
+msgstr "修改时间：%s"
+
+#, c-format
+msgid "Original location: %s"
+msgstr "原始位置：%s"
+
+msgid "Less than 1 MiB"
+msgstr "小于 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB 到 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB 到 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB 或更大"
+
+msgid "Not counted yet"
+msgstr "尚未统计"
+
+msgid "No items found"
+msgstr "未找到项目"
+
+msgid "A file name cannot contain “/”."
+msgstr "文件名不能包含“/”。"
+
+#, c-format
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "将“%s”重命名为“%s”会改变其扩展名。该文件可能会用其他应用程序打开，或根本无法打开。"
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "选择模式：点击文件或文件夹以选中或取消选中。"
+
+msgid "_Exit Selection Mode"
+msgstr "退出选择模式(_E)"
+
+msgid "_Duplicate"
+msgstr "创建副本(_D)"
+
+msgid "De_lete"
+msgstr "删除(_L)"
+
+msgid "Pr_operties"
+msgstr "属性(_O)"
+
+#, c-format
+msgid "The folder “%s” no longer exists."
+msgstr "文件夹“%s”已不存在。"
+
+#, c-format
+msgid "“%s” selected (%s%s)"
+msgstr "已选中“%s”（%s%s）"
+
+#, c-format
+msgid "%s selected"
+msgstr "已选中 %s"
+
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "已选中 %d 个"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "具有管理员权限的 Beluga 窗口可以更改和删除此计算机上的任何文件，包括系统启动所需的文件。在其中操作失误可能导致系统无法使用。请只将它用于无法用其他方式更改的文件，并在完成后关闭它。\n\n接下来 Beluga 会询问管理员密码。"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr "在以下位置创建新文件夹：\n%s"
+
+#, c-format
+msgid "Create new file in:\n%s"
+msgstr "在以下位置创建新文件：\n%s"
+
+msgid "Split View to Tabs"
+msgstr "将拆分视图转为标签页"
+
+msgid "Folders Panel"
+msgstr "文件夹面板"
+
+msgid "Columns"
+msgstr "列"

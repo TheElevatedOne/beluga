@@ -108,6 +108,119 @@ msgstr ""
 msgid "Extracting from “%s”"
 msgstr ""
 
+msgid "Title:"
+msgstr "Titulli:"
+
+msgid "Artist:"
+msgstr "Artistit:"
+
+msgid "Album artist:"
+msgstr ""
+
+msgid "Album:"
+msgstr "Albumit:"
+
+msgid "Track:"
+msgstr "Këngës:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "Datë:"
+
+msgid "Genre:"
+msgstr "Zhanrit:"
+
+msgid "Composer:"
+msgstr ""
+
+msgid "Performer:"
+msgstr ""
+
+msgid "Publisher:"
+msgstr "Botuesi:"
+
+msgid "Copyright:"
+msgstr ""
+
+msgid "Comment:"
+msgstr "Koment:"
+
+msgid "Description:"
+msgstr "Përshkrim:"
+
+msgid "Language:"
+msgstr ""
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "Zgjatjes:"
+
+msgid "Format:"
+msgstr ""
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "Video:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "Skedat e zërit:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
 msgid "Places"
 msgstr "Vendet"
 
@@ -325,6 +438,24 @@ msgstr ""
 msgid "Dimensions"
 msgstr "Dimenzioneve"
 
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr ""
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Anulo"
+
+msgid "I Understand and Accept These Risks"
+msgstr ""
+
 msgid "New Window"
 msgstr "Dritare e Re"
 
@@ -403,6 +534,9 @@ msgstr ""
 msgid "Show Hidden Files"
 msgstr "Shfaq Skedat e Fshehura"
 
+msgid "Act as Administrator"
+msgstr "Vepro si administrator"
+
 msgid "Split View"
 msgstr "Ndaje pamjen"
 
@@ -433,11 +567,17 @@ msgstr ""
 msgid "Information Panel"
 msgstr ""
 
+msgid "Disk Usage Panel"
+msgstr ""
+
 msgid "Focus Places Panel"
 msgstr ""
 
 msgid "Show Menubar"
 msgstr "Trego Menunë"
+
+msgid "Show Statusbar"
+msgstr "Shfaq Shiritin e Statusit"
 
 msgid "Back"
 msgstr "Mbrapsht"
@@ -570,6 +710,9 @@ msgstr "Hape në Një Dritare të Re"
 msgid "Open in Split View"
 msgstr "Hap në pamje të ndarë"
 
+msgid "Open in Beluga"
+msgstr ""
+
 msgid "Open Containing Folder"
 msgstr "Hap Dosjen Që e Përmban"
 
@@ -617,9 +760,6 @@ msgstr ""
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
-
-msgid "Cancel"
-msgstr "Anulo"
 
 msgid "Rename Items"
 msgstr "Riemërtoni Objekte"
@@ -837,33 +977,8 @@ msgid_plural ". %s folders could not be read."
 msgstr[0] ""
 msgstr[1] ""
 
-#, c-format
-msgid "Disk Usage – %s"
+msgid "Only folders on this computer can be measured."
 msgstr ""
-
-msgid "_Apparent size"
-msgstr ""
-
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
-
-msgid "_Stay on this drive"
-msgstr ""
-
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
-
-msgid "_Rescan"
-msgstr ""
-
-msgid "S_top"
-msgstr ""
-
-msgid "Share"
-msgstr "Ndajeni me të tjerë"
-
-msgid "Files"
-msgstr "File"
 
 msgid "read less than a minute ago"
 msgstr ""
@@ -882,6 +997,43 @@ msgstr[1] ""
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "Ndalo"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Ndajeni me të tjerë"
+
+msgid "Files"
+msgstr "File"
+
+#, c-format
+msgid "Disk Usage – %s"
 msgstr ""
 
 #, c-format
@@ -993,14 +1145,14 @@ msgstr "Grup:"
 msgid "Dimensions:"
 msgstr "Dimenzioneve:"
 
-msgid "Duration:"
-msgstr "Zgjatjes:"
-
 msgid "Broken Link"
 msgstr ""
 
 #, c-format
 msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
 msgstr ""
 
 #, c-format
@@ -1033,6 +1185,9 @@ msgstr ""
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
@@ -1040,6 +1195,9 @@ msgid "Show the version"
 msgstr ""
 
 msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
 msgstr ""
 
 msgid "Close this window?"
@@ -1157,9 +1315,6 @@ msgstr ""
 msgid "Re_load"
 msgstr ""
 
-msgid "Stop"
-msgstr "Ndalo"
-
 msgid "Panels"
 msgstr "Panelet"
 
@@ -1173,6 +1328,9 @@ msgid "Show _Menubar"
 msgstr ""
 
 msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
 msgstr ""
 
 msgid "_Go"
@@ -1212,6 +1370,9 @@ msgid "_Configure Beluga…"
 msgstr ""
 
 msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
 msgstr ""
 
 #, c-format
@@ -1712,6 +1873,9 @@ msgid "Opening many t_erminals at once"
 msgstr ""
 
 msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "Acting as _administrator"
 msgstr ""
 
 msgid "When opening an executable file:"

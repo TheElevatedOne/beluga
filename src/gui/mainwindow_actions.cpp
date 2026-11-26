@@ -2,6 +2,7 @@
 // Beluga: window actions ("win.*"), their state, and the helpers behind them.
 #include "mainwindow.hpp"
 
+#include "admin.hpp"
 #include "app.hpp"
 #include "archive.hpp"
 #include "customactions.hpp"
@@ -302,12 +303,25 @@ const std::vector<ActionDef> &action_defs()
         {"show-places", nullptr, "true", [](MainWindow *w, GVariant *) { toggle_setting(w, settings().placesPanel); }},
         {"show-folders", nullptr, "false", [](MainWindow *w, GVariant *) { toggle_setting(w, settings().foldersPanel); }},
         {"show-info", nullptr, "false", [](MainWindow *w, GVariant *) { toggle_setting(w, settings().infoPanel); }},
+        {"show-disk-usage", nullptr, "false", [](MainWindow *w, GVariant *) { w->toggleDiskUsagePane(); }},
         {"focus-places", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              if (!settings().placesPanel) toggle_setting(w, settings().placesPanel);
              w->focusPlaces();
          }},
         {"show-menubar", nullptr, "false", [](MainWindow *w, GVariant *) { toggle_setting(w, settings().showMenuBar); }},
         {"show-toolbar", nullptr, "true", [](MainWindow *w, GVariant *) { toggle_setting(w, settings().showToolBar); }},
+        {"show-statusbar", nullptr, "true", [](MainWindow *, GVariant *) {
+             // Hidden <-> the mode it had (small or full width), as Dolphin's Show Statusbar.
+             Settings &st = settings();
+             if (st.statusBar == StatusBarMode::Hidden) {
+                 st.statusBar = st.statusBarShown == StatusBarMode::Hidden ? StatusBarMode::FullWidth : st.statusBarShown;
+             } else {
+                 st.statusBarShown = st.statusBar;
+                 st.statusBar = StatusBarMode::Hidden;
+             }
+             st.save();
+             notify_settings_changed();
+         }},
         // Go
         {"back", nullptr, nullptr, [](MainWindow *w, GVariant *) { if (AC(w)) AC(w)->goBack(); }},
         {"forward", nullptr, nullptr, [](MainWindow *w, GVariant *) { if (AC(w)) AC(w)->goForward(); }},
@@ -385,6 +399,17 @@ const std::vector<ActionDef> &action_defs()
          }},
         {"open-selected", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              if (AC(w)) w->openItems(AC(w), w->selectedItems(), GdkModifierType(0));
+         }},
+        {"act-as-admin", nullptr, nullptr, [](MainWindow *w, GVariant *) {
+             View *v = AV(w);
+             std::string uri = v && !v->isVirtual() && g_file_is_native(v->locationFile().get()) ? v->location() : std::string("/");
+             act_as_admin(w->widget(), uri);
+         }},
+        {"browse-archive", nullptr, nullptr, [](MainWindow *w, GVariant *) {
+             auto items = w->selectedItems();
+             if (items.size() != 1 || !AC(w)) return;
+             std::string path = take(g_file_get_path(item_data(items[0]).file.get()));
+             if (!path.empty()) AC(w)->navigate(archive::make_uri(path, ""));
          }},
         {"open-with", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              auto items = w->selectedItems();
@@ -535,6 +560,7 @@ void MainWindow::updateActions()
     enable(this, "folder-properties", !virt);
     enable(this, "remember-view", v && !virt);
     enable(this, "disk-usage", !disk_usage_target(this).empty());
+    enable(this, "act-as-admin", !running_as_root());
     enable(this, "properties", (sel && !inArchive) || !virt);
 
     if (v) {
@@ -568,8 +594,10 @@ void MainWindow::updateActions()
     state(this, "show-places", g_variant_new_boolean(s.placesPanel));
     state(this, "show-folders", g_variant_new_boolean(s.foldersPanel));
     state(this, "show-info", g_variant_new_boolean(s.infoPanel));
+    state(this, "show-disk-usage", g_variant_new_boolean(duPaneOpen_));
     state(this, "show-menubar", g_variant_new_boolean(s.showMenuBar));
     state(this, "show-toolbar", g_variant_new_boolean(s.showToolBar));
+    state(this, "show-statusbar", g_variant_new_boolean(s.statusBar != StatusBarMode::Hidden));
     updatingActions_ = false;
 }
 

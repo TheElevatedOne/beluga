@@ -77,6 +77,18 @@ void request_usage(const std::string &uri, bool oneFileSystem, std::weak_ptr<voi
     static WorkQueue *usageQueue = new WorkQueue(1, true);   // never destroyed, like queue()
     // A remembered total shows at once; the folder is read again only when it isn't current.
     std::string local = take(g_filename_from_uri(uri.c_str(), nullptr, nullptr));
+    // A drive mounted inside the folder being viewed (say ~/music on another disk) isn't counted when staying on
+    // one drive, like inside the Disk Usage window: kOtherDrive instead of its size.
+    if (oneFileSystem && !local.empty()) {
+        struct stat st, pst;
+        std::string parent = take(g_path_get_dirname(local.c_str()));
+        if (lstat(local.c_str(), &st) == 0 && S_ISDIR(st.st_mode) && stat(parent.c_str(), &pst) == 0 && st.st_dev != pst.st_dev) {
+            run_on_main([owner, cb] {
+                if (!owner.expired()) cb(kOtherDrive);
+            });
+            return;
+        }
+    }
     du::CachedTotal c;
     if (!local.empty() && du::cached_total(local, oneFileSystem, c)) {
         gint64 bytes = (gint64)c.size;

@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "item.hpp"
 
+#include "dirsize.hpp"
+
 #include "settings.hpp"
 
 #include <sys/stat.h>
@@ -152,6 +154,7 @@ std::string item_role_text(BelugaItem *item, const std::string &role)
     if (role == "diskusage") {
         gint64 u = item_usage(item);
         if (u >= 0) return format_size((guint64)u);
+        if (d.isDir && d.usage == dirsize::kOtherDrive) return _("other drive");
         return d.isDir && d.usagePending ? std::string("…") : std::string();
     }
     if (role == "modificationtime") return date_text(d.mtime);

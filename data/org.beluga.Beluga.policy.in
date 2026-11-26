@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<!-- View › Act as Administrator runs `pkexec beluga`; this gives the password prompt Beluga's name. -->
+<policyconfig>
+  <vendor>Beluga</vendor>
+  <vendor_url>https://github.com/TheElevatedOne/beluga</vendor_url>
+  <icon_name>@BELUGA_APP_ID@</icon_name>
+  <action id="org.beluga.Beluga.act-as-admin">
+    <description>Open Beluga as administrator</description>
+    <message>Authentication is required to open Beluga as administrator</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@CMAKE_INSTALL_FULL_BINDIR@/beluga</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

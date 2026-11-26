@@ -217,6 +217,9 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
             if (st.ctxOpenInSplitView && items.size() == 1) item(s, _("Open in Split View"), "win.open-in-split-view", "view-split-left-right");
         } else if (!anyDir && !inArchive) {
             add_open_with(s, items);
+            const ItemData &d0 = item_data(items[0]);
+            if (items.size() == 1 && archive::can_browse(d0.mime, d0.name) && g_file_is_native(d0.file.get()))
+                item(s, _("Open in Beluga"), "win.browse-archive", "folder-open");
         } else {
             item(s, _("Open"), "win.open-selected", "document-open");
         }

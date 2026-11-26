@@ -71,6 +71,9 @@ public:
     void updateTabBar();
     void updateCutState();
     void focusPlaces();
+    void toggleDiskUsagePane();
+    bool diskUsagePaneOpen() const { return duPaneOpen_; }
+    GtkWidget *diskUsagePane() const { return duPane_; }
 
     // Session.
     void saveSession(GKeyFile *kf, const std::string &group) const;
@@ -102,12 +105,16 @@ private:
     void buildMenus();
     void onTabSwitched(int index);
     void rebuildClosedTabsMenu();
+    void layoutRight();
 
     GtkWidget *win_;
     GtkWidget *menubar_;
     GtkWidget *toolbar_;
     GtkWidget *notebook_;
     GtkWidget *outerPaned_, *leftPaned_, *innerPaned_;
+    GtkWidget *rightStack_ = nullptr;   // the Information panel or the Disk Usage pane
+    GtkWidget *duPane_ = nullptr;
+    bool duPaneOpen_ = false;
     GtkWidget *backButton_, *forwardButton_;
     GMenuModel *menu_ = nullptr;
     GMenu *closedTabsMenu_ = nullptr;

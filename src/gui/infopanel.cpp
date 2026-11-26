@@ -2,6 +2,9 @@
 #include "infopanel.hpp"
 
 #include "dirsize.hpp"
+#include "fileops.hpp"
+#include "mediainfo.hpp"
+#include "workqueue.hpp"
 #include "gtkutil.hpp"
 #include "search.hpp"
 #include "settings.hpp"
@@ -238,7 +241,20 @@ void InfoPanel::render()
         gtk_video_set_autoplay(GTK_VIDEO(media_), settings().infoAutoPlay);
         gtk_video_set_file(GTK_VIDEO(media_), f);
         gtk_widget_set_visible(media_, TRUE);
-        if (GtkMediaStream *stream = gtk_video_get_media_stream(GTK_VIDEO(media_))) {
+        if (mediainfo::available()) {
+            // What ffprobe shows, read with FFmpeg on a worker thread (newest file first; stale ones are skipped).
+            static WorkQueue *probes = new WorkQueue(1, true);
+            std::weak_ptr<int> alive = alive_;
+            std::string file = path;
+            probes->push([this, alive, file] {
+                if (alive.expired()) return;
+                auto rows = mediainfo::probe(file);
+                run_on_main([this, alive, rows] {
+                    if (alive.expired()) return;
+                    for (auto &r : rows) addRow(r.first, r.second);
+                });
+            });
+        } else if (GtkMediaStream *stream = gtk_video_get_media_stream(GTK_VIDEO(media_))) {
             addRow(_("Duration:"), "…");
             GtkWidget *value = gtk_grid_get_child_at(GTK_GRID(grid_), 1, rows_ - 1);
             auto update = [](GtkMediaStream *st, GParamSpec *, gpointer label) {

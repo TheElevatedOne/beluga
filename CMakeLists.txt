@@ -17,6 +17,19 @@ find_package(Threads REQUIRED)
 pkg_check_modules(GIO REQUIRED IMPORTED_TARGET glib-2.0>=2.84 gio-2.0 gio-unix-2.0 gdk-pixbuf-2.0)
 pkg_check_modules(GTK4 REQUIRED IMPORTED_TARGET gtk4>=4.16)
 pkg_check_modules(ARCHIVE REQUIRED IMPORTED_TARGET libarchive>=3.6)
+# Audio and video details in the Information panel (what ffprobe shows), with FFmpeg's libraries.
+set(BELUGA_FFMPEG AUTO CACHE STRING "Read audio/video details with FFmpeg's libavformat: AUTO, ON or OFF")
+set_property(CACHE BELUGA_FFMPEG PROPERTY STRINGS AUTO ON OFF)
+set(BELUGA_HAVE_FFMPEG OFF)
+if(BELUGA_FFMPEG STREQUAL "ON")
+  pkg_check_modules(FFMPEG REQUIRED IMPORTED_TARGET libavformat libavcodec libavutil>=57.28)
+  set(BELUGA_HAVE_FFMPEG ON)
+elseif(BELUGA_FFMPEG STREQUAL "AUTO")
+  pkg_check_modules(FFMPEG IMPORTED_TARGET libavformat libavcodec libavutil>=57.28)
+  if(FFMPEG_FOUND)
+    set(BELUGA_HAVE_FFMPEG ON)
+  endif()
+endif()
 
 set(BELUGA_APP_ID "org.beluga.Beluga")
 set(BELUGA_WARN -Wall -Wextra -Wno-unused-parameter -Wno-missing-field-initializers)
@@ -47,11 +60,19 @@ add_library(belugacore STATIC
   src/core/diskusage.cpp
   src/core/archive.cpp
   src/core/fileindex.cpp
+  src/core/mediainfo.cpp
 )
 target_include_directories(belugacore PUBLIC src/core)
 target_compile_definitions(belugacore PUBLIC ${BELUGA_DEFS})
 target_compile_options(belugacore PRIVATE ${BELUGA_WARN})
 target_link_libraries(belugacore PUBLIC PkgConfig::GIO PkgConfig::ARCHIVE Threads::Threads)
+if(BELUGA_HAVE_FFMPEG)
+  target_link_libraries(belugacore PRIVATE PkgConfig::FFMPEG)
+  target_compile_definitions(belugacore PRIVATE BELUGA_HAVE_FFMPEG=1)
+  message(STATUS "Audio and video details: FFmpeg ${FFMPEG_libavformat_VERSION}")
+else()
+  message(STATUS "Audio and video details: off (FFmpeg's libavformat not used)")
+endif()
 
 # The app icon, also built into the binary (see data/beluga.gresource.xml).
 find_program(GLIB_COMPILE_RESOURCES glib-compile-resources)
@@ -68,6 +89,7 @@ add_custom_command(
 add_executable(beluga
   ${BELUGA_RESOURCES}
   src/gui/main.cpp
+  src/gui/admin.cpp
   src/gui/app.cpp
   src/gui/gtkutil.cpp
   src/gui/style.cpp
@@ -106,6 +128,9 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${BELUGA_APP_ID}.desktop
   DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
 install(FILES data/${BELUGA_APP_ID}.metainfo.xml DESTINATION ${CMAKE_INSTALL_DATADIR}/metainfo)
 install(FILES data/icons/${BELUGA_APP_ID}.svg DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps)
+# The password prompt of View › Act as Administrator (pkexec beluga).
+configure_file(data/org.beluga.Beluga.policy.in ${CMAKE_CURRENT_BINARY_DIR}/org.beluga.Beluga.policy @ONLY)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.beluga.Beluga.policy DESTINATION ${CMAKE_INSTALL_DATADIR}/polkit-1/actions)
 # The file chooser for xdg-desktop-portal. Installing it changes nothing until portals.conf picks "beluga".
 install(FILES data/beluga.portal DESTINATION ${CMAKE_INSTALL_DATADIR}/xdg-desktop-portal/portals)
 configure_file(data/org.freedesktop.impl.portal.desktop.beluga.service.in

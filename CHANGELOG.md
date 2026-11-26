@@ -2,6 +2,39 @@
 
 ## Unreleased
 
+- Added: complete translations for Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
+  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese (703 of 704 messages; before: about 240). They live in
+  `po/extra/` and survive a new import from KDE's catalogs.
+- Added: a **Disk Usage** button in the tool bar (and **View → Panels → Disk Usage**, <kbd>Shift</kbd>+<kbd>F11</kbd>)
+  opens Disk Usage as a pane on the right of the window, where the Information panel goes; it follows the folder
+  you're in. **Tools → Disk Usage…** still opens a window of its own.
+- Added: **View → Show Statusbar** (also in the Settings menu) hides and shows the status bar; it has no default
+  shortcut and can get one in Configure Beluga → Keyboard Shortcuts.
+- Added: the Information panel shows audio and video details like `ffprobe`: duration, format, bit rate, tags
+  (title, artist, album, track, date, genre, …), cover size and each stream's codec, size, frame rate, pixel format,
+  sample rate, channels and bit depth. They come from FFmpeg's libavformat, an optional build dependency
+  (`-DBELUGA_FFMPEG=AUTO|ON|OFF`).
+- Added: **View → Act as Administrator** asks for the administrator password with polkit (`pkexec`) and opens a
+  separate Beluga window as root, with a warning bar and "(Administrator)" in its title, in your theme. It warns
+  first (Configure Beluga → Confirmations). `sudo beluga` is not refused: a root Beluga finds your Wayland
+  display, makes a runtime folder and a D-Bus session of its own and doesn't write into your session's folders.
+- Added: `beluga --detach`, like kitty's: returns to the shell prompt at once, keeps running after the terminal
+  closes, and opens the current folder when no location is given.
+- Added: **Open in Beluga** in an archive's context menu.
+- Changed: archives open in their program by default (double-click); turn on Configure Beluga → General → Open
+  archives as folders to browse them in Beluga instead. Archives with no program set up still open in Beluga.
+- Changed: the name index includes hidden files and folders, so searches with hidden files use it too (shown only
+  when hidden files are asked for). The cache folder and other drives mounted in the home folder are left out of
+  the index and read from the disk, so searches now also find files on those drives. On a home folder with 1.6
+  million indexed names a search takes about 10 ms (32 ms with hidden files); `find` takes 0.78 s. The index is
+  stored more compactly (`index-v2`; the old file is removed).
+- Changed: with **Stay on this drive**, the Disk Usage column shows "other drive" for a drive mounted inside the
+  folder (such as a music folder on another disk) instead of its size.
+- Changed: new defaults: filter bar shown, full path in the location bar, folders from other programs open in a
+  new tab, tab bar always shown, new tabs after the last one, closing split view closes the inactive view,
+  full-width status bar with zoom slider, Copy To/Move To in the context menu, Disk Usage column in Details,
+  preview size limits of 20 MiB (local) and 5 MiB (remote), hidden folders in the Folders panel, apparent sizes in
+  Disk Usage, and maximized windows. Existing settings are kept.
 - Changed: windows report the class `Beluga` (Hyprland's `class`, X11's WM_CLASS) instead of the application ID
   `org.beluga.Beluga`, so window rules can match `Beluga`. The desktop entry has `StartupWMClass=Beluga` so
   taskbars still find its icon.

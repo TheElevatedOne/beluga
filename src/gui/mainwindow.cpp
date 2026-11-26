@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "mainwindow.hpp"
 
+#include "admin.hpp"
+#include "diskusagewindow.hpp"
+
 #include "app.hpp"
 #include "archive.hpp"
 #include "dialogs.hpp"
@@ -47,6 +50,19 @@ MainWindow::MainWindow(GtkApplication *app)
     menubar_ = gtk_popover_menu_bar_new_from_model(menu_);
     gtk_box_append(GTK_BOX(vbox), menubar_);
     gtk_box_append(GTK_BOX(vbox), toolbar_);
+    if (running_as_root()) {
+        // A root Beluga (Act as Administrator, sudo) says so in every window.
+        GtkWidget *bar = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
+        gtk_widget_add_css_class(bar, "beluga-admin-bar");
+        GtkWidget *icon = gtk_image_new_from_icon_name("dialog-warning");
+        gtk_box_append(GTK_BOX(bar), icon);
+        GtkWidget *l = gtk_label_new(_("Acting as administrator: changes in this window can damage the system."));
+        gtk_label_set_xalign(GTK_LABEL(l), 0);
+        gtk_label_set_wrap(GTK_LABEL(l), TRUE);
+        gtk_widget_set_hexpand(l, TRUE);
+        gtk_box_append(GTK_BOX(bar), l);
+        gtk_box_append(GTK_BOX(vbox), bar);
+    }
 
     places_ = std::make_unique<PlacesPanel>();
     folders_ = std::make_unique<FoldersPanel>();
@@ -86,7 +102,14 @@ MainWindow::MainWindow(GtkApplication *app)
 
     innerPaned_ = gtk_paned_new(GTK_ORIENTATION_HORIZONTAL);
     gtk_paned_set_start_child(GTK_PANED(innerPaned_), notebook_);
-    gtk_paned_set_end_child(GTK_PANED(innerPaned_), info_->widget());
+    // The right side shows the Information panel, or the Disk Usage pane while that is open.
+    duPane_ = disk_usage_pane_new(this);
+    rightStack_ = gtk_stack_new();
+    gtk_stack_add_named(GTK_STACK(rightStack_), info_->widget(), "info");
+    gtk_stack_add_named(GTK_STACK(rightStack_), duPane_, "du");
+    gtk_stack_set_hhomogeneous(GTK_STACK(rightStack_), FALSE);
+    gtk_stack_set_interpolate_size(GTK_STACK(rightStack_), FALSE);
+    gtk_paned_set_end_child(GTK_PANED(innerPaned_), rightStack_);
     gtk_paned_set_resize_end_child(GTK_PANED(innerPaned_), FALSE);
     gtk_paned_set_shrink_end_child(GTK_PANED(innerPaned_), FALSE);
     gtk_paned_set_shrink_start_child(GTK_PANED(innerPaned_), FALSE);
@@ -181,6 +204,8 @@ void MainWindow::closeWindow()
         }
     }
     if (gtk_widget_get_visible(leftPaned_)) s.leftPanelWidth = gtk_paned_get_position(GTK_PANED(outerPaned_));
+    if (duPaneOpen_ && gtk_widget_get_width(innerPaned_) > 0)
+        s.duPaneWidth = std::max(200, gtk_widget_get_width(innerPaned_) - gtk_paned_get_position(GTK_PANED(innerPaned_)));
     s.save();
     App::instance().windowClosed(this);
     g_object_set_data(G_OBJECT(win_), "beluga-mainwindow", nullptr);
@@ -292,6 +317,8 @@ void MainWindow::buildToolbar()
     gtk_widget_set_hexpand(spacer, TRUE);
     gtk_box_append(GTK_BOX(toolbar_), spacer);
     gtk_box_append(GTK_BOX(toolbar_), jobs_indicator_new());
+    static const char *usage[] = {"disk-quota", "baobab", "org.gnome.baobab", "drive-harddisk", nullptr};
+    gtk_box_append(GTK_BOX(toolbar_), tool_toggle(usage, _("Disk Usage"), "win.show-disk-usage"));
     gtk_box_append(GTK_BOX(toolbar_), tool_toggle(split, _("Split View"), "win.split"));
     gtk_box_append(GTK_BOX(toolbar_), tool_toggle(filter, _("Filter"), "win.toggle-filter"));
     gtk_box_append(GTK_BOX(toolbar_), tool_toggle(search, _("Search"), "win.toggle-search"));
@@ -437,6 +464,7 @@ void MainWindow::buildMenus()
     g_object_unref(rolesMenu);
     add(s, _("Show Previews"), "win.show-previews");
     add(s, _("Show Hidden Files"), "win.show-hidden");
+    add(s, _("Act as Administrator"), "win.act-as-admin");
     s = section(view);
     add(s, _("Remember View for This Folder"), "win.remember-view");
     add(s, _("Restore to Defaults"), "win.reset-view-props");
@@ -453,6 +481,7 @@ void MainWindow::buildMenus()
     add(panels, _("Places"), "win.show-places");
     add(panels, _("Folders"), "win.show-folders");
     add(panels, _("Information"), "win.show-info");
+    add(panels, _("Disk Usage"), "win.show-disk-usage");
     add(panels, _("Focus Places Panel"), "win.focus-places");
     GMenu *loc = submenu(s, _("Location Bar"));
     add(loc, _("Editable Location"), "win.editable-location");
@@ -460,6 +489,7 @@ void MainWindow::buildMenus()
     s = section(view);
     add(s, _("Show _Menubar"), "win.show-menubar");
     add(s, _("Show _Toolbar"), "win.show-toolbar");
+    add(s, _("Show _Statusbar"), "win.show-statusbar");
 
     GMenu *go = submenu(bar, _("_Go"));
     s = section(go);
@@ -482,6 +512,8 @@ void MainWindow::buildMenus()
     GMenu *set = submenu(bar, _("_Settings"));
     s = section(set);
     add(s, _("Show _Menubar"), "win.show-menubar");
+    add(s, _("Show _Toolbar"), "win.show-toolbar");
+    add(s, _("Show _Statusbar"), "win.show-statusbar");
     add(s, _("_Configure Beluga…"), "win.preferences");
 
     menu_ = G_MENU_MODEL(bar);
@@ -688,7 +720,7 @@ void MainWindow::selectionChanged(ViewContainer *c)
 {
     if (c != activeContainer()) return;
     updateActions();
-    if (info_ && gtk_widget_get_visible(info_->widget())) {
+    if (info_ && gtk_widget_get_visible(info_->widget()) && !duPaneOpen_) {
         auto items = c->view()->selectedItems();
         if (items.empty()) info_->showFolder(c->uri());
         else info_->showItems(items);
@@ -697,7 +729,7 @@ void MainWindow::selectionChanged(ViewContainer *c)
 
 void MainWindow::hoverChanged(ViewContainer *c)
 {
-    if (c != activeContainer() || !info_ || !gtk_widget_get_visible(info_->widget())) return;
+    if (c != activeContainer() || !info_ || !gtk_widget_get_visible(info_->widget()) || duPaneOpen_) return;
     if (settings().infoShowHovered) info_->showHovered(c->view()->hoveredItem());
 }
 
@@ -707,7 +739,8 @@ void MainWindow::syncPanels()
     if (!c) return;
     places_->setCurrentUri(c->uri());
     if (gtk_widget_get_visible(folders_->widget()) && !is_virtual_uri(c->uri())) folders_->setUri(c->uri());
-    if (gtk_widget_get_visible(info_->widget())) {
+    if (duPaneOpen_) disk_usage_pane_show(duPane_, c->uri());
+    if (gtk_widget_get_visible(info_->widget()) && !duPaneOpen_) {
         auto items = c->view()->selectedItems();
         if (items.empty()) info_->showFolder(c->uri());
         else info_->showItems(items);
@@ -718,7 +751,7 @@ void MainWindow::updateTitle()
 {
     ViewContainer *c = activeContainer();
     if (!c) return;
-    std::string t = c->title() + " — Beluga";
+    std::string t = c->title() + (running_as_root() ? std::string(" — Beluga ") + _("(Administrator)") : std::string(" — Beluga"));
     gtk_window_set_title(GTK_WINDOW(win_), t.c_str());
 }
 
@@ -739,22 +772,47 @@ void MainWindow::applySettings()
             return G_SOURCE_REMOVE;
         }, g_object_ref(leftPaned_));
     gtk_widget_set_visible(info_->widget(), s.infoPanel);
-    if (s.infoPanel) {
-        int w = gtk_widget_get_width(innerPaned_);
-        if (w > 0) gtk_paned_set_position(GTK_PANED(innerPaned_), std::max(200, w - s.infoPanelWidth));
-        else {
-            g_idle_add([](gpointer p) -> gboolean {
-                auto *paned = GTK_PANED(p);
-                int w = gtk_widget_get_width(GTK_WIDGET(paned));
-                if (w > 0) gtk_paned_set_position(paned, std::max(200, w - settings().infoPanelWidth));
-                g_object_unref(paned);
-                return G_SOURCE_REMOVE;
-            }, g_object_ref(innerPaned_));
-        }
-    }
+    layoutRight();
     updateTabBar();
     for (auto &t : tabs_) t->updateLabel();
     updateTitle();
+    syncPanels();
+    updateActions();
+}
+
+// Shows the right side for the Information panel or the Disk Usage pane, at that one's width.
+void MainWindow::layoutRight()
+{
+    const Settings &s = settings();
+    bool show = s.infoPanel || duPaneOpen_;
+    gtk_widget_set_visible(duPane_, duPaneOpen_);
+    gtk_stack_set_visible_child(GTK_STACK(rightStack_), duPaneOpen_ ? duPane_ : info_->widget());
+    gtk_widget_set_visible(rightStack_, show);
+    if (!show) return;
+    int width = duPaneOpen_ ? s.duPaneWidth : s.infoPanelWidth;
+    int w = gtk_widget_get_width(innerPaned_);
+    if (w > 0) {
+        gtk_paned_set_position(GTK_PANED(innerPaned_), std::max(200, w - width));
+        return;
+    }
+    g_object_set_data(G_OBJECT(innerPaned_), "beluga-width", GINT_TO_POINTER(width));
+    g_idle_add([](gpointer p) -> gboolean {
+        auto *paned = GTK_PANED(p);
+        int w = gtk_widget_get_width(GTK_WIDGET(paned));
+        int width = GPOINTER_TO_INT(g_object_get_data(G_OBJECT(paned), "beluga-width"));
+        if (w > 0) gtk_paned_set_position(paned, std::max(200, w - width));
+        g_object_unref(paned);
+        return G_SOURCE_REMOVE;
+    }, g_object_ref(innerPaned_));
+}
+
+void MainWindow::toggleDiskUsagePane()
+{
+    Settings &s = settings();
+    if (duPaneOpen_ && gtk_widget_get_width(innerPaned_) > 0)
+        s.duPaneWidth = std::max(200, gtk_widget_get_width(innerPaned_) - gtk_paned_get_position(GTK_PANED(innerPaned_)));
+    duPaneOpen_ = !duPaneOpen_;
+    layoutRight();
     syncPanels();
     updateActions();
 }
@@ -781,8 +839,10 @@ void MainWindow::openItems(ViewContainer *c, const std::vector<BelugaItem *> &it
     for (BelugaItem *it : items) {
         const ItemData &d = item_data(it);
         bool mountable = d.info && g_file_info_get_file_type(d.info.get()) == G_FILE_TYPE_MOUNTABLE;
-        // An archive opens as a folder: zip, tar, 7z, rar, ISO.
-        if (!d.isDir && settings().browseArchives && archive::can_browse(d.mime, d.name)) {
+        // An archive opens as a folder (zip, tar, 7z, rar, ISO) when that is set, or when no program is set up
+        // for it; otherwise it opens in its program, and Open in Beluga browses it.
+        if (!d.isDir && archive::can_browse(d.mime, d.name)
+            && (settings().browseArchives || !Ref<GAppInfo>(g_app_info_get_default_for_type(d.mime.c_str(), FALSE)))) {
             std::string path = take(g_file_get_path(d.file.get()));
             if (!path.empty()) {
                 dirs.push_back(archive::make_uri(path, ""));

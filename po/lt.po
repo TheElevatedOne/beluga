@@ -112,6 +112,121 @@ msgstr ""
 msgid "Extracting from “%s”"
 msgstr ""
 
+msgid "Title:"
+msgstr "Pavadinimas:"
+
+msgid "Artist:"
+msgstr "Atlikėjas:"
+
+msgid "Album artist:"
+msgstr "Albumo atlikėjas:"
+
+msgid "Album:"
+msgstr "Albumas:"
+
+msgid "Track:"
+msgstr "Takelis:"
+
+msgid "Disc:"
+msgstr ""
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "Genre:"
+msgstr "Žanras:"
+
+msgid "Composer:"
+msgstr "Kompozitorius:"
+
+msgid "Performer:"
+msgstr "Atlikėjas:"
+
+msgid "Publisher:"
+msgstr "Leidėjas:"
+
+msgid "Copyright:"
+msgstr "Autorių teisės:"
+
+msgid "Comment:"
+msgstr "Komentaras:"
+
+msgid "Description:"
+msgstr "Aprašas:"
+
+msgid "Language:"
+msgstr "Kalba:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr ""
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr ""
+
+msgid "Duration:"
+msgstr "Trukmė:"
+
+msgid "Format:"
+msgstr "Formatas:"
+
+msgid "Bit rate:"
+msgstr ""
+
+msgid "Cover:"
+msgstr ""
+
+#, c-format
+msgid ", %.0f fps"
+msgstr ""
+
+#, c-format
+msgid ", %.3f fps"
+msgstr ""
+
+msgid "Video:"
+msgstr "Vaizdo įrašai:"
+
+#, c-format
+msgid "Video %d:"
+msgstr ""
+
+#, c-format
+msgid ", %d Hz"
+msgstr ""
+
+msgid "mono"
+msgstr ""
+
+msgid "stereo"
+msgstr ""
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, c-format
+msgid ", %d bit"
+msgstr ""
+
+msgid "Audio:"
+msgstr "Garso įrašai:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr ""
+
+msgid "Subtitles:"
+msgstr ""
+
+msgid "Chapters:"
+msgstr ""
+
 msgid "Places"
 msgstr "Vietos"
 
@@ -335,6 +450,24 @@ msgstr ""
 msgid "Dimensions"
 msgstr "Matmenys"
 
+msgid "Beluga could not act as administrator."
+msgstr ""
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr ""
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Naudojimosi administratoriaus teisėmis rizikos"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Aš suprantu ir prisiimu šias rizikas"
+
 msgid "New Window"
 msgstr "Naujas langas"
 
@@ -413,6 +546,9 @@ msgstr ""
 msgid "Show Hidden Files"
 msgstr "Rodyti paslėptus failus"
 
+msgid "Act as Administrator"
+msgstr "Naudotis administratoriaus teisėmis"
+
 msgid "Split View"
 msgstr "Padalytas rodinys"
 
@@ -443,11 +579,17 @@ msgstr ""
 msgid "Information Panel"
 msgstr "Informacijos skydelis"
 
+msgid "Disk Usage Panel"
+msgstr ""
+
 msgid "Focus Places Panel"
 msgstr "Fokusuoti vietų skydelį"
 
 msgid "Show Menubar"
 msgstr "Rodyti meniu juostą"
+
+msgid "Show Statusbar"
+msgstr "Rodyti būsenos juostą"
 
 msgid "Back"
 msgstr "Atgal"
@@ -580,6 +722,9 @@ msgstr "Atverti naujame lange"
 msgid "Open in Split View"
 msgstr "Atverti padalytame rodinyje"
 
+msgid "Open in Beluga"
+msgstr ""
+
 msgid "Open Containing Folder"
 msgstr "Atverti vidinį aplanką"
 
@@ -627,9 +772,6 @@ msgstr ""
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
-
-msgid "Cancel"
-msgstr "Atsisakyti"
 
 msgid "Rename Items"
 msgstr "Pervadinti elementus"
@@ -851,32 +993,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#, c-format
-msgid "Disk Usage – %s"
-msgstr ""
-
-msgid "_Apparent size"
-msgstr ""
-
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
-
-msgid "_Stay on this drive"
-msgstr ""
-
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
-
-msgid "_Rescan"
-msgstr ""
-
-msgid "S_top"
-msgstr ""
-
-msgid "Share"
-msgstr "Bendrinti"
-
-msgid "Files"
+msgid "Only folders on this computer can be measured."
 msgstr ""
 
 msgid "read less than a minute ago"
@@ -900,6 +1017,43 @@ msgstr[3] ""
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
+msgstr ""
+
+msgid "_Apparent size"
+msgstr ""
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr ""
+
+msgid "_Stay on this drive"
+msgstr ""
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr ""
+
+msgid "Rescan"
+msgstr ""
+
+msgid "Stop"
+msgstr "Stabdyti"
+
+msgid "Close Disk Usage"
+msgstr ""
+
+msgid "_Rescan"
+msgstr ""
+
+msgid "S_top"
+msgstr ""
+
+msgid "Share"
+msgstr "Bendrinti"
+
+msgid "Files"
+msgstr ""
+
+#, c-format
+msgid "Disk Usage – %s"
 msgstr ""
 
 #, c-format
@@ -1011,14 +1165,14 @@ msgstr "Grupė:"
 msgid "Dimensions:"
 msgstr "Matmenys:"
 
-msgid "Duration:"
-msgstr "Trukmė:"
-
 msgid "Broken Link"
 msgstr ""
 
 #, c-format
 msgid "%s (link)"
+msgstr ""
+
+msgid "other drive"
 msgstr ""
 
 #, c-format
@@ -1051,6 +1205,9 @@ msgstr ""
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr ""
+
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
@@ -1058,6 +1215,9 @@ msgid "Show the version"
 msgstr ""
 
 msgid "[FILE or FOLDER…]"
+msgstr ""
+
+msgid "Acting as administrator: changes in this window can damage the system."
 msgstr ""
 
 msgid "Close this window?"
@@ -1175,9 +1335,6 @@ msgstr "Derinti rodinio atvaizdavimo stilių…"
 msgid "Re_load"
 msgstr ""
 
-msgid "Stop"
-msgstr "Stabdyti"
-
 msgid "Panels"
 msgstr "Skydeliai"
 
@@ -1191,6 +1348,9 @@ msgid "Show _Menubar"
 msgstr ""
 
 msgid "Show _Toolbar"
+msgstr ""
+
+msgid "Show _Statusbar"
 msgstr ""
 
 msgid "_Go"
@@ -1230,6 +1390,9 @@ msgid "_Configure Beluga…"
 msgstr ""
 
 msgid "No recently closed tabs"
+msgstr ""
+
+msgid "(Administrator)"
 msgstr ""
 
 #, c-format
@@ -1730,6 +1893,9 @@ msgid "Opening many t_erminals at once"
 msgstr ""
 
 msgid "Renaming changes a file's _type"
+msgstr ""
+
+msgid "Acting as _administrator"
 msgstr ""
 
 msgid "When opening an executable file:"

@@ -214,8 +214,8 @@ void SearchJob::run()
         runGio();
         return;
     }
-    // The index knows names and folders only: dates, sizes, contents and hidden files need the disk.
-    if (!q_.content && !q_.includeHidden && q_.modifiedWithinDays <= 0 && q_.minSize == 0 && fileindex::covers(path)) runIndexed(path);
+    // The index knows names and folders only: dates, sizes and contents need the disk.
+    if (!q_.content && q_.modifiedWithinDays <= 0 && q_.minSize == 0 && fileindex::covers(path)) runIndexed(path);
     else runLocal(path);
 }
 
@@ -266,19 +266,25 @@ void SearchJob::runIndexed(const std::string &rootPath)
         }
         flush();
     };
-    emit(fileindex::query(rootPath, match));
+    emit(fileindex::query(rootPath, match, q_.includeHidden));
     // Then whatever changed since: only folders whose time changed are read again.
     std::vector<std::string> changed = fileindex::refresh(rootPath, &cancelled_);
     folders_ = (int)fileindex::stats().folders;
-    if (!changed.empty() && !cancelled_) emit(fileindex::queryFolders(changed, match));
+    if (!changed.empty() && !cancelled_) emit(fileindex::queryFolders(rootPath, changed, match, q_.includeHidden));
     if (spec) g_pattern_spec_free(spec);
+    // What the index leaves out (other drives mounted inside, the cache folder) is read from the disk.
+    for (auto &p : fileindex::skipped(rootPath)) {
+        if (cancelled_) break;
+        if (!q_.includeHidden && p.find("/.", rootPath == "/" ? 0 : rootPath.size()) != std::string::npos) continue;
+        runLocal(p, false);
+    }
     std::thread([] { fileindex::save(); }).detach();
     run_on_main([self] {
         if (self->onDone_) self->onDone_();
     });
 }
 
-void SearchJob::runLocal(const std::string &rootPath)
+void SearchJob::runLocal(const std::string &rootPath, bool finish)
 {
     auto self = shared_from_this();
     std::mutex m;
@@ -321,6 +327,7 @@ void SearchJob::runLocal(const std::string &rootPath)
         std::lock_guard<std::mutex> l(m);
         flushLocked();
     }
+    if (!finish) return;
     run_on_main([self] {
         if (self->onDone_) self->onDone_();
     });

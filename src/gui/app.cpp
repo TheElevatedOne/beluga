@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "app.hpp"
 
+#include "admin.hpp"
+
 #include "diskusage.hpp"
 #include "fileindex.hpp"
 
@@ -54,6 +56,7 @@ const std::vector<ShortcutInfo> &shortcut_table()
         {"win.zoom-out", N_("Zoom Out"), {"<Control>minus", "<Control>KP_Subtract"}},
         {"win.zoom-reset", N_("Reset Zoom"), {"<Control>0", "<Control>KP_0"}},
         {"win.show-hidden", N_("Show Hidden Files"), {"<Control>h", "<Alt>period"}},
+        {"win.act-as-admin", N_("Act as Administrator"), {}},
         {"win.split", N_("Split View"), {"F3"}},
         {"win.focus-other-view", N_("Focus Other View"), {"<Control>F3"}},
         {"win.popout-split", N_("Pop out Split View"), {"<Shift>F3"}},
@@ -64,8 +67,10 @@ const std::vector<ShortcutInfo> &shortcut_table()
         {"win.show-places", N_("Places Panel"), {"F9"}},
         {"win.show-folders", N_("Folders Panel"), {"F7"}},
         {"win.show-info", N_("Information Panel"), {"F11"}},
+        {"win.show-disk-usage", N_("Disk Usage Panel"), {"<Shift>F11"}},
         {"win.focus-places", N_("Focus Places Panel"), {"<Control>p"}},
         {"win.show-menubar", N_("Show Menubar"), {"<Control>m"}},
+        {"win.show-statusbar", N_("Show Statusbar"), {}},
         {"win.back", N_("Back"), {"<Alt>Left", "BackSpace", "Back"}},
         {"win.forward", N_("Forward"), {"<Alt>Right", "Forward"}},
         {"win.up", N_("Up"), {"<Alt>Up"}},
@@ -102,6 +107,7 @@ void App::init(GtkApplication *app)
     gtk_window_set_default_icon_name(BELUGA_APP_ID);   // dialogs and the properties window too
     use_window_class();
     set_job_ui(&jobUi_);
+    use_invoking_users_theme();   // root (Act as Administrator, sudo): the user's theme, before the style reads its colours
     load_style();
     updateAccels();
     UndoManager::instance().onError = [this](const std::string &e) {
