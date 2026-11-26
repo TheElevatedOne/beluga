@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.0
 
 - Added: folder icons. Click the icon in a folder's Properties to pick one of the theme's icons or an image; it is
   saved in the folder's `.directory` file, as Dolphin does, and Beluga shows the icons such files set. The Places

@@ -44,6 +44,13 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.1.0" date="2026-11-27">
+      <description>
+        <p>Folder icons (also from .directory files), a Details tab in Properties, Configure Sections for the Places
+          panel, an option to keep the trash on the home drive, drive icons in the location bar, menus that no longer
+          scroll, and fixes from testing 1.0.0.</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2026-11-26">
       <description>
         <p>The first stable release: a Dolphin-like window and settings, a configurable tool bar, a Vim mode, Disk
