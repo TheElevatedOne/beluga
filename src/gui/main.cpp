@@ -14,6 +14,7 @@
 
 namespace beluga {
 int run_selftest(int argc, char **argv);
+int run_portal(int argc, char **argv);
 bool save_widget_png(GtkWidget *w, const std::string &path, int retries);
 }
 
@@ -66,8 +67,10 @@ int main(int argc, char **argv)
     bindtextdomain(GETTEXT_PACKAGE, BELUGA_LOCALEDIR);
     bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
     textdomain(GETTEXT_PACKAGE);
-    for (int i = 1; i < argc; ++i)
+    for (int i = 1; i < argc; ++i) {
         if (!strcmp(argv[i], "--selftest")) return run_selftest(argc, argv);
+        if (!strcmp(argv[i], "--portal")) return run_portal(argc, argv);
+    }
 
     settings().load();
     GtkApplication *app = gtk_application_new(BELUGA_APP_ID, G_APPLICATION_HANDLES_COMMAND_LINE);
@@ -76,6 +79,7 @@ int main(int argc, char **argv)
         {"split", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Open the window in split view"), nullptr},
         {"new-window", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Always open a new window"), nullptr},
         {"daemon", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Keep running in the background for the FileManager1 D-Bus service"), nullptr},
+        {"portal", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Run the file chooser for xdg-desktop-portal (started by D-Bus)"), nullptr},
         {"version", 'v', 0, G_OPTION_ARG_NONE, nullptr, N_("Show the version"), nullptr},
         {G_OPTION_REMAINING, 0, 0, G_OPTION_ARG_FILENAME_ARRAY, nullptr, nullptr, N_("[FILE or FOLDER…]")},
         {nullptr, 0, 0, G_OPTION_ARG_NONE, nullptr, nullptr, nullptr},

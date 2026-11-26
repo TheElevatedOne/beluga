@@ -7,6 +7,8 @@
 #include "archive.hpp"
 #include "diskusage.hpp"
 #include "fileindex.hpp"
+#include "filechooser.hpp"
+#include "portal.hpp"
 #include "diskusagewindow.hpp"
 #include "fileops.hpp"
 #include "mainwindow.hpp"
@@ -619,6 +621,131 @@ void gui_tests(GtkApplication *app)
         c->goUp();
         wait_ms(700);
         check(inside && atTop && w->activeView()->location() == archDir, "browse into an archive and back out");
+    }
+
+    // The file chooser for other programs: types, several files, saving, folders, and over D-Bus.
+    {
+        std::string filesUri = file_uri(F("").get());
+        auto uri = [](const char *rel) { return file_uri(F(rel).get()); };
+        ChooserResult got;
+        bool done = false;
+        auto run = [&](const ChooserRequest &r) {
+            done = false;
+            got = {};
+            GtkWidget *ch = show_file_chooser(app, r, [&](const ChooserResult &res) {
+                got = res;
+                done = true;
+            });
+            wait_ms(700);
+            return ch;
+        };
+        auto finishWait = [&] {
+            gint64 until = g_get_monotonic_time() + 3 * G_USEC_PER_SEC;
+            while (!done && g_get_monotonic_time() < until) wait_ms(50);
+        };
+        ChooserRequest open;
+        open.multiple = true;
+        open.filters = {{"Text", {{0, "*.TXT"}}}, {"Images", {{1, "image/png"}}}};
+        open.currentFilter = 0;
+        open.currentFolder = g_root + "/files";
+        GtkWidget *ch = run(open);
+        View *cv = file_chooser_view(ch);
+        bool textOnly = cv->findItem(uri("a.txt")) && !cv->findItem(uri("picture.png")) && cv->findItem(uri("Folder 1"));
+        shoot(ch, "13-file-chooser");
+        file_chooser_set_filter(ch, 1);
+        wait_ms(200);
+        bool images = cv->findItem(uri("picture.png")) && !cv->findItem(uri("a.txt"));
+        file_chooser_set_filter(ch, 0);
+        wait_ms(200);
+        cv->selectUris({uri("a.txt"), uri("file2.txt")});
+        wait_ms(200);
+        file_chooser_accept(ch);
+        finishWait();
+        check(textOnly && images && done && got.accepted && got.uris.size() == 2 && got.filter == 0,
+              printf_str("file chooser: types and several files (%zu chosen)", got.uris.size()));
+
+        ChooserRequest save;
+        save.mode = ChooserRequest::Mode::Save;
+        save.currentFolder = g_root + "/files";
+        save.currentName = "saved.txt";
+        ch = run(save);
+        file_chooser_accept(ch);
+        finishWait();
+        check(done && got.accepted && got.uris.size() == 1 && got.uris[0] == uri("saved.txt"), "file chooser: save under a new name");
+
+        ChooserRequest folder;
+        folder.directory = true;
+        folder.currentFolder = g_root + "/files";
+        ch = run(folder);
+        bool foldersOnly = file_chooser_view(ch)->findItem(uri("Folder 1")) && !file_chooser_view(ch)->findItem(uri("a.txt"));
+        file_chooser_view(ch)->selectUris({uri("Folder 1")});
+        wait_ms(200);
+        file_chooser_accept(ch);
+        finishWait();
+        check(foldersOnly && done && got.accepted && got.uris.size() == 1 && got.uris[0] == uri("Folder 1"), "file chooser: choose a folder");
+
+        // The portal interface, called over the session bus like xdg-desktop-portal does.
+        GDBusConnection *bus = g_bus_get_sync(G_BUS_TYPE_SESSION, nullptr, nullptr);
+        guint reg = bus ? portal_register(bus, app, nullptr) : 0;
+        struct Reply {
+            bool done = false;
+            guint32 response = 99;
+            std::vector<std::string> uris;
+            std::string choice;
+        } reply;
+        if (reg) {
+            GVariantBuilder opts;
+            g_variant_builder_init(&opts, G_VARIANT_TYPE_VARDICT);
+            g_variant_builder_add(&opts, "{sv}", "current_folder", g_variant_new_bytestring((g_root + "/files").c_str()));
+            g_variant_builder_add_parsed(&opts, "{'choices', <[('ro', 'Read only', @a(ss) [], 'true')]>}");
+            g_dbus_connection_call(bus, g_dbus_connection_get_unique_name(bus), "/org/freedesktop/portal/desktop",
+                                   "org.freedesktop.impl.portal.FileChooser", "OpenFile",
+                                   g_variant_new("(osssa{sv})", "/org/freedesktop/portal/desktop/request/selftest/t1", "selftest", "", "Pick", &opts),
+                                   G_VARIANT_TYPE("(ua{sv})"), G_DBUS_CALL_FLAGS_NONE, 30000, nullptr,
+                                   [](GObject *src, GAsyncResult *res, gpointer p) {
+                                       auto *r = static_cast<Reply *>(p);
+                                       GVariant *v = g_dbus_connection_call_finish(G_DBUS_CONNECTION(src), res, nullptr);
+                                       r->done = true;
+                                       if (!v) return;
+                                       GVariant *results = nullptr;
+                                       g_variant_get(v, "(u@a{sv})", &r->response, &results);
+                                       const char **uris = nullptr;
+                                       if (g_variant_lookup(results, "uris", "^a&s", &uris)) {
+                                           for (int i = 0; uris[i]; ++i) r->uris.push_back(uris[i]);
+                                           g_free(uris);
+                                       }
+                                       GVariantIter *choices = nullptr;
+                                       if (g_variant_lookup(results, "choices", "a(ss)", &choices)) {
+                                           const char *id, *val;
+                                           while (g_variant_iter_next(choices, "(&s&s)", &id, &val)) r->choice = std::string(id) + "=" + val;
+                                           g_variant_iter_free(choices);
+                                       }
+                                       g_variant_unref(results);
+                                       g_variant_unref(v);
+                                   },
+                                   &reply);
+            GtkWidget *dch = nullptr;
+            gint64 until = g_get_monotonic_time() + 5 * G_USEC_PER_SEC;
+            while (!dch && g_get_monotonic_time() < until) {
+                wait_ms(100);
+                GList *tops = gtk_window_list_toplevels();
+                for (GList *l = tops; l; l = l->next)
+                    if (gtk_widget_has_css_class(GTK_WIDGET(l->data), "beluga-file-chooser") && file_chooser_view(GTK_WIDGET(l->data))) dch = GTK_WIDGET(l->data);
+                g_list_free(tops);
+            }
+            if (dch) {
+                wait_ms(600);
+                file_chooser_view(dch)->selectUris({uri("a.txt")});
+                wait_ms(200);
+                file_chooser_accept(dch);
+            }
+            until = g_get_monotonic_time() + 5 * G_USEC_PER_SEC;
+            while (!reply.done && g_get_monotonic_time() < until) wait_ms(50);
+            g_dbus_connection_unregister_object(bus, reg);
+        }
+        check(reg && reply.done && reply.response == 0 && reply.uris.size() == 1 && reply.uris[0] == uri("a.txt") && reply.choice == "ro=true",
+              printf_str("file chooser over the portal interface (response %u, %zu files, %s)", reply.response, reply.uris.size(), reply.choice.c_str()));
+        if (bus) g_object_unref(bus);
     }
 
     w->activeContainer()->navigate("trash:///");

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 08:51+0100\n"
+"POT-Creation-Date: 2026-11-26 09:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,7 +211,7 @@ msgid "Audio"
 msgstr ""
 
 #: src/core/search.cpp:62 src/gui/mainwindow.cpp:454 src/gui/searchbar.cpp:108
-#: src/gui/view.cpp:365
+#: src/gui/view.cpp:366
 msgid "Folders"
 msgstr ""
 
@@ -266,7 +266,7 @@ msgid "Link"
 msgstr ""
 
 #: src/core/undo.cpp:44 src/gui/app.cpp:31 src/gui/dialogs.cpp:223
-#: src/gui/view.cpp:954
+#: src/gui/view.cpp:962
 msgid "Rename"
 msgstr ""
 
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Move to Trash"
 msgstr ""
 
-#: src/core/undo.cpp:46 src/gui/app.cpp:30
+#: src/core/undo.cpp:46 src/gui/app.cpp:30 src/gui/filechooser.cpp:455
 msgid "Create Folder"
 msgstr ""
 
@@ -537,8 +537,9 @@ msgstr ""
 msgid "Reset Zoom"
 msgstr ""
 
-#: src/gui/app.cpp:56 src/gui/contextmenu.cpp:193 src/gui/mainwindow.cpp:439
-#: src/gui/mainwindow.cpp:497 src/gui/mainwindow.cpp:523
+#: src/gui/app.cpp:56 src/gui/contextmenu.cpp:193 src/gui/filechooser.cpp:453
+#: src/gui/mainwindow.cpp:439 src/gui/mainwindow.cpp:497
+#: src/gui/mainwindow.cpp:523
 msgid "Show Hidden Files"
 msgstr ""
 
@@ -590,15 +591,15 @@ msgstr ""
 msgid "Show Menubar"
 msgstr ""
 
-#: src/gui/app.cpp:69 src/gui/mainwindow.cpp:267
+#: src/gui/app.cpp:69 src/gui/filechooser.cpp:423 src/gui/mainwindow.cpp:267
 msgid "Back"
 msgstr ""
 
-#: src/gui/app.cpp:70 src/gui/mainwindow.cpp:268
+#: src/gui/app.cpp:70 src/gui/filechooser.cpp:424 src/gui/mainwindow.cpp:268
 msgid "Forward"
 msgstr ""
 
-#: src/gui/app.cpp:71 src/gui/mainwindow.cpp:273
+#: src/gui/app.cpp:71 src/gui/filechooser.cpp:425 src/gui/mainwindow.cpp:273
 msgid "Up"
 msgstr ""
 
@@ -795,8 +796,9 @@ msgid "Close"
 msgstr ""
 
 #: src/gui/dialogs.cpp:131 src/gui/dialogs.cpp:248 src/gui/dialogs.cpp:406
-#: src/gui/dialogs.cpp:499 src/gui/dialogs.cpp:612 src/gui/openwith.cpp:245
-#: src/gui/preferences.cpp:242 src/gui/properties.cpp:465
+#: src/gui/dialogs.cpp:499 src/gui/dialogs.cpp:612 src/gui/filechooser.cpp:526
+#: src/gui/openwith.cpp:245 src/gui/preferences.cpp:242
+#: src/gui/properties.cpp:465
 msgid "_Cancel"
 msgstr ""
 
@@ -826,12 +828,12 @@ msgstr ""
 msgid "_Rename"
 msgstr ""
 
-#: src/gui/dialogs.cpp:210 src/gui/properties.cpp:391 src/gui/view.cpp:939
+#: src/gui/dialogs.cpp:210 src/gui/properties.cpp:391 src/gui/view.cpp:947
 #, c-format
 msgid "Could not rename “%s”."
 msgstr ""
 
-#: src/gui/dialogs.cpp:221 src/gui/view.cpp:951
+#: src/gui/dialogs.cpp:221 src/gui/view.cpp:959
 msgid "Change the file type?"
 msgstr ""
 
@@ -840,12 +842,12 @@ msgstr ""
 msgid "Renaming “%s” to “%s” changes its extension."
 msgstr ""
 
-#: src/gui/dialogs.cpp:223 src/gui/dialogs.cpp:637 src/gui/jobs.cpp:91
-#: src/gui/mainwindow.cpp:121 src/gui/mainwindow.cpp:812
+#: src/gui/dialogs.cpp:223 src/gui/dialogs.cpp:637 src/gui/filechooser.cpp:257
+#: src/gui/jobs.cpp:91 src/gui/mainwindow.cpp:121 src/gui/mainwindow.cpp:812
 #: src/gui/mainwindow_actions.cpp:156 src/gui/mainwindow_actions.cpp:360
 #: src/gui/mainwindow_actions.cpp:685 src/gui/mainwindow_actions.cpp:687
 #: src/gui/openwith.cpp:134 src/gui/placespanel.cpp:405
-#: src/gui/preferences.cpp:613 src/gui/view.cpp:954
+#: src/gui/preferences.cpp:613 src/gui/view.cpp:962
 msgid "Cancel"
 msgstr ""
 
@@ -920,7 +922,7 @@ msgstr ""
 msgid "_Add"
 msgstr ""
 
-#: src/gui/dialogs.cpp:407
+#: src/gui/dialogs.cpp:407 src/gui/filechooser.cpp:529
 msgid "_Save"
 msgstr ""
 
@@ -928,18 +930,21 @@ msgstr ""
 msgid "View Display Style"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:276
-#: src/gui/mainwindow.cpp:357 src/gui/preferences.cpp:492
+#: src/gui/dialogs.cpp:444 src/gui/filechooser.cpp:430
+#: src/gui/mainwindow.cpp:276 src/gui/mainwindow.cpp:357
+#: src/gui/preferences.cpp:492
 msgid "Icons"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:277
-#: src/gui/mainwindow.cpp:358 src/gui/preferences.cpp:499
+#: src/gui/dialogs.cpp:444 src/gui/filechooser.cpp:430
+#: src/gui/mainwindow.cpp:277 src/gui/mainwindow.cpp:358
+#: src/gui/preferences.cpp:499
 msgid "Compact"
 msgstr ""
 
-#: src/gui/dialogs.cpp:444 src/gui/mainwindow.cpp:278
-#: src/gui/mainwindow.cpp:359 src/gui/preferences.cpp:504
+#: src/gui/dialogs.cpp:444 src/gui/filechooser.cpp:430
+#: src/gui/mainwindow.cpp:278 src/gui/mainwindow.cpp:359
+#: src/gui/preferences.cpp:504
 msgid "Details"
 msgstr ""
 
@@ -1199,6 +1204,89 @@ msgstr[1] ""
 msgid "%s, %s. Rescan to read it again."
 msgstr ""
 
+#: src/gui/filechooser.cpp:255
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr ""
+
+#: src/gui/filechooser.cpp:256
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr ""
+
+#: src/gui/filechooser.cpp:257
+msgid "The program you are saving from will write over the existing contents."
+msgstr ""
+
+#: src/gui/filechooser.cpp:257
+msgid "Replace"
+msgstr ""
+
+#: src/gui/filechooser.cpp:320 src/gui/filechooser.cpp:341
+msgid "Choose a folder to save in."
+msgstr ""
+
+#: src/gui/filechooser.cpp:398
+msgid "Select Folder"
+msgstr ""
+
+#: src/gui/filechooser.cpp:398
+msgid "Open Files"
+msgstr ""
+
+#: src/gui/filechooser.cpp:398
+msgid "Open File"
+msgstr ""
+
+#: src/gui/filechooser.cpp:399
+msgid "Save File"
+msgstr ""
+
+#: src/gui/filechooser.cpp:399
+msgid "Save Files"
+msgstr ""
+
+#: src/gui/filechooser.cpp:491
+msgid "_Folder:"
+msgstr ""
+
+#: src/gui/filechooser.cpp:491
+msgid "_Name:"
+msgstr ""
+
+#: src/gui/filechooser.cpp:500
+msgid "_Type:"
+msgstr ""
+
+#: src/gui/filechooser.cpp:529
+msgid "_Select"
+msgstr ""
+
+#: src/gui/filechooser.cpp:529 src/gui/openwith.cpp:246
+msgid "_Open"
+msgstr ""
+
+#: src/gui/filechooser.cpp:589 src/gui/filechooser.cpp:590
+#: src/gui/mainwindow_actions.cpp:595 src/gui/mainwindow_actions.cpp:596
+msgid "New Folder"
+msgstr ""
+
+#: src/gui/filechooser.cpp:589 src/gui/mainwindow_actions.cpp:596
+#, c-format
+msgid ""
+"Create new folder in:\n"
+"%s"
+msgstr ""
+
+#: src/gui/filechooser.cpp:590 src/gui/mainwindow_actions.cpp:597
+#: src/gui/mainwindow_actions.cpp:621 src/gui/mainwindow_actions.cpp:650
+msgid "C_reate"
+msgstr ""
+
+#: src/gui/filechooser.cpp:597 src/gui/mainwindow_actions.cpp:601
+msgid "Could not create the folder."
+msgstr ""
+
 #: src/gui/infopanel.cpp:185
 #, c-format
 msgid "%zu items selected"
@@ -1229,8 +1317,8 @@ msgstr ""
 msgid "Counting…"
 msgstr ""
 
-#: src/gui/infopanel.cpp:216 src/gui/item.cpp:125 src/gui/view.cpp:298
-#: src/gui/view.cpp:403
+#: src/gui/infopanel.cpp:216 src/gui/item.cpp:125 src/gui/view.cpp:299
+#: src/gui/view.cpp:404
 msgid "Unknown"
 msgstr ""
 
@@ -1303,27 +1391,31 @@ msgstr ""
 msgid "No subfolders"
 msgstr ""
 
-#: src/gui/main.cpp:75
+#: src/gui/main.cpp:78
 msgid "Select the given files in their folders"
 msgstr ""
 
-#: src/gui/main.cpp:76
+#: src/gui/main.cpp:79
 msgid "Open the window in split view"
 msgstr ""
 
-#: src/gui/main.cpp:77
+#: src/gui/main.cpp:80
 msgid "Always open a new window"
 msgstr ""
 
-#: src/gui/main.cpp:78
+#: src/gui/main.cpp:81
 msgid "Keep running in the background for the FileManager1 D-Bus service"
 msgstr ""
 
-#: src/gui/main.cpp:79
+#: src/gui/main.cpp:82
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr ""
+
+#: src/gui/main.cpp:83
 msgid "Show the version"
 msgstr ""
 
-#: src/gui/main.cpp:80
+#: src/gui/main.cpp:84
 msgid "[FILE or FOLDER…]"
 msgstr ""
 
@@ -1602,26 +1694,6 @@ msgstr ""
 msgid "Open Terminals"
 msgstr ""
 
-#: src/gui/mainwindow_actions.cpp:595 src/gui/mainwindow_actions.cpp:596
-msgid "New Folder"
-msgstr ""
-
-#: src/gui/mainwindow_actions.cpp:596
-#, c-format
-msgid ""
-"Create new folder in:\n"
-"%s"
-msgstr ""
-
-#: src/gui/mainwindow_actions.cpp:597 src/gui/mainwindow_actions.cpp:621
-#: src/gui/mainwindow_actions.cpp:650
-msgid "C_reate"
-msgstr ""
-
-#: src/gui/mainwindow_actions.cpp:601
-msgid "Could not create the folder."
-msgstr ""
-
 #: src/gui/mainwindow_actions.cpp:620
 #, c-format
 msgid ""
@@ -1705,10 +1777,6 @@ msgstr ""
 
 #: src/gui/openwith.cpp:241
 msgid "Remember application association for this type of file"
-msgstr ""
-
-#: src/gui/openwith.cpp:246
-msgid "_Open"
 msgstr ""
 
 #: src/gui/placespanel.cpp:223
@@ -2128,11 +2196,11 @@ msgstr ""
 msgid "Label width:"
 msgstr ""
 
-#: src/gui/preferences.cpp:494 src/gui/preferences.cpp:501 src/gui/view.cpp:368
+#: src/gui/preferences.cpp:494 src/gui/preferences.cpp:501 src/gui/view.cpp:369
 msgid "Small"
 msgstr ""
 
-#: src/gui/preferences.cpp:494 src/gui/preferences.cpp:501 src/gui/view.cpp:371
+#: src/gui/preferences.cpp:494 src/gui/preferences.cpp:501 src/gui/view.cpp:372
 msgid "Medium"
 msgstr ""
 
@@ -2558,7 +2626,7 @@ msgstr ""
 msgid "Any Time"
 msgstr ""
 
-#: src/gui/searchbar.cpp:110 src/gui/view.cpp:308
+#: src/gui/searchbar.cpp:110 src/gui/view.cpp:309
 msgid "Today"
 msgstr ""
 
@@ -2618,83 +2686,83 @@ msgstr ""
 msgid "Original location: %s"
 msgstr ""
 
-#: src/gui/view.cpp:311
+#: src/gui/view.cpp:312
 msgid "Yesterday"
 msgstr ""
 
-#: src/gui/view.cpp:317
+#: src/gui/view.cpp:318
 msgid "One Week Ago"
 msgstr ""
 
-#: src/gui/view.cpp:320
+#: src/gui/view.cpp:321
 msgid "Two Weeks Ago"
 msgstr ""
 
-#: src/gui/view.cpp:323
+#: src/gui/view.cpp:324
 msgid "Three Weeks Ago"
 msgstr ""
 
-#: src/gui/view.cpp:326
+#: src/gui/view.cpp:327
 msgid "Earlier this Month"
 msgstr ""
 
-#: src/gui/view.cpp:350
+#: src/gui/view.cpp:351
 msgid "0 - 9"
 msgstr ""
 
-#: src/gui/view.cpp:358
+#: src/gui/view.cpp:359
 msgid "Others"
 msgstr ""
 
-#: src/gui/view.cpp:374
+#: src/gui/view.cpp:375
 msgid "Big"
 msgstr ""
 
-#: src/gui/view.cpp:382
+#: src/gui/view.cpp:383
 msgid "Less than 1 MiB"
 msgstr ""
 
-#: src/gui/view.cpp:382
+#: src/gui/view.cpp:383
 msgid "1 MiB to 100 MiB"
 msgstr ""
 
-#: src/gui/view.cpp:383
+#: src/gui/view.cpp:384
 msgid "100 MiB to 1 GiB"
 msgstr ""
 
-#: src/gui/view.cpp:383
+#: src/gui/view.cpp:384
 msgid "1 GiB or more"
 msgstr ""
 
-#: src/gui/view.cpp:387
+#: src/gui/view.cpp:388
 msgid "Not counted yet"
 msgstr ""
 
-#: src/gui/view.cpp:791 src/gui/viewcontainer.cpp:575
+#: src/gui/view.cpp:799 src/gui/viewcontainer.cpp:575
 msgid "Searching…"
 msgstr ""
 
-#: src/gui/view.cpp:792
+#: src/gui/view.cpp:800
 msgid "No items matching the filter"
 msgstr ""
 
-#: src/gui/view.cpp:793
+#: src/gui/view.cpp:801
 msgid "No items found"
 msgstr ""
 
-#: src/gui/view.cpp:794
+#: src/gui/view.cpp:802
 msgid "Trash is empty"
 msgstr ""
 
-#: src/gui/view.cpp:795
+#: src/gui/view.cpp:803
 msgid "Folder is empty"
 msgstr ""
 
-#: src/gui/view.cpp:929
+#: src/gui/view.cpp:937
 msgid "A file name cannot contain “/”."
 msgstr ""
 
-#: src/gui/view.cpp:952
+#: src/gui/view.cpp:960
 #, c-format
 msgid ""
 "Renaming “%s” to “%s” changes its extension. The file may open with a "

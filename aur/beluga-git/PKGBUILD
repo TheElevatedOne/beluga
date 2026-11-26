@@ -12,7 +12,8 @@ depends=('gcc-libs' 'glibc' 'glib2' 'gtk4' 'gdk-pixbuf2' 'pango' 'cairo' 'libarc
 makedepends=('git' 'cmake' 'pkgconf' 'gettext')
 optdepends=('udisks2: drives and partitions in the Places panel'
             'tumbler: previews of videos and documents'
-            'gvfs: network locations such as sftp:// and smb://')
+            'gvfs: network locations such as sftp:// and smb://'
+            'xdg-desktop-portal: Beluga as the file chooser of other programs')
 provides=('beluga')
 conflicts=('beluga')
 source=("$_pkgname::git+$url.git")

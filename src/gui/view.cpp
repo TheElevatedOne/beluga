@@ -95,7 +95,7 @@ View::View()
     };
     iv_->onColumnsResized = [this] {
         props_.columnWidths = iv_->columnWidths();
-        save_view_props(uri_, props_);
+        if (saveProps_) save_view_props(uri_, props_);
     };
     iv_->onZoom = [this](int steps) { setZoomLevel(zoomLevel() + steps); };
     iv_->onExtraButton = [this](int b) { if (onExtraButton) onExtraButton(b); };
@@ -222,6 +222,7 @@ gboolean View::filterItem(gpointer obj, gpointer self)
     if (!v->props_.hiddenFilesShown && d.isHidden) return FALSE;
     if (settings().hideBackupFiles && (d.isBackup || d.mime == "application/x-trash")) return FALSE;
     if (!v->nameFilter_.empty() && !filter_match(v->nameFilter_, d.name)) return FALSE;
+    if (v->itemFilter_ && !v->itemFilter_(it)) return FALSE;
     return TRUE;
 }
 
@@ -514,7 +515,7 @@ void View::applyProps(const ViewProps &p, bool save)
                || p.sortFoldersFirst != props_.sortFoldersFirst || p.sortHiddenLast != props_.sortHiddenLast;
     bool refilter = p.hiddenFilesShown != props_.hiddenFilesShown;
     props_ = p;
-    if (save) {
+    if (save && saveProps_) {
         save_view_props(uri_, props_);
         ownProps_ = !isVirtual() && has_own_view_props(uri_);
     }
@@ -666,6 +667,13 @@ void View::settingsChanged()
     iv_->setMode(mode == 0 ? 1 : 0);
     applyToItemView();
     iv_->relayout();
+}
+
+void View::setItemFilter(std::function<bool(BelugaItem *)> f)
+{
+    itemFilter_ = std::move(f);
+    gtk_filter_changed(filter_, GTK_FILTER_CHANGE_DIFFERENT);
+    updatePlaceholder();
 }
 
 void View::setNameFilter(const std::string &f)

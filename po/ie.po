@@ -883,6 +883,66 @@ msgid "%s, %s. Rescan to read it again."
 msgstr ""
 
 #, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr ""
+
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr ""
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr ""
+
+msgid "Replace"
+msgstr "Substituer"
+
+msgid "Choose a folder to save in."
+msgstr ""
+
+msgid "Select Folder"
+msgstr ""
+
+msgid "Open Files"
+msgstr ""
+
+msgid "Open File"
+msgstr ""
+
+msgid "Save File"
+msgstr ""
+
+msgid "Save Files"
+msgstr ""
+
+msgid "_Folder:"
+msgstr ""
+
+msgid "_Name:"
+msgstr ""
+
+msgid "_Type:"
+msgstr ""
+
+msgid "_Select"
+msgstr ""
+
+msgid "_Open"
+msgstr ""
+
+msgid "New Folder"
+msgstr "Nov fólder"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr ""
+
+msgid "C_reate"
+msgstr ""
+
+msgid "Could not create the folder."
+msgstr ""
+
+#, c-format
 msgid "%zu items selected"
 msgstr ""
 
@@ -969,6 +1029,9 @@ msgid "Always open a new window"
 msgstr ""
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr ""
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgstr ""
 
 msgid "Show the version"
@@ -1182,19 +1245,6 @@ msgstr ""
 msgid "Open Terminals"
 msgstr ""
 
-msgid "New Folder"
-msgstr "Nov fólder"
-
-#, c-format
-msgid "Create new folder in:\n%s"
-msgstr ""
-
-msgid "C_reate"
-msgstr ""
-
-msgid "Could not create the folder."
-msgstr ""
-
 #, c-format
 msgid "Create new file in:\n%s"
 msgstr ""
@@ -1257,9 +1307,6 @@ msgid "Or command:"
 msgstr ""
 
 msgid "Remember application association for this type of file"
-msgstr ""
-
-msgid "_Open"
 msgstr ""
 
 #, c-format

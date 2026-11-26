@@ -22,6 +22,7 @@ limits, places) live in Beluga's own preferences.
 - **[Quick start](#quick-start)**
   - [Command line](#command-line)
   - [Keyboard shortcuts](#keyboard-shortcuts)
+- **[Beluga as the file chooser](#beluga-as-the-file-chooser)**
 - **[Coming from Dolphin](#coming-from-dolphin)**
 - **[Settings](#settings)**
 - **[Testing](#testing)**
@@ -36,6 +37,7 @@ limits, places) live in Beluga's own preferences.
 | File manager | `beluga` | browsing and managing files |
 | Engine | `belugacore` (static library) | file operations, trash, search, previews, places, devices, settings (GLib/GIO only) |
 | Desktop entry | `org.beluga.Beluga.desktop` | launchers and "open folder" from other apps |
+| File chooser | `beluga --portal`, `beluga.portal` | the Open and Save dialogs of other programs, through xdg-desktop-portal |
 
 ## Features
 
@@ -84,6 +86,9 @@ limits, places) live in Beluga's own preferences.
   patterns and types). They replace KDE service menus. "Extract Here" and "Compress to .tar.gz" are included.
 - **Integration**: drag and drop with other apps, a clipboard other GTK and KDE file managers understand, and the
   `org.freedesktop.FileManager1` D-Bus service browsers use for "Show in folder".
+- **File chooser for other programs**: an xdg-desktop-portal backend, like the KDE one that uses Dolphin: Places,
+  the folder in a Beluga view, name, file types and the program's own options. See
+  [Beluga as the file chooser](#beluga-as-the-file-chooser).
 - **Translations**: 61 languages, about 40% of the messages each, taken from Dolphin, KDE Frameworks and GTK
   where the English text is the same. The rest is shown in English.
 - **Look**: colours come from your GTK theme's named colours (pywal and Noctalia style sheets work), square
@@ -169,6 +174,27 @@ Open folders from other applications in a new tab** is on.
 Every shortcut can be changed in **Configure Beluga → Keyboard Shortcuts**. Typing a name in a view jumps to the
 first matching item.
 
+## Beluga as the file chooser
+
+Programs that open and save files through xdg-desktop-portal can get Beluga's dialog instead of the GTK or KDE one.
+Installing Beluga adds the backend (`/usr/share/xdg-desktop-portal/portals/beluga.portal` and a D-Bus service that
+starts `beluga --portal`), but nothing uses it until you pick it. In `~/.config/xdg-desktop-portal/portals.conf`:
+
+```ini
+[preferred]
+default=hyprland;gtk
+org.freedesktop.impl.portal.FileChooser=beluga
+```
+
+Keep your own `default=` line, then restart the portal: `systemctl --user restart xdg-desktop-portal`.
+
+Flatpak programs always use the portal. Others need to be told: Firefox with `widget.use-xdg-desktop-portal.file-picker`
+set to `1` in `about:config`, GTK 4 programs with `GDK_DEBUG=portals`, GTK 3 programs with `GTK_USE_PORTAL=1`, Qt
+programs with `QT_QPA_PLATFORMTHEME=xdgdesktopportal`.
+
+The dialog remembers its last folder, size and view in `~/.config/beluga/filechooser.conf`. It never changes the view
+settings of your folders or Beluga's own settings.
+
 ## Coming from Dolphin
 
 - **Removed**: the embedded Konsole panel, the Help menu, KDE-only actions (KFind, Kompare, Filelight, activities,
@@ -195,7 +221,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 66 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 70 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view.
@@ -222,6 +248,8 @@ repository's history and the KDE Frameworks and GTK catalogs installed on the ma
 - Archives are read only (no adding, renaming or deleting inside them) and files in password-protected archives
   can't be opened. Dragging an entry out of an archive to another program doesn't work; copy it into a folder first.
 - Network locations (`sftp://`, `smb://`, `network:///`) need gvfs.
+- The file chooser stays above the program that opened it on Wayland only (X11 programs get it as a separate
+  window), and it doesn't open archives as folders, because programs couldn't read the files inside.
 - The name index covers your home folder without its hidden folders; everything else is read from the disk for
   each search. Content search reads text files up to 64 MiB and skips binary files, so it does not find text
   inside PDFs or office documents.

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added: a file chooser for other programs through xdg-desktop-portal (`beluga --portal`), laid out like KDE's
+  Dolphin-based dialog: Places, a Beluga view, back/forward/up, view modes, hidden files, new folder, name, file
+  types and the program's options. Open, open several, choose folders, save, save several. Nothing changes until
+  `org.freedesktop.impl.portal.FileChooser=beluga` is set in portals.conf (see README).
 - Added: an index of the names in your home folder for instant name and type searches (about 10 ms for 360 000
   names, against 145 ms for `find`), kept current without a daemon by re-reading only folders whose time
   changed; hits are checked on the disk. Saved in `~/.cache/beluga`; Configure Beluga → General turns it off.

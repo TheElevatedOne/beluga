@@ -68,6 +68,11 @@ public:
     void settingsChanged();
 
     void setNameFilter(const std::string &f);
+    // An extra test for the shown items (the file chooser's file types); nullptr shows everything.
+    void setItemFilter(std::function<bool(BelugaItem *)> f);
+    // Whether view changes (mode, sorting, hidden files) are saved for the folder; the file chooser
+    // doesn't save them.
+    void setSaveProps(bool on) { saveProps_ = on; }
     const std::string &nameFilter() const { return nameFilter_; }
 
     // Items and selection.
@@ -146,6 +151,8 @@ private:
     DirLister lister_;
     std::string uri_;
     ViewProps props_;
+    std::function<bool(BelugaItem *)> itemFilter_;
+    bool saveProps_ = true;
     bool ownProps_ = false;
     std::string nameFilter_;
     GtkFilter *filter_ = nullptr;

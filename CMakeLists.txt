@@ -88,6 +88,8 @@ add_executable(beluga
   src/gui/jobs.cpp
   src/gui/dialogs.cpp
   src/gui/diskusagewindow.cpp
+  src/gui/filechooser.cpp
+  src/gui/portal.cpp
   src/gui/properties.cpp
   src/gui/openwith.cpp
   src/gui/preferences.cpp
@@ -103,6 +105,12 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/${BELUGA_APP_ID}.desktop
   DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
 install(FILES data/${BELUGA_APP_ID}.metainfo.xml DESTINATION ${CMAKE_INSTALL_DATADIR}/metainfo)
 install(FILES data/icons/${BELUGA_APP_ID}.svg DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps)
+# The file chooser for xdg-desktop-portal. Installing it changes nothing until portals.conf picks "beluga".
+install(FILES data/beluga.portal DESTINATION ${CMAKE_INSTALL_DATADIR}/xdg-desktop-portal/portals)
+configure_file(data/org.freedesktop.impl.portal.desktop.beluga.service.in
+               ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.impl.portal.desktop.beluga.service @ONLY)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.impl.portal.desktop.beluga.service
+        DESTINATION ${CMAKE_INSTALL_DATADIR}/dbus-1/services)
 if(BELUGA_INSTALL_FILEMANAGER1_SERVICE)
   configure_file(data/org.freedesktop.FileManager1.service.in
     ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.FileManager1.service @ONLY)

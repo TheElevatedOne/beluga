@@ -21,6 +21,7 @@ pkgbase = beluga-git
 	optdepends = udisks2: drives and partitions in the Places panel
 	optdepends = tumbler: previews of videos and documents
 	optdepends = gvfs: network locations such as sftp:// and smb://
+	optdepends = xdg-desktop-portal: Beluga as the file chooser of other programs
 	provides = beluga
 	conflicts = beluga
 	source = beluga::git+https://github.com/TheElevatedOne/beluga.git
