@@ -2098,6 +2098,42 @@ msgstr ""
 msgid "_Empty Trash Now"
 msgstr ""
 
+msgid "Vim Mode"
+msgstr ""
+
+msgid "Vim mode:"
+msgstr ""
+
+msgid "Use Vim-like keys in the views"
+msgstr ""
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr ""
+
+msgid "Leader key:"
+msgstr ""
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr ""
+
+msgid "Wait for more keys:"
+msgstr ""
+
+msgid "ms (dd after d, gg after g)"
+msgstr ""
+
+msgid "Keys"
+msgstr ""
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr ""
+
+msgid "Command line"
+msgstr ""
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ""
+
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -2394,3 +2430,85 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+msgid "Move left"
+msgstr ""
+
+msgid "Move down"
+msgstr ""
+
+msgid "Move up"
+msgstr ""
+
+msgid "Move right"
+msgstr ""
+
+msgid "First item"
+msgstr ""
+
+msgid "Last item"
+msgstr ""
+
+msgid "Page down"
+msgstr ""
+
+msgid "Page up"
+msgstr ""
+
+msgid "Parent folder"
+msgstr "Родитељска фасцикла"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr ""
+
+msgid "Select a range, like Shift (visual line)"
+msgstr ""
+
+msgid "Select a block of the grid (visual block)"
+msgstr ""
+
+msgid "Back to normal mode"
+msgstr ""
+
+msgid "Copy the item under the cursor"
+msgstr ""
+
+msgid "Rename, cursor at the start (insert)"
+msgstr ""
+
+msgid "Rename, cursor after the name (append)"
+msgstr ""
+
+msgid "Rename, name selected (change)"
+msgstr ""
+
+msgid "Edit the location"
+msgstr ""
+
+msgid "Copied."
+msgstr ""
+
+msgid "Cut."
+msgstr ""
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr ""
+
+msgid "A name is needed."
+msgstr ""
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr ""
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr ""
+
+msgid "Sort by name, size, date or type."
+msgstr ""
+
+#, c-format
+msgid "Not a command: %s"
+msgstr ""

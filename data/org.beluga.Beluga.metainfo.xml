@@ -14,6 +14,11 @@
       <li>Threaded file operations with undo and redo</li>
       <li>freedesktop.org trash, search by name and content, UDisks2 devices</li>
       <li>F4 opens your own terminal; custom context menu actions</li>
+      <li>Disk Usage of a folder as a tree, in a window or a pane; a Disk Usage column</li>
+      <li>zip, tar, 7z, rar and ISO files browsed like folders</li>
+      <li>An instant index of the names in your home folder for searching</li>
+      <li>A configurable tool bar and an optional Vim mode</li>
+      <li>The file chooser of other programs, through xdg-desktop-portal</li>
       <li>Colours from your GTK theme</li>
     </ul>
   </description>
@@ -39,6 +44,13 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.0.0" date="2026-11-26">
+      <description>
+        <p>The first stable release: a Dolphin-like window and settings, a configurable tool bar, a Vim mode, Disk
+          Usage as a window or a pane, zip, tar, 7z, rar and ISO files as folders, a file chooser for other programs,
+          an instant name index for search, audio and video details, and Act as Administrator.</p>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-11-16"/>
   </releases>
 </component>

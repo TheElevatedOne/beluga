@@ -2093,6 +2093,42 @@ msgstr "Kosz zajmuje obecnie %s."
 msgid "_Empty Trash Now"
 msgstr "_Opróżnij kosz teraz"
 
+msgid "Vim Mode"
+msgstr "Tryb Vim"
+
+msgid "Vim mode:"
+msgstr "Tryb Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Używaj w widokach klawiszy jak w Vimie"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Tryb normalny porusza się klawiszami h j k l i wykonuje klawisze poniżej; v, V i Ctrl+V zaznaczają; i oraz a zmieniają nazwę (tryb wstawiania); Esc wraca do trybu normalnego; : otwiera wiersz poleceń. Klawisze z Ctrl lub Alt, których tu nie ma, zachowują swoje zwykłe znaczenie."
+
+msgid "Leader key:"
+msgstr "Klawisz leader:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> w klawiszach poniżej, np. <Space> lub ,"
+
+msgid "Wait for more keys:"
+msgstr "Czekaj na kolejne klawisze:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd po d, gg po g)"
+
+msgid "Keys"
+msgstr "Klawisze"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Zapis jak w Vimie, kilka oddzielonych spacjami: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Puste pole oznacza domyślne."
+
+msgid "Command line"
+msgstr "Wiersz poleceń"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q zamyka okno (:q! bez pytania o karty), :qa kończy Belugę, :e / :cd ŚCIEŻKA otwiera katalog, :tabnew [ŚCIEŻKA], :tabclose, :tabonly, :sp / :vs [ŚCIEŻKA] dzielą widok, :only zamyka drugi widok, :mkdir NAZWA, :touch NAZWA, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!POLECENIE uruchamia polecenie powłoki w katalogu."
+
 msgid "Keyboard Shortcuts"
 msgstr "Skróty klawiszowe"
 
@@ -2387,3 +2423,85 @@ msgid_plural "%d selected"
 msgstr[0] "Zaznaczono %d"
 msgstr[1] "Zaznaczono %d"
 msgstr[2] "Zaznaczono %d"
+
+msgid "Move left"
+msgstr "W lewo"
+
+msgid "Move down"
+msgstr "W dół"
+
+msgid "Move up"
+msgstr "W górę"
+
+msgid "Move right"
+msgstr "W prawo"
+
+msgid "First item"
+msgstr "Pierwszy element"
+
+msgid "Last item"
+msgstr "Ostatni element"
+
+msgid "Page down"
+msgstr "Strona w dół"
+
+msgid "Page up"
+msgstr "Strona w górę"
+
+msgid "Parent folder"
+msgstr "Katalog nadrzędny"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Zaznacz elementy, przez które przechodzi kursor (wizualny)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Zaznacz zakres, jak z Shift (wiersz wizualny)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Zaznacz blok siatki (blok wizualny)"
+
+msgid "Back to normal mode"
+msgstr "Powrót do trybu normalnego"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopiuj element pod kursorem"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Zmień nazwę, kursor na początku (wstaw)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Zmień nazwę, kursor za nazwą (dopisz)"
+
+msgid "Rename, name selected (change)"
+msgstr "Zmień nazwę, nazwa zaznaczona (zmień)"
+
+msgid "Edit the location"
+msgstr "Edytuj położenie"
+
+msgid "Copied."
+msgstr "Skopiowano."
+
+msgid "Cut."
+msgstr "Wycięto."
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "Nie można otworzyć „%s”."
+
+msgid "A name is needed."
+msgstr "Potrzebna jest nazwa."
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Nieznany widok: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Nieznana opcja: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sortuj według name, size, date lub type."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "To nie jest polecenie: %s"

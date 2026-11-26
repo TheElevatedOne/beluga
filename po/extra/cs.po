@@ -1554,3 +1554,118 @@ msgstr "Činnosti nad adresním řádkem v seznamu jsou vlevo od něj, ostatní 
 
 msgid "A_vailable actions:"
 msgstr "_Dostupné činnosti:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> v klávesách níže, např. <Space> nebo ,"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q zavře okno (:q! bez dotazu na karty), :qa ukončí Belugu, :e / :cd CESTA otevře složku, :tabnew [CESTA], :tabclose, :tabonly, :sp / :vs [CESTA] rozdělí pohled, :only zavře druhý pohled, :mkdir NÁZEV, :touch NÁZEV, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!PŘÍKAZ spustí příkaz shellu ve složce."
+
+msgid "A name is needed."
+msgstr "Je potřeba název."
+
+msgid "Back to normal mode"
+msgstr "Zpět do normálního režimu"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "„%s“ nelze otevřít."
+
+msgid "Command line"
+msgstr "Příkazový řádek"
+
+msgid "Copied."
+msgstr "Zkopírováno."
+
+msgid "Copy the item under the cursor"
+msgstr "Kopírovat položku pod kurzorem"
+
+msgid "Cut."
+msgstr "Vyjmuto."
+
+msgid "Edit the location"
+msgstr "Upravit umístění"
+
+msgid "First item"
+msgstr "První položka"
+
+msgid "Keys"
+msgstr "Klávesy"
+
+msgid "Last item"
+msgstr "Poslední položka"
+
+msgid "Leader key:"
+msgstr "Klávesa leader:"
+
+msgid "Move down"
+msgstr "Posunout dolů"
+
+msgid "Move left"
+msgstr "Posunout doleva"
+
+msgid "Move right"
+msgstr "Posunout doprava"
+
+msgid "Move up"
+msgstr "Posunout nahoru"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normální režim se pohybuje klávesami h j k l a spouští klávesy níže; v, V a Ctrl+V vybírají; i a a přejmenovávají (režim vkládání); Esc vrací do normálního režimu; : otevře příkazový řádek. Klávesy s Ctrl nebo Alt, které zde nejsou, si ponechají svůj obvyklý význam."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Není příkaz: %s"
+
+msgid "Page down"
+msgstr "O stránku dolů"
+
+msgid "Page up"
+msgstr "O stránku nahoru"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Přejmenovat, kurzor za názvem (připojit)"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Přejmenovat, kurzor na začátku (vložit)"
+
+msgid "Rename, name selected (change)"
+msgstr "Přejmenovat, název vybrán (změnit)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Vybrat blok mřížky (vizuální blok)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Vybrat rozsah, jako se Shiftem (vizuální řádek)"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Vybrat položky, kterými kurzor projde (vizuální)"
+
+msgid "Sort by name, size, date or type."
+msgstr "Řadit podle name, size, date nebo type."
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Neznámá volba: %s"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Neznámé zobrazení: %s"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Používat v zobrazeních klávesy jako ve Vimu"
+
+msgid "Vim Mode"
+msgstr "Režim Vim"
+
+msgid "Vim mode:"
+msgstr "Režim Vim:"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Zápis jako ve Vimu, více oddělených mezerami: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Prázdné pole znamená výchozí."
+
+msgid "Wait for more keys:"
+msgstr "Čekat na další klávesy:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd po d, gg po g)"

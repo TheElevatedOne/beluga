@@ -1546,3 +1546,118 @@ msgstr "Les actions au-dessus de la barre d'emplacement dans la liste se placent
 
 msgid "A_vailable actions:"
 msgstr "Actions _disponibles :"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> dans les touches ci-dessous, par ex. <Space> ou ,"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q ferme la fenêtre (:q! sans demander pour ses onglets), :qa quitte Beluga, :e / :cd CHEMIN ouvre un dossier, :tabnew [CHEMIN], :tabclose, :tabonly, :sp / :vs [CHEMIN] scindent la vue, :only ferme l'autre vue, :mkdir NOM, :touch NOM, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMANDE exécute une commande shell dans le dossier."
+
+msgid "A name is needed."
+msgstr "Un nom est nécessaire."
+
+msgid "Back to normal mode"
+msgstr "Retour au mode normal"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "Impossible d'ouvrir « %s »."
+
+msgid "Command line"
+msgstr "Ligne de commande"
+
+msgid "Copied."
+msgstr "Copié."
+
+msgid "Copy the item under the cursor"
+msgstr "Copier l'élément sous le curseur"
+
+msgid "Cut."
+msgstr "Coupé."
+
+msgid "Edit the location"
+msgstr "Modifier l'emplacement"
+
+msgid "First item"
+msgstr "Premier élément"
+
+msgid "Keys"
+msgstr "Touches"
+
+msgid "Last item"
+msgstr "Dernier élément"
+
+msgid "Leader key:"
+msgstr "Touche leader :"
+
+msgid "Move down"
+msgstr "Descendre"
+
+msgid "Move left"
+msgstr "Aller à gauche"
+
+msgid "Move right"
+msgstr "Aller à droite"
+
+msgid "Move up"
+msgstr "Monter"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Le mode normal se déplace avec h j k l et exécute les touches ci-dessous ; v, V et Ctrl+V sélectionnent ; i et a renomment (mode insertion) ; Échap revient au mode normal ; : ouvre la ligne de commande. Les touches avec Ctrl ou Alt qui ne sont pas listées ici gardent leur sens habituel."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Pas une commande : %s"
+
+msgid "Page down"
+msgstr "Page suivante"
+
+msgid "Page up"
+msgstr "Page précédente"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Renommer, curseur après le nom (ajout)"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Renommer, curseur au début (insertion)"
+
+msgid "Rename, name selected (change)"
+msgstr "Renommer, nom sélectionné (modification)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Sélectionner un bloc de la grille (bloc visuel)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Sélectionner une plage, comme avec Maj (ligne visuelle)"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Sélectionner les éléments que le curseur traverse (visuel)"
+
+msgid "Sort by name, size, date or type."
+msgstr "Trier par name, size, date ou type."
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Option inconnue : %s"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Vue inconnue : %s"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Utiliser des touches à la Vim dans les vues"
+
+msgid "Vim Mode"
+msgstr "Mode Vim"
+
+msgid "Vim mode:"
+msgstr "Mode Vim :"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notation Vim, plusieurs séparées par des espaces : h, gg, <C-v>, <CR>, <Esc>, <leader>t. Laissez un champ vide pour la valeur par défaut."
+
+msgid "Wait for more keys:"
+msgstr "Attendre d'autres touches :"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd après d, gg après g)"

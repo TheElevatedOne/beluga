@@ -2082,6 +2082,42 @@ msgstr "ごみ箱は現在 %s 使用しています。"
 msgid "_Empty Trash Now"
 msgstr "今すぐごみ箱を空にする(_E)"
 
+msgid "Vim Mode"
+msgstr "Vim モード"
+
+msgid "Vim mode:"
+msgstr "Vim モード:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "表示で Vim 風のキーを使う"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "ノーマルモードでは h j k l で移動し、下のキーを実行します。v、V、Ctrl+V で選択、i と a で名前を変更 (挿入モード)、Esc でノーマルモードに戻り、: でコマンドラインを開きます。ここにない Ctrl や Alt 付きのキーは通常の意味のままです。"
+
+msgid "Leader key:"
+msgstr "リーダーキー:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "下のキーの <leader>。例: <Space> や ,"
+
+msgid "Wait for more keys:"
+msgstr "次のキーを待つ時間:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ミリ秒 (d の後の dd、g の後の gg)"
+
+msgid "Keys"
+msgstr "キー"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim 記法、複数はスペース区切り: h、gg、<C-v>、<CR>、<Esc>、<leader>t。空欄で既定値を使います。"
+
+msgid "Command line"
+msgstr "コマンドライン"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q ウィンドウを閉じる (:q! タブについて確認しない), :qa Beluga を終了, :e / :cd パス フォルダーを開く, :tabnew [パス], :tabclose, :tabonly, :sp / :vs [パス] 表示を分割, :only もう一方の表示を閉じる, :mkdir 名前, :touch 名前, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!コマンド フォルダーでシェルコマンドを実行."
+
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
@@ -2372,3 +2408,85 @@ msgstr "フォルダを読み込んでいます…"
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d 個を選択"
+
+msgid "Move left"
+msgstr "左へ移動"
+
+msgid "Move down"
+msgstr "下へ移動"
+
+msgid "Move up"
+msgstr "上へ移動"
+
+msgid "Move right"
+msgstr "右へ移動"
+
+msgid "First item"
+msgstr "最初の項目"
+
+msgid "Last item"
+msgstr "最後の項目"
+
+msgid "Page down"
+msgstr "1 ページ下へ"
+
+msgid "Page up"
+msgstr "1 ページ上へ"
+
+msgid "Parent folder"
+msgstr "親フォルダ"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "カーソルが通った項目を選択 (ビジュアル)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Shift のように範囲を選択 (ビジュアル行)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "グリッドのブロックを選択 (ビジュアルブロック)"
+
+msgid "Back to normal mode"
+msgstr "ノーマルモードに戻る"
+
+msgid "Copy the item under the cursor"
+msgstr "カーソル位置の項目をコピー"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "名前を変更、カーソルは先頭 (挿入)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "名前を変更、カーソルは名前の後 (追加)"
+
+msgid "Rename, name selected (change)"
+msgstr "名前を変更、名前を選択 (変更)"
+
+msgid "Edit the location"
+msgstr "場所を編集"
+
+msgid "Copied."
+msgstr "コピーしました。"
+
+msgid "Cut."
+msgstr "切り取りました。"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "「%s」を開けません。"
+
+msgid "A name is needed."
+msgstr "名前が必要です。"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "不明な表示: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "不明なオプション: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "name、size、date、type で並べ替えます。"
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "コマンドではありません: %s"

@@ -2087,6 +2087,42 @@ msgstr "La papelera ocupa ahora %s."
 msgid "_Empty Trash Now"
 msgstr "_Vaciar la papelera ahora"
 
+msgid "Vim Mode"
+msgstr "Modo Vim"
+
+msgid "Vim mode:"
+msgstr "Modo Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Usar teclas al estilo de Vim en las vistas"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "El modo normal se mueve con h j k l y ejecuta las teclas de abajo; v, V y Ctrl+V seleccionan; i y a renombran (modo de inserción); Esc vuelve al modo normal; : abre la línea de órdenes. Las teclas con Ctrl o Alt que no están aquí conservan su significado habitual."
+
+msgid "Leader key:"
+msgstr "Tecla leader:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> en las teclas de abajo, p. ej. <Space> o ,"
+
+msgid "Wait for more keys:"
+msgstr "Esperar más teclas:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd tras d, gg tras g)"
+
+msgid "Keys"
+msgstr "Teclas"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notación de Vim, varias separadas por espacios: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Deje un campo vacío para el predeterminado."
+
+msgid "Command line"
+msgstr "Línea de órdenes"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q cierra la ventana (:q! sin preguntar por sus pestañas), :qa sale de Beluga, :e / :cd RUTA abre una carpeta, :tabnew [RUTA], :tabclose, :tabonly, :sp / :vs [RUTA] dividen la vista, :only cierra la otra vista, :mkdir NOMBRE, :touch NOMBRE, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ORDEN ejecuta una orden del shell en la carpeta."
+
 msgid "Keyboard Shortcuts"
 msgstr "Atajos de teclado"
 
@@ -2379,3 +2415,85 @@ msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d seleccionado"
 msgstr[1] "%d seleccionados"
+
+msgid "Move left"
+msgstr "Ir a la izquierda"
+
+msgid "Move down"
+msgstr "Bajar"
+
+msgid "Move up"
+msgstr "Subir"
+
+msgid "Move right"
+msgstr "Ir a la derecha"
+
+msgid "First item"
+msgstr "Primer elemento"
+
+msgid "Last item"
+msgstr "Último elemento"
+
+msgid "Page down"
+msgstr "Avanzar página"
+
+msgid "Page up"
+msgstr "Retroceder página"
+
+msgid "Parent folder"
+msgstr "Carpeta superior"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Seleccionar los elementos por los que pasa el cursor (visual)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Seleccionar un intervalo, como con Mayús (línea visual)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Seleccionar un bloque de la cuadrícula (bloque visual)"
+
+msgid "Back to normal mode"
+msgstr "Volver al modo normal"
+
+msgid "Copy the item under the cursor"
+msgstr "Copiar el elemento bajo el cursor"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Renombrar, cursor al principio (insertar)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Renombrar, cursor tras el nombre (añadir)"
+
+msgid "Rename, name selected (change)"
+msgstr "Renombrar, nombre seleccionado (cambiar)"
+
+msgid "Edit the location"
+msgstr "Editar la ubicación"
+
+msgid "Copied."
+msgstr "Copiado."
+
+msgid "Cut."
+msgstr "Cortado."
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "No se puede abrir «%s»."
+
+msgid "A name is needed."
+msgstr "Se necesita un nombre."
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Vista desconocida: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Opción desconocida: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordenar por name, size, date o type."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "No es una orden: %s"

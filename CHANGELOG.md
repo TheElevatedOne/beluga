@@ -1,6 +1,9 @@
 # Changelog
 
-## Unreleased
+## 1.0.0
+
+The first stable release. Beluga is now laid out like Dolphin and adds a Vim mode, a configurable tool bar, Disk
+Usage, archives as folders, a file chooser for other programs and an instant name index.
 
 - Added: **Vim mode** (off by default; Configure Beluga → Vim Mode). Normal mode: h j k l and the arrows move, counts
   (5j), gg / G, Enter opens, - goes up, H / L back and forward. v selects every item the cursor passes, V a range

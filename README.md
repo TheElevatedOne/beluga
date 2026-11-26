@@ -22,6 +22,7 @@ limits, places) live in Beluga's own preferences.
 - **[Quick start](#quick-start)**
   - [Command line](#command-line)
   - [Keyboard shortcuts](#keyboard-shortcuts)
+  - [Vim mode](#vim-mode)
 - **[Beluga as the file chooser](#beluga-as-the-file-chooser)**
 - **[Coming from Dolphin](#coming-from-dolphin)**
 - **[Settings](#settings)**
@@ -107,9 +108,11 @@ limits, places) live in Beluga's own preferences.
   the folder in a Beluga view, name, file types and the program's own options. See
   [Beluga as the file chooser](#beluga-as-the-file-chooser).
 - **Translations**: 63 languages. Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
-  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (746 of 747 messages). The other 50 have
+  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (784 of 785 messages). The other 50 have
   24–46% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
   is shown in English.
+- **Vim mode** (off by default): h j k l, counts, three visual modes (each item the cursor passes, a range, a block
+  of the grid), y / d / dd / p, the leader key and a `:` command line. See [Vim mode](#vim-mode).
 - **Look**: laid out like Dolphin: Back, Forward, Up and the view mode left of the location bar (two side by side in
   split view), Disk Usage, Split, Sort, Search and the menu right of it, all in one tool bar that **Settings →
   Configure Toolbars…** (or a right click on it) changes, as in Dolphin; tabs of one fixed width that all get narrower by the same amount when
@@ -210,6 +213,42 @@ Folders & Tabs → Keep a single Beluga window, opening new folders in tabs** is
 Every shortcut can be changed in **Configure Beluga → Keyboard Shortcuts**. Typing a name in a view jumps to the
 first matching item.
 
+### Vim mode
+
+Turn it on in **Configure Beluga → Vim Mode** (it is off by default). The views then take Vim-like keys; text
+fields (renaming, the location bar) keep typing normally, and keys with <kbd>Ctrl</kbd> or <kbd>Alt</kbd> that Vim
+mode doesn't use keep their usual meaning. A line at the bottom of the window shows the mode and the keys typed so
+far. Every key sequence below can be changed on the same page; `<leader>` is <kbd>Space</kbd> unless you pick
+another key.
+
+| Keys | Action |
+|---|---|
+| `h` `j` `k` `l`, arrows | move (with a count: `5j`) |
+| `gg` / `G`, `Ctrl+d` / `Ctrl+u` | first / last item, half a page down / up |
+| `Enter` / `-` | open / go to the parent folder |
+| `H` / `L`, `gh` | back / forward, home |
+| `v` | select every item the cursor passes |
+| `V` | select a range, like <kbd>Shift</kbd> (in reading order, across lines) |
+| `Ctrl+v` | select a block of the grid (right one and down one from the top left: the four items in that corner) |
+| `Esc` | back to normal mode |
+| `y` / `yy` | copy the selection / the item under the cursor |
+| `d` / `dd` / `D` | cut / move to the trash / delete |
+| `p` / `P` | paste / paste into the folder under the cursor |
+| `i` / `a` / `cw` | rename with the cursor at the start / after the name / with the name selected (insert mode) |
+| `o` / `O` | create a folder / a file |
+| `u` / `Ctrl+r` | undo / redo |
+| `/`, `<leader>/` | filter, search |
+| `gt` / `gT`, `qq`, `ZZ` | next / previous tab, close the tab, close the window |
+| `<leader>t` / `<leader>s` / `<leader>h` | new tab / split view / hidden files |
+| `<leader>d` / `<leader>i` / `<leader>p` | Disk Usage pane / Information panel / Places panel |
+| `K` | properties |
+| `:` | the command line |
+
+Commands: `:q` closes the window (`:q!` without asking about its tabs), `:qa` (`:qa!`) quits Beluga, `:e PATH` or
+`:cd PATH` opens a folder, `:tabnew [PATH]`, `:tabclose`, `:tabonly`, `:sp` / `:vs [PATH]` split the view, `:only`,
+`:mkdir NAME`, `:touch NAME`, `:set hidden` / `nohidden` / `hidden!`, `:set view=details`, `:sort size`, `:pwd`,
+`:term`, `:du`, `:help`, and `:!COMMAND` runs a shell command in the folder.
+
 ## Beluga as the file chooser
 
 Programs that open and save files through xdg-desktop-portal can get Beluga's dialog instead of the GTK or KDE one.
@@ -259,7 +298,7 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 80 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 81 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
 touched. Add `--screenshots DIR` to save PNGs of each view, and `BELUGA_SELFTEST_GTK_CONFIG=~/.config/gtk-4.0` to take them

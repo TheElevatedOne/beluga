@@ -1546,3 +1546,118 @@ msgstr "As ações acima da barra de endereço na lista ficam à esquerda dela, 
 
 msgid "A_vailable actions:"
 msgstr "Ações _disponíveis:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> nas teclas abaixo, p. ex. <Space> ou ,"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q fecha a janela (:q! sem perguntar sobre as abas), :qa sai do Beluga, :e / :cd CAMINHO abre uma pasta, :tabnew [CAMINHO], :tabclose, :tabonly, :sp / :vs [CAMINHO] dividem a visualização, :only fecha a outra visualização, :mkdir NOME, :touch NOME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMANDO executa um comando do shell na pasta."
+
+msgid "A name is needed."
+msgstr "É preciso um nome."
+
+msgid "Back to normal mode"
+msgstr "Voltar ao modo normal"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "Não foi possível abrir \"%s\"."
+
+msgid "Command line"
+msgstr "Linha de comando"
+
+msgid "Copied."
+msgstr "Copiado."
+
+msgid "Copy the item under the cursor"
+msgstr "Copiar o item sob o cursor"
+
+msgid "Cut."
+msgstr "Recortado."
+
+msgid "Edit the location"
+msgstr "Editar o local"
+
+msgid "First item"
+msgstr "Primeiro item"
+
+msgid "Keys"
+msgstr "Teclas"
+
+msgid "Last item"
+msgstr "Último item"
+
+msgid "Leader key:"
+msgstr "Tecla leader:"
+
+msgid "Move down"
+msgstr "Mover para baixo"
+
+msgid "Move left"
+msgstr "Mover para a esquerda"
+
+msgid "Move right"
+msgstr "Mover para a direita"
+
+msgid "Move up"
+msgstr "Mover para cima"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "O modo normal se move com h j k l e executa as teclas abaixo; v, V e Ctrl+V selecionam; i e a renomeiam (modo de inserção); Esc volta ao modo normal; : abre a linha de comando. Teclas com Ctrl ou Alt que não estão aqui mantêm o significado usual."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Não é um comando: %s"
+
+msgid "Page down"
+msgstr "Página abaixo"
+
+msgid "Page up"
+msgstr "Página acima"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Renomear, cursor após o nome (acrescentar)"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Renomear, cursor no início (inserir)"
+
+msgid "Rename, name selected (change)"
+msgstr "Renomear, nome selecionado (alterar)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Selecionar um bloco da grade (bloco visual)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Selecionar um intervalo, como com Shift (linha visual)"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Selecionar os itens por onde o cursor passa (visual)"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordenar por name, size, date ou type."
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Opção desconhecida: %s"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Visualização desconhecida: %s"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Usar teclas no estilo do Vim nas visualizações"
+
+msgid "Vim Mode"
+msgstr "Modo Vim"
+
+msgid "Vim mode:"
+msgstr "Modo Vim:"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notação do Vim, várias separadas por espaços: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Deixe um campo vazio para usar o padrão."
+
+msgid "Wait for more keys:"
+msgstr "Esperar mais teclas:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd após d, gg após g)"

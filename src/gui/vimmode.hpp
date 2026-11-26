@@ -38,6 +38,8 @@ public:
 
     GtkWidget *bar() const { return bar_; }   // mode line and command line, at the bottom of the window
     void applySettings();
+    // Another folder or tab: the visual selection's positions no longer apply.
+    void locationChanged();
     // A key press from the window (capture phase). True when Vim mode used it.
     bool key(guint keyval, GdkModifierType state);
     // Runs a command line (without the ':'); returns an error message, empty when it worked.

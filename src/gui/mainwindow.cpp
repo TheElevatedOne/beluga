@@ -768,6 +768,7 @@ void MainWindow::activateTab(int index)
 
 void MainWindow::onTabSwitched(int index)
 {
+    if (vim_) vim_->locationChanged();
     TabPage *t = tab(index);
     if (!t) return;
     updateTitle();
@@ -839,6 +840,7 @@ void MainWindow::containerUriChanged(ViewContainer *c)
         if (t->contains(c)) {
             t->updateLabel();
             c->view()->setCutUris(App::instance().cutUris());
+            if (vim_) vim_->locationChanged();
             if (t.get() == activeTab() && t->active() == c) {
                 updateTitle();
                 syncPanels();

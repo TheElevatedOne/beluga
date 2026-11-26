@@ -2109,6 +2109,42 @@ msgstr "Сейчас корзина занимает %s."
 msgid "_Empty Trash Now"
 msgstr "_Очистить корзину сейчас"
 
+msgid "Vim Mode"
+msgstr "Режим Vim"
+
+msgid "Vim mode:"
+msgstr "Режим Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Использовать в видах клавиши как в Vim"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Обычный режим перемещается клавишами h j k l и выполняет клавиши ниже; v, V и Ctrl+V выделяют; i и a переименовывают (режим вставки); Esc возвращает в обычный режим; : открывает командную строку. Клавиши с Ctrl или Alt, которых здесь нет, сохраняют обычное значение."
+
+msgid "Leader key:"
+msgstr "Клавиша leader:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> в клавишах ниже, например <Space> или ,"
+
+msgid "Wait for more keys:"
+msgstr "Ждать следующих клавиш:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "мс (dd после d, gg после g)"
+
+msgid "Keys"
+msgstr "Клавиши"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Запись как в Vim, несколько через пробел: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Пустое поле — значение по умолчанию."
+
+msgid "Command line"
+msgstr "Командная строка"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q закрывает окно (:q! не спрашивая о вкладках), :qa выходит из Beluga, :e / :cd ПУТЬ открывает папку, :tabnew [ПУТЬ], :tabclose, :tabonly, :sp / :vs [ПУТЬ] разделяют вид, :only закрывает другую панель, :mkdir ИМЯ, :touch ИМЯ, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!КОМАНДА выполняет команду оболочки в папке."
+
 msgid "Keyboard Shortcuts"
 msgstr "Комбинации клавиш"
 
@@ -2405,3 +2441,85 @@ msgstr[0] "Выбран %d"
 msgstr[1] "Выбрано %d"
 msgstr[2] "Выбрано %d"
 msgstr[3] "Выбран %d"
+
+msgid "Move left"
+msgstr "Влево"
+
+msgid "Move down"
+msgstr "Вниз"
+
+msgid "Move up"
+msgstr "Вверх"
+
+msgid "Move right"
+msgstr "Вправо"
+
+msgid "First item"
+msgstr "Первый элемент"
+
+msgid "Last item"
+msgstr "Последний элемент"
+
+msgid "Page down"
+msgstr "На страницу вниз"
+
+msgid "Page up"
+msgstr "На страницу вверх"
+
+msgid "Parent folder"
+msgstr "Родительская папка"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Выделить элементы, по которым проходит курсор (визуальный)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Выделить диапазон, как с Shift (визуальная строка)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Выделить блок сетки (визуальный блок)"
+
+msgid "Back to normal mode"
+msgstr "Вернуться в обычный режим"
+
+msgid "Copy the item under the cursor"
+msgstr "Копировать элемент под курсором"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Переименовать, курсор в начале (вставка)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Переименовать, курсор после имени (добавление)"
+
+msgid "Rename, name selected (change)"
+msgstr "Переименовать, имя выделено (замена)"
+
+msgid "Edit the location"
+msgstr "Изменить расположение"
+
+msgid "Copied."
+msgstr "Скопировано."
+
+msgid "Cut."
+msgstr "Вырезано."
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "Не удалось открыть «%s»."
+
+msgid "A name is needed."
+msgstr "Нужно имя."
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Неизвестный вид: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Неизвестный параметр: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Сортировка по name, size, date или type."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Не команда: %s"

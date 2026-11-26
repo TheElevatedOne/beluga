@@ -1549,3 +1549,118 @@ msgstr "Le azioni sopra la barra degli indirizzi nell'elenco stanno alla sua sin
 
 msgid "A_vailable actions:"
 msgstr "Azioni _disponibili:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> nei tasti sotto, ad es. <Space> o ,"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q chiude la finestra (:q! senza chiedere delle schede), :qa esce da Beluga, :e / :cd PERCORSO apre una cartella, :tabnew [PERCORSO], :tabclose, :tabonly, :sp / :vs [PERCORSO] dividono la vista, :only chiude l'altra vista, :mkdir NOME, :touch NOME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMANDO esegue un comando di shell nella cartella."
+
+msgid "A name is needed."
+msgstr "Serve un nome."
+
+msgid "Back to normal mode"
+msgstr "Torna alla modalità normale"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "Impossibile aprire «%s»."
+
+msgid "Command line"
+msgstr "Riga di comando"
+
+msgid "Copied."
+msgstr "Copiato."
+
+msgid "Copy the item under the cursor"
+msgstr "Copia l'elemento sotto il cursore"
+
+msgid "Cut."
+msgstr "Tagliato."
+
+msgid "Edit the location"
+msgstr "Modifica la posizione"
+
+msgid "First item"
+msgstr "Primo elemento"
+
+msgid "Keys"
+msgstr "Tasti"
+
+msgid "Last item"
+msgstr "Ultimo elemento"
+
+msgid "Leader key:"
+msgstr "Tasto leader:"
+
+msgid "Move down"
+msgstr "Sposta giù"
+
+msgid "Move left"
+msgstr "Sposta a sinistra"
+
+msgid "Move right"
+msgstr "Sposta a destra"
+
+msgid "Move up"
+msgstr "Sposta su"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "La modalità normale si muove con h j k l ed esegue i tasti sotto; v, V e Ctrl+V selezionano; i e a rinominano (modalità inserimento); Esc torna alla modalità normale; : apre la riga di comando. I tasti con Ctrl o Alt non elencati qui mantengono il loro significato abituale."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Non è un comando: %s"
+
+msgid "Page down"
+msgstr "Pagina giù"
+
+msgid "Page up"
+msgstr "Pagina su"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Rinomina, cursore dopo il nome (aggiungi)"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Rinomina, cursore all'inizio (inserisci)"
+
+msgid "Rename, name selected (change)"
+msgstr "Rinomina, nome selezionato (cambia)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Seleziona un blocco della griglia (blocco visuale)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Seleziona un intervallo, come con Maiusc (riga visuale)"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Seleziona gli elementi su cui passa il cursore (visuale)"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordina per name, size, date o type."
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Opzione sconosciuta: %s"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Vista sconosciuta: %s"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Usa tasti in stile Vim nelle viste"
+
+msgid "Vim Mode"
+msgstr "Modalità Vim"
+
+msgid "Vim mode:"
+msgstr "Modalità Vim:"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notazione di Vim, più valori separati da spazi: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lascia un campo vuoto per il predefinito."
+
+msgid "Wait for more keys:"
+msgstr "Attendi altri tasti:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd dopo d, gg dopo g)"

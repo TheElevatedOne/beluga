@@ -278,6 +278,18 @@ void VimMode::applySettings()
     updateBar();
 }
 
+void VimMode::locationChanged()
+{
+    if (timeout_) g_source_remove(timeout_);
+    timeout_ = 0;
+    pending_.clear();
+    count_ = 0;
+    mode_ = Mode::Normal;
+    anchor_ = -1;
+    visited_.clear();
+    updateBar();
+}
+
 void VimMode::compile()
 {
     bindings_.clear();

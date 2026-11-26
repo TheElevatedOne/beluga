@@ -1570,3 +1570,118 @@ msgstr "Дії над панеллю адреси у списку стоять �
 
 msgid "A_vailable actions:"
 msgstr "_Доступні дії:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> у клавішах нижче, наприклад <Space> або ,"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q закриває вікно (:q! не питаючи про вкладки), :qa виходить з Beluga, :e / :cd ШЛЯХ відкриває теку, :tabnew [ШЛЯХ], :tabclose, :tabonly, :sp / :vs [ШЛЯХ] розділяють перегляд, :only закриває іншу панель, :mkdir НАЗВА, :touch НАЗВА, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!КОМАНДА виконує команду оболонки в теці."
+
+msgid "A name is needed."
+msgstr "Потрібна назва."
+
+msgid "Back to normal mode"
+msgstr "Повернутися до звичайного режиму"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "Не вдалося відкрити «%s»."
+
+msgid "Command line"
+msgstr "Командний рядок"
+
+msgid "Copied."
+msgstr "Скопійовано."
+
+msgid "Copy the item under the cursor"
+msgstr "Копіювати елемент під курсором"
+
+msgid "Cut."
+msgstr "Вирізано."
+
+msgid "Edit the location"
+msgstr "Змінити розташування"
+
+msgid "First item"
+msgstr "Перший елемент"
+
+msgid "Keys"
+msgstr "Клавіші"
+
+msgid "Last item"
+msgstr "Останній елемент"
+
+msgid "Leader key:"
+msgstr "Клавіша leader:"
+
+msgid "Move down"
+msgstr "Вниз"
+
+msgid "Move left"
+msgstr "Ліворуч"
+
+msgid "Move right"
+msgstr "Праворуч"
+
+msgid "Move up"
+msgstr "Вгору"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Звичайний режим рухається клавішами h j k l і виконує клавіші нижче; v, V і Ctrl+V позначають; i та a перейменовують (режим вставки); Esc повертає до звичайного режиму; : відкриває командний рядок. Клавіші з Ctrl або Alt, яких тут немає, зберігають звичне значення."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Не команда: %s"
+
+msgid "Page down"
+msgstr "На сторінку вниз"
+
+msgid "Page up"
+msgstr "На сторінку вгору"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Перейменувати, курсор після назви (додавання)"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Перейменувати, курсор на початку (вставка)"
+
+msgid "Rename, name selected (change)"
+msgstr "Перейменувати, назву позначено (заміна)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Позначити блок сітки (візуальний блок)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Позначити діапазон, як із Shift (візуальний рядок)"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Позначити елементи, якими проходить курсор (візуальний)"
+
+msgid "Sort by name, size, date or type."
+msgstr "Упорядкувати за name, size, date або type."
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Невідомий параметр: %s"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Невідомий перегляд: %s"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Використовувати в переглядах клавіші як у Vim"
+
+msgid "Vim Mode"
+msgstr "Режим Vim"
+
+msgid "Vim mode:"
+msgstr "Режим Vim:"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Запис як у Vim, кілька через пробіл: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Порожнє поле — типове значення."
+
+msgid "Wait for more keys:"
+msgstr "Чекати наступних клавіш:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "мс (dd після d, gg після g)"

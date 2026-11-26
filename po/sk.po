@@ -2095,6 +2095,42 @@ msgstr "Kôš teraz zaberá %s."
 msgid "_Empty Trash Now"
 msgstr "_Vyprázdniť kôš teraz"
 
+msgid "Vim Mode"
+msgstr "Režim Vim"
+
+msgid "Vim mode:"
+msgstr "Režim Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Používať v zobrazeniach klávesy ako vo Vime"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normálny režim sa pohybuje klávesmi h j k l a spúšťa klávesy nižšie; v, V a Ctrl+V vyberajú; i a a premenovávajú (režim vkladania); Esc vracia do normálneho režimu; : otvorí príkazový riadok. Klávesy s Ctrl alebo Alt, ktoré tu nie sú, si ponechajú svoj obvyklý význam."
+
+msgid "Leader key:"
+msgstr "Kláves leader:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> v klávesoch nižšie, napr. <Space> alebo ,"
+
+msgid "Wait for more keys:"
+msgstr "Čakať na ďalšie klávesy:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd po d, gg po g)"
+
+msgid "Keys"
+msgstr "Klávesy"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Zápis ako vo Vime, viac oddelených medzerami: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Prázdne pole znamená predvolené."
+
+msgid "Command line"
+msgstr "Príkazový riadok"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q zavrie okno (:q! bez otázky na karty), :qa ukončí Belugu, :e / :cd CESTA otvorí priečinok, :tabnew [CESTA], :tabclose, :tabonly, :sp / :vs [CESTA] rozdelí pohľad, :only zavrie druhý pohľad, :mkdir NÁZOV, :touch NÁZOV, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!PRÍKAZ spustí príkaz shellu v priečinku."
+
 msgid "Keyboard Shortcuts"
 msgstr "Klávesové skratky"
 
@@ -2389,3 +2425,85 @@ msgid_plural "%d selected"
 msgstr[0] "Vybratá %d"
 msgstr[1] "Vybraté %d"
 msgstr[2] "Vybratých %d"
+
+msgid "Move left"
+msgstr "Posunúť doľava"
+
+msgid "Move down"
+msgstr "Posunúť dole"
+
+msgid "Move up"
+msgstr "Posunúť hore"
+
+msgid "Move right"
+msgstr "Posunúť doprava"
+
+msgid "First item"
+msgstr "Prvá položka"
+
+msgid "Last item"
+msgstr "Posledná položka"
+
+msgid "Page down"
+msgstr "O stranu dole"
+
+msgid "Page up"
+msgstr "O stranu hore"
+
+msgid "Parent folder"
+msgstr "Nadradený priečinok"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Vybrať položky, ktorými kurzor prejde (vizuálny)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Vybrať rozsah, ako so Shiftom (vizuálny riadok)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Vybrať blok mriežky (vizuálny blok)"
+
+msgid "Back to normal mode"
+msgstr "Späť do normálneho režimu"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopírovať položku pod kurzorom"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Premenovať, kurzor na začiatku (vložiť)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Premenovať, kurzor za názvom (pripojiť)"
+
+msgid "Rename, name selected (change)"
+msgstr "Premenovať, názov vybratý (zmeniť)"
+
+msgid "Edit the location"
+msgstr "Upraviť umiestnenie"
+
+msgid "Copied."
+msgstr "Skopírované."
+
+msgid "Cut."
+msgstr "Vystrihnuté."
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "„%s“ sa nedá otvoriť."
+
+msgid "A name is needed."
+msgstr "Je potrebný názov."
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Neznáme zobrazenie: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Neznáma voľba: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Zoradiť podľa name, size, date alebo type."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Nie je príkaz: %s"

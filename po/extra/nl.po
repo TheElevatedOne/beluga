@@ -1555,3 +1555,118 @@ msgstr "Acties boven de locatiebalk in de lijst staan links ervan, de andere rec
 
 msgid "A_vailable actions:"
 msgstr "_Beschikbare acties:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> in de toetsen hieronder, bijv. <Space> of ,"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q sluit het venster (:q! zonder te vragen naar de tabbladen), :qa sluit Beluga af, :e / :cd PAD opent een map, :tabnew [PAD], :tabclose, :tabonly, :sp / :vs [PAD] splitsen de weergave, :only sluit de andere weergave, :mkdir NAAM, :touch NAAM, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!OPDRACHT voert een shell-opdracht uit in de map."
+
+msgid "A name is needed."
+msgstr "Een naam is nodig."
+
+msgid "Back to normal mode"
+msgstr "Terug naar de normale modus"
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "‘%s’ kan niet worden geopend."
+
+msgid "Command line"
+msgstr "Opdrachtregel"
+
+msgid "Copied."
+msgstr "Gekopieerd."
+
+msgid "Copy the item under the cursor"
+msgstr "Het item onder de cursor kopiëren"
+
+msgid "Cut."
+msgstr "Geknipt."
+
+msgid "Edit the location"
+msgstr "De locatie bewerken"
+
+msgid "First item"
+msgstr "Eerste item"
+
+msgid "Keys"
+msgstr "Toetsen"
+
+msgid "Last item"
+msgstr "Laatste item"
+
+msgid "Leader key:"
+msgstr "Leader-toets:"
+
+msgid "Move down"
+msgstr "Omlaag"
+
+msgid "Move left"
+msgstr "Naar links"
+
+msgid "Move right"
+msgstr "Naar rechts"
+
+msgid "Move up"
+msgstr "Omhoog"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "De normale modus beweegt met h j k l en voert de toetsen hieronder uit; v, V en Ctrl+V selecteren; i en a hernoemen (invoegmodus); Esc gaat terug naar de normale modus; : opent de opdrachtregel. Toetsen met Ctrl of Alt die hier niet staan, houden hun gewone betekenis."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "Geen opdracht: %s"
+
+msgid "Page down"
+msgstr "Pagina omlaag"
+
+msgid "Page up"
+msgstr "Pagina omhoog"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Hernoemen, cursor na de naam (toevoegen)"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Hernoemen, cursor aan het begin (invoegen)"
+
+msgid "Rename, name selected (change)"
+msgstr "Hernoemen, naam geselecteerd (wijzigen)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Een blok van het raster selecteren (visueel blok)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Een bereik selecteren, zoals met Shift (visuele regel)"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "De items selecteren waar de cursor langs gaat (visueel)"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sorteren op name, size, date of type."
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Onbekende optie: %s"
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Onbekende weergave: %s"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Vim-achtige toetsen in de weergaven gebruiken"
+
+msgid "Vim Mode"
+msgstr "Vim-modus"
+
+msgid "Vim mode:"
+msgstr "Vim-modus:"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim-notatie, meerdere gescheiden door spaties: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Laat een veld leeg voor de standaard."
+
+msgid "Wait for more keys:"
+msgstr "Wachten op meer toetsen:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd na d, gg na g)"
