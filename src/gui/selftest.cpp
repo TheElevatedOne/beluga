@@ -589,6 +589,25 @@ void gui_tests(GtkApplication *app)
             g_action_group_activate_action(ag, "sort-by", g_variant_new_string(role));
             wait_ms(80);
         }
+        // Context menus fit a 1080p screen (with a bar) without scrolling: the longest ones, for a file and a folder.
+        auto menuHeight = [&](const char *name, const char *shot) {
+            w->activeView()->selectUris({file_uri(F(name).get())});
+            wait_ms(200);
+            w->showContextMenu(w->activeContainer(), 0, 40, 40);
+            wait_ms(400);
+            int nat = 0;
+            for (GtkWidget *c = gtk_widget_get_first_child(w->activeView()->itemView()->widget()); c; c = gtk_widget_get_next_sibling(c))
+                if (GTK_IS_POPOVER_MENU(c) && gtk_widget_get_visible(c)) {
+                    gtk_widget_measure(c, GTK_ORIENTATION_VERTICAL, -1, nullptr, &nat, nullptr, nullptr);
+                    shoot(c, shot);
+                    gtk_popover_popdown(GTK_POPOVER(c));
+                }
+            wait_ms(150);
+            return nat;
+        };
+        int fileMenu = menuHeight("picture.png", "13-menu-file"), folderMenu = menuHeight("Folder 1", "13-menu-folder");
+        check(fileMenu > 0 && folderMenu > 0 && fileMenu <= 520 && folderMenu <= 520,
+              printf_str("context menus fit without scrolling (file %d px, folder %d px)", fileMenu, folderMenu));
         w->activeView()->selectUris({file_uri(F("picture.png").get())});
         wait_ms(200);
         w->showContextMenu(w->activeContainer(), 0, 40, 40);
@@ -851,6 +870,21 @@ int run_selftest(int argc, char **argv)
     g_setenv("XDG_STATE_HOME", (g_root + "/state").c_str(), TRUE);
     g_setenv("XDG_CACHE_HOME", (g_root + "/cache").c_str(), TRUE);
     if (!g_shots.empty()) g_mkdir_with_parents(g_shots.c_str(), 0755);
+    // BELUGA_SELFTEST_GTK_CONFIG=~/.config/gtk-4.0: screenshots in that GTK theme (a copy; nothing is written there).
+    if (const char *theme = g_getenv("BELUGA_SELFTEST_GTK_CONFIG")) {
+        std::string dst = g_root + "/config/gtk-4.0";
+        g_mkdir_with_parents(dst.c_str(), 0700);
+        if (GDir *d = g_dir_open(theme, 0, nullptr)) {
+            while (const char *n = g_dir_read_name(d)) {
+                char *data = nullptr;
+                gsize len = 0;
+                if (g_file_get_contents((std::string(theme) + "/" + n).c_str(), &data, &len, nullptr))
+                    g_file_set_contents((dst + "/" + n).c_str(), data, (gssize)len, nullptr);
+                g_free(data);
+            }
+            g_dir_close(d);
+        }
+    }
     settings().load();
     settings().confirmClosingMultipleTabs = false;
     std::cout << "Self-test folder: " << g_root << std::endl;

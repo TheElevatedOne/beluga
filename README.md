@@ -250,10 +250,11 @@ Beluga creates its files the first time it needs them. Everything can be changed
 
 ## Testing
 
-`beluga --selftest` runs 74 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
+`beluga --selftest` runs 75 checks of the file operation engine (copy, move, conflicts, trash and restore, undo,
 rename, search, sorting, places) and of the window (all four views, filter, navigation, split view, tabs, search,
 trash, the menu actions and the dialogs they open, preferences). It uses a temporary folder and a throwaway profile, so your settings, places and trash are not
-touched. Add `--screenshots DIR` to save PNGs of each view.
+touched. Add `--screenshots DIR` to save PNGs of each view, and `BELUGA_SELFTEST_GTK_CONFIG=~/.config/gtk-4.0` to take them
+in your GTK theme (a copy is used).
 
 To run it without opening a window, use GTK's offscreen Broadway backend:
 

@@ -68,6 +68,25 @@ beluga-view .beluga-header button.header-cell {
 beluga-view entry.beluga-rename { min-height: 0; padding: 2px 4px; }
 .beluga-placeholder { font-size: 1.2em; }
 .beluga-column { border-right: 1px solid mix(@beluga_view_bg, @beluga_view_fg, 0.15); }
+/* Menus and popovers. GTK 4 paints a popover on its "contents" node; themes that only colour "popover" (pywal
+   and Noctalia style sheets do) leave the menus in the built-in grey. Rows are compact, so that long context menus
+   fit on a 1080p screen instead of scrolling. */
+popover > contents, popover > arrow {
+  background-color: @beluga_popover_bg;
+  color: @beluga_popover_fg;
+}
+popover.menu > contents { padding: 4px 0; }
+popover.menu modelbutton {
+  min-height: 20px;
+  padding: 2px 12px;
+}
+popover.menu modelbutton:hover,
+popover.menu modelbutton:focus-visible,
+popover.menu modelbutton:selected {
+  background-color: mix(@beluga_popover_bg, @beluga_popover_fg, 0.12);
+}
+popover.menu modelbutton:disabled { color: mix(@beluga_popover_bg, @beluga_popover_fg, 0.5); }
+popover.menu separator { margin: 2px 0; }
 .beluga-admin-bar {
   background-color: mix(@beluga_window_bg, @beluga_error, 0.3);
   color: @beluga_window_fg;
@@ -171,6 +190,8 @@ void load_style()
         {"beluga_accent_bg", {"accent_bg_color", "theme_selected_bg_color", nullptr}, "#3584e4"},
         {"beluga_accent_fg", {"accent_fg_color", "theme_selected_fg_color", nullptr}, "#ffffff"},
         {"beluga_error", {"error_color", "error_bg_color", nullptr}, "#c01c28"},
+        {"beluga_popover_bg", {"popover_bg_color", "theme_base_color", nullptr}, "#ffffff"},
+        {"beluga_popover_fg", {"popover_fg_color", "theme_fg_color", nullptr}, "#000000"},
     };
     GtkWidget *probe = gtk_label_new(nullptr);
     g_object_ref_sink(probe);

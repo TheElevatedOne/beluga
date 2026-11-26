@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Fixed: context menus and other popovers use the theme's popover colours (`popover_bg_color`,
+  `popover_fg_color`); style sheets that only colour `popover` (pywal, Noctalia) left them in GTK's grey. Menu rows
+  are more compact, so the longest context menu (a folder's) is 502 px instead of 678 px and fits on a 1080p screen
+  without scrolling.
 - Added: complete translations for Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
   Russian, Ukrainian, Dutch, Japanese and Simplified Chinese (703 of 704 messages; before: about 240). They live in
   `po/extra/` and survive a new import from KDE's catalogs.
