@@ -79,19 +79,41 @@ MainWindow::MainWindow(GtkApplication *app)
     gtk_widget_add_css_class(leftPaned_, "beluga-panels");
 
     notebook_ = gtk_notebook_new();
+    // Cleared when GTK destroys it; the window object outlives its widgets by an idle callback.
+    g_object_add_weak_pointer(G_OBJECT(notebook_), reinterpret_cast<gpointer *>(&notebook_));
     gtk_notebook_set_scrollable(GTK_NOTEBOOK(notebook_), TRUE);
     gtk_notebook_set_show_border(GTK_NOTEBOOK(notebook_), FALSE);
     gtk_widget_set_hexpand(notebook_, TRUE);
     gtk_widget_set_vexpand(notebook_, TRUE);
-    GtkWidget *plus = gtk_button_new_from_icon_name("tab-new");
-    gtk_widget_add_css_class(plus, "flat");
-    gtk_widget_set_tooltip_text(plus, _("New Tab"));
-    gtk_actionable_set_action_name(GTK_ACTIONABLE(plus), "win.new-tab");
-    gtk_notebook_set_action_widget(GTK_NOTEBOOK(notebook_), plus, GTK_PACK_END);
-    g_signal_connect(notebook_, "switch-page", CB([](GtkNotebook *, GtkWidget *, guint index, gpointer p) {
-        static_cast<MainWindow *>(p)->onTabSwitched((int)index);
+    // New Tab sits right after the last tab, as in Dolphin: a last page whose tab is the "+" (GtkNotebook puts
+    // action widgets at the far end). Selecting it opens a tab instead.
+    plusPage_ = gtk_box_new(GTK_ORIENTATION_VERTICAL, 0);
+    GtkWidget *plusIcon = gtk_image_new_from_icon_name("tab-new");
+    gtk_widget_set_tooltip_text(plusIcon, _("New Tab"));
+    gtk_notebook_append_page(GTK_NOTEBOOK(notebook_), plusPage_, plusIcon);
+    gtk_widget_add_css_class(gtk_widget_get_parent(plusIcon), "beluga-new-tab");
+    g_signal_connect(notebook_, "switch-page", CB([](GtkNotebook *nb, GtkWidget *child, guint index, gpointer p) {
+        auto *w = static_cast<MainWindow *>(p);
+        if (child == w->plusPage_) {
+            g_signal_stop_emission_by_name(nb, "switch-page");
+            // Not while tabs go away (closing one, or the whole window); and only if the window still exists.
+            if (!w->removingTab_ && !w->closing_ && !w->tabs_.empty()) {
+                struct Later {
+                    std::weak_ptr<void> alive;
+                    MainWindow *w;
+                };
+                g_idle_add_full(G_PRIORITY_DEFAULT_IDLE, [](gpointer p) -> gboolean {
+                    auto *l = static_cast<Later *>(p);
+                    if (!l->alive.expired() && !l->w->closing_)
+                        g_action_group_activate_action(G_ACTION_GROUP(l->w->win_), "new-tab", nullptr);
+                    return G_SOURCE_REMOVE;
+                }, new Later{w->lifeToken(), w}, [](gpointer p) { delete static_cast<Later *>(p); });
+            }
+            return;
+        }
+        w->onTabSwitched((int)index);
     }), this);
-    g_signal_connect(notebook_, "page-reordered", CB([](GtkNotebook *, GtkWidget *child, guint index, gpointer p) {
+    g_signal_connect(notebook_, "page-reordered", CB([](GtkNotebook *nb, GtkWidget *child, guint index, gpointer p) {
         auto *w = static_cast<MainWindow *>(p);
         for (size_t i = 0; i < w->tabs_.size(); ++i)
             if (w->tabs_[i]->widget() == child) {
@@ -100,6 +122,8 @@ MainWindow::MainWindow(GtkApplication *app)
                 w->tabs_.insert(w->tabs_.begin() + std::min<size_t>(index, w->tabs_.size()), std::move(t));
                 break;
             }
+        // A tab dropped after "+": "+" goes back to the end.
+        if (child != w->plusPage_ && (int)index >= (int)w->tabs_.size()) gtk_notebook_reorder_child(nb, w->plusPage_, -1);
     }), this);
 
     innerPaned_ = gtk_paned_new(GTK_ORIENTATION_HORIZONTAL);
@@ -178,9 +202,13 @@ MainWindow::MainWindow(GtkApplication *app)
     // runs before the window's other capture-phase controllers.
     GtkEventController *keys = gtk_event_controller_key_new();
     gtk_event_controller_set_propagation_phase(keys, GTK_PHASE_CAPTURE);
-    g_signal_connect(keys, "key-pressed", CB([](GtkEventControllerKey *k, guint, guint, GdkModifierType, gpointer p) -> gboolean {
+    g_signal_connect(keys, "key-pressed", CB([](GtkEventControllerKey *k, guint keyval, guint, GdkModifierType, gpointer p) -> gboolean {
         GtkWidget *focus = gtk_root_get_focus(GTK_ROOT(static_cast<MainWindow *>(p)->win_));
         if (!focus || !GTK_IS_EDITABLE(focus)) return FALSE;
+        // Backspace or Delete in an empty field has nothing to delete: no error bell (and no Back).
+        if ((keyval == GDK_KEY_BackSpace || keyval == GDK_KEY_Delete || keyval == GDK_KEY_KP_Delete)
+            && !*gtk_editable_get_text(GTK_EDITABLE(focus)))
+            return TRUE;
         GdkEvent *ev = gtk_event_controller_get_current_event(GTK_EVENT_CONTROLLER(k));
         if (!ev || !App::instance().isShortcut(ev)) return FALSE;
         return gtk_event_controller_key_forward(k, focus);
@@ -221,6 +249,10 @@ void MainWindow::closeWindow()
 {
     if (closing_ && !win_) return;
     closing_ = true;
+    // Its widgets go now; settings and undo changes must not reach them in the meantime.
+    remove_settings_listener(settingsListener_);
+    UndoManager::instance().removeListener(undoListener_);
+    settingsListener_ = undoListener_ = -1;
     Settings &s = settings();
     s.windowMaximized = gtk_window_is_maximized(GTK_WINDOW(win_));
     if (!s.windowMaximized) {
@@ -684,9 +716,11 @@ void MainWindow::rebuildClosedTabsMenu()
 
 TabPage *MainWindow::openTab(const std::string &uri, const std::string &secondary, bool activate)
 {
+    if (!notebook_ || closing_) return nullptr;
     auto tab = std::make_unique<TabPage>(this, uri, secondary);
     TabPage *t = tab.get();
     int cur = gtk_notebook_get_current_page(GTK_NOTEBOOK(notebook_));
+    if (cur >= (int)tabs_.size()) cur = -1;   // "+"
     int pos = settings().openNewTabAfterLastTab || cur < 0 ? (int)tabs_.size() : cur + 1;
     tabs_.insert(tabs_.begin() + pos, std::move(tab));
     gtk_notebook_insert_page(GTK_NOTEBOOK(notebook_), t->widget(), t->label(), pos);
@@ -726,8 +760,16 @@ void MainWindow::closeTab(int index, bool remember)
         if (closedTabs_.size() > 10) closedTabs_.erase(closedTabs_.begin());
         rebuildClosedTabsMenu();
     }
+    if (!notebook_) return;
+    int cur = gtk_notebook_get_current_page(GTK_NOTEBOOK(notebook_));
+    removingTab_ = true;   // GTK may pick "+" as the next page; it mustn't open a tab
     gtk_notebook_remove_page(GTK_NOTEBOOK(notebook_), index);
+    removingTab_ = false;
     tabs_.erase(tabs_.begin() + index);
+    if (!tabs_.empty()) {
+        int next = cur > index ? cur - 1 : std::min(cur, (int)tabs_.size() - 1);
+        gtk_notebook_set_current_page(GTK_NOTEBOOK(notebook_), std::max(0, next));
+    }
     updateTabBar();
     onTabSwitched(gtk_notebook_get_current_page(GTK_NOTEBOOK(notebook_)));
 }
@@ -744,6 +786,7 @@ void MainWindow::detachTab(int index)
 
 TabPage *MainWindow::activeTab() const
 {
+    if (!notebook_) return nullptr;
     int cur = gtk_notebook_get_current_page(GTK_NOTEBOOK(notebook_));
     return tab(cur);
 }
@@ -786,9 +829,9 @@ void MainWindow::fitTabs()
         int n = std::max<int>(1, (int)tabs_.size());
         // The New Tab button with its padding (allocated widths leave padding out), and the tab bar's own.
         int avail = tabsWidth_ - 12;
-        if (GtkWidget *plus = gtk_notebook_get_action_widget(GTK_NOTEBOOK(notebook_), GTK_PACK_END)) {
+        if (GtkWidget *plusTab = plusPage_ ? gtk_widget_get_parent(gtk_notebook_get_tab_label(GTK_NOTEBOOK(notebook_), plusPage_)) : nullptr) {
             int plusNat = 0;
-            gtk_widget_measure(plus, GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &plusNat, nullptr, nullptr);
+            gtk_widget_measure(plusTab, GTK_ORIENTATION_HORIZONTAL, -1, nullptr, &plusNat, nullptr, nullptr);
             avail -= plusNat;
         }
         int chrome = -1;
@@ -813,6 +856,7 @@ void MainWindow::fitTabsLater()
 
 void MainWindow::updateTabBar()
 {
+    if (!notebook_) return;   // the window is being destroyed
     gtk_notebook_set_show_tabs(GTK_NOTEBOOK(notebook_), tabs_.size() > 1 || settings().alwaysShowTabBar);
     fitTabs();
 }
@@ -891,6 +935,7 @@ void MainWindow::updateTitle()
 
 void MainWindow::applySettings()
 {
+    if (!notebook_) return;   // the window is being destroyed
     const Settings &s = settings();
     if (toolbarItems_ != s.toolbarItems) populateToolbar();
     if (vim_) vim_->applySettings();
@@ -1164,7 +1209,7 @@ void MainWindow::saveSession(GKeyFile *kf, const std::string &group) const
 {
     const char *G = group.c_str();
     g_key_file_set_integer(kf, G, "Tabs", (int)tabs_.size());
-    g_key_file_set_integer(kf, G, "Active", gtk_notebook_get_current_page(GTK_NOTEBOOK(notebook_)));
+    g_key_file_set_integer(kf, G, "Active", notebook_ ? gtk_notebook_get_current_page(GTK_NOTEBOOK(notebook_)) : 0);
     for (size_t i = 0; i < tabs_.size(); ++i) {
         TabPage *t = tabs_[i].get();
         g_key_file_set_string(kf, G, printf_str("Tab%zuPrimary", i).c_str(), t->primary()->uri().c_str());

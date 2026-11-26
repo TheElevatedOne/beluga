@@ -1669,3 +1669,63 @@ msgstr "Čekat na další klávesy:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ms (dd po d, gg po g)"
+
+msgid "_Image File…"
+msgstr "_Obrázek…"
+
+msgid "_Default Icon"
+msgstr "_Výchozí ikona"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Zaškrtnuté sekce se zobrazí v panelu Místa v tomto pořadí."
+
+msgid "Search icons…"
+msgstr "Hledat ikony…"
+
+msgid "Reading…"
+msgstr "Čtení…"
+
+msgid "Only files on this computer can be read."
+msgstr "Číst lze jen soubory na tomto počítači."
+
+msgid "No details found."
+msgstr "Žádné podrobnosti."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Síťová umístění potřebují gvfs. Nainstalujte balíček gvfs (a gvfs-smb pro sdílení Windows, gvfs-nfs pro NFS), pak se odhlaste a znovu přihlaste."
+
+msgid "Move Up"
+msgstr "Posunout nahoru"
+
+msgid "Move Down"
+msgstr "Posunout dolů"
+
+msgid "Keep the trash on the home drive"
+msgstr "Ponechat koš na domovském disku"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Soubory přesunuté do koše z jiných disků se zkopírují do koše v domovské složce, takže na těch discích nevznikne složka .Trash-1000. Přesun velkých souborů do koše pak trvá déle."
+
+msgid "Could not change the icon."
+msgstr "Ikonu nelze změnit."
+
+msgid "Configure Sections…"
+msgstr "Nastavit sekce…"
+
+msgid "Configure Sections"
+msgstr "Nastavit sekce"
+
+msgid "Choose an Image"
+msgstr "Vyberte obrázek"
+
+msgid "Change the folder's icon"
+msgstr "Změnit ikonu složky"
+
+msgid "C_hoose…"
+msgstr "_Vybrat…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga byla sestavena bez FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Činnosti nad adresním řádkem v seznamu jsou vlevo od něj, ostatní vpravo. * označuje činnosti, které nejsou tam, kde je má výchozí panel nástrojů."

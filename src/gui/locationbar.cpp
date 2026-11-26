@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "locationbar.hpp"
 
+#include <sys/stat.h>
+
 #include "archive.hpp"
 
 #include "gtkutil.hpp"
@@ -258,7 +260,15 @@ std::vector<LocationBar::Crumb> LocationBar::fileCrumbs(const std::string &uri) 
         std::string label = info ? str(g_file_info_get_display_name(info)) : take(bn);
         if (info) g_object_unref(info);
         if (info) g_free(bn);
-        out.push_back({label, file_uri(chain[i].get()), ""});
+        // A drive mounted here (another partition or disk): its icon, as at the start of the path.
+        std::string icon;
+        if (g_file_is_native(chain[i].get())) {
+            std::string p = take(g_file_get_path(chain[i].get())), pp = take(g_file_get_path(chain[i - 1].get()));
+            struct stat a, b;
+            if (!p.empty() && !pp.empty() && stat(p.c_str(), &a) == 0 && stat(pp.c_str(), &b) == 0 && a.st_dev != b.st_dev)
+                icon = "drive-harddisk";
+        }
+        out.push_back({label, file_uri(chain[i].get()), icon});
     }
     return out;
 }

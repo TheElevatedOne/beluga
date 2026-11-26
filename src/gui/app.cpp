@@ -165,6 +165,14 @@ void App::shutdown()
     du::save_cache();
 }
 
+void App::reloadLocation(const std::string &uri)
+{
+    for (MainWindow *w : windows_)
+        for (int i = 0; i < w->tabCount(); ++i)
+            for (ViewContainer *c : {w->tab(i)->primary(), w->tab(i)->secondary()})
+                if (c && c->uri() == uri) c->reload();
+}
+
 std::string App::currentUriOf(GtkWindow *window) const
 {
     MainWindow *w = window ? MainWindow::from(window) : nullptr;

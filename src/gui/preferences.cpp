@@ -619,6 +619,7 @@ void restore_defaults(const std::string &page)
         s.ctxDeletePermanently = d.ctxDeletePermanently;
     } else if (page == "trash") {
         s.trashUseTimeLimit = d.trashUseTimeLimit;
+        s.trashHomeOnly = d.trashHomeOnly;
         s.trashDays = d.trashDays;
         s.trashUseSizeLimit = d.trashUseSizeLimit;
         s.trashPercent = d.trashPercent;
@@ -1087,6 +1088,10 @@ GtkWidget *build(GtkWindow *parent, const std::string &startPage, int startTab)
         }), nullptr);
         put(t, inline_row({limit, spin(1, 100, 1, [&s] { return (int)s.trashPercent; }, [&s](int i) { s.trashPercent = i; }),
                            text_label(_("percent of the disk"), &w)}));
+        label(t, _("Location:"));
+        check(t, _("Keep the trash on the home drive"), s.trashHomeOnly);
+        note(t, _("Files moved to the trash from other drives are copied into the trash in your home folder, so those "
+                  "drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."));
         label(t, _("Full trash:"));
         put(t, inline_row({text_label(_("When the limit is reached:"), &w),
                            combo({_("Show a warning"), _("Delete the oldest items"), _("Delete the largest items")},

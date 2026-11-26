@@ -1,10 +1,12 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "properties.hpp"
 
+#include "app.hpp"
 #include "dialogs.hpp"
 #include "diskusage.hpp"
 #include "fileops.hpp"
 #include "gtkutil.hpp"
+#include "mediainfo.hpp"
 #include "openwith.hpp"
 #include "search.hpp"
 #include "settings.hpp"
@@ -154,6 +156,44 @@ void apply_recursive(GFile *f, const int levels[3], bool execChange, bool exec)
     g_object_unref(info);
 }
 
+// Audio, video and image details, as in the Information panel (FFmpeg, read on a worker thread).
+GtkWidget *media_page(State *st, const std::string &mime)
+{
+    Grid g = new_grid();
+    std::string path = take(g_file_get_path(st->files[0].get()));
+    if (starts_with(mime, "image/") && !path.empty()) {
+        int w = 0, h = 0;
+        if (gdk_pixbuf_get_file_info(path.c_str(), &w, &h) && w > 0) g.text(_("Dimensions:"), printf_str("%d × %d", w, h));
+    }
+    if (path.empty() || !mediainfo::available()) {
+        if (g.row == 0) g.text(_("Details:"), mediainfo::available() ? _("Only files on this computer can be read.")
+                                                                     : _("Beluga was built without FFmpeg."));
+        return g.grid;
+    }
+    GtkWidget *reading = g.text(_("Details:"), _("Reading…"));
+    Ref<GtkWidget> grid = Ref<GtkWidget>::share(g.grid);
+    Ref<GtkWidget> placeholder = Ref<GtkWidget>::share(reading);
+    int startRow = g.row - 1;
+    std::weak_ptr<void> alive = st->alive;
+    bool image = starts_with(mime, "image/");
+    std::thread([grid, placeholder, startRow, alive, path, image] {
+        auto rows = mediainfo::probe(path);
+        run_on_main([grid, placeholder, startRow, alive, rows, image] {
+            if (alive.expired()) return;
+            GtkWidget *gr = grid.get();
+            if (GtkWidget *k = gtk_grid_get_child_at(GTK_GRID(gr), 0, startRow)) gtk_grid_remove(GTK_GRID(gr), k);
+            gtk_grid_remove(GTK_GRID(gr), placeholder.get());
+            Grid g{gr, startRow};
+            for (auto &r : rows) {
+                if (image && (r.first == _("Duration:") || r.first == _("Bit rate:"))) continue;   // a picture has neither
+                g.text(r.first, r.second);
+            }
+            if (rows.empty() && startRow == 0) g.text(_("Details:"), _("No details found."));
+        });
+    }).detach();
+    return g.grid;
+}
+
 GtkWidget *general_page(State *st, GtkWidget *parent)
 {
     GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, 8);
@@ -168,7 +208,41 @@ GtkWidget *general_page(State *st, GtkWidget *parent)
     if (single && info && g_file_info_get_icon(info)) icon = gtk_image_new_from_gicon(g_file_info_get_icon(info));
     else icon = gtk_image_new_from_icon_name(single ? "text-x-generic" : "edit-select-all");
     gtk_image_set_pixel_size(GTK_IMAGE(icon), 64);
-    gtk_box_append(GTK_BOX(head), icon);
+    std::string dirPath = single && st->isDir ? take(g_file_get_path(st->files[0].get())) : std::string();
+    if (!dirPath.empty()) {
+        // A local folder's icon can be changed (saved in its .directory file, as Dolphin does).
+        std::string own = folder_icon(dirPath);
+        if (GIcon *gi = icon_from_string(own)) {
+            gtk_image_set_from_gicon(GTK_IMAGE(icon), gi);
+            g_object_unref(gi);
+        }
+        GtkWidget *btn = gtk_button_new();
+        gtk_widget_add_css_class(btn, "flat");
+        gtk_button_set_child(GTK_BUTTON(btn), icon);
+        gtk_widget_set_tooltip_text(btn, _("Change the folder's icon"));
+        g_object_set_data_full(G_OBJECT(btn), "beluga-path", g_strdup(dirPath.c_str()), g_free);
+        g_signal_connect(btn, "clicked", CB([](GtkButton *b) {
+            std::string path = static_cast<const char *>(g_object_get_data(G_OBJECT(b), "beluga-path"));
+            Ref<GtkWidget> img = Ref<GtkWidget>::share(gtk_button_get_child(b));
+            choose_icon(GTK_WIDGET(b), folder_icon(path), [path, img](const std::string &chosen) {
+                GError *err = nullptr;
+                if (!set_folder_icon(path, chosen, &err)) {
+                    show_error(img.get(), _("Could not change the icon."), err ? err->message : "");
+                    g_clear_error(&err);
+                    return;
+                }
+                GIcon *gi = chosen.empty() ? g_themed_icon_new("folder") : icon_from_string(chosen);
+                gtk_image_set_from_gicon(GTK_IMAGE(img.get()), gi);
+                g_object_unref(gi);
+                // The views showing the folder's parent pick up the new icon.
+                std::string parent = file_uri(Ref<GFile>(g_file_get_parent(Ref<GFile>(g_file_new_for_path(path.c_str())).get())).get());
+                App::instance().reloadLocation(parent);
+            });
+        }), nullptr);
+        gtk_box_append(GTK_BOX(head), btn);
+    } else {
+        gtk_box_append(GTK_BOX(head), icon);
+    }
     if (single && info) {
         st->nameEntry = gtk_entry_new();
         gtk_editable_set_text(GTK_EDITABLE(st->nameEntry), g_file_info_get_display_name(info));
@@ -203,9 +277,17 @@ GtkWidget *general_page(State *st, GtkWidget *parent)
         g.text(_("Accessed:"), format_date(t(G_FILE_ATTRIBUTE_TIME_ACCESS), DateStyle::Long));
         if (g_file_info_get_is_symlink(info)) g.text(_("Points to:"), str(g_file_info_get_symlink_target(info)));
         if (!st->isDir) {
+            // The program's icon and name, centred with the Change button.
             GtkWidget *row = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
             GAppInfo *app = g_app_info_get_default_for_type(mime.c_str(), FALSE);
+            if (app && g_app_info_get_icon(app)) {
+                GtkWidget *img = gtk_image_new_from_gicon(g_app_info_get_icon(app));
+                gtk_image_set_pixel_size(GTK_IMAGE(img), 16);
+                gtk_widget_set_valign(img, GTK_ALIGN_CENTER);
+                gtk_box_append(GTK_BOX(row), img);
+            }
             GtkWidget *name = value_label(app ? g_app_info_get_display_name(app) : _("No default application"));
+            gtk_widget_set_valign(name, GTK_ALIGN_CENTER);
             if (app) g_object_unref(app);
             gtk_box_append(GTK_BOX(row), name);
             GtkWidget *change = gtk_button_new_with_mnemonic(_("C_hange…"));
@@ -215,8 +297,13 @@ GtkWidget *general_page(State *st, GtkWidget *parent)
                 show_open_with_dialog(GTK_WIDGET(b), {Ref<GFile>::share(G_FILE(g_object_get_data(G_OBJECT(b), "beluga-file")))},
                                       static_cast<const char *>(g_object_get_data(G_OBJECT(b), "beluga-mime")));
             }), nullptr);
+            gtk_widget_set_valign(change, GTK_ALIGN_CENTER);
             gtk_box_append(GTK_BOX(row), change);
+            GtkWidget *key = gtk_grid_get_child_at(GTK_GRID(g.grid), 0, g.row - 1);
+            (void)key;
             g.add(_("Opens with:"), row);
+            // Its label in the middle of the row, not at the top.
+            if (GtkWidget *k = gtk_grid_get_child_at(GTK_GRID(g.grid), 0, g.row - 1)) gtk_label_set_yalign(GTK_LABEL(k), 0.5f);
         }
     }
     guint64 total = 0, free = 0;
@@ -449,8 +536,12 @@ void show_properties_dialog(GtkWidget *parent, const std::vector<Ref<GFile>> &fi
     gtk_notebook_append_page(GTK_NOTEBOOK(nb), general_page(st, parent), gtk_label_new(_("General")));
     if (st->info && g_file_info_has_attribute(st->info.get(), G_FILE_ATTRIBUTE_UNIX_MODE))
         gtk_notebook_append_page(GTK_NOTEBOOK(nb), permissions_page(st), gtk_label_new(_("Permissions")));
-    if (st->info && g_file_info_get_file_type(st->info.get()) == G_FILE_TYPE_REGULAR)
+    if (st->info && g_file_info_get_file_type(st->info.get()) == G_FILE_TYPE_REGULAR) {
+        std::string mime = content_type_of(st->info.get());
+        if (st->files.size() == 1 && (starts_with(mime, "audio/") || starts_with(mime, "video/") || starts_with(mime, "image/")))
+            gtk_notebook_append_page(GTK_NOTEBOOK(nb), media_page(st, mime), gtk_label_new(_("Details")));
         gtk_notebook_append_page(GTK_NOTEBOOK(nb), checksums_page(st), gtk_label_new(_("Checksums")));
+    }
     // Scrolled, so a long name or many checksums never make the dialog taller than the screen.
     GtkWidget *scroll = gtk_scrolled_window_new();
     gtk_scrolled_window_set_policy(GTK_SCROLLED_WINDOW(scroll), GTK_POLICY_NEVER, GTK_POLICY_AUTOMATIC);

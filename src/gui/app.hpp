@@ -30,6 +30,8 @@ public:
     const std::vector<MainWindow *> &windows() const { return windows_; }
     void windowClosed(MainWindow *w);
     void quit();
+    // Reloads every view showing this folder.
+    void reloadLocation(const std::string &uri);
     // The folder shown in a main window (empty for other windows).
     std::string currentUriOf(GtkWindow *window) const;
     // Opens folders (in tabs of the active window or a new window) and selects files.

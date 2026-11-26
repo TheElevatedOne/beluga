@@ -1677,3 +1677,63 @@ msgstr "Ждать следующих клавиш:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "мс (dd после d, gg после g)"
+
+msgid "_Image File…"
+msgstr "_Файл изображения…"
+
+msgid "_Default Icon"
+msgstr "Значок по _умолчанию"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Отмеченные разделы показываются на панели «Точки входа» в этом порядке."
+
+msgid "Search icons…"
+msgstr "Поиск значков…"
+
+msgid "Reading…"
+msgstr "Чтение…"
+
+msgid "Only files on this computer can be read."
+msgstr "Читать можно только файлы на этом компьютере."
+
+msgid "No details found."
+msgstr "Сведения не найдены."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Для сетевых расположений нужен gvfs. Установите пакет gvfs (и gvfs-smb для общих папок Windows, gvfs-nfs для NFS), затем войдите в систему заново."
+
+msgid "Move Up"
+msgstr "Вверх"
+
+msgid "Move Down"
+msgstr "Вниз"
+
+msgid "Keep the trash on the home drive"
+msgstr "Держать корзину на диске домашней папки"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Файлы, перемещаемые в корзину с других дисков, копируются в корзину в домашней папке, поэтому на этих дисках не появляется папка .Trash-1000. Перемещение больших файлов в корзину занимает больше времени."
+
+msgid "Could not change the icon."
+msgstr "Не удалось изменить значок."
+
+msgid "Configure Sections…"
+msgstr "Настроить разделы…"
+
+msgid "Configure Sections"
+msgstr "Настройка разделов"
+
+msgid "Choose an Image"
+msgstr "Выберите изображение"
+
+msgid "Change the folder's icon"
+msgstr "Изменить значок папки"
+
+msgid "C_hoose…"
+msgstr "_Выбрать…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga собрана без FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Действия выше адресной строки в списке стоят слева от неё, остальные справа. * отмечает действия не на своём месте по умолчанию."

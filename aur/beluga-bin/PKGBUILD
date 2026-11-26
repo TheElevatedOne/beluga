@@ -20,7 +20,7 @@ conflicts=('beluga')
 options=('!debug' '!strip')
 # Release tags have no "v" prefix. Run updpkgsums after the release is published.
 source_x86_64=("$url/releases/download/$pkgver/$_pkgname-$pkgver-linux-x86_64.tar.gz")
-sha256sums_x86_64=('f306ca177a30db0d9168584ae9b4c8766452f129dec0534676713a4b96a61532')
+sha256sums_x86_64=('3027d227bb789cea6b442c2574cf5f201b368d6d81c686550745c603f7f393dc')
 
 package() {
   cd "$_pkgname-$pkgver-linux-$CARCH"

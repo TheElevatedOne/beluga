@@ -61,6 +61,12 @@ void item_set_info(BelugaItem *item, GFileInfo *info)
     GIcon *icon = g_file_info_get_icon(info);
     d.icon = Ref<GIcon>::share(icon);
     if (!icon) d.icon = Ref<GIcon>(g_themed_icon_new(d.isDir ? "folder" : "text-x-generic"));
+    // A folder's own icon (.directory, as Dolphin writes it).
+    if (d.isDir && !d.isLink && g_file_is_native(item->d->file.get())) {
+        std::string path = take(g_file_get_path(item->d->file.get()));
+        std::string own = path.empty() ? std::string() : folder_icon(path);
+        if (GIcon *gi = icon_from_string(own)) d.icon = Ref<GIcon>(gi);
+    }
     d.typeText.clear();
     d.dimsKnown = false;
     d.nameWidth = -1;

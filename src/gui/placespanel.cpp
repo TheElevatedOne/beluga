@@ -14,6 +14,9 @@
 
 namespace beluga {
 
+std::vector<PlaceSection> section_order();
+void show_sections_dialog(GtkWidget *parent);
+
 namespace {
 
 struct RowData {
@@ -158,7 +161,7 @@ void PlacesPanel::rebuild()
         GtkWidget *row = gtk_list_box_row_new();
         g_object_set_data_full(G_OBJECT(row), "beluga-row", d, [](gpointer p) { delete static_cast<RowData *>(p); });
         GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
-        GIcon *gi = g_themed_icon_new_with_default_fallbacks(icon.c_str());
+        GIcon *gi = icon_from_string(icon.empty() ? std::string("folder") : icon);   // a name or an image path
         GtkWidget *img = gtk_image_new_from_gicon(gi);
         g_object_unref(gi);
         gtk_image_set_pixel_size(GTK_IMAGE(img), iconSize);
@@ -193,22 +196,7 @@ void PlacesPanel::rebuild()
         return row;
     };
 
-    PlaceSection order[] = {PlaceSection::Places, PlaceSection::Remote, PlaceSection::Recent, PlaceSection::Search};
-    const auto &places = Places::instance().list();
-    bool trashFull = !trash::is_empty();
-    for (PlaceSection sec : order) {
-        if (hiddenSection(sec)) continue;
-        for (size_t i = 0; i < places.size(); ++i) {
-            const Place &p = places[i];
-            if (section_for_uri(p.uri) != sec) continue;
-            if (p.hidden && !s.showHiddenPlaces) continue;
-            auto *d = new RowData{"place:" + std::to_string(i), p.uri, section_title(sec), (int)i, {}};
-            std::string icon = p.icon;
-            if (is_trash_uri(p.uri)) icon = trashFull ? "user-trash-full" : "user-trash";
-            makeRow(d, p.label, icon, p.hidden, nullptr, nullptr);
-        }
-    }
-    if (!hiddenSection(PlaceSection::Devices)) {
+    auto addDevices = [&](auto &makeRow) {
         for (auto &dev : DeviceManager::instance().devices()) {
             auto *d = new RowData{"device:" + dev.id, dev.mountPath.empty() ? std::string() : uri_for_path(dev.mountPath),
                                   section_title(PlaceSection::Devices), -1, dev.id};
@@ -238,9 +226,134 @@ void PlacesPanel::rebuild()
             }
             makeRow(d, dev.label, dev.icon, false, bar, eject);
         }
+        };
+    const auto &places = Places::instance().list();
+    bool trashFull = !trash::is_empty();
+    for (PlaceSection sec : section_order()) {
+        if (hiddenSection(sec)) continue;
+        if (sec == PlaceSection::Devices) {
+            addDevices(makeRow);
+            continue;
+        }
+        for (size_t i = 0; i < places.size(); ++i) {
+            const Place &p = places[i];
+            if (section_for_uri(p.uri) != sec) continue;
+            if (p.hidden && !s.showHiddenPlaces) continue;
+            auto *d = new RowData{"place:" + std::to_string(i), p.uri, section_title(sec), (int)i, {}};
+            std::string icon = p.icon;
+            if (is_trash_uri(p.uri)) icon = trashFull ? "user-trash-full" : "user-trash";
+            makeRow(d, p.label, icon, p.hidden, nullptr, nullptr);
+        }
     }
     rebuilding_ = false;
     setCurrentUri(current_);
+}
+
+// The sections in the order the user set (Configure Sections…); any missing ones at the end.
+std::vector<PlaceSection> section_order()
+{
+    static const PlaceSection all[] = {PlaceSection::Places, PlaceSection::Remote, PlaceSection::Recent, PlaceSection::Search,
+                                       PlaceSection::Devices};
+    std::vector<PlaceSection> out;
+    for (auto &id : settings().placeSectionOrder)
+        for (PlaceSection s : all)
+            if (id == section_id(s) && std::find(out.begin(), out.end(), s) == out.end()) out.push_back(s);
+    for (PlaceSection s : all)
+        if (std::find(out.begin(), out.end(), s) == out.end()) out.push_back(s);
+    return out;
+}
+
+// Configure Sections…: which sections show, and their order.
+void show_sections_dialog(GtkWidget *parent)
+{
+    struct Ui {
+        GtkWidget *win, *list;
+        std::vector<PlaceSection> order;
+        std::vector<std::string> hidden;
+    };
+    auto *ui = new Ui{gtk_window_new(), gtk_list_box_new(), section_order(), settings().hiddenPlaceSections};
+    GtkWidget *win = ui->win;
+    g_object_set_data_full(G_OBJECT(win), "beluga-ui", ui, [](gpointer p) { delete static_cast<Ui *>(p); });
+    gtk_window_set_title(GTK_WINDOW(win), _("Configure Sections"));
+    gtk_window_set_modal(GTK_WINDOW(win), TRUE);
+    if (GtkWindow *pw = window_of(parent)) gtk_window_set_transient_for(GTK_WINDOW(win), pw);
+    gtk_window_set_default_size(GTK_WINDOW(win), 360, -1);
+    gtk_widget_add_css_class(win, "beluga-dialog");
+    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, 8);
+    for (auto side : {&gtk_widget_set_margin_start, &gtk_widget_set_margin_end, &gtk_widget_set_margin_top, &gtk_widget_set_margin_bottom})
+        (*side)(box, 12);
+    gtk_window_set_child(GTK_WINDOW(win), box);
+    GtkWidget *hint = gtk_label_new(_("Ticked sections show in the Places panel, in this order."));
+    gtk_label_set_xalign(GTK_LABEL(hint), 0);
+    gtk_widget_add_css_class(hint, "dim-label");
+    gtk_box_append(GTK_BOX(box), hint);
+    GtkWidget *row = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
+    GtkWidget *frame = gtk_frame_new(nullptr);
+    gtk_frame_set_child(GTK_FRAME(frame), ui->list);
+    gtk_widget_set_hexpand(frame, TRUE);
+    gtk_box_append(GTK_BOX(row), frame);
+    GtkWidget *moves = gtk_box_new(GTK_ORIENTATION_VERTICAL, 6);
+    gtk_widget_set_valign(moves, GTK_ALIGN_CENTER);
+    GtkWidget *upB = gtk_button_new_from_icon_name("go-up");
+    GtkWidget *downB = gtk_button_new_from_icon_name("go-down");
+    gtk_widget_set_tooltip_text(upB, _("Move Up"));
+    gtk_widget_set_tooltip_text(downB, _("Move Down"));
+    gtk_box_append(GTK_BOX(moves), upB);
+    gtk_box_append(GTK_BOX(moves), downB);
+    gtk_box_append(GTK_BOX(row), moves);
+    gtk_box_append(GTK_BOX(box), row);
+    static void (*fill)(Ui *, int) = [](Ui *ui, int select) {
+        list_box_remove_rows(GTK_LIST_BOX(ui->list));
+        for (PlaceSection s : ui->order) {
+            GtkWidget *c = gtk_check_button_new_with_label(section_title(s));
+            bool hidden = std::find(ui->hidden.begin(), ui->hidden.end(), section_id(s)) != ui->hidden.end();
+            gtk_check_button_set_active(GTK_CHECK_BUTTON(c), !hidden);
+            g_object_set_data(G_OBJECT(c), "beluga-id", (gpointer)section_id(s));
+            g_signal_connect(c, "toggled", CB([](GtkCheckButton *b, gpointer p) {
+                auto *ui = static_cast<Ui *>(p);
+                std::string id = static_cast<const char *>(g_object_get_data(G_OBJECT(b), "beluga-id"));
+                ui->hidden.erase(std::remove(ui->hidden.begin(), ui->hidden.end(), id), ui->hidden.end());
+                if (!gtk_check_button_get_active(b)) ui->hidden.push_back(id);
+            }), ui);
+            gtk_widget_set_margin_start(c, 6);
+            gtk_list_box_append(GTK_LIST_BOX(ui->list), c);
+        }
+        if (select >= 0)
+            if (GtkListBoxRow *r = gtk_list_box_get_row_at_index(GTK_LIST_BOX(ui->list), select))
+                gtk_list_box_select_row(GTK_LIST_BOX(ui->list), r);
+    };
+    fill(ui, 0);
+    auto move = [](Ui *ui, int by) {
+        GtkListBoxRow *r = gtk_list_box_get_selected_row(GTK_LIST_BOX(ui->list));
+        if (!r) return;
+        int i = gtk_list_box_row_get_index(r), j = i + by;
+        if (j < 0 || j >= (int)ui->order.size()) return;
+        std::swap(ui->order[i], ui->order[j]);
+        fill(ui, j);
+    };
+    static auto moveF = move;
+    g_signal_connect(upB, "clicked", CB([](GtkButton *, gpointer p) { moveF(static_cast<Ui *>(p), -1); }), ui);
+    g_signal_connect(downB, "clicked", CB([](GtkButton *, gpointer p) { moveF(static_cast<Ui *>(p), 1); }), ui);
+    GtkWidget *buttons = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+    gtk_widget_set_halign(buttons, GTK_ALIGN_END);
+    GtkWidget *cancel = gtk_button_new_with_mnemonic(_("_Cancel"));
+    GtkWidget *ok = gtk_button_new_with_mnemonic(_("_OK"));
+    gtk_widget_add_css_class(ok, "suggested-action");
+    gtk_box_append(GTK_BOX(buttons), cancel);
+    gtk_box_append(GTK_BOX(buttons), ok);
+    gtk_box_append(GTK_BOX(box), buttons);
+    g_signal_connect_swapped(cancel, "clicked", G_CALLBACK(gtk_window_destroy), win);
+    g_signal_connect(ok, "clicked", CB([](GtkButton *, gpointer p) {
+        auto *ui = static_cast<Ui *>(p);
+        Settings &s = settings();
+        s.placeSectionOrder.clear();
+        for (PlaceSection sec : ui->order) s.placeSectionOrder.push_back(section_id(sec));
+        s.hiddenPlaceSections = ui->hidden;
+        s.save();
+        notify_settings_changed();
+        gtk_window_destroy(GTK_WINDOW(ui->win));
+    }), ui);
+    gtk_window_present(GTK_WINDOW(win));
 }
 
 void PlacesPanel::setCurrentUri(const std::string &uri)
@@ -294,7 +407,7 @@ void PlacesPanel::showMenu(GtkListBoxRow *row, double x, double y)
     menuKey_ = d ? d->key : std::string();
     GSimpleActionGroup *group = g_simple_action_group_new();
     static const char *names[] = {"open-new-tab", "open-new-window", "edit", "remove", "hide", "show-all", "hide-section",
-                                  "add", "mount", "unmount", "eject", "empty-trash", "properties", nullptr};
+                                  "add", "mount", "unmount", "eject", "empty-trash", "properties", "sections", nullptr};
     for (int i = 0; names[i]; ++i) {
         GSimpleAction *a = g_simple_action_new(names[i], nullptr);
         g_object_set_data_full(G_OBJECT(a), "beluga-name", g_strdup(names[i]), g_free);
@@ -340,6 +453,7 @@ void PlacesPanel::showMenu(GtkListBoxRow *row, double x, double y)
     }
     GMenu *s = section();
     g_menu_append(s, _("Add Entry…"), "places.add");
+    g_menu_append(s, _("Configure Sections…"), "places.sections");
     g_menu_append(s, settings().showHiddenPlaces || !settings().hiddenPlaceSections.empty() ? _("Hide Hidden Entries") : _("Show All Entries"),
                   "places.show-all");
     // The menu hangs off the scrolled window, not the list box: GtkListBox can't remove a child that
@@ -377,6 +491,10 @@ void PlacesPanel::runRowAction(const std::string &action)
         p.icon = Places::iconForUri(p.uri);
         p.label = basename_of(display_location(p.uri));
         edit_place_dialog(root_, p, true, [](const Place &np) { Places::instance().add(np); });
+        return;
+    }
+    if (action == "sections") {
+        show_sections_dialog(root_);
         return;
     }
     if (action == "show-all") {

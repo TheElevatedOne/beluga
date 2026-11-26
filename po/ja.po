@@ -812,6 +812,9 @@ msgstr "フォルダーを選択"
 msgid "Location:"
 msgstr "場所(L):"
 
+msgid "C_hoose…"
+msgstr "選択(_H)…"
+
 msgid "Icon name:"
 msgstr "アイコン名:"
 
@@ -931,6 +934,24 @@ msgstr "すべてスキップ"
 
 msgid "Retry"
 msgstr "再試行"
+
+msgid "Choose an Icon"
+msgstr "アイコンを選択(I)"
+
+msgid "Search icons…"
+msgstr "アイコンを検索…"
+
+msgid "_Image File…"
+msgstr "画像ファイル(_I)…"
+
+msgid "_Default Icon"
+msgstr "既定のアイコン(_D)"
+
+msgid "Choose an Image"
+msgstr "画像を選択"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "ネットワークの場所には gvfs が必要です。gvfs パッケージ (Windows 共有には gvfs-smb、NFS には gvfs-nfs も) をインストールし、ログインし直してください。"
 
 msgid "This location is not a folder."
 msgstr "この場所はフォルダーではありません。"
@@ -1486,6 +1507,18 @@ msgstr "%s 空き / %s"
 msgid "Safely Remove"
 msgstr "安全に取り外す(S)"
 
+msgid "Configure Sections"
+msgstr "セクションを設定"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "チェックしたセクションがこの順序で場所パネルに表示されます。"
+
+msgid "Move Up"
+msgstr "上へ移動"
+
+msgid "Move Down"
+msgstr "下へ移動"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "デバイスをマウントできません: %s"
@@ -1513,6 +1546,9 @@ msgstr "セクションを隠す"
 
 msgid "Add Entry…"
 msgstr "エントリを追加…"
+
+msgid "Configure Sections…"
+msgstr "セクションを設定…"
 
 msgid "Hide Hidden Entries"
 msgstr "隠し項目を隠す"
@@ -2051,6 +2087,12 @@ msgstr "上限"
 msgid "percent of the disk"
 msgstr "ディスクのパーセント"
 
+msgid "Keep the trash on the home drive"
+msgstr "ごみ箱をホームのドライブに置く"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "他のドライブからごみ箱に移動したファイルはホームフォルダーのごみ箱にコピーされるため、それらのドライブに .Trash-1000 フォルダーは作られません。大きなファイルをごみ箱に移動するのに時間がかかります。"
+
 msgid "Full trash:"
 msgstr "ごみ箱がいっぱいのとき:"
 
@@ -2120,6 +2162,27 @@ msgstr ":q ウィンドウを閉じる (:q! タブについて確認しない), 
 
 msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
+
+msgid "Details:"
+msgstr "詳細:"
+
+msgid "Only files on this computer can be read."
+msgstr "読み込めるのはこのコンピューター上のファイルだけです。"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga は FFmpeg なしでビルドされています。"
+
+msgid "Reading…"
+msgstr "読み込み中…"
+
+msgid "No details found."
+msgstr "詳細は見つかりませんでした。"
+
+msgid "Change the folder's icon"
+msgstr "フォルダーのアイコンを変更"
+
+msgid "Could not change the icon."
+msgstr "アイコンを変更できません。"
 
 #, c-format
 msgid "%zu items"
@@ -2274,8 +2337,8 @@ msgstr "メニュー"
 msgid "--- separator ---"
 msgstr "--- セパレータ ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "リストで場所バーより上のアクションはその左に、それ以外は右に表示されます。"
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "リストで場所バーより上のアクションはその左に、それ以外は右に表示されます。* は既定の位置にないアクションを示します。"
 
 msgid "A_vailable actions:"
 msgstr "利用可能なアクション(_V):"

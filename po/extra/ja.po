@@ -1693,3 +1693,63 @@ msgstr "次のキーを待つ時間:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ミリ秒 (d の後の dd、g の後の gg)"
+
+msgid "_Image File…"
+msgstr "画像ファイル(_I)…"
+
+msgid "_Default Icon"
+msgstr "既定のアイコン(_D)"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "チェックしたセクションがこの順序で場所パネルに表示されます。"
+
+msgid "Search icons…"
+msgstr "アイコンを検索…"
+
+msgid "Reading…"
+msgstr "読み込み中…"
+
+msgid "Only files on this computer can be read."
+msgstr "読み込めるのはこのコンピューター上のファイルだけです。"
+
+msgid "No details found."
+msgstr "詳細は見つかりませんでした。"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "ネットワークの場所には gvfs が必要です。gvfs パッケージ (Windows 共有には gvfs-smb、NFS には gvfs-nfs も) をインストールし、ログインし直してください。"
+
+msgid "Move Up"
+msgstr "上へ移動"
+
+msgid "Move Down"
+msgstr "下へ移動"
+
+msgid "Keep the trash on the home drive"
+msgstr "ごみ箱をホームのドライブに置く"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "他のドライブからごみ箱に移動したファイルはホームフォルダーのごみ箱にコピーされるため、それらのドライブに .Trash-1000 フォルダーは作られません。大きなファイルをごみ箱に移動するのに時間がかかります。"
+
+msgid "Could not change the icon."
+msgstr "アイコンを変更できません。"
+
+msgid "Configure Sections…"
+msgstr "セクションを設定…"
+
+msgid "Configure Sections"
+msgstr "セクションを設定"
+
+msgid "Choose an Image"
+msgstr "画像を選択"
+
+msgid "Change the folder's icon"
+msgstr "フォルダーのアイコンを変更"
+
+msgid "C_hoose…"
+msgstr "選択(_H)…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga は FFmpeg なしでビルドされています。"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "リストで場所バーより上のアクションはその左に、それ以外は右に表示されます。* は既定の位置にないアクションを示します。"

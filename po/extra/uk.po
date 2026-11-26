@@ -1685,3 +1685,63 @@ msgstr "Чекати наступних клавіш:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "мс (dd після d, gg після g)"
+
+msgid "_Image File…"
+msgstr "_Файл зображення…"
+
+msgid "_Default Icon"
+msgstr "_Типова піктограма"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Позначені розділи показуються на панелі «Місця» в цьому порядку."
+
+msgid "Search icons…"
+msgstr "Шукати піктограми…"
+
+msgid "Reading…"
+msgstr "Читання…"
+
+msgid "Only files on this computer can be read."
+msgstr "Читати можна лише файли на цьому комп'ютері."
+
+msgid "No details found."
+msgstr "Подробиць не знайдено."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Для мережевих розташувань потрібен gvfs. Встановіть пакунок gvfs (і gvfs-smb для спільних тек Windows, gvfs-nfs для NFS), потім увійдіть знову."
+
+msgid "Move Up"
+msgstr "Вгору"
+
+msgid "Move Down"
+msgstr "Вниз"
+
+msgid "Keep the trash on the home drive"
+msgstr "Тримати смітник на диску домашньої теки"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Файли, що переносяться до смітника з інших дисків, копіюються до смітника в домашній теці, тож на цих дисках не з'являється тека .Trash-1000. Перенесення великих файлів до смітника займає більше часу."
+
+msgid "Could not change the icon."
+msgstr "Не вдалося змінити піктограму."
+
+msgid "Configure Sections…"
+msgstr "Налаштувати розділи…"
+
+msgid "Configure Sections"
+msgstr "Налаштування розділів"
+
+msgid "Choose an Image"
+msgstr "Виберіть зображення"
+
+msgid "Change the folder's icon"
+msgstr "Змінити піктограму теки"
+
+msgid "C_hoose…"
+msgstr "_Вибрати…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga зібрано без FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Дії над панеллю адреси у списку стоять ліворуч від неї, інші праворуч. * позначає дії не на своєму типовому місці."

@@ -87,6 +87,11 @@ std::string file_uri(GFile *f);
 std::string display_location(GFile *f);               // path for local files, URI otherwise
 std::string display_location(const std::string &uri);
 GFile *file_for_input(const std::string &text, GFile *base); // ~, relative, URIs
+// A folder's own icon from its .directory file (Dolphin's [Desktop Entry] Icon=): an icon name or an image path;
+// empty when it has none. set_folder_icon writes it (empty removes it).
+std::string folder_icon(const std::string &dirPath);
+bool set_folder_icon(const std::string &dirPath, const std::string &icon, GError **err);
+GIcon *icon_from_string(const std::string &icon);
 
 // "name.tar.gz" -> {"name", ".tar.gz"}; folders have no extension.
 std::pair<std::string, std::string> split_extension(const std::string &name, bool isDir = false);

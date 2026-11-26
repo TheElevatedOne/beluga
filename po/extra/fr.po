@@ -1661,3 +1661,63 @@ msgstr "Attendre d'autres touches :"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ms (dd après d, gg après g)"
+
+msgid "_Image File…"
+msgstr "_Fichier image…"
+
+msgid "_Default Icon"
+msgstr "Icône par _défaut"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Les sections cochées s'affichent dans le panneau Emplacements, dans cet ordre."
+
+msgid "Search icons…"
+msgstr "Rechercher des icônes…"
+
+msgid "Reading…"
+msgstr "Lecture…"
+
+msgid "Only files on this computer can be read."
+msgstr "Seuls les fichiers de cet ordinateur peuvent être lus."
+
+msgid "No details found."
+msgstr "Aucun détail trouvé."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Les emplacements réseau nécessitent gvfs. Installez le paquet gvfs (et gvfs-smb pour les partages Windows, gvfs-nfs pour NFS), puis reconnectez-vous."
+
+msgid "Move Up"
+msgstr "Monter"
+
+msgid "Move Down"
+msgstr "Descendre"
+
+msgid "Keep the trash on the home drive"
+msgstr "Garder la corbeille sur le disque du dossier personnel"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Les fichiers mis à la corbeille depuis d'autres disques sont copiés dans la corbeille du dossier personnel, ces disques n'ont donc pas de dossier .Trash-1000. Mettre de gros fichiers à la corbeille prend alors plus de temps."
+
+msgid "Could not change the icon."
+msgstr "Impossible de changer l'icône."
+
+msgid "Configure Sections…"
+msgstr "Configurer les sections…"
+
+msgid "Configure Sections"
+msgstr "Configurer les sections"
+
+msgid "Choose an Image"
+msgstr "Choisir une image"
+
+msgid "Change the folder's icon"
+msgstr "Changer l'icône du dossier"
+
+msgid "C_hoose…"
+msgstr "_Choisir…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga a été compilé sans FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Les actions au-dessus de la barre d'emplacement dans la liste se placent à sa gauche, les autres à sa droite. * marque les actions qui ne sont pas à leur place par défaut."

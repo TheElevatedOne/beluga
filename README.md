@@ -58,7 +58,10 @@ limits, places) live in Beluga's own preferences.
   run in worker threads with a progress button in the tool bar, conflict dialogs (skip, overwrite, rename, write
   into) and undo/redo.
 - **Trash without gvfs**: browse, restore and empty the freedesktop.org trash, including trash folders on other
-  drives. Optional age and size limits.
+  drives. Optional age and size limits, and **Keep the trash on the home drive** so other drives get no
+  `.Trash-1000` folder.
+- **Folder icons**: pick an icon or an image for a folder in its Properties (saved in `.directory`, as Dolphin
+  does); Beluga shows the icons `.directory` files set.
 - **Archives as folders**: zip, tar (`.tar.gz`, `.tar.xz`, `.tar.zst`, …), 7z, rar and ISO images can be browsed
   like folders, through libarchive and without gvfs or Ark. By default a double-click opens an archive in its
   program (Ark, File Roller, …) and **Open in Beluga** in its context menu browses it; with **Configure Beluga →
@@ -108,7 +111,7 @@ limits, places) live in Beluga's own preferences.
   the folder in a Beluga view, name, file types and the program's own options. See
   [Beluga as the file chooser](#beluga-as-the-file-chooser).
 - **Translations**: 63 languages. Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
-  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (784 of 785 messages). The other 50 have
+  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (805 of 806 messages). The other 50 have
   24–46% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
   is shown in English.
 - **Vim mode** (off by default): h j k l, counts, three visual modes (each item the cursor passes, a range, a block

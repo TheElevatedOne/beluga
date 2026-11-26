@@ -42,9 +42,10 @@ beluga-view .beluga-item .name-cell:drop(active) {
   background-color: mix(@beluga_view_bg, @beluga_accent_bg, 0.4);
   box-shadow: inset 0 0 0 1px @beluga_accent_bg;
 }
-beluga-view .beluga-item.cut .item-icon,
 beluga-view .beluga-item.hidden-item .item-icon { opacity: 0.55; }
-beluga-view .beluga-item.cut label { opacity: 0.7; }
+/* Cut items: fainter than hidden ones, and in italics, so a cut hidden file still looks cut. */
+beluga-view .beluga-item.cut .item-icon { opacity: 0.3; }
+beluga-view .beluga-item.cut label { opacity: 0.6; font-style: italic; }
 beluga-view .beluga-item .selection-toggle { margin: 0; padding: 0; }
 beluga-view rubberband, beluga-view .rubberband {
   background-color: alpha(@beluga_accent_bg, 0.22);
@@ -87,6 +88,8 @@ popover.menu modelbutton:selected {
 }
 popover.menu modelbutton:disabled { color: mix(@beluga_popover_bg, @beluga_popover_fg, 0.5); }
 popover.menu separator { margin: 2px 0; }
+popover.menu button.beluga-menu-row { min-height: 20px; padding: 2px 12px; font-weight: normal; }
+popover.menu button.beluga-menu-row:hover { background-color: mix(@beluga_popover_bg, @beluga_popover_fg, 0.12); }
 /* Configure Beluga, laid out like Dolphin's settings. */
 .beluga-prefs-title { font-size: 1.35em; padding: 8px 14px 6px 14px; }
 .beluga-prefs-buttons { padding: 6px; }
@@ -176,8 +179,10 @@ popover.menu separator { margin: 2px 0; }
 .beluga-places .places-header { font-weight: bold; font-size: 0.9em; padding: 8px 8px 2px 8px; }
 .beluga-places levelbar.places-usage trough { min-height: 3px; }
 .beluga-places levelbar.places-usage block { min-height: 3px; }
-notebook > header.top { padding: 0; }
-notebook tab { padding: 2px 6px; min-height: 0; }
+notebook > header.top { padding: 3px 3px 0 3px; }
+notebook > header > tabs > tab { padding: 3px 6px; margin: 0 3px 0 0; min-height: 0; }
+/* The dividers between the panels and the views, visible in dark themes too. */
+paned > separator { background-color: mix(@beluga_window_bg, @beluga_window_fg, 0.28); min-width: 1px; min-height: 1px; }
 notebook tab button.tab-close { padding: 0; min-height: 16px; min-width: 16px; }
 .beluga-job progressbar trough, .beluga-jobs progressbar trough { min-height: 6px; }
 .beluga-jobs progressbar progress { min-height: 6px; }

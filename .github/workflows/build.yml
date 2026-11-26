@@ -1,4 +1,5 @@
-# Builds Beluga on Arch Linux and runs its self-test on GTK's offscreen Broadway backend.
+# Builds Beluga on Arch Linux and runs its self-test on a virtual X server (Xvfb). gtk4-broadwayd crashed
+# (decode_nodes assertion) on some of the self-test's windows.
 # Pushing a tag such as 0.1.0 also publishes a GitHub release with the x86_64 tarball, which the
 # beluga-bin AUR package downloads. The release notes are the tag's section in CHANGELOG.md.
 name: Build
@@ -22,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           pacman -Syu --noconfirm --needed git cmake ninja gtk4 libarchive ffmpeg gettext desktop-file-utils appstream \
-            dbus adwaita-icon-theme
+            dbus adwaita-icon-theme xorg-server-xvfb xorg-xauth
 
       - uses: actions/checkout@v5
 
@@ -50,8 +51,8 @@ jobs:
           for po in po/*.po; do msgfmt -c -o /dev/null "$po"; done
           useradd -m tester
           chown -R tester build
-          su tester -c 'gtk4-broadwayd :5 & sleep 2; GDK_BACKEND=broadway BROADWAY_DISPLAY=:5 GDK_DEBUG=no-portals \
-            dbus-run-session -- timeout 300 ./build/beluga --selftest'
+          su tester -c 'xvfb-run -a -s "-screen 0 1600x1000x24" env GDK_BACKEND=x11 GDK_DEBUG=no-portals GTK_A11Y=none \
+            NO_AT_BRIDGE=1 GTK_USE_PORTAL=0 dbus-run-session -- timeout 300 ./build/beluga --selftest'
 
       - name: Package
         run: packaging/make-release-tarball.sh build "${{ steps.version.outputs.version }}" x86_64

@@ -5,6 +5,7 @@
 #include "settings.hpp"
 #include "undo.hpp"
 
+#include <algorithm>
 #include <memory>
 
 namespace beluga {
@@ -268,9 +269,62 @@ void show_rename_dialog(GtkWidget *parent, const std::vector<BelugaItem *> &item
 
 // ---- popups -----------------------------------------------------------------------------------
 
+namespace {
+struct IconItem {
+    std::string id, label, action;
+    GVariant *target;   // owned
+    GIcon *icon;        // owned
+};
+std::vector<IconItem> &pending_icon_items()
+{
+    static std::vector<IconItem> v;
+    return v;
+}
+} // namespace
+
+void menu_icon_item(GMenu *menu, const std::string &label, const char *action, GVariant *target, GIcon *icon)
+{
+    auto &v = pending_icon_items();
+    std::string id = printf_str("beluga-icon-%zu", v.size());
+    GMenuItem *mi = g_menu_item_new(label.c_str(), nullptr);
+    g_menu_item_set_attribute(mi, "custom", "s", id.c_str());
+    g_menu_append_item(menu, mi);
+    g_object_unref(mi);
+    v.push_back({id, label, action, target ? g_variant_ref_sink(target) : nullptr, icon ? G_ICON(g_object_ref(icon)) : nullptr});
+}
+
 void popup_menu(GtkWidget *widget, GMenuModel *model, double x, double y)
 {
     GtkWidget *pop = gtk_popover_menu_new_from_model_full(model, GTK_POPOVER_MENU_NESTED);
+    // Entries with icons (menu_icon_item): a flat button with the icon and the label, running the action.
+    for (IconItem &it : pending_icon_items()) {
+        GtkWidget *b = gtk_button_new();
+        gtk_widget_add_css_class(b, "flat");
+        gtk_widget_add_css_class(b, "beluga-menu-row");
+        GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
+        GtkWidget *img = it.icon ? gtk_image_new_from_gicon(it.icon) : gtk_image_new();
+        gtk_image_set_pixel_size(GTK_IMAGE(img), 16);
+        gtk_box_append(GTK_BOX(box), img);
+        GtkWidget *l = gtk_label_new(it.label.c_str());
+        gtk_label_set_xalign(GTK_LABEL(l), 0);
+        gtk_widget_set_hexpand(l, TRUE);
+        gtk_box_append(GTK_BOX(box), l);
+        gtk_button_set_child(GTK_BUTTON(b), box);
+        g_object_set_data_full(G_OBJECT(b), "beluga-action", g_strdup(it.action.c_str()), g_free);
+        if (it.target) g_object_set_data_full(G_OBJECT(b), "beluga-target", g_variant_ref(it.target), (GDestroyNotify)g_variant_unref);
+        g_signal_connect(b, "clicked", CB([](GtkButton *btn) {
+            auto *action = static_cast<const char *>(g_object_get_data(G_OBJECT(btn), "beluga-action"));
+            auto *target = static_cast<GVariant *>(g_object_get_data(G_OBJECT(btn), "beluga-target"));
+            std::string name = action;
+            GtkWidget *popover = gtk_widget_get_ancestor(GTK_WIDGET(btn), GTK_TYPE_POPOVER);
+            gtk_widget_activate_action_variant(GTK_WIDGET(btn), name.c_str(), target);
+            if (popover) gtk_popover_popdown(GTK_POPOVER(popover));
+        }), nullptr);
+        gtk_popover_menu_add_child(GTK_POPOVER_MENU(pop), b, it.id.c_str());
+        if (it.target) g_variant_unref(it.target);
+        if (it.icon) g_object_unref(it.icon);
+    }
+    pending_icon_items().clear();
     gtk_widget_set_parent(pop, widget);
     gtk_popover_set_has_arrow(GTK_POPOVER(pop), FALSE);
     gtk_widget_set_halign(pop, GTK_ALIGN_START);
@@ -385,10 +439,20 @@ void edit_place_dialog(GtkWidget *parent, const Place &initial, bool isNew, std:
     gtk_image_set_pixel_size(GTK_IMAGE(preview), 22);
     gtk_box_append(GTK_BOX(iconRow), preview);
     gtk_box_append(GTK_BOX(iconRow), icon);
+    GtkWidget *pick = gtk_button_new_with_mnemonic(_("C_hoose…"));
+    g_signal_connect(pick, "clicked", CB([](GtkButton *b, gpointer entry) {
+        Ref<GtkWidget> keep = Ref<GtkWidget>::share(GTK_WIDGET(entry));
+        choose_icon(GTK_WIDGET(b), gtk_editable_get_text(GTK_EDITABLE(entry)), [keep](const std::string &icon) {
+            gtk_editable_set_text(GTK_EDITABLE(keep.get()), icon.c_str());
+        });
+    }), icon);
+    gtk_box_append(GTK_BOX(iconRow), pick);
     addRow(2, _("Icon name:"), iconRow);
     gtk_box_append(GTK_BOX(p.content), grid);
     g_signal_connect(icon, "changed", CB([](GtkEditable *e, gpointer img) {
-        gtk_image_set_from_icon_name(GTK_IMAGE(img), gtk_editable_get_text(e));
+        GIcon *gi = icon_from_string(gtk_editable_get_text(e));
+        gtk_image_set_from_gicon(GTK_IMAGE(img), gi);
+        if (gi) g_object_unref(gi);
     }), preview);
     g_signal_connect(browse, "clicked", CB([](GtkButton *b, gpointer entry) {
         GtkFileDialog *fd = gtk_file_dialog_new();
@@ -647,6 +711,137 @@ void GtkJobUi::error(FileJob &job, const std::string &message, bool canSkip, std
     ask(parent ? GTK_WIDGET(parent) : nullptr, job.title(), message, buttons, canSkip ? 1 : 0, 0, [reply, map](int r) {
         reply(r >= 0 && r < (int)map.size() ? map[r] : ErrorChoice::Cancel);
     });
+}
+
+void choose_icon(GtkWidget *parent, const std::string &current, std::function<void(const std::string &)> done)
+{
+    struct Ui {
+        GtkWidget *win, *grid, *search;
+        GtkSingleSelection *sel;
+        GtkStringFilter *filter;
+        std::function<void(const std::string &)> done;
+    };
+    auto *ui = new Ui{};
+    ui->done = std::move(done);
+    GtkWidget *win = gtk_window_new();
+    ui->win = win;
+    g_object_set_data_full(G_OBJECT(win), "beluga-ui", ui, [](gpointer p) { delete static_cast<Ui *>(p); });
+    gtk_window_set_title(GTK_WINDOW(win), _("Choose an Icon"));
+    gtk_window_set_modal(GTK_WINDOW(win), TRUE);
+    if (GtkWindow *pw = window_of(parent)) gtk_window_set_transient_for(GTK_WINDOW(win), pw);
+    gtk_window_set_default_size(GTK_WINDOW(win), 640, 520);
+    gtk_widget_add_css_class(win, "beluga-dialog");
+    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_VERTICAL, 8);
+    gtk_widget_set_margin_start(box, 12);
+    gtk_widget_set_margin_end(box, 12);
+    gtk_widget_set_margin_top(box, 12);
+    gtk_widget_set_margin_bottom(box, 12);
+    gtk_window_set_child(GTK_WINDOW(win), box);
+    ui->search = gtk_search_entry_new();
+    g_object_set(ui->search, "placeholder-text", _("Search icons…"), nullptr);
+    gtk_box_append(GTK_BOX(box), ui->search);
+
+    // The theme's icons, coloured ones first (symbolic ones are for buttons).
+    GtkIconTheme *theme = gtk_icon_theme_get_for_display(gtk_widget_get_display(win));
+    char **names = gtk_icon_theme_get_icon_names(theme);
+    std::vector<std::string> list;
+    for (char **n = names; n && *n; ++n)
+        if (!g_str_has_suffix(*n, "-symbolic")) list.push_back(*n);
+    g_strfreev(names);
+    std::sort(list.begin(), list.end());
+    GtkStringList *model = gtk_string_list_new(nullptr);
+    for (auto &n : list) gtk_string_list_append(model, n.c_str());
+    ui->filter = gtk_string_filter_new(gtk_property_expression_new(GTK_TYPE_STRING_OBJECT, nullptr, "string"));
+    gtk_string_filter_set_match_mode(ui->filter, GTK_STRING_FILTER_MATCH_MODE_SUBSTRING);
+    GtkFilterListModel *filtered = gtk_filter_list_model_new(G_LIST_MODEL(model), GTK_FILTER(g_object_ref(ui->filter)));
+    ui->sel = gtk_single_selection_new(G_LIST_MODEL(filtered));
+    gtk_single_selection_set_autoselect(ui->sel, FALSE);
+    gtk_single_selection_set_can_unselect(ui->sel, TRUE);
+    gtk_selection_model_unselect_all(GTK_SELECTION_MODEL(ui->sel));
+    GtkListItemFactory *f = gtk_signal_list_item_factory_new();
+    g_signal_connect(f, "setup", CB([](GtkSignalListItemFactory *, GtkListItem *li) {
+        GtkWidget *b = gtk_box_new(GTK_ORIENTATION_VERTICAL, 4);
+        GtkWidget *img = gtk_image_new();
+        gtk_image_set_pixel_size(GTK_IMAGE(img), 48);
+        gtk_box_append(GTK_BOX(b), img);
+        GtkWidget *l = gtk_label_new(nullptr);
+        gtk_label_set_ellipsize(GTK_LABEL(l), PANGO_ELLIPSIZE_MIDDLE);
+        gtk_label_set_max_width_chars(GTK_LABEL(l), 12);
+        gtk_widget_add_css_class(l, "caption");
+        gtk_box_append(GTK_BOX(b), l);
+        gtk_list_item_set_child(li, b);
+    }), nullptr);
+    g_signal_connect(f, "bind", CB([](GtkSignalListItemFactory *, GtkListItem *li) {
+        const char *name = gtk_string_object_get_string(GTK_STRING_OBJECT(gtk_list_item_get_item(li)));
+        GtkWidget *b = gtk_list_item_get_child(li);
+        gtk_image_set_from_icon_name(GTK_IMAGE(gtk_widget_get_first_child(b)), name);
+        gtk_label_set_text(GTK_LABEL(gtk_widget_get_last_child(b)), name);
+        gtk_widget_set_tooltip_text(b, name);
+    }), nullptr);
+    ui->grid = gtk_grid_view_new(GTK_SELECTION_MODEL(ui->sel), f);
+    gtk_grid_view_set_max_columns(GTK_GRID_VIEW(ui->grid), 12);
+    GtkWidget *scroll = gtk_scrolled_window_new();
+    gtk_scrolled_window_set_child(GTK_SCROLLED_WINDOW(scroll), ui->grid);
+    gtk_widget_set_vexpand(scroll, TRUE);
+    gtk_box_append(GTK_BOX(box), scroll);
+    g_signal_connect(ui->search, "search-changed", CB([](GtkSearchEntry *e, gpointer p) {
+        gtk_string_filter_set_search(static_cast<Ui *>(p)->filter, gtk_editable_get_text(GTK_EDITABLE(e)));
+    }), ui);
+    if (!current.empty() && current[0] != '/') gtk_editable_set_text(GTK_EDITABLE(ui->search), current.c_str());
+
+    auto finish = [](Ui *ui, const std::string &icon) {
+        auto done = ui->done;
+        gtk_window_destroy(GTK_WINDOW(ui->win));
+        done(icon);
+    };
+    static auto finishF = finish;
+    g_signal_connect(ui->grid, "activate", CB([](GtkGridView *, guint, gpointer p) {
+        auto *ui = static_cast<Ui *>(p);
+        if (gpointer it = gtk_single_selection_get_selected_item(ui->sel))
+            finishF(ui, gtk_string_object_get_string(GTK_STRING_OBJECT(it)));
+    }), ui);
+
+    GtkWidget *buttons = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+    GtkWidget *browse = gtk_button_new_with_mnemonic(_("_Image File…"));
+    GtkWidget *reset = gtk_button_new_with_mnemonic(_("_Default Icon"));
+    GtkWidget *spacer = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+    gtk_widget_set_hexpand(spacer, TRUE);
+    GtkWidget *cancel = gtk_button_new_with_mnemonic(_("_Cancel"));
+    GtkWidget *ok = gtk_button_new_with_mnemonic(_("_OK"));
+    gtk_widget_add_css_class(ok, "suggested-action");
+    for (GtkWidget *b : {browse, reset, spacer, cancel, ok}) gtk_box_append(GTK_BOX(buttons), b);
+    gtk_box_append(GTK_BOX(box), buttons);
+    g_signal_connect_swapped(cancel, "clicked", G_CALLBACK(gtk_window_destroy), win);
+    g_signal_connect(reset, "clicked", CB([](GtkButton *, gpointer p) { finishF(static_cast<Ui *>(p), ""); }), ui);
+    g_signal_connect(ok, "clicked", CB([](GtkButton *, gpointer p) {
+        auto *ui = static_cast<Ui *>(p);
+        if (gpointer it = gtk_single_selection_get_selected_item(ui->sel))
+            finishF(ui, gtk_string_object_get_string(GTK_STRING_OBJECT(it)));
+    }), ui);
+    g_signal_connect(browse, "clicked", CB([](GtkButton *, gpointer p) {
+        auto *ui = static_cast<Ui *>(p);
+        GtkFileDialog *fd = gtk_file_dialog_new();
+        gtk_file_dialog_set_title(fd, _("Choose an Image"));
+        GtkFileFilter *images = gtk_file_filter_new();
+        gtk_file_filter_set_name(images, _("Images"));
+        gtk_file_filter_add_mime_type(images, "image/*");
+        GListStore *filters = g_list_store_new(GTK_TYPE_FILE_FILTER);
+        g_list_store_append(filters, images);
+        gtk_file_dialog_set_filters(fd, G_LIST_MODEL(filters));
+        g_object_unref(filters);
+        g_object_unref(images);
+        Ref<GtkWidget> keep = Ref<GtkWidget>::share(ui->win);
+        gtk_file_dialog_open(fd, GTK_WINDOW(ui->win), nullptr, [](GObject *src, GAsyncResult *res, gpointer p) {
+            auto *keep = static_cast<GtkWidget *>(p);
+            GFile *file = gtk_file_dialog_open_finish(GTK_FILE_DIALOG(src), res, nullptr);
+            auto *ui = static_cast<Ui *>(g_object_get_data(G_OBJECT(keep), "beluga-ui"));
+            if (file && ui) finishF(ui, take(g_file_get_path(file)));
+            if (file) g_object_unref(file);
+            g_object_unref(keep);
+        }, g_object_ref(ui->win));
+        g_object_unref(fd);
+    }), ui);
+    gtk_window_present(GTK_WINDOW(win));
 }
 
 } // namespace beluga

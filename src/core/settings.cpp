@@ -175,6 +175,7 @@ void transfer(IO &io, ST &st)
 
     const char *T = "Trash";
     io.b(T, "UseTimeLimit", st.trashUseTimeLimit);
+    io.b(T, "HomeOnly", st.trashHomeOnly);
     io.i(T, "Days", st.trashDays);
     io.b(T, "UseSizeLimit", st.trashUseSizeLimit);
     io.d(T, "Percent", st.trashPercent);
@@ -186,6 +187,7 @@ void transfer(IO &io, ST &st)
     io.b(PN, "Information", st.infoPanel);
     io.i(PN, "PlacesIconSize", st.placesIconSize);
     io.l(PN, "HiddenPlaceSections", st.hiddenPlaceSections);
+    io.l(PN, "SectionOrder", st.placeSectionOrder);
     io.b(PN, "ShowHiddenPlaces", st.showHiddenPlaces);
     io.b(PN, "FoldersHiddenShown", st.foldersHiddenShown);
     io.b(PN, "FoldersLimitToHome", st.foldersLimitToHome);

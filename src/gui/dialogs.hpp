@@ -32,6 +32,12 @@ void view_properties_dialog(GtkWidget *parent, const std::string &uri, const Vie
                             std::function<void(const ViewProps &, int scope)> cb);   // scope 0 folder, 1 subfolders, 2 all
 // Pops up a GMenuModel at a point of a widget.
 void popup_menu(GtkWidget *widget, GMenuModel *model, double x, double y);
+// Picks an icon: one of the icon theme's (searchable) or an image file. done gets an icon name or a path, or "" for
+// the default icon; it isn't called when cancelled.
+void choose_icon(GtkWidget *parent, const std::string &current, std::function<void(const std::string &)> done);
+// A menu entry drawn with its icon (GTK shows icons only on entries without a label). Put it in a menu with
+// menu_icon_item(); the next popup_menu() turns it into a row with the icon and the label.
+void menu_icon_item(GMenu *menu, const std::string &label, const char *action, GVariant *target, GIcon *icon);
 
 // The GUI side of file operations: conflict and error questions.
 class GtkJobUi : public JobUi {

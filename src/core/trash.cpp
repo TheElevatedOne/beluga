@@ -160,6 +160,31 @@ bool is_in_trash(const std::string &path)
     return false;
 }
 
+// Copies a file, a link or a whole folder (with permissions and times).
+static bool copy_tree(GFile *src, GFile *dst, GError **err)
+{
+    GFileInfo *info = g_file_query_info(src, "standard::type,standard::name", G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, err);
+    if (!info) return false;
+    bool dir = g_file_info_get_file_type(info) == G_FILE_TYPE_DIRECTORY;
+    g_object_unref(info);
+    if (!dir) return g_file_copy(src, dst, GFileCopyFlags(G_FILE_COPY_NOFOLLOW_SYMLINKS | G_FILE_COPY_ALL_METADATA), nullptr, nullptr, nullptr, err);
+    if (!g_file_make_directory(dst, nullptr, err)) return false;
+    GFileEnumerator *en = g_file_enumerate_children(src, "standard::name", G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, nullptr, err);
+    if (!en) return false;
+    bool ok = true;
+    while (GFileInfo *ci = g_file_enumerator_next_file(en, nullptr, err)) {
+        GFile *a = g_file_get_child(src, g_file_info_get_name(ci)), *b = g_file_get_child(dst, g_file_info_get_name(ci));
+        ok = copy_tree(a, b, err);
+        g_object_unref(a);
+        g_object_unref(b);
+        g_object_unref(ci);
+        if (!ok) break;
+    }
+    g_object_unref(en);
+    if (ok) g_file_copy_attributes(src, dst, G_FILE_COPY_ALL_METADATA, nullptr, nullptr);
+    return ok && !(err && *err);
+}
+
 bool trash_file(GFile *file, Entry *out, GError **err)
 {
     char *p = g_file_get_path(file);
@@ -178,7 +203,10 @@ bool trash_file(GFile *file, Entry *out, GError **err)
     g_mkdir_with_parents((trashDir + "/info").c_str(), 0700);
     bool relative = false;
     std::string topdir;
-    if (stat(trashDir.c_str(), &ht) != 0 || ht.st_dev != st.st_dev) {
+    // Another drive: its own trash folder (.Trash-UID at its top), unless the trash is to stay on the home drive.
+    bool otherDrive = stat(trashDir.c_str(), &ht) != 0 || ht.st_dev != st.st_dev;
+    bool copyHome = otherDrive && settings().trashHomeOnly;
+    if (otherDrive && !copyHome) {
         topdir = topdir_of(path);
         trashDir = topdir_trash(topdir, true);
         relative = true;
@@ -218,7 +246,21 @@ bool trash_file(GFile *file, Entry *out, GError **err)
     bool wrote = write(fd, content.data(), content.size()) == (ssize_t)content.size();
     close(fd);
     std::string dest = trashDir + "/files/" + name;
-    if (!wrote || g_rename(path.c_str(), dest.c_str()) != 0) {
+    if (wrote && copyHome) {
+        // Across drives: copy into the home trash, then remove the original.
+        GError *e = nullptr;
+        Ref<GFile> src(g_file_new_for_path(path.c_str())), dst(g_file_new_for_path(dest.c_str()));
+        if (!copy_tree(src.get(), dst.get(), &e) || !delete_recursive(src.get(), nullptr, &e)) {
+            g_unlink(infoFile.c_str());
+            if (!g_file_query_exists(src.get(), nullptr)) {   // copied, original gone: keep the trashed copy
+                g_clear_error(&e);
+            } else {
+                delete_recursive(dst.get(), nullptr, nullptr);
+                g_propagate_error(err, e);
+                return false;
+            }
+        }
+    } else if (!wrote || g_rename(path.c_str(), dest.c_str()) != 0) {
         int e = errno;
         g_unlink(infoFile.c_str());
         g_set_error(err, G_IO_ERROR, g_io_error_from_errno(e), "%s", g_strerror(e));

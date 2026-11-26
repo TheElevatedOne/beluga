@@ -28,7 +28,7 @@ struct Settings {
     std::string homeUrl;                 // start location (URI)
     bool rememberOpenedTabs = true;
     bool splitView = false;
-    bool filterBar = true;
+    bool filterBar = false;
     bool editableUrl = false;
     bool showFullPath = true;
     bool showFullPathInTitlebar = false;
@@ -46,7 +46,7 @@ struct Settings {
     bool duOneFileSystem = true;
     bool searchIndex = true;   // keep an index of the home folder's names for instant search
     bool renameInline = true;
-    bool showSelectionToggle = true;
+    bool showSelectionToggle = false;   // the check boxes on items (off, as in Dolphin)
     bool showPasteBarAfterCopying = true;
     bool showToolTips = false;
     bool autoExpandFolders = false;      // open folders while dragging over them
@@ -120,6 +120,7 @@ struct Settings {
 
     // ---- Trash (was the KDE trash KCM)
     bool trashUseTimeLimit = false;
+    bool trashHomeOnly = false;          // files on other drives go to the home trash too (copied), no .Trash-UID there
     int trashDays = 7;
     bool trashUseSizeLimit = false;
     double trashPercent = 10.0;
@@ -131,6 +132,7 @@ struct Settings {
     bool infoPanel = false;
     int placesIconSize = 22;
     std::vector<std::string> hiddenPlaceSections;
+    std::vector<std::string> placeSectionOrder = {"places", "remote", "recent", "search", "devices"};
     bool showHiddenPlaces = false;
     bool foldersHiddenShown = true;
     bool foldersLimitToHome = true;

@@ -212,7 +212,14 @@ void DirLister::startFolder(bool mountTried)
             }
             if (!info) {
                 self->stop();
-                if (self->onError) self->onError(err->message);
+                // Without gvfs, GIO has no sftp://, ftp://, smb:// …: say what to install.
+                bool remote = !g_file_is_native(G_FILE(src)) && !g_file_has_uri_scheme(G_FILE(src), "trash")
+                              && !g_file_has_uri_scheme(G_FILE(src), "recent");
+                std::string msg = err->message;
+                if (remote && g_error_matches(err, G_IO_ERROR, G_IO_ERROR_NOT_SUPPORTED))
+                    msg = _("Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, "
+                            "gvfs-nfs for NFS), then log out and back in.");
+                if (self->onError) self->onError(msg);
                 g_error_free(err);
                 delete op;
                 return;

@@ -816,6 +816,9 @@ msgstr "Escolha uma pasta"
 msgid "Location:"
 msgstr "Localização:"
 
+msgid "C_hoose…"
+msgstr "_Escolher…"
+
 msgid "Icon name:"
 msgstr "Nome do ícone:"
 
@@ -935,6 +938,24 @@ msgstr "Ignorar tudo"
 
 msgid "Retry"
 msgstr "Repetir"
+
+msgid "Choose an Icon"
+msgstr "Escolha um ícone"
+
+msgid "Search icons…"
+msgstr "Pesquisar ícones…"
+
+msgid "_Image File…"
+msgstr "Arquivo de _imagem…"
+
+msgid "_Default Icon"
+msgstr "Ícone _padrão"
+
+msgid "Choose an Image"
+msgstr "Escolha uma imagem"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Locais de rede precisam do gvfs. Instale o pacote gvfs (e gvfs-smb para compartilhamentos do Windows, gvfs-nfs para NFS) e entre novamente na sessão."
 
 msgid "This location is not a folder."
 msgstr "Este local não é uma pasta."
@@ -1494,6 +1515,18 @@ msgstr "%s livres de %s"
 msgid "Safely Remove"
 msgstr "Remover com segurança"
 
+msgid "Configure Sections"
+msgstr "Configurar seções"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "As seções marcadas aparecem no painel Locais, nesta ordem."
+
+msgid "Move Up"
+msgstr "Mover para cima"
+
+msgid "Move Down"
+msgstr "Mover para baixo"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Não foi possível montar o dispositivo: %s"
@@ -1521,6 +1554,9 @@ msgstr "Ocultar seção"
 
 msgid "Add Entry…"
 msgstr "Adicionar entrada…"
+
+msgid "Configure Sections…"
+msgstr "Configurar seções…"
 
 msgid "Hide Hidden Entries"
 msgstr "Ocultar entradas ocultas"
@@ -2059,6 +2095,12 @@ msgstr "Limitar a"
 msgid "percent of the disk"
 msgstr "por cento do disco"
 
+msgid "Keep the trash on the home drive"
+msgstr "Manter a lixeira na unidade da pasta pessoal"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Arquivos movidos para a lixeira a partir de outras unidades são copiados para a lixeira da pasta pessoal, então essas unidades não ganham a pasta .Trash-1000. Mover arquivos grandes para a lixeira demora mais."
+
 msgid "Full trash:"
 msgstr "Lixeira cheia:"
 
@@ -2128,6 +2170,27 @@ msgstr ":q fecha a janela (:q! sem perguntar sobre as abas), :qa sai do Beluga, 
 
 msgid "Keyboard Shortcuts"
 msgstr "Atalhos de teclado"
+
+msgid "Details:"
+msgstr "Detalhes:"
+
+msgid "Only files on this computer can be read."
+msgstr "Só é possível ler arquivos deste computador."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "O Beluga foi compilado sem FFmpeg."
+
+msgid "Reading…"
+msgstr "Lendo…"
+
+msgid "No details found."
+msgstr "Nenhum detalhe encontrado."
+
+msgid "Change the folder's icon"
+msgstr "Alterar o ícone da pasta"
+
+msgid "Could not change the icon."
+msgstr "Não foi possível alterar o ícone."
 
 #, c-format
 msgid "%zu items"
@@ -2283,8 +2346,8 @@ msgstr "Menu"
 msgid "--- separator ---"
 msgstr "--- separador ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "As ações acima da barra de endereço na lista ficam à esquerda dela, as outras à direita."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "As ações acima da barra de endereço na lista ficam à esquerda dela, as outras à direita. * marca as ações que não estão na posição padrão."
 
 msgid "A_vailable actions:"
 msgstr "Ações _disponíveis:"

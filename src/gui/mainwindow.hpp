@@ -130,6 +130,8 @@ private:
     std::vector<std::string> toolbarItems_;   // what the tool bar was built from
     GMenuModel *mainMenuModel_ = nullptr, *viewMenuModel_ = nullptr, *sortMenuModel_ = nullptr;
     GtkWidget *locSlot_ = nullptr;   // the active tab's location bars, in the tool bar
+    GtkWidget *plusPage_ = nullptr;  // the last notebook page: its tab is New Tab
+    bool removingTab_ = false;
 public:
     int tabsWidth_ = 0;              // the notebook's width, from the probe over it
 private:

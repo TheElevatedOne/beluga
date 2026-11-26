@@ -1672,3 +1672,63 @@ msgstr "Čakať na ďalšie klávesy:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ms (dd po d, gg po g)"
+
+msgid "_Image File…"
+msgstr "_Obrázok…"
+
+msgid "_Default Icon"
+msgstr "_Predvolená ikona"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Začiarknuté sekcie sa zobrazia v paneli Miesta v tomto poradí."
+
+msgid "Search icons…"
+msgstr "Hľadať ikony…"
+
+msgid "Reading…"
+msgstr "Čítanie…"
+
+msgid "Only files on this computer can be read."
+msgstr "Čítať sa dajú len súbory na tomto počítači."
+
+msgid "No details found."
+msgstr "Žiadne podrobnosti."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Sieťové umiestnenia potrebujú gvfs. Nainštalujte balík gvfs (a gvfs-smb pre zdieľania Windows, gvfs-nfs pre NFS), potom sa odhláste a znova prihláste."
+
+msgid "Move Up"
+msgstr "Posunúť hore"
+
+msgid "Move Down"
+msgstr "Posunúť dole"
+
+msgid "Keep the trash on the home drive"
+msgstr "Ponechať kôš na domovskom disku"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Súbory presunuté do koša z iných diskov sa skopírujú do koša v domovskom priečinku, takže na tých diskoch nevznikne priečinok .Trash-1000. Presun veľkých súborov do koša potom trvá dlhšie."
+
+msgid "Could not change the icon."
+msgstr "Ikonu sa nepodarilo zmeniť."
+
+msgid "Configure Sections…"
+msgstr "Nastaviť sekcie…"
+
+msgid "Configure Sections"
+msgstr "Nastaviť sekcie"
+
+msgid "Choose an Image"
+msgstr "Vyberte obrázok"
+
+msgid "Change the folder's icon"
+msgstr "Zmeniť ikonu priečinka"
+
+msgid "C_hoose…"
+msgstr "_Vybrať…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga bola zostavená bez FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Činnosti nad panelom umiestnenia v zozname sú vľavo od neho, ostatné vpravo. * označuje činnosti, ktoré nie sú tam, kde ich má predvolený panel nástrojov."

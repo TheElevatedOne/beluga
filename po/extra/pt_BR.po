@@ -1661,3 +1661,63 @@ msgstr "Esperar mais teclas:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ms (dd após d, gg após g)"
+
+msgid "_Image File…"
+msgstr "Arquivo de _imagem…"
+
+msgid "_Default Icon"
+msgstr "Ícone _padrão"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "As seções marcadas aparecem no painel Locais, nesta ordem."
+
+msgid "Search icons…"
+msgstr "Pesquisar ícones…"
+
+msgid "Reading…"
+msgstr "Lendo…"
+
+msgid "Only files on this computer can be read."
+msgstr "Só é possível ler arquivos deste computador."
+
+msgid "No details found."
+msgstr "Nenhum detalhe encontrado."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Locais de rede precisam do gvfs. Instale o pacote gvfs (e gvfs-smb para compartilhamentos do Windows, gvfs-nfs para NFS) e entre novamente na sessão."
+
+msgid "Move Up"
+msgstr "Mover para cima"
+
+msgid "Move Down"
+msgstr "Mover para baixo"
+
+msgid "Keep the trash on the home drive"
+msgstr "Manter a lixeira na unidade da pasta pessoal"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Arquivos movidos para a lixeira a partir de outras unidades são copiados para a lixeira da pasta pessoal, então essas unidades não ganham a pasta .Trash-1000. Mover arquivos grandes para a lixeira demora mais."
+
+msgid "Could not change the icon."
+msgstr "Não foi possível alterar o ícone."
+
+msgid "Configure Sections…"
+msgstr "Configurar seções…"
+
+msgid "Configure Sections"
+msgstr "Configurar seções"
+
+msgid "Choose an Image"
+msgstr "Escolha uma imagem"
+
+msgid "Change the folder's icon"
+msgstr "Alterar o ícone da pasta"
+
+msgid "C_hoose…"
+msgstr "_Escolher…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "O Beluga foi compilado sem FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "As ações acima da barra de endereço na lista ficam à esquerda dela, as outras à direita. * marca as ações que não estão na posição padrão."

@@ -823,6 +823,9 @@ msgstr "Choisir un dossier"
 msgid "Location:"
 msgstr "Emplacement :"
 
+msgid "C_hoose…"
+msgstr "_Choisir…"
+
 msgid "Icon name:"
 msgstr "Nom de l'icône :"
 
@@ -942,6 +945,24 @@ msgstr "Tout ignorer"
 
 msgid "Retry"
 msgstr "Réessayer"
+
+msgid "Choose an Icon"
+msgstr "Choisir une icône"
+
+msgid "Search icons…"
+msgstr "Rechercher des icônes…"
+
+msgid "_Image File…"
+msgstr "_Fichier image…"
+
+msgid "_Default Icon"
+msgstr "Icône par _défaut"
+
+msgid "Choose an Image"
+msgstr "Choisir une image"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Les emplacements réseau nécessitent gvfs. Installez le paquet gvfs (et gvfs-smb pour les partages Windows, gvfs-nfs pour NFS), puis reconnectez-vous."
 
 msgid "This location is not a folder."
 msgstr "Cet emplacement n'est pas un dossier."
@@ -1501,6 +1522,18 @@ msgstr "%s libres sur %s"
 msgid "Safely Remove"
 msgstr "Enlever en toute sécurité"
 
+msgid "Configure Sections"
+msgstr "Configurer les sections"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Les sections cochées s'affichent dans le panneau Emplacements, dans cet ordre."
+
+msgid "Move Up"
+msgstr "Monter"
+
+msgid "Move Down"
+msgstr "Descendre"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Impossible de monter le périphérique : %s"
@@ -1528,6 +1561,9 @@ msgstr "Masquer la section"
 
 msgid "Add Entry…"
 msgstr "Ajouter une entrée…"
+
+msgid "Configure Sections…"
+msgstr "Configurer les sections…"
 
 msgid "Hide Hidden Entries"
 msgstr "Masquer les entrées cachées"
@@ -2066,6 +2102,12 @@ msgstr "Limiter à"
 msgid "percent of the disk"
 msgstr "pour cent du disque"
 
+msgid "Keep the trash on the home drive"
+msgstr "Garder la corbeille sur le disque du dossier personnel"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Les fichiers mis à la corbeille depuis d'autres disques sont copiés dans la corbeille du dossier personnel, ces disques n'ont donc pas de dossier .Trash-1000. Mettre de gros fichiers à la corbeille prend alors plus de temps."
+
 msgid "Full trash:"
 msgstr "Corbeille pleine :"
 
@@ -2135,6 +2177,27 @@ msgstr ":q ferme la fenêtre (:q! sans demander pour ses onglets), :qa quitte Be
 
 msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
+
+msgid "Details:"
+msgstr "Détails :"
+
+msgid "Only files on this computer can be read."
+msgstr "Seuls les fichiers de cet ordinateur peuvent être lus."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga a été compilé sans FFmpeg."
+
+msgid "Reading…"
+msgstr "Lecture…"
+
+msgid "No details found."
+msgstr "Aucun détail trouvé."
+
+msgid "Change the folder's icon"
+msgstr "Changer l'icône du dossier"
+
+msgid "Could not change the icon."
+msgstr "Impossible de changer l'icône."
 
 #, c-format
 msgid "%zu items"
@@ -2290,8 +2353,8 @@ msgstr "Menu"
 msgid "--- separator ---"
 msgstr "--- séparateur ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Les actions au-dessus de la barre d'emplacement dans la liste se placent à sa gauche, les autres à sa droite."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Les actions au-dessus de la barre d'emplacement dans la liste se placent à sa gauche, les autres à sa droite. * marque les actions qui ne sont pas à leur place par défaut."
 
 msgid "A_vailable actions:"
 msgstr "Actions _disponibles :"

@@ -138,7 +138,7 @@ std::string format_date(gint64 unixTime, DateStyle style)
     if (!dt) return {};
     std::string out;
     if (style == DateStyle::Long) {
-        out = take(g_date_time_format(dt, "%A, %e %B %Y %H:%M:%S"));
+        out = take(g_date_time_format(dt, "%A, %-e %B %Y %H:%M:%S"));   // %-e: no space before 1-9
     } else if (style == DateStyle::Short) {
         out = take(g_date_time_format(dt, "%x %H:%M"));
     } else {
@@ -366,6 +366,55 @@ bool spawn_command(const std::string &cmdline, const std::string &workdir, GErro
                             GSpawnFlags(G_SPAWN_SEARCH_PATH | G_SPAWN_STDOUT_TO_DEV_NULL), nullptr, nullptr, nullptr, err);
     g_strfreev(argv);
     return ok;
+}
+
+std::string folder_icon(const std::string &dirPath)
+{
+    std::string file = dirPath + "/.directory";
+    if (!g_file_test(file.c_str(), G_FILE_TEST_IS_REGULAR)) return {};
+    GKeyFile *kf = g_key_file_new();
+    std::string icon;
+    if (g_key_file_load_from_file(kf, file.c_str(), G_KEY_FILE_NONE, nullptr))
+        icon = take(g_key_file_get_string(kf, "Desktop Entry", "Icon", nullptr));
+    g_key_file_free(kf);
+    // A relative image path is relative to the folder.
+    if (!icon.empty() && icon[0] != '/' && icon.find('/') != std::string::npos) icon = dirPath + "/" + icon;
+    return icon;
+}
+
+bool set_folder_icon(const std::string &dirPath, const std::string &icon, GError **err)
+{
+    std::string file = dirPath + "/.directory";
+    GKeyFile *kf = g_key_file_new();
+    g_key_file_load_from_file(kf, file.c_str(), G_KEY_FILE_KEEP_COMMENTS, nullptr);
+    if (icon.empty()) g_key_file_remove_key(kf, "Desktop Entry", "Icon", nullptr);
+    else g_key_file_set_string(kf, "Desktop Entry", "Icon", icon.c_str());
+    if (g_key_file_has_group(kf, "Desktop Entry")) {
+        gsize n = 0;
+        char **keys = g_key_file_get_keys(kf, "Desktop Entry", &n, nullptr);
+        g_strfreev(keys);
+        if (n == 0) g_key_file_remove_group(kf, "Desktop Entry", nullptr);
+    }
+    gsize groups = 0;
+    char **g = g_key_file_get_groups(kf, &groups);
+    g_strfreev(g);
+    bool ok;
+    if (groups == 0) ok = g_unlink(file.c_str()) == 0 || errno == ENOENT;   // nothing left: no file
+    else ok = g_key_file_save_to_file(kf, file.c_str(), err);
+    g_key_file_free(kf);
+    return ok;
+}
+
+GIcon *icon_from_string(const std::string &icon)
+{
+    if (icon.empty()) return nullptr;
+    if (icon[0] == '/') {
+        GFile *f = g_file_new_for_path(icon.c_str());
+        GIcon *i = g_file_icon_new(f);
+        g_object_unref(f);
+        return i;
+    }
+    return g_themed_icon_new_with_default_fallbacks(icon.c_str());
 }
 
 } // namespace beluga

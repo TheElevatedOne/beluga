@@ -1,5 +1,29 @@
 # Changelog
 
+## Unreleased
+
+- Added: folder icons. Click the icon in a folder's Properties to pick one of the theme's icons or an image; it is
+  saved in the folder's `.directory` file, as Dolphin does, and Beluga shows the icons such files set. The Places
+  panel's Edit dialog has the same icon chooser.
+- Added: a Details tab in Properties for audio, video and image files (what the Information panel shows).
+- Added: **Configure Sections…** in the Places panel's context menu: show hidden sections again and change their
+  order.
+- Added: Configure Beluga → Trash → Keep the trash on the home drive: files from other drives are copied into the
+  home trash, so those drives get no `.Trash-1000` folder.
+- Added: the location bar shows a drive icon at every mount point in the path.
+- Changed: New Tab sits right after the last tab; a split tab's name shows the active side in bold; Open With menus
+  show the programs' icons; Configure Toolbars marks actions that aren't in their default place with `*`, and
+  double-clicking a row only selects it.
+- Changed: the filter bar and the selection check boxes on items are off by default (as in Dolphin).
+- Changed: cut items look different from hidden ones (fainter, in italics); the dividers between panels and views
+  show in dark themes.
+- Fixed: a crash when a window closed while a setting changed.
+- Fixed: the long date format had two spaces before single-digit days ("Created:" in Properties); the Open With row
+  in Properties is aligned and shows the program's icon.
+- Fixed: Backspace or Delete in an empty text field no longer beeps.
+- Fixed: network locations without gvfs now say that gvfs is needed instead of "Operation not supported".
+- Fixed: GTK's frame timing warnings no longer fill the terminal.
+
 ## 1.0.0
 
 The first stable release. Beluga is now laid out like Dolphin and adds a Vim mode, a configurable tool bar, Disk

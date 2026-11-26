@@ -818,6 +818,9 @@ msgstr "Виберіть теку"
 msgid "Location:"
 msgstr "Адреса:"
 
+msgid "C_hoose…"
+msgstr "_Вибрати…"
+
 msgid "Icon name:"
 msgstr "Назва піктограми:"
 
@@ -937,6 +940,24 @@ msgstr "Пропустити всі"
 
 msgid "Retry"
 msgstr "Повторити"
+
+msgid "Choose an Icon"
+msgstr "Виберіть піктограму"
+
+msgid "Search icons…"
+msgstr "Шукати піктограми…"
+
+msgid "_Image File…"
+msgstr "_Файл зображення…"
+
+msgid "_Default Icon"
+msgstr "_Типова піктограма"
+
+msgid "Choose an Image"
+msgstr "Виберіть зображення"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Для мережевих розташувань потрібен gvfs. Встановіть пакунок gvfs (і gvfs-smb для спільних тек Windows, gvfs-nfs для NFS), потім увійдіть знову."
 
 msgid "This location is not a folder."
 msgstr "Це розташування не є текою."
@@ -1504,6 +1525,18 @@ msgstr "Вільно %s з %s"
 msgid "Safely Remove"
 msgstr "Безпечно вилучити"
 
+msgid "Configure Sections"
+msgstr "Налаштування розділів"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Позначені розділи показуються на панелі «Місця» в цьому порядку."
+
+msgid "Move Up"
+msgstr "Вгору"
+
+msgid "Move Down"
+msgstr "Вниз"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Не вдалося змонтувати пристрій: %s"
@@ -1531,6 +1564,9 @@ msgstr "Приховати розділ"
 
 msgid "Add Entry…"
 msgstr "Додати запис…"
+
+msgid "Configure Sections…"
+msgstr "Налаштувати розділи…"
 
 msgid "Hide Hidden Entries"
 msgstr "Сховати приховані записи"
@@ -2069,6 +2105,12 @@ msgstr "Обмежити до"
 msgid "percent of the disk"
 msgstr "відсотків диска"
 
+msgid "Keep the trash on the home drive"
+msgstr "Тримати смітник на диску домашньої теки"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Файли, що переносяться до смітника з інших дисків, копіюються до смітника в домашній теці, тож на цих дисках не з'являється тека .Trash-1000. Перенесення великих файлів до смітника займає більше часу."
+
 msgid "Full trash:"
 msgstr "Заповнений смітник:"
 
@@ -2138,6 +2180,27 @@ msgstr ":q закриває вікно (:q! не питаючи про вкла�
 
 msgid "Keyboard Shortcuts"
 msgstr "Клавіатурні скорочення"
+
+msgid "Details:"
+msgstr "Подробиці:"
+
+msgid "Only files on this computer can be read."
+msgstr "Читати можна лише файли на цьому комп'ютері."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga зібрано без FFmpeg."
+
+msgid "Reading…"
+msgstr "Читання…"
+
+msgid "No details found."
+msgstr "Подробиць не знайдено."
+
+msgid "Change the folder's icon"
+msgstr "Змінити піктограму теки"
+
+msgid "Could not change the icon."
+msgstr "Не вдалося змінити піктограму."
 
 #, c-format
 msgid "%zu items"
@@ -2295,8 +2358,8 @@ msgstr "Меню"
 msgid "--- separator ---"
 msgstr "--- роздільник ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Дії над панеллю адреси у списку стоять ліворуч від неї, інші праворуч."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Дії над панеллю адреси у списку стоять ліворуч від неї, інші праворуч. * позначає дії не на своєму типовому місці."
 
 msgid "A_vailable actions:"
 msgstr "_Доступні дії:"

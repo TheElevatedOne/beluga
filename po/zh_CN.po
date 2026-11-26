@@ -799,6 +799,9 @@ msgstr "选择文件夹"
 msgid "Location:"
 msgstr "位置(L)："
 
+msgid "C_hoose…"
+msgstr "选择(_H)…"
+
 msgid "Icon name:"
 msgstr "图标名称："
 
@@ -918,6 +921,24 @@ msgstr "跳过所有"
 
 msgid "Retry"
 msgstr "重试"
+
+msgid "Choose an Icon"
+msgstr "选择图标(I)"
+
+msgid "Search icons…"
+msgstr "搜索图标…"
+
+msgid "_Image File…"
+msgstr "图像文件(_I)…"
+
+msgid "_Default Icon"
+msgstr "默认图标(_D)"
+
+msgid "Choose an Image"
+msgstr "选择图像"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "网络位置需要 gvfs。请安装 gvfs 软件包（Windows 共享还需 gvfs-smb，NFS 需 gvfs-nfs），然后重新登录。"
 
 msgid "This location is not a folder."
 msgstr "此位置不是文件夹。"
@@ -1473,6 +1494,18 @@ msgstr "%s 可用，共 %s"
 msgid "Safely Remove"
 msgstr "安全移除(S)"
 
+msgid "Configure Sections"
+msgstr "配置分区"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "勾选的分区会按此顺序显示在位置面板中。"
+
+msgid "Move Up"
+msgstr "上移"
+
+msgid "Move Down"
+msgstr "下移"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "无法挂载设备：%s"
@@ -1500,6 +1533,9 @@ msgstr "隐藏栏目"
 
 msgid "Add Entry…"
 msgstr "添加项目…"
+
+msgid "Configure Sections…"
+msgstr "配置分区…"
 
 msgid "Hide Hidden Entries"
 msgstr "隐藏隐藏的条目"
@@ -2038,6 +2074,12 @@ msgstr "限制为"
 msgid "percent of the disk"
 msgstr "磁盘百分比"
 
+msgid "Keep the trash on the home drive"
+msgstr "将回收站保留在主文件夹所在的驱动器上"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "从其他驱动器移到回收站的文件会复制到主文件夹的回收站中，因此这些驱动器上不会出现 .Trash-1000 文件夹。将大文件移到回收站会花更长时间。"
+
 msgid "Full trash:"
 msgstr "回收站已满："
 
@@ -2107,6 +2149,27 @@ msgstr ":q 关闭窗口 (:q! 不询问标签页), :qa 退出 Beluga, :e / :cd �
 
 msgid "Keyboard Shortcuts"
 msgstr "键盘快捷键"
+
+msgid "Details:"
+msgstr "详情："
+
+msgid "Only files on this computer can be read."
+msgstr "只能读取此计算机上的文件。"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga 构建时未包含 FFmpeg。"
+
+msgid "Reading…"
+msgstr "正在读取…"
+
+msgid "No details found."
+msgstr "未找到详细信息。"
+
+msgid "Change the folder's icon"
+msgstr "更改文件夹图标"
+
+msgid "Could not change the icon."
+msgstr "无法更改图标。"
 
 #, c-format
 msgid "%zu items"
@@ -2261,8 +2324,8 @@ msgstr "菜单"
 msgid "--- separator ---"
 msgstr "--- 分隔线 ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "列表中位于位置栏上方的动作显示在其左侧，其余的显示在右侧。"
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "列表中位于位置栏上方的动作显示在其左侧，其余的显示在右侧。* 标记不在默认位置的动作。"
 
 msgid "A_vailable actions:"
 msgstr "可用动作(_V)："

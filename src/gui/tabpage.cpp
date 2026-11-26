@@ -187,8 +187,17 @@ void TabPage::updateLabel()
 {
     if (!active_) return;
     std::string title = active_->title();
-    if (secondary_) title = primary_->title() + " | " + secondary_->title();
-    gtk_label_set_text(GTK_LABEL(labelText_), title.c_str());
+    if (secondary_) {
+        // Both sides' names; the active one in bold.
+        title = primary_->title() + " | " + secondary_->title();
+        auto part = [&](ViewContainer *c) {
+            std::string esc = take(g_markup_escape_text(c->title().c_str(), -1));
+            return c == active_ ? "<b>" + esc + "</b>" : esc;
+        };
+        gtk_label_set_markup(GTK_LABEL(labelText_), (part(primary_.get()) + " | " + part(secondary_.get())).c_str());
+    } else {
+        gtk_label_set_text(GTK_LABEL(labelText_), title.c_str());
+    }
     if (fixedWidth_ <= 0)   // fixed-width tabs keep their width whatever the name
         gtk_label_set_width_chars(GTK_LABEL(labelText_), std::min<int>(24, std::max<int>(4, g_utf8_strlen(title.c_str(), -1))));
     gtk_widget_set_tooltip_text(label_, display_location(active_->uri()).c_str());

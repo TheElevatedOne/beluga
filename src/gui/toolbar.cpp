@@ -108,7 +108,7 @@ struct Editor {
     std::vector<std::string> items;   // the tool bar being edited
 };
 
-GtkWidget *item_row(const ToolItemInfo &info)
+GtkWidget *item_row(const ToolItemInfo &info, bool moved = false)
 {
     GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
     gtk_widget_set_margin_top(box, 3);
@@ -119,7 +119,8 @@ GtkWidget *item_row(const ToolItemInfo &info)
     GtkWidget *img = gtk_image_new_from_gicon(gi);
     g_object_unref(gi);
     gtk_box_append(GTK_BOX(box), img);
-    GtkWidget *l = gtk_label_new(_(info.title));
+    // "*": not where the default tool bar has it.
+    GtkWidget *l = gtk_label_new((std::string(_(info.title)) + (moved ? " *" : "")).c_str());
     gtk_label_set_xalign(GTK_LABEL(l), 0);
     gtk_box_append(GTK_BOX(box), l);
     g_object_set_data(G_OBJECT(box), "beluga-id", (gpointer)info.id);
@@ -141,8 +142,10 @@ void fill(Editor *e, int selectCurrent = -1)
         std::string title = take(g_utf8_casefold(_(info.title), -1));
         if (!used && (q.empty() || title.find(q) != std::string::npos)) gtk_list_box_append(GTK_LIST_BOX(e->available), item_row(info));
     }
-    for (auto &id : e->items)
-        if (const ToolItemInfo *info = tool_item(id)) gtk_list_box_append(GTK_LIST_BOX(e->current), item_row(*info));
+    const auto defaults = default_toolbar();
+    for (size_t i = 0; i < e->items.size(); ++i)
+        if (const ToolItemInfo *info = tool_item(e->items[i]))
+            gtk_list_box_append(GTK_LIST_BOX(e->current), item_row(*info, i >= defaults.size() || defaults[i] != e->items[i]));
     if (selectCurrent >= 0)
         if (GtkListBoxRow *r = gtk_list_box_get_row_at_index(GTK_LIST_BOX(e->current), selectCurrent))
             gtk_list_box_select_row(GTK_LIST_BOX(e->current), r);
@@ -223,7 +226,8 @@ void show_toolbar_editor(GtkWidget *parent)
     gtk_widget_set_margin_top(box, 12);
     gtk_widget_set_margin_bottom(box, 12);
     gtk_window_set_child(GTK_WINDOW(win), box);
-    GtkWidget *hint = gtk_label_new(_("Actions above the location bar in the list sit left of it, the others right of it."));
+    GtkWidget *hint = gtk_label_new(_("Actions above the location bar in the list sit left of it, the others right of it. "
+                                      "* marks actions that aren't where the default tool bar has them."));
     gtk_widget_add_css_class(hint, "dim-label");
     gtk_label_set_xalign(GTK_LABEL(hint), 0);
     gtk_label_set_wrap(GTK_LABEL(hint), TRUE);
@@ -292,9 +296,6 @@ void show_toolbar_editor(GtkWidget *parent)
     g_signal_connect(removeB, "clicked", CB([](GtkButton *, gpointer p) { removeF(static_cast<Editor *>(p)); }), e);
     g_signal_connect(upB, "clicked", CB([](GtkButton *, gpointer p) { moveF(static_cast<Editor *>(p), -1); }), e);
     g_signal_connect(downB, "clicked", CB([](GtkButton *, gpointer p) { moveF(static_cast<Editor *>(p), 1); }), e);
-    // Double-click (activation) moves an action across.
-    g_signal_connect(e->available, "row-activated", CB([](GtkListBox *, GtkListBoxRow *, gpointer p) { addF(static_cast<Editor *>(p)); }), e);
-    g_signal_connect(e->current, "row-activated", CB([](GtkListBox *, GtkListBoxRow *, gpointer p) { removeF(static_cast<Editor *>(p)); }), e);
     g_signal_connect(e->filter, "search-changed", CB([](GtkSearchEntry *, gpointer p) { fill(static_cast<Editor *>(p)); }), e);
     g_signal_connect(defaults, "clicked", CB([](GtkButton *, gpointer p) {
         auto *e = static_cast<Editor *>(p);

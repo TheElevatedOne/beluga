@@ -807,6 +807,9 @@ msgstr "Scegli una cartella"
 msgid "Location:"
 msgstr "Indirizzo:"
 
+msgid "C_hoose…"
+msgstr "_Scegli…"
+
 msgid "Icon name:"
 msgstr "Nome dell'icona:"
 
@@ -926,6 +929,24 @@ msgstr "Salta tutti"
 
 msgid "Retry"
 msgstr "Riprova"
+
+msgid "Choose an Icon"
+msgstr "Scegli un'icona"
+
+msgid "Search icons…"
+msgstr "Cerca icone…"
+
+msgid "_Image File…"
+msgstr "File _immagine…"
+
+msgid "_Default Icon"
+msgstr "Icona _predefinita"
+
+msgid "Choose an Image"
+msgstr "Scegli un'immagine"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Le posizioni di rete richiedono gvfs. Installa il pacchetto gvfs (e gvfs-smb per le condivisioni Windows, gvfs-nfs per NFS), poi esci e rientra."
 
 msgid "This location is not a folder."
 msgstr "Questa posizione non è una cartella."
@@ -1485,6 +1506,18 @@ msgstr "%s liberi su %s"
 msgid "Safely Remove"
 msgstr "Rimuovi in sicurezza"
 
+msgid "Configure Sections"
+msgstr "Configura sezioni"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Le sezioni spuntate compaiono nel pannello Risorse, in quest'ordine."
+
+msgid "Move Up"
+msgstr "Sposta su"
+
+msgid "Move Down"
+msgstr "Sposta giù"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Impossibile montare il dispositivo: %s"
@@ -1512,6 +1545,9 @@ msgstr "Nascondi sezione"
 
 msgid "Add Entry…"
 msgstr "Aggiungi voce…"
+
+msgid "Configure Sections…"
+msgstr "Configura sezioni…"
 
 msgid "Hide Hidden Entries"
 msgstr "Nascondi le voci nascoste"
@@ -2050,6 +2086,12 @@ msgstr "Limita a"
 msgid "percent of the disk"
 msgstr "per cento del disco"
 
+msgid "Keep the trash on the home drive"
+msgstr "Tieni il cestino sull'unità della cartella home"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "I file spostati nel cestino da altre unità vengono copiati nel cestino della cartella home, così quelle unità non hanno una cartella .Trash-1000. Spostare file grandi nel cestino richiede più tempo."
+
 msgid "Full trash:"
 msgstr "Cestino pieno:"
 
@@ -2119,6 +2161,27 @@ msgstr ":q chiude la finestra (:q! senza chiedere delle schede), :qa esce da Bel
 
 msgid "Keyboard Shortcuts"
 msgstr "Scorciatoie da tastiera"
+
+msgid "Details:"
+msgstr "Dettagli:"
+
+msgid "Only files on this computer can be read."
+msgstr "Si possono leggere solo i file di questo computer."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga è stato compilato senza FFmpeg."
+
+msgid "Reading…"
+msgstr "Lettura…"
+
+msgid "No details found."
+msgstr "Nessun dettaglio trovato."
+
+msgid "Change the folder's icon"
+msgstr "Cambia l'icona della cartella"
+
+msgid "Could not change the icon."
+msgstr "Impossibile cambiare l'icona."
 
 #, c-format
 msgid "%zu items"
@@ -2274,8 +2337,8 @@ msgstr "Menu"
 msgid "--- separator ---"
 msgstr "--- separatore ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Le azioni sopra la barra degli indirizzi nell'elenco stanno alla sua sinistra, le altre alla sua destra."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Le azioni sopra la barra degli indirizzi nell'elenco stanno alla sua sinistra, le altre alla sua destra. * indica le azioni che non sono nella posizione predefinita."
 
 msgid "A_vailable actions:"
 msgstr "Azioni _disponibili:"

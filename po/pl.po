@@ -815,6 +815,9 @@ msgstr "Wybierz katalog"
 msgid "Location:"
 msgstr "Miejsce:"
 
+msgid "C_hoose…"
+msgstr "_Wybierz…"
+
 msgid "Icon name:"
 msgstr "Nazwa ikony:"
 
@@ -934,6 +937,24 @@ msgstr "Pomiń wszystkie"
 
 msgid "Retry"
 msgstr "Ponów"
+
+msgid "Choose an Icon"
+msgstr "Ikona"
+
+msgid "Search icons…"
+msgstr "Szukaj ikon…"
+
+msgid "_Image File…"
+msgstr "Plik _obrazu…"
+
+msgid "_Default Icon"
+msgstr "Ikona _domyślna"
+
+msgid "Choose an Image"
+msgstr "Wybierz obraz"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Położenia sieciowe wymagają gvfs. Zainstaluj pakiet gvfs (oraz gvfs-smb dla udziałów Windows, gvfs-nfs dla NFS), a następnie zaloguj się ponownie."
 
 msgid "This location is not a folder."
 msgstr "To położenie nie jest katalogiem."
@@ -1497,6 +1518,18 @@ msgstr "%s wolne z %s"
 msgid "Safely Remove"
 msgstr "Wysuń bezpiecznie"
 
+msgid "Configure Sections"
+msgstr "Ustawienia sekcji"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Zaznaczone sekcje są widoczne w panelu miejsc w tej kolejności."
+
+msgid "Move Up"
+msgstr "Przesuń w górę"
+
+msgid "Move Down"
+msgstr "Przesuń w dół"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Nie można zamontować urządzenia: %s"
@@ -1524,6 +1557,9 @@ msgstr "Ukryj grupę"
 
 msgid "Add Entry…"
 msgstr "Dodaj wpis…"
+
+msgid "Configure Sections…"
+msgstr "Ustawienia sekcji…"
 
 msgid "Hide Hidden Entries"
 msgstr "Ukryj ukryte wpisy"
@@ -2062,6 +2098,12 @@ msgstr "Ogranicz do"
 msgid "percent of the disk"
 msgstr "procent dysku"
 
+msgid "Keep the trash on the home drive"
+msgstr "Trzymaj kosz na dysku katalogu domowego"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Pliki przenoszone do kosza z innych dysków są kopiowane do kosza w katalogu domowym, więc na tych dyskach nie powstaje katalog .Trash-1000. Przenoszenie dużych plików do kosza trwa wtedy dłużej."
+
 msgid "Full trash:"
 msgstr "Pełny kosz:"
 
@@ -2131,6 +2173,27 @@ msgstr ":q zamyka okno (:q! bez pytania o karty), :qa kończy Belugę, :e / :cd 
 
 msgid "Keyboard Shortcuts"
 msgstr "Skróty klawiszowe"
+
+msgid "Details:"
+msgstr "Szczegóły:"
+
+msgid "Only files on this computer can be read."
+msgstr "Odczytać można tylko pliki na tym komputerze."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga została zbudowana bez FFmpeg."
+
+msgid "Reading…"
+msgstr "Odczytywanie…"
+
+msgid "No details found."
+msgstr "Nie znaleziono szczegółów."
+
+msgid "Change the folder's icon"
+msgstr "Zmień ikonę katalogu"
+
+msgid "Could not change the icon."
+msgstr "Nie można zmienić ikony."
 
 #, c-format
 msgid "%zu items"
@@ -2287,8 +2350,8 @@ msgstr "Menu"
 msgid "--- separator ---"
 msgstr "--- element oddzielający ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Działania nad paskiem położenia na liście są po jego lewej stronie, pozostałe po prawej."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Działania nad paskiem położenia na liście są po jego lewej stronie, pozostałe po prawej. * oznacza działania, które nie są na swoim domyślnym miejscu."
 
 msgid "A_vailable actions:"
 msgstr "_Dostępne działania:"

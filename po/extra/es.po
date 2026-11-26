@@ -1661,3 +1661,63 @@ msgstr "Esperar más teclas:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ms (dd tras d, gg tras g)"
+
+msgid "_Image File…"
+msgstr "Archivo de _imagen…"
+
+msgid "_Default Icon"
+msgstr "Icono _predeterminado"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Las secciones marcadas se muestran en el panel de lugares, en este orden."
+
+msgid "Search icons…"
+msgstr "Buscar iconos…"
+
+msgid "Reading…"
+msgstr "Leyendo…"
+
+msgid "Only files on this computer can be read."
+msgstr "Solo se pueden leer archivos de este equipo."
+
+msgid "No details found."
+msgstr "No se encontraron detalles."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Las ubicaciones de red necesitan gvfs. Instale el paquete gvfs (y gvfs-smb para recursos compartidos de Windows, gvfs-nfs para NFS) y vuelva a iniciar sesión."
+
+msgid "Move Up"
+msgstr "Subir"
+
+msgid "Move Down"
+msgstr "Bajar"
+
+msgid "Keep the trash on the home drive"
+msgstr "Mantener la papelera en la unidad de la carpeta personal"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Los archivos enviados a la papelera desde otras unidades se copian en la papelera de la carpeta personal, así esas unidades no tienen carpeta .Trash-1000. Enviar archivos grandes a la papelera tarda más."
+
+msgid "Could not change the icon."
+msgstr "No se puede cambiar el icono."
+
+msgid "Configure Sections…"
+msgstr "Configurar secciones…"
+
+msgid "Configure Sections"
+msgstr "Configurar secciones"
+
+msgid "Choose an Image"
+msgstr "Elija una imagen"
+
+msgid "Change the folder's icon"
+msgstr "Cambiar el icono de la carpeta"
+
+msgid "C_hoose…"
+msgstr "_Elegir…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga se compiló sin FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Las acciones por encima de la barra de ubicación en la lista van a su izquierda; las demás, a su derecha. * marca las acciones que no están en su posición predeterminada."

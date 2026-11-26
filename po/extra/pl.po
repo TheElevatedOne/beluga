@@ -1669,3 +1669,63 @@ msgstr "Czekaj na kolejne klawisze:"
 
 msgid "ms (dd after d, gg after g)"
 msgstr "ms (dd po d, gg po g)"
+
+msgid "_Image File…"
+msgstr "Plik _obrazu…"
+
+msgid "_Default Icon"
+msgstr "Ikona _domyślna"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Zaznaczone sekcje są widoczne w panelu miejsc w tej kolejności."
+
+msgid "Search icons…"
+msgstr "Szukaj ikon…"
+
+msgid "Reading…"
+msgstr "Odczytywanie…"
+
+msgid "Only files on this computer can be read."
+msgstr "Odczytać można tylko pliki na tym komputerze."
+
+msgid "No details found."
+msgstr "Nie znaleziono szczegółów."
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Położenia sieciowe wymagają gvfs. Zainstaluj pakiet gvfs (oraz gvfs-smb dla udziałów Windows, gvfs-nfs dla NFS), a następnie zaloguj się ponownie."
+
+msgid "Move Up"
+msgstr "Przesuń w górę"
+
+msgid "Move Down"
+msgstr "Przesuń w dół"
+
+msgid "Keep the trash on the home drive"
+msgstr "Trzymaj kosz na dysku katalogu domowego"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Pliki przenoszone do kosza z innych dysków są kopiowane do kosza w katalogu domowym, więc na tych dyskach nie powstaje katalog .Trash-1000. Przenoszenie dużych plików do kosza trwa wtedy dłużej."
+
+msgid "Could not change the icon."
+msgstr "Nie można zmienić ikony."
+
+msgid "Configure Sections…"
+msgstr "Ustawienia sekcji…"
+
+msgid "Configure Sections"
+msgstr "Ustawienia sekcji"
+
+msgid "Choose an Image"
+msgstr "Wybierz obraz"
+
+msgid "Change the folder's icon"
+msgstr "Zmień ikonę katalogu"
+
+msgid "C_hoose…"
+msgstr "_Wybierz…"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga została zbudowana bez FFmpeg."
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Działania nad paskiem położenia na liście są po jego lewej stronie, pozostałe po prawej. * oznacza działania, które nie są na swoim domyślnym miejscu."

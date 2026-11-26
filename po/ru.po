@@ -827,6 +827,9 @@ msgstr "Выберите папку"
 msgid "Location:"
 msgstr "Расположение:"
 
+msgid "C_hoose…"
+msgstr "_Выбрать…"
+
 msgid "Icon name:"
 msgstr "Имя значка:"
 
@@ -946,6 +949,24 @@ msgstr "Пропустить все"
 
 msgid "Retry"
 msgstr "Повторить"
+
+msgid "Choose an Icon"
+msgstr "Значок"
+
+msgid "Search icons…"
+msgstr "Поиск значков…"
+
+msgid "_Image File…"
+msgstr "_Файл изображения…"
+
+msgid "_Default Icon"
+msgstr "Значок по _умолчанию"
+
+msgid "Choose an Image"
+msgstr "Выберите изображение"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Для сетевых расположений нужен gvfs. Установите пакет gvfs (и gvfs-smb для общих папок Windows, gvfs-nfs для NFS), затем войдите в систему заново."
 
 msgid "This location is not a folder."
 msgstr "Это расположение не является папкой."
@@ -1513,6 +1534,18 @@ msgstr "Свободно %s из %s"
 msgid "Safely Remove"
 msgstr "Безопасно извлечь"
 
+msgid "Configure Sections"
+msgstr "Настройка разделов"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Отмеченные разделы показываются на панели «Точки входа» в этом порядке."
+
+msgid "Move Up"
+msgstr "Вверх"
+
+msgid "Move Down"
+msgstr "Вниз"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Не удалось подключить устройство: %s"
@@ -1540,6 +1573,9 @@ msgstr "Скрыть раздел"
 
 msgid "Add Entry…"
 msgstr "Добавить…"
+
+msgid "Configure Sections…"
+msgstr "Настроить разделы…"
 
 msgid "Hide Hidden Entries"
 msgstr "Скрыть скрытые элементы"
@@ -2078,6 +2114,12 @@ msgstr "Ограничить до"
 msgid "percent of the disk"
 msgstr "процентов диска"
 
+msgid "Keep the trash on the home drive"
+msgstr "Держать корзину на диске домашней папки"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Файлы, перемещаемые в корзину с других дисков, копируются в корзину в домашней папке, поэтому на этих дисках не появляется папка .Trash-1000. Перемещение больших файлов в корзину занимает больше времени."
+
 msgid "Full trash:"
 msgstr "Заполненная корзина:"
 
@@ -2147,6 +2189,27 @@ msgstr ":q закрывает окно (:q! не спрашивая о вкла�
 
 msgid "Keyboard Shortcuts"
 msgstr "Комбинации клавиш"
+
+msgid "Details:"
+msgstr "Подробности:"
+
+msgid "Only files on this computer can be read."
+msgstr "Читать можно только файлы на этом компьютере."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga собрана без FFmpeg."
+
+msgid "Reading…"
+msgstr "Чтение…"
+
+msgid "No details found."
+msgstr "Сведения не найдены."
+
+msgid "Change the folder's icon"
+msgstr "Изменить значок папки"
+
+msgid "Could not change the icon."
+msgstr "Не удалось изменить значок."
 
 #, c-format
 msgid "%zu items"
@@ -2304,8 +2367,8 @@ msgstr "Меню"
 msgid "--- separator ---"
 msgstr "--- разделитель ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Действия выше адресной строки в списке стоят слева от неё, остальные справа."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Действия выше адресной строки в списке стоят слева от неё, остальные справа. * отмечает действия не на своём месте по умолчанию."
 
 msgid "A_vailable actions:"
 msgstr "_Доступные действия:"

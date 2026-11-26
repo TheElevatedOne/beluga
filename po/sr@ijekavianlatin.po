@@ -816,6 +816,9 @@ msgstr ""
 msgid "Location:"
 msgstr "Lokacija:"
 
+msgid "C_hoose…"
+msgstr ""
+
 msgid "Icon name:"
 msgstr ""
 
@@ -935,6 +938,24 @@ msgstr "Preskoči sve"
 
 msgid "Retry"
 msgstr "Pokušaj ponovo"
+
+msgid "Choose an Icon"
+msgstr "Izaberite ikonicu"
+
+msgid "Search icons…"
+msgstr ""
+
+msgid "_Image File…"
+msgstr ""
+
+msgid "_Default Icon"
+msgstr ""
+
+msgid "Choose an Image"
+msgstr ""
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr ""
 
 msgid "This location is not a folder."
 msgstr ""
@@ -1502,6 +1523,18 @@ msgstr ""
 msgid "Safely Remove"
 msgstr "Bezbjedno ukloni"
 
+msgid "Configure Sections"
+msgstr ""
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr ""
+
+msgid "Move Up"
+msgstr ""
+
+msgid "Move Down"
+msgstr ""
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr ""
@@ -1529,6 +1562,9 @@ msgstr "Sakrij odjeljak"
 
 msgid "Add Entry…"
 msgstr "Dodaj stavku…"
+
+msgid "Configure Sections…"
+msgstr ""
 
 msgid "Hide Hidden Entries"
 msgstr ""
@@ -2067,6 +2103,12 @@ msgstr ""
 msgid "percent of the disk"
 msgstr ""
 
+msgid "Keep the trash on the home drive"
+msgstr ""
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr ""
+
 msgid "Full trash:"
 msgstr ""
 
@@ -2135,6 +2177,27 @@ msgid ":q closes the window (:q! without asking about its tabs), :qa quits Belug
 msgstr ""
 
 msgid "Keyboard Shortcuts"
+msgstr ""
+
+msgid "Details:"
+msgstr "Detalji:"
+
+msgid "Only files on this computer can be read."
+msgstr ""
+
+msgid "Beluga was built without FFmpeg."
+msgstr ""
+
+msgid "Reading…"
+msgstr ""
+
+msgid "No details found."
+msgstr ""
+
+msgid "Change the folder's icon"
+msgstr ""
+
+msgid "Could not change the icon."
 msgstr ""
 
 #, c-format
@@ -2293,7 +2356,7 @@ msgstr "Meni"
 msgid "--- separator ---"
 msgstr "--- razdvajač ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
 msgstr ""
 
 msgid "A_vailable actions:"

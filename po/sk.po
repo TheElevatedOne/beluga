@@ -817,6 +817,9 @@ msgstr "Vyberte priečinok"
 msgid "Location:"
 msgstr "Umiestnenie:"
 
+msgid "C_hoose…"
+msgstr "_Vybrať…"
+
 msgid "Icon name:"
 msgstr "Názov ikony:"
 
@@ -936,6 +939,24 @@ msgstr "Preskočiť všetko"
 
 msgid "Retry"
 msgstr "Znovu"
+
+msgid "Choose an Icon"
+msgstr "Vyberte ikonu"
+
+msgid "Search icons…"
+msgstr "Hľadať ikony…"
+
+msgid "_Image File…"
+msgstr "_Obrázok…"
+
+msgid "_Default Icon"
+msgstr "_Predvolená ikona"
+
+msgid "Choose an Image"
+msgstr "Vyberte obrázok"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Sieťové umiestnenia potrebujú gvfs. Nainštalujte balík gvfs (a gvfs-smb pre zdieľania Windows, gvfs-nfs pre NFS), potom sa odhláste a znova prihláste."
 
 msgid "This location is not a folder."
 msgstr "Toto umiestnenie nie je priečinok."
@@ -1499,6 +1520,18 @@ msgstr "%s voľných z %s"
 msgid "Safely Remove"
 msgstr "Bezpečne odstrániť"
 
+msgid "Configure Sections"
+msgstr "Nastaviť sekcie"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Začiarknuté sekcie sa zobrazia v paneli Miesta v tomto poradí."
+
+msgid "Move Up"
+msgstr "Posunúť hore"
+
+msgid "Move Down"
+msgstr "Posunúť dole"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Zariadenie sa nedá pripojiť: %s"
@@ -1526,6 +1559,9 @@ msgstr "Skryť sekciu "
 
 msgid "Add Entry…"
 msgstr "Pridať položku…"
+
+msgid "Configure Sections…"
+msgstr "Nastaviť sekcie…"
 
 msgid "Hide Hidden Entries"
 msgstr "Skryť skryté položky"
@@ -2064,6 +2100,12 @@ msgstr "Obmedziť na"
 msgid "percent of the disk"
 msgstr "percent disku"
 
+msgid "Keep the trash on the home drive"
+msgstr "Ponechať kôš na domovskom disku"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Súbory presunuté do koša z iných diskov sa skopírujú do koša v domovskom priečinku, takže na tých diskoch nevznikne priečinok .Trash-1000. Presun veľkých súborov do koša potom trvá dlhšie."
+
 msgid "Full trash:"
 msgstr "Plný kôš:"
 
@@ -2133,6 +2175,27 @@ msgstr ":q zavrie okno (:q! bez otázky na karty), :qa ukončí Belugu, :e / :cd
 
 msgid "Keyboard Shortcuts"
 msgstr "Klávesové skratky"
+
+msgid "Details:"
+msgstr "Podrobnosti:"
+
+msgid "Only files on this computer can be read."
+msgstr "Čítať sa dajú len súbory na tomto počítači."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga bola zostavená bez FFmpeg."
+
+msgid "Reading…"
+msgstr "Čítanie…"
+
+msgid "No details found."
+msgstr "Žiadne podrobnosti."
+
+msgid "Change the folder's icon"
+msgstr "Zmeniť ikonu priečinka"
+
+msgid "Could not change the icon."
+msgstr "Ikonu sa nepodarilo zmeniť."
 
 #, c-format
 msgid "%zu items"
@@ -2289,8 +2352,8 @@ msgstr "Ponuka"
 msgid "--- separator ---"
 msgstr "--- oddeľovač ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Činnosti nad panelom umiestnenia v zozname sú vľavo od neho, ostatné vpravo."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Činnosti nad panelom umiestnenia v zozname sú vľavo od neho, ostatné vpravo. * označuje činnosti, ktoré nie sú tam, kde ich má predvolený panel nástrojov."
 
 msgid "A_vailable actions:"
 msgstr "_Dostupné činnosti:"

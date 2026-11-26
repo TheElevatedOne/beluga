@@ -818,6 +818,9 @@ msgstr "Ordner auswählen"
 msgid "Location:"
 msgstr "Adresse:"
 
+msgid "C_hoose…"
+msgstr "_Auswählen …"
+
 msgid "Icon name:"
 msgstr "Symbolname:"
 
@@ -937,6 +940,24 @@ msgstr "Alle überspringen"
 
 msgid "Retry"
 msgstr "Erneut versuchen"
+
+msgid "Choose an Icon"
+msgstr "Wählen Sie ein Symbol aus"
+
+msgid "Search icons…"
+msgstr "Symbole suchen …"
+
+msgid "_Image File…"
+msgstr "_Bilddatei …"
+
+msgid "_Default Icon"
+msgstr "_Standardsymbol"
+
+msgid "Choose an Image"
+msgstr "Bild auswählen"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Netzwerkorte brauchen gvfs. Installieren Sie das Paket gvfs (und gvfs-smb für Windows-Freigaben, gvfs-nfs für NFS) und melden Sie sich neu an."
 
 msgid "This location is not a folder."
 msgstr "Dieser Ort ist kein Ordner."
@@ -1496,6 +1517,18 @@ msgstr "%s von %s frei"
 msgid "Safely Remove"
 msgstr "Sicher entfernen"
 
+msgid "Configure Sections"
+msgstr "Abschnitte einrichten"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Angehakte Abschnitte erscheinen in dieser Reihenfolge in der Orte-Leiste."
+
+msgid "Move Up"
+msgstr "Nach oben"
+
+msgid "Move Down"
+msgstr "Nach unten"
+
 #, c-format
 msgid "Could not mount the device: %s"
 msgstr "Das Gerät kann nicht eingehängt werden: %s"
@@ -1523,6 +1556,9 @@ msgstr "Abschnitt ausblenden"
 
 msgid "Add Entry…"
 msgstr "Eintrag hinzufügen …"
+
+msgid "Configure Sections…"
+msgstr "Abschnitte einrichten …"
 
 msgid "Hide Hidden Entries"
 msgstr "Versteckte Einträge ausblenden"
@@ -2061,6 +2097,12 @@ msgstr "Begrenzen auf"
 msgid "percent of the disk"
 msgstr "Prozent des Datenträgers"
 
+msgid "Keep the trash on the home drive"
+msgstr "Papierkorb auf dem Laufwerk des persönlichen Ordners halten"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Dateien von anderen Laufwerken werden in den Papierkorb im persönlichen Ordner kopiert, sodass auf diesen Laufwerken kein Ordner .Trash-1000 entsteht. Große Dateien in den Papierkorb zu verschieben dauert dann länger."
+
 msgid "Full trash:"
 msgstr "Voller Papierkorb:"
 
@@ -2130,6 +2172,27 @@ msgstr ":q schließt das Fenster (:q! ohne Nachfrage zu den Unterfenstern), :qa 
 
 msgid "Keyboard Shortcuts"
 msgstr "Tastenkürzel"
+
+msgid "Details:"
+msgstr "Details:"
+
+msgid "Only files on this computer can be read."
+msgstr "Nur Dateien auf diesem Rechner können gelesen werden."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga wurde ohne FFmpeg erstellt."
+
+msgid "Reading…"
+msgstr "Wird gelesen …"
+
+msgid "No details found."
+msgstr "Keine Details gefunden."
+
+msgid "Change the folder's icon"
+msgstr "Das Symbol des Ordners ändern"
+
+msgid "Could not change the icon."
+msgstr "Das Symbol kann nicht geändert werden."
 
 #, c-format
 msgid "%zu items"
@@ -2285,8 +2348,8 @@ msgstr "Menü"
 msgid "--- separator ---"
 msgstr "--- Trenner ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr "Aktionen über der Adressleiste in der Liste stehen links von ihr, die anderen rechts."
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Aktionen über der Adressleiste in der Liste stehen links von ihr, die anderen rechts. * markiert Aktionen, die nicht an ihrer Standardstelle stehen."
 
 msgid "A_vailable actions:"
 msgstr "_Verfügbare Aktionen:"

@@ -109,8 +109,20 @@ static int on_command_line(GApplication *gapp, GApplicationCommandLine *cmd, gpo
     return 0;
 }
 
+// GTK warns about frame timings on some compositors (Hyprland: "Duplicate call to gdk_frame_timings_presented()",
+// "called on discarded frame"). They say nothing about Beluga and nothing can be done about them; leave them out.
+static GLogWriterOutput log_writer(GLogLevelFlags level, const GLogField *fields, gsize n, gpointer data)
+{
+    for (gsize i = 0; i < n; ++i)
+        if (!strcmp(fields[i].key, "MESSAGE") && fields[i].length != 0 && fields[i].value
+            && strstr(static_cast<const char *>(fields[i].value), "gdk_frame_timings"))
+            return G_LOG_WRITER_HANDLED;
+    return g_log_writer_default(level, fields, n, data);
+}
+
 int main(int argc, char **argv)
 {
+    g_log_set_writer_func(log_writer, nullptr, nullptr);
     setlocale(LC_ALL, "");
     bindtextdomain(GETTEXT_PACKAGE, BELUGA_LOCALEDIR);
     bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");

@@ -119,16 +119,16 @@ void add_open_with(GMenu *m, const std::vector<BelugaItem *> &items)
         GAppInfo *def = apps[0].get();
         const char *id = g_app_info_get_id(def);
         if (id)
-            item_target(m, printf_str(_("Open with %s"), g_app_info_get_display_name(def)), "win.open-with-app",
-                        g_variant_new_string(id), g_app_info_get_icon(def));
+            menu_icon_item(m, printf_str(_("Open with %s"), g_app_info_get_display_name(def)), "win.open-with-app",
+                           g_variant_new_string(id), g_app_info_get_icon(def));
     }
     GMenu *sub = g_menu_new();
     GMenu *s = sec(sub);
     for (size_t i = 1; i < apps.size() && i < 16; ++i) {
         const char *id = g_app_info_get_id(apps[i].get());
         if (!id) continue;
-        item_target(s, g_app_info_get_display_name(apps[i].get()), "win.open-with-app", g_variant_new_string(id),
-                    g_app_info_get_icon(apps[i].get()));
+        menu_icon_item(s, g_app_info_get_display_name(apps[i].get()), "win.open-with-app", g_variant_new_string(id),
+                       g_app_info_get_icon(apps[i].get()));
     }
     item(sec(sub), _("Other Application…"), "win.open-with");
     g_menu_append_submenu(m, _("Open With"), G_MENU_MODEL(sub));

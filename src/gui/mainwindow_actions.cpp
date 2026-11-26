@@ -500,6 +500,7 @@ void MainWindow::setupActions()
 
 void MainWindow::updateActions()
 {
+    if (!notebook_) return;   // the window is being destroyed
     syncLocationBars();
     if (updatingActions_) return;
     updatingActions_ = true;
