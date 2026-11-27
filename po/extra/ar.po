@@ -1,0 +1,1450 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+msgid "The archive could not be opened."
+msgstr "تعذّر فتح الأرشيف."
+
+msgid "The archive could not be read."
+msgstr "تعذّرت قراءة الأرشيف."
+
+msgid "Cancelled."
+msgstr "أُلغي."
+
+msgid "This file is encrypted with a password."
+msgstr "هذا الملف معمّى بكلمة سر."
+
+msgid "“%s” could not be read."
+msgstr "تعذّرت قراءة ”%s“."
+
+msgid "This is not a file in an archive."
+msgstr "هذا ليس ملفًا داخل أرشيف."
+
+msgid "Extract Here"
+msgstr "استخرج هنا"
+
+msgid "Compress to .tar.gz"
+msgstr "اضغط إلى ‎.tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "لم يُعثر على محاكي طرفية."
+
+msgid "Root"
+msgstr "الجذر"
+
+msgid "%s Volume"
+msgstr "وحدة تخزين %s"
+
+msgid "This device cannot be mounted."
+msgstr "لا يمكن وصل هذا الجهاز."
+
+msgid "This device cannot be unmounted."
+msgstr "لا يمكن فصل هذا الجهاز."
+
+msgid "The device is gone."
+msgstr "لم يعد الجهاز موجودًا."
+
+msgid "Copying %s to “%s”"
+msgstr "ينسخ %s إلى ”%s“"
+
+msgid "Moving %s to “%s”"
+msgstr "ينقل %s إلى ”%s“"
+
+msgid "Linking %s in “%s”"
+msgstr "يربط %s في ”%s“"
+
+msgid "Moving %s to the trash"
+msgstr "ينقل %s إلى المهملات"
+
+msgid "Deleting %s"
+msgstr "يحذف %s"
+
+msgid "Restoring %s"
+msgstr "يستعيد %s"
+
+msgid "Emptying the trash"
+msgstr "يفرغ المهملات"
+
+msgid "Counting files…"
+msgstr "يعدّ الملفات…"
+
+msgid "“%s”: %s"
+msgstr "”%s“: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "لا يمكن نقل مجلد إلى داخل نفسه."
+
+msgid "A folder cannot be copied into itself."
+msgstr "لا يمكن نسخ مجلد إلى داخل نفسه."
+
+msgid "Files can only be extracted into local folders."
+msgstr "يمكن استخراج الملفات إلى مجلدات محلية فقط."
+
+msgid "Extracting from “%s”"
+msgstr "يستخرج من ”%s“"
+
+msgid "Disc:"
+msgstr "القرص:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "التنسيق:"
+
+msgid "Bit rate:"
+msgstr "معدل البتات:"
+
+msgid "Cover:"
+msgstr "الغلاف:"
+
+msgid ", %.0f fps"
+msgstr "، %.0f إطار/ث"
+
+msgid ", %.3f fps"
+msgstr "، %.3f إطار/ث"
+
+msgid "Video %d:"
+msgstr "فيديو %d:"
+
+msgid ", %d Hz"
+msgstr "، %d هرتز"
+
+msgid "mono"
+msgstr "أحادي"
+
+msgid "stereo"
+msgstr "مجسّم"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d قناة"
+msgstr[1] "قناة واحدة %d"
+msgstr[2] "قناتان %d"
+msgstr[3] "%d قنوات"
+msgstr[4] "%d قناة"
+msgstr[5] "%d قناة"
+
+msgid ", %d bit"
+msgstr "، %d بت"
+
+msgid "Audio %d:"
+msgstr "صوت %d:"
+
+msgid "Subtitles:"
+msgstr "الترجمات:"
+
+msgid "Chapters:"
+msgstr "الفصول:"
+
+msgid "Images"
+msgstr "الصور"
+
+msgid "Archives"
+msgstr "الأرشيفات"
+
+msgid "Search for “%s”"
+msgstr "ابحث عن ”%s“"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "لم يُعثر على محاكي طرفية. عيّن واحدًا في اضبط Beluga › عام › الطرفية."
+
+msgid "This file system has no trash."
+msgstr "لا يحتوي نظام الملفات هذا على مهملات."
+
+msgid "Could not create the trash information file."
+msgstr "تعذّر إنشاء ملف معلومات المهملات."
+
+msgid "“%s” already exists."
+msgstr "”%s“ موجود بالفعل."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "المهملات أكبر من حدها البالغ %s. فكّر في إفراغها."
+
+msgid "Create File"
+msgstr "أنشئ ملفًا"
+
+msgid "Undo: %s"
+msgstr "تراجع: %s"
+
+msgid "Redo: %s"
+msgstr "أعد: %s"
+
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d عنصر"
+msgstr[1] "عنصر واحد %d"
+msgstr[2] "عنصران %d"
+msgstr[3] "%d عناصر"
+msgstr[4] "%d عنصرًا"
+msgstr[5] "%d عنصر"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d ملف"
+msgstr[1] "ملف واحد %d"
+msgstr[2] "ملفان %d"
+msgstr[3] "%d ملفات"
+msgstr[4] "%d ملفًا"
+msgstr[5] "%d ملف"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d مجلد"
+msgstr[1] "مجلد واحد %d"
+msgstr[2] "مجلدان %d"
+msgstr[3] "%d مجلدات"
+msgstr[4] "%d مجلدًا"
+msgstr[5] "%d مجلد"
+
+msgid "Today at %s"
+msgstr "اليوم عند %s"
+
+msgid "Yesterday at %s"
+msgstr "أمس عند %s"
+
+msgid "%A at %H:%M"
+msgstr "%A عند %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld د %ld ث"
+
+msgid "%ld h %ld min"
+msgstr "%ld س %ld د"
+
+msgid "%s copy %d"
+msgstr "%s نسخة %d"
+
+msgid "Disk Usage"
+msgstr "استخدام القرص"
+
+msgid "Extension"
+msgstr "الامتداد"
+
+msgid "Original Location"
+msgstr "المكان الأصلي"
+
+msgid "Beluga could not act as administrator."
+msgstr "تعذّر على Beluga العمل كمدير."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "يلزم pkexec (polkit) لطلب كلمة سر المدير. ثبّت polkit ووكيل polkit لسطح مكتبك."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "يمكن لنافذة Beluga بصلاحيات المدير تغيير وحذف أي ملف على هذا الحاسوب، بما في ذلك الملفات التي يحتاجها النظام للإقلاع. قد يجعل خطأ هناك النظام غير قابل للاستخدام. استخدمها فقط للملفات التي لا يمكنك تغييرها بطريقة أخرى، وأغلقها عند الانتهاء.\n\nبعد ذلك يطلب Beluga كلمة سر المدير."
+
+msgid "Columns View"
+msgstr "عرض الأعمدة"
+
+msgid "Reset Zoom"
+msgstr "صفّر التكبير"
+
+msgid "Pop out Split View"
+msgstr "افصل العرض المقسوم"
+
+msgid "Places Panel"
+msgstr "لوحة الأماكن"
+
+msgid "Disk Usage Panel"
+msgstr "لوحة استخدام القرص"
+
+msgid "Go to Tab 1"
+msgstr "انتقل إلى اللسان 1"
+
+msgid "Go to Tab 2"
+msgstr "انتقل إلى اللسان 2"
+
+msgid "Go to Tab 3"
+msgstr "انتقل إلى اللسان 3"
+
+msgid "Go to Tab 4"
+msgstr "انتقل إلى اللسان 4"
+
+msgid "Go to Tab 5"
+msgstr "انتقل إلى اللسان 5"
+
+msgid "Go to Tab 6"
+msgstr "انتقل إلى اللسان 6"
+
+msgid "Go to Tab 7"
+msgstr "انتقل إلى اللسان 7"
+
+msgid "Go to Tab 8"
+msgstr "انتقل إلى اللسان 8"
+
+msgid "Go to Tab 9"
+msgstr "انتقل إلى اللسان 9"
+
+msgid "Configure Beluga"
+msgstr "اضبط Beluga"
+
+msgid "Undo failed."
+msgstr "فشل التراجع."
+
+msgid "Folder…"
+msgstr "مجلد…"
+
+msgid "Text File…"
+msgstr "ملف نصي…"
+
+msgid "Empty File…"
+msgstr "ملف فارغ…"
+
+msgid "Link to File or Folder…"
+msgstr "رابط إلى ملف أو مجلد…"
+
+msgid "Other View (%s)"
+msgstr "عرض آخر (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "تذكّر العرض لهذا المجلد"
+
+msgid "Open in Beluga"
+msgstr "افتح في Beluga"
+
+msgid "Paste into Folder"
+msgstr "ألصق في المجلد"
+
+msgid "_Cancel"
+msgstr "_ألغِ"
+
+msgid "The name cannot contain “/”."
+msgstr "لا يمكن أن يحتوي الاسم على ”/“."
+
+msgid "A name starting with a dot is hidden."
+msgstr "الاسم الذي يبدأ بنقطة يكون مخفيًا."
+
+msgid "Some items could not be renamed."
+msgstr "تعذّر تغيير اسم بعض العناصر."
+
+msgid "Rename “%s” to:"
+msgstr "غيّر اسم ”%s“ إلى:"
+
+msgid "_Rename"
+msgstr "_غيّر الاسم"
+
+msgid "Could not rename “%s”."
+msgstr "تعذّر تغيير اسم ”%s“."
+
+msgid "Change the file type?"
+msgstr "أتريد تغيير نوع الملف؟"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "تغيير اسم ”%s“ إلى ”%s“ يغيّر امتداده."
+
+msgid "Rename the %zu selected items to:"
+msgstr "غيّر أسماء العناصر المحددة (%zu) إلى:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "يُستبدل # بأرقام متصاعدة؛ استخدم ## للأصفار البادئة. تبقى الامتدادات كما هي."
+
+msgid "Start numbering at:"
+msgstr "ابدأ الترقيم من:"
+
+msgid "_Move Here"
+msgstr "ا_نقل إلى هنا"
+
+msgid "_Copy Here"
+msgstr "ا_نسخ إلى هنا"
+
+msgid "_Link Here"
+msgstr "ا_ربط هنا"
+
+msgid "C_ancel"
+msgstr "أ_لغِ"
+
+msgid "Choose a folder"
+msgstr "اختر مجلدًا"
+
+msgid "C_hoose…"
+msgstr "ا_ختر…"
+
+msgid "Icon name:"
+msgstr "اسم الأيقونة:"
+
+msgid "Choose a Folder"
+msgstr "اختر مجلدًا"
+
+msgid "_Add"
+msgstr "أ_ضف"
+
+msgid "_Save"
+msgstr "ا_حفظ"
+
+msgid "Show _folders first"
+msgstr "اعرض ال_مجلدات أولًا"
+
+msgid "Show hidden files _last"
+msgstr "اعرض الملفات المخفية في ال_نهاية"
+
+msgid "Show _previews"
+msgstr "اعرض ال_معاينات"
+
+msgid "Show in _groups"
+msgstr "اعرض في م_جموعات"
+
+msgid "Show _hidden files"
+msgstr "اعرض الملفات الم_خفية"
+
+msgid "Current folder including all subfolders"
+msgstr "المجلد الحالي مع كل المجلدات الفرعية"
+
+msgid "_OK"
+msgstr "_حسنًا"
+
+msgid "modified %s"
+msgstr "عُدّل %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "يوجد مجلد اسمه ”%s“ بالفعل في ”%s“."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "يوجد ملف اسمه ”%s“ بالفعل في ”%s“."
+
+msgid "Existing item"
+msgstr "العنصر الموجود"
+
+msgid "New item"
+msgstr "العنصر الجديد"
+
+msgid "_Suggest New Name"
+msgstr "ا_قترح اسمًا جديدًا"
+
+msgid "New name:"
+msgstr "الاسم الجديد:"
+
+msgid "Apply to _all"
+msgstr "طبّق على ال_كل"
+
+msgid "S_kip"
+msgstr "ت_خطَّ"
+
+msgid "_Write Into"
+msgstr "ا_كتب بداخله"
+
+msgid "_Overwrite"
+msgstr "ا_كتب فوقه"
+
+msgid "Search icons…"
+msgstr "ابحث عن أيقونات…"
+
+msgid "_Image File…"
+msgstr "ملف _صورة…"
+
+msgid "_Default Icon"
+msgstr "الأيقونة ال_مبدئية"
+
+msgid "Choose an Image"
+msgstr "اختر صورة"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "تحتاج الأماكن الشبكية إلى gvfs. ثبّت الحزمة gvfs (و gvfs-smb لمشاركات Windows و gvfs-nfs لـ NFS)، ثم اخرج من الجلسة وادخل مجددًا."
+
+msgid "This location is not a folder."
+msgstr "هذا المكان ليس مجلدًا."
+
+msgid "This location is not valid."
+msgstr "هذا المكان غير صالح."
+
+msgid "This folder is not in the archive."
+msgstr "هذا المجلد ليس في الأرشيف."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s ملف أصغر"
+msgstr[1] "ملف أصغر واحد %s"
+msgstr[2] "ملفان أصغر %s"
+msgstr[3] "%s ملفات أصغر"
+msgstr[4] "%s ملفًا أصغر"
+msgstr[5] "%s ملف أصغر"
+
+msgid "(another drive, not counted)"
+msgstr "(قرص آخر، لم يُحسب)"
+
+msgid "Some of its contents could not be read."
+msgstr "تعذّرت قراءة جزء من محتواه."
+
+msgid "%s in files"
+msgstr "%s في الملفات"
+
+msgid "%s on disk"
+msgstr "%s على القرص"
+
+msgid "%s files and %s folders"
+msgstr "%s ملف و %s مجلد"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "يقرأ… %s في %s ملف و %s مجلد"
+
+msgid "Stopped."
+msgstr "توقّف."
+
+msgid "This folder could not be read."
+msgstr "تعذّرت قراءة هذا المجلد."
+
+msgid "%s, read in %.1f s"
+msgstr "%s، قُرئ في %.1f ث"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". تعذّرت قراءة %s مجلد."
+msgstr[1] ". تعذّرت قراءة مجلد واحد %s."
+msgstr[2] ". تعذّرت قراءة مجلدين %s."
+msgstr[3] ". تعذّرت قراءة %s مجلدات."
+msgstr[4] ". تعذّرت قراءة %s مجلدًا."
+msgstr[5] ". تعذّرت قراءة %s مجلد."
+
+msgid "Only folders on this computer can be measured."
+msgstr "يمكن قياس مجلدات هذا الحاسوب فقط."
+
+msgid "read less than a minute ago"
+msgstr "قُرئ قبل أقل من دقيقة"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "قُرئ قبل %d دقيقة"
+msgstr[1] "قُرئ قبل دقيقة %d"
+msgstr[2] "قُرئ قبل دقيقتين %d"
+msgstr[3] "قُرئ قبل %d دقائق"
+msgstr[4] "قُرئ قبل %d دقيقة"
+msgstr[5] "قُرئ قبل %d دقيقة"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "قُرئ قبل %d ساعة"
+msgstr[1] "قُرئ قبل ساعة %d"
+msgstr[2] "قُرئ قبل ساعتين %d"
+msgstr[3] "قُرئ قبل %d ساعات"
+msgstr[4] "قُرئ قبل %d ساعة"
+msgstr[5] "قُرئ قبل %d ساعة"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s، %s. أعد الفحص لقراءته مجددًا."
+
+msgid "_Apparent size"
+msgstr "الحجم ال_ظاهري"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "اجمع أحجام الملفات بدل المساحة التي تشغلها على القرص."
+
+msgid "_Stay on this drive"
+msgstr "ا_بقَ على هذا القرص"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "لا تحسب الأقراص الأخرى الموصولة داخل هذا المجلد (مثل مجلد موسيقى على قرص آخر). لا تُتبع الروابط أبدًا."
+
+msgid "Rescan"
+msgstr "أعد الفحص"
+
+msgid "Close Disk Usage"
+msgstr "أغلق استخدام القرص"
+
+msgid "_Rescan"
+msgstr "أ_عد الفحص"
+
+msgid "S_top"
+msgstr "أ_وقف"
+
+msgid "Disk Usage – %s"
+msgstr "استخدام القرص – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "”%s“ موجود بالفعل. أتريد استبداله؟"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu من هذه الملفات موجودة بالفعل. أتريد استبدالها؟"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "سيكتب البرنامج الذي تحفظ منه فوق المحتوى الموجود."
+
+msgid "Choose a folder to save in."
+msgstr "اختر مجلدًا للحفظ فيه."
+
+msgid "Select Folder"
+msgstr "اختر المجلد"
+
+msgid "Open Files"
+msgstr "افتح ملفات"
+
+msgid "Open File"
+msgstr "افتح ملفًا"
+
+msgid "Save File"
+msgstr "احفظ الملف"
+
+msgid "Save Files"
+msgstr "احفظ الملفات"
+
+msgid "_Folder:"
+msgstr "ال_مجلد:"
+
+msgid "_Name:"
+msgstr "الا_سم:"
+
+msgid "_Type:"
+msgstr "ال_نوع:"
+
+msgid "_Select"
+msgstr "ا_ختر"
+
+msgid "_Open"
+msgstr "ا_فتح"
+
+msgid "Create new folder in:\n%s"
+msgstr "أنشئ مجلدًا جديدًا في:\n%s"
+
+msgid "C_reate"
+msgstr "أ_نشئ"
+
+msgid "Could not create the folder."
+msgstr "تعذّر إنشاء المجلد."
+
+msgid "%zu items selected"
+msgstr "حُدّد %zu عنصر"
+
+msgid "Contents:"
+msgstr "المحتوى:"
+
+msgid "Contains:"
+msgstr "يحتوي:"
+
+msgid "Counting…"
+msgstr "يعدّ…"
+
+msgid "Broken Link"
+msgstr "رابط معطوب"
+
+msgid "%s (link)"
+msgstr "%s (رابط)"
+
+msgid "other drive"
+msgstr "قرص آخر"
+
+msgid "%s of %s"
+msgstr "%s من %s"
+
+msgid "%s left"
+msgstr "بقي %s"
+
+msgid "%d of %d"
+msgstr "%d من %d"
+
+msgid "File operations in progress"
+msgstr "عمليات ملفات جارية"
+
+msgid "No subfolders"
+msgstr "لا مجلدات فرعية"
+
+msgid "Select the given files in their folders"
+msgstr "حدّد الملفات المعطاة في مجلداتها"
+
+msgid "Open the window in split view"
+msgstr "افتح النافذة في عرض مقسوم"
+
+msgid "Always open a new window"
+msgstr "افتح نافذة جديدة دائمًا"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "استمر بالعمل في الخلفية لخدمة D-Bus المسماة FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "انفصل عن الطرفية (دون مكان: يفتح المجلد الحالي)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "شغّل منتقي الملفات لـ xdg-desktop-portal (يبدؤه D-Bus)"
+
+msgid "Show the version"
+msgstr "اعرض الإصدارة"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[ملف أو مجلد…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "يعمل كمدير: قد تضر التغييرات في هذه النافذة بالنظام."
+
+msgid "Close this window?"
+msgstr "أتريد إغلاق هذه النافذة؟"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "في هذه النافذة %zu ألسنة مفتوحة. إغلاقها يغلقها كلها."
+
+msgid "Close Window"
+msgstr "أغلق النافذة"
+
+msgid "Show _Toolbar"
+msgstr "اعرض شريط الأ_دوات"
+
+msgid "_File"
+msgstr "_ملف"
+
+msgid "New _Window"
+msgstr "نافذة _جديدة"
+
+msgid "New _Tab"
+msgstr "لسان ج_ديد"
+
+msgid "_Close Tab"
+msgstr "أ_غلق اللسان"
+
+msgid "Create _New"
+msgstr "أنشئ _جديدًا"
+
+msgid "_Rename…"
+msgstr "_غيّر الاسم…"
+
+msgid "_Duplicate Here"
+msgstr "_كرّر هنا"
+
+msgid "Move to _Trash"
+msgstr "انقل إلى ال_مهملات"
+
+msgid "_Delete"
+msgstr "ا_حذف"
+
+msgid "Restore from Trash"
+msgstr "استعد من المهملات"
+
+msgid "_Properties"
+msgstr "_خصائص"
+
+msgid "_Quit"
+msgstr "ا_خرج"
+
+msgid "_Edit"
+msgstr "_حرّر"
+
+msgid "_Undo"
+msgstr "_تراجع"
+
+msgid "_Redo"
+msgstr "أ_عد"
+
+msgid "Cu_t"
+msgstr "ا_قصص"
+
+msgid "_Copy"
+msgstr "ا_نسخ"
+
+msgid "_Paste"
+msgstr "أ_لصق"
+
+msgid "_Search…"
+msgstr "ا_بحث…"
+
+msgid "Select _All"
+msgstr "حدّد ال_كل"
+
+msgid "_View"
+msgstr "_عرض"
+
+msgid "Zoom _In"
+msgstr "_كبّر"
+
+msgid "Zoom _Out"
+msgstr "_صغّر"
+
+msgid "Re_load"
+msgstr "أعد ال_تحميل"
+
+msgid "Show _Menubar"
+msgstr "اعرض شريط ال_قوائم"
+
+msgid "Show _Statusbar"
+msgstr "اعرض شريط ال_حالة"
+
+msgid "_Go"
+msgstr "ا_نتقل"
+
+msgid "_Back"
+msgstr "إلى ال_خلف"
+
+msgid "_Forward"
+msgstr "إلى الأ_مام"
+
+msgid "_Up"
+msgstr "إلى الأ_على"
+
+msgid "_Home"
+msgstr "ال_منزل"
+
+msgid "_Tools"
+msgstr "أ_دوات"
+
+msgid "Open _Terminal"
+msgstr "افتح _طرفية"
+
+msgid "Open Terminal _Here"
+msgstr "افتح طرفية _هنا"
+
+msgid "_Disk Usage…"
+msgstr "ا_ستخدام القرص…"
+
+msgid "_Settings"
+msgstr "ال_إعدادات"
+
+msgid "Configure Tool_bars…"
+msgstr "اضبط أشرطة الأ_دوات…"
+
+msgid "_Configure Beluga…"
+msgstr "ا_ضبط Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "لا ألسنة أُغلقت مؤخرًا"
+
+msgid "(Administrator)"
+msgstr "(مدير)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "أتريد فتح %zu مجلدات في ألسنة جديدة؟"
+
+msgid "Open Folders"
+msgstr "افتح المجلدات"
+
+msgid "Could not open “%s”."
+msgstr "تعذّر فتح ”%s“."
+
+msgid "Could not open a terminal."
+msgstr "تعذّر فتح طرفية."
+
+msgid "New Text File.txt"
+msgstr "ملف نصي جديد.txt"
+
+msgid "New File"
+msgstr "ملف جديد"
+
+msgid "Empty the trash?"
+msgstr "أتريد إفراغ المهملات؟"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "ستُحذف كل العناصر في المهملات نهائيًا. لا يمكن التراجع عن هذا."
+
+msgid "Open %zu terminals?"
+msgstr "أتريد فتح %zu طرفيات؟"
+
+msgid "Open Terminals"
+msgstr "افتح الطرفيات"
+
+msgid "Create new file in:\n%s"
+msgstr "أنشئ ملفًا جديدًا في:\n%s"
+
+msgid "Could not create the file."
+msgstr "تعذّر إنشاء الملف."
+
+msgid "Link to File or Folder"
+msgstr "رابط إلى ملف أو مجلد"
+
+msgid "Path of the file or folder to link to:"
+msgstr "مسار الملف أو المجلد المراد الربط إليه:"
+
+msgid "Could not create the link."
+msgstr "تعذّر إنشاء الرابط."
+
+msgid "Permanently delete %s?"
+msgstr "أتريد حذف %s نهائيًا؟"
+
+msgid "This cannot be undone."
+msgstr "لا يمكن التراجع عن هذا."
+
+msgid "Move %s to the trash?"
+msgstr "أتريد نقل %s إلى المهملات؟"
+
+msgid "Could not run “%s”."
+msgstr "تعذّر تشغيل ”%s“."
+
+msgid "Could not start %s."
+msgstr "تعذّر بدء %s."
+
+msgid "Could not start the application."
+msgstr "تعذّر بدء التطبيق."
+
+msgid "“%s” is an executable file."
+msgstr "”%s“ ملف تنفيذي."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "أتريد تشغيله أم فتحه في تطبيق؟"
+
+msgid "Run"
+msgstr "شغّل"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "اختر التطبيق لفتح %s (%s):"
+
+msgid "Or command:"
+msgstr "أو أمر:"
+
+msgid "Remember application association for this type of file"
+msgstr "تذكّر ربط التطبيق بهذا النوع من الملفات"
+
+msgid "%s free of %s"
+msgstr "%s متاح من %s"
+
+msgid "Configure Sections"
+msgstr "اضبط الأقسام"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "تظهر الأقسام المؤشّر عليها في لوحة الأماكن بهذا الترتيب."
+
+msgid "Move Up"
+msgstr "انقل لأعلى"
+
+msgid "Move Down"
+msgstr "انقل لأسفل"
+
+msgid "Could not mount the device: %s"
+msgstr "تعذّر وصل الجهاز: %s"
+
+msgid "Show"
+msgstr "اعرض"
+
+msgid "Configure Sections…"
+msgstr "اضبط الأقسام…"
+
+msgid "Hide Hidden Entries"
+msgstr "أخفِ المدخلات المخفية"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "ستُحذف كل العناصر في المهملات نهائيًا."
+
+msgid "Could not safely remove the device: %s"
+msgstr "تعذّرت إزالة الجهاز بأمان: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "تعذّر فصل الجهاز: %s"
+
+msgid "%d px"
+msgstr "%d بكسل"
+
+msgid "Use the system _font"
+msgstr "استخدم خط ال_نظام"
+
+msgid "Context Menu Action"
+msgstr "إجراء قائمة السياق"
+
+msgid "Command:"
+msgstr "الأمر:"
+
+msgid "Types:"
+msgstr "الأنواع:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f أول ملف، %F كل الملفات، %u / %U كمسارات URI، %n / %N أسماء، %d المجلد الحالي."
+
+msgid "Show for _files"
+msgstr "اعرض لل_ملفات"
+
+msgid "Show for f_olders"
+msgstr "اعرض لل_مجلدات"
+
+msgid "Show when _several items are selected"
+msgstr "اعرض عند تحديد _عدة عناصر"
+
+msgid "Run in a _terminal"
+msgstr "شغّل في _طرفية"
+
+msgid "Custom Actions"
+msgstr "إجراءات مخصصة"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "مدخلاتك الخاصة لقائمة سياق الملفات والمجلدات."
+
+msgid "_Add…"
+msgstr "أ_ضف…"
+
+msgid "_Edit…"
+msgstr "_حرّر…"
+
+msgid "_Remove"
+msgstr "أ_زل"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "تُكتب الاختصارات مثل <Control>c أو <Shift>Delete. افصل بين عدة اختصارات بفواصل. اترك الحقل فارغًا لاستخدام المبدئي."
+
+msgid "files below %d MiB"
+msgstr "الملفات الأصغر من %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "ا_ستعد المبدئيات"
+
+msgid "_Apply"
+msgstr "_طبّق"
+
+msgid "Folders & Tabs"
+msgstr "المجلدات والألسنة"
+
+msgid "This location:"
+msgstr "هذا المكان:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "أبقِ نافذة Beluga واحدة وافتح المجلدات الجديدة في ألسنة"
+
+msgid "Tabs:"
+msgstr "الألسنة:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "تضيق الألسنة ذات العرض الثابت، كلها بالمقدار نفسه، عندما لا تتسع."
+
+msgid "No terminal found"
+msgstr "لم يُعثر على طرفية"
+
+msgid "Detected: %s"
+msgstr "اكتُشف: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "يستخدمه F4 و«افتح طرفية هنا». يُستبدل ‎%d في الأمر بالمجلد؛ وإلا تبدأ الطرفية فيه. كان هذا سابقًا إعدادًا لنظام KDE."
+
+msgid "New folders:"
+msgstr "المجلدات الجديدة:"
+
+msgid "Show _previews in new folders"
+msgstr "اعرض ال_معاينات في المجلدات الجديدة"
+
+msgid "Audio (cover art)"
+msgstr "صوت (صور الأغلفة)"
+
+msgid "PDF documents"
+msgstr "مستندات PDF"
+
+msgid "Text files"
+msgstr "ملفات نصية"
+
+msgid "Fonts"
+msgstr "الخطوط"
+
+msgid "Office documents"
+msgstr "مستندات مكتبية"
+
+msgid "Ask for confirmation when:"
+msgstr "اطلب التأكيد عند:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "اطلب التأكيد في Beluga عند:"
+
+msgid "Use _long date format"
+msgstr "استخدم تنسيق التاريخ ال_طويل"
+
+msgid "Show _hidden folders"
+msgstr "اعرض المجلدات الم_خفية"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "مرّر إلى المجلد الحالي _تلقائيًا"
+
+msgid "Places Panel:"
+msgstr "لوحة الأماكن:"
+
+msgid "Status & Location bars"
+msgstr "شريطا الحالة والمكان"
+
+msgid "Show free _space"
+msgstr "اعرض المساحة ال_متاحة"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "على أي حال، يمنح عرض › تذكّر العرض لهذا المجلد مجلدًا واحدًا أسلوبه الخاص. بعض العروض الخاصة مثل البحث والملفات الأخيرة والمهملات لا تزال تستخدم أسلوبًا خاصًا بها."
+
+msgid "Open files and folders with a single click"
+msgstr "افتح الملفات والمجلدات بنقرة واحدة"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "احتفظ بـ_فهرس لمجلد المنزل للبحث الفوري"
+
+msgid "levels deep"
+msgstr "مستويات عمقًا"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "نسبي (اليوم، أمس…)"
+
+msgid "Absolute"
+msgstr "مطلق"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "رمزي (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "رقمي (0755)"
+
+msgid "Combined"
+msgstr "مدمج"
+
+msgid "Elide in the middle"
+msgstr "اختصر في الوسط"
+
+msgid "Elide at the end"
+msgstr "اختصر في النهاية"
+
+msgid "Disk usage:"
+msgstr "استخدام القرص:"
+
+msgid "Show a Disk _Usage column"
+msgstr "اعرض عمود ا_ستخدام القرص"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "المساحة التي يشغلها كل ملف وكل مجلد كامل على القرص، مع شريط لحصته من المجلد، مثل أدوات › استخدام القرص. تُقرأ المجلدات بالكامل في الخلفية؛ رتّب حسب العمود لترى الأكبر أولًا. ينطبق \"ابقَ على هذا القرص\" من نافذة استخدام القرص هنا أيضًا."
+
+msgid "Show in the context menu"
+msgstr "اعرض في قائمة السياق"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'انسخ إلى' و'انقل إلى'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "احذف (إضافة إلى انقل إلى المهملات)"
+
+msgid "Cleanup:"
+msgstr "التنظيف:"
+
+msgid "Delete files older than"
+msgstr "احذف الملفات الأقدم من"
+
+msgid "days"
+msgstr "يوم"
+
+msgid "Limit to"
+msgstr "حدّ إلى"
+
+msgid "percent of the disk"
+msgstr "بالمئة من القرص"
+
+msgid "Keep the trash on the home drive"
+msgstr "أبقِ المهملات على قرص مجلد المنزل"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "تُنسخ الملفات المنقولة إلى المهملات من أقراص أخرى إلى المهملات في مجلد المنزل، فلا يُنشأ مجلد ‎.Trash-1000 على تلك الأقراص. يستغرق نقل الملفات الكبيرة إلى المهملات حينها وقتًا أطول."
+
+msgid "Full trash:"
+msgstr "المهملات الممتلئة:"
+
+msgid "When the limit is reached:"
+msgstr "عند بلوغ الحد:"
+
+msgid "Show a warning"
+msgstr "اعرض تحذيرًا"
+
+msgid "Delete the oldest items"
+msgstr "احذف أقدم العناصر"
+
+msgid "Delete the largest items"
+msgstr "احذف أكبر العناصر"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "كانت هذه سابقًا إعدادات لنظام KDE. تُطبّق الحدود عند بدء Beluga وبعد نقل العناصر إلى المهملات."
+
+msgid "Calculating trash size…"
+msgstr "يحسب حجم المهملات…"
+
+msgid "The trash currently uses %s."
+msgstr "تشغل المهملات حاليًا %s."
+
+msgid "_Empty Trash Now"
+msgstr "أ_فرغ المهملات الآن"
+
+msgid "Vim Mode"
+msgstr "وضع Vim"
+
+msgid "Vim mode:"
+msgstr "وضع Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "استخدم مفاتيح شبيهة بـ Vim في العروض"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "يتحرك الوضع العادي بالمفاتيح h j k l وينفّذ المفاتيح أدناه؛ v و V و Ctrl+V تحدد؛ i و a تغيّر الاسم (وضع الإدراج)؛ Esc يعود إلى الوضع العادي؛ : يفتح سطر الأوامر. تحتفظ المفاتيح مع Ctrl أو Alt غير المذكورة هنا بمعناها المعتاد."
+
+msgid "Leader key:"
+msgstr "المفتاح القائد:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> في المفاتيح أدناه، مثل <Space> أو ,"
+
+msgid "Wait for more keys:"
+msgstr "انتظر مفاتيح أخرى:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "م‌ث (dd بعد d، gg بعد g)"
+
+msgid "Keys"
+msgstr "المفاتيح"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "ترميز Vim، عدة مفاتيح مفصولة بمسافات: h, gg, <C-v>, <CR>, <Esc>, <leader>t. اترك الحقل فارغًا للمبدئي."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr "‎:q يغلق النافذة (‎:q! دون السؤال عن ألسنتها)، ‎:qa ينهي Beluga، ‎:e أو ‎:cd مسار يفتح مجلدًا، ‎:tabnew [مسار]، ‎:tabclose، ‎:tabonly، ‎:sp أو ‎:vs [مسار] يقسمان العرض، ‎:only يغلق العرض الآخر، ‎:mkdir اسم، ‎:touch اسم، ‎:set hidden / nohidden / hidden!، ‎:set view=icons|compact|details|columns، ‎:sort name|size|date|type، ‎:pwd، ‎:term، ‎:du، ‎:help، ‎:!أمر ينفّذ أمر صدفة في المجلد."
+
+msgid "Keyboard Shortcuts"
+msgstr "اختصارات لوحة المفاتيح"
+
+msgid "Only files on this computer can be read."
+msgstr "يمكن قراءة ملفات هذا الحاسوب فقط."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "بُني Beluga دون FFmpeg."
+
+msgid "Reading…"
+msgstr "يقرأ…"
+
+msgid "No details found."
+msgstr "لم يُعثر على تفاصيل."
+
+msgid "Change the folder's icon"
+msgstr "غيّر أيقونة المجلد"
+
+msgid "Could not change the icon."
+msgstr "تعذّر تغيير الأيقونة."
+
+msgid "%zu items"
+msgstr "%zu عنصر"
+
+msgid "No default application"
+msgstr "لا تطبيق مبدئي"
+
+msgid "C_hange…"
+msgstr "_غيّر…"
+
+msgid "Opens with:"
+msgstr "يُفتح بـ:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu بايت"
+msgstr[1] "بايت واحد %llu"
+msgstr[2] "بايتان %llu"
+msgstr[3] "%llu بايتات"
+msgstr[4] "%llu بايتًا"
+msgstr[5] "%llu بايت"
+
+msgid "Can View"
+msgstr "يمكنه العرض"
+
+msgid "Can View Content"
+msgstr "يمكنه عرض المحتوى"
+
+msgid "Is _executable"
+msgstr "_قابل للتنفيذ"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "طبّق التغييرات على كل المجلدات ال_فرعية ومحتواها"
+
+msgid "Mode:"
+msgstr "الوضع:"
+
+msgid "Could not read the file."
+msgstr "تعذّرت قراءة الملف."
+
+msgid "Paste a checksum to compare"
+msgstr "ألصق مجموع تحقق للمقارنة"
+
+msgid "Verify:"
+msgstr "تحقّق:"
+
+msgid "The checksums match."
+msgstr "مجاميع التحقق متطابقة."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "لا يتطابق أي مجموع تحقق محسوب. احسب النوع المطابق أولًا."
+
+msgid "Could not change the permissions."
+msgstr "تعذّر تغيير الأذونات."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "رشّح بالاسم (تعمل المحارف البديلة مثل ‎*.txt)"
+
+msgid "Keep the filter when changing folders"
+msgstr "أبقِ المرشّح عند تغيير المجلد"
+
+msgid "In This Folder"
+msgstr "في هذا المجلد"
+
+msgid "In Your Files"
+msgstr "في ملفاتك"
+
+msgid "Any Time"
+msgstr "أي وقت"
+
+msgid "Last 7 Days"
+msgstr "آخر 7 أيام"
+
+msgid "Last 30 Days"
+msgstr "آخر 30 يومًا"
+
+msgid "Last Year"
+msgstr "آخر سنة"
+
+msgid "Hidden files"
+msgstr "الملفات المخفية"
+
+msgid "Duplicate Tab"
+msgstr "كرّر اللسان"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "الإجراءات فوق شريط المكان في القائمة تقع على يساره، والبقية على يمينه. تُعلِّم * الإجراءات التي ليست في المكان الذي يضعها فيه شريط الأدوات المبدئي."
+
+msgid "A_vailable actions:"
+msgstr "الإجراءات ال_متاحة:"
+
+msgid "Add to the tool bar"
+msgstr "أضف إلى شريط الأدوات"
+
+msgid "Remove from the tool bar"
+msgstr "أزل من شريط الأدوات"
+
+msgid "Move up (left on the tool bar)"
+msgstr "انقل لأعلى (لليسار في شريط الأدوات)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "انقل لأسفل (لليمين في شريط الأدوات)"
+
+msgid "C_urrent actions:"
+msgstr "الإجراءات ال_حالية:"
+
+msgid "_Defaults"
+msgstr "ال_مبدئيات"
+
+msgid "Show Columns"
+msgstr "اعرض الأعمدة"
+
+msgid "Modified: %s"
+msgstr "عُدّل: %s"
+
+msgid "Original location: %s"
+msgstr "المكان الأصلي: %s"
+
+msgid "Less than 1 MiB"
+msgstr "أقل من 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "من 1 MiB إلى 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "من 100 MiB إلى 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB أو أكثر"
+
+msgid "Not counted yet"
+msgstr "لم يُعدّ بعد"
+
+msgid "A file name cannot contain “/”."
+msgstr "لا يمكن أن يحتوي اسم الملف على ”/“."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "تغيير اسم ”%s“ إلى ”%s“ يغيّر امتداده. قد يُفتح الملف بتطبيق آخر أو لا يُفتح أبدًا."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "وضع التحديد: انقر الملفات أو المجلدات لتحديدها أو إلغاء تحديدها."
+
+msgid "_Exit Selection Mode"
+msgstr "ا_خرج من وضع التحديد"
+
+msgid "_Duplicate"
+msgstr "_كرّر"
+
+msgid "De_lete"
+msgstr "ا_حذف"
+
+msgid "Pr_operties"
+msgstr "_خصائص"
+
+msgid "The folder “%s” no longer exists."
+msgstr "لم يعد المجلد ”%s“ موجودًا."
+
+msgid "“%s” selected (%s%s)"
+msgstr "حُدّد ”%s“ (%s%s)"
+
+msgid "%s selected"
+msgstr "حُدّد %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "حُدّد %d"
+msgstr[1] "حُدّد %d"
+msgstr[2] "حُدّد %d"
+msgstr[3] "حُدّد %d"
+msgstr[4] "حُدّد %d"
+msgstr[5] "حُدّد %d"
+
+msgid "Move left"
+msgstr "يسارًا"
+
+msgid "Move down"
+msgstr "لأسفل"
+
+msgid "Move up"
+msgstr "لأعلى"
+
+msgid "Move right"
+msgstr "يمينًا"
+
+msgid "First item"
+msgstr "أول عنصر"
+
+msgid "Last item"
+msgstr "آخر عنصر"
+
+msgid "Page down"
+msgstr "صفحة لأسفل"
+
+msgid "Page up"
+msgstr "صفحة لأعلى"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "حدّد العناصر التي يمر بها المؤشر (مرئي)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "حدّد مدى، كما مع Shift (سطر مرئي)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "حدّد كتلة من الشبكة (كتلة مرئية)"
+
+msgid "Back to normal mode"
+msgstr "عد إلى الوضع العادي"
+
+msgid "Copy the item under the cursor"
+msgstr "انسخ العنصر تحت المؤشر"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "غيّر الاسم، المؤشر في البداية (إدراج)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "غيّر الاسم، المؤشر بعد الاسم (إلحاق)"
+
+msgid "Rename, name selected (change)"
+msgstr "غيّر الاسم، الاسم محدد (تغيير)"
+
+msgid "Edit the location"
+msgstr "حرّر المكان"
+
+msgid "Copied."
+msgstr "نُسخ."
+
+msgid "Cut."
+msgstr "قُص."
+
+msgid "Can't open “%s”."
+msgstr "لا يمكن فتح ”%s“."
+
+msgid "A name is needed."
+msgstr "يلزم اسم."
+
+msgid "Unknown view: %s"
+msgstr "عرض مجهول: %s"
+
+msgid "Unknown option: %s"
+msgstr "خيار مجهول: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "رتّب حسب الاسم أو الحجم أو التاريخ أو النوع."
+
+msgid "Not a command: %s"
+msgstr "ليس أمرًا: %s"

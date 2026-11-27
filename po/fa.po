@@ -9,8 +9,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: beluga\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-25 15:34+0100\n"
 "PO-Revision-Date: ۲۰۱۶-۰۸-۲۰ ۱۵:۴۴+0330\n"
 "Last-Translator: Mohi Mirdamadi <mohi@ubuntu.ir>\n"
 "Language-Team: Persian <kde-i18n-fa@kde.org>\n"
@@ -20,70 +18,209 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+msgid "The archive could not be opened."
+msgstr "بایگانی باز نشد."
+
+msgid "The archive could not be read."
+msgstr "بایگانی خوانده نشد."
+
+msgid "Cancelled."
+msgstr "لغو شد."
+
+msgid "This file is encrypted with a password."
+msgstr "این پرونده با گذرواژه رمزنگاری شده است."
+
+#, c-format
+msgid "“%s” could not be read."
+msgstr "«%s» خوانده نشد."
+
+msgid "This is not a file in an archive."
+msgstr "این پرونده‌ای درون بایگانی نیست."
+
 msgid "Extract Here"
-msgstr ""
+msgstr "استخراج در اینجا"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "فشرده‌سازی به ‎.tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "هیچ شبیه‌ساز پایانه‌ای پیدا نشد."
 
 msgid "Root"
-msgstr ""
+msgstr "ریشه"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "حجم %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "این دستگاه را نمی‌توان سوار کرد."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "این دستگاه را نمی‌توان پیاده کرد."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "دستگاه دیگر وجود ندارد."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "رونوشت %s در «%s»"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "انتقال %s به «%s»"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "پیوند دادن %s در «%s»"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "انتقال %s به زباله‌دان"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "حذف %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "بازیابی %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "خالی کردن زباله‌دان"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "شمردن پرونده‌ها…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "«%s»: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "پوشه را نمی‌توان به درون خودش منتقل کرد."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "پوشه را نمی‌توان در خودش رونوشت کرد."
+
+msgid "Files can only be extracted into local folders."
+msgstr "پرونده‌ها را فقط می‌توان در پوشه‌های محلی استخراج کرد."
+
+#, c-format
+msgid "Extracting from “%s”"
+msgstr "استخراج از «%s»"
+
+msgid "Title:"
+msgstr "عنوان:"
+
+msgid "Artist:"
+msgstr "هنرمند:"
+
+msgid "Album artist:"
+msgstr "هنرمند آلبوم:"
+
+msgid "Album:"
+msgstr "آلبوم:"
+
+msgid "Track:"
+msgstr "شیار:"
+
+msgid "Disc:"
+msgstr "دیسک:"
+
+msgid "Date:"
+msgstr "تاریخ:"
+
+msgid "Genre:"
+msgstr "ژانر:"
+
+msgid "Composer:"
+msgstr "آهنگ‌ساز:"
+
+msgid "Performer:"
+msgstr "اجراکننده:"
+
+msgid "Publisher:"
+msgstr "ناشر:"
+
+msgid "Copyright:"
+msgstr "حق نشر:"
+
+msgid "Comment:"
+msgstr "توضیح:"
+
+msgid "Description:"
+msgstr "توصیف:"
+
+msgid "Language:"
+msgstr "زبان:"
+
+#, c-format
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+#, c-format
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Duration:"
+msgstr "مدت:"
+
+msgid "Format:"
+msgstr "قالب:"
+
+msgid "Bit rate:"
+msgstr "نرخ بیت:"
+
+msgid "Cover:"
+msgstr "جلد:"
+
+#, c-format
+msgid ", %.0f fps"
+msgstr "، %.0f قاب در ثانیه"
+
+#, c-format
+msgid ", %.3f fps"
+msgstr "، %.3f قاب در ثانیه"
+
+msgid "Video:"
+msgstr "ویدیو:"
+
+#, c-format
+msgid "Video %d:"
+msgstr "ویدیو %d:"
+
+#, c-format
+msgid ", %d Hz"
+msgstr "، %d هرتز"
+
+msgid "mono"
+msgstr "تک‌صدا"
+
+msgid "stereo"
+msgstr "استریو"
+
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d کانال"
+msgstr[1] "%d کانال"
+
+#, c-format
+msgid ", %d bit"
+msgstr "، %d بیت"
+
+msgid "Audio:"
+msgstr "صوتی:"
+
+#, c-format
+msgid "Audio %d:"
+msgstr "صدا %d:"
+
+msgid "Subtitles:"
+msgstr "زیرنویس‌ها:"
+
+msgid "Chapters:"
+msgstr "فصل‌ها:"
 
 msgid "Places"
 msgstr "مکان‌ها"
@@ -131,7 +268,7 @@ msgid "Recent Files"
 msgstr "پرونده‌های اخیر"
 
 msgid "Images"
-msgstr ""
+msgstr "تصاویر"
 
 msgid "Audio"
 msgstr "صوتی"
@@ -140,37 +277,37 @@ msgid "Folders"
 msgstr "پوشه‌ها"
 
 msgid "Archives"
-msgstr ""
+msgstr "بایگانی‌ها"
 
 msgid "All Files"
 msgstr "همه پرونده‌ها"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "جست‌وجوی «%s»"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "هیچ شبیه‌ساز پایانه‌ای پیدا نشد. یکی را در پیکربندی Beluga › عمومی › پایانه تنظیم کنید."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "این سامانهٔ پرونده زباله‌دان ندارد."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "پروندهٔ اطلاعات زباله‌دان ساخته نشد."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "«%s» از قبل وجود دارد."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "زباله‌دان از حد %s بزرگ‌تر است. خالی کردن آن را در نظر بگیرید."
 
 msgid "Copy"
 msgstr "رونوشت"
 
 msgid "Move"
-msgstr ""
+msgstr "انتقال"
 
 msgid "Link"
 msgstr "پیوند"
@@ -185,39 +322,39 @@ msgid "Create Folder"
 msgstr "ایجاد پوشه"
 
 msgid "Create File"
-msgstr ""
+msgstr "ساخت پرونده"
 
 msgid "Undo"
 msgstr "برگردان"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "برگردان: %s"
 
 msgid "Redo"
 msgstr "انجام دوباره"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "انجام دوباره: %s"
 
 #, c-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d مورد"
+msgstr[1] "%d مورد"
 
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d پرونده"
+msgstr[1] "%d پرونده"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d پوشه"
+msgstr[1] "%d پوشه"
 
 #, c-format
 msgid "%s, %s"
@@ -225,40 +362,43 @@ msgstr "%s، %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "امروز ساعت %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "دیروز ساعت %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A ساعت %H:%M"
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld ثانیه"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld دقیقه %ld ثانیه"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld ساعت %ld دقیقه"
 
 #, c-format
 msgid "%s copy"
-msgstr ""
+msgstr "%s رونوشت"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s رونوشت %d"
 
 msgid "Name"
 msgstr "نام"
 
 msgid "Size"
 msgstr "اندازه"
+
+msgid "Disk Usage"
+msgstr "مصرف دیسک"
 
 msgid "Modified"
 msgstr "تغییریافته"
@@ -273,7 +413,7 @@ msgid "Type"
 msgstr "نوع"
 
 msgid "Extension"
-msgstr ""
+msgstr "پسوند"
 
 msgid "Permissions"
 msgstr "مجوزها"
@@ -291,13 +431,31 @@ msgid "Link Destination"
 msgstr "مقصد پیوند"
 
 msgid "Deletion Time"
-msgstr ""
+msgstr "زمان حذف"
 
 msgid "Original Location"
-msgstr ""
+msgstr "مکان اصلی"
 
 msgid "Dimensions"
-msgstr ""
+msgstr "ابعاد"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga نتوانست به‌عنوان مدیر عمل کند."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "برای پرسیدن گذرواژهٔ مدیر به pkexec ‏(polkit) نیاز است. polkit و یک کارگزار polkit برای میزکار خود نصب کنید."
+
+msgid "Risks of Acting as an Administrator"
+msgstr "خطرهای عمل کردن به‌عنوان مدیر"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "پنجرهٔ Beluga با دسترسی مدیر می‌تواند هر پرونده‌ای را در این رایانه تغییر دهد یا حذف کند، از جمله پرونده‌هایی که سامانه برای راه‌اندازی به آن‌ها نیاز دارد. یک اشتباه در آنجا می‌تواند سامانه را از کار بیندازد. فقط برای پرونده‌هایی از آن استفاده کنید که به روش دیگری نمی‌توانید تغییرشان دهید و پس از پایان کار آن را ببندید.\n\nسپس Beluga گذرواژهٔ مدیر را می‌پرسد."
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "I Understand and Accept These Risks"
+msgstr "این خطرها را می‌فهمم و می‌پذیرم"
 
 msgid "New Window"
 msgstr "پنجره جدید‌"
@@ -318,7 +476,7 @@ msgid "Delete"
 msgstr "حذف"
 
 msgid "Duplicate Here"
-msgstr ""
+msgstr "تکثیر در اینجا"
 
 msgid "Properties"
 msgstr "ویژگیها"
@@ -339,7 +497,7 @@ msgid "Search"
 msgstr "جست‌وجو"
 
 msgid "Select Files and Folders"
-msgstr ""
+msgstr "گزینش پرونده‌ها و پوشه‌ها"
 
 msgid "Select All"
 msgstr "برگزیدن همه‌"
@@ -348,10 +506,10 @@ msgid "Invert Selection"
 msgstr "معکوس کردن انتخاب"
 
 msgid "Copy to Other View"
-msgstr ""
+msgstr "رونوشت به نمای دیگر"
 
 msgid "Move to Other View"
-msgstr ""
+msgstr "انتقال به نمای دیگر"
 
 msgid "Icons View"
 msgstr "نمای نقشکی"
@@ -363,7 +521,7 @@ msgid "Details View"
 msgstr "نمای جزئیات"
 
 msgid "Columns View"
-msgstr ""
+msgstr "نمای ستونی"
 
 msgid "Zoom In"
 msgstr "بزرگ‌نمایی‌"
@@ -372,22 +530,25 @@ msgid "Zoom Out"
 msgstr "کوچک‌نمایی‌"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "بازنشانی بزرگ‌نمایی"
 
 msgid "Show Hidden Files"
 msgstr "نمایش پرونده‌های مخفی"
+
+msgid "Act as Administrator"
+msgstr "عمل به‌عنوان مدیر"
 
 msgid "Split View"
 msgstr "تقسیم نما‌"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "تمرکز بر نمای دیگر"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "جدا کردن نمای تقسیم‌شده"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "نمای تقسیم‌شده به زبانه‌ها"
 
 msgid "Reload"
 msgstr "بارگذاری مجدد"
@@ -399,19 +560,25 @@ msgid "Replace Location"
 msgstr "جایگزینی مکان"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "تابلوی مکان‌ها"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "تابلوی پوشه‌ها"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "تابلوی اطلاعات"
+
+msgid "Disk Usage Panel"
+msgstr "تابلوی مصرف دیسک"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "تمرکز بر تابلوی مکان‌ها"
 
 msgid "Show Menubar"
 msgstr "نمایش میله گزینگان‌"
+
+msgid "Show Statusbar"
+msgstr "نمایش میله وضعیت‌"
 
 msgid "Back"
 msgstr "پس‌سو‌"
@@ -423,34 +590,34 @@ msgid "Up"
 msgstr "بالا‌"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۱"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۲"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۳"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۴"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۵"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۶"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۷"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۸"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "رفتن به زبانهٔ ۹"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "رفتن به واپسین زبانه"
 
 msgid "Next Tab"
 msgstr "برگه بعد"
@@ -462,35 +629,35 @@ msgid "Open Terminal"
 msgstr "باز کردن پایانه"
 
 msgid "Open Terminal Here"
-msgstr ""
+msgstr "باز کردن پایانه در اینجا"
 
-msgid "Disk Usage"
-msgstr ""
+msgid "Configure Toolbars"
+msgstr "پیکربندی نوارهای ابزار"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "پیکربندی Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "برگرداندن انجام نشد."
 
 msgid "Folder…"
-msgstr ""
+msgstr "پوشه…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "پروندهٔ متنی…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "پروندهٔ خالی…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "پیوند به پرونده یا پوشه…"
 
 msgid "Create New"
 msgstr "ایجاد کردن جدید"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "نمای دیگر (%s)"
 
 msgid "Browse…"
 msgstr "مرور…"
@@ -505,14 +672,14 @@ msgid "Open"
 msgstr "گشودن"
 
 msgid "Open With…"
-msgstr ""
+msgstr "باز کردن با…"
 
 #, c-format
 msgid "Open with %s"
 msgstr "باز کردن %s با‌"
 
 msgid "Other Application…"
-msgstr ""
+msgstr "برنامهٔ دیگر…"
 
 msgid "Open With"
 msgstr "گشودن با"
@@ -530,7 +697,7 @@ msgid "View Mode"
 msgstr "حالت نما"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "به خاطر سپردن نما برای این پوشه"
 
 msgid "Restore"
 msgstr "بازآوری"
@@ -545,86 +712,86 @@ msgid "Open in New Window"
 msgstr "باز کردن در پنجره جدید"
 
 msgid "Open in Split View"
-msgstr ""
+msgstr "باز کردن در نمای تقسیم‌شده"
+
+msgid "Open in Beluga"
+msgstr "باز کردن در Beluga"
 
 msgid "Open Containing Folder"
 msgstr "گشودن پروندهٔ محتوی"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "چسباندن در پوشه"
 
 msgid "Rename…"
-msgstr ""
+msgstr "تغییر نام…"
 
 msgid "Show Target"
-msgstr ""
+msgstr "نمایش مقصد"
 
 msgid "Close"
 msgstr "بستن"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_لغو"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "نام نمی‌تواند «/» داشته باشد."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "نامی که با نقطه شروع شود پنهان است."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "نام برخی موارد تغییر نکرد."
 
 msgid "Rename Item"
 msgstr "تغییر نام‌ مورد"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "تغییر نام «%s» به:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_تغییر نام"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "نام «%s» تغییر نکرد."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "نوع پرونده تغییر کند؟"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
-
-msgid "Cancel"
-msgstr "لغو"
+msgstr "تغییر نام «%s» به «%s» پسوند آن را تغییر می‌دهد."
 
 msgid "Rename Items"
 msgstr "تغییر نام‌ موارد"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "تغییر نام %zu مورد گزیده به:"
 
 msgid "New name #"
 msgstr "نام جدید #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# با اعداد صعودی جایگزین می‌شود؛ برای صفرهای آغازین از ## استفاده کنید. پسوندها حفظ می‌شوند."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "شروع شماره‌گذاری از:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_انتقال به اینجا"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_رونوشت در اینجا"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_پیوند در اینجا"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "_لغو"
 
 msgid "Add Places Entry"
 msgstr "افزودن ورودی مکان‌ها"
@@ -636,25 +803,28 @@ msgid "Label:"
 msgstr "برچسب:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "یک پوشه برگزینید"
 
 msgid "Location:"
 msgstr "محل:"
 
+msgid "C_hoose…"
+msgstr "_گزینش…"
+
 msgid "Icon name:"
-msgstr ""
+msgstr "نام نماد:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "یک پوشه برگزینید"
 
 msgid "_Add"
-msgstr ""
+msgstr "_افزودن"
 
 msgid "_Save"
-msgstr ""
+msgstr "_ذخیره"
 
 msgid "View Display Style"
-msgstr ""
+msgstr "سبک نمایش نما"
 
 msgid "Icons"
 msgstr "شمایل‌ها"
@@ -681,38 +851,38 @@ msgid "Descending"
 msgstr "نزولی"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "نمایش _پوشه‌ها در ابتدا"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "نمایش پرونده‌های پنهان در _انتها"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "نمایش _پیش‌نمایش‌ها"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "نمایش در _گروه‌ها"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "نمایش پرونده‌های _پنهان"
 
 msgid "Apply to"
-msgstr ""
+msgstr "اعمال بر"
 
 msgid "Current folder"
 msgstr "پوشه‌جاری"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "پوشهٔ کنونی همراه همهٔ زیرپوشه‌ها"
 
 msgid "All folders"
 msgstr "تمام پوشه‌ها"
 
 msgid "_OK"
-msgstr ""
+msgstr "_تأیید"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "تغییر یافته %s"
 
 msgid "Folder Already Exists"
 msgstr "در حال حاضر، پوشه موجود است"
@@ -722,35 +892,35 @@ msgstr "پرونده هم‌اکنون موجود است"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "پوشه‌ای با نام «%s» از قبل در «%s» وجود دارد."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "پرونده‌ای با نام «%s» از قبل در «%s» وجود دارد."
 
 msgid "Existing item"
-msgstr ""
+msgstr "مورد موجود"
 
 msgid "New item"
-msgstr ""
+msgstr "مورد جدید"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_پیشنهاد نام جدید"
 
 msgid "New name:"
-msgstr ""
+msgstr "نام جدید:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "اعمال بر _همه"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_رد شدن"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_نوشتن درون آن"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_بازنویسی"
 
 msgid "Skip"
 msgstr "پرش‌"
@@ -761,83 +931,202 @@ msgstr "پرش از همه"
 msgid "Retry"
 msgstr "تلاش دوباره"
 
+msgid "Choose an Icon"
+msgstr "انتخاب یک نقشک"
+
+msgid "Search icons…"
+msgstr "جست‌وجوی نمادها…"
+
+msgid "_Image File…"
+msgstr "پروندهٔ _تصویر…"
+
+msgid "_Default Icon"
+msgstr "نماد _پیش‌فرض"
+
+msgid "Choose an Image"
+msgstr "یک تصویر برگزینید"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "مکان‌های شبکه به gvfs نیاز دارند. بستهٔ gvfs (و gvfs-smb برای اشتراک‌های ویندوز، gvfs-nfs برای NFS) را نصب کنید، سپس خارج شوید و دوباره وارد شوید."
+
 msgid "This location is not a folder."
-msgstr ""
+msgstr "این مکان پوشه نیست."
+
+msgid "This location is not valid."
+msgstr "این مکان معتبر نیست."
+
+msgid "This folder is not in the archive."
+msgstr "این پوشه در بایگانی نیست."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s پروندهٔ کوچک‌تر"
+msgstr[1] "%s پروندهٔ کوچک‌تر"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(درایو دیگر، شمرده نشد)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
-
-#, c-format
-msgid "Reading… %s in %s files and %s folders"
-msgstr ""
-
-msgid "Stopped."
-msgstr ""
-
-msgid "This folder could not be read."
-msgstr ""
+msgstr "بخشی از محتوای آن خوانده نشد."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s در پرونده‌ها"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s روی دیسک"
 
 #, c-format
-msgid "%s files and %s folders, read in %.1f s"
-msgstr ""
+msgid "%s files and %s folders"
+msgstr "%s پرونده و %s پوشه"
+
+#, c-format
+msgid "Reading… %s in %s files and %s folders"
+msgstr "در حال خواندن… %s در %s پرونده و %s پوشه"
+
+msgid "Stopped."
+msgstr "متوقف شد."
+
+msgid "This folder could not be read."
+msgstr "این پوشه خوانده نشد."
+
+#, c-format
+msgid "%s, read in %.1f s"
+msgstr "%s، خوانده‌شده در %.1f ثانیه"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s پوشه خوانده نشد."
+msgstr[1] ". %s پوشه خوانده نشد."
+
+msgid "Only folders on this computer can be measured."
+msgstr "فقط پوشه‌های این رایانه را می‌توان اندازه گرفت."
+
+msgid "read less than a minute ago"
+msgstr "کمتر از یک دقیقه پیش خوانده شد"
+
+#, c-format
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d دقیقه پیش خوانده شد"
+msgstr[1] "%d دقیقه پیش خوانده شد"
+
+#, c-format
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d ساعت پیش خوانده شد"
+msgstr[1] "%d ساعت پیش خوانده شد"
+
+#, c-format
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s، %s. برای خواندن دوباره، دوباره پویش کنید."
+
+msgid "_Apparent size"
+msgstr "اندازهٔ _ظاهری"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "جمع اندازهٔ پرونده‌ها به‌جای فضایی که روی دیسک می‌گیرند."
+
+msgid "_Stay on this drive"
+msgstr "_ماندن روی این درایو"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "درایوهای دیگری که درون این پوشه سوار شده‌اند شمرده نشوند (مانند پوشهٔ موسیقی روی دیسکی دیگر). پیوندها هرگز دنبال نمی‌شوند."
+
+msgid "Rescan"
+msgstr "پویش دوباره"
+
+msgid "Stop"
+msgstr "ایست"
+
+msgid "Close Disk Usage"
+msgstr "بستن مصرف دیسک"
+
+msgid "_Rescan"
+msgstr "_پویش دوباره"
+
+msgid "S_top"
+msgstr "_توقف"
+
+msgid "Share"
+msgstr "هم‌رسانی"
+
+msgid "Files"
+msgstr "پرونده‌ها"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "مصرف دیسک – %s"
 
-msgid "_Apparent size"
-msgstr ""
+#, c-format
+msgid "“%s” already exists. Replace it?"
+msgstr "«%s» از قبل وجود دارد. جایگزین شود؟"
 
-msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+#, c-format
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu تا از این پرونده‌ها از قبل وجود دارند. جایگزین شوند؟"
 
-msgid "_Stay on this drive"
-msgstr ""
+msgid "The program you are saving from will write over the existing contents."
+msgstr "برنامه‌ای که از آن ذخیره می‌کنید روی محتوای موجود می‌نویسد."
 
-msgid "Don't count other drives that are mounted inside this folder."
-msgstr ""
+msgid "Replace"
+msgstr "جایگزینی"
 
-msgid "_Rescan"
-msgstr ""
+msgid "Choose a folder to save in."
+msgstr "پوشه‌ای برای ذخیره برگزینید."
 
-msgid "S_top"
-msgstr ""
+msgid "Select Folder"
+msgstr "گزینش پوشه"
 
-msgid "Share"
-msgstr ""
+msgid "Open Files"
+msgstr "باز کردن پرونده‌ها"
 
-msgid "Files"
-msgstr ""
+msgid "Open File"
+msgstr "باز کردن پرونده"
+
+msgid "Save File"
+msgstr "ذخیرهٔ پرونده"
+
+msgid "Save Files"
+msgstr "ذخیرهٔ پرونده‌ها"
+
+msgid "_Folder:"
+msgstr "_پوشه:"
+
+msgid "_Name:"
+msgstr "_نام:"
+
+msgid "_Type:"
+msgstr "_نوع:"
+
+msgid "_Select"
+msgstr "_گزینش"
+
+msgid "_Open"
+msgstr "_باز کردن"
+
+msgid "New Folder"
+msgstr "پوشهٔ جدید"
+
+#, c-format
+msgid "Create new folder in:\n%s"
+msgstr "ساخت پوشهٔ جدید در:\n%s"
+
+msgid "C_reate"
+msgstr "_ساختن"
+
+msgid "Could not create the folder."
+msgstr "پوشه ساخته نشد."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu مورد گزیده شد"
 
 msgid "Contents:"
-msgstr ""
+msgstr "محتوا:"
 
 msgid "Size:"
 msgstr "اندازه:"
@@ -846,13 +1135,13 @@ msgid "Type:"
 msgstr "نوع:"
 
 msgid "Folder"
-msgstr ""
+msgstr "پوشه"
 
 msgid "Contains:"
-msgstr ""
+msgstr "شامل:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "در حال شمردن…"
 
 msgid "Unknown"
 msgstr "ناشناخته"
@@ -879,174 +1168,183 @@ msgid "Group:"
 msgstr "گروه:"
 
 msgid "Dimensions:"
-msgstr ""
-
-msgid "Duration:"
-msgstr "مدت:"
+msgstr "ابعاد:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "پیوند شکسته"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (پیوند)"
+
+msgid "other drive"
+msgstr "درایو دیگر"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s از %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s باقی مانده"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d از %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "عملیات پرونده در جریان است"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "بدون زیرپوشه"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "گزینش پرونده‌های داده‌شده در پوشه‌هایشان"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "باز کردن پنجره در نمای تقسیم‌شده"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "همیشه پنجرهٔ جدید باز شود"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "ادامهٔ اجرا در پس‌زمینه برای خدمت D-Bus به نام FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "جدا شدن از پایانه (بدون مکان: پوشهٔ کنونی باز می‌شود)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "اجرای گزینشگر پرونده برای xdg-desktop-portal (با D-Bus آغاز می‌شود)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "نمایش نگارش"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[پرونده یا پوشه…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "در حال عمل به‌عنوان مدیر: تغییرات در این پنجره می‌تواند به سامانه آسیب بزند."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "این پنجره بسته شود؟"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "این پنجره %zu زبانهٔ باز دارد. بستن آن همه را می‌بندد."
 
 msgid "Close Window"
-msgstr ""
+msgstr "بستن پنجره"
 
-msgid "View Settings"
-msgstr ""
+msgid "Configure Toolbars…"
+msgstr "پیکربندی نوارهای ابزار…"
 
-msgid "Menu"
-msgstr "گزینگان"
+msgid "Show _Toolbar"
+msgstr "نمایش _نوار ابزار"
+
+msgid "Split"
+msgstr "تقسیم"
 
 msgid "Folders First"
 msgstr "ابتدا پوشه‌ها"
 
 msgid "Hidden Files Last"
-msgstr ""
+msgstr "پرونده‌های پنهان در انتها"
 
 msgid "Show in Groups"
 msgstr "نمایش گروهی"
 
 msgid "_File"
-msgstr ""
+msgstr "_پرونده"
 
 msgid "New _Window"
-msgstr ""
+msgstr "_پنجرهٔ جدید"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "_زبانهٔ جدید"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_بستن زبانه"
 
 msgid "Create _New"
-msgstr ""
+msgstr "ساخت _جدید"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_تغییر نام…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_تکثیر در اینجا"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "انتقال به _زباله‌دان"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_حذف"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "بازیابی از زباله‌دان"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_ویژگی‌ها"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_خروج"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_ویرایش"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_برگردان"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_انجام دوباره"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_برش"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_رونوشت"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_چسباندن"
 
 msgid "Filter…"
-msgstr ""
+msgstr "پالایه…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_جست‌وجو…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "گزینش _همه"
 
 msgid "_View"
-msgstr ""
+msgstr "_نما"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_بزرگ‌نمایی"
 
 msgid "Reset Zoom Level"
-msgstr ""
+msgstr "بازنشانی سطح بزرگ‌نمایی"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_کوچک‌نمایی"
 
 msgid "Show Additional Information"
-msgstr ""
+msgstr "نمایش اطلاعات بیشتر"
 
 msgid "Show Previews"
-msgstr ""
+msgstr "نمایش پیش‌نمایش‌ها"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "بازگرداندن پیش‌فرض‌ها"
 
 msgid "Adjust View Display Style…"
-msgstr ""
+msgstr "تنظیم سبک نمایش نما…"
 
 msgid "Re_load"
-msgstr ""
-
-msgid "Stop"
-msgstr "ایست"
+msgstr "_بارگذاری دوباره"
 
 msgid "Panels"
-msgstr ""
+msgstr "تابلوها"
 
 msgid "Information"
 msgstr "اطلاعات"
@@ -1055,173 +1353,175 @@ msgid "Location Bar"
 msgstr "میله محل"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "نمایش نوار _فهرست"
 
-msgid "Show _Toolbar"
-msgstr ""
+msgid "Show _Statusbar"
+msgstr "نمایش نوار _وضعیت"
 
 msgid "_Go"
-msgstr ""
+msgstr "_رفتن"
 
 msgid "_Back"
-msgstr ""
+msgstr "_پس"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_پیش"
 
 msgid "_Up"
-msgstr ""
+msgstr "_بالا"
 
 msgid "_Home"
-msgstr ""
+msgstr "_خانه"
 
 msgid "Recently Closed Tabs"
 msgstr "برگه‌های اخیرا بسته‌شده"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_ابزارها"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "باز کردن _پایانه"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "باز کردن پایانه در _اینجا"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_مصرف دیسک…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_تنظیمات"
+
+msgid "Configure Tool_bars…"
+msgstr "پیکربندی _نوارهای ابزار…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_پیکربندی Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "هیچ زبانهٔ تازه‌بسته‌شده‌ای نیست"
+
+msgid "(Administrator)"
+msgstr "(مدیر)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "%zu پوشه در زبانه‌های جدید باز شوند؟"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "باز کردن پوشه‌ها"
+
+#, c-format
+msgid "Could not open “%s”."
+msgstr "«%s» باز نشد."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "پایانه باز نشد."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "پروندهٔ متنی جدید.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "پروندهٔ جدید"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "زباله‌دان خالی شود؟"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "همهٔ موارد زباله‌دان برای همیشه حذف می‌شوند. این کار برگشت‌پذیر نیست."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "%zu پایانه باز شوند؟"
 
 msgid "Open Terminals"
-msgstr ""
-
-msgid "New Folder"
-msgstr "پوشهٔ جدید"
+msgstr "باز کردن پایانه‌ها"
 
 #, c-format
-msgid ""
-"Create new folder in:\n"
-"%s"
-msgstr ""
-
-msgid "C_reate"
-msgstr ""
-
-msgid "Could not create the folder."
-msgstr ""
-
-#, c-format
-msgid ""
-"Create new file in:\n"
-"%s"
-msgstr ""
+msgid "Create new file in:\n%s"
+msgstr "ساخت پروندهٔ جدید در:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "پرونده ساخته نشد."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "پیوند به پرونده یا پوشه"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "مسیر پرونده یا پوشه‌ای که پیوند به آن است:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "پیوند ساخته نشد."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s برای همیشه حذف شود؟"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "این کار برگشت‌پذیر نیست."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s به زباله‌دان منتقل شود؟"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "«%s» اجرا نشد."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s آغاز نشد."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "برنامه آغاز نشد."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "«%s» یک پروندهٔ اجرایی است."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "می‌خواهید آن را اجرا کنید یا در یک برنامه باز کنید؟"
 
 msgid "Run"
-msgstr ""
+msgstr "اجرا"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "برنامه‌ای برای باز کردن %s ‏(%s) برگزینید:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "برنامه‌های پیشنهادی"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "برنامه‌های دیگر"
 
 msgid "Or command:"
-msgstr ""
+msgstr "یا فرمان:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
-
-msgid "_Open"
-msgstr ""
+msgstr "به خاطر سپردن برنامهٔ وابسته برای این نوع پرونده"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s آزاد از %s"
 
 msgid "Safely Remove"
 msgstr "حذف ایمن"
 
+msgid "Configure Sections"
+msgstr "پیکربندی بخش‌ها"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "بخش‌های علامت‌خورده به همین ترتیب در تابلوی مکان‌ها نمایش داده می‌شوند."
+
+msgid "Move Up"
+msgstr "انتقال به بالا"
+
+msgid "Move Down"
+msgstr "انتقال به پایین"
+
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "دستگاه سوار نشد: %s"
 
 msgid "Mount"
 msgstr "سوار کردن"
@@ -1247,41 +1547,44 @@ msgstr "نهفتن بخش"
 msgid "Add Entry…"
 msgstr "افزودن ورودی…"
 
+msgid "Configure Sections…"
+msgstr "پیکربندی بخش‌ها…"
+
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "پنهان کردن ورودی‌های پنهان"
 
 msgid "Show All Entries"
 msgstr "نمایش همه مدخلها‌"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "همهٔ موارد زباله‌دان برای همیشه حذف می‌شوند."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "دستگاه با امنیت جدا نشد: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "دستگاه پیاده نشد: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "استفاده از قلم _سامانه"
 
-msgid "View font:"
-msgstr ""
+msgid "Label font:"
+msgstr "قلم برچسب:"
 
-msgid "Icon size:"
-msgstr "اندازه شمایل:"
+msgid "Default icon size:"
+msgstr "اندازهٔ پیش‌فرض نماد:"
 
-msgid "Preview size:"
-msgstr "اندازه پیش‌نمایش:"
+msgid "Preview icon size:"
+msgstr "اندازهٔ نماد پیش‌نمایش:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "کنش فهرست زمینه"
 
 msgid "Name:"
 msgstr "نام:"
@@ -1290,231 +1593,424 @@ msgid "Command:"
 msgstr "فرمان:"
 
 msgid "File names:"
-msgstr ""
+msgstr "نام پرونده‌ها:"
 
 msgid "Types:"
-msgstr ""
+msgstr "نوع‌ها:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f نخستین پرونده، %F همهٔ پرونده‌ها، %u / %U به‌صورت URI، %n / %N نام‌ها، %d پوشهٔ کنونی."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "نمایش برای _پرونده‌ها"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "نمایش برای _پوشه‌ها"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "نمایش هنگامی که _چند مورد گزیده شده‌اند"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "اجرا در _پایانه"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "کنش‌های سفارشی"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "ورودی‌های خودتان برای فهرست زمینهٔ پرونده‌ها و پوشه‌ها."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_افزودن…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_ویرایش…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_برداشتن"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "میان‌برها مانند <Control>c یا <Shift>Delete نوشته می‌شوند. چندتا را با ویرگول جدا کنید. برای پیش‌فرض، فیلد را خالی بگذارید."
+
+msgid "no file"
+msgstr "بدون پرونده"
+
+msgid "files of any size"
+msgstr "پرونده‌ها با هر اندازه"
+
+#, c-format
+msgid "files below %d MiB"
+msgstr "پرونده‌های کوچک‌تر از %d MiB"
+
+msgid "Search…"
+msgstr "جست‌وجو…"
+
+msgid "_Restore Defaults"
+msgstr "_بازگرداندن پیش‌فرض‌ها"
+
+msgid "_Apply"
+msgstr "_اعمال"
+
+msgid "Folders & Tabs"
+msgstr "پوشه‌ها و زبانه‌ها"
+
+msgid "Show on startup:"
+msgstr "نمایش هنگام آغاز:"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "پوشه‌ها، زبانه‌ها و وضعیت پنجره از دفعهٔ پیش"
+
+msgid "This location:"
+msgstr "این مکان:"
+
+msgid "Use Current Location"
+msgstr "استفاده از محل کنونی"
+
+msgid "Use Default Location"
+msgstr "استفاده از محل پیش‌فرض"
+
+msgid "Opening Folders:"
+msgstr "باز کردن پوشه‌ها:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "نگه داشتن یک پنجرهٔ Beluga و باز کردن پوشه‌های جدید در زبانه‌ها"
+
+msgid "Window:"
+msgstr "پنجره:"
+
+msgid "Show full path in title bar"
+msgstr "نمایش مسیر کامل در نوار عنوان"
+
+msgid "Show filter bar"
+msgstr "نمایش نوار پالایه"
+
+msgid "Tabs:"
+msgstr "زبانه‌ها:"
+
+msgid "Always show tab bar"
+msgstr "همیشه نمایش نوار زبانه"
+
+msgid "Show close button on tabs"
+msgstr "نمایش دکمهٔ بستن روی زبانه‌ها"
+
+msgid "Tab style:"
+msgstr "سبک زبانه:"
+
+msgid "Tab width adapts to folder name"
+msgstr "پهنای زبانه با نام پوشه تنظیم می‌شود"
+
+msgid "Tabs all have the same fixed width"
+msgstr "همهٔ زبانه‌ها پهنای ثابت یکسانی دارند"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "زبانه‌های با پهنای ثابت وقتی جا نشوند، همگی به یک اندازه باریک‌تر می‌شوند."
+
+msgid "Open new tabs:"
+msgstr "باز کردن زبانه‌های جدید:"
+
+msgid "After current tab"
+msgstr "پس از زبانهٔ کنونی"
+
+msgid "At end of tab bar"
+msgstr "در انتهای نوار زبانه"
+
+msgid "Split view:"
+msgstr "تقسیم نما‌:"
+
+msgid "When closing a split view"
+msgstr "هنگام بستن نمای تقسیم‌شده"
+
+msgid "Close the active pane"
+msgstr "بستن قاب فعال"
+
+msgid "Close the inactive pane"
+msgstr "بستن قاب غیرفعال"
+
+msgid "Close the right pane"
+msgstr "بستن قاب راست"
+
+msgid "Open new windows in split view mode"
+msgstr "باز کردن پنجره‌های جدید در حالت نمای تقسیم‌شده"
+
+msgid "Terminal:"
+msgstr "پایانه:"
+
+msgid "No terminal found"
+msgstr "پایانه‌ای پیدا نشد"
+
+#, c-format
+msgid "Detected: %s"
+msgstr "شناسایی‌شده: %s"
+
+#, c-format
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "F4 و باز کردن پایانه در اینجا از آن استفاده می‌کنند. ‎%d در فرمان با پوشه جایگزین می‌شود؛ در غیر این صورت پایانه در آن آغاز می‌شود. این پیش‌تر یک تنظیم سامانهٔ KDE بود."
+
+msgid "Previews"
+msgstr "پیش‌نمایش‌ها"
+
+msgid "New folders:"
+msgstr "پوشه‌های جدید:"
+
+msgid "Show _previews in new folders"
+msgstr "نمایش _پیش‌نمایش‌ها در پوشه‌های جدید"
+
+msgid "Show previews in the view for:"
+msgstr "نمایش پیش‌نمایش در نما برای:"
+
+msgid "Audio (cover art)"
+msgstr "صدا (تصویر جلد)"
+
+msgid "PDF documents"
+msgstr "سندهای PDF"
+
+msgid "Text files"
+msgstr "پرونده‌های متنی"
+
+msgid "Fonts"
+msgstr "قلم‌ها"
+
+msgid "Office documents"
+msgstr "سندهای اداری"
+
+msgid "Local storage:"
+msgstr "ذخیره‌ساز محلی:"
+
+msgid "Show previews for"
+msgstr "نمایش پیش‌نمایش برای"
+
+msgid "Remote storage:"
+msgstr "ذخیره‌ساز دوردست:"
+
+msgid "Confirmations"
+msgstr "تصدیق"
+
+msgid "Ask for confirmation when:"
+msgstr "درخواست تأیید هنگام:"
+
+msgid "Moving files or folders to trash"
+msgstr "حرکت پرونده‌ها یا پوشه‌ها به زباله"
+
+msgid "Emptying trash"
+msgstr "خالی کردن زباله‌دان"
+
+msgid "Deleting files or folders"
+msgstr "حذف پرونده‌ها با پوشه‌ها"
+
+msgid "Renaming a file will change its type"
+msgstr "تغییر نام پرونده نوع آن را تغییر می‌دهد"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "درخواست تأیید در Beluga هنگام:"
+
+msgid "Closing windows with multiple tabs"
+msgstr "بستن پنجره‌های دارای چند زبانه"
+
+msgid "Opening many folders at once"
+msgstr "باز کردن پوشه‌های زیاد با هم"
+
+msgid "Opening many terminals at once"
+msgstr "باز کردن پایانه‌های زیاد با هم"
+
+msgid "Switching to act as an administrator"
+msgstr "تغییر به عمل کردن به‌عنوان مدیر"
+
+msgid "When opening an executable file:"
+msgstr "هنگام باز کردن پروندهٔ اجرایی:"
+
+msgid "Always ask"
+msgstr "همیشه بپرس"
+
+msgid "Open in application"
+msgstr "باز کردن در برنامه"
+
+msgid "Run script"
+msgstr "اجرای اسکریپت"
+
+msgid "Information Panel:"
+msgstr "تابلوی اطلاعات:"
+
+msgid "Show previews"
+msgstr "نمایش پیش‌نمایش‌ها"
+
+msgid "Auto-play media files"
+msgstr "پخش خودکار پرونده‌های رسانه"
+
+msgid "Show item on hover"
+msgstr "نمایش مورد هنگام گذر نشانگر"
+
+msgid "Use _long date format"
+msgstr "استفاده از قالب _بلند تاریخ"
+
+msgid "Folders Panel:"
+msgstr "تابلوی پوشه‌ها:"
+
+msgid "Limit to home directory when inside it"
+msgstr "محدود به پوشهٔ خانه هنگامی که درون آن هستید"
+
+msgid "Show _hidden folders"
+msgstr "نمایش پوشه‌های _پنهان"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "پیمایش _خودکار تا پوشهٔ کنونی"
+
+msgid "Places Panel:"
+msgstr "تابلوی مکان‌ها:"
+
+msgid "Icon size:"
+msgstr "اندازه شمایل:"
+
+msgid "Status & Location bars"
+msgstr "نوارهای وضعیت و مکان"
+
+msgid "Status Bar:"
+msgstr "نوار وضعیت:"
+
+msgid "Small"
+msgstr "کوچک"
+
+msgid "Full width"
+msgstr "تمام‌پهنا"
+
+msgid "Disabled"
+msgstr "از کار افتاده"
+
+msgid "Show zoom slider"
+msgstr "نمایش لغزاننده‌ی بزرگنمایی"
+
+msgid "Show free _space"
+msgstr "نمایش _فضای آزاد"
+
+msgid "Location bar:"
+msgstr "میله محل:"
+
+msgid "Make location bar editable"
+msgstr "نوار مکان ویرایش‌پذیر باشد"
+
+msgid "Show full path inside location bar"
+msgstr "در میله مکان، آدرس کامل را نشان بده"
+
+msgid "Interface"
+msgstr "میانا"
 
 msgid "General"
 msgstr "عمومی‌"
 
-msgid "Startup"
-msgstr "شروع"
+msgid "Display style:"
+msgstr "سبک نمایش:"
 
-msgid "_Home folder:"
-msgstr ""
+msgid "Use common display style for all folders"
+msgstr "استفاده از سبک نمایش مشترک برای همهٔ پوشه‌ها"
 
-msgid "_Remember open folders and tabs"
-msgstr ""
+msgid "Remember display style for each folder"
+msgstr "به خاطر سپردن سبک نمایش برای هر پوشه"
 
-msgid "Begin in _split view mode"
-msgstr ""
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "در هر حال، نما › به خاطر سپردن نما برای این پوشه به یک پوشه سبک ویژهٔ خودش را می‌دهد. برخی نماهای ویژه مانند جست‌وجو، پرونده‌های اخیر یا زباله‌دان همچنان سبک خودشان را دارند."
 
-msgid "Show _filter bar"
-msgstr ""
+msgid "Browsing:"
+msgstr "مرور:"
 
-msgid "Make location bar _editable"
-msgstr ""
+msgid "Browse compressed files as folders"
+msgstr "مرور پرونده‌های فشرده مانند پوشه"
 
-msgid "Show full path inside _location bar"
-msgstr ""
+msgid "Open folders during drag operations"
+msgstr "باز کردن پوشه‌ها در حین عملیات کشاندن"
 
-msgid "Show full path in _title bar"
-msgstr ""
+msgid "Open files and folders with a single click"
+msgstr "باز کردن پرونده‌ها و پوشه‌ها با یک کلیک"
 
-msgid "Mouse"
-msgstr ""
+msgid "Keep an _index of the home folder for instant search"
+msgstr "نگه‌داشتن _نمایه از پوشهٔ خانه برای جست‌وجوی فوری"
 
-msgid "These used to be KDE system settings."
-msgstr ""
+msgid "Miscellaneous:"
+msgstr "گوناگون:"
 
-msgid "Clicking files or folders:"
-msgstr ""
+msgid "Show item information on hover"
+msgstr "نمایش اطلاعات مورد هنگام گذر نشانگر"
 
-msgid "Selects them (double-click opens)"
-msgstr ""
+msgid "Show selection marker"
+msgstr "نمایش علامت گزینش"
 
-msgid "Opens them"
-msgstr ""
+msgid "Rename single items inline"
+msgstr "تغییر نام تک‌موردها درجا"
 
-msgid "Double-clicking empty space:"
-msgstr ""
+msgid "Also hide backup files while hiding hidden files"
+msgstr "پنهان کردن پرونده‌های پشتیبان همراه با پرونده‌های پنهان"
 
-msgid "Does nothing"
-msgstr ""
+msgid "Background:"
+msgstr "پس‌زمینه:"
 
-msgid "Selects all items"
-msgstr ""
+msgid "Double-click triggers"
+msgstr "دوکلیک انجام می‌دهد"
 
-msgid "Goes up"
-msgstr ""
-
-msgid "Opens a new tab"
-msgstr ""
-
-msgid "Toggles hidden files"
-msgstr ""
-
-msgid "Tabs and Split View"
-msgstr ""
-
-msgid "Open new tabs after the _last tab"
-msgstr ""
-
-msgid "_Always show the tab bar"
-msgstr ""
-
-msgid "Show _close buttons on tabs"
-msgstr ""
-
-msgid "Open folders from other applications in a new _tab"
-msgstr ""
-
-msgid "Closing split view closes:"
-msgstr ""
-
-msgid "The active view"
-msgstr ""
-
-msgid "The inactive view"
-msgstr ""
-
-msgid "The right view"
-msgstr ""
-
-msgid "Behavior"
-msgstr "رفتار"
-
-msgid "Rename single items _inline"
-msgstr ""
-
-msgid "Show selection _marker"
-msgstr ""
-
-msgid "Show item information on _hover"
-msgstr ""
-
-msgid "Open folders while _dragging items over them"
-msgstr ""
-
-msgid "Terminal"
-msgstr "پایانه"
-
-#, c-format
-msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
-
-msgid "Terminal _command:"
-msgstr ""
-
-msgid "No terminal found"
-msgstr ""
-
-#, c-format
-msgid "Detected: %s"
-msgstr ""
-
-msgid "View"
-msgstr "نما‌"
-
-msgid "Use the same display style for _all folders"
-msgstr ""
-
-msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
-msgstr ""
-
-msgid "Natural"
-msgstr ""
-
-msgid "Alphabetical, case insensitive"
-msgstr ""
-
-msgid "Alphabetical, case sensitive"
-msgstr ""
-
-msgid "Folder size:"
-msgstr ""
-
-msgid "Number of items"
-msgstr ""
-
-msgid "Size of contents"
-msgstr ""
-
-msgid "None"
+msgid "Nothing"
 msgstr "هیچ"
 
-msgid "Folder size depth limit:"
-msgstr ""
+msgid "Go Up"
+msgstr "رفتن به بالا"
 
-msgid "Dates:"
-msgstr ""
+msgid "Content Display"
+msgstr "نمایش محتوا"
+
+msgid "Sorting mode:"
+msgstr "حالت مرتب‌سازی:"
+
+msgid "Natural"
+msgstr "طبیعی"
+
+msgid "Alphabetical, case insensitive"
+msgstr "الفبایی، بدون حساسیت به بزرگی حروف"
+
+msgid "Alphabetical, case sensitive"
+msgstr "الفبایی، با حساسیت به بزرگی حروف"
+
+msgid "Folder size:"
+msgstr "اندازهٔ پوشه:"
+
+msgid "Show number of items"
+msgstr "نمایش شمار موارد"
+
+msgid "Show size of contents, up to "
+msgstr "نمایش اندازهٔ محتوا، تا "
+
+msgid "Show no size"
+msgstr "بدون نمایش اندازه"
+
+msgid "levels deep"
+msgstr "سطح عمق"
+
+msgid "Date style:"
+msgstr "سبک تاریخ:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "نسبی (امروز، دیروز…)"
 
-msgid "Short"
-msgstr ""
+msgid "Absolute"
+msgstr "مطلق"
+
+msgid "Permissions style:"
+msgstr "سبک مجوزها:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "نمادین (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "عددی (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "ترکیبی"
 
-msgid "Shorten long names:"
-msgstr ""
+msgid "Long file names:"
+msgstr "نام‌های بلند پرونده:"
 
-msgid "At the end"
-msgstr ""
+msgid "Elide in the middle"
+msgstr "کوتاه کردن در میانه"
 
-msgid "In the middle"
-msgstr ""
-
-msgid "Hide _backup files (ending in ~)"
-msgstr ""
+msgid "Elide at the end"
+msgstr "کوتاه کردن در انتها"
 
 msgid "Label width:"
-msgstr ""
-
-msgid "Small"
-msgstr "کوچک"
+msgstr "پهنای برچسب:"
 
 msgid "Medium"
 msgstr "متوسط"
@@ -1523,210 +2019,189 @@ msgid "Large"
 msgstr "بزرگ"
 
 msgid "Huge"
-msgstr ""
+msgstr "بسیار بزرگ"
 
-msgid "Maximum label lines (0: no limit):"
-msgstr ""
-
-msgid "Co_mpact spacing"
-msgstr ""
-
-msgid "Maximum label width:"
-msgstr ""
+msgid "Maximum lines:"
+msgstr "بیشینه‌ی خطوط:"
 
 msgid "Unlimited"
 msgstr "نامحدود"
 
-msgid "E_xpandable folders"
-msgstr ""
+msgid "Spacing:"
+msgstr "فاصله:"
 
-msgid "Highlight the entire _row"
-msgstr ""
+msgid "Maximum width:"
+msgstr "بیشینه عرض:"
 
-msgid "Previews"
-msgstr "پیش‌نمایش‌ها"
+msgid "Folders:"
+msgstr "پوشه‌ها:"
 
-msgid "Show _previews in new folders"
-msgstr ""
+msgid "Expandable"
+msgstr "گسترش‌پذیر"
 
-msgid "Show previews for"
-msgstr ""
+msgid "Open files and folders:"
+msgstr "باز کردن پرونده‌ها و پوشه‌ها:"
 
-msgid "Audio (cover art)"
-msgstr ""
+msgid "By clicking anywhere on the row"
+msgstr "با کلیک روی هر جای سطر"
 
-msgid "PDF documents"
-msgstr ""
+msgid "By clicking on icon or name"
+msgstr "با کلیک روی نماد یا نام"
 
-msgid "Text files"
-msgstr ""
+msgid "Disk usage:"
+msgstr "مصرف دیسک:"
 
-msgid "Fonts"
-msgstr ""
+msgid "Show a Disk _Usage column"
+msgstr "نمایش ستون _مصرف دیسک"
 
-msgid "Office documents"
-msgstr ""
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "فضایی که هر پرونده و هر پوشهٔ کامل روی دیسک می‌گیرد، با نواری برای سهمش از پوشه، مانند ابزارها › مصرف دیسک. پوشه‌ها در پس‌زمینه به‌طور کامل خوانده می‌شوند؛ برای دیدن بزرگ‌ترین‌ها در ابتدا بر اساس این ستون مرتب کنید. «ماندن روی این درایو» در پنجرهٔ مصرف دیسک اینجا هم اعمال می‌شود."
 
-msgid "Limits"
-msgstr ""
+msgid "View"
+msgstr "نما‌"
 
-msgid "Skip local files larger than (MiB, 0: no limit):"
-msgstr ""
+msgid "Show in the context menu"
+msgstr "نمایش در فهرست زمینه"
 
-msgid "Remote files up to (MiB, 0: never):"
-msgstr ""
+msgid "'Copy To' and 'Move To'"
+msgstr "«رونوشت به» و «انتقال به»"
 
-msgid "Confirmations"
-msgstr "تصدیق"
-
-msgid "Ask for confirmation when"
-msgstr ""
-
-msgid "Moving files or folders to the _trash"
-msgstr ""
-
-msgid "_Deleting files or folders"
-msgstr ""
-
-msgid "_Emptying the trash"
-msgstr ""
-
-msgid "Closing windows with _multiple tabs"
-msgstr ""
-
-msgid "Opening many _folders at once"
-msgstr ""
-
-msgid "Opening many t_erminals at once"
-msgstr ""
-
-msgid "Renaming changes a file's _type"
-msgstr ""
-
-msgid "When opening an executable file:"
-msgstr ""
-
-msgid "Always ask"
-msgstr ""
-
-msgid "Open in an application"
-msgstr ""
-
-msgid "Run it"
-msgstr ""
-
-msgid "Bars and Panels"
-msgstr ""
-
-msgid "Status Bar"
-msgstr ""
-
-msgid "Status bar:"
-msgstr ""
-
-msgid "Small (shows only when hovering or selecting)"
-msgstr ""
-
-msgid "Full width"
-msgstr ""
-
-msgid "Hidden"
-msgstr "پنهان"
-
-msgid "Show _zoom slider"
-msgstr ""
-
-msgid "Show free _space"
-msgstr ""
-
-msgid "Show _hidden folders"
-msgstr ""
-
-msgid "Limit to the home folder when inside it"
-msgstr ""
-
-msgid "Scroll to the current folder _automatically"
-msgstr ""
-
-msgid "Play media files _automatically"
-msgstr ""
-
-msgid "Show the _hovered item"
-msgstr ""
-
-msgid "Use _long date format"
-msgstr ""
+msgid "Delete (in addition to Move to Trash)"
+msgstr "حذف (افزون بر انتقال به زباله‌دان)"
 
 msgid "Context Menu"
 msgstr "فهرست بافتاری"
 
-msgid "Show in the context menu"
-msgstr ""
+msgid "Cleanup:"
+msgstr "پاک‌سازی:"
 
-msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgid "Delete files older than"
+msgstr "حذف پرونده‌های قدیمی‌تر از"
 
-msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgid "days"
+msgstr "روز"
 
-msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgid "Limit to"
+msgstr "محدود به"
 
-msgid "_Delete items that have been in the trash longer than:"
-msgstr ""
+msgid "percent of the disk"
+msgstr "درصد از دیسک"
 
-msgid "Days:"
-msgstr ""
+msgid "Keep the trash on the home drive"
+msgstr "نگه‌داشتن زباله‌دان روی درایو پوشهٔ خانه"
 
-msgid "_Limit the trash to a share of the disk:"
-msgstr ""
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "پرونده‌هایی که از درایوهای دیگر به زباله‌دان منتقل می‌شوند در زباله‌دان پوشهٔ خانه رونوشت می‌شوند، پس آن درایوها پوشهٔ ‎.Trash-1000 نمی‌گیرند. در این حالت انتقال پرونده‌های بزرگ به زباله‌دان بیشتر طول می‌کشد."
 
-msgid "Percent of the disk:"
-msgstr ""
+msgid "Full trash:"
+msgstr "زباله‌دان پر:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "هنگام رسیدن به حد:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "نمایش هشدار"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "حذف قدیمی‌ترین موارد"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "حذف بزرگ‌ترین موارد"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "این‌ها پیش‌تر تنظیمات سامانهٔ KDE بودند. حدها هنگام آغاز Beluga و پس از انتقال موارد به زباله‌دان اعمال می‌شوند."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "در حال محاسبهٔ اندازهٔ زباله‌دان…"
+
+msgid "Trash:"
+msgstr "زباله‌دان:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "زباله‌دان اکنون %s فضا دارد."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_خالی کردن زباله‌دان اکنون"
+
+msgid "Vim Mode"
+msgstr "حالت Vim"
+
+msgid "Vim mode:"
+msgstr "حالت Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "استفاده از کلیدهای شبیه Vim در نماها"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "حالت عادی با h j k l حرکت می‌کند و کلیدهای زیر را اجرا می‌کند؛ v، V و Ctrl+V گزینش می‌کنند؛ i و a نام را تغییر می‌دهند (حالت درج)؛ Esc به حالت عادی برمی‌گردد؛ : خط فرمان را باز می‌کند. کلیدهای Ctrl یا Alt که اینجا نیامده‌اند معنای معمول خود را دارند."
+
+msgid "Leader key:"
+msgstr "کلید پیشرو:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> در کلیدهای زیر، مثلاً <Space> یا ,"
+
+msgid "Wait for more keys:"
+msgstr "انتظار برای کلیدهای بیشتر:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "میلی‌ثانیه (dd پس از d، gg پس از g)"
+
+msgid "Keys"
+msgstr "کلیدها"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "نگارش Vim، چندتا با فاصله جدا شوند: h, gg, <C-v>, <CR>, <Esc>, <leader>t. برای پیش‌فرض، فیلد را خالی بگذارید."
+
+msgid "Command line"
+msgstr "خط فرمان"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr "‎:q پنجره را می‌بندد (‎:q! بدون پرسیدن دربارهٔ زبانه‌ها)، ‎:qa از Beluga خارج می‌شود، ‎:e یا ‎:cd مسیر پوشه‌ای را باز می‌کند، ‎:tabnew [مسیر]، ‎:tabclose، ‎:tabonly، ‎:sp یا ‎:vs [مسیر] نما را تقسیم می‌کنند، ‎:only نمای دیگر را می‌بندد، ‎:mkdir نام، ‎:touch نام، ‎:set hidden / nohidden / hidden!، ‎:set view=icons|compact|details|columns، ‎:sort name|size|date|type، ‎:pwd، ‎:term، ‎:du، ‎:help، ‎:!فرمان یک فرمان پوسته را در پوشه اجرا می‌کند."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "میان‌برهای صفحه‌کلید"
+
+msgid "Details:"
+msgstr "جزئیات:"
+
+msgid "Only files on this computer can be read."
+msgstr "فقط پرونده‌های این رایانه را می‌توان خواند."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga بدون FFmpeg ساخته شده است."
+
+msgid "Reading…"
+msgstr "در حال خواندن…"
+
+msgid "No details found."
+msgstr "جزئیاتی پیدا نشد."
+
+msgid "Change the folder's icon"
+msgstr "تغییر نماد پوشه"
+
+msgid "Could not change the icon."
+msgstr "نماد تغییر نکرد."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu مورد"
 
 msgid "Calculating…"
-msgstr ""
+msgstr "در حال محاسبه…"
 
 msgid "No default application"
-msgstr ""
+msgstr "برنامهٔ پیش‌فرضی نیست"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_تغییر…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "باز می‌شود با:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "فضای آزاد:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
@@ -1735,20 +2210,20 @@ msgstr "%s‎ از %s‎ آزاد است (%d٪‎ استفاده شده است)"
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu بایت"
+msgstr[1] "%llu بایت"
 
 msgid "Forbidden"
 msgstr "ممنوع"
 
 msgid "Can View"
-msgstr ""
+msgstr "می‌تواند ببیند"
 
 msgid "Can View & Modify"
 msgstr "می‌تواند ببیند و تغییر دهد"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "می‌تواند محتوا را ببیند"
 
 msgid "Can View & Modify Content"
 msgstr "می‌توان محتوا را دید و تغییر داد"
@@ -1757,10 +2232,10 @@ msgid "Others:"
 msgstr "دیگران:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "_اجرایی است"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "اعمال تغییرات بر همهٔ _زیرپوشه‌ها و محتوای آن‌ها"
 
 msgid "User:"
 msgstr "کاربر:"
@@ -1772,22 +2247,22 @@ msgid "Calculate"
 msgstr "محاسبه"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "پرونده خوانده نشد."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "یک چکیده برای مقایسه بچسبانید"
 
 msgid "Verify:"
-msgstr ""
+msgstr "وارسی:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "چکیده‌ها یکسان‌اند."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "هیچ چکیدهٔ محاسبه‌شده‌ای یکسان نیست. نخست نوع متناظر را محاسبه کنید."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "مجوزها تغییر نکردند."
 
 #, c-format
 msgid "Properties for %s"
@@ -1800,46 +2275,46 @@ msgid "Filter:"
 msgstr "پالایه:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "پالایش بر اساس نام (نویسه‌های عام مانند ‎*.txt کار می‌کنند)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
-
-msgid "Search…"
-msgstr "جست‌وجو…"
+msgstr "نگه‌داشتن پالایه هنگام تغییر پوشه"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "در این پوشه"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "در پرونده‌های شما"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "همه‌جا"
 
 msgid "File Names"
-msgstr ""
+msgstr "نام پرونده‌ها"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "نام و محتوای پرونده‌ها"
 
 msgid "Any Time"
-msgstr ""
+msgstr "هر زمان"
 
 msgid "Today"
 msgstr "امروز"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "۷ روز گذشته"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "۳۰ روز گذشته"
 
 msgid "Last Year"
-msgstr ""
+msgstr "سال گذشته"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "پرونده‌های پنهان"
+
+msgid "Zoom:"
+msgstr "بزرگ‌نمایی:"
 
 msgid "Zoom"
 msgstr "بزرگ‌نمایی"
@@ -1849,7 +2324,7 @@ msgid "%s free"
 msgstr "%s خالی"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "تکثیر زبانه"
 
 msgid "Detach Tab"
 msgstr "جداسازی برگه"
@@ -1857,8 +2332,38 @@ msgstr "جداسازی برگه"
 msgid "Close Other Tabs"
 msgstr "بستن برگه‌های دیگر‌"
 
+msgid "Menu"
+msgstr "گزینگان"
+
+msgid "--- separator ---"
+msgstr "---  جداساز ---"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "کنش‌هایی که در فهرست بالای نوار مکان هستند در سمت چپ آن قرار می‌گیرند، بقیه در سمت راست. * کنش‌هایی را نشان می‌دهد که در جای پیش‌فرض نوار ابزار نیستند."
+
+msgid "A_vailable actions:"
+msgstr "کنش‌های _موجود:"
+
+msgid "Add to the tool bar"
+msgstr "افزودن به نوار ابزار"
+
+msgid "Remove from the tool bar"
+msgstr "برداشتن از نوار ابزار"
+
+msgid "Move up (left on the tool bar)"
+msgstr "انتقال به بالا (به چپ در نوار ابزار)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "انتقال به پایین (به راست در نوار ابزار)"
+
+msgid "C_urrent actions:"
+msgstr "کنش‌های _کنونی:"
+
+msgid "_Defaults"
+msgstr "_پیش‌فرض‌ها"
+
 msgid "Show Columns"
-msgstr ""
+msgstr "نمایش ستون‌ها"
 
 #, c-format
 msgid "Size: %s"
@@ -1866,11 +2371,11 @@ msgstr "اندازه: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "تغییر یافته: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "مکان اصلی: %s"
 
 msgid "Yesterday"
 msgstr "دیروز"
@@ -1896,60 +2401,157 @@ msgstr "دیگران"
 msgid "Big"
 msgstr "بزرگ"
 
+msgid "Less than 1 MiB"
+msgstr "کمتر از ۱ MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "۱ MiB تا ۱۰۰ MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "۱۰۰ MiB تا ۱ GiB"
+
+msgid "1 GiB or more"
+msgstr "۱ GiB یا بیشتر"
+
+msgid "Not counted yet"
+msgstr "هنوز شمرده نشده"
+
 msgid "Searching…"
-msgstr ""
+msgstr "در حال جست‌وجو…"
 
 msgid "No items matching the filter"
-msgstr ""
+msgstr "هیچ موردی با پالایه جور نیست"
 
 msgid "No items found"
-msgstr ""
+msgstr "هیچ موردی پیدا نشد"
 
 msgid "Trash is empty"
-msgstr ""
+msgstr "زباله‌دان خالی است"
 
 msgid "Folder is empty"
-msgstr ""
+msgstr "پوشه خالی است"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "نام پرونده نمی‌تواند «/» داشته باشد."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "تغییر نام «%s» به «%s» پسوند آن را تغییر می‌دهد. ممکن است پرونده با برنامهٔ دیگری باز شود یا اصلاً باز نشود."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "حالت گزینش: برای گزیدن یا لغو گزینش پرونده‌ها یا پوشه‌ها روی آن‌ها کلیک کنید."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_خروج از حالت گزینش"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_تکثیر"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_حذف"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_ویژگی‌ها"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "پوشهٔ «%s» دیگر وجود ندارد."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "«%s» گزیده شد (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s گزیده شد"
 
 msgid "Loading folder…"
-msgstr ""
+msgstr "در حال بارگذاری پوشه…"
 
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d گزیده شد"
+msgstr[1] "%d گزیده شد"
+
+msgid "Move left"
+msgstr "حرکت به چپ"
+
+msgid "Move down"
+msgstr "حرکت به پایین"
+
+msgid "Move up"
+msgstr "حرکت به بالا"
+
+msgid "Move right"
+msgstr "حرکت به راست"
+
+msgid "First item"
+msgstr "نخستین مورد"
+
+msgid "Last item"
+msgstr "واپسین مورد"
+
+msgid "Page down"
+msgstr "صفحهٔ پایین"
+
+msgid "Page up"
+msgstr "صفحهٔ بالا"
+
+msgid "Parent folder"
+msgstr "پوشه پدر"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "گزینش مواردی که نشانگر از آن‌ها می‌گذرد (دیداری)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "گزینش یک بازه، مانند Shift (خط دیداری)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "گزینش یک بلوک از شبکه (بلوک دیداری)"
+
+msgid "Back to normal mode"
+msgstr "بازگشت به حالت عادی"
+
+msgid "Copy the item under the cursor"
+msgstr "رونوشت از مورد زیر نشانگر"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "تغییر نام، نشانگر در آغاز (درج)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "تغییر نام، نشانگر پس از نام (افزودن)"
+
+msgid "Rename, name selected (change)"
+msgstr "تغییر نام، نام گزیده (تغییر)"
+
+msgid "Edit the location"
+msgstr "ویرایش مکان"
+
+msgid "Copied."
+msgstr "رونوشت شد."
+
+msgid "Cut."
+msgstr "بریده شد."
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "«%s» باز نمی‌شود."
+
+msgid "A name is needed."
+msgstr "یک نام لازم است."
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "نمای ناشناخته: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "گزینهٔ ناشناخته: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "مرتب‌سازی بر اساس نام، اندازه، تاریخ یا نوع."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "فرمان نیست: %s"
