@@ -23,95 +23,95 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Arhīvu neizdevās atvērt."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Arhīvu neizdevās nolasīt."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Atcelts."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Šī datne ir šifrēta ar paroli."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "Neizdevās nolasīt “%s”."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Šī nav arhīva datne."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Atarhivēt šeit"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Saspiest kā .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Netika atrasts neviens termināļa emulators."
 
 msgid "Root"
-msgstr ""
+msgstr "Sakne"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Sējums %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Šo ierīci nevar montēt."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Šo ierīci nevar atmontēt."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Ierīces vairs nav."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Kopē %s uz “%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Pārvieto %s uz “%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Saista %s mapē “%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Pārvieto %s uz miskasti"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Dzēš %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Atjauno %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Iztukšo miskasti"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Skaita datnes…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Mapi nevar pārvietot pašu sevī."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Mapi nevar kopēt pašu sevī."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Datnes var atarhivēt tikai lokālās mapēs."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Atarhivē no “%s”"
 
 msgid "Title:"
 msgstr "Virsraksts:"
@@ -129,7 +129,7 @@ msgid "Track:"
 msgstr "Celiņš:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Disks:"
 
 msgid "Date:"
 msgstr "Datums:"
@@ -160,11 +160,11 @@ msgstr "Valoda:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Ilgums:"
@@ -173,59 +173,59 @@ msgid "Format:"
 msgstr "Formāts:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Bitu ātrums:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Vāciņš:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f kadri/s"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f kadri/s"
 
 msgid "Video:"
 msgstr "Video:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "stereo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d kanāls"
+msgstr[1] "%d kanāli"
+msgstr[2] "%d kanālu"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d biti"
 
 msgid "Audio:"
 msgstr "Audio:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Audio %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Subtitri:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Nodaļas:"
 
 msgid "Places"
 msgstr "Vietas"
@@ -273,7 +273,7 @@ msgid "Recent Files"
 msgstr "Nesenās datnes"
 
 msgid "Images"
-msgstr ""
+msgstr "Attēli"
 
 msgid "Audio"
 msgstr "Audio"
@@ -282,37 +282,37 @@ msgid "Folders"
 msgstr "Mapes"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arhīvi"
 
 msgid "All Files"
 msgstr "Visas datnes"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Meklēt “%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Netika atrasts neviens termināļa emulators. Iestatiet to sadaļā Konfigurēt Beluga › Vispārīgi › Terminālis."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Šai datņu sistēmai nav miskastes."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Neizdevās izveidot miskastes informācijas datni."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” jau eksistē."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Miskaste pārsniedz savu %s ierobežojumu. Apsveriet tās iztukšošanu."
 
 msgid "Copy"
 msgstr "Kopēt"
 
 msgid "Move"
-msgstr ""
+msgstr "Pārvietot"
 
 msgid "Link"
 msgstr "Saite"
@@ -327,21 +327,21 @@ msgid "Create Folder"
 msgstr "Izveidot mapi"
 
 msgid "Create File"
-msgstr ""
+msgstr "Izveidot datni"
 
 msgid "Undo"
 msgstr "Atsaukt"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Atsaukt: %s"
 
 msgid "Redo"
 msgstr "Atatsaukt"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Atatsaukt: %s"
 
 #, c-format
 msgid "%d item"
@@ -353,16 +353,16 @@ msgstr[2] "%d vienumu"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d datne"
+msgstr[1] "%d datnes"
+msgstr[2] "%d datņu"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d mape"
+msgstr[1] "%d mapes"
+msgstr[2] "%d mapju"
 
 #, c-format
 msgid "%s, %s"
@@ -370,14 +370,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Šodien %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Vakar %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -385,11 +385,11 @@ msgstr "%ld sek."
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld min %ld s"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld h %ld min"
 
 #, c-format
 msgid "%s copy"
@@ -397,7 +397,7 @@ msgstr "%s kopija"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s kopija %d"
 
 msgid "Name"
 msgstr "Nosaukums"
@@ -406,7 +406,7 @@ msgid "Size"
 msgstr "Izmērs"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Diska lietojums"
 
 msgid "Modified"
 msgstr "Modificēts"
@@ -421,7 +421,7 @@ msgid "Type"
 msgstr "Tips"
 
 msgid "Extension"
-msgstr ""
+msgstr "Paplašinājums"
 
 msgid "Permissions"
 msgstr "Atļaujas"
@@ -442,22 +442,22 @@ msgid "Deletion Time"
 msgstr "Dzēšanas laiks"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Sākotnējā atrašanās vieta"
 
 msgid "Dimensions"
 msgstr "Izmēri"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga neizdevās darboties kā administratoram."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "Lai pieprasītu administratora paroli, vajadzīgs pkexec (polkit). Instalējiet polkit un polkit aģentu savai darbvirsmai."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "Risks, darbojoties kā administratoram"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Beluga logs ar administratora tiesībām var mainīt un dzēst jebkuru šī datora datni, arī datnes, kas sistēmai vajadzīgas palaišanai. Kļūda tur var padarīt sistēmu nelietojamu. Izmantojiet to tikai datnēm, kuras citādi nevarat mainīt, un aizveriet, kad esat beidzis.\n\nPēc tam Beluga pieprasīs administratora paroli."
 
 msgid "Cancel"
 msgstr "Atcelt"
@@ -529,7 +529,7 @@ msgid "Details View"
 msgstr "Izvērstais skats"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Kolonnu skats"
 
 msgid "Zoom In"
 msgstr "Palielināt"
@@ -538,7 +538,7 @@ msgid "Zoom Out"
 msgstr "Samazināt"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Atiestatīt tālummaiņu"
 
 msgid "Show Hidden Files"
 msgstr "Rādīt slēptās datnes"
@@ -553,7 +553,7 @@ msgid "Focus Other View"
 msgstr "Fokuss uz otru skatu"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Atdalīt sadalīto skatu"
 
 msgid "Split View to Tabs"
 msgstr "Sadalīt skatu cilnēs"
@@ -568,7 +568,7 @@ msgid "Replace Location"
 msgstr "Aizvietot vietu"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Vietu panelis"
 
 msgid "Folders Panel"
 msgstr "Mapju panelis"
@@ -577,7 +577,7 @@ msgid "Information Panel"
 msgstr "Informācijas panelis"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Diska lietojuma panelis"
 
 msgid "Focus Places Panel"
 msgstr "Fokusēties uz vietu paneli"
@@ -598,31 +598,31 @@ msgid "Up"
 msgstr "Augšup"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Iet uz 1. cilni"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Iet uz 2. cilni"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Iet uz 3. cilni"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Iet uz 4. cilni"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Iet uz 5. cilni"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Iet uz 6. cilni"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Iet uz 7. cilni"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Iet uz 8. cilni"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Iet uz 9. cilni"
 
 msgid "Go to Last Tab"
 msgstr "Iet uz pēdējo cilni"
@@ -643,29 +643,29 @@ msgid "Configure Toolbars"
 msgstr "Konfigurēt rīkjoslas"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Konfigurēt Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Atsaukt neizdevās."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Mape…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Teksta datne…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Tukša datne…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Saite uz datni vai mapi…"
 
 msgid "Create New"
 msgstr "Izveidot jaunu"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Cits skats (%s)"
 
 msgid "Browse…"
 msgstr "Pārlūkot…"
@@ -705,7 +705,7 @@ msgid "View Mode"
 msgstr "Skata režīms"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Atcerēties šīs mapes skatu"
 
 msgid "Restore"
 msgstr "Atjaunot"
@@ -723,13 +723,13 @@ msgid "Open in Split View"
 msgstr "Atvērt sadalītā skatā"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Atvērt ar Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Atvērt saturošo mapi"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Ielīmēt mapē"
 
 msgid "Rename…"
 msgstr "Pārdēvēt…"
@@ -741,65 +741,65 @@ msgid "Close"
 msgstr "Aizvērt"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Atcelt"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Nosaukumā nedrīkst būt “/”."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Nosaukums, kas sākas ar punktu, ir slēpts."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Dažus vienumus neizdevās pārdēvēt."
 
 msgid "Rename Item"
 msgstr "Pārdēvēt vienumu"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Pārdēvēt “%s” par:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Pārdēvēt"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Neizdevās pārdēvēt “%s”."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Mainīt datnes tipu?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Pārdēvējot “%s” par “%s”, mainās tās paplašinājums."
 
 msgid "Rename Items"
 msgstr "Pārdēvēt vienumus"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Pārdēvēt %zu atlasītos vienumus par:"
 
 msgid "New name #"
 msgstr "Jauns nosaukums #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# tiek aizstāts ar augošiem skaitļiem; vadošajām nullēm izmantojiet ##. Paplašinājumi tiek saglabāti."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Sākt numurēšanu no:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Pārvietot šeit"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Kopēt šeit"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Saistīt šeit"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "A_tcelt"
 
 msgid "Add Places Entry"
 msgstr "Pievienot vietu ierakstu"
@@ -811,25 +811,25 @@ msgid "Label:"
 msgstr "Etiķete:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Izvēlieties mapi"
 
 msgid "Location:"
 msgstr "Atrašanās vieta:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Izvēlēties…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Ikonas nosaukums:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Izvēlieties mapi"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Pievienot"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Saglabāt"
 
 msgid "View Display Style"
 msgstr "Skatīt displeja stilu"
@@ -859,19 +859,19 @@ msgid "Descending"
 msgstr "Dilstoši"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Rādīt _mapes vispirms"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Rādīt slēptās datnes _beigās"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Rādīt _priekšskatījumus"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Rādīt _grupās"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Rādīt _slēptās datnes"
 
 msgid "Apply to"
 msgstr "Pielietot"
@@ -880,17 +880,17 @@ msgid "Current folder"
 msgstr "Pašreizējai mapei"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Pašreizējā mape ar visām apakšmapēm"
 
 msgid "All folders"
 msgstr "Visām mapēm"
 
 msgid "_OK"
-msgstr ""
+msgstr "_Labi"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "mainīts %s"
 
 msgid "Folder Already Exists"
 msgstr "Mape jau pastāv"
@@ -900,35 +900,35 @@ msgstr "Datne jau pastāv"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Mape ar nosaukumu “%s” jau eksistē mapē “%s”."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Datne ar nosaukumu “%s” jau eksistē mapē “%s”."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Esošais vienums"
 
 msgid "New item"
-msgstr ""
+msgstr "Jaunais vienums"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Ieteikt jaunu nosaukumu"
 
 msgid "New name:"
-msgstr ""
+msgstr "Jaunais nosaukums:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Lietot _visiem"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Izlaist"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Rakstīt iekšā"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Pārrakstīt"
 
 msgid "Skip"
 msgstr "Izlaist"
@@ -943,202 +943,202 @@ msgid "Choose an Icon"
 msgstr "Izvēlieties ikonu"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Meklēt ikonas…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "_Attēla datne…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_Noklusējuma ikona"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Izvēlieties attēlu"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Tīkla vietām vajadzīgs gvfs. Instalējiet pakotni gvfs (un gvfs-smb Windows koplietojumiem, gvfs-nfs NFS), tad izrakstieties un pierakstieties vēlreiz."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Šī vieta nav mape."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Šī vieta nav derīga."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Šīs mapes arhīvā nav."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s mazāka datne"
+msgstr[1] "%s mazākas datnes"
+msgstr[2] "%s mazāku datņu"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(cits disks, netiek skaitīts)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Daļu satura neizdevās nolasīt."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s datnēs"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s diskā"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s datnes un %s mapes"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Lasa… %s, %s datnes un %s mapes"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Apturēts."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Šo mapi neizdevās nolasīt."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, nolasīts %.1f s laikā"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] ". Neizdevās nolasīt %s mapi."
+msgstr[1] ". Neizdevās nolasīt %s mapes."
+msgstr[2] ". Neizdevās nolasīt %s mapju."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Var izmērīt tikai šī datora mapes."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "nolasīts mazāk nekā pirms minūtes"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "nolasīts pirms %d minūtes"
+msgstr[1] "nolasīts pirms %d minūtēm"
+msgstr[2] "nolasīts pirms %d minūtēm"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "nolasīts pirms %d stundas"
+msgstr[1] "nolasīts pirms %d stundām"
+msgstr[2] "nolasīts pirms %d stundām"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Skenējiet atkārtoti, lai nolasītu vēlreiz."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Šķietamais izmērs"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Saskaitīt datņu izmērus, nevis diska vietu, ko tās aizņem."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Palikt šajā diskā"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Neskaitīt citus diskus, kas montēti šajā mapē (piemēram, mūzikas mapi citā diskā). Saitēm nekad neseko."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Skenēt atkārtoti"
 
 msgid "Stop"
 msgstr "Apturēt"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Aizvērt diska lietojumu"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Skenēt atkārtoti"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Apturēt"
 
 msgid "Share"
 msgstr "Dalīties"
 
 msgid "Files"
-msgstr ""
+msgstr "Datnes"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Diska lietojums – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” jau eksistē. Aizstāt to?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu no šīm datnēm jau eksistē. Aizstāt tās?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Programma, no kuras saglabājat, pārrakstīs esošo saturu."
 
 msgid "Replace"
 msgstr "Aizvietot"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Izvēlieties mapi, kurā saglabāt."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Izvēlēties mapi"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Atvērt datnes"
 
 msgid "Open File"
-msgstr ""
+msgstr "Atvērt datni"
 
 msgid "Save File"
-msgstr ""
+msgstr "Saglabāt datni"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Saglabāt datnes"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Mape:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Nosaukums:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Tips:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Izvēlēties"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Atvērt"
 
 msgid "New Folder"
 msgstr "Jauna mape"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Izveidot jaunu mapi šeit:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Izveidot"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Neizdevās izveidot mapi."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "Atlasīti vienumi: %zu"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Saturs:"
 
 msgid "Size:"
 msgstr "Izmērs:"
@@ -1150,10 +1150,10 @@ msgid "Folder"
 msgstr "Mape"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Satur:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Skaita…"
 
 msgid "Unknown"
 msgstr "Nezināms"
@@ -1183,75 +1183,75 @@ msgid "Dimensions:"
 msgstr "Izmēri:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Bojāta saite"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (saite)"
 
 msgid "other drive"
-msgstr ""
+msgstr "cits disks"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s no %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "atlicis %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d no %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Notiek datņu darbības"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Nav apakšmapju"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Atlasīt norādītās datnes to mapēs"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Atvērt logu sadalītā skatā"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Vienmēr atvērt jaunu logu"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Turpināt darbu fonā FileManager1 D-Bus pakalpojumam"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Atvienoties no termināļa (bez vietas: atver pašreizējo mapi)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Palaist xdg-desktop-portal datņu izvēlētāju (palaiž D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Rādīt versiju"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[DATNE vai MAPE…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Darbība kā administratoram: izmaiņas šajā logā var sabojāt sistēmu."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Aizvērt šo logu?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Šajā logā ir atvērtas %zu cilnes. Aizverot to, tiks aizvērtas visas."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Aizvērt logu"
 
 msgid "Configure Toolbars…"
 msgstr "Konfigurēt rīkjoslas…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Rādīt _rīkjoslu"
 
 msgid "Split"
 msgstr "Sadalīt"
@@ -1266,79 +1266,79 @@ msgid "Show in Groups"
 msgstr "Rādīt grupās"
 
 msgid "_File"
-msgstr ""
+msgstr "_Datne"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Jauns _logs"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Jauna _cilne"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Aizvērt cilni"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Izveidot _jaunu"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Pārdēvēt…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Dublēt šeit"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Pārvietot uz _miskasti"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Dzēst"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Atjaunot no miskastes"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Īpašības"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Iziet"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Rediģēt"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Atsaukt"
 
 msgid "_Redo"
-msgstr ""
+msgstr "A_tatsaukt"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Izgriezt"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Kopēt"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Ielīmēt"
 
 msgid "Filter…"
 msgstr "Filtrēt…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Meklēt…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Atlasīt _visu"
 
 msgid "_View"
-msgstr ""
+msgstr "_Skats"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Tuvināt"
 
 msgid "Reset Zoom Level"
 msgstr "Atiestatīt tālummaiņu"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Tālināt"
 
 msgid "Show Additional Information"
 msgstr "Rādīt papildu informāciju"
@@ -1353,7 +1353,7 @@ msgid "Adjust View Display Style…"
 msgstr "Pielāgot skata attēlošanas stilu…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Pārlādēt"
 
 msgid "Panels"
 msgstr "Paneļi"
@@ -1365,175 +1365,175 @@ msgid "Location Bar"
 msgstr "Vietas josla"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Rādīt _izvēlņu joslu"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Rādīt _statusa joslu"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Iet"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Atpakaļ"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Uz priekšu"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Augšup"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Mājas"
 
 msgid "Recently Closed Tabs"
 msgstr "Nesen aizvērtās cilnes"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Rīki"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Atvērt _termināli"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Atvērt termināli _šeit"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Diska lietojums…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Iestatījumi"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Konfigurēt _rīkjoslas…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Konfigurēt Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Nav nesen aizvērtu cilņu"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Administrators)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Atvērt %zu mapes jaunās cilnēs?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Atvērt mapes"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "Neizdevās atvērt “%s”."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Neizdevās atvērt termināli."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Jauna teksta datne.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Jauna datne"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Iztukšot miskasti?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Visi miskastes vienumi tiks neatgriezeniski izdzēsti. To nevar atsaukt."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Atvērt %zu termināļus?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Atvērt termināļus"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Izveidot jaunu datni šeit:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Neizdevās izveidot datni."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Saite uz datni vai mapi"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Datnes vai mapes, uz kuru saistīt, ceļš:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Neizdevās izveidot saiti."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Neatgriezeniski izdzēst %s?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "To nevar atsaukt."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Pārvietot %s uz miskasti?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "Neizdevās palaist “%s”."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "Neizdevās palaist %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Neizdevās palaist lietotni."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” ir izpildāma datne."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Vai vēlaties to palaist vai atvērt lietotnē?"
 
 msgid "Run"
-msgstr ""
+msgstr "Palaist"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Izvēlieties lietotni, ar ko atvērt %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Ieteiktās lietotnes"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Citas lietotnes"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Vai komanda:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Atcerēties lietotnes sasaisti šim datņu tipam"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s brīvi no %s"
 
 msgid "Safely Remove"
 msgstr "Droši noņemt"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Konfigurēt sadaļas"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Atzīmētās sadaļas tiek rādītas vietu panelī šādā secībā."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Pārvietot augšup"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Pārvietot lejup"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Neizdevās montēt ierīci: %s"
 
 msgid "Mount"
 msgstr "Piemontēt"
@@ -1560,31 +1560,31 @@ msgid "Add Entry…"
 msgstr "Pievienot ierakstu…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Konfigurēt sadaļas…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Slēpt slēptos ierakstus"
 
 msgid "Show All Entries"
 msgstr "Parādīt visus ierakstus"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Visi miskastes vienumi tiks neatgriezeniski izdzēsti."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Neizdevās droši izņemt ierīci: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Neizdevās atmontēt ierīci: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Izmantot _sistēmas fontu"
 
 msgid "Label font:"
 msgstr "Datnes/mapes nosaukuma fonts:"
@@ -1596,7 +1596,7 @@ msgid "Preview icon size:"
 msgstr "Priekšskatījuma ikonu izmērs:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Konteksta izvēlnes darbība"
 
 msgid "Name:"
 msgstr "Nosaukums:"
@@ -1608,40 +1608,40 @@ msgid "File names:"
 msgstr "Datņu nosaukumi:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Tipi:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f pirmā datne, %F visas datnes, %u / %U kā URI, %n / %N nosaukumi, %d pašreizējā mape."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Rādīt _datnēm"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Rādīt _mapēm"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Rādīt, kad atlasīti _vairāki vienumi"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Palaist _terminālī"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Pielāgotas darbības"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Jūsu pašu ieraksti datņu un mapju konteksta izvēlnei."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Pievienot…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Rediģēt…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Noņemt"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Īsinājumtaustiņus raksta kā <Control>c vai <Shift>Delete. Vairākus atdaliet ar komatiem. Atstājiet lauku tukšu, lai lietotu noklusējumu."
 
 msgid "no file"
 msgstr "ne datnēm"
@@ -1651,19 +1651,19 @@ msgstr "jebkura izmēra datnēm"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "datnes līdz %d MiB"
 
 msgid "Search…"
 msgstr "Meklēt…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Atjaunot noklusējumus"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Lietot"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Mapes un cilnes"
 
 msgid "Show on startup:"
 msgstr "Ieslēdzot rādīt:"
@@ -1672,7 +1672,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "Mapju, ciļņu un logu stāvokli no iepriekšējās reizes"
 
 msgid "This location:"
-msgstr ""
+msgstr "Šī vieta:"
 
 msgid "Use Current Location"
 msgstr "Izmantot pašreizējo atrašanās vietu"
@@ -1684,7 +1684,7 @@ msgid "Opening Folders:"
 msgstr "Mapju atvēršana:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Saglabāt vienu Beluga logu, jaunas mapes atvērt cilnēs"
 
 msgid "Window:"
 msgstr "Logs:"
@@ -1696,7 +1696,7 @@ msgid "Show filter bar"
 msgstr "Rādīt filtra joslu"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Cilnes:"
 
 msgid "Always show tab bar"
 msgstr "Vienmēr rādīt ciļņu joslu"
@@ -1714,7 +1714,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "Visām cilnēm ir viens fiksēts platums"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Fiksēta platuma cilnes kļūst šaurākas, visas vienādi, ja neietilpst."
 
 msgid "Open new tabs:"
 msgstr "Atvērt jaunas cilnes: "
@@ -1747,42 +1747,42 @@ msgid "Terminal:"
 msgstr "Terminālis:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Terminālis nav atrasts"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Atrasts: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Izmanto F4 un Atvērt termināli šeit. %d komandā tiek aizstāts ar mapi; citādi terminālis tiek palaists tajā. Agrāk tas bija KDE sistēmas iestatījums."
 
 msgid "Previews"
 msgstr "Priekšskatījumi"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Jaunas mapes:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Rādīt _priekšskatījumus jaunās mapēs"
 
 msgid "Show previews in the view for:"
 msgstr "Rādīt priekšskatījumus:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Audio (vāciņi)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF dokumenti"
 
 msgid "Text files"
-msgstr ""
+msgstr "Teksta datnes"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Fonti"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Biroja dokumenti"
 
 msgid "Local storage:"
 msgstr "Lokālā krātuve:"
@@ -1797,7 +1797,7 @@ msgid "Confirmations"
 msgstr "Apstiprinājumi"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Prasīt apstiprinājumu, kad:"
 
 msgid "Moving files or folders to trash"
 msgstr "Pārvieto datnes vai mapes uz atkritni"
@@ -1812,7 +1812,7 @@ msgid "Renaming a file will change its type"
 msgstr "Datnes pārdēvēšana mainīs tās tipu"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Prasīt apstiprinājumu Beluga, kad:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Aizver logus ar vairākām cilnēm"
@@ -1851,7 +1851,7 @@ msgid "Show item on hover"
 msgstr "Rādīt vienumu, uzliekot peles kursoru"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Izmantot _garo datuma formātu"
 
 msgid "Folders Panel:"
 msgstr "Mapju panelis:"
@@ -1860,19 +1860,19 @@ msgid "Limit to home directory when inside it"
 msgstr "Ierobežot līdz mājas mapei, kad atrodaties tajā"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Rādīt _slēptās mapes"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "_Automātiski ritināt līdz pašreizējai mapei"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Vietu panelis:"
 
 msgid "Icon size:"
 msgstr "Ikonas izmērs:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Statusa un vietas joslas"
 
 msgid "Status Bar:"
 msgstr "Statusa josla:"
@@ -1890,7 +1890,7 @@ msgid "Show zoom slider"
 msgstr "Rādīt tālummaiņas slīdni"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Rādīt brīvo _vietu"
 
 msgid "Location bar:"
 msgstr "Vietas josla:"
@@ -1917,7 +1917,7 @@ msgid "Remember display style for each folder"
 msgstr "Atcerēties katras mapes attēlošanas stilu"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Jebkurā gadījumā Skats › Atcerēties šīs mapes skatu piešķir vienai mapei savu stilu. Daži īpaši skati, piemēram, meklēšana, nesenās datnes vai miskaste, joprojām izmanto savu stilu."
 
 msgid "Browsing:"
 msgstr "Pārlūkošana: "
@@ -1929,10 +1929,10 @@ msgid "Open folders during drag operations"
 msgstr "Atvērt mapes, veicot vilkšanas darbības"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Atvērt datnes un mapes ar vienu klikšķi"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Uzturēt mājas mapes _indeksu tūlītējai meklēšanai"
 
 msgid "Miscellaneous:"
 msgstr "Dažādi: "
@@ -1989,37 +1989,37 @@ msgid "Show no size"
 msgstr "Nerādīt izmēru"
 
 msgid "levels deep"
-msgstr ""
+msgstr "līmeņu dziļumā"
 
 msgid "Date style:"
 msgstr "Datumu stils:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relatīvs (Šodien, Vakar…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Absolūts"
 
 msgid "Permissions style:"
 msgstr "Atļauju stils:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Simbolisks (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Skaitlisks (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Apvienots"
 
 msgid "Long file names:"
 msgstr "Gari datņu nosaukumi:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Saīsināt vidū"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Saīsināt beigās"
 
 msgid "Label width:"
 msgstr "Datnes/mapes nosaukuma platums:"
@@ -2061,182 +2061,182 @@ msgid "By clicking on icon or name"
 msgstr "Klikšķinot uz ikonas vai nosaukuma"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Diska lietojums:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Rādīt _diska lietojuma kolonnu"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Vieta, ko diskā aizņem katra datne un katra mape kopumā, ar joslu, kas parāda tās daļu mapē, kā Rīki › Diska lietojums. Mapes tiek nolasītas pilnībā fonā; kārtojiet pēc kolonnas, lai vispirms redzētu lielākās. Diska lietojuma loga \"Palikt šajā diskā\" darbojas arī šeit."
 
 msgid "View"
 msgstr "Skats"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Rādīt konteksta izvēlnē"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "“Kopēt uz” un “Pārvietot uz”"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Dzēst (papildus Pārvietot uz miskasti)"
 
 msgid "Context Menu"
 msgstr "Konteksta izvēlne"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Tīrīšana:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Dzēst datnes, kas vecākas par"
 
 msgid "days"
-msgstr ""
+msgstr "dienām"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Ierobežot līdz"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "procentiem no diska"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Turēt miskasti mājas mapes diskā"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Datnes, kas uz miskasti pārvietotas no citiem diskiem, tiek nokopētas mājas mapes miskastē, tāpēc šajos diskos neparādās mape .Trash-1000. Lielu datņu pārvietošana uz miskasti tad aizņem ilgāku laiku."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Pilna miskaste:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Kad sasniegts ierobežojums:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Rādīt brīdinājumu"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Dzēst vecākos vienumus"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Dzēst lielākos vienumus"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Agrāk tie bija KDE sistēmas iestatījumi. Ierobežojumi tiek piemēroti, kad Beluga tiek palaista un pēc vienumu pārvietošanas uz miskasti."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Aprēķina miskastes izmēru…"
 
 msgid "Trash:"
 msgstr "Atkritne:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Miskaste pašlaik aizņem %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Iztukšot miskasti tagad"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim režīms"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim režīms:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Skatos izmantot Vim veida taustiņus"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Parastais režīms pārvietojas ar h j k l un izpilda zemāk norādītos taustiņus; v, V un Ctrl+V atlasa; i un a pārdēvē (ievietošanas režīms); Esc atgriežas parastajā režīmā; : atver komandrindu. Taustiņi ar Ctrl vai Alt, kas šeit nav minēti, saglabā savu parasto nozīmi."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Līdertaustiņš:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> zemāk norādītajos taustiņos, piem., <Space> vai ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Gaidīt vairāk taustiņu:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd pēc d, gg pēc g)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Taustiņi"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim pieraksts, vairāki atdalīti ar atstarpēm: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Atstājiet lauku tukšu noklusējumam."
 
 msgid "Command line"
-msgstr ""
+msgstr "Komandrinda"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q aizver logu (:q! nejautājot par cilnēm), :qa iziet no Beluga, :e vai :cd CEĻŠ atver mapi, :tabnew [CEĻŠ], :tabclose, :tabonly, :sp vai :vs [CEĻŠ] sadala skatu, :only aizver otru skatu, :mkdir NOSAUKUMS, :touch NOSAUKUMS, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMANDA izpilda čaulas komandu mapē."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Īsinājumtaustiņi"
 
 msgid "Details:"
 msgstr "Informācija:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Var nolasīt tikai šī datora datnes."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga ir būvēta bez FFmpeg."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Lasa…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Detaļas netika atrastas."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Mainīt mapes ikonu"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Neizdevās mainīt ikonu."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "Vienumi: %zu"
 
 msgid "Calculating…"
 msgstr "Aprēķina…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Nav noklusējuma lietotnes"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Mainīt…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Atver ar:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "Brīvā vieta:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s brīvi no %s (aizņemti %d%%)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%llu baits"
+msgstr[1] "%llu baiti"
+msgstr[2] "%llu baitu"
 
 msgid "Forbidden"
 msgstr "Aizliegts"
 
 msgid "Can View"
-msgstr ""
+msgstr "Var skatīt"
 
 msgid "Can View & Modify"
 msgstr "Drīkst apskatīt un mainīt"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Var skatīt saturu"
 
 msgid "Can View & Modify Content"
 msgstr "Drīkst aplūkot un mainīt saturu"
@@ -2245,10 +2245,10 @@ msgid "Others:"
 msgstr "Citi:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "Ir _izpildāms"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Lietot izmaiņas visām _apakšmapēm un to saturam"
 
 msgid "User:"
 msgstr "Lietotājs:"
@@ -2260,22 +2260,22 @@ msgid "Calculate"
 msgstr "Aprēķināt"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Neizdevās nolasīt datni."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Ielīmējiet kontrolsummu salīdzināšanai"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Pārbaudīt:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Kontrolsummas sakrīt."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Neviena aprēķinātā kontrolsumma nesakrīt. Vispirms aprēķiniet atbilstošo tipu."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Neizdevās mainīt atļaujas."
 
 #, c-format
 msgid "Properties for %s"
@@ -2288,16 +2288,16 @@ msgid "Filter:"
 msgstr "Filtrs:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Filtrēt pēc nosaukuma (aizstājējzīmes, piem., *.txt, darbojas)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Saglabāt filtru, mainot mapi"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Šajā mapē"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Jūsu datnēs"
 
 msgid "Everywhere"
 msgstr "Visur"
@@ -2309,22 +2309,22 @@ msgid "File Names and Contents"
 msgstr "Datņu nosaukumi un saturs"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Jebkurā laikā"
 
 msgid "Today"
 msgstr "Šodien"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Pēdējās 7 dienas"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Pēdējās 30 dienas"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Pēdējais gads"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Slēptās datnes"
 
 msgid "Zoom:"
 msgstr "Tālummaiņa:"
@@ -2337,7 +2337,7 @@ msgid "%s free"
 msgstr "%s brīva vieta"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Dublēt cilni"
 
 msgid "Detach Tab"
 msgstr "Atdalīt cilni"
@@ -2352,31 +2352,31 @@ msgid "--- separator ---"
 msgstr "--- atdalītājs ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Darbības sarakstā virs vietas joslas atrodas pa kreisi no tās, pārējās pa labi. * atzīmē darbības, kas nav tur, kur tās ir noklusējuma rīkjoslā."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_Pieejamās darbības:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Pievienot rīkjoslai"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Noņemt no rīkjoslas"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Pārvietot augšup (pa kreisi rīkjoslā)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Pārvietot lejup (pa labi rīkjoslā)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "_Pašreizējās darbības:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Noklusējumi"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Rādīt kolonnas"
 
 #, c-format
 msgid "Size: %s"
@@ -2384,11 +2384,11 @@ msgstr "Izmērs: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Mainīts: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Sākotnējā atrašanās vieta: %s"
 
 msgid "Yesterday"
 msgstr "Vakar"
@@ -2415,19 +2415,19 @@ msgid "Big"
 msgstr "Lielas"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Mazāk par 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "No 1 MiB līdz 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "No 100 MiB līdz 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB vai vairāk"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Vēl nav saskaitīts"
 
 msgid "Searching…"
 msgstr "Meklē…"
@@ -2436,7 +2436,7 @@ msgid "No items matching the filter"
 msgstr "Nav filtram atbilstošu vienumu"
 
 msgid "No items found"
-msgstr ""
+msgstr "Vienumi netika atrasti"
 
 msgid "Trash is empty"
 msgstr "Atkritne ir tukša"
@@ -2445,38 +2445,38 @@ msgid "Folder is empty"
 msgstr "Mape ir tukša"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Datnes nosaukumā nedrīkst būt “/”."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Pārdēvējot “%s” par “%s”, mainās tās paplašinājums. Datne var atvērties ar citu lietotni vai neatvērties vispār."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Atlases režīms: noklikšķiniet uz datnēm vai mapēm, lai tās atlasītu vai noņemtu atlasi."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Iziet no atlases režīma"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Dublēt"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Dzēst"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Īpašības"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Mape “%s” vairs neeksistē."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "Atlasīts “%s” (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "Atlasīts: %s"
 
 msgid "Loading folder…"
 msgstr "Ielādē mapi…"
@@ -2484,88 +2484,88 @@ msgstr "Ielādē mapi…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Atlasīts %d"
+msgstr[1] "Atlasīti %d"
+msgstr[2] "Atlasīts %d"
 
 msgid "Move left"
-msgstr ""
+msgstr "Pa kreisi"
 
 msgid "Move down"
-msgstr ""
+msgstr "Lejup"
 
 msgid "Move up"
-msgstr ""
+msgstr "Augšup"
 
 msgid "Move right"
-msgstr ""
+msgstr "Pa labi"
 
 msgid "First item"
-msgstr ""
+msgstr "Pirmais vienums"
 
 msgid "Last item"
-msgstr ""
+msgstr "Pēdējais vienums"
 
 msgid "Page down"
-msgstr ""
+msgstr "Lapu lejup"
 
 msgid "Page up"
-msgstr ""
+msgstr "Lapu augšup"
 
 msgid "Parent folder"
 msgstr "Vecāka mape"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Atlasīt vienumus, kuriem kursors iet pāri (vizuāli)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Atlasīt diapazonu, kā ar Shift (vizuāla rinda)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Atlasīt režģa bloku (vizuāls bloks)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Atpakaļ parastajā režīmā"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Kopēt vienumu zem kursora"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Pārdēvēt, kursors sākumā (ievietot)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Pārdēvēt, kursors aiz nosaukuma (pievienot)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Pārdēvēt, nosaukums atlasīts (mainīt)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Rediģēt vietu"
 
 msgid "Copied."
-msgstr ""
+msgstr "Nokopēts."
 
 msgid "Cut."
-msgstr ""
+msgstr "Izgriezts."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "Nevar atvērt “%s”."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Vajadzīgs nosaukums."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Nezināms skats: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Nezināma opcija: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Kārtot pēc nosaukuma, izmēra, datuma vai tipa."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Nav komanda: %s"

@@ -19,95 +19,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Arhiivi ei õnnestunud avada."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Arhiivi ei õnnestunud lugeda."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Katkestatud."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "See fail on parooliga krüptitud."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "„%s” lugemine ebaõnnestus."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "See ei ole arhiivis olev fail."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Paki siia lahti"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Paki .tar.gz-failiks"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Terminaliemulaatorit ei leitud."
 
 msgid "Root"
-msgstr ""
+msgstr "Juur"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Köide %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Seda seadet ei saa haakida."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Seda seadet ei saa lahutada."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Seadet pole enam."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s kopeerimine asukohta „%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s liigutamine asukohta „%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s linkimine asukohas „%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s viskamine prügikasti"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s kustutamine"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s taastamine"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Prügikasti tühjendamine"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Failide loendamine…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "„%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Kausta ei saa liigutada iseendasse."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Kausta ei saa kopeerida iseendasse."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Faile saab lahti pakkida ainult kohalikesse kaustadesse."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Lahtipakkimine failist „%s”"
 
 msgid "Title:"
 msgstr "Pealkiri:"
@@ -125,7 +125,7 @@ msgid "Track:"
 msgstr "Rada:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Plaat:"
 
 msgid "Date:"
 msgstr "Kuupäev:"
@@ -156,71 +156,71 @@ msgstr "Keel:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Kestus:"
 
 msgid "Format:"
-msgstr ""
+msgstr "Vorming:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Bitikiirus:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Kaanepilt:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f kaadrit/s"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f kaadrit/s"
 
 msgid "Video:"
 msgstr "Video:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "stereo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanalit"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bitti"
 
 msgid "Audio:"
 msgstr "Heli:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Heli %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Subtiitrid:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Peatükid:"
 
 msgid "Places"
 msgstr "Asukohad"
@@ -268,7 +268,7 @@ msgid "Recent Files"
 msgstr "Hiljutised failid"
 
 msgid "Images"
-msgstr ""
+msgstr "Pildid"
 
 msgid "Audio"
 msgstr "Heli"
@@ -277,37 +277,37 @@ msgid "Folders"
 msgstr "Kataloogid"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arhiivid"
 
 msgid "All Files"
 msgstr "Kõik failid"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Otsi „%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Terminaliemulaatorit ei leitud. Määrake see menüüs Beluga seadistamine › Üldine › Terminal."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Sellel failisüsteemil pole prügikasti."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Prügikasti teabefaili loomine ebaõnnestus."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "„%s” on juba olemas."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Prügikast ületab oma piirangu %s. Kaaluge selle tühjendamist."
 
 msgid "Copy"
 msgstr "Kopeeri"
 
 msgid "Move"
-msgstr ""
+msgstr "Liiguta"
 
 msgid "Link"
 msgstr "Viit"
@@ -319,24 +319,24 @@ msgid "Move to Trash"
 msgstr "Viska prügikasti"
 
 msgid "Create Folder"
-msgstr ""
+msgstr "Loo kaust"
 
 msgid "Create File"
-msgstr ""
+msgstr "Loo fail"
 
 msgid "Undo"
 msgstr "Võta tagasi"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Võta tagasi: %s"
 
 msgid "Redo"
 msgstr "Tee uuesti"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Tee uuesti: %s"
 
 #, c-format
 msgid "%d item"
@@ -347,14 +347,14 @@ msgstr[1] "%d elementi"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fail"
+msgstr[1] "%d faili"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kaust"
+msgstr[1] "%d kausta"
 
 #, c-format
 msgid "%s, %s"
@@ -362,14 +362,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Täna kell %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Eile kell %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A kell %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -377,11 +377,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld min %ld s"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld h %ld min"
 
 #, c-format
 msgid "%s copy"
@@ -389,7 +389,7 @@ msgstr "%s koopia"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s koopia %d"
 
 msgid "Name"
 msgstr "Nimi"
@@ -398,7 +398,7 @@ msgid "Size"
 msgstr "Suurus"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Kettakasutus"
 
 msgid "Modified"
 msgstr "Muudetud"
@@ -413,7 +413,7 @@ msgid "Type"
 msgstr "Tüüp"
 
 msgid "Extension"
-msgstr ""
+msgstr "Laiend"
 
 msgid "Permissions"
 msgstr "Õigused"
@@ -434,28 +434,28 @@ msgid "Deletion Time"
 msgstr "Kustutamisaeg"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Algne asukoht"
 
 msgid "Dimensions"
 msgstr "Mõõtmed"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga ei saanud administraatorina toimida."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "Administraatori parooli küsimiseks on vaja pkexec'i (polkit). Paigaldage polkit ja polkiti agent oma töölauale."
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "Administraatorina toimimise ohud"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Administraatori õigustega Beluga aken saab muuta ja kustutada selle arvuti mis tahes faili, ka faile, mida süsteem käivitumiseks vajab. Viga seal võib muuta süsteemi kasutuskõlbmatuks. Kasutage seda ainult failide jaoks, mida te muul viisil muuta ei saa, ja sulgege see, kui olete lõpetanud.\n\nSeejärel küsib Beluga administraatori parooli."
 
 msgid "Cancel"
 msgstr "Loobu"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "Saan aru ja nõustun nende ohtudega"
 
 msgid "New Window"
 msgstr "Uus aken"
@@ -506,10 +506,10 @@ msgid "Invert Selection"
 msgstr "Vaheta valik"
 
 msgid "Copy to Other View"
-msgstr ""
+msgstr "Kopeeri teise vaatesse"
 
 msgid "Move to Other View"
-msgstr ""
+msgstr "Liiguta teise vaatesse"
 
 msgid "Icons View"
 msgstr "Ikoonivaade"
@@ -521,7 +521,7 @@ msgid "Details View"
 msgstr "Detailne vaade"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Veergudega vaade"
 
 msgid "Zoom In"
 msgstr "Suurenda"
@@ -530,25 +530,25 @@ msgid "Zoom Out"
 msgstr "Vähenda"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Lähtesta suurendus"
 
 msgid "Show Hidden Files"
 msgstr "Peidetud failide näitamine"
 
 msgid "Act as Administrator"
-msgstr ""
+msgstr "Toimi administraatorina"
 
 msgid "Split View"
 msgstr "Poolita vaade"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "Fookus teisele vaatele"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Eralda poolitatud vaade"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Poolitatud vaade kaartideks"
 
 msgid "Reload"
 msgstr "Laadi uuesti"
@@ -560,19 +560,19 @@ msgid "Replace Location"
 msgstr "Asendatav asukoht"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Asukohtade paneel"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Kaustade paneel"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "Teabepaneel"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Kettakasutuse paneel"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "Fookus asukohtade paneelile"
 
 msgid "Show Menubar"
 msgstr "Menüüriba näitamine"
@@ -590,34 +590,34 @@ msgid "Up"
 msgstr "Üles"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Mine 1. kaardile"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Mine 2. kaardile"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Mine 3. kaardile"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Mine 4. kaardile"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Mine 5. kaardile"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Mine 6. kaardile"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Mine 7. kaardile"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Mine 8. kaardile"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Mine 9. kaardile"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "Mine viimasele kaardile"
 
 msgid "Next Tab"
 msgstr "Järgmine kaart"
@@ -635,29 +635,29 @@ msgid "Configure Toolbars"
 msgstr "Tööriistaribade seadistamine"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga seadistamine"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Tagasivõtmine ebaõnnestus."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Kaust…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Tekstifail…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Tühi fail…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Link failile või kaustale…"
 
 msgid "Create New"
 msgstr "Loo uus"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Teine vaade (%s)"
 
 msgid "Browse…"
 msgstr "Lehitse…"
@@ -672,7 +672,7 @@ msgid "Open"
 msgstr "Ava"
 
 msgid "Open With…"
-msgstr ""
+msgstr "Ava rakendusega…"
 
 #, c-format
 msgid "Open with %s"
@@ -697,7 +697,7 @@ msgid "View Mode"
 msgstr "Vaaterežiim"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Jäta selle kausta vaade meelde"
 
 msgid "Restore"
 msgstr "Akna suuruse taastamine"
@@ -712,16 +712,16 @@ msgid "Open in New Window"
 msgstr "Ava uues aknas"
 
 msgid "Open in Split View"
-msgstr ""
+msgstr "Ava poolitatud vaates"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Ava Belugas"
 
 msgid "Open Containing Folder"
 msgstr "Ava sisaldav kataloog"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Aseta kausta"
 
 msgid "Rename…"
 msgstr "Muuda nime…"
@@ -733,65 +733,65 @@ msgid "Close"
 msgstr "Sulge"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Loobu"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Nimi ei tohi sisaldada märki „/”."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Punktiga algav nimi on peidetud."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Mõnda elementi ei õnnestunud ümber nimetada."
 
 msgid "Rename Item"
 msgstr "Elemendi nime muutmine"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Nimeta „%s” ümber:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Nimeta ümber"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "„%s” ümbernimetamine ebaõnnestus."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Kas muuta failitüüpi?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "„%s” ümbernimetamine nimeks „%s” muudab selle laiendit."
 
 msgid "Rename Items"
 msgstr "Elementide nime muutmine"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Nimeta %zu valitud elementi ümber:"
 
 msgid "New name #"
 msgstr "Uus nimi #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# asendatakse kasvavate numbritega; algusnullide jaoks kasutage ##. Laiendid säilitatakse."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Alusta nummerdamist numbrist:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Liiguta siia"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Kopeeri siia"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Lingi siia"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "L_oobu"
 
 msgid "Add Places Entry"
 msgstr "Asukohtade kirje lisamine"
@@ -803,25 +803,25 @@ msgid "Label:"
 msgstr "Nimi:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Valige kaust"
 
 msgid "Location:"
 msgstr "Asukoht:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Vali…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Ikooni nimi:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Valige kaust"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Lisa"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Salvesta"
 
 msgid "View Display Style"
 msgstr "Vaatestiil"
@@ -851,19 +851,19 @@ msgid "Descending"
 msgstr "Kahanev"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Näita _kaustu esimesena"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Näita peidetud faile _viimasena"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Näita _eelvaatlusi"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Näita _rühmadena"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Näita _peidetud faile"
 
 msgid "Apply to"
 msgstr "Rakendatakse"
@@ -872,17 +872,17 @@ msgid "Current folder"
 msgstr "Aktiivsele kataloogile"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Praegune kaust koos kõigi alamkaustadega"
 
 msgid "All folders"
 msgstr "Kõigile kataloogidele"
 
 msgid "_OK"
-msgstr ""
+msgstr "_Sobib"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "muudetud %s"
 
 msgid "Folder Already Exists"
 msgstr "Kataloog on juba olemas"
@@ -892,35 +892,35 @@ msgstr "Fail on juba olemas"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Kaust nimega „%s” on asukohas „%s” juba olemas."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Fail nimega „%s” on asukohas „%s” juba olemas."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Olemasolev element"
 
 msgid "New item"
-msgstr ""
+msgstr "Uus element"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Paku uus nimi"
 
 msgid "New name:"
-msgstr ""
+msgstr "Uus nimi:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Rakenda _kõigile"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Jäta vahele"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Kirjuta sisse"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Kirjuta üle"
 
 msgid "Skip"
 msgstr "Jäta vahele"
@@ -935,121 +935,121 @@ msgid "Choose an Icon"
 msgstr "Ikoon"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Otsi ikoone…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "_Pildifail…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_Vaikeikoon"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Valige pilt"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Võrguasukohad vajavad gvfs-i. Paigaldage pakett gvfs (ning gvfs-smb Windowsi jagatud ressursside ja gvfs-nfs NFS-i jaoks) ning logige välja ja uuesti sisse."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "See asukoht ei ole kaust."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "See asukoht ei ole sobiv."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Seda kausta arhiivis pole."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s väiksem fail"
+msgstr[1] "%s väiksemat faili"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(teine ketas, ei loeta)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Osa sisust ei õnnestunud lugeda."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s failides"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s kettal"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s faili ja %s kausta"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Lugemine… %s, %s faili ja %s kausta"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Peatatud."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Seda kausta ei õnnestunud lugeda."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, loetud %.1f s jooksul"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s kausta ei õnnestunud lugeda."
+msgstr[1] ". %s kausta ei õnnestunud lugeda."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Mõõta saab ainult selle arvuti kaustu."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "loetud vähem kui minut tagasi"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "loetud %d minut tagasi"
+msgstr[1] "loetud %d minutit tagasi"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "loetud %d tund tagasi"
+msgstr[1] "loetud %d tundi tagasi"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Uuesti lugemiseks skannige uuesti."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Näiv suurus"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Liida failide suurused, mitte nende kettal võetud ruum."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Jää sellele kettale"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Ära loe selle kausta sisse haagitud teisi kettaid (näiteks teisel kettal olevat muusikakausta). Linke ei järgita kunagi."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Skanni uuesti"
 
 msgid "Stop"
 msgstr "Peata"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Sulge kettakasutus"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Skanni uuesti"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Peata"
 
 msgid "Share"
 msgstr "Jagamine"
@@ -1059,74 +1059,74 @@ msgstr "Failid"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Kettakasutus – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "„%s” on juba olemas. Kas asendada?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu neist failidest on juba olemas. Kas asendada need?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Programm, millest salvestate, kirjutab olemasoleva sisu üle."
 
 msgid "Replace"
 msgstr "Asenda"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Valige kaust, kuhu salvestada."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Vali kaust"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Ava failid"
 
 msgid "Open File"
-msgstr ""
+msgstr "Ava fail"
 
 msgid "Save File"
-msgstr ""
+msgstr "Salvesta fail"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Salvesta failid"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Kaust:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Nimi:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Tüüp:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Vali"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Ava"
 
 msgid "New Folder"
 msgstr "Uus kataloog"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Loo uus kaust asukohta:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Loo"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Kausta loomine ebaõnnestus."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "Valitud %zu elementi"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Sisu:"
 
 msgid "Size:"
 msgstr "Suurus:"
@@ -1138,10 +1138,10 @@ msgid "Folder"
 msgstr "Kataloog"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Sisaldab:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Loendamine…"
 
 msgid "Unknown"
 msgstr "Tundmatu"
@@ -1171,75 +1171,75 @@ msgid "Dimensions:"
 msgstr "Mõõtmed:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Katkine link"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (link)"
 
 msgid "other drive"
-msgstr ""
+msgstr "teine ketas"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "jäänud %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Failitoimingud käivad"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Alamkaustu pole"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Vali antud failid nende kaustades"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Ava aken poolitatud vaates"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Ava alati uus aken"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Jätka taustal töötamist D-Busi teenuse FileManager1 jaoks"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Eraldu terminalist (asukohata: avab praeguse kausta)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Käivita xdg-desktop-portali failivalija (käivitab D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Näita versiooni"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[FAIL või KAUST…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Toimimine administraatorina: muudatused selles aknas võivad süsteemi kahjustada."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Kas sulgeda see aken?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Selles aknas on avatud %zu kaarti. Akna sulgemine sulgeb need kõik."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Sulge aken"
 
 msgid "Configure Toolbars…"
-msgstr ""
+msgstr "Seadista tööriistaribasid…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Näita _tööriistariba"
 
 msgid "Split"
 msgstr "Poolita"
@@ -1254,79 +1254,79 @@ msgid "Show in Groups"
 msgstr "Näitamine gruppides"
 
 msgid "_File"
-msgstr ""
+msgstr "_Fail"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Uus _aken"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Uus _kaart"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Sulge kaart"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Loo _uus"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Nimeta ümber…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Klooni siia"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Viska _prügikasti"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Kustuta"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Taasta prügikastist"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Omadused"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Välju"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Redigeerimine"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Võta tagasi"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Tee uuesti"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Lõika"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Kopeeri"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Aseta"
 
 msgid "Filter…"
-msgstr ""
+msgstr "Filter…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Otsi…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Vali _kõik"
 
 msgid "_View"
-msgstr ""
+msgstr "_Vaade"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Suurenda"
 
 msgid "Reset Zoom Level"
 msgstr "Lähtesta suurendus"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Vähenda"
 
 msgid "Show Additional Information"
 msgstr "Lisateabe näitamine"
@@ -1335,16 +1335,16 @@ msgid "Show Previews"
 msgstr "Eelvaatluse näitamine"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "Taasta vaikeväärtused"
 
 msgid "Adjust View Display Style…"
-msgstr ""
+msgstr "Kohanda vaate kuvastiili…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Laadi uuesti"
 
 msgid "Panels"
-msgstr ""
+msgstr "Paneelid"
 
 msgid "Information"
 msgstr "Teave"
@@ -1353,140 +1353,140 @@ msgid "Location Bar"
 msgstr "Asukohariba"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Näita _menüüriba"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Näita _olekuriba"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Mine"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Tagasi"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Edasi"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Üles"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Kodu"
 
 msgid "Recently Closed Tabs"
 msgstr "Viimati suletud kaardid"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Tööriistad"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Ava _terminal"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Ava terminal _siin"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Kettakasutus…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Seadistused"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Seadista _tööriistaribasid…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Beluga seadistamine…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Hiljuti suletud kaarte pole"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Administraator)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Kas avada %zu kausta uutel kaartidel?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Ava kaustad"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "„%s” avamine ebaõnnestus."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Terminali avamine ebaõnnestus."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Uus tekstifail.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Uus fail"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Kas tühjendada prügikast?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Kõik prügikasti elemendid kustutatakse jäädavalt. Seda ei saa tagasi võtta."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Kas avada %zu terminali?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Ava terminalid"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Loo uus fail asukohta:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Faili loomine ebaõnnestus."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Link failile või kaustale"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Lingitava faili või kausta asukoht:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Lingi loomine ebaõnnestus."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Kas kustutada %s jäädavalt?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Seda ei saa tagasi võtta."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Kas visata %s prügikasti?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "„%s” käivitamine ebaõnnestus."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s käivitamine ebaõnnestus."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Rakenduse käivitamine ebaõnnestus."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "„%s” on käivitatav fail."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Kas soovite selle käivitada või avada rakenduses?"
 
 msgid "Run"
-msgstr ""
+msgstr "Käivita"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Valige rakendus, millega avada %s (%s):"
 
 msgid "Recommended Applications"
 msgstr "Soovitatavad rakendused"
@@ -1495,33 +1495,33 @@ msgid "Other Applications"
 msgstr "Muud rakendused"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Või käsk:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Jäta selle failitüübi rakenduse seos meelde"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s vaba %s-st"
 
 msgid "Safely Remove"
 msgstr "Eemalda turvaliselt"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Seadista sektsioone"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Märgitud sektsioonid näidatakse asukohtade paneelil selles järjekorras."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Liiguta üles"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Liiguta alla"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Seadme haakimine ebaõnnestus: %s"
 
 msgid "Mount"
 msgstr "Ühenda"
@@ -1536,7 +1536,7 @@ msgid "Remove"
 msgstr "Eemalda"
 
 msgid "Show"
-msgstr ""
+msgstr "Näita"
 
 msgid "Hide"
 msgstr "Peida"
@@ -1548,31 +1548,31 @@ msgid "Add Entry…"
 msgstr "Lisa kirje …"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Seadista sektsioone…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Peida peidetud kirjed"
 
 msgid "Show All Entries"
 msgstr "Näita kõiki kirjeid"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Kõik prügikasti elemendid kustutatakse jäädavalt."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Seadme ohutu eemaldamine ebaõnnestus: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Seadme lahutamine ebaõnnestus: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Kasuta _süsteemi fonti"
 
 msgid "Label font:"
 msgstr "Pealdise font:"
@@ -1584,83 +1584,83 @@ msgid "Preview icon size:"
 msgstr "Eelvaatluse ikoonisuurus:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Kontekstimenüü toiming"
 
 msgid "Name:"
 msgstr "Nimi:"
 
 msgid "Command:"
-msgstr ""
+msgstr "Käsk:"
 
 msgid "File names:"
-msgstr ""
+msgstr "Failinimed:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Tüübid:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f esimene fail, %F kõik failid, %u / %U URI-dena, %n / %N nimed, %d praegune kaust."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Näita _failide puhul"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Näita _kaustade puhul"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Näita, kui on valitud _mitu elementi"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Käivita _terminalis"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Kohandatud toimingud"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Teie enda kirjed failide ja kaustade kontekstimenüüsse."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Lisa…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Redigeeri…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Eemalda"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Kiirklahvid kirjutatakse kujul <Control>c või <Shift>Delete. Eraldage mitu komaga. Vaikeväärtuse kasutamiseks jätke väli tühjaks."
 
 msgid "no file"
-msgstr ""
+msgstr "fail puudub"
 
 msgid "files of any size"
-msgstr ""
+msgstr "mis tahes suurusega failid"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "alla %d MiB failid"
 
 msgid "Search…"
-msgstr ""
+msgstr "Otsi…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Taasta vaikeväärtused"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Rakenda"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Kaustad ja kaardid"
 
 msgid "Show on startup:"
 msgstr "Käivitamisel näidatakse:"
 
 msgid "Folders, tabs, and window state from last time"
-msgstr ""
+msgstr "Kaustad, kaardid ja akna olek eelmisest korrast"
 
 msgid "This location:"
-msgstr ""
+msgstr "See asukoht:"
 
 msgid "Use Current Location"
 msgstr "Kasuta aktiivset asukohta"
@@ -1669,13 +1669,13 @@ msgid "Use Default Location"
 msgstr "Kasuta vaikimisi asukohta"
 
 msgid "Opening Folders:"
-msgstr ""
+msgstr "Kaustade avamine:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Hoia üht Beluga akent ja ava uued kaustad kaartidel"
 
 msgid "Window:"
-msgstr ""
+msgstr "Aken:"
 
 msgid "Show full path in title bar"
 msgstr "Täieliku asukoha näitamine tiitliribal"
@@ -1684,25 +1684,25 @@ msgid "Show filter bar"
 msgstr "Filtririba näitamine"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Kaardid:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "Näita alati kaardiriba"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "Näita kaartidel sulgemisnuppu"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "Kaartide stiil:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "Kaardi laius sõltub kausta nimest"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "Kõigil kaartidel on sama fikseeritud laius"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Fikseeritud laiusega kaardid muutuvad kitsamaks, kõik ühepalju, kui need ei mahu."
 
 msgid "Open new tabs:"
 msgstr "Uued kaardid avatakse:"
@@ -1717,75 +1717,75 @@ msgid "Split view:"
 msgstr "Poolita vaade:"
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "Poolitatud vaate sulgemisel"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "Sulge aktiivne paan"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "Sulge mitteaktiivne paan"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "Sulge parem paan"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "Ava uued aknad poolitatud vaates"
 
 msgid "Terminal:"
 msgstr "Terminal:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Terminali ei leitud"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Tuvastatud: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Kasutavad F4 ja Ava terminal siin. Käsus asendatakse %d kaustaga; muidu käivitub terminal selles. See oli varem KDE süsteemiseadistus."
 
 msgid "Previews"
 msgstr "Eelvaatlused"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Uued kaustad:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Näita uutes kaustades _eelvaatlusi"
 
 msgid "Show previews in the view for:"
 msgstr "Eelvaatluse näitamine:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Heli (kaanepildid)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF-dokumendid"
 
 msgid "Text files"
-msgstr ""
+msgstr "Tekstifailid"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Fondid"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Kontoridokumendid"
 
 msgid "Local storage:"
-msgstr ""
+msgstr "Kohalik salvestusruum:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "Näita eelvaatlusi"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "Võrgusalvestusruum:"
 
 msgid "Confirmations"
 msgstr "Kinnitused"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Küsi kinnitust, kui:"
 
 msgid "Moving files or folders to trash"
 msgstr "Failide või kataloogide viskamisel prügikasti"
@@ -1797,22 +1797,22 @@ msgid "Deleting files or folders"
 msgstr "Failide või kataloogide kustutamisel"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "Faili ümbernimetamine muudab selle tüüpi"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Küsi Belugas kinnitust, kui:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Mitme kaardiga akende sulgemisel"
 
 msgid "Opening many folders at once"
-msgstr ""
+msgstr "Paljude kaustade korraga avamine"
 
 msgid "Opening many terminals at once"
-msgstr ""
+msgstr "Paljude terminalide korraga avamine"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "Administraatorina toimimisele lülitumine"
 
 msgid "When opening an executable file:"
 msgstr "Teostusfaili avamisel:"
@@ -1827,7 +1827,7 @@ msgid "Run script"
 msgstr "Käivitatakse skript"
 
 msgid "Information Panel:"
-msgstr ""
+msgstr "Teabepaneel:"
 
 msgid "Show previews"
 msgstr "Eelvaatluse näitamine"
@@ -1836,40 +1836,40 @@ msgid "Auto-play media files"
 msgstr "Meediafailide automaatne esitamine"
 
 msgid "Show item on hover"
-msgstr ""
+msgstr "Näita elementi hõljumisel"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Kasuta _pikka kuupäevavormingut"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Kaustade paneel:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Piira kodukaustaga, kui ollakse selle sees"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Näita _peidetud kaustu"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Keri praeguse kaustani _automaatselt"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Asukohtade paneel:"
 
 msgid "Icon size:"
 msgstr "Ikooni suurus:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Oleku- ja asukohariba"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "Olekuriba:"
 
 msgid "Small"
 msgstr "Väike"
 
 msgid "Full width"
-msgstr ""
+msgstr "Täislaius"
 
 msgid "Disabled"
 msgstr "Välja lülitatud"
@@ -1878,7 +1878,7 @@ msgid "Show zoom slider"
 msgstr "Suurendusliuguri näitamine"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Näita vaba _ruumi"
 
 msgid "Location bar:"
 msgstr "Asukohariba:"
@@ -1890,13 +1890,13 @@ msgid "Show full path inside location bar"
 msgstr "Täieliku asukoha näitamine asukoharibal"
 
 msgid "Interface"
-msgstr ""
+msgstr "Liides"
 
 msgid "General"
 msgstr "Üldine"
 
 msgid "Display style:"
-msgstr ""
+msgstr "Kuvastiil:"
 
 msgid "Use common display style for all folders"
 msgstr "Ühine vaatestiil kõigi kataloogide puhul"
@@ -1905,52 +1905,52 @@ msgid "Remember display style for each folder"
 msgstr "Vaatestiil jäetakse iga kataloogi puhul meelde"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Igal juhul annab Vaade › Jäta selle kausta vaade meelde ühele kaustale oma stiili. Mõned erivaated, nagu otsing, viimased failid või prügikast, kasutavad ikka oma stiili."
 
 msgid "Browsing:"
-msgstr ""
+msgstr "Sirvimine:"
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "Sirvi tihendatud faile kaustadena"
 
 msgid "Open folders during drag operations"
 msgstr "Kataloogide avamine lohistamisel"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Ava failid ja kaustad ühekordse klõpsuga"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Hoia kodukausta _indeksit kiirotsingu jaoks"
 
 msgid "Miscellaneous:"
 msgstr "Muu:"
 
 msgid "Show item information on hover"
-msgstr ""
+msgstr "Näita elemendi teavet hõljumisel"
 
 msgid "Show selection marker"
 msgstr "Valiku lülitamisvõimaluse näitamine"
 
 msgid "Rename single items inline"
-msgstr ""
+msgstr "Nimeta üksikud elemendid ümber kohapeal"
 
 msgid "Also hide backup files while hiding hidden files"
-msgstr ""
+msgstr "Peida peidetud failide peitmisel ka varukoopiad"
 
 msgid "Background:"
-msgstr ""
+msgstr "Taust:"
 
 msgid "Double-click triggers"
-msgstr ""
+msgstr "Topeltklõps teeb"
 
 msgid "Nothing"
-msgstr ""
+msgstr "Mitte midagi"
 
 msgid "Go Up"
 msgstr "Liikumine üles"
 
 msgid "Content Display"
-msgstr ""
+msgstr "Sisu kuvamine"
 
 msgid "Sorting mode:"
 msgstr "Sortimisviis:"
@@ -1965,49 +1965,49 @@ msgid "Alphabetical, case sensitive"
 msgstr "Tähestiku järgi, tõstutundlik"
 
 msgid "Folder size:"
-msgstr ""
+msgstr "Kausta suurus:"
 
 msgid "Show number of items"
-msgstr ""
+msgstr "Näita elementide arvu"
 
 msgid "Show size of contents, up to "
-msgstr ""
+msgstr "Näita sisu suurust kuni"
 
 msgid "Show no size"
-msgstr ""
+msgstr "Ära näita suurust"
 
 msgid "levels deep"
-msgstr ""
+msgstr "taset sügavale"
 
 msgid "Date style:"
 msgstr "Kuupäevastiil:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Suhteline (Täna, Eile…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Absoluutne"
 
 msgid "Permissions style:"
-msgstr ""
+msgstr "Õiguste stiil:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Sümboolne (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numbriline (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Kombineeritud"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "Pikad failinimed:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Lühenda keskelt"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Lühenda lõpust"
 
 msgid "Label width:"
 msgstr "Pealdise laius:"
@@ -2028,7 +2028,7 @@ msgid "Unlimited"
 msgstr "Piiramatu"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Vahed:"
 
 msgid "Maximum width:"
 msgstr "Maksimumlaius:"
@@ -2040,190 +2040,190 @@ msgid "Expandable"
 msgstr "Laiendatavad"
 
 msgid "Open files and folders:"
-msgstr ""
+msgstr "Failide ja kaustade avamine:"
 
 msgid "By clicking anywhere on the row"
-msgstr ""
+msgstr "Klõpsuga reas ükskõik kus"
 
 msgid "By clicking on icon or name"
-msgstr ""
+msgstr "Klõpsuga ikoonil või nimel"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Kettakasutus:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Näita _kettakasutuse veergu"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Ruum, mida iga fail ja iga terve kaust kettal võtab, koos ribaga selle osakaalu kohta kaustas, nagu menüüs Tööriistad › Kettakasutus. Kaustu loetakse taustal täielikult; sortige veeru järgi, et näha suurimaid esimesena. Kettakasutuse akna \"Jää sellele kettale\" kehtib ka siin."
 
 msgid "View"
 msgstr "Vaade"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Näita kontekstimenüüs"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "„Kopeeri asukohta” ja „Liiguta asukohta”"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Kustuta (lisaks prügikasti viskamisele)"
 
 msgid "Context Menu"
 msgstr "Kontekstimenüü"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Puhastus:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Kustuta failid, mis on vanemad kui"
 
 msgid "days"
-msgstr ""
+msgstr "päeva"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Piira"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "protsendini kettast"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Hoia prügikasti kodukausta kettal"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Teistelt ketastelt prügikasti visatud failid kopeeritakse kodukausta prügikasti, nii et neile ketastele ei teki kausta .Trash-1000. Suurte failide prügikasti viskamine võtab siis kauem aega."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Täis prügikast:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Kui piirang on saavutatud:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Näita hoiatust"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Kustuta vanimad elemendid"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Kustuta suurimad elemendid"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Need olid varem KDE süsteemiseadistused. Piiranguid rakendatakse Beluga käivitumisel ja pärast elementide prügikasti viskamist."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Prügikasti suuruse arvutamine…"
 
 msgid "Trash:"
 msgstr "Prügikast:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Prügikast võtab praegu %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Tühjenda prügikast kohe"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vimi režiim"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vimi režiim:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Kasuta vaadetes Vimi-laadseid klahve"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Tavarežiim liigub klahvidega h j k l ja täidab allolevaid klahve; v, V ja Ctrl+V valivad; i ja a nimetavad ümber (sisestusrežiim); Esc naaseb tavarežiimi; : avab käsurea. Ctrl- või Alt-klahvid, mida siin pole, säilitavad tavapärase tähenduse."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Juhtklahv:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> allolevates klahvides, nt <Space> või ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Oota lisaklahve:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd pärast d-d, gg pärast g-d)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Klahvid"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vimi tähistus, mitu tühikuga eraldatult: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Vaikeväärtuse jaoks jätke väli tühjaks."
 
 msgid "Command line"
 msgstr "Käsurida"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q sulgeb akna (:q! kaartide kohta küsimata), :qa väljub Belugast, :e või :cd ASUKOHT avab kausta, :tabnew [ASUKOHT], :tabclose, :tabonly, :sp või :vs [ASUKOHT] poolitavad vaate, :only sulgeb teise vaate, :mkdir NIMI, :touch NIMI, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KÄSK käivitab kaustas shellikäsu."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Kiirklahvid"
 
 msgid "Details:"
 msgstr "Üksikasjad:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Lugeda saab ainult selle arvuti faile."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga on ehitatud ilma FFmpegita."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Lugemine…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Üksikasju ei leitud."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Muuda kausta ikooni"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Ikooni muutmine ebaõnnestus."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu elementi"
 
 msgid "Calculating…"
-msgstr ""
+msgstr "Arvutamine…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Vaikerakendust pole"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Muuda…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Avatakse rakendusega:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "Vaba ruum:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s vaba %s-st (kasutusel %d%%)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu bait"
+msgstr[1] "%llu baiti"
 
 msgid "Forbidden"
 msgstr "Keelatud"
 
 msgid "Can View"
-msgstr ""
+msgstr "Võib vaadata"
 
 msgid "Can View & Modify"
 msgstr "Vaatamise ja muutmise õigus"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Võib vaadata sisu"
 
 msgid "Can View & Modify Content"
 msgstr "Sisu vaatamise ja muutmise õigus"
@@ -2232,37 +2232,37 @@ msgid "Others:"
 msgstr "Teised"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "On _käivitatav"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Rakenda muudatused kõigile _alamkaustadele ja nende sisule"
 
 msgid "User:"
 msgstr "Kasutaja:"
 
 msgid "Mode:"
-msgstr ""
+msgstr "Režiim:"
 
 msgid "Calculate"
 msgstr "Arvuta"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Faili lugemine ebaõnnestus."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Asetage võrdlemiseks kontrollsumma"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Kontrolli:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Kontrollsummad ühtivad."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Ükski arvutatud kontrollsumma ei ühti. Arvutage esmalt vastav tüüp."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Õiguste muutmine ebaõnnestus."
 
 #, c-format
 msgid "Properties for %s"
@@ -2275,43 +2275,43 @@ msgid "Filter:"
 msgstr "Filter:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Filtreeri nime järgi (metamärgid nagu *.txt töötavad)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Säilita filter kausta vahetamisel"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Selles kaustas"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Teie failides"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "Kõikjal"
 
 msgid "File Names"
-msgstr ""
+msgstr "Failinimed"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "Failinimed ja sisu"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Igal ajal"
 
 msgid "Today"
 msgstr "Täna"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Viimased 7 päeva"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Viimased 30 päeva"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Viimane aasta"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Peidetud failid"
 
 msgid "Zoom:"
 msgstr "Suurendus:"
@@ -2324,7 +2324,7 @@ msgid "%s free"
 msgstr "%s vaba"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Klooni kaart"
 
 msgid "Detach Tab"
 msgstr "Haagi kaart lahti"
@@ -2339,31 +2339,31 @@ msgid "--- separator ---"
 msgstr "--- eraldaja ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Loendis asukohariba kohal olevad toimingud asuvad sellest vasakul, ülejäänud paremal. * tähistab toiminguid, mis ei ole seal, kus vaiketööriistariba neid hoiab."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_Saadaolevad toimingud:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Lisa tööriistaribale"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Eemalda tööriistaribalt"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Liiguta üles (tööriistaribal vasakule)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Liiguta alla (tööriistaribal paremale)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "_Praegused toimingud:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Vaikeväärtused"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Näita veerge"
 
 #, c-format
 msgid "Size: %s"
@@ -2371,11 +2371,11 @@ msgstr "Suurus: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Muudetud: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Algne asukoht: %s"
 
 msgid "Yesterday"
 msgstr "Eile"
@@ -2402,22 +2402,22 @@ msgid "Big"
 msgstr "Suur"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Alla 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB kuni 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB kuni 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB või rohkem"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Veel loendamata"
 
 msgid "Searching…"
-msgstr ""
+msgstr "Otsimine…"
 
 msgid "No items matching the filter"
 msgstr "Filtrile ei vasta ükski element"
@@ -2432,126 +2432,126 @@ msgid "Folder is empty"
 msgstr "Kataloog on tühi"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Failinimi ei tohi sisaldada märki „/”."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "„%s” ümbernimetamine nimeks „%s” muudab selle laiendit. Fail võib avaneda teise rakendusega või üldse mitte."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Valimisrežiim: klõpsake failidel või kaustadel nende valimiseks või valiku tühistamiseks."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Välju valimisrežiimist"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Klooni"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Kustuta"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Omadused"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Kausta „%s” pole enam olemas."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "„%s” valitud (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s valitud"
 
 msgid "Loading folder…"
-msgstr ""
+msgstr "Kausta laadimine…"
 
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d valitud"
+msgstr[1] "%d valitud"
 
 msgid "Move left"
-msgstr ""
+msgstr "Liigu vasakule"
 
 msgid "Move down"
-msgstr ""
+msgstr "Liigu alla"
 
 msgid "Move up"
-msgstr ""
+msgstr "Liigu üles"
 
 msgid "Move right"
-msgstr ""
+msgstr "Liigu paremale"
 
 msgid "First item"
-msgstr ""
+msgstr "Esimene element"
 
 msgid "Last item"
-msgstr ""
+msgstr "Viimane element"
 
 msgid "Page down"
-msgstr ""
+msgstr "Lehekülg alla"
 
 msgid "Page up"
-msgstr ""
+msgstr "Lehekülg üles"
 
 msgid "Parent folder"
 msgstr "Emakataloog"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Vali elemendid, millest kursor üle läheb (visuaalne)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Vali vahemik nagu Shiftiga (visuaalne rida)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Vali ruudustiku plokk (visuaalne plokk)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Tagasi tavarežiimi"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Kopeeri kursori all olev element"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Nimeta ümber, kursor alguses (lisamine)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Nimeta ümber, kursor nime järel (juurdelisamine)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Nimeta ümber, nimi valitud (muutmine)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Redigeeri asukohta"
 
 msgid "Copied."
-msgstr ""
+msgstr "Kopeeritud."
 
 msgid "Cut."
-msgstr ""
+msgstr "Lõigatud."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "„%s” ei saa avada."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Nimi on vajalik."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Tundmatu vaade: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Tundmatu valik: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Sordi nime, suuruse, kuupäeva või tüübi järgi."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Pole käsk: %s"
