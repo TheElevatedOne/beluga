@@ -16,95 +16,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "არქივის გახსნა შეუძლებელია."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "არქივის წაკითხვა შეუძლებელია."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "გაუქმდა."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "ფაილი პაროლით არის დაშიფრული."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "„%s“-ის წაკითხვა შეუძლებელია."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "ეს არქივის შიგნით არსებული ფაილი არაა."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "აქ გაშლა"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "შეკუმშვა .tar.gz-ში"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "ტერმინალის ემულატორი ვერ მოიძებნა."
 
 msgid "Root"
-msgstr ""
+msgstr "ძირი"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s ტომი"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "ამ მოწყობილობის მიმაგრება შეუძლებელია."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "ამ მოწყობილობის მოხსნა შეუძლებელია."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "მოწყობილობა აღარ არსებობს."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s-ის კოპირება „%s“-ში"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s-ის გადატანა „%s“-ში"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s-ის ბმულის შექმნა „%s“-ში"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s-ის ნაგავში გადატანა"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s-ის წაშლა"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s-ის აღდგენა"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "ნაგვის დაცლა"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "ფაილების დათვლა…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "„%s“: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "საქაღალდეს საკუთარ თავში ვერ გადაიტანთ."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "საქაღალდეს საკუთარ თავში ვერ დააკოპირებთ."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "ფაილების გაშლა მხოლოდ ლოკალურ საქაღალდეებშია შესაძლებელი."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "გაშლა „%s“-დან"
 
 msgid "Title:"
 msgstr "სათაური:"
@@ -122,7 +122,7 @@ msgid "Track:"
 msgstr "ტრეკი:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "დისკი:"
 
 msgid "Date:"
 msgstr "თარიღი:"
@@ -153,11 +153,11 @@ msgstr "ენა:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "ხანგრძლოვობა:"
@@ -166,58 +166,58 @@ msgid "Format:"
 msgstr "ფორმატი:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "ბიტური სიჩქარე:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "ყდა:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f კადრი/წმ"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f კადრი/წმ"
 
 msgid "Video:"
 msgstr "ვიდეო:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "ვიდეო %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d ჰც"
 
 msgid "mono"
-msgstr ""
+msgstr "მონო"
 
 msgid "stereo"
-msgstr ""
+msgstr "სტერეო"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d არხი"
+msgstr[1] "%d არხი"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d ბიტი"
 
 msgid "Audio:"
 msgstr "აუდიო:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "აუდიო %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "სუბტიტრები:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "თავები:"
 
 msgid "Places"
 msgstr "ადგილები"
@@ -265,7 +265,7 @@ msgid "Recent Files"
 msgstr "ბოლო ფაილები"
 
 msgid "Images"
-msgstr ""
+msgstr "სურათები"
 
 msgid "Audio"
 msgstr "აუდიო"
@@ -274,37 +274,37 @@ msgid "Folders"
 msgstr "საქაღალდეები"
 
 msgid "Archives"
-msgstr ""
+msgstr "არქივები"
 
 msgid "All Files"
 msgstr "ყველა ფაილი"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "„%s“-ის ძებნა"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "ტერმინალის ემულატორი ვერ მოიძებნა. მიუთითეთ ის აქ: Beluga-ის მორგება › ზოგადი › ტერმინალი."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "ამ ფაილურ სისტემას ნაგავი არ გააჩნია."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "ნაგვის ინფორმაციის ფაილის შექმნა შეუძლებელია."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "„%s“ უკვე არსებობს."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "ნაგავი %s-იან ლიმიტზე დიდია. სასურველია, დაცალოთ."
 
 msgid "Copy"
 msgstr "ასლი"
 
 msgid "Move"
-msgstr ""
+msgstr "გადატანა"
 
 msgid "Link"
 msgstr "ბმული"
@@ -319,21 +319,21 @@ msgid "Create Folder"
 msgstr "საქაღალდის შექმნა"
 
 msgid "Create File"
-msgstr ""
+msgstr "ფაილის შექმნა"
 
 msgid "Undo"
 msgstr "გაუქმება"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "დაბრუნება: %s"
 
 msgid "Redo"
 msgstr "თავიდან"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "გამეორება: %s"
 
 #, c-format
 msgid "%d item"
@@ -344,14 +344,14 @@ msgstr[1] "%d ელემენტი"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ფაილი"
+msgstr[1] "%d ფაილი"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d საქაღალდე"
+msgstr[1] "%d საქაღალდე"
 
 #, c-format
 msgid "%s, %s"
@@ -359,14 +359,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "დღეს, %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "გუშინ, %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A, %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -374,11 +374,11 @@ msgstr "%ld წმ"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld წთ %ld წმ"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld სთ %ld წთ"
 
 #, c-format
 msgid "%s copy"
@@ -386,7 +386,7 @@ msgstr "%s ასლი"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s ასლი %d"
 
 msgid "Name"
 msgstr "სახელი"
@@ -395,7 +395,7 @@ msgid "Size"
 msgstr "ზომა"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "დისკის გამოყენება"
 
 msgid "Modified"
 msgstr "შეიცვალა"
@@ -410,7 +410,7 @@ msgid "Type"
 msgstr "ტიპით"
 
 msgid "Extension"
-msgstr ""
+msgstr "გაფართოება"
 
 msgid "Permissions"
 msgstr "წვდომები"
@@ -431,22 +431,22 @@ msgid "Deletion Time"
 msgstr "წაშლის დრო"
 
 msgid "Original Location"
-msgstr ""
+msgstr "საწყისი მდებარეობა"
 
 msgid "Dimensions"
 msgstr "ზომები"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga-მ ადმინისტრატორად მოქმედება ვერ შეძლო."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "ადმინისტრატორის პაროლის მოსათხოვად საჭიროა pkexec (polkit). დააყენეთ polkit და polkit-ის აგენტი თქვენი სამუშაო მაგიდისთვის."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "ადმინისტრატორის პრივილეგიების რისკები"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Beluga-ის ფანჯარას ადმინისტრატორის უფლებებით შეუძლია ამ კომპიუტერზე ნებისმიერი ფაილის შეცვლა და წაშლა, მათ შორის იმ ფაილების, რომლებიც სისტემას ჩასატვირთად სჭირდება. იქ დაშვებულმა შეცდომამ შეიძლება სისტემა გამოუსადეგარი გახადოს. გამოიყენეთ მხოლოდ იმ ფაილებისთვის, რომლებსაც სხვაგვარად ვერ შეცვლით, და დაასრულების შემდეგ დახურეთ.\n\nამის შემდეგ Beluga ადმინისტრატორის პაროლს მოგთხოვთ."
 
 msgid "Cancel"
 msgstr "შეწყვეტა"
@@ -518,7 +518,7 @@ msgid "Details View"
 msgstr "დეტალური ხედი"
 
 msgid "Columns View"
-msgstr ""
+msgstr "სვეტების ხედი"
 
 msgid "Zoom In"
 msgstr "შემცირება"
@@ -527,7 +527,7 @@ msgid "Zoom Out"
 msgstr "გადიდება"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "მასშტაბის ჩამოყრა"
 
 msgid "Show Hidden Files"
 msgstr "დამალული ფაილების ჩვენება"
@@ -542,7 +542,7 @@ msgid "Focus Other View"
 msgstr "ფოკუსი სხვა ხედზე"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "გაყოფილი ხედის გამოყოფა"
 
 msgid "Split View to Tabs"
 msgstr "ხედის გაყოფის გადატანა ჩანართებში"
@@ -557,7 +557,7 @@ msgid "Replace Location"
 msgstr "მდებარეობის ჩანაცვლება"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "ადგილების პანელი"
 
 msgid "Folders Panel"
 msgstr "საქაღალდეების პანელი"
@@ -566,7 +566,7 @@ msgid "Information Panel"
 msgstr "ინფორმაციის პანელი"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "დისკის გამოყენების პანელი"
 
 msgid "Focus Places Panel"
 msgstr "მდებარეობის პანელის ფოკუსი"
@@ -587,31 +587,31 @@ msgid "Up"
 msgstr "მაღლა"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "ჩანართ 1-ზე გადასვლა"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "ჩანართ 2-ზე გადასვლა"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "ჩანართ 3-ზე გადასვლა"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "ჩანართ 4-ზე გადასვლა"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "ჩანართ 5-ზე გადასვლა"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "ჩანართ 6-ზე გადასვლა"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "ჩანართ 7-ზე გადასვლა"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "ჩანართ 8-ზე გადასვლა"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "ჩანართ 9-ზე გადასვლა"
 
 msgid "Go to Last Tab"
 msgstr "ბოლო ჩანართზე გადასვლა"
@@ -632,29 +632,29 @@ msgid "Configure Toolbars"
 msgstr "ხელსაწყოთა ზოლების გამართვა"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga-ის მორგება"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "დაბრუნება ჩავარდა."
 
 msgid "Folder…"
-msgstr ""
+msgstr "საქაღალდე…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "ტექსტური ფაილი…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "ცარიელი ფაილი…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "ბმული ფაილზე ან საქაღალდეზე…"
 
 msgid "Create New"
 msgstr "ახლის შექმნა"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "სხვა ხედი (%s)"
 
 msgid "Browse…"
 msgstr "არჩევა…"
@@ -694,7 +694,7 @@ msgid "View Mode"
 msgstr "ხედვის რეჟიმი"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "ამ საქაღალდის ხედის დამახსოვრება"
 
 msgid "Restore"
 msgstr "აღდგენა"
@@ -712,13 +712,13 @@ msgid "Open in Split View"
 msgstr "დაყოფილ ხედში გახსნა"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Beluga-ში გახსნა"
 
 msgid "Open Containing Folder"
 msgstr "შემცველი საქაღალდის გახსნა"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "საქაღალდეში ჩასმა"
 
 msgid "Rename…"
 msgstr "სახელის გადარქმევა…"
@@ -730,65 +730,65 @@ msgid "Close"
 msgstr "დახურვა"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_გაუქმება"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "სახელი „/“-ს ვერ შეიცავს."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "წერტილით დაწყებული სახელი დამალულია."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "ზოგიერთი ელემენტის სახელის გადარქმევა ვერ მოხერხდა."
 
 msgid "Rename Item"
 msgstr "ჩანაწერის სახელის გადარქმევა"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "„%s“-ის სახელის გადარქმევა:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_სახელის გადარქმევა"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "„%s“-ის სახელის გადარქმევა ვერ მოხერხდა."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "შევცვალო ფაილის ტიპი?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "„%s“-ის „%s“-ად გადარქმევა მის გაფართოებას ცვლის."
 
 msgid "Rename Items"
 msgstr "ჩანაწერების სახელის გადარქმევა"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "%zu მონიშნული ელემენტის სახელის გადარქმევა:"
 
 msgid "New name #"
 msgstr "ახალი სახელი #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# იცვლება ზრდადი რიცხვებით; წინა ნულებისთვის გამოიყენეთ ##. გაფართოებები ნარჩუნდება."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "დანომვრის დაწყება:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "აქ _გადატანა"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "აქ _კოპირება"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "აქ _ბმული"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "გა_უქმება"
 
 msgid "Add Places Entry"
 msgstr "მდებარეობის ელემენტის დამატება"
@@ -800,25 +800,25 @@ msgid "Label:"
 msgstr "ჭდე:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "აირჩიეთ საქაღალდე"
 
 msgid "Location:"
 msgstr "მდებარეობა:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_არჩევა…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "ხატულის სახელი:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "აირჩიეთ საქაღალდე"
 
 msgid "_Add"
-msgstr ""
+msgstr "_დამატება"
 
 msgid "_Save"
-msgstr ""
+msgstr "_შენახვა"
 
 msgid "View Display Style"
 msgstr "ჩვენების სტილის ნახვა"
@@ -848,19 +848,19 @@ msgid "Descending"
 msgstr "Დაღმავალი"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "_საქაღალდეები პირველად"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "დამალული ფაილები _ბოლოს"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "_მინიატურების ჩვენება"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "_ჯგუფებად ჩვენება"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "_დამალული ფაილების ჩვენება"
 
 msgid "Apply to"
 msgstr "გადატარება"
@@ -869,17 +869,17 @@ msgid "Current folder"
 msgstr "მიმდინარე საქაღალდე"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "მიმდინარე საქაღალდე ყველა ქვესაქაღალდით"
 
 msgid "All folders"
 msgstr "ყველა საქაღალდე"
 
 msgid "_OK"
-msgstr ""
+msgstr "_დიახ"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "შეცვლილია %s"
 
 msgid "Folder Already Exists"
 msgstr "საქაღალდე უკვე არსებობს"
@@ -889,35 +889,35 @@ msgstr "ფაილი უკვე არსებობს"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "საქაღალდე სახელით „%s“ უკვე არსებობს „%s“-ში."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "ფაილი სახელით „%s“ უკვე არსებობს „%s“-ში."
 
 msgid "Existing item"
-msgstr ""
+msgstr "არსებული ელემენტი"
 
 msgid "New item"
-msgstr ""
+msgstr "ახალი ელემენტი"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "ახალი სახელის _შეთავაზება"
 
 msgid "New name:"
-msgstr ""
+msgstr "ახალი სახელი:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "_ყველასთვის გადატარება"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_გამოტოვება"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_შიგნით ჩაწერა"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_თავზე გადაწერა"
 
 msgid "Skip"
 msgstr "გამოტოვება"
@@ -932,198 +932,198 @@ msgid "Choose an Icon"
 msgstr "აირჩიეთ ხატულა"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "ხატულების ძებნა…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "_გამოსახულების ფაილი…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_ნაგულისხმევი ხატულა"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "აირჩიეთ გამოსახულება"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "ქსელურ მდებარეობებს gvfs სჭირდება. დააყენეთ gvfs პაკეტი (და gvfs-smb Windows-ის გაზიარებებისთვის, gvfs-nfs NFS-ისთვის), შემდეგ გადით სისტემიდან და თავიდან შედით."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "ეს მდებარეობა საქაღალდე არაა."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "ეს მდებარეობა არასწორია."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "ეს საქაღალდე არქივში არაა."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s უფრო პატარა ფაილი"
+msgstr[1] "%s უფრო პატარა ფაილი"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(სხვა დისკი, არ დათვლილა)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "შემცველობის ნაწილის წაკითხვა ვერ მოხერხდა."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s ფაილებში"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s დისკზე"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s ფაილი და %s საქაღალდე"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "კითხვა… %s %s ფაილში და %s საქაღალდეში"
 
 msgid "Stopped."
-msgstr ""
+msgstr "გაჩერდა."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "ამ საქაღალდის წაკითხვა ვერ მოხერხდა."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, წაკითხულია %.1f წმ-ში"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s საქაღალდის წაკითხვა ვერ მოხერხდა."
+msgstr[1] ". %s საქაღალდის წაკითხვა ვერ მოხერხდა."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "მხოლოდ ამ კომპიუტერის საქაღალდეების გაზომვაა შესაძლებელი."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "წაკითხულია წუთზე ნაკლები ხნის წინ"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "წაკითხულია %d წუთის წინ"
+msgstr[1] "წაკითხულია %d წუთის წინ"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "წაკითხულია %d საათის წინ"
+msgstr[1] "წაკითხულია %d საათის წინ"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. თავიდან წასაკითხად ხელახლა დაასკანერეთ."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_ხილული ზომა"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "ფაილების ზომების შეჯამება მათ მიერ დისკზე დაკავებული ადგილის ნაცვლად."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "ამ დისკზე _დარჩენა"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "ამ საქაღალდეში მიმაგრებული სხვა დისკები არ დაითვლება (მაგ. მუსიკის საქაღალდე სხვა დისკზე). ბმულებს არასდროს მიჰყვება."
 
 msgid "Rescan"
-msgstr ""
+msgstr "თავიდან სკანირება"
 
 msgid "Stop"
 msgstr "შეჩერება"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "დისკის გამოყენების დახურვა"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "თავიდან _სკანირება"
 
 msgid "S_top"
-msgstr ""
+msgstr "_გაჩერება"
 
 msgid "Share"
 msgstr "გაზიარება"
 
 msgid "Files"
-msgstr ""
+msgstr "ფაილები"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "დისკის გამოყენება – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "„%s“ უკვე არსებობს. ჩავანაცვლო?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "ამ ფაილებიდან %zu უკვე არსებობს. ჩავანაცვლო?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "პროგრამა, საიდანაც ინახავთ, არსებულ შემცველობას თავზე გადააწერს."
 
 msgid "Replace"
 msgstr "ჩანაცვლება"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "აირჩიეთ შესანახი საქაღალდე."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "საქაღალდის არჩევა"
 
 msgid "Open Files"
-msgstr ""
+msgstr "ფაილების გახსნა"
 
 msgid "Open File"
-msgstr ""
+msgstr "ფაილის გახსნა"
 
 msgid "Save File"
-msgstr ""
+msgstr "ფაილის შენახვა"
 
 msgid "Save Files"
-msgstr ""
+msgstr "ფაილების შენახვა"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_საქაღალდე:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_სახელი:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_ტიპი:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_არჩევა"
 
 msgid "_Open"
-msgstr ""
+msgstr "_გახსნა"
 
 msgid "New Folder"
 msgstr "ახალი საქაღალდე"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "ახალი საქაღალდის შექმნა აქ:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_შექმნა"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "საქაღალდის შექმნა ვერ მოხერხდა."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "მონიშნულია %zu ელემენტი"
 
 msgid "Contents:"
-msgstr ""
+msgstr "შემცველობა:"
 
 msgid "Size:"
 msgstr "ზომა:"
@@ -1135,10 +1135,10 @@ msgid "Folder"
 msgstr "საქაღალდე"
 
 msgid "Contains:"
-msgstr ""
+msgstr "შეიცავს:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "დათვლა…"
 
 msgid "Unknown"
 msgstr "უცნობი"
@@ -1168,75 +1168,75 @@ msgid "Dimensions:"
 msgstr "ზომები:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "გაფუჭებული ბმული"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (ბმული)"
 
 msgid "other drive"
-msgstr ""
+msgstr "სხვა დისკი"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "დარჩა %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "მიმდინარეობს ფაილური ოპერაციები"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "ქვესაქაღალდეები არაა"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "მითითებული ფაილების მონიშვნა მათ საქაღალდეებში"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "ფანჯრის გაყოფილ ხედში გახსნა"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "ყოველთვის ახალი ფანჯრის გახსნა"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "ფონზე გაშვებული დარჩენა FileManager1 D-Bus სერვისისთვის"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "ტერმინალისგან მოწყვეტა (მდებარეობის გარეშე: მიმდინარე საქაღალდეს ხსნის)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "ფაილის ამრჩევის გაშვება xdg-desktop-portal-ისთვის (უშვებს D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "ვერსიის ჩვენება"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[ფაილი ან საქაღალდე…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "მოქმედებს ადმინისტრატორად: ამ ფანჯარაში ცვლილებებმა შეიძლება სისტემა დააზიანოს."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "დავხურო ეს ფანჯარა?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "ამ ფანჯარაში %zu ჩანართია გახსნილი. მისი დახურვა ყველას დახურავს."
 
 msgid "Close Window"
-msgstr ""
+msgstr "ფანჯრის დახურვა"
 
 msgid "Configure Toolbars…"
 msgstr "ხელსაწყოს პანელების მორგება…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "_ხელსაწყოთა ზოლის ჩვენება"
 
 msgid "Split"
 msgstr "გაყოფა"
@@ -1251,79 +1251,79 @@ msgid "Show in Groups"
 msgstr "ჯგუფებში ჩვენება"
 
 msgid "_File"
-msgstr ""
+msgstr "_ფაილი"
 
 msgid "New _Window"
-msgstr ""
+msgstr "ახალი _ფანჯარა"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "ახალი _ჩანართი"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "ჩანართის _დახურვა"
 
 msgid "Create _New"
-msgstr ""
+msgstr "_ახლის შექმნა"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_სახელის გადარქმევა…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "აქ _დუბლირება"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "_ნაგავში გადატანა"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_წაშლა"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "ნაგვიდან აღდგენა"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_თვისებები"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_გასვლა"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_ჩასწორება"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_დაბრუნება"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_გამეორება"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_ამოჭრა"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_კოპირება"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_ჩასმა"
 
 msgid "Filter…"
 msgstr "ფილტრი…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_ძებნა…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "_ყველას მონიშვნა"
 
 msgid "_View"
-msgstr ""
+msgstr "_ხედი"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_გადიდება"
 
 msgid "Reset Zoom Level"
 msgstr "გადიდების დონის ჩამოყრა"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_დაპატარავება"
 
 msgid "Show Additional Information"
 msgstr "დამატებითი ინფორმაციის ჩვენება"
@@ -1338,7 +1338,7 @@ msgid "Adjust View Display Style…"
 msgstr "ხედის ჩვენების სტილის სწორება…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_თავიდან ჩატვირთვა"
 
 msgid "Panels"
 msgstr "პანელები"
@@ -1350,175 +1350,175 @@ msgid "Location Bar"
 msgstr "მდებარეობის ზოლი"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "_მენიუს ზოლის ჩვენება"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "_მდგომარეობის ზოლის ჩვენება"
 
 msgid "_Go"
-msgstr ""
+msgstr "_გადასვლა"
 
 msgid "_Back"
-msgstr ""
+msgstr "_უკან"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_წინ"
 
 msgid "_Up"
-msgstr ""
+msgstr "_ზემოთ"
 
 msgid "_Home"
-msgstr ""
+msgstr "_საწყისი"
 
 msgid "Recently Closed Tabs"
 msgstr "ახლახანს დახურული ჩანართები"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_ხელსაწყოები"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "_ტერმინალის გახსნა"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "ტერმინალის _აქ გახსნა"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_დისკის გამოყენება…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_პარამეტრები"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "_ხელსაწყოთა ზოლების მორგება…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga-ის _მორგება…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "ბოლოს დახურული ჩანართები არაა"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(ადმინისტრატორი)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "გავხსნა %zu საქაღალდე ახალ ჩანართებში?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "საქაღალდეების გახსნა"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "„%s“-ის გახსნა ვერ მოხერხდა."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "ტერმინალის გახსნა ვერ მოხერხდა."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "ახალი ტექსტური ფაილი.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "ახალი ფაილი"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "დავცალო ნაგავი?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "ნაგავში არსებული ყველა ელემენტი სამუდამოდ წაიშლება. ამის დაბრუნება შეუძლებელია."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "გავხსნა %zu ტერმინალი?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "ტერმინალების გახსნა"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "ახალი ფაილის შექმნა აქ:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "ფაილის შექმნა ვერ მოხერხდა."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "ბმული ფაილზე ან საქაღალდეზე"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "დასაკავშირებელი ფაილის ან საქაღალდის ბილიკი:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "ბმულის შექმნა ვერ მოხერხდა."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "წავშალო %s სამუდამოდ?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "ამის დაბრუნება შეუძლებელია."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "გადავიტანო %s ნაგავში?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "„%s“-ის გაშვება ვერ მოხერხდა."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s-ის გაშვება ვერ მოხერხდა."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "აპლიკაციის გაშვება ვერ მოხერხდა."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "„%s“ გაშვებადი ფაილია."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "გნებავთ, გაუშვათ ის თუ აპლიკაციაში გახსნათ?"
 
 msgid "Run"
-msgstr ""
+msgstr "გაშვება"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "აირჩიეთ აპლიკაცია %s-ის (%s) გასახსნელად:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "რეკომენდებული აპლიკაციები"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "სხვა აპლიკაციები"
 
 msgid "Or command:"
-msgstr ""
+msgstr "ან ბრძანება:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "ამ ფაილის ტიპისთვის აპლიკაციის მიბმის დამახსოვრება"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "თავისუფალია %s / %s"
 
 msgid "Safely Remove"
 msgstr "უსაფრთხოდ მოცილება"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "სექციების მორგება"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "მონიშნული სექციები ადგილების პანელში ამ თანმიმდევრობით ჩანს."
 
 msgid "Move Up"
-msgstr ""
+msgstr "ზემოთ აწევა"
 
 msgid "Move Down"
-msgstr ""
+msgstr "ქვემოთ ჩამოწევა"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "მოწყობილობის მიმაგრება ვერ მოხერხდა: %s"
 
 msgid "Mount"
 msgstr "მიმაგრება"
@@ -1545,31 +1545,31 @@ msgid "Add Entry…"
 msgstr "ელემენტის დამატება…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "სექციების მორგება…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "დამალული ჩანაწერების დამალვა"
 
 msgid "Show All Entries"
 msgstr "ყველა ელემენტის ჩვენება"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "ნაგავში არსებული ყველა ელემენტი სამუდამოდ წაიშლება."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "მოწყობილობის უსაფრთხოდ მოხსნა ვერ მოხერხდა: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "მოწყობილობის მოხსნა ვერ მოხერხდა: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d პქს"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "_სისტემური ფონტის გამოყენება"
 
 msgid "Label font:"
 msgstr "ჭდის ფონტი:"
@@ -1581,7 +1581,7 @@ msgid "Preview icon size:"
 msgstr "ხატულას მინიატურის ზომა:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "კონტექსტური მენიუს ქმედება"
 
 msgid "Name:"
 msgstr "სახელი:"
@@ -1593,40 +1593,40 @@ msgid "File names:"
 msgstr "ფაილის სახელები:"
 
 msgid "Types:"
-msgstr ""
+msgstr "ტიპები:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f პირველი ფაილი, %F ყველა ფაილი, %u / %U URI-ებად, %n / %N სახელები, %d მიმდინარე საქაღალდე."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "_ფაილებისთვის ჩვენება"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "_საქაღალდეებისთვის ჩვენება"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "ჩვენება, როცა _რამდენიმე ელემენტია მონიშნული"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "_ტერმინალში გაშვება"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "მორგებული ქმედებები"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "თქვენი ჩანაწერები ფაილებისა და საქაღალდეების კონტექსტური მენიუსთვის."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_დამატება…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_ჩასწორება…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_წაშლა"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "მალსახმობები ასე იწერება: <Control>c ან <Shift>Delete. რამდენიმე მძიმით გამოყავით. ნაგულისხმევისთვის ველი ცარიელი დატოვეთ."
 
 msgid "no file"
 msgstr "ფაილის გარეშე"
@@ -1636,19 +1636,19 @@ msgstr "ნებისმიერი ზომის ფაილები"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB-ზე პატარა ფაილები"
 
 msgid "Search…"
 msgstr "ძებნა…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "ნაგულისხმევის _აღდგენა"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_გადატარება"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "საქაღალდეები და ჩანართები"
 
 msgid "Show on startup:"
 msgstr "გაშვებისას ჩვენება:"
@@ -1657,7 +1657,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "საქაღალდეების, ჩანართებისა და ფანჯრების მდგომარეობა ბოლო გახსნის შემდეგ"
 
 msgid "This location:"
-msgstr ""
+msgstr "ეს მდებარეობა:"
 
 msgid "Use Current Location"
 msgstr "მიმდინარე მდებარეობის გამოყენება"
@@ -1669,7 +1669,7 @@ msgid "Opening Folders:"
 msgstr "საქაღალდეების გახსნა:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Beluga-ის ერთი ფანჯრის შენარჩუნება და ახალი საქაღალდეების ჩანართებში გახსნა"
 
 msgid "Window:"
 msgstr "ფანჯარა:"
@@ -1681,7 +1681,7 @@ msgid "Show filter bar"
 msgstr "ფილტრის ზოლის ჩვენება"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "ჩანართები:"
 
 msgid "Always show tab bar"
 msgstr "ჩანართების ზოლის ყოველთვის ჩვენება"
@@ -1699,7 +1699,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "ჩანართებს ექნებათ იგივე ფიქსირებული ზომა"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "ფიქსირებული სიგანის ჩანართები, როცა ვერ ეტევა, ერთნაირად ვიწროვდება."
 
 msgid "Open new tabs:"
 msgstr "ახალი ჩანართების გახსნა: "
@@ -1732,42 +1732,42 @@ msgid "Terminal:"
 msgstr "ტერმინალი:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "ტერმინალი ვერ მოიძებნა"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "აღმოჩენილია: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "გამოიყენება F4-ისა და „ტერმინალის აქ გახსნის“ მიერ. ბრძანებაში %d საქაღალდით იცვლება; სხვა შემთხვევაში ტერმინალი მასში ეშვება. ადრე ეს KDE-ის სისტემური პარამეტრი იყო."
 
 msgid "Previews"
 msgstr "გადახედვები"
 
 msgid "New folders:"
-msgstr ""
+msgstr "ახალი საქაღალდეები:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "_მინიატურების ჩვენება ახალ საქაღალდეებში"
 
 msgid "Show previews in the view for:"
 msgstr "მინიატურების ჩვენება ხედში რისთვის:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "აუდიო (ყდის სურათები)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF დოკუმენტები"
 
 msgid "Text files"
-msgstr ""
+msgstr "ტექსტური ფაილები"
 
 msgid "Fonts"
-msgstr ""
+msgstr "ფონტები"
 
 msgid "Office documents"
-msgstr ""
+msgstr "საოფისე დოკუმენტები"
 
 msgid "Local storage:"
 msgstr "ლოკალური საცავი:"
@@ -1782,7 +1782,7 @@ msgid "Confirmations"
 msgstr "დადასტურებები"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "დადასტურების მოთხოვნა, როცა:"
 
 msgid "Moving files or folders to trash"
 msgstr "ფაილების გადაადგილება ნაგვის ურნაში"
@@ -1797,7 +1797,7 @@ msgid "Renaming a file will change its type"
 msgstr "ფაილის სახელის გადარქმევა მის ტიპს შეცვლის"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "დადასტურების მოთხოვნა Beluga-ში, როცა:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "ერთზე მეტი ჩანართის მქონე ფანჯრის დახურვისას"
@@ -1836,7 +1836,7 @@ msgid "Show item on hover"
 msgstr "ელემენტის ჩვენება კურსორის გადატარებისას"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "თარიღის _გრძელი ფორმატის გამოყენება"
 
 msgid "Folders Panel:"
 msgstr "საქაღალდეების პანელი:"
@@ -1845,19 +1845,19 @@ msgid "Limit to home directory when inside it"
 msgstr "საწყის საქაღალდეზე შეზღუდვა შიგნით ყოფნისას"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "_დამალული საქაღალდეების ჩვენება"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "მიმდინარე საქაღალდეზე _ავტომატური გადახვევა"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "ადგილების პანელი:"
 
 msgid "Icon size:"
 msgstr "ხატულების ზომა:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "მდგომარეობის და მდებარეობის ზოლები"
 
 msgid "Status Bar:"
 msgstr "სტატუსის ზოლი:"
@@ -1875,7 +1875,7 @@ msgid "Show zoom slider"
 msgstr "გადიდების ცოციის ჩვენება"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "_თავისუფალი ადგილის ჩვენება"
 
 msgid "Location bar:"
 msgstr "მდებარეობის ზოლი:"
@@ -1902,7 +1902,7 @@ msgid "Remember display style for each folder"
 msgstr "თითოეული საქაღალდისთვის ცალ-ცალკე სტილის დამახსოვრება"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "ნებისმიერ შემთხვევაში, ხედი › ამ საქაღალდის ხედის დამახსოვრება ერთ საქაღალდეს საკუთარ სტილს აძლევს. ზოგიერთი სპეციალური ხედი, როგორიცაა ძებნა, ბოლო ფაილები ან ნაგავი, მაინც საკუთარ სტილს იყენებს."
 
 msgid "Browsing:"
 msgstr "დათვალიერება: "
@@ -1914,10 +1914,10 @@ msgid "Open folders during drag operations"
 msgstr "გადათრევისას საქაღალდეების გახსნა"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "ფაილებისა და საქაღალდეების ერთი დაწკაპუნებით გახსნა"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "საწყისი საქაღალდის _ინდექსის შენახვა მყისიერი ძებნისთვის"
 
 msgid "Miscellaneous:"
 msgstr "სხვადასხვა: "
@@ -1974,37 +1974,37 @@ msgid "Show no size"
 msgstr "ზომა ნაჩვენები არ იქნება"
 
 msgid "levels deep"
-msgstr ""
+msgstr "სიღრმის დონე"
 
 msgid "Date style:"
 msgstr "თარიღის სტილი:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "ფარდობითი (დღეს, გუშინ…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "აბსოლუტური"
 
 msgid "Permissions style:"
 msgstr "წვდომების სტილი:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "სიმბოლური (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "რიცხვითი (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "კომბინირებული"
 
 msgid "Long file names:"
 msgstr "გრძელი ფაილის სახელები:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "შუაში შემოკლება"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "ბოლოში შემოკლება"
 
 msgid "Label width:"
 msgstr "ხაზის სიგანე:"
@@ -2046,163 +2046,163 @@ msgid "By clicking on icon or name"
 msgstr "ხატულაზე ან სახელზე დაწკაპუნებით"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "დისკის გამოყენება:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "დისკის _გამოყენების სვეტის ჩვენება"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "ადგილი, რომელსაც თითოეული ფაილი და მთლიანი საქაღალდე დისკზე იკავებს, ზოლით, რომელიც საქაღალდეში მის წილს აჩვენებს, როგორც ხელსაწყოები › დისკის გამოყენება. საქაღალდეები ფონზე სრულად იკითხება; ყველაზე დიდის პირველად სანახავად ამ სვეტით დაალაგეთ. დისკის გამოყენების ფანჯრის \"ამ დისკზე დარჩენა\" აქაც მოქმედებს."
 
 msgid "View"
 msgstr "ხედი"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "კონტექსტურ მენიუში ჩვენება"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'კოპირება აქ' და 'გადატანა აქ'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "წაშლა (ნაგავში გადატანის გარდა)"
 
 msgid "Context Menu"
 msgstr "კონტექსტური მენიუ"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "გასუფთავება:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "ფაილების წაშლა, რომლებიც უფრო ძველია, ვიდრე"
 
 msgid "days"
-msgstr ""
+msgstr "დღე"
 
 msgid "Limit to"
-msgstr ""
+msgstr "ლიმიტი:"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "დისკის პროცენტი"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "ნაგვის საწყისი საქაღალდის დისკზე შენახვა"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "სხვა დისკებიდან ნაგავში გადატანილი ფაილები საწყისი საქაღალდის ნაგავში კოპირდება, ასე რომ იმ დისკებზე .Trash-1000 საქაღალდე არ იქმნება. დიდი ფაილების ნაგავში გადატანას მაშინ მეტი დრო სჭირდება."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "სავსე ნაგავი:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "ლიმიტის მიღწევისას:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "გაფრთხილების ჩვენება"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "უძველესი ელემენტების წაშლა"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "უდიდესი ელემენტების წაშლა"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "ადრე ეს KDE-ის სისტემური პარამეტრები იყო. ლიმიტები გამოიყენება Beluga-ის გაშვებისას და ელემენტების ნაგავში გადატანის შემდეგ."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "ნაგვის ზომის გამოთვლა…"
 
 msgid "Trash:"
 msgstr "ნაგვის ყუთი:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "ნაგავი ამჟამად %s-ს იკავებს."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "ნაგვის _ახლავე დაცლა"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim რეჟიმი"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim რეჟიმი:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Vim-ის სტილის კლავიშების გამოყენება ხედებში"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "ჩვეულებრივი რეჟიმი h j k l-ით მოძრაობს და ქვემოთ მოცემულ კლავიშებს უშვებს; v, V და Ctrl+V მონიშნავს; i და a სახელს გადაარქმევს (ჩასმის რეჟიმი); Esc ჩვეულებრივ რეჟიმს უბრუნდება; : ბრძანების სტრიქონს ხსნის. აქ არჩამოთვლილი Ctrl ან Alt კლავიშები ჩვეულ მნიშვნელობას ინარჩუნებს."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "წამყვანი კლავიში:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> ქვემოთ მოცემულ კლავიშებში, მაგ. <Space> ან ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "დამატებით კლავიშებს ელოდება:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "მწმ (dd d-ის შემდეგ, gg g-ის შემდეგ)"
 
 msgid "Keys"
-msgstr ""
+msgstr "კლავიშები"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim-ის ნოტაცია, რამდენიმე ჰარით გამოყოფილი: h, gg, <C-v>, <CR>, <Esc>, <leader>t. ნაგულისხმევისთვის ველი ცარიელი დატოვეთ."
 
 msgid "Command line"
-msgstr ""
+msgstr "ბრძანების სტრიქონი"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q ხურავს ფანჯარას (:q! ჩანართებზე შეკითხვის გარეშე), :qa გადის Beluga-დან, :e ან :cd ბილიკი ხსნის საქაღალდეს, :tabnew [ბილიკი], :tabclose, :tabonly, :sp ან :vs [ბილიკი] ყოფს ხედს, :only ხურავს სხვა ხედს, :mkdir სახელი, :touch სახელი, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ბრძანება უშვებს გარსის ბრძანებას საქაღალდეში."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "კლავიატურის მალსახმობები"
 
 msgid "Details:"
 msgstr "დეტალები:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "მხოლოდ ამ კომპიუტერის ფაილების წაკითხვაა შესაძლებელი."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga FFmpeg-ის გარეშეა აგებული."
 
 msgid "Reading…"
-msgstr ""
+msgstr "კითხვა…"
 
 msgid "No details found."
-msgstr ""
+msgstr "დეტალები ვერ მოიძებნა."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "საქაღალდის ხატულის შეცვლა"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "ხატულის შეცვლა ვერ მოხერხდა."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu ელემენტი"
 
 msgid "Calculating…"
 msgstr "გამოთვლა…"
 
 msgid "No default application"
-msgstr ""
+msgstr "ნაგულისხმევი აპლიკაცია არაა"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_შეცვლა…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "იხსნება:"
 
 msgid "Free space:"
 msgstr "თავისუფალი ადგილი:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "თავისუფალია %s / %s (გამოყენებულია %d%%)"
 
 #, c-format
 msgid "%llu byte"
@@ -2214,13 +2214,13 @@ msgid "Forbidden"
 msgstr "აკრძალულია"
 
 msgid "Can View"
-msgstr ""
+msgstr "შეუძლია ნახვა"
 
 msgid "Can View & Modify"
 msgstr "ნახვისა და ჩასწორების უფლებით"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "შეუძლია შემცველობის ნახვა"
 
 msgid "Can View & Modify Content"
 msgstr "შემცველობის ნახვისა და ჩასწორების უფლებით"
@@ -2229,10 +2229,10 @@ msgid "Others:"
 msgstr "სხვები:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "_გაშვებადია"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "ცვლილებების ყველა _ქვესაქაღალდეზე და მათ შემცველობაზე გადატარება"
 
 msgid "User:"
 msgstr "მომხმარებელი:"
@@ -2244,22 +2244,22 @@ msgid "Calculate"
 msgstr "გამოთვლა"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "ფაილის წაკითხვა ვერ მოხერხდა."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "ჩასვით საკონტროლო ჯამი შესადარებლად"
 
 msgid "Verify:"
-msgstr ""
+msgstr "შემოწმება:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "საკონტროლო ჯამები ემთხვევა."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "გამოთვლილი საკონტროლო ჯამებიდან არცერთი არ ემთხვევა. ჯერ შესაბამისი ტიპი გამოთვალეთ."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "წვდომების შეცვლა ვერ მოხერხდა."
 
 #, c-format
 msgid "Properties for %s"
@@ -2272,16 +2272,16 @@ msgid "Filter:"
 msgstr "ფილტრი:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "სახელით ფილტრი (მუშაობს ნიმუშები, როგორიცაა *.txt)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "ფილტრის შენარჩუნება საქაღალდის შეცვლისას"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "ამ საქაღალდეში"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "თქვენს ფაილებში"
 
 msgid "Everywhere"
 msgstr "ყველგან"
@@ -2293,22 +2293,22 @@ msgid "File Names and Contents"
 msgstr "ფაილის სახელები და შემცველობა"
 
 msgid "Any Time"
-msgstr ""
+msgstr "ნებისმიერ დროს"
 
 msgid "Today"
 msgstr "დღეს"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "ბოლო 7 დღე"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "ბოლო 30 დღე"
 
 msgid "Last Year"
-msgstr ""
+msgstr "ბოლო წელი"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "დამალული ფაილები"
 
 msgid "Zoom:"
 msgstr "გადიდება:"
@@ -2321,7 +2321,7 @@ msgid "%s free"
 msgstr "%s თავისუფალია"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "ჩანართის დუბლირება"
 
 msgid "Detach Tab"
 msgstr "ჩანართის მოხსნა"
@@ -2336,31 +2336,31 @@ msgid "--- separator ---"
 msgstr "--- გამყოფი ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "სიაში მდებარეობის ზოლის ზემოთ მყოფი ქმედებები მის მარცხნივაა, დანარჩენი — მარჯვნივ. * აღნიშნავს ქმედებებს, რომლებიც იქ არაა, სადაც ნაგულისხმევი ხელსაწყოთა ზოლი სვამს."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_ხელმისაწვდომი ქმედებები:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "ხელსაწყოთა ზოლზე დამატება"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "ხელსაწყოთა ზოლიდან წაშლა"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "ზემოთ აწევა (მარცხნივ ხელსაწყოთა ზოლზე)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "ქვემოთ ჩამოწევა (მარჯვნივ ხელსაწყოთა ზოლზე)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "_მიმდინარე ქმედებები:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_ნაგულისხმევი"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "სვეტების ჩვენება"
 
 #, c-format
 msgid "Size: %s"
@@ -2368,11 +2368,11 @@ msgstr "ზომა: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "შეცვლილია: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "საწყისი მდებარეობა: %s"
 
 msgid "Yesterday"
 msgstr "გუშინ"
@@ -2399,19 +2399,19 @@ msgid "Big"
 msgstr "დიდი"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB-ზე ნაკლები"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB-დან 100 MiB-მდე"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB-დან 1 GiB-მდე"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB ან მეტი"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "ჯერ არ დათვლილა"
 
 msgid "Searching…"
 msgstr "ძებნა…"
@@ -2420,7 +2420,7 @@ msgid "No items matching the filter"
 msgstr "ფილტრს ელემენტები არ ემთხვევა"
 
 msgid "No items found"
-msgstr ""
+msgstr "ელემენტები ვერ მოიძებნა"
 
 msgid "Trash is empty"
 msgstr "ურნა ცარიელია"
@@ -2429,38 +2429,38 @@ msgid "Folder is empty"
 msgstr "საქაღალდე ცარიელია"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "ფაილის სახელი „/“-ს ვერ შეიცავს."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "„%s“-ის „%s“-ად გადარქმევა მის გაფართოებას ცვლის. ფაილი შეიძლება სხვა აპლიკაციით გაიხსნას ან საერთოდ არ გაიხსნას."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "მონიშვნის რეჟიმი: დააწკაპუნეთ ფაილებზე ან საქაღალდეებზე მათ მოსანიშნად ან მონიშვნის მოსახსნელად."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "მონიშვნის რეჟიმიდან _გასვლა"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_დუბლირება"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_წაშლა"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_თვისებები"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "საქაღალდე „%s“ აღარ არსებობს."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "მონიშნულია „%s“ (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "მონიშნულია %s"
 
 msgid "Loading folder…"
 msgstr "საქაღალდის ჩატვირთვა…"
@@ -2468,87 +2468,87 @@ msgstr "საქაღალდის ჩატვირთვა…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "მონიშნულია %d"
+msgstr[1] "მონიშნულია %d"
 
 msgid "Move left"
-msgstr ""
+msgstr "მარცხნივ"
 
 msgid "Move down"
-msgstr ""
+msgstr "ქვემოთ"
 
 msgid "Move up"
-msgstr ""
+msgstr "ზემოთ"
 
 msgid "Move right"
-msgstr ""
+msgstr "მარჯვნივ"
 
 msgid "First item"
-msgstr ""
+msgstr "პირველი ელემენტი"
 
 msgid "Last item"
-msgstr ""
+msgstr "ბოლო ელემენტი"
 
 msgid "Page down"
-msgstr ""
+msgstr "გვერდი ქვემოთ"
 
 msgid "Page up"
-msgstr ""
+msgstr "გვერდი ზემოთ"
 
 msgid "Parent folder"
 msgstr "მშობელი საქაღალდე"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "კურსორის მიერ გავლილი ელემენტების მონიშვნა (ვიზუალური)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "დიაპაზონის მონიშვნა, როგორც Shift-ით (ვიზუალური სტრიქონი)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "ბადიდან ბლოკის მონიშვნა (ვიზუალური ბლოკი)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "ჩვეულებრივ რეჟიმში დაბრუნება"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "კურსორის ქვეშ მყოფი ელემენტის კოპირება"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "სახელის გადარქმევა, კურსორი დასაწყისში (ჩასმა)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "სახელის გადარქმევა, კურსორი სახელის შემდეგ (მიმატება)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "სახელის გადარქმევა, სახელი მონიშნულია (შეცვლა)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "მდებარეობის ჩასწორება"
 
 msgid "Copied."
-msgstr ""
+msgstr "დაკოპირდა."
 
 msgid "Cut."
-msgstr ""
+msgstr "ამოიჭრა."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "„%s“-ის გახსნა შეუძლებელია."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "საჭიროა სახელი."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "უცნობი ხედი: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "უცნობი პარამეტრი: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "დალაგება: name, size, date ან type."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "ბრძანება არაა: %s"

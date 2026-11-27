@@ -1,0 +1,1412 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "The archive could not be opened."
+msgstr "Ezin izan da artxiboa ireki."
+
+msgid "The archive could not be read."
+msgstr "Ezin izan da artxiboa irakurri."
+
+msgid "Cancelled."
+msgstr "Utzita."
+
+msgid "This file is encrypted with a password."
+msgstr "Fitxategi hau pasahitz batekin zifratuta dago."
+
+msgid "“%s” could not be read."
+msgstr "Ezin izan da «%s» irakurri."
+
+msgid "This is not a file in an archive."
+msgstr "Hau ez da artxibo bateko fitxategi bat."
+
+msgid "Extract Here"
+msgstr "Erauzi hemen"
+
+msgid "Compress to .tar.gz"
+msgstr "Konprimatu .tar.gz gisa"
+
+msgid "No terminal emulator was found."
+msgstr "Ez da terminal-emulatzailerik aurkitu."
+
+msgid "Root"
+msgstr "Erroa"
+
+msgid "%s Volume"
+msgstr "%s bolumena"
+
+msgid "This device cannot be mounted."
+msgstr "Gailu hau ezin da muntatu."
+
+msgid "This device cannot be unmounted."
+msgstr "Gailu hau ezin da desmuntatu."
+
+msgid "The device is gone."
+msgstr "Gailua ez dago jada."
+
+msgid "Copying %s to “%s”"
+msgstr "%s kopiatzen «%s»(e)ra"
+
+msgid "Moving %s to “%s”"
+msgstr "%s eramaten «%s»(e)ra"
+
+msgid "Linking %s in “%s”"
+msgstr "%s estekatzen «%s»(e)n"
+
+msgid "Moving %s to the trash"
+msgstr "%s zakarrontzira eramaten"
+
+msgid "Deleting %s"
+msgstr "%s ezabatzen"
+
+msgid "Restoring %s"
+msgstr "%s leheneratzen"
+
+msgid "Emptying the trash"
+msgstr "Zakarrontzia husten"
+
+msgid "Counting files…"
+msgstr "Fitxategiak zenbatzen…"
+
+msgid "“%s”: %s"
+msgstr "«%s»: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Karpeta bat ezin da bere barrura eraman."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Karpeta bat ezin da bere barrura kopiatu."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Fitxategiak tokiko karpetetan soilik erauz daitezke."
+
+msgid "Extracting from “%s”"
+msgstr "«%s»(e)tik erauzten"
+
+msgid "Disc:"
+msgstr "Diskoa:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bit-emaria:"
+
+msgid "Cover:"
+msgstr "Azala:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Bideoa %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "estereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "kanal %d"
+msgstr[1] "%d kanal"
+
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio %d:"
+msgstr "Audioa %d:"
+
+msgid "Subtitles:"
+msgstr "Azpitituluak:"
+
+msgid "Chapters:"
+msgstr "Kapituluak:"
+
+msgid "Images"
+msgstr "Irudiak"
+
+msgid "Archives"
+msgstr "Artxiboak"
+
+msgid "Search for “%s”"
+msgstr "Bilatu «%s»"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Ez da terminal-emulatzailerik aurkitu. Ezarri bat hemen: Konfiguratu Beluga › Orokorra › Terminala."
+
+msgid "This file system has no trash."
+msgstr "Fitxategi-sistema honek ez du zakarrontzirik."
+
+msgid "Could not create the trash information file."
+msgstr "Ezin izan da zakarrontziaren informazio-fitxategia sortu."
+
+msgid "“%s” already exists."
+msgstr "«%s» badago lehendik."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Zakarrontziak %s-ko muga gainditu du. Hustu dezakezu."
+
+msgid "Create File"
+msgstr "Sortu fitxategia"
+
+msgid "Undo: %s"
+msgstr "Desegin: %s"
+
+msgid "Redo: %s"
+msgstr "Berregin: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "fitxategi %d"
+msgstr[1] "%d fitxategi"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "karpeta %d"
+msgstr[1] "%d karpeta"
+
+msgid "Today at %s"
+msgstr "Gaur, %s(e)tan"
+
+msgid "Yesterday at %s"
+msgstr "Atzo, %s(e)tan"
+
+msgid "%A at %H:%M"
+msgstr "%A, %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s kopia %d"
+
+msgid "Disk Usage"
+msgstr "Diskoaren erabilera"
+
+msgid "Extension"
+msgstr "Luzapena"
+
+msgid "Original Location"
+msgstr "Jatorrizko kokalekua"
+
+msgid "Beluga could not act as administrator."
+msgstr "Belugak ezin izan du administratzaile gisa jardun."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Administratzailearen pasahitza eskatzeko pkexec (polkit) behar da. Instalatu polkit eta zure mahaigainerako polkit agente bat."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Administratzaile-eskubideak dituen Beluga leiho batek ordenagailu honetako edozein fitxategi alda eta ezaba dezake, sistemak abiatzeko behar dituenak barne. Hor egindako akats batek sistema erabilezin utz dezake. Erabili beste modu batean aldatu ezin dituzun fitxategietarako soilik, eta itxi amaitzean.\n\nOndoren, Belugak administratzailearen pasahitza eskatuko du."
+
+msgid "Columns View"
+msgstr "Zutabe-ikuspegia"
+
+msgid "Reset Zoom"
+msgstr "Berrezarri zooma"
+
+msgid "Pop out Split View"
+msgstr "Atera ikuspegi zatitua"
+
+msgid "Places Panel"
+msgstr "Lekuen panela"
+
+msgid "Disk Usage Panel"
+msgstr "Diskoaren erabileraren panela"
+
+msgid "Go to Tab 1"
+msgstr "Joan 1. fitxara"
+
+msgid "Go to Tab 2"
+msgstr "Joan 2. fitxara"
+
+msgid "Go to Tab 3"
+msgstr "Joan 3. fitxara"
+
+msgid "Go to Tab 4"
+msgstr "Joan 4. fitxara"
+
+msgid "Go to Tab 5"
+msgstr "Joan 5. fitxara"
+
+msgid "Go to Tab 6"
+msgstr "Joan 6. fitxara"
+
+msgid "Go to Tab 7"
+msgstr "Joan 7. fitxara"
+
+msgid "Go to Tab 8"
+msgstr "Joan 8. fitxara"
+
+msgid "Go to Tab 9"
+msgstr "Joan 9. fitxara"
+
+msgid "Configure Beluga"
+msgstr "Konfiguratu Beluga"
+
+msgid "Undo failed."
+msgstr "Desegiteak huts egin du."
+
+msgid "Folder…"
+msgstr "Karpeta…"
+
+msgid "Text File…"
+msgstr "Testu-fitxategia…"
+
+msgid "Empty File…"
+msgstr "Fitxategi hutsa…"
+
+msgid "Link to File or Folder…"
+msgstr "Fitxategi edo karpeta baterako esteka…"
+
+msgid "Other View (%s)"
+msgstr "Beste ikuspegia (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Gogoratu karpeta honen ikuspegia"
+
+msgid "Open in Beluga"
+msgstr "Ireki Belugan"
+
+msgid "Paste into Folder"
+msgstr "Itsatsi karpetan"
+
+msgid "_Cancel"
+msgstr "_Utzi"
+
+msgid "The name cannot contain “/”."
+msgstr "Izenak ezin du «/» eduki."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Puntu batez hasten den izena ezkutatuta dago."
+
+msgid "Some items could not be renamed."
+msgstr "Elementu batzuei ezin izan zaie izena aldatu."
+
+msgid "Rename “%s” to:"
+msgstr "Aldatu «%s»(r)en izena honela:"
+
+msgid "_Rename"
+msgstr "_Aldatu izena"
+
+msgid "Could not rename “%s”."
+msgstr "Ezin izan zaio «%s»(r)i izena aldatu."
+
+msgid "Change the file type?"
+msgstr "Fitxategi-mota aldatu?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "«%s» «%s» izenera aldatzeak bere luzapena aldatzen du."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Aldatu hautatutako %zu elementuen izena honela:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# zenbaki goranzkoekin ordezkatzen da; erabili ## aurreko zeroetarako. Luzapenak mantentzen dira."
+
+msgid "Start numbering at:"
+msgstr "Hasi zenbakitzen hemendik:"
+
+msgid "_Move Here"
+msgstr "_Eraman hona"
+
+msgid "_Copy Here"
+msgstr "_Kopiatu hona"
+
+msgid "_Link Here"
+msgstr "_Estekatu hemen"
+
+msgid "C_ancel"
+msgstr "U_tzi"
+
+msgid "Choose a folder"
+msgstr "Aukeratu karpeta bat"
+
+msgid "C_hoose…"
+msgstr "_Aukeratu…"
+
+msgid "Icon name:"
+msgstr "Ikonoaren izena:"
+
+msgid "Choose a Folder"
+msgstr "Aukeratu karpeta bat"
+
+msgid "_Add"
+msgstr "_Gehitu"
+
+msgid "_Save"
+msgstr "_Gorde"
+
+msgid "Show _folders first"
+msgstr "Erakutsi _karpetak lehenik"
+
+msgid "Show hidden files _last"
+msgstr "Erakutsi ezkutuko fitxategiak _azkenik"
+
+msgid "Show _previews"
+msgstr "Erakutsi _aurrebistak"
+
+msgid "Show in _groups"
+msgstr "Erakutsi _taldeetan"
+
+msgid "Show _hidden files"
+msgstr "Erakutsi _ezkutuko fitxategiak"
+
+msgid "Current folder including all subfolders"
+msgstr "Uneko karpeta azpikarpeta guztiekin"
+
+msgid "_OK"
+msgstr "_Ados"
+
+msgid "modified %s"
+msgstr "aldatua %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "«%s» izeneko karpeta bat badago lehendik «%s»(e)n."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "«%s» izeneko fitxategi bat badago lehendik «%s»(e)n."
+
+msgid "Existing item"
+msgstr "Lehendik dagoen elementua"
+
+msgid "New item"
+msgstr "Elementu berria"
+
+msgid "_Suggest New Name"
+msgstr "_Iradoki izen berria"
+
+msgid "New name:"
+msgstr "Izen berria:"
+
+msgid "Apply to _all"
+msgstr "Aplikatu _guztiei"
+
+msgid "S_kip"
+msgstr "_Saltatu"
+
+msgid "_Write Into"
+msgstr "_Idatzi barruan"
+
+msgid "_Overwrite"
+msgstr "_Gainidatzi"
+
+msgid "Search icons…"
+msgstr "Bilatu ikonoak…"
+
+msgid "_Image File…"
+msgstr "_Irudi-fitxategia…"
+
+msgid "_Default Icon"
+msgstr "Ikono _lehenetsia"
+
+msgid "Choose an Image"
+msgstr "Aukeratu irudi bat"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Sareko kokalekuek gvfs behar dute. Instalatu gvfs paketea (eta gvfs-smb Windows partekatzeetarako, gvfs-nfs NFSrako), eta gero irten saiotik eta sartu berriro."
+
+msgid "This location is not a folder."
+msgstr "Kokaleku hau ez da karpeta bat."
+
+msgid "This location is not valid."
+msgstr "Kokaleku hau ez da baliozkoa."
+
+msgid "This folder is not in the archive."
+msgstr "Karpeta hau ez dago artxiboan."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "fitxategi txikiago %s"
+msgstr[1] "%s fitxategi txikiago"
+
+msgid "(another drive, not counted)"
+msgstr "(beste unitate bat, ez da zenbatu)"
+
+msgid "Some of its contents could not be read."
+msgstr "Edukiaren zati bat ezin izan da irakurri."
+
+msgid "%s in files"
+msgstr "%s fitxategietan"
+
+msgid "%s on disk"
+msgstr "%s diskoan"
+
+msgid "%s files and %s folders"
+msgstr "%s fitxategi eta %s karpeta"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Irakurtzen… %s, %s fitxategi eta %s karpetatan"
+
+msgid "Stopped."
+msgstr "Geldituta."
+
+msgid "This folder could not be read."
+msgstr "Ezin izan da karpeta hau irakurri."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, %.1f s-tan irakurria"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Ezin izan da karpeta %s irakurri."
+msgstr[1] ". Ezin izan dira %s karpeta irakurri."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Ordenagailu honetako karpetak soilik neur daitezke."
+
+msgid "read less than a minute ago"
+msgstr "duela minutu bat baino gutxiago irakurria"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "duela minutu %d irakurria"
+msgstr[1] "duela %d minutu irakurria"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "duela ordu %d irakurria"
+msgstr[1] "duela %d ordu irakurria"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Eskaneatu berriro berriz irakurtzeko."
+
+msgid "_Apparent size"
+msgstr "Itxurazko _tamaina"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Batu fitxategien tamainak, diskoan hartzen duten lekuaren ordez."
+
+msgid "_Stay on this drive"
+msgstr "_Geratu unitate honetan"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Ez zenbatu karpeta honen barruan muntatutako beste unitateak (adibidez, beste disko bateko musika-karpeta). Estekak ez dira inoiz jarraitzen."
+
+msgid "Rescan"
+msgstr "Eskaneatu berriro"
+
+msgid "Close Disk Usage"
+msgstr "Itxi diskoaren erabilera"
+
+msgid "_Rescan"
+msgstr "_Eskaneatu berriro"
+
+msgid "S_top"
+msgstr "_Gelditu"
+
+msgid "Disk Usage – %s"
+msgstr "Diskoaren erabilera – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "«%s» badago lehendik. Ordeztu?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "Fitxategi hauetatik %zu badaude lehendik. Ordeztu?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Gordetzen ari zaren programak lehendik dagoen edukia gainidatziko du."
+
+msgid "Choose a folder to save in."
+msgstr "Aukeratu gordetzeko karpeta bat."
+
+msgid "Select Folder"
+msgstr "Hautatu karpeta"
+
+msgid "Open Files"
+msgstr "Ireki fitxategiak"
+
+msgid "Open File"
+msgstr "Ireki fitxategia"
+
+msgid "Save File"
+msgstr "Gorde fitxategia"
+
+msgid "Save Files"
+msgstr "Gorde fitxategiak"
+
+msgid "_Folder:"
+msgstr "_Karpeta:"
+
+msgid "_Name:"
+msgstr "_Izena:"
+
+msgid "_Type:"
+msgstr "_Mota:"
+
+msgid "_Select"
+msgstr "_Hautatu"
+
+msgid "_Open"
+msgstr "_Ireki"
+
+msgid "Create new folder in:\n%s"
+msgstr "Sortu karpeta berria hemen:\n%s"
+
+msgid "C_reate"
+msgstr "_Sortu"
+
+msgid "Could not create the folder."
+msgstr "Ezin izan da karpeta sortu."
+
+msgid "%zu items selected"
+msgstr "%zu elementu hautatuta"
+
+msgid "Contents:"
+msgstr "Edukia:"
+
+msgid "Contains:"
+msgstr "Dauka:"
+
+msgid "Counting…"
+msgstr "Zenbatzen…"
+
+msgid "Broken Link"
+msgstr "Esteka hautsia"
+
+msgid "%s (link)"
+msgstr "%s (esteka)"
+
+msgid "other drive"
+msgstr "beste unitate bat"
+
+msgid "%s of %s"
+msgstr "%s / %s"
+
+msgid "%s left"
+msgstr "%s falta dira"
+
+msgid "%d of %d"
+msgstr "%d / %d"
+
+msgid "File operations in progress"
+msgstr "Fitxategi-eragiketak abian"
+
+msgid "No subfolders"
+msgstr "Ez dago azpikarpetarik"
+
+msgid "Select the given files in their folders"
+msgstr "Hautatu emandako fitxategiak beren karpetetan"
+
+msgid "Open the window in split view"
+msgstr "Ireki leihoa ikuspegi zatituan"
+
+msgid "Always open a new window"
+msgstr "Ireki beti leiho berri bat"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Jarraitu atzeko planoan exekutatzen FileManager1 D-Bus zerbitzurako"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Askatu terminaletik (kokalekurik gabe: uneko karpeta irekitzen du)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Exekutatu xdg-desktop-portal-erako fitxategi-hautatzailea (D-Busek abiarazia)"
+
+msgid "Show the version"
+msgstr "Erakutsi bertsioa"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FITXATEGIA edo KARPETA…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Administratzaile gisa jarduten: leiho honetako aldaketek sistema kalte dezakete."
+
+msgid "Close this window?"
+msgstr "Itxi leiho hau?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Leiho honek %zu fitxa ditu irekita. Ixteak guztiak ixten ditu."
+
+msgid "Close Window"
+msgstr "Itxi leihoa"
+
+msgid "Show _Toolbar"
+msgstr "Erakutsi _tresna-barra"
+
+msgid "_File"
+msgstr "_Fitxategia"
+
+msgid "New _Window"
+msgstr "_Leiho berria"
+
+msgid "New _Tab"
+msgstr "_Fitxa berria"
+
+msgid "_Close Tab"
+msgstr "_Itxi fitxa"
+
+msgid "Create _New"
+msgstr "Sortu _berria"
+
+msgid "_Rename…"
+msgstr "_Aldatu izena…"
+
+msgid "_Duplicate Here"
+msgstr "_Bikoiztu hemen"
+
+msgid "Move to _Trash"
+msgstr "Eraman _zakarrontzira"
+
+msgid "_Delete"
+msgstr "E_zabatu"
+
+msgid "Restore from Trash"
+msgstr "Leheneratu zakarrontzitik"
+
+msgid "_Properties"
+msgstr "_Propietateak"
+
+msgid "_Quit"
+msgstr "_Irten"
+
+msgid "_Edit"
+msgstr "_Editatu"
+
+msgid "_Undo"
+msgstr "_Desegin"
+
+msgid "_Redo"
+msgstr "_Berregin"
+
+msgid "Cu_t"
+msgstr "_Ebaki"
+
+msgid "_Copy"
+msgstr "_Kopiatu"
+
+msgid "_Paste"
+msgstr "_Itsatsi"
+
+msgid "_Search…"
+msgstr "_Bilatu…"
+
+msgid "Select _All"
+msgstr "Hautatu _dena"
+
+msgid "_View"
+msgstr "_Ikusi"
+
+msgid "Zoom _In"
+msgstr "_Handiagotu"
+
+msgid "Zoom _Out"
+msgstr "_Txikiagotu"
+
+msgid "Re_load"
+msgstr "_Birkargatu"
+
+msgid "Show _Menubar"
+msgstr "Erakutsi _menu-barra"
+
+msgid "Show _Statusbar"
+msgstr "Erakutsi _egoera-barra"
+
+msgid "_Go"
+msgstr "_Joan"
+
+msgid "_Back"
+msgstr "_Atzera"
+
+msgid "_Forward"
+msgstr "_Aurrera"
+
+msgid "_Up"
+msgstr "_Gora"
+
+msgid "_Home"
+msgstr "_Etxea"
+
+msgid "_Tools"
+msgstr "_Tresnak"
+
+msgid "Open _Terminal"
+msgstr "Ireki _terminala"
+
+msgid "Open Terminal _Here"
+msgstr "Ireki terminala _hemen"
+
+msgid "_Disk Usage…"
+msgstr "_Diskoaren erabilera…"
+
+msgid "_Settings"
+msgstr "_Ezarpenak"
+
+msgid "Configure Tool_bars…"
+msgstr "Konfiguratu _tresna-barrak…"
+
+msgid "_Configure Beluga…"
+msgstr "_Konfiguratu Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Ez dago berriki itxitako fitxarik"
+
+msgid "(Administrator)"
+msgstr "(Administratzailea)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Ireki %zu karpeta fitxa berrietan?"
+
+msgid "Open Folders"
+msgstr "Ireki karpetak"
+
+msgid "Could not open “%s”."
+msgstr "Ezin izan da «%s» ireki."
+
+msgid "Could not open a terminal."
+msgstr "Ezin izan da terminal bat ireki."
+
+msgid "New Text File.txt"
+msgstr "Testu-fitxategi berria.txt"
+
+msgid "New File"
+msgstr "Fitxategi berria"
+
+msgid "Empty the trash?"
+msgstr "Hustu zakarrontzia?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Zakarrontziko elementu guztiak betiko ezabatuko dira. Hau ezin da desegin."
+
+msgid "Open %zu terminals?"
+msgstr "Ireki %zu terminal?"
+
+msgid "Open Terminals"
+msgstr "Ireki terminalak"
+
+msgid "Create new file in:\n%s"
+msgstr "Sortu fitxategi berria hemen:\n%s"
+
+msgid "Could not create the file."
+msgstr "Ezin izan da fitxategia sortu."
+
+msgid "Link to File or Folder"
+msgstr "Fitxategi edo karpeta baterako esteka"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Estekatu beharreko fitxategiaren edo karpetaren bide-izena:"
+
+msgid "Could not create the link."
+msgstr "Ezin izan da esteka sortu."
+
+msgid "Permanently delete %s?"
+msgstr "Ezabatu %s betiko?"
+
+msgid "This cannot be undone."
+msgstr "Hau ezin da desegin."
+
+msgid "Move %s to the trash?"
+msgstr "Eraman %s zakarrontzira?"
+
+msgid "Could not run “%s”."
+msgstr "Ezin izan da «%s» exekutatu."
+
+msgid "Could not start %s."
+msgstr "Ezin izan da %s abiarazi."
+
+msgid "Could not start the application."
+msgstr "Ezin izan da aplikazioa abiarazi."
+
+msgid "“%s” is an executable file."
+msgstr "«%s» fitxategi exekutagarria da."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Exekutatu nahi duzu, ala aplikazio batean ireki?"
+
+msgid "Run"
+msgstr "Exekutatu"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Aukeratu %s (%s) irekitzeko aplikazioa:"
+
+msgid "Or command:"
+msgstr "Edo komandoa:"
+
+msgid "Remember application association for this type of file"
+msgstr "Gogoratu fitxategi-mota honen aplikazio-esleipena"
+
+msgid "%s free of %s"
+msgstr "%s libre (%s guztira)"
+
+msgid "Configure Sections"
+msgstr "Konfiguratu atalak"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Markatutako atalak lekuen panelean agertzen dira, ordena honetan."
+
+msgid "Move Up"
+msgstr "Eraman gora"
+
+msgid "Move Down"
+msgstr "Eraman behera"
+
+msgid "Could not mount the device: %s"
+msgstr "Ezin izan da gailua muntatu: %s"
+
+msgid "Configure Sections…"
+msgstr "Konfiguratu atalak…"
+
+msgid "Hide Hidden Entries"
+msgstr "Ezkutatu ezkutuko sarrerak"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Zakarrontziko elementu guztiak betiko ezabatuko dira."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Ezin izan da gailua segurtasunez kendu: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Ezin izan da gailua desmuntatu: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Erabili _sistemaren letra-tipoa"
+
+msgid "Context Menu Action"
+msgstr "Laster-menuko ekintza"
+
+msgid "Types:"
+msgstr "Motak:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f lehen fitxategia, %F fitxategi guztiak, %u / %U URI gisa, %n / %N izenak, %d uneko karpeta."
+
+msgid "Show for _files"
+msgstr "Erakutsi _fitxategietarako"
+
+msgid "Show for f_olders"
+msgstr "Erakutsi _karpetetarako"
+
+msgid "Show when _several items are selected"
+msgstr "Erakutsi _hainbat elementu hautatuta daudenean"
+
+msgid "Run in a _terminal"
+msgstr "Exekutatu _terminalean"
+
+msgid "Custom Actions"
+msgstr "Ekintza pertsonalizatuak"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Zure sarrerak fitxategi eta karpeten laster-menurako."
+
+msgid "_Add…"
+msgstr "_Gehitu…"
+
+msgid "_Edit…"
+msgstr "_Editatu…"
+
+msgid "_Remove"
+msgstr "_Kendu"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Lasterbideak <Control>c edo <Shift>Delete bezala idazten dira. Bereizi hainbat komaz. Utzi eremua hutsik lehenetsia erabiltzeko."
+
+msgid "files below %d MiB"
+msgstr "%d MiB baino txikiagoak diren fitxategiak"
+
+msgid "_Restore Defaults"
+msgstr "_Leheneratu lehenetsiak"
+
+msgid "_Apply"
+msgstr "_Aplikatu"
+
+msgid "Folders & Tabs"
+msgstr "Karpetak eta fitxak"
+
+msgid "This location:"
+msgstr "Kokaleku hau:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Mantendu Belugaren leiho bakarra, karpeta berriak fitxetan irekiz"
+
+msgid "Tabs:"
+msgstr "Fitxak:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Zabalera finkoko fitxak estutu egiten dira, denak neurri berean, sartzen ez direnean."
+
+msgid "No terminal found"
+msgstr "Ez da terminalik aurkitu"
+
+msgid "Detected: %s"
+msgstr "Detektatua: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "F4-k eta Ireki terminala hemen erabiltzen dute. Komandoko %d karpetarekin ordezkatzen da; bestela, terminala bertan abiatzen da. Hau KDEren sistema-ezarpen bat zen lehen."
+
+msgid "New folders:"
+msgstr "Karpeta berriak:"
+
+msgid "Show _previews in new folders"
+msgstr "Erakutsi _aurrebistak karpeta berrietan"
+
+msgid "Audio (cover art)"
+msgstr "Audioa (azalak)"
+
+msgid "PDF documents"
+msgstr "PDF dokumentuak"
+
+msgid "Text files"
+msgstr "Testu-fitxategiak"
+
+msgid "Fonts"
+msgstr "Letra-tipoak"
+
+msgid "Office documents"
+msgstr "Bulegoko dokumentuak"
+
+msgid "Ask for confirmation when:"
+msgstr "Eskatu berrespena honetan:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Eskatu berrespena Belugan honetan:"
+
+msgid "Use _long date format"
+msgstr "Erabili data-formatu _luzea"
+
+msgid "Show _hidden folders"
+msgstr "Erakutsi _ezkutuko karpetak"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Korritu uneko karpetara _automatikoki"
+
+msgid "Places Panel:"
+msgstr "Lekuen panela:"
+
+msgid "Status & Location bars"
+msgstr "Egoera- eta kokaleku-barrak"
+
+msgid "Show free _space"
+msgstr "Erakutsi leku _librea"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Edonola ere, Ikusi › Gogoratu karpeta honen ikuspegia aukerak karpeta bati bere estiloa ematen dio. Ikuspegi berezi batzuek, hala nola bilaketak, azken fitxategiek edo zakarrontziak, beren estiloa erabiltzen jarraitzen dute."
+
+msgid "Open files and folders with a single click"
+msgstr "Ireki fitxategiak eta karpetak klik bakarrarekin"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Mantendu etxeko karpetaren _indizea bilaketa berehalakorako"
+
+msgid "levels deep"
+msgstr "maila sakonera"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Erlatiboa (Gaur, Atzo…)"
+
+msgid "Absolute"
+msgstr "Absolutua"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Sinbolikoa (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Zenbakizkoa (0755)"
+
+msgid "Combined"
+msgstr "Konbinatua"
+
+msgid "Elide in the middle"
+msgstr "Laburtu erdian"
+
+msgid "Elide at the end"
+msgstr "Laburtu amaieran"
+
+msgid "Disk usage:"
+msgstr "Diskoaren erabilera:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Erakutsi diskoaren _erabileraren zutabea"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Fitxategi bakoitzak eta karpeta oso bakoitzak diskoan hartzen duen lekua, karpetan duen zatiaren barra batekin, Tresnak › Diskoaren erabilera bezala. Karpetak osorik irakurtzen dira atzeko planoan; ordenatu zutabearen arabera handienak lehenik ikusteko. Diskoaren erabilera leihoko \"Geratu unitate honetan\" hemen ere aplikatzen da."
+
+msgid "Show in the context menu"
+msgstr "Erakutsi laster-menuan"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Kopiatu hona' eta 'Eraman hona'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Ezabatu (Eraman zakarrontzira aukeraz gain)"
+
+msgid "Cleanup:"
+msgstr "Garbiketa:"
+
+msgid "Delete files older than"
+msgstr "Ezabatu hau baino zaharragoak diren fitxategiak:"
+
+msgid "days"
+msgstr "egun"
+
+msgid "Limit to"
+msgstr "Mugatu honetara:"
+
+msgid "percent of the disk"
+msgstr "diskoaren ehunekoa"
+
+msgid "Keep the trash on the home drive"
+msgstr "Mantendu zakarrontzia etxeko karpetaren unitatean"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Beste unitateetatik zakarrontzira eramandako fitxategiak etxeko karpetako zakarrontzira kopiatzen dira, beraz unitate horiek ez dute .Trash-1000 karpetarik izango. Fitxategi handiak zakarrontzira eramateak denbora gehiago behar du orduan."
+
+msgid "Full trash:"
+msgstr "Zakarrontzi betea:"
+
+msgid "When the limit is reached:"
+msgstr "Muga iristean:"
+
+msgid "Show a warning"
+msgstr "Erakutsi abisu bat"
+
+msgid "Delete the oldest items"
+msgstr "Ezabatu elementu zaharrenak"
+
+msgid "Delete the largest items"
+msgstr "Ezabatu elementu handienak"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Hauek KDEren sistema-ezarpenak ziren lehen. Mugak Beluga abiatzean eta elementuak zakarrontzira eraman ondoren aplikatzen dira."
+
+msgid "Calculating trash size…"
+msgstr "Zakarrontziaren tamaina kalkulatzen…"
+
+msgid "The trash currently uses %s."
+msgstr "Zakarrontziak %s erabiltzen ditu orain."
+
+msgid "_Empty Trash Now"
+msgstr "_Hustu zakarrontzia orain"
+
+msgid "Vim Mode"
+msgstr "Vim modua"
+
+msgid "Vim mode:"
+msgstr "Vim modua:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Erabili Vim antzeko teklak ikuspegietan"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Modu arruntak h j k l-rekin mugitzen da eta beheko teklak exekutatzen ditu; v, V eta Ctrl+V-k hautatzen dute; i eta a-k izena aldatzen dute (txertatze modua); Esc-ek modu arruntera itzultzen du; :-k komando-lerroa irekitzen du. Hemen ez dauden Ctrl edo Alt teklek ohiko esanahia mantentzen dute."
+
+msgid "Leader key:"
+msgstr "Tekla gidaria:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> beheko tekletan, adib. <Space> edo ,"
+
+msgid "Wait for more keys:"
+msgstr "Itxaron tekla gehiagoren zain:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd d-ren ondoren, gg g-ren ondoren)"
+
+msgid "Keys"
+msgstr "Teklak"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim notazioa, hainbat zuriunez bereizita: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Utzi eremua hutsik lehenetsirako."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q-k leihoa ixten du (:q!-k fitxei buruz galdetu gabe), :qa-k Belugatik irteten da, :e edo :cd BIDEA-k karpeta bat irekitzen du, :tabnew [BIDEA], :tabclose, :tabonly, :sp edo :vs [BIDEA]-k ikuspegia zatitzen dute, :only-k beste ikuspegia ixten du, :mkdir IZENA, :touch IZENA, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMANDOA-k shell komando bat exekutatzen du karpetan."
+
+msgid "Keyboard Shortcuts"
+msgstr "Teklatuko lasterbideak"
+
+msgid "Only files on this computer can be read."
+msgstr "Ordenagailu honetako fitxategiak soilik irakur daitezke."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga FFmpeg gabe eraiki da."
+
+msgid "Reading…"
+msgstr "Irakurtzen…"
+
+msgid "No details found."
+msgstr "Ez da xehetasunik aurkitu."
+
+msgid "Change the folder's icon"
+msgstr "Aldatu karpetaren ikonoa"
+
+msgid "Could not change the icon."
+msgstr "Ezin izan da ikonoa aldatu."
+
+msgid "%zu items"
+msgstr "%zu elementu"
+
+msgid "No default application"
+msgstr "Ez dago aplikazio lehenetsirik"
+
+msgid "C_hange…"
+msgstr "_Aldatu…"
+
+msgid "Opens with:"
+msgstr "Honekin irekitzen da:"
+
+msgid "Can View"
+msgstr "Ikus dezake"
+
+msgid "Can View Content"
+msgstr "Edukia ikus dezake"
+
+msgid "Is _executable"
+msgstr "_Exekutagarria da"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Aplikatu aldaketak _azpikarpeta guztiei eta haien edukiari"
+
+msgid "Could not read the file."
+msgstr "Ezin izan da fitxategia irakurri."
+
+msgid "Paste a checksum to compare"
+msgstr "Itsatsi konparatzeko kontrol-batura bat"
+
+msgid "Verify:"
+msgstr "Egiaztatu:"
+
+msgid "The checksums match."
+msgstr "Kontrol-baturak bat datoz."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Kalkulatutako kontrol-baturetako bat ere ez dator bat. Kalkulatu dagokion mota lehenik."
+
+msgid "Could not change the permissions."
+msgstr "Ezin izan dira baimenak aldatu."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Iragazi izenaren arabera (*.txt bezalako komodinek funtzionatzen dute)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Mantendu iragazkia karpetaz aldatzean"
+
+msgid "In This Folder"
+msgstr "Karpeta honetan"
+
+msgid "In Your Files"
+msgstr "Zure fitxategietan"
+
+msgid "Any Time"
+msgstr "Edozein unetan"
+
+msgid "Last 7 Days"
+msgstr "Azken 7 egunak"
+
+msgid "Last 30 Days"
+msgstr "Azken 30 egunak"
+
+msgid "Last Year"
+msgstr "Azken urtea"
+
+msgid "Hidden files"
+msgstr "Ezkutuko fitxategiak"
+
+msgid "Duplicate Tab"
+msgstr "Bikoiztu fitxa"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Zerrendan kokaleku-barraren gainean dauden ekintzak haren ezkerrean daude, besteak eskuinean. *-k tresna-barra lehenetsiak dituen lekuan ez dauden ekintzak markatzen ditu."
+
+msgid "A_vailable actions:"
+msgstr "Ekintza _erabilgarriak:"
+
+msgid "Add to the tool bar"
+msgstr "Gehitu tresna-barrari"
+
+msgid "Remove from the tool bar"
+msgstr "Kendu tresna-barratik"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Eraman gora (ezkerrera tresna-barran)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Eraman behera (eskuinera tresna-barran)"
+
+msgid "C_urrent actions:"
+msgstr "_Uneko ekintzak:"
+
+msgid "_Defaults"
+msgstr "_Lehenetsiak"
+
+msgid "Show Columns"
+msgstr "Erakutsi zutabeak"
+
+msgid "Modified: %s"
+msgstr "Aldatua: %s"
+
+msgid "Original location: %s"
+msgstr "Jatorrizko kokalekua: %s"
+
+msgid "Less than 1 MiB"
+msgstr "1 MiB baino gutxiago"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB-tik 100 MiB-ra"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB-tik 1 GiB-ra"
+
+msgid "1 GiB or more"
+msgstr "1 GiB edo gehiago"
+
+msgid "Not counted yet"
+msgstr "Oraindik zenbatu gabe"
+
+msgid "A file name cannot contain “/”."
+msgstr "Fitxategi-izen batek ezin du «/» eduki."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "«%s» «%s» izenera aldatzeak bere luzapena aldatzen du. Fitxategia beste aplikazio batekin ireki daiteke edo ez ireki."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Hautapen modua: egin klik fitxategi edo karpetetan haiek hautatzeko edo desautatzeko."
+
+msgid "_Exit Selection Mode"
+msgstr "_Irten hautapen modutik"
+
+msgid "_Duplicate"
+msgstr "_Bikoiztu"
+
+msgid "De_lete"
+msgstr "E_zabatu"
+
+msgid "Pr_operties"
+msgstr "_Propietateak"
+
+msgid "The folder “%s” no longer exists."
+msgstr "«%s» karpeta ez dago jada."
+
+msgid "“%s” selected (%s%s)"
+msgstr "«%s» hautatuta (%s%s)"
+
+msgid "%s selected"
+msgstr "%s hautatuta"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d hautatuta"
+msgstr[1] "%d hautatuta"
+
+msgid "Move left"
+msgstr "Ezkerrera"
+
+msgid "Move down"
+msgstr "Behera"
+
+msgid "Move up"
+msgstr "Gora"
+
+msgid "Move right"
+msgstr "Eskuinera"
+
+msgid "First item"
+msgstr "Lehen elementua"
+
+msgid "Last item"
+msgstr "Azken elementua"
+
+msgid "Page down"
+msgstr "Orria behera"
+
+msgid "Page up"
+msgstr "Orria gora"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Hautatu kurtsoreak zeharkatzen dituen elementuak (bisuala)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Hautatu tarte bat, Maius-ekin bezala (lerro bisuala)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Hautatu saretako bloke bat (bloke bisuala)"
+
+msgid "Back to normal mode"
+msgstr "Itzuli modu arruntera"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopiatu kurtsorearen azpiko elementua"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Aldatu izena, kurtsorea hasieran (txertatu)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Aldatu izena, kurtsorea izenaren ondoren (erantsi)"
+
+msgid "Rename, name selected (change)"
+msgstr "Aldatu izena, izena hautatuta (aldatu)"
+
+msgid "Edit the location"
+msgstr "Editatu kokalekua"
+
+msgid "Copied."
+msgstr "Kopiatuta."
+
+msgid "Cut."
+msgstr "Ebakita."
+
+msgid "Can't open “%s”."
+msgstr "Ezin da «%s» ireki."
+
+msgid "A name is needed."
+msgstr "Izen bat behar da."
+
+msgid "Unknown view: %s"
+msgstr "Ikuspegi ezezaguna: %s"
+
+msgid "Unknown option: %s"
+msgstr "Aukera ezezaguna: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordenatu izenaren, tamainaren, dataren edo motaren arabera."
+
+msgid "Not a command: %s"
+msgstr "Ez da komando bat: %s"
+
+msgid "Move"
+msgstr "Eraman"
+
+msgid "Columns"
+msgstr "Zutabeak"
+
+msgid "Files"
+msgstr "Fitxategiak"
+
+msgid "Recommended Applications"
+msgstr "Gomendatutako aplikazioak"
+
+msgid "Other Applications"
+msgstr "Beste aplikazio batzuk"
+
+msgid "Command line"
+msgstr "Komando-lerroa"
+
+msgid "No items found"
+msgstr "Ez da elementurik aurkitu"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s libre (%s guztira, %d%% erabilita)"

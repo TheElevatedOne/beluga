@@ -17,95 +17,95 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "ئارخىپنى ئاچقىلى بولمىدى."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "ئارخىپنى ئوقۇغىلى بولمىدى."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "بىكار قىلىندى."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "بۇ ھۆججەت ئىم بىلەن شىفىرلانغان."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "«%s» نى ئوقۇغىلى بولمىدى."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "بۇ ئارخىپ ئىچىدىكى ھۆججەت ئەمەس."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "بۇ يەرگە يەش"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "‎.tar.gz قىلىپ پرېسلا"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "تېرمىنال تەقلىدلىگۈچ تېپىلمىدى."
 
 msgid "Root"
-msgstr ""
+msgstr "غول"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s دىسكا بۆلىكى"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "بۇ ئۈسكۈنىنى ئېگەرلىگىلى بولمايدۇ."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "بۇ ئۈسكۈنىنى ئېگەرسىزلىگىلى بولمايدۇ."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "ئۈسكۈنە ئەمدى مەۋجۇت ئەمەس."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s نى «%s» غا كۆچۈرۈۋاتىدۇ"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s نى «%s» غا يۆتكەۋاتىدۇ"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s نى «%s» دا ئۇلاۋاتىدۇ"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s نى ئەخلەت ساندۇقىغا يۆتكەۋاتىدۇ"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s نى ئۆچۈرۈۋاتىدۇ"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s نى ئەسلىگە كەلتۈرۈۋاتىدۇ"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىنى بوشىتىۋاتىدۇ"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "ھۆججەتلەرنى ساناۋاتىدۇ…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "«%s»: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "قىسقۇچنى ئۆز ئىچىگە يۆتكىگىلى بولمايدۇ."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "قىسقۇچنى ئۆز ئىچىگە كۆچۈرگىلى بولمايدۇ."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "ھۆججەتلەرنى پەقەت يەرلىك قىسقۇچلارغىلا يەشكىلى بولىدۇ."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "«%s» دىن يېشىۋاتىدۇ"
 
 msgid "Title:"
 msgstr "ماۋزۇ:"
@@ -123,7 +123,7 @@ msgid "Track:"
 msgstr "نەغمە:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "دىسكا:"
 
 msgid "Date:"
 msgstr "چېسلا:"
@@ -135,7 +135,7 @@ msgid "Composer:"
 msgstr "مۇزىكىسىنى ئىشلىگۈچى:"
 
 msgid "Performer:"
-msgstr ""
+msgstr "ئورۇنلىغۇچى:"
 
 msgid "Publisher:"
 msgstr "تارقاتقۇچى:"
@@ -154,11 +154,11 @@ msgstr "تىل:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "ۋاقتى:"
@@ -167,57 +167,57 @@ msgid "Format:"
 msgstr "فورمات:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "بىت نىسبىتى:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "مۇقاۋا:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr "، %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr "، %.3f fps"
 
 msgid "Video:"
 msgstr "سىن:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "سىن %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr "، %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "يەككە"
 
 msgid "stereo"
-msgstr ""
+msgstr "ستېرېئو"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
+msgstr[0] "%d قانال"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr "، %d بىت"
 
 msgid "Audio:"
 msgstr "ئۈن:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "ئۈن %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "خەت ئاستى:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "بابلار:"
 
 msgid "Places"
 msgstr "ئورۇن"
@@ -265,7 +265,7 @@ msgid "Recent Files"
 msgstr "يېقىنقى ھۆججەت"
 
 msgid "Images"
-msgstr ""
+msgstr "رەسىملەر"
 
 msgid "Audio"
 msgstr "ئۈن"
@@ -274,37 +274,37 @@ msgid "Folders"
 msgstr "قىسقۇچ"
 
 msgid "Archives"
-msgstr ""
+msgstr "ئارخىپلار"
 
 msgid "All Files"
 msgstr "بارلىق ھۆججەت"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "«%s» نى ئىزدە"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "تېرمىنال تەقلىدلىگۈچ تېپىلمىدى. Beluga سەپلىمىسى › ئادەتتىكى › تېرمىنالدا بىرنى بەلگىلەڭ."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "بۇ ھۆججەت سىستېمىسىدا ئەخلەت ساندۇقى يوق."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "ئەخلەت ساندۇقى ئۇچۇر ھۆججىتىنى قۇرغىلى بولمىدى."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "«%s» ئاللىبۇرۇن مەۋجۇت."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "ئەخلەت ساندۇقى %s چېكىدىن چوڭ. ئۇنى بوشىتىشنى ئويلىشىڭ."
 
 msgid "Copy"
 msgstr "كۆچۈر"
 
 msgid "Move"
-msgstr ""
+msgstr "يۆتكە"
 
 msgid "Link"
 msgstr "ئۇلانما"
@@ -319,21 +319,21 @@ msgid "Create Folder"
 msgstr "قىسقۇچ قۇر"
 
 msgid "Create File"
-msgstr ""
+msgstr "ھۆججەت قۇر"
 
 msgid "Undo"
 msgstr "يېنىۋال(O)"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "يېنىۋال: %s"
 
 msgid "Redo"
 msgstr "قايتىلا(R)"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "قايتىلا: %s"
 
 #, c-format
 msgid "%d item"
@@ -343,12 +343,12 @@ msgstr[0] "%d تۈر"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
+msgstr[0] "%d ھۆججەت"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
+msgstr[0] "%d قىسقۇچ"
 
 #, c-format
 msgid "%s, %s"
@@ -356,26 +356,26 @@ msgstr "%s، %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "بۈگۈن %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "تۈنۈگۈن %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A %H:%M"
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld سېكۇنت"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld مىنۇت %ld سېكۇنت"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld سائەت %ld مىنۇت"
 
 #, c-format
 msgid "%s copy"
@@ -383,7 +383,7 @@ msgstr "%s كۆچۈر"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s كۆپەيتىلمە %d"
 
 msgid "Name"
 msgstr "ئاتى"
@@ -392,7 +392,7 @@ msgid "Size"
 msgstr "چوڭلۇقى"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىشى"
 
 msgid "Modified"
 msgstr "ئۆزگەرتىلگەن ۋاقتى"
@@ -407,7 +407,7 @@ msgid "Type"
 msgstr "تۈرى"
 
 msgid "Extension"
-msgstr ""
+msgstr "كېڭەيتىلمە"
 
 msgid "Permissions"
 msgstr "ئىجازەت"
@@ -428,22 +428,22 @@ msgid "Deletion Time"
 msgstr "ئۆچۈرۈلگەن ۋاقتى"
 
 msgid "Original Location"
-msgstr ""
+msgstr "ئەسلى ئورنى"
 
 msgid "Dimensions"
 msgstr "ئۆلچەم"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga باشقۇرغۇچى سۈپىتىدە ئىشلىيەلمىدى."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "باشقۇرغۇچى ئىمىنى سوراش ئۈچۈن pkexec (polkit) كېرەك. polkit ۋە ئۈستەلئۈستىڭىز ئۈچۈن polkit ۋاكالەتچىسىنى ئورنىتىڭ."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "باشقۇرغۇچى سالاھىيىتىدە مەشغۇلات قىلىشنىڭ خەتىرى"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "باشقۇرغۇچى ھوقۇقى بار Beluga كۆزنىكى بۇ كومپيۇتېردىكى ھەرقانداق ھۆججەتنى، جۈملىدىن سىستېما قوزغىلىشقا كېرەكلىك ھۆججەتلەرنى ئۆزگەرتەلەيدۇ ۋە ئۆچۈرەلەيدۇ. ئۇ يەردىكى بىر خاتالىق سىستېمىنى ئىشلەتكىلى بولمايدىغان قىلىپ قويۇشى مۇمكىن. ئۇنى پەقەت باشقا يول بىلەن ئۆزگەرتەلمەيدىغان ھۆججەتلەر ئۈچۈنلا ئىشلىتىڭ، ئىشىڭىز تۈگىگەندە يېپىڭ.\n\nئاندىن Beluga باشقۇرغۇچى ئىمىنى سورايدۇ."
 
 msgid "Cancel"
 msgstr "ۋاز كەچ"
@@ -515,7 +515,7 @@ msgid "Details View"
 msgstr "تەپسىلىي كۆرۈنۈش"
 
 msgid "Columns View"
-msgstr ""
+msgstr "ئىستون كۆرۈنۈشى"
 
 msgid "Zoom In"
 msgstr "يېقىنلات(I)"
@@ -524,7 +524,7 @@ msgid "Zoom Out"
 msgstr "يىراقلات(O)"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "چوڭايتىشنى ئەسلىگە قايتۇر"
 
 msgid "Show Hidden Files"
 msgstr "يوشۇرۇن ھۆججەتنى كۆرسەت"
@@ -539,7 +539,7 @@ msgid "Focus Other View"
 msgstr "باشقا كۆرۈنۈشكە فوكۇسلا"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "بۆلۈنگەن كۆرۈنۈشنى ئايرى"
 
 msgid "Split View to Tabs"
 msgstr "بۆلۈنمە كۆرۈنۈشنى بەتكۈچكە يۆتكە"
@@ -554,7 +554,7 @@ msgid "Replace Location"
 msgstr "ئورۇننى ئالماشتۇر"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "ئورۇنلار تاختىسى"
 
 msgid "Folders Panel"
 msgstr "قىسقۇچ كۆزنەكچە"
@@ -563,7 +563,7 @@ msgid "Information Panel"
 msgstr "ئۇچۇر كۆزنەكچە"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىش تاختىسى"
 
 msgid "Focus Places Panel"
 msgstr "ئورۇن كۆزنەكچىنى فوكۇسلا"
@@ -584,31 +584,31 @@ msgid "Up"
 msgstr "يۇقىرىغا (U)"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "1-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "2-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "3-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "4-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "5-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "6-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "7-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "8-بەتكۈچكە ئۆت"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "9-بەتكۈچكە ئۆت"
 
 msgid "Go to Last Tab"
 msgstr "ئاخىرقى بەتكۈچكە يۆتكەل"
@@ -629,29 +629,29 @@ msgid "Configure Toolbars"
 msgstr "قورال بالداق سەپلە"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga نى سەپلە"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "يېنىۋېلىش مەغلۇپ بولدى."
 
 msgid "Folder…"
-msgstr ""
+msgstr "قىسقۇچ…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "تېكىست ھۆججىتى…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "قۇرۇق ھۆججەت…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "ھۆججەت ياكى قىسقۇچقا ئۇلانما…"
 
 msgid "Create New"
 msgstr "يېڭىدىن قۇر"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "باشقا كۆرۈنۈش (%s)"
 
 msgid "Browse…"
 msgstr "كۆز يۈگۈرت(B)…"
@@ -691,7 +691,7 @@ msgid "View Mode"
 msgstr "كۆرۈنۈش ھالىتى"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "بۇ قىسقۇچنىڭ كۆرۈنۈشىنى ئېسىڭدە تۇت"
 
 msgid "Restore"
 msgstr "ئەسلىگە كەلتۈر"
@@ -709,13 +709,13 @@ msgid "Open in Split View"
 msgstr "بۆلۈنمە كۆرۈنۈشتە ئاچ"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Beluga دا ئاچ"
 
 msgid "Open Containing Folder"
 msgstr "ئىچىدىكى قىسقۇچنى ئاچ"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "قىسقۇچقا چاپلا"
 
 msgid "Rename…"
 msgstr "ئات ئۆزگەرت…"
@@ -727,65 +727,65 @@ msgid "Close"
 msgstr "ياپ"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "ۋاز كەچ(_C)"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "ئاتتا «/» بولسا بولمايدۇ."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "چېكىت بىلەن باشلانغان ئات يوشۇرۇن بولىدۇ."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "بەزى تۈرلەرنىڭ ئاتىنى ئۆزگەرتكىلى بولمىدى."
 
 msgid "Rename Item"
 msgstr "تۈرنىڭ ئاتىنى ئۆزگەرت"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "«%s» نىڭ يېڭى ئاتى:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "ئات ئۆزگەرت(_R)"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "«%s» نىڭ ئاتىنى ئۆزگەرتكىلى بولمىدى."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "ھۆججەت تىپىنى ئۆزگەرتەمسىز؟"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "«%s» نى «%s» غا ئۆزگەرتسە كېڭەيتىلمىسى ئۆزگىرىدۇ."
 
 msgid "Rename Items"
 msgstr "تۈرنىڭ ئاتىنى ئۆزگەرت"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "تاللانغان %zu تۈرنىڭ يېڭى ئاتى:"
 
 msgid "New name #"
 msgstr "يېڭى ئات #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# ئۆسۈۋاتقان سانلار بىلەن ئالماشتۇرۇلىدۇ؛ ئالدىدىكى نۆللەر ئۈچۈن ## ئىشلىتىڭ. كېڭەيتىلمىلەر ساقلىنىدۇ."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "نومۇرلاشنى باشلاش:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "بۇ يەرگە يۆتكە(_M)"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "بۇ يەرگە كۆچۈر(_C)"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "بۇ يەردە ئۇلا(_L)"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "ۋاز كەچ(_A)"
 
 msgid "Add Places Entry"
 msgstr "ئورۇن تۈرىنى قوش"
@@ -797,25 +797,25 @@ msgid "Label:"
 msgstr "بەلگە(A):"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "قىسقۇچ تاللاڭ"
 
 msgid "Location:"
 msgstr "ئورنى(L):"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "تاللا(_H)…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "سىنبەلگە ئاتى:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "قىسقۇچ تاللاڭ"
 
 msgid "_Add"
-msgstr ""
+msgstr "قوش(_A)"
 
 msgid "_Save"
-msgstr ""
+msgstr "ساقلا(_S)"
 
 msgid "View Display Style"
 msgstr "كۆرۈنۈش كۆرسىتىش ئۇسلۇبى"
@@ -845,19 +845,19 @@ msgid "Descending"
 msgstr "كېمەيگۈچى"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "قىسقۇچلارنى ئالدىدا كۆرسەت(_F)"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "يوشۇرۇن ھۆججەتلەرنى ئاخىرىدا كۆرسەت(_L)"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "ئالدىن كۆزىتىشنى كۆرسەت(_P)"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "گۇرۇپپىلاپ كۆرسەت(_G)"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "يوشۇرۇن ھۆججەتلەرنى كۆرسەت(_H)"
 
 msgid "Apply to"
 msgstr "قوللىنىش"
@@ -866,17 +866,17 @@ msgid "Current folder"
 msgstr "نۆۋەتتىكى قىسقۇچ"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "بارلىق تارماق قىسقۇچلار بىلەن نۆۋەتتىكى قىسقۇچ"
 
 msgid "All folders"
 msgstr "ھەممە قىسقۇچ"
 
 msgid "_OK"
-msgstr ""
+msgstr "جەزملە(_O)"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "ئۆزگەرتىلگەن %s"
 
 msgid "Folder Already Exists"
 msgstr "قىسقۇچ مەۋجۇت"
@@ -886,35 +886,35 @@ msgstr "ھۆججەت مەۋجۇت"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "«%s» ئاتلىق قىسقۇچ «%s» دا ئاللىبۇرۇن بار."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "«%s» ئاتلىق ھۆججەت «%s» دا ئاللىبۇرۇن بار."
 
 msgid "Existing item"
-msgstr ""
+msgstr "بار تۈر"
 
 msgid "New item"
-msgstr ""
+msgstr "يېڭى تۈر"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "يېڭى ئات تەۋسىيە قىل(_S)"
 
 msgid "New name:"
-msgstr ""
+msgstr "يېڭى ئات:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "ھەممىسىگە قوللان(_A)"
 
 msgid "S_kip"
-msgstr ""
+msgstr "ئاتلا(_K)"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "ئىچىگە يېزىش(_W)"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "قاپلاپ يېزىش(_O)"
 
 msgid "Skip"
 msgstr "ئاتلا(S)"
@@ -929,194 +929,194 @@ msgid "Choose an Icon"
 msgstr "سىنبەلگە تاللىنىدۇ(I)"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "سىنبەلگە ئىزدە…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "سۈرەت ھۆججىتى(_I)…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "كۆڭۈلدىكى سىنبەلگە(_D)"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "سۈرەت تاللاڭ"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "تور ئورۇنلىرىغا gvfs كېرەك. gvfs بوغچىسىنى (Windows ھەمبەھىرى ئۈچۈن gvfs-smb، NFS ئۈچۈن gvfs-nfs نىمۇ) ئورنىتىڭ، ئاندىن چېكىنىپ قايتا كىرىڭ."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "بۇ ئورۇن قىسقۇچ ئەمەس."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "بۇ ئورۇن ئىناۋەتسىز."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "بۇ قىسقۇچ ئارخىپتا يوق."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
+msgstr[0] "%s كىچىكرەك ھۆججەت"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(باشقا دىسكا، سانالمىدى)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "مەزمۇنىنىڭ بىر قىسمىنى ئوقۇغىلى بولمىدى."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "ھۆججەتلەردە %s"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "دىسكىدا %s"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s ھۆججەت ۋە %s قىسقۇچ"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "ئوقۇۋاتىدۇ… %s ھۆججەت ۋە %s قىسقۇچتا %s"
 
 msgid "Stopped."
-msgstr ""
+msgstr "توختىدى."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "بۇ قىسقۇچنى ئوقۇغىلى بولمىدى."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s، %.1f سېكۇنتتا ئوقۇلدى"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
+msgstr[0] ". %s قىسقۇچنى ئوقۇغىلى بولمىدى."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "پەقەت بۇ كومپيۇتېردىكى قىسقۇچلارنىلا ئۆلچىگىلى بولىدۇ."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "بىر مىنۇتقا يەتمەي ئىلگىرى ئوقۇلدى"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
+msgstr[0] "%d مىنۇت ئىلگىرى ئوقۇلدى"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
+msgstr[0] "%d سائەت ئىلگىرى ئوقۇلدى"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s، %s. قايتا ئوقۇش ئۈچۈن قايتا تەكشۈرۈڭ."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "كۆرۈنمە چوڭلۇقى(_A)"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "ھۆججەتلەرنىڭ دىسكىدا ئىگىلىگەن بوشلۇقى ئورنىغا چوڭلۇقىنى قوش."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "بۇ دىسكىدا تۇر(_S)"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "بۇ قىسقۇچ ئىچىگە ئېگەرلەنگەن باشقا دىسكىلارنى (مەسىلەن باشقا دىسكىدىكى مۇزىكا قىسقۇچى) سانىما. ئۇلانمىلار ھەرگىز ئەگىشىلمەيدۇ."
 
 msgid "Rescan"
-msgstr ""
+msgstr "قايتا تەكشۈر"
 
 msgid "Stop"
 msgstr "توختا"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىشىنى ياپ"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "قايتا تەكشۈر(_R)"
 
 msgid "S_top"
-msgstr ""
+msgstr "توختات(_T)"
 
 msgid "Share"
 msgstr "ھەمبەھىر"
 
 msgid "Files"
-msgstr ""
+msgstr "ھۆججەتلەر"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىشى – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "«%s» ئاللىبۇرۇن بار. ئالماشتۇرامسىز؟"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "بۇ ھۆججەتلەرنىڭ %zu ى ئاللىبۇرۇن بار. ئالماشتۇرامسىز؟"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "سىز ساقلاۋاتقان پروگرامما بار مەزمۇننى قاپلاپ يازىدۇ."
 
 msgid "Replace"
 msgstr "ئالماشتۇر"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "ساقلايدىغان قىسقۇچنى تاللاڭ."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "قىسقۇچ تاللا"
 
 msgid "Open Files"
-msgstr ""
+msgstr "ھۆججەتلەرنى ئاچ"
 
 msgid "Open File"
-msgstr ""
+msgstr "ھۆججەت ئاچ"
 
 msgid "Save File"
-msgstr ""
+msgstr "ھۆججەت ساقلا"
 
 msgid "Save Files"
-msgstr ""
+msgstr "ھۆججەتلەرنى ساقلا"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "قىسقۇچ(_F):"
 
 msgid "_Name:"
-msgstr ""
+msgstr "ئات(_N):"
 
 msgid "_Type:"
-msgstr ""
+msgstr "تىپ(_T):"
 
 msgid "_Select"
-msgstr ""
+msgstr "تاللا(_S)"
 
 msgid "_Open"
-msgstr ""
+msgstr "ئاچ(_O)"
 
 msgid "New Folder"
 msgstr "يېڭى قىسقۇچ"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "بۇ يەردە يېڭى قىسقۇچ قۇر:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "قۇر(_R)"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "قىسقۇچنى قۇرغىلى بولمىدى."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu تۈر تاللاندى"
 
 msgid "Contents:"
-msgstr ""
+msgstr "مەزمۇن:"
 
 msgid "Size:"
 msgstr "چوڭلۇقى:"
@@ -1128,10 +1128,10 @@ msgid "Folder"
 msgstr "قىسقۇچ"
 
 msgid "Contains:"
-msgstr ""
+msgstr "ئۆز ئىچىگە ئالىدۇ:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "ساناۋاتىدۇ…"
 
 msgid "Unknown"
 msgstr "يوچۇن"
@@ -1161,75 +1161,75 @@ msgid "Dimensions:"
 msgstr "ئۆلچەم:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "بۇزۇق ئۇلانما"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (ئۇلانما)"
 
 msgid "other drive"
-msgstr ""
+msgstr "باشقا دىسكا"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s قالدى"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "ھۆججەت مەشغۇلاتى ئېلىپ بېرىلىۋاتىدۇ"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "تارماق قىسقۇچ يوق"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "بېرىلگەن ھۆججەتلەرنى ئۆز قىسقۇچىدا تاللا"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "كۆزنەكنى بۆلۈنگەن كۆرۈنۈشتە ئاچ"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "ھەمىشە يېڭى كۆزنەك ئاچ"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "FileManager1 D-Bus مۇلازىمىتى ئۈچۈن ئارقا سۇپىدا ئىجرا بولۇشنى داۋاملاشتۇر"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "تېرمىنالدىن ئايرىل (ئورۇن بولمىسا: نۆۋەتتىكى قىسقۇچنى ئاچىدۇ)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "xdg-desktop-portal ئۈچۈن ھۆججەت تاللىغۇچنى ئىجرا قىل (D-Bus قوزغىتىدۇ)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "نەشرىنى كۆرسەت"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[ھۆججەت ياكى قىسقۇچ…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "باشقۇرغۇچى سۈپىتىدە ئىشلەۋاتىدۇ: بۇ كۆزنەكتىكى ئۆزگەرتىشلەر سىستېمىغا زىيان يەتكۈزۈشى مۇمكىن."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "بۇ كۆزنەكنى ياپامسىز؟"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "بۇ كۆزنەكتە %zu بەتكۈچ ئوچۇق. ئۇنى يېپىش ھەممىسىنى ياپىدۇ."
 
 msgid "Close Window"
-msgstr ""
+msgstr "كۆزنەكنى ياپ"
 
 msgid "Configure Toolbars…"
 msgstr "قورال بالداق سەپلە(B)…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "قورال بالدىقىنى كۆرسەت(_T)"
 
 msgid "Split"
 msgstr "پارچىلا"
@@ -1244,79 +1244,79 @@ msgid "Show in Groups"
 msgstr "گۇرۇپپىدا كۆرسەت"
 
 msgid "_File"
-msgstr ""
+msgstr "ھۆججەت(_F)"
 
 msgid "New _Window"
-msgstr ""
+msgstr "يېڭى كۆزنەك(_W)"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "يېڭى بەتكۈچ(_T)"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "بەتكۈچنى ياپ(_C)"
 
 msgid "Create _New"
-msgstr ""
+msgstr "يېڭى قۇر(_N)"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "ئات ئۆزگەرت(_R)…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "بۇ يەردە كۆپەيت(_D)"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىغا يۆتكە(_T)"
 
 msgid "_Delete"
-msgstr ""
+msgstr "ئۆچۈر(_D)"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىدىن ئەسلىگە كەلتۈر"
 
 msgid "_Properties"
-msgstr ""
+msgstr "خاسلىق(_P)"
 
 msgid "_Quit"
-msgstr ""
+msgstr "چېكىن(_Q)"
 
 msgid "_Edit"
-msgstr ""
+msgstr "تەھرىر(_E)"
 
 msgid "_Undo"
-msgstr ""
+msgstr "يېنىۋال(_U)"
 
 msgid "_Redo"
-msgstr ""
+msgstr "قايتىلا(_R)"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "كەس(_T)"
 
 msgid "_Copy"
-msgstr ""
+msgstr "كۆچۈر(_C)"
 
 msgid "_Paste"
-msgstr ""
+msgstr "چاپلا(_P)"
 
 msgid "Filter…"
 msgstr "سۈزگۈچ…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "ئىزدە(_S)…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "ھەممىنى تاللا(_A)"
 
 msgid "_View"
-msgstr ""
+msgstr "كۆرۈنۈش(_V)"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "چوڭايت(_I)"
 
 msgid "Reset Zoom Level"
 msgstr "نىسبەت دەرىجىسىنى ئەسلىگە قايتۇر"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "كىچىكلەت(_O)"
 
 msgid "Show Additional Information"
 msgstr "قوشۇمچە ئۇچۇرنى كۆرسەت"
@@ -1331,7 +1331,7 @@ msgid "Adjust View Display Style…"
 msgstr "كۆرۈنۈش كۆرسىتىش ئۇسلۇبىنى تەڭشە…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "قايتا يۈكلە(_L)"
 
 msgid "Panels"
 msgstr "كۆزنەكچە"
@@ -1343,175 +1343,175 @@ msgid "Location Bar"
 msgstr "ئورۇن بالداق"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "تىزىملىك بالدىقىنى كۆرسەت(_M)"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "ھالەت بالدىقىنى كۆرسەت(_S)"
 
 msgid "_Go"
-msgstr ""
+msgstr "ئۆت(_G)"
 
 msgid "_Back"
-msgstr ""
+msgstr "كەينىگە(_B)"
 
 msgid "_Forward"
-msgstr ""
+msgstr "ئالدىغا(_F)"
 
 msgid "_Up"
-msgstr ""
+msgstr "يۇقىرىغا(_U)"
 
 msgid "_Home"
-msgstr ""
+msgstr "باش مۇندەرىجە(_H)"
 
 msgid "Recently Closed Tabs"
 msgstr "يېقىندا تاقالغان بەتكۈچ"
 
 msgid "_Tools"
-msgstr ""
+msgstr "قوراللار(_T)"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "تېرمىنال ئاچ(_T)"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "بۇ يەردە تېرمىنال ئاچ(_H)"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىشى(_D)…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "تەڭشەكلەر(_S)"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "قورال بالداقلىرىنى سەپلە(_B)…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga نى سەپلە(_C)…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "يېقىندا يېپىلغان بەتكۈچ يوق"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(باشقۇرغۇچى)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "%zu قىسقۇچنى يېڭى بەتكۈچلەردە ئاچامسىز؟"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "قىسقۇچلارنى ئاچ"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "«%s» نى ئاچقىلى بولمىدى."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "تېرمىنال ئاچقىلى بولمىدى."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "يېڭى تېكىست ھۆججىتى.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "يېڭى ھۆججەت"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىنى بوشىتامسىز؟"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "ئەخلەت ساندۇقىدىكى بارلىق تۈرلەر مەڭگۈلۈك ئۆچۈرۈلىدۇ. بۇنى يېنىۋالغىلى بولمايدۇ."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "%zu تېرمىنال ئاچامسىز؟"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "تېرمىناللارنى ئاچ"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "بۇ يەردە يېڭى ھۆججەت قۇر:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "ھۆججەتنى قۇرغىلى بولمىدى."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "ھۆججەت ياكى قىسقۇچقا ئۇلانما"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "ئۇلىنىدىغان ھۆججەت ياكى قىسقۇچنىڭ يولى:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "ئۇلانمىنى قۇرغىلى بولمىدى."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s نى مەڭگۈلۈك ئۆچۈرەمسىز؟"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "بۇنى يېنىۋالغىلى بولمايدۇ."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s نى ئەخلەت ساندۇقىغا يۆتكەمسىز؟"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "«%s» نى ئىجرا قىلغىلى بولمىدى."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s نى قوزغاتقىلى بولمىدى."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "ئەپنى قوزغاتقىلى بولمىدى."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "«%s» ئىجرا قىلغىلى بولىدىغان ھۆججەت."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "ئۇنى ئىجرا قىلامسىز ياكى ئەپتە ئاچامسىز؟"
 
 msgid "Run"
-msgstr ""
+msgstr "ئىجرا قىل"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "%s (%s) نى ئاچىدىغان ئەپنى تاللاڭ:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "تەۋسىيە قىلىنغان ئەپلەر"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "باشقا ئەپلەر"
 
 msgid "Or command:"
-msgstr ""
+msgstr "ياكى بۇيرۇق:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "بۇ ھۆججەت تىپى ئۈچۈن ئەپ باغلىنىشىنى ئېسىڭدە تۇت"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%2$s دىن %1$s بوش"
 
 msgid "Safely Remove"
 msgstr "بىخەتەر چىقىرىۋەت(S)"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "بۆلەكلەرنى سەپلە"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "بەلگە قويۇلغان بۆلەكلەر ئورۇنلار تاختىسىدا بۇ تەرتىپتە كۆرۈنىدۇ."
 
 msgid "Move Up"
-msgstr ""
+msgstr "يۇقىرىغا يۆتكە"
 
 msgid "Move Down"
-msgstr ""
+msgstr "تۆۋەنگە يۆتكە"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "ئۈسكۈنىنى ئېگەرلىگىلى بولمىدى: %s"
 
 msgid "Mount"
 msgstr "ئېگەرلە"
@@ -1538,31 +1538,31 @@ msgid "Add Entry…"
 msgstr "تۈر قوش…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "بۆلەكلەرنى سەپلە…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "يوشۇرۇن مەزمۇنلارنى يوشۇر"
 
 msgid "Show All Entries"
 msgstr "ھەممە تۈرنى كۆرسەت(S)"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "ئەخلەت ساندۇقىدىكى بارلىق تۈرلەر مەڭگۈلۈك ئۆچۈرۈلىدۇ."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "ئۈسكۈنىنى بىخەتەر چىقارغىلى بولمىدى: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "ئۈسكۈنىنى ئېگەرسىزلىگىلى بولمىدى: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "سىستېما خەت نۇسخىسىنى ئىشلەت(_S)"
 
 msgid "Label font:"
 msgstr "بەلگە خەت نۇسخىسى:"
@@ -1574,7 +1574,7 @@ msgid "Preview icon size:"
 msgstr "ئالدىن كۆزىتىش سىنبەلگە چوڭلۇقى:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "تىل مۇھىت تىزىملىك مەشغۇلاتى"
 
 msgid "Name:"
 msgstr "ئاتى(N):"
@@ -1586,40 +1586,40 @@ msgid "File names:"
 msgstr "ھۆججەت ئاتى:"
 
 msgid "Types:"
-msgstr ""
+msgstr "تىپلار:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f بىرىنچى ھۆججەت، %F بارلىق ھۆججەتلەر، %u / %U URI سۈپىتىدە، %n / %N ئاتلار، %d نۆۋەتتىكى قىسقۇچ."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "ھۆججەتلەر ئۈچۈن كۆرسەت(_F)"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "قىسقۇچلار ئۈچۈن كۆرسەت(_O)"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "بىر قانچە تۈر تاللانغاندا كۆرسەت(_S)"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "تېرمىنالدا ئىجرا قىل(_T)"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "ئىختىيارى مەشغۇلاتلار"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "ھۆججەت ۋە قىسقۇچلارنىڭ تىل مۇھىت تىزىملىكى ئۈچۈن ئۆزىڭىزنىڭ مەزمۇنلىرى."
 
 msgid "_Add…"
-msgstr ""
+msgstr "قوش(_A)…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "تەھرىرلە(_E)…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "چىقىرىۋەت(_R)"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "تېزلەتمىلەر <Control>c ياكى <Shift>Delete دەك يېزىلىدۇ. بىر قانچىسىنى پەش بىلەن ئايرىڭ. كۆڭۈلدىكىسى ئۈچۈن بوش قويۇڭ."
 
 msgid "no file"
 msgstr "ھۆججەت يوق"
@@ -1629,19 +1629,19 @@ msgstr "خالىغان چوڭلۇقتىكى ھۆججەت"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB دىن كىچىك ھۆججەتلەر"
 
 msgid "Search…"
 msgstr "ئىزدە…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "كۆڭۈلدىكىگە قايتۇر(_R)"
 
 msgid "_Apply"
-msgstr ""
+msgstr "قوللان(_A)"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "قىسقۇچ ۋە بەتكۈچلەر"
 
 msgid "Show on startup:"
 msgstr "قوزغالغاندا كۆرسەت:"
@@ -1650,7 +1650,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "ئەسلىگە كەلتۈرۈشتىن ئىلگىرى قىسقۇچ، بەتكۈچ ۋە كۆزنەك ھالىتى"
 
 msgid "This location:"
-msgstr ""
+msgstr "بۇ ئورۇن:"
 
 msgid "Use Current Location"
 msgstr "نۆۋەتتىكى ئورۇننى ئىشلەت"
@@ -1662,7 +1662,7 @@ msgid "Opening Folders:"
 msgstr "قىسقۇچ ئېچىلىشى:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "بىرلا Beluga كۆزنىكىنى ساقلاپ، يېڭى قىسقۇچلارنى بەتكۈچتە ئاچ"
 
 msgid "Window:"
 msgstr "كۆزنەك:"
@@ -1674,7 +1674,7 @@ msgid "Show filter bar"
 msgstr "سۈزگۈچ بالداقنى كۆرسىتىدۇ"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "بەتكۈچلەر:"
 
 msgid "Always show tab bar"
 msgstr "ھەمىشە بەتكۈچ بالداقنى كۆرسىتىدۇ"
@@ -1692,7 +1692,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "ھەممە بەتكۈچنىڭ كەڭلىكى مۇقىم"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "مۇقىم كەڭلىكتىكى بەتكۈچلەر سىغمىغاندا ھەممىسى ئوخشاش دەرىجىدە تارىيىدۇ."
 
 msgid "Open new tabs:"
 msgstr "يېڭى بەتكۈچ ئاچ: "
@@ -1725,42 +1725,42 @@ msgid "Terminal:"
 msgstr "تېرمىنال:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "تېرمىنال تېپىلمىدى"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "بايقالدى: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "F4 ۋە «بۇ يەردە تېرمىنال ئاچ» ئىشلىتىدۇ. بۇيرۇقتىكى %d قىسقۇچ بىلەن ئالماشتۇرۇلىدۇ؛ بولمىسا تېرمىنال شۇ قىسقۇچتا باشلىنىدۇ. بۇ ئىلگىرى KDE سىستېما تەڭشىكى ئىدى."
 
 msgid "Previews"
 msgstr "ئالدىن كۆزەت"
 
 msgid "New folders:"
-msgstr ""
+msgstr "يېڭى قىسقۇچلار:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "يېڭى قىسقۇچلاردا ئالدىن كۆزىتىشنى كۆرسەت(_P)"
 
 msgid "Show previews in the view for:"
 msgstr "كۆرۈنۈشتە ئالدىن كۆزىتىشنى كۆرسىتىدۇ:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "ئۈن (مۇقاۋا رەسىمى)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF پۈتۈكلىرى"
 
 msgid "Text files"
-msgstr ""
+msgstr "تېكىست ھۆججەتلىرى"
 
 msgid "Fonts"
-msgstr ""
+msgstr "خەت نۇسخىلىرى"
 
 msgid "Office documents"
-msgstr ""
+msgstr "ئىشخانا پۈتۈكلىرى"
 
 msgid "Local storage:"
 msgstr "يەرلىك ساقلىغۇچ:"
@@ -1775,7 +1775,7 @@ msgid "Confirmations"
 msgstr "جەزملە"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "تۆۋەندىكى ئەھۋالدا جەزملەشتۈرۈشنى سورا:"
 
 msgid "Moving files or folders to trash"
 msgstr "ھۆججەت ياكى قىسقۇچلارنى ئەخلەتخانىغا يۆتكەۋاتىدۇ"
@@ -1790,7 +1790,7 @@ msgid "Renaming a file will change its type"
 msgstr "ئات ئۆزگەرتىۋاتقاندا ھۆججەت تۈرى ئۆزگەرسە"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Beluga دا تۆۋەندىكى ئەھۋالدا جەزملەشتۈرۈشنى سورا:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "كۆپ بەتكۈچلۈك كۆزنەكنى يېپىۋاتقاندا"
@@ -1829,7 +1829,7 @@ msgid "Show item on hover"
 msgstr "نىشانلانسا تۈرنى كۆرسىتىدۇ"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "ئۇزۇن چېسلا فورماتىنى ئىشلەت(_L)"
 
 msgid "Folders Panel:"
 msgstr "قىسقۇچ كۆزنەكچە:"
@@ -1838,19 +1838,19 @@ msgid "Limit to home directory when inside it"
 msgstr "ئۇ ئىچىدە بولغاندا باش مۇندەرىجىگە چەكلەيدۇ"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "يوشۇرۇن قىسقۇچلارنى كۆرسەت(_H)"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "نۆۋەتتىكى قىسقۇچقا ئۆزلۈكىدىن دومىلات(_A)"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "ئورۇنلار تاختىسى:"
 
 msgid "Icon size:"
 msgstr "سىنبەلگە چوڭلۇقى:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "ھالەت ۋە ئورۇن بالداقلىرى"
 
 msgid "Status Bar:"
 msgstr "ھالەت بالداق:"
@@ -1868,7 +1868,7 @@ msgid "Show zoom slider"
 msgstr "نىسبەت سىيرىغۇچنى كۆرسىتىدۇ"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "بوش بوشلۇقنى كۆرسەت(_S)"
 
 msgid "Location bar:"
 msgstr "ئورۇن بالداق:"
@@ -1895,7 +1895,7 @@ msgid "Remember display style for each folder"
 msgstr "ھەر بىر قىسقۇچنىڭ كۆرۈنۈش خاسلىقىنى ئەستە تۇتىدۇ"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "قانداقلا بولمىسۇن، كۆرۈنۈش › بۇ قىسقۇچنىڭ كۆرۈنۈشىنى ئېسىڭدە تۇت بىر قىسقۇچقا ئۆز ئۇسلۇبىنى بېرىدۇ. ئىزدەش، يېقىنقى ھۆججەتلەر ياكى ئەخلەت ساندۇقىغا ئوخشاش بەزى ئالاھىدە كۆرۈنۈشلەر يەنىلا ئۆز ئۇسلۇبىنى ئىشلىتىدۇ."
 
 msgid "Browsing:"
 msgstr "كۆز يۈگۈرتۈش: "
@@ -1907,10 +1907,10 @@ msgid "Open folders during drag operations"
 msgstr "سۆرەش مەشغۇلاتى جەريانىدا قىسقۇچلارنى ئاچىدۇ"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "ھۆججەت ۋە قىسقۇچلارنى بىر چېكىش بىلەن ئاچ"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "دەرھال ئىزدەش ئۈچۈن باش مۇندەرىجە قىسقۇچىنىڭ ئىندېكسىنى ساقلا(_I)"
 
 msgid "Miscellaneous:"
 msgstr "باشقىلار: "
@@ -1967,37 +1967,37 @@ msgid "Show no size"
 msgstr "چوڭلۇقىنى كۆرسەتمەيدۇ"
 
 msgid "levels deep"
-msgstr ""
+msgstr "قەۋەت چوڭقۇرلۇق"
 
 msgid "Date style:"
 msgstr "چېسلا ئۇسلۇبى:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "نىسپىي (بۈگۈن، تۈنۈگۈن…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "مۇتلەق"
 
 msgid "Permissions style:"
 msgstr "ئىجازەت ئۇسلۇبى:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "بەلگىلىك (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "سانلىق (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "بىرلەشتۈرۈلگەن"
 
 msgid "Long file names:"
 msgstr "ئۇزۇن ھۆججەت ئاتى:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "ئوتتۇرىسىدا قىسقارت"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "ئاخىرىدا قىسقارت"
 
 msgid "Label width:"
 msgstr "بەلگە كەڭلىكى:"
@@ -2039,163 +2039,163 @@ msgid "By clicking on icon or name"
 msgstr "سىنبەلگە ياكى ئات چېكىلىدۇ"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىشى:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "دىسكا ئىشلىتىلىش ئىستونىنى كۆرسەت(_U)"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "ھەر بىر ھۆججەت ۋە پۈتۈن قىسقۇچ دىسكىدا ئىگىلىگەن بوشلۇق، قىسقۇچتىكى ئۈلۈشىنى كۆرسىتىدىغان بالداق بىلەن، قوراللار › دىسكا ئىشلىتىلىشىگە ئوخشاش. قىسقۇچلار ئارقا سۇپىدا تولۇق ئوقۇلىدۇ؛ ئەڭ چوڭلىرىنى ئالدىدا كۆرۈش ئۈچۈن بۇ ئىستون بويىچە تەرتىپلەڭ. دىسكا ئىشلىتىلىشى كۆزنىكىدىكى \"بۇ دىسكىدا تۇر\" بۇ يەردىمۇ كۈچكە ئىگە."
 
 msgid "View"
 msgstr "كۆرۈنۈش(V)"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "تىل مۇھىت تىزىملىكىدە كۆرسەت"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'كۆچۈرۈش' ۋە 'يۆتكەش'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "ئۆچۈر (ئەخلەت ساندۇقىغا يۆتكەشتىن باشقا)"
 
 msgid "Context Menu"
 msgstr "مەزمۇن تىزىملىكى"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "تازىلاش:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "مۇنۇنىڭدىن كونا ھۆججەتلەرنى ئۆچۈر:"
 
 msgid "days"
-msgstr ""
+msgstr "كۈن"
 
 msgid "Limit to"
-msgstr ""
+msgstr "چەكلىمە:"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "دىسكىنىڭ پىرسەنتى"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىنى باش مۇندەرىجە دىسكىسىدا ساقلا"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "باشقا دىسكىلاردىن ئەخلەت ساندۇقىغا يۆتكەلگەن ھۆججەتلەر باش مۇندەرىجىدىكى ئەخلەت ساندۇقىغا كۆچۈرۈلىدۇ، شۇڭا ئۇ دىسكىلاردا .Trash-1000 قىسقۇچى پەيدا بولمايدۇ. چوڭ ھۆججەتلەرنى ئەخلەت ساندۇقىغا يۆتكەش ئۇ چاغدا ئۇزۇنراق ۋاقىت ئالىدۇ."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "تولغان ئەخلەت ساندۇقى:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "چەككە يەتكەندە:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "ئاگاھلاندۇرۇش كۆرسەت"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "ئەڭ كونا تۈرلەرنى ئۆچۈر"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "ئەڭ چوڭ تۈرلەرنى ئۆچۈر"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "بۇلار ئىلگىرى KDE سىستېما تەڭشەكلىرى ئىدى. چەكلىمىلەر Beluga قوزغالغاندا ۋە تۈرلەر ئەخلەت ساندۇقىغا يۆتكەلگەندىن كېيىن قوللىنىلىدۇ."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىنىڭ چوڭلۇقىنى ھېسابلاۋاتىدۇ…"
 
 msgid "Trash:"
 msgstr "ئەخلەتخانا:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "ئەخلەت ساندۇقى ھازىر %s ئىشلىتىۋاتىدۇ."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "ئەخلەت ساندۇقىنى ھازىر بوشات(_E)"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim ھالىتى"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim ھالىتى:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "كۆرۈنۈشلەردە Vim ئۇسلۇبىدىكى كۇنۇپكىلارنى ئىشلەت"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "ئادەتتىكى ھالەت h j k l بىلەن يۆتكىلىدۇ ۋە تۆۋەندىكى كۇنۇپكىلارنى ئىجرا قىلىدۇ؛ v، V ۋە Ctrl+V تاللايدۇ؛ i ۋە a ئاتنى ئۆزگەرتىدۇ (قىستۇرۇش ھالىتى)؛ Esc ئادەتتىكى ھالەتكە قايتىدۇ؛ : بۇيرۇق قۇرىنى ئاچىدۇ. بۇ يەردە تىزىلمىغان Ctrl ياكى Alt كۇنۇپكىلىرى ئادەتتىكى مەنىسىنى ساقلايدۇ."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "باشلامچى كۇنۇپكا:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "تۆۋەندىكى كۇنۇپكىلاردىكى <leader>، مەسىلەن <Space> ياكى ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "تېخىمۇ كۆپ كۇنۇپكىنى ساقلا:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (d دىن كېيىن dd، g دىن كېيىن gg)"
 
 msgid "Keys"
-msgstr ""
+msgstr "كۇنۇپكىلار"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim ئىپادىسى، بىر قانچىسى بوشلۇق بىلەن ئايرىلىدۇ: h, gg, <C-v>, <CR>, <Esc>, <leader>t. كۆڭۈلدىكىسى ئۈچۈن بوش قويۇڭ."
 
 msgid "Command line"
-msgstr ""
+msgstr "بۇيرۇق قۇرى"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr "‎:q كۆزنەكنى ياپىدۇ (‎:q! بەتكۈچلەرنى سورىماي)، ‎:qa Beluga دىن چېكىنىدۇ، ‎:e ياكى ‎:cd يول قىسقۇچ ئاچىدۇ، ‎:tabnew [يول]، ‎:tabclose، ‎:tabonly، ‎:sp ياكى ‎:vs [يول] كۆرۈنۈشنى بۆلىدۇ، ‎:only باشقا كۆرۈنۈشنى ياپىدۇ، ‎:mkdir ئات، ‎:touch ئات، ‎:set hidden / nohidden / hidden!، ‎:set view=icons|compact|details|columns، ‎:sort name|size|date|type، ‎:pwd، ‎:term، ‎:du، ‎:help، ‎:!بۇيرۇق قىسقۇچتا shell بۇيرۇقى ئىجرا قىلىدۇ."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "ھەرپتاختا تېزلەتمىلىرى"
 
 msgid "Details:"
 msgstr "تەپسىلاتى:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "پەقەت بۇ كومپيۇتېردىكى ھۆججەتلەرنىلا ئوقۇغىلى بولىدۇ."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga FFmpeg سىز قۇرۇلغان."
 
 msgid "Reading…"
-msgstr ""
+msgstr "ئوقۇۋاتىدۇ…"
 
 msgid "No details found."
-msgstr ""
+msgstr "تەپسىلات تېپىلمىدى."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "قىسقۇچ سىنبەلگىسىنى ئۆزگەرت"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "سىنبەلگىنى ئۆزگەرتكىلى بولمىدى."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu تۈر"
 
 msgid "Calculating…"
 msgstr "ھېسابلاۋاتىدۇ…"
 
 msgid "No default application"
-msgstr ""
+msgstr "كۆڭۈلدىكى ئەپ يوق"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "ئۆزگەرت(_H)…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "مۇنىڭدا ئېچىلىدۇ:"
 
 msgid "Free space:"
 msgstr "ئەركىن بوشلۇق:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%2$s دىن %1$s بوش (%3$d%% ئىشلىتىلگەن)"
 
 #, c-format
 msgid "%llu byte"
@@ -2206,13 +2206,13 @@ msgid "Forbidden"
 msgstr "چەكلەنگەن"
 
 msgid "Can View"
-msgstr ""
+msgstr "كۆرەلەيدۇ"
 
 msgid "Can View & Modify"
 msgstr "كۆرۈپ ئۆزگەرتەلەيدۇ"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "مەزمۇننى كۆرەلەيدۇ"
 
 msgid "Can View & Modify Content"
 msgstr "مەزمۇننى كۆرۈپ ئۆزگەرتەلەيدۇ"
@@ -2221,10 +2221,10 @@ msgid "Others:"
 msgstr "باشقالار(T):"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "ئىجرا قىلغىلى بولىدۇ(_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "ئۆزگەرتىشلەرنى بارلىق تارماق قىسقۇچلار ۋە ئۇلارنىڭ مەزمۇنىغا قوللان(_S)"
 
 msgid "User:"
 msgstr "ئىشلەتكۈچى:"
@@ -2236,22 +2236,22 @@ msgid "Calculate"
 msgstr "ھېسابلا"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "ھۆججەتنى ئوقۇغىلى بولمىدى."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "سېلىشتۇرۇش ئۈچۈن تەكشۈرۈش يىغىندىسىنى چاپلاڭ"
 
 msgid "Verify:"
-msgstr ""
+msgstr "دەلىللە:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "تەكشۈرۈش يىغىندىلىرى ماس كېلىدۇ."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "ھېسابلانغان تەكشۈرۈش يىغىندىلىرىنىڭ ھېچقايسىسى ماس كەلمىدى. ئالدى بىلەن ماس تىپنى ھېسابلاڭ."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "ئىجازەتلەرنى ئۆزگەرتكىلى بولمىدى."
 
 #, c-format
 msgid "Properties for %s"
@@ -2264,16 +2264,16 @@ msgid "Filter:"
 msgstr "سۈزگۈچ:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "ئات بويىچە سۈزگۈچ (*.txt غا ئوخشاش ئورتاق بەلگىلەر ئىشلەيدۇ)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "قىسقۇچ ئالماشتۇرغاندا سۈزگۈچنى ساقلا"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "بۇ قىسقۇچتا"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "ھۆججەتلىرىڭىزدە"
 
 msgid "Everywhere"
 msgstr "ھەر يەر"
@@ -2285,22 +2285,22 @@ msgid "File Names and Contents"
 msgstr "ھۆججەت ئاتى ۋە مەزمۇنى"
 
 msgid "Any Time"
-msgstr ""
+msgstr "ھەرقانداق ۋاقىت"
 
 msgid "Today"
 msgstr "بۈگۈن"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "ئاخىرقى 7 كۈن"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "ئاخىرقى 30 كۈن"
 
 msgid "Last Year"
-msgstr ""
+msgstr "ئاخىرقى يىل"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "يوشۇرۇن ھۆججەتلەر"
 
 msgid "Zoom:"
 msgstr "نىسبەت:"
@@ -2313,7 +2313,7 @@ msgid "%s free"
 msgstr "%s بوش"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "بەتكۈچنى كۆپەيت"
 
 msgid "Detach Tab"
 msgstr "بەتكۈچنى ئاجرات"
@@ -2328,31 +2328,31 @@ msgid "--- separator ---"
 msgstr "--- ئايرىغۇچ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "تىزىملىكتە ئورۇن بالدىقىنىڭ ئۈستىدىكى مەشغۇلاتلار ئۇنىڭ سول تەرىپىدە، قالغانلىرى ئوڭ تەرىپىدە تۇرىدۇ. * كۆڭۈلدىكى قورال بالدىقى قويغان ئورۇندا ئەمەس مەشغۇلاتلارنى بەلگىلەيدۇ."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "ئىشلەتكىلى بولىدىغان مەشغۇلاتلار(_V):"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "قورال بالدىقىغا قوش"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "قورال بالدىقىدىن چىقىرىۋەت"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "يۇقىرىغا يۆتكە (قورال بالدىقىدا سولغا)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "تۆۋەنگە يۆتكە (قورال بالدىقىدا ئوڭغا)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "نۆۋەتتىكى مەشغۇلاتلار(_U):"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "كۆڭۈلدىكى(_D)"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "ئىستونلارنى كۆرسەت"
 
 #, c-format
 msgid "Size: %s"
@@ -2360,11 +2360,11 @@ msgstr "چوڭلۇقى: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "ئۆزگەرتىلگەن: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "ئەسلى ئورنى: %s"
 
 msgid "Yesterday"
 msgstr "تۈنۈگۈن"
@@ -2391,19 +2391,19 @@ msgid "Big"
 msgstr "چوڭ"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB دىن ئاز"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB دىن 100 MiB غىچە"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB دىن 1 GiB غىچە"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB ياكى ئۇنىڭدىن كۆپ"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "تېخى سانالمىغان"
 
 msgid "Searching…"
 msgstr "ئىزدەۋاتىدۇ…"
@@ -2412,7 +2412,7 @@ msgid "No items matching the filter"
 msgstr "بۇ سۈزگۈچكە ماس كېلىدىغان ھېچقانداق تۈر يوق"
 
 msgid "No items found"
-msgstr ""
+msgstr "تۈر تېپىلمىدى"
 
 msgid "Trash is empty"
 msgstr "ئەخلەتخانا بوش"
@@ -2421,38 +2421,38 @@ msgid "Folder is empty"
 msgstr "قىسقۇچ بوش"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "ھۆججەت ئاتىدا «/» بولسا بولمايدۇ."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "«%s» نى «%s» غا ئۆزگەرتسە كېڭەيتىلمىسى ئۆزگىرىدۇ. ھۆججەت باشقا ئەپتە ئېچىلىشى ياكى پەقەت ئېچىلماسلىقى مۇمكىن."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "تاللاش ھالىتى: ھۆججەت ياكى قىسقۇچلارنى تاللاش ياكى تاللاشنى بىكار قىلىش ئۈچۈن چېكىڭ."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "تاللاش ھالىتىدىن چېكىن(_E)"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "كۆپەيت(_D)"
 
 msgid "De_lete"
-msgstr ""
+msgstr "ئۆچۈر(_L)"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "خاسلىق(_O)"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "«%s» قىسقۇچى ئەمدى مەۋجۇت ئەمەس."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "«%s» تاللاندى (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s تاللاندى"
 
 msgid "Loading folder…"
 msgstr "قىسقۇچ يۈكلەۋاتىدۇ…"
@@ -2460,86 +2460,86 @@ msgstr "قىسقۇچ يۈكلەۋاتىدۇ…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
+msgstr[0] "%d تاللاندى"
 
 msgid "Move left"
-msgstr ""
+msgstr "سولغا"
 
 msgid "Move down"
-msgstr ""
+msgstr "تۆۋەنگە"
 
 msgid "Move up"
-msgstr ""
+msgstr "يۇقىرىغا"
 
 msgid "Move right"
-msgstr ""
+msgstr "ئوڭغا"
 
 msgid "First item"
-msgstr ""
+msgstr "بىرىنچى تۈر"
 
 msgid "Last item"
-msgstr ""
+msgstr "ئاخىرقى تۈر"
 
 msgid "Page down"
-msgstr ""
+msgstr "بەت تۆۋەنگە"
 
 msgid "Page up"
-msgstr ""
+msgstr "بەت يۇقىرىغا"
 
 msgid "Parent folder"
 msgstr "ئاتا قىسقۇچ"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "نۇربەلگە ئۆتكەن تۈرلەرنى تاللا (كۆرۈنمە)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Shift قا ئوخشاش دائىرە تاللا (كۆرۈنمە قۇر)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "تورىدىن بىر بۆلەك تاللا (كۆرۈنمە بۆلەك)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "ئادەتتىكى ھالەتكە قايت"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "نۇربەلگە ئاستىدىكى تۈرنى كۆچۈر"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "ئات ئۆزگەرت، نۇربەلگە بېشىدا (قىستۇر)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "ئات ئۆزگەرت، نۇربەلگە ئاتتىن كېيىن (قوش)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "ئات ئۆزگەرت، ئات تاللانغان (ئۆزگەرت)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "ئورۇننى تەھرىرلە"
 
 msgid "Copied."
-msgstr ""
+msgstr "كۆچۈرۈلدى."
 
 msgid "Cut."
-msgstr ""
+msgstr "كېسىلدى."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "«%s» نى ئاچقىلى بولمايدۇ."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "ئات كېرەك."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "نامەلۇم كۆرۈنۈش: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "نامەلۇم تاللانما: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "name، size، date ياكى type بويىچە تەرتىپلەڭ."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "بۇيرۇق ئەمەس: %s"
