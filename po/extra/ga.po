@@ -1,0 +1,1492 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+msgid "The archive could not be opened."
+msgstr "Níorbh fhéidir an chartlann a oscailt."
+
+msgid "The archive could not be read."
+msgstr "Níorbh fhéidir an chartlann a léamh."
+
+msgid "Cancelled."
+msgstr "Cealaithe."
+
+msgid "This file is encrypted with a password."
+msgstr "Tá an comhad criptithe le focal faire."
+
+msgid "“%s” could not be read."
+msgstr "Níorbh fhéidir “%s” a léamh."
+
+msgid "This is not a file in an archive."
+msgstr "Ní comhad laistigh de chartlann é seo."
+
+msgid "Extract Here"
+msgstr "Bain amach anseo"
+
+msgid "Compress to .tar.gz"
+msgstr "Comhbhrúigh go .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Níor aimsíodh aithriseoir teirminéil."
+
+msgid "Root"
+msgstr "Fréamh"
+
+msgid "%s Volume"
+msgstr "Imleabhar %s"
+
+msgid "This device cannot be mounted."
+msgstr "Ní féidir an gléas seo a fheistiú."
+
+msgid "This device cannot be unmounted."
+msgstr "Ní féidir an gléas seo a dhífheistiú."
+
+msgid "The device is gone."
+msgstr "Níl an gléas ann a thuilleadh."
+
+msgid "Copying %s to “%s”"
+msgstr "%s á chóipeáil go “%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "%s á bhogadh go “%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Nasc do %s á chruthú in “%s”"
+
+msgid "Moving %s to the trash"
+msgstr "%s á bhogadh go dtí an bruscar"
+
+msgid "Deleting %s"
+msgstr "%s á scriosadh"
+
+msgid "Restoring %s"
+msgstr "%s á athchóiriú"
+
+msgid "Emptying the trash"
+msgstr "An bruscar á fholmhú"
+
+msgid "Counting files…"
+msgstr "Comhaid á gcomhaireamh…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Ní féidir fillteán a bhogadh isteach ann féin."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Ní féidir fillteán a chóipeáil isteach ann féin."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Ní féidir comhaid a bhaint amach ach chuig fillteáin logánta."
+
+msgid "Extracting from “%s”"
+msgstr "Á mbaint amach as “%s”"
+
+msgid "Disc:"
+msgstr "Diosca:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "Formáid:"
+
+msgid "Bit rate:"
+msgstr "Ráta giotán:"
+
+msgid "Cover:"
+msgstr "Clúdach:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Físeán %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "monafónach"
+
+msgid "stereo"
+msgstr "steiréafónach"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d chainéal"
+msgstr[1] "%d chainéal"
+msgstr[2] "%d chainéal"
+msgstr[3] "%d gcainéal"
+msgstr[4] "%d cainéal"
+
+msgid ", %d bit"
+msgstr ", %d giotán"
+
+msgid "Audio %d:"
+msgstr "Fuaim %d:"
+
+msgid "Subtitles:"
+msgstr "Fotheidil:"
+
+msgid "Chapters:"
+msgstr "Caibidlí:"
+
+msgid "Images"
+msgstr "Pictiúir"
+
+msgid "Archives"
+msgstr "Cartlanna"
+
+msgid "Search for “%s”"
+msgstr "Cuardaigh “%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Níor aimsíodh aithriseoir teirminéil. Socraigh ceann in Cumraigh Beluga › Ginearálta › Teirminéal."
+
+msgid "This file system has no trash."
+msgstr "Níl bruscar ag an gcóras comhad seo."
+
+msgid "Could not create the trash information file."
+msgstr "Níorbh fhéidir comhad faisnéise an bhruscair a chruthú."
+
+msgid "“%s” already exists."
+msgstr "Tá “%s” ann cheana."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Tá an bruscar níos mó ná a theorainn de %s. Smaoinigh ar é a fholmhú."
+
+msgid "Create File"
+msgstr "Cruthaigh comhad"
+
+msgid "Undo: %s"
+msgstr "Cealaigh: %s"
+
+msgid "Redo: %s"
+msgstr "Athdhéan: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d chomhad"
+msgstr[1] "%d chomhad"
+msgstr[2] "%d chomhad"
+msgstr[3] "%d gcomhad"
+msgstr[4] "%d comhad"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d fhillteán"
+msgstr[1] "%d fhillteán"
+msgstr[2] "%d fhillteán"
+msgstr[3] "%d bhfillteán"
+msgstr[4] "%d fillteán"
+
+msgid "Today at %s"
+msgstr "Inniu ag %s"
+
+msgid "Yesterday at %s"
+msgstr "Inné ag %s"
+
+msgid "%A at %H:%M"
+msgstr "%A ag %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld nóim %ld soic"
+
+msgid "%ld h %ld min"
+msgstr "%ld u %ld nóim"
+
+msgid "%s copy %d"
+msgstr "%s cóip %d"
+
+msgid "Disk Usage"
+msgstr "Úsáid diosca"
+
+msgid "Extension"
+msgstr "Iarmhír"
+
+msgid "Original Location"
+msgstr "Bunsuíomh"
+
+msgid "Beluga could not act as administrator."
+msgstr "Níorbh fhéidir le Beluga gníomhú mar riarthóir."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Tá pkexec (polkit) de dhíth chun focal faire an riarthóra a iarraidh. Suiteáil polkit agus gníomhaire polkit do do dheasc."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Is féidir le fuinneog Beluga a bhfuil cearta riarthóra aici aon chomhad ar an ríomhaire seo a athrú agus a scriosadh, lena n-áirítear na comhaid a theastaíonn ón gcóras chun tosú. D’fhéadfadh botún ansin an córas a dhéanamh neamhúsáidte. Ná húsáid í ach le haghaidh comhad nach féidir leat a athrú ar bhealach eile, agus dún í nuair a bheidh tú críochnaithe.\n\nAnsin iarrfaidh Beluga focal faire an riarthóra."
+
+msgid "Columns View"
+msgstr "Amharc colúin"
+
+msgid "Reset Zoom"
+msgstr "Athshocraigh an zúmáil"
+
+msgid "Pop out Split View"
+msgstr "Scoir an t-amharc scoilte"
+
+msgid "Places Panel"
+msgstr "Painéal na n-áiteanna"
+
+msgid "Disk Usage Panel"
+msgstr "Painéal úsáide diosca"
+
+msgid "Go to Tab 1"
+msgstr "Téigh go cluaisín 1"
+
+msgid "Go to Tab 2"
+msgstr "Téigh go cluaisín 2"
+
+msgid "Go to Tab 3"
+msgstr "Téigh go cluaisín 3"
+
+msgid "Go to Tab 4"
+msgstr "Téigh go cluaisín 4"
+
+msgid "Go to Tab 5"
+msgstr "Téigh go cluaisín 5"
+
+msgid "Go to Tab 6"
+msgstr "Téigh go cluaisín 6"
+
+msgid "Go to Tab 7"
+msgstr "Téigh go cluaisín 7"
+
+msgid "Go to Tab 8"
+msgstr "Téigh go cluaisín 8"
+
+msgid "Go to Tab 9"
+msgstr "Téigh go cluaisín 9"
+
+msgid "Configure Beluga"
+msgstr "Cumraigh Beluga"
+
+msgid "Undo failed."
+msgstr "Theip ar an gcealú."
+
+msgid "Folder…"
+msgstr "Fillteán…"
+
+msgid "Text File…"
+msgstr "Comhad téacs…"
+
+msgid "Empty File…"
+msgstr "Comhad folamh…"
+
+msgid "Link to File or Folder…"
+msgstr "Nasc chuig comhad nó fillteán…"
+
+msgid "Other View (%s)"
+msgstr "An t-amharc eile (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Cuimhnigh ar an amharc don fhillteán seo"
+
+msgid "Open in Beluga"
+msgstr "Oscail in Beluga"
+
+msgid "Paste into Folder"
+msgstr "Greamaigh san fhillteán"
+
+msgid "_Cancel"
+msgstr "_Cealaigh"
+
+msgid "The name cannot contain “/”."
+msgstr "Ní féidir “/” a bheith san ainm."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Bíonn ainm a thosaíonn le ponc folaithe."
+
+msgid "Some items could not be renamed."
+msgstr "Níorbh fhéidir roinnt míreanna a athainmniú."
+
+msgid "Rename “%s” to:"
+msgstr "Athainmnigh “%s” mar:"
+
+msgid "_Rename"
+msgstr "_Athainmnigh"
+
+msgid "Could not rename “%s”."
+msgstr "Níorbh fhéidir “%s” a athainmniú."
+
+msgid "Change the file type?"
+msgstr "An bhfuil fonn ort cineál an chomhaid a athrú?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Athraíonn athainmniú “%s” mar “%s” a iarmhír."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Athainmnigh na %zu mír roghnaithe mar:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "Cuirtear uimhreacha ardaitheacha in ionad #; úsáid ## le haghaidh nialas tosaigh. Coinnítear na hiarmhíreanna."
+
+msgid "Start numbering at:"
+msgstr "Tosaigh an uimhriú ag:"
+
+msgid "_Move Here"
+msgstr "_Bog anseo"
+
+msgid "_Copy Here"
+msgstr "_Cóipeáil anseo"
+
+msgid "_Link Here"
+msgstr "_Nasc anseo"
+
+msgid "C_ancel"
+msgstr "C_ealaigh"
+
+msgid "Choose a folder"
+msgstr "Roghnaigh fillteán"
+
+msgid "C_hoose…"
+msgstr "_Roghnaigh…"
+
+msgid "Icon name:"
+msgstr "Ainm na deilbhíne:"
+
+msgid "Choose a Folder"
+msgstr "Roghnaigh fillteán"
+
+msgid "_Add"
+msgstr "_Cuir leis"
+
+msgid "_Save"
+msgstr "_Sábháil"
+
+msgid "Show _folders first"
+msgstr "Taispeáin _fillteáin ar dtús"
+
+msgid "Show hidden files _last"
+msgstr "Taispeáin comhaid fholaithe _ag an deireadh"
+
+msgid "Show _previews"
+msgstr "Taispeáin _réamhamhairc"
+
+msgid "Show in _groups"
+msgstr "Taispeáin i n-_grúpaí"
+
+msgid "Show _hidden files"
+msgstr "Taispeáin comhaid _fholaithe"
+
+msgid "Current folder including all subfolders"
+msgstr "An fillteán reatha agus a fhofhillteáin go léir"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "athraithe %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Tá fillteán darb ainm “%s” in “%s” cheana."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Tá comhad darb ainm “%s” in “%s” cheana."
+
+msgid "Existing item"
+msgstr "Mír atá ann"
+
+msgid "New item"
+msgstr "Mír nua"
+
+msgid "_Suggest New Name"
+msgstr "_Mol ainm nua"
+
+msgid "New name:"
+msgstr "Ainm nua:"
+
+msgid "Apply to _all"
+msgstr "Cuir i bhfeidhm ar _gach ceann"
+
+msgid "S_kip"
+msgstr "_Léim thar"
+
+msgid "_Write Into"
+msgstr "_Scríobh isteach ann"
+
+msgid "_Overwrite"
+msgstr "_Forscríobh"
+
+msgid "Search icons…"
+msgstr "Cuardaigh deilbhíní…"
+
+msgid "_Image File…"
+msgstr "Comhad _íomhá…"
+
+msgid "_Default Icon"
+msgstr "Deilbhín _réamhshocraithe"
+
+msgid "Choose an Image"
+msgstr "Roghnaigh íomhá"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Teastaíonn gvfs ó áiteanna líonra. Suiteáil an pacáiste gvfs (agus gvfs-smb do chomhroinnt Windows, gvfs-nfs do NFS), ansin logáil amach agus isteach arís."
+
+msgid "This location is not a folder."
+msgstr "Ní fillteán é an suíomh seo."
+
+msgid "This location is not valid."
+msgstr "Tá an suíomh seo neamhbhailí."
+
+msgid "This folder is not in the archive."
+msgstr "Níl an fillteán seo sa chartlann."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s chomhad níos lú"
+msgstr[1] "%s chomhad níos lú"
+msgstr[2] "%s chomhad níos lú"
+msgstr[3] "%s gcomhad níos lú"
+msgstr[4] "%s comhad níos lú"
+
+msgid "(another drive, not counted)"
+msgstr "(tiomántán eile, níor comhaireadh)"
+
+msgid "Some of its contents could not be read."
+msgstr "Níorbh fhéidir cuid den ábhar a léamh."
+
+msgid "%s in files"
+msgstr "%s i gcomhaid"
+
+msgid "%s on disk"
+msgstr "%s ar an diosca"
+
+msgid "%s files and %s folders"
+msgstr "%s comhad agus %s fillteán"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Á léamh… %s i %s comhad agus %s fillteán"
+
+msgid "Stopped."
+msgstr "Stoptha."
+
+msgid "This folder could not be read."
+msgstr "Níorbh fhéidir an fillteán seo a léamh."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, léite i %.1f soic"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Níorbh fhéidir %s fhillteán a léamh."
+msgstr[1] ". Níorbh fhéidir %s fhillteán a léamh."
+msgstr[2] ". Níorbh fhéidir %s fhillteán a léamh."
+msgstr[3] ". Níorbh fhéidir %s bhfillteán a léamh."
+msgstr[4] ". Níorbh fhéidir %s fillteán a léamh."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Ní féidir ach fillteáin ar an ríomhaire seo a thomhas."
+
+msgid "read less than a minute ago"
+msgstr "léite níos lú ná nóiméad ó shin"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "léite %d nóiméad ó shin"
+msgstr[1] "léite %d nóiméad ó shin"
+msgstr[2] "léite %d nóiméad ó shin"
+msgstr[3] "léite %d nóiméad ó shin"
+msgstr[4] "léite %d nóiméad ó shin"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "léite %d uair an chloig ó shin"
+msgstr[1] "léite %d uair an chloig ó shin"
+msgstr[2] "léite %d huaire an chloig ó shin"
+msgstr[3] "léite %d n-uaire an chloig ó shin"
+msgstr[4] "léite %d uair an chloig ó shin"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Athscan chun é a léamh arís."
+
+msgid "_Apparent size"
+msgstr "Méid _dealraitheach"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Suimigh méideanna na gcomhad in ionad an spáis a thógann siad ar an diosca."
+
+msgid "_Stay on this drive"
+msgstr "_Fan ar an tiomántán seo"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Ná comhair tiomántáin eile atá feistithe laistigh den fhillteán seo (mar fhillteán ceoil ar dhiosca eile). Ní leantar naisc riamh."
+
+msgid "Rescan"
+msgstr "Athscan"
+
+msgid "Close Disk Usage"
+msgstr "Dún úsáid diosca"
+
+msgid "_Rescan"
+msgstr "_Athscan"
+
+msgid "S_top"
+msgstr "S_top"
+
+msgid "Disk Usage – %s"
+msgstr "Úsáid diosca – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "Tá “%s” ann cheana. An gcuirfear ceann eile ina áit?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "Tá %zu de na comhaid seo ann cheana. An gcuirfear cinn eile ina n-áit?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Forscríobhfaidh an clár óna bhfuil tú ag sábháil an t-ábhar atá ann."
+
+msgid "Choose a folder to save in."
+msgstr "Roghnaigh fillteán le sábháil ann."
+
+msgid "Select Folder"
+msgstr "Roghnaigh fillteán"
+
+msgid "Open Files"
+msgstr "Oscail comhaid"
+
+msgid "Open File"
+msgstr "Oscail comhad"
+
+msgid "Save File"
+msgstr "Sábháil comhad"
+
+msgid "Save Files"
+msgstr "Sábháil comhaid"
+
+msgid "_Folder:"
+msgstr "_Fillteán:"
+
+msgid "_Name:"
+msgstr "_Ainm:"
+
+msgid "_Type:"
+msgstr "_Cineál:"
+
+msgid "_Select"
+msgstr "_Roghnaigh"
+
+msgid "_Open"
+msgstr "_Oscail"
+
+msgid "Create new folder in:\n%s"
+msgstr "Cruthaigh fillteán nua in:\n%s"
+
+msgid "C_reate"
+msgstr "C_ruthaigh"
+
+msgid "Could not create the folder."
+msgstr "Níorbh fhéidir an fillteán a chruthú."
+
+msgid "%zu items selected"
+msgstr "%zu mír roghnaithe"
+
+msgid "Contents:"
+msgstr "Ábhar:"
+
+msgid "Contains:"
+msgstr "Tá ann:"
+
+msgid "Counting…"
+msgstr "Á gcomhaireamh…"
+
+msgid "Broken Link"
+msgstr "Nasc briste"
+
+msgid "%s (link)"
+msgstr "%s (nasc)"
+
+msgid "other drive"
+msgstr "tiomántán eile"
+
+msgid "%s of %s"
+msgstr "%s as %s"
+
+msgid "%s left"
+msgstr "%s fágtha"
+
+msgid "%d of %d"
+msgstr "%d as %d"
+
+msgid "File operations in progress"
+msgstr "Oibríochtaí comhad ar siúl"
+
+msgid "No subfolders"
+msgstr "Gan fofhillteáin"
+
+msgid "Select the given files in their folders"
+msgstr "Roghnaigh na comhaid tugtha ina bhfillteáin"
+
+msgid "Open the window in split view"
+msgstr "Oscail an fhuinneog in amharc scoilte"
+
+msgid "Always open a new window"
+msgstr "Oscail fuinneog nua i gcónaí"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Lean ar aghaidh sa chúlra don tseirbhís D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Scar ón teirminéal (gan suíomh: osclaíonn sé an fillteán reatha)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Rith roghnóir na gcomhad do xdg-desktop-portal (tosaithe ag D-Bus)"
+
+msgid "Show the version"
+msgstr "Taispeáin an leagan"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[COMHAD nó FILLTEÁN…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Ag gníomhú mar riarthóir: d’fhéadfadh athruithe san fhuinneog seo dochar a dhéanamh don chóras."
+
+msgid "Close this window?"
+msgstr "An ndúnfar an fhuinneog seo?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Tá %zu cluaisín oscailte san fhuinneog seo. Dúnann sé iad go léir í a dhúnadh."
+
+msgid "Close Window"
+msgstr "Dún an fhuinneog"
+
+msgid "Show _Toolbar"
+msgstr "Taispeáin an barra _uirlisí"
+
+msgid "_File"
+msgstr "_Comhad"
+
+msgid "New _Window"
+msgstr "_Fuinneog nua"
+
+msgid "New _Tab"
+msgstr "_Cluaisín nua"
+
+msgid "_Close Tab"
+msgstr "_Dún an cluaisín"
+
+msgid "Create _New"
+msgstr "Cruthaigh _nua"
+
+msgid "_Rename…"
+msgstr "_Athainmnigh…"
+
+msgid "_Duplicate Here"
+msgstr "_Dúblaigh anseo"
+
+msgid "Move to _Trash"
+msgstr "Bog go dtí an _bruscar"
+
+msgid "_Delete"
+msgstr "_Scrios"
+
+msgid "Restore from Trash"
+msgstr "Athchóirigh ón mbruscar"
+
+msgid "_Properties"
+msgstr "_Airíonna"
+
+msgid "_Quit"
+msgstr "_Scoir"
+
+msgid "_Edit"
+msgstr "_Eagar"
+
+msgid "_Undo"
+msgstr "_Cealaigh"
+
+msgid "_Redo"
+msgstr "_Athdhéan"
+
+msgid "Cu_t"
+msgstr "_Gearr"
+
+msgid "_Copy"
+msgstr "_Cóipeáil"
+
+msgid "_Paste"
+msgstr "_Greamaigh"
+
+msgid "_Search…"
+msgstr "_Cuardaigh…"
+
+msgid "Select _All"
+msgstr "Roghnaigh _gach rud"
+
+msgid "_View"
+msgstr "_Amharc"
+
+msgid "Zoom _In"
+msgstr "Zúmáil _isteach"
+
+msgid "Zoom _Out"
+msgstr "Zúmáil _amach"
+
+msgid "Re_load"
+msgstr "_Athlódáil"
+
+msgid "Show _Menubar"
+msgstr "Taispeáin barra na _roghchlár"
+
+msgid "Show _Statusbar"
+msgstr "Taispeáin an barra _stádais"
+
+msgid "_Go"
+msgstr "_Téigh"
+
+msgid "_Back"
+msgstr "_Siar"
+
+msgid "_Forward"
+msgstr "_Ar aghaidh"
+
+msgid "_Up"
+msgstr "_Suas"
+
+msgid "_Home"
+msgstr "_Baile"
+
+msgid "_Tools"
+msgstr "_Uirlisí"
+
+msgid "Open _Terminal"
+msgstr "Oscail _teirminéal"
+
+msgid "Open Terminal _Here"
+msgstr "Oscail teirminéal _anseo"
+
+msgid "_Disk Usage…"
+msgstr "Úsáid _diosca…"
+
+msgid "_Settings"
+msgstr "_Socruithe"
+
+msgid "Configure Tool_bars…"
+msgstr "Cumraigh barraí _uirlisí…"
+
+msgid "_Configure Beluga…"
+msgstr "_Cumraigh Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Níl aon chluaisín dúnta le déanaí"
+
+msgid "(Administrator)"
+msgstr "(Riarthóir)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "An osclófar %zu fillteán i gcluaisíní nua?"
+
+msgid "Open Folders"
+msgstr "Oscail fillteáin"
+
+msgid "Could not open “%s”."
+msgstr "Níorbh fhéidir “%s” a oscailt."
+
+msgid "Could not open a terminal."
+msgstr "Níorbh fhéidir teirminéal a oscailt."
+
+msgid "New Text File.txt"
+msgstr "Comhad téacs nua.txt"
+
+msgid "New File"
+msgstr "Comhad nua"
+
+msgid "Empty the trash?"
+msgstr "An bhfolmhófar an bruscar?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Scriosfar gach mír sa bhruscar go buan. Ní féidir é seo a chealú."
+
+msgid "Open %zu terminals?"
+msgstr "An osclófar %zu teirminéal?"
+
+msgid "Open Terminals"
+msgstr "Oscail teirminéil"
+
+msgid "Create new file in:\n%s"
+msgstr "Cruthaigh comhad nua in:\n%s"
+
+msgid "Could not create the file."
+msgstr "Níorbh fhéidir an comhad a chruthú."
+
+msgid "Link to File or Folder"
+msgstr "Nasc chuig comhad nó fillteán"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Conair an chomhaid nó an fhillteáin le nascadh:"
+
+msgid "Could not create the link."
+msgstr "Níorbh fhéidir an nasc a chruthú."
+
+msgid "Permanently delete %s?"
+msgstr "An scriosfar %s go buan?"
+
+msgid "This cannot be undone."
+msgstr "Ní féidir é seo a chealú."
+
+msgid "Move %s to the trash?"
+msgstr "An mbogfar %s go dtí an bruscar?"
+
+msgid "Could not run “%s”."
+msgstr "Níorbh fhéidir “%s” a rith."
+
+msgid "Could not start %s."
+msgstr "Níorbh fhéidir %s a thosú."
+
+msgid "Could not start the application."
+msgstr "Níorbh fhéidir an feidhmchlár a thosú."
+
+msgid "“%s” is an executable file."
+msgstr "Is comhad inrite é “%s”."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Ar mhaith leat é a rith nó é a oscailt i bhfeidhmchlár?"
+
+msgid "Run"
+msgstr "Rith"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Roghnaigh an feidhmchlár chun %s (%s) a oscailt:"
+
+msgid "Or command:"
+msgstr "Nó ordú:"
+
+msgid "Remember application association for this type of file"
+msgstr "Cuimhnigh ar an bhfeidhmchlár don chineál comhaid seo"
+
+msgid "%s free of %s"
+msgstr "%s saor as %s"
+
+msgid "Configure Sections"
+msgstr "Cumraigh ranna"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Taispeántar na ranna marcáilte i bpainéal na n-áiteanna san ord seo."
+
+msgid "Move Up"
+msgstr "Bog suas"
+
+msgid "Move Down"
+msgstr "Bog síos"
+
+msgid "Could not mount the device: %s"
+msgstr "Níorbh fhéidir an gléas a fheistiú: %s"
+
+msgid "Show"
+msgstr "Taispeáin"
+
+msgid "Configure Sections…"
+msgstr "Cumraigh ranna…"
+
+msgid "Hide Hidden Entries"
+msgstr "Folaigh iontrálacha folaithe"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Scriosfar gach mír sa bhruscar go buan."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Níorbh fhéidir an gléas a bhaint go sábháilte: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Níorbh fhéidir an gléas a dhífheistiú: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Úsáid cló an _chórais"
+
+msgid "Context Menu Action"
+msgstr "Gníomh roghchláir chomhthéacs"
+
+msgid "Command:"
+msgstr "Ordú:"
+
+msgid "Types:"
+msgstr "Cineálacha:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f an chéad chomhad, %F na comhaid go léir, %u / %U mar URIanna, %n / %N ainmneacha, %d an fillteán reatha."
+
+msgid "Show for _files"
+msgstr "Taispeáin do _chomhaid"
+
+msgid "Show for f_olders"
+msgstr "Taispeáin d’_fhillteáin"
+
+msgid "Show when _several items are selected"
+msgstr "Taispeáin nuair atá _roinnt míreanna roghnaithe"
+
+msgid "Run in a _terminal"
+msgstr "Rith i _dteirminéal"
+
+msgid "Custom Actions"
+msgstr "Gníomhartha saincheaptha"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Do chuid iontrálacha féin don roghchlár comhthéacs do chomhaid agus d’fhillteáin."
+
+msgid "_Add…"
+msgstr "_Cuir leis…"
+
+msgid "_Edit…"
+msgstr "_Cuir in eagar…"
+
+msgid "_Remove"
+msgstr "_Bain"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Scríobhtar aicearraí mar <Control>c nó <Shift>Delete. Scar roinnt acu le camóga. Fág réimse folamh don réamhshocrú."
+
+msgid "files below %d MiB"
+msgstr "comhaid faoi %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Athchóirigh na réamhshocruithe"
+
+msgid "_Apply"
+msgstr "_Cuir i bhfeidhm"
+
+msgid "Folders & Tabs"
+msgstr "Fillteáin agus cluaisíní"
+
+msgid "This location:"
+msgstr "An suíomh seo:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Coinnigh fuinneog Beluga amháin agus oscail fillteáin nua i gcluaisíní"
+
+msgid "Tabs:"
+msgstr "Cluaisíní:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Éiríonn cluaisíní le leithead seasta níos cúinge, iad go léir mar an gcéanna, nuair nach n-oireann siad."
+
+msgid "No terminal found"
+msgstr "Níor aimsíodh teirminéal"
+
+msgid "Detected: %s"
+msgstr "Braite: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Úsáideann F4 agus Oscail teirminéal anseo é. Cuirtear an fillteán in ionad %d san ordú; murach sin tosaíonn an teirminéal ann. Socrú córais KDE a bhí ann roimhe seo."
+
+msgid "New folders:"
+msgstr "Fillteáin nua:"
+
+msgid "Show _previews in new folders"
+msgstr "Taispeáin _réamhamhairc i bhfillteáin nua"
+
+msgid "Audio (cover art)"
+msgstr "Fuaim (pictiúir chlúdaigh)"
+
+msgid "PDF documents"
+msgstr "Cáipéisí PDF"
+
+msgid "Text files"
+msgstr "Comhaid téacs"
+
+msgid "Fonts"
+msgstr "Clónna"
+
+msgid "Office documents"
+msgstr "Cáipéisí oifige"
+
+msgid "Ask for confirmation when:"
+msgstr "Iarr deimhniú nuair:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Iarr deimhniú in Beluga nuair:"
+
+msgid "Use _long date format"
+msgstr "Úsáid formáid _fhada dáta"
+
+msgid "Show _hidden folders"
+msgstr "Taispeáin fillteáin _fholaithe"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Scrollaigh go dtí an fillteán reatha go _huathoibríoch"
+
+msgid "Places Panel:"
+msgstr "Painéal na n-áiteanna:"
+
+msgid "Status & Location bars"
+msgstr "Barraí stádais agus suímh"
+
+msgid "Show free _space"
+msgstr "Taispeáin an spás _saor"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Ar aon nós, tugann Amharc › Cuimhnigh ar an amharc don fhillteán seo a stíl féin d’fhillteán amháin. Úsáideann roinnt amharc speisialta, mar chuardach, comhaid le déanaí nó bruscar, a stíl féin fós."
+
+msgid "Open files and folders with a single click"
+msgstr "Oscail comhaid agus fillteáin le cliceáil amháin"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Coinnigh _innéacs den fhillteán baile le haghaidh cuardaigh láithrigh"
+
+msgid "levels deep"
+msgstr "leibhéal doimhneachta"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Coibhneasta (Inniu, Inné…)"
+
+msgid "Absolute"
+msgstr "Absalóideach"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Siombalach (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Uimhriúil (0755)"
+
+msgid "Combined"
+msgstr "Comhcheangailte"
+
+msgid "Elide in the middle"
+msgstr "Giorraigh sa lár"
+
+msgid "Elide at the end"
+msgstr "Giorraigh ag an deireadh"
+
+msgid "Disk usage:"
+msgstr "Úsáid diosca:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Taispeáin colún _úsáide diosca"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "An spás a thógann gach comhad agus gach fillteán iomlán ar an diosca, le barra dá sciar den fhillteán, mar atá in Uirlisí › Úsáid diosca. Léitear fillteáin go hiomlán sa chúlra; sórtáil de réir an cholúin chun na cinn is mó a fheiceáil ar dtús. Baineann \"Fan ar an tiomántán seo\" ó fhuinneog úsáide diosca anseo freisin."
+
+msgid "Show in the context menu"
+msgstr "Taispeáin sa roghchlár comhthéacs"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Cóipeáil go' agus 'Bog go'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Scrios (chomh maith le Bog go dtí an bruscar)"
+
+msgid "Cleanup:"
+msgstr "Glanadh:"
+
+msgid "Delete files older than"
+msgstr "Scrios comhaid níos sine ná"
+
+msgid "days"
+msgstr "lá"
+
+msgid "Limit to"
+msgstr "Teorannaigh go"
+
+msgid "percent of the disk"
+msgstr "faoin gcéad den diosca"
+
+msgid "Keep the trash on the home drive"
+msgstr "Coinnigh an bruscar ar thiomántán an fhillteáin bhaile"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Cóipeáiltear comhaid a bhogtar go dtí an bruscar ó thiomántáin eile go dtí an bruscar san fhillteán baile, mar sin ní fhaigheann na tiomántáin sin fillteán .Trash-1000. Tógann sé níos faide ansin comhaid mhóra a bhogadh go dtí an bruscar."
+
+msgid "Full trash:"
+msgstr "Bruscar lán:"
+
+msgid "When the limit is reached:"
+msgstr "Nuair a shroichtear an teorainn:"
+
+msgid "Show a warning"
+msgstr "Taispeáin rabhadh"
+
+msgid "Delete the oldest items"
+msgstr "Scrios na míreanna is sine"
+
+msgid "Delete the largest items"
+msgstr "Scrios na míreanna is mó"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Socruithe córais KDE a bhí iontu seo roimhe seo. Cuirtear na teorainneacha i bhfeidhm nuair a thosaíonn Beluga agus tar éis míreanna a bhogadh go dtí an bruscar."
+
+msgid "Calculating trash size…"
+msgstr "Méid an bhruscair á ríomh…"
+
+msgid "The trash currently uses %s."
+msgstr "Tá %s in úsáid ag an mbruscar faoi láthair."
+
+msgid "_Empty Trash Now"
+msgstr "_Folmhaigh an bruscar anois"
+
+msgid "Vim Mode"
+msgstr "Mód Vim"
+
+msgid "Vim mode:"
+msgstr "Mód Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Úsáid eochracha i stíl Vim sna hamhairc"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Bogann an gnáthmhód le h j k l agus ritheann sé na heochracha thíos; roghnaíonn v, V agus Ctrl+V; athainmníonn i agus a (mód ionsáite); filleann Esc ar an ngnáthmhód; osclaíonn : an líne ordaithe. Coinníonn eochracha Ctrl nó Alt nach bhfuil liostaithe anseo a ngnáthbhrí."
+
+msgid "Leader key:"
+msgstr "Eochair cheannais:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> sna heochracha thíos, m.sh. <Space> nó ,"
+
+msgid "Wait for more keys:"
+msgstr "Fan ar níos mó eochracha:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd tar éis d, gg tar éis g)"
+
+msgid "Keys"
+msgstr "Eochracha"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Nodaireacht Vim, roinnt acu scartha le spásanna: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Fág réimse folamh don réamhshocrú."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr "Dúnann :q an fhuinneog (:q! gan fiafraí faoi na cluaisíní), scoireann :qa Beluga, osclaíonn :e nó :cd CONAIR fillteán, :tabnew [CONAIR], :tabclose, :tabonly, scoilteann :sp nó :vs [CONAIR] an t-amharc, dúnann :only an t-amharc eile, :mkdir AINM, :touch AINM, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, ritheann :!ORDÚ ordú blaoisce san fhillteán."
+
+msgid "Keyboard Shortcuts"
+msgstr "Aicearraí méarchláir"
+
+msgid "Only files on this computer can be read."
+msgstr "Ní féidir ach comhaid ar an ríomhaire seo a léamh."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Tógadh Beluga gan FFmpeg."
+
+msgid "Reading…"
+msgstr "Á léamh…"
+
+msgid "No details found."
+msgstr "Níor aimsíodh sonraí."
+
+msgid "Change the folder's icon"
+msgstr "Athraigh deilbhín an fhillteáin"
+
+msgid "Could not change the icon."
+msgstr "Níorbh fhéidir an deilbhín a athrú."
+
+msgid "%zu items"
+msgstr "%zu mír"
+
+msgid "No default application"
+msgstr "Gan feidhmchlár réamhshocraithe"
+
+msgid "C_hange…"
+msgstr "_Athraigh…"
+
+msgid "Opens with:"
+msgstr "Osclaítear le:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu bheart"
+msgstr[1] "%llu bheart"
+msgstr[2] "%llu bheart"
+msgstr[3] "%llu mbeart"
+msgstr[4] "%llu beart"
+
+msgid "Can View"
+msgstr "Is féidir amharc"
+
+msgid "Can View Content"
+msgstr "Is féidir an t-ábhar a fheiceáil"
+
+msgid "Is _executable"
+msgstr "Is _inrite é"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Cuir na hathruithe i bhfeidhm ar gach _fofhillteán agus a n-ábhar"
+
+msgid "Could not read the file."
+msgstr "Níorbh fhéidir an comhad a léamh."
+
+msgid "Paste a checksum to compare"
+msgstr "Greamaigh suim seiceála le comparáid"
+
+msgid "Verify:"
+msgstr "Fíoraigh:"
+
+msgid "The checksums match."
+msgstr "Tá na suimeanna seiceála ag teacht le chéile."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Níl aon suim seiceála ríofa ag teacht leis. Ríomh an cineál comhfhreagrach ar dtús."
+
+msgid "Could not change the permissions."
+msgstr "Níorbh fhéidir na ceadanna a athrú."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Scag de réir ainm (oibríonn saoróga mar *.txt)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Coinnigh an scagaire agus an fillteán á athrú"
+
+msgid "In This Folder"
+msgstr "San fhillteán seo"
+
+msgid "In Your Files"
+msgstr "I do chomhaid"
+
+msgid "Any Time"
+msgstr "Am ar bith"
+
+msgid "Last 7 Days"
+msgstr "Na 7 lá deireanacha"
+
+msgid "Last 30 Days"
+msgstr "Na 30 lá deireanacha"
+
+msgid "Last Year"
+msgstr "An bhliain seo caite"
+
+msgid "Hidden files"
+msgstr "Comhaid fholaithe"
+
+msgid "Duplicate Tab"
+msgstr "Dúblaigh an cluaisín"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Tá gníomhartha os cionn an bharra suímh sa liosta ar a chlé, agus an chuid eile ar a dheis. Marcálann * gníomhartha nach bhfuil san áit a gcuireann an barra uirlisí réamhshocraithe iad."
+
+msgid "A_vailable actions:"
+msgstr "Gníomhartha _ar fáil:"
+
+msgid "Add to the tool bar"
+msgstr "Cuir leis an mbarra uirlisí"
+
+msgid "Remove from the tool bar"
+msgstr "Bain den bharra uirlisí"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Bog suas (ar chlé sa bharra uirlisí)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Bog síos (ar dheis sa bharra uirlisí)"
+
+msgid "C_urrent actions:"
+msgstr "Gníomhartha _reatha:"
+
+msgid "_Defaults"
+msgstr "_Réamhshocruithe"
+
+msgid "Show Columns"
+msgstr "Taispeáin colúin"
+
+msgid "Modified: %s"
+msgstr "Athraithe: %s"
+
+msgid "Original location: %s"
+msgstr "Bunsuíomh: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Níos lú ná 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB go 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB go 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB nó níos mó"
+
+msgid "Not counted yet"
+msgstr "Gan comhaireamh fós"
+
+msgid "A file name cannot contain “/”."
+msgstr "Ní féidir “/” a bheith in ainm comhaid."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Athraíonn athainmniú “%s” mar “%s” a iarmhír. D’fhéadfadh an comhad oscailt le feidhmchlár eile nó gan oscailt ar chor ar bith."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Mód roghnúcháin: cliceáil ar chomhaid nó ar fhillteáin chun iad a roghnú nó a dhíroghnú."
+
+msgid "_Exit Selection Mode"
+msgstr "_Scoir an mód roghnúcháin"
+
+msgid "_Duplicate"
+msgstr "_Dúblaigh"
+
+msgid "De_lete"
+msgstr "_Scrios"
+
+msgid "Pr_operties"
+msgstr "_Airíonna"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Níl an fillteán “%s” ann a thuilleadh."
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” roghnaithe (%s%s)"
+
+msgid "%s selected"
+msgstr "%s roghnaithe"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d roghnaithe"
+msgstr[1] "%d roghnaithe"
+msgstr[2] "%d roghnaithe"
+msgstr[3] "%d roghnaithe"
+msgstr[4] "%d roghnaithe"
+
+msgid "Move left"
+msgstr "Ar chlé"
+
+msgid "Move down"
+msgstr "Síos"
+
+msgid "Move up"
+msgstr "Suas"
+
+msgid "Move right"
+msgstr "Ar dheis"
+
+msgid "First item"
+msgstr "An chéad mhír"
+
+msgid "Last item"
+msgstr "An mhír dheireanach"
+
+msgid "Page down"
+msgstr "Leathanach síos"
+
+msgid "Page up"
+msgstr "Leathanach suas"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Roghnaigh na míreanna a dtéann an cúrsóir tharstu (amhairc)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Roghnaigh raon, mar le Shift (líne amhairc)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Roghnaigh bloc ón ngreille (bloc amhairc)"
+
+msgid "Back to normal mode"
+msgstr "Fill ar an ngnáthmhód"
+
+msgid "Copy the item under the cursor"
+msgstr "Cóipeáil an mhír faoin gcúrsóir"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Athainmnigh, cúrsóir ag an tús (ionsáigh)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Athainmnigh, cúrsóir i ndiaidh an ainm (iarcheangail)"
+
+msgid "Rename, name selected (change)"
+msgstr "Athainmnigh, ainm roghnaithe (athraigh)"
+
+msgid "Edit the location"
+msgstr "Cuir an suíomh in eagar"
+
+msgid "Copied."
+msgstr "Cóipeáilte."
+
+msgid "Cut."
+msgstr "Gearrtha."
+
+msgid "Can't open “%s”."
+msgstr "Ní féidir “%s” a oscailt."
+
+msgid "A name is needed."
+msgstr "Tá ainm de dhíth."
+
+msgid "Unknown view: %s"
+msgstr "Amharc anaithnid: %s"
+
+msgid "Unknown option: %s"
+msgstr "Rogha anaithnid: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sórtáil de réir name, size, date nó type."
+
+msgid "Not a command: %s"
+msgstr "Ní ordú é: %s"
+
+msgid "Move"
+msgstr "Bog"
+
+msgid "Focus Other View"
+msgstr "Fócas ar an amharc eile"
+
+msgid "Split View to Tabs"
+msgstr "Amharc scoilte go cluaisíní"
+
+msgid "Folders Panel"
+msgstr "Painéal na bhfillteán"
+
+msgid "Columns"
+msgstr "Colúin"
+
+msgid "Files"
+msgstr "Comhaid"
+
+msgid "Configure Toolbars…"
+msgstr "Cumraigh barraí uirlisí…"
+
+msgid "Restore to Defaults"
+msgstr "Athchóirigh na réamhshocruithe"
+
+msgid "Tab width adapts to folder name"
+msgstr "Oiriúnaíonn leithead an chluaisín d’ainm an fhillteáin"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Tá an leithead seasta céanna ag na cluaisíní go léir"
+
+msgid "Renaming a file will change its type"
+msgstr "Athróidh athainmniú comhaid a chineál"
+
+msgid "Folders Panel:"
+msgstr "Painéal na bhfillteán:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Teorannaigh don fhillteán baile nuair atá tú istigh ann"
+
+msgid "Spacing:"
+msgstr "Spásáil:"
+
+msgid "Album artist:"
+msgstr "Ealaíontóir an albaim:"
+
+msgid "Composer:"
+msgstr "Cumadóir:"
+
+msgid "Performer:"
+msgstr "Taibheoir:"
+
+msgid "Copyright:"
+msgstr "Cóipcheart:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s saor as %s (%d%% in úsáid)"
+
+msgid "Restore"
+msgstr "Athchóirigh"
+
+msgid "Create Folder"
+msgstr "Cruthaigh fillteán"

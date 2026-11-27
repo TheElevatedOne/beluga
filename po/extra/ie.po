@@ -1,0 +1,1711 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: ie\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "The archive could not be opened."
+msgstr "Ne successat aperter li archive."
+
+msgid "The archive could not be read."
+msgstr "Ne successat leer li archive."
+
+msgid "Cancelled."
+msgstr "Anullat."
+
+msgid "This file is encrypted with a password."
+msgstr "Li file es ciffrat per un contrasigne."
+
+msgid "“%s” could not be read."
+msgstr "Ne successat leer «%s»."
+
+msgid "This is not a file in an archive."
+msgstr "To ne es un file in un archive."
+
+msgid "Extract Here"
+msgstr "Extraer ci"
+
+msgid "Compress to .tar.gz"
+msgstr "Comprimer a .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Null emulator de terminal trovat."
+
+msgid "Root"
+msgstr "Radica"
+
+msgid "%s Volume"
+msgstr "Volúmine %s"
+
+msgid "This device cannot be mounted."
+msgstr "On ne posse montar ti aparate."
+
+msgid "This device cannot be unmounted."
+msgstr "On ne posse demontar ti aparate."
+
+msgid "The device is gone."
+msgstr "Li aparate ne existe plu."
+
+msgid "Copying %s to “%s”"
+msgstr "Copiante %s a «%s»"
+
+msgid "Moving %s to “%s”"
+msgstr "Movente %s a «%s»"
+
+msgid "Linking %s in “%s”"
+msgstr "Ligante %s in «%s»"
+
+msgid "Moving %s to the trash"
+msgstr "Movente %s al Paper-corb"
+
+msgid "Deleting %s"
+msgstr "Removente %s"
+
+msgid "Restoring %s"
+msgstr "Restituente %s"
+
+msgid "Emptying the trash"
+msgstr "Vacuante li Paper-corb"
+
+msgid "Counting files…"
+msgstr "Contante files…"
+
+msgid "“%s”: %s"
+msgstr "«%s»: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "On ne posse mover un fólder in se self."
+
+msgid "A folder cannot be copied into itself."
+msgstr "On ne posse copiar un fólder in se self."
+
+msgid "Files can only be extracted into local folders."
+msgstr "On posse extraer files solmen a local fólderes."
+
+msgid "Extracting from “%s”"
+msgstr "Extraente ex «%s»"
+
+msgid "Disc:"
+msgstr "Disco:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "Formate:"
+
+msgid "Bit rate:"
+msgstr "Rapiditá de bits:"
+
+msgid "Cover:"
+msgstr "Covriment:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d canale"
+msgstr[1] "%d canales"
+
+msgid ", %d bit"
+msgstr ", %d bits"
+
+msgid "Audio %d:"
+msgstr "Audio %d:"
+
+msgid "Subtitles:"
+msgstr "Subtitules:"
+
+msgid "Chapters:"
+msgstr "Capitules:"
+
+msgid "Images"
+msgstr "Images"
+
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Search for “%s”"
+msgstr "Serchar «%s»"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Null emulator de terminal trovat. Specifica un in Configurar Beluga › General › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Ti sistema de files ne have un paper-corb."
+
+msgid "Could not create the trash information file."
+msgstr "Ne successat crear li file de information del paper-corb."
+
+msgid "“%s” already exists."
+msgstr "«%s» ja existe."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Li paper-corb es plu grand quam su límite de %s. Considera vacuar it."
+
+msgid "Create File"
+msgstr "Crear un file"
+
+msgid "Undo: %s"
+msgstr "Defar: %s"
+
+msgid "Redo: %s"
+msgstr "Refar: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d file"
+msgstr[1] "%d files"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d fólder"
+msgstr[1] "%d fólderes"
+
+msgid "Today at %s"
+msgstr "Hodie a %s"
+
+msgid "Yesterday at %s"
+msgstr "Yer a %s"
+
+msgid "%A at %H:%M"
+msgstr "%A a %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s copie %d"
+
+msgid "Disk Usage"
+msgstr "Usage de disco"
+
+msgid "Extension"
+msgstr "Extension"
+
+msgid "Original Location"
+msgstr "Loc original"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga ne posset ager quam administrator."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "pkexec (polkit) es necessi por demandar li contrasigne de administrator. Installa polkit e un agente polkit por tui ambientie."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Un fenestre de Beluga con jures de administrator posse modificar e remover omni file sur ti computator, includente files queles li sistema besona por iniciar. Un errore ta posse far li sistema ínusabil. Usa it solmen por files queles tu ne posse modificar altrimen, e clude it quande tu ha finit.\n\nPoy Beluga va demandar li contrasigne de administrator."
+
+msgid "Columns View"
+msgstr "Vise de columnes"
+
+msgid "Reset Zoom"
+msgstr "Reiniciar li scale"
+
+msgid "Pop out Split View"
+msgstr "Separar li vise fendet"
+
+msgid "Places Panel"
+msgstr "Panel de locs"
+
+msgid "Disk Usage Panel"
+msgstr "Panel de usage de disco"
+
+msgid "Go to Tab 1"
+msgstr "Ear al carte 1"
+
+msgid "Go to Tab 2"
+msgstr "Ear al carte 2"
+
+msgid "Go to Tab 3"
+msgstr "Ear al carte 3"
+
+msgid "Go to Tab 4"
+msgstr "Ear al carte 4"
+
+msgid "Go to Tab 5"
+msgstr "Ear al carte 5"
+
+msgid "Go to Tab 6"
+msgstr "Ear al carte 6"
+
+msgid "Go to Tab 7"
+msgstr "Ear al carte 7"
+
+msgid "Go to Tab 8"
+msgstr "Ear al carte 8"
+
+msgid "Go to Tab 9"
+msgstr "Ear al carte 9"
+
+msgid "Configure Beluga"
+msgstr "Configurar Beluga"
+
+msgid "Undo failed."
+msgstr "Defar ne successat."
+
+msgid "Folder…"
+msgstr "Fólder…"
+
+msgid "Text File…"
+msgstr "File textual…"
+
+msgid "Empty File…"
+msgstr "File vacui…"
+
+msgid "Link to File or Folder…"
+msgstr "Ligament a un file o fólder…"
+
+msgid "Other View (%s)"
+msgstr "Altri vise (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Memorar li vise por ti fólder"
+
+msgid "Open in Beluga"
+msgstr "Aperter in Beluga"
+
+msgid "Paste into Folder"
+msgstr "Collar in li fólder"
+
+msgid "_Cancel"
+msgstr "_Anullar"
+
+msgid "The name cannot contain “/”."
+msgstr "Li nómine ne posse contener «/»."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Un nómine quel comensa per un punctu es celat."
+
+msgid "Some items could not be renamed."
+msgstr "Ne successat renominar quelc elementes."
+
+msgid "Rename “%s” to:"
+msgstr "Renominar «%s» a:"
+
+msgid "_Rename"
+msgstr "_Renominar"
+
+msgid "Could not rename “%s”."
+msgstr "Ne successat renominar «%s»."
+
+msgid "Change the file type?"
+msgstr "Changear li tip de file?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Renominar «%s» a «%s» changea su extension."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Renominar li %zu selectet elementes a:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# es substituet per numerós ascendent; usa ## por zeros initial. Li extensiones resta."
+
+msgid "Start numbering at:"
+msgstr "Comensar li numeration de:"
+
+msgid "_Move Here"
+msgstr "_Mover ci"
+
+msgid "_Copy Here"
+msgstr "_Copiar ci"
+
+msgid "_Link Here"
+msgstr "_Ligar ci"
+
+msgid "C_ancel"
+msgstr "_Anullar"
+
+msgid "Choose a folder"
+msgstr "Selecte un fólder"
+
+msgid "C_hoose…"
+msgstr "_Selecter…"
+
+msgid "Icon name:"
+msgstr "Nómine del icone:"
+
+msgid "Choose a Folder"
+msgstr "Selecte un fólder"
+
+msgid "_Add"
+msgstr "_Adjunter"
+
+msgid "_Save"
+msgstr "_Gardar"
+
+msgid "Show _folders first"
+msgstr "Monstrar _fólderes in prim"
+
+msgid "Show hidden files _last"
+msgstr "Monstrar celat files al _fine"
+
+msgid "Show _previews"
+msgstr "Monstrar _previsiones"
+
+msgid "Show in _groups"
+msgstr "Monstrar in _gruppes"
+
+msgid "Show _hidden files"
+msgstr "Monstrar _celat files"
+
+msgid "Current folder including all subfolders"
+msgstr "Li actual fólder con omni subfólderes"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "modificat %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Un fólder nominat «%s» ja existe in «%s»."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Un file nominat «%s» ja existe in «%s»."
+
+msgid "Existing item"
+msgstr "Element existent"
+
+msgid "New item"
+msgstr "Nov element"
+
+msgid "_Suggest New Name"
+msgstr "_Suggester un nov nómine"
+
+msgid "New name:"
+msgstr "Nov nómine:"
+
+msgid "Apply to _all"
+msgstr "Applicar a _omnes"
+
+msgid "S_kip"
+msgstr "_Saltar"
+
+msgid "_Write Into"
+msgstr "_Scrir in it"
+
+msgid "_Overwrite"
+msgstr "_Superscrir"
+
+msgid "Search icons…"
+msgstr "Serchar icones…"
+
+msgid "_Image File…"
+msgstr "File de _image…"
+
+msgid "_Default Icon"
+msgstr "Icone _predefinit"
+
+msgid "Choose an Image"
+msgstr "Selecte un image"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Locs de rete besona gvfs. Installa li paccage gvfs (e gvfs-smb por partages de Windows, gvfs-nfs por NFS), poy cluder li session e re-intrar."
+
+msgid "This location is not a folder."
+msgstr "Ti loc ne es un fólder."
+
+msgid "This location is not valid."
+msgstr "Ti loc es ínvalid."
+
+msgid "This folder is not in the archive."
+msgstr "Ti fólder ne es in li archive."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s file plu micri"
+msgstr[1] "%s files plu micri"
+
+msgid "(another drive, not counted)"
+msgstr "(altri disco, ne contat)"
+
+msgid "Some of its contents could not be read."
+msgstr "Ne successat leer un parte de su contenete."
+
+msgid "%s in files"
+msgstr "%s in files"
+
+msgid "%s on disk"
+msgstr "%s sur disco"
+
+msgid "%s files and %s folders"
+msgstr "%s files e %s fólderes"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Leente… %s in %s files e %s fólderes"
+
+msgid "Stopped."
+msgstr "Stoppat."
+
+msgid "This folder could not be read."
+msgstr "Ne successat leer ti fólder."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, leet in %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". On ne posset leer %s fólder."
+msgstr[1] ". On ne posset leer %s fólderes."
+
+msgid "Only folders on this computer can be measured."
+msgstr "On posse mesurar solmen fólderes sur ti computator."
+
+msgid "read less than a minute ago"
+msgstr "leet minu quam un minute ante"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "leet %d minute ante"
+msgstr[1] "leet %d minutes ante"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "leet %d hore ante"
+msgstr[1] "leet %d hores ante"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Re-scannar por leer it denov."
+
+msgid "_Apparent size"
+msgstr "Grandore _aparent"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Summar li grandores de files vice li spacie quel ili occupa sur li disco."
+
+msgid "_Stay on this drive"
+msgstr "_Restar sur ti disco"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Ne contar altri discos montat in ti fólder (quam un fólder de musica sur un altri disco). Ligamentes nequande es sequet."
+
+msgid "Rescan"
+msgstr "Re-scannar"
+
+msgid "Close Disk Usage"
+msgstr "Cluder li usage de disco"
+
+msgid "_Rescan"
+msgstr "_Re-scannar"
+
+msgid "S_top"
+msgstr "_Stoppar"
+
+msgid "Disk Usage – %s"
+msgstr "Usage de disco – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "«%s» ja existe. Substituer it?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu de ti files ja existe. Substituer les?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Li programma ex quel tu garda va superscrir li existent contenete."
+
+msgid "Choose a folder to save in."
+msgstr "Selecte un fólder por gardar."
+
+msgid "Select Folder"
+msgstr "Selecter un fólder"
+
+msgid "Open Files"
+msgstr "Aperter files"
+
+msgid "Open File"
+msgstr "Aperter un file"
+
+msgid "Save File"
+msgstr "Gardar li file"
+
+msgid "Save Files"
+msgstr "Gardar files"
+
+msgid "_Folder:"
+msgstr "_Fólder:"
+
+msgid "_Name:"
+msgstr "_Nómine:"
+
+msgid "_Type:"
+msgstr "_Tip:"
+
+msgid "_Select"
+msgstr "_Selecter"
+
+msgid "_Open"
+msgstr "_Aperter"
+
+msgid "Create new folder in:\n%s"
+msgstr "Crear un nov fólder in:\n%s"
+
+msgid "C_reate"
+msgstr "_Crear"
+
+msgid "Could not create the folder."
+msgstr "Ne successat crear li fólder."
+
+msgid "%zu items selected"
+msgstr "%zu elementes selectet"
+
+msgid "Contents:"
+msgstr "Contenete:"
+
+msgid "Contains:"
+msgstr "Contene:"
+
+msgid "Counting…"
+msgstr "Contante…"
+
+msgid "Broken Link"
+msgstr "Ligament ruptet"
+
+msgid "%s (link)"
+msgstr "%s (ligament)"
+
+msgid "other drive"
+msgstr "altri disco"
+
+msgid "%s of %s"
+msgstr "%s de %s"
+
+msgid "%s left"
+msgstr "%s resta"
+
+msgid "%d of %d"
+msgstr "%d de %d"
+
+msgid "File operations in progress"
+msgstr "Operationes de files in progress"
+
+msgid "No subfolders"
+msgstr "Null subfólderes"
+
+msgid "Select the given files in their folders"
+msgstr "Selecter li dat files in lor fólderes"
+
+msgid "Open the window in split view"
+msgstr "Aperter li fenestre in vise fendet"
+
+msgid "Always open a new window"
+msgstr "Sempre aperter un nov fenestre"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Continuar executer in li funde por li servicie D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Separar se del terminal (sin loc: aperte li actual fólder)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Executer li selector de files por xdg-desktop-portal (lansat per D-Bus)"
+
+msgid "Show the version"
+msgstr "Monstrar li version"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FILE o FÓLDER…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Agente quam administrator: modificationes in ti fenestre posse damagear li sistema."
+
+msgid "Close this window?"
+msgstr "Cluder ti fenestre?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Ti fenestre have %zu cartes apertet. Cluder it clude omnes."
+
+msgid "Close Window"
+msgstr "Cluder li fenestre"
+
+msgid "Show _Toolbar"
+msgstr "Monstrar li _barre de instrumentes"
+
+msgid "_File"
+msgstr "_File"
+
+msgid "New _Window"
+msgstr "Nov _fenestre"
+
+msgid "New _Tab"
+msgstr "Nov _carte"
+
+msgid "_Close Tab"
+msgstr "_Cluder li carte"
+
+msgid "Create _New"
+msgstr "Crear un _nov"
+
+msgid "_Rename…"
+msgstr "_Renominar…"
+
+msgid "_Duplicate Here"
+msgstr "_Duplicar ci"
+
+msgid "Move to _Trash"
+msgstr "Mover al _Paper-corb"
+
+msgid "_Delete"
+msgstr "_Remover"
+
+msgid "Restore from Trash"
+msgstr "Restituer del Paper-corb"
+
+msgid "_Properties"
+msgstr "_Proprietás"
+
+msgid "_Quit"
+msgstr "_Surtir"
+
+msgid "_Edit"
+msgstr "_Redacter"
+
+msgid "_Undo"
+msgstr "_Defar"
+
+msgid "_Redo"
+msgstr "_Refar"
+
+msgid "Cu_t"
+msgstr "_Tonder"
+
+msgid "_Copy"
+msgstr "_Copiar"
+
+msgid "_Paste"
+msgstr "C_ollar"
+
+msgid "_Search…"
+msgstr "_Serchar…"
+
+msgid "Select _All"
+msgstr "Selecter _omnicos"
+
+msgid "_View"
+msgstr "_Vise"
+
+msgid "Zoom _In"
+msgstr "_Agrandar"
+
+msgid "Zoom _Out"
+msgstr "_Diminuer"
+
+msgid "Re_load"
+msgstr "Re_cargar"
+
+msgid "Show _Menubar"
+msgstr "Monstrar li barre de _menú"
+
+msgid "Show _Statusbar"
+msgstr "Monstrar li barre de _statu"
+
+msgid "_Go"
+msgstr "_Ear"
+
+msgid "_Back"
+msgstr "_Retro"
+
+msgid "_Forward"
+msgstr "_Avan"
+
+msgid "_Up"
+msgstr "_Ad-supra"
+
+msgid "_Home"
+msgstr "_Hem"
+
+msgid "_Tools"
+msgstr "_Instrumentes"
+
+msgid "Open _Terminal"
+msgstr "Aperter un _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Aperter un terminal _ci"
+
+msgid "_Disk Usage…"
+msgstr "_Usage de disco…"
+
+msgid "_Settings"
+msgstr "_Parametres"
+
+msgid "Configure Tool_bars…"
+msgstr "Configurar li _barres de instrumentes…"
+
+msgid "_Configure Beluga…"
+msgstr "_Configurar Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Null cartes recentmen cludet"
+
+msgid "(Administrator)"
+msgstr "(Administrator)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Aperter %zu fólderes in nov cartes?"
+
+msgid "Open Folders"
+msgstr "Aperter fólderes"
+
+msgid "Could not open “%s”."
+msgstr "Ne successat aperter «%s»."
+
+msgid "Could not open a terminal."
+msgstr "Ne successat aperter un terminal."
+
+msgid "New Text File.txt"
+msgstr "Nov file textual.txt"
+
+msgid "New File"
+msgstr "Nov file"
+
+msgid "Empty the trash?"
+msgstr "Vacuar li Paper-corb?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Omni elementes in li Paper-corb va esser removet por sempre. On ne posse defar it."
+
+msgid "Open %zu terminals?"
+msgstr "Aperter %zu terminales?"
+
+msgid "Open Terminals"
+msgstr "Aperter terminales"
+
+msgid "Create new file in:\n%s"
+msgstr "Crear un nov file in:\n%s"
+
+msgid "Could not create the file."
+msgstr "Ne successat crear li file."
+
+msgid "Link to File or Folder"
+msgstr "Ligament a un file o fólder"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Rute del file o fólder a ligar:"
+
+msgid "Could not create the link."
+msgstr "Ne successat crear li ligament."
+
+msgid "Permanently delete %s?"
+msgstr "Remover %s por sempre?"
+
+msgid "This cannot be undone."
+msgstr "On ne posse defar it."
+
+msgid "Move %s to the trash?"
+msgstr "Mover %s al Paper-corb?"
+
+msgid "Could not run “%s”."
+msgstr "Ne successat executer «%s»."
+
+msgid "Could not start %s."
+msgstr "Ne successat lansar %s."
+
+msgid "Could not start the application."
+msgstr "Ne successat lansar li application."
+
+msgid "“%s” is an executable file."
+msgstr "«%s» es un file executibil."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Esque tu vole executer it o aperter it in un application?"
+
+msgid "Run"
+msgstr "Executer"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Selecte li application por aperter %s (%s):"
+
+msgid "Or command:"
+msgstr "O un comande:"
+
+msgid "Remember application association for this type of file"
+msgstr "Memorar li association de application por ti tip de file"
+
+msgid "%s free of %s"
+msgstr "%s líber de %s"
+
+msgid "Configure Sections"
+msgstr "Configurar sectiones"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Li marcat sectiones es monstrat in li panel de locs in ti órdine."
+
+msgid "Move Up"
+msgstr "Mover ad-supra"
+
+msgid "Move Down"
+msgstr "Mover a-bass"
+
+msgid "Could not mount the device: %s"
+msgstr "Ne successat montar li aparate: %s"
+
+msgid "Configure Sections…"
+msgstr "Configurar sectiones…"
+
+msgid "Hide Hidden Entries"
+msgstr "Celar celat elementes"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Omni elementes in li Paper-corb va esser removet por sempre."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Ne successat secur ejecter li aparate: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Ne successat demontar li aparate: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Usar li fonde del _sistema"
+
+msgid "Context Menu Action"
+msgstr "Action del contextual menú"
+
+msgid "Types:"
+msgstr "Tipes:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f li prim file, %F omni files, %u / %U quam URIs, %n / %N nómines, %d li actual fólder."
+
+msgid "Show for _files"
+msgstr "Monstrar por _files"
+
+msgid "Show for f_olders"
+msgstr "Monstrar por _fólderes"
+
+msgid "Show when _several items are selected"
+msgstr "Monstrar quande _pluri elementes es selectet"
+
+msgid "Run in a _terminal"
+msgstr "Executer in un _terminal"
+
+msgid "Custom Actions"
+msgstr "Personal actiones"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Tui propri elementes por li contextual menú de files e fólderes."
+
+msgid "_Add…"
+msgstr "_Adjunter…"
+
+msgid "_Edit…"
+msgstr "_Redacter…"
+
+msgid "_Remove"
+msgstr "_Remover"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Rapid-tastes es scrit quam <Control>c o <Shift>Delete. Separa pluri per commas. Lassa un camp vacui por li predefinit."
+
+msgid "files below %d MiB"
+msgstr "files minu quam %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Restituer li predefinitiones"
+
+msgid "_Apply"
+msgstr "_Applicar"
+
+msgid "Folders & Tabs"
+msgstr "Fólderes e cartes"
+
+msgid "This location:"
+msgstr "Ti loc:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Tener un sol fenestre de Beluga e aperter nov fólderes in cartes"
+
+msgid "Tabs:"
+msgstr "Cartes:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Cartes de fix largore deveni plu strett, omnes egalmen, quande ili ne plazza."
+
+msgid "No terminal found"
+msgstr "Null terminal trovat"
+
+msgid "Detected: %s"
+msgstr "Detectet: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Usat per F4 e Aperter un terminal ci. %d in li comande es substituet per li fólder; altrimen li terminal comensa in it. To esset un parametre de sistema de KDE."
+
+msgid "New folders:"
+msgstr "Nov fólderes:"
+
+msgid "Show _previews in new folders"
+msgstr "Monstrar _previsiones in nov fólderes"
+
+msgid "Audio (cover art)"
+msgstr "Audio (images de covriment)"
+
+msgid "PDF documents"
+msgstr "Documentes PDF"
+
+msgid "Text files"
+msgstr "Files textual"
+
+msgid "Fonts"
+msgstr "Fondes"
+
+msgid "Office documents"
+msgstr "Documentes de officie"
+
+msgid "Ask for confirmation when:"
+msgstr "Demandar confirmation quande:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Demandar confirmation in Beluga quande:"
+
+msgid "Use _long date format"
+msgstr "Usar un _long formate de date"
+
+msgid "Show _hidden folders"
+msgstr "Monstrar _celat fólderes"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Rular _automaticmen al actual fólder"
+
+msgid "Places Panel:"
+msgstr "Panel de locs:"
+
+msgid "Status & Location bars"
+msgstr "Barres de statu e de loc"
+
+msgid "Show free _space"
+msgstr "Monstrar li spacie _líber"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "In omni casu, Vise › Memorar li vise por ti fólder da a un fólder su propri stil. Quelc special vises, quam sercha, recent files o Paper-corb, ancor usa lor propri stil."
+
+msgid "Open files and folders with a single click"
+msgstr "Aperter files e fólderes per un sol clic"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Tener un _índex del fólder hem por sercha instantan"
+
+msgid "levels deep"
+msgstr "niveles profund"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativ (Hodie, Yer…)"
+
+msgid "Absolute"
+msgstr "Absolut"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simbolic (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numeric (0755)"
+
+msgid "Combined"
+msgstr "Combinat"
+
+msgid "Elide in the middle"
+msgstr "Abreviar in li medie"
+
+msgid "Elide at the end"
+msgstr "Abreviar al fine"
+
+msgid "Disk usage:"
+msgstr "Usage de disco:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Monstrar li columne de _usage de disco"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Li spacie quel chascun file e chascun complet fólder occupa sur li disco, con un barre por su parte del fólder, quam Instrumentes › Usage de disco. Fólderes es leet completmen in li funde; ordina per li columne por vider li max grand in prim. \"Restar sur ti disco\" del fenestre de usage de disco vale anc ci."
+
+msgid "Show in the context menu"
+msgstr "Monstrar in li contextual menú"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Copiar a' e 'Mover a'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Remover (ultra Mover al Paper-corb)"
+
+msgid "Cleanup:"
+msgstr "Netteation:"
+
+msgid "Delete files older than"
+msgstr "Remover files plu old quam"
+
+msgid "days"
+msgstr "dies"
+
+msgid "Limit to"
+msgstr "Limitar a"
+
+msgid "percent of the disk"
+msgstr "procentes del disco"
+
+msgid "Keep the trash on the home drive"
+msgstr "Tener li Paper-corb sur li disco del fólder hem"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Files movet al Paper-corb ex altri discos es copiat al Paper-corb in li fólder hem, dunc ti discos ne recive un fólder .Trash-1000. Mover grand files al Paper-corb tande prende plu témpor."
+
+msgid "Full trash:"
+msgstr "Plen Paper-corb:"
+
+msgid "When the limit is reached:"
+msgstr "Quande li límite es atinget:"
+
+msgid "Show a warning"
+msgstr "Monstrar un avise"
+
+msgid "Delete the oldest items"
+msgstr "Remover li max old elementes"
+
+msgid "Delete the largest items"
+msgstr "Remover li max grand elementes"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "To esset parametres de sistema de KDE. Li límites es applicat quande Beluga comensa e pos mover elementes al Paper-corb."
+
+msgid "Calculating trash size…"
+msgstr "Calculante li grandore del Paper-corb…"
+
+msgid "The trash currently uses %s."
+msgstr "Li Paper-corb actualmen usa %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Vacuar li Paper-corb nu"
+
+msgid "Vim Mode"
+msgstr "Mode Vim"
+
+msgid "Vim mode:"
+msgstr "Mode Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Usar tastes in stil de Vim in li vises"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Li mode normal move per h j k l e executa li tastes infra; v, V e Ctrl+V selecte; i e a renomina (mode de insertion); Esc retorna al mode normal; : aperte li linea de comandes. Tastes Ctrl o Alt ne listat ci conserva lor usual signification."
+
+msgid "Leader key:"
+msgstr "Taste conductent:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> in li tastes infra, p.ex. <Space> o ,"
+
+msgid "Wait for more keys:"
+msgstr "Atender plu tastes:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd pos d, gg pos g)"
+
+msgid "Keys"
+msgstr "Tastes"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notation de Vim, pluri separat per spacies: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lassa un camp vacui por li predefinit."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q clude li fenestre (:q! sin demandar pri su cartes), :qa surti Beluga, :e o :cd RUTE aperte un fólder, :tabnew [RUTE], :tabclose, :tabonly, :sp o :vs [RUTE] fende li vise, :only clude li altri vise, :mkdir NÓMINE, :touch NÓMINE, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMANDE executa un comande de shell in li fólder."
+
+msgid "Keyboard Shortcuts"
+msgstr "Rapid-tastes"
+
+msgid "Only files on this computer can be read."
+msgstr "On posse leer solmen files sur ti computator."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga esset compilat sin FFmpeg."
+
+msgid "Reading…"
+msgstr "Leente…"
+
+msgid "No details found."
+msgstr "Null detallies trovat."
+
+msgid "Change the folder's icon"
+msgstr "Changear li icone del fólder"
+
+msgid "Could not change the icon."
+msgstr "Ne successat changear li icone."
+
+msgid "%zu items"
+msgstr "%zu elementes"
+
+msgid "No default application"
+msgstr "Null application predefinit"
+
+msgid "C_hange…"
+msgstr "_Changear…"
+
+msgid "Opens with:"
+msgstr "Aperte se per:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu byte"
+msgstr[1] "%llu bytes"
+
+msgid "Can View"
+msgstr "Posse vider"
+
+msgid "Can View Content"
+msgstr "Posse vider li contenete"
+
+msgid "Is _executable"
+msgstr "Es _executibil"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Applicar li modificationes a omni _subfólderes e lor contenete"
+
+msgid "Could not read the file."
+msgstr "Ne successat leer li file."
+
+msgid "Paste a checksum to compare"
+msgstr "Colla un summa de control por comparar"
+
+msgid "Verify:"
+msgstr "Verificar:"
+
+msgid "The checksums match."
+msgstr "Li summas de control es egal."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Null calculat summa de control es egal. Calcula in prim li correspondent tip."
+
+msgid "Could not change the permissions."
+msgstr "Ne successat changear li permissiones."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtrar per nómine (jocos quam *.txt functiona)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Conservar li filtre quande on changea li fólder"
+
+msgid "In This Folder"
+msgstr "In ti fólder"
+
+msgid "In Your Files"
+msgstr "In tui files"
+
+msgid "Any Time"
+msgstr "Quelcunc témpor"
+
+msgid "Last 7 Days"
+msgstr "Ultim 7 dies"
+
+msgid "Last 30 Days"
+msgstr "Ultim 30 dies"
+
+msgid "Last Year"
+msgstr "Ultim annu"
+
+msgid "Hidden files"
+msgstr "Celat files"
+
+msgid "Duplicate Tab"
+msgstr "Duplicar li carte"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Actiones supra li barre de loc in li liste es a su levul, li altres a su dextri. * marca actiones queles ne es ta u li predefinit barre de instrumentes plazza les."
+
+msgid "A_vailable actions:"
+msgstr "_Disponibil actiones:"
+
+msgid "Add to the tool bar"
+msgstr "Adjunter al barre de instrumentes"
+
+msgid "Remove from the tool bar"
+msgstr "Remover del barre de instrumentes"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Mover ad-supra (a levul in li barre de instrumentes)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Mover a-bass (a dextri in li barre de instrumentes)"
+
+msgid "C_urrent actions:"
+msgstr "_Actual actiones:"
+
+msgid "_Defaults"
+msgstr "_Predefinitiones"
+
+msgid "Show Columns"
+msgstr "Monstrar columnes"
+
+msgid "Modified: %s"
+msgstr "Modificat: %s"
+
+msgid "Original location: %s"
+msgstr "Loc original: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Minu quam 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB til 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB til 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB o plu"
+
+msgid "Not counted yet"
+msgstr "Ancor ne contat"
+
+msgid "A file name cannot contain “/”."
+msgstr "Un nómine de file ne posse contener «/»."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Renominar «%s» a «%s» changea su extension. Li file posse aperter se per un altri application o ne aperter se in total."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Mode de selection: clicca files o fólderes por selecter o deselecter les."
+
+msgid "_Exit Selection Mode"
+msgstr "_Surtir li mode de selection"
+
+msgid "_Duplicate"
+msgstr "_Duplicar"
+
+msgid "De_lete"
+msgstr "_Remover"
+
+msgid "Pr_operties"
+msgstr "_Proprietás"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Li fólder «%s» ne existe plu."
+
+msgid "“%s” selected (%s%s)"
+msgstr "«%s» selectet (%s%s)"
+
+msgid "%s selected"
+msgstr "%s selectet"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d selectet"
+msgstr[1] "%d selectet"
+
+msgid "Move left"
+msgstr "A levul"
+
+msgid "Move down"
+msgstr "A-bass"
+
+msgid "Move up"
+msgstr "Ad-supra"
+
+msgid "Move right"
+msgstr "A dextri"
+
+msgid "First item"
+msgstr "Prim element"
+
+msgid "Last item"
+msgstr "Ultim element"
+
+msgid "Page down"
+msgstr "Págine a-bass"
+
+msgid "Page up"
+msgstr "Págine ad-supra"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Selecter li elementes queles li cursor passa (visual)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Selecter un intervalle, quam con Shift (linea visual)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Selecter un bloc del rete (bloc visual)"
+
+msgid "Back to normal mode"
+msgstr "Retornar al mode normal"
+
+msgid "Copy the item under the cursor"
+msgstr "Copiar li element sub li cursor"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Renominar, cursor al comense (inserter)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Renominar, cursor pos li nómine (adjunter)"
+
+msgid "Rename, name selected (change)"
+msgstr "Renominar, nómine selectet (changear)"
+
+msgid "Edit the location"
+msgstr "Redacter li loc"
+
+msgid "Copied."
+msgstr "Copiat."
+
+msgid "Cut."
+msgstr "Tondet."
+
+msgid "Can't open “%s”."
+msgstr "On ne posse aperter «%s»."
+
+msgid "A name is needed."
+msgstr "Un nómine es necessi."
+
+msgid "Unknown view: %s"
+msgstr "Ínconosset vise: %s"
+
+msgid "Unknown option: %s"
+msgstr "Ínconosset option: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordinar per name, size, date o type."
+
+msgid "Not a command: %s"
+msgstr "Ne un comande: %s"
+
+msgid "Move"
+msgstr "Mover"
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Riscos de ager quam administrator"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Yo comprende e accepta ti riscos"
+
+msgid "Act as Administrator"
+msgstr "Ager quam administrator"
+
+msgid "Focus Other View"
+msgstr "Focalisar li altri vise"
+
+msgid "Split View to Tabs"
+msgstr "Vise fendet a cartes"
+
+msgid "Folders Panel"
+msgstr "Panel de fólderes"
+
+msgid "Information Panel"
+msgstr "Panel de information"
+
+msgid "Focus Places Panel"
+msgstr "Focalisar li panel de locs"
+
+msgid "Go to Last Tab"
+msgstr "Ear al ultim carte"
+
+msgid "Columns"
+msgstr "Columnes"
+
+msgid "Files"
+msgstr "Files"
+
+msgid "Configure Toolbars…"
+msgstr "Configurar li barres de instrumentes…"
+
+msgid "Restore to Defaults"
+msgstr "Restituer li predefinitiones"
+
+msgid "File names:"
+msgstr "Nómines de files:"
+
+msgid "no file"
+msgstr "null file"
+
+msgid "files of any size"
+msgstr "files de quelcunc grandore"
+
+msgid "Always show tab bar"
+msgstr "Sempre monstrar li barre de cartes"
+
+msgid "Show close button on tabs"
+msgstr "Monstrar li buton de cluder sur cartes"
+
+msgid "Tab style:"
+msgstr "Stil de cartes:"
+
+msgid "Tab width adapts to folder name"
+msgstr "Li largore del carte adapta se al nómine del fólder"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Omni cartes have li sam fix largore"
+
+msgid "When closing a split view"
+msgstr "Quande on clude un vise fendet"
+
+msgid "Close the active pane"
+msgstr "Cluder li activ panel"
+
+msgid "Close the inactive pane"
+msgstr "Cluder li ínactiv panel"
+
+msgid "Close the right pane"
+msgstr "Cluder li panel dextri"
+
+msgid "Open new windows in split view mode"
+msgstr "Aperter nov fenestres in li mode de vise fendet"
+
+msgid "Local storage:"
+msgstr "Local magasinage:"
+
+msgid "Show previews for"
+msgstr "Monstrar previsiones por"
+
+msgid "Remote storage:"
+msgstr "Lontan magasinage:"
+
+msgid "Renaming a file will change its type"
+msgstr "Renominar un file va changear su tip"
+
+msgid "Switching to act as an administrator"
+msgstr "Passar a ager quam administrator"
+
+msgid "Information Panel:"
+msgstr "Panel de information:"
+
+msgid "Folders Panel:"
+msgstr "Panel de fólderes:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Limitar al fólder hem quande on es in it"
+
+msgid "Status Bar:"
+msgstr "Barre de statu:"
+
+msgid "Full width"
+msgstr "Plen largore"
+
+msgid "Browse compressed files as folders"
+msgstr "Navigar comprimet files quam fólderes"
+
+msgid "Show item information on hover"
+msgstr "Monstrar information pri li element sub li mus"
+
+msgid "Rename single items inline"
+msgstr "Renominar singul elementes in-loc"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Anc celar files de reserve quande on cela celat files"
+
+msgid "Background:"
+msgstr "Funde:"
+
+msgid "Double-click triggers"
+msgstr "Duplic clic fa"
+
+msgid "Nothing"
+msgstr "Nequo"
+
+msgid "Folder size:"
+msgstr "Grandore de fólder:"
+
+msgid "Show number of items"
+msgstr "Monstrar li númere de elementes"
+
+msgid "Show size of contents, up to "
+msgstr "Monstrar li grandore del contenete, til "
+
+msgid "Show no size"
+msgstr "Ne monstrar grandore"
+
+msgid "Long file names:"
+msgstr "Long nómines de files:"
+
+msgid "Spacing:"
+msgstr "Spaciation:"
+
+msgid "Everywhere"
+msgstr "Omniloc"
+
+msgid "File Names"
+msgstr "Nómines de files"
+
+msgid "File Names and Contents"
+msgstr "Nómines e contenete de files"
+
+msgid "No items found"
+msgstr "Null elementes trovat"
+
+msgid "Free space:"
+msgstr "Spacie líber:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s líber de %s (%d%% usat)"
+
+msgid "Copy to Other View"
+msgstr "Copiar al altri vise"
+
+msgid "Move to Other View"
+msgstr "Mover al altri vise"
+
+msgid "Open With…"
+msgstr "Aperter per…"
+
+msgid "Open in Split View"
+msgstr "Aperter in vise fendet"
+
+msgid "Filter…"
+msgstr "Filtre…"
+
+msgid "Adjust View Display Style…"
+msgstr "Adjustar li stil de vise…"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Fólderes, cartes e statu de fenestre del ultim vez"
+
+msgid "Opening Folders:"
+msgstr "Apertion de fólderes:"
+
+msgid "Window:"
+msgstr "Fenestre:"
+
+msgid "Opening many folders at once"
+msgstr "Aperter mult fólderes simultanmen"
+
+msgid "Opening many terminals at once"
+msgstr "Aperter mult terminales simultanmen"
+
+msgid "Show item on hover"
+msgstr "Monstrar li element sub li mus"
+
+msgid "Interface"
+msgstr "Interfacie"
+
+msgid "Display style:"
+msgstr "Stil de vise:"
+
+msgid "Browsing:"
+msgstr "Navigation:"
+
+msgid "Content Display"
+msgstr "Monstra de contenete"
+
+msgid "Permissions style:"
+msgstr "Stil de permissiones:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Per clic ú-cunc in li linea"
+
+msgid "By clicking on icon or name"
+msgstr "Per clic sur li icone o li nómine"
+
+msgid "Calculating…"
+msgstr "Calculante…"
+
+msgid "Searching…"
+msgstr "Serchante…"
+
+msgid "Loading folder…"
+msgstr "Cargante li fólder…"
+
+msgid "Preview icon size:"
+msgstr "Grandore de icones de previsiones:"
+
+msgid "Show filter bar"
+msgstr "Monstrar li barre de filtre"
+
+msgid "Show previews in the view for:"
+msgstr "Monstrar previsiones in li vise por:"
+
+msgid "Show previews"
+msgstr "Monstrar previsiones"
+
+msgid "Make location bar editable"
+msgstr "Far li barre de loc redactibil"
+
+msgid "Use common display style for all folders"
+msgstr "Usar un comun stil de vise por omni fólderes"
+
+msgid "Remember display style for each folder"
+msgstr "Memorar li stil de vise por chascun fólder"
+
+msgid "Rename…"
+msgstr "Renominar…"
+
+msgid "Show Target"
+msgstr "Monstrar li cible"
+
+msgid "View Display Style"
+msgstr "Stil de vise"
+
+msgid "Reset Zoom Level"
+msgstr "Reiniciar li nivelle de scale"
+
+msgid "Show Additional Information"
+msgstr "Monstrar information additional"
+
+msgid "Show Previews"
+msgstr "Monstrar previsiones"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Alfabetic, ínsensitiv al majuscules"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Alfabetic, sensitiv al majuscules"
+
+msgid "User Group"
+msgstr "Gruppe de usator"
+
+msgid "Quit"
+msgstr "Surtir"
+
+msgid "Zoom In"
+msgstr "Agrandar"
+
+msgid "Zoom Out"
+msgstr "Diminuer"
+
+msgid "Editable Location"
+msgstr "Loc redactibil"
+
+msgid "Replace Location"
+msgstr "Substituer li loc"
+
+msgid "Show Menubar"
+msgstr "Monstrar li barre de menú"
+
+msgid "Show Statusbar"
+msgstr "Monstrar li barre de statu"
+
+msgid "Show full path inside location bar"
+msgstr "Monstrar li complet rute in li barre de loc"
+
+msgid "Open folders during drag operations"
+msgstr "Aperter fólderes durant tractar"
+
+msgid "Show selection marker"
+msgstr "Monstrar li marcator de selection"
+
+msgid "Go Up"
+msgstr "Ad-supra"
