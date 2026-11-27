@@ -1,0 +1,1437 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "The archive could not be opened."
+msgstr "Arkistoa ei voitu avata."
+
+msgid "The archive could not be read."
+msgstr "Arkistoa ei voitu lukea."
+
+msgid "Cancelled."
+msgstr "Peruttu."
+
+msgid "This file is encrypted with a password."
+msgstr "Tiedosto on salattu salasanalla."
+
+msgid "“%s” could not be read."
+msgstr "Kohdetta ”%s” ei voitu lukea."
+
+msgid "This is not a file in an archive."
+msgstr "Tämä ei ole arkistossa oleva tiedosto."
+
+msgid "Extract Here"
+msgstr "Pura tähän"
+
+msgid "Compress to .tar.gz"
+msgstr "Pakkaa .tar.gz-muotoon"
+
+msgid "No terminal emulator was found."
+msgstr "Pääte-emulaattoria ei löytynyt."
+
+msgid "Root"
+msgstr "Juuri"
+
+msgid "%s Volume"
+msgstr "Taltio %s"
+
+msgid "This device cannot be mounted."
+msgstr "Laitetta ei voi liittää."
+
+msgid "This device cannot be unmounted."
+msgstr "Laitetta ei voi irrottaa."
+
+msgid "The device is gone."
+msgstr "Laite on poistunut."
+
+msgid "Copying %s to “%s”"
+msgstr "Kopioidaan %s kohteeseen ”%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Siirretään %s kohteeseen ”%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Linkitetään %s kohteeseen ”%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Siirretään %s roskakoriin"
+
+msgid "Deleting %s"
+msgstr "Poistetaan %s"
+
+msgid "Restoring %s"
+msgstr "Palautetaan %s"
+
+msgid "Emptying the trash"
+msgstr "Tyhjennetään roskakoria"
+
+msgid "Counting files…"
+msgstr "Lasketaan tiedostoja…"
+
+msgid "“%s”: %s"
+msgstr "”%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Kansiota ei voi siirtää itsensä sisään."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Kansiota ei voi kopioida itsensä sisään."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Tiedostoja voi purkaa vain paikallisiin kansioihin."
+
+msgid "Extracting from “%s”"
+msgstr "Puretaan kohteesta ”%s”"
+
+msgid "Disc:"
+msgstr "Levy:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bittinopeus:"
+
+msgid "Cover:"
+msgstr "Kansikuva:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanava"
+msgstr[1] "%d kanavaa"
+
+msgid ", %d bit"
+msgstr ", %d bittiä"
+
+msgid "Audio %d:"
+msgstr "Ääni %d:"
+
+msgid "Subtitles:"
+msgstr "Tekstitykset:"
+
+msgid "Chapters:"
+msgstr "Kappaleet:"
+
+msgid "Images"
+msgstr "Kuvat"
+
+msgid "Archives"
+msgstr "Arkistot"
+
+msgid "Search for “%s”"
+msgstr "Etsi ”%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Pääte-emulaattoria ei löytynyt. Aseta se kohdassa Belugan asetukset › Yleiset › Pääte."
+
+msgid "This file system has no trash."
+msgstr "Tällä tiedostojärjestelmällä ei ole roskakoria."
+
+msgid "Could not create the trash information file."
+msgstr "Roskakorin tietotiedostoa ei voitu luoda."
+
+msgid "“%s” already exists."
+msgstr "”%s” on jo olemassa."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Roskakori ylittää rajansa %s. Harkitse sen tyhjentämistä."
+
+msgid "Create File"
+msgstr "Luo tiedosto"
+
+msgid "Undo: %s"
+msgstr "Kumoa: %s"
+
+msgid "Redo: %s"
+msgstr "Tee uudelleen: %s"
+
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d kohde"
+msgstr[1] "%d kohdetta"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d tiedosto"
+msgstr[1] "%d tiedostoa"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d kansio"
+msgstr[1] "%d kansiota"
+
+msgid "Today at %s"
+msgstr "Tänään klo %s"
+
+msgid "Yesterday at %s"
+msgstr "Eilen klo %s"
+
+msgid "%A at %H:%M"
+msgstr "%A klo %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s kopio %d"
+
+msgid "Disk Usage"
+msgstr "Levyn käyttö"
+
+msgid "Extension"
+msgstr "Tiedostopääte"
+
+msgid "Original Location"
+msgstr "Alkuperäinen sijainti"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga ei voinut toimia pääkäyttäjänä."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Pääkäyttäjän salasanan kysymiseen tarvitaan pkexec (polkit). Asenna polkit ja polkit-agentti työpöydällesi."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Pääkäyttäjän oikeuksin toimiva Beluga-ikkuna voi muuttaa ja poistaa minkä tahansa tämän tietokoneen tiedoston, myös tiedostot, joita järjestelmä tarvitsee käynnistyäkseen. Virhe voi tehdä järjestelmästä käyttökelvottoman. Käytä sitä vain tiedostoihin, joita et voi muuttaa muuten, ja sulje se, kun olet valmis.\n\nSeuraavaksi Beluga kysyy pääkäyttäjän salasanaa."
+
+msgid "Columns View"
+msgstr "Sarakenäkymä"
+
+msgid "Reset Zoom"
+msgstr "Palauta lähennys"
+
+msgid "Pop out Split View"
+msgstr "Irrota jaettu näkymä"
+
+msgid "Places Panel"
+msgstr "Sijainnit-paneeli"
+
+msgid "Disk Usage Panel"
+msgstr "Levyn käyttö -paneeli"
+
+msgid "Go to Tab 1"
+msgstr "Siirry välilehteen 1"
+
+msgid "Go to Tab 2"
+msgstr "Siirry välilehteen 2"
+
+msgid "Go to Tab 3"
+msgstr "Siirry välilehteen 3"
+
+msgid "Go to Tab 4"
+msgstr "Siirry välilehteen 4"
+
+msgid "Go to Tab 5"
+msgstr "Siirry välilehteen 5"
+
+msgid "Go to Tab 6"
+msgstr "Siirry välilehteen 6"
+
+msgid "Go to Tab 7"
+msgstr "Siirry välilehteen 7"
+
+msgid "Go to Tab 8"
+msgstr "Siirry välilehteen 8"
+
+msgid "Go to Tab 9"
+msgstr "Siirry välilehteen 9"
+
+msgid "Configure Beluga"
+msgstr "Belugan asetukset"
+
+msgid "Undo failed."
+msgstr "Kumoaminen epäonnistui."
+
+msgid "Folder…"
+msgstr "Kansio…"
+
+msgid "Text File…"
+msgstr "Tekstitiedosto…"
+
+msgid "Empty File…"
+msgstr "Tyhjä tiedosto…"
+
+msgid "Link to File or Folder…"
+msgstr "Linkki tiedostoon tai kansioon…"
+
+msgid "Other View (%s)"
+msgstr "Toinen näkymä (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Muista tämän kansion näkymä"
+
+msgid "Open in Beluga"
+msgstr "Avaa Belugassa"
+
+msgid "Paste into Folder"
+msgstr "Liitä kansioon"
+
+msgid "_Cancel"
+msgstr "_Peru"
+
+msgid "The name cannot contain “/”."
+msgstr "Nimessä ei voi olla merkkiä ”/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Pisteellä alkava nimi on piilotettu."
+
+msgid "Some items could not be renamed."
+msgstr "Joitakin kohteita ei voitu nimetä uudelleen."
+
+msgid "Rename “%s” to:"
+msgstr "Nimeä ”%s” uudelleen:"
+
+msgid "_Rename"
+msgstr "_Nimeä uudelleen"
+
+msgid "Could not rename “%s”."
+msgstr "Kohdetta ”%s” ei voitu nimetä uudelleen."
+
+msgid "Change the file type?"
+msgstr "Muutetaanko tiedoston tyyppiä?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Nimen ”%s” muuttaminen nimeksi ”%s” muuttaa sen tiedostopäätettä."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Nimeä %zu valittua kohdetta uudelleen:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# korvataan nousevilla numeroilla; käytä ##, jos haluat etunollia. Tiedostopäätteet säilytetään."
+
+msgid "Start numbering at:"
+msgstr "Aloita numerointi luvusta:"
+
+msgid "_Move Here"
+msgstr "_Siirrä tähän"
+
+msgid "_Copy Here"
+msgstr "_Kopioi tähän"
+
+msgid "_Link Here"
+msgstr "_Linkitä tähän"
+
+msgid "C_ancel"
+msgstr "P_eru"
+
+msgid "Choose a folder"
+msgstr "Valitse kansio"
+
+msgid "C_hoose…"
+msgstr "_Valitse…"
+
+msgid "Icon name:"
+msgstr "Kuvakkeen nimi:"
+
+msgid "Choose a Folder"
+msgstr "Valitse kansio"
+
+msgid "_Add"
+msgstr "_Lisää"
+
+msgid "_Save"
+msgstr "_Tallenna"
+
+msgid "Show _folders first"
+msgstr "Näytä _kansiot ensin"
+
+msgid "Show hidden files _last"
+msgstr "Näytä piilotiedostot _viimeisinä"
+
+msgid "Show _previews"
+msgstr "Näytä _esikatselut"
+
+msgid "Show in _groups"
+msgstr "Näytä _ryhmissä"
+
+msgid "Show _hidden files"
+msgstr "Näytä _piilotiedostot"
+
+msgid "Current folder including all subfolders"
+msgstr "Nykyinen kansio ja kaikki sen alikansiot"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "muutettu %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Kansio nimeltä ”%s” on jo kohteessa ”%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Tiedosto nimeltä ”%s” on jo kohteessa ”%s”."
+
+msgid "Existing item"
+msgstr "Olemassa oleva kohde"
+
+msgid "New item"
+msgstr "Uusi kohde"
+
+msgid "_Suggest New Name"
+msgstr "_Ehdota uutta nimeä"
+
+msgid "New name:"
+msgstr "Uusi nimi:"
+
+msgid "Apply to _all"
+msgstr "Käytä _kaikkiin"
+
+msgid "S_kip"
+msgstr "_Ohita"
+
+msgid "_Write Into"
+msgstr "_Kirjoita sisään"
+
+msgid "_Overwrite"
+msgstr "_Korvaa"
+
+msgid "Search icons…"
+msgstr "Etsi kuvakkeita…"
+
+msgid "_Image File…"
+msgstr "_Kuvatiedosto…"
+
+msgid "_Default Icon"
+msgstr "_Oletuskuvake"
+
+msgid "Choose an Image"
+msgstr "Valitse kuva"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Verkkosijainnit tarvitsevat gvfs:n. Asenna gvfs-paketti (ja gvfs-smb Windows-jakoja varten, gvfs-nfs NFS:ää varten) ja kirjaudu sitten ulos ja uudelleen sisään."
+
+msgid "This location is not a folder."
+msgstr "Tämä sijainti ei ole kansio."
+
+msgid "This location is not valid."
+msgstr "Tämä sijainti ei kelpaa."
+
+msgid "This folder is not in the archive."
+msgstr "Tätä kansiota ei ole arkistossa."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s pienempi tiedosto"
+msgstr[1] "%s pienempää tiedostoa"
+
+msgid "(another drive, not counted)"
+msgstr "(toinen asema, ei laskettu)"
+
+msgid "Some of its contents could not be read."
+msgstr "Osaa sisällöstä ei voitu lukea."
+
+msgid "%s in files"
+msgstr "%s tiedostoissa"
+
+msgid "%s on disk"
+msgstr "%s levyllä"
+
+msgid "%s files and %s folders"
+msgstr "%s tiedostoa ja %s kansiota"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Luetaan… %s, %s tiedostoa ja %s kansiota"
+
+msgid "Stopped."
+msgstr "Pysäytetty."
+
+msgid "This folder could not be read."
+msgstr "Tätä kansiota ei voitu lukea."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, luettu %.1f s:ssa"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s kansiota ei voitu lukea."
+msgstr[1] ". %s kansiota ei voitu lukea."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Vain tämän tietokoneen kansioita voi mitata."
+
+msgid "read less than a minute ago"
+msgstr "luettu alle minuutti sitten"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "luettu %d minuutti sitten"
+msgstr[1] "luettu %d minuuttia sitten"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "luettu %d tunti sitten"
+msgstr[1] "luettu %d tuntia sitten"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Lue se uudelleen skannaamalla uudelleen."
+
+msgid "_Apparent size"
+msgstr "_Näennäinen koko"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Laske yhteen tiedostojen koot levyllä vievän tilan sijaan."
+
+msgid "_Stay on this drive"
+msgstr "_Pysy tällä asemalla"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Älä laske tämän kansion sisään liitettyjä muita asemia (kuten toisella levyllä olevaa musiikkikansiota). Linkkejä ei koskaan seurata."
+
+msgid "Rescan"
+msgstr "Skannaa uudelleen"
+
+msgid "Close Disk Usage"
+msgstr "Sulje levyn käyttö"
+
+msgid "_Rescan"
+msgstr "_Skannaa uudelleen"
+
+msgid "S_top"
+msgstr "_Pysäytä"
+
+msgid "Disk Usage – %s"
+msgstr "Levyn käyttö – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "”%s” on jo olemassa. Korvataanko se?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu näistä tiedostoista on jo olemassa. Korvataanko ne?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Ohjelma, josta tallennat, kirjoittaa olemassa olevan sisällön päälle."
+
+msgid "Choose a folder to save in."
+msgstr "Valitse kansio, johon tallennetaan."
+
+msgid "Select Folder"
+msgstr "Valitse kansio"
+
+msgid "Open Files"
+msgstr "Avaa tiedostoja"
+
+msgid "Open File"
+msgstr "Avaa tiedosto"
+
+msgid "Save File"
+msgstr "Tallenna tiedosto"
+
+msgid "Save Files"
+msgstr "Tallenna tiedostot"
+
+msgid "_Folder:"
+msgstr "_Kansio:"
+
+msgid "_Name:"
+msgstr "_Nimi:"
+
+msgid "_Type:"
+msgstr "_Tyyppi:"
+
+msgid "_Select"
+msgstr "_Valitse"
+
+msgid "_Open"
+msgstr "_Avaa"
+
+msgid "Create new folder in:\n%s"
+msgstr "Luo uusi kansio kohteeseen:\n%s"
+
+msgid "C_reate"
+msgstr "_Luo"
+
+msgid "Could not create the folder."
+msgstr "Kansiota ei voitu luoda."
+
+msgid "%zu items selected"
+msgstr "%zu kohdetta valittu"
+
+msgid "Contents:"
+msgstr "Sisältö:"
+
+msgid "Contains:"
+msgstr "Sisältää:"
+
+msgid "Counting…"
+msgstr "Lasketaan…"
+
+msgid "Broken Link"
+msgstr "Rikkinäinen linkki"
+
+msgid "%s (link)"
+msgstr "%s (linkki)"
+
+msgid "other drive"
+msgstr "toinen asema"
+
+msgid "%s of %s"
+msgstr "%s / %s"
+
+msgid "%s left"
+msgstr "%s jäljellä"
+
+msgid "%d of %d"
+msgstr "%d / %d"
+
+msgid "File operations in progress"
+msgstr "Tiedostotoimintoja käynnissä"
+
+msgid "No subfolders"
+msgstr "Ei alikansioita"
+
+msgid "Select the given files in their folders"
+msgstr "Valitse annetut tiedostot niiden kansioissa"
+
+msgid "Open the window in split view"
+msgstr "Avaa ikkuna jaettuun näkymään"
+
+msgid "Always open a new window"
+msgstr "Avaa aina uusi ikkuna"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Jatka taustalla FileManager1-D-Bus-palvelua varten"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Irrota päätteestä (ilman sijaintia: avaa nykyinen kansio)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Suorita xdg-desktop-portalin tiedostovalitsin (D-Busin käynnistämä)"
+
+msgid "Show the version"
+msgstr "Näytä versio"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[TIEDOSTO tai KANSIO…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Toimitaan pääkäyttäjänä: tämän ikkunan muutokset voivat vahingoittaa järjestelmää."
+
+msgid "Close this window?"
+msgstr "Suljetaanko tämä ikkuna?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Tässä ikkunassa on %zu välilehteä auki. Sen sulkeminen sulkee ne kaikki."
+
+msgid "Close Window"
+msgstr "Sulje ikkuna"
+
+msgid "Show _Toolbar"
+msgstr "Näytä _työkalurivi"
+
+msgid "_File"
+msgstr "_Tiedosto"
+
+msgid "New _Window"
+msgstr "Uusi _ikkuna"
+
+msgid "New _Tab"
+msgstr "Uusi _välilehti"
+
+msgid "_Close Tab"
+msgstr "_Sulje välilehti"
+
+msgid "Create _New"
+msgstr "Luo _uusi"
+
+msgid "_Rename…"
+msgstr "_Nimeä uudelleen…"
+
+msgid "_Duplicate Here"
+msgstr "_Monista tähän"
+
+msgid "Move to _Trash"
+msgstr "Siirrä _roskakoriin"
+
+msgid "_Delete"
+msgstr "_Poista"
+
+msgid "Restore from Trash"
+msgstr "Palauta roskakorista"
+
+msgid "_Properties"
+msgstr "_Ominaisuudet"
+
+msgid "_Quit"
+msgstr "_Lopeta"
+
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+msgid "_Undo"
+msgstr "_Kumoa"
+
+msgid "_Redo"
+msgstr "_Tee uudelleen"
+
+msgid "Cu_t"
+msgstr "_Leikkaa"
+
+msgid "_Copy"
+msgstr "_Kopioi"
+
+msgid "_Paste"
+msgstr "_Liitä"
+
+msgid "_Search…"
+msgstr "_Etsi…"
+
+msgid "Select _All"
+msgstr "Valitse _kaikki"
+
+msgid "_View"
+msgstr "_Näytä"
+
+msgid "Zoom _In"
+msgstr "_Lähennä"
+
+msgid "Zoom _Out"
+msgstr "L_oitonna"
+
+msgid "Re_load"
+msgstr "_Lataa uudelleen"
+
+msgid "Show _Menubar"
+msgstr "Näytä _valikkorivi"
+
+msgid "Show _Statusbar"
+msgstr "Näytä _tilarivi"
+
+msgid "_Go"
+msgstr "_Siirry"
+
+msgid "_Back"
+msgstr "_Takaisin"
+
+msgid "_Forward"
+msgstr "_Eteenpäin"
+
+msgid "_Up"
+msgstr "_Ylös"
+
+msgid "_Home"
+msgstr "_Koti"
+
+msgid "_Tools"
+msgstr "_Työkalut"
+
+msgid "Open _Terminal"
+msgstr "Avaa _pääte"
+
+msgid "Open Terminal _Here"
+msgstr "Avaa pääte _tähän"
+
+msgid "_Disk Usage…"
+msgstr "_Levyn käyttö…"
+
+msgid "_Settings"
+msgstr "_Asetukset"
+
+msgid "Configure Tool_bars…"
+msgstr "Muokkaa _työkalurivejä…"
+
+msgid "_Configure Beluga…"
+msgstr "_Belugan asetukset…"
+
+msgid "No recently closed tabs"
+msgstr "Ei äskettäin suljettuja välilehtiä"
+
+msgid "(Administrator)"
+msgstr "(Pääkäyttäjä)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Avataanko %zu kansiota uusiin välilehtiin?"
+
+msgid "Open Folders"
+msgstr "Avaa kansiot"
+
+msgid "Could not open “%s”."
+msgstr "Kohdetta ”%s” ei voitu avata."
+
+msgid "Could not open a terminal."
+msgstr "Päätettä ei voitu avata."
+
+msgid "New Text File.txt"
+msgstr "Uusi tekstitiedosto.txt"
+
+msgid "New File"
+msgstr "Uusi tiedosto"
+
+msgid "Empty the trash?"
+msgstr "Tyhjennetäänkö roskakori?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Kaikki roskakorin kohteet poistetaan pysyvästi. Tätä ei voi kumota."
+
+msgid "Open %zu terminals?"
+msgstr "Avataanko %zu päätettä?"
+
+msgid "Open Terminals"
+msgstr "Avaa päätteet"
+
+msgid "Create new file in:\n%s"
+msgstr "Luo uusi tiedosto kohteeseen:\n%s"
+
+msgid "Could not create the file."
+msgstr "Tiedostoa ei voitu luoda."
+
+msgid "Link to File or Folder"
+msgstr "Linkki tiedostoon tai kansioon"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Linkitettävän tiedoston tai kansion polku:"
+
+msgid "Could not create the link."
+msgstr "Linkkiä ei voitu luoda."
+
+msgid "Permanently delete %s?"
+msgstr "Poistetaanko %s pysyvästi?"
+
+msgid "This cannot be undone."
+msgstr "Tätä ei voi kumota."
+
+msgid "Move %s to the trash?"
+msgstr "Siirretäänkö %s roskakoriin?"
+
+msgid "Could not run “%s”."
+msgstr "Kohdetta ”%s” ei voitu suorittaa."
+
+msgid "Could not start %s."
+msgstr "Ohjelmaa %s ei voitu käynnistää."
+
+msgid "Could not start the application."
+msgstr "Sovellusta ei voitu käynnistää."
+
+msgid "“%s” is an executable file."
+msgstr "”%s” on suoritettava tiedosto."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Haluatko suorittaa sen vai avata sen sovelluksessa?"
+
+msgid "Run"
+msgstr "Suorita"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Valitse sovellus, jolla %s (%s) avataan:"
+
+msgid "Or command:"
+msgstr "Tai komento:"
+
+msgid "Remember application association for this type of file"
+msgstr "Muista tämän tiedostotyypin sovellusliitos"
+
+msgid "%s free of %s"
+msgstr "%s vapaana / %s"
+
+msgid "Configure Sections"
+msgstr "Muokkaa osioita"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Valitut osiot näkyvät Sijainnit-paneelissa tässä järjestyksessä."
+
+msgid "Move Up"
+msgstr "Siirrä ylös"
+
+msgid "Move Down"
+msgstr "Siirrä alas"
+
+msgid "Could not mount the device: %s"
+msgstr "Laitetta ei voitu liittää: %s"
+
+msgid "Configure Sections…"
+msgstr "Muokkaa osioita…"
+
+msgid "Hide Hidden Entries"
+msgstr "Piilota piilotetut kohteet"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Kaikki roskakorin kohteet poistetaan pysyvästi."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Laitetta ei voitu poistaa turvallisesti: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Laitetta ei voitu irrottaa: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Käytä _järjestelmän fonttia"
+
+msgid "Context Menu Action"
+msgstr "Pikavalikon toiminto"
+
+msgid "Types:"
+msgstr "Tyypit:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f ensimmäinen tiedosto, %F kaikki tiedostot, %u / %U URI-osoitteina, %n / %N nimet, %d nykyinen kansio."
+
+msgid "Show for _files"
+msgstr "Näytä _tiedostoille"
+
+msgid "Show for f_olders"
+msgstr "Näytä _kansioille"
+
+msgid "Show when _several items are selected"
+msgstr "Näytä, kun _useita kohteita on valittu"
+
+msgid "Run in a _terminal"
+msgstr "Suorita _päätteessä"
+
+msgid "Custom Actions"
+msgstr "Omat toiminnot"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Omat kohteesi tiedostojen ja kansioiden pikavalikkoon."
+
+msgid "_Add…"
+msgstr "_Lisää…"
+
+msgid "_Edit…"
+msgstr "_Muokkaa…"
+
+msgid "_Remove"
+msgstr "_Poista"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Pikanäppäimet kirjoitetaan muodossa <Control>c tai <Shift>Delete. Erota useampi pilkuilla. Jätä kenttä tyhjäksi käyttääksesi oletusta."
+
+msgid "files below %d MiB"
+msgstr "alle %d MiB:n tiedostot"
+
+msgid "_Restore Defaults"
+msgstr "_Palauta oletukset"
+
+msgid "_Apply"
+msgstr "_Käytä"
+
+msgid "Folders & Tabs"
+msgstr "Kansiot ja välilehdet"
+
+msgid "This location:"
+msgstr "Tämä sijainti:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Pidä vain yksi Beluga-ikkuna ja avaa uudet kansiot välilehtiin"
+
+msgid "Tabs:"
+msgstr "Välilehdet:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Kiinteän levyiset välilehdet kapenevat, kaikki saman verran, kun ne eivät mahdu."
+
+msgid "No terminal found"
+msgstr "Päätettä ei löytynyt"
+
+msgid "Detected: %s"
+msgstr "Löydetty: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Käytetään F4:llä ja toiminnolla Avaa pääte tähän. Komennon %d korvataan kansiolla; muuten pääte käynnistyy siinä. Tämä oli aiemmin KDE:n järjestelmäasetus."
+
+msgid "New folders:"
+msgstr "Uudet kansiot:"
+
+msgid "Show _previews in new folders"
+msgstr "Näytä _esikatselut uusissa kansioissa"
+
+msgid "Audio (cover art)"
+msgstr "Ääni (kansikuvat)"
+
+msgid "PDF documents"
+msgstr "PDF-asiakirjat"
+
+msgid "Text files"
+msgstr "Tekstitiedostot"
+
+msgid "Fonts"
+msgstr "Fontit"
+
+msgid "Office documents"
+msgstr "Toimistoasiakirjat"
+
+msgid "Ask for confirmation when:"
+msgstr "Kysy vahvistusta, kun:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Kysy vahvistusta Belugassa, kun:"
+
+msgid "Use _long date format"
+msgstr "Käytä _pitkää päiväysmuotoa"
+
+msgid "Show _hidden folders"
+msgstr "Näytä _piilokansiot"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Vieritä nykyiseen kansioon _automaattisesti"
+
+msgid "Places Panel:"
+msgstr "Sijainnit-paneeli:"
+
+msgid "Status & Location bars"
+msgstr "Tila- ja sijaintirivit"
+
+msgid "Show free _space"
+msgstr "Näytä vapaa _tila"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Joka tapauksessa Näytä › Muista tämän kansion näkymä antaa yhdelle kansiolle oman tyylin. Jotkin erikoisnäkymät, kuten haku, viimeisimmät tiedostot ja roskakori, käyttävät silti omaa tyyliään."
+
+msgid "Open files and folders with a single click"
+msgstr "Avaa tiedostot ja kansiot yhdellä napsautuksella"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Pidä kotikansiosta _hakemistoa välitöntä hakua varten"
+
+msgid "levels deep"
+msgstr "tasoa syvälle"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Suhteellinen (Tänään, Eilen…)"
+
+msgid "Absolute"
+msgstr "Absoluuttinen"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolinen (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numeerinen (0755)"
+
+msgid "Combined"
+msgstr "Yhdistetty"
+
+msgid "Elide in the middle"
+msgstr "Lyhennä keskeltä"
+
+msgid "Elide at the end"
+msgstr "Lyhennä lopusta"
+
+msgid "Disk usage:"
+msgstr "Levyn käyttö:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Näytä _levyn käyttö -sarake"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Tila, jonka kukin tiedosto ja koko kansio vie levyltä, ja palkki sen osuudesta kansiossa, kuten kohdassa Työkalut › Levyn käyttö. Kansiot luetaan kokonaan taustalla; lajittele sarakkeen mukaan nähdäksesi suurimmat ensin. Levyn käyttö -ikkunan \"Pysy tällä asemalla\" pätee myös tässä."
+
+msgid "Show in the context menu"
+msgstr "Näytä pikavalikossa"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Kopioi kohteeseen' ja 'Siirrä kohteeseen'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Poista (Siirrä roskakoriin -toiminnon lisäksi)"
+
+msgid "Cleanup:"
+msgstr "Siivous:"
+
+msgid "Delete files older than"
+msgstr "Poista tiedostot, jotka ovat vanhempia kuin"
+
+msgid "days"
+msgstr "päivää"
+
+msgid "Limit to"
+msgstr "Rajoita"
+
+msgid "percent of the disk"
+msgstr "prosenttiin levystä"
+
+msgid "Keep the trash on the home drive"
+msgstr "Pidä roskakori kotikansion asemalla"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Muilta asemilta roskakoriin siirretyt tiedostot kopioidaan kotikansion roskakoriin, joten niille asemille ei tule .Trash-1000-kansiota. Suurten tiedostojen siirtäminen roskakoriin kestää silloin kauemmin."
+
+msgid "Full trash:"
+msgstr "Täysi roskakori:"
+
+msgid "When the limit is reached:"
+msgstr "Kun raja saavutetaan:"
+
+msgid "Show a warning"
+msgstr "Näytä varoitus"
+
+msgid "Delete the oldest items"
+msgstr "Poista vanhimmat kohteet"
+
+msgid "Delete the largest items"
+msgstr "Poista suurimmat kohteet"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Nämä olivat aiemmin KDE:n järjestelmäasetuksia. Rajoja sovelletaan, kun Beluga käynnistyy ja kun kohteita on siirretty roskakoriin."
+
+msgid "Calculating trash size…"
+msgstr "Lasketaan roskakorin kokoa…"
+
+msgid "The trash currently uses %s."
+msgstr "Roskakori vie tällä hetkellä %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Tyhjennä roskakori nyt"
+
+msgid "Vim Mode"
+msgstr "Vim-tila"
+
+msgid "Vim mode:"
+msgstr "Vim-tila:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Käytä Vimin kaltaisia näppäimiä näkymissä"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normaalitilassa liikutaan näppäimillä h j k l ja suoritetaan alla olevat näppäimet; v, V ja Ctrl+V valitsevat; i ja a nimeävät uudelleen (lisäystila); Esc palaa normaalitilaan; : avaa komentorivin. Ctrl- tai Alt-näppäimet, joita ei ole tässä, toimivat tavalliseen tapaan."
+
+msgid "Leader key:"
+msgstr "Johtonäppäin:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> alla olevissa näppäimissä, esim. <Space> tai ,"
+
+msgid "Wait for more keys:"
+msgstr "Odota lisää näppäimiä:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd d:n jälkeen, gg g:n jälkeen)"
+
+msgid "Keys"
+msgstr "Näppäimet"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim-merkintätapa, useita välilyönnein erotettuina: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Jätä kenttä tyhjäksi käyttääksesi oletusta."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q sulkee ikkunan (:q! kysymättä välilehdistä), :qa lopettaa Belugan, :e tai :cd POLKU avaa kansion, :tabnew [POLKU], :tabclose, :tabonly, :sp tai :vs [POLKU] jakavat näkymän, :only sulkee toisen näkymän, :mkdir NIMI, :touch NIMI, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMENTO suorittaa kuorikomennon kansiossa."
+
+msgid "Keyboard Shortcuts"
+msgstr "Pikanäppäimet"
+
+msgid "Only files on this computer can be read."
+msgstr "Vain tämän tietokoneen tiedostoja voi lukea."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga on käännetty ilman FFmpegiä."
+
+msgid "Reading…"
+msgstr "Luetaan…"
+
+msgid "No details found."
+msgstr "Tietoja ei löytynyt."
+
+msgid "Change the folder's icon"
+msgstr "Vaihda kansion kuvake"
+
+msgid "Could not change the icon."
+msgstr "Kuvaketta ei voitu vaihtaa."
+
+msgid "%zu items"
+msgstr "%zu kohdetta"
+
+msgid "No default application"
+msgstr "Ei oletussovellusta"
+
+msgid "C_hange…"
+msgstr "_Vaihda…"
+
+msgid "Opens with:"
+msgstr "Avataan sovelluksella:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu tavu"
+msgstr[1] "%llu tavua"
+
+msgid "Can View"
+msgstr "Voi katsoa"
+
+msgid "Can View Content"
+msgstr "Voi katsoa sisältöä"
+
+msgid "Is _executable"
+msgstr "On _suoritettava"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Käytä muutoksia kaikkiin _alikansioihin ja niiden sisältöön"
+
+msgid "Mode:"
+msgstr "Tila:"
+
+msgid "Could not read the file."
+msgstr "Tiedostoa ei voitu lukea."
+
+msgid "Paste a checksum to compare"
+msgstr "Liitä tarkistussumma vertailtavaksi"
+
+msgid "Verify:"
+msgstr "Tarkista:"
+
+msgid "The checksums match."
+msgstr "Tarkistussummat täsmäävät."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Mikään laskettu tarkistussumma ei täsmää. Laske ensin vastaava tyyppi."
+
+msgid "Could not change the permissions."
+msgstr "Oikeuksia ei voitu muuttaa."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Suodata nimen mukaan (jokerimerkit kuten *.txt toimivat)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Säilytä suodatin kansiota vaihdettaessa"
+
+msgid "In This Folder"
+msgstr "Tässä kansiossa"
+
+msgid "In Your Files"
+msgstr "Tiedostoissasi"
+
+msgid "Any Time"
+msgstr "Milloin tahansa"
+
+msgid "Last 7 Days"
+msgstr "Viimeiset 7 päivää"
+
+msgid "Last 30 Days"
+msgstr "Viimeiset 30 päivää"
+
+msgid "Last Year"
+msgstr "Viimeinen vuosi"
+
+msgid "Hidden files"
+msgstr "Piilotiedostot"
+
+msgid "Duplicate Tab"
+msgstr "Monista välilehti"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Listassa sijaintirivin yläpuolella olevat toiminnot ovat sen vasemmalla puolella, muut oikealla. * merkitsee toiminnot, jotka eivät ole oletustyökalurivin paikoillaan."
+
+msgid "A_vailable actions:"
+msgstr "_Käytettävissä olevat toiminnot:"
+
+msgid "Add to the tool bar"
+msgstr "Lisää työkaluriville"
+
+msgid "Remove from the tool bar"
+msgstr "Poista työkaluriviltä"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Siirrä ylös (vasemmalle työkalurivillä)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Siirrä alas (oikealle työkalurivillä)"
+
+msgid "C_urrent actions:"
+msgstr "_Nykyiset toiminnot:"
+
+msgid "_Defaults"
+msgstr "_Oletukset"
+
+msgid "Show Columns"
+msgstr "Näytä sarakkeet"
+
+msgid "Modified: %s"
+msgstr "Muutettu: %s"
+
+msgid "Original location: %s"
+msgstr "Alkuperäinen sijainti: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Alle 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB – 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB – 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB tai enemmän"
+
+msgid "Not counted yet"
+msgstr "Ei vielä laskettu"
+
+msgid "A file name cannot contain “/”."
+msgstr "Tiedostonimessä ei voi olla merkkiä ”/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Nimen ”%s” muuttaminen nimeksi ”%s” muuttaa sen tiedostopäätettä. Tiedosto voi avautua eri sovelluksella tai ei ollenkaan."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Valintatila: valitse tiedostoja tai kansioita tai poista valinta napsauttamalla niitä."
+
+msgid "_Exit Selection Mode"
+msgstr "_Poistu valintatilasta"
+
+msgid "_Duplicate"
+msgstr "_Monista"
+
+msgid "De_lete"
+msgstr "_Poista"
+
+msgid "Pr_operties"
+msgstr "_Ominaisuudet"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Kansiota ”%s” ei ole enää olemassa."
+
+msgid "“%s” selected (%s%s)"
+msgstr "”%s” valittu (%s%s)"
+
+msgid "%s selected"
+msgstr "%s valittu"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d valittu"
+msgstr[1] "%d valittu"
+
+msgid "Move left"
+msgstr "Siirry vasemmalle"
+
+msgid "Move down"
+msgstr "Siirry alas"
+
+msgid "Move up"
+msgstr "Siirry ylös"
+
+msgid "Move right"
+msgstr "Siirry oikealle"
+
+msgid "First item"
+msgstr "Ensimmäinen kohde"
+
+msgid "Last item"
+msgstr "Viimeinen kohde"
+
+msgid "Page down"
+msgstr "Sivu alas"
+
+msgid "Page up"
+msgstr "Sivu ylös"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Valitse kohteet, joiden yli kohdistin kulkee (visuaalinen)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Valitse alue, kuten vaihtonäppäimellä (visuaalinen rivi)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Valitse ruudukosta lohko (visuaalinen lohko)"
+
+msgid "Back to normal mode"
+msgstr "Takaisin normaalitilaan"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopioi kohdistimen alla oleva kohde"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Nimeä uudelleen, kohdistin alussa (lisäys)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Nimeä uudelleen, kohdistin nimen jälkeen (jatkaminen)"
+
+msgid "Rename, name selected (change)"
+msgstr "Nimeä uudelleen, nimi valittuna (muutos)"
+
+msgid "Edit the location"
+msgstr "Muokkaa sijaintia"
+
+msgid "Copied."
+msgstr "Kopioitu."
+
+msgid "Cut."
+msgstr "Leikattu."
+
+msgid "Can't open “%s”."
+msgstr "Kohdetta ”%s” ei voi avata."
+
+msgid "A name is needed."
+msgstr "Nimi tarvitaan."
+
+msgid "Unknown view: %s"
+msgstr "Tuntematon näkymä: %s"
+
+msgid "Unknown option: %s"
+msgstr "Tuntematon valinta: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Lajittele nimen, koon, päiväyksen tai tyypin mukaan."
+
+msgid "Not a command: %s"
+msgstr "Ei komento: %s"
+
+msgid "Move"
+msgstr "Siirrä"
+
+msgid "Split View to Tabs"
+msgstr "Jaettu näkymä välilehdiksi"
+
+msgid "Folders Panel"
+msgstr "Kansiopaneeli"
+
+msgid "Files"
+msgstr "Tiedostot"
+
+msgid "Recommended Applications"
+msgstr "Suositellut sovellukset"
+
+msgid "Other Applications"
+msgstr "Muut sovellukset"
+
+msgid "Folders Panel:"
+msgstr "Kansiopaneeli:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Rajoita kotikansioon, kun ollaan sen sisällä"
+
+msgid "Spacing:"
+msgstr "Välistys:"
+
+msgid "Command line"
+msgstr "Komentorivi"
+
+msgid "No items found"
+msgstr "Kohteita ei löytynyt"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s vapaana / %s (%d%% käytetty)"

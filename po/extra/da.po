@@ -1,0 +1,1441 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "Arkivet kunne ikke åbnes."
+
+msgid "The archive could not be read."
+msgstr "Arkivet kunne ikke læses."
+
+msgid "Cancelled."
+msgstr "Annulleret."
+
+msgid "This file is encrypted with a password."
+msgstr "Filen er krypteret med en adgangskode."
+
+msgid "“%s” could not be read."
+msgstr "“%s” kunne ikke læses."
+
+msgid "This is not a file in an archive."
+msgstr "Dette er ikke en fil i et arkiv."
+
+msgid "Extract Here"
+msgstr "Udpak her"
+
+msgid "Compress to .tar.gz"
+msgstr "Komprimér til .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Der blev ikke fundet nogen terminalemulator."
+
+msgid "Root"
+msgstr "Rod"
+
+msgid "%s Volume"
+msgstr "%s-diskenhed"
+
+msgid "This device cannot be mounted."
+msgstr "Enheden kan ikke monteres."
+
+msgid "This device cannot be unmounted."
+msgstr "Enheden kan ikke afmonteres."
+
+msgid "The device is gone."
+msgstr "Enheden er væk."
+
+msgid "Copying %s to “%s”"
+msgstr "Kopierer %s til “%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Flytter %s til “%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Linker %s i “%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Flytter %s til papirkurven"
+
+msgid "Deleting %s"
+msgstr "Sletter %s"
+
+msgid "Restoring %s"
+msgstr "Gendanner %s"
+
+msgid "Emptying the trash"
+msgstr "Tømmer papirkurven"
+
+msgid "Counting files…"
+msgstr "Tæller filer…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "En mappe kan ikke flyttes ind i sig selv."
+
+msgid "A folder cannot be copied into itself."
+msgstr "En mappe kan ikke kopieres ind i sig selv."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Filer kan kun udpakkes til lokale mapper."
+
+msgid "Extracting from “%s”"
+msgstr "Udpakker fra “%s”"
+
+msgid "Disc:"
+msgstr "Disk:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bithastighed:"
+
+msgid "Cover:"
+msgstr "Omslag:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanaler"
+
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio %d:"
+msgstr "Lyd %d:"
+
+msgid "Subtitles:"
+msgstr "Undertekster:"
+
+msgid "Chapters:"
+msgstr "Kapitler:"
+
+msgid "Images"
+msgstr "Billeder"
+
+msgid "Archives"
+msgstr "Arkiver"
+
+msgid "Search for “%s”"
+msgstr "Søg efter “%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Der blev ikke fundet nogen terminalemulator. Angiv en under Indstil Beluga › Generelt › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Filsystemet har ingen papirkurv."
+
+msgid "Could not create the trash information file."
+msgstr "Papirkurvens informationsfil kunne ikke oprettes."
+
+msgid "“%s” already exists."
+msgstr "“%s” findes allerede."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Papirkurven er større end grænsen på %s. Overvej at tømme den."
+
+msgid "Create File"
+msgstr "Opret fil"
+
+msgid "Undo: %s"
+msgstr "Fortryd: %s"
+
+msgid "Redo: %s"
+msgstr "Annullér fortryd: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d fil"
+msgstr[1] "%d filer"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d mappe"
+msgstr[1] "%d mapper"
+
+msgid "Today at %s"
+msgstr "I dag kl. %s"
+
+msgid "Yesterday at %s"
+msgstr "I går kl. %s"
+
+msgid "%A at %H:%M"
+msgstr "%A kl. %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min. %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld t. %ld min."
+
+msgid "%s copy %d"
+msgstr "%s kopi %d"
+
+msgid "Disk Usage"
+msgstr "Diskforbrug"
+
+msgid "Extension"
+msgstr "Filendelse"
+
+msgid "Original Location"
+msgstr "Oprindelig placering"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga kunne ikke handle som administrator."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "pkexec (polkit) er nødvendig for at spørge om administratoradgangskoden. Installér polkit og en polkit-agent til dit skrivebord."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Et Beluga-vindue med administratorrettigheder kan ændre og slette enhver fil på computeren, også de filer, systemet har brug for for at starte. En fejl her kan gøre systemet ubrugeligt. Brug det kun til filer, du ikke kan ændre på anden vis, og luk det, når du er færdig.\n\nBeluga spørger derefter om administratoradgangskoden."
+
+msgid "Columns View"
+msgstr "Kolonnevisning"
+
+msgid "Reset Zoom"
+msgstr "Nulstil zoom"
+
+msgid "Pop out Split View"
+msgstr "Løft opdelt visning ud"
+
+msgid "Places Panel"
+msgstr "Stedpanel"
+
+msgid "Disk Usage Panel"
+msgstr "Panel for diskforbrug"
+
+msgid "Go to Tab 1"
+msgstr "Gå til faneblad 1"
+
+msgid "Go to Tab 2"
+msgstr "Gå til faneblad 2"
+
+msgid "Go to Tab 3"
+msgstr "Gå til faneblad 3"
+
+msgid "Go to Tab 4"
+msgstr "Gå til faneblad 4"
+
+msgid "Go to Tab 5"
+msgstr "Gå til faneblad 5"
+
+msgid "Go to Tab 6"
+msgstr "Gå til faneblad 6"
+
+msgid "Go to Tab 7"
+msgstr "Gå til faneblad 7"
+
+msgid "Go to Tab 8"
+msgstr "Gå til faneblad 8"
+
+msgid "Go to Tab 9"
+msgstr "Gå til faneblad 9"
+
+msgid "Configure Beluga"
+msgstr "Indstil Beluga"
+
+msgid "Undo failed."
+msgstr "Fortryd mislykkedes."
+
+msgid "Folder…"
+msgstr "Mappe…"
+
+msgid "Text File…"
+msgstr "Tekstfil…"
+
+msgid "Empty File…"
+msgstr "Tom fil…"
+
+msgid "Link to File or Folder…"
+msgstr "Link til fil eller mappe…"
+
+msgid "Other View (%s)"
+msgstr "Anden visning (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Husk visningen for denne mappe"
+
+msgid "Open in Beluga"
+msgstr "Åbn i Beluga"
+
+msgid "Paste into Folder"
+msgstr "Indsæt i mappe"
+
+msgid "_Cancel"
+msgstr "_Annullér"
+
+msgid "The name cannot contain “/”."
+msgstr "Navnet må ikke indeholde “/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Et navn, der begynder med et punktum, er skjult."
+
+msgid "Some items could not be renamed."
+msgstr "Nogle elementer kunne ikke omdøbes."
+
+msgid "Rename “%s” to:"
+msgstr "Omdøb “%s” til:"
+
+msgid "_Rename"
+msgstr "_Omdøb"
+
+msgid "Could not rename “%s”."
+msgstr "“%s” kunne ikke omdøbes."
+
+msgid "Change the file type?"
+msgstr "Ændre filtypen?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Når “%s” omdøbes til “%s”, ændres dens filendelse."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Omdøb de %zu valgte elementer til:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# erstattes af stigende tal; brug ## for foranstillede nuller. Filendelser bevares."
+
+msgid "Start numbering at:"
+msgstr "Start nummerering ved:"
+
+msgid "_Move Here"
+msgstr "_Flyt hertil"
+
+msgid "_Copy Here"
+msgstr "_Kopiér hertil"
+
+msgid "_Link Here"
+msgstr "_Link hertil"
+
+msgid "C_ancel"
+msgstr "_Annullér"
+
+msgid "Choose a folder"
+msgstr "Vælg en mappe"
+
+msgid "C_hoose…"
+msgstr "_Vælg…"
+
+msgid "Icon name:"
+msgstr "Ikonnavn:"
+
+msgid "Choose a Folder"
+msgstr "Vælg en mappe"
+
+msgid "_Add"
+msgstr "_Tilføj"
+
+msgid "_Save"
+msgstr "_Gem"
+
+msgid "Show _folders first"
+msgstr "Vis _mapper først"
+
+msgid "Show hidden files _last"
+msgstr "Vis skjulte filer _sidst"
+
+msgid "Show _previews"
+msgstr "Vis _forhåndsvisninger"
+
+msgid "Show in _groups"
+msgstr "Vis i _grupper"
+
+msgid "Show _hidden files"
+msgstr "Vis _skjulte filer"
+
+msgid "Current folder including all subfolders"
+msgstr "Aktuel mappe inklusive alle undermapper"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "ændret %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "En mappe med navnet “%s” findes allerede i “%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "En fil med navnet “%s” findes allerede i “%s”."
+
+msgid "Existing item"
+msgstr "Eksisterende element"
+
+msgid "New item"
+msgstr "Nyt element"
+
+msgid "_Suggest New Name"
+msgstr "_Foreslå nyt navn"
+
+msgid "New name:"
+msgstr "Nyt navn:"
+
+msgid "Apply to _all"
+msgstr "Anvend på _alle"
+
+msgid "S_kip"
+msgstr "_Spring over"
+
+msgid "_Write Into"
+msgstr "S_kriv ind i"
+
+msgid "_Overwrite"
+msgstr "_Overskriv"
+
+msgid "Search icons…"
+msgstr "Søg efter ikoner…"
+
+msgid "_Image File…"
+msgstr "_Billedfil…"
+
+msgid "_Default Icon"
+msgstr "_Standardikon"
+
+msgid "Choose an Image"
+msgstr "Vælg et billede"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Netværksplaceringer kræver gvfs. Installér pakken gvfs (og gvfs-smb til Windows-delinger, gvfs-nfs til NFS), og log derefter ud og ind igen."
+
+msgid "This location is not a folder."
+msgstr "Placeringen er ikke en mappe."
+
+msgid "This location is not valid."
+msgstr "Placeringen er ikke gyldig."
+
+msgid "This folder is not in the archive."
+msgstr "Mappen findes ikke i arkivet."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s mindre fil"
+msgstr[1] "%s mindre filer"
+
+msgid "(another drive, not counted)"
+msgstr "(et andet drev, ikke talt med)"
+
+msgid "Some of its contents could not be read."
+msgstr "Noget af indholdet kunne ikke læses."
+
+msgid "%s in files"
+msgstr "%s i filer"
+
+msgid "%s on disk"
+msgstr "%s på disken"
+
+msgid "%s files and %s folders"
+msgstr "%s filer og %s mapper"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Læser… %s i %s filer og %s mapper"
+
+msgid "Stopped."
+msgstr "Stoppet."
+
+msgid "This folder could not be read."
+msgstr "Mappen kunne ikke læses."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, læst på %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s mappe kunne ikke læses."
+msgstr[1] ". %s mapper kunne ikke læses."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Kun mapper på denne computer kan måles."
+
+msgid "read less than a minute ago"
+msgstr "læst for under et minut siden"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "læst for %d minut siden"
+msgstr[1] "læst for %d minutter siden"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "læst for %d time siden"
+msgstr[1] "læst for %d timer siden"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Skan igen for at læse det på ny."
+
+msgid "_Apparent size"
+msgstr "_Tilsyneladende størrelse"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Læg filstørrelserne sammen i stedet for den diskplads, filerne optager."
+
+msgid "_Stay on this drive"
+msgstr "_Bliv på dette drev"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Tæl ikke andre drev, der er monteret inde i mappen (som en musikmappe på en anden disk). Links følges aldrig."
+
+msgid "Rescan"
+msgstr "Skan igen"
+
+msgid "Close Disk Usage"
+msgstr "Luk diskforbrug"
+
+msgid "_Rescan"
+msgstr "_Skan igen"
+
+msgid "S_top"
+msgstr "S_top"
+
+msgid "Disk Usage – %s"
+msgstr "Diskforbrug – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” findes allerede. Erstat den?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu af filerne findes allerede. Erstat dem?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Programmet, du gemmer fra, vil overskrive det eksisterende indhold."
+
+msgid "Choose a folder to save in."
+msgstr "Vælg en mappe at gemme i."
+
+msgid "Select Folder"
+msgstr "Vælg mappe"
+
+msgid "Open Files"
+msgstr "Åbn filer"
+
+msgid "Open File"
+msgstr "Åbn fil"
+
+msgid "Save File"
+msgstr "Gem fil"
+
+msgid "Save Files"
+msgstr "Gem filer"
+
+msgid "_Folder:"
+msgstr "_Mappe:"
+
+msgid "_Name:"
+msgstr "_Navn:"
+
+msgid "_Type:"
+msgstr "_Type:"
+
+msgid "_Select"
+msgstr "_Vælg"
+
+msgid "_Open"
+msgstr "_Åbn"
+
+msgid "Create new folder in:\n%s"
+msgstr "Opret ny mappe i:\n%s"
+
+msgid "C_reate"
+msgstr "_Opret"
+
+msgid "Could not create the folder."
+msgstr "Mappen kunne ikke oprettes."
+
+msgid "%zu items selected"
+msgstr "%zu elementer valgt"
+
+msgid "Contents:"
+msgstr "Indhold:"
+
+msgid "Contains:"
+msgstr "Indeholder:"
+
+msgid "Counting…"
+msgstr "Tæller…"
+
+msgid "Broken Link"
+msgstr "Brudt link"
+
+msgid "%s (link)"
+msgstr "%s (link)"
+
+msgid "other drive"
+msgstr "andet drev"
+
+msgid "%s of %s"
+msgstr "%s af %s"
+
+msgid "%s left"
+msgstr "%s tilbage"
+
+msgid "%d of %d"
+msgstr "%d af %d"
+
+msgid "File operations in progress"
+msgstr "Filhandlinger i gang"
+
+msgid "No subfolders"
+msgstr "Ingen undermapper"
+
+msgid "Select the given files in their folders"
+msgstr "Vælg de angivne filer i deres mapper"
+
+msgid "Open the window in split view"
+msgstr "Åbn vinduet i opdelt visning"
+
+msgid "Always open a new window"
+msgstr "Åbn altid et nyt vindue"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Bliv ved med at køre i baggrunden for D-Bus-tjenesten FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Frigør fra terminalen (uden placering: åbn den aktuelle mappe)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Kør filvælgeren til xdg-desktop-portal (startes af D-Bus)"
+
+msgid "Show the version"
+msgstr "Vis versionen"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FIL eller MAPPE…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Handler som administrator: ændringer i dette vindue kan skade systemet."
+
+msgid "Close this window?"
+msgstr "Luk dette vindue?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Vinduet har %zu åbne faneblade. Lukkes det, lukkes alle."
+
+msgid "Close Window"
+msgstr "Luk vindue"
+
+msgid "Show _Toolbar"
+msgstr "Vis _værktøjslinje"
+
+msgid "_File"
+msgstr "_Fil"
+
+msgid "New _Window"
+msgstr "Nyt _vindue"
+
+msgid "New _Tab"
+msgstr "Nyt _faneblad"
+
+msgid "_Close Tab"
+msgstr "_Luk faneblad"
+
+msgid "Create _New"
+msgstr "Opret _nyt"
+
+msgid "_Rename…"
+msgstr "_Omdøb…"
+
+msgid "_Duplicate Here"
+msgstr "_Duplikér her"
+
+msgid "Move to _Trash"
+msgstr "Flyt til _papirkurv"
+
+msgid "_Delete"
+msgstr "_Slet"
+
+msgid "Restore from Trash"
+msgstr "Gendan fra papirkurv"
+
+msgid "_Properties"
+msgstr "_Egenskaber"
+
+msgid "_Quit"
+msgstr "_Afslut"
+
+msgid "_Edit"
+msgstr "_Redigér"
+
+msgid "_Undo"
+msgstr "_Fortryd"
+
+msgid "_Redo"
+msgstr "_Annullér fortryd"
+
+msgid "Cu_t"
+msgstr "_Klip"
+
+msgid "_Copy"
+msgstr "K_opiér"
+
+msgid "_Paste"
+msgstr "_Indsæt"
+
+msgid "_Search…"
+msgstr "_Søg…"
+
+msgid "Select _All"
+msgstr "Vælg _alle"
+
+msgid "_View"
+msgstr "_Vis"
+
+msgid "Zoom _In"
+msgstr "Zoom _ind"
+
+msgid "Zoom _Out"
+msgstr "Zoom _ud"
+
+msgid "Re_load"
+msgstr "_Genindlæs"
+
+msgid "Show _Menubar"
+msgstr "Vis _menulinje"
+
+msgid "Show _Statusbar"
+msgstr "Vis _statuslinje"
+
+msgid "_Go"
+msgstr "_Gå"
+
+msgid "_Back"
+msgstr "_Tilbage"
+
+msgid "_Forward"
+msgstr "_Frem"
+
+msgid "_Up"
+msgstr "_Op"
+
+msgid "_Home"
+msgstr "_Hjem"
+
+msgid "_Tools"
+msgstr "_Værktøjer"
+
+msgid "Open _Terminal"
+msgstr "Åbn _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Åbn terminal _her"
+
+msgid "_Disk Usage…"
+msgstr "_Diskforbrug…"
+
+msgid "_Settings"
+msgstr "_Indstillinger"
+
+msgid "Configure Tool_bars…"
+msgstr "Indstil _værktøjslinjer…"
+
+msgid "_Configure Beluga…"
+msgstr "_Indstil Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Ingen nyligt lukkede faneblade"
+
+msgid "(Administrator)"
+msgstr "(Administrator)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Åbn %zu mapper i nye faneblade?"
+
+msgid "Open Folders"
+msgstr "Åbn mapper"
+
+msgid "Could not open “%s”."
+msgstr "“%s” kunne ikke åbnes."
+
+msgid "Could not open a terminal."
+msgstr "Der kunne ikke åbnes en terminal."
+
+msgid "New Text File.txt"
+msgstr "Ny tekstfil.txt"
+
+msgid "New File"
+msgstr "Ny fil"
+
+msgid "Empty the trash?"
+msgstr "Tøm papirkurven?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Alle elementer i papirkurven slettes permanent. Det kan ikke fortrydes."
+
+msgid "Open %zu terminals?"
+msgstr "Åbn %zu terminaler?"
+
+msgid "Open Terminals"
+msgstr "Åbn terminaler"
+
+msgid "Create new file in:\n%s"
+msgstr "Opret ny fil i:\n%s"
+
+msgid "Could not create the file."
+msgstr "Filen kunne ikke oprettes."
+
+msgid "Link to File or Folder"
+msgstr "Link til fil eller mappe"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Sti til filen eller mappen, der skal linkes til:"
+
+msgid "Could not create the link."
+msgstr "Linket kunne ikke oprettes."
+
+msgid "Permanently delete %s?"
+msgstr "Slet %s permanent?"
+
+msgid "This cannot be undone."
+msgstr "Det kan ikke fortrydes."
+
+msgid "Move %s to the trash?"
+msgstr "Flyt %s til papirkurven?"
+
+msgid "Could not run “%s”."
+msgstr "“%s” kunne ikke køres."
+
+msgid "Could not start %s."
+msgstr "%s kunne ikke startes."
+
+msgid "Could not start the application."
+msgstr "Programmet kunne ikke startes."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” er en eksekverbar fil."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Vil du køre den eller åbne den i et program?"
+
+msgid "Run"
+msgstr "Kør"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Vælg programmet, %s (%s) skal åbnes med:"
+
+msgid "Or command:"
+msgstr "Eller kommando:"
+
+msgid "Remember application association for this type of file"
+msgstr "Husk programtilknytningen for denne filtype"
+
+msgid "%s free of %s"
+msgstr "%s ledig af %s"
+
+msgid "Configure Sections"
+msgstr "Indstil sektioner"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Afkrydsede sektioner vises i stedpanelet i denne rækkefølge."
+
+msgid "Move Up"
+msgstr "Flyt op"
+
+msgid "Move Down"
+msgstr "Flyt ned"
+
+msgid "Could not mount the device: %s"
+msgstr "Enheden kunne ikke monteres: %s"
+
+msgid "Configure Sections…"
+msgstr "Indstil sektioner…"
+
+msgid "Hide Hidden Entries"
+msgstr "Skjul skjulte poster"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Alle elementer i papirkurven slettes permanent."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Enheden kunne ikke fjernes sikkert: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Enheden kunne ikke afmonteres: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Brug _systemets skrifttype"
+
+msgid "Context Menu Action"
+msgstr "Handling i kontekstmenuen"
+
+msgid "Types:"
+msgstr "Typer:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f første fil, %F alle filer, %u / %U som URI'er, %n / %N navne, %d aktuel mappe."
+
+msgid "Show for _files"
+msgstr "Vis for _filer"
+
+msgid "Show for f_olders"
+msgstr "Vis for _mapper"
+
+msgid "Show when _several items are selected"
+msgstr "Vis når _flere elementer er valgt"
+
+msgid "Run in a _terminal"
+msgstr "Kør i en _terminal"
+
+msgid "Custom Actions"
+msgstr "Brugerdefinerede handlinger"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Dine egne poster i kontekstmenuen for filer og mapper."
+
+msgid "_Add…"
+msgstr "_Tilføj…"
+
+msgid "_Edit…"
+msgstr "_Redigér…"
+
+msgid "_Remove"
+msgstr "_Fjern"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Genveje skrives som <Control>c eller <Shift>Delete. Adskil flere med kommaer. Lad et felt være tomt for at bruge standarden."
+
+msgid "files below %d MiB"
+msgstr "filer under %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Gendan standarder"
+
+msgid "_Apply"
+msgstr "_Anvend"
+
+msgid "Folders & Tabs"
+msgstr "Mapper og faneblade"
+
+msgid "This location:"
+msgstr "Denne placering:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Behold ét Beluga-vindue og åbn nye mapper i faneblade"
+
+msgid "Tabs:"
+msgstr "Faneblade:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Faneblade med fast bredde bliver smallere, alle lige meget, når der ikke er plads."
+
+msgid "No terminal found"
+msgstr "Ingen terminal fundet"
+
+msgid "Detected: %s"
+msgstr "Fundet: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Bruges af F4 og Åbn terminal her. %d i kommandoen erstattes af mappen; ellers starter terminalen i den. Dette var tidligere en KDE-systemindstilling."
+
+msgid "New folders:"
+msgstr "Nye mapper:"
+
+msgid "Show _previews in new folders"
+msgstr "Vis _forhåndsvisninger i nye mapper"
+
+msgid "Audio (cover art)"
+msgstr "Lyd (omslagsbilleder)"
+
+msgid "PDF documents"
+msgstr "PDF-dokumenter"
+
+msgid "Text files"
+msgstr "Tekstfiler"
+
+msgid "Fonts"
+msgstr "Skrifttyper"
+
+msgid "Office documents"
+msgstr "Kontordokumenter"
+
+msgid "Ask for confirmation when:"
+msgstr "Bed om bekræftelse ved:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Bed om bekræftelse i Beluga ved:"
+
+msgid "Use _long date format"
+msgstr "Brug _langt datoformat"
+
+msgid "Show _hidden folders"
+msgstr "Vis _skjulte mapper"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Rul til den aktuelle mappe _automatisk"
+
+msgid "Places Panel:"
+msgstr "Stedpanel:"
+
+msgid "Status & Location bars"
+msgstr "Status- og placeringslinjer"
+
+msgid "Show free _space"
+msgstr "Vis ledig _plads"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Under alle omstændigheder giver Vis › Husk visningen for denne mappe én mappe sin egen stil. Nogle særlige visninger som søgning, seneste filer og papirkurven bruger stadig deres egen stil."
+
+msgid "Open files and folders with a single click"
+msgstr "Åbn filer og mapper med et enkelt klik"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Hold et _indeks over hjemmemappen til øjeblikkelig søgning"
+
+msgid "levels deep"
+msgstr "niveauer dybt"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativ (I dag, I går…)"
+
+msgid "Absolute"
+msgstr "Absolut"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolsk (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numerisk (0755)"
+
+msgid "Combined"
+msgstr "Kombineret"
+
+msgid "Elide in the middle"
+msgstr "Forkort i midten"
+
+msgid "Elide at the end"
+msgstr "Forkort i slutningen"
+
+msgid "Disk usage:"
+msgstr "Diskforbrug:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Vis en kolonne for _diskforbrug"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Den plads hver fil og hver hel mappe optager på disken, med en bjælke for dens andel af mappen, som i Værktøjer › Diskforbrug. Mapper læses helt i baggrunden; sortér efter kolonnen for at se de største først. \"Bliv på dette drev\" i vinduet Diskforbrug gælder også her."
+
+msgid "Show in the context menu"
+msgstr "Vis i kontekstmenuen"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Kopiér til' og 'Flyt til'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Slet (ud over Flyt til papirkurv)"
+
+msgid "Cleanup:"
+msgstr "Oprydning:"
+
+msgid "Delete files older than"
+msgstr "Slet filer ældre end"
+
+msgid "days"
+msgstr "dage"
+
+msgid "Limit to"
+msgstr "Begræns til"
+
+msgid "percent of the disk"
+msgstr "procent af disken"
+
+msgid "Keep the trash on the home drive"
+msgstr "Behold papirkurven på hjemmemappens drev"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Filer, der flyttes til papirkurven fra andre drev, kopieres til papirkurven i hjemmemappen, så disse drev ikke får en .Trash-1000-mappe. Det tager så længere tid at flytte store filer til papirkurven."
+
+msgid "Full trash:"
+msgstr "Fuld papirkurv:"
+
+msgid "When the limit is reached:"
+msgstr "Når grænsen nås:"
+
+msgid "Show a warning"
+msgstr "Vis en advarsel"
+
+msgid "Delete the oldest items"
+msgstr "Slet de ældste elementer"
+
+msgid "Delete the largest items"
+msgstr "Slet de største elementer"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Disse var tidligere KDE-systemindstillinger. Grænserne anvendes, når Beluga starter, og efter elementer er flyttet til papirkurven."
+
+msgid "Calculating trash size…"
+msgstr "Beregner papirkurvens størrelse…"
+
+msgid "The trash currently uses %s."
+msgstr "Papirkurven bruger nu %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Tøm papirkurven nu"
+
+msgid "Vim Mode"
+msgstr "Vim-tilstand"
+
+msgid "Vim mode:"
+msgstr "Vim-tilstand:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Brug Vim-lignende taster i visningerne"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normaltilstand flytter med h j k l og kører tasterne herunder; v, V og Ctrl+V markerer; i og a omdøber (indsætningstilstand); Esc går tilbage til normaltilstand; : åbner kommandolinjen. Taster med Ctrl eller Alt, der ikke står her, beholder deres sædvanlige betydning."
+
+msgid "Leader key:"
+msgstr "Ledertast:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> i tasterne herunder, f.eks. <Space> eller ,"
+
+msgid "Wait for more keys:"
+msgstr "Vent på flere taster:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd efter d, gg efter g)"
+
+msgid "Keys"
+msgstr "Taster"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim-notation, flere adskilt med mellemrum: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lad et felt være tomt for standarden."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q lukker vinduet (:q! uden at spørge om fanebladene), :qa afslutter Beluga, :e eller :cd STI åbner en mappe, :tabnew [STI], :tabclose, :tabonly, :sp eller :vs [STI] deler visningen, :only lukker den anden visning, :mkdir NAVN, :touch NAVN, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMMANDO kører en skalkommando i mappen."
+
+msgid "Keyboard Shortcuts"
+msgstr "Tastaturgenveje"
+
+msgid "Only files on this computer can be read."
+msgstr "Kun filer på denne computer kan læses."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga er bygget uden FFmpeg."
+
+msgid "Reading…"
+msgstr "Læser…"
+
+msgid "No details found."
+msgstr "Ingen detaljer fundet."
+
+msgid "Change the folder's icon"
+msgstr "Skift mappens ikon"
+
+msgid "Could not change the icon."
+msgstr "Ikonet kunne ikke ændres."
+
+msgid "%zu items"
+msgstr "%zu elementer"
+
+msgid "No default application"
+msgstr "Intet standardprogram"
+
+msgid "C_hange…"
+msgstr "_Skift…"
+
+msgid "Opens with:"
+msgstr "Åbnes med:"
+
+msgid "Can View"
+msgstr "Kan se"
+
+msgid "Can View Content"
+msgstr "Kan se indhold"
+
+msgid "Is _executable"
+msgstr "Er _eksekverbar"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Anvend ændringerne på alle _undermapper og deres indhold"
+
+msgid "Could not read the file."
+msgstr "Filen kunne ikke læses."
+
+msgid "Paste a checksum to compare"
+msgstr "Indsæt en kontrolsum at sammenligne med"
+
+msgid "Verify:"
+msgstr "Bekræft:"
+
+msgid "The checksums match."
+msgstr "Kontrolsummerne stemmer overens."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Ingen beregnet kontrolsum stemmer overens. Beregn den matchende type først."
+
+msgid "Could not change the permissions."
+msgstr "Rettighederne kunne ikke ændres."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtrér efter navn (jokertegn som *.txt virker)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Behold filteret ved mappeskift"
+
+msgid "In This Folder"
+msgstr "I denne mappe"
+
+msgid "In Your Files"
+msgstr "I dine filer"
+
+msgid "Any Time"
+msgstr "Når som helst"
+
+msgid "Last 7 Days"
+msgstr "Sidste 7 dage"
+
+msgid "Last 30 Days"
+msgstr "Sidste 30 dage"
+
+msgid "Last Year"
+msgstr "Sidste år"
+
+msgid "Hidden files"
+msgstr "Skjulte filer"
+
+msgid "Duplicate Tab"
+msgstr "Duplikér faneblad"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Handlinger over placeringslinjen i listen står til venstre for den, de andre til højre. * markerer handlinger, der ikke står, hvor standardværktøjslinjen har dem."
+
+msgid "A_vailable actions:"
+msgstr "_Tilgængelige handlinger:"
+
+msgid "Add to the tool bar"
+msgstr "Føj til værktøjslinjen"
+
+msgid "Remove from the tool bar"
+msgstr "Fjern fra værktøjslinjen"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Flyt op (til venstre på værktøjslinjen)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Flyt ned (til højre på værktøjslinjen)"
+
+msgid "C_urrent actions:"
+msgstr "A_ktuelle handlinger:"
+
+msgid "_Defaults"
+msgstr "_Standarder"
+
+msgid "Show Columns"
+msgstr "Vis kolonner"
+
+msgid "Modified: %s"
+msgstr "Ændret: %s"
+
+msgid "Original location: %s"
+msgstr "Oprindelig placering: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Under 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB til 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB til 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB eller mere"
+
+msgid "Not counted yet"
+msgstr "Ikke talt endnu"
+
+msgid "A file name cannot contain “/”."
+msgstr "Et filnavn må ikke indeholde “/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Når “%s” omdøbes til “%s”, ændres dens filendelse. Filen kan åbne med et andet program eller slet ikke."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Markeringstilstand: klik på filer eller mapper for at vælge eller fravælge dem."
+
+msgid "_Exit Selection Mode"
+msgstr "_Forlad markeringstilstand"
+
+msgid "_Duplicate"
+msgstr "_Duplikér"
+
+msgid "De_lete"
+msgstr "S_let"
+
+msgid "Pr_operties"
+msgstr "_Egenskaber"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Mappen “%s” findes ikke længere."
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” valgt (%s%s)"
+
+msgid "%s selected"
+msgstr "%s valgt"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d valgt"
+msgstr[1] "%d valgt"
+
+msgid "Move left"
+msgstr "Flyt til venstre"
+
+msgid "Move down"
+msgstr "Flyt ned"
+
+msgid "Move up"
+msgstr "Flyt op"
+
+msgid "Move right"
+msgstr "Flyt til højre"
+
+msgid "First item"
+msgstr "Første element"
+
+msgid "Last item"
+msgstr "Sidste element"
+
+msgid "Page down"
+msgstr "Side ned"
+
+msgid "Page up"
+msgstr "Side op"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Vælg de elementer, markøren passerer (visuel)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Vælg et interval, som med Skift (visuel linje)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Vælg en blok af gitteret (visuel blok)"
+
+msgid "Back to normal mode"
+msgstr "Tilbage til normaltilstand"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopiér elementet under markøren"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Omdøb, markør i starten (indsæt)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Omdøb, markør efter navnet (tilføj)"
+
+msgid "Rename, name selected (change)"
+msgstr "Omdøb, navn markeret (ændr)"
+
+msgid "Edit the location"
+msgstr "Redigér placeringen"
+
+msgid "Copied."
+msgstr "Kopieret."
+
+msgid "Cut."
+msgstr "Klippet."
+
+msgid "Can't open “%s”."
+msgstr "Kan ikke åbne “%s”."
+
+msgid "A name is needed."
+msgstr "Et navn er påkrævet."
+
+msgid "Unknown view: %s"
+msgstr "Ukendt visning: %s"
+
+msgid "Unknown option: %s"
+msgstr "Ukendt indstilling: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sortér efter navn, størrelse, dato eller type."
+
+msgid "Not a command: %s"
+msgstr "Ikke en kommando: %s"
+
+msgid "Move"
+msgstr "Flyt"
+
+msgid "Focus Other View"
+msgstr "Fokusér på anden visning"
+
+msgid "Split View to Tabs"
+msgstr "Opdelt visning til faneblade"
+
+msgid "Folders Panel"
+msgstr "Mappepanel"
+
+msgid "Files"
+msgstr "Filer"
+
+msgid "Restore to Defaults"
+msgstr "Gendan standarder"
+
+msgid "Recommended Applications"
+msgstr "Anbefalede programmer"
+
+msgid "Other Applications"
+msgstr "Andre programmer"
+
+msgid "Renaming a file will change its type"
+msgstr "Omdøbning af en fil ændrer dens type"
+
+msgid "Folders Panel:"
+msgstr "Mappepanel:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Begræns til hjemmemappen, når man er i den"
+
+msgid "Spacing:"
+msgstr "Afstand:"
+
+msgid "Command line"
+msgstr "Kommandolinje"
+
+msgid "No items found"
+msgstr "Ingen elementer fundet"
+
+msgid "Free space:"
+msgstr "Ledig plads:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s ledig af %s (%d%% brugt)"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu byte"
+msgstr[1] "%llu byte"

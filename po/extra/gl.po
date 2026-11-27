@@ -1,0 +1,1492 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "Non foi posíbel abrir o arquivo."
+
+msgid "The archive could not be read."
+msgstr "Non foi posíbel ler o arquivo."
+
+msgid "Cancelled."
+msgstr "Cancelado."
+
+msgid "This file is encrypted with a password."
+msgstr "Este ficheiro está cifrado cun contrasinal."
+
+msgid "“%s” could not be read."
+msgstr "Non foi posíbel ler «%s»."
+
+msgid "This is not a file in an archive."
+msgstr "Isto non é un ficheiro dentro dun arquivo."
+
+msgid "Extract Here"
+msgstr "Extraer aquí"
+
+msgid "Compress to .tar.gz"
+msgstr "Comprimir en .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Non se atopou ningún emulador de terminal."
+
+msgid "Root"
+msgstr "Raíz"
+
+msgid "%s Volume"
+msgstr "Volume %s"
+
+msgid "This device cannot be mounted."
+msgstr "Este dispositivo non se pode montar."
+
+msgid "This device cannot be unmounted."
+msgstr "Este dispositivo non se pode desmontar."
+
+msgid "The device is gone."
+msgstr "O dispositivo xa non está."
+
+msgid "Copying %s to “%s”"
+msgstr "Copiando %s en «%s»"
+
+msgid "Moving %s to “%s”"
+msgstr "Movendo %s a «%s»"
+
+msgid "Linking %s in “%s”"
+msgstr "Ligando %s en «%s»"
+
+msgid "Moving %s to the trash"
+msgstr "Movendo %s ao lixo"
+
+msgid "Deleting %s"
+msgstr "Eliminando %s"
+
+msgid "Restoring %s"
+msgstr "Restaurando %s"
+
+msgid "Emptying the trash"
+msgstr "Baleirando o lixo"
+
+msgid "Counting files…"
+msgstr "Contando os ficheiros…"
+
+msgid "“%s”: %s"
+msgstr "«%s»: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Un cartafol non se pode mover dentro de si mesmo."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Un cartafol non se pode copiar dentro de si mesmo."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Só se poden extraer ficheiros en cartafoles locais."
+
+msgid "Extracting from “%s”"
+msgstr "Extraendo de «%s»"
+
+msgid "Disc:"
+msgstr "Disco:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Taxa de bits:"
+
+msgid "Cover:"
+msgstr "Portada:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Vídeo %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "estéreo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d canle"
+msgstr[1] "%d canles"
+
+msgid ", %d bit"
+msgstr ", %d bits"
+
+msgid "Audio %d:"
+msgstr "Son %d:"
+
+msgid "Subtitles:"
+msgstr "Subtítulos:"
+
+msgid "Chapters:"
+msgstr "Capítulos:"
+
+msgid "Images"
+msgstr "Imaxes"
+
+msgid "Archives"
+msgstr "Arquivos"
+
+msgid "Search for “%s”"
+msgstr "Buscar «%s»"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Non se atopou ningún emulador de terminal. Configure un en Configurar Beluga › Xeral › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Este sistema de ficheiros non ten lixo."
+
+msgid "Could not create the trash information file."
+msgstr "Non foi posíbel crear o ficheiro de información do lixo."
+
+msgid "“%s” already exists."
+msgstr "«%s» xa existe."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "O lixo supera o seu límite de %s. Considere baleiralo."
+
+msgid "Create File"
+msgstr "Crear un ficheiro"
+
+msgid "Undo: %s"
+msgstr "Desfacer: %s"
+
+msgid "Redo: %s"
+msgstr "Refacer: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d ficheiro"
+msgstr[1] "%d ficheiros"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d cartafol"
+msgstr[1] "%d cartafoles"
+
+msgid "Today at %s"
+msgstr "Hoxe ás %s"
+
+msgid "Yesterday at %s"
+msgstr "Onte ás %s"
+
+msgid "%A at %H:%M"
+msgstr "%A ás %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s copia %d"
+
+msgid "Disk Usage"
+msgstr "Uso do disco"
+
+msgid "Extension"
+msgstr "Extensión"
+
+msgid "Original Location"
+msgstr "Localización orixinal"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga non puido actuar como administrador."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Precísase pkexec (polkit) para pedir o contrasinal de administrador. Instale polkit e un axente de polkit para o seu escritorio."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Unha xanela de Beluga con dereitos de administrador pode cambiar e eliminar calquera ficheiro deste computador, incluídos os ficheiros que o sistema precisa para arrincar. Un erro aí pode deixar o sistema inutilizábel. Úsea só para ficheiros que non poida cambiar doutro xeito e péchea ao rematar.\n\nA seguir, Beluga pide o contrasinal de administrador."
+
+msgid "Columns View"
+msgstr "Vista en columnas"
+
+msgid "Reset Zoom"
+msgstr "Restabelecer a ampliación"
+
+msgid "Pop out Split View"
+msgstr "Separar a vista dividida"
+
+msgid "Places Panel"
+msgstr "Panel de lugares"
+
+msgid "Disk Usage Panel"
+msgstr "Panel de uso do disco"
+
+msgid "Go to Tab 1"
+msgstr "Ir á lapela 1"
+
+msgid "Go to Tab 2"
+msgstr "Ir á lapela 2"
+
+msgid "Go to Tab 3"
+msgstr "Ir á lapela 3"
+
+msgid "Go to Tab 4"
+msgstr "Ir á lapela 4"
+
+msgid "Go to Tab 5"
+msgstr "Ir á lapela 5"
+
+msgid "Go to Tab 6"
+msgstr "Ir á lapela 6"
+
+msgid "Go to Tab 7"
+msgstr "Ir á lapela 7"
+
+msgid "Go to Tab 8"
+msgstr "Ir á lapela 8"
+
+msgid "Go to Tab 9"
+msgstr "Ir á lapela 9"
+
+msgid "Configure Beluga"
+msgstr "Configurar Beluga"
+
+msgid "Undo failed."
+msgstr "Non foi posíbel desfacer."
+
+msgid "Folder…"
+msgstr "Cartafol…"
+
+msgid "Text File…"
+msgstr "Ficheiro de texto…"
+
+msgid "Empty File…"
+msgstr "Ficheiro baleiro…"
+
+msgid "Link to File or Folder…"
+msgstr "Ligazón a un ficheiro ou cartafol…"
+
+msgid "Other View (%s)"
+msgstr "Outra vista (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Lembrar a vista deste cartafol"
+
+msgid "Open in Beluga"
+msgstr "Abrir en Beluga"
+
+msgid "Paste into Folder"
+msgstr "Pegar no cartafol"
+
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+msgid "The name cannot contain “/”."
+msgstr "O nome non pode conter «/»."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Un nome que comeza por un punto queda agochado."
+
+msgid "Some items could not be renamed."
+msgstr "Non foi posíbel renomear algúns elementos."
+
+msgid "Rename “%s” to:"
+msgstr "Renomear «%s» como:"
+
+msgid "_Rename"
+msgstr "_Renomear"
+
+msgid "Could not rename “%s”."
+msgstr "Non foi posíbel renomear «%s»."
+
+msgid "Change the file type?"
+msgstr "Cambiar o tipo do ficheiro?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Renomear «%s» como «%s» cambia a súa extensión."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Renomear os %zu elementos seleccionados como:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# substitúese por números ascendentes; use ## para ceros á esquerda. As extensións mantéñense."
+
+msgid "Start numbering at:"
+msgstr "Comezar a numeración en:"
+
+msgid "_Move Here"
+msgstr "_Mover aquí"
+
+msgid "_Copy Here"
+msgstr "_Copiar aquí"
+
+msgid "_Link Here"
+msgstr "_Ligar aquí"
+
+msgid "C_ancel"
+msgstr "C_ancelar"
+
+msgid "Choose a folder"
+msgstr "Escolla un cartafol"
+
+msgid "C_hoose…"
+msgstr "_Escoller…"
+
+msgid "Icon name:"
+msgstr "Nome da icona:"
+
+msgid "Choose a Folder"
+msgstr "Escolla un cartafol"
+
+msgid "_Add"
+msgstr "_Engadir"
+
+msgid "_Save"
+msgstr "_Gardar"
+
+msgid "Show _folders first"
+msgstr "Mostrar primeiro os _cartafoles"
+
+msgid "Show hidden files _last"
+msgstr "Mostrar os ficheiros agochados ao _final"
+
+msgid "Show _previews"
+msgstr "Mostrar _vistas previas"
+
+msgid "Show in _groups"
+msgstr "Mostrar en _grupos"
+
+msgid "Show _hidden files"
+msgstr "Mostrar os ficheiros _agochados"
+
+msgid "Current folder including all subfolders"
+msgstr "O cartafol actual, incluídos todos os subcartafoles"
+
+msgid "_OK"
+msgstr "_Aceptar"
+
+msgid "modified %s"
+msgstr "modificado %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Xa existe un cartafol chamado «%s» en «%s»."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Xa existe un ficheiro chamado «%s» en «%s»."
+
+msgid "Existing item"
+msgstr "Elemento existente"
+
+msgid "New item"
+msgstr "Elemento novo"
+
+msgid "_Suggest New Name"
+msgstr "_Suxerir un nome novo"
+
+msgid "New name:"
+msgstr "Nome novo:"
+
+msgid "Apply to _all"
+msgstr "Aplicar a _todos"
+
+msgid "S_kip"
+msgstr "_Omitir"
+
+msgid "_Write Into"
+msgstr "_Escribir dentro"
+
+msgid "_Overwrite"
+msgstr "_Sobrescribir"
+
+msgid "Search icons…"
+msgstr "Buscar iconas…"
+
+msgid "_Image File…"
+msgstr "Ficheiro de _imaxe…"
+
+msgid "_Default Icon"
+msgstr "Icona _predeterminada"
+
+msgid "Choose an Image"
+msgstr "Escolla unha imaxe"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "As localizacións de rede precisan gvfs. Instale o paquete gvfs (e gvfs-smb para as comparticións de Windows, gvfs-nfs para NFS) e volva iniciar a sesión."
+
+msgid "This location is not a folder."
+msgstr "Esta localización non é un cartafol."
+
+msgid "This location is not valid."
+msgstr "Esta localización non é válida."
+
+msgid "This folder is not in the archive."
+msgstr "Este cartafol non está no arquivo."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s ficheiro máis pequeno"
+msgstr[1] "%s ficheiros máis pequenos"
+
+msgid "(another drive, not counted)"
+msgstr "(outra unidade, sen contar)"
+
+msgid "Some of its contents could not be read."
+msgstr "Non foi posíbel ler parte do seu contido."
+
+msgid "%s in files"
+msgstr "%s en ficheiros"
+
+msgid "%s on disk"
+msgstr "%s no disco"
+
+msgid "%s files and %s folders"
+msgstr "%s ficheiros e %s cartafoles"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Lendo… %s en %s ficheiros e %s cartafoles"
+
+msgid "Stopped."
+msgstr "Detido."
+
+msgid "This folder could not be read."
+msgstr "Non foi posíbel ler este cartafol."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, lido en %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Non foi posíbel ler %s cartafol."
+msgstr[1] ". Non foi posíbel ler %s cartafoles."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Só se poden medir cartafoles deste computador."
+
+msgid "read less than a minute ago"
+msgstr "lido hai menos dun minuto"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "lido hai %d minuto"
+msgstr[1] "lido hai %d minutos"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "lido hai %d hora"
+msgstr[1] "lido hai %d horas"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Volva analizar para lelo de novo."
+
+msgid "_Apparent size"
+msgstr "Tamaño _aparente"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Sumar os tamaños dos ficheiros en vez do espazo que ocupan no disco."
+
+msgid "_Stay on this drive"
+msgstr "_Quedar nesta unidade"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Non contar outras unidades montadas dentro deste cartafol (como un cartafol de música noutro disco). As ligazóns nunca se seguen."
+
+msgid "Rescan"
+msgstr "Volver analizar"
+
+msgid "Close Disk Usage"
+msgstr "Pechar o uso do disco"
+
+msgid "_Rescan"
+msgstr "_Volver analizar"
+
+msgid "S_top"
+msgstr "_Deter"
+
+msgid "Disk Usage – %s"
+msgstr "Uso do disco – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "«%s» xa existe. Substituílo?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu destes ficheiros xa existen. Substituílos?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "O programa desde o que garda vai escribir sobre o contido existente."
+
+msgid "Choose a folder to save in."
+msgstr "Escolla un cartafol onde gardar."
+
+msgid "Select Folder"
+msgstr "Seleccionar o cartafol"
+
+msgid "Open Files"
+msgstr "Abrir ficheiros"
+
+msgid "Open File"
+msgstr "Abrir un ficheiro"
+
+msgid "Save File"
+msgstr "Gardar o ficheiro"
+
+msgid "Save Files"
+msgstr "Gardar os ficheiros"
+
+msgid "_Folder:"
+msgstr "_Cartafol:"
+
+msgid "_Name:"
+msgstr "_Nome:"
+
+msgid "_Type:"
+msgstr "_Tipo:"
+
+msgid "_Select"
+msgstr "_Seleccionar"
+
+msgid "_Open"
+msgstr "_Abrir"
+
+msgid "Create new folder in:\n%s"
+msgstr "Crear un cartafol novo en:\n%s"
+
+msgid "C_reate"
+msgstr "C_rear"
+
+msgid "Could not create the folder."
+msgstr "Non foi posíbel crear o cartafol."
+
+msgid "%zu items selected"
+msgstr "%zu elementos seleccionados"
+
+msgid "Contents:"
+msgstr "Contido:"
+
+msgid "Contains:"
+msgstr "Contén:"
+
+msgid "Counting…"
+msgstr "Contando…"
+
+msgid "Broken Link"
+msgstr "Ligazón rota"
+
+msgid "%s (link)"
+msgstr "%s (ligazón)"
+
+msgid "other drive"
+msgstr "outra unidade"
+
+msgid "%s of %s"
+msgstr "%s de %s"
+
+msgid "%s left"
+msgstr "quedan %s"
+
+msgid "%d of %d"
+msgstr "%d de %d"
+
+msgid "File operations in progress"
+msgstr "Operacións con ficheiros en curso"
+
+msgid "No subfolders"
+msgstr "Sen subcartafoles"
+
+msgid "Select the given files in their folders"
+msgstr "Seleccionar os ficheiros indicados nos seus cartafoles"
+
+msgid "Open the window in split view"
+msgstr "Abrir a xanela en vista dividida"
+
+msgid "Always open a new window"
+msgstr "Abrir sempre unha xanela nova"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Seguir en execución en segundo plano para o servizo D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Desligar do terminal (sen localización: abre o cartafol actual)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Executar o selector de ficheiros para xdg-desktop-portal (iniciado por D-Bus)"
+
+msgid "Show the version"
+msgstr "Mostrar a versión"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FICHEIRO ou CARTAFOL…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Actuando como administrador: os cambios nesta xanela poden danar o sistema."
+
+msgid "Close this window?"
+msgstr "Pechar esta xanela?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Esta xanela ten %zu lapelas abertas. Pechala pecha todas."
+
+msgid "Close Window"
+msgstr "Pechar a xanela"
+
+msgid "Show _Toolbar"
+msgstr "Mostrar a barra de _ferramentas"
+
+msgid "_File"
+msgstr "_Ficheiro"
+
+msgid "New _Window"
+msgstr "_Xanela nova"
+
+msgid "New _Tab"
+msgstr "_Lapela nova"
+
+msgid "_Close Tab"
+msgstr "_Pechar a lapela"
+
+msgid "Create _New"
+msgstr "Crear _novo"
+
+msgid "_Rename…"
+msgstr "_Renomear…"
+
+msgid "_Duplicate Here"
+msgstr "_Duplicar aquí"
+
+msgid "Move to _Trash"
+msgstr "Mover ao _lixo"
+
+msgid "_Delete"
+msgstr "_Eliminar"
+
+msgid "Restore from Trash"
+msgstr "Restaurar do lixo"
+
+msgid "_Properties"
+msgstr "_Propiedades"
+
+msgid "_Quit"
+msgstr "_Saír"
+
+msgid "_Edit"
+msgstr "_Editar"
+
+msgid "_Undo"
+msgstr "_Desfacer"
+
+msgid "_Redo"
+msgstr "_Refacer"
+
+msgid "Cu_t"
+msgstr "Cor_tar"
+
+msgid "_Copy"
+msgstr "_Copiar"
+
+msgid "_Paste"
+msgstr "_Pegar"
+
+msgid "_Search…"
+msgstr "_Buscar…"
+
+msgid "Select _All"
+msgstr "Seleccionar _todo"
+
+msgid "_View"
+msgstr "_Ver"
+
+msgid "Zoom _In"
+msgstr "_Ampliar"
+
+msgid "Zoom _Out"
+msgstr "_Reducir"
+
+msgid "Re_load"
+msgstr "Re_cargar"
+
+msgid "Show _Menubar"
+msgstr "Mostrar a barra de _menú"
+
+msgid "Show _Statusbar"
+msgstr "Mostrar a barra de e_stado"
+
+msgid "_Go"
+msgstr "_Ir"
+
+msgid "_Back"
+msgstr "_Atrás"
+
+msgid "_Forward"
+msgstr "_Adiante"
+
+msgid "_Up"
+msgstr "_Subir"
+
+msgid "_Home"
+msgstr "_Cartafol persoal"
+
+msgid "_Tools"
+msgstr "_Ferramentas"
+
+msgid "Open _Terminal"
+msgstr "Abrir un _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Abrir un terminal _aquí"
+
+msgid "_Disk Usage…"
+msgstr "Uso do _disco…"
+
+msgid "_Settings"
+msgstr "_Configuración"
+
+msgid "Configure Tool_bars…"
+msgstr "Configurar as _barras de ferramentas…"
+
+msgid "_Configure Beluga…"
+msgstr "_Configurar Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Non hai lapelas pechadas recentemente"
+
+msgid "(Administrator)"
+msgstr "(Administrador)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Abrir %zu cartafoles en lapelas novas?"
+
+msgid "Open Folders"
+msgstr "Abrir os cartafoles"
+
+msgid "Could not open “%s”."
+msgstr "Non foi posíbel abrir «%s»."
+
+msgid "Could not open a terminal."
+msgstr "Non foi posíbel abrir un terminal."
+
+msgid "New Text File.txt"
+msgstr "Ficheiro de texto novo.txt"
+
+msgid "New File"
+msgstr "Ficheiro novo"
+
+msgid "Empty the trash?"
+msgstr "Baleirar o lixo?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Todos os elementos do lixo eliminaranse definitivamente. Isto non se pode desfacer."
+
+msgid "Open %zu terminals?"
+msgstr "Abrir %zu terminais?"
+
+msgid "Open Terminals"
+msgstr "Abrir os terminais"
+
+msgid "Create new file in:\n%s"
+msgstr "Crear un ficheiro novo en:\n%s"
+
+msgid "Could not create the file."
+msgstr "Non foi posíbel crear o ficheiro."
+
+msgid "Link to File or Folder"
+msgstr "Ligazón a un ficheiro ou cartafol"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Ruta do ficheiro ou cartafol ao que ligar:"
+
+msgid "Could not create the link."
+msgstr "Non foi posíbel crear a ligazón."
+
+msgid "Permanently delete %s?"
+msgstr "Eliminar %s definitivamente?"
+
+msgid "This cannot be undone."
+msgstr "Isto non se pode desfacer."
+
+msgid "Move %s to the trash?"
+msgstr "Mover %s ao lixo?"
+
+msgid "Could not run “%s”."
+msgstr "Non foi posíbel executar «%s»."
+
+msgid "Could not start %s."
+msgstr "Non foi posíbel iniciar %s."
+
+msgid "Could not start the application."
+msgstr "Non foi posíbel iniciar a aplicación."
+
+msgid "“%s” is an executable file."
+msgstr "«%s» é un ficheiro executábel."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Quere executalo ou abrilo nunha aplicación?"
+
+msgid "Run"
+msgstr "Executar"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Escolla a aplicación para abrir %s (%s):"
+
+msgid "Or command:"
+msgstr "Ou unha orde:"
+
+msgid "Remember application association for this type of file"
+msgstr "Lembrar a asociación de aplicación para este tipo de ficheiro"
+
+msgid "%s free of %s"
+msgstr "%s libres de %s"
+
+msgid "Configure Sections"
+msgstr "Configurar as seccións"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "As seccións marcadas móstranse no panel de lugares, nesta orde."
+
+msgid "Move Up"
+msgstr "Subir"
+
+msgid "Move Down"
+msgstr "Baixar"
+
+msgid "Could not mount the device: %s"
+msgstr "Non foi posíbel montar o dispositivo: %s"
+
+msgid "Configure Sections…"
+msgstr "Configurar as seccións…"
+
+msgid "Hide Hidden Entries"
+msgstr "Agochar as entradas agochadas"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Todos os elementos do lixo eliminaranse definitivamente."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Non foi posíbel retirar o dispositivo con seguranza: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Non foi posíbel desmontar o dispositivo: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Usar o tipo de letra do _sistema"
+
+msgid "Context Menu Action"
+msgstr "Acción do menú contextual"
+
+msgid "Types:"
+msgstr "Tipos:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f primeiro ficheiro, %F todos os ficheiros, %u / %U como URI, %n / %N nomes, %d cartafol actual."
+
+msgid "Show for _files"
+msgstr "Mostrar para _ficheiros"
+
+msgid "Show for f_olders"
+msgstr "Mostrar para c_artafoles"
+
+msgid "Show when _several items are selected"
+msgstr "Mostrar cando hai _varios elementos seleccionados"
+
+msgid "Run in a _terminal"
+msgstr "Executar nun _terminal"
+
+msgid "Custom Actions"
+msgstr "Accións personalizadas"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "As súas propias entradas para o menú contextual de ficheiros e cartafoles."
+
+msgid "_Add…"
+msgstr "_Engadir…"
+
+msgid "_Edit…"
+msgstr "_Editar…"
+
+msgid "_Remove"
+msgstr "_Retirar"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Os atallos escríbense como <Control>c ou <Shift>Delete. Separe varios con comas. Deixe un campo baleiro para usar o predeterminado."
+
+msgid "files below %d MiB"
+msgstr "ficheiros de menos de %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Restabelecer os predeterminados"
+
+msgid "_Apply"
+msgstr "_Aplicar"
+
+msgid "Folders & Tabs"
+msgstr "Cartafoles e lapelas"
+
+msgid "This location:"
+msgstr "Esta localización:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Manter unha soa xanela de Beluga e abrir os cartafoles novos en lapelas"
+
+msgid "Tabs:"
+msgstr "Lapelas:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "As lapelas de largura fixa estréitanse, todas na mesma medida, cando non caben."
+
+msgid "No terminal found"
+msgstr "Non se atopou ningún terminal"
+
+msgid "Detected: %s"
+msgstr "Detectado: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Úsano F4 e Abrir un terminal aquí. %d na orde substitúese polo cartafol; se non, o terminal iníciase nel. Antes era unha opción do sistema de KDE."
+
+msgid "New folders:"
+msgstr "Cartafoles novos:"
+
+msgid "Show _previews in new folders"
+msgstr "Mostrar _vistas previas nos cartafoles novos"
+
+msgid "Audio (cover art)"
+msgstr "Son (portadas)"
+
+msgid "PDF documents"
+msgstr "Documentos PDF"
+
+msgid "Text files"
+msgstr "Ficheiros de texto"
+
+msgid "Fonts"
+msgstr "Tipos de letra"
+
+msgid "Office documents"
+msgstr "Documentos de oficina"
+
+msgid "Ask for confirmation when:"
+msgstr "Pedir confirmación ao:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Pedir confirmación en Beluga ao:"
+
+msgid "Use _long date format"
+msgstr "Usar o formato de data _longo"
+
+msgid "Show _hidden folders"
+msgstr "Mostrar os cartafoles _agochados"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Desprazarse ao cartafol actual _automaticamente"
+
+msgid "Places Panel:"
+msgstr "Panel de lugares:"
+
+msgid "Status & Location bars"
+msgstr "Barras de estado e de localización"
+
+msgid "Show free _space"
+msgstr "Mostrar o _espazo libre"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "En calquera caso, Ver › Lembrar a vista deste cartafol dálle a un cartafol o seu propio estilo. Algunhas vistas especiais, como a busca, os ficheiros recentes ou o lixo, seguen a usar un estilo propio."
+
+msgid "Open files and folders with a single click"
+msgstr "Abrir ficheiros e cartafoles cun só clic"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Manter un _índice do cartafol persoal para a busca instantánea"
+
+msgid "levels deep"
+msgstr "niveis de profundidade"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativa (Hoxe, Onte…)"
+
+msgid "Absolute"
+msgstr "Absoluta"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simbólico (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numérico (0755)"
+
+msgid "Combined"
+msgstr "Combinado"
+
+msgid "Elide in the middle"
+msgstr "Elidir no medio"
+
+msgid "Elide at the end"
+msgstr "Elidir ao final"
+
+msgid "Disk usage:"
+msgstr "Uso do disco:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Mostrar unha columna de _uso do disco"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "O espazo que ocupa no disco cada ficheiro e cada cartafol enteiro, cunha barra para a súa parte do cartafol, como en Ferramentas › Uso do disco. Os cartafoles lense enteiros en segundo plano; ordene pola columna para ver primeiro os maiores. \"Quedar nesta unidade\" da xanela Uso do disco tamén se aplica aquí."
+
+msgid "Show in the context menu"
+msgstr "Mostrar no menú contextual"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "«Copiar en» e «Mover a»"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Eliminar (ademais de Mover ao lixo)"
+
+msgid "Cleanup:"
+msgstr "Limpeza:"
+
+msgid "Delete files older than"
+msgstr "Eliminar ficheiros con máis de"
+
+msgid "days"
+msgstr "días"
+
+msgid "Limit to"
+msgstr "Limitar a"
+
+msgid "percent of the disk"
+msgstr "por cento do disco"
+
+msgid "Keep the trash on the home drive"
+msgstr "Manter o lixo na unidade do cartafol persoal"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Os ficheiros que se moven ao lixo desde outras unidades cópianse no lixo do cartafol persoal, así esas unidades non teñen cartafol .Trash-1000. Mover ficheiros grandes ao lixo leva entón máis tempo."
+
+msgid "Full trash:"
+msgstr "Lixo cheo:"
+
+msgid "When the limit is reached:"
+msgstr "Ao chegar ao límite:"
+
+msgid "Show a warning"
+msgstr "Mostrar un aviso"
+
+msgid "Delete the oldest items"
+msgstr "Eliminar os elementos máis antigos"
+
+msgid "Delete the largest items"
+msgstr "Eliminar os elementos máis grandes"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Antes eran opcións do sistema de KDE. Os límites aplícanse cando se inicia Beluga e despois de mover elementos ao lixo."
+
+msgid "Calculating trash size…"
+msgstr "Calculando o tamaño do lixo…"
+
+msgid "The trash currently uses %s."
+msgstr "O lixo ocupa agora %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Baleirar o lixo agora"
+
+msgid "Vim Mode"
+msgstr "Modo Vim"
+
+msgid "Vim mode:"
+msgstr "Modo Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Usar teclas ao estilo de Vim nas vistas"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "O modo normal móvese con h j k l e executa as teclas de embaixo; v, V e Ctrl+V seleccionan; i e a renomean (modo de inserción); Esc volve ao modo normal; : abre a liña de ordes. As teclas con Ctrl ou Alt que non están aquí manteñen o seu significado habitual."
+
+msgid "Leader key:"
+msgstr "Tecla líder:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> nas teclas de embaixo, p. ex. <Space> ou ,"
+
+msgid "Wait for more keys:"
+msgstr "Agardar por máis teclas:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd despois de d, gg despois de g)"
+
+msgid "Keys"
+msgstr "Teclas"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notación de Vim, varias separadas por espazos: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Deixe un campo baleiro para o predeterminado."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q pecha a xanela (:q! sen preguntar polas lapelas), :qa sae de Beluga, :e ou :cd RUTA abre un cartafol, :tabnew [RUTA], :tabclose, :tabonly, :sp ou :vs [RUTA] dividen a vista, :only pecha a outra vista, :mkdir NOME, :touch NOME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ORDE executa unha orde do intérprete no cartafol."
+
+msgid "Keyboard Shortcuts"
+msgstr "Atallos de teclado"
+
+msgid "Only files on this computer can be read."
+msgstr "Só se poden ler ficheiros deste computador."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga compilouse sen FFmpeg."
+
+msgid "Reading…"
+msgstr "Lendo…"
+
+msgid "No details found."
+msgstr "Non se atoparon detalles."
+
+msgid "Change the folder's icon"
+msgstr "Cambiar a icona do cartafol"
+
+msgid "Could not change the icon."
+msgstr "Non foi posíbel cambiar a icona."
+
+msgid "%zu items"
+msgstr "%zu elementos"
+
+msgid "No default application"
+msgstr "Ningunha aplicación predeterminada"
+
+msgid "C_hange…"
+msgstr "_Cambiar…"
+
+msgid "Opens with:"
+msgstr "Ábrese con:"
+
+msgid "Can View"
+msgstr "Pode ver"
+
+msgid "Can View Content"
+msgstr "Pode ver o contido"
+
+msgid "Is _executable"
+msgstr "É _executábel"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Aplicar os cambios a todos os _subcartafoles e ao seu contido"
+
+msgid "Could not read the file."
+msgstr "Non foi posíbel ler o ficheiro."
+
+msgid "Paste a checksum to compare"
+msgstr "Pegue unha suma de comprobación para comparar"
+
+msgid "Verify:"
+msgstr "Verificar:"
+
+msgid "The checksums match."
+msgstr "As sumas de comprobación coinciden."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Ningunha suma de comprobación calculada coincide. Calcule primeiro o tipo correspondente."
+
+msgid "Could not change the permissions."
+msgstr "Non foi posíbel cambiar os permisos."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtrar por nome (funcionan comodíns como *.txt)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Manter o filtro ao cambiar de cartafol"
+
+msgid "In This Folder"
+msgstr "Neste cartafol"
+
+msgid "In Your Files"
+msgstr "Nos seus ficheiros"
+
+msgid "Any Time"
+msgstr "En calquera momento"
+
+msgid "Last 7 Days"
+msgstr "Últimos 7 días"
+
+msgid "Last 30 Days"
+msgstr "Últimos 30 días"
+
+msgid "Last Year"
+msgstr "Último ano"
+
+msgid "Hidden files"
+msgstr "Ficheiros agochados"
+
+msgid "Duplicate Tab"
+msgstr "Duplicar a lapela"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "As accións por riba da barra de localización na lista sitúanse á súa esquerda, as outras á súa dereita. * marca as accións que non están onde as ten a barra de ferramentas predeterminada."
+
+msgid "A_vailable actions:"
+msgstr "Accións _dispoñíbeis:"
+
+msgid "Add to the tool bar"
+msgstr "Engadir á barra de ferramentas"
+
+msgid "Remove from the tool bar"
+msgstr "Retirar da barra de ferramentas"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Subir (á esquerda na barra de ferramentas)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Baixar (á dereita na barra de ferramentas)"
+
+msgid "C_urrent actions:"
+msgstr "Accións a_ctuais:"
+
+msgid "_Defaults"
+msgstr "_Predeterminadas"
+
+msgid "Show Columns"
+msgstr "Mostrar as columnas"
+
+msgid "Modified: %s"
+msgstr "Modificado: %s"
+
+msgid "Original location: %s"
+msgstr "Localización orixinal: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Menos de 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "De 1 MiB a 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "De 100 MiB a 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB ou máis"
+
+msgid "Not counted yet"
+msgstr "Aínda sen contar"
+
+msgid "A file name cannot contain “/”."
+msgstr "Un nome de ficheiro non pode conter «/»."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Renomear «%s» como «%s» cambia a súa extensión. O ficheiro pode abrirse con outra aplicación ou non abrirse."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Modo de selección: prema en ficheiros ou cartafoles para seleccionalos ou deseleccionalos."
+
+msgid "_Exit Selection Mode"
+msgstr "_Saír do modo de selección"
+
+msgid "_Duplicate"
+msgstr "_Duplicar"
+
+msgid "De_lete"
+msgstr "E_liminar"
+
+msgid "Pr_operties"
+msgstr "Pr_opiedades"
+
+msgid "The folder “%s” no longer exists."
+msgstr "O cartafol «%s» xa non existe."
+
+msgid "“%s” selected (%s%s)"
+msgstr "«%s» seleccionado (%s%s)"
+
+msgid "%s selected"
+msgstr "%s seleccionado"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d seleccionado"
+msgstr[1] "%d seleccionados"
+
+msgid "Move left"
+msgstr "Mover á esquerda"
+
+msgid "Move down"
+msgstr "Mover abaixo"
+
+msgid "Move up"
+msgstr "Mover arriba"
+
+msgid "Move right"
+msgstr "Mover á dereita"
+
+msgid "First item"
+msgstr "Primeiro elemento"
+
+msgid "Last item"
+msgstr "Último elemento"
+
+msgid "Page down"
+msgstr "Páxina abaixo"
+
+msgid "Page up"
+msgstr "Páxina arriba"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Seleccionar os elementos polos que pasa o cursor (visual)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Seleccionar un intervalo, como con Maiús (liña visual)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Seleccionar un bloque da grade (bloque visual)"
+
+msgid "Back to normal mode"
+msgstr "Volver ao modo normal"
+
+msgid "Copy the item under the cursor"
+msgstr "Copiar o elemento baixo o cursor"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Renomear, cursor ao comezo (inserir)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Renomear, cursor despois do nome (engadir)"
+
+msgid "Rename, name selected (change)"
+msgstr "Renomear, nome seleccionado (cambiar)"
+
+msgid "Edit the location"
+msgstr "Editar a localización"
+
+msgid "Copied."
+msgstr "Copiado."
+
+msgid "Cut."
+msgstr "Cortado."
+
+msgid "Can't open “%s”."
+msgstr "Non se pode abrir «%s»."
+
+msgid "A name is needed."
+msgstr "Precísase un nome."
+
+msgid "Unknown view: %s"
+msgstr "Vista descoñecida: %s"
+
+msgid "Unknown option: %s"
+msgstr "Opción descoñecida: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordenar por nome, tamaño, data ou tipo."
+
+msgid "Not a command: %s"
+msgstr "Non é unha orde: %s"
+
+msgid "Move"
+msgstr "Mover"
+
+msgid "Focus Other View"
+msgstr "Enfocar a outra vista"
+
+msgid "Split View to Tabs"
+msgstr "Vista dividida a lapelas"
+
+msgid "Folders Panel"
+msgstr "Panel de cartafoles"
+
+msgid "Columns"
+msgstr "Columnas"
+
+msgid "Files"
+msgstr "Ficheiros"
+
+msgid "Restore to Defaults"
+msgstr "Restabelecer os predeterminados"
+
+msgid "Recommended Applications"
+msgstr "Aplicacións recomendadas"
+
+msgid "Other Applications"
+msgstr "Outras aplicacións"
+
+msgid "File names:"
+msgstr "Nomes dos ficheiros:"
+
+msgid "Always show tab bar"
+msgstr "Mostrar sempre a barra de lapelas"
+
+msgid "Show close button on tabs"
+msgstr "Mostrar o botón de pechar nas lapelas"
+
+msgid "Tab style:"
+msgstr "Estilo das lapelas:"
+
+msgid "Tab width adapts to folder name"
+msgstr "A largura da lapela adáptase ao nome do cartafol"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Todas as lapelas teñen a mesma largura fixa"
+
+msgid "When closing a split view"
+msgstr "Ao pechar unha vista dividida"
+
+msgid "Close the active pane"
+msgstr "Pechar o panel activo"
+
+msgid "Close the inactive pane"
+msgstr "Pechar o panel inactivo"
+
+msgid "Close the right pane"
+msgstr "Pechar o panel dereito"
+
+msgid "Open new windows in split view mode"
+msgstr "Abrir as xanelas novas en vista dividida"
+
+msgid "Renaming a file will change its type"
+msgstr "Renomear un ficheiro cambia o seu tipo"
+
+msgid "Folders Panel:"
+msgstr "Panel de cartafoles:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Limitar ao cartafol persoal cando se está dentro del"
+
+msgid "Browse compressed files as folders"
+msgstr "Explorar os ficheiros comprimidos como cartafoles"
+
+msgid "Long file names:"
+msgstr "Nomes de ficheiro longos:"
+
+msgid "Spacing:"
+msgstr "Espazado:"
+
+msgid "Command line"
+msgstr "Liña de ordes"
+
+msgid "Everywhere"
+msgstr "En todas partes"
+
+msgid "File Names"
+msgstr "Nomes de ficheiro"
+
+msgid "File Names and Contents"
+msgstr "Nomes e contido dos ficheiros"
+
+msgid "No items found"
+msgstr "Non se atopou ningún elemento"
+
+msgid "Free space:"
+msgstr "Espazo libre:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s libres de %s (%d%% usado)"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu byte"
+msgstr[1] "%llu bytes"

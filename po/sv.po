@@ -19,95 +19,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Arkivet kunde inte öppnas."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Arkivet kunde inte läsas."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Avbrutet."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Filen är krypterad med ett lösenord."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "”%s” kunde inte läsas."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Det här är inte en fil i ett arkiv."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Packa upp här"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Komprimera till .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Ingen terminalemulator hittades."
 
 msgid "Root"
-msgstr ""
+msgstr "Rot"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Volym %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Enheten kan inte monteras."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Enheten kan inte avmonteras."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Enheten finns inte längre."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Kopierar %s till ”%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Flyttar %s till ”%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Länkar %s i ”%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Flyttar %s till papperskorgen"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Tar bort %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Återställer %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Tömmer papperskorgen"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Räknar filer…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "”%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "En mapp kan inte flyttas in i sig själv."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "En mapp kan inte kopieras in i sig själv."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Filer kan bara packas upp i lokala mappar."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Packar upp från ”%s”"
 
 msgid "Title:"
 msgstr "Titel:"
@@ -125,7 +125,7 @@ msgid "Track:"
 msgstr "Spår:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Skiva:"
 
 msgid "Date:"
 msgstr "Datum:"
@@ -156,11 +156,11 @@ msgstr "Språk:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Längd:"
@@ -169,58 +169,58 @@ msgid "Format:"
 msgstr "Format:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Bithastighet:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Omslag:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f bilder/s"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f bilder/s"
 
 msgid "Video:"
 msgstr "Video:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "stereo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanaler"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bitar"
 
 msgid "Audio:"
 msgstr "Ljud:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Ljud %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Undertexter:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Kapitel:"
 
 msgid "Places"
 msgstr "Platser"
@@ -268,7 +268,7 @@ msgid "Recent Files"
 msgstr "Senaste filer"
 
 msgid "Images"
-msgstr ""
+msgstr "Bilder"
 
 msgid "Audio"
 msgstr "Ljud"
@@ -277,37 +277,37 @@ msgid "Folders"
 msgstr "Kataloger"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arkiv"
 
 msgid "All Files"
 msgstr "Alla filer"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Sök efter ”%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Ingen terminalemulator hittades. Ange en under Anpassa Beluga › Allmänt › Terminal."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Filsystemet har ingen papperskorg."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Papperskorgens informationsfil kunde inte skapas."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "”%s” finns redan."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Papperskorgen är större än gränsen %s. Överväg att tömma den."
 
 msgid "Copy"
 msgstr "Kopiera"
 
 msgid "Move"
-msgstr ""
+msgstr "Flytta"
 
 msgid "Link"
 msgstr "Länk"
@@ -322,21 +322,21 @@ msgid "Create Folder"
 msgstr "Skapa mapp"
 
 msgid "Create File"
-msgstr ""
+msgstr "Skapa fil"
 
 msgid "Undo"
 msgstr "Ångra"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Ångra: %s"
 
 msgid "Redo"
 msgstr "Gör om"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Gör om: %s"
 
 #, c-format
 msgid "%d item"
@@ -347,14 +347,14 @@ msgstr[1] "%d objekt"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fil"
+msgstr[1] "%d filer"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mapp"
+msgstr[1] "%d mappar"
 
 #, c-format
 msgid "%s, %s"
@@ -362,14 +362,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "I dag kl. %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "I går kl. %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A kl. %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -377,11 +377,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld min %ld s"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld h %ld min"
 
 #, c-format
 msgid "%s copy"
@@ -389,7 +389,7 @@ msgstr "%s kopia"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s kopia %d"
 
 msgid "Name"
 msgstr "Namn"
@@ -398,7 +398,7 @@ msgid "Size"
 msgstr "Storlek"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Diskanvändning"
 
 msgid "Modified"
 msgstr "Ändrad"
@@ -413,7 +413,7 @@ msgid "Type"
 msgstr "Typ"
 
 msgid "Extension"
-msgstr ""
+msgstr "Filändelse"
 
 msgid "Permissions"
 msgstr "Skydd"
@@ -434,22 +434,22 @@ msgid "Deletion Time"
 msgstr "Borttagningstid"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Ursprunglig plats"
 
 msgid "Dimensions"
 msgstr "Dimensioner"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga kunde inte agera som administratör."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "pkexec (polkit) behövs för att fråga efter administratörslösenordet. Installera polkit och en polkit-agent för din skrivbordsmiljö."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "Risker med att agera som administratör"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Ett Beluga-fönster med administratörsrättigheter kan ändra och ta bort vilken fil som helst på datorn, även de filer som systemet behöver för att starta. Ett misstag där kan göra systemet oanvändbart. Använd det bara för filer som du inte kan ändra på annat sätt, och stäng det när du är klar.\n\nBeluga frågar sedan efter administratörslösenordet."
 
 msgid "Cancel"
 msgstr "Avbryt"
@@ -521,7 +521,7 @@ msgid "Details View"
 msgstr "Detaljvisning"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Kolumnvy"
 
 msgid "Zoom In"
 msgstr "Zooma in"
@@ -530,7 +530,7 @@ msgid "Zoom Out"
 msgstr "Zooma ut"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Återställ zoom"
 
 msgid "Show Hidden Files"
 msgstr "Visa dolda filer"
@@ -545,10 +545,10 @@ msgid "Focus Other View"
 msgstr "Fokusera andra vyn"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Lyft ut delad vy"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Delad vy till flikar"
 
 msgid "Reload"
 msgstr "Uppdatera"
@@ -560,16 +560,16 @@ msgid "Replace Location"
 msgstr "Ersätt plats"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Platspanel"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Mappanel"
 
 msgid "Information Panel"
 msgstr "Informationspanel"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Diskanvändningspanel"
 
 msgid "Focus Places Panel"
 msgstr "Fokusera platspanel"
@@ -590,31 +590,31 @@ msgid "Up"
 msgstr "Upp"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Gå till flik 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Gå till flik 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Gå till flik 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Gå till flik 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Gå till flik 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Gå till flik 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Gå till flik 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Gå till flik 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Gå till flik 9"
 
 msgid "Go to Last Tab"
 msgstr "Gå till sista fliken"
@@ -635,29 +635,29 @@ msgid "Configure Toolbars"
 msgstr "Anpassa verktygsrader"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Anpassa Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Det gick inte att ångra."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Mapp…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Textfil…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Tom fil…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Länk till fil eller mapp…"
 
 msgid "Create New"
 msgstr "Skapa ny"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Annan vy (%s)"
 
 msgid "Browse…"
 msgstr "Bläddra…"
@@ -697,7 +697,7 @@ msgid "View Mode"
 msgstr "Visningsläge"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Kom ihåg vyn för den här mappen"
 
 msgid "Restore"
 msgstr "Återställ"
@@ -715,13 +715,13 @@ msgid "Open in Split View"
 msgstr "Öppna i delad vy"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Öppna i Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Öppna katalog med innehåll"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Klistra in i mappen"
 
 msgid "Rename…"
 msgstr "Byt namn…"
@@ -733,65 +733,65 @@ msgid "Close"
 msgstr "Stäng"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Avbryt"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Namnet får inte innehålla ”/”."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Ett namn som börjar med en punkt är dolt."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Vissa objekt kunde inte byta namn."
 
 msgid "Rename Item"
 msgstr "Byt namn på objekt"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Byt namn på ”%s” till:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Byt namn"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Det gick inte att byta namn på ”%s”."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Ändra filtypen?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Om ”%s” byter namn till ”%s” ändras dess filändelse."
 
 msgid "Rename Items"
 msgstr "Byt namn på objekt"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Byt namn på de %zu markerade objekten till:"
 
 msgid "New name #"
 msgstr "Nytt namn #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# ersätts med stigande nummer; använd ## för inledande nollor. Filändelser behålls."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Börja numrera på:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Flytta hit"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Kopiera hit"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Länka hit"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "A_vbryt"
 
 msgid "Add Places Entry"
 msgstr "Lägg till platspost"
@@ -803,25 +803,25 @@ msgid "Label:"
 msgstr "Beskrivning:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Välj en mapp"
 
 msgid "Location:"
 msgstr "Plats:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Välj…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Ikonnamn:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Välj en mapp"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Lägg till"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Spara"
 
 msgid "View Display Style"
 msgstr "Visningsstil"
@@ -851,19 +851,19 @@ msgid "Descending"
 msgstr "Fallande"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Visa _mappar först"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Visa dolda filer _sist"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Visa _förhandsgranskningar"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Visa i _grupper"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Visa _dolda filer"
 
 msgid "Apply to"
 msgstr "Verkställ för"
@@ -872,17 +872,17 @@ msgid "Current folder"
 msgstr "Nuvarande katalog"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Aktuell mapp inklusive alla undermappar"
 
 msgid "All folders"
 msgstr "Alla kataloger"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "ändrad %s"
 
 msgid "Folder Already Exists"
 msgstr "Katalogen finns redan"
@@ -892,35 +892,35 @@ msgstr "Filen finns redan"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "En mapp med namnet ”%s” finns redan i ”%s”."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "En fil med namnet ”%s” finns redan i ”%s”."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Befintligt objekt"
 
 msgid "New item"
-msgstr ""
+msgstr "Nytt objekt"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Föreslå nytt namn"
 
 msgid "New name:"
-msgstr ""
+msgstr "Nytt namn:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Tillämpa på _alla"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Hoppa över"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "S_kriv in i"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Skriv över"
 
 msgid "Skip"
 msgstr "Hoppa över"
@@ -935,198 +935,198 @@ msgid "Choose an Icon"
 msgstr "Välj en ikon"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Sök ikoner…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "_Bildfil…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_Standardikon"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Välj en bild"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Nätverksplatser kräver gvfs. Installera paketet gvfs (och gvfs-smb för Windows-utdelningar, gvfs-nfs för NFS) och logga sedan ut och in igen."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Platsen är inte en mapp."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Platsen är inte giltig."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Mappen finns inte i arkivet."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s mindre fil"
+msgstr[1] "%s mindre filer"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(annan enhet, inte räknad)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "En del av innehållet kunde inte läsas."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s i filer"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s på disk"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s filer och %s mappar"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Läser… %s i %s filer och %s mappar"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Stoppad."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Mappen kunde inte läsas."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, läst på %.1f s"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s mapp kunde inte läsas."
+msgstr[1] ". %s mappar kunde inte läsas."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Bara mappar på den här datorn kan mätas."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "läst för mindre än en minut sedan"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "läst för %d minut sedan"
+msgstr[1] "läst för %d minuter sedan"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "läst för %d timme sedan"
+msgstr[1] "läst för %d timmar sedan"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Sök igenom igen för att läsa det på nytt."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Skenbar storlek"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Lägg ihop filstorlekarna i stället för det diskutrymme som filerna tar."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Stanna på den här enheten"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Räkna inte andra enheter som är monterade i mappen (som en musikmapp på en annan disk). Länkar följs aldrig."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Sök igenom igen"
 
 msgid "Stop"
 msgstr "Stoppa"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Stäng diskanvändning"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Sök igenom igen"
 
 msgid "S_top"
-msgstr ""
+msgstr "S_toppa"
 
 msgid "Share"
 msgstr "Dela"
 
 msgid "Files"
-msgstr ""
+msgstr "Filer"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Diskanvändning – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "”%s” finns redan. Ersätta den?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu av filerna finns redan. Ersätta dem?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Programmet du sparar från kommer att skriva över det befintliga innehållet."
 
 msgid "Replace"
 msgstr "Ersätt"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Välj en mapp att spara i."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Välj mapp"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Öppna filer"
 
 msgid "Open File"
-msgstr ""
+msgstr "Öppna fil"
 
 msgid "Save File"
-msgstr ""
+msgstr "Spara fil"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Spara filer"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Mapp:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Namn:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Typ:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Välj"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Öppna"
 
 msgid "New Folder"
 msgstr "Ny katalog"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Skapa ny mapp i:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "S_kapa"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Mappen kunde inte skapas."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu objekt markerade"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Innehåll:"
 
 msgid "Size:"
 msgstr "Storlek:"
@@ -1138,10 +1138,10 @@ msgid "Folder"
 msgstr "Katalog"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Innehåller:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Räknar…"
 
 msgid "Unknown"
 msgstr "Okänd"
@@ -1171,75 +1171,75 @@ msgid "Dimensions:"
 msgstr "Dimensioner:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Trasig länk"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (länk)"
 
 msgid "other drive"
-msgstr ""
+msgstr "annan enhet"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s av %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s kvar"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d av %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Filåtgärder pågår"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Inga undermappar"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Markera de angivna filerna i deras mappar"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Öppna fönstret i delad vy"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Öppna alltid ett nytt fönster"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Fortsätt köra i bakgrunden för D-Bus-tjänsten FileManager1"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Koppla loss från terminalen (utan plats: öppna aktuell mapp)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Kör filväljaren för xdg-desktop-portal (startas av D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Visa versionen"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[FIL eller MAPP…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Agerar som administratör: ändringar i det här fönstret kan skada systemet."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Stänga fönstret?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Fönstret har %zu öppna flikar. Om det stängs stängs alla."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Stäng fönster"
 
 msgid "Configure Toolbars…"
 msgstr "Anpassa verktygsrader…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Visa _verktygsrad"
 
 msgid "Split"
 msgstr "Dela"
@@ -1254,79 +1254,79 @@ msgid "Show in Groups"
 msgstr "Visa i grupper"
 
 msgid "_File"
-msgstr ""
+msgstr "_Arkiv"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Nytt _fönster"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Ny _flik"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "S_täng flik"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Skapa _ny"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Byt namn…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Duplicera här"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Flytta till _papperskorgen"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Ta bort"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Återställ från papperskorgen"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Egenskaper"
 
 msgid "_Quit"
-msgstr ""
+msgstr "A_vsluta"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Redigera"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Ångra"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Gör om"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "Klipp _ut"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Kopiera"
 
 msgid "_Paste"
-msgstr ""
+msgstr "Klistra _in"
 
 msgid "Filter…"
 msgstr "Filter…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Sök…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Markera _alla"
 
 msgid "_View"
-msgstr ""
+msgstr "_Visa"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "Zooma _in"
 
 msgid "Reset Zoom Level"
 msgstr "Nollställ zoomnivå"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "Zooma _ut"
 
 msgid "Show Additional Information"
 msgstr "Visa ytterligare information"
@@ -1341,7 +1341,7 @@ msgid "Adjust View Display Style…"
 msgstr "Justera visningsstil…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Läs om"
 
 msgid "Panels"
 msgstr "Paneler"
@@ -1353,175 +1353,175 @@ msgid "Location Bar"
 msgstr "Platsrad"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Visa _menyrad"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Visa _statusrad"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Gå"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Bakåt"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Framåt"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Upp"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Hem"
 
 msgid "Recently Closed Tabs"
 msgstr "Senaste stängda flikar"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Verktyg"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Öppna _terminal"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Öppna terminal _här"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Diskanvändning…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Inställningar"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Anpassa _verktygsrader…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Anpassa Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Inga nyligen stängda flikar"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Administratör)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Öppna %zu mappar i nya flikar?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Öppna mappar"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "”%s” kunde inte öppnas."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Det gick inte att öppna en terminal."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Ny textfil.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Ny fil"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Tömma papperskorgen?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Alla objekt i papperskorgen tas bort permanent. Det kan inte ångras."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Öppna %zu terminaler?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Öppna terminaler"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Skapa ny fil i:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Filen kunde inte skapas."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Länk till fil eller mapp"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Sökväg till filen eller mappen att länka till:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Länken kunde inte skapas."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Ta bort %s permanent?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Det kan inte ångras."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Flytta %s till papperskorgen?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "”%s” kunde inte köras."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s kunde inte startas."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Programmet kunde inte startas."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "”%s” är en körbar fil."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Vill du köra den eller öppna den i ett program?"
 
 msgid "Run"
-msgstr ""
+msgstr "Kör"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Välj program för att öppna %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Rekommenderade program"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Andra program"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Eller kommando:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Kom ihåg programkopplingen för den här filtypen"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s ledigt av %s"
 
 msgid "Safely Remove"
 msgstr "Säker urkoppling"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Anpassa avsnitt"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Markerade avsnitt visas i platspanelen i den här ordningen."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Flytta upp"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Flytta ner"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Enheten kunde inte monteras: %s"
 
 msgid "Mount"
 msgstr "Montera"
@@ -1548,31 +1548,31 @@ msgid "Add Entry…"
 msgstr "Lägg till post…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Anpassa avsnitt…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Dölj dolda poster"
 
 msgid "Show All Entries"
 msgstr "Visa alla poster"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Alla objekt i papperskorgen tas bort permanent."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Enheten kunde inte tas bort säkert: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Enheten kunde inte avmonteras: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Använd _systemets teckensnitt"
 
 msgid "Label font:"
 msgstr "Beteckningsteckensnitt:"
@@ -1584,7 +1584,7 @@ msgid "Preview icon size:"
 msgstr "Ikonstorlek vid förhandsgranskning:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Åtgärd i snabbmenyn"
 
 msgid "Name:"
 msgstr "Namn:"
@@ -1596,40 +1596,40 @@ msgid "File names:"
 msgstr "Filnamn:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Typer:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f första filen, %F alla filer, %u / %U som URI:er, %n / %N namn, %d aktuell mapp."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Visa för _filer"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Visa för _mappar"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Visa när _flera objekt är markerade"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Kör i en _terminal"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Egna åtgärder"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Dina egna poster i snabbmenyn för filer och mappar."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Lägg till…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Redigera…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Ta bort"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Snabbtangenter skrivs som <Control>c eller <Shift>Delete. Separera flera med kommatecken. Lämna ett fält tomt för att använda standardvärdet."
 
 msgid "no file"
 msgstr "ingen fil"
@@ -1639,19 +1639,19 @@ msgstr "filer med godtycklig storlek"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "filer under %d MiB"
 
 msgid "Search…"
 msgstr "Sök…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "Å_terställ standardvärden"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Verkställ"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Mappar och flikar"
 
 msgid "Show on startup:"
 msgstr "Visa vid start:"
@@ -1660,7 +1660,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "Kataloger, flikar och fönstertillstånd från förra gången"
 
 msgid "This location:"
-msgstr ""
+msgstr "Den här platsen:"
 
 msgid "Use Current Location"
 msgstr "Använd nuvarande plats"
@@ -1672,7 +1672,7 @@ msgid "Opening Folders:"
 msgstr "Öppnar kataloger:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Behåll ett enda Beluga-fönster och öppna nya mappar i flikar"
 
 msgid "Window:"
 msgstr "Fönster:"
@@ -1684,7 +1684,7 @@ msgid "Show filter bar"
 msgstr "Visa filterrad"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Flikar:"
 
 msgid "Always show tab bar"
 msgstr "Visa alltid flikrad"
@@ -1702,7 +1702,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "Alla flikar har samma fasta bredd"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Flikar med fast bredd blir smalare, alla lika mycket, när de inte får plats."
 
 msgid "Open new tabs:"
 msgstr "Öppna nya flikar:"
@@ -1735,42 +1735,42 @@ msgid "Terminal:"
 msgstr "Terminal:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Ingen terminal hittades"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Hittade: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Används av F4 och Öppna terminal här. %d i kommandot ersätts med mappen; annars startar terminalen i den. Det här var tidigare en KDE-systeminställning."
 
 msgid "Previews"
 msgstr "Förhandsgranskningar"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Nya mappar:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Visa _förhandsgranskningar i nya mappar"
 
 msgid "Show previews in the view for:"
 msgstr "Visa förhandsgranskningar i vyn för:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Ljud (omslagsbilder)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF-dokument"
 
 msgid "Text files"
-msgstr ""
+msgstr "Textfiler"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Teckensnitt"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Kontorsdokument"
 
 msgid "Local storage:"
 msgstr "Lokal lagring:"
@@ -1785,7 +1785,7 @@ msgid "Confirmations"
 msgstr "Bekräftelser"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Be om bekräftelse när:"
 
 msgid "Moving files or folders to trash"
 msgstr "Filer eller kataloger flyttas till papperskorgen"
@@ -1800,7 +1800,7 @@ msgid "Renaming a file will change its type"
 msgstr "Att byta namn på en fil ändrar dess typ"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Be om bekräftelse i Beluga när:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Stänger fönster med flera flikar"
@@ -1839,28 +1839,28 @@ msgid "Show item on hover"
 msgstr "Visa objekt när muspekaren hålls över det"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Använd _långt datumformat"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Mappanel:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Begränsa till hemmappen när man är i den"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Visa _dolda mappar"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Rulla till aktuell mapp _automatiskt"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Platspanel:"
 
 msgid "Icon size:"
 msgstr "Ikonstorlek:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Status- och platsrader"
 
 msgid "Status Bar:"
 msgstr "Statusrad:"
@@ -1878,7 +1878,7 @@ msgid "Show zoom slider"
 msgstr "Visa zoomreglage"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Visa ledigt _utrymme"
 
 msgid "Location bar:"
 msgstr "Platsrad:"
@@ -1905,7 +1905,7 @@ msgid "Remember display style for each folder"
 msgstr "Kom ihåg visningsstil för varje katalog"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Oavsett vilket ger Visa › Kom ihåg vyn för den här mappen en mapp en egen stil. Vissa speciella vyer som sökning, senaste filer och papperskorgen använder fortfarande en egen stil."
 
 msgid "Browsing:"
 msgstr "Bläddring: "
@@ -1917,10 +1917,10 @@ msgid "Open folders during drag operations"
 msgstr "Öppna kataloger vid dragåtgärder"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Öppna filer och mappar med ett enkelklick"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Håll ett _index över hemmappen för direktsökning"
 
 msgid "Miscellaneous:"
 msgstr "Diverse: "
@@ -1977,37 +1977,37 @@ msgid "Show no size"
 msgstr "Visa ingen storlek"
 
 msgid "levels deep"
-msgstr ""
+msgstr "nivåer djupt"
 
 msgid "Date style:"
 msgstr "Datumstil:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relativt (I dag, I går…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Absolut"
 
 msgid "Permissions style:"
 msgstr "Rättighetsstil:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Symboliskt (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numeriskt (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Kombinerat"
 
 msgid "Long file names:"
 msgstr "Långa filnamn:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Förkorta i mitten"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Förkorta i slutet"
 
 msgid "Label width:"
 msgstr "Beteckningsbredd:"
@@ -2028,7 +2028,7 @@ msgid "Unlimited"
 msgstr "Obegränsat"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Avstånd:"
 
 msgid "Maximum width:"
 msgstr "Maximal bredd:"
@@ -2049,163 +2049,163 @@ msgid "By clicking on icon or name"
 msgstr "Genom att klicka på ikon eller namn"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Diskanvändning:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Visa en kolumn för _diskanvändning"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Utrymmet varje fil och varje hel mapp tar på disken, med en stapel för dess andel av mappen, som i Verktyg › Diskanvändning. Mappar läses helt i bakgrunden; sortera efter kolumnen för att se de största först. \"Stanna på den här enheten\" i fönstret Diskanvändning gäller även här."
 
 msgid "View"
 msgstr "Visa"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Visa i snabbmenyn"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'Kopiera till' och 'Flytta till'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Ta bort (utöver Flytta till papperskorgen)"
 
 msgid "Context Menu"
 msgstr "Sammanhangsberoende meny"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Rensning:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Ta bort filer äldre än"
 
 msgid "days"
-msgstr ""
+msgstr "dagar"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Begränsa till"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "procent av disken"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Behåll papperskorgen på hemmappens enhet"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Filer som flyttas till papperskorgen från andra enheter kopieras till papperskorgen i hemmappen, så att de enheterna inte får någon .Trash-1000-mapp. Att flytta stora filer till papperskorgen tar då längre tid."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Full papperskorg:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "När gränsen nås:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Visa en varning"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Ta bort de äldsta objekten"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Ta bort de största objekten"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Det här var tidigare KDE-systeminställningar. Gränserna tillämpas när Beluga startar och efter att objekt flyttats till papperskorgen."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Beräknar papperskorgens storlek…"
 
 msgid "Trash:"
 msgstr "Papperskorg:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Papperskorgen använder nu %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Töm papperskorgen nu"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim-läge"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim-läge:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Använd Vim-liknande tangenter i vyerna"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Normalläget flyttar med h j k l och kör tangenterna nedan; v, V och Ctrl+V markerar; i och a byter namn (infogningsläge); Esc går tillbaka till normalläget; : öppnar kommandoraden. Tangenter med Ctrl eller Alt som inte finns här behåller sin vanliga betydelse."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Ledartangent:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> i tangenterna nedan, t.ex. <Space> eller ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Vänta på fler tangenter:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd efter d, gg efter g)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Tangenter"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim-notation, flera åtskilda med mellanslag: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lämna ett fält tomt för standardvärdet."
 
 msgid "Command line"
-msgstr ""
+msgstr "Kommandorad"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q stänger fönstret (:q! utan att fråga om dess flikar), :qa avslutar Beluga, :e eller :cd SÖKVÄG öppnar en mapp, :tabnew [SÖKVÄG], :tabclose, :tabonly, :sp eller :vs [SÖKVÄG] delar vyn, :only stänger den andra vyn, :mkdir NAMN, :touch NAMN, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMMANDO kör ett skalkommando i mappen."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Snabbtangenter"
 
 msgid "Details:"
 msgstr "Detaljer:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Bara filer på den här datorn kan läsas."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga byggdes utan FFmpeg."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Läser…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Inga detaljer hittades."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Ändra mappens ikon"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Ikonen kunde inte ändras."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu objekt"
 
 msgid "Calculating…"
 msgstr "Beräknar…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Inget standardprogram"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Ändra…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Öppnas med:"
 
 msgid "Free space:"
 msgstr "Ledigt utrymme:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s ledigt av %s (%d%% använt)"
 
 #, c-format
 msgid "%llu byte"
@@ -2217,13 +2217,13 @@ msgid "Forbidden"
 msgstr "Förbjuden"
 
 msgid "Can View"
-msgstr ""
+msgstr "Kan visa"
 
 msgid "Can View & Modify"
 msgstr "Kan läsa och ändra"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Kan visa innehåll"
 
 msgid "Can View & Modify Content"
 msgstr "Kan läsa och ändra innehåll"
@@ -2232,10 +2232,10 @@ msgid "Others:"
 msgstr "Övriga"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "Är _körbar"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Tillämpa ändringarna på alla _undermappar och deras innehåll"
 
 msgid "User:"
 msgstr "Användare:"
@@ -2247,22 +2247,22 @@ msgid "Calculate"
 msgstr "Beräkna"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Filen kunde inte läsas."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Klistra in en kontrollsumma att jämföra"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Kontrollera:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Kontrollsummorna stämmer."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Ingen beräknad kontrollsumma stämmer. Beräkna den matchande typen först."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Behörigheterna kunde inte ändras."
 
 #, c-format
 msgid "Properties for %s"
@@ -2275,16 +2275,16 @@ msgid "Filter:"
 msgstr "Filter:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Filtrera efter namn (jokertecken som *.txt fungerar)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Behåll filtret vid mappbyte"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "I den här mappen"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "I dina filer"
 
 msgid "Everywhere"
 msgstr "Överallt"
@@ -2296,22 +2296,22 @@ msgid "File Names and Contents"
 msgstr "Filnamn och innehåll"
 
 msgid "Any Time"
-msgstr ""
+msgstr "När som helst"
 
 msgid "Today"
 msgstr "Idag"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Senaste 7 dagarna"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Senaste 30 dagarna"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Senaste året"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Dolda filer"
 
 msgid "Zoom:"
 msgstr "Zoom:"
@@ -2324,7 +2324,7 @@ msgid "%s free"
 msgstr "%s ledigt"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Duplicera flik"
 
 msgid "Detach Tab"
 msgstr "Koppla loss flik"
@@ -2339,31 +2339,31 @@ msgid "--- separator ---"
 msgstr "--- avskiljare ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Åtgärder ovanför platsraden i listan hamnar till vänster om den, de andra till höger. * markerar åtgärder som inte är där standardverktygsraden har dem."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_Tillgängliga åtgärder:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Lägg till i verktygsraden"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Ta bort från verktygsraden"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Flytta upp (åt vänster i verktygsraden)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Flytta ner (åt höger i verktygsraden)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "A_ktuella åtgärder:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Standard"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Visa kolumner"
 
 #, c-format
 msgid "Size: %s"
@@ -2371,11 +2371,11 @@ msgstr "Storlek: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Ändrad: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Ursprunglig plats: %s"
 
 msgid "Yesterday"
 msgstr "I går"
@@ -2402,19 +2402,19 @@ msgid "Big"
 msgstr "Stor"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Mindre än 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB till 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB till 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB eller mer"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Inte räknad än"
 
 msgid "Searching…"
 msgstr "Söker…"
@@ -2423,7 +2423,7 @@ msgid "No items matching the filter"
 msgstr "Inga objekt matchar filtret"
 
 msgid "No items found"
-msgstr ""
+msgstr "Inga objekt hittades"
 
 msgid "Trash is empty"
 msgstr "Papperskorgen är tom"
@@ -2432,38 +2432,38 @@ msgid "Folder is empty"
 msgstr "Katalogen är tom"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Ett filnamn får inte innehålla ”/”."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Om ”%s” byter namn till ”%s” ändras dess filändelse. Filen kan öppnas med ett annat program eller inte alls."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Markeringsläge: klicka på filer eller mappar för att markera eller avmarkera dem."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Lämna markeringsläget"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Duplicera"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Ta bort"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Egenskaper"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Mappen ”%s” finns inte längre."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "”%s” markerad (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s markerade"
 
 msgid "Loading folder…"
 msgstr "Läser in katalog…"
@@ -2471,87 +2471,87 @@ msgstr "Läser in katalog…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d markerad"
+msgstr[1] "%d markerade"
 
 msgid "Move left"
-msgstr ""
+msgstr "Flytta vänster"
 
 msgid "Move down"
-msgstr ""
+msgstr "Flytta ner"
 
 msgid "Move up"
-msgstr ""
+msgstr "Flytta upp"
 
 msgid "Move right"
-msgstr ""
+msgstr "Flytta höger"
 
 msgid "First item"
-msgstr ""
+msgstr "Första objektet"
 
 msgid "Last item"
-msgstr ""
+msgstr "Sista objektet"
 
 msgid "Page down"
-msgstr ""
+msgstr "Sida ner"
 
 msgid "Page up"
-msgstr ""
+msgstr "Sida upp"
 
 msgid "Parent folder"
 msgstr "Överliggande katalog"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Markera objekten som markören passerar (visuellt)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Markera ett intervall, som med Skift (visuell rad)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Markera ett block i rutnätet (visuellt block)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Tillbaka till normalläget"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Kopiera objektet under markören"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Byt namn, markören i början (infoga)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Byt namn, markören efter namnet (lägg till)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Byt namn, namnet markerat (ändra)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Redigera platsen"
 
 msgid "Copied."
-msgstr ""
+msgstr "Kopierat."
 
 msgid "Cut."
-msgstr ""
+msgstr "Utklippt."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "Kan inte öppna ”%s”."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Ett namn behövs."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Okänd vy: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Okänt alternativ: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Sortera efter namn, storlek, datum eller typ."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Inte ett kommando: %s"

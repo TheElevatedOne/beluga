@@ -21,95 +21,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Az archívum nem nyitható meg."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Az archívum nem olvasható."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Megszakítva."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "A fájl jelszóval van titkosítva."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "„%s” nem olvasható."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Ez nem egy archívumban lévő fájl."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Kibontás ide"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Tömörítés .tar.gz formátumba"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Nem található terminálemulátor."
 
 msgid "Root"
-msgstr ""
+msgstr "Gyökér"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s kötet"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Az eszköz nem csatolható."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Az eszköz nem választható le."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Az eszköz eltűnt."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s másolása ide: „%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s áthelyezése ide: „%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s linkelése ide: „%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s áthelyezése a kukába"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s törlése"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s visszaállítása"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "A kuka ürítése"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Fájlok számolása…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "„%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Egy mappa nem helyezhető át önmagába."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Egy mappa nem másolható önmagába."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Fájlok csak helyi mappákba bonthatók ki."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Kibontás innen: „%s”"
 
 msgid "Title:"
 msgstr "Cím:"
@@ -127,7 +127,7 @@ msgid "Track:"
 msgstr "Szám:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Lemez:"
 
 msgid "Date:"
 msgstr "Dátum:"
@@ -158,11 +158,11 @@ msgstr "Nyelv:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Időtartam:"
@@ -171,58 +171,58 @@ msgid "Format:"
 msgstr "Formátum:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Bitráta:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Borító:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "Videó:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Videó %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "sztereó"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d csatorna"
+msgstr[1] "%d csatorna"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bit"
 
 msgid "Audio:"
 msgstr "Hang:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Hang %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Feliratok:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Fejezetek:"
 
 msgid "Places"
 msgstr "Helyek"
@@ -270,7 +270,7 @@ msgid "Recent Files"
 msgstr "Legutóbbi fájlok"
 
 msgid "Images"
-msgstr ""
+msgstr "Képek"
 
 msgid "Audio"
 msgstr "Hang"
@@ -279,37 +279,37 @@ msgid "Folders"
 msgstr "Mappák"
 
 msgid "Archives"
-msgstr ""
+msgstr "Archívumok"
 
 msgid "All Files"
 msgstr "Minden fájl"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Keresés: „%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Nem található terminálemulátor. Állítson be egyet itt: Beluga beállítása › Általános › Terminál."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Ennek a fájlrendszernek nincs kukája."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Nem sikerült létrehozni a kuka információs fájlját."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "„%s” már létezik."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "A kuka nagyobb a(z) %s korlátnál. Fontolja meg az ürítését."
 
 msgid "Copy"
 msgstr "Másolás"
 
 msgid "Move"
-msgstr ""
+msgstr "Áthelyezés"
 
 msgid "Link"
 msgstr "Link"
@@ -324,21 +324,21 @@ msgid "Create Folder"
 msgstr "Mappa létrehozása"
 
 msgid "Create File"
-msgstr ""
+msgstr "Fájl létrehozása"
 
 msgid "Undo"
 msgstr "Visszavonás"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Visszavonás: %s"
 
 msgid "Redo"
 msgstr "Újra"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Újra: %s"
 
 #, c-format
 msgid "%d item"
@@ -349,14 +349,14 @@ msgstr[1] "%d elem"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fájl"
+msgstr[1] "%d fájl"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d mappa"
+msgstr[1] "%d mappa"
 
 #, c-format
 msgid "%s, %s"
@@ -364,14 +364,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Ma %s-kor"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Tegnap %s-kor"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A %H:%M-kor"
 
 #, c-format
 msgid "%ld s"
@@ -379,11 +379,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld perc %ld mp"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld óra %ld perc"
 
 #, c-format
 msgid "%s copy"
@@ -391,7 +391,7 @@ msgstr "%s másolása"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s másolat %d"
 
 msgid "Name"
 msgstr "Név"
@@ -400,7 +400,7 @@ msgid "Size"
 msgstr "Méret"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Lemezhasználat"
 
 msgid "Modified"
 msgstr "Módosítás"
@@ -415,7 +415,7 @@ msgid "Type"
 msgstr "Típus"
 
 msgid "Extension"
-msgstr ""
+msgstr "Kiterjesztés"
 
 msgid "Permissions"
 msgstr "Jogosultságok"
@@ -436,28 +436,28 @@ msgid "Deletion Time"
 msgstr "Törlési idő"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Eredeti hely"
 
 msgid "Dimensions"
 msgstr "Méretek"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "A Beluga nem tudott rendszergazdaként működni."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "A rendszergazdai jelszó bekéréséhez pkexec (polkit) szükséges. Telepítse a polkitet és egy polkit-ügynököt az asztali környezetéhez."
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "A rendszergazdaként való működés kockázatai"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Egy rendszergazdai jogokkal futó Beluga-ablak a számítógép bármely fájlját módosíthatja és törölheti, a rendszer indulásához szükséges fájlokat is. Egy hiba itt használhatatlanná teheti a rendszert. Csak olyan fájlokhoz használja, amelyeket másképp nem tud módosítani, és zárja be, ha végzett.\n\nEzután a Beluga bekéri a rendszergazdai jelszót."
 
 msgid "Cancel"
 msgstr "Mégse"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "Megértem és elfogadom ezeket a kockázatokat"
 
 msgid "New Window"
 msgstr "Új ablak"
@@ -523,7 +523,7 @@ msgid "Details View"
 msgstr "Részletes nézet"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Oszlopnézet"
 
 msgid "Zoom In"
 msgstr "Nagyítás"
@@ -532,7 +532,7 @@ msgid "Zoom Out"
 msgstr "Kicsinyítés"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Nagyítás visszaállítása"
 
 msgid "Show Hidden Files"
 msgstr "A rejtett fájlok megjelenítése"
@@ -544,13 +544,13 @@ msgid "Split View"
 msgstr "Osztott nézet"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "Fókusz a másik nézetre"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Osztott nézet leválasztása"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Osztott nézet lapokra"
 
 msgid "Reload"
 msgstr "Újratöltés"
@@ -562,19 +562,19 @@ msgid "Replace Location"
 msgstr "Cserélési hely"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Helyek panel"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Mappák panel"
 
 msgid "Information Panel"
 msgstr "Információs panel"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Lemezhasználat panel"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "Fókusz a Helyek panelre"
 
 msgid "Show Menubar"
 msgstr "Menüsor"
@@ -592,31 +592,31 @@ msgid "Up"
 msgstr "Fel"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Ugrás az 1. lapra"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Ugrás a 2. lapra"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Ugrás a 3. lapra"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Ugrás a 4. lapra"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Ugrás az 5. lapra"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Ugrás a 6. lapra"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Ugrás a 7. lapra"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Ugrás a 8. lapra"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Ugrás a 9. lapra"
 
 msgid "Go to Last Tab"
 msgstr "Ugrás az utolsó lapra"
@@ -637,29 +637,29 @@ msgid "Configure Toolbars"
 msgstr "Eszköztárak beállítása"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga beállítása"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "A visszavonás nem sikerült."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Mappa…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Szövegfájl…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Üres fájl…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Link fájlra vagy mappára…"
 
 msgid "Create New"
 msgstr "Új"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Másik nézet (%s)"
 
 msgid "Browse…"
 msgstr "Tallózás…"
@@ -699,7 +699,7 @@ msgid "View Mode"
 msgstr "Nézetmód"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Nézet megjegyzése ehhez a mappához"
 
 msgid "Restore"
 msgstr "Visszaállítás"
@@ -717,13 +717,13 @@ msgid "Open in Split View"
 msgstr "Megnyitás osztott nézetben"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Megnyitás a Belugában"
 
 msgid "Open Containing Folder"
 msgstr "Tartalmazó mappa megnyitása"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Beillesztés a mappába"
 
 msgid "Rename…"
 msgstr "Átnevezés…"
@@ -735,65 +735,65 @@ msgid "Close"
 msgstr "Bezárás"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Mégse"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "A név nem tartalmazhat „/” karaktert."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "A ponttal kezdődő név rejtett."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Néhány elemet nem sikerült átnevezni."
 
 msgid "Rename Item"
 msgstr "Elem átnevezése"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "„%s” átnevezése erre:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "Át_nevezés"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "„%s” nem nevezhető át."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Módosítja a fájltípust?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "„%s” átnevezése erre: „%s” megváltoztatja a kiterjesztését."
 
 msgid "Rename Items"
 msgstr "Elemek átnevezése"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "A(z) %zu kijelölt elem átnevezése erre:"
 
 msgid "New name #"
 msgstr "Új név #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "A # helyére növekvő számok kerülnek; vezető nullákhoz használja a ## formát. A kiterjesztések megmaradnak."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Számozás kezdete:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Áthelyezés ide"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Másolás ide"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Linkelés ide"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "_Mégse"
 
 msgid "Add Places Entry"
 msgstr "Helybejegyzés hozzáadása"
@@ -805,25 +805,25 @@ msgid "Label:"
 msgstr "Címke:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Válasszon mappát"
 
 msgid "Location:"
 msgstr "Elérési út:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Kiválasztás…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Ikon neve:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Válasszon mappát"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Hozzáadás"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Mentés"
 
 msgid "View Display Style"
 msgstr "Nézettulajdonság stílusa"
@@ -853,19 +853,19 @@ msgid "Descending"
 msgstr "Csökkenő"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "_Mappák elöl"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Rejtett fájlok a _végén"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "_Előnézetek megjelenítése"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Megjelenítés _csoportokban"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "_Rejtett fájlok megjelenítése"
 
 msgid "Apply to"
 msgstr "Alkalmazás erre"
@@ -874,17 +874,17 @@ msgid "Current folder"
 msgstr "Aktuális mappa"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Jelenlegi mappa az összes almappával"
 
 msgid "All folders"
 msgstr "Minden mappa"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "módosítva: %s"
 
 msgid "Folder Already Exists"
 msgstr "A mappa már létezik"
@@ -894,35 +894,35 @@ msgstr "A fájl már létezik"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "„%s” nevű mappa már létezik itt: „%s”."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "„%s” nevű fájl már létezik itt: „%s”."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Meglévő elem"
 
 msgid "New item"
-msgstr ""
+msgstr "Új elem"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "Új név _javaslása"
 
 msgid "New name:"
-msgstr ""
+msgstr "Új név:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Alkalmazás _mindre"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Kihagyás"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Írás bele"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Felülírás"
 
 msgid "Skip"
 msgstr "Kihagyás"
@@ -937,198 +937,198 @@ msgid "Choose an Icon"
 msgstr "Válasszon egy ikont"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Ikonok keresése…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "_Képfájl…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_Alapértelmezett ikon"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Válasszon képet"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "A hálózati helyekhez gvfs szükséges. Telepítse a gvfs csomagot (és a gvfs-smb-t a Windows-megosztásokhoz, a gvfs-nfs-t az NFS-hez), majd jelentkezzen ki és be újra."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Ez a hely nem mappa."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Ez a hely érvénytelen."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Ez a mappa nincs az archívumban."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s kisebb fájl"
+msgstr[1] "%s kisebb fájl"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(másik meghajtó, nincs beszámítva)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "A tartalom egy része nem olvasható."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s a fájlokban"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s a lemezen"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s fájl és %s mappa"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Olvasás… %s, %s fájl és %s mappa"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Leállítva."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Ez a mappa nem olvasható."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, beolvasva %.1f mp alatt"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s mappa nem olvasható."
+msgstr[1] ". %s mappa nem olvasható."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Csak ennek a számítógépnek a mappái mérhetők."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "kevesebb mint egy perce beolvasva"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d perce beolvasva"
+msgstr[1] "%d perce beolvasva"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d órája beolvasva"
+msgstr[1] "%d órája beolvasva"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Az újraolvasáshoz vizsgálja át újra."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Látszólagos méret"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "A fájlméretek összeadása a lemezen foglalt hely helyett."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Maradás ezen a meghajtón"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "A mappába csatolt más meghajtók kihagyása (például egy másik lemezen lévő zenemappa). A linkeket sosem követi."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Újravizsgálat"
 
 msgid "Stop"
 msgstr "Leállítás"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Lemezhasználat bezárása"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "Új_ravizsgálat"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Leállítás"
 
 msgid "Share"
 msgstr "Megosztás"
 
 msgid "Files"
-msgstr ""
+msgstr "Fájlok"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Lemezhasználat – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "„%s” már létezik. Lecseréli?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "A fájlok közül %zu már létezik. Lecseréli őket?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "A program, amelyből ment, felülírja a meglévő tartalmat."
 
 msgid "Replace"
 msgstr "Csere"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Válasszon mappát a mentéshez."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Mappa kiválasztása"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Fájlok megnyitása"
 
 msgid "Open File"
-msgstr ""
+msgstr "Fájl megnyitása"
 
 msgid "Save File"
-msgstr ""
+msgstr "Fájl mentése"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Fájlok mentése"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Mappa:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Név:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Típus:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Kiválasztás"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Megnyitás"
 
 msgid "New Folder"
 msgstr "Új mappa"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Új mappa létrehozása itt:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Létrehozás"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Nem sikerült létrehozni a mappát."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu elem kijelölve"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Tartalom:"
 
 msgid "Size:"
 msgstr "Méret:"
@@ -1140,10 +1140,10 @@ msgid "Folder"
 msgstr "Mappa"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Tartalmaz:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Számolás…"
 
 msgid "Unknown"
 msgstr "Ismeretlen"
@@ -1173,75 +1173,75 @@ msgid "Dimensions:"
 msgstr "Méretek:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Hibás link"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (link)"
 
 msgid "other drive"
-msgstr ""
+msgstr "másik meghajtó"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s van hátra"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Fájlműveletek folyamatban"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Nincsenek almappák"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "A megadott fájlok kijelölése a mappájukban"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Az ablak megnyitása osztott nézetben"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Mindig új ablak megnyitása"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Futás a háttérben a FileManager1 D-Bus szolgáltatáshoz"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Leválás a terminálról (hely nélkül: a jelenlegi mappa megnyitása)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Az xdg-desktop-portal fájlválasztójának futtatása (a D-Bus indítja)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "A verzió megjelenítése"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[FÁJL vagy MAPPA…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Rendszergazdaként működik: az ebben az ablakban végzett módosítások kárt tehetnek a rendszerben."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Bezárja ezt az ablakot?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Ebben az ablakban %zu lap van nyitva. Bezárásával mindegyik bezárul."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Ablak bezárása"
 
 msgid "Configure Toolbars…"
 msgstr "Eszköztárak beállítása…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "_Eszköztár megjelenítése"
 
 msgid "Split"
 msgstr "Osztott nézet"
@@ -1256,79 +1256,79 @@ msgid "Show in Groups"
 msgstr "Csoportosítás"
 
 msgid "_File"
-msgstr ""
+msgstr "_Fájl"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Új _ablak"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Új _lap"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "Lap _bezárása"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Új _létrehozása"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "Át_nevezés…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Kettőzés ide"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Áthelyezés a _kukába"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Törlés"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Visszaállítás a kukából"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Tulajdonságok"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Kilépés"
 
 msgid "_Edit"
-msgstr ""
+msgstr "S_zerkesztés"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Visszavonás"
 
 msgid "_Redo"
-msgstr ""
+msgstr "Új_ra"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Kivágás"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Másolás"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Beillesztés"
 
 msgid "Filter…"
 msgstr "Szűrő…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Keresés…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Összes _kijelölése"
 
 msgid "_View"
-msgstr ""
+msgstr "_Nézet"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Nagyítás"
 
 msgid "Reset Zoom Level"
 msgstr "Nagyítás visszaállítása"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Kicsinyítés"
 
 msgid "Show Additional Information"
 msgstr "Egyéb jellemzők megjelenítése"
@@ -1337,13 +1337,13 @@ msgid "Show Previews"
 msgstr "Előnézetek megjelenítése"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "Alapértelmezések visszaállítása"
 
 msgid "Adjust View Display Style…"
 msgstr "Nézettulajdonságok módosítása…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "Új_ratöltés"
 
 msgid "Panels"
 msgstr "Panelek"
@@ -1355,175 +1355,175 @@ msgid "Location Bar"
 msgstr "Címsáv:"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "_Menüsor megjelenítése"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Á_llapotsor megjelenítése"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Ugrás"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Vissza"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Előre"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Fel"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Saját mappa"
 
 msgid "Recently Closed Tabs"
 msgstr "Nemrég bezárt lapok"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Eszközök"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "_Terminál megnyitása"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Terminál megnyitása _itt"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Lemezhasználat…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Beállítások"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "_Eszköztárak beállítása…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Beluga beállítása…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Nincsenek nemrég bezárt lapok"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Rendszergazda)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Megnyit %zu mappát új lapokon?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Mappák megnyitása"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "„%s” nem nyitható meg."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Nem sikerült terminált nyitni."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Új szövegfájl.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Új fájl"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Üríti a kukát?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "A kuka minden eleme véglegesen törlődik. Ez nem vonható vissza."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Megnyit %zu terminált?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Terminálok megnyitása"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Új fájl létrehozása itt:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Nem sikerült létrehozni a fájlt."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Link fájlra vagy mappára"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "A linkelendő fájl vagy mappa útvonala:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Nem sikerült létrehozni a linket."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Véglegesen törli: %s?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Ez nem vonható vissza."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Áthelyezi a kukába: %s?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "„%s” nem futtatható."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s nem indítható el."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Az alkalmazás nem indítható el."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "„%s” egy futtatható fájl."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Futtatni szeretné, vagy megnyitni egy alkalmazásban?"
 
 msgid "Run"
-msgstr ""
+msgstr "Futtatás"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Válassza ki az alkalmazást a(z) %s (%s) megnyitásához:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Ajánlott alkalmazások"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Egyéb alkalmazások"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Vagy parancs:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Az alkalmazás-hozzárendelés megjegyzése ehhez a fájltípushoz"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s szabad / %s"
 
 msgid "Safely Remove"
 msgstr "Biztonságos eltávolítás"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Szakaszok beállítása"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "A bejelölt szakaszok ebben a sorrendben jelennek meg a Helyek panelen."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Mozgatás fel"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Mozgatás le"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Nem sikerült csatolni az eszközt: %s"
 
 msgid "Mount"
 msgstr "Csatlakoztatás"
@@ -1550,31 +1550,31 @@ msgid "Add Entry…"
 msgstr "Bejegyzés hozzáadása…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Szakaszok beállítása…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Rejtett bejegyzések elrejtése"
 
 msgid "Show All Entries"
 msgstr "A bejegyzések megjelenítése"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "A kuka minden eleme véglegesen törlődik."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Nem sikerült biztonságosan eltávolítani az eszközt: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Nem sikerült leválasztani az eszközt: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "A _rendszer betűtípusának használata"
 
 msgid "Label font:"
 msgstr "Címke betűtípus:"
@@ -1586,7 +1586,7 @@ msgid "Preview icon size:"
 msgstr "Előnézet ikonmérete:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Helyi menü művelete"
 
 msgid "Name:"
 msgstr "Név:"
@@ -1595,65 +1595,65 @@ msgid "Command:"
 msgstr "parancs:"
 
 msgid "File names:"
-msgstr ""
+msgstr "Fájlnevek:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Típusok:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f első fájl, %F összes fájl, %u / %U URI-ként, %n / %N nevek, %d jelenlegi mappa."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Megjelenítés _fájloknál"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Megjelenítés _mappáknál"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Megjelenítés, ha _több elem van kijelölve"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Futtatás _terminálban"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Egyéni műveletek"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Saját bejegyzései a fájlok és mappák helyi menüjéhez."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Hozzáadás…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Szerkesztés…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Eltávolítás"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "A gyorsbillentyűk így írandók: <Control>c vagy <Shift>Delete. Többet vesszővel válasszon el. Hagyja üresen a mezőt az alapértelmezéshez."
 
 msgid "no file"
 msgstr "nincs fájl"
 
 msgid "files of any size"
-msgstr ""
+msgstr "bármilyen méretű fájlok"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB alatti fájlok"
 
 msgid "Search…"
 msgstr "Keresés…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Alapértelmezések visszaállítása"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Alkalmaz"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Mappák és lapok"
 
 msgid "Show on startup:"
 msgstr "Megjelenítés induláskor:"
@@ -1662,7 +1662,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "Mappák, lapok és ablak állapota a legutóbbi alkalomból"
 
 msgid "This location:"
-msgstr ""
+msgstr "Ez a hely:"
 
 msgid "Use Current Location"
 msgstr "Az aktuális útvonal használata"
@@ -1674,7 +1674,7 @@ msgid "Opening Folders:"
 msgstr "Mappák megnyitása:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Egyetlen Beluga-ablak megtartása, az új mappák lapokon nyílnak"
 
 msgid "Window:"
 msgstr "Ablak:"
@@ -1686,25 +1686,25 @@ msgid "Show filter bar"
 msgstr "Szűrősáv megjelenítése"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Lapok:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "A lapsáv mindig látszódjon"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "Bezárás gomb a lapokon"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "Lapstílus:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "A lap szélessége a mappa nevéhez igazodik"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "Minden lap azonos, rögzített szélességű"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "A rögzített szélességű lapok keskenyebbek lesznek, mind egyformán, ha nem férnek el."
 
 msgid "Open new tabs:"
 msgstr "Megnyitás új lapokon:"
@@ -1719,75 +1719,75 @@ msgid "Split view:"
 msgstr "Osztott nézet: "
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "Osztott nézet bezárásakor"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "Az aktív panel bezárása"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "Az inaktív panel bezárása"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "A jobb oldali panel bezárása"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "Új ablakok megnyitása osztott nézetben"
 
 msgid "Terminal:"
 msgstr "Terminál:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Nem található terminál"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Észlelve: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Az F4 és a Terminál megnyitása itt használja. A parancsban a %d helyére a mappa kerül; egyébként a terminál abban indul. Ez korábban KDE rendszerbeállítás volt."
 
 msgid "Previews"
 msgstr "Előnézetek"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Új mappák:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "_Előnézetek megjelenítése az új mappákban"
 
 msgid "Show previews in the view for:"
 msgstr "Előnézet megjelenítése a következőkhöz:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Hang (borítóképek)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF-dokumentumok"
 
 msgid "Text files"
-msgstr ""
+msgstr "Szövegfájlok"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Betűtípusok"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Irodai dokumentumok"
 
 msgid "Local storage:"
 msgstr "Helyi tároló:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "Előnézetek megjelenítése ehhez:"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "Távoli tároló:"
 
 msgid "Confirmations"
 msgstr "Megerősítések"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Megerősítés kérése:"
 
 msgid "Moving files or folders to trash"
 msgstr "Fájl vagy mappa kukába helyezésekor"
@@ -1799,10 +1799,10 @@ msgid "Deleting files or folders"
 msgstr "Fájl vagy mappa törlésekor"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "Egy fájl átnevezése megváltoztatja a típusát"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Megerősítés kérése a Belugában:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Több lapot tartalmazó ablakok bezárása"
@@ -1814,7 +1814,7 @@ msgid "Opening many terminals at once"
 msgstr "Több terminál egyidejű megnyitásakor"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "Váltás rendszergazdaként való működésre"
 
 msgid "When opening an executable file:"
 msgstr "Végrehajtható fájl megnyitásakor:"
@@ -1841,28 +1841,28 @@ msgid "Show item on hover"
 msgstr "Elem megjelenítése rámutatáskor"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "_Hosszú dátumformátum használata"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Mappák panel:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Korlátozás a saját mappára, ha azon belül van"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "_Rejtett mappák megjelenítése"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Görgetés a jelenlegi mappához _automatikusan"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Helyek panel:"
 
 msgid "Icon size:"
 msgstr "Ikonméret:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Állapot- és helysáv"
 
 msgid "Status Bar:"
 msgstr "Állapotsáv:"
@@ -1871,7 +1871,7 @@ msgid "Small"
 msgstr "Kicsi"
 
 msgid "Full width"
-msgstr ""
+msgstr "Teljes szélesség"
 
 msgid "Disabled"
 msgstr "Letiltva"
@@ -1880,7 +1880,7 @@ msgid "Show zoom slider"
 msgstr "Nagyítócsúszka"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Szabad _hely megjelenítése"
 
 msgid "Location bar:"
 msgstr "Címsáv:"
@@ -1907,22 +1907,22 @@ msgid "Remember display style for each folder"
 msgstr "Megjelenítési stílus megjegyzése minden mappához"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "A Nézet › Nézet megjegyzése ehhez a mappához mindenképp saját stílust ad egy mappának. Néhány különleges nézet, például a keresés, a legutóbbi fájlok vagy a kuka, továbbra is saját stílust használ."
 
 msgid "Browsing:"
 msgstr "Böngészés: "
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "Tömörített fájlok böngészése mappaként"
 
 msgid "Open folders during drag operations"
 msgstr "Nyitott mappák húzás közben"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Fájlok és mappák megnyitása egyetlen kattintással"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "A saját mappa _indexelése az azonnali kereséshez"
 
 msgid "Miscellaneous:"
 msgstr "Egyéb: "
@@ -1979,37 +1979,37 @@ msgid "Show no size"
 msgstr "Ne jelenítsen meg méretet"
 
 msgid "levels deep"
-msgstr ""
+msgstr "szint mélységig"
 
 msgid "Date style:"
 msgstr "Dátumformátum:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relatív (Ma, Tegnap…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Abszolút"
 
 msgid "Permissions style:"
 msgstr "Jogosultságok formátuma:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Szimbolikus (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numerikus (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Kombinált"
 
 msgid "Long file names:"
 msgstr "Hosszú fájlnevek:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Rövidítés középen"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Rövidítés a végén"
 
 msgid "Label width:"
 msgstr "Címkeszélesség:"
@@ -2030,7 +2030,7 @@ msgid "Unlimited"
 msgstr "Korlátlan"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Térköz:"
 
 msgid "Maximum width:"
 msgstr "Maximális szélesség:"
@@ -2051,181 +2051,181 @@ msgid "By clicking on icon or name"
 msgstr "Ikonra vagy névre kattintással"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Lemezhasználat:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "_Lemezhasználat oszlop megjelenítése"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Az egyes fájlok és teljes mappák által a lemezen foglalt hely, a mappán belüli arányát mutató sávval, mint az Eszközök › Lemezhasználat ablakban. A mappák teljes beolvasása a háttérben történik; rendezzen az oszlop szerint, hogy a legnagyobbak legyenek elöl. A Lemezhasználat ablak \"Maradás ezen a meghajtón\" beállítása itt is érvényes."
 
 msgid "View"
 msgstr "Nézet"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Megjelenítés a helyi menüben"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'Másolás ide' és 'Áthelyezés ide'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Törlés (az Áthelyezés a kukába mellett)"
 
 msgid "Context Menu"
 msgstr "Helyi menü"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Takarítás:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Ennél régebbi fájlok törlése:"
 
 msgid "days"
-msgstr ""
+msgstr "nap"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Korlát:"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "százaléka a lemeznek"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "A kuka tartása a saját mappa meghajtóján"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "A más meghajtókról a kukába helyezett fájlok a saját mappa kukájába másolódnak, így azokon a meghajtókon nem lesz .Trash-1000 mappa. A nagy fájlok kukába helyezése így tovább tart."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Teli kuka:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "A korlát elérésekor:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Figyelmeztetés megjelenítése"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "A legrégebbi elemek törlése"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "A legnagyobb elemek törlése"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Ezek korábban KDE rendszerbeállítások voltak. A korlátok a Beluga indulásakor és az elemek kukába helyezése után érvényesülnek."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "A kuka méretének kiszámítása…"
 
 msgid "Trash:"
 msgstr "Kuka:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "A kuka jelenleg %s helyet foglal."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "Kuka _ürítése most"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim mód"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim mód:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Vim-szerű billentyűk használata a nézetekben"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Normál módban a h j k l mozgat, és az alábbi billentyűk működnek; a v, V és Ctrl+V kijelöl; az i és a átnevez (beszúrás mód); az Esc visszavált normál módba; a : megnyitja a parancssort. A Ctrl vagy Alt billentyűs kombinációk, amelyek itt nem szerepelnek, megtartják a szokásos jelentésüket."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Vezérbillentyű:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> az alábbi billentyűkben, pl. <Space> vagy ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Várakozás további billentyűkre:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd a d után, gg a g után)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Billentyűk"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim-jelölés, többet szóközzel elválasztva: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Hagyja üresen a mezőt az alapértelmezéshez."
 
 msgid "Command line"
-msgstr ""
+msgstr "Parancssor"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q bezárja az ablakot (:q! a lapokra való rákérdezés nélkül), :qa kilép a Belugából, :e vagy :cd ÚTVONAL megnyit egy mappát, :tabnew [ÚTVONAL], :tabclose, :tabonly, :sp vagy :vs [ÚTVONAL] felosztja a nézetet, :only bezárja a másik nézetet, :mkdir NÉV, :touch NÉV, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!PARANCS héjparancsot futtat a mappában."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Gyorsbillentyűk"
 
 msgid "Details:"
 msgstr "Részletek:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Csak ennek a számítógépnek a fájljai olvashatók."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "A Beluga FFmpeg nélkül készült."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Olvasás…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Nem található részlet."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "A mappa ikonjának módosítása"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Nem sikerült módosítani az ikont."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu elem"
 
 msgid "Calculating…"
 msgstr "Számolás…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Nincs alapértelmezett alkalmazás"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Módosítás…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Megnyitás ezzel:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "Szabad hely:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s szabad / %s (%d%% foglalt)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu bájt"
+msgstr[1] "%llu bájt"
 
 msgid "Forbidden"
 msgstr "Tiltott"
 
 msgid "Can View"
-msgstr ""
+msgstr "Megtekintheti"
 
 msgid "Can View & Modify"
 msgstr "Megtekinthető és módosítható"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Megtekintheti a tartalmat"
 
 msgid "Can View & Modify Content"
 msgstr "A tartalom megtekinthető és megváltoztatható"
@@ -2234,10 +2234,10 @@ msgid "Others:"
 msgstr "Egyéb:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "_Futtatható"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "A módosítások alkalmazása minden _almappára és azok tartalmára"
 
 msgid "User:"
 msgstr "Felhasználó:"
@@ -2249,22 +2249,22 @@ msgid "Calculate"
 msgstr "Számolás"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Nem sikerült beolvasni a fájlt."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Illesszen be egy ellenőrzőösszeget az összehasonlításhoz"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Ellenőrzés:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Az ellenőrzőösszegek egyeznek."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Egyik kiszámított ellenőrzőösszeg sem egyezik. Előbb számítsa ki a megfelelő típust."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Nem sikerült módosítani a jogosultságokat."
 
 #, c-format
 msgid "Properties for %s"
@@ -2277,43 +2277,43 @@ msgid "Filter:"
 msgstr "Szűrő:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Szűrés név szerint (a helyettesítő karakterek, pl. *.txt működnek)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "A szűrő megtartása mappaváltáskor"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Ebben a mappában"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Az Ön fájljaiban"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "Mindenhol"
 
 msgid "File Names"
-msgstr ""
+msgstr "Fájlnevek"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "Fájlnevek és tartalom"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Bármikor"
 
 msgid "Today"
 msgstr "Ma"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Utolsó 7 nap"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Utolsó 30 nap"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Utolsó év"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Rejtett fájlok"
 
 msgid "Zoom:"
 msgstr "Nagyítás:"
@@ -2326,7 +2326,7 @@ msgid "%s free"
 msgstr "%s szabad"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Lap kettőzése"
 
 msgid "Detach Tab"
 msgstr "Lap leválasztása"
@@ -2341,31 +2341,31 @@ msgid "--- separator ---"
 msgstr "--- elválasztó ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "A listában a helysáv fölötti műveletek a helysávtól balra, a többi tőle jobbra kerül. A * azokat a műveleteket jelöli, amelyek nem ott vannak, ahol az alapértelmezett eszköztáron."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_Elérhető műveletek:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Hozzáadás az eszköztárhoz"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Eltávolítás az eszköztárról"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Mozgatás fel (balra az eszköztáron)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Mozgatás le (jobbra az eszköztáron)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "_Jelenlegi műveletek:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Alapértelmezések"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Oszlopok megjelenítése"
 
 #, c-format
 msgid "Size: %s"
@@ -2373,11 +2373,11 @@ msgstr "Méret: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Módosítva: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Eredeti hely: %s"
 
 msgid "Yesterday"
 msgstr "Tegnap"
@@ -2404,19 +2404,19 @@ msgid "Big"
 msgstr "Nagy"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB alatt"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB – 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB – 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB vagy több"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Még nincs megszámolva"
 
 msgid "Searching…"
 msgstr "Keresés…"
@@ -2425,7 +2425,7 @@ msgid "No items matching the filter"
 msgstr "Nincsenek találatok a szűrőre"
 
 msgid "No items found"
-msgstr ""
+msgstr "Nem található elem"
 
 msgid "Trash is empty"
 msgstr "A Kuka üres."
@@ -2434,38 +2434,38 @@ msgid "Folder is empty"
 msgstr "A mappa üres"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "A fájlnév nem tartalmazhat „/” karaktert."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "„%s” átnevezése erre: „%s” megváltoztatja a kiterjesztését. A fájl más alkalmazással nyílhat meg, vagy egyáltalán nem."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Kijelölési mód: kattintson a fájlokra vagy mappákra a kijelölésükhöz vagy a kijelölés megszüntetéséhez."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Kilépés a kijelölési módból"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Kettőzés"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Törlés"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Tulajdonságok"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "A(z) „%s” mappa már nem létezik."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "„%s” kijelölve (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s kijelölve"
 
 msgid "Loading folder…"
 msgstr "Mappa betöltése…"
@@ -2473,87 +2473,87 @@ msgstr "Mappa betöltése…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kijelölve"
+msgstr[1] "%d kijelölve"
 
 msgid "Move left"
-msgstr ""
+msgstr "Mozgás balra"
 
 msgid "Move down"
-msgstr ""
+msgstr "Mozgás le"
 
 msgid "Move up"
-msgstr ""
+msgstr "Mozgás fel"
 
 msgid "Move right"
-msgstr ""
+msgstr "Mozgás jobbra"
 
 msgid "First item"
-msgstr ""
+msgstr "Első elem"
 
 msgid "Last item"
-msgstr ""
+msgstr "Utolsó elem"
 
 msgid "Page down"
-msgstr ""
+msgstr "Lapozás le"
 
 msgid "Page up"
-msgstr ""
+msgstr "Lapozás fel"
 
 msgid "Parent folder"
 msgstr "Szülőmappa"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "A kurzor által érintett elemek kijelölése (vizuális)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Tartomány kijelölése, mint a Shifttel (vizuális sor)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Egy blokk kijelölése a rácsból (vizuális blokk)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Vissza normál módba"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "A kurzor alatti elem másolása"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Átnevezés, kurzor az elején (beszúrás)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Átnevezés, kurzor a név után (hozzáfűzés)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Átnevezés, név kijelölve (módosítás)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "A hely szerkesztése"
 
 msgid "Copied."
-msgstr ""
+msgstr "Másolva."
 
 msgid "Cut."
-msgstr ""
+msgstr "Kivágva."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "„%s” nem nyitható meg."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Név szükséges."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Ismeretlen nézet: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Ismeretlen beállítás: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Rendezés név, méret, dátum vagy típus szerint."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Nem parancs: %s"

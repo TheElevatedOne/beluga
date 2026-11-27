@@ -21,95 +21,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "No s'ha pogut obrir l'arxiu."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "No s'ha pogut llegir l'arxiu."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Cancel·lat."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Este fitxer està xifrat amb una contrasenya."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "No s'ha pogut llegir «%s»."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Això no és un fitxer dins d'un arxiu."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Extreu aquí"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Comprimeix a .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "No s'ha trobat cap emulador de terminal."
 
 msgid "Root"
-msgstr ""
+msgstr "Arrel"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Volum %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Este dispositiu no es pot muntar."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Este dispositiu no es pot desmuntar."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "El dispositiu ja no hi és."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "S'està copiant %s a «%s»"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "S'està movent %s a «%s»"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "S'està enllaçant %s a «%s»"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "S'està movent %s a la paperera"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "S'està suprimint %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "S'està restaurant %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "S'està buidant la paperera"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "S'estan comptant els fitxers…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "«%s»: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Una carpeta no es pot moure dins d'ella mateixa."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Una carpeta no es pot copiar dins d'ella mateixa."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Només es poden extreure fitxers a carpetes locals."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "S'està extraient de «%s»"
 
 msgid "Title:"
 msgstr "Títol:"
@@ -127,7 +127,7 @@ msgid "Track:"
 msgstr "Peça:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Disc:"
 
 msgid "Date:"
 msgstr "Data:"
@@ -158,71 +158,71 @@ msgstr "Idioma:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Duració:"
 
 msgid "Format:"
-msgstr ""
+msgstr "Format:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Taxa de bits:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Coberta:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "Vídeo:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Vídeo %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "estèreo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d canal"
+msgstr[1] "%d canals"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bits"
 
 msgid "Audio:"
 msgstr "Àudio:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Àudio %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Subtítols:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Capítols:"
 
 msgid "Places"
 msgstr "Llocs"
@@ -270,7 +270,7 @@ msgid "Recent Files"
 msgstr "Fitxers recents"
 
 msgid "Images"
-msgstr ""
+msgstr "Imatges"
 
 msgid "Audio"
 msgstr "Àudio"
@@ -279,31 +279,31 @@ msgid "Folders"
 msgstr "Carpetes"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arxius"
 
 msgid "All Files"
 msgstr "Tots els fitxers"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Cerca «%s»"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "No s'ha trobat cap emulador de terminal. Configureu-ne un a Configura el Beluga › General › Terminal."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Este sistema de fitxers no té paperera."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "No s'ha pogut crear el fitxer d'informació de la paperera."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "«%s» ja existeix."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "La paperera supera el seu límit de %s. Considereu buidar-la."
 
 msgid "Copy"
 msgstr "Copia"
@@ -324,21 +324,21 @@ msgid "Create Folder"
 msgstr "Crea una carpeta"
 
 msgid "Create File"
-msgstr ""
+msgstr "Crea un fitxer"
 
 msgid "Undo"
 msgstr "Desfés"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Desfés: %s"
 
 msgid "Redo"
 msgstr "Refés"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Refés: %s"
 
 #, c-format
 msgid "%d item"
@@ -349,14 +349,14 @@ msgstr[1] "%d elements"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fitxer"
+msgstr[1] "%d fitxers"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d carpeta"
+msgstr[1] "%d carpetes"
 
 #, c-format
 msgid "%s, %s"
@@ -364,14 +364,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Avui a les %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Ahir a les %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A a les %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -379,11 +379,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld min %ld s"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld h %ld min"
 
 #, c-format
 msgid "%s copy"
@@ -391,7 +391,7 @@ msgstr "Còpia de %s"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s còpia %d"
 
 msgid "Name"
 msgstr "Nom"
@@ -400,7 +400,7 @@ msgid "Size"
 msgstr "Mida"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Ús del disc"
 
 msgid "Modified"
 msgstr "Modificat"
@@ -415,7 +415,7 @@ msgid "Type"
 msgstr "Tipus"
 
 msgid "Extension"
-msgstr ""
+msgstr "Extensió"
 
 msgid "Permissions"
 msgstr "Permisos"
@@ -436,22 +436,22 @@ msgid "Deletion Time"
 msgstr "Hora de la supressió"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Ubicació original"
 
 msgid "Dimensions"
 msgstr "Dimensions"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "El Beluga no ha pogut actuar com a administrador."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "Cal el pkexec (polkit) per a demanar la contrasenya d'administrador. Instal·leu el polkit i un agent de polkit per al vostre escriptori."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "Riscos d'actuar com a administrador"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Una finestra del Beluga amb drets d'administrador pot canviar i suprimir qualsevol fitxer d'este ordinador, inclosos els fitxers que el sistema necessita per a arrencar. Un error aquí pot deixar el sistema inservible. Feu-la servir només per a fitxers que no podeu canviar d'una altra manera, i tanqueu-la quan acabeu.\n\nA continuació, el Beluga demana la contrasenya d'administrador."
 
 msgid "Cancel"
 msgstr "Cancel·la"
@@ -523,7 +523,7 @@ msgid "Details View"
 msgstr "Vista de detalls"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Vista en columnes"
 
 msgid "Zoom In"
 msgstr "Amplia"
@@ -532,7 +532,7 @@ msgid "Zoom Out"
 msgstr "Reduix"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Restableix el zoom"
 
 msgid "Show Hidden Files"
 msgstr "Mostra els fitxers ocults"
@@ -547,7 +547,7 @@ msgid "Focus Other View"
 msgstr "Focus a l'altra vista"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Separa la vista dividida"
 
 msgid "Split View to Tabs"
 msgstr "Dividix la vista en pestanyes"
@@ -562,7 +562,7 @@ msgid "Replace Location"
 msgstr "Substituïx la ubicació"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Plafó de llocs"
 
 msgid "Folders Panel"
 msgstr "Quadro de carpetes"
@@ -571,7 +571,7 @@ msgid "Information Panel"
 msgstr "Quadro d'informació"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Plafó d'ús del disc"
 
 msgid "Focus Places Panel"
 msgstr "Dona el focus al quadro de Llocs"
@@ -592,31 +592,31 @@ msgid "Up"
 msgstr "Amunt"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Ves a la pestanya 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Ves a la pestanya 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Ves a la pestanya 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Ves a la pestanya 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Ves a la pestanya 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Ves a la pestanya 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Ves a la pestanya 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Ves a la pestanya 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Ves a la pestanya 9"
 
 msgid "Go to Last Tab"
 msgstr "Ves fins a l'última pestanya"
@@ -637,29 +637,29 @@ msgid "Configure Toolbars"
 msgstr "Configureu les barres d'eines"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Configura el Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "No s'ha pogut desfer."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Carpeta…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Fitxer de text…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Fitxer buit…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Enllaç a un fitxer o una carpeta…"
 
 msgid "Create New"
 msgstr "Crea nou"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Altra vista (%s)"
 
 msgid "Browse…"
 msgstr "Navega…"
@@ -699,7 +699,7 @@ msgid "View Mode"
 msgstr "Mode de vista"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Recorda la vista d'esta carpeta"
 
 msgid "Restore"
 msgstr "Restaura"
@@ -717,13 +717,13 @@ msgid "Open in Split View"
 msgstr "Obri en una vista dividida"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Obri al Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Obri la carpeta contenidora"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Enganxa a la carpeta"
 
 msgid "Rename…"
 msgstr "Canvia el nom…"
@@ -735,65 +735,65 @@ msgid "Close"
 msgstr "Tanca"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancel·la"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "El nom no pot contenir «/»."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Un nom que comença amb un punt queda ocult."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "No s'han pogut reanomenar alguns elements."
 
 msgid "Rename Item"
 msgstr "Canvia el nom de l'element"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Reanomena «%s» a:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Reanomena"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "No s'ha pogut reanomenar «%s»."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Voleu canviar el tipus del fitxer?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Reanomenar «%s» a «%s» canvia la seva extensió."
 
 msgid "Rename Items"
 msgstr "Canviar de nom els elements"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Reanomena els %zu elements seleccionats a:"
 
 msgid "New name #"
 msgstr "Nom nou #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# se substitueix per números ascendents; useu ## per a zeros a l'esquerra. Les extensions es mantenen."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Comença la numeració a:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Mou aquí"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Copia aquí"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Enllaça aquí"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "C_ancel·la"
 
 msgid "Add Places Entry"
 msgstr "Afig l'entrada dels llocs"
@@ -805,25 +805,25 @@ msgid "Label:"
 msgstr "Etiqueta:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Trieu una carpeta"
 
 msgid "Location:"
 msgstr "Ubicació:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Tria…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Nom de la icona:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Trieu una carpeta"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Afig"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Guarda"
 
 msgid "View Display Style"
 msgstr "Estil de presentació de la vista"
@@ -853,19 +853,19 @@ msgid "Descending"
 msgstr "Descendent"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Mostra primer les _carpetes"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Mostra els fitxers ocults al _final"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Mostra les _vistes prèvies"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Mostra en _grups"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Mostra els fitxers _ocults"
 
 msgid "Apply to"
 msgstr "Aplica a"
@@ -874,17 +874,17 @@ msgid "Current folder"
 msgstr "Carpeta actual"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "La carpeta actual, incloses totes les subcarpetes"
 
 msgid "All folders"
 msgstr "Totes les carpetes"
 
 msgid "_OK"
-msgstr ""
+msgstr "_D'acord"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "modificat %s"
 
 msgid "Folder Already Exists"
 msgstr "La carpeta ja existix"
@@ -894,35 +894,35 @@ msgstr "El fitxer ja existix"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Ja existeix una carpeta anomenada «%s» a «%s»."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Ja existeix un fitxer anomenat «%s» a «%s»."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Element existent"
 
 msgid "New item"
-msgstr ""
+msgstr "Element nou"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Suggereix un nom nou"
 
 msgid "New name:"
-msgstr ""
+msgstr "Nom nou:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Aplica a _tots"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Omet"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Escriu-hi a dins"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Sobreescriu"
 
 msgid "Skip"
 msgstr "Omet"
@@ -937,121 +937,121 @@ msgid "Choose an Icon"
 msgstr "Trieu una icona"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Cerca icones…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "Fitxer d'_imatge…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "Icona _predeterminada"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Trieu una imatge"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Les ubicacions de xarxa necessiten el gvfs. Instal·leu el paquet gvfs (i el gvfs-smb per a les comparticions de Windows, el gvfs-nfs per al NFS) i torneu a iniciar la sessió."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Esta ubicació no és una carpeta."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Esta ubicació no és vàlida."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Esta carpeta no és a l'arxiu."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s fitxer més petit"
+msgstr[1] "%s fitxers més petits"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(una altra unitat, no comptada)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "No s'ha pogut llegir part del seu contingut."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s en fitxers"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s al disc"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s fitxers i %s carpetes"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "S'està llegint… %s en %s fitxers i %s carpetes"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Aturat."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "No s'ha pogut llegir esta carpeta."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, llegit en %.1f s"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". No s'ha pogut llegir %s carpeta."
+msgstr[1] ". No s'han pogut llegir %s carpetes."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Només es poden mesurar carpetes d'este ordinador."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "llegit fa menys d'un minut"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "llegit fa %d minut"
+msgstr[1] "llegit fa %d minuts"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "llegit fa %d hora"
+msgstr[1] "llegit fa %d hores"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Torneu a analitzar per a llegir-ho de nou."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "Mida _aparent"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Suma les mides dels fitxers en lloc de l'espai que ocupen al disc."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Queda't en esta unitat"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "No comptis altres unitats muntades dins d'esta carpeta (com una carpeta de música en un altre disc). Els enllaços no se segueixen mai."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Torna a analitzar"
 
 msgid "Stop"
 msgstr "Para"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Tanca l'ús del disc"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Torna a analitzar"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Atura"
 
 msgid "Share"
 msgstr "Compartiu"
@@ -1061,74 +1061,74 @@ msgstr "Fitxers"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Ús del disc – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "«%s» ja existeix. El voleu substituir?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu d'estos fitxers ja existeixen. Els voleu substituir?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "El programa des del qual guardeu escriurà sobre el contingut existent."
 
 msgid "Replace"
 msgstr "Substituïx"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Trieu una carpeta on guardar."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Selecciona la carpeta"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Obri fitxers"
 
 msgid "Open File"
-msgstr ""
+msgstr "Obri un fitxer"
 
 msgid "Save File"
-msgstr ""
+msgstr "Guarda el fitxer"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Guarda els fitxers"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Carpeta:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Nom:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Tipus:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Selecciona"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Obri"
 
 msgid "New Folder"
 msgstr "Carpeta nova"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Crea una carpeta nova a:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "C_rea"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "No s'ha pogut crear la carpeta."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu elements seleccionats"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Contingut:"
 
 msgid "Size:"
 msgstr "Mida:"
@@ -1140,10 +1140,10 @@ msgid "Folder"
 msgstr "Carpeta"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Conté:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "S'està comptant…"
 
 msgid "Unknown"
 msgstr "Desconegut"
@@ -1173,75 +1173,75 @@ msgid "Dimensions:"
 msgstr "Dimensions:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Enllaç trencat"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (enllaç)"
 
 msgid "other drive"
-msgstr ""
+msgstr "una altra unitat"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s de %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "en queden %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d de %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Operacions amb fitxers en curs"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Sense subcarpetes"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Selecciona els fitxers indicats a les seves carpetes"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Obri la finestra en vista dividida"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Obri sempre una finestra nova"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Continua executant-se en segon pla per al servei D-Bus FileManager1"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Desacobla del terminal (sense ubicació: obri la carpeta actual)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Executa el selector de fitxers per a xdg-desktop-portal (iniciat pel D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Mostra la versió"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[FITXER o CARPETA…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Actuant com a administrador: els canvis en esta finestra poden danyar el sistema."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Voleu tancar esta finestra?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Esta finestra té %zu pestanyes obertes. Si la tanqueu, es tancaran totes."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Tanca la finestra"
 
 msgid "Configure Toolbars…"
 msgstr "Configura les barres d'eines…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Mostra la barra d'_eines"
 
 msgid "Split"
 msgstr "Dividix"
@@ -1256,79 +1256,79 @@ msgid "Show in Groups"
 msgstr "Mostra per grups"
 
 msgid "_File"
-msgstr ""
+msgstr "_Fitxer"
 
 msgid "New _Window"
-msgstr ""
+msgstr "_Finestra nova"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "_Pestanya nova"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Tanca la pestanya"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Crea _nou"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Reanomena…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Duplica aquí"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Mou a la _paperera"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Suprimix"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Restaura de la paperera"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Propietats"
 
 msgid "_Quit"
-msgstr ""
+msgstr "I_x"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Edita"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Desfés"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Refés"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "Re_talla"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Copia"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Enganxa"
 
 msgid "Filter…"
 msgstr "Filtre…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Cerca…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Selecciona-ho _tot"
 
 msgid "_View"
-msgstr ""
+msgstr "_Visualitza"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Amplia"
 
 msgid "Reset Zoom Level"
 msgstr "Reinici del nivell de zoom"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Redueix"
 
 msgid "Show Additional Information"
 msgstr "Mostra la informació addicional"
@@ -1343,7 +1343,7 @@ msgid "Adjust View Display Style…"
 msgstr "Ajusta l'estil de presentació de la vista…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "Re_carrega"
 
 msgid "Panels"
 msgstr "Quadros"
@@ -1355,140 +1355,140 @@ msgid "Location Bar"
 msgstr "Barra d'ubicació"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Mostra la barra de _menús"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Mostra la barra d'e_stat"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Ves"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Enrere"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Endavant"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Amunt"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Inici"
 
 msgid "Recently Closed Tabs"
 msgstr "Pestanyes tancades recentment"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Eines"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Obri un _terminal"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Obri un terminal _aquí"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "Ús del _disc…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Configuració"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Configura les _barres d'eines…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Configura el Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "No hi ha pestanyes tancades recentment"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Administrador)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Voleu obrir %zu carpetes en pestanyes noves?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Obri les carpetes"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "No s'ha pogut obrir «%s»."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "No s'ha pogut obrir un terminal."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Fitxer de text nou.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Fitxer nou"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Voleu buidar la paperera?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Tots els elements de la paperera se suprimiran permanentment. Això no es pot desfer."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Voleu obrir %zu terminals?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Obri els terminals"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Crea un fitxer nou a:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "No s'ha pogut crear el fitxer."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Enllaç a un fitxer o una carpeta"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Camí del fitxer o la carpeta a enllaçar:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "No s'ha pogut crear l'enllaç."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Voleu suprimir %s permanentment?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Això no es pot desfer."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Voleu moure %s a la paperera?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "No s'ha pogut executar «%s»."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "No s'ha pogut iniciar %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "No s'ha pogut iniciar l'aplicació."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "«%s» és un fitxer executable."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Voleu executar-lo o obrir-lo amb una aplicació?"
 
 msgid "Run"
-msgstr ""
+msgstr "Executa"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Trieu l'aplicació per a obrir %s (%s):"
 
 msgid "Recommended Applications"
 msgstr "Aplicacions recomanades"
@@ -1497,33 +1497,33 @@ msgid "Other Applications"
 msgstr "Altres aplicacions"
 
 msgid "Or command:"
-msgstr ""
+msgstr "O una ordre:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Recorda l'associació d'aplicació per a este tipus de fitxer"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s lliures de %s"
 
 msgid "Safely Remove"
 msgstr "Extrau amb seguretat"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Configura les seccions"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Les seccions marcades es mostren al plafó de llocs, en este ordre."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Mou amunt"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Mou avall"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "No s'ha pogut muntar el dispositiu: %s"
 
 msgid "Mount"
 msgstr "Munta"
@@ -1538,7 +1538,7 @@ msgid "Remove"
 msgstr "Elimina"
 
 msgid "Show"
-msgstr ""
+msgstr "Mostra"
 
 msgid "Hide"
 msgstr "Oculta"
@@ -1550,31 +1550,31 @@ msgid "Add Entry…"
 msgstr "Afig una entrada…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Configura les seccions…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Amaga les entrades ocultes"
 
 msgid "Show All Entries"
 msgstr "Mostra totes les entrades"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Tots els elements de la paperera se suprimiran permanentment."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "No s'ha pogut extreure el dispositiu amb seguretat: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "No s'ha pogut desmuntar el dispositiu: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Usa el tipus de lletra del _sistema"
 
 msgid "Label font:"
 msgstr "Lletra de les etiquetes:"
@@ -1586,52 +1586,52 @@ msgid "Preview icon size:"
 msgstr "Mida de la vista prèvia de les icones:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Acció del menú contextual"
 
 msgid "Name:"
 msgstr "Nom:"
 
 msgid "Command:"
-msgstr ""
+msgstr "Ordre:"
 
 msgid "File names:"
 msgstr "Noms de fitxer:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Tipus:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f primer fitxer, %F tots els fitxers, %u / %U com a URI, %n / %N noms, %d carpeta actual."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Mostra per a _fitxers"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Mostra per a c_arpetes"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Mostra quan hi ha _diversos elements seleccionats"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Executa en un _terminal"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Accions personalitzades"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Les vostres pròpies entrades per al menú contextual de fitxers i carpetes."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Afig…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Edita…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Elimina"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Les dreceres s'escriuen com <Control>c o <Shift>Delete. Separeu-ne diverses amb comes. Deixeu un camp buit per a usar la predeterminada."
 
 msgid "no file"
 msgstr "cap fitxer"
@@ -1641,19 +1641,19 @@ msgstr "fitxers de qualsevol mida"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "fitxers de menys de %d MiB"
 
 msgid "Search…"
 msgstr "Busca…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Restaura els valors predeterminats"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Aplica"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Carpetes i pestanyes"
 
 msgid "Show on startup:"
 msgstr "Mostra en iniciar:"
@@ -1662,7 +1662,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "Carpetes, pestanyes i estat de la finestra de l'última vegada"
 
 msgid "This location:"
-msgstr ""
+msgstr "Esta ubicació:"
 
 msgid "Use Current Location"
 msgstr "Utilitza la ubicació actual"
@@ -1674,7 +1674,7 @@ msgid "Opening Folders:"
 msgstr "Obertura de carpetes:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Mantén una sola finestra del Beluga i obri les carpetes noves en pestanyes"
 
 msgid "Window:"
 msgstr "Finestra:"
@@ -1686,7 +1686,7 @@ msgid "Show filter bar"
 msgstr "Mostra la barra de filtres"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Pestanyes:"
 
 msgid "Always show tab bar"
 msgstr "Mostra sempre la barra de pestanyes"
@@ -1704,7 +1704,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "Totes les pestanyes tenen la mateixa amplària fixa"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Les pestanyes d'amplada fixa s'estrenyen, totes igual, quan no hi caben."
 
 msgid "Open new tabs:"
 msgstr "Obri en pestanyes noves: "
@@ -1737,42 +1737,42 @@ msgid "Terminal:"
 msgstr "Terminal:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "No s'ha trobat cap terminal"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Detectat: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "L'utilitzen F4 i Obri un terminal aquí. %d a l'ordre se substitueix per la carpeta; si no, el terminal s'inicia en ella. Abans era una opció del sistema del KDE."
 
 msgid "Previews"
 msgstr "Vistes prèvies"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Carpetes noves:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Mostra les _vistes prèvies a les carpetes noves"
 
 msgid "Show previews in the view for:"
 msgstr "Mostra les vistes prèvies en la visualització per a:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Àudio (portades)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Documents PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "Fitxers de text"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Tipus de lletra"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Documents d'oficina"
 
 msgid "Local storage:"
 msgstr "Emmagatzematge local:"
@@ -1787,7 +1787,7 @@ msgid "Confirmations"
 msgstr "Confirmacions"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Demana confirmació en:"
 
 msgid "Moving files or folders to trash"
 msgstr "Es moguen fitxers o carpetes cap a dins de la paperera"
@@ -1802,7 +1802,7 @@ msgid "Renaming a file will change its type"
 msgstr "Canviar de nom un fitxer canviarà el seu tipus"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Demana confirmació al Beluga en:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Es tanquen finestres amb múltiples pestanyes"
@@ -1841,7 +1841,7 @@ msgid "Show item on hover"
 msgstr "Mostra l'element en passar-hi per damunt"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Usa el format de data _llarg"
 
 msgid "Folders Panel:"
 msgstr "Quadro de carpetes:"
@@ -1850,19 +1850,19 @@ msgid "Limit to home directory when inside it"
 msgstr "Limita al directori d'inici si es troba dins d'ell"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Mostra les carpetes _ocultes"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Desplaça't fins a la carpeta actual _automàticament"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Plafó de llocs:"
 
 msgid "Icon size:"
 msgstr "Mida de la icona:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Barres d'estat i d'ubicació"
 
 msgid "Status Bar:"
 msgstr "Barra d'estat:"
@@ -1880,7 +1880,7 @@ msgid "Show zoom slider"
 msgstr "Mostra el control lliscant del zoom"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Mostra l'_espai lliure"
 
 msgid "Location bar:"
 msgstr "Barra d'ubicació:"
@@ -1907,7 +1907,7 @@ msgid "Remember display style for each folder"
 msgstr "Recorda l'estil de presentació per a cada carpeta"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "En qualsevol cas, Visualitza › Recorda la vista d'esta carpeta dona a una carpeta el seu propi estil. Algunes vistes especials, com la cerca, els fitxers recents o la paperera, encara fan servir un estil propi."
 
 msgid "Browsing:"
 msgstr "Navegueu: "
@@ -1919,10 +1919,10 @@ msgid "Open folders during drag operations"
 msgstr "Obri les carpetes en les operacions d'arrossegament"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Obri els fitxers i les carpetes amb un sol clic"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Mantén un _índex de la carpeta d'inici per a la cerca instantània"
 
 msgid "Miscellaneous:"
 msgstr "Miscel·lània: "
@@ -1979,37 +1979,37 @@ msgid "Show no size"
 msgstr "No mostra la mida"
 
 msgid "levels deep"
-msgstr ""
+msgstr "nivells de profunditat"
 
 msgid "Date style:"
 msgstr "Estil de la data:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relativa (Avui, Ahir…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Absoluta"
 
 msgid "Permissions style:"
 msgstr "Estil dels permisos:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Simbòlic (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numèric (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Combinat"
 
 msgid "Long file names:"
 msgstr "Noms llargs de fitxers:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Escurça pel mig"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Escurça pel final"
 
 msgid "Label width:"
 msgstr "Amplària de les etiquetes:"
@@ -2051,163 +2051,163 @@ msgid "By clicking on icon or name"
 msgstr "Clicant damunt de la icona o el nom"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Ús del disc:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Mostra una columna d'_ús del disc"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "L'espai que ocupa al disc cada fitxer i cada carpeta sencera, amb una barra per a la seva part de la carpeta, com a Eines › Ús del disc. Les carpetes es llegeixen senceres en segon pla; ordeneu per la columna per a veure primer les més grans. \"Queda't en esta unitat\" de la finestra Ús del disc també s'aplica aquí."
 
 msgid "View"
 msgstr "Visualitza"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Mostra al menú contextual"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "«Copia a» i «Mou a»"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Suprimix (a més de Mou a la paperera)"
 
 msgid "Context Menu"
 msgstr "Menú contextual"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Neteja:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Suprimix els fitxers de més de"
 
 msgid "days"
-msgstr ""
+msgstr "dies"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Limita a"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "per cent del disc"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Mantén la paperera a la unitat de la carpeta d'inici"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Els fitxers que es mouen a la paperera des d'altres unitats es copien a la paperera de la carpeta d'inici, de manera que estes unitats no tenen cap carpeta .Trash-1000. Llavors, moure fitxers grans a la paperera tarda més."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Paperera plena:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Quan s'arriba al límit:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Mostra un avís"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Suprimix els elements més antics"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Suprimix els elements més grans"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Abans eren opcions del sistema del KDE. Els límits s'apliquen quan s'inicia el Beluga i després de moure elements a la paperera."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "S'està calculant la mida de la paperera…"
 
 msgid "Trash:"
 msgstr "Paperera:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "La paperera ocupa ara %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Buida la paperera ara"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Mode Vim"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Mode Vim:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Usa tecles a l'estil del Vim a les vistes"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "El mode normal es mou amb h j k l i executa les tecles de sota; v, V i Ctrl+V seleccionen; i i a reanomenen (mode d'inserció); Esc torna al mode normal; : obri la línia d'ordres. Les tecles amb Ctrl o Alt que no són aquí mantenen el seu significat habitual."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Tecla líder:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> a les tecles de sota, p. ex. <Space> o ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Espera més tecles:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd després de d, gg després de g)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Tecles"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Notació del Vim, diverses separades per espais: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Deixeu un camp buit per a la predeterminada."
 
 msgid "Command line"
 msgstr "Línia d'ordes"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q tanca la finestra (:q! sense preguntar per les pestanyes), :qa ix del Beluga, :e o :cd CAMÍ obri una carpeta, :tabnew [CAMÍ], :tabclose, :tabonly, :sp o :vs [CAMÍ] dividixen la vista, :only tanca l'altra vista, :mkdir NOM, :touch NOM, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ORDRE executa una ordre de l'intèrpret a la carpeta."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Dreceres de teclat"
 
 msgid "Details:"
 msgstr "Detalls:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Només es poden llegir fitxers d'este ordinador."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "El Beluga s'ha compilat sense FFmpeg."
 
 msgid "Reading…"
-msgstr ""
+msgstr "S'està llegint…"
 
 msgid "No details found."
-msgstr ""
+msgstr "No s'han trobat detalls."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Canvia la icona de la carpeta"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "No s'ha pogut canviar la icona."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu elements"
 
 msgid "Calculating…"
 msgstr "S'està calculant…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Cap aplicació predeterminada"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Canvia…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "S'obri amb:"
 
 msgid "Free space:"
 msgstr "Espai lliure:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s lliures de %s (%d%% usat)"
 
 #, c-format
 msgid "%llu byte"
@@ -2219,13 +2219,13 @@ msgid "Forbidden"
 msgstr "prohibit"
 
 msgid "Can View"
-msgstr ""
+msgstr "Pot veure"
 
 msgid "Can View & Modify"
 msgstr "Pot veure i modificar"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Pot veure el contingut"
 
 msgid "Can View & Modify Content"
 msgstr "Pot veure i modificar el contingut"
@@ -2234,10 +2234,10 @@ msgid "Others:"
 msgstr "Altres:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "És _executable"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Aplica els canvis a totes les _subcarpetes i al seu contingut"
 
 msgid "User:"
 msgstr "Usuari:"
@@ -2249,22 +2249,22 @@ msgid "Calculate"
 msgstr "Calcula"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "No s'ha pogut llegir el fitxer."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Enganxeu una suma de verificació per a comparar"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Verifica:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Les sumes de verificació coincideixen."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Cap suma de verificació calculada no coincideix. Calculeu primer el tipus corresponent."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "No s'han pogut canviar els permisos."
 
 #, c-format
 msgid "Properties for %s"
@@ -2277,16 +2277,16 @@ msgid "Filter:"
 msgstr "Filtre:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Filtra per nom (funcionen comodins com *.txt)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Mantén el filtre en canviar de carpeta"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "En esta carpeta"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "En els vostres fitxers"
 
 msgid "Everywhere"
 msgstr "A tot arreu"
@@ -2298,22 +2298,22 @@ msgid "File Names and Contents"
 msgstr "Noms i contingut dels fitxers"
 
 msgid "Any Time"
-msgstr ""
+msgstr "En qualsevol moment"
 
 msgid "Today"
 msgstr "Hui"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Últims 7 dies"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Últims 30 dies"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Últim any"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Fitxers ocults"
 
 msgid "Zoom:"
 msgstr "Zoom:"
@@ -2326,7 +2326,7 @@ msgid "%s free"
 msgstr "%s lliure"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Duplica la pestanya"
 
 msgid "Detach Tab"
 msgstr "Separa la pestanya"
@@ -2341,31 +2341,31 @@ msgid "--- separator ---"
 msgstr "--- separador ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Les accions per sobre de la barra d'ubicació a la llista se situen a la seva esquerra, les altres a la seva dreta. * marca les accions que no són on les té la barra d'eines predeterminada."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "Accions _disponibles:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Afig a la barra d'eines"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Elimina de la barra d'eines"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Mou amunt (a l'esquerra a la barra d'eines)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Mou avall (a la dreta a la barra d'eines)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "Accions a_ctuals:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Predeterminades"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Mostra les columnes"
 
 #, c-format
 msgid "Size: %s"
@@ -2373,11 +2373,11 @@ msgstr "Mida: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Modificat: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Ubicació original: %s"
 
 msgid "Yesterday"
 msgstr "Ahir"
@@ -2404,19 +2404,19 @@ msgid "Big"
 msgstr "Gran"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Menys d'1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "D'1 MiB a 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "De 100 MiB a 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB o més"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Encara no comptat"
 
 msgid "Searching…"
 msgstr "S'està buscant…"
@@ -2434,38 +2434,38 @@ msgid "Folder is empty"
 msgstr "La carpeta està buida"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Un nom de fitxer no pot contenir «/»."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Reanomenar «%s» a «%s» canvia la seva extensió. El fitxer es pot obrir amb una altra aplicació o no obrir-se."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Mode de selecció: feu clic en fitxers o carpetes per a seleccionar-los o desseleccionar-los."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "I_x del mode de selecció"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Duplica"
 
 msgid "De_lete"
-msgstr ""
+msgstr "Su_primix"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "Pr_opietats"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "La carpeta «%s» ja no existeix."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "«%s» seleccionat (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s seleccionat"
 
 msgid "Loading folder…"
 msgstr "S'està carregant la carpeta…"
@@ -2473,87 +2473,87 @@ msgstr "S'està carregant la carpeta…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d seleccionat"
+msgstr[1] "%d seleccionats"
 
 msgid "Move left"
-msgstr ""
+msgstr "Mou a l'esquerra"
 
 msgid "Move down"
-msgstr ""
+msgstr "Mou avall"
 
 msgid "Move up"
-msgstr ""
+msgstr "Mou amunt"
 
 msgid "Move right"
-msgstr ""
+msgstr "Mou a la dreta"
 
 msgid "First item"
-msgstr ""
+msgstr "Primer element"
 
 msgid "Last item"
-msgstr ""
+msgstr "Últim element"
 
 msgid "Page down"
-msgstr ""
+msgstr "Pàgina avall"
 
 msgid "Page up"
-msgstr ""
+msgstr "Pàgina amunt"
 
 msgid "Parent folder"
 msgstr "Carpeta pare"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Selecciona els elements per on passa el cursor (visual)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Selecciona un interval, com amb Maj (línia visual)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Selecciona un bloc de la graella (bloc visual)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Torna al mode normal"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Copia l'element sota el cursor"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Reanomena, cursor al principi (inserció)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Reanomena, cursor després del nom (afegeix)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Reanomena, nom seleccionat (canvia)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Edita la ubicació"
 
 msgid "Copied."
-msgstr ""
+msgstr "S'ha copiat."
 
 msgid "Cut."
-msgstr ""
+msgstr "S'ha retallat."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "No es pot obrir «%s»."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Cal un nom."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Vista desconeguda: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Opció desconeguda: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Ordena per nom, mida, data o tipus."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "No és una ordre: %s"

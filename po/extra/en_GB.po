@@ -1,0 +1,1495 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "The archive could not be opened."
+
+msgid "The archive could not be read."
+msgstr "The archive could not be read."
+
+msgid "Cancelled."
+msgstr "Cancelled."
+
+msgid "This file is encrypted with a password."
+msgstr "This file is encrypted with a password."
+
+msgid "“%s” could not be read."
+msgstr "“%s” could not be read."
+
+msgid "This is not a file in an archive."
+msgstr "This is not a file in an archive."
+
+msgid "Extract Here"
+msgstr "Extract Here"
+
+msgid "Compress to .tar.gz"
+msgstr "Compress to .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "No terminal emulator was found."
+
+msgid "Root"
+msgstr "Root"
+
+msgid "%s Volume"
+msgstr "%s Volume"
+
+msgid "This device cannot be mounted."
+msgstr "This device cannot be mounted."
+
+msgid "This device cannot be unmounted."
+msgstr "This device cannot be unmounted."
+
+msgid "The device is gone."
+msgstr "The device is gone."
+
+msgid "Copying %s to “%s”"
+msgstr "Copying %s to “%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Moving %s to “%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Linking %s in “%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Moving %s to the trash"
+
+msgid "Deleting %s"
+msgstr "Deleting %s"
+
+msgid "Restoring %s"
+msgstr "Restoring %s"
+
+msgid "Emptying the trash"
+msgstr "Emptying the trash"
+
+msgid "Counting files…"
+msgstr "Counting files…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "A folder cannot be moved into itself."
+
+msgid "A folder cannot be copied into itself."
+msgstr "A folder cannot be copied into itself."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Files can only be extracted into local folders."
+
+msgid "Extracting from “%s”"
+msgstr "Extracting from “%s”"
+
+msgid "Disc:"
+msgstr "Disc:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bit rate:"
+
+msgid "Cover:"
+msgstr "Cover:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d channel"
+msgstr[1] "%d channels"
+
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio %d:"
+msgstr "Audio %d:"
+
+msgid "Subtitles:"
+msgstr "Subtitles:"
+
+msgid "Chapters:"
+msgstr "Chapters:"
+
+msgid "Images"
+msgstr "Images"
+
+msgid "Archives"
+msgstr "Archives"
+
+msgid "Search for “%s”"
+msgstr "Search for “%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+
+msgid "This file system has no trash."
+msgstr "This file system has no trash."
+
+msgid "Could not create the trash information file."
+msgstr "Could not create the trash information file."
+
+msgid "“%s” already exists."
+msgstr "“%s” already exists."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "The trash is larger than its limit of %s. Consider emptying it."
+
+msgid "Create File"
+msgstr "Create File"
+
+msgid "Undo: %s"
+msgstr "Undo: %s"
+
+msgid "Redo: %s"
+msgstr "Redo: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d file"
+msgstr[1] "%d files"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d folder"
+msgstr[1] "%d folders"
+
+msgid "Today at %s"
+msgstr "Today at %s"
+
+msgid "Yesterday at %s"
+msgstr "Yesterday at %s"
+
+msgid "%A at %H:%M"
+msgstr "%A at %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s copy %d"
+
+msgid "Disk Usage"
+msgstr "Disk Usage"
+
+msgid "Extension"
+msgstr "Extension"
+
+msgid "Original Location"
+msgstr "Original Location"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga could not act as administrator."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+
+msgid "Columns View"
+msgstr "Columns View"
+
+msgid "Reset Zoom"
+msgstr "Reset Zoom"
+
+msgid "Pop out Split View"
+msgstr "Pop out Split View"
+
+msgid "Places Panel"
+msgstr "Places Panel"
+
+msgid "Disk Usage Panel"
+msgstr "Disk Usage Panel"
+
+msgid "Go to Tab 1"
+msgstr "Go to Tab 1"
+
+msgid "Go to Tab 2"
+msgstr "Go to Tab 2"
+
+msgid "Go to Tab 3"
+msgstr "Go to Tab 3"
+
+msgid "Go to Tab 4"
+msgstr "Go to Tab 4"
+
+msgid "Go to Tab 5"
+msgstr "Go to Tab 5"
+
+msgid "Go to Tab 6"
+msgstr "Go to Tab 6"
+
+msgid "Go to Tab 7"
+msgstr "Go to Tab 7"
+
+msgid "Go to Tab 8"
+msgstr "Go to Tab 8"
+
+msgid "Go to Tab 9"
+msgstr "Go to Tab 9"
+
+msgid "Configure Beluga"
+msgstr "Configure Beluga"
+
+msgid "Undo failed."
+msgstr "Undo failed."
+
+msgid "Folder…"
+msgstr "Folder…"
+
+msgid "Text File…"
+msgstr "Text File…"
+
+msgid "Empty File…"
+msgstr "Empty File…"
+
+msgid "Link to File or Folder…"
+msgstr "Link to File or Folder…"
+
+msgid "Other View (%s)"
+msgstr "Other View (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Remember View for This Folder"
+
+msgid "Open in Beluga"
+msgstr "Open in Beluga"
+
+msgid "Paste into Folder"
+msgstr "Paste into Folder"
+
+msgid "_Cancel"
+msgstr "_Cancel"
+
+msgid "The name cannot contain “/”."
+msgstr "The name cannot contain “/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "A name starting with a dot is hidden."
+
+msgid "Some items could not be renamed."
+msgstr "Some items could not be renamed."
+
+msgid "Rename “%s” to:"
+msgstr "Rename “%s” to:"
+
+msgid "_Rename"
+msgstr "_Rename"
+
+msgid "Could not rename “%s”."
+msgstr "Could not rename “%s”."
+
+msgid "Change the file type?"
+msgstr "Change the file type?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Renaming “%s” to “%s” changes its extension."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Rename the %zu selected items to:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+
+msgid "Start numbering at:"
+msgstr "Start numbering at:"
+
+msgid "_Move Here"
+msgstr "_Move Here"
+
+msgid "_Copy Here"
+msgstr "_Copy Here"
+
+msgid "_Link Here"
+msgstr "_Link Here"
+
+msgid "C_ancel"
+msgstr "C_ancel"
+
+msgid "Choose a folder"
+msgstr "Choose a folder"
+
+msgid "C_hoose…"
+msgstr "C_hoose…"
+
+msgid "Icon name:"
+msgstr "Icon name:"
+
+msgid "Choose a Folder"
+msgstr "Choose a Folder"
+
+msgid "_Add"
+msgstr "_Add"
+
+msgid "_Save"
+msgstr "_Save"
+
+msgid "Show _folders first"
+msgstr "Show _folders first"
+
+msgid "Show hidden files _last"
+msgstr "Show hidden files _last"
+
+msgid "Show _previews"
+msgstr "Show _previews"
+
+msgid "Show in _groups"
+msgstr "Show in _groups"
+
+msgid "Show _hidden files"
+msgstr "Show _hidden files"
+
+msgid "Current folder including all subfolders"
+msgstr "Current folder including all subfolders"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "modified %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "A folder named “%s” already exists in “%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "A file named “%s” already exists in “%s”."
+
+msgid "Existing item"
+msgstr "Existing item"
+
+msgid "New item"
+msgstr "New item"
+
+msgid "_Suggest New Name"
+msgstr "_Suggest New Name"
+
+msgid "New name:"
+msgstr "New name:"
+
+msgid "Apply to _all"
+msgstr "Apply to _all"
+
+msgid "S_kip"
+msgstr "S_kip"
+
+msgid "_Write Into"
+msgstr "_Write Into"
+
+msgid "_Overwrite"
+msgstr "_Overwrite"
+
+msgid "Search icons…"
+msgstr "Search icons…"
+
+msgid "_Image File…"
+msgstr "_Image File…"
+
+msgid "_Default Icon"
+msgstr "_Default Icon"
+
+msgid "Choose an Image"
+msgstr "Choose an Image"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+
+msgid "This location is not a folder."
+msgstr "This location is not a folder."
+
+msgid "This location is not valid."
+msgstr "This location is not valid."
+
+msgid "This folder is not in the archive."
+msgstr "This folder is not in the archive."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s smaller file"
+msgstr[1] "%s smaller files"
+
+msgid "(another drive, not counted)"
+msgstr "(another drive, not counted)"
+
+msgid "Some of its contents could not be read."
+msgstr "Some of its contents could not be read."
+
+msgid "%s in files"
+msgstr "%s in files"
+
+msgid "%s on disk"
+msgstr "%s on disk"
+
+msgid "%s files and %s folders"
+msgstr "%s files and %s folders"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Reading… %s in %s files and %s folders"
+
+msgid "Stopped."
+msgstr "Stopped."
+
+msgid "This folder could not be read."
+msgstr "This folder could not be read."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, read in %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s folder could not be read."
+msgstr[1] ". %s folders could not be read."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Only folders on this computer can be measured."
+
+msgid "read less than a minute ago"
+msgstr "read less than a minute ago"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "read %d minute ago"
+msgstr[1] "read %d minutes ago"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "read %d hour ago"
+msgstr[1] "read %d hours ago"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Rescan to read it again."
+
+msgid "_Apparent size"
+msgstr "_Apparent size"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Add up the file sizes instead of the disk space the files take up."
+
+msgid "_Stay on this drive"
+msgstr "_Stay on this drive"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+
+msgid "Rescan"
+msgstr "Rescan"
+
+msgid "Close Disk Usage"
+msgstr "Close Disk Usage"
+
+msgid "_Rescan"
+msgstr "_Rescan"
+
+msgid "S_top"
+msgstr "S_top"
+
+msgid "Disk Usage – %s"
+msgstr "Disk Usage – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” already exists. Replace it?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu of these files already exist. Replace them?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "The program you are saving from will write over the existing contents."
+
+msgid "Choose a folder to save in."
+msgstr "Choose a folder to save in."
+
+msgid "Select Folder"
+msgstr "Select Folder"
+
+msgid "Open Files"
+msgstr "Open Files"
+
+msgid "Open File"
+msgstr "Open File"
+
+msgid "Save File"
+msgstr "Save File"
+
+msgid "Save Files"
+msgstr "Save Files"
+
+msgid "_Folder:"
+msgstr "_Folder:"
+
+msgid "_Name:"
+msgstr "_Name:"
+
+msgid "_Type:"
+msgstr "_Type:"
+
+msgid "_Select"
+msgstr "_Select"
+
+msgid "_Open"
+msgstr "_Open"
+
+msgid "Create new folder in:\n%s"
+msgstr "Create new folder in:\n%s"
+
+msgid "C_reate"
+msgstr "C_reate"
+
+msgid "Could not create the folder."
+msgstr "Could not create the folder."
+
+msgid "%zu items selected"
+msgstr "%zu items selected"
+
+msgid "Contents:"
+msgstr "Contents:"
+
+msgid "Contains:"
+msgstr "Contains:"
+
+msgid "Counting…"
+msgstr "Counting…"
+
+msgid "Broken Link"
+msgstr "Broken Link"
+
+msgid "%s (link)"
+msgstr "%s (link)"
+
+msgid "other drive"
+msgstr "other drive"
+
+msgid "%s of %s"
+msgstr "%s of %s"
+
+msgid "%s left"
+msgstr "%s left"
+
+msgid "%d of %d"
+msgstr "%d of %d"
+
+msgid "File operations in progress"
+msgstr "File operations in progress"
+
+msgid "No subfolders"
+msgstr "No subfolders"
+
+msgid "Select the given files in their folders"
+msgstr "Select the given files in their folders"
+
+msgid "Open the window in split view"
+msgstr "Open the window in split view"
+
+msgid "Always open a new window"
+msgstr "Always open a new window"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Keep running in the background for the FileManager1 D-Bus service"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Detach from the terminal (without a location: open the current folder)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+
+msgid "Show the version"
+msgstr "Show the version"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FILE or FOLDER…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Acting as administrator: changes in this window can damage the system."
+
+msgid "Close this window?"
+msgstr "Close this window?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "This window has %zu tabs open. Closing it closes all of them."
+
+msgid "Close Window"
+msgstr "Close Window"
+
+msgid "Show _Toolbar"
+msgstr "Show _Toolbar"
+
+msgid "_File"
+msgstr "_File"
+
+msgid "New _Window"
+msgstr "New _Window"
+
+msgid "New _Tab"
+msgstr "New _Tab"
+
+msgid "_Close Tab"
+msgstr "_Close Tab"
+
+msgid "Create _New"
+msgstr "Create _New"
+
+msgid "_Rename…"
+msgstr "_Rename…"
+
+msgid "_Duplicate Here"
+msgstr "_Duplicate Here"
+
+msgid "Move to _Trash"
+msgstr "Move to _Trash"
+
+msgid "_Delete"
+msgstr "_Delete"
+
+msgid "Restore from Trash"
+msgstr "Restore from Trash"
+
+msgid "_Properties"
+msgstr "_Properties"
+
+msgid "_Quit"
+msgstr "_Quit"
+
+msgid "_Edit"
+msgstr "_Edit"
+
+msgid "_Undo"
+msgstr "_Undo"
+
+msgid "_Redo"
+msgstr "_Redo"
+
+msgid "Cu_t"
+msgstr "Cu_t"
+
+msgid "_Copy"
+msgstr "_Copy"
+
+msgid "_Paste"
+msgstr "_Paste"
+
+msgid "_Search…"
+msgstr "_Search…"
+
+msgid "Select _All"
+msgstr "Select _All"
+
+msgid "_View"
+msgstr "_View"
+
+msgid "Zoom _In"
+msgstr "Zoom _In"
+
+msgid "Zoom _Out"
+msgstr "Zoom _Out"
+
+msgid "Re_load"
+msgstr "Re_load"
+
+msgid "Show _Menubar"
+msgstr "Show _Menubar"
+
+msgid "Show _Statusbar"
+msgstr "Show _Statusbar"
+
+msgid "_Go"
+msgstr "_Go"
+
+msgid "_Back"
+msgstr "_Back"
+
+msgid "_Forward"
+msgstr "_Forward"
+
+msgid "_Up"
+msgstr "_Up"
+
+msgid "_Home"
+msgstr "_Home"
+
+msgid "_Tools"
+msgstr "_Tools"
+
+msgid "Open _Terminal"
+msgstr "Open _Terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Open Terminal _Here"
+
+msgid "_Disk Usage…"
+msgstr "_Disk Usage…"
+
+msgid "_Settings"
+msgstr "_Settings"
+
+msgid "Configure Tool_bars…"
+msgstr "Configure Tool_bars…"
+
+msgid "_Configure Beluga…"
+msgstr "_Configure Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "No recently closed tabs"
+
+msgid "(Administrator)"
+msgstr "(Administrator)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Open %zu folders in new tabs?"
+
+msgid "Open Folders"
+msgstr "Open Folders"
+
+msgid "Could not open “%s”."
+msgstr "Could not open “%s”."
+
+msgid "Could not open a terminal."
+msgstr "Could not open a terminal."
+
+msgid "New Text File.txt"
+msgstr "New Text File.txt"
+
+msgid "New File"
+msgstr "New File"
+
+msgid "Empty the trash?"
+msgstr "Empty the trash?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "All items in the trash will be deleted permanently. This cannot be undone."
+
+msgid "Open %zu terminals?"
+msgstr "Open %zu terminals?"
+
+msgid "Open Terminals"
+msgstr "Open Terminals"
+
+msgid "Create new file in:\n%s"
+msgstr "Create new file in:\n%s"
+
+msgid "Could not create the file."
+msgstr "Could not create the file."
+
+msgid "Link to File or Folder"
+msgstr "Link to File or Folder"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Path of the file or folder to link to:"
+
+msgid "Could not create the link."
+msgstr "Could not create the link."
+
+msgid "Permanently delete %s?"
+msgstr "Permanently delete %s?"
+
+msgid "This cannot be undone."
+msgstr "This cannot be undone."
+
+msgid "Move %s to the trash?"
+msgstr "Move %s to the trash?"
+
+msgid "Could not run “%s”."
+msgstr "Could not run “%s”."
+
+msgid "Could not start %s."
+msgstr "Could not start %s."
+
+msgid "Could not start the application."
+msgstr "Could not start the application."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” is an executable file."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Do you want to run it, or open it in an application?"
+
+msgid "Run"
+msgstr "Run"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Choose the application to open %s (%s):"
+
+msgid "Or command:"
+msgstr "Or command:"
+
+msgid "Remember application association for this type of file"
+msgstr "Remember application association for this type of file"
+
+msgid "%s free of %s"
+msgstr "%s free of %s"
+
+msgid "Configure Sections"
+msgstr "Configure Sections"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Ticked sections show in the Places panel, in this order."
+
+msgid "Move Up"
+msgstr "Move Up"
+
+msgid "Move Down"
+msgstr "Move Down"
+
+msgid "Could not mount the device: %s"
+msgstr "Could not mount the device: %s"
+
+msgid "Configure Sections…"
+msgstr "Configure Sections…"
+
+msgid "Hide Hidden Entries"
+msgstr "Hide Hidden Entries"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "All items in the trash will be deleted permanently."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Could not safely remove the device: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Could not unmount the device: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Use the system _font"
+
+msgid "Context Menu Action"
+msgstr "Context Menu Action"
+
+msgid "Types:"
+msgstr "Types:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+
+msgid "Show for _files"
+msgstr "Show for _files"
+
+msgid "Show for f_olders"
+msgstr "Show for f_olders"
+
+msgid "Show when _several items are selected"
+msgstr "Show when _several items are selected"
+
+msgid "Run in a _terminal"
+msgstr "Run in a _terminal"
+
+msgid "Custom Actions"
+msgstr "Custom Actions"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Your own entries for the context menu of files and folders."
+
+msgid "_Add…"
+msgstr "_Add…"
+
+msgid "_Edit…"
+msgstr "_Edit…"
+
+msgid "_Remove"
+msgstr "_Remove"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+
+msgid "files below %d MiB"
+msgstr "files below %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Restore Defaults"
+
+msgid "_Apply"
+msgstr "_Apply"
+
+msgid "Folders & Tabs"
+msgstr "Folders & Tabs"
+
+msgid "This location:"
+msgstr "This location:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Keep a single Beluga window, opening new folders in tabs"
+
+msgid "Tabs:"
+msgstr "Tabs:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+
+msgid "No terminal found"
+msgstr "No terminal found"
+
+msgid "Detected: %s"
+msgstr "Detected: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+
+msgid "New folders:"
+msgstr "New folders:"
+
+msgid "Show _previews in new folders"
+msgstr "Show _previews in new folders"
+
+msgid "Audio (cover art)"
+msgstr "Audio (cover art)"
+
+msgid "PDF documents"
+msgstr "PDF documents"
+
+msgid "Text files"
+msgstr "Text files"
+
+msgid "Fonts"
+msgstr "Fonts"
+
+msgid "Office documents"
+msgstr "Office documents"
+
+msgid "Ask for confirmation when:"
+msgstr "Ask for confirmation when:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Ask for confirmation in Beluga when:"
+
+msgid "Use _long date format"
+msgstr "Use _long date format"
+
+msgid "Show _hidden folders"
+msgstr "Show _hidden folders"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Scroll to the current folder _automatically"
+
+msgid "Places Panel:"
+msgstr "Places Panel:"
+
+msgid "Status & Location bars"
+msgstr "Status & Location bars"
+
+msgid "Show free _space"
+msgstr "Show free _space"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+
+msgid "Open files and folders with a single click"
+msgstr "Open files and folders with a single click"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Keep an _index of the home folder for instant search"
+
+msgid "levels deep"
+msgstr "levels deep"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relative (Today, Yesterday…)"
+
+msgid "Absolute"
+msgstr "Absolute"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Symbolic (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numeric (0755)"
+
+msgid "Combined"
+msgstr "Combined"
+
+msgid "Elide in the middle"
+msgstr "Elide in the middle"
+
+msgid "Elide at the end"
+msgstr "Elide at the end"
+
+msgid "Disk usage:"
+msgstr "Disk usage:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Show a Disk _Usage column"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+
+msgid "Show in the context menu"
+msgstr "Show in the context menu"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Copy To' and 'Move To'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Delete (in addition to Move to Trash)"
+
+msgid "Cleanup:"
+msgstr "Cleanup:"
+
+msgid "Delete files older than"
+msgstr "Delete files older than"
+
+msgid "days"
+msgstr "days"
+
+msgid "Limit to"
+msgstr "Limit to"
+
+msgid "percent of the disk"
+msgstr "percent of the disk"
+
+msgid "Keep the trash on the home drive"
+msgstr "Keep the trash on the home drive"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+
+msgid "Full trash:"
+msgstr "Full trash:"
+
+msgid "When the limit is reached:"
+msgstr "When the limit is reached:"
+
+msgid "Show a warning"
+msgstr "Show a warning"
+
+msgid "Delete the oldest items"
+msgstr "Delete the oldest items"
+
+msgid "Delete the largest items"
+msgstr "Delete the largest items"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+
+msgid "Calculating trash size…"
+msgstr "Calculating trash size…"
+
+msgid "The trash currently uses %s."
+msgstr "The trash currently uses %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Empty Trash Now"
+
+msgid "Vim Mode"
+msgstr "Vim Mode"
+
+msgid "Vim mode:"
+msgstr "Vim mode:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Use Vim-like keys in the views"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+
+msgid "Leader key:"
+msgstr "Leader key:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> in the keys below, e.g. <Space> or ,"
+
+msgid "Wait for more keys:"
+msgstr "Wait for more keys:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd after d, gg after g)"
+
+msgid "Keys"
+msgstr "Keys"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+
+msgid "Keyboard Shortcuts"
+msgstr "Keyboard Shortcuts"
+
+msgid "Only files on this computer can be read."
+msgstr "Only files on this computer can be read."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga was built without FFmpeg."
+
+msgid "Reading…"
+msgstr "Reading…"
+
+msgid "No details found."
+msgstr "No details found."
+
+msgid "Change the folder's icon"
+msgstr "Change the folder's icon"
+
+msgid "Could not change the icon."
+msgstr "Could not change the icon."
+
+msgid "%zu items"
+msgstr "%zu items"
+
+msgid "No default application"
+msgstr "No default application"
+
+msgid "C_hange…"
+msgstr "C_hange…"
+
+msgid "Opens with:"
+msgstr "Opens with:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu byte"
+msgstr[1] "%llu bytes"
+
+msgid "Can View"
+msgstr "Can View"
+
+msgid "Can View Content"
+msgstr "Can View Content"
+
+msgid "Is _executable"
+msgstr "Is _executable"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Apply changes to all _subfolders and their contents"
+
+msgid "Could not read the file."
+msgstr "Could not read the file."
+
+msgid "Paste a checksum to compare"
+msgstr "Paste a checksum to compare"
+
+msgid "Verify:"
+msgstr "Verify:"
+
+msgid "The checksums match."
+msgstr "The checksums match."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "No calculated checksum matches. Calculate the matching type first."
+
+msgid "Could not change the permissions."
+msgstr "Could not change the permissions."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filter by name (wildcards like *.txt work)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Keep the filter when changing folders"
+
+msgid "In This Folder"
+msgstr "In This Folder"
+
+msgid "In Your Files"
+msgstr "In Your Files"
+
+msgid "Any Time"
+msgstr "Any Time"
+
+msgid "Last 7 Days"
+msgstr "Last 7 Days"
+
+msgid "Last 30 Days"
+msgstr "Last 30 Days"
+
+msgid "Last Year"
+msgstr "Last Year"
+
+msgid "Hidden files"
+msgstr "Hidden files"
+
+msgid "Duplicate Tab"
+msgstr "Duplicate Tab"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+
+msgid "A_vailable actions:"
+msgstr "A_vailable actions:"
+
+msgid "Add to the tool bar"
+msgstr "Add to the tool bar"
+
+msgid "Remove from the tool bar"
+msgstr "Remove from the tool bar"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Move up (left on the tool bar)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Move down (right on the tool bar)"
+
+msgid "C_urrent actions:"
+msgstr "C_urrent actions:"
+
+msgid "_Defaults"
+msgstr "_Defaults"
+
+msgid "Show Columns"
+msgstr "Show Columns"
+
+msgid "Modified: %s"
+msgstr "Modified: %s"
+
+msgid "Original location: %s"
+msgstr "Original location: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Less than 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB to 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB to 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB or more"
+
+msgid "Not counted yet"
+msgstr "Not counted yet"
+
+msgid "A file name cannot contain “/”."
+msgstr "A file name cannot contain “/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Selection Mode: click files or folders to select or deselect them."
+
+msgid "_Exit Selection Mode"
+msgstr "_Exit Selection Mode"
+
+msgid "_Duplicate"
+msgstr "_Duplicate"
+
+msgid "De_lete"
+msgstr "De_lete"
+
+msgid "Pr_operties"
+msgstr "Pr_operties"
+
+msgid "The folder “%s” no longer exists."
+msgstr "The folder “%s” no longer exists."
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” selected (%s%s)"
+
+msgid "%s selected"
+msgstr "%s selected"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d selected"
+msgstr[1] "%d selected"
+
+msgid "Move left"
+msgstr "Move left"
+
+msgid "Move down"
+msgstr "Move down"
+
+msgid "Move up"
+msgstr "Move up"
+
+msgid "Move right"
+msgstr "Move right"
+
+msgid "First item"
+msgstr "First item"
+
+msgid "Last item"
+msgstr "Last item"
+
+msgid "Page down"
+msgstr "Page down"
+
+msgid "Page up"
+msgstr "Page up"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Select the items the cursor passes (visual)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Select a range, like Shift (visual line)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Select a block of the grid (visual block)"
+
+msgid "Back to normal mode"
+msgstr "Back to normal mode"
+
+msgid "Copy the item under the cursor"
+msgstr "Copy the item under the cursor"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Rename, cursor at the start (insert)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Rename, cursor after the name (append)"
+
+msgid "Rename, name selected (change)"
+msgstr "Rename, name selected (change)"
+
+msgid "Edit the location"
+msgstr "Edit the location"
+
+msgid "Copied."
+msgstr "Copied."
+
+msgid "Cut."
+msgstr "Cut."
+
+msgid "Can't open “%s”."
+msgstr "Can't open “%s”."
+
+msgid "A name is needed."
+msgstr "A name is needed."
+
+msgid "Unknown view: %s"
+msgstr "Unknown view: %s"
+
+msgid "Unknown option: %s"
+msgstr "Unknown option: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sort by name, size, date or type."
+
+msgid "Not a command: %s"
+msgstr "Not a command: %s"
+
+msgid "Move"
+msgstr "Move"
+
+msgid "Focus Other View"
+msgstr "Focus Other View"
+
+msgid "Split View to Tabs"
+msgstr "Split View to Tabs"
+
+msgid "Folders Panel"
+msgstr "Folders Panel"
+
+msgid "Files"
+msgstr "Files"
+
+msgid "Restore to Defaults"
+msgstr "Restore to Defaults"
+
+msgid "Recommended Applications"
+msgstr "Recommended Applications"
+
+msgid "Other Applications"
+msgstr "Other Applications"
+
+msgid "File names:"
+msgstr "File names:"
+
+msgid "Always show tab bar"
+msgstr "Always show tab bar"
+
+msgid "Show close button on tabs"
+msgstr "Show close button on tabs"
+
+msgid "Tab style:"
+msgstr "Tab style:"
+
+msgid "Tab width adapts to folder name"
+msgstr "Tab width adapts to folder name"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Tabs all have the same fixed width"
+
+msgid "When closing a split view"
+msgstr "When closing a split view"
+
+msgid "Close the active pane"
+msgstr "Close the active pane"
+
+msgid "Close the inactive pane"
+msgstr "Close the inactive pane"
+
+msgid "Close the right pane"
+msgstr "Close the right pane"
+
+msgid "Open new windows in split view mode"
+msgstr "Open new windows in split view mode"
+
+msgid "Renaming a file will change its type"
+msgstr "Renaming a file will change its type"
+
+msgid "Folders Panel:"
+msgstr "Folders Panel:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Limit to home directory when inside it"
+
+msgid "Status Bar:"
+msgstr "Status Bar:"
+
+msgid "Full width"
+msgstr "Full width"
+
+msgid "Browse compressed files as folders"
+msgstr "Browse compressed files as folders"
+
+msgid "Long file names:"
+msgstr "Long file names:"
+
+msgid "Spacing:"
+msgstr "Spacing:"
+
+msgid "Command line"
+msgstr "Command line"
+
+msgid "Everywhere"
+msgstr "Everywhere"
+
+msgid "File Names"
+msgstr "File Names"
+
+msgid "File Names and Contents"
+msgstr "File Names and Contents"
+
+msgid "No items found"
+msgstr "No items found"
+
+msgid "Free space:"
+msgstr "Free space:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s free of %s (%d%% used)"
