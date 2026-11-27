@@ -1,0 +1,1339 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid "Extract Here"
+msgstr "Raspakiraj ovdje"
+
+msgid "Compress to .tar.gz"
+msgstr "Sažmi u .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Nije pronađen emulator terminala."
+
+msgid "Root"
+msgstr "Korijen"
+
+msgid "%s Volume"
+msgstr "Volumen %s"
+
+msgid "This device cannot be mounted."
+msgstr "Ovaj se uređaj ne može montirati."
+
+msgid "This device cannot be unmounted."
+msgstr "Ovaj se uređaj ne može demontirati."
+
+msgid "The device is gone."
+msgstr "Uređaj više nije prisutan."
+
+msgid "Copying %s to “%s”"
+msgstr "Kopiranje %s u „%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Premještanje %s u „%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Povezivanje %s u „%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Premještanje %s u smeće"
+
+msgid "Deleting %s"
+msgstr "Brisanje %s"
+
+msgid "Restoring %s"
+msgstr "Vraćanje %s"
+
+msgid "Emptying the trash"
+msgstr "Pražnjenje smeća"
+
+msgid "Counting files…"
+msgstr "Brojanje datoteka…"
+
+msgid "“%s”: %s"
+msgstr "„%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Mapa se ne može premjestiti u samu sebe."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Mapa se ne može kopirati u samu sebe."
+
+msgid "Images"
+msgstr "Slike"
+
+msgid "Archives"
+msgstr "Arhive"
+
+msgid "Search for “%s”"
+msgstr "Traži „%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Nije pronađen emulator terminala. Postavite ga u Konfiguriši Belugu › Općenito › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Ovaj datotečni sustav nema smeće."
+
+msgid "Could not create the trash information file."
+msgstr "Nije moguće stvoriti datoteku s podacima o smeću."
+
+msgid "“%s” already exists."
+msgstr "„%s” već postoji."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Smeće je veće od ograničenja od %s. Razmislite o pražnjenju."
+
+msgid "Create File"
+msgstr "Stvori datoteku"
+
+msgid "Undo: %s"
+msgstr "Poništi: %s"
+
+msgid "Redo: %s"
+msgstr "Ponovi: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d datoteka"
+msgstr[1] "%d datoteke"
+msgstr[2] "%d datoteka"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d mapa"
+msgstr[1] "%d mape"
+msgstr[2] "%d mapa"
+
+msgid "Today at %s"
+msgstr "Danas u %s"
+
+msgid "Yesterday at %s"
+msgstr "Jučer u %s"
+
+msgid "%A at %H:%M"
+msgstr "%A u %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s kopija %d"
+
+msgid "Disk Usage"
+msgstr "Zauzeće diska"
+
+msgid "Extension"
+msgstr "Nastavak"
+
+msgid "Original Location"
+msgstr "Izvorna lokacija"
+
+msgid "Columns View"
+msgstr "Prikaz u stupcima"
+
+msgid "Reset Zoom"
+msgstr "Vrati uvećanje"
+
+msgid "Pop out Split View"
+msgstr "Izdvoji podijeljeni prikaz"
+
+msgid "Places Panel"
+msgstr "Ploča mjesta"
+
+msgid "Go to Tab 1"
+msgstr "Idi na karticu 1"
+
+msgid "Go to Tab 2"
+msgstr "Idi na karticu 2"
+
+msgid "Go to Tab 3"
+msgstr "Idi na karticu 3"
+
+msgid "Go to Tab 4"
+msgstr "Idi na karticu 4"
+
+msgid "Go to Tab 5"
+msgstr "Idi na karticu 5"
+
+msgid "Go to Tab 6"
+msgstr "Idi na karticu 6"
+
+msgid "Go to Tab 7"
+msgstr "Idi na karticu 7"
+
+msgid "Go to Tab 8"
+msgstr "Idi na karticu 8"
+
+msgid "Go to Tab 9"
+msgstr "Idi na karticu 9"
+
+msgid "Configure Beluga"
+msgstr "Konfiguriši Belugu"
+
+msgid "Undo failed."
+msgstr "Poništavanje nije uspjelo."
+
+msgid "Folder…"
+msgstr "Mapa…"
+
+msgid "Text File…"
+msgstr "Tekstualna datoteka…"
+
+msgid "Empty File…"
+msgstr "Prazna datoteka…"
+
+msgid "Link to File or Folder…"
+msgstr "Poveznica na datoteku ili mapu…"
+
+msgid "Other View (%s)"
+msgstr "Drugi prikaz (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Zapamti prikaz za ovu mapu"
+
+msgid "Paste into Folder"
+msgstr "Zalijepi u mapu"
+
+msgid "_Cancel"
+msgstr "_Odustani"
+
+msgid "The name cannot contain “/”."
+msgstr "Ime ne smije sadržavati „/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Ime koje počinje točkom je skriveno."
+
+msgid "Some items could not be renamed."
+msgstr "Neke stavke nije bilo moguće preimenovati."
+
+msgid "Rename “%s” to:"
+msgstr "Preimenuj „%s” u:"
+
+msgid "_Rename"
+msgstr "_Preimenuj"
+
+msgid "Could not rename “%s”."
+msgstr "Nije moguće preimenovati „%s”."
+
+msgid "Change the file type?"
+msgstr "Promijeniti vrstu datoteke?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Preimenovanje „%s” u „%s” mijenja njezin nastavak."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Preimenuj %zu odabranih stavki u:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# se zamjenjuje rastućim brojevima; koristite ## za vodeće nule. Nastavci se zadržavaju."
+
+msgid "Start numbering at:"
+msgstr "Počni numeriranje od:"
+
+msgid "_Move Here"
+msgstr "_Premjesti ovdje"
+
+msgid "_Copy Here"
+msgstr "_Kopiraj ovdje"
+
+msgid "_Link Here"
+msgstr "_Poveži ovdje"
+
+msgid "C_ancel"
+msgstr "Od_ustani"
+
+msgid "Choose a folder"
+msgstr "Odaberite mapu"
+
+msgid "Icon name:"
+msgstr "Ime ikone:"
+
+msgid "Choose a Folder"
+msgstr "Odaberite mapu"
+
+msgid "_Add"
+msgstr "_Dodaj"
+
+msgid "_Save"
+msgstr "_Spremi"
+
+msgid "Show _folders first"
+msgstr "Prikaži _mape prve"
+
+msgid "Show hidden files _last"
+msgstr "Prikaži skrivene datoteke _zadnje"
+
+msgid "Show _previews"
+msgstr "Prikaži _pretpregled"
+
+msgid "Show in _groups"
+msgstr "Prikaži u _grupama"
+
+msgid "Show _hidden files"
+msgstr "Prikaži _skrivene datoteke"
+
+msgid "Current folder including all subfolders"
+msgstr "Trenutna mapa sa svim podmapama"
+
+msgid "_OK"
+msgstr "_U redu"
+
+msgid "modified %s"
+msgstr "izmijenjeno %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Mapa naziva „%s” već postoji u „%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Datoteka naziva „%s” već postoji u „%s”."
+
+msgid "Existing item"
+msgstr "Postojeća stavka"
+
+msgid "New item"
+msgstr "Nova stavka"
+
+msgid "_Suggest New Name"
+msgstr "_Predloži novo ime"
+
+msgid "New name:"
+msgstr "Novo ime:"
+
+msgid "Apply to _all"
+msgstr "Primijeni na _sve"
+
+msgid "S_kip"
+msgstr "_Preskoči"
+
+msgid "_Write Into"
+msgstr "_Upiši unutra"
+
+msgid "_Overwrite"
+msgstr "_Prepiši"
+
+msgid "This location is not a folder."
+msgstr "Ova lokacija nije mapa."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s manja datoteka"
+msgstr[1] "%s manje datoteke"
+msgstr[2] "%s manjih datoteka"
+
+msgid "(another drive, not counted)"
+msgstr "(drugi pogon, nije uračunat)"
+
+msgid "Some of its contents could not be read."
+msgstr "Dio sadržaja nije bilo moguće pročitati."
+
+msgid "%s in files"
+msgstr "%s u datotekama"
+
+msgid "%s on disk"
+msgstr "%s na disku"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Čitanje… %s u %s datoteka i %s mapa"
+
+msgid "Stopped."
+msgstr "Zaustavljeno."
+
+msgid "This folder could not be read."
+msgstr "Ovu mapu nije moguće pročitati."
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s mapu nije moguće pročitati."
+msgstr[1] ". %s mape nije moguće pročitati."
+msgstr[2] ". %s mapa nije moguće pročitati."
+
+msgid "_Apparent size"
+msgstr "_Prividna veličina"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Zbroji veličine datoteka umjesto prostora koji datoteke zauzimaju na disku."
+
+msgid "_Stay on this drive"
+msgstr "_Ostani na ovom pogonu"
+
+msgid "_Rescan"
+msgstr "_Ponovno skeniraj"
+
+msgid "S_top"
+msgstr "_Zaustavi"
+
+msgid "Disk Usage – %s"
+msgstr "Zauzeće diska – %s"
+
+msgid "_Open"
+msgstr "_Otvori"
+
+msgid "Create new folder in:\n%s"
+msgstr "Stvori novu mapu u:\n%s"
+
+msgid "C_reate"
+msgstr "_Stvori"
+
+msgid "Could not create the folder."
+msgstr "Nije moguće stvoriti mapu."
+
+msgid "%zu items selected"
+msgstr "Odabrano stavki: %zu"
+
+msgid "Contents:"
+msgstr "Sadržaj:"
+
+msgid "Contains:"
+msgstr "Sadrži:"
+
+msgid "Counting…"
+msgstr "Brojanje…"
+
+msgid "Broken Link"
+msgstr "Neispravna poveznica"
+
+msgid "%s (link)"
+msgstr "%s (poveznica)"
+
+msgid "%s of %s"
+msgstr "%s od %s"
+
+msgid "%s left"
+msgstr "preostalo %s"
+
+msgid "%d of %d"
+msgstr "%d od %d"
+
+msgid "File operations in progress"
+msgstr "Datotečne radnje u tijeku"
+
+msgid "No subfolders"
+msgstr "Nema podmapa"
+
+msgid "Select the given files in their folders"
+msgstr "Odaberi zadane datoteke u njihovim mapama"
+
+msgid "Open the window in split view"
+msgstr "Otvori prozor u podijeljenom prikazu"
+
+msgid "Always open a new window"
+msgstr "Uvijek otvori novi prozor"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Nastavi raditi u pozadini za D-Bus uslugu FileManager1"
+
+msgid "Show the version"
+msgstr "Prikaži inačicu"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[DATOTEKA ili MAPA…]"
+
+msgid "Close this window?"
+msgstr "Zatvoriti ovaj prozor?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Ovaj prozor ima %zu otvorenih kartica. Zatvaranjem se zatvaraju sve."
+
+msgid "Close Window"
+msgstr "Zatvori prozor"
+
+msgid "Show _Toolbar"
+msgstr "Prikaži _alatnu traku"
+
+msgid "_File"
+msgstr "_Datoteka"
+
+msgid "New _Window"
+msgstr "Novi _prozor"
+
+msgid "New _Tab"
+msgstr "Nova _kartica"
+
+msgid "_Close Tab"
+msgstr "_Zatvori karticu"
+
+msgid "Create _New"
+msgstr "Stvori _novo"
+
+msgid "_Rename…"
+msgstr "_Preimenuj…"
+
+msgid "_Duplicate Here"
+msgstr "_Udvostruči ovdje"
+
+msgid "Move to _Trash"
+msgstr "Premjesti u _smeće"
+
+msgid "_Delete"
+msgstr "_Izbriši"
+
+msgid "Restore from Trash"
+msgstr "Vrati iz smeća"
+
+msgid "_Properties"
+msgstr "_Svojstva"
+
+msgid "_Quit"
+msgstr "_Izlaz"
+
+msgid "_Edit"
+msgstr "_Uredi"
+
+msgid "_Undo"
+msgstr "_Poništi"
+
+msgid "_Redo"
+msgstr "_Ponovi"
+
+msgid "Cu_t"
+msgstr "_Izreži"
+
+msgid "_Copy"
+msgstr "_Kopiraj"
+
+msgid "_Paste"
+msgstr "_Zalijepi"
+
+msgid "_Search…"
+msgstr "_Traži…"
+
+msgid "Select _All"
+msgstr "Odaberi _sve"
+
+msgid "_View"
+msgstr "_Prikaz"
+
+msgid "Zoom _In"
+msgstr "_Uvećaj"
+
+msgid "Zoom _Out"
+msgstr "_Umanji"
+
+msgid "Re_load"
+msgstr "Ponovno _učitaj"
+
+msgid "Show _Menubar"
+msgstr "Prikaži traku _izbornika"
+
+msgid "_Go"
+msgstr "_Idi"
+
+msgid "_Back"
+msgstr "_Natrag"
+
+msgid "_Forward"
+msgstr "_Naprijed"
+
+msgid "_Up"
+msgstr "_Gore"
+
+msgid "_Home"
+msgstr "_Osobna mapa"
+
+msgid "_Tools"
+msgstr "_Alati"
+
+msgid "Open _Terminal"
+msgstr "Otvori _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Otvori terminal _ovdje"
+
+msgid "_Disk Usage…"
+msgstr "_Zauzeće diska…"
+
+msgid "_Settings"
+msgstr "_Postavke"
+
+msgid "_Configure Beluga…"
+msgstr "_Konfiguriši Belugu…"
+
+msgid "No recently closed tabs"
+msgstr "Nema nedavno zatvorenih kartica"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Otvoriti %zu mapa u novim karticama?"
+
+msgid "Open Folders"
+msgstr "Otvori mape"
+
+msgid "Could not open a terminal."
+msgstr "Nije moguće otvoriti terminal."
+
+msgid "New Text File.txt"
+msgstr "Nova tekstualna datoteka.txt"
+
+msgid "New File"
+msgstr "Nova datoteka"
+
+msgid "Empty the trash?"
+msgstr "Isprazniti smeće?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Sve stavke u smeću bit će trajno izbrisane. Ovo se ne može poništiti."
+
+msgid "Open %zu terminals?"
+msgstr "Otvoriti %zu terminala?"
+
+msgid "Open Terminals"
+msgstr "Otvori terminale"
+
+msgid "Create new file in:\n%s"
+msgstr "Stvori novu datoteku u:\n%s"
+
+msgid "Could not create the file."
+msgstr "Nije moguće stvoriti datoteku."
+
+msgid "Link to File or Folder"
+msgstr "Poveznica na datoteku ili mapu"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Putanja datoteke ili mape na koju se povezuje:"
+
+msgid "Could not create the link."
+msgstr "Nije moguće stvoriti poveznicu."
+
+msgid "Permanently delete %s?"
+msgstr "Trajno izbrisati %s?"
+
+msgid "This cannot be undone."
+msgstr "Ovo se ne može poništiti."
+
+msgid "Move %s to the trash?"
+msgstr "Premjestiti %s u smeće?"
+
+msgid "Could not run “%s”."
+msgstr "Nije moguće pokrenuti „%s”."
+
+msgid "Could not start %s."
+msgstr "Nije moguće pokrenuti %s."
+
+msgid "Could not start the application."
+msgstr "Nije moguće pokrenuti aplikaciju."
+
+msgid "“%s” is an executable file."
+msgstr "„%s” je izvršna datoteka."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Želite li je pokrenuti ili otvoriti u aplikaciji?"
+
+msgid "Run"
+msgstr "Pokreni"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Odaberite aplikaciju za otvaranje %s (%s):"
+
+msgid "Or command:"
+msgstr "Ili naredba:"
+
+msgid "Remember application association for this type of file"
+msgstr "Zapamti pridruživanje aplikacije za ovu vrstu datoteke"
+
+msgid "%s free of %s"
+msgstr "%s slobodno od %s"
+
+msgid "Could not mount the device: %s"
+msgstr "Nije moguće montirati uređaj: %s"
+
+msgid "Show"
+msgstr "Prikaži"
+
+msgid "Hide Hidden Entries"
+msgstr "Sakrij skrivene unose"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Sve stavke u smeću bit će trajno izbrisane."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Nije moguće sigurno ukloniti uređaj: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Nije moguće demontirati uređaj: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Koristi _sustavski font"
+
+msgid "Context Menu Action"
+msgstr "Radnja kontekstnog izbornika"
+
+msgid "Command:"
+msgstr "Naredba:"
+
+msgid "Types:"
+msgstr "Vrste:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f prva datoteka, %F sve datoteke, %u / %U kao URI-ji, %n / %N imena, %d trenutna mapa."
+
+msgid "Show for _files"
+msgstr "Prikaži za _datoteke"
+
+msgid "Show for f_olders"
+msgstr "Prikaži za _mape"
+
+msgid "Show when _several items are selected"
+msgstr "Prikaži kad je odabrano _više stavki"
+
+msgid "Run in a _terminal"
+msgstr "Pokreni u _terminalu"
+
+msgid "Custom Actions"
+msgstr "Prilagođene radnje"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Vaši vlastiti unosi za kontekstni izbornik datoteka i mapa."
+
+msgid "_Add…"
+msgstr "_Dodaj…"
+
+msgid "_Edit…"
+msgstr "_Uredi…"
+
+msgid "_Remove"
+msgstr "_Ukloni"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Prečaci se pišu kao <Control>c ili <Shift>Delete. Više njih odvojite zarezima. Ostavite polje prazno za zadano."
+
+msgid "No terminal found"
+msgstr "Nije pronađen terminal"
+
+msgid "Detected: %s"
+msgstr "Otkriveno: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Koriste ga F4 i Otvori terminal ovdje. %d u naredbi zamjenjuje se mapom; inače se terminal pokreće u njoj. Ovo je prije bila KDE-ova sustavska postavka."
+
+msgid "Show _previews in new folders"
+msgstr "Prikaži _pretpregled u novim mapama"
+
+msgid "Audio (cover art)"
+msgstr "Zvuk (omoti)"
+
+msgid "PDF documents"
+msgstr "PDF dokumenti"
+
+msgid "Text files"
+msgstr "Tekstne datoteke"
+
+msgid "Fonts"
+msgstr "Fontovi"
+
+msgid "Office documents"
+msgstr "Uredski dokumenti"
+
+msgid "Use _long date format"
+msgstr "Koristi _dugi oblik datuma"
+
+msgid "Show _hidden folders"
+msgstr "Prikaži _skrivene mape"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Automatski se pomakni do trenutne mape"
+
+msgid "Show free _space"
+msgstr "Prikaži slobodan _prostor"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativno (Danas, Jučer…)"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simbolički (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Brojčano (0755)"
+
+msgid "Combined"
+msgstr "Kombinirano"
+
+msgid "Show in the context menu"
+msgstr "Prikaži u kontekstnom izborniku"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Kopiraj u' i 'Premjesti u'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Izbriši (uz Premjesti u smeće)"
+
+msgid "When the limit is reached:"
+msgstr "Kad se dosegne ograničenje:"
+
+msgid "Show a warning"
+msgstr "Prikaži upozorenje"
+
+msgid "Delete the oldest items"
+msgstr "Izbriši najstarije stavke"
+
+msgid "Delete the largest items"
+msgstr "Izbriši najveće stavke"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Ovo su prije bile KDE-ove sustavske postavke. Ograničenja se primjenjuju kad se Beluga pokrene i nakon premještanja stavki u smeće."
+
+msgid "Calculating trash size…"
+msgstr "Izračunavanje veličine smeća…"
+
+msgid "The trash currently uses %s."
+msgstr "Smeće trenutno zauzima %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Isprazni smeće sada"
+
+msgid "Keyboard Shortcuts"
+msgstr "Tipkovni prečaci"
+
+msgid "%zu items"
+msgstr "%zu stavki"
+
+msgid "No default application"
+msgstr "Nema zadane aplikacije"
+
+msgid "C_hange…"
+msgstr "_Promijeni…"
+
+msgid "Opens with:"
+msgstr "Otvara se s:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu bajt"
+msgstr[1] "%llu bajta"
+msgstr[2] "%llu bajtova"
+
+msgid "Can View"
+msgstr "Može pregledavati"
+
+msgid "Can View Content"
+msgstr "Može pregledavati sadržaj"
+
+msgid "Is _executable"
+msgstr "_Izvršna"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Primijeni promjene na sve _podmape i njihov sadržaj"
+
+msgid "Could not read the file."
+msgstr "Nije moguće pročitati datoteku."
+
+msgid "Paste a checksum to compare"
+msgstr "Zalijepite kontrolni zbroj za usporedbu"
+
+msgid "Verify:"
+msgstr "Provjeri:"
+
+msgid "The checksums match."
+msgstr "Kontrolni zbrojevi se podudaraju."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Nijedan izračunati kontrolni zbroj se ne podudara. Najprije izračunajte odgovarajuću vrstu."
+
+msgid "Could not change the permissions."
+msgstr "Nije moguće promijeniti dozvole."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtriraj po imenu (zamjenski znakovi poput *.txt rade)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Zadrži filtar pri promjeni mape"
+
+msgid "In This Folder"
+msgstr "U ovoj mapi"
+
+msgid "In Your Files"
+msgstr "U vašim datotekama"
+
+msgid "Any Time"
+msgstr "Bilo kada"
+
+msgid "Last 7 Days"
+msgstr "Zadnjih 7 dana"
+
+msgid "Last 30 Days"
+msgstr "Zadnjih 30 dana"
+
+msgid "Last Year"
+msgstr "Zadnja godina"
+
+msgid "Hidden files"
+msgstr "Skrivene datoteke"
+
+msgid "Duplicate Tab"
+msgstr "Udvostruči karticu"
+
+msgid "Show Columns"
+msgstr "Prikaži stupce"
+
+msgid "Modified: %s"
+msgstr "Izmijenjeno: %s"
+
+msgid "Original location: %s"
+msgstr "Izvorna lokacija: %s"
+
+msgid "A file name cannot contain “/”."
+msgstr "Ime datoteke ne smije sadržavati „/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Preimenovanje „%s” u „%s” mijenja njezin nastavak. Datoteka se može otvoriti drugom aplikacijom ili se uopće ne otvoriti."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Način odabira: kliknite datoteke ili mape kako biste ih odabrali ili poništili odabir."
+
+msgid "_Exit Selection Mode"
+msgstr "_Izađi iz načina odabira"
+
+msgid "_Duplicate"
+msgstr "_Udvostruči"
+
+msgid "De_lete"
+msgstr "_Izbriši"
+
+msgid "Pr_operties"
+msgstr "_Svojstva"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Mapa „%s” više ne postoji."
+
+msgid "“%s” selected (%s%s)"
+msgstr "Odabrano „%s” (%s%s)"
+
+msgid "%s selected"
+msgstr "Odabrano %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d odabrana"
+msgstr[1] "%d odabrane"
+msgstr[2] "%d odabranih"
+
+msgid "Move"
+msgstr "Premjesti"
+
+msgid "Focus Other View"
+msgstr "Fokusiraj drugi prikaz"
+
+msgid "Split View to Tabs"
+msgstr "Podijeljeni prikaz u kartice"
+
+msgid "Folders Panel"
+msgstr "Ploča mapa"
+
+msgid "Information Panel"
+msgstr "Ploča informacija"
+
+msgid "Focus Places Panel"
+msgstr "Fokusiraj ploču mjesta"
+
+msgid "Go to Last Tab"
+msgstr "Idi na zadnju karticu"
+
+msgid "Columns"
+msgstr "Stupci"
+
+msgid "Files"
+msgstr "Datoteke"
+
+msgid "Restore to Defaults"
+msgstr "Vrati zadano"
+
+msgid "Panels"
+msgstr "Ploče"
+
+msgid "File names:"
+msgstr "Imena datoteka:"
+
+msgid "Show previews for"
+msgstr "Prikaži pretpregled za"
+
+msgid "Full width"
+msgstr "Puna širina"
+
+msgid "Folder size:"
+msgstr "Veličina mape:"
+
+msgid "Everywhere"
+msgstr "Svugdje"
+
+msgid "File Names"
+msgstr "Imena datoteka"
+
+msgid "File Names and Contents"
+msgstr "Imena i sadržaj datoteka"
+
+msgid "%ld s"
+msgstr "%ld s"
+
+msgid "Folder"
+msgstr "Mapa"
+
+msgid "Free space:"
+msgstr "Slobodan prostor:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s slobodno od %s (%d%% zauzeto)"
+
+msgid "Copy to Other View"
+msgstr "Kopiraj u drugi prikaz"
+
+msgid "Move to Other View"
+msgstr "Premjesti u drugi prikaz"
+
+msgid "Open With…"
+msgstr "Otvori s…"
+
+msgid "Open in Split View"
+msgstr "Otvori u podijeljenom prikazu"
+
+msgid "Filter…"
+msgstr "Filtar…"
+
+msgid "Adjust View Display Style…"
+msgstr "Prilagodi stil prikaza…"
+
+msgid "Search…"
+msgstr "Traži…"
+
+msgid "Calculating…"
+msgstr "Izračunavanje…"
+
+msgid "Searching…"
+msgstr "Traženje…"
+
+msgid "Loading folder…"
+msgstr "Učitavanje mape…"
+
+msgid "Create Folder"
+msgstr "Stvori mapu"
+
+msgid "%s copy"
+msgstr "%s kopija"
+
+msgid "Deletion Time"
+msgstr "Vrijeme brisanja"
+
+msgid "Dimensions"
+msgstr "Dimenzije"
+
+msgid "Duplicate Here"
+msgstr "Udvostruči ovdje"
+
+msgid "Select Files and Folders"
+msgstr "Odaberi datoteke i mape"
+
+msgid "Open Terminal Here"
+msgstr "Otvori terminal ovdje"
+
+msgid "Show Target"
+msgstr "Prikaži cilj"
+
+msgid "View Display Style"
+msgstr "Stil prikaza"
+
+msgid "Apply to"
+msgstr "Primijeni na"
+
+msgid "%s files and %s folders, read in %.1f s"
+msgstr "%s datoteka i %s mapa, pročitano za %.1f s"
+
+msgid "Don't count other drives that are mounted inside this folder."
+msgstr "Ne računaj druge pogone montirane unutar ove mape."
+
+msgid "Share"
+msgstr "Dijeli"
+
+msgid "Dimensions:"
+msgstr "Dimenzije:"
+
+msgid "View Settings"
+msgstr "Postavke prikaza"
+
+msgid "Hidden Files Last"
+msgstr "Skrivene datoteke zadnje"
+
+msgid "Reset Zoom Level"
+msgstr "Vrati razinu uvećanja"
+
+msgid "Show Additional Information"
+msgstr "Prikaži dodatne informacije"
+
+msgid "Show Previews"
+msgstr "Prikaži pretpregled"
+
+msgid "Edit…"
+msgstr "Uredi…"
+
+msgid "Add Entry…"
+msgstr "Dodaj unos…"
+
+msgid "View font:"
+msgstr "Font prikaza:"
+
+msgid "_Home folder:"
+msgstr "_Osobna mapa:"
+
+msgid "_Remember open folders and tabs"
+msgstr "_Zapamti otvorene mape i kartice"
+
+msgid "Begin in _split view mode"
+msgstr "Započni u _podijeljenom prikazu"
+
+msgid "Show _filter bar"
+msgstr "Prikaži traku _filtra"
+
+msgid "Make location bar _editable"
+msgstr "Lokacijska traka je _uređiva"
+
+msgid "Show full path inside _location bar"
+msgstr "Prikaži punu putanju u _lokacijskoj traci"
+
+msgid "Show full path in _title bar"
+msgstr "Prikaži punu putanju u _naslovnoj traci"
+
+msgid "Mouse"
+msgstr "Miš"
+
+msgid "These used to be KDE system settings."
+msgstr "Ovo su prije bile KDE-ove sustavske postavke."
+
+msgid "Clicking files or folders:"
+msgstr "Klik na datoteke ili mape:"
+
+msgid "Selects them (double-click opens)"
+msgstr "Odabire ih (dvoklik otvara)"
+
+msgid "Opens them"
+msgstr "Otvara ih"
+
+msgid "Double-clicking empty space:"
+msgstr "Dvoklik na prazan prostor:"
+
+msgid "Does nothing"
+msgstr "Ne radi ništa"
+
+msgid "Selects all items"
+msgstr "Odabire sve stavke"
+
+msgid "Goes up"
+msgstr "Ide gore"
+
+msgid "Opens a new tab"
+msgstr "Otvara novu karticu"
+
+msgid "Toggles hidden files"
+msgstr "Uključuje/isključuje skrivene datoteke"
+
+msgid "Tabs and Split View"
+msgstr "Kartice i podijeljeni prikaz"
+
+msgid "Open new tabs after the _last tab"
+msgstr "Otvaraj nove kartice nakon _zadnje kartice"
+
+msgid "_Always show the tab bar"
+msgstr "_Uvijek prikaži traku kartica"
+
+msgid "Show _close buttons on tabs"
+msgstr "Prikaži gumbe za _zatvaranje na karticama"
+
+msgid "Open folders from other applications in a new _tab"
+msgstr "Otvaraj mape iz drugih aplikacija u novoj _kartici"
+
+msgid "Closing split view closes:"
+msgstr "Zatvaranje podijeljenog prikaza zatvara:"
+
+msgid "The active view"
+msgstr "Aktivni prikaz"
+
+msgid "The inactive view"
+msgstr "Neaktivni prikaz"
+
+msgid "The right view"
+msgstr "Desni prikaz"
+
+msgid "Rename single items _inline"
+msgstr "Preimenuj pojedinačne stavke _na mjestu"
+
+msgid "Show selection _marker"
+msgstr "Prikaži _oznaku odabira"
+
+msgid "Show item information on _hover"
+msgstr "Prikaži informacije o stavci pri _prelasku mišem"
+
+msgid "Open folders while _dragging items over them"
+msgstr "Otvaraj mape pri _povlačenju stavki preko njih"
+
+msgid "Terminal _command:"
+msgstr "_Naredba terminala:"
+
+msgid "Use the same display style for _all folders"
+msgstr "Koristi isti stil prikaza za _sve mape"
+
+msgid "When this is off, every folder remembers its own style. Either way, View › Remember View for This Folder gives one folder its own style."
+msgstr "Kad je ovo isključeno, svaka mapa pamti svoj stil. U svakom slučaju, Prikaz › Zapamti prikaz za ovu mapu daje jednoj mapi vlastiti stil."
+
+msgid "Natural"
+msgstr "Prirodno"
+
+msgid "Alphabetical, case insensitive"
+msgstr "Abecedno, bez razlike velikih i malih slova"
+
+msgid "Alphabetical, case sensitive"
+msgstr "Abecedno, uz razliku velikih i malih slova"
+
+msgid "Number of items"
+msgstr "Broj stavki"
+
+msgid "Size of contents"
+msgstr "Veličina sadržaja"
+
+msgid "Folder size depth limit:"
+msgstr "Ograničenje dubine za veličinu mape:"
+
+msgid "Dates:"
+msgstr "Datumi:"
+
+msgid "Short"
+msgstr "Kratko"
+
+msgid "Shorten long names:"
+msgstr "Skrati duga imena:"
+
+msgid "At the end"
+msgstr "Na kraju"
+
+msgid "In the middle"
+msgstr "U sredini"
+
+msgid "Hide _backup files (ending in ~)"
+msgstr "Sakrij _sigurnosne kopije (završavaju s ~)"
+
+msgid "Label width:"
+msgstr "Širina oznake:"
+
+msgid "Huge"
+msgstr "Ogromno"
+
+msgid "Maximum label lines (0: no limit):"
+msgstr "Najviše redaka oznake (0: bez ograničenja):"
+
+msgid "Co_mpact spacing"
+msgstr "Z_bijeni razmaci"
+
+msgid "Maximum label width:"
+msgstr "Najveća širina oznake:"
+
+msgid "E_xpandable folders"
+msgstr "Mape koje se mogu _proširiti"
+
+msgid "Highlight the entire _row"
+msgstr "Istakni cijeli _redak"
+
+msgid "Limits"
+msgstr "Ograničenja"
+
+msgid "Skip local files larger than (MiB, 0: no limit):"
+msgstr "Preskoči lokalne datoteke veće od (MiB, 0: bez ograničenja):"
+
+msgid "Remote files up to (MiB, 0: never):"
+msgstr "Udaljene datoteke do (MiB, 0: nikad):"
+
+msgid "Ask for confirmation when"
+msgstr "Traži potvrdu kod"
+
+msgid "Moving files or folders to the _trash"
+msgstr "Premještanja datoteka ili mapa u _smeće"
+
+msgid "_Deleting files or folders"
+msgstr "_Brisanja datoteka ili mapa"
+
+msgid "_Emptying the trash"
+msgstr "_Pražnjenja smeća"
+
+msgid "Closing windows with _multiple tabs"
+msgstr "Zatvaranja prozora s _više kartica"
+
+msgid "Opening many _folders at once"
+msgstr "Otvaranja mnogo _mapa odjednom"
+
+msgid "Opening many t_erminals at once"
+msgstr "Otvaranja mnogo t_erminala odjednom"
+
+msgid "Renaming changes a file's _type"
+msgstr "Preimenovanje mijenja _vrstu datoteke"
+
+msgid "When opening an executable file:"
+msgstr "Pri otvaranju izvršne datoteke:"
+
+msgid "Always ask"
+msgstr "Uvijek pitaj"
+
+msgid "Open in an application"
+msgstr "Otvori u aplikaciji"
+
+msgid "Run it"
+msgstr "Pokreni je"
+
+msgid "Bars and Panels"
+msgstr "Trake i ploče"
+
+msgid "Status Bar"
+msgstr "Traka stanja"
+
+msgid "Status bar:"
+msgstr "Traka stanja:"
+
+msgid "Small (shows only when hovering or selecting)"
+msgstr "Mala (prikazuje se samo pri prelasku mišem ili odabiru)"
+
+msgid "Hidden"
+msgstr "Skriveno"
+
+msgid "Show _zoom slider"
+msgstr "Prikaži klizač _uvećanja"
+
+msgid "Limit to the home folder when inside it"
+msgstr "Ograniči na osobnu mapu kad si unutar nje"
+
+msgid "Play media files _automatically"
+msgstr "_Automatski reproduciraj medijske datoteke"
+
+msgid "Show the _hovered item"
+msgstr "Prikaži stavku pod _pokazivačem"
+
+msgid "Context Menu"
+msgstr "Kontekstni izbornik"
+
+msgid "_Delete items that have been in the trash longer than:"
+msgstr "_Izbriši stavke koje su u smeću duže od:"
+
+msgid "Days:"
+msgstr "Dana:"
+
+msgid "_Limit the trash to a share of the disk:"
+msgstr "_Ograniči smeće na dio diska:"
+
+msgid "Percent of the disk:"
+msgstr "Postotak diska:"
+
+msgid "No items matching the filter"
+msgstr "Nema stavki koje odgovaraju filtru"
+
+msgid "Trash is empty"
+msgstr "Smeće je prazno"
+
+msgid "Folder is empty"
+msgstr "Mapa je prazna"

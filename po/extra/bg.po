@@ -1,0 +1,1409 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "Архивът не може да бъде отворен."
+
+msgid "The archive could not be read."
+msgstr "Архивът не може да бъде прочетен."
+
+msgid "Cancelled."
+msgstr "Отменено."
+
+msgid "This file is encrypted with a password."
+msgstr "Файлът е шифрован с парола."
+
+msgid "“%s” could not be read."
+msgstr "„%s“ не може да бъде прочетен."
+
+msgid "This is not a file in an archive."
+msgstr "Това не е файл в архив."
+
+msgid "Extract Here"
+msgstr "Разархивиране тук"
+
+msgid "Compress to .tar.gz"
+msgstr "Компресиране в .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Не е открит терминален емулатор."
+
+msgid "Root"
+msgstr "Корен"
+
+msgid "%s Volume"
+msgstr "Том %s"
+
+msgid "This device cannot be mounted."
+msgstr "Устройството не може да бъде монтирано."
+
+msgid "This device cannot be unmounted."
+msgstr "Устройството не може да бъде демонтирано."
+
+msgid "The device is gone."
+msgstr "Устройството вече го няма."
+
+msgid "Copying %s to “%s”"
+msgstr "Копиране на %s в „%s“"
+
+msgid "Moving %s to “%s”"
+msgstr "Преместване на %s в „%s“"
+
+msgid "Linking %s in “%s”"
+msgstr "Свързване на %s в „%s“"
+
+msgid "Moving %s to the trash"
+msgstr "Преместване на %s в кошчето"
+
+msgid "Deleting %s"
+msgstr "Изтриване на %s"
+
+msgid "Restoring %s"
+msgstr "Възстановяване на %s"
+
+msgid "Emptying the trash"
+msgstr "Изпразване на кошчето"
+
+msgid "Counting files…"
+msgstr "Преброяване на файловете…"
+
+msgid "“%s”: %s"
+msgstr "„%s“: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Папка не може да бъде преместена в самата себе си."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Папка не може да бъде копирана в самата себе си."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Файловете могат да се разархивират само в локални папки."
+
+msgid "Extracting from “%s”"
+msgstr "Разархивиране от „%s“"
+
+msgid "Disc:"
+msgstr "Диск:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Побитова скорост:"
+
+msgid "Cover:"
+msgstr "Обложка:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f кадъра/с"
+
+msgid ", %.3f fps"
+msgstr ", %.3f кадъра/с"
+
+msgid "Video %d:"
+msgstr "Видео %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "моно"
+
+msgid "stereo"
+msgstr "стерео"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d канал"
+msgstr[1] "%d канала"
+
+msgid ", %d bit"
+msgstr ", %d бита"
+
+msgid "Audio %d:"
+msgstr "Аудио %d:"
+
+msgid "Subtitles:"
+msgstr "Субтитри:"
+
+msgid "Chapters:"
+msgstr "Глави:"
+
+msgid "Images"
+msgstr "Изображения"
+
+msgid "Archives"
+msgstr "Архиви"
+
+msgid "Search for “%s”"
+msgstr "Търсене на „%s“"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Не е открит терминален емулатор. Задайте такъв в Настройване на Beluga › Общи › Терминал."
+
+msgid "This file system has no trash."
+msgstr "Тази файлова система няма кошче."
+
+msgid "Could not create the trash information file."
+msgstr "Информационният файл на кошчето не може да бъде създаден."
+
+msgid "“%s” already exists."
+msgstr "„%s“ вече съществува."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Кошчето надхвърля ограничението си от %s. Помислете дали да го изпразните."
+
+msgid "Create File"
+msgstr "Създаване на файл"
+
+msgid "Undo: %s"
+msgstr "Отмяна: %s"
+
+msgid "Redo: %s"
+msgstr "Повторение: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d файл"
+msgstr[1] "%d файла"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d папка"
+msgstr[1] "%d папки"
+
+msgid "Today at %s"
+msgstr "Днес в %s"
+
+msgid "Yesterday at %s"
+msgstr "Вчера в %s"
+
+msgid "%A at %H:%M"
+msgstr "%A в %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld мин %ld с"
+
+msgid "%ld h %ld min"
+msgstr "%ld ч %ld мин"
+
+msgid "%s copy %d"
+msgstr "%s копие %d"
+
+msgid "Disk Usage"
+msgstr "Използване на диска"
+
+msgid "Extension"
+msgstr "Разширение"
+
+msgid "Original Location"
+msgstr "Първоначално местоположение"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga не успя да действа като администратор."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "За да се поиска администраторската парола, е нужен pkexec (polkit). Инсталирайте polkit и polkit агент за работната си среда."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Прозорец на Beluga с администраторски права може да променя и изтрива всеки файл на този компютър, включително файловете, нужни на системата, за да стартира. Грешка там може да направи системата неизползваема. Използвайте го само за файлове, които не можете да промените по друг начин, и го затворете, когато приключите.\n\nСлед това Beluga ще поиска администраторската парола."
+
+msgid "Columns View"
+msgstr "Изглед в колони"
+
+msgid "Reset Zoom"
+msgstr "Нулиране на мащаба"
+
+msgid "Pop out Split View"
+msgstr "Отделяне на разделения изглед"
+
+msgid "Places Panel"
+msgstr "Панел „Места“"
+
+msgid "Disk Usage Panel"
+msgstr "Панел „Използване на диска“"
+
+msgid "Go to Tab 1"
+msgstr "Към раздел 1"
+
+msgid "Go to Tab 2"
+msgstr "Към раздел 2"
+
+msgid "Go to Tab 3"
+msgstr "Към раздел 3"
+
+msgid "Go to Tab 4"
+msgstr "Към раздел 4"
+
+msgid "Go to Tab 5"
+msgstr "Към раздел 5"
+
+msgid "Go to Tab 6"
+msgstr "Към раздел 6"
+
+msgid "Go to Tab 7"
+msgstr "Към раздел 7"
+
+msgid "Go to Tab 8"
+msgstr "Към раздел 8"
+
+msgid "Go to Tab 9"
+msgstr "Към раздел 9"
+
+msgid "Configure Beluga"
+msgstr "Настройване на Beluga"
+
+msgid "Undo failed."
+msgstr "Отмяната не успя."
+
+msgid "Folder…"
+msgstr "Папка…"
+
+msgid "Text File…"
+msgstr "Текстов файл…"
+
+msgid "Empty File…"
+msgstr "Празен файл…"
+
+msgid "Link to File or Folder…"
+msgstr "Връзка към файл или папка…"
+
+msgid "Other View (%s)"
+msgstr "Друг изглед (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Запомняне на изгледа за тази папка"
+
+msgid "Open in Beluga"
+msgstr "Отваряне в Beluga"
+
+msgid "Paste into Folder"
+msgstr "Поставяне в папката"
+
+msgid "_Cancel"
+msgstr "_Отказ"
+
+msgid "The name cannot contain “/”."
+msgstr "Името не може да съдържа „/“."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Име, започващо с точка, е скрито."
+
+msgid "Some items could not be renamed."
+msgstr "Някои елементи не могат да бъдат преименувани."
+
+msgid "Rename “%s” to:"
+msgstr "Преименуване на „%s“ на:"
+
+msgid "_Rename"
+msgstr "_Преименуване"
+
+msgid "Could not rename “%s”."
+msgstr "„%s“ не може да бъде преименуван."
+
+msgid "Change the file type?"
+msgstr "Да се промени ли типът на файла?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Преименуването на „%s“ на „%s“ променя разширението му."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Преименуване на %zu избрани елемента на:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# се заменя с възходящи числа; използвайте ## за водещи нули. Разширенията се запазват."
+
+msgid "Start numbering at:"
+msgstr "Начало на номерирането от:"
+
+msgid "_Move Here"
+msgstr "_Преместване тук"
+
+msgid "_Copy Here"
+msgstr "_Копиране тук"
+
+msgid "_Link Here"
+msgstr "_Свързване тук"
+
+msgid "C_ancel"
+msgstr "О_тказ"
+
+msgid "Choose a folder"
+msgstr "Изберете папка"
+
+msgid "C_hoose…"
+msgstr "_Избор…"
+
+msgid "Icon name:"
+msgstr "Име на иконата:"
+
+msgid "Choose a Folder"
+msgstr "Изберете папка"
+
+msgid "_Add"
+msgstr "_Добавяне"
+
+msgid "_Save"
+msgstr "_Запазване"
+
+msgid "Show _folders first"
+msgstr "Показване първо на _папките"
+
+msgid "Show hidden files _last"
+msgstr "Показване на скритите файлове _накрая"
+
+msgid "Show _previews"
+msgstr "Показване на _прегледи"
+
+msgid "Show in _groups"
+msgstr "Показване в _групи"
+
+msgid "Show _hidden files"
+msgstr "Показване на _скритите файлове"
+
+msgid "Current folder including all subfolders"
+msgstr "Текущата папка с всички подпапки"
+
+msgid "_OK"
+msgstr "_Добре"
+
+msgid "modified %s"
+msgstr "променен %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Папка с име „%s“ вече съществува в „%s“."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Файл с име „%s“ вече съществува в „%s“."
+
+msgid "Existing item"
+msgstr "Съществуващ елемент"
+
+msgid "New item"
+msgstr "Нов елемент"
+
+msgid "_Suggest New Name"
+msgstr "_Предложение за ново име"
+
+msgid "New name:"
+msgstr "Ново име:"
+
+msgid "Apply to _all"
+msgstr "Прилагане за _всички"
+
+msgid "S_kip"
+msgstr "_Пропускане"
+
+msgid "_Write Into"
+msgstr "_Записване вътре"
+
+msgid "_Overwrite"
+msgstr "_Презаписване"
+
+msgid "Search icons…"
+msgstr "Търсене на икони…"
+
+msgid "_Image File…"
+msgstr "Файл с _изображение…"
+
+msgid "_Default Icon"
+msgstr "Икона по _подразбиране"
+
+msgid "Choose an Image"
+msgstr "Изберете изображение"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Мрежовите местоположения изискват gvfs. Инсталирайте пакета gvfs (и gvfs-smb за споделени ресурси на Windows, gvfs-nfs за NFS), след това излезте и влезте отново."
+
+msgid "This location is not a folder."
+msgstr "Това местоположение не е папка."
+
+msgid "This location is not valid."
+msgstr "Това местоположение не е валидно."
+
+msgid "This folder is not in the archive."
+msgstr "Тази папка не е в архива."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s по-малък файл"
+msgstr[1] "%s по-малки файла"
+
+msgid "(another drive, not counted)"
+msgstr "(друго устройство, не се брои)"
+
+msgid "Some of its contents could not be read."
+msgstr "Част от съдържанието не може да бъде прочетена."
+
+msgid "%s in files"
+msgstr "%s във файлове"
+
+msgid "%s on disk"
+msgstr "%s на диска"
+
+msgid "%s files and %s folders"
+msgstr "%s файла и %s папки"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Четене… %s в %s файла и %s папки"
+
+msgid "Stopped."
+msgstr "Спряно."
+
+msgid "This folder could not be read."
+msgstr "Тази папка не може да бъде прочетена."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, прочетено за %.1f с"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s папка не може да бъде прочетена."
+msgstr[1] ". %s папки не могат да бъдат прочетени."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Могат да се измерват само папки на този компютър."
+
+msgid "read less than a minute ago"
+msgstr "прочетено преди по-малко от минута"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "прочетено преди %d минута"
+msgstr[1] "прочетено преди %d минути"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "прочетено преди %d час"
+msgstr[1] "прочетено преди %d часа"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Сканирайте отново, за да се прочете пак."
+
+msgid "_Apparent size"
+msgstr "_Видим размер"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Сумиране на размерите на файловете вместо на дисковото пространство, което заемат."
+
+msgid "_Stay on this drive"
+msgstr "_Оставане на това устройство"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Без отчитане на други устройства, монтирани в тази папка (като папка с музика на друг диск). Връзките никога не се следват."
+
+msgid "Rescan"
+msgstr "Повторно сканиране"
+
+msgid "Close Disk Usage"
+msgstr "Затваряне на използването на диска"
+
+msgid "_Rescan"
+msgstr "_Повторно сканиране"
+
+msgid "S_top"
+msgstr "_Спиране"
+
+msgid "Disk Usage – %s"
+msgstr "Използване на диска – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "„%s“ вече съществува. Да бъде ли заменен?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu от тези файлове вече съществуват. Да бъдат ли заменени?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Програмата, от която запазвате, ще запише върху съществуващото съдържание."
+
+msgid "Choose a folder to save in."
+msgstr "Изберете папка, в която да запазите."
+
+msgid "Select Folder"
+msgstr "Избор на папка"
+
+msgid "Open Files"
+msgstr "Отваряне на файлове"
+
+msgid "Open File"
+msgstr "Отваряне на файл"
+
+msgid "Save File"
+msgstr "Запазване на файла"
+
+msgid "Save Files"
+msgstr "Запазване на файловете"
+
+msgid "_Folder:"
+msgstr "_Папка:"
+
+msgid "_Name:"
+msgstr "_Име:"
+
+msgid "_Type:"
+msgstr "_Тип:"
+
+msgid "_Select"
+msgstr "_Избор"
+
+msgid "_Open"
+msgstr "_Отваряне"
+
+msgid "Create new folder in:\n%s"
+msgstr "Създаване на нова папка в:\n%s"
+
+msgid "C_reate"
+msgstr "_Създаване"
+
+msgid "Could not create the folder."
+msgstr "Папката не може да бъде създадена."
+
+msgid "%zu items selected"
+msgstr "%zu избрани елемента"
+
+msgid "Contents:"
+msgstr "Съдържание:"
+
+msgid "Contains:"
+msgstr "Съдържа:"
+
+msgid "Counting…"
+msgstr "Преброяване…"
+
+msgid "Broken Link"
+msgstr "Повредена връзка"
+
+msgid "%s (link)"
+msgstr "%s (връзка)"
+
+msgid "other drive"
+msgstr "друго устройство"
+
+msgid "%s of %s"
+msgstr "%s от %s"
+
+msgid "%s left"
+msgstr "остават %s"
+
+msgid "%d of %d"
+msgstr "%d от %d"
+
+msgid "File operations in progress"
+msgstr "Файлови операции в ход"
+
+msgid "No subfolders"
+msgstr "Без подпапки"
+
+msgid "Select the given files in their folders"
+msgstr "Избиране на дадените файлове в папките им"
+
+msgid "Open the window in split view"
+msgstr "Отваряне на прозореца в разделен изглед"
+
+msgid "Always open a new window"
+msgstr "Винаги нов прозорец"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Продължаване на работата във фонов режим за услугата D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Откачане от терминала (без местоположение: отваря текущата папка)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Изпълнение на избора на файлове за xdg-desktop-portal (стартиран от D-Bus)"
+
+msgid "Show the version"
+msgstr "Показване на версията"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[ФАЙЛ или ПАПКА…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Действие като администратор: промените в този прозорец могат да повредят системата."
+
+msgid "Close this window?"
+msgstr "Да се затвори ли този прозорец?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "В този прозорец има %zu отворени раздела. Затварянето му ще затвори всички."
+
+msgid "Close Window"
+msgstr "Затваряне на прозореца"
+
+msgid "Show _Toolbar"
+msgstr "Показване на _лентата с инструменти"
+
+msgid "_File"
+msgstr "_Файл"
+
+msgid "New _Window"
+msgstr "Нов _прозорец"
+
+msgid "New _Tab"
+msgstr "Нов _раздел"
+
+msgid "_Close Tab"
+msgstr "_Затваряне на раздела"
+
+msgid "Create _New"
+msgstr "Създаване на _ново"
+
+msgid "_Rename…"
+msgstr "_Преименуване…"
+
+msgid "_Duplicate Here"
+msgstr "_Дублиране тук"
+
+msgid "Move to _Trash"
+msgstr "Преместване в _кошчето"
+
+msgid "_Delete"
+msgstr "_Изтриване"
+
+msgid "Restore from Trash"
+msgstr "Възстановяване от кошчето"
+
+msgid "_Properties"
+msgstr "_Свойства"
+
+msgid "_Quit"
+msgstr "_Изход"
+
+msgid "_Edit"
+msgstr "_Редактиране"
+
+msgid "_Undo"
+msgstr "_Отмяна"
+
+msgid "_Redo"
+msgstr "_Повторение"
+
+msgid "Cu_t"
+msgstr "_Изрязване"
+
+msgid "_Copy"
+msgstr "_Копиране"
+
+msgid "_Paste"
+msgstr "_Поставяне"
+
+msgid "_Search…"
+msgstr "_Търсене…"
+
+msgid "Select _All"
+msgstr "Избиране на _всичко"
+
+msgid "_View"
+msgstr "_Изглед"
+
+msgid "Zoom _In"
+msgstr "_Увеличаване"
+
+msgid "Zoom _Out"
+msgstr "_Намаляване"
+
+msgid "Re_load"
+msgstr "_Презареждане"
+
+msgid "Show _Menubar"
+msgstr "Показване на _менюто"
+
+msgid "Show _Statusbar"
+msgstr "Показване на _лентата на състоянието"
+
+msgid "_Go"
+msgstr "_Отиване"
+
+msgid "_Back"
+msgstr "_Назад"
+
+msgid "_Forward"
+msgstr "_Напред"
+
+msgid "_Up"
+msgstr "_Нагоре"
+
+msgid "_Home"
+msgstr "_Домашна папка"
+
+msgid "_Tools"
+msgstr "_Инструменти"
+
+msgid "Open _Terminal"
+msgstr "Отваряне на _терминал"
+
+msgid "Open Terminal _Here"
+msgstr "Отваряне на терминал _тук"
+
+msgid "_Disk Usage…"
+msgstr "_Използване на диска…"
+
+msgid "_Settings"
+msgstr "_Настройки"
+
+msgid "Configure Tool_bars…"
+msgstr "Настройване на _лентите с инструменти…"
+
+msgid "_Configure Beluga…"
+msgstr "_Настройване на Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Няма наскоро затворени раздели"
+
+msgid "(Administrator)"
+msgstr "(Администратор)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Да се отворят ли %zu папки в нови раздели?"
+
+msgid "Open Folders"
+msgstr "Отваряне на папките"
+
+msgid "Could not open “%s”."
+msgstr "„%s“ не може да бъде отворен."
+
+msgid "Could not open a terminal."
+msgstr "Не може да се отвори терминал."
+
+msgid "New Text File.txt"
+msgstr "Нов текстов файл.txt"
+
+msgid "New File"
+msgstr "Нов файл"
+
+msgid "Empty the trash?"
+msgstr "Да се изпразни ли кошчето?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Всички елементи в кошчето ще бъдат изтрити окончателно. Това не може да бъде отменено."
+
+msgid "Open %zu terminals?"
+msgstr "Да се отворят ли %zu терминала?"
+
+msgid "Open Terminals"
+msgstr "Отваряне на терминалите"
+
+msgid "Create new file in:\n%s"
+msgstr "Създаване на нов файл в:\n%s"
+
+msgid "Could not create the file."
+msgstr "Файлът не може да бъде създаден."
+
+msgid "Link to File or Folder"
+msgstr "Връзка към файл или папка"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Път до файла или папката, към която да сочи връзката:"
+
+msgid "Could not create the link."
+msgstr "Връзката не може да бъде създадена."
+
+msgid "Permanently delete %s?"
+msgstr "Окончателно изтриване на %s?"
+
+msgid "This cannot be undone."
+msgstr "Това не може да бъде отменено."
+
+msgid "Move %s to the trash?"
+msgstr "Преместване на %s в кошчето?"
+
+msgid "Could not run “%s”."
+msgstr "„%s“ не може да бъде изпълнен."
+
+msgid "Could not start %s."
+msgstr "%s не може да бъде стартиран."
+
+msgid "Could not start the application."
+msgstr "Приложението не може да бъде стартирано."
+
+msgid "“%s” is an executable file."
+msgstr "„%s“ е изпълним файл."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Искате ли да го изпълните или да го отворите в приложение?"
+
+msgid "Run"
+msgstr "Изпълнение"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Изберете приложение, с което да отворите %s (%s):"
+
+msgid "Or command:"
+msgstr "Или команда:"
+
+msgid "Remember application association for this type of file"
+msgstr "Запомняне на връзката с приложението за този тип файл"
+
+msgid "%s free of %s"
+msgstr "%s свободни от %s"
+
+msgid "Configure Sections"
+msgstr "Настройване на разделите"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Отметнатите раздели се показват в панела „Места“ в този ред."
+
+msgid "Move Up"
+msgstr "Преместване нагоре"
+
+msgid "Move Down"
+msgstr "Преместване надолу"
+
+msgid "Could not mount the device: %s"
+msgstr "Устройството не може да бъде монтирано: %s"
+
+msgid "Configure Sections…"
+msgstr "Настройване на разделите…"
+
+msgid "Hide Hidden Entries"
+msgstr "Скриване на скритите записи"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Всички елементи в кошчето ще бъдат изтрити окончателно."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Устройството не може да бъде безопасно премахнато: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Устройството не може да бъде демонтирано: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Използване на _системния шрифт"
+
+msgid "Context Menu Action"
+msgstr "Действие в контекстното меню"
+
+msgid "Types:"
+msgstr "Типове:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f първи файл, %F всички файлове, %u / %U като URI, %n / %N имена, %d текуща папка."
+
+msgid "Show for _files"
+msgstr "Показване за _файлове"
+
+msgid "Show for f_olders"
+msgstr "Показване за _папки"
+
+msgid "Show when _several items are selected"
+msgstr "Показване, когато са избрани _няколко елемента"
+
+msgid "Run in a _terminal"
+msgstr "Изпълнение в _терминал"
+
+msgid "Custom Actions"
+msgstr "Потребителски действия"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Ваши собствени записи в контекстното меню на файлове и папки."
+
+msgid "_Add…"
+msgstr "_Добавяне…"
+
+msgid "_Edit…"
+msgstr "_Редактиране…"
+
+msgid "_Remove"
+msgstr "_Премахване"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Клавишните комбинации се пишат като <Control>c или <Shift>Delete. Разделяйте няколко със запетаи. Оставете полето празно за стойността по подразбиране."
+
+msgid "files below %d MiB"
+msgstr "файлове под %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Възстановяване на стандартните"
+
+msgid "_Apply"
+msgstr "_Прилагане"
+
+msgid "Folders & Tabs"
+msgstr "Папки и раздели"
+
+msgid "This location:"
+msgstr "Това местоположение:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Един-единствен прозорец на Beluga, новите папки се отварят в раздели"
+
+msgid "Tabs:"
+msgstr "Раздели:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Разделите с фиксирана ширина се стесняват, всички еднакво, когато не се побират."
+
+msgid "No terminal found"
+msgstr "Не е открит терминал"
+
+msgid "Detected: %s"
+msgstr "Открит: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Използва се от F4 и „Отваряне на терминал тук“. %d в командата се заменя с папката; иначе терминалът се стартира в нея. Преди това беше системна настройка на KDE."
+
+msgid "New folders:"
+msgstr "Нови папки:"
+
+msgid "Show _previews in new folders"
+msgstr "Показване на _прегледи в новите папки"
+
+msgid "Audio (cover art)"
+msgstr "Аудио (обложки)"
+
+msgid "PDF documents"
+msgstr "PDF документи"
+
+msgid "Text files"
+msgstr "Текстови файлове"
+
+msgid "Fonts"
+msgstr "Шрифтове"
+
+msgid "Office documents"
+msgstr "Офис документи"
+
+msgid "Ask for confirmation when:"
+msgstr "Искане на потвърждение при:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Искане на потвърждение в Beluga при:"
+
+msgid "Use _long date format"
+msgstr "Използване на _дълъг формат на датата"
+
+msgid "Show _hidden folders"
+msgstr "Показване на _скритите папки"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Автоматично превъртане до текущата папка"
+
+msgid "Places Panel:"
+msgstr "Панел „Места“:"
+
+msgid "Status & Location bars"
+msgstr "Ленти на състоянието и местоположението"
+
+msgid "Show free _space"
+msgstr "Показване на свободното _място"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Във всеки случай Изглед › Запомняне на изгледа за тази папка дава на една папка собствен стил. Някои специални изгледи като търсенето, последните файлове и кошчето все още използват свой стил."
+
+msgid "Open files and folders with a single click"
+msgstr "Отваряне на файлове и папки с едно щракване"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Поддържане на _индекс на домашната папка за мигновено търсене"
+
+msgid "levels deep"
+msgstr "нива дълбочина"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Относителна (Днес, Вчера…)"
+
+msgid "Absolute"
+msgstr "Абсолютна"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Символен (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Числов (0755)"
+
+msgid "Combined"
+msgstr "Комбиниран"
+
+msgid "Elide in the middle"
+msgstr "Съкращаване по средата"
+
+msgid "Elide at the end"
+msgstr "Съкращаване в края"
+
+msgid "Disk usage:"
+msgstr "Използване на диска:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Показване на колона „_Използване на диска“"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Мястото, което заема на диска всеки файл и всяка цяла папка, с лента за дела му в папката, както в Инструменти › Използване на диска. Папките се четат изцяло във фонов режим; подредете по колоната, за да видите първо най-големите. „Оставане на това устройство“ от прозореца „Използване на диска“ важи и тук."
+
+msgid "Show in the context menu"
+msgstr "Показване в контекстното меню"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "„Копиране в“ и „Преместване в“"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Изтриване (освен Преместване в кошчето)"
+
+msgid "Cleanup:"
+msgstr "Почистване:"
+
+msgid "Delete files older than"
+msgstr "Изтриване на файлове, по-стари от"
+
+msgid "days"
+msgstr "дни"
+
+msgid "Limit to"
+msgstr "Ограничение до"
+
+msgid "percent of the disk"
+msgstr "процента от диска"
+
+msgid "Keep the trash on the home drive"
+msgstr "Кошчето да е на устройството на домашната папка"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Файловете, преместени в кошчето от други устройства, се копират в кошчето на домашната папка, така че тези устройства не получават папка .Trash-1000. Преместването на големи файлове в кошчето тогава отнема повече време."
+
+msgid "Full trash:"
+msgstr "Пълно кошче:"
+
+msgid "When the limit is reached:"
+msgstr "При достигане на ограничението:"
+
+msgid "Show a warning"
+msgstr "Показване на предупреждение"
+
+msgid "Delete the oldest items"
+msgstr "Изтриване на най-старите елементи"
+
+msgid "Delete the largest items"
+msgstr "Изтриване на най-големите елементи"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Това бяха системни настройки на KDE. Ограниченията се прилагат при стартиране на Beluga и след преместване на елементи в кошчето."
+
+msgid "Calculating trash size…"
+msgstr "Изчисляване на размера на кошчето…"
+
+msgid "The trash currently uses %s."
+msgstr "В момента кошчето заема %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Изпразване на кошчето сега"
+
+msgid "Vim Mode"
+msgstr "Режим Vim"
+
+msgid "Vim mode:"
+msgstr "Режим Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Клавиши в стил Vim в изгледите"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Нормалният режим се движи с h j k l и изпълнява клавишите по-долу; v, V и Ctrl+V избират; i и a преименуват (режим на вмъкване); Esc връща към нормалния режим; : отваря командния ред. Клавишите с Ctrl или Alt, които не са тук, запазват обичайното си значение."
+
+msgid "Leader key:"
+msgstr "Клавиш leader:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> в клавишите по-долу, напр. <Space> или ,"
+
+msgid "Wait for more keys:"
+msgstr "Изчакване на още клавиши:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd след d, gg след g)"
+
+msgid "Keys"
+msgstr "Клавиши"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Нотация на Vim, няколко разделени с интервали: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Оставете полето празно за стойността по подразбиране."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q затваря прозореца (:q! без въпрос за разделите), :qa излиза от Beluga, :e или :cd ПЪТ отваря папка, :tabnew [ПЪТ], :tabclose, :tabonly, :sp или :vs [ПЪТ] разделят изгледа, :only затваря другия изглед, :mkdir ИМЕ, :touch ИМЕ, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!КОМАНДА изпълнява команда на обвивката в папката."
+
+msgid "Keyboard Shortcuts"
+msgstr "Клавишни комбинации"
+
+msgid "Only files on this computer can be read."
+msgstr "Могат да се четат само файлове на този компютър."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga е компилиран без FFmpeg."
+
+msgid "Reading…"
+msgstr "Четене…"
+
+msgid "No details found."
+msgstr "Не са открити подробности."
+
+msgid "Change the folder's icon"
+msgstr "Смяна на иконата на папката"
+
+msgid "Could not change the icon."
+msgstr "Иконата не може да бъде сменена."
+
+msgid "%zu items"
+msgstr "%zu елемента"
+
+msgid "No default application"
+msgstr "Няма приложение по подразбиране"
+
+msgid "C_hange…"
+msgstr "_Смяна…"
+
+msgid "Opens with:"
+msgstr "Отваря се с:"
+
+msgid "Can View"
+msgstr "Може да преглежда"
+
+msgid "Can View Content"
+msgstr "Може да преглежда съдържанието"
+
+msgid "Is _executable"
+msgstr "_Изпълним"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Прилагане на промените към всички _подпапки и съдържанието им"
+
+msgid "Could not read the file."
+msgstr "Файлът не може да бъде прочетен."
+
+msgid "Paste a checksum to compare"
+msgstr "Поставете контролна сума за сравнение"
+
+msgid "Verify:"
+msgstr "Проверка:"
+
+msgid "The checksums match."
+msgstr "Контролните суми съвпадат."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Нито една изчислена контролна сума не съвпада. Първо изчислете съответния тип."
+
+msgid "Could not change the permissions."
+msgstr "Правата не могат да бъдат променени."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Филтриране по име (заместващи знаци като *.txt работят)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Запазване на филтъра при смяна на папката"
+
+msgid "In This Folder"
+msgstr "В тази папка"
+
+msgid "In Your Files"
+msgstr "Във вашите файлове"
+
+msgid "Any Time"
+msgstr "По всяко време"
+
+msgid "Last 7 Days"
+msgstr "Последните 7 дни"
+
+msgid "Last 30 Days"
+msgstr "Последните 30 дни"
+
+msgid "Last Year"
+msgstr "Последната година"
+
+msgid "Hidden files"
+msgstr "Скрити файлове"
+
+msgid "Duplicate Tab"
+msgstr "Дублиране на раздела"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Действията над лентата за местоположение в списъка стоят вляво от нея, останалите вдясно. * отбелязва действия, които не са там, където ги има лентата с инструменти по подразбиране."
+
+msgid "A_vailable actions:"
+msgstr "_Налични действия:"
+
+msgid "Add to the tool bar"
+msgstr "Добавяне към лентата с инструменти"
+
+msgid "Remove from the tool bar"
+msgstr "Премахване от лентата с инструменти"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Преместване нагоре (наляво в лентата с инструменти)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Преместване надолу (надясно в лентата с инструменти)"
+
+msgid "C_urrent actions:"
+msgstr "_Текущи действия:"
+
+msgid "_Defaults"
+msgstr "_Стандартни"
+
+msgid "Show Columns"
+msgstr "Показване на колоните"
+
+msgid "Modified: %s"
+msgstr "Променен: %s"
+
+msgid "Original location: %s"
+msgstr "Първоначално местоположение: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Под 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "От 1 MiB до 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "От 100 MiB до 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB или повече"
+
+msgid "Not counted yet"
+msgstr "Още не е преброено"
+
+msgid "A file name cannot contain “/”."
+msgstr "Името на файл не може да съдържа „/“."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Преименуването на „%s“ на „%s“ променя разширението му. Файлът може да се отвори с друго приложение или изобщо да не се отвори."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Режим на избиране: щракнете върху файлове или папки, за да ги изберете или да отмените избора."
+
+msgid "_Exit Selection Mode"
+msgstr "_Изход от режима на избиране"
+
+msgid "_Duplicate"
+msgstr "_Дублиране"
+
+msgid "De_lete"
+msgstr "_Изтриване"
+
+msgid "Pr_operties"
+msgstr "_Свойства"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Папката „%s“ вече не съществува."
+
+msgid "“%s” selected (%s%s)"
+msgstr "Избран е „%s“ (%s%s)"
+
+msgid "%s selected"
+msgstr "Избрани: %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d избран"
+msgstr[1] "%d избрани"
+
+msgid "Move left"
+msgstr "Наляво"
+
+msgid "Move down"
+msgstr "Надолу"
+
+msgid "Move up"
+msgstr "Нагоре"
+
+msgid "Move right"
+msgstr "Надясно"
+
+msgid "First item"
+msgstr "Първи елемент"
+
+msgid "Last item"
+msgstr "Последен елемент"
+
+msgid "Page down"
+msgstr "Страница надолу"
+
+msgid "Page up"
+msgstr "Страница нагоре"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Избиране на елементите, през които минава курсорът (визуален)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Избиране на диапазон, както с Shift (визуален ред)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Избиране на блок от решетката (визуален блок)"
+
+msgid "Back to normal mode"
+msgstr "Връщане към нормалния режим"
+
+msgid "Copy the item under the cursor"
+msgstr "Копиране на елемента под курсора"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Преименуване, курсор в началото (вмъкване)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Преименуване, курсор след името (добавяне)"
+
+msgid "Rename, name selected (change)"
+msgstr "Преименуване, името избрано (промяна)"
+
+msgid "Edit the location"
+msgstr "Редактиране на местоположението"
+
+msgid "Copied."
+msgstr "Копирано."
+
+msgid "Cut."
+msgstr "Изрязано."
+
+msgid "Can't open “%s”."
+msgstr "„%s“ не може да бъде отворен."
+
+msgid "A name is needed."
+msgstr "Нужно е име."
+
+msgid "Unknown view: %s"
+msgstr "Неизвестен изглед: %s"
+
+msgid "Unknown option: %s"
+msgstr "Неизвестна опция: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Подреждане по име, размер, дата или тип."
+
+msgid "Not a command: %s"
+msgstr "Не е команда: %s"
+
+msgid "Move"
+msgstr "Преместване"
+
+msgid "Files"
+msgstr "Файлове"
+
+msgid "Recommended Applications"
+msgstr "Препоръчани приложения"
+
+msgid "Other Applications"
+msgstr "Други приложения"
+
+msgid "Command line"
+msgstr "Команден ред"
+
+msgid "No items found"
+msgstr "Не са открити елементи"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s свободни от %s (%d%% заети)"
