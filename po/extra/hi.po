@@ -1,0 +1,1747 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "The archive could not be opened."
+msgstr "संग्रह नहीं खोला जा सका।"
+
+msgid "The archive could not be read."
+msgstr "संग्रह नहीं पढ़ा जा सका।"
+
+msgid "Cancelled."
+msgstr "रद्द किया गया।"
+
+msgid "This file is encrypted with a password."
+msgstr "फ़ाइल पासवर्ड से कूटबद्ध है।"
+
+msgid "“%s” could not be read."
+msgstr "“%s” नहीं पढ़ा जा सका।"
+
+msgid "This is not a file in an archive."
+msgstr "यह किसी संग्रह के अंदर की फ़ाइल नहीं है।"
+
+msgid "Extract Here"
+msgstr "यहाँ निकालें"
+
+msgid "Compress to .tar.gz"
+msgstr ".tar.gz में संपीड़ित करें"
+
+msgid "No terminal emulator was found."
+msgstr "कोई टर्मिनल एमुलेटर नहीं मिला।"
+
+msgid "Root"
+msgstr "रूट"
+
+msgid "%s Volume"
+msgstr "%s वॉल्यूम"
+
+msgid "This device cannot be mounted."
+msgstr "यह डिवाइस माउंट नहीं किया जा सकता।"
+
+msgid "This device cannot be unmounted."
+msgstr "यह डिवाइस अनमाउंट नहीं किया जा सकता।"
+
+msgid "The device is gone."
+msgstr "डिवाइस अब मौजूद नहीं है।"
+
+msgid "Copying %s to “%s”"
+msgstr "%s को “%s” में कॉपी किया जा रहा है"
+
+msgid "Moving %s to “%s”"
+msgstr "%s को “%s” में ले जाया जा रहा है"
+
+msgid "Linking %s in “%s”"
+msgstr "%s का लिंक “%s” में बनाया जा रहा है"
+
+msgid "Moving %s to the trash"
+msgstr "%s को कचरे में ले जाया जा रहा है"
+
+msgid "Deleting %s"
+msgstr "%s हटाया जा रहा है"
+
+msgid "Restoring %s"
+msgstr "%s पुनर्स्थापित किया जा रहा है"
+
+msgid "Emptying the trash"
+msgstr "कचरा खाली किया जा रहा है"
+
+msgid "Counting files…"
+msgstr "फ़ाइलें गिनी जा रही हैं…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "फ़ोल्डर को उसी के अंदर नहीं ले जाया जा सकता।"
+
+msgid "A folder cannot be copied into itself."
+msgstr "फ़ोल्डर को उसी के अंदर कॉपी नहीं किया जा सकता।"
+
+msgid "Files can only be extracted into local folders."
+msgstr "फ़ाइलें केवल स्थानीय फ़ोल्डरों में निकाली जा सकती हैं।"
+
+msgid "Extracting from “%s”"
+msgstr "“%s” से निकाला जा रहा है"
+
+msgid "Disc:"
+msgstr "डिस्क:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "बिटरेट:"
+
+msgid "Cover:"
+msgstr "कवर:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "वीडियो %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "मोनो"
+
+msgid "stereo"
+msgstr "स्टीरियो"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d चैनल"
+msgstr[1] "%d चैनल"
+
+msgid ", %d bit"
+msgstr ", %d बिट"
+
+msgid "Audio %d:"
+msgstr "ऑडियो %d:"
+
+msgid "Subtitles:"
+msgstr "उपशीर्षक:"
+
+msgid "Chapters:"
+msgstr "अध्याय:"
+
+msgid "Images"
+msgstr "चित्र"
+
+msgid "Archives"
+msgstr "संग्रह"
+
+msgid "Search for “%s”"
+msgstr "“%s” खोजें"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "कोई टर्मिनल एमुलेटर नहीं मिला। Beluga कॉन्फ़िगर करें › सामान्य › टर्मिनल में एक सेट करें।"
+
+msgid "This file system has no trash."
+msgstr "इस फ़ाइल सिस्टम में कचरा नहीं है।"
+
+msgid "Could not create the trash information file."
+msgstr "कचरे की जानकारी फ़ाइल नहीं बनाई जा सकी।"
+
+msgid "“%s” already exists."
+msgstr "“%s” पहले से मौजूद है।"
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "कचरा अपनी %s की सीमा से बड़ा है। इसे खाली करने पर विचार करें।"
+
+msgid "Create File"
+msgstr "फ़ाइल बनाएँ"
+
+msgid "Undo: %s"
+msgstr "पूर्ववत करें: %s"
+
+msgid "Redo: %s"
+msgstr "फिर से करें: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d फ़ाइल"
+msgstr[1] "%d फ़ाइलें"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d फ़ोल्डर"
+msgstr[1] "%d फ़ोल्डर"
+
+msgid "Today at %s"
+msgstr "आज %s बजे"
+
+msgid "Yesterday at %s"
+msgstr "कल %s बजे"
+
+msgid "%A at %H:%M"
+msgstr "%A %H:%M बजे"
+
+msgid "%ld min %ld s"
+msgstr "%ld मि %ld से"
+
+msgid "%ld h %ld min"
+msgstr "%ld घं %ld मि"
+
+msgid "%s copy %d"
+msgstr "%s प्रति %d"
+
+msgid "Disk Usage"
+msgstr "डिस्क उपयोग"
+
+msgid "Extension"
+msgstr "एक्सटेंशन"
+
+msgid "Original Location"
+msgstr "मूल स्थान"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga व्यवस्थापक के रूप में काम नहीं कर सका।"
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "व्यवस्थापक पासवर्ड पूछने के लिए pkexec (polkit) आवश्यक है। polkit और अपने डेस्कटॉप के लिए polkit एजेंट स्थापित करें।"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "व्यवस्थापक अधिकारों वाली Beluga विंडो इस कंप्यूटर की किसी भी फ़ाइल को बदल और हटा सकती है, जिसमें वे फ़ाइलें भी शामिल हैं जिनकी सिस्टम को शुरू होने के लिए आवश्यकता होती है। वहाँ की गई गलती सिस्टम को अनुपयोगी बना सकती है। इसका उपयोग केवल उन फ़ाइलों के लिए करें जिन्हें आप किसी और तरीके से नहीं बदल सकते, और काम पूरा होने पर इसे बंद कर दें।\n\nइसके बाद Beluga व्यवस्थापक पासवर्ड पूछेगा।"
+
+msgid "Columns View"
+msgstr "स्तंभ दृश्य"
+
+msgid "Reset Zoom"
+msgstr "ज़ूम रीसेट करें"
+
+msgid "Pop out Split View"
+msgstr "विभाजित दृश्य अलग करें"
+
+msgid "Places Panel"
+msgstr "स्थान पैनल"
+
+msgid "Disk Usage Panel"
+msgstr "डिस्क उपयोग पैनल"
+
+msgid "Go to Tab 1"
+msgstr "टैब 1 पर जाएँ"
+
+msgid "Go to Tab 2"
+msgstr "टैब 2 पर जाएँ"
+
+msgid "Go to Tab 3"
+msgstr "टैब 3 पर जाएँ"
+
+msgid "Go to Tab 4"
+msgstr "टैब 4 पर जाएँ"
+
+msgid "Go to Tab 5"
+msgstr "टैब 5 पर जाएँ"
+
+msgid "Go to Tab 6"
+msgstr "टैब 6 पर जाएँ"
+
+msgid "Go to Tab 7"
+msgstr "टैब 7 पर जाएँ"
+
+msgid "Go to Tab 8"
+msgstr "टैब 8 पर जाएँ"
+
+msgid "Go to Tab 9"
+msgstr "टैब 9 पर जाएँ"
+
+msgid "Configure Beluga"
+msgstr "Beluga कॉन्फ़िगर करें"
+
+msgid "Undo failed."
+msgstr "पूर्ववत करना विफल रहा।"
+
+msgid "Folder…"
+msgstr "फ़ोल्डर…"
+
+msgid "Text File…"
+msgstr "टेक्स्ट फ़ाइल…"
+
+msgid "Empty File…"
+msgstr "खाली फ़ाइल…"
+
+msgid "Link to File or Folder…"
+msgstr "फ़ाइल या फ़ोल्डर का लिंक…"
+
+msgid "Other View (%s)"
+msgstr "दूसरा दृश्य (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "इस फ़ोल्डर के लिए दृश्य याद रखें"
+
+msgid "Open in Beluga"
+msgstr "Beluga में खोलें"
+
+msgid "Paste into Folder"
+msgstr "फ़ोल्डर में चिपकाएँ"
+
+msgid "_Cancel"
+msgstr "रद्द करें (_C)"
+
+msgid "The name cannot contain “/”."
+msgstr "नाम में “/” नहीं हो सकता।"
+
+msgid "A name starting with a dot is hidden."
+msgstr "बिंदु से शुरू होने वाला नाम छिपा होता है।"
+
+msgid "Some items could not be renamed."
+msgstr "कुछ वस्तुओं का नाम नहीं बदला जा सका।"
+
+msgid "Rename “%s” to:"
+msgstr "“%s” का नया नाम:"
+
+msgid "_Rename"
+msgstr "नाम बदलें (_R)"
+
+msgid "Could not rename “%s”."
+msgstr "“%s” का नाम नहीं बदला जा सका।"
+
+msgid "Change the file type?"
+msgstr "फ़ाइल का प्रकार बदलें?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "“%s” का नाम बदलकर “%s” करने से उसका एक्सटेंशन बदल जाता है।"
+
+msgid "Rename the %zu selected items to:"
+msgstr "चुनी गई %zu वस्तुओं का नया नाम:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# बढ़ते अंकों से बदला जाता है; आगे शून्य के लिए ## उपयोग करें। एक्सटेंशन बने रहते हैं।"
+
+msgid "Start numbering at:"
+msgstr "क्रमांकन यहाँ से शुरू करें:"
+
+msgid "_Move Here"
+msgstr "यहाँ ले जाएँ (_M)"
+
+msgid "_Copy Here"
+msgstr "यहाँ कॉपी करें (_C)"
+
+msgid "_Link Here"
+msgstr "यहाँ लिंक करें (_L)"
+
+msgid "C_ancel"
+msgstr "रद्द करें (_A)"
+
+msgid "Choose a folder"
+msgstr "फ़ोल्डर चुनें"
+
+msgid "C_hoose…"
+msgstr "चुनें (_H)…"
+
+msgid "Icon name:"
+msgstr "आइकन का नाम:"
+
+msgid "Choose a Folder"
+msgstr "फ़ोल्डर चुनें"
+
+msgid "_Add"
+msgstr "जोड़ें (_A)"
+
+msgid "_Save"
+msgstr "सहेजें (_S)"
+
+msgid "Show _folders first"
+msgstr "फ़ोल्डर पहले दिखाएँ (_F)"
+
+msgid "Show hidden files _last"
+msgstr "छिपी फ़ाइलें अंत में दिखाएँ (_L)"
+
+msgid "Show _previews"
+msgstr "पूर्वावलोकन दिखाएँ (_P)"
+
+msgid "Show in _groups"
+msgstr "समूहों में दिखाएँ (_G)"
+
+msgid "Show _hidden files"
+msgstr "छिपी फ़ाइलें दिखाएँ (_H)"
+
+msgid "Current folder including all subfolders"
+msgstr "सभी उप-फ़ोल्डरों सहित वर्तमान फ़ोल्डर"
+
+msgid "_OK"
+msgstr "ठीक (_O)"
+
+msgid "modified %s"
+msgstr "संशोधित %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "“%s” नाम का फ़ोल्डर “%s” में पहले से मौजूद है।"
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "“%s” नाम की फ़ाइल “%s” में पहले से मौजूद है।"
+
+msgid "Existing item"
+msgstr "मौजूदा वस्तु"
+
+msgid "New item"
+msgstr "नई वस्तु"
+
+msgid "_Suggest New Name"
+msgstr "नया नाम सुझाएँ (_S)"
+
+msgid "New name:"
+msgstr "नया नाम:"
+
+msgid "Apply to _all"
+msgstr "सभी पर लागू करें (_A)"
+
+msgid "S_kip"
+msgstr "छोड़ें (_K)"
+
+msgid "_Write Into"
+msgstr "इसके अंदर लिखें (_W)"
+
+msgid "_Overwrite"
+msgstr "अधिलेखित करें (_O)"
+
+msgid "Search icons…"
+msgstr "आइकन खोजें…"
+
+msgid "_Image File…"
+msgstr "छवि फ़ाइल (_I)…"
+
+msgid "_Default Icon"
+msgstr "डिफ़ॉल्ट आइकन (_D)"
+
+msgid "Choose an Image"
+msgstr "छवि चुनें"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "नेटवर्क स्थानों के लिए gvfs आवश्यक है। gvfs पैकेज (और Windows साझा के लिए gvfs-smb, NFS के लिए gvfs-nfs) स्थापित करें, फिर लॉग आउट करके दोबारा लॉग इन करें।"
+
+msgid "This location is not a folder."
+msgstr "यह स्थान फ़ोल्डर नहीं है।"
+
+msgid "This location is not valid."
+msgstr "यह स्थान अमान्य है।"
+
+msgid "This folder is not in the archive."
+msgstr "यह फ़ोल्डर संग्रह में नहीं है।"
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s छोटी फ़ाइल"
+msgstr[1] "%s छोटी फ़ाइलें"
+
+msgid "(another drive, not counted)"
+msgstr "(दूसरी ड्राइव, गिनी नहीं गई)"
+
+msgid "Some of its contents could not be read."
+msgstr "इसकी कुछ सामग्री नहीं पढ़ी जा सकी।"
+
+msgid "%s in files"
+msgstr "फ़ाइलों में %s"
+
+msgid "%s on disk"
+msgstr "डिस्क पर %s"
+
+msgid "%s files and %s folders"
+msgstr "%s फ़ाइलें और %s फ़ोल्डर"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "पढ़ा जा रहा है… %s फ़ाइलों और %s फ़ोल्डरों में %s"
+
+msgid "Stopped."
+msgstr "रोका गया।"
+
+msgid "This folder could not be read."
+msgstr "यह फ़ोल्डर नहीं पढ़ा जा सका।"
+
+msgid "%s, read in %.1f s"
+msgstr "%s, %.1f से में पढ़ा गया"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s फ़ोल्डर नहीं पढ़ा जा सका।"
+msgstr[1] ". %s फ़ोल्डर नहीं पढ़े जा सके।"
+
+msgid "Only folders on this computer can be measured."
+msgstr "केवल इस कंप्यूटर के फ़ोल्डर मापे जा सकते हैं।"
+
+msgid "read less than a minute ago"
+msgstr "एक मिनट से कम पहले पढ़ा गया"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d मिनट पहले पढ़ा गया"
+msgstr[1] "%d मिनट पहले पढ़ा गया"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d घंटे पहले पढ़ा गया"
+msgstr[1] "%d घंटे पहले पढ़ा गया"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. फिर से पढ़ने के लिए दोबारा स्कैन करें।"
+
+msgid "_Apparent size"
+msgstr "प्रत्यक्ष आकार (_A)"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "फ़ाइलों द्वारा डिस्क पर ली गई जगह के बजाय उनके आकार जोड़ें।"
+
+msgid "_Stay on this drive"
+msgstr "इसी ड्राइव पर रहें (_S)"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "इस फ़ोल्डर के अंदर माउंट की गई दूसरी ड्राइव (जैसे किसी दूसरी डिस्क पर संगीत फ़ोल्डर) न गिनें। लिंक कभी नहीं अपनाए जाते।"
+
+msgid "Rescan"
+msgstr "फिर से स्कैन करें"
+
+msgid "Close Disk Usage"
+msgstr "डिस्क उपयोग बंद करें"
+
+msgid "_Rescan"
+msgstr "फिर से स्कैन करें (_R)"
+
+msgid "S_top"
+msgstr "रोकें (_T)"
+
+msgid "Disk Usage – %s"
+msgstr "डिस्क उपयोग – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” पहले से मौजूद है। बदलें?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "इनमें से %zu फ़ाइलें पहले से मौजूद हैं। बदलें?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "जिस प्रोग्राम से आप सहेज रहे हैं वह मौजूदा सामग्री को अधिलेखित करेगा।"
+
+msgid "Choose a folder to save in."
+msgstr "सहेजने के लिए फ़ोल्डर चुनें।"
+
+msgid "Select Folder"
+msgstr "फ़ोल्डर चुनें"
+
+msgid "Open Files"
+msgstr "फ़ाइलें खोलें"
+
+msgid "Open File"
+msgstr "फ़ाइल खोलें"
+
+msgid "Save File"
+msgstr "फ़ाइल सहेजें"
+
+msgid "Save Files"
+msgstr "फ़ाइलें सहेजें"
+
+msgid "_Folder:"
+msgstr "फ़ोल्डर (_F):"
+
+msgid "_Name:"
+msgstr "नाम (_N):"
+
+msgid "_Type:"
+msgstr "प्रकार (_T):"
+
+msgid "_Select"
+msgstr "चुनें (_S)"
+
+msgid "_Open"
+msgstr "खोलें (_O)"
+
+msgid "Create new folder in:\n%s"
+msgstr "यहाँ नया फ़ोल्डर बनाएँ:\n%s"
+
+msgid "C_reate"
+msgstr "बनाएँ (_R)"
+
+msgid "Could not create the folder."
+msgstr "फ़ोल्डर नहीं बनाया जा सका।"
+
+msgid "%zu items selected"
+msgstr "%zu वस्तुएँ चुनी गईं"
+
+msgid "Contents:"
+msgstr "सामग्री:"
+
+msgid "Contains:"
+msgstr "इसमें है:"
+
+msgid "Counting…"
+msgstr "गिना जा रहा है…"
+
+msgid "Broken Link"
+msgstr "टूटा लिंक"
+
+msgid "%s (link)"
+msgstr "%s (लिंक)"
+
+msgid "other drive"
+msgstr "दूसरी ड्राइव"
+
+msgid "%s of %s"
+msgstr "%s में से %s"
+
+msgid "%s left"
+msgstr "%s शेष"
+
+msgid "%d of %d"
+msgstr "%d में से %d"
+
+msgid "File operations in progress"
+msgstr "फ़ाइल संचालन जारी हैं"
+
+msgid "No subfolders"
+msgstr "कोई उप-फ़ोल्डर नहीं"
+
+msgid "Select the given files in their folders"
+msgstr "दी गई फ़ाइलों को उनके फ़ोल्डरों में चुनें"
+
+msgid "Open the window in split view"
+msgstr "विंडो को विभाजित दृश्य में खोलें"
+
+msgid "Always open a new window"
+msgstr "हमेशा नई विंडो खोलें"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "FileManager1 D-Bus सेवा के लिए पृष्ठभूमि में चलते रहें"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "टर्मिनल से अलग हों (बिना स्थान के: वर्तमान फ़ोल्डर खोलता है)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "xdg-desktop-portal के लिए फ़ाइल चयनकर्ता चलाएँ (D-Bus द्वारा शुरू)"
+
+msgid "Show the version"
+msgstr "संस्करण दिखाएँ"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[फ़ाइल या फ़ोल्डर…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "व्यवस्थापक के रूप में चल रहा है: इस विंडो में बदलाव सिस्टम को नुकसान पहुँचा सकते हैं।"
+
+msgid "Close this window?"
+msgstr "यह विंडो बंद करें?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "इस विंडो में %zu टैब खुले हैं। इसे बंद करने से सभी बंद हो जाएँगे।"
+
+msgid "Close Window"
+msgstr "विंडो बंद करें"
+
+msgid "Show _Toolbar"
+msgstr "टूलबार दिखाएँ (_T)"
+
+msgid "_File"
+msgstr "फ़ाइल (_F)"
+
+msgid "New _Window"
+msgstr "नई विंडो (_W)"
+
+msgid "New _Tab"
+msgstr "नया टैब (_T)"
+
+msgid "_Close Tab"
+msgstr "टैब बंद करें (_C)"
+
+msgid "Create _New"
+msgstr "नया बनाएँ (_N)"
+
+msgid "_Rename…"
+msgstr "नाम बदलें (_R)…"
+
+msgid "_Duplicate Here"
+msgstr "यहाँ प्रतिलिपि बनाएँ (_D)"
+
+msgid "Move to _Trash"
+msgstr "कचरे में ले जाएँ (_T)"
+
+msgid "_Delete"
+msgstr "हटाएँ (_D)"
+
+msgid "Restore from Trash"
+msgstr "कचरे से पुनर्स्थापित करें"
+
+msgid "_Properties"
+msgstr "गुण (_P)"
+
+msgid "_Quit"
+msgstr "बाहर निकलें (_Q)"
+
+msgid "_Edit"
+msgstr "संपादन (_E)"
+
+msgid "_Undo"
+msgstr "पूर्ववत करें (_U)"
+
+msgid "_Redo"
+msgstr "फिर से करें (_R)"
+
+msgid "Cu_t"
+msgstr "काटें (_T)"
+
+msgid "_Copy"
+msgstr "कॉपी करें (_C)"
+
+msgid "_Paste"
+msgstr "चिपकाएँ (_P)"
+
+msgid "_Search…"
+msgstr "खोजें (_S)…"
+
+msgid "Select _All"
+msgstr "सभी चुनें (_A)"
+
+msgid "_View"
+msgstr "दृश्य (_V)"
+
+msgid "Zoom _In"
+msgstr "ज़ूम इन (_I)"
+
+msgid "Zoom _Out"
+msgstr "ज़ूम आउट (_O)"
+
+msgid "Re_load"
+msgstr "फिर से लोड करें (_L)"
+
+msgid "Show _Menubar"
+msgstr "मेनू बार दिखाएँ (_M)"
+
+msgid "Show _Statusbar"
+msgstr "स्थिति बार दिखाएँ (_S)"
+
+msgid "_Go"
+msgstr "जाएँ (_G)"
+
+msgid "_Back"
+msgstr "पीछे (_B)"
+
+msgid "_Forward"
+msgstr "आगे (_F)"
+
+msgid "_Up"
+msgstr "ऊपर (_U)"
+
+msgid "_Home"
+msgstr "होम (_H)"
+
+msgid "_Tools"
+msgstr "उपकरण (_T)"
+
+msgid "Open _Terminal"
+msgstr "टर्मिनल खोलें (_T)"
+
+msgid "Open Terminal _Here"
+msgstr "यहाँ टर्मिनल खोलें (_H)"
+
+msgid "_Disk Usage…"
+msgstr "डिस्क उपयोग (_D)…"
+
+msgid "_Settings"
+msgstr "सेटिंग्स (_S)"
+
+msgid "Configure Tool_bars…"
+msgstr "टूलबार कॉन्फ़िगर करें (_B)…"
+
+msgid "_Configure Beluga…"
+msgstr "Beluga कॉन्फ़िगर करें (_C)…"
+
+msgid "No recently closed tabs"
+msgstr "हाल में बंद कोई टैब नहीं"
+
+msgid "(Administrator)"
+msgstr "(व्यवस्थापक)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "%zu फ़ोल्डर नए टैब में खोलें?"
+
+msgid "Open Folders"
+msgstr "फ़ोल्डर खोलें"
+
+msgid "Could not open “%s”."
+msgstr "“%s” नहीं खोला जा सका।"
+
+msgid "Could not open a terminal."
+msgstr "टर्मिनल नहीं खोला जा सका।"
+
+msgid "New Text File.txt"
+msgstr "नई टेक्स्ट फ़ाइल.txt"
+
+msgid "New File"
+msgstr "नई फ़ाइल"
+
+msgid "Empty the trash?"
+msgstr "कचरा खाली करें?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "कचरे की सभी वस्तुएँ स्थायी रूप से हटा दी जाएँगी। इसे पूर्ववत नहीं किया जा सकता।"
+
+msgid "Open %zu terminals?"
+msgstr "%zu टर्मिनल खोलें?"
+
+msgid "Open Terminals"
+msgstr "टर्मिनल खोलें"
+
+msgid "Create new file in:\n%s"
+msgstr "यहाँ नई फ़ाइल बनाएँ:\n%s"
+
+msgid "Could not create the file."
+msgstr "फ़ाइल नहीं बनाई जा सकी।"
+
+msgid "Link to File or Folder"
+msgstr "फ़ाइल या फ़ोल्डर का लिंक"
+
+msgid "Path of the file or folder to link to:"
+msgstr "जिस फ़ाइल या फ़ोल्डर से लिंक करना है उसका पथ:"
+
+msgid "Could not create the link."
+msgstr "लिंक नहीं बनाया जा सका।"
+
+msgid "Permanently delete %s?"
+msgstr "%s को स्थायी रूप से हटाएँ?"
+
+msgid "This cannot be undone."
+msgstr "इसे पूर्ववत नहीं किया जा सकता।"
+
+msgid "Move %s to the trash?"
+msgstr "%s को कचरे में ले जाएँ?"
+
+msgid "Could not run “%s”."
+msgstr "“%s” नहीं चलाया जा सका।"
+
+msgid "Could not start %s."
+msgstr "%s शुरू नहीं किया जा सका।"
+
+msgid "Could not start the application."
+msgstr "अनुप्रयोग शुरू नहीं किया जा सका।"
+
+msgid "“%s” is an executable file."
+msgstr "“%s” एक निष्पादन योग्य फ़ाइल है।"
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "क्या आप इसे चलाना चाहते हैं या किसी अनुप्रयोग में खोलना?"
+
+msgid "Run"
+msgstr "चलाएँ"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "%s (%s) खोलने के लिए अनुप्रयोग चुनें:"
+
+msgid "Or command:"
+msgstr "या आदेश:"
+
+msgid "Remember application association for this type of file"
+msgstr "इस फ़ाइल प्रकार के लिए अनुप्रयोग संबद्धता याद रखें"
+
+msgid "%s free of %s"
+msgstr "%2$s में से %1$s खाली"
+
+msgid "Configure Sections"
+msgstr "अनुभाग कॉन्फ़िगर करें"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "चिह्नित अनुभाग स्थान पैनल में इसी क्रम में दिखते हैं।"
+
+msgid "Move Up"
+msgstr "ऊपर ले जाएँ"
+
+msgid "Move Down"
+msgstr "नीचे ले जाएँ"
+
+msgid "Could not mount the device: %s"
+msgstr "डिवाइस माउंट नहीं किया जा सका: %s"
+
+msgid "Configure Sections…"
+msgstr "अनुभाग कॉन्फ़िगर करें…"
+
+msgid "Hide Hidden Entries"
+msgstr "छिपी प्रविष्टियाँ छिपाएँ"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "कचरे की सभी वस्तुएँ स्थायी रूप से हटा दी जाएँगी।"
+
+msgid "Could not safely remove the device: %s"
+msgstr "डिवाइस सुरक्षित रूप से नहीं निकाला जा सका: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "डिवाइस अनमाउंट नहीं किया जा सका: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "सिस्टम फ़ॉन्ट उपयोग करें (_S)"
+
+msgid "Context Menu Action"
+msgstr "संदर्भ मेनू क्रिया"
+
+msgid "Types:"
+msgstr "प्रकार:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f पहली फ़ाइल, %F सभी फ़ाइलें, %u / %U URI के रूप में, %n / %N नाम, %d वर्तमान फ़ोल्डर।"
+
+msgid "Show for _files"
+msgstr "फ़ाइलों के लिए दिखाएँ (_F)"
+
+msgid "Show for f_olders"
+msgstr "फ़ोल्डरों के लिए दिखाएँ (_O)"
+
+msgid "Show when _several items are selected"
+msgstr "कई वस्तुएँ चुनी होने पर दिखाएँ (_S)"
+
+msgid "Run in a _terminal"
+msgstr "टर्मिनल में चलाएँ (_T)"
+
+msgid "Custom Actions"
+msgstr "कस्टम क्रियाएँ"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "फ़ाइलों और फ़ोल्डरों के संदर्भ मेनू के लिए आपकी अपनी प्रविष्टियाँ।"
+
+msgid "_Add…"
+msgstr "जोड़ें (_A)…"
+
+msgid "_Edit…"
+msgstr "संपादित करें (_E)…"
+
+msgid "_Remove"
+msgstr "हटाएँ (_R)"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "शॉर्टकट <Control>c या <Shift>Delete जैसे लिखे जाते हैं। कई को अल्पविराम से अलग करें। डिफ़ॉल्ट के लिए फ़ील्ड खाली छोड़ें।"
+
+msgid "files below %d MiB"
+msgstr "%d MiB से छोटी फ़ाइलें"
+
+msgid "_Restore Defaults"
+msgstr "डिफ़ॉल्ट पुनर्स्थापित करें (_R)"
+
+msgid "_Apply"
+msgstr "लागू करें (_A)"
+
+msgid "Folders & Tabs"
+msgstr "फ़ोल्डर और टैब"
+
+msgid "This location:"
+msgstr "यह स्थान:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "एक ही Beluga विंडो रखें और नए फ़ोल्डर टैब में खोलें"
+
+msgid "Tabs:"
+msgstr "टैब:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "स्थिर चौड़ाई वाले टैब जगह न होने पर सभी बराबर संकरे हो जाते हैं।"
+
+msgid "No terminal found"
+msgstr "कोई टर्मिनल नहीं मिला"
+
+msgid "Detected: %s"
+msgstr "पता चला: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "F4 और यहाँ टर्मिनल खोलें द्वारा उपयोग किया जाता है। आदेश में %d को फ़ोल्डर से बदला जाता है; नहीं तो टर्मिनल उसी में शुरू होता है। यह पहले KDE की सिस्टम सेटिंग थी।"
+
+msgid "New folders:"
+msgstr "नए फ़ोल्डर:"
+
+msgid "Show _previews in new folders"
+msgstr "नए फ़ोल्डरों में पूर्वावलोकन दिखाएँ (_P)"
+
+msgid "Audio (cover art)"
+msgstr "ऑडियो (कवर चित्र)"
+
+msgid "PDF documents"
+msgstr "PDF दस्तावेज़"
+
+msgid "Text files"
+msgstr "टेक्स्ट फ़ाइलें"
+
+msgid "Fonts"
+msgstr "फ़ॉन्ट"
+
+msgid "Office documents"
+msgstr "कार्यालय दस्तावेज़"
+
+msgid "Ask for confirmation when:"
+msgstr "पुष्टि माँगें जब:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Beluga में पुष्टि माँगें जब:"
+
+msgid "Use _long date format"
+msgstr "लंबा दिनांक प्रारूप उपयोग करें (_L)"
+
+msgid "Show _hidden folders"
+msgstr "छिपे फ़ोल्डर दिखाएँ (_H)"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "वर्तमान फ़ोल्डर तक स्वतः स्क्रॉल करें (_A)"
+
+msgid "Places Panel:"
+msgstr "स्थान पैनल:"
+
+msgid "Status & Location bars"
+msgstr "स्थिति और स्थान बार"
+
+msgid "Show free _space"
+msgstr "खाली जगह दिखाएँ (_S)"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "किसी भी स्थिति में, दृश्य › इस फ़ोल्डर के लिए दृश्य याद रखें एक फ़ोल्डर को उसकी अपनी शैली देता है। कुछ विशेष दृश्य, जैसे खोज, हाल की फ़ाइलें या कचरा, अब भी अपनी शैली उपयोग करते हैं।"
+
+msgid "Open files and folders with a single click"
+msgstr "फ़ाइलें और फ़ोल्डर एक क्लिक से खोलें"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "तुरंत खोज के लिए होम फ़ोल्डर की अनुक्रमणिका रखें (_I)"
+
+msgid "levels deep"
+msgstr "स्तर गहराई"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "सापेक्ष (आज, कल…)"
+
+msgid "Absolute"
+msgstr "निरपेक्ष"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "प्रतीकात्मक (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "संख्यात्मक (0755)"
+
+msgid "Combined"
+msgstr "संयुक्त"
+
+msgid "Elide in the middle"
+msgstr "बीच में छोटा करें"
+
+msgid "Elide at the end"
+msgstr "अंत में छोटा करें"
+
+msgid "Disk usage:"
+msgstr "डिस्क उपयोग:"
+
+msgid "Show a Disk _Usage column"
+msgstr "डिस्क उपयोग स्तंभ दिखाएँ (_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "प्रत्येक फ़ाइल और प्रत्येक पूरा फ़ोल्डर डिस्क पर जितनी जगह लेता है, फ़ोल्डर में उसके हिस्से की पट्टी के साथ, जैसे उपकरण › डिस्क उपयोग। फ़ोल्डर पृष्ठभूमि में पूरी तरह पढ़े जाते हैं; सबसे बड़े पहले देखने के लिए स्तंभ से क्रमबद्ध करें। डिस्क उपयोग विंडो का \"इसी ड्राइव पर रहें\" यहाँ भी लागू होता है।"
+
+msgid "Show in the context menu"
+msgstr "संदर्भ मेनू में दिखाएँ"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'यहाँ कॉपी करें' और 'यहाँ ले जाएँ'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "हटाएँ (कचरे में ले जाएँ के अलावा)"
+
+msgid "Cleanup:"
+msgstr "सफ़ाई:"
+
+msgid "Delete files older than"
+msgstr "इससे पुरानी फ़ाइलें हटाएँ:"
+
+msgid "days"
+msgstr "दिन"
+
+msgid "Limit to"
+msgstr "सीमित करें:"
+
+msgid "percent of the disk"
+msgstr "डिस्क का प्रतिशत"
+
+msgid "Keep the trash on the home drive"
+msgstr "कचरे को होम फ़ोल्डर की ड्राइव पर रखें"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "दूसरी ड्राइव से कचरे में ले जाई गई फ़ाइलें होम फ़ोल्डर के कचरे में कॉपी की जाती हैं, इसलिए उन ड्राइव पर .Trash-1000 फ़ोल्डर नहीं बनता। तब बड़ी फ़ाइलों को कचरे में ले जाने में अधिक समय लगता है।"
+
+msgid "Full trash:"
+msgstr "भरा कचरा:"
+
+msgid "When the limit is reached:"
+msgstr "सीमा पहुँचने पर:"
+
+msgid "Show a warning"
+msgstr "चेतावनी दिखाएँ"
+
+msgid "Delete the oldest items"
+msgstr "सबसे पुरानी वस्तुएँ हटाएँ"
+
+msgid "Delete the largest items"
+msgstr "सबसे बड़ी वस्तुएँ हटाएँ"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "ये पहले KDE की सिस्टम सेटिंग्स थीं। सीमाएँ Beluga शुरू होने पर और वस्तुएँ कचरे में ले जाने के बाद लागू होती हैं।"
+
+msgid "Calculating trash size…"
+msgstr "कचरे का आकार गणना किया जा रहा है…"
+
+msgid "The trash currently uses %s."
+msgstr "कचरा अभी %s उपयोग कर रहा है।"
+
+msgid "_Empty Trash Now"
+msgstr "कचरा अभी खाली करें (_E)"
+
+msgid "Vim Mode"
+msgstr "Vim मोड"
+
+msgid "Vim mode:"
+msgstr "Vim मोड:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "दृश्यों में Vim-शैली कुंजियाँ उपयोग करें"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "सामान्य मोड h j k l से चलता है और नीचे की कुंजियाँ चलाता है; v, V और Ctrl+V चुनते हैं; i और a नाम बदलते हैं (सम्मिलन मोड); Esc सामान्य मोड में लौटाता है; : आदेश पंक्ति खोलता है। यहाँ सूचीबद्ध न की गई Ctrl या Alt कुंजियाँ अपना सामान्य अर्थ रखती हैं।"
+
+msgid "Leader key:"
+msgstr "लीडर कुंजी:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "नीचे की कुंजियों में <leader>, जैसे <Space> या ,"
+
+msgid "Wait for more keys:"
+msgstr "और कुंजियों की प्रतीक्षा करें:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (d के बाद dd, g के बाद gg)"
+
+msgid "Keys"
+msgstr "कुंजियाँ"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim संकेतन, कई को रिक्त स्थान से अलग करें: h, gg, <C-v>, <CR>, <Esc>, <leader>t. डिफ़ॉल्ट के लिए फ़ील्ड खाली छोड़ें।"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q विंडो बंद करता है (:q! उसके टैब के बारे में पूछे बिना), :qa Beluga से बाहर निकलता है, :e या :cd पथ फ़ोल्डर खोलता है, :tabnew [पथ], :tabclose, :tabonly, :sp या :vs [पथ] दृश्य विभाजित करते हैं, :only दूसरा दृश्य बंद करता है, :mkdir नाम, :touch नाम, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!आदेश फ़ोल्डर में शेल आदेश चलाता है।"
+
+msgid "Keyboard Shortcuts"
+msgstr "कीबोर्ड शॉर्टकट"
+
+msgid "Only files on this computer can be read."
+msgstr "केवल इस कंप्यूटर की फ़ाइलें पढ़ी जा सकती हैं।"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga को FFmpeg के बिना बनाया गया था।"
+
+msgid "Reading…"
+msgstr "पढ़ा जा रहा है…"
+
+msgid "No details found."
+msgstr "कोई विवरण नहीं मिला।"
+
+msgid "Change the folder's icon"
+msgstr "फ़ोल्डर आइकन बदलें"
+
+msgid "Could not change the icon."
+msgstr "आइकन नहीं बदला जा सका।"
+
+msgid "%zu items"
+msgstr "%zu वस्तुएँ"
+
+msgid "No default application"
+msgstr "कोई डिफ़ॉल्ट अनुप्रयोग नहीं"
+
+msgid "C_hange…"
+msgstr "बदलें (_H)…"
+
+msgid "Opens with:"
+msgstr "इससे खुलता है:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu बाइट"
+msgstr[1] "%llu बाइट"
+
+msgid "Can View"
+msgstr "देख सकते हैं"
+
+msgid "Can View Content"
+msgstr "सामग्री देख सकते हैं"
+
+msgid "Is _executable"
+msgstr "निष्पादन योग्य है (_E)"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "बदलाव सभी उप-फ़ोल्डरों और उनकी सामग्री पर लागू करें (_S)"
+
+msgid "Could not read the file."
+msgstr "फ़ाइल नहीं पढ़ी जा सकी।"
+
+msgid "Paste a checksum to compare"
+msgstr "तुलना के लिए चेकसम चिपकाएँ"
+
+msgid "Verify:"
+msgstr "सत्यापित करें:"
+
+msgid "The checksums match."
+msgstr "चेकसम मेल खाते हैं।"
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "गणना किया गया कोई चेकसम मेल नहीं खाता। पहले संबंधित प्रकार की गणना करें।"
+
+msgid "Could not change the permissions."
+msgstr "अनुमतियाँ नहीं बदली जा सकीं।"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "नाम से फ़िल्टर करें (*.txt जैसे वाइल्डकार्ड काम करते हैं)"
+
+msgid "Keep the filter when changing folders"
+msgstr "फ़ोल्डर बदलते समय फ़िल्टर बनाए रखें"
+
+msgid "In This Folder"
+msgstr "इस फ़ोल्डर में"
+
+msgid "In Your Files"
+msgstr "आपकी फ़ाइलों में"
+
+msgid "Any Time"
+msgstr "कभी भी"
+
+msgid "Last 7 Days"
+msgstr "पिछले 7 दिन"
+
+msgid "Last 30 Days"
+msgstr "पिछले 30 दिन"
+
+msgid "Last Year"
+msgstr "पिछला वर्ष"
+
+msgid "Hidden files"
+msgstr "छिपी फ़ाइलें"
+
+msgid "Duplicate Tab"
+msgstr "टैब की प्रतिलिपि बनाएँ"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "सूची में स्थान बार से ऊपर की क्रियाएँ उसके बाईं ओर होती हैं, बाकी दाईं ओर। * उन क्रियाओं को चिह्नित करता है जो डिफ़ॉल्ट टूलबार द्वारा रखी गई जगह पर नहीं हैं।"
+
+msgid "A_vailable actions:"
+msgstr "उपलब्ध क्रियाएँ (_V):"
+
+msgid "Add to the tool bar"
+msgstr "टूलबार में जोड़ें"
+
+msgid "Remove from the tool bar"
+msgstr "टूलबार से हटाएँ"
+
+msgid "Move up (left on the tool bar)"
+msgstr "ऊपर ले जाएँ (टूलबार में बाईं ओर)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "नीचे ले जाएँ (टूलबार में दाईं ओर)"
+
+msgid "C_urrent actions:"
+msgstr "वर्तमान क्रियाएँ (_U):"
+
+msgid "_Defaults"
+msgstr "डिफ़ॉल्ट (_D)"
+
+msgid "Show Columns"
+msgstr "स्तंभ दिखाएँ"
+
+msgid "Modified: %s"
+msgstr "संशोधित: %s"
+
+msgid "Original location: %s"
+msgstr "मूल स्थान: %s"
+
+msgid "Less than 1 MiB"
+msgstr "1 MiB से कम"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB से 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB से 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB या अधिक"
+
+msgid "Not counted yet"
+msgstr "अभी गिना नहीं गया"
+
+msgid "A file name cannot contain “/”."
+msgstr "फ़ाइल के नाम में “/” नहीं हो सकता।"
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "“%s” का नाम बदलकर “%s” करने से उसका एक्सटेंशन बदल जाता है। फ़ाइल किसी दूसरे अनुप्रयोग से खुल सकती है या बिल्कुल नहीं खुल सकती।"
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "चयन मोड: फ़ाइलों या फ़ोल्डरों को चुनने या अचयनित करने के लिए उन पर क्लिक करें।"
+
+msgid "_Exit Selection Mode"
+msgstr "चयन मोड से बाहर निकलें (_E)"
+
+msgid "_Duplicate"
+msgstr "प्रतिलिपि बनाएँ (_D)"
+
+msgid "De_lete"
+msgstr "हटाएँ (_L)"
+
+msgid "Pr_operties"
+msgstr "गुण (_O)"
+
+msgid "The folder “%s” no longer exists."
+msgstr "फ़ोल्डर “%s” अब मौजूद नहीं है।"
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” चुना गया (%s%s)"
+
+msgid "%s selected"
+msgstr "%s चुने गए"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d चुना गया"
+msgstr[1] "%d चुने गए"
+
+msgid "Move left"
+msgstr "बाएँ"
+
+msgid "Move down"
+msgstr "नीचे"
+
+msgid "Move up"
+msgstr "ऊपर"
+
+msgid "Move right"
+msgstr "दाएँ"
+
+msgid "First item"
+msgstr "पहली वस्तु"
+
+msgid "Last item"
+msgstr "अंतिम वस्तु"
+
+msgid "Page down"
+msgstr "पृष्ठ नीचे"
+
+msgid "Page up"
+msgstr "पृष्ठ ऊपर"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "कर्सर जिन वस्तुओं से गुज़रता है उन्हें चुनें (दृश्य)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Shift की तरह एक श्रेणी चुनें (दृश्य पंक्ति)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "ग्रिड से एक ब्लॉक चुनें (दृश्य ब्लॉक)"
+
+msgid "Back to normal mode"
+msgstr "सामान्य मोड में लौटें"
+
+msgid "Copy the item under the cursor"
+msgstr "कर्सर के नीचे की वस्तु कॉपी करें"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "नाम बदलें, कर्सर शुरू में (सम्मिलित करें)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "नाम बदलें, कर्सर नाम के बाद (जोड़ें)"
+
+msgid "Rename, name selected (change)"
+msgstr "नाम बदलें, नाम चुना हुआ (बदलें)"
+
+msgid "Edit the location"
+msgstr "स्थान संपादित करें"
+
+msgid "Copied."
+msgstr "कॉपी किया गया।"
+
+msgid "Cut."
+msgstr "काटा गया।"
+
+msgid "Can't open “%s”."
+msgstr "“%s” नहीं खोला जा सकता।"
+
+msgid "A name is needed."
+msgstr "नाम आवश्यक है।"
+
+msgid "Unknown view: %s"
+msgstr "अज्ञात दृश्य: %s"
+
+msgid "Unknown option: %s"
+msgstr "अज्ञात विकल्प: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "name, size, date या type से क्रमबद्ध करें।"
+
+msgid "Not a command: %s"
+msgstr "आदेश नहीं: %s"
+
+msgid "Move"
+msgstr "ले जाएँ"
+
+msgid "Risks of Acting as an Administrator"
+msgstr "व्यवस्थापक के रूप में काम करने के जोखिम"
+
+msgid "I Understand and Accept These Risks"
+msgstr "मैं इन जोखिमों को समझता हूँ और स्वीकार करता हूँ"
+
+msgid "Act as Administrator"
+msgstr "व्यवस्थापक के रूप में काम करें"
+
+msgid "Focus Other View"
+msgstr "दूसरे दृश्य पर फ़ोकस करें"
+
+msgid "Split View to Tabs"
+msgstr "विभाजित दृश्य को टैब में"
+
+msgid "Folders Panel"
+msgstr "फ़ोल्डर पैनल"
+
+msgid "Information Panel"
+msgstr "जानकारी पैनल"
+
+msgid "Focus Places Panel"
+msgstr "स्थान पैनल पर फ़ोकस करें"
+
+msgid "Go to Last Tab"
+msgstr "अंतिम टैब पर जाएँ"
+
+msgid "Files"
+msgstr "फ़ाइलें"
+
+msgid "Configure Toolbars…"
+msgstr "टूलबार कॉन्फ़िगर करें…"
+
+msgid "Restore to Defaults"
+msgstr "डिफ़ॉल्ट पुनर्स्थापित करें"
+
+msgid "Panels"
+msgstr "पैनल"
+
+msgid "Recommended Applications"
+msgstr "सुझाए गए अनुप्रयोग"
+
+msgid "Other Applications"
+msgstr "अन्य अनुप्रयोग"
+
+msgid "File names:"
+msgstr "फ़ाइल नाम:"
+
+msgid "no file"
+msgstr "कोई फ़ाइल नहीं"
+
+msgid "files of any size"
+msgstr "किसी भी आकार की फ़ाइलें"
+
+msgid "Always show tab bar"
+msgstr "टैब बार हमेशा दिखाएँ"
+
+msgid "Show close button on tabs"
+msgstr "टैब पर बंद करें बटन दिखाएँ"
+
+msgid "Tab style:"
+msgstr "टैब शैली:"
+
+msgid "Tab width adapts to folder name"
+msgstr "टैब की चौड़ाई फ़ोल्डर नाम के अनुसार"
+
+msgid "Tabs all have the same fixed width"
+msgstr "सभी टैब की समान स्थिर चौड़ाई"
+
+msgid "When closing a split view"
+msgstr "विभाजित दृश्य बंद करते समय"
+
+msgid "Close the active pane"
+msgstr "सक्रिय पैनल बंद करें"
+
+msgid "Close the inactive pane"
+msgstr "निष्क्रिय पैनल बंद करें"
+
+msgid "Close the right pane"
+msgstr "दायाँ पैनल बंद करें"
+
+msgid "Open new windows in split view mode"
+msgstr "नई विंडो विभाजित दृश्य मोड में खोलें"
+
+msgid "Local storage:"
+msgstr "स्थानीय संग्रहण:"
+
+msgid "Show previews for"
+msgstr "इनके लिए पूर्वावलोकन दिखाएँ"
+
+msgid "Remote storage:"
+msgstr "दूरस्थ संग्रहण:"
+
+msgid "Renaming a file will change its type"
+msgstr "फ़ाइल का नाम बदलने से उसका प्रकार बदल जाएगा"
+
+msgid "Switching to act as an administrator"
+msgstr "व्यवस्थापक के रूप में काम करने पर स्विच करना"
+
+msgid "Information Panel:"
+msgstr "जानकारी पैनल:"
+
+msgid "Folders Panel:"
+msgstr "फ़ोल्डर पैनल:"
+
+msgid "Limit to home directory when inside it"
+msgstr "होम फ़ोल्डर के अंदर होने पर उसी तक सीमित रखें"
+
+msgid "Status Bar:"
+msgstr "स्थिति बार:"
+
+msgid "Full width"
+msgstr "पूरी चौड़ाई"
+
+msgid "Browse compressed files as folders"
+msgstr "संपीड़ित फ़ाइलों को फ़ोल्डर की तरह ब्राउज़ करें"
+
+msgid "Show item information on hover"
+msgstr "होवर पर वस्तु की जानकारी दिखाएँ"
+
+msgid "Rename single items inline"
+msgstr "एकल वस्तुओं का नाम वहीं बदलें"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "छिपी फ़ाइलें छिपाते समय बैकअप फ़ाइलें भी छिपाएँ"
+
+msgid "Background:"
+msgstr "पृष्ठभूमि:"
+
+msgid "Double-click triggers"
+msgstr "डबल-क्लिक करता है"
+
+msgid "Nothing"
+msgstr "कुछ नहीं"
+
+msgid "Folder size:"
+msgstr "फ़ोल्डर का आकार:"
+
+msgid "Show number of items"
+msgstr "वस्तुओं की संख्या दिखाएँ"
+
+msgid "Show size of contents, up to "
+msgstr "सामग्री का आकार दिखाएँ, अधिकतम "
+
+msgid "Show no size"
+msgstr "आकार न दिखाएँ"
+
+msgid "Long file names:"
+msgstr "लंबे फ़ाइल नाम:"
+
+msgid "Spacing:"
+msgstr "अंतराल:"
+
+msgid "Command line"
+msgstr "आदेश पंक्ति"
+
+msgid "Everywhere"
+msgstr "हर जगह"
+
+msgid "File Names"
+msgstr "फ़ाइल नाम"
+
+msgid "File Names and Contents"
+msgstr "फ़ाइल नाम और सामग्री"
+
+msgid "No items found"
+msgstr "कोई वस्तु नहीं मिली"
+
+msgid "Free space:"
+msgstr "खाली जगह:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%2$s में से %1$s खाली (%3$d%% उपयोग में)"
+
+msgid "Copy to Other View"
+msgstr "दूसरे दृश्य में कॉपी करें"
+
+msgid "Move to Other View"
+msgstr "दूसरे दृश्य में ले जाएँ"
+
+msgid "Open With…"
+msgstr "इसके साथ खोलें…"
+
+msgid "Other Application…"
+msgstr "अन्य अनुप्रयोग…"
+
+msgid "Open in Split View"
+msgstr "विभाजित दृश्य में खोलें"
+
+msgid "Filter…"
+msgstr "फ़िल्टर…"
+
+msgid "Adjust View Display Style…"
+msgstr "दृश्य प्रदर्शन शैली समायोजित करें…"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "पिछली बार के फ़ोल्डर, टैब और विंडो की स्थिति"
+
+msgid "Opening Folders:"
+msgstr "फ़ोल्डर खोलना:"
+
+msgid "Opening many folders at once"
+msgstr "एक साथ कई फ़ोल्डर खोलना"
+
+msgid "Opening many terminals at once"
+msgstr "एक साथ कई टर्मिनल खोलना"
+
+msgid "Show item on hover"
+msgstr "होवर पर वस्तु दिखाएँ"
+
+msgid "Interface"
+msgstr "इंटरफ़ेस"
+
+msgid "Display style:"
+msgstr "प्रदर्शन शैली:"
+
+msgid "Browsing:"
+msgstr "ब्राउज़िंग:"
+
+msgid "Content Display"
+msgstr "सामग्री प्रदर्शन"
+
+msgid "By clicking anywhere on the row"
+msgstr "पंक्ति पर कहीं भी क्लिक करके"
+
+msgid "By clicking on icon or name"
+msgstr "आइकन या नाम पर क्लिक करके"
+
+msgid "Calculating…"
+msgstr "गणना की जा रही है…"
+
+msgid "Searching…"
+msgstr "खोजा जा रहा है…"
+
+msgid "Loading folder…"
+msgstr "फ़ोल्डर लोड हो रहा है…"
+
+msgid "Rename…"
+msgstr "नाम बदलें…"
+
+msgid "Share"
+msgstr "साझा करें"
+
+msgid "Search For"
+msgstr "इसके लिए खोजें"
+
+msgid "Devices"
+msgstr "डिवाइस"
+
+msgid "Documents"
+msgstr "दस्तावेज़"
+
+msgid "Downloads"
+msgstr "डाउनलोड"
+
+msgid "Music"
+msgstr "संगीत"
+
+msgid "Pictures"
+msgstr "चित्र"
+
+msgid "Videos"
+msgstr "वीडियो"
+
+msgid "Network"
+msgstr "नेटवर्क"
+
+msgid "All Files"
+msgstr "सभी फ़ाइलें"
+
+msgid "%s, %s"
+msgstr "%s, %s"
+
+msgid "Icons View"
+msgstr "आइकन दृश्य"
+
+msgid "Compact View"
+msgstr "संक्षिप्त दृश्य"
+
+msgid "Details View"
+msgstr "विवरण दृश्य"
+
+msgid "Move To"
+msgstr "यहाँ ले जाएँ"
+
+msgid "Copy To"
+msgstr "यहाँ कॉपी करें"
+
+msgid "Open with %s"
+msgstr "%s से खोलें"
+
+msgid "Open Containing Folder"
+msgstr "युक्त फ़ोल्डर खोलें"
+
+msgid "Rename Item"
+msgstr "वस्तु का नाम बदलें"
+
+msgid "Rename Items"
+msgstr "वस्तुओं के नाम बदलें"
+
+msgid "New name #"
+msgstr "नया नाम #"
+
+msgid "Add Places Entry"
+msgstr "स्थान प्रविष्टि जोड़ें"
+
+msgid "Skip All"
+msgstr "सभी छोड़ें"
+
+msgid "Retry"
+msgstr "फिर से प्रयास करें"
+
+msgid "New Folder"
+msgstr "नया फ़ोल्डर"
+
+msgid "Safely Remove"
+msgstr "सुरक्षित रूप से निकालें"
+
+msgid "Edit…"
+msgstr "संपादित करें…"
+
+msgid "Hide"
+msgstr "छिपाएँ"
+
+msgid "Hide Section"
+msgstr "अनुभाग छिपाएँ"
+
+msgid "Add Entry…"
+msgstr "प्रविष्टि जोड़ें…"
+
+msgid "Can View & Modify"
+msgstr "देख और बदल सकते हैं"
+
+msgid "Checksums"
+msgstr "चेकसम"
+
+msgid "Size: %s"
+msgstr "आकार: %s"
+
+msgid "Choose an Icon"
+msgstr "आइकन चुनें"
+
+msgid "Parent folder"
+msgstr "मूल फ़ोल्डर"
+
+msgid "Details:"
+msgstr "विवरण:"
+
+msgid "Format:"
+msgstr "प्रारूप:"
