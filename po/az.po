@@ -17,95 +17,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Arxiv açıla bilmədi."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Arxiv oxuna bilmədi."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Ləğv edildi."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Fayl şifrə ilə kodlanıb."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "“%s” oxuna bilmədi."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Bu, arxiv daxilindəki fayl deyil."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Buraya çıxart"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr ".tar.gz kimi sıxışdır"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Terminal emulyatoru tapılmadı."
 
 msgid "Root"
-msgstr ""
+msgstr "Kök"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s həcmi"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Bu cihaz qoşula bilməz."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Bu cihaz ayrıla bilməz."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Cihaz artıq mövcud deyil."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s “%s” qovluğuna kopyalanır"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s “%s” qovluğuna köçürülür"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s üçün “%s” daxilində keçid yaradılır"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s səbətə atılır"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s silinir"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s bərpa edilir"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Səbət boşaldılır"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Fayllar sayılır…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Qovluq öz içinə köçürülə bilməz."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Qovluq öz içinə kopyalana bilməz."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Fayllar yalnız yerli qovluqlara çıxarıla bilər."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "“%s” arxivindən çıxarılır"
 
 msgid "Title:"
 msgstr "Başlıq:"
@@ -123,7 +123,7 @@ msgid "Track:"
 msgstr "Mahnı:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Disk:"
 
 msgid "Date:"
 msgstr "Tarix:"
@@ -154,71 +154,71 @@ msgstr "Dil:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Müddəti:"
 
 msgid "Format:"
-msgstr ""
+msgstr "Format:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Bit sürəti:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Üz qabığı:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f kadr/san"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f kadr/san"
 
 msgid "Video:"
 msgstr "Video:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hs"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "stereo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanal"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bit"
 
 msgid "Audio:"
 msgstr "Səs faylı:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Audio %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Altyazılar:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Fəsillər:"
 
 msgid "Places"
 msgstr "Giriş Nöqtələri"
@@ -266,7 +266,7 @@ msgid "Recent Files"
 msgstr "Sonuncu fayllar"
 
 msgid "Images"
-msgstr ""
+msgstr "Şəkillər"
 
 msgid "Audio"
 msgstr "Səs faylı"
@@ -275,37 +275,37 @@ msgid "Folders"
 msgstr "Qovluqlar"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arxivlər"
 
 msgid "All Files"
 msgstr "Bütün fayllar"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "“%s” axtar"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Terminal emulyatoru tapılmadı. Onu Beluga ayarları › Ümumi › Terminal bölməsində təyin edin."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Bu fayl sistemində səbət yoxdur."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Səbətin məlumat faylı yaradıla bilmədi."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” artıq mövcuddur."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Səbət %s həddindən böyükdür. Onu boşaltmağı düşünün."
 
 msgid "Copy"
 msgstr "Kopyalamaq"
 
 msgid "Move"
-msgstr ""
+msgstr "Köçür"
 
 msgid "Link"
 msgstr "Link"
@@ -320,21 +320,21 @@ msgid "Create Folder"
 msgstr "Qovluq yarat"
 
 msgid "Create File"
-msgstr ""
+msgstr "Fayl yarat"
 
 msgid "Undo"
 msgstr "Geri"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Geri qaytar: %s"
 
 msgid "Redo"
 msgstr "Təkrarlamaq"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Təkrarla: %s"
 
 #, c-format
 msgid "%d item"
@@ -345,14 +345,14 @@ msgstr[1] "%d element"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fayl"
+msgstr[1] "%d fayl"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d qovluq"
+msgstr[1] "%d qovluq"
 
 #, c-format
 msgid "%s, %s"
@@ -360,14 +360,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Bu gün, %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Dünən, %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A, %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -375,11 +375,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld dəq %ld san"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld saat %ld dəq"
 
 #, c-format
 msgid "%s copy"
@@ -387,7 +387,7 @@ msgstr "%s nüsxə"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s surəti %d"
 
 msgid "Name"
 msgstr "Adı"
@@ -396,7 +396,7 @@ msgid "Size"
 msgstr "Ölçüsü"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Disk istifadəsi"
 
 msgid "Modified"
 msgstr "Dəyişiklik tarixi"
@@ -411,7 +411,7 @@ msgid "Type"
 msgstr "Növü"
 
 msgid "Extension"
-msgstr ""
+msgstr "Genişlənmə"
 
 msgid "Permissions"
 msgstr "Giriş icazələri"
@@ -432,28 +432,28 @@ msgid "Deletion Time"
 msgstr "Silinmə tarixi"
 
 msgid "Original Location"
-msgstr ""
+msgstr "İlkin yer"
 
 msgid "Dimensions"
 msgstr "Ölçülər"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga inzibatçı kimi işləyə bilmədi."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "İnzibatçı şifrəsini soruşmaq üçün pkexec (polkit) lazımdır. polkit və iş masanız üçün polkit agentini quraşdırın."
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "İnzibatçı kimi işləməyin riskləri"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "İnzibatçı hüquqlu Beluga pəncərəsi bu kompüterdəki istənilən faylı, o cümlədən sistemin başlaması üçün lazım olan faylları dəyişə və silə bilər. Orada edilən səhv sistemi yararsız edə bilər. Ondan yalnız başqa yolla dəyişə bilmədiyiniz fayllar üçün istifadə edin və işiniz bitəndə bağlayın.\n\nSonra Beluga inzibatçı şifrəsini soruşacaq."
 
 msgid "Cancel"
 msgstr "Ləğv et"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "Bu riskləri başa düşürəm və qəbul edirəm"
 
 msgid "New Window"
 msgstr "Yeni pəncərə"
@@ -519,7 +519,7 @@ msgid "Details View"
 msgstr "Ətraflı Baxış"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Sütun görünüşü"
 
 msgid "Zoom In"
 msgstr "Böyüt"
@@ -528,25 +528,25 @@ msgid "Zoom Out"
 msgstr "Kiçilt"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Miqyası sıfırla"
 
 msgid "Show Hidden Files"
 msgstr "Gizli faylları göstərmək"
 
 msgid "Act as Administrator"
-msgstr ""
+msgstr "İnzibatçı kimi işlə"
 
 msgid "Split View"
 msgstr "Baxış sahəsini iki panelə bölür"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "Digər görünüşə fokuslan"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Bölünmüş görünüşü ayır"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Bölünmüş görünüşü vərəqələrə"
 
 msgid "Reload"
 msgstr "Təkrarlamaq"
@@ -558,19 +558,19 @@ msgid "Replace Location"
 msgstr "Yolu dəyişdirmək"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Yerlər paneli"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Qovluqlar paneli"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "Məlumat paneli"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Disk istifadəsi paneli"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "Yerlər panelinə fokuslan"
 
 msgid "Show Menubar"
 msgstr "Menyu Çübüğunu Göstər"
@@ -588,34 +588,34 @@ msgid "Up"
 msgstr "Aşağı"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "1-ci vərəqəyə keç"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "2-ci vərəqəyə keç"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "3-cü vərəqəyə keç"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "4-cü vərəqəyə keç"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "5-ci vərəqəyə keç"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "6-cı vərəqəyə keç"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "7-ci vərəqəyə keç"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "8-ci vərəqəyə keç"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "9-cu vərəqəyə keç"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "Son vərəqəyə keç"
 
 msgid "Next Tab"
 msgstr "Növbəti vərəq"
@@ -633,29 +633,29 @@ msgid "Configure Toolbars"
 msgstr "Alətlər Panelini Ayarla"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga ayarları"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Geri qaytarma alınmadı."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Qovluq…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Mətn faylı…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Boş fayl…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Fayla və ya qovluğa keçid…"
 
 msgid "Create New"
 msgstr "Yenisini yarat"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Digər görünüş (%s)"
 
 msgid "Browse…"
 msgstr "Bax…"
@@ -695,7 +695,7 @@ msgid "View Mode"
 msgstr "Baxış rejimi"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Bu qovluq üçün görünüşü yadda saxla"
 
 msgid "Restore"
 msgstr "Bərpa et"
@@ -713,13 +713,13 @@ msgid "Open in Split View"
 msgstr "Bölünmüş pəncərədə açın"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Beluga-da aç"
 
 msgid "Open Containing Folder"
 msgstr "Bu tərkibli qovluğu açın"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Qovluğa yapışdır"
 
 msgid "Rename…"
 msgstr "Adını dəyişin…"
@@ -731,65 +731,65 @@ msgid "Close"
 msgstr "Bağlamaq"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_İmtina"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Ad “/” ehtiva edə bilməz."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Nöqtə ilə başlayan ad gizlidir."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Bəzi elementlərin adı dəyişdirilə bilmədi."
 
 msgid "Rename Item"
 msgstr "Adını dəyişin"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "“%s” üçün yeni ad:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Adını dəyiş"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "“%s” adı dəyişdirilə bilmədi."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Fayl növü dəyişdirilsin?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "“%s” adının “%s” olaraq dəyişdirilməsi onun genişlənməsini dəyişir."
 
 msgid "Rename Items"
 msgstr "Adlarını dəyişin"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Seçilmiş %zu elementin yeni adı:"
 
 msgid "New name #"
 msgstr "Yeni Ad #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# artan rəqəmlərlə əvəz olunur; öndəki sıfırlar üçün ## istifadə edin. Genişlənmələr saxlanılır."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Nömrələməni bundan başla:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "Buraya _köçür"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "Buraya _kopyala"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "Burada _keçid yarat"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "İ_mtina"
 
 msgid "Add Places Entry"
 msgstr "Giriş nöqtəsi daxil edin"
@@ -801,25 +801,25 @@ msgid "Label:"
 msgstr "Yarlıq:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Qovluq seçin"
 
 msgid "Location:"
 msgstr "Yer:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Seçin…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Nişan adı:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Qovluq seçin"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Əlavə et"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Saxla"
 
 msgid "View Display Style"
 msgstr "Baxış rejimi"
@@ -834,7 +834,7 @@ msgid "Details"
 msgstr "Ətraflı"
 
 msgid "Columns"
-msgstr ""
+msgstr "Sütunlar"
 
 msgid "View mode:"
 msgstr "Baxış rejimi:"
@@ -849,19 +849,19 @@ msgid "Descending"
 msgstr "Azalan"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Əvvəlcə _qovluqları göstər"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Gizli faylları _sonda göstər"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "_Önbaxışları göstər"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "_Qruplarla göstər"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "_Gizli faylları göstər"
 
 msgid "Apply to"
 msgstr "Tətbiq etmək"
@@ -870,17 +870,17 @@ msgid "Current folder"
 msgstr "Cari qovluğa"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Bütün alt qovluqlarla birlikdə cari qovluq"
 
 msgid "All folders"
 msgstr "Bütün qovluqlara"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "dəyişdirilib %s"
 
 msgid "Folder Already Exists"
 msgstr "Qovluq Artıq Mövcuddur"
@@ -890,35 +890,35 @@ msgstr "Fayl Artıq Mövcuddur"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” adlı qovluq artıq “%s” daxilində var."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” adlı fayl artıq “%s” daxilində var."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Mövcud element"
 
 msgid "New item"
-msgstr ""
+msgstr "Yeni element"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "Yeni ad _təklif et"
 
 msgid "New name:"
-msgstr ""
+msgstr "Yeni ad:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "_Hamısına tətbiq et"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Ötür"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "İçinə _yaz"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Üzərinə yaz"
 
 msgid "Skip"
 msgstr "Ötürmək"
@@ -933,198 +933,198 @@ msgid "Choose an Icon"
 msgstr "Nişanı seçin"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Nişan axtar…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "_Şəkil faylı…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_Standart nişan"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Şəkil seçin"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Şəbəkə yerləri üçün gvfs lazımdır. gvfs paketini (və Windows paylaşımları üçün gvfs-smb, NFS üçün gvfs-nfs) quraşdırın, sonra sistemdən çıxıb yenidən daxil olun."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Bu yer qovluq deyil."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Bu yer etibarsızdır."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Bu qovluq arxivdə yoxdur."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s kiçik fayl"
+msgstr[1] "%s kiçik fayl"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(başqa disk, sayılmadı)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Məzmunun bir hissəsi oxuna bilmədi."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "Fayllarda %s"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "Diskdə %s"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s fayl və %s qovluq"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Oxunur… %s fayl və %s qovluqda %s"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Dayandırıldı."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Bu qovluq oxuna bilmədi."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, %.1f saniyəyə oxundu"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s qovluq oxuna bilmədi."
+msgstr[1] ". %s qovluq oxuna bilmədi."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Yalnız bu kompüterdəki qovluqlar ölçülə bilər."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "bir dəqiqədən az əvvəl oxunub"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dəqiqə əvvəl oxunub"
+msgstr[1] "%d dəqiqə əvvəl oxunub"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d saat əvvəl oxunub"
+msgstr[1] "%d saat əvvəl oxunub"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Yenidən oxumaq üçün təkrar skan edin."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Görünən ölçü"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Faylların diskdə tutduğu yer əvəzinə ölçülərini topla."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "Bu diskdə _qal"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Bu qovluğun içinə qoşulmuş digər diskləri (məs. başqa diskdəki musiqi qovluğu) sayma. Keçidlər heç vaxt izlənmir."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Təkrar skan et"
 
 msgid "Stop"
 msgstr "Dayanırmaq"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Disk istifadəsini bağla"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Təkrar skan et"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Dayandır"
 
 msgid "Share"
 msgstr "Paylaşmaq"
 
 msgid "Files"
-msgstr ""
+msgstr "Fayllar"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Disk istifadəsi – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” artıq mövcuddur. Əvəz edilsin?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "Bu fayllardan %zu ədədi artıq mövcuddur. Əvəz edilsin?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Saxladığınız proqram mövcud məzmunun üzərinə yazacaq."
 
 msgid "Replace"
 msgstr "Əvəz etmək"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Saxlamaq üçün qovluq seçin."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Qovluq seç"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Faylları aç"
 
 msgid "Open File"
-msgstr ""
+msgstr "Faylı aç"
 
 msgid "Save File"
-msgstr ""
+msgstr "Faylı saxla"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Faylları saxla"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Qovluq:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Ad:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Növ:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Seç"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Aç"
 
 msgid "New Folder"
 msgstr "Yeni qovluq"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Bu yerdə yeni qovluq yarat:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Yarat"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Qovluq yaradıla bilmədi."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu element seçilib"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Məzmun:"
 
 msgid "Size:"
 msgstr "Ölçü:"
@@ -1136,10 +1136,10 @@ msgid "Folder"
 msgstr "Qovluq"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Ehtiva edir:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Sayılır…"
 
 msgid "Unknown"
 msgstr "Naməlum"
@@ -1169,75 +1169,75 @@ msgid "Dimensions:"
 msgstr "Ölçülər:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Qırıq keçid"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (keçid)"
 
 msgid "other drive"
-msgstr ""
+msgstr "başqa disk"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s qalıb"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Fayl əməliyyatları gedir"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Alt qovluq yoxdur"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Verilmiş faylları öz qovluqlarında seç"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Pəncərəni bölünmüş görünüşdə aç"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Həmişə yeni pəncərə aç"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "FileManager1 D-Bus xidməti üçün arxa planda işləməyə davam et"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Terminaldan ayrıl (yer verilməsə cari qovluğu açır)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "xdg-desktop-portal üçün fayl seçicini işə sal (D-Bus tərəfindən başladılır)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Versiyanı göstər"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[FAYL və ya QOVLUQ…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "İnzibatçı kimi işləyir: bu pəncərədəki dəyişikliklər sistemə zərər verə bilər."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Bu pəncərə bağlansın?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Bu pəncərədə %zu vərəqə açıqdır. Onu bağlamaq hamısını bağlayır."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Pəncərəni bağla"
 
 msgid "Configure Toolbars…"
-msgstr ""
+msgstr "Alətlər panellərini ayarla…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Alətlər _panelini göstər"
 
 msgid "Split"
 msgstr "İkili panel"
@@ -1252,79 +1252,79 @@ msgid "Show in Groups"
 msgstr "Çeşidləmə qaydasına görə qruplaşdırmaq"
 
 msgid "_File"
-msgstr ""
+msgstr "_Fayl"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Yeni _pəncərə"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Yeni _vərəqə"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "Vərəqəni _bağla"
 
 msgid "Create _New"
-msgstr ""
+msgstr "_Yeni yarat"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Adını dəyiş…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "Burada _dublikat et"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "_Səbətə at"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Sil"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Səbətdən bərpa et"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Xüsusiyyətlər"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Çıx"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Düzəliş"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Geri qaytar"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Təkrarla"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Kəs"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Kopyala"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Yapışdır"
 
 msgid "Filter…"
 msgstr "Süzgəc…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Axtar…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "_Hamısını seç"
 
 msgid "_View"
-msgstr ""
+msgstr "_Görünüş"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Böyüt"
 
 msgid "Reset Zoom Level"
 msgstr "Miqyası sıfırlamaq"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Kiçilt"
 
 msgid "Show Additional Information"
 msgstr "Əlavə məlumatları göstərmək"
@@ -1333,16 +1333,16 @@ msgid "Show Previews"
 msgstr "Miniatürləri göstərmək"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "Standartları bərpa et"
 
 msgid "Adjust View Display Style…"
 msgstr "Görünüş tərzini tənzimləmək…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Yenidən yüklə"
 
 msgid "Panels"
-msgstr ""
+msgstr "Panellər"
 
 msgid "Information"
 msgstr "Məlumat"
@@ -1351,175 +1351,175 @@ msgid "Location Bar"
 msgstr "Ünvan sətri"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "_Menyu panelini göstər"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "_Vəziyyət panelini göstər"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Keç"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Geri"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_İrəli"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Yuxarı"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Ev"
 
 msgid "Recently Closed Tabs"
 msgstr "Son bağlanan vərəqlər"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Alətlər"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "_Terminal aç"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Terminalı _burada aç"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Disk istifadəsi…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Ayarlar"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Alətlər _panellərini ayarla…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga-nı _ayarla…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Son bağlanmış vərəqə yoxdur"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(İnzibatçı)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "%zu qovluq yeni vərəqələrdə açılsın?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Qovluqları aç"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "“%s” açıla bilmədi."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Terminal açıla bilmədi."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Yeni mətn faylı.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Yeni fayl"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Səbət boşaldılsın?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Səbətdəki bütün elementlər həmişəlik silinəcək. Bu geri qaytarıla bilməz."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "%zu terminal açılsın?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Terminalları aç"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Bu yerdə yeni fayl yarat:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Fayl yaradıla bilmədi."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Fayla və ya qovluğa keçid"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Keçid veriləcək faylın və ya qovluğun yolu:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Keçid yaradıla bilmədi."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s həmişəlik silinsin?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Bu geri qaytarıla bilməz."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s səbətə atılsın?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "“%s” işə salına bilmədi."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s başladıla bilmədi."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Tətbiq başladıla bilmədi."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” icra edilə bilən fayldır."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Onu işə salmaq, yoxsa tətbiqdə açmaq istəyirsiniz?"
 
 msgid "Run"
-msgstr ""
+msgstr "İşə sal"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "%s (%s) açmaq üçün tətbiq seçin:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Tövsiyə olunan tətbiqlər"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Digər tətbiqlər"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Və ya əmr:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Bu fayl növü üçün tətbiq əlaqəsini yadda saxla"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s / %s boşdur"
 
 msgid "Safely Remove"
 msgstr "Təhlükəsiz ayırmaq"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Bölmələri ayarla"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "İşarələnmiş bölmələr yerlər panelində bu ardıcıllıqla göstərilir."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Yuxarı köçür"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Aşağı köçür"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Cihaz qoşula bilmədi: %s"
 
 msgid "Mount"
 msgstr "Qoş"
@@ -1546,31 +1546,31 @@ msgid "Add Entry…"
 msgstr "Giriş əlavə edin…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Bölmələri ayarla…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Gizli qeydləri gizlət"
 
 msgid "Show All Entries"
 msgstr "Bütün girişləri göstərin"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Səbətdəki bütün elementlər həmişəlik silinəcək."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Cihaz təhlükəsiz çıxarıla bilmədi: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Cihaz ayrıla bilmədi: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "_Sistem şriftindən istifadə et"
 
 msgid "Label font:"
 msgstr "Yarlıq şrifti:"
@@ -1582,74 +1582,74 @@ msgid "Preview icon size:"
 msgstr "Miniatür ikon ölçüsü:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Kontekst menyusu əməli"
 
 msgid "Name:"
 msgstr "Ad:"
 
 msgid "Command:"
-msgstr ""
+msgstr "Əmr:"
 
 msgid "File names:"
-msgstr ""
+msgstr "Fayl adları:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Növlər:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f ilk fayl, %F bütün fayllar, %u / %U URI kimi, %n / %N adlar, %d cari qovluq."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "_Fayllar üçün göstər"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "_Qovluqlar üçün göstər"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "_Bir neçə element seçiləndə göstər"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "_Terminalda işə sal"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Fərdi əməllər"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Fayl və qovluqların kontekst menyusu üçün öz qeydləriniz."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Əlavə et…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Düzəliş et…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Sil"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Qısayollar <Control>c və ya <Shift>Delete kimi yazılır. Bir neçəsini vergüllə ayırın. Standart üçün sahəni boş saxlayın."
 
 msgid "no file"
-msgstr ""
+msgstr "fayl yoxdur"
 
 msgid "files of any size"
-msgstr ""
+msgstr "istənilən ölçüdə fayllar"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB-dan kiçik fayllar"
 
 msgid "Search…"
 msgstr "Axtarış…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "Standartları _bərpa et"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Tətbiq et"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Qovluqlar və vərəqələr"
 
 msgid "Show on startup:"
 msgstr "Başladıqda göstərmək:"
@@ -1658,7 +1658,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "Qovluqlar, vərəqlər, və pəncərələrin sonuncu dəfəki vəziyyəti"
 
 msgid "This location:"
-msgstr ""
+msgstr "Bu yer:"
 
 msgid "Use Current Location"
 msgstr "Cari yolu seçmək"
@@ -1670,7 +1670,7 @@ msgid "Opening Folders:"
 msgstr "Qovluqlar açılır:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Tək Beluga pəncərəsi saxla və yeni qovluqları vərəqələrdə aç"
 
 msgid "Window:"
 msgstr "Pəncərə:"
@@ -1682,25 +1682,25 @@ msgid "Show filter bar"
 msgstr "Filtr panelini göstərmək"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Vərəqələr:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "Vərəqə panelini həmişə göstər"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "Vərəqələrdə bağlama düyməsini göstər"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "Vərəqə üslubu:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "Vərəqə eni qovluq adına uyğunlaşır"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "Bütün vərəqələrin eyni sabit eni var"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Sabit enli vərəqələr sığmayanda hamısı eyni dərəcədə daralır."
 
 msgid "Open new tabs:"
 msgstr "Yeni Vərəqlərdə açmaq: "
@@ -1715,75 +1715,75 @@ msgid "Split view:"
 msgstr "Bölünmə görünüşü:"
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "Bölünmüş görünüş bağlananda"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "Aktiv paneli bağla"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "Qeyri-aktiv paneli bağla"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "Sağ paneli bağla"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "Yeni pəncərələri bölünmüş görünüş rejimində aç"
 
 msgid "Terminal:"
 msgstr "Terminal:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Terminal tapılmadı"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Aşkarlandı: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "F4 və «Terminalı burada aç» tərəfindən istifadə olunur. Əmrdəki %d qovluqla əvəz olunur; əks halda terminal həmin qovluqda başlayır. Bu əvvəllər KDE sistem ayarı idi."
 
 msgid "Previews"
 msgstr "Miniatür"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Yeni qovluqlar:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Yeni qovluqlarda _önbaxışları göstər"
 
 msgid "Show previews in the view for:"
 msgstr "Öncədən baxışı bu halda göstərmək:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Audio (üz qabığı şəkilləri)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF sənədləri"
 
 msgid "Text files"
-msgstr ""
+msgstr "Mətn faylları"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Şriftlər"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Ofis sənədləri"
 
 msgid "Local storage:"
-msgstr ""
+msgstr "Yerli yaddaş:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "Önbaxışları bunlar üçün göstər"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "Uzaq yaddaş:"
 
 msgid "Confirmations"
 msgstr "Təsdiq etmə"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Bu hallarda təsdiq istə:"
 
 msgid "Moving files or folders to trash"
 msgstr "Faylları və qovluqları səbətə atmaq"
@@ -1795,10 +1795,10 @@ msgid "Deleting files or folders"
 msgstr "Faylları və qovluqları silmək"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "Faylın adını dəyişmək onun növünü dəyişəcək"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Beluga-da bu hallarda təsdiq istə:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Bir neçə vərəq açıq olan pəncərəni bağlayarkən"
@@ -1810,7 +1810,7 @@ msgid "Opening many terminals at once"
 msgstr "Çoxsaylı terminalların eyni vaxtda açılması"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "İnzibatçı kimi işləməyə keçid"
 
 msgid "When opening an executable file:"
 msgstr "İcra faylını açarkən"
@@ -1825,7 +1825,7 @@ msgid "Run script"
 msgstr "Əmrlər faylını başlatmaq"
 
 msgid "Information Panel:"
-msgstr ""
+msgstr "Məlumat paneli:"
 
 msgid "Show previews"
 msgstr "Miniatürləri göstərmək"
@@ -1837,46 +1837,46 @@ msgid "Show item on hover"
 msgstr "Üzərində olduqda lementi göstər"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "_Uzun tarix formatından istifadə et"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Qovluqlar paneli:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Ev qovluğunun içində olanda onunla məhdudlaşdır"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "_Gizli qovluqları göstər"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Cari qovluğa _avtomatik sürüşdür"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Yerlər paneli:"
 
 msgid "Icon size:"
 msgstr "İkonun ölçüsü:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Vəziyyət və yer panelləri"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "Vəziyyət paneli:"
 
 msgid "Small"
 msgstr "Kiçik"
 
 msgid "Full width"
-msgstr ""
+msgstr "Tam en"
 
 msgid "Disabled"
-msgstr ""
+msgstr "Söndürülüb"
 
 msgid "Show zoom slider"
 msgstr "Miqyas çubuğunu göstərmək"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "_Boş yeri göstər"
 
 msgid "Location bar:"
 msgstr "Ünvan sətri:"
@@ -1903,46 +1903,46 @@ msgid "Remember display style for each folder"
 msgstr "Hər qovluq üçün fərdi baxış rejimini yadda saxlamaq"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Hər halda, Görünüş › Bu qovluq üçün görünüşü yadda saxla bir qovluğa öz üslubunu verir. Axtarış, son fayllar və ya səbət kimi bəzi xüsusi görünüşlər yenə öz üslublarından istifadə edir."
 
 msgid "Browsing:"
 msgstr "Naviqasiya: "
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "Sıxılmış faylları qovluq kimi göstər"
 
 msgid "Open folders during drag operations"
 msgstr "Daşınan zaman qovluğu açmaq"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Fayl və qovluqları bir kliklə aç"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Ani axtarış üçün ev qovluğunun _indeksini saxla"
 
 msgid "Miscellaneous:"
 msgstr "Müxtəlif: "
 
 msgid "Show item information on hover"
-msgstr ""
+msgstr "Üzərinə gələndə element məlumatını göstər"
 
 msgid "Show selection marker"
 msgstr "Seçim markerini göstərmək"
 
 msgid "Rename single items inline"
-msgstr ""
+msgstr "Tək elementlərin adını yerində dəyiş"
 
 msgid "Also hide backup files while hiding hidden files"
-msgstr ""
+msgstr "Gizli fayllar gizlədiləndə ehtiyat faylları da gizlət"
 
 msgid "Background:"
-msgstr ""
+msgstr "Arxa fon:"
 
 msgid "Double-click triggers"
-msgstr ""
+msgstr "İkiqat klik edir"
 
 msgid "Nothing"
-msgstr ""
+msgstr "Heç nə"
 
 msgid "Go Up"
 msgstr "Aşağı get"
@@ -1963,49 +1963,49 @@ msgid "Alphabetical, case sensitive"
 msgstr "Əlifba sırası ilə,Böyük/kiçik hərfə həssas"
 
 msgid "Folder size:"
-msgstr ""
+msgstr "Qovluq ölçüsü:"
 
 msgid "Show number of items"
-msgstr ""
+msgstr "Element sayını göstər"
 
 msgid "Show size of contents, up to "
-msgstr ""
+msgstr "Məzmunun ölçüsünü göstər, ən çox "
 
 msgid "Show no size"
-msgstr ""
+msgstr "Ölçü göstərmə"
 
 msgid "levels deep"
-msgstr ""
+msgstr "səviyyə dərinlik"
 
 msgid "Date style:"
 msgstr "Tarix forması:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Nisbi (Bu gün, Dünən…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Mütləq"
 
 msgid "Permissions style:"
 msgstr "Giriş icazələri tərzi:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Simvolik (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Rəqəmli (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Birləşdirilmiş"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "Uzun fayl adları:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Ortada qısalt"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Sonda qısalt"
 
 msgid "Label width:"
 msgstr "Yarlıq eni:"
@@ -2026,7 +2026,7 @@ msgid "Unlimited"
 msgstr "Limitsiz"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Aralıq:"
 
 msgid "Maximum width:"
 msgstr "Maksimum en:"
@@ -2047,156 +2047,156 @@ msgid "By clicking on icon or name"
 msgstr "Nişanın adına və ya adına vurmaqla"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Disk istifadəsi:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Disk _istifadəsi sütununu göstər"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Hər faylın və hər bütöv qovluğun diskdə tutduğu yer, qovluqdakı payını göstərən zolaqla, Alətlər › Disk istifadəsi kimi. Qovluqlar arxa planda tam oxunur; ən böyükləri əvvəl görmək üçün bu sütuna görə sıralayın. Disk istifadəsi pəncərəsindəki \"Bu diskdə qal\" burada da keçərlidir."
 
 msgid "View"
 msgstr "Görünüş"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Kontekst menyusunda göstər"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'Bura kopyala' və 'Bura köçür'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Sil (Səbətə at-dan əlavə)"
 
 msgid "Context Menu"
 msgstr "Kontekst menyu"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Təmizləmə:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Bundan köhnə faylları sil:"
 
 msgid "days"
-msgstr ""
+msgstr "gün"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Məhdudlaşdır:"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "diskin faizi"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Səbəti ev qovluğunun diskində saxla"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Başqa disklərdən səbətə atılan fayllar ev qovluğundakı səbətə kopyalanır, buna görə həmin disklərdə .Trash-1000 qovluğu yaranmır. Böyük faylları səbətə atmaq onda daha çox vaxt aparır."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Dolu səbət:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Həddə çatanda:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Xəbərdarlıq göstər"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Ən köhnə elementləri sil"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Ən böyük elementləri sil"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Bunlar əvvəllər KDE sistem ayarları idi. Hədlər Beluga başlayanda və elementlər səbətə atıldıqdan sonra tətbiq edilir."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Səbətin ölçüsü hesablanır…"
 
 msgid "Trash:"
 msgstr "Səbət:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Səbət hazırda %s tutur."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "Səbəti indi _boşalt"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim rejimi"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim rejimi:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Görünüşlərdə Vim üslublu düymələrdən istifadə et"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Normal rejim h j k l ilə hərəkət edir və aşağıdakı düymələri icra edir; v, V və Ctrl+V seçir; i və a adını dəyişir (daxiletmə rejimi); Esc normal rejimə qaytarır; : əmr sətrini açır. Burada sadalanmayan Ctrl və ya Alt düymələri adi mənasını saxlayır."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Aparıcı düymə:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "Aşağıdakı düymələrdə <leader>, məs. <Space> və ya ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Əlavə düymələri gözlə:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (d-dən sonra dd, g-dən sonra gg)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Düymələr"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim yazılışı, bir neçəsi boşluqla ayrılır: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Standart üçün sahəni boş saxlayın."
 
 msgid "Command line"
-msgstr ""
+msgstr "Əmr sətri"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q pəncərəni bağlayır (:q! vərəqələri soruşmadan), :qa Beluga-dan çıxır, :e və ya :cd YOL qovluq açır, :tabnew [YOL], :tabclose, :tabonly, :sp və ya :vs [YOL] görünüşü bölür, :only digər görünüşü bağlayır, :mkdir AD, :touch AD, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ƏMR qovluqda qabıq əmri işə salır."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klaviatura qısayolları"
 
 msgid "Details:"
 msgstr "Təfərrüfatlar:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Yalnız bu kompüterdəki fayllar oxuna bilər."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga FFmpeg olmadan yığılıb."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Oxunur…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Təfərrüat tapılmadı."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Qovluq nişanını dəyiş"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Nişan dəyişdirilə bilmədi."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu element"
 
 msgid "Calculating…"
 msgstr "Hesablanır…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Standart tətbiq yoxdur"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Dəyiş…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Bununla açılır:"
 
 msgid "Free space:"
 msgstr "Boş sahə:"
@@ -2215,13 +2215,13 @@ msgid "Forbidden"
 msgstr "Əlçatan deyil"
 
 msgid "Can View"
-msgstr ""
+msgstr "Baxa bilər"
 
 msgid "Can View & Modify"
 msgstr "Baxmaq və Dəyişmək olar"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Məzmuna baxa bilər"
 
 msgid "Can View & Modify Content"
 msgstr "Tərkiblərə baxa və dəyişdirə bilərsiniz"
@@ -2230,10 +2230,10 @@ msgid "Others:"
 msgstr "Digəriləri:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "_İcra edilə bilər"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Dəyişiklikləri bütün _alt qovluqlara və onların məzmununa tətbiq et"
 
 msgid "User:"
 msgstr "İstifadəçi:"
@@ -2245,22 +2245,22 @@ msgid "Calculate"
 msgstr "Hesablayın"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Fayl oxuna bilmədi."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Müqayisə üçün yoxlama cəmini yapışdırın"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Yoxla:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Yoxlama cəmləri uyğundur."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Hesablanmış yoxlama cəmlərindən heç biri uyğun gəlmir. Əvvəlcə uyğun növü hesablayın."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "İcazələr dəyişdirilə bilmədi."
 
 #, c-format
 msgid "Properties for %s"
@@ -2273,43 +2273,43 @@ msgid "Filter:"
 msgstr "Süzgəc:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Ada görə süzgəc (*.txt kimi şablonlar işləyir)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Qovluq dəyişəndə süzgəci saxla"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Bu qovluqda"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Fayllarınızda"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "Hər yerdə"
 
 msgid "File Names"
-msgstr ""
+msgstr "Fayl adları"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "Fayl adları və məzmunu"
 
 msgid "Any Time"
-msgstr ""
+msgstr "İstənilən vaxt"
 
 msgid "Today"
 msgstr "Bu gün"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Son 7 gün"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Son 30 gün"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Son il"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Gizli fayllar"
 
 msgid "Zoom:"
 msgstr "Miqyas:"
@@ -2322,7 +2322,7 @@ msgid "%s free"
 msgstr "%s boş"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Vərəqənin dublikatı"
 
 msgid "Detach Tab"
 msgstr "Vərəqi ayırmaq"
@@ -2337,31 +2337,31 @@ msgid "--- separator ---"
 msgstr "--- ayırıcı ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Siyahıda yer panelindən yuxarıdakı əməllər onun solunda, qalanları sağında olur. * standart alətlər panelinin qoyduğu yerdə olmayan əməlləri işarələyir."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_Mövcud əməllər:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Alətlər panelinə əlavə et"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Alətlər panelindən sil"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Yuxarı köçür (alətlər panelində sola)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Aşağı köçür (alətlər panelində sağa)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "_Cari əməllər:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Standartlar"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Sütunları göstər"
 
 #, c-format
 msgid "Size: %s"
@@ -2369,11 +2369,11 @@ msgstr "Ölçü: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Dəyişdirilib: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "İlkin yer: %s"
 
 msgid "Yesterday"
 msgstr "Dünən"
@@ -2400,19 +2400,19 @@ msgid "Big"
 msgstr "Böyük"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB-dan az"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB – 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB – 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB və ya çox"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Hələ sayılmayıb"
 
 msgid "Searching…"
 msgstr "Axtarılır…"
@@ -2421,7 +2421,7 @@ msgid "No items matching the filter"
 msgstr "Filtrə uyğun elementlər yoxdur"
 
 msgid "No items found"
-msgstr ""
+msgstr "Element tapılmadı"
 
 msgid "Trash is empty"
 msgstr "Səbət boşdur"
@@ -2430,38 +2430,38 @@ msgid "Folder is empty"
 msgstr "Qovluqlar boşdur"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Fayl adı “/” ehtiva edə bilməz."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "“%s” adının “%s” olaraq dəyişdirilməsi onun genişlənməsini dəyişir. Fayl başqa tətbiqdə açıla və ya heç açılmaya bilər."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Seçim rejimi: faylları və ya qovluqları seçmək və ya seçimi ləğv etmək üçün üzərinə klikləyin."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "Seçim rejimindən _çıx"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Dublikat et"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Sil"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Xüsusiyyətlər"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "“%s” qovluğu artıq mövcud deyil."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "“%s” seçildi (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s seçildi"
 
 msgid "Loading folder…"
 msgstr "Qovluq açılır…"
@@ -2469,87 +2469,87 @@ msgstr "Qovluq açılır…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d seçildi"
+msgstr[1] "%d seçildi"
 
 msgid "Move left"
-msgstr ""
+msgstr "Sola"
 
 msgid "Move down"
-msgstr ""
+msgstr "Aşağı"
 
 msgid "Move up"
-msgstr ""
+msgstr "Yuxarı"
 
 msgid "Move right"
-msgstr ""
+msgstr "Sağa"
 
 msgid "First item"
-msgstr ""
+msgstr "İlk element"
 
 msgid "Last item"
-msgstr ""
+msgstr "Son element"
 
 msgid "Page down"
-msgstr ""
+msgstr "Səhifə aşağı"
 
 msgid "Page up"
-msgstr ""
+msgstr "Səhifə yuxarı"
 
 msgid "Parent folder"
 msgstr "Ana Qovluq"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Kursorun keçdiyi elementləri seç (vizual)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Shift kimi aralıq seç (vizual sətir)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Şəbəkədən blok seç (vizual blok)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Normal rejimə qayıt"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Kursorun altındakı elementi kopyala"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Adını dəyiş, kursor əvvəldə (daxil et)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Adını dəyiş, kursor addan sonra (əlavə et)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Adını dəyiş, ad seçilib (dəyiş)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Yerə düzəliş et"
 
 msgid "Copied."
-msgstr ""
+msgstr "Kopyalandı."
 
 msgid "Cut."
-msgstr ""
+msgstr "Kəsildi."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "“%s” açıla bilmir."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Ad lazımdır."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Naməlum görünüş: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Naməlum seçim: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "name, size, date və ya type üzrə sıralayın."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Əmr deyil: %s"

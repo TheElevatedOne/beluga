@@ -18,95 +18,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Arkivi s’u hap dot."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Arkivi s’u lexua dot."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "U anulua."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Kartela është e fshehtëzuar me fjalëkalim."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "S’u lexua dot “%s”."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Kjo s’është kartelë brenda një arkivi."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Përftoje këtu"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Ngjeshe si .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "S’u gjet emulues terminali."
 
 msgid "Root"
-msgstr ""
+msgstr "Rrënjë"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Vëllim %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Kjo pajisje s’mund të montohet."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Kjo pajisje s’mund të çmontohet."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Pajisja s’ekziston më."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Po kopjohet %s te “%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Po lëvizet %s te “%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Po krijohet lidhje për %s te “%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Po kalohet %s te koshi"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Po fshihet %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Po rikthehet %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Po zbrazet koshi"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Po numërohen kartelat…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Një dosje s’mund të lëvizet brenda vetes."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Një dosje s’mund të kopjohet brenda vetes."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Kartelat mund të përftohen vetëm në dosje vendore."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Po përftohet nga “%s”"
 
 msgid "Title:"
 msgstr "Titulli:"
@@ -115,7 +115,7 @@ msgid "Artist:"
 msgstr "Artistit:"
 
 msgid "Album artist:"
-msgstr ""
+msgstr "Artist albumi:"
 
 msgid "Album:"
 msgstr "Albumit:"
@@ -124,7 +124,7 @@ msgid "Track:"
 msgstr "Këngës:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Disk:"
 
 msgid "Date:"
 msgstr "Datë:"
@@ -133,16 +133,16 @@ msgid "Genre:"
 msgstr "Zhanrit:"
 
 msgid "Composer:"
-msgstr ""
+msgstr "Kompozitor:"
 
 msgid "Performer:"
-msgstr ""
+msgstr "Interpretues:"
 
 msgid "Publisher:"
 msgstr "Botuesi:"
 
 msgid "Copyright:"
-msgstr ""
+msgstr "Të drejta kopjimi:"
 
 msgid "Comment:"
 msgstr "Koment:"
@@ -151,75 +151,75 @@ msgid "Description:"
 msgstr "Përshkrim:"
 
 msgid "Language:"
-msgstr ""
+msgstr "Gjuhë:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Zgjatjes:"
 
 msgid "Format:"
-msgstr ""
+msgstr "Format:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Shpejtësi bitesh:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Kopertinë:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "Video:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "stereo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanale"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bit"
 
 msgid "Audio:"
 msgstr "Skedat e zërit:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Audio %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Titra:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Kapituj:"
 
 msgid "Places"
 msgstr "Vendet"
@@ -267,7 +267,7 @@ msgid "Recent Files"
 msgstr "Skeda Së Fundi"
 
 msgid "Images"
-msgstr ""
+msgstr "Figura"
 
 msgid "Audio"
 msgstr "Skedat e zërit"
@@ -276,37 +276,37 @@ msgid "Folders"
 msgstr "Skedarët"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arkiva"
 
 msgid "All Files"
 msgstr "Të Gjithë Skedat"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Kërko për “%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "S’u gjet emulues terminali. Caktoni një te Formësoni Beluga-n › Të përgjithshme › Terminal."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Ky sistem kartelash s’ka kosh."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "S’u krijua dot kartela e hollësive të koshit."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” ekziston tashmë."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Koshi është më i madh se kufiri prej %s. Shihni mundësinë ta zbrazni."
 
 msgid "Copy"
 msgstr "Kopjo"
 
 msgid "Move"
-msgstr ""
+msgstr "Lëvize"
 
 msgid "Link"
 msgstr "Lidhje"
@@ -321,39 +321,39 @@ msgid "Create Folder"
 msgstr "Krijo Kartelë"
 
 msgid "Create File"
-msgstr ""
+msgstr "Krijo kartelë"
 
 msgid "Undo"
 msgstr "Zhbëje"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Zhbëj: %s"
 
 msgid "Redo"
 msgstr "Ribëj"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Ribëj: %s"
 
 #, c-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d objekt"
+msgstr[1] "%d objekte"
 
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kartelë"
+msgstr[1] "%d kartela"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dosje"
+msgstr[1] "%d dosje"
 
 #, c-format
 msgid "%s, %s"
@@ -361,26 +361,26 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Sot më %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Dje më %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A më %H:%M"
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld min %ld s"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld h %ld min"
 
 #, c-format
 msgid "%s copy"
@@ -388,7 +388,7 @@ msgstr "%s kopje"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s kopje %d"
 
 msgid "Name"
 msgstr "Emri"
@@ -397,7 +397,7 @@ msgid "Size"
 msgstr "Madhësia"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Përdorim disku"
 
 msgid "Modified"
 msgstr "Data e ndryshimit"
@@ -412,7 +412,7 @@ msgid "Type"
 msgstr "Llojit"
 
 msgid "Extension"
-msgstr ""
+msgstr "Zgjatim"
 
 msgid "Permissions"
 msgstr "Të drejtat"
@@ -433,28 +433,28 @@ msgid "Deletion Time"
 msgstr "Ora e fshirjes"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Vendndodhje origjinale"
 
 msgid "Dimensions"
 msgstr "Dimenzioneve"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga s’veproi dot si përgjegjës."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "Që të kërkohet fjalëkalimi i përgjegjësit, duhet pkexec (polkit). Instaloni polkit dhe një agjent polkit për desktopin tuaj."
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "Rreziqet e Veprimit si Përgjegjës"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Një dritare Beluga me të drejta përgjegjësi mund të ndryshojë dhe fshijë çdo kartelë në këtë kompjuter, përfshi ato që i duhen sistemit për t’u nisur. Një gabim atje mund ta bëjë sistemin të papërdorshëm. Përdoreni vetëm për kartela që s’mund t’i ndryshoni ndryshe dhe mbylleni kur të keni mbaruar.\n\nMë pas Beluga do të kërkojë fjalëkalimin e përgjegjësit."
 
 msgid "Cancel"
 msgstr "Anulo"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "I Kuptoj dhe i Pranoj Këto Rreziqe"
 
 msgid "New Window"
 msgstr "Dritare e Re"
@@ -466,7 +466,7 @@ msgid "Close Tab"
 msgstr "Mbylle Tabelën"
 
 msgid "Undo Close Tab"
-msgstr ""
+msgstr "Zhbëj Mbylljen e Skedës"
 
 msgid "Quit"
 msgstr "Dil"
@@ -505,10 +505,10 @@ msgid "Invert Selection"
 msgstr "Ndërro Zgjedhjen"
 
 msgid "Copy to Other View"
-msgstr ""
+msgstr "Kopjoje te Pamja Tjetër"
 
 msgid "Move to Other View"
-msgstr ""
+msgstr "Lëvize te Pamja Tjetër"
 
 msgid "Icons View"
 msgstr "Pamje si Ikona"
@@ -520,7 +520,7 @@ msgid "Details View"
 msgstr "Pamje Hollësish"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Pamje me shtylla"
 
 msgid "Zoom In"
 msgstr "Zoom In"
@@ -529,7 +529,7 @@ msgid "Zoom Out"
 msgstr "Zoom Out"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Riktheje zmadhimin"
 
 msgid "Show Hidden Files"
 msgstr "Shfaq Skedat e Fshehura"
@@ -541,13 +541,13 @@ msgid "Split View"
 msgstr "Ndaje pamjen"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "Fokus te Pamja Tjetër"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Shkëput pamjen e ndarë"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Pamje e Ndarë në Skeda"
 
 msgid "Reload"
 msgstr "Ringarko"
@@ -559,19 +559,19 @@ msgid "Replace Location"
 msgstr "Zëvendëso Vendndodhjen"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Panel vendesh"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Panel Dosjesh"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "Panel Hollësish"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Panel përdorimi disku"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "Fokus te Paneli i Vendeve"
 
 msgid "Show Menubar"
 msgstr "Trego Menunë"
@@ -589,40 +589,40 @@ msgid "Up"
 msgstr "Lart"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Shko te skeda 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Shko te skeda 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Shko te skeda 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Shko te skeda 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Shko te skeda 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Shko te skeda 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Shko te skeda 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Shko te skeda 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Shko te skeda 9"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "Shko te Skeda e Fundit"
 
 msgid "Next Tab"
-msgstr ""
+msgstr "Skeda Pasuese"
 
 msgid "Previous Tab"
-msgstr ""
+msgstr "Skeda e Mëparshme"
 
 msgid "Open Terminal"
 msgstr "Hap Terminalin"
@@ -634,29 +634,29 @@ msgid "Configure Toolbars"
 msgstr "Formësoni Panele"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Formësoni Beluga-n"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Zhbërja dështoi."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Dosje…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Kartelë tekst…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Kartelë e zbrazët…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Lidhje për te kartelë ose dosje…"
 
 msgid "Create New"
 msgstr "Krijo të ri"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Pamja tjetër (%s)"
 
 msgid "Browse…"
 msgstr "Shfletoni…"
@@ -696,16 +696,16 @@ msgid "View Mode"
 msgstr "Mënyra e Shfaqjes"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Mbaj mend pamjen për këtë dosje"
 
 msgid "Restore"
-msgstr ""
+msgstr "Riktheje"
 
 msgid "Open in New Tab"
 msgstr "Hape Në Një Tabelë Të Re"
 
 msgid "Open in New Tabs"
-msgstr ""
+msgstr "Hape në Skeda të Reja"
 
 msgid "Open in New Window"
 msgstr "Hape në Një Dritare të Re"
@@ -714,13 +714,13 @@ msgid "Open in Split View"
 msgstr "Hap në pamje të ndarë"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Hape në Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Hap Dosjen Që e Përmban"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Ngjite në dosje"
 
 msgid "Rename…"
 msgstr "Riemërto…"
@@ -732,65 +732,65 @@ msgid "Close"
 msgstr "Mbylle"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Anuloje"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Emri s’mund të përmbajë “/”."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Një emër që fillon me pikë është i fshehur."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Disa objekte s’u riemërtuan dot."
 
 msgid "Rename Item"
 msgstr "Riemërtoni Objekt"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Riemërtoje “%s” si:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Riemërtoje"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "S’u riemërtua dot “%s”."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Të ndryshohet lloji i kartelës?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Riemërtimi i “%s” si “%s” ndryshon zgjatimin e saj."
 
 msgid "Rename Items"
 msgstr "Riemërtoni Objekte"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Riemërto %zu objektet e përzgjedhur si:"
 
 msgid "New name #"
 msgstr "Emër i ri #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# zëvendësohet me numra në rritje; përdorni ## për zero paraprijëse. Zgjatimet mbahen."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Fillo numërimin nga:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Lëvize këtu"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Kopjoje këtu"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Lidhe këtu"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "_Anuloje"
 
 msgid "Add Places Entry"
 msgstr "Shtoni Zë Vendesh"
@@ -802,25 +802,28 @@ msgid "Label:"
 msgstr "Etiketë:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Zgjidhni një dosje"
 
 msgid "Location:"
 msgstr "Vendndodhje:"
 
+msgid "C_hoose…"
+msgstr "_Zgjidhni…"
+
 msgid "Icon name:"
-msgstr ""
+msgstr "Emër ikone:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Zgjidhni një dosje"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Shtoje"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Ruaje"
 
 msgid "View Display Style"
-msgstr ""
+msgstr "Stil Shfaqjeje Pamjeje"
 
 msgid "Icons"
 msgstr "Ikonat"
@@ -847,38 +850,38 @@ msgid "Descending"
 msgstr "Në zbritje"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Shfaq së pari _dosjet"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Shfaq kartelat e fshehura në _fund"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Shfaq _paraparje"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Shfaq në _grupe"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Shfaq kartela të _fshehura"
 
 msgid "Apply to"
-msgstr ""
+msgstr "Zbatoje për"
 
 msgid "Current folder"
 msgstr "Dosja e tanishme"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Dosja e tanishme me krejt nëndosjet"
 
 msgid "All folders"
 msgstr "Të gjithë skedarët"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "ndryshuar më %s"
 
 msgid "Folder Already Exists"
 msgstr "Dosja Ekziston Tashmë"
@@ -888,35 +891,35 @@ msgstr "Skeda ekziston që më parë"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Një dosje me emrin “%s” ekziston tashmë te “%s”."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Një kartelë me emrin “%s” ekziston tashmë te “%s”."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Objekt ekzistues"
 
 msgid "New item"
-msgstr ""
+msgstr "Objekt i ri"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Sugjero emër të ri"
 
 msgid "New name:"
-msgstr ""
+msgstr "Emër i ri:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Zbatoje për _krejt"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Anashkaloje"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Shkruaj brenda"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Mbishkruaje"
 
 msgid "Skip"
 msgstr "Anashkaloje"
@@ -927,107 +930,125 @@ msgstr "Anashkaloji Krejt"
 msgid "Retry"
 msgstr "Riprovoni"
 
+msgid "Choose an Icon"
+msgstr "Zgjidhni një ikonë"
+
+msgid "Search icons…"
+msgstr "Kërkoni ikona…"
+
+msgid "_Image File…"
+msgstr "Kartelë _figure…"
+
+msgid "_Default Icon"
+msgstr "Ikonë _parazgjedhje"
+
+msgid "Choose an Image"
+msgstr "Zgjidhni një figurë"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Vendet në rrjet lypin gvfs. Instaloni paketën gvfs (dhe gvfs-smb për ndarje Windows, gvfs-nfs për NFS), mandej dilni dhe rihyni."
+
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Kjo vendndodhje s’është dosje."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Kjo vendndodhje s’është e vlefshme."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Kjo dosje s’gjendet në arkiv."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s kartelë më e vogël"
+msgstr[1] "%s kartela më të vogla"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(tjetër disk, s’u numërua)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Një pjesë e lëndës s’u lexua dot."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s në kartela"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s në disk"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s kartela dhe %s dosje"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Po lexohet… %s në %s kartela dhe %s dosje"
 
 msgid "Stopped."
-msgstr ""
+msgstr "U ndal."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Kjo dosje s’u lexua dot."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, lexuar për %.1f s"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s dosje s’u lexua dot."
+msgstr[1] ". %s dosje s’u lexuan dot."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Mund të maten vetëm dosje në këtë kompjuter."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "lexuar më pak se një minutë më parë"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "lexuar %d minutë më parë"
+msgstr[1] "lexuar %d minuta më parë"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "lexuar %d orë më parë"
+msgstr[1] "lexuar %d orë më parë"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Riskanojeni që të rilexohet."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "Madhësi e _dukshme"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Mblidh madhësitë e kartelave, në vend të hapësirës që zënë në disk."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Qëndro në këtë disk"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Mos numëro disqe të tjerë të montuar brenda kësaj dosjeje (fjala vjen, një dosje muzike në tjetër disk). Lidhjet s’ndiqen kurrë."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Riskanoje"
 
 msgid "Stop"
 msgstr "Ndalo"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Mbyll përdorimin e diskut"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Riskanoje"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Ndale"
 
 msgid "Share"
 msgstr "Ndajeni me të tjerë"
@@ -1037,74 +1058,74 @@ msgstr "File"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Përdorim disku – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” ekziston tashmë. Të zëvendësohet?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu nga këto kartela ekzistojnë tashmë. Të zëvendësohen?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Programi prej të cilit po ruani do të mbishkruajë lëndën ekzistuese."
 
 msgid "Replace"
 msgstr "Zëvendëso"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Zgjidhni një dosje ku të ruhet."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Përzgjidhni dosje"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Hapni kartela"
 
 msgid "Open File"
-msgstr ""
+msgstr "Hapni kartelë"
 
 msgid "Save File"
-msgstr ""
+msgstr "Ruani kartelë"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Ruani kartela"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Dosje:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Emër:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Lloj:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Përzgjidhe"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Hape"
 
 msgid "New Folder"
 msgstr "Skedar e Re"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Krijo dosje të re te:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Krijoje"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Dosja s’u krijua dot."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu objekte të përzgjedhur"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Lëndë:"
 
 msgid "Size:"
 msgstr "Madhësi:"
@@ -1113,13 +1134,13 @@ msgid "Type:"
 msgstr "Lloj:"
 
 msgid "Folder"
-msgstr ""
+msgstr "Dosje"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Përmban:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Po numërohet…"
 
 msgid "Unknown"
 msgstr "I panjohur"
@@ -1149,75 +1170,75 @@ msgid "Dimensions:"
 msgstr "Dimenzioneve:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Lidhje e dëmtuar"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (lidhje)"
 
 msgid "other drive"
-msgstr ""
+msgstr "tjetër disk"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s nga %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "Edhe %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d nga %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Veprime me kartela në kryerje e sipër"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "S’ka nëndosje"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Përzgjidh kartelat e dhëna te dosjet e tyre"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Hape dritaren në pamje të ndarë"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Hap përherë dritare të re"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Vazhdo xhirimin në prapaskenë për shërbimin D-Bus FileManager1"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Shkëputu nga terminali (pa vendndodhje: hap dosjen e tanishme)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Xhiro zgjedhësin e kartelave për xdg-desktop-portal (nisur nga D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Shfaq versionin"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[KARTELË ose DOSJE…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Po veprohet si përgjegjës: ndryshimet në këtë dritare mund të dëmtojnë sistemin."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Të mbyllet kjo dritare?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Kjo dritare ka %zu skeda të hapura. Mbyllja e saj i mbyll krejt."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Mbylle dritaren"
 
 msgid "Configure Toolbars…"
-msgstr ""
+msgstr "Formësoni Panele Mjetesh…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Shfaq _panel mjetesh"
 
 msgid "Split"
 msgstr "Ndaj"
@@ -1232,79 +1253,79 @@ msgid "Show in Groups"
 msgstr "Shfaq në grupe"
 
 msgid "_File"
-msgstr ""
+msgstr "_Kartelë"
 
 msgid "New _Window"
-msgstr ""
+msgstr "_Dritare e re"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "_Skedë e re"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Mbylle skedën"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Krijo të _re"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Riemërtoje…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Përsëdyte këtu"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Shpjere te _koshi"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Fshije"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Riktheje prej koshi"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Veti"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Dil"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Përpunim"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Zhbëje"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Ribëje"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Prije"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Kopjoje"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Ngjite"
 
 msgid "Filter…"
 msgstr "Filtri…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Kërko…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Përzgjidhi _krejt"
 
 msgid "_View"
-msgstr ""
+msgstr "_Pamje"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "_Zmadhoje"
 
 msgid "Reset Zoom Level"
-msgstr ""
+msgstr "Riktheje Shkallën e Zmadhimit"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "Z_vogëloje"
 
 msgid "Show Additional Information"
 msgstr "Shfaq të dhëna shtesë"
@@ -1313,13 +1334,13 @@ msgid "Show Previews"
 msgstr "Shfaq parapamjet"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "Riktheji Parazgjedhjet"
 
 msgid "Adjust View Display Style…"
-msgstr ""
+msgstr "Përimtoni Stil Shfaqjeje Pamjeje…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Ringarkoje"
 
 msgid "Panels"
 msgstr "Panelet"
@@ -1328,166 +1349,178 @@ msgid "Information"
 msgstr "Informacioni"
 
 msgid "Location Bar"
-msgstr ""
+msgstr "Shtyllë Vendndodhjeje"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Shfaq shtyllë _menush"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Shfaq shtyllë _gjendjeje"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Shko"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Mbrapsht"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Përpara"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Sipër"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Shtëpi"
 
 msgid "Recently Closed Tabs"
 msgstr "Tabelat e Mbyllura së Fundmi"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Mjete"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Hap _terminal"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Hap terminal _këtu"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Përdorim disku…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Rregullime"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Formësoni _panele mjetesh…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Formësoni Beluga-n…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "S’ka skeda të mbyllura së fundi"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Përgjegjës)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Të hapen %zu dosje në skeda të reja?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Hap dosje"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "S’u hap dot “%s”."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "S’u hap dot një terminal."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Kartelë e re tekst.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Kartelë e re"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Të zbrazet koshi?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Krejt objektet në kosh do të fshihen përgjithmonë. Kjo s’mund të zhbëhet."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Të hapen %zu terminale?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Hap terminale"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Krijo kartelë të re te:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Kartela s’u krijua dot."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Lidhje për te kartelë ose dosje"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Shteg i kartelës ose dosjes për lidhje:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Lidhja s’u krijua dot."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Të fshihet përgjithmonë %s?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Kjo s’mund të zhbëhet."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Të shpihet %s te koshi?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "S’u xhirua dot “%s”."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "S’u nis dot %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "S’u nis dot aplikacioni."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” është kartelë e ekzekutueshme."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Doni ta xhironi, apo ta hapni me një aplikacion?"
 
 msgid "Run"
-msgstr ""
+msgstr "Xhiroje"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Zgjidhni aplikacionin për hapje të %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Aplikacione të Rekomanduar"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Aplikacione të Tjerë"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Ose urdhër:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Mbaj mend shoqërimin me aplikacion për këtë lloj kartele"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s të lira nga %s"
 
 msgid "Safely Remove"
 msgstr "Hiqe Pa Rrezik"
 
+msgid "Configure Sections"
+msgstr "Formësoni pjesë"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Pjesët e shënuara shfaqen te paneli i vendeve në këtë radhë."
+
+msgid "Move Up"
+msgstr "Ngrije sipër"
+
+msgid "Move Down"
+msgstr "Ule poshtë"
+
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "S’u montua dot pajisja: %s"
 
 msgid "Mount"
 msgstr "Montoje"
@@ -1502,7 +1535,7 @@ msgid "Remove"
 msgstr "Hiqe"
 
 msgid "Show"
-msgstr ""
+msgstr "Shfaq"
 
 msgid "Hide"
 msgstr "Fshihe"
@@ -1513,117 +1546,120 @@ msgstr "Fshihe Ndarjen"
 msgid "Add Entry…"
 msgstr "Shtoni Zë…"
 
+msgid "Configure Sections…"
+msgstr "Formësoni pjesë…"
+
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Fshih zëra të fshehur"
 
 msgid "Show All Entries"
 msgstr "Shfaq Krejt Zërat"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Krejt objektet në kosh do të fshihen përgjithmonë."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "S’u hoq dot në mënyrë të parrezik pajisja: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "S’u çmontua dot pajisja: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Përdor shkronjat e _sistemit"
 
 msgid "Label font:"
-msgstr ""
+msgstr "Shkronja etikete:"
 
 msgid "Default icon size:"
-msgstr ""
+msgstr "Madhësi parazgjedhje ikonash:"
 
 msgid "Preview icon size:"
-msgstr ""
+msgstr "Madhësi ikonash paraparjeje:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Veprim menuje kontekstuale"
 
 msgid "Name:"
 msgstr "Emër:"
 
 msgid "Command:"
-msgstr ""
+msgstr "Urdhër:"
 
 msgid "File names:"
 msgstr "Emrat e skedave:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Lloje:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f kartela e parë, %F krejt kartelat, %u / %U si URI, %n / %N emra, %d dosja e tanishme."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Shfaqe për _kartela"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Shfaqe për _dosje"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Shfaqe kur janë përzgjedhur _disa objekte"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Xhiroje në _terminal"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Veprime vetjake"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Zëra tuajt për menunë kontekstuale të kartelave dhe dosjeve."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Shtoni…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Përpunoni…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Hiqe"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Shkurtoret shkruhen si <Control>c ose <Shift>Delete. Ndani disa me presje. Lëreni fushën të zbrazët për parazgjedhjen."
 
 msgid "no file"
-msgstr ""
+msgstr "pa kartelë"
 
 msgid "files of any size"
-msgstr ""
+msgstr "kartela të çfarëdo madhësie"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "kartela nën %d MiB"
 
 msgid "Search…"
-msgstr ""
+msgstr "Kërko…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Riktheji parazgjedhjet"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Zbatoje"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Dosje & Skeda"
 
 msgid "Show on startup:"
 msgstr "Shfaq në nisje:"
 
 msgid "Folders, tabs, and window state from last time"
-msgstr ""
+msgstr "Dosje, skeda dhe gjendje dritareje nga hera e fundit"
 
 msgid "This location:"
-msgstr ""
+msgstr "Kjo vendndodhje:"
 
 msgid "Use Current Location"
 msgstr "Përdor Vendndodhjen e Tanishme"
@@ -1632,123 +1668,123 @@ msgid "Use Default Location"
 msgstr "Përdor Vendndodhjen e Parazgjedhur"
 
 msgid "Opening Folders:"
-msgstr ""
+msgstr "Hapje Dosjesh:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Mbaj një dritare Beluga dhe hap dosjet e reja në skeda"
 
 msgid "Window:"
-msgstr ""
+msgstr "Dritare:"
 
 msgid "Show full path in title bar"
-msgstr ""
+msgstr "Shfaq shteg të plotë te shtylla e titullit"
 
 msgid "Show filter bar"
 msgstr "Shfaq Shiritin e Filtrit"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Skeda:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "Shfaq përherë shtyllë skedash"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "Shfaq buton mbylljeje në skeda"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "Stil skedash:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "Gjerësia e skedës përshtatet me emrin e dosjes"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "Krejt skedat kanë të njëjtën gjerësi fikse"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Skedat me gjerësi fikse ngushtohen, të gjitha njëlloj, kur s’nxë vendi."
 
 msgid "Open new tabs:"
-msgstr ""
+msgstr "Hap skeda të reja:"
 
 msgid "After current tab"
-msgstr ""
+msgstr "Pas skedës së tanishme"
 
 msgid "At end of tab bar"
-msgstr ""
+msgstr "Në fund të shtyllës së skedave"
 
 msgid "Split view:"
 msgstr "Ndaje pamjen: "
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "Kur mbyllet një pamje e ndarë"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "Mbyll panelin aktiv"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "Mbyll panelin joaktiv"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "Mbyll panelin e djathtë"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "Hap dritare të reja në mënyrën pamje e ndarë"
 
 msgid "Terminal:"
 msgstr "Terminali:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "S’u gjet terminal"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "U pikas: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Përdoret nga F4 dhe Hap terminal këtu. %d te urdhri zëvendësohet me dosjen; përndryshe terminali niset në të. Kjo ishte më parë rregullim sistemi KDE."
 
 msgid "Previews"
 msgstr "Parapamjet"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Dosje të reja:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Shfaq _paraparje në dosje të reja"
 
 msgid "Show previews in the view for:"
-msgstr ""
+msgstr "Shfaq paraparje te pamja për:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Audio (kopertina)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Dokumente PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "Kartela tekst"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Shkronja"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Dokumente zyre"
 
 msgid "Local storage:"
-msgstr ""
+msgstr "Depozitë vendore:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "Shfaq paraparje për"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "Depozitë e largët:"
 
 msgid "Confirmations"
 msgstr "Konfirmimet"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Kërko ripohim kur:"
 
 msgid "Moving files or folders to trash"
 msgstr "Hedhi skedat dhe skedarët në kosh"
@@ -1757,28 +1793,28 @@ msgid "Emptying trash"
 msgstr "Duke zbrazur koshin"
 
 msgid "Deleting files or folders"
-msgstr ""
+msgstr "Fshirje kartelash ose dosjesh"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "Riemërtimi i një kartele do të ndryshojë llojin e saj"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Kërko ripohim në Beluga kur:"
 
 msgid "Closing windows with multiple tabs"
-msgstr ""
+msgstr "Mbyllje dritaresh me shumë skeda"
 
 msgid "Opening many folders at once"
-msgstr ""
+msgstr "Hapje e shumë dosjeve njëherësh"
 
 msgid "Opening many terminals at once"
-msgstr ""
+msgstr "Hapje e shumë terminaleve njëherësh"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "Kalim te veprimi si përgjegjës"
 
 msgid "When opening an executable file:"
-msgstr ""
+msgstr "Kur hapet një kartelë e ekzekutueshme:"
 
 msgid "Always ask"
 msgstr "Pyet gjithmonë"
@@ -1787,10 +1823,10 @@ msgid "Open in application"
 msgstr "Hap në program"
 
 msgid "Run script"
-msgstr ""
+msgstr "Xhiro programth"
 
 msgid "Information Panel:"
-msgstr ""
+msgstr "Panel Hollësish:"
 
 msgid "Show previews"
 msgstr "Shfaq parapamjet"
@@ -1802,37 +1838,37 @@ msgid "Show item on hover"
 msgstr "Shfaq artikullin kur pezullon mbi"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Përdor format të _gjatë datash"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Panel Dosjesh:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Kufizoje te drejtoria shtëpi, kur gjendeni brenda saj"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Shfaq dosje të _fshehura"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Rrëshqit _automatikisht te dosja e tanishme"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Panel vendesh:"
 
 msgid "Icon size:"
 msgstr "Madhësia e ikonës:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Shtylla gjendjeje dhe vendndodhjeje"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "Shtyllë Gjendjeje:"
 
 msgid "Small"
 msgstr "E vogël"
 
 msgid "Full width"
-msgstr ""
+msgstr "Me gjerësi të plotë"
 
 msgid "Disabled"
 msgstr "Çaktivizuar"
@@ -1841,79 +1877,79 @@ msgid "Show zoom slider"
 msgstr "Shfaq rrëshqitësin e zmadhimit"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Shfaq hapësirën e _lirë"
 
 msgid "Location bar:"
-msgstr ""
+msgstr "Shtyllë vendndodhjeje:"
 
 msgid "Make location bar editable"
 msgstr "Bëj shiritin e vendndodhjes të redaktueshëm"
 
 msgid "Show full path inside location bar"
-msgstr ""
+msgstr "Shfaq shteg të plotë brenda shtyllës së vendndodhjes"
 
 msgid "Interface"
-msgstr ""
+msgstr "Ndërfaqe"
 
 msgid "General"
 msgstr "Të përgjithshme"
 
 msgid "Display style:"
-msgstr ""
+msgstr "Stil shfaqjeje:"
 
 msgid "Use common display style for all folders"
-msgstr ""
+msgstr "Përdor stil të përbashkët shfaqjeje për krejt dosjet"
 
 msgid "Remember display style for each folder"
-msgstr ""
+msgstr "Mbaj mend stil shfaqjeje për çdo dosje"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Sido qoftë, Pamje › Mbaj mend pamjen për këtë dosje i jep një dosjeje stilin e vet. Disa pamje speciale, si kërkimi, kartelat së fundi ose koshi, përdorin ende stilin e tyre."
 
 msgid "Browsing:"
-msgstr ""
+msgstr "Shfletim:"
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "Shfleto kartela të ngjeshura si dosje"
 
 msgid "Open folders during drag operations"
 msgstr "Hap dosjet gjatë veprimit të zvarritjes"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Hap kartela dhe dosje me një klikim"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Mbaj një _tregues të dosjes shtëpi për kërkim të menjëhershëm"
 
 msgid "Miscellaneous:"
 msgstr "Të ndryshme:"
 
 msgid "Show item information on hover"
-msgstr ""
+msgstr "Shfaq hollësi objekti, kur i kalohet kursori përsipër"
 
 msgid "Show selection marker"
-msgstr ""
+msgstr "Shfaq shenjë përzgjedhjeje"
 
 msgid "Rename single items inline"
-msgstr ""
+msgstr "Riemërto aty për aty objekte njëshe"
 
 msgid "Also hide backup files while hiding hidden files"
-msgstr ""
+msgstr "Fshih edhe kartela kopjeruajtjesh, kur fshihen kartela të fshehura"
 
 msgid "Background:"
-msgstr ""
+msgstr "Sfond:"
 
 msgid "Double-click triggers"
-msgstr ""
+msgstr "Dyklikimi shkakton"
 
 msgid "Nothing"
-msgstr ""
+msgstr "Asgjë"
 
 msgid "Go Up"
-msgstr ""
+msgstr "Ngjitu Sipër"
 
 msgid "Content Display"
-msgstr ""
+msgstr "Shfaqje Lënde"
 
 msgid "Sorting mode:"
 msgstr "Mënyra e rradhitjes: "
@@ -1928,52 +1964,52 @@ msgid "Alphabetical, case sensitive"
 msgstr "Sipas alfabetit, duke marrë parasysh madhësinë e germave"
 
 msgid "Folder size:"
-msgstr ""
+msgstr "Madhësi dosjeje:"
 
 msgid "Show number of items"
-msgstr ""
+msgstr "Shfaq numër objektesh"
 
 msgid "Show size of contents, up to "
-msgstr ""
+msgstr "Shfaq madhësi lënde, deri në "
 
 msgid "Show no size"
-msgstr ""
+msgstr "Mos shfaq madhësi"
 
 msgid "levels deep"
-msgstr ""
+msgstr "nivele thellë"
 
 msgid "Date style:"
-msgstr ""
+msgstr "Stil datash:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relative (Sot, Dje…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Absolute"
 
 msgid "Permissions style:"
-msgstr ""
+msgstr "Stil lejesh:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Simbolike (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numerike (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Të ndërthurura"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "Emra të gjatë kartelash:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Shkurtoje në mes"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Shkurtoje në fund"
 
 msgid "Label width:"
-msgstr ""
+msgstr "Gjerësi etikete:"
 
 msgid "Medium"
 msgstr "Mesatare"
@@ -1985,145 +2021,208 @@ msgid "Huge"
 msgstr "Shumë e Madhe"
 
 msgid "Maximum lines:"
-msgstr ""
+msgstr "Numër maksimum rreshtash:"
 
 msgid "Unlimited"
 msgstr "E pa kufizuar"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Hapësirë:"
 
 msgid "Maximum width:"
-msgstr ""
+msgstr "Gjerësi maksimum:"
 
 msgid "Folders:"
 msgstr "Skedarët:"
 
 msgid "Expandable"
-msgstr ""
+msgstr "E zgjerueshme"
 
 msgid "Open files and folders:"
 msgstr "Hap skeda dhe skedarë:"
 
 msgid "By clicking anywhere on the row"
-msgstr ""
+msgstr "Duke klikuar kudo mbi rresht"
 
 msgid "By clicking on icon or name"
-msgstr ""
+msgstr "Duke klikuar mbi ikonë ose emër"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Përdorim disku:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Shfaq shtyllë _përdorimi disku"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Hapësira që zë në disk çdo kartelë dhe çdo dosje e plotë, me një shtyllë për pjesën e saj në dosje, si te Mjete › Përdorim disku. Dosjet lexohen plotësisht në prapaskenë; renditni sipas shtyllës që të shihni të parat më të mëdhatë. \"Qëndro në këtë disk\" nga dritarja e përdorimit të diskut vlen edhe këtu."
 
 msgid "View"
 msgstr "Shfaq"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Shfaqe në menunë kontekstuale"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'Kopjoje te' dhe 'Shpjere te'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Fshije (përveç Shpjere te koshi)"
 
 msgid "Context Menu"
 msgstr "Menya e kontekstit"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Spastrim:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Fshi kartela më të vjetra se"
 
 msgid "days"
-msgstr ""
+msgstr "ditë"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Kufizoje në"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "përqind e diskut"
+
+msgid "Keep the trash on the home drive"
+msgstr "Mbaje koshin në diskun e dosjes shtëpi"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Kartelat e shpëna në kosh nga disqe të tjerë kopjohen te koshi në dosjen shtëpi, ndaj ata disqe s’marrin dosje .Trash-1000. Shpënia e kartelave të mëdha në kosh zgjat atëherë më tepër."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Kosh plot:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Kur mbërrihet kufiri:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Shfaq një sinjalizim"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Fshi objektet më të vjetër"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Fshi objektet më të mëdhenj"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Këto ishin më parë rregullime sistemi KDE. Kufijtë zbatohen kur niset Beluga dhe pasi shpihen objekte në kosh."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Po llogaritet madhësia e koshit…"
 
 msgid "Trash:"
 msgstr "Koshi:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Koshi tani zë %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Zbraze koshin tani"
+
+msgid "Vim Mode"
+msgstr "Mënyra Vim"
+
+msgid "Vim mode:"
+msgstr "Mënyra Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Përdor taste në stil Vim te pamjet"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Mënyra normale lëviz me h j k l dhe xhiron tastet më poshtë; v, V dhe Ctrl+V përzgjedhin; i dhe a riemërtojnë (mënyra futje); Esc kthehet te mënyra normale; : hap rreshtin e urdhrave. Tastet Ctrl ose Alt që s’janë radhitur këtu mbajnë kuptimin e zakonshëm."
+
+msgid "Leader key:"
+msgstr "Tast prijës:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> te tastet më poshtë, p.sh. <Space> ose ,"
+
+msgid "Wait for more keys:"
+msgstr "Prit për më tepër taste:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd pas d, gg pas g)"
+
+msgid "Keys"
+msgstr "Taste"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Shënim Vim, disa të ndarë me hapësira: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lëreni fushën të zbrazët për parazgjedhjen."
+
+msgid "Command line"
+msgstr "Rreshti i komandës"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q mbyll dritaren (:q! pa pyetur për skedat), :qa del nga Beluga, :e ose :cd SHTEG hap një dosje, :tabnew [SHTEG], :tabclose, :tabonly, :sp ose :vs [SHTEG] ndajnë pamjen, :only mbyll pamjen tjetër, :mkdir EMËR, :touch EMËR, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!URDHËR xhiron një urdhër shelli në dosje."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Shkurtore tastiere"
+
+msgid "Details:"
+msgstr "Hollësi:"
+
+msgid "Only files on this computer can be read."
+msgstr "Mund të lexohen vetëm kartela në këtë kompjuter."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga u montua pa FFmpeg."
+
+msgid "Reading…"
+msgstr "Po lexohet…"
+
+msgid "No details found."
+msgstr "S’u gjetën hollësi."
+
+msgid "Change the folder's icon"
+msgstr "Ndryshoni ikonë dosjeje"
+
+msgid "Could not change the icon."
+msgstr "Ikona s’u ndryshua dot."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu objekte"
 
 msgid "Calculating…"
 msgstr "Po llogaritet…"
 
 msgid "No default application"
-msgstr ""
+msgstr "S’ka aplikacion parazgjedhje"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Ndryshojeni…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Hapet me:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "Hapësirë e lirë:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s të lira nga %s (%d%% të përdorura)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu bajt"
+msgstr[1] "%llu bajte"
 
 msgid "Forbidden"
 msgstr "Ndalohet"
 
 msgid "Can View"
-msgstr ""
+msgstr "Mund të shohë"
 
 msgid "Can View & Modify"
 msgstr "Mund të Shohë  Ndryshojë"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Mund të shohë lëndën"
 
 msgid "Can View & Modify Content"
 msgstr "Mundet të Shohë  Ndryshojë Lëndë"
@@ -2132,37 +2231,37 @@ msgid "Others:"
 msgstr "Të tjerë:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "Është e _ekzekutueshme"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Zbatoji ndryshimet te krejt _nëndosjet dhe lënda e tyre"
 
 msgid "User:"
 msgstr "Përdorues:"
 
 msgid "Mode:"
-msgstr ""
+msgstr "Mënyrë:"
 
 msgid "Calculate"
 msgstr "Llogarite"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Kartela s’u lexua dot."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Ngjitni një checksum për krahasim"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Verifikoje:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Checksum-et përputhen."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "S’përputhet ndonjë checksum i llogaritur. Llogaritni së pari llojin përgjegjës."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Lejet s’u ndryshuan dot."
 
 #, c-format
 msgid "Properties for %s"
@@ -2175,19 +2274,19 @@ msgid "Filter:"
 msgstr "Filtri:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Filtro sipas emri (funksionojnë shenja të gjithëpranuara si *.txt)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Mbaje filtrin kur ndryshohet dosja"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Në këtë dosje"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Te kartelat tuaja"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "Kudo"
 
 msgid "File Names"
 msgstr "Emrat e skedave"
@@ -2196,22 +2295,22 @@ msgid "File Names and Contents"
 msgstr "Emrat e skedave dhe përmbajtja"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Kurdo"
 
 msgid "Today"
 msgstr "Sot"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "7 ditët e fundit"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "30 ditët e fundit"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Viti i fundit"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Kartela të fshehura"
 
 msgid "Zoom:"
 msgstr "Zmadhimi:"
@@ -2224,10 +2323,10 @@ msgid "%s free"
 msgstr "%s të lirë"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Përsëdyte skedën"
 
 msgid "Detach Tab"
-msgstr ""
+msgstr "Shkëpute Skedën"
 
 msgid "Close Other Tabs"
 msgstr "Mbyll Fushat e Tjera"
@@ -2238,32 +2337,32 @@ msgstr "Menu"
 msgid "--- separator ---"
 msgstr "--- ndarës ---"
 
-msgid "Actions above the location bar in the list sit left of it, the others right of it."
-msgstr ""
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Veprimet mbi shtyllën e vendndodhjes te lista gjenden në të majtë të saj, të tjerat në të djathtë. * shënon veprime që s’janë aty ku i vë paneli parazgjedhje i mjeteve."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "Veprime të _gatshme:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Shtoje te paneli i mjeteve"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Hiqe nga paneli i mjeteve"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Ngrije sipër (majtas te paneli i mjeteve)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Ule poshtë (djathtas te paneli i mjeteve)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "Veprime të _tanishme:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Parazgjedhje"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Shfaq shtylla"
 
 #, c-format
 msgid "Size: %s"
@@ -2271,11 +2370,11 @@ msgstr "Madhësi: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Ndryshuar më: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Vendndodhje origjinale: %s"
 
 msgid "Yesterday"
 msgstr "Dje"
@@ -2302,25 +2401,25 @@ msgid "Big"
 msgstr "E Madhe"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Më pak se 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB deri në 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB deri në 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB ose më tepër"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Ende pa u numëruar"
 
 msgid "Searching…"
-msgstr ""
+msgstr "Po kërkohet…"
 
 msgid "No items matching the filter"
-msgstr ""
+msgstr "S’ka objekte që përputhen me filtrin"
 
 msgid "No items found"
 msgstr "Nuk u gjet asnjë element"
@@ -2332,44 +2431,126 @@ msgid "Folder is empty"
 msgstr "Skedari është i zbrazët"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Emri i një kartele s’mund të përmbajë “/”."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Riemërtimi i “%s” si “%s” ndryshon zgjatimin e saj. Kartela mund të hapet me tjetër aplikacion, ose s’hapet fare."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Mënyrë përzgjedhjeje: klikoni mbi kartela ose dosje që t’i përzgjidhni ose shpërzgjidhni."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Dil nga mënyra përzgjedhje"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Përsëdyte"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Fshije"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Veti"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Dosja “%s” s’ekziston më."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "U përzgjodh “%s” (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "U përzgjodhën %s"
 
 msgid "Loading folder…"
-msgstr ""
+msgstr "Po ngarkohet dosja…"
 
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "U përzgjodh %d"
+msgstr[1] "U përzgjodhën %d"
+
+msgid "Move left"
+msgstr "Majtas"
+
+msgid "Move down"
+msgstr "Poshtë"
+
+msgid "Move up"
+msgstr "Sipër"
+
+msgid "Move right"
+msgstr "Djathtas"
+
+msgid "First item"
+msgstr "Objekti i parë"
+
+msgid "Last item"
+msgstr "Objekti i fundit"
+
+msgid "Page down"
+msgstr "Faqe poshtë"
+
+msgid "Page up"
+msgstr "Faqe sipër"
+
+msgid "Parent folder"
+msgstr "Skedar Mëmë"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Përzgjidh objektet që përshkon kursori (pamore)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Përzgjidh një interval, si me Shift (rresht pamor)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Përzgjidh një bllok nga rrjeta (bllok pamor)"
+
+msgid "Back to normal mode"
+msgstr "Kthehu te mënyra normale"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopjo objektin nën kursor"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Riemërtoje, kursori në fillim (futje)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Riemërtoje, kursori pas emrit (shtim)"
+
+msgid "Rename, name selected (change)"
+msgstr "Riemërtoje, emri i përzgjedhur (ndryshim)"
+
+msgid "Edit the location"
+msgstr "Përpunoni vendndodhjen"
+
+msgid "Copied."
+msgstr "U kopjua."
+
+msgid "Cut."
+msgstr "U pre."
+
+#, c-format
+msgid "Can't open “%s”."
+msgstr "S’hapet dot “%s”."
+
+msgid "A name is needed."
+msgstr "Lypset një emër."
+
+#, c-format
+msgid "Unknown view: %s"
+msgstr "Pamje e panjohur: %s"
+
+#, c-format
+msgid "Unknown option: %s"
+msgstr "Mundësi e panjohur: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Renditi sipas name, size, date ose type."
+
+#, c-format
+msgid "Not a command: %s"
+msgstr "S’është urdhër: %s"
