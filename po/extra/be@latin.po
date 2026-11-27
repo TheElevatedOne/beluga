@@ -1,0 +1,1696 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: be@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+msgid "The archive could not be opened."
+msgstr "Nie ŭdalosia adkryć archiŭ."
+
+msgid "The archive could not be read."
+msgstr "Nie ŭdalosia pračytać archiŭ."
+
+msgid "Cancelled."
+msgstr "Skasavana."
+
+msgid "This file is encrypted with a password."
+msgstr "Fajl zašyfravany parolem."
+
+msgid "“%s” could not be read."
+msgstr "Nie ŭdalosia pračytać «%s»."
+
+msgid "This is not a file in an archive."
+msgstr "Heta nie fajl u archivie."
+
+msgid "Extract Here"
+msgstr "Raspakavać siudy"
+
+msgid "Compress to .tar.gz"
+msgstr "Scisnuć u .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Emulatar terminala nie znojdzieny."
+
+msgid "Root"
+msgstr "Korań"
+
+msgid "%s Volume"
+msgstr "Tom %s"
+
+msgid "This device cannot be mounted."
+msgstr "Hetu pryladu niemahčyma prymantavać."
+
+msgid "This device cannot be unmounted."
+msgstr "Hetu pryladu niemahčyma admantavać."
+
+msgid "The device is gone."
+msgstr "Prylada boĺš nie isnuje."
+
+msgid "Copying %s to “%s”"
+msgstr "Kapiravannie %s u «%s»"
+
+msgid "Moving %s to “%s”"
+msgstr "Pieramiaščennie %s u «%s»"
+
+msgid "Linking %s in “%s”"
+msgstr "Stvarennie spasylki na %s u «%s»"
+
+msgid "Moving %s to the trash"
+msgstr "Pieramiaščennie %s u smietnicu"
+
+msgid "Deleting %s"
+msgstr "Vydalennie %s"
+
+msgid "Restoring %s"
+msgstr "Adnaŭlennie %s"
+
+msgid "Emptying the trash"
+msgstr "Ačystka smietnicy"
+
+msgid "Counting files…"
+msgstr "Padlik fajlaŭ…"
+
+msgid "“%s”: %s"
+msgstr "«%s»: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Kataloh niemahčyma pieramiascić u samoha siabie."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Kataloh niemahčyma skapiravać u samoha siabie."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Fajly možna raspakoŭvać toĺki ŭ lakaĺnyja katalohi."
+
+msgid "Extracting from “%s”"
+msgstr "Raspakoŭvannie z «%s»"
+
+msgid "Disc:"
+msgstr "Dysk:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "Farmat:"
+
+msgid "Bit rate:"
+msgstr "Bitrejt:"
+
+msgid "Cover:"
+msgstr "Vokladka:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f kadr/s"
+
+msgid ", %.3f fps"
+msgstr ", %.3f kadr/s"
+
+msgid "Video %d:"
+msgstr "Videa %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hc"
+
+msgid "mono"
+msgstr "mona"
+
+msgid "stereo"
+msgstr "sterea"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanaly"
+msgstr[2] "%d kanalaŭ"
+msgstr[3] "%d kanala"
+
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio %d:"
+msgstr "Aŭdyja %d:"
+
+msgid "Subtitles:"
+msgstr "Subcitry:"
+
+msgid "Chapters:"
+msgstr "Razdziely:"
+
+msgid "Images"
+msgstr "Vyjavy"
+
+msgid "Archives"
+msgstr "Archivy"
+
+msgid "Search for “%s”"
+msgstr "Šukać «%s»"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Emulatar terminala nie znojdzieny. Ukažycie jaho ŭ Naladzić Beluga › Ahuĺnyja › Terminal."
+
+msgid "This file system has no trash."
+msgstr "U hetaj fajlavaj sistemie niama smietnicy."
+
+msgid "Could not create the trash information file."
+msgstr "Nie ŭdalosia stvaryć infarmacyjny fajl smietnicy."
+
+msgid "“%s” already exists."
+msgstr "«%s» užo isnuje."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Smietnica boĺšaja za limit %s. Varta jaje ačyscić."
+
+msgid "Create File"
+msgstr "Stvaryć fajl"
+
+msgid "Undo: %s"
+msgstr "Adrabić: %s"
+
+msgid "Redo: %s"
+msgstr "Paŭtaryć: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d fajl"
+msgstr[1] "%d fajly"
+msgstr[2] "%d fajlaŭ"
+msgstr[3] "%d fajla"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d kataloh"
+msgstr[1] "%d katalohi"
+msgstr[2] "%d katalohaŭ"
+msgstr[3] "%d kataloha"
+
+msgid "Today at %s"
+msgstr "Sionnia ŭ %s"
+
+msgid "Yesterday at %s"
+msgstr "Učora ŭ %s"
+
+msgid "%A at %H:%M"
+msgstr "%A u %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld chv %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld chv"
+
+msgid "%s copy %d"
+msgstr "%s kopija %d"
+
+msgid "Disk Usage"
+msgstr "Vykarystannie dyska"
+
+msgid "Extension"
+msgstr "Pašyrennie"
+
+msgid "Original Location"
+msgstr "Zychodnaje razmiaščennie"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga nie zmahla dziejničać jak administratar."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Kab zapytać paroĺ administratara, patrebny pkexec (polkit). Ustalujcie polkit i ahient polkit dla vašaha pracoŭnaha asiaroddzia."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Akno Beluga z pravami administratara moža zmianiać i vydalać luby fajl na hetym kampjutary, u tym liku fajly, patrebnyja sistemie dla zahruzki. Pamylka tam moža zrabić sistemu nieprydatnaj da vykarystannia. Karystajciesia im toĺki dla fajlaŭ, jakija nieĺha zmianić inakš, i zakryvajcie pasla zaviaršennia.\n\nDalej Beluga zapytaje paroĺ administratara."
+
+msgid "Columns View"
+msgstr "Slupki"
+
+msgid "Reset Zoom"
+msgstr "Skinuć maštab"
+
+msgid "Pop out Split View"
+msgstr "Adlučyć padzieleny vyhlad"
+
+msgid "Places Panel"
+msgstr "Paneĺ razmiaščenniaŭ"
+
+msgid "Disk Usage Panel"
+msgstr "Paneĺ vykarystannia dyska"
+
+msgid "Go to Tab 1"
+msgstr "Pierajsci da ŭkladki 1"
+
+msgid "Go to Tab 2"
+msgstr "Pierajsci da ŭkladki 2"
+
+msgid "Go to Tab 3"
+msgstr "Pierajsci da ŭkladki 3"
+
+msgid "Go to Tab 4"
+msgstr "Pierajsci da ŭkladki 4"
+
+msgid "Go to Tab 5"
+msgstr "Pierajsci da ŭkladki 5"
+
+msgid "Go to Tab 6"
+msgstr "Pierajsci da ŭkladki 6"
+
+msgid "Go to Tab 7"
+msgstr "Pierajsci da ŭkladki 7"
+
+msgid "Go to Tab 8"
+msgstr "Pierajsci da ŭkladki 8"
+
+msgid "Go to Tab 9"
+msgstr "Pierajsci da ŭkladki 9"
+
+msgid "Configure Beluga"
+msgstr "Naladzić Beluga"
+
+msgid "Undo failed."
+msgstr "Nie ŭdalosia adrabić."
+
+msgid "Folder…"
+msgstr "Kataloh…"
+
+msgid "Text File…"
+msgstr "Tekstavy fajl…"
+
+msgid "Empty File…"
+msgstr "Pusty fajl…"
+
+msgid "Link to File or Folder…"
+msgstr "Spasylka na fajl abo kataloh…"
+
+msgid "Other View (%s)"
+msgstr "Inšy vyhlad (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Zapomnić vyhlad dla hetaha kataloha"
+
+msgid "Open in Beluga"
+msgstr "Adkryć u Beluga"
+
+msgid "Paste into Folder"
+msgstr "Ustavić u kataloh"
+
+msgid "_Cancel"
+msgstr "_Skasavać"
+
+msgid "The name cannot contain “/”."
+msgstr "Nazva nie moža ŭtrymlivać «/»."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Nazva, što pačynajecca z kropki, schavanaja."
+
+msgid "Some items could not be renamed."
+msgstr "Niekatorym elemientam nie ŭdalosia zmianić nazvu."
+
+msgid "Rename “%s” to:"
+msgstr "Novaja nazva dla «%s»:"
+
+msgid "_Rename"
+msgstr "_Zmianić nazvu"
+
+msgid "Could not rename “%s”."
+msgstr "Nie ŭdalosia zmianić nazvu «%s»."
+
+msgid "Change the file type?"
+msgstr "Zmianić typ fajla?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Zmiena nazvy «%s» na «%s» zmianiaje jaho pašyrennie."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Novaja nazva dla %zu vylučanych elemientaŭ:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# zamianiajecca numarami pa ŭzrastanni; ## dadaje nuli ŭ pačatku. Pašyrenni zachoŭvajucca."
+
+msgid "Start numbering at:"
+msgstr "Pačać numaracyju z:"
+
+msgid "_Move Here"
+msgstr "_Pieramiascić siudy"
+
+msgid "_Copy Here"
+msgstr "_Skapiravać siudy"
+
+msgid "_Link Here"
+msgstr "_Spasylka siudy"
+
+msgid "C_ancel"
+msgstr "_Skasavać"
+
+msgid "Choose a folder"
+msgstr "Vybierycie kataloh"
+
+msgid "C_hoose…"
+msgstr "_Vybrać…"
+
+msgid "Icon name:"
+msgstr "Nazva značka:"
+
+msgid "Choose a Folder"
+msgstr "Vybierycie kataloh"
+
+msgid "_Add"
+msgstr "_Dadać"
+
+msgid "_Save"
+msgstr "_Zachavać"
+
+msgid "Show _folders first"
+msgstr "Katalohi _spačatku"
+
+msgid "Show hidden files _last"
+msgstr "Schavanyja fajly ŭ _kancy"
+
+msgid "Show _previews"
+msgstr "Pakazvać _minijaciury"
+
+msgid "Show in _groups"
+msgstr "Pakazvać _hrupami"
+
+msgid "Show _hidden files"
+msgstr "Pakazvać s_chavanyja fajly"
+
+msgid "Current folder including all subfolders"
+msgstr "Biahučy kataloh z usimi padkatalohami"
+
+msgid "_OK"
+msgstr "_Dobra"
+
+msgid "modified %s"
+msgstr "zmieniena %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Kataloh z nazvaj «%s» užo isnuje ŭ «%s»."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Fajl z nazvaj «%s» užo isnuje ŭ «%s»."
+
+msgid "Existing item"
+msgstr "Isnujučy elemient"
+
+msgid "New item"
+msgstr "Novy elemient"
+
+msgid "_Suggest New Name"
+msgstr "_Prapanavać novuju nazvu"
+
+msgid "New name:"
+msgstr "Novaja nazva:"
+
+msgid "Apply to _all"
+msgstr "Užyć da _ŭsich"
+
+msgid "S_kip"
+msgstr "_Prapuscić"
+
+msgid "_Write Into"
+msgstr "_Zapisać unutr"
+
+msgid "_Overwrite"
+msgstr "_Pierazapisać"
+
+msgid "Search icons…"
+msgstr "Pošuk značkoŭ…"
+
+msgid "_Image File…"
+msgstr "_Fajl vyjavy…"
+
+msgid "_Default Icon"
+msgstr "_Pradvyznačany značok"
+
+msgid "Choose an Image"
+msgstr "Vybierycie vyjavu"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Sietkavym razmiaščenniam patrebny gvfs. Ustalujcie pakiet gvfs (i gvfs-smb dla resursaŭ Windows, gvfs-nfs dla NFS), potym vyjdzicie z sieansa i ŭvajdzicie znoŭ."
+
+msgid "This location is not a folder."
+msgstr "Heta razmiaščennie nie zjaŭlajecca kataloham."
+
+msgid "This location is not valid."
+msgstr "Heta razmiaščennie niapraviĺnaje."
+
+msgid "This folder is not in the archive."
+msgstr "Hetaha kataloha niama ŭ archivie."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s mienšy fajl"
+msgstr[1] "%s mienšyja fajly"
+msgstr[2] "%s mienšych fajlaŭ"
+msgstr[3] "%s mienšaha fajla"
+
+msgid "(another drive, not counted)"
+msgstr "(inšy dysk, nie ŭličana)"
+
+msgid "Some of its contents could not be read."
+msgstr "Častku zmiesciva nie ŭdalosia pračytać."
+
+msgid "%s in files"
+msgstr "%s u fajlach"
+
+msgid "%s on disk"
+msgstr "%s na dysku"
+
+msgid "%s files and %s folders"
+msgstr "%s fajlaŭ i %s katalohaŭ"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Čytannie… %s u %s fajlach i %s katalohach"
+
+msgid "Stopped."
+msgstr "Spyniena."
+
+msgid "This folder could not be read."
+msgstr "Nie ŭdalosia pračytać hety kataloh."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, pračytana za %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Nie ŭdalosia pračytać %s kataloh."
+msgstr[1] ". Nie ŭdalosia pračytać %s katalohi."
+msgstr[2] ". Nie ŭdalosia pračytać %s katalohaŭ."
+msgstr[3] ". Nie ŭdalosia pračytać %s kataloha."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Možna vymierać toĺki katalohi na hetym kampjutary."
+
+msgid "read less than a minute ago"
+msgstr "pračytana mienš za chvilinu tamu"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "pračytana %d chvilinu tamu"
+msgstr[1] "pračytana %d chviliny tamu"
+msgstr[2] "pračytana %d chvilin tamu"
+msgstr[3] "pračytana %d chviliny tamu"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "pračytana %d hadzinu tamu"
+msgstr[1] "pračytana %d hadziny tamu"
+msgstr[2] "pračytana %d hadzin tamu"
+msgstr[3] "pračytana %d hadziny tamu"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Praskanujcie znoŭ, kab pieračytać."
+
+msgid "_Apparent size"
+msgstr "_Bačny pamier"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Sumavać pamiery fajlaŭ zamiest miesca, jakoje jany zajmajuć na dysku."
+
+msgid "_Stay on this drive"
+msgstr "_Zastavacca na hetym dysku"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Nie ŭličvać inšyja dyski, prymantavanyja ŭnutry hetaha kataloha (napryklad, kataloh muzyki na inšym dysku). Pa spasylkach pierachod nie vykonvajecca."
+
+msgid "Rescan"
+msgstr "Praskanuvać znoŭ"
+
+msgid "Close Disk Usage"
+msgstr "Zakryć vykarystannie dyska"
+
+msgid "_Rescan"
+msgstr "_Praskanuvać znoŭ"
+
+msgid "S_top"
+msgstr "_Spynić"
+
+msgid "Disk Usage – %s"
+msgstr "Vykarystannie dyska – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "«%s» užo isnuje. Zamianić?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu z hetych fajlaŭ užo isnujuć. Zamianić ich?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Prahrama, z jakoj vy zachoŭvajecie, pierazapiša isnujučaje zmiesciva."
+
+msgid "Choose a folder to save in."
+msgstr "Vybierycie kataloh dla zachavannia."
+
+msgid "Select Folder"
+msgstr "Vybrać kataloh"
+
+msgid "Open Files"
+msgstr "Adkryć fajly"
+
+msgid "Open File"
+msgstr "Adkryć fajl"
+
+msgid "Save File"
+msgstr "Zachavać fajl"
+
+msgid "Save Files"
+msgstr "Zachavać fajly"
+
+msgid "_Folder:"
+msgstr "_Kataloh:"
+
+msgid "_Name:"
+msgstr "_Nazva:"
+
+msgid "_Type:"
+msgstr "_Typ:"
+
+msgid "_Select"
+msgstr "_Vybrać"
+
+msgid "_Open"
+msgstr "_Adkryć"
+
+msgid "Create new folder in:\n%s"
+msgstr "Stvaryć novy kataloh u:\n%s"
+
+msgid "C_reate"
+msgstr "_Stvaryć"
+
+msgid "Could not create the folder."
+msgstr "Nie ŭdalosia stvaryć kataloh."
+
+msgid "%zu items selected"
+msgstr "Vylučana elemientaŭ: %zu"
+
+msgid "Contents:"
+msgstr "Zmiesciva:"
+
+msgid "Contains:"
+msgstr "Utrymlivaje:"
+
+msgid "Counting…"
+msgstr "Padlik…"
+
+msgid "Broken Link"
+msgstr "Paškodžanaja spasylka"
+
+msgid "%s (link)"
+msgstr "%s (spasylka)"
+
+msgid "other drive"
+msgstr "inšy dysk"
+
+msgid "%s of %s"
+msgstr "%s z %s"
+
+msgid "%s left"
+msgstr "zastalosia %s"
+
+msgid "%d of %d"
+msgstr "%d z %d"
+
+msgid "File operations in progress"
+msgstr "Vykonvajucca fajlavyja apieracyi"
+
+msgid "No subfolders"
+msgstr "Niama padkatalohaŭ"
+
+msgid "Select the given files in their folders"
+msgstr "Vylučyć zadadzienyja fajly ŭ ich katalohach"
+
+msgid "Open the window in split view"
+msgstr "Adkryć akno ŭ padzielenym vyhladzie"
+
+msgid "Always open a new window"
+msgstr "Zaŭsiody adkryvać novaje akno"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Praciahvać pracu ŭ fonie dla D-Bus-servisu FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Adlučycca ad terminala (biez razmiaščennia adkryvaje biahučy kataloh)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Zapuscić vybar fajlaŭ dla xdg-desktop-portal (zapuskajecca praz D-Bus)"
+
+msgid "Show the version"
+msgstr "Pakazać viersiju"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FAJL abo KATALOH…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Dziejannie jak administratar: zmieny ŭ hetym aknie mohuć paškodzić sistemu."
+
+msgid "Close this window?"
+msgstr "Zakryć heta akno?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "U hetym aknie adkryta ŭkladak: %zu. Zakryccio akna zakryje ich usie."
+
+msgid "Close Window"
+msgstr "Zakryć akno"
+
+msgid "Show _Toolbar"
+msgstr "Pakazvać _palicu prylad"
+
+msgid "_File"
+msgstr "_Fajl"
+
+msgid "New _Window"
+msgstr "Novaje _akno"
+
+msgid "New _Tab"
+msgstr "Novaja _ŭkladka"
+
+msgid "_Close Tab"
+msgstr "_Zakryć ukladku"
+
+msgid "Create _New"
+msgstr "Stvaryć _novy"
+
+msgid "_Rename…"
+msgstr "_Zmianić nazvu…"
+
+msgid "_Duplicate Here"
+msgstr "_Dubliravać tut"
+
+msgid "Move to _Trash"
+msgstr "Pieramiascić u _smietnicu"
+
+msgid "_Delete"
+msgstr "_Vydalić"
+
+msgid "Restore from Trash"
+msgstr "Adnavić sa smietnicy"
+
+msgid "_Properties"
+msgstr "_Ulascivasci"
+
+msgid "_Quit"
+msgstr "_Vyjsci"
+
+msgid "_Edit"
+msgstr "_Praŭka"
+
+msgid "_Undo"
+msgstr "_Adrabić"
+
+msgid "_Redo"
+msgstr "_Paŭtaryć"
+
+msgid "Cu_t"
+msgstr "_Vyrazać"
+
+msgid "_Copy"
+msgstr "_Kapiravać"
+
+msgid "_Paste"
+msgstr "_Ustavić"
+
+msgid "_Search…"
+msgstr "_Pošuk…"
+
+msgid "Select _All"
+msgstr "Vylučyć _usio"
+
+msgid "_View"
+msgstr "_Vyhlad"
+
+msgid "Zoom _In"
+msgstr "_Pavialičyć"
+
+msgid "Zoom _Out"
+msgstr "_Pamienšyć"
+
+msgid "Re_load"
+msgstr "_Pierazahruzić"
+
+msgid "Show _Menubar"
+msgstr "Pakazvać radok _mieniu"
+
+msgid "Show _Statusbar"
+msgstr "Pakazvać radok _stanu"
+
+msgid "_Go"
+msgstr "_Pierachod"
+
+msgid "_Back"
+msgstr "_Nazad"
+
+msgid "_Forward"
+msgstr "_Napierad"
+
+msgid "_Up"
+msgstr "_Uvierch"
+
+msgid "_Home"
+msgstr "_Chatni kataloh"
+
+msgid "_Tools"
+msgstr "_Prylady"
+
+msgid "Open _Terminal"
+msgstr "Adkryć _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Adkryć terminal _tut"
+
+msgid "_Disk Usage…"
+msgstr "_Vykarystannie dyska…"
+
+msgid "_Settings"
+msgstr "_Nalady"
+
+msgid "Configure Tool_bars…"
+msgstr "Naladzić _palicy prylad…"
+
+msgid "_Configure Beluga…"
+msgstr "_Naladzić Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Niama niadaŭna zakrytych ukladak"
+
+msgid "(Administrator)"
+msgstr "(Administratar)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Adkryć %zu katalohaŭ u novych ukladkach?"
+
+msgid "Open Folders"
+msgstr "Adkryć katalohi"
+
+msgid "Could not open “%s”."
+msgstr "Nie ŭdalosia adkryć «%s»."
+
+msgid "Could not open a terminal."
+msgstr "Nie ŭdalosia adkryć terminal."
+
+msgid "New Text File.txt"
+msgstr "Novy tekstavy fajl.txt"
+
+msgid "New File"
+msgstr "Novy fajl"
+
+msgid "Empty the trash?"
+msgstr "Ačyscić smietnicu?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Usie elemienty ŭ smietnicy buduć vydaleny nazaŭsiody. Heta nieĺha adrabić."
+
+msgid "Open %zu terminals?"
+msgstr "Adkryć %zu terminalaŭ?"
+
+msgid "Open Terminals"
+msgstr "Adkryć terminaly"
+
+msgid "Create new file in:\n%s"
+msgstr "Stvaryć novy fajl u:\n%s"
+
+msgid "Could not create the file."
+msgstr "Nie ŭdalosia stvaryć fajl."
+
+msgid "Link to File or Folder"
+msgstr "Spasylka na fajl abo kataloh"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Šlach da fajla abo kataloha dla spasylki:"
+
+msgid "Could not create the link."
+msgstr "Nie ŭdalosia stvaryć spasylku."
+
+msgid "Permanently delete %s?"
+msgstr "Vydalić %s nazaŭsiody?"
+
+msgid "This cannot be undone."
+msgstr "Heta nieĺha adrabić."
+
+msgid "Move %s to the trash?"
+msgstr "Pieramiascić %s u smietnicu?"
+
+msgid "Could not run “%s”."
+msgstr "Nie ŭdalosia zapuscić «%s»."
+
+msgid "Could not start %s."
+msgstr "Nie ŭdalosia zapuscić %s."
+
+msgid "Could not start the application."
+msgstr "Nie ŭdalosia zapuscić prahramu."
+
+msgid "“%s” is an executable file."
+msgstr "«%s» — vykanaĺny fajl."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Zapuscić jaho ci adkryć u prahramie?"
+
+msgid "Run"
+msgstr "Zapuscić"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Vybierycie prahramu, kab adkryć %s (%s):"
+
+msgid "Or command:"
+msgstr "Abo kamanda:"
+
+msgid "Remember application association for this type of file"
+msgstr "Zapomnić pryviazku prahramy dla hetaha typu fajlaŭ"
+
+msgid "%s free of %s"
+msgstr "Voĺna %s z %s"
+
+msgid "Configure Sections"
+msgstr "Naladzić razdziely"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Paznačanyja razdziely pakazvajucca na paneli razmiaščenniaŭ u hetym paradku."
+
+msgid "Move Up"
+msgstr "Pieramiascić uvierch"
+
+msgid "Move Down"
+msgstr "Pieramiascić uniz"
+
+msgid "Could not mount the device: %s"
+msgstr "Nie ŭdalosia prymantavać pryladu: %s"
+
+msgid "Show"
+msgstr "Pakazać"
+
+msgid "Configure Sections…"
+msgstr "Naladzić razdziely…"
+
+msgid "Hide Hidden Entries"
+msgstr "Chavać schavanyja zapisy"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Usie elemienty ŭ smietnicy buduć vydaleny nazaŭsiody."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Nie ŭdalosia biaspiečna vyniać pryladu: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Nie ŭdalosia admantavać pryladu: %s"
+
+msgid "%d px"
+msgstr "%d pks"
+
+msgid "Use the system _font"
+msgstr "Vykarystoŭvać _sistemny šryft"
+
+msgid "Context Menu Action"
+msgstr "Dziejannie kantekstnaha mieniu"
+
+msgid "Command:"
+msgstr "Kamanda:"
+
+msgid "Types:"
+msgstr "Typy:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f pieršy fajl, %F usie fajly, %u / %U jak URI, %n / %N nazvy, %d biahučy kataloh."
+
+msgid "Show for _files"
+msgstr "Pakazvać dla _fajlaŭ"
+
+msgid "Show for f_olders"
+msgstr "Pakazvać dla _katalohaŭ"
+
+msgid "Show when _several items are selected"
+msgstr "Pakazvać, kali vylučana _niekaĺki elemientaŭ"
+
+msgid "Run in a _terminal"
+msgstr "Zapuskać u _terminale"
+
+msgid "Custom Actions"
+msgstr "Karystaĺnickija dziejanni"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Vašy ŭlasnyja punkty kantekstnaha mieniu fajlaŭ i katalohaŭ."
+
+msgid "_Add…"
+msgstr "_Dadać…"
+
+msgid "_Edit…"
+msgstr "_Zmianić…"
+
+msgid "_Remove"
+msgstr "_Vydalić"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Spalučenni klaviš pišucca jak <Control>c abo <Shift>Delete. Niekaĺki padzialajcie koskami. Pakińcie pole pustym dla pradvyznačanaha."
+
+msgid "files below %d MiB"
+msgstr "fajly mienšyja za %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Adnavić pradvyznačanyja"
+
+msgid "_Apply"
+msgstr "_Užyć"
+
+msgid "Folders & Tabs"
+msgstr "Katalohi i ŭkladki"
+
+msgid "This location:"
+msgstr "Heta razmiaščennie:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Trymać adno akno Beluga i adkryvać novyja katalohi va ŭkladkach"
+
+msgid "Tabs:"
+msgstr "Ukladki:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Ukladki fiksavanaj šyryni zvužajucca, usie adnoĺkava, kali nie zmiaščajucca."
+
+msgid "No terminal found"
+msgstr "Terminal nie znojdzieny"
+
+msgid "Detected: %s"
+msgstr "Vyjaŭlena: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Vykarystoŭvajecca F4 i «Adkryć terminal tut». %d u kamandzie zamianiajecca kataloham; inakš terminal zapuskajecca ŭ im. Raniej heta byla sistemnaja nalada KDE."
+
+msgid "New folders:"
+msgstr "Novyja katalohi:"
+
+msgid "Show _previews in new folders"
+msgstr "Pakazvać _minijaciury ŭ novych katalohach"
+
+msgid "Audio (cover art)"
+msgstr "Aŭdyja (vokladki)"
+
+msgid "PDF documents"
+msgstr "Dakumienty PDF"
+
+msgid "Text files"
+msgstr "Tekstavyja fajly"
+
+msgid "Fonts"
+msgstr "Šryfty"
+
+msgid "Office documents"
+msgstr "Ofisnyja dakumienty"
+
+msgid "Ask for confirmation when:"
+msgstr "Pytać pacviardžennie, kali:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Pytać pacviardžennie ŭ Beluga, kali:"
+
+msgid "Use _long date format"
+msgstr "Vykarystoŭvać _doŭhi farmat daty"
+
+msgid "Show _hidden folders"
+msgstr "Pakazvać s_chavanyja katalohi"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "_Aŭtamatyčna prakručvać da biahučaha kataloha"
+
+msgid "Places Panel:"
+msgstr "Paneĺ razmiaščenniaŭ:"
+
+msgid "Status & Location bars"
+msgstr "Radki stanu i razmiaščennia"
+
+msgid "Show free _space"
+msgstr "Pakazvać _voĺnaje miesca"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "U lubym vypadku Vyhlad › Zapomnić vyhlad dla hetaha kataloha daje adnamu katalohu ŭlasny styĺ. Niekatoryja spiecyjaĺnyja vyhlady, takija jak pošuk, niadaŭnija fajly ci smietnica, pa-raniejšamu vykarystoŭvajuć svoj styĺ."
+
+msgid "Open files and folders with a single click"
+msgstr "Adkryvać fajly i katalohi adnoj pstryčkaj"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Trymać _indeks chatniaha kataloha dla imhniennaha pošuku"
+
+msgid "levels deep"
+msgstr "uzroŭniaŭ uhlyb"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Adnosnaje (Sionnia, Učora…)"
+
+msgid "Absolute"
+msgstr "Absalutnaje"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simvaĺnaje (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Ličbavaje (0755)"
+
+msgid "Combined"
+msgstr "Kambinavanaje"
+
+msgid "Elide in the middle"
+msgstr "Skaračać pasiaredzinie"
+
+msgid "Elide at the end"
+msgstr "Skaračać u kancy"
+
+msgid "Disk usage:"
+msgstr "Vykarystannie dyska:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Pakazvać slupok _vykarystannia dyska"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Miesca, jakoje kožny fajl i kožny cely kataloh zajmaje na dysku, z paloskaj dla jaho doli ŭ katalohu, jak u Prylady › Vykarystannie dyska. Katalohi čytajucca calkam u fonie; sartujcie pa slupku, kab ubačyć najbujniejšyja pieršymi. \"Zastavacca na hetym dysku\" z akna vykarystannia dyska dziejničaje i tut."
+
+msgid "Show in the context menu"
+msgstr "Pakazvać u kantekstnym mieniu"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "«Kapiravać u» i «Pieramiascić u»"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Vydalić (akramia «Pieramiascić u smietnicu»)"
+
+msgid "Cleanup:"
+msgstr "Ačystka:"
+
+msgid "Delete files older than"
+msgstr "Vydalać fajly, starejšyja za"
+
+msgid "days"
+msgstr "dzion"
+
+msgid "Limit to"
+msgstr "Abmiežavać da"
+
+msgid "percent of the disk"
+msgstr "pracentaŭ dyska"
+
+msgid "Keep the trash on the home drive"
+msgstr "Trymać smietnicu na dysku chatniaha kataloha"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Fajly, pieramieščanyja ŭ smietnicu z inšych dyskaŭ, kapirujucca ŭ smietnicu ŭ chatnim katalohu, tamu na tych dyskach nie zjaŭlajecca kataloh .Trash-1000. Pieramiaščennie vialikich fajlaŭ u smietnicu tady zajmaje boĺš času."
+
+msgid "Full trash:"
+msgstr "Poŭnaja smietnica:"
+
+msgid "When the limit is reached:"
+msgstr "Pry dasiahnienni limitu:"
+
+msgid "Show a warning"
+msgstr "Pakazać papiaredžannie"
+
+msgid "Delete the oldest items"
+msgstr "Vydalić najstarejšyja elemienty"
+
+msgid "Delete the largest items"
+msgstr "Vydalić najbujniejšyja elemienty"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Raniej heta byli sistemnyja nalady KDE. Limity ŭžyvajucca pry zapusku Beluga i pasla pieramiaščennia elemientaŭ u smietnicu."
+
+msgid "Calculating trash size…"
+msgstr "Vyličennie pamieru smietnicy…"
+
+msgid "The trash currently uses %s."
+msgstr "Ciapier smietnica zajmaje %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Ačyscić smietnicu zaraz"
+
+msgid "Vim Mode"
+msgstr "Režym Vim"
+
+msgid "Vim mode:"
+msgstr "Režym Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Vykarystoŭvać klavišy ŭ styli Vim u prahladach"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Zvyčajny režym pieramiaščajecca klavišami h j k l i vykonvaje klavišy nižej; v, V i Ctrl+V vylučajuć; i i a mianiajuć nazvu (režym ustaŭki); Esc viartaje ŭ zvyčajny režym; : adkryvaje kamandny radok. Klavišy z Ctrl abo Alt, nie pieraličanyja tut, zachoŭvajuć zvyčajnaje značennie."
+
+msgid "Leader key:"
+msgstr "Klaviša-lidar:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> u klavišach nižej, napr. <Space> abo ,"
+
+msgid "Wait for more keys:"
+msgstr "Čakać nastupnych klaviš:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd pasla d, gg pasla g)"
+
+msgid "Keys"
+msgstr "Klavišy"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Natacyja Vim, niekaĺki praz prabiel: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Pakińcie pole pustym dla pradvyznačanaha."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q zakryvaje akno (:q! biez pytannia pra ŭkladki), :qa vychodzić z Beluga, :e abo :cd ŠLACH adkryvaje kataloh, :tabnew [ŠLACH], :tabclose, :tabonly, :sp abo :vs [ŠLACH] dzielać vyhlad, :only zakryvaje inšy vyhlad, :mkdir NAZVA, :touch NAZVA, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KAMANDA vykonvaje kamandu abalonki ŭ katalohu."
+
+msgid "Keyboard Shortcuts"
+msgstr "Spalučenni klaviš"
+
+msgid "Only files on this computer can be read."
+msgstr "Možna čytać toĺki fajly na hetym kampjutary."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga sabrana biez FFmpeg."
+
+msgid "Reading…"
+msgstr "Čytannie…"
+
+msgid "No details found."
+msgstr "Zviestki nie znojdzieny."
+
+msgid "Change the folder's icon"
+msgstr "Zmianić značok kataloha"
+
+msgid "Could not change the icon."
+msgstr "Nie ŭdalosia zmianić značok."
+
+msgid "%zu items"
+msgstr "Elemientaŭ: %zu"
+
+msgid "No default application"
+msgstr "Niama pradvyznačanaj prahramy"
+
+msgid "C_hange…"
+msgstr "_Zmianić…"
+
+msgid "Opens with:"
+msgstr "Adkryvajecca z dapamohaj:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu bajt"
+msgstr[1] "%llu bajty"
+msgstr[2] "%llu bajtaŭ"
+msgstr[3] "%llu bajta"
+
+msgid "Can View"
+msgstr "Moža prahladać"
+
+msgid "Can View Content"
+msgstr "Moža prahladać zmiesciva"
+
+msgid "Is _executable"
+msgstr "_Vykanaĺny"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Užyć zmieny da ŭsich _padkatalohaŭ i ich zmiesciva"
+
+msgid "Mode:"
+msgstr "Režym:"
+
+msgid "Could not read the file."
+msgstr "Nie ŭdalosia pračytać fajl."
+
+msgid "Paste a checksum to compare"
+msgstr "Ustaŭcie kantroĺnuju sumu dla paraŭnannia"
+
+msgid "Verify:"
+msgstr "Pravieryć:"
+
+msgid "The checksums match."
+msgstr "Kantroĺnyja sumy supadajuć."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Nivodnaja vyličanaja kantroĺnaja suma nie supadaje. Spačatku vyličycie adpaviedny typ."
+
+msgid "Could not change the permissions."
+msgstr "Nie ŭdalosia zmianić pravy dostupu."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Fiĺtr pa nazvie (pracujuć šablony, napr. *.txt)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Zachoŭvać fiĺtr pry zmienie kataloha"
+
+msgid "In This Folder"
+msgstr "U hetym katalohu"
+
+msgid "In Your Files"
+msgstr "U vašych fajlach"
+
+msgid "Any Time"
+msgstr "U luby čas"
+
+msgid "Last 7 Days"
+msgstr "Apošnija 7 dzion"
+
+msgid "Last 30 Days"
+msgstr "Apošnija 30 dzion"
+
+msgid "Last Year"
+msgstr "Apošni hod"
+
+msgid "Hidden files"
+msgstr "Schavanyja fajly"
+
+msgid "Duplicate Tab"
+msgstr "Dubliravać ukladku"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Dziejanni nad radkom razmiaščennia ŭ spisie znachodziacca zleva ad jaho, astatnija — sprava. * paznačaje dziejanni, jakija stajać nie tam, dzie ich zmiaščaje pradvyznačanaja palica prylad."
+
+msgid "A_vailable actions:"
+msgstr "_Dastupnyja dziejanni:"
+
+msgid "Add to the tool bar"
+msgstr "Dadać na palicu prylad"
+
+msgid "Remove from the tool bar"
+msgstr "Vydalić z palicy prylad"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Pieramiascić uvierch (naleva na palicy prylad)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Pieramiascić uniz (naprava na palicy prylad)"
+
+msgid "C_urrent actions:"
+msgstr "_Biahučyja dziejanni:"
+
+msgid "_Defaults"
+msgstr "_Pradvyznačana"
+
+msgid "Show Columns"
+msgstr "Pakazvać slupki"
+
+msgid "Modified: %s"
+msgstr "Zmieniena: %s"
+
+msgid "Original location: %s"
+msgstr "Zychodnaje razmiaščennie: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Mienš za 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "Ad 1 MiB da 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "Ad 100 MiB da 1 HiB"
+
+msgid "1 GiB or more"
+msgstr "1 HiB i boĺš"
+
+msgid "Not counted yet"
+msgstr "Jašče nie padličana"
+
+msgid "A file name cannot contain “/”."
+msgstr "Nazva fajla nie moža ŭtrymlivać «/»."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Zmiena nazvy «%s» na «%s» zmianiaje jaho pašyrennie. Fajl moža adkrycca inšaj prahramaj abo nie adkrycca ŭvohule."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Režym vylučennia: pstrykajcie pa fajlach abo katalohach, kab vylučyć ich abo zniać vylučennie."
+
+msgid "_Exit Selection Mode"
+msgstr "_Vyjsci z režymu vylučennia"
+
+msgid "_Duplicate"
+msgstr "_Dubliravać"
+
+msgid "De_lete"
+msgstr "_Vydalić"
+
+msgid "Pr_operties"
+msgstr "_Ulascivasci"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Kataloha «%s» boĺš nie isnuje."
+
+msgid "“%s” selected (%s%s)"
+msgstr "Vylučana «%s» (%s%s)"
+
+msgid "%s selected"
+msgstr "Vylučana %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "Vylučany %d"
+msgstr[1] "Vylučana %d"
+msgstr[2] "Vylučana %d"
+msgstr[3] "Vylučana %d"
+
+msgid "Move left"
+msgstr "Naleva"
+
+msgid "Move down"
+msgstr "Uniz"
+
+msgid "Move up"
+msgstr "Uvierch"
+
+msgid "Move right"
+msgstr "Naprava"
+
+msgid "First item"
+msgstr "Pieršy elemient"
+
+msgid "Last item"
+msgstr "Apošni elemient"
+
+msgid "Page down"
+msgstr "Staronka ŭniz"
+
+msgid "Page up"
+msgstr "Staronka ŭvierch"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Vylučać elemienty, praz jakija prachodzić kursor (vizuaĺny)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Vylučyć dyjapazon, jak z Shift (vizuaĺny radok)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Vylučyć blok z sietki (vizuaĺny blok)"
+
+msgid "Back to normal mode"
+msgstr "Viarnucca ŭ zvyčajny režym"
+
+msgid "Copy the item under the cursor"
+msgstr "Skapiravać elemient pad kursoram"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Zmianić nazvu, kursor u pačatku (ustaŭka)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Zmianić nazvu, kursor pasla nazvy (dapaŭniennie)"
+
+msgid "Rename, name selected (change)"
+msgstr "Zmianić nazvu, nazva vylučana (zamiena)"
+
+msgid "Edit the location"
+msgstr "Zmianić razmiaščennie"
+
+msgid "Copied."
+msgstr "Skapiravana."
+
+msgid "Cut."
+msgstr "Vyrazana."
+
+msgid "Can't open “%s”."
+msgstr "Niemahčyma adkryć «%s»."
+
+msgid "A name is needed."
+msgstr "Patrebna nazva."
+
+msgid "Unknown view: %s"
+msgstr "Nieviadomy vyhlad: %s"
+
+msgid "Unknown option: %s"
+msgstr "Nieviadomy paramietr: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sartavać pa name, size, date abo type."
+
+msgid "Not a command: %s"
+msgstr "Nie kamanda: %s"
+
+msgid "Move"
+msgstr "Pieramiascić"
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Ryzyki dziejannia ŭ jakasci administratara"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Ja razumieju i prymaju hetyja ryzyki"
+
+msgid "Act as Administrator"
+msgstr "Dziejničać jak administratar"
+
+msgid "Focus Other View"
+msgstr "Fokus na inšy vyhlad"
+
+msgid "Split View to Tabs"
+msgstr "Padzieleny vyhlad va ŭkladki"
+
+msgid "Folders Panel"
+msgstr "Paneĺ katalohaŭ"
+
+msgid "Information Panel"
+msgstr "Paneĺ zviestak"
+
+msgid "Focus Places Panel"
+msgstr "Fokus na paneĺ razmiaščenniaŭ"
+
+msgid "Go to Last Tab"
+msgstr "Pierajsci da apošniaj ukladki"
+
+msgid "Columns"
+msgstr "Slupki"
+
+msgid "Configure Toolbars…"
+msgstr "Naladzić palicy prylad…"
+
+msgid "Restore to Defaults"
+msgstr "Adnavić pradvyznačanyja"
+
+msgid "Panels"
+msgstr "Paneli"
+
+msgid "Recommended Applications"
+msgstr "Rekamiendavanyja prahramy"
+
+msgid "Other Applications"
+msgstr "Inšyja prahramy"
+
+msgid "File names:"
+msgstr "Nazvy fajlaŭ:"
+
+msgid "no file"
+msgstr "nijakich fajlaŭ"
+
+msgid "files of any size"
+msgstr "fajly luboha pamieru"
+
+msgid "Always show tab bar"
+msgstr "Zaŭsiody pakazvać palicu ŭkladak"
+
+msgid "Show close button on tabs"
+msgstr "Pakazvać knopku zakryccia na ŭkladkach"
+
+msgid "Tab style:"
+msgstr "Styĺ ukladak:"
+
+msgid "Tab width adapts to folder name"
+msgstr "Šyrynia ŭkladki padladžvajecca pad nazvu kataloha"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Usie ŭkladki majuć adnoĺkavuju fiksavanuju šyryniu"
+
+msgid "When closing a split view"
+msgstr "Pry zakrycci padzielenaha vyhladu"
+
+msgid "Close the active pane"
+msgstr "Zakryć aktyŭnuju paneĺ"
+
+msgid "Close the inactive pane"
+msgstr "Zakryć nieaktyŭnuju paneĺ"
+
+msgid "Close the right pane"
+msgstr "Zakryć pravuju paneĺ"
+
+msgid "Open new windows in split view mode"
+msgstr "Adkryvać novyja vokny ŭ padzielenym vyhladzie"
+
+msgid "Local storage:"
+msgstr "Lakaĺnaje schovišča:"
+
+msgid "Show previews for"
+msgstr "Pakazvać minijaciury dla"
+
+msgid "Remote storage:"
+msgstr "Addalenaje schovišča:"
+
+msgid "Renaming a file will change its type"
+msgstr "Zmiena nazvy fajla zmienić jaho typ"
+
+msgid "Switching to act as an administrator"
+msgstr "Pieraklučennie na dziejannie jak administratar"
+
+msgid "Information Panel:"
+msgstr "Paneĺ zviestak:"
+
+msgid "Folders Panel:"
+msgstr "Paneĺ katalohaŭ:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Abmiežavać chatnim kataloham, kali znachodzišsia ŭ im"
+
+msgid "Status Bar:"
+msgstr "Radok stanu:"
+
+msgid "Full width"
+msgstr "Na ŭsiu šyryniu"
+
+msgid "Browse compressed files as folders"
+msgstr "Prahladać scisnutyja fajly jak katalohi"
+
+msgid "Show item information on hover"
+msgstr "Pakazvać zviestki pra elemient pry naviadzienni"
+
+msgid "Rename single items inline"
+msgstr "Mianiać nazvu adnaho elemienta na miescy"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Taksama chavać reziervovyja kopii pry chavanni schavanych fajlaŭ"
+
+msgid "Background:"
+msgstr "Fon:"
+
+msgid "Double-click triggers"
+msgstr "Padvojnaja pstryčka"
+
+msgid "Nothing"
+msgstr "Ničoha"
+
+msgid "Folder size:"
+msgstr "Pamier kataloha:"
+
+msgid "Show number of items"
+msgstr "Pakazvać koĺkasć elemientaŭ"
+
+msgid "Show size of contents, up to "
+msgstr "Pakazvać pamier zmiesciva, da "
+
+msgid "Show no size"
+msgstr "Nie pakazvać pamier"
+
+msgid "Long file names:"
+msgstr "Doŭhija nazvy fajlaŭ:"
+
+msgid "Spacing:"
+msgstr "Interval:"
+
+msgid "Everywhere"
+msgstr "Usiudy"
+
+msgid "File Names"
+msgstr "Nazvy fajlaŭ"
+
+msgid "File Names and Contents"
+msgstr "Nazvy i zmiesciva fajlaŭ"
+
+msgid "Album artist:"
+msgstr "Vykanaŭca aĺboma:"
+
+msgid "Composer:"
+msgstr "Kampazitar:"
+
+msgid "Performer:"
+msgstr "Vykanaŭca:"
+
+msgid "Copyright:"
+msgstr "Aŭtarskija pravy:"
+
+msgid "%ld s"
+msgstr "%ld s"
+
+msgid "Folder"
+msgstr "Kataloh"
+
+msgid "Free space:"
+msgstr "Voĺnaje miesca:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "Voĺna %s z %s (vykarystana %d%%)"
+
+msgid "Publisher:"
+msgstr "Vydaviec:"
+
+msgid "Language:"
+msgstr "Mova:"
+
+msgid "Copy to Other View"
+msgstr "Skapiravać u inšy vyhlad"
+
+msgid "Move to Other View"
+msgstr "Pieramiascić u inšy vyhlad"
+
+msgid "Open With…"
+msgstr "Adkryć z dapamohaj…"
+
+msgid "Other Application…"
+msgstr "Inšaja prahrama…"
+
+msgid "Restore"
+msgstr "Adnavić"
+
+msgid "Open in Split View"
+msgstr "Adkryć u padzielenym vyhladzie"
+
+msgid "Filter…"
+msgstr "Fiĺtr…"
+
+msgid "Adjust View Display Style…"
+msgstr "Naladzić styĺ pakazu…"
+
+msgid "Search…"
+msgstr "Pošuk…"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Katalohi, ukladki i stan akna z minulaha razu"
+
+msgid "Opening Folders:"
+msgstr "Adkryccio katalohaŭ:"
+
+msgid "Window:"
+msgstr "Akno:"
+
+msgid "Opening many folders at once"
+msgstr "Adkryccio mnohich katalohaŭ adrazu"
+
+msgid "Opening many terminals at once"
+msgstr "Adkryccio mnohich terminalaŭ adrazu"
+
+msgid "Show item on hover"
+msgstr "Pakazvać elemient pry naviadzienni"
+
+msgid "Interface"
+msgstr "Interfiejs"
+
+msgid "Display style:"
+msgstr "Styĺ pakazu:"
+
+msgid "Browsing:"
+msgstr "Prahlad:"
+
+msgid "Content Display"
+msgstr "Pakaz zmiesciva"
+
+msgid "Permissions style:"
+msgstr "Styĺ pravoŭ dostupu:"
+
+msgid "Open files and folders:"
+msgstr "Adkryvać fajly i katalohi:"
+
+msgid "By clicking anywhere on the row"
+msgstr "Pstryčkaj u lubym miescy radka"
+
+msgid "By clicking on icon or name"
+msgstr "Pstryčkaj pa značku abo nazvie"
+
+msgid "Calculating…"
+msgstr "Vyličennie…"
+
+msgid "Searching…"
+msgstr "Pošuk…"
+
+msgid "Loading folder…"
+msgstr "Zahruzka kataloha…"
