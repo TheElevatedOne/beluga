@@ -1,0 +1,1401 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "The archive could not be opened."
+msgstr "無法開啟歸檔檔案。"
+
+msgid "The archive could not be read."
+msgstr "無法讀取歸檔檔案。"
+
+msgid "Cancelled."
+msgstr "已取消。"
+
+msgid "This file is encrypted with a password."
+msgstr "此檔案已用密碼加密。"
+
+msgid "“%s” could not be read."
+msgstr "無法讀取“%s”。"
+
+msgid "This is not a file in an archive."
+msgstr "這不是歸檔檔案中的檔案。"
+
+msgid "Extract Here"
+msgstr "解壓到此處"
+
+msgid "Compress to .tar.gz"
+msgstr "壓縮為 .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "未找到終端模擬器。"
+
+msgid "Root"
+msgstr "根目錄"
+
+msgid "%s Volume"
+msgstr "%s 卷"
+
+msgid "This device cannot be mounted."
+msgstr "無法掛載此裝置。"
+
+msgid "This device cannot be unmounted."
+msgstr "無法解除安裝此裝置。"
+
+msgid "The device is gone."
+msgstr "裝置已不存在。"
+
+msgid "Copying %s to “%s”"
+msgstr "正在將 %s 複製到“%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "正在將 %s 移動到“%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "正在“%2$s”中建立 %1$s 的連結"
+
+msgid "Moving %s to the trash"
+msgstr "正在將 %s 移到垃圾桶"
+
+msgid "Deleting %s"
+msgstr "正在刪除 %s"
+
+msgid "Restoring %s"
+msgstr "正在恢復 %s"
+
+msgid "Emptying the trash"
+msgstr "正在清空垃圾桶"
+
+msgid "Counting files…"
+msgstr "正在統計檔案…"
+
+msgid "“%s”: %s"
+msgstr "“%s”：%s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "資料夾不能移動到自身中。"
+
+msgid "A folder cannot be copied into itself."
+msgstr "資料夾不能複製到自身中。"
+
+msgid "Files can only be extracted into local folders."
+msgstr "檔案只能解壓到本地資料夾。"
+
+msgid "Extracting from “%s”"
+msgstr "正在從“%s”解壓"
+
+msgid "Disc:"
+msgstr "碟片："
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "位元率："
+
+msgid "Cover:"
+msgstr "封面："
+
+msgid ", %.0f fps"
+msgstr "，%.0f fps"
+
+msgid ", %.3f fps"
+msgstr "，%.3f fps"
+
+msgid "Video %d:"
+msgstr "影片 %d："
+
+msgid ", %d Hz"
+msgstr "，%d Hz"
+
+msgid "mono"
+msgstr "單聲道"
+
+msgid "stereo"
+msgstr "立體聲"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d 個聲道"
+
+msgid ", %d bit"
+msgstr "，%d 位"
+
+msgid "Audio %d:"
+msgstr "音訊 %d："
+
+msgid "Subtitles:"
+msgstr "字幕："
+
+msgid "Chapters:"
+msgstr "章節："
+
+msgid "Images"
+msgstr "影像"
+
+msgid "Archives"
+msgstr "歸檔檔案"
+
+msgid "Search for “%s”"
+msgstr "搜尋“%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "未找到終端模擬器。請在 設定 Beluga › 常規 › 終端 中設定。"
+
+msgid "This file system has no trash."
+msgstr "此檔案系統沒有垃圾桶。"
+
+msgid "Could not create the trash information file."
+msgstr "無法建立垃圾桶資訊檔案。"
+
+msgid "“%s” already exists."
+msgstr "“%s”已存在。"
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "垃圾桶超過了 %s 的上限。請考慮清空它。"
+
+msgid "Create File"
+msgstr "建立檔案"
+
+msgid "Undo: %s"
+msgstr "撤銷：%s"
+
+msgid "Redo: %s"
+msgstr "重做：%s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d 個檔案"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d 個資料夾"
+
+msgid "Today at %s"
+msgstr "今天 %s"
+
+msgid "Yesterday at %s"
+msgstr "昨天 %s"
+
+msgid "%A at %H:%M"
+msgstr "%A %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld 分 %ld 秒"
+
+msgid "%ld h %ld min"
+msgstr "%ld 小時 %ld 分"
+
+msgid "%s copy %d"
+msgstr "%s 副本 %d"
+
+msgid "Disk Usage"
+msgstr "磁碟佔用"
+
+msgid "Extension"
+msgstr "副檔名"
+
+msgid "Original Location"
+msgstr "原始位置"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga 無法以管理員身份操作。"
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "需要 pkexec (polkit) 來詢問管理員密碼。請為您的桌面安裝 polkit 和一個 polkit 代理。"
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "具有管理員權限的 Beluga 視窗可以更改和刪除此電腦上的任何檔案，包括系統啟動所需的檔案。在其中操作失誤可能導致系統無法使用。請只將它用於無法用其他方式更改的檔案，並在完成後關閉它。\n\n接下來 Beluga 會詢問管理員密碼。"
+
+msgid "Columns View"
+msgstr "分欄檢視"
+
+msgid "Reset Zoom"
+msgstr "重置縮放"
+
+msgid "Pop out Split View"
+msgstr "分離拆分檢視"
+
+msgid "Places Panel"
+msgstr "位置面板"
+
+msgid "Disk Usage Panel"
+msgstr "磁碟佔用面板"
+
+msgid "Go to Tab 1"
+msgstr "轉到標籤頁 1"
+
+msgid "Go to Tab 2"
+msgstr "轉到標籤頁 2"
+
+msgid "Go to Tab 3"
+msgstr "轉到標籤頁 3"
+
+msgid "Go to Tab 4"
+msgstr "轉到標籤頁 4"
+
+msgid "Go to Tab 5"
+msgstr "轉到標籤頁 5"
+
+msgid "Go to Tab 6"
+msgstr "轉到標籤頁 6"
+
+msgid "Go to Tab 7"
+msgstr "轉到標籤頁 7"
+
+msgid "Go to Tab 8"
+msgstr "轉到標籤頁 8"
+
+msgid "Go to Tab 9"
+msgstr "轉到標籤頁 9"
+
+msgid "Configure Beluga"
+msgstr "設定 Beluga"
+
+msgid "Undo failed."
+msgstr "撤銷失敗。"
+
+msgid "Folder…"
+msgstr "資料夾…"
+
+msgid "Text File…"
+msgstr "文本檔案…"
+
+msgid "Empty File…"
+msgstr "空檔案…"
+
+msgid "Link to File or Folder…"
+msgstr "檔案或資料夾的連結…"
+
+msgid "Other View (%s)"
+msgstr "另一個檢視 (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "記住此資料夾的檢視"
+
+msgid "Open in Beluga"
+msgstr "在 Beluga 中開啟"
+
+msgid "Paste into Folder"
+msgstr "貼上到資料夾"
+
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+msgid "The name cannot contain “/”."
+msgstr "名稱不能包含“/”。"
+
+msgid "A name starting with a dot is hidden."
+msgstr "以點開頭的名稱是隱藏的。"
+
+msgid "Some items could not be renamed."
+msgstr "有些專案無法重新命名。"
+
+msgid "Rename “%s” to:"
+msgstr "將“%s”重新命名為："
+
+msgid "_Rename"
+msgstr "重新命名(_R)"
+
+msgid "Could not rename “%s”."
+msgstr "無法重新命名“%s”。"
+
+msgid "Change the file type?"
+msgstr "更改檔案型別？"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "將“%s”重新命名為“%s”會改變其副檔名。"
+
+msgid "Rename the %zu selected items to:"
+msgstr "將選中的 %zu 個專案重新命名為："
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# 會被替換為遞增的數字；使用 ## 補前導零。副檔名保持不變。"
+
+msgid "Start numbering at:"
+msgstr "編號起始值："
+
+msgid "_Move Here"
+msgstr "移動到此處(_M)"
+
+msgid "_Copy Here"
+msgstr "複製到此處(_C)"
+
+msgid "_Link Here"
+msgstr "在此處連結(_L)"
+
+msgid "C_ancel"
+msgstr "取消(_A)"
+
+msgid "Choose a folder"
+msgstr "選擇資料夾"
+
+msgid "C_hoose…"
+msgstr "選擇(_H)…"
+
+msgid "Icon name:"
+msgstr "圖示名稱："
+
+msgid "Choose a Folder"
+msgstr "選擇資料夾"
+
+msgid "_Add"
+msgstr "新增(_A)"
+
+msgid "_Save"
+msgstr "儲存(_S)"
+
+msgid "Show _folders first"
+msgstr "資料夾優先顯示(_F)"
+
+msgid "Show hidden files _last"
+msgstr "隱藏檔案最後顯示(_L)"
+
+msgid "Show _previews"
+msgstr "顯示預覽(_P)"
+
+msgid "Show in _groups"
+msgstr "分組顯示(_G)"
+
+msgid "Show _hidden files"
+msgstr "顯示隱藏檔案(_H)"
+
+msgid "Current folder including all subfolders"
+msgstr "當前資料夾及其所有子資料夾"
+
+msgid "_OK"
+msgstr "確定(_O)"
+
+msgid "modified %s"
+msgstr "修改於 %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "“%2$s”中已存在名為“%1$s”的資料夾。"
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "“%2$s”中已存在名為“%1$s”的檔案。"
+
+msgid "Existing item"
+msgstr "已有專案"
+
+msgid "New item"
+msgstr "新專案"
+
+msgid "_Suggest New Name"
+msgstr "建議新名稱(_S)"
+
+msgid "New name:"
+msgstr "新名稱："
+
+msgid "Apply to _all"
+msgstr "全部應用(_A)"
+
+msgid "S_kip"
+msgstr "跳過(_K)"
+
+msgid "_Write Into"
+msgstr "寫入其中(_W)"
+
+msgid "_Overwrite"
+msgstr "覆蓋(_O)"
+
+msgid "Search icons…"
+msgstr "搜尋圖示…"
+
+msgid "_Image File…"
+msgstr "影像檔案(_I)…"
+
+msgid "_Default Icon"
+msgstr "預設圖示(_D)"
+
+msgid "Choose an Image"
+msgstr "選擇影像"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "網路位置需要 gvfs。請安裝 gvfs 軟體包（Windows 共享還需 gvfs-smb，NFS 需 gvfs-nfs），然後重新登入。"
+
+msgid "This location is not a folder."
+msgstr "此位置不是資料夾。"
+
+msgid "This location is not valid."
+msgstr "此位置無效。"
+
+msgid "This folder is not in the archive."
+msgstr "此資料夾不在歸檔檔案中。"
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s 個較小的檔案"
+
+msgid "(another drive, not counted)"
+msgstr "（其他驅動器，未計入）"
+
+msgid "Some of its contents could not be read."
+msgstr "部分內容無法讀取。"
+
+msgid "%s in files"
+msgstr "檔案共 %s"
+
+msgid "%s on disk"
+msgstr "磁碟上 %s"
+
+msgid "%s files and %s folders"
+msgstr "%s 個檔案和 %s 個資料夾"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "正在讀取… %s，%s 個檔案和 %s 個資料夾"
+
+msgid "Stopped."
+msgstr "已停止。"
+
+msgid "This folder could not be read."
+msgstr "無法讀取此資料夾。"
+
+msgid "%s, read in %.1f s"
+msgstr "%s，用時 %.1f 秒讀取"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] "。%s 個資料夾無法讀取。"
+
+msgid "Only folders on this computer can be measured."
+msgstr "只能測量此電腦上的資料夾。"
+
+msgid "read less than a minute ago"
+msgstr "不到一分鐘前讀取"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d 分鐘前讀取"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d 小時前讀取"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s，%s。重新掃描以再次讀取。"
+
+msgid "_Apparent size"
+msgstr "表觀大小(_A)"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "累加檔案大小，而不是檔案在磁碟上佔用的空間。"
+
+msgid "_Stay on this drive"
+msgstr "留在此驅動器上(_S)"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "不計入掛載在此資料夾中的其他驅動器（例如另一塊磁碟上的音樂資料夾）。從不跟隨連結。"
+
+msgid "Rescan"
+msgstr "重新掃描"
+
+msgid "Close Disk Usage"
+msgstr "關閉磁碟佔用"
+
+msgid "_Rescan"
+msgstr "重新掃描(_R)"
+
+msgid "S_top"
+msgstr "停止(_T)"
+
+msgid "Disk Usage – %s"
+msgstr "磁碟佔用 – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s”已存在。要替換嗎？"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "其中 %zu 個檔案已存在。要替換嗎？"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "您正在儲存的程式將覆蓋現有內容。"
+
+msgid "Choose a folder to save in."
+msgstr "請選擇要儲存到的資料夾。"
+
+msgid "Select Folder"
+msgstr "選擇資料夾"
+
+msgid "Open Files"
+msgstr "開啟檔案"
+
+msgid "Open File"
+msgstr "開啟檔案"
+
+msgid "Save File"
+msgstr "儲存檔案"
+
+msgid "Save Files"
+msgstr "儲存檔案"
+
+msgid "_Folder:"
+msgstr "資料夾(_F)："
+
+msgid "_Name:"
+msgstr "名稱(_N)："
+
+msgid "_Type:"
+msgstr "型別(_T)："
+
+msgid "_Select"
+msgstr "選擇(_S)"
+
+msgid "_Open"
+msgstr "開啟(_O)"
+
+msgid "Create new folder in:\n%s"
+msgstr "在以下位置建立新資料夾：\n%s"
+
+msgid "C_reate"
+msgstr "建立(_R)"
+
+msgid "Could not create the folder."
+msgstr "無法建立資料夾。"
+
+msgid "%zu items selected"
+msgstr "已選擇 %zu 個專案"
+
+msgid "Contents:"
+msgstr "內容："
+
+msgid "Contains:"
+msgstr "包含："
+
+msgid "Counting…"
+msgstr "正在統計…"
+
+msgid "Broken Link"
+msgstr "損壞的連結"
+
+msgid "%s (link)"
+msgstr "%s（連結）"
+
+msgid "other drive"
+msgstr "其他驅動器"
+
+msgid "%s of %s"
+msgstr "%s / %s"
+
+msgid "%s left"
+msgstr "剩餘 %s"
+
+msgid "%d of %d"
+msgstr "%d / %d"
+
+msgid "File operations in progress"
+msgstr "檔案操作正在進行"
+
+msgid "No subfolders"
+msgstr "沒有子資料夾"
+
+msgid "Select the given files in their folders"
+msgstr "在所在資料夾中選中給定的檔案"
+
+msgid "Open the window in split view"
+msgstr "以拆分檢視開啟視窗"
+
+msgid "Always open a new window"
+msgstr "總是開啟新視窗"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "為 FileManager1 D-Bus 服務在後臺保持執行"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "脫離終端（不指定位置時：開啟當前資料夾）"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "執行 xdg-desktop-portal 的檔案選擇器（由 D-Bus 啟動）"
+
+msgid "Show the version"
+msgstr "顯示版本"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[檔案或資料夾…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "正在以管理員身份操作：此視窗中的更改可能損壞系統。"
+
+msgid "Close this window?"
+msgstr "關閉此視窗？"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "此視窗打開了 %zu 個標籤頁。關閉視窗將關閉所有標籤頁。"
+
+msgid "Close Window"
+msgstr "關閉視窗"
+
+msgid "Show _Toolbar"
+msgstr "顯示工具欄(_T)"
+
+msgid "_File"
+msgstr "檔案(_F)"
+
+msgid "New _Window"
+msgstr "新建視窗(_W)"
+
+msgid "New _Tab"
+msgstr "新建標籤頁(_T)"
+
+msgid "_Close Tab"
+msgstr "關閉標籤頁(_C)"
+
+msgid "Create _New"
+msgstr "新建(_N)"
+
+msgid "_Rename…"
+msgstr "重新命名(_R)…"
+
+msgid "_Duplicate Here"
+msgstr "在此處建立副本(_D)"
+
+msgid "Move to _Trash"
+msgstr "移到垃圾桶(_T)"
+
+msgid "_Delete"
+msgstr "刪除(_D)"
+
+msgid "Restore from Trash"
+msgstr "從垃圾桶恢復"
+
+msgid "_Properties"
+msgstr "屬性(_P)"
+
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+msgid "_Undo"
+msgstr "撤銷(_U)"
+
+msgid "_Redo"
+msgstr "重做(_R)"
+
+msgid "Cu_t"
+msgstr "剪下(_T)"
+
+msgid "_Copy"
+msgstr "複製(_C)"
+
+msgid "_Paste"
+msgstr "貼上(_P)"
+
+msgid "_Search…"
+msgstr "搜尋(_S)…"
+
+msgid "Select _All"
+msgstr "全選(_A)"
+
+msgid "_View"
+msgstr "檢視(_V)"
+
+msgid "Zoom _In"
+msgstr "放大(_I)"
+
+msgid "Zoom _Out"
+msgstr "縮小(_O)"
+
+msgid "Re_load"
+msgstr "重新載入(_L)"
+
+msgid "Show _Menubar"
+msgstr "顯示選單欄(_M)"
+
+msgid "Show _Statusbar"
+msgstr "顯示狀態列(_S)"
+
+msgid "_Go"
+msgstr "轉到(_G)"
+
+msgid "_Back"
+msgstr "後退(_B)"
+
+msgid "_Forward"
+msgstr "前進(_F)"
+
+msgid "_Up"
+msgstr "向上(_U)"
+
+msgid "_Home"
+msgstr "主資料夾(_H)"
+
+msgid "_Tools"
+msgstr "工具(_T)"
+
+msgid "Open _Terminal"
+msgstr "開啟終端(_T)"
+
+msgid "Open Terminal _Here"
+msgstr "在此處開啟終端(_H)"
+
+msgid "_Disk Usage…"
+msgstr "磁碟佔用(_D)…"
+
+msgid "_Settings"
+msgstr "設定(_S)"
+
+msgid "Configure Tool_bars…"
+msgstr "設定工具欄(_B)…"
+
+msgid "_Configure Beluga…"
+msgstr "設定 Beluga(_C)…"
+
+msgid "No recently closed tabs"
+msgstr "沒有最近關閉的標籤頁"
+
+msgid "(Administrator)"
+msgstr "（管理員）"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "在新標籤頁中開啟 %zu 個資料夾？"
+
+msgid "Open Folders"
+msgstr "開啟資料夾"
+
+msgid "Could not open “%s”."
+msgstr "無法開啟“%s”。"
+
+msgid "Could not open a terminal."
+msgstr "無法開啟終端。"
+
+msgid "New Text File.txt"
+msgstr "新建文本檔案.txt"
+
+msgid "New File"
+msgstr "新檔案"
+
+msgid "Empty the trash?"
+msgstr "清空垃圾桶？"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "垃圾桶中的所有專案將被永久刪除。此操作無法撤銷。"
+
+msgid "Open %zu terminals?"
+msgstr "開啟 %zu 個終端？"
+
+msgid "Open Terminals"
+msgstr "開啟終端"
+
+msgid "Create new file in:\n%s"
+msgstr "在以下位置建立新檔案：\n%s"
+
+msgid "Could not create the file."
+msgstr "無法建立檔案。"
+
+msgid "Link to File or Folder"
+msgstr "檔案或資料夾的連結"
+
+msgid "Path of the file or folder to link to:"
+msgstr "要連結到的檔案或資料夾的路徑："
+
+msgid "Could not create the link."
+msgstr "無法建立連結。"
+
+msgid "Permanently delete %s?"
+msgstr "永久刪除 %s？"
+
+msgid "This cannot be undone."
+msgstr "此操作無法撤銷。"
+
+msgid "Move %s to the trash?"
+msgstr "將 %s 移到垃圾桶？"
+
+msgid "Could not run “%s”."
+msgstr "無法執行“%s”。"
+
+msgid "Could not start %s."
+msgstr "無法啟動 %s。"
+
+msgid "Could not start the application."
+msgstr "無法啟動應用程式。"
+
+msgid "“%s” is an executable file."
+msgstr "“%s”是執行檔。"
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "要執行它，還是在應用程式中開啟？"
+
+msgid "Run"
+msgstr "執行"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "選擇用來開啟 %s (%s) 的應用程式："
+
+msgid "Or command:"
+msgstr "或命令："
+
+msgid "Remember application association for this type of file"
+msgstr "記住此類檔案的應用程式關聯"
+
+msgid "%s free of %s"
+msgstr "%s 可用，共 %s"
+
+msgid "Configure Sections"
+msgstr "設定分割槽"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "勾選的分割槽會按此順序顯示在位置面板中。"
+
+msgid "Move Up"
+msgstr "上移"
+
+msgid "Move Down"
+msgstr "下移"
+
+msgid "Could not mount the device: %s"
+msgstr "無法掛載裝置：%s"
+
+msgid "Configure Sections…"
+msgstr "設定分割槽…"
+
+msgid "Hide Hidden Entries"
+msgstr "隱藏隱藏的條目"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "垃圾桶中的所有專案將被永久刪除。"
+
+msgid "Could not safely remove the device: %s"
+msgstr "無法安全移除裝置：%s"
+
+msgid "Could not unmount the device: %s"
+msgstr "無法解除安裝裝置：%s"
+
+msgid "%d px"
+msgstr "%d 畫素"
+
+msgid "Use the system _font"
+msgstr "使用系統字型(_F)"
+
+msgid "Context Menu Action"
+msgstr "右鍵選單動作"
+
+msgid "Types:"
+msgstr "型別："
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f 第一個檔案，%F 所有檔案，%u / %U 作為 URI，%n / %N 名稱，%d 當前資料夾。"
+
+msgid "Show for _files"
+msgstr "對檔案顯示(_F)"
+
+msgid "Show for f_olders"
+msgstr "對資料夾顯示(_O)"
+
+msgid "Show when _several items are selected"
+msgstr "選中多個專案時顯示(_S)"
+
+msgid "Run in a _terminal"
+msgstr "在終端中執行(_T)"
+
+msgid "Custom Actions"
+msgstr "自定義動作"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "您自己的檔案和資料夾右鍵選單條目。"
+
+msgid "_Add…"
+msgstr "新增(_A)…"
+
+msgid "_Edit…"
+msgstr "編輯(_E)…"
+
+msgid "_Remove"
+msgstr "移除(_R)"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "快捷鍵寫法如 <Control>c 或 <Shift>Delete。多個快捷鍵用逗號分隔。留空則使用預設值。"
+
+msgid "files below %d MiB"
+msgstr "小於 %d MiB 的檔案"
+
+msgid "_Restore Defaults"
+msgstr "恢復預設值(_R)"
+
+msgid "_Apply"
+msgstr "應用(_A)"
+
+msgid "Folders & Tabs"
+msgstr "資料夾和標籤頁"
+
+msgid "This location:"
+msgstr "此位置："
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "保持一個 Beluga 視窗，在標籤頁中開啟新資料夾"
+
+msgid "Tabs:"
+msgstr "標籤頁："
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "固定寬度的標籤頁放不下時，會全部等量變窄。"
+
+msgid "No terminal found"
+msgstr "未找到終端"
+
+msgid "Detected: %s"
+msgstr "已檢測到：%s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "由 F4 和“在此處開啟終端”使用。命令中的 %d 會被替換為資料夾；否則終端會在該資料夾中啟動。這以前是 KDE 系統設定。"
+
+msgid "New folders:"
+msgstr "新資料夾："
+
+msgid "Show _previews in new folders"
+msgstr "在新資料夾中顯示預覽(_P)"
+
+msgid "Audio (cover art)"
+msgstr "音訊（封面圖）"
+
+msgid "PDF documents"
+msgstr "PDF 文件"
+
+msgid "Text files"
+msgstr "文本檔案"
+
+msgid "Fonts"
+msgstr "字型"
+
+msgid "Office documents"
+msgstr "辦公文件"
+
+msgid "Ask for confirmation when:"
+msgstr "以下情況時請求確認："
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "在 Beluga 中以下情況時請求確認："
+
+msgid "Use _long date format"
+msgstr "使用長日期格式(_L)"
+
+msgid "Show _hidden folders"
+msgstr "顯示隱藏資料夾(_H)"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "自動滾動到當前資料夾(_A)"
+
+msgid "Places Panel:"
+msgstr "位置面板："
+
+msgid "Status & Location bars"
+msgstr "狀態列和位置欄"
+
+msgid "Show free _space"
+msgstr "顯示可用空間(_S)"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "無論哪種情況，檢視 › 記住此資料夾的檢視 都能為某個資料夾設定獨立樣式。搜尋、最近檔案或垃圾桶等特殊檢視始終使用自己的樣式。"
+
+msgid "Open files and folders with a single click"
+msgstr "單擊開啟檔案和資料夾"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "為主資料夾維護索引以便即時搜尋(_I)"
+
+msgid "levels deep"
+msgstr "層深"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "相對（今天、昨天…）"
+
+msgid "Absolute"
+msgstr "絕對"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "符號（rwxr-xr-x）"
+
+msgid "Numeric (0755)"
+msgstr "數字（0755）"
+
+msgid "Combined"
+msgstr "組合"
+
+msgid "Elide in the middle"
+msgstr "在中間省略"
+
+msgid "Elide at the end"
+msgstr "在末尾省略"
+
+msgid "Disk usage:"
+msgstr "磁碟佔用："
+
+msgid "Show a Disk _Usage column"
+msgstr "顯示磁碟佔用列(_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "每個檔案和每個完整資料夾在磁碟上佔用的空間，並用條形顯示其在資料夾中的佔比，與 工具 › 磁碟佔用 相同。資料夾會在後臺完整讀取；按此列排序可先看到最大的專案。磁碟佔用視窗中的“留在此驅動器上”在這裡同樣適用。"
+
+msgid "Show in the context menu"
+msgstr "在右鍵選單中顯示"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "“複製到”和“移動到”"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "刪除（除“移到垃圾桶”外）"
+
+msgid "Cleanup:"
+msgstr "清理："
+
+msgid "Delete files older than"
+msgstr "刪除早於以下時間的檔案"
+
+msgid "days"
+msgstr "天"
+
+msgid "Limit to"
+msgstr "限制為"
+
+msgid "percent of the disk"
+msgstr "磁碟百分比"
+
+msgid "Keep the trash on the home drive"
+msgstr "將垃圾桶保留在主資料夾所在的驅動器上"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "從其他驅動器移到垃圾桶的檔案會複製到主資料夾的垃圾桶中，因此這些驅動器上不會出現 .Trash-1000 資料夾。將大檔案移到垃圾桶會花更長時間。"
+
+msgid "Full trash:"
+msgstr "垃圾桶已滿："
+
+msgid "When the limit is reached:"
+msgstr "達到上限時："
+
+msgid "Show a warning"
+msgstr "顯示警告"
+
+msgid "Delete the oldest items"
+msgstr "刪除最舊的專案"
+
+msgid "Delete the largest items"
+msgstr "刪除最大的專案"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "這些以前是 KDE 系統設定。限制會在 Beluga 啟動時以及將專案移到垃圾桶後應用。"
+
+msgid "Calculating trash size…"
+msgstr "正在計算垃圾桶大小…"
+
+msgid "The trash currently uses %s."
+msgstr "垃圾桶當前佔用 %s。"
+
+msgid "_Empty Trash Now"
+msgstr "立即清空垃圾桶(_E)"
+
+msgid "Vim Mode"
+msgstr "Vim 模式"
+
+msgid "Vim mode:"
+msgstr "Vim 模式："
+
+msgid "Use Vim-like keys in the views"
+msgstr "在檢視中使用類似 Vim 的按鍵"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "普通模式下用 h j k l 移動並執行下方的按鍵；v、V 和 Ctrl+V 用於選擇；i 和 a 用於重新命名（插入模式）；Esc 返回普通模式；: 開啟命令列。此處未列出的 Ctrl 或 Alt 組合鍵保持原有含義。"
+
+msgid "Leader key:"
+msgstr "Leader 鍵："
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "下方按鍵中的 <leader>，例如 <Space> 或 ,"
+
+msgid "Wait for more keys:"
+msgstr "等待更多按鍵："
+
+msgid "ms (dd after d, gg after g)"
+msgstr "毫秒（d 之後的 dd，g 之後的 gg）"
+
+msgid "Keys"
+msgstr "按鍵"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim 記法，多個用空格分隔：h、gg、<C-v>、<CR>、<Esc>、<leader>t。留空則使用預設值。"
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q 關閉視窗 (:q! 不詢問標籤頁), :qa 退出 Beluga, :e / :cd 路徑 開啟資料夾, :tabnew [路徑], :tabclose, :tabonly, :sp / :vs [路徑] 拆分檢視, :only 關閉另一個檢視, :mkdir 名稱, :touch 名稱, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!命令 在資料夾中執行 shell 命令."
+
+msgid "Keyboard Shortcuts"
+msgstr "鍵盤快捷鍵"
+
+msgid "Only files on this computer can be read."
+msgstr "只能讀取此電腦上的檔案。"
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga 構建時未包含 FFmpeg。"
+
+msgid "Reading…"
+msgstr "正在讀取…"
+
+msgid "No details found."
+msgstr "未找到詳細資訊。"
+
+msgid "Change the folder's icon"
+msgstr "更改資料夾圖示"
+
+msgid "Could not change the icon."
+msgstr "無法更改圖示。"
+
+msgid "%zu items"
+msgstr "%zu 個專案"
+
+msgid "No default application"
+msgstr "沒有預設應用程式"
+
+msgid "C_hange…"
+msgstr "更改(_H)…"
+
+msgid "Opens with:"
+msgstr "開啟方式："
+
+msgid "Can View"
+msgstr "可檢視"
+
+msgid "Can View Content"
+msgstr "可檢視內容"
+
+msgid "Is _executable"
+msgstr "可執行(_E)"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "將更改應用到所有子資料夾及其內容(_S)"
+
+msgid "Could not read the file."
+msgstr "無法讀取檔案。"
+
+msgid "Paste a checksum to compare"
+msgstr "貼上要比較的校驗和"
+
+msgid "Verify:"
+msgstr "驗證："
+
+msgid "The checksums match."
+msgstr "校驗和一致。"
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "沒有計算出的校驗和一致。請先計算對應的型別。"
+
+msgid "Could not change the permissions."
+msgstr "無法更改權限。"
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "按名稱過濾（可使用 *.txt 等萬用字元）"
+
+msgid "Keep the filter when changing folders"
+msgstr "切換資料夾時保留過濾"
+
+msgid "In This Folder"
+msgstr "在此資料夾中"
+
+msgid "In Your Files"
+msgstr "在您的檔案中"
+
+msgid "Any Time"
+msgstr "任何時間"
+
+msgid "Last 7 Days"
+msgstr "最近 7 天"
+
+msgid "Last 30 Days"
+msgstr "最近 30 天"
+
+msgid "Last Year"
+msgstr "最近一年"
+
+msgid "Hidden files"
+msgstr "隱藏檔案"
+
+msgid "Duplicate Tab"
+msgstr "複製標籤頁"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "列表中位於位置欄上方的動作顯示在其左側，其餘的顯示在右側。* 標記不在預設位置的動作。"
+
+msgid "A_vailable actions:"
+msgstr "可用動作(_V)："
+
+msgid "Add to the tool bar"
+msgstr "新增到工具欄"
+
+msgid "Remove from the tool bar"
+msgstr "從工具欄移除"
+
+msgid "Move up (left on the tool bar)"
+msgstr "上移（工具欄中靠左）"
+
+msgid "Move down (right on the tool bar)"
+msgstr "下移（工具欄中靠右）"
+
+msgid "C_urrent actions:"
+msgstr "當前動作(_U)："
+
+msgid "_Defaults"
+msgstr "預設值(_D)"
+
+msgid "Show Columns"
+msgstr "顯示列"
+
+msgid "Modified: %s"
+msgstr "修改時間：%s"
+
+msgid "Original location: %s"
+msgstr "原始位置：%s"
+
+msgid "Less than 1 MiB"
+msgstr "小於 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB 到 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB 到 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB 或更大"
+
+msgid "Not counted yet"
+msgstr "尚未統計"
+
+msgid "A file name cannot contain “/”."
+msgstr "檔名不能包含“/”。"
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "將“%s”重新命名為“%s”會改變其副檔名。該檔案可能會用其他應用程式開啟，或根本無法開啟。"
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "選擇模式：點選檔案或資料夾以選中或取消選中。"
+
+msgid "_Exit Selection Mode"
+msgstr "退出選擇模式(_E)"
+
+msgid "_Duplicate"
+msgstr "建立副本(_D)"
+
+msgid "De_lete"
+msgstr "刪除(_L)"
+
+msgid "Pr_operties"
+msgstr "屬性(_O)"
+
+msgid "The folder “%s” no longer exists."
+msgstr "資料夾“%s”已不存在。"
+
+msgid "“%s” selected (%s%s)"
+msgstr "已選中“%s”（%s%s）"
+
+msgid "%s selected"
+msgstr "已選中 %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "已選中 %d 個"
+
+msgid "Move left"
+msgstr "左移"
+
+msgid "Move down"
+msgstr "下移"
+
+msgid "Move up"
+msgstr "上移"
+
+msgid "Move right"
+msgstr "右移"
+
+msgid "First item"
+msgstr "第一個專案"
+
+msgid "Last item"
+msgstr "最後一個專案"
+
+msgid "Page down"
+msgstr "向下翻頁"
+
+msgid "Page up"
+msgstr "向上翻頁"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "選擇游標經過的專案（可視）"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "像按住 Shift 一樣選擇一個範圍（可視行）"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "選擇網格中的一個塊（可視塊）"
+
+msgid "Back to normal mode"
+msgstr "返回普通模式"
+
+msgid "Copy the item under the cursor"
+msgstr "複製游標處的專案"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "重新命名，游標在開頭（插入）"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "重新命名，游標在名稱後（追加）"
+
+msgid "Rename, name selected (change)"
+msgstr "重新命名，選中名稱（修改）"
+
+msgid "Edit the location"
+msgstr "編輯位置"
+
+msgid "Copied."
+msgstr "已複製。"
+
+msgid "Cut."
+msgstr "已剪下。"
+
+msgid "Can't open “%s”."
+msgstr "無法開啟“%s”。"
+
+msgid "A name is needed."
+msgstr "需要一個名稱。"
+
+msgid "Unknown view: %s"
+msgstr "未知檢視：%s"
+
+msgid "Unknown option: %s"
+msgstr "未知選項：%s"
+
+msgid "Sort by name, size, date or type."
+msgstr "按 name、size、date 或 type 排序。"
+
+msgid "Not a command: %s"
+msgstr "不是命令：%s"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Files"
+msgstr "檔案"
+
+msgid "Recommended Applications"
+msgstr "推薦的應用程式"
+
+msgid "Other Applications"
+msgstr "其他應用程式"
+
+msgid "Command line"
+msgstr "命令列"
+
+msgid "No items found"
+msgstr "未找到專案"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s 可用，共 %s（已用 %d%%）"

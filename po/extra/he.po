@@ -1,0 +1,1439 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
+
+msgid "The archive could not be opened."
+msgstr "לא ניתן לפתוח את הארכיון."
+
+msgid "The archive could not be read."
+msgstr "לא ניתן לקרוא את הארכיון."
+
+msgid "Cancelled."
+msgstr "בוטל."
+
+msgid "This file is encrypted with a password."
+msgstr "הקובץ מוצפן בססמה."
+
+msgid "“%s” could not be read."
+msgstr "לא ניתן לקרוא את „%s”."
+
+msgid "This is not a file in an archive."
+msgstr "זה אינו קובץ בתוך ארכיון."
+
+msgid "Extract Here"
+msgstr "חילוץ לכאן"
+
+msgid "Compress to .tar.gz"
+msgstr "דחיסה ל־.tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "לא נמצא מדמה מסוף."
+
+msgid "Root"
+msgstr "שורש"
+
+msgid "%s Volume"
+msgstr "כרך %s"
+
+msgid "This device cannot be mounted."
+msgstr "לא ניתן לעגן את ההתקן הזה."
+
+msgid "This device cannot be unmounted."
+msgstr "לא ניתן לנתק את ההתקן הזה."
+
+msgid "The device is gone."
+msgstr "ההתקן כבר לא קיים."
+
+msgid "Copying %s to “%s”"
+msgstr "%s מועתק אל „%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "%s מועבר אל „%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "%s מקושר ב־„%s”"
+
+msgid "Moving %s to the trash"
+msgstr "%s מועבר לאשפה"
+
+msgid "Deleting %s"
+msgstr "%s נמחק"
+
+msgid "Restoring %s"
+msgstr "%s משוחזר"
+
+msgid "Emptying the trash"
+msgstr "האשפה מרוקנת"
+
+msgid "Counting files…"
+msgstr "הקבצים נספרים…"
+
+msgid "“%s”: %s"
+msgstr "„%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "אי אפשר להעביר תיקייה לתוך עצמה."
+
+msgid "A folder cannot be copied into itself."
+msgstr "אי אפשר להעתיק תיקייה לתוך עצמה."
+
+msgid "Files can only be extracted into local folders."
+msgstr "ניתן לחלץ קבצים רק לתיקיות מקומיות."
+
+msgid "Extracting from “%s”"
+msgstr "חילוץ מתוך „%s”"
+
+msgid "Disc:"
+msgstr "תקליטור:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "קצב סיביות:"
+
+msgid "Cover:"
+msgstr "עטיפה:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f תמונות לשנייה"
+
+msgid ", %.3f fps"
+msgstr ", %.3f תמונות לשנייה"
+
+msgid "Video %d:"
+msgstr "וידאו %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "מונו"
+
+msgid "stereo"
+msgstr "סטריאו"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "ערוץ %d"
+msgstr[1] "%d ערוצים"
+msgstr[2] "%d ערוצים"
+msgstr[3] "%d ערוצים"
+
+msgid ", %d bit"
+msgstr ", %d סיביות"
+
+msgid "Audio %d:"
+msgstr "שמע %d:"
+
+msgid "Subtitles:"
+msgstr "כתוביות:"
+
+msgid "Chapters:"
+msgstr "פרקים:"
+
+msgid "Images"
+msgstr "תמונות"
+
+msgid "Archives"
+msgstr "ארכיונים"
+
+msgid "Search for “%s”"
+msgstr "חיפוש „%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "לא נמצא מדמה מסוף. יש להגדיר אחד בהגדרת Beluga › כללי › מסוף."
+
+msgid "This file system has no trash."
+msgstr "למערכת הקבצים הזו אין אשפה."
+
+msgid "Could not create the trash information file."
+msgstr "לא ניתן ליצור את קובץ המידע של האשפה."
+
+msgid "“%s” already exists."
+msgstr "„%s” כבר קיים."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "האשפה גדולה מהמגבלה של %s. כדאי לרוקן אותה."
+
+msgid "Create File"
+msgstr "יצירת קובץ"
+
+msgid "Undo: %s"
+msgstr "ביטול: %s"
+
+msgid "Redo: %s"
+msgstr "ביצוע מחדש: %s"
+
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "פריט %d"
+msgstr[1] "%d פריטים"
+msgstr[2] "%d פריטים"
+msgstr[3] "%d פריטים"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "קובץ %d"
+msgstr[1] "%d קבצים"
+msgstr[2] "%d קבצים"
+msgstr[3] "%d קבצים"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "תיקייה %d"
+msgstr[1] "%d תיקיות"
+msgstr[2] "%d תיקיות"
+msgstr[3] "%d תיקיות"
+
+msgid "Today at %s"
+msgstr "היום ב־%s"
+
+msgid "Yesterday at %s"
+msgstr "אתמול ב־%s"
+
+msgid "%A at %H:%M"
+msgstr "%A ב־%H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld דק׳ %ld שנ׳"
+
+msgid "%ld h %ld min"
+msgstr "%ld שע׳ %ld דק׳"
+
+msgid "%s copy %d"
+msgstr "%s עותק %d"
+
+msgid "Disk Usage"
+msgstr "ניצול הכונן"
+
+msgid "Extension"
+msgstr "סיומת"
+
+msgid "Original Location"
+msgstr "מיקום מקורי"
+
+msgid "Beluga could not act as administrator."
+msgstr "ל־Beluga לא הייתה אפשרות לפעול כמנהל."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "כדי לבקש את ססמת המנהל נדרש pkexec (polkit). יש להתקין polkit וסוכן polkit לשולחן העבודה שלך."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "חלון Beluga עם הרשאות מנהל יכול לשנות ולמחוק כל קובץ במחשב הזה, כולל הקבצים שהמערכת צריכה כדי לעלות. טעות שם עלולה להשבית את המערכת. יש להשתמש בו רק לקבצים שאי אפשר לשנות בדרך אחרת, ולסגור אותו בסיום.\n\nלאחר מכן Beluga תבקש את ססמת המנהל."
+
+msgid "Columns View"
+msgstr "תצוגת עמודות"
+
+msgid "Reset Zoom"
+msgstr "איפוס התקריב"
+
+msgid "Pop out Split View"
+msgstr "הוצאת התצוגה המפוצלת"
+
+msgid "Places Panel"
+msgstr "לוח מקומות"
+
+msgid "Disk Usage Panel"
+msgstr "לוח ניצול הכונן"
+
+msgid "Go to Tab 1"
+msgstr "מעבר ללשונית 1"
+
+msgid "Go to Tab 2"
+msgstr "מעבר ללשונית 2"
+
+msgid "Go to Tab 3"
+msgstr "מעבר ללשונית 3"
+
+msgid "Go to Tab 4"
+msgstr "מעבר ללשונית 4"
+
+msgid "Go to Tab 5"
+msgstr "מעבר ללשונית 5"
+
+msgid "Go to Tab 6"
+msgstr "מעבר ללשונית 6"
+
+msgid "Go to Tab 7"
+msgstr "מעבר ללשונית 7"
+
+msgid "Go to Tab 8"
+msgstr "מעבר ללשונית 8"
+
+msgid "Go to Tab 9"
+msgstr "מעבר ללשונית 9"
+
+msgid "Configure Beluga"
+msgstr "הגדרת Beluga"
+
+msgid "Undo failed."
+msgstr "הביטול נכשל."
+
+msgid "Folder…"
+msgstr "תיקייה…"
+
+msgid "Text File…"
+msgstr "קובץ טקסט…"
+
+msgid "Empty File…"
+msgstr "קובץ ריק…"
+
+msgid "Link to File or Folder…"
+msgstr "קישור לקובץ או לתיקייה…"
+
+msgid "Other View (%s)"
+msgstr "תצוגה אחרת (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "לזכור את התצוגה עבור תיקייה זו"
+
+msgid "Open in Beluga"
+msgstr "פתיחה ב־Beluga"
+
+msgid "Paste into Folder"
+msgstr "הדבקה לתיקייה"
+
+msgid "_Cancel"
+msgstr "_ביטול"
+
+msgid "The name cannot contain “/”."
+msgstr "השם לא יכול להכיל „/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "שם שמתחיל בנקודה מוסתר."
+
+msgid "Some items could not be renamed."
+msgstr "לא ניתן היה לשנות את שמם של חלק מהפריטים."
+
+msgid "Rename “%s” to:"
+msgstr "שינוי השם של „%s” ל:"
+
+msgid "_Rename"
+msgstr "_שינוי שם"
+
+msgid "Could not rename “%s”."
+msgstr "לא ניתן לשנות את השם של „%s”."
+
+msgid "Change the file type?"
+msgstr "לשנות את סוג הקובץ?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "שינוי השם של „%s” ל־„%s” משנה את הסיומת שלו."
+
+msgid "Rename the %zu selected items to:"
+msgstr "שינוי השם של %zu הפריטים הנבחרים ל:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# מוחלף במספרים עולים; יש להשתמש ב־## לאפסים מובילים. הסיומות נשמרות."
+
+msgid "Start numbering at:"
+msgstr "התחלת המספור מ:"
+
+msgid "_Move Here"
+msgstr "ה_עברה לכאן"
+
+msgid "_Copy Here"
+msgstr "ה_עתקה לכאן"
+
+msgid "_Link Here"
+msgstr "_קישור לכאן"
+
+msgid "C_ancel"
+msgstr "ב_יטול"
+
+msgid "Choose a folder"
+msgstr "בחירת תיקייה"
+
+msgid "C_hoose…"
+msgstr "_בחירה…"
+
+msgid "Icon name:"
+msgstr "שם הסמל:"
+
+msgid "Choose a Folder"
+msgstr "בחירת תיקייה"
+
+msgid "_Add"
+msgstr "הו_ספה"
+
+msgid "_Save"
+msgstr "_שמירה"
+
+msgid "Show _folders first"
+msgstr "הצגת _תיקיות תחילה"
+
+msgid "Show hidden files _last"
+msgstr "הצגת קבצים מוסתרים _בסוף"
+
+msgid "Show _previews"
+msgstr "הצגת _תצוגות מקדימות"
+
+msgid "Show in _groups"
+msgstr "הצגה ב_קבוצות"
+
+msgid "Show _hidden files"
+msgstr "הצגת קבצים _מוסתרים"
+
+msgid "Current folder including all subfolders"
+msgstr "התיקייה הנוכחית כולל כל תתי־התיקיות"
+
+msgid "_OK"
+msgstr "_אישור"
+
+msgid "modified %s"
+msgstr "שונה %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "תיקייה בשם „%s” כבר קיימת ב־„%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "קובץ בשם „%s” כבר קיים ב־„%s”."
+
+msgid "Existing item"
+msgstr "פריט קיים"
+
+msgid "New item"
+msgstr "פריט חדש"
+
+msgid "_Suggest New Name"
+msgstr "ה_צעת שם חדש"
+
+msgid "New name:"
+msgstr "שם חדש:"
+
+msgid "Apply to _all"
+msgstr "החלה על ה_כול"
+
+msgid "S_kip"
+msgstr "_דילוג"
+
+msgid "_Write Into"
+msgstr "_כתיבה לתוכו"
+
+msgid "_Overwrite"
+msgstr "_דריסה"
+
+msgid "Search icons…"
+msgstr "חיפוש סמלים…"
+
+msgid "_Image File…"
+msgstr "קובץ _תמונה…"
+
+msgid "_Default Icon"
+msgstr "סמל _ברירת מחדל"
+
+msgid "Choose an Image"
+msgstr "בחירת תמונה"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "מקומות ברשת דורשים gvfs. יש להתקין את החבילה gvfs (וגם gvfs-smb לשיתופי Windows, gvfs-nfs ל־NFS), ואז להתנתק ולהתחבר מחדש."
+
+msgid "This location is not a folder."
+msgstr "המיקום הזה אינו תיקייה."
+
+msgid "This location is not valid."
+msgstr "המיקום הזה אינו תקין."
+
+msgid "This folder is not in the archive."
+msgstr "התיקייה הזו אינה בארכיון."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "קובץ %s קטן יותר"
+msgstr[1] "%s קבצים קטנים יותר"
+msgstr[2] "%s קבצים קטנים יותר"
+msgstr[3] "%s קבצים קטנים יותר"
+
+msgid "(another drive, not counted)"
+msgstr "(כונן אחר, לא נספר)"
+
+msgid "Some of its contents could not be read."
+msgstr "לא ניתן היה לקרוא חלק מהתוכן."
+
+msgid "%s in files"
+msgstr "%s בקבצים"
+
+msgid "%s on disk"
+msgstr "%s בכונן"
+
+msgid "%s files and %s folders"
+msgstr "%s קבצים ו־%s תיקיות"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "בקריאה… %s ב־%s קבצים ו־%s תיקיות"
+
+msgid "Stopped."
+msgstr "נעצר."
+
+msgid "This folder could not be read."
+msgstr "לא ניתן לקרוא את התיקייה הזו."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, נקרא תוך %.1f שנ׳"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". לא ניתן היה לקרוא תיקייה %s."
+msgstr[1] ". לא ניתן היה לקרוא %s תיקיות."
+msgstr[2] ". לא ניתן היה לקרוא %s תיקיות."
+msgstr[3] ". לא ניתן היה לקרוא %s תיקיות."
+
+msgid "Only folders on this computer can be measured."
+msgstr "ניתן למדוד רק תיקיות במחשב הזה."
+
+msgid "read less than a minute ago"
+msgstr "נקרא לפני פחות מדקה"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "נקרא לפני דקה %d"
+msgstr[1] "נקרא לפני %d דקות"
+msgstr[2] "נקרא לפני %d דקות"
+msgstr[3] "נקרא לפני %d דקות"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "נקרא לפני שעה %d"
+msgstr[1] "נקרא לפני %d שעות"
+msgstr[2] "נקרא לפני %d שעות"
+msgstr[3] "נקרא לפני %d שעות"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. יש לסרוק מחדש כדי לקרוא שוב."
+
+msgid "_Apparent size"
+msgstr "גודל _נראה"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "סכימת גודלי הקבצים במקום שטח הכונן שהם תופסים."
+
+msgid "_Stay on this drive"
+msgstr "_להישאר בכונן הזה"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "לא לספור כוננים אחרים שמעוגנים בתוך התיקייה הזו (כמו תיקיית מוזיקה בכונן אחר). לעולם לא עוקבים אחר קישורים."
+
+msgid "Rescan"
+msgstr "סריקה מחדש"
+
+msgid "Close Disk Usage"
+msgstr "סגירת ניצול הכונן"
+
+msgid "_Rescan"
+msgstr "_סריקה מחדש"
+
+msgid "S_top"
+msgstr "_עצירה"
+
+msgid "Disk Usage – %s"
+msgstr "ניצול הכונן – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "„%s” כבר קיים. להחליף אותו?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu מהקבצים האלה כבר קיימים. להחליף אותם?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "התוכנה שממנה שומרים תכתוב על התוכן הקיים."
+
+msgid "Choose a folder to save in."
+msgstr "יש לבחור תיקייה לשמירה."
+
+msgid "Select Folder"
+msgstr "בחירת תיקייה"
+
+msgid "Open Files"
+msgstr "פתיחת קבצים"
+
+msgid "Open File"
+msgstr "פתיחת קובץ"
+
+msgid "Save File"
+msgstr "שמירת קובץ"
+
+msgid "Save Files"
+msgstr "שמירת קבצים"
+
+msgid "_Folder:"
+msgstr "_תיקייה:"
+
+msgid "_Name:"
+msgstr "_שם:"
+
+msgid "_Type:"
+msgstr "_סוג:"
+
+msgid "_Select"
+msgstr "_בחירה"
+
+msgid "_Open"
+msgstr "_פתיחה"
+
+msgid "Create new folder in:\n%s"
+msgstr "יצירת תיקייה חדשה ב:\n%s"
+
+msgid "C_reate"
+msgstr "י_צירה"
+
+msgid "Could not create the folder."
+msgstr "לא ניתן ליצור את התיקייה."
+
+msgid "%zu items selected"
+msgstr "%zu פריטים נבחרו"
+
+msgid "Contents:"
+msgstr "תוכן:"
+
+msgid "Contains:"
+msgstr "מכיל:"
+
+msgid "Counting…"
+msgstr "בספירה…"
+
+msgid "Broken Link"
+msgstr "קישור שבור"
+
+msgid "%s (link)"
+msgstr "%s (קישור)"
+
+msgid "other drive"
+msgstr "כונן אחר"
+
+msgid "%s of %s"
+msgstr "%s מתוך %s"
+
+msgid "%s left"
+msgstr "נותרו %s"
+
+msgid "%d of %d"
+msgstr "%d מתוך %d"
+
+msgid "File operations in progress"
+msgstr "פעולות קבצים מתבצעות"
+
+msgid "No subfolders"
+msgstr "אין תתי־תיקיות"
+
+msgid "Select the given files in their folders"
+msgstr "בחירת הקבצים הנתונים בתיקיות שלהם"
+
+msgid "Open the window in split view"
+msgstr "פתיחת החלון בתצוגה מפוצלת"
+
+msgid "Always open a new window"
+msgstr "תמיד לפתוח חלון חדש"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "להמשיך לרוץ ברקע עבור שירות ה־D-Bus‏ FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "ניתוק מהמסוף (ללא מיקום: פותח את התיקייה הנוכחית)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "הפעלת בורר הקבצים עבור xdg-desktop-portal (מופעל על ידי D-Bus)"
+
+msgid "Show the version"
+msgstr "הצגת הגרסה"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[קובץ או תיקייה…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "פועל כמנהל: שינויים בחלון הזה עלולים להזיק למערכת."
+
+msgid "Close this window?"
+msgstr "לסגור את החלון הזה?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "בחלון הזה פתוחות %zu לשוניות. סגירתו תסגור את כולן."
+
+msgid "Close Window"
+msgstr "סגירת החלון"
+
+msgid "Show _Toolbar"
+msgstr "הצגת סרגל ה_כלים"
+
+msgid "_File"
+msgstr "_קובץ"
+
+msgid "New _Window"
+msgstr "_חלון חדש"
+
+msgid "New _Tab"
+msgstr "_לשונית חדשה"
+
+msgid "_Close Tab"
+msgstr "_סגירת לשונית"
+
+msgid "Create _New"
+msgstr "יצירת _חדש"
+
+msgid "_Rename…"
+msgstr "_שינוי שם…"
+
+msgid "_Duplicate Here"
+msgstr "_שכפול לכאן"
+
+msgid "Move to _Trash"
+msgstr "העברה ל_אשפה"
+
+msgid "_Delete"
+msgstr "_מחיקה"
+
+msgid "Restore from Trash"
+msgstr "שחזור מהאשפה"
+
+msgid "_Properties"
+msgstr "_מאפיינים"
+
+msgid "_Quit"
+msgstr "י_ציאה"
+
+msgid "_Edit"
+msgstr "_עריכה"
+
+msgid "_Undo"
+msgstr "_ביטול"
+
+msgid "_Redo"
+msgstr "_ביצוע מחדש"
+
+msgid "Cu_t"
+msgstr "_גזירה"
+
+msgid "_Copy"
+msgstr "ה_עתקה"
+
+msgid "_Paste"
+msgstr "ה_דבקה"
+
+msgid "_Search…"
+msgstr "_חיפוש…"
+
+msgid "Select _All"
+msgstr "בחירת ה_כול"
+
+msgid "_View"
+msgstr "_תצוגה"
+
+msgid "Zoom _In"
+msgstr "הת_קרבה"
+
+msgid "Zoom _Out"
+msgstr "הת_רחקה"
+
+msgid "Re_load"
+msgstr "_רענון"
+
+msgid "Show _Menubar"
+msgstr "הצגת סרגל ה_תפריטים"
+
+msgid "Show _Statusbar"
+msgstr "הצגת שורת ה_מצב"
+
+msgid "_Go"
+msgstr "_מעבר"
+
+msgid "_Back"
+msgstr "_אחורה"
+
+msgid "_Forward"
+msgstr "_קדימה"
+
+msgid "_Up"
+msgstr "למ_עלה"
+
+msgid "_Home"
+msgstr "_בית"
+
+msgid "_Tools"
+msgstr "_כלים"
+
+msgid "Open _Terminal"
+msgstr "פתיחת _מסוף"
+
+msgid "Open Terminal _Here"
+msgstr "פתיחת מסוף _כאן"
+
+msgid "_Disk Usage…"
+msgstr "_ניצול הכונן…"
+
+msgid "_Settings"
+msgstr "_הגדרות"
+
+msgid "Configure Tool_bars…"
+msgstr "הגדרת _סרגלי כלים…"
+
+msgid "_Configure Beluga…"
+msgstr "_הגדרת Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "אין לשוניות שנסגרו לאחרונה"
+
+msgid "(Administrator)"
+msgstr "(מנהל)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "לפתוח %zu תיקיות בלשוניות חדשות?"
+
+msgid "Open Folders"
+msgstr "פתיחת תיקיות"
+
+msgid "Could not open “%s”."
+msgstr "לא ניתן לפתוח את „%s”."
+
+msgid "Could not open a terminal."
+msgstr "לא ניתן לפתוח מסוף."
+
+msgid "New Text File.txt"
+msgstr "קובץ טקסט חדש.txt"
+
+msgid "New File"
+msgstr "קובץ חדש"
+
+msgid "Empty the trash?"
+msgstr "לרוקן את האשפה?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "כל הפריטים באשפה יימחקו לצמיתות. אי אפשר לבטל זאת."
+
+msgid "Open %zu terminals?"
+msgstr "לפתוח %zu מסופים?"
+
+msgid "Open Terminals"
+msgstr "פתיחת מסופים"
+
+msgid "Create new file in:\n%s"
+msgstr "יצירת קובץ חדש ב:\n%s"
+
+msgid "Could not create the file."
+msgstr "לא ניתן ליצור את הקובץ."
+
+msgid "Link to File or Folder"
+msgstr "קישור לקובץ או לתיקייה"
+
+msgid "Path of the file or folder to link to:"
+msgstr "נתיב הקובץ או התיקייה לקישור:"
+
+msgid "Could not create the link."
+msgstr "לא ניתן ליצור את הקישור."
+
+msgid "Permanently delete %s?"
+msgstr "למחוק את %s לצמיתות?"
+
+msgid "This cannot be undone."
+msgstr "אי אפשר לבטל זאת."
+
+msgid "Move %s to the trash?"
+msgstr "להעביר את %s לאשפה?"
+
+msgid "Could not run “%s”."
+msgstr "לא ניתן להריץ את „%s”."
+
+msgid "Could not start %s."
+msgstr "לא ניתן להפעיל את %s."
+
+msgid "Could not start the application."
+msgstr "לא ניתן להפעיל את היישום."
+
+msgid "“%s” is an executable file."
+msgstr "„%s” הוא קובץ הפעלה."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "להריץ אותו או לפתוח אותו ביישום?"
+
+msgid "Run"
+msgstr "הרצה"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "בחירת היישום לפתיחת %s (%s):"
+
+msgid "Or command:"
+msgstr "או פקודה:"
+
+msgid "Remember application association for this type of file"
+msgstr "לזכור את שיוך היישום לסוג קובץ זה"
+
+msgid "%s free of %s"
+msgstr "%s פנויים מתוך %s"
+
+msgid "Configure Sections"
+msgstr "הגדרת מקטעים"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "המקטעים המסומנים מוצגים בלוח המקומות בסדר הזה."
+
+msgid "Move Up"
+msgstr "העברה למעלה"
+
+msgid "Move Down"
+msgstr "העברה למטה"
+
+msgid "Could not mount the device: %s"
+msgstr "לא ניתן לעגן את ההתקן: %s"
+
+msgid "Configure Sections…"
+msgstr "הגדרת מקטעים…"
+
+msgid "Hide Hidden Entries"
+msgstr "הסתרת רשומות מוסתרות"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "כל הפריטים באשפה יימחקו לצמיתות."
+
+msgid "Could not safely remove the device: %s"
+msgstr "לא ניתן להסיר את ההתקן בבטחה: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "לא ניתן לנתק את ההתקן: %s"
+
+msgid "%d px"
+msgstr "%d פיקסלים"
+
+msgid "Use the system _font"
+msgstr "להשתמש בגופן ה_מערכת"
+
+msgid "Context Menu Action"
+msgstr "פעולת תפריט הקשר"
+
+msgid "Types:"
+msgstr "סוגים:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f הקובץ הראשון, %F כל הקבצים, %u / %U ככתובות URI, %n / %N שמות, %d התיקייה הנוכחית."
+
+msgid "Show for _files"
+msgstr "הצגה עבור _קבצים"
+
+msgid "Show for f_olders"
+msgstr "הצגה עבור _תיקיות"
+
+msgid "Show when _several items are selected"
+msgstr "הצגה כש_כמה פריטים נבחרו"
+
+msgid "Run in a _terminal"
+msgstr "הרצה ב_מסוף"
+
+msgid "Custom Actions"
+msgstr "פעולות מותאמות אישית"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "הרשומות שלך לתפריט ההקשר של קבצים ותיקיות."
+
+msgid "_Add…"
+msgstr "הו_ספה…"
+
+msgid "_Edit…"
+msgstr "_עריכה…"
+
+msgid "_Remove"
+msgstr "ה_סרה"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "קיצורי מקשים נכתבים כמו <Control>c או <Shift>Delete. יש להפריד כמה בפסיקים. יש להשאיר שדה ריק לברירת המחדל."
+
+msgid "files below %d MiB"
+msgstr "קבצים מתחת ל־%d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_שחזור ברירות המחדל"
+
+msgid "_Apply"
+msgstr "ה_חלה"
+
+msgid "Folders & Tabs"
+msgstr "תיקיות ולשוניות"
+
+msgid "This location:"
+msgstr "המיקום הזה:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "לשמור חלון Beluga יחיד ולפתוח תיקיות חדשות בלשוניות"
+
+msgid "Tabs:"
+msgstr "לשוניות:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "לשוניות ברוחב קבוע נעשות צרות יותר, כולן באותה מידה, כשאינן נכנסות."
+
+msgid "No terminal found"
+msgstr "לא נמצא מסוף"
+
+msgid "Detected: %s"
+msgstr "זוהה: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "בשימוש של F4 ושל פתיחת מסוף כאן. ‎%d בפקודה מוחלף בתיקייה; אחרת המסוף מתחיל בה. בעבר זו הייתה הגדרת מערכת של KDE."
+
+msgid "New folders:"
+msgstr "תיקיות חדשות:"
+
+msgid "Show _previews in new folders"
+msgstr "הצגת _תצוגות מקדימות בתיקיות חדשות"
+
+msgid "Audio (cover art)"
+msgstr "שמע (עטיפות)"
+
+msgid "PDF documents"
+msgstr "מסמכי PDF"
+
+msgid "Text files"
+msgstr "קובצי טקסט"
+
+msgid "Fonts"
+msgstr "גופנים"
+
+msgid "Office documents"
+msgstr "מסמכים משרדיים"
+
+msgid "Ask for confirmation when:"
+msgstr "לבקש אישור כאשר:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "לבקש אישור ב־Beluga כאשר:"
+
+msgid "Use _long date format"
+msgstr "להשתמש בתבנית תאריך _ארוכה"
+
+msgid "Show _hidden folders"
+msgstr "הצגת תיקיות _מוסתרות"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "גלילה לתיקייה הנוכחית _אוטומטית"
+
+msgid "Places Panel:"
+msgstr "לוח מקומות:"
+
+msgid "Status & Location bars"
+msgstr "שורות מצב ומיקום"
+
+msgid "Show free _space"
+msgstr "הצגת ה_שטח הפנוי"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "בכל מקרה, תצוגה › לזכור את התצוגה עבור תיקייה זו נותן לתיקייה אחת סגנון משלה. כמה תצוגות מיוחדות, כמו חיפוש, קבצים אחרונים או אשפה, עדיין משתמשות בסגנון משלהן."
+
+msgid "Open files and folders with a single click"
+msgstr "פתיחת קבצים ותיקיות בלחיצה אחת"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "לשמור _אינדקס של תיקיית הבית לחיפוש מיידי"
+
+msgid "levels deep"
+msgstr "רמות עומק"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "יחסי (היום, אתמול…)"
+
+msgid "Absolute"
+msgstr "מוחלט"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "סמלי (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "מספרי (0755)"
+
+msgid "Combined"
+msgstr "משולב"
+
+msgid "Elide in the middle"
+msgstr "קיצור באמצע"
+
+msgid "Elide at the end"
+msgstr "קיצור בסוף"
+
+msgid "Disk usage:"
+msgstr "ניצול הכונן:"
+
+msgid "Show a Disk _Usage column"
+msgstr "הצגת עמודת _ניצול כונן"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "השטח שכל קובץ וכל תיקייה שלמה תופסים בכונן, עם פס לחלקם בתיקייה, כמו בכלים › ניצול הכונן. התיקיות נקראות במלואן ברקע; יש למיין לפי העמודה כדי לראות את הגדולות ביותר תחילה. \"להישאר בכונן הזה\" מחלון ניצול הכונן חל גם כאן."
+
+msgid "Show in the context menu"
+msgstr "הצגה בתפריט ההקשר"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'העתקה אל' ו'העברה אל'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "מחיקה (בנוסף להעברה לאשפה)"
+
+msgid "Cleanup:"
+msgstr "ניקוי:"
+
+msgid "Delete files older than"
+msgstr "מחיקת קבצים ישנים מ־"
+
+msgid "days"
+msgstr "ימים"
+
+msgid "Limit to"
+msgstr "הגבלה ל־"
+
+msgid "percent of the disk"
+msgstr "אחוזים מהכונן"
+
+msgid "Keep the trash on the home drive"
+msgstr "לשמור את האשפה בכונן של תיקיית הבית"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "קבצים שמועברים לאשפה מכוננים אחרים מועתקים לאשפה בתיקיית הבית, כך שבכוננים האלה לא נוצרת תיקייה ‎.Trash-1000. העברת קבצים גדולים לאשפה אורכת אז זמן רב יותר."
+
+msgid "Full trash:"
+msgstr "אשפה מלאה:"
+
+msgid "When the limit is reached:"
+msgstr "כשמגיעים למגבלה:"
+
+msgid "Show a warning"
+msgstr "הצגת אזהרה"
+
+msgid "Delete the oldest items"
+msgstr "מחיקת הפריטים הישנים ביותר"
+
+msgid "Delete the largest items"
+msgstr "מחיקת הפריטים הגדולים ביותר"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "בעבר אלה היו הגדרות מערכת של KDE. המגבלות מוחלות כש־Beluga מופעלת ואחרי העברת פריטים לאשפה."
+
+msgid "Calculating trash size…"
+msgstr "גודל האשפה מחושב…"
+
+msgid "The trash currently uses %s."
+msgstr "האשפה תופסת כרגע %s."
+
+msgid "_Empty Trash Now"
+msgstr "_ריקון האשפה כעת"
+
+msgid "Vim Mode"
+msgstr "מצב Vim"
+
+msgid "Vim mode:"
+msgstr "מצב Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "שימוש במקשים בסגנון Vim בתצוגות"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "המצב הרגיל זז עם h j k l ומריץ את המקשים שלהלן; v,‏ V ו־Ctrl+V בוחרים; i ו־a משנים שם (מצב הוספה); Esc חוזר למצב הרגיל; : פותח את שורת הפקודה. מקשים עם Ctrl או Alt שאינם מופיעים כאן שומרים על משמעותם הרגילה."
+
+msgid "Leader key:"
+msgstr "מקש מוביל:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> במקשים שלהלן, למשל <Space> או ,"
+
+msgid "Wait for more keys:"
+msgstr "המתנה למקשים נוספים:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "מ״ש (dd אחרי d, gg אחרי g)"
+
+msgid "Keys"
+msgstr "מקשים"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "כתיב Vim, כמה מופרדים ברווחים: h, gg, <C-v>, <CR>, <Esc>, <leader>t. יש להשאיר שדה ריק לברירת המחדל."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr "‎:q סוגר את החלון (‎:q! בלי לשאול על הלשוניות), ‎:qa יוצא מ־Beluga, ‎:e או ‎:cd נתיב פותח תיקייה, ‎:tabnew [נתיב], ‎:tabclose, ‎:tabonly, ‎:sp או ‎:vs [נתיב] מפצלים את התצוגה, ‎:only סוגר את התצוגה האחרת, ‎:mkdir שם, ‎:touch שם, ‎:set hidden / nohidden / hidden!, ‎:set view=icons|compact|details|columns, ‎:sort name|size|date|type, ‎:pwd, ‎:term, ‎:du, ‎:help, ‎:!פקודה מריץ פקודת מעטפת בתיקייה."
+
+msgid "Keyboard Shortcuts"
+msgstr "קיצורי מקלדת"
+
+msgid "Only files on this computer can be read."
+msgstr "ניתן לקרוא רק קבצים במחשב הזה."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga נבנתה בלי FFmpeg."
+
+msgid "Reading…"
+msgstr "בקריאה…"
+
+msgid "No details found."
+msgstr "לא נמצאו פרטים."
+
+msgid "Change the folder's icon"
+msgstr "שינוי סמל התיקייה"
+
+msgid "Could not change the icon."
+msgstr "לא ניתן לשנות את הסמל."
+
+msgid "%zu items"
+msgstr "%zu פריטים"
+
+msgid "No default application"
+msgstr "אין יישום ברירת מחדל"
+
+msgid "C_hange…"
+msgstr "_שינוי…"
+
+msgid "Opens with:"
+msgstr "נפתח עם:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "בית %llu"
+msgstr[1] "%llu בתים"
+msgstr[2] "%llu בתים"
+msgstr[3] "%llu בתים"
+
+msgid "Can View"
+msgstr "יכול לצפות"
+
+msgid "Can View Content"
+msgstr "יכול לצפות בתוכן"
+
+msgid "Is _executable"
+msgstr "_ניתן להפעלה"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "החלת השינויים על כל תתי־ה_תיקיות ועל תוכנן"
+
+msgid "Could not read the file."
+msgstr "לא ניתן לקרוא את הקובץ."
+
+msgid "Paste a checksum to compare"
+msgstr "יש להדביק סיכום ביקורת להשוואה"
+
+msgid "Verify:"
+msgstr "אימות:"
+
+msgid "The checksums match."
+msgstr "סיכומי הביקורת תואמים."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "אף סיכום ביקורת שחושב אינו תואם. יש לחשב קודם את הסוג המתאים."
+
+msgid "Could not change the permissions."
+msgstr "לא ניתן לשנות את ההרשאות."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "סינון לפי שם (תווים כלליים כמו ‎*.txt עובדים)"
+
+msgid "Keep the filter when changing folders"
+msgstr "לשמור את המסנן במעבר בין תיקיות"
+
+msgid "In This Folder"
+msgstr "בתיקייה הזו"
+
+msgid "In Your Files"
+msgstr "בקבצים שלך"
+
+msgid "Any Time"
+msgstr "בכל זמן"
+
+msgid "Last 7 Days"
+msgstr "7 הימים האחרונים"
+
+msgid "Last 30 Days"
+msgstr "30 הימים האחרונים"
+
+msgid "Last Year"
+msgstr "השנה האחרונה"
+
+msgid "Hidden files"
+msgstr "קבצים מוסתרים"
+
+msgid "Duplicate Tab"
+msgstr "שכפול לשונית"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "פעולות שמעל שורת המיקום ברשימה נמצאות משמאלה, והשאר מימינה. * מסמן פעולות שאינן במקום שבו סרגל הכלים כברירת מחדל מציב אותן."
+
+msgid "A_vailable actions:"
+msgstr "פעולות _זמינות:"
+
+msgid "Add to the tool bar"
+msgstr "הוספה לסרגל הכלים"
+
+msgid "Remove from the tool bar"
+msgstr "הסרה מסרגל הכלים"
+
+msgid "Move up (left on the tool bar)"
+msgstr "העברה למעלה (שמאלה בסרגל הכלים)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "העברה למטה (ימינה בסרגל הכלים)"
+
+msgid "C_urrent actions:"
+msgstr "פעולות _נוכחיות:"
+
+msgid "_Defaults"
+msgstr "_ברירות מחדל"
+
+msgid "Show Columns"
+msgstr "הצגת עמודות"
+
+msgid "Modified: %s"
+msgstr "שונה: %s"
+
+msgid "Original location: %s"
+msgstr "מיקום מקורי: %s"
+
+msgid "Less than 1 MiB"
+msgstr "פחות מ־1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB עד 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB עד 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB או יותר"
+
+msgid "Not counted yet"
+msgstr "טרם נספר"
+
+msgid "A file name cannot contain “/”."
+msgstr "שם קובץ לא יכול להכיל „/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "שינוי השם של „%s” ל־„%s” משנה את הסיומת שלו. ייתכן שהקובץ ייפתח ביישום אחר או לא ייפתח כלל."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "מצב בחירה: יש ללחוץ על קבצים או תיקיות כדי לבחור אותם או לבטל את בחירתם."
+
+msgid "_Exit Selection Mode"
+msgstr "י_ציאה ממצב בחירה"
+
+msgid "_Duplicate"
+msgstr "_שכפול"
+
+msgid "De_lete"
+msgstr "_מחיקה"
+
+msgid "Pr_operties"
+msgstr "_מאפיינים"
+
+msgid "The folder “%s” no longer exists."
+msgstr "התיקייה „%s” כבר לא קיימת."
+
+msgid "“%s” selected (%s%s)"
+msgstr "„%s” נבחר (%s%s)"
+
+msgid "%s selected"
+msgstr "%s נבחרו"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d נבחר"
+msgstr[1] "%d נבחרו"
+msgstr[2] "%d נבחרו"
+msgstr[3] "%d נבחרו"
+
+msgid "Move left"
+msgstr "שמאלה"
+
+msgid "Move down"
+msgstr "למטה"
+
+msgid "Move up"
+msgstr "למעלה"
+
+msgid "Move right"
+msgstr "ימינה"
+
+msgid "First item"
+msgstr "הפריט הראשון"
+
+msgid "Last item"
+msgstr "הפריט האחרון"
+
+msgid "Page down"
+msgstr "עמוד למטה"
+
+msgid "Page up"
+msgstr "עמוד למעלה"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "בחירת הפריטים שהסמן עובר עליהם (חזותי)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "בחירת טווח, כמו עם Shift (שורה חזותית)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "בחירת גוש מהרשת (גוש חזותי)"
+
+msgid "Back to normal mode"
+msgstr "חזרה למצב הרגיל"
+
+msgid "Copy the item under the cursor"
+msgstr "העתקת הפריט שמתחת לסמן"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "שינוי שם, הסמן בהתחלה (הוספה)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "שינוי שם, הסמן אחרי השם (צירוף)"
+
+msgid "Rename, name selected (change)"
+msgstr "שינוי שם, השם נבחר (שינוי)"
+
+msgid "Edit the location"
+msgstr "עריכת המיקום"
+
+msgid "Copied."
+msgstr "הועתק."
+
+msgid "Cut."
+msgstr "נגזר."
+
+msgid "Can't open “%s”."
+msgstr "לא ניתן לפתוח את „%s”."
+
+msgid "A name is needed."
+msgstr "נדרש שם."
+
+msgid "Unknown view: %s"
+msgstr "תצוגה לא ידועה: %s"
+
+msgid "Unknown option: %s"
+msgstr "אפשרות לא ידועה: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "מיון לפי שם, גודל, תאריך או סוג."
+
+msgid "Not a command: %s"
+msgstr "לא פקודה: %s"
+
+msgid "Move"
+msgstr "העברה"
+
+msgid "Files"
+msgstr "קבצים"
+
+msgid "Recommended Applications"
+msgstr "יישומים מומלצים"
+
+msgid "Other Applications"
+msgstr "יישומים אחרים"
+
+msgid "Command line"
+msgstr "שורת פקודה"
+
+msgid "No items found"
+msgstr "לא נמצאו פריטים"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s פנויים מתוך %s (%d%% בשימוש)"

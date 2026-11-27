@@ -18,95 +18,95 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "압축 파일을 열 수 없습니다."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "압축 파일을 읽을 수 없습니다."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "취소되었습니다."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "이 파일은 암호로 암호화되어 있습니다."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "“%s”을(를) 읽을 수 없습니다."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "압축 파일 안에 있는 파일이 아닙니다."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "여기에 압축 풀기"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr ".tar.gz로 압축"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "터미널 에뮬레이터를 찾을 수 없습니다."
 
 msgid "Root"
-msgstr ""
+msgstr "루트"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s 볼륨"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "이 장치를 마운트할 수 없습니다."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "이 장치를 마운트 해제할 수 없습니다."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "장치가 사라졌습니다."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s을(를) “%s”(으)로 복사하는 중"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s을(를) “%s”(으)로 이동하는 중"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s을(를) “%s”에 링크하는 중"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s을(를) 휴지통으로 이동하는 중"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s 삭제 중"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s 복원 중"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "휴지통 비우는 중"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "파일 세는 중…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "폴더를 자기 자신 안으로 이동할 수 없습니다."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "폴더를 자기 자신 안으로 복사할 수 없습니다."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "파일은 로컬 폴더에만 압축을 풀 수 있습니다."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "“%s”에서 압축 푸는 중"
 
 msgid "Title:"
 msgstr "제목:"
@@ -124,7 +124,7 @@ msgid "Track:"
 msgstr "트랙:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "디스크:"
 
 msgid "Date:"
 msgstr "날짜:"
@@ -155,11 +155,11 @@ msgstr "언어:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "시간:"
@@ -168,57 +168,57 @@ msgid "Format:"
 msgstr "형식:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "비트레이트:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "표지:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "동영상:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "비디오 %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "모노"
 
 msgid "stereo"
-msgstr ""
+msgstr "스테레오"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
+msgstr[0] "%d채널"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d비트"
 
 msgid "Audio:"
 msgstr "오디오:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "오디오 %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "자막:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "챕터:"
 
 msgid "Places"
 msgstr "위치"
@@ -266,7 +266,7 @@ msgid "Recent Files"
 msgstr "최근 파일"
 
 msgid "Images"
-msgstr ""
+msgstr "그림"
 
 msgid "Audio"
 msgstr "오디오"
@@ -275,37 +275,37 @@ msgid "Folders"
 msgstr "폴더"
 
 msgid "Archives"
-msgstr ""
+msgstr "압축 파일"
 
 msgid "All Files"
 msgstr "모든 파일"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "“%s” 검색"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "터미널 에뮬레이터를 찾을 수 없습니다. Beluga 설정 › 일반 › 터미널에서 지정하십시오."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "이 파일 시스템에는 휴지통이 없습니다."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "휴지통 정보 파일을 만들 수 없습니다."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s”이(가) 이미 있습니다."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "휴지통이 한도 %s을(를) 넘었습니다. 비우는 것을 고려하십시오."
 
 msgid "Copy"
 msgstr "복사"
 
 msgid "Move"
-msgstr ""
+msgstr "이동"
 
 msgid "Link"
 msgstr "링크"
@@ -320,21 +320,21 @@ msgid "Create Folder"
 msgstr "폴더 만들기"
 
 msgid "Create File"
-msgstr ""
+msgstr "파일 만들기"
 
 msgid "Undo"
 msgstr "실행 취소(O)"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "실행 취소: %s"
 
 msgid "Redo"
 msgstr "다시 실행(R)"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "다시 실행: %s"
 
 #, c-format
 msgid "%d item"
@@ -344,12 +344,12 @@ msgstr[0] "항목 %d개"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
+msgstr[0] "파일 %d개"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
+msgstr[0] "폴더 %d개"
 
 #, c-format
 msgid "%s, %s"
@@ -357,14 +357,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "오늘 %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "어제 %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -372,11 +372,11 @@ msgstr "%ld초"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld분 %ld초"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld시간 %ld분"
 
 #, c-format
 msgid "%s copy"
@@ -384,7 +384,7 @@ msgstr "사본 - %s"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s 사본 %d"
 
 msgid "Name"
 msgstr "이름"
@@ -393,7 +393,7 @@ msgid "Size"
 msgstr "크기"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "디스크 사용량"
 
 msgid "Modified"
 msgstr "수정한 날짜"
@@ -408,7 +408,7 @@ msgid "Type"
 msgstr "형식"
 
 msgid "Extension"
-msgstr ""
+msgstr "확장자"
 
 msgid "Permissions"
 msgstr "권한"
@@ -429,22 +429,22 @@ msgid "Deletion Time"
 msgstr "삭제 시간"
 
 msgid "Original Location"
-msgstr ""
+msgstr "원래 위치"
 
 msgid "Dimensions"
 msgstr "크기"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga가 관리자로 동작할 수 없습니다."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "관리자 암호를 묻으려면 pkexec(polkit)가 필요합니다. polkit과 데스크톱용 polkit 에이전트를 설치하십시오."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "관리자로 작업할 때의 위험성"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "관리자 권한이 있는 Beluga 창은 시스템 시작에 필요한 파일을 포함하여 이 컴퓨터의 모든 파일을 변경하고 삭제할 수 있습니다. 거기서 실수하면 시스템을 사용할 수 없게 될 수 있습니다. 다른 방법으로 변경할 수 없는 파일에만 사용하고, 작업이 끝나면 닫으십시오.\n\n다음으로 Beluga가 관리자 암호를 묻습니다."
 
 msgid "Cancel"
 msgstr "취소"
@@ -516,7 +516,7 @@ msgid "Details View"
 msgstr "자세히 보기"
 
 msgid "Columns View"
-msgstr ""
+msgstr "열 보기"
 
 msgid "Zoom In"
 msgstr "확대(I)"
@@ -525,7 +525,7 @@ msgid "Zoom Out"
 msgstr "축소(O)"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "확대/축소 초기화"
 
 msgid "Show Hidden Files"
 msgstr "숨겨진 파일 표시"
@@ -540,10 +540,10 @@ msgid "Focus Other View"
 msgstr "다른 보기에 포커스"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "분할 보기 분리"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "분할 보기를 탭으로"
 
 msgid "Reload"
 msgstr "새로 고침"
@@ -555,16 +555,16 @@ msgid "Replace Location"
 msgstr "위치 바꾸기"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "위치 패널"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "폴더 패널"
 
 msgid "Information Panel"
 msgstr "정보 패널"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "디스크 사용량 패널"
 
 msgid "Focus Places Panel"
 msgstr "위치 패널에 포커스 맞추기"
@@ -585,31 +585,31 @@ msgid "Up"
 msgstr "위로(U)"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "탭 1로 이동"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "탭 2로 이동"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "탭 3으로 이동"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "탭 4로 이동"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "탭 5로 이동"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "탭 6으로 이동"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "탭 7로 이동"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "탭 8로 이동"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "탭 9로 이동"
 
 msgid "Go to Last Tab"
 msgstr "마지막 탭으로 이동"
@@ -630,29 +630,29 @@ msgid "Configure Toolbars"
 msgstr "도구 모음 설정"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga 설정"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "실행 취소에 실패했습니다."
 
 msgid "Folder…"
-msgstr ""
+msgstr "폴더…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "텍스트 파일…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "빈 파일…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "파일이나 폴더에 대한 링크…"
 
 msgid "Create New"
 msgstr "새로 만들기"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "다른 보기 (%s)"
 
 msgid "Browse…"
 msgstr "찾아보기(B)…"
@@ -671,7 +671,7 @@ msgstr "다음으로 열기(O)…"
 
 #, c-format
 msgid "Open with %s"
-msgstr ""
+msgstr "%s(으)로 열기"
 
 msgid "Other Application…"
 msgstr "다른 앱(O)…"
@@ -692,7 +692,7 @@ msgid "View Mode"
 msgstr "보기 모드"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "이 폴더의 보기 기억"
 
 msgid "Restore"
 msgstr "복구"
@@ -710,13 +710,13 @@ msgid "Open in Split View"
 msgstr "분할 보기로 열기"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Beluga에서 열기"
 
 msgid "Open Containing Folder"
 msgstr "포함하는 폴더 열기"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "폴더에 붙여넣기"
 
 msgid "Rename…"
 msgstr "이름 바꾸기…"
@@ -728,65 +728,65 @@ msgid "Close"
 msgstr "닫기"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "취소(_C)"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "이름에 “/”를 포함할 수 없습니다."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "점으로 시작하는 이름은 숨겨집니다."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "일부 항목의 이름을 바꿀 수 없습니다."
 
 msgid "Rename Item"
 msgstr "항목 이름 바꾸기"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "“%s”의 새 이름:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "이름 바꾸기(_R)"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "“%s”의 이름을 바꿀 수 없습니다."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "파일 형식을 바꾸시겠습니까?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 이름을 바꾸면 확장자가 바뀝니다."
 
 msgid "Rename Items"
 msgstr "항목 이름 바꾸기"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "선택한 항목 %zu개의 새 이름:"
 
 msgid "New name #"
 msgstr "새 이름 #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "#은 오름차순 숫자로 바뀝니다. 앞에 0을 붙이려면 ##을 사용하십시오. 확장자는 유지됩니다."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "번호 시작:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "여기로 이동(_M)"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "여기로 복사(_C)"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "여기에 링크(_L)"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "취소(_A)"
 
 msgid "Add Places Entry"
 msgstr "위치 항목 추가"
@@ -798,25 +798,25 @@ msgid "Label:"
 msgstr "이름(A):"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "폴더 선택"
 
 msgid "Location:"
 msgstr "위치(L):"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "선택(_H)…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "아이콘 이름:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "폴더 선택"
 
 msgid "_Add"
-msgstr ""
+msgstr "추가(_A)"
 
 msgid "_Save"
-msgstr ""
+msgstr "저장(_S)"
 
 msgid "View Display Style"
 msgstr "보기 표시 스타일"
@@ -831,7 +831,7 @@ msgid "Details"
 msgstr "자세히"
 
 msgid "Columns"
-msgstr ""
+msgstr "열"
 
 msgid "View mode:"
 msgstr "보기 모드:"
@@ -846,19 +846,19 @@ msgid "Descending"
 msgstr "내림차순"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "폴더 먼저 표시(_F)"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "숨김 파일을 마지막에 표시(_L)"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "미리 보기 표시(_P)"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "그룹으로 표시(_G)"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "숨김 파일 표시(_H)"
 
 msgid "Apply to"
 msgstr "적용"
@@ -867,17 +867,17 @@ msgid "Current folder"
 msgstr "현재 폴더"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "모든 하위 폴더를 포함한 현재 폴더"
 
 msgid "All folders"
 msgstr "모든 폴더"
 
 msgid "_OK"
-msgstr ""
+msgstr "확인(_O)"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "수정됨 %s"
 
 msgid "Folder Already Exists"
 msgstr "폴더가 이미 존재함"
@@ -887,35 +887,35 @@ msgstr "파일이 이미 존재함"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” 폴더가 “%s”에 이미 있습니다."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” 파일이 “%s”에 이미 있습니다."
 
 msgid "Existing item"
-msgstr ""
+msgstr "기존 항목"
 
 msgid "New item"
-msgstr ""
+msgstr "새 항목"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "새 이름 제안(_S)"
 
 msgid "New name:"
-msgstr ""
+msgstr "새 이름:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "모두 적용(_A)"
 
 msgid "S_kip"
-msgstr ""
+msgstr "건너뛰기(_K)"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "안에 쓰기(_W)"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "덮어쓰기(_O)"
 
 msgid "Skip"
 msgstr "건너뛰기(S)"
@@ -930,194 +930,194 @@ msgid "Choose an Icon"
 msgstr "아이콘 선택(I)"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "아이콘 검색…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "이미지 파일(_I)…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "기본 아이콘(_D)"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "이미지 선택"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "네트워크 위치에는 gvfs가 필요합니다. gvfs 패키지(Windows 공유는 gvfs-smb, NFS는 gvfs-nfs도)를 설치한 뒤 로그아웃했다가 다시 로그인하십시오."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "이 위치는 폴더가 아닙니다."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "이 위치는 올바르지 않습니다."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "이 폴더는 압축 파일에 없습니다."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
+msgstr[0] "더 작은 파일 %s개"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(다른 드라이브, 계산하지 않음)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "내용 일부를 읽을 수 없습니다."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "파일 %s"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "디스크 %s"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "파일 %s개, 폴더 %s개"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "읽는 중… 파일 %s개, 폴더 %s개에 %s"
 
 msgid "Stopped."
-msgstr ""
+msgstr "중지했습니다."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "이 폴더를 읽을 수 없습니다."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, %.1f초 만에 읽음"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
+msgstr[0] ". 폴더 %s개를 읽을 수 없습니다."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "이 컴퓨터의 폴더만 측정할 수 있습니다."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "1분 이내에 읽음"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
+msgstr[0] "%d분 전에 읽음"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
+msgstr[0] "%d시간 전에 읽음"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. 다시 읽으려면 다시 검사하십시오."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "겉보기 크기(_A)"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "파일이 디스크에서 차지하는 공간 대신 파일 크기를 합산합니다."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "이 드라이브에 머무르기(_S)"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "이 폴더 안에 마운트된 다른 드라이브(다른 디스크의 음악 폴더 등)는 계산하지 않습니다. 링크는 따라가지 않습니다."
 
 msgid "Rescan"
-msgstr ""
+msgstr "다시 검사"
 
 msgid "Stop"
 msgstr "정지"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "디스크 사용량 닫기"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "다시 검사(_R)"
 
 msgid "S_top"
-msgstr ""
+msgstr "중지(_T)"
 
 msgid "Share"
 msgstr "공유"
 
 msgid "Files"
-msgstr ""
+msgstr "파일"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "디스크 사용량 – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s”이(가) 이미 있습니다. 바꾸시겠습니까?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "이 파일 중 %zu개가 이미 있습니다. 바꾸시겠습니까?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "저장하는 프로그램이 기존 내용을 덮어씁니다."
 
 msgid "Replace"
 msgstr "덮어쓰기"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "저장할 폴더를 선택하십시오."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "폴더 선택"
 
 msgid "Open Files"
-msgstr ""
+msgstr "파일 열기"
 
 msgid "Open File"
-msgstr ""
+msgstr "파일 열기"
 
 msgid "Save File"
-msgstr ""
+msgstr "파일 저장"
 
 msgid "Save Files"
-msgstr ""
+msgstr "파일 저장"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "폴더(_F):"
 
 msgid "_Name:"
-msgstr ""
+msgstr "이름(_N):"
 
 msgid "_Type:"
-msgstr ""
+msgstr "형식(_T):"
 
 msgid "_Select"
-msgstr ""
+msgstr "선택(_S)"
 
 msgid "_Open"
-msgstr ""
+msgstr "열기(_O)"
 
 msgid "New Folder"
 msgstr "새 폴더"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "새 폴더 만들 위치:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "만들기(_R)"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "폴더를 만들 수 없습니다."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "항목 %zu개 선택됨"
 
 msgid "Contents:"
-msgstr ""
+msgstr "내용:"
 
 msgid "Size:"
 msgstr "크기:"
@@ -1129,10 +1129,10 @@ msgid "Folder"
 msgstr "폴더"
 
 msgid "Contains:"
-msgstr ""
+msgstr "포함:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "세는 중…"
 
 msgid "Unknown"
 msgstr "알 수 없음"
@@ -1162,75 +1162,75 @@ msgid "Dimensions:"
 msgstr "크기:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "깨진 링크"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (링크)"
 
 msgid "other drive"
-msgstr ""
+msgstr "다른 드라이브"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s 남음"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "파일 작업 진행 중"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "하위 폴더 없음"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "지정한 파일을 해당 폴더에서 선택"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "분할 보기로 창 열기"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "항상 새 창 열기"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "FileManager1 D-Bus 서비스를 위해 백그라운드에서 계속 실행"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "터미널에서 분리(위치가 없으면 현재 폴더를 엶)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "xdg-desktop-portal용 파일 선택기 실행(D-Bus가 시작)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "버전 표시"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[파일 또는 폴더…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "관리자로 동작 중: 이 창에서의 변경은 시스템을 손상시킬 수 있습니다."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "이 창을 닫으시겠습니까?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "이 창에 탭이 %zu개 열려 있습니다. 창을 닫으면 모두 닫힙니다."
 
 msgid "Close Window"
-msgstr ""
+msgstr "창 닫기"
 
 msgid "Configure Toolbars…"
 msgstr "도구 모음 설정(B)…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "도구 모음 표시(_T)"
 
 msgid "Split"
 msgstr "나누기"
@@ -1245,79 +1245,79 @@ msgid "Show in Groups"
 msgstr "그룹으로 표시"
 
 msgid "_File"
-msgstr ""
+msgstr "파일(_F)"
 
 msgid "New _Window"
-msgstr ""
+msgstr "새 창(_W)"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "새 탭(_T)"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "탭 닫기(_C)"
 
 msgid "Create _New"
-msgstr ""
+msgstr "새로 만들기(_N)"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "이름 바꾸기(_R)…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "여기에 복제(_D)"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "휴지통으로 이동(_T)"
 
 msgid "_Delete"
-msgstr ""
+msgstr "삭제(_D)"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "휴지통에서 복원"
 
 msgid "_Properties"
-msgstr ""
+msgstr "속성(_P)"
 
 msgid "_Quit"
-msgstr ""
+msgstr "끝내기(_Q)"
 
 msgid "_Edit"
-msgstr ""
+msgstr "편집(_E)"
 
 msgid "_Undo"
-msgstr ""
+msgstr "실행 취소(_U)"
 
 msgid "_Redo"
-msgstr ""
+msgstr "다시 실행(_R)"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "잘라내기(_T)"
 
 msgid "_Copy"
-msgstr ""
+msgstr "복사(_C)"
 
 msgid "_Paste"
-msgstr ""
+msgstr "붙여넣기(_P)"
 
 msgid "Filter…"
 msgstr "필터…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "검색(_S)…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "모두 선택(_A)"
 
 msgid "_View"
-msgstr ""
+msgstr "보기(_V)"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "확대(_I)"
 
 msgid "Reset Zoom Level"
 msgstr "확대/축소 수준 초기화"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "축소(_O)"
 
 msgid "Show Additional Information"
 msgstr "추가 정보 표시"
@@ -1332,7 +1332,7 @@ msgid "Adjust View Display Style…"
 msgstr "보기 표시 스타일 조정…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "새로 고침(_L)"
 
 msgid "Panels"
 msgstr "패널"
@@ -1344,175 +1344,175 @@ msgid "Location Bar"
 msgstr "위치 표시줄"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "메뉴 표시줄 표시(_M)"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "상태 표시줄 표시(_S)"
 
 msgid "_Go"
-msgstr ""
+msgstr "이동(_G)"
 
 msgid "_Back"
-msgstr ""
+msgstr "뒤로(_B)"
 
 msgid "_Forward"
-msgstr ""
+msgstr "앞으로(_F)"
 
 msgid "_Up"
-msgstr ""
+msgstr "위로(_U)"
 
 msgid "_Home"
-msgstr ""
+msgstr "홈(_H)"
 
 msgid "Recently Closed Tabs"
 msgstr "최근에 닫은 탭"
 
 msgid "_Tools"
-msgstr ""
+msgstr "도구(_T)"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "터미널 열기(_T)"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "여기서 터미널 열기(_H)"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "디스크 사용량(_D)…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "설정(_S)"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "도구 모음 설정(_B)…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga 설정(_C)…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "최근에 닫은 탭 없음"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(관리자)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "폴더 %zu개를 새 탭에서 여시겠습니까?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "폴더 열기"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "“%s”을(를) 열 수 없습니다."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "터미널을 열 수 없습니다."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "새 텍스트 파일.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "새 파일"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "휴지통을 비우시겠습니까?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "휴지통의 모든 항목이 영구히 삭제됩니다. 되돌릴 수 없습니다."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "터미널 %zu개를 여시겠습니까?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "터미널 열기"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "새 파일 만들 위치:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "파일을 만들 수 없습니다."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "파일이나 폴더에 대한 링크"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "링크할 파일이나 폴더의 경로:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "링크를 만들 수 없습니다."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s을(를) 영구히 삭제하시겠습니까?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "되돌릴 수 없습니다."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s을(를) 휴지통으로 이동하시겠습니까?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "“%s”을(를) 실행할 수 없습니다."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s을(를) 시작할 수 없습니다."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "프로그램을 시작할 수 없습니다."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s”은(는) 실행 파일입니다."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "실행하시겠습니까, 아니면 프로그램에서 여시겠습니까?"
 
 msgid "Run"
-msgstr ""
+msgstr "실행"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "%s(%s)을(를) 열 프로그램 선택:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "추천 프로그램"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "다른 프로그램"
 
 msgid "Or command:"
-msgstr ""
+msgstr "또는 명령:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "이 파일 형식에 대한 프로그램 연결 기억"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%2$s 중 %1$s 사용 가능"
 
 msgid "Safely Remove"
 msgstr "안전하게 제거(S)"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "섹션 설정"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "선택한 섹션이 이 순서로 위치 패널에 표시됩니다."
 
 msgid "Move Up"
-msgstr ""
+msgstr "위로 이동"
 
 msgid "Move Down"
-msgstr ""
+msgstr "아래로 이동"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "장치를 마운트할 수 없습니다: %s"
 
 msgid "Mount"
 msgstr "마운트"
@@ -1539,31 +1539,31 @@ msgid "Add Entry…"
 msgstr "항목 추가…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "섹션 설정…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "숨긴 항목 숨기기"
 
 msgid "Show All Entries"
 msgstr "모든 항목 보기(S)"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "휴지통의 모든 항목이 영구히 삭제됩니다."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "장치를 안전하게 제거할 수 없습니다: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "장치를 마운트 해제할 수 없습니다: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "시스템 글꼴 사용(_S)"
 
 msgid "Label font:"
 msgstr "이름표 글꼴:"
@@ -1575,7 +1575,7 @@ msgid "Preview icon size:"
 msgstr "미리 보기 아이콘 크기:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "컨텍스트 메뉴 동작"
 
 msgid "Name:"
 msgstr "이름(N):"
@@ -1587,40 +1587,40 @@ msgid "File names:"
 msgstr "파일 이름:"
 
 msgid "Types:"
-msgstr ""
+msgstr "형식:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f 첫 파일, %F 모든 파일, %u / %U URI로, %n / %N 이름, %d 현재 폴더."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "파일에 표시(_F)"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "폴더에 표시(_O)"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "여러 항목을 선택했을 때 표시(_S)"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "터미널에서 실행(_T)"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "사용자 정의 동작"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "파일과 폴더의 컨텍스트 메뉴에 넣을 나만의 항목입니다."
 
 msgid "_Add…"
-msgstr ""
+msgstr "추가(_A)…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "편집(_E)…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "제거(_R)"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "단축키는 <Control>c 또는 <Shift>Delete처럼 씁니다. 여러 개는 쉼표로 구분하십시오. 기본값을 쓰려면 비워 두십시오."
 
 msgid "no file"
 msgstr "안 함"
@@ -1630,19 +1630,19 @@ msgstr "임의 크기의 파일"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB 미만 파일"
 
 msgid "Search…"
 msgstr "검색…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "기본값 복원(_R)"
 
 msgid "_Apply"
-msgstr ""
+msgstr "적용(_A)"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "폴더 및 탭"
 
 msgid "Show on startup:"
 msgstr "시작 시 표시:"
@@ -1651,7 +1651,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "마지막으로 사용한 폴더, 탭, 창 상태"
 
 msgid "This location:"
-msgstr ""
+msgstr "이 위치:"
 
 msgid "Use Current Location"
 msgstr "현재 위치 사용하기"
@@ -1663,7 +1663,7 @@ msgid "Opening Folders:"
 msgstr "폴더 열기:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Beluga 창을 하나만 유지하고 새 폴더는 탭에서 열기"
 
 msgid "Window:"
 msgstr "창:"
@@ -1675,7 +1675,7 @@ msgid "Show filter bar"
 msgstr "필터 표시줄 표시"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "탭:"
 
 msgid "Always show tab bar"
 msgstr "항상 탭 목록 표시"
@@ -1693,7 +1693,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "모든 탭을 똑같은 고정된 너비로 표시"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "고정 너비 탭은 자리가 부족하면 모두 같은 만큼 좁아집니다."
 
 msgid "Open new tabs:"
 msgstr "새 탭 열기: "
@@ -1726,42 +1726,42 @@ msgid "Terminal:"
 msgstr "터미널:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "터미널을 찾을 수 없음"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "감지됨: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "F4와 여기서 터미널 열기에서 사용합니다. 명령의 %d는 폴더로 바뀌며, 없으면 터미널이 그 폴더에서 시작합니다. 이전에는 KDE 시스템 설정이었습니다."
 
 msgid "Previews"
 msgstr "미리 보기"
 
 msgid "New folders:"
-msgstr ""
+msgstr "새 폴더:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "새 폴더에서 미리 보기 표시(_P)"
 
 msgid "Show previews in the view for:"
 msgstr "다음 보기에서 미리 보기 표시:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "오디오(표지 그림)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF 문서"
 
 msgid "Text files"
-msgstr ""
+msgstr "텍스트 파일"
 
 msgid "Fonts"
-msgstr ""
+msgstr "글꼴"
 
 msgid "Office documents"
-msgstr ""
+msgstr "오피스 문서"
 
 msgid "Local storage:"
 msgstr "로컬 저장소:"
@@ -1776,7 +1776,7 @@ msgid "Confirmations"
 msgstr "확인"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "다음 경우 확인 요청:"
 
 msgid "Moving files or folders to trash"
 msgstr "파일이나 폴더를 휴지통으로 옮길 때"
@@ -1791,7 +1791,7 @@ msgid "Renaming a file will change its type"
 msgstr "파일 이름을 바꾸면 형식도 같이 변경됨"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Beluga에서 다음 경우 확인 요청:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "탭이 여러 개 열린 창을 닫을 때"
@@ -1830,28 +1830,28 @@ msgid "Show item on hover"
 msgstr "마우스를 올렸을 때 항목 표시"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "긴 날짜 형식 사용(_L)"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "폴더 패널:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "홈 폴더 안에 있을 때는 홈 폴더로 제한"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "숨김 폴더 표시(_H)"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "현재 폴더로 자동 스크롤(_A)"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "위치 패널:"
 
 msgid "Icon size:"
 msgstr "아이콘 크기:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "상태 표시줄 및 위치 표시줄"
 
 msgid "Status Bar:"
 msgstr "상태 표시줄:"
@@ -1869,7 +1869,7 @@ msgid "Show zoom slider"
 msgstr "확대/축소 슬라이더 표시"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "여유 공간 표시(_S)"
 
 msgid "Location bar:"
 msgstr "위치 표시줄:"
@@ -1896,7 +1896,7 @@ msgid "Remember display style for each folder"
 msgstr "각 폴더의 표시 스타일 기억"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "어떤 경우든 보기 › 이 폴더의 보기 기억으로 한 폴더에 고유한 스타일을 줄 수 있습니다. 검색, 최근 파일, 휴지통 같은 일부 특수 보기는 계속 고유한 스타일을 사용합니다."
 
 msgid "Browsing:"
 msgstr "탐색: "
@@ -1908,10 +1908,10 @@ msgid "Open folders during drag operations"
 msgstr "드래그하는 동안 폴더 열기"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "한 번 클릭으로 파일과 폴더 열기"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "즉시 검색을 위해 홈 폴더 색인 유지(_I)"
 
 msgid "Miscellaneous:"
 msgstr "기타: "
@@ -1968,37 +1968,37 @@ msgid "Show no size"
 msgstr "크기 표시 안 함"
 
 msgid "levels deep"
-msgstr ""
+msgstr "단계 깊이"
 
 msgid "Date style:"
 msgstr "날짜 스타일:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "상대적(오늘, 어제…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "절대적"
 
 msgid "Permissions style:"
 msgstr "권한 스타일:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "기호(rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "숫자(0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "혼합"
 
 msgid "Long file names:"
 msgstr "긴 파일 이름:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "가운데 생략"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "끝 생략"
 
 msgid "Label width:"
 msgstr "이름표 너비:"
@@ -2019,7 +2019,7 @@ msgid "Unlimited"
 msgstr "무제한"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "간격:"
 
 msgid "Maximum width:"
 msgstr "최대 너비:"
@@ -2040,163 +2040,163 @@ msgid "By clicking on icon or name"
 msgstr "아이콘이나 이름을 클릭했을 때"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "디스크 사용량:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "디스크 사용량 열 표시(_U)"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "각 파일과 폴더 전체가 디스크에서 차지하는 공간을, 폴더 안에서의 비율 막대와 함께 표시합니다(도구 › 디스크 사용량과 같음). 폴더는 백그라운드에서 전부 읽으며, 이 열로 정렬하면 가장 큰 항목을 먼저 볼 수 있습니다. 디스크 사용량 창의 \"이 드라이브에 머무르기\"가 여기에도 적용됩니다."
 
 msgid "View"
 msgstr "보기(V)"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "컨텍스트 메뉴에 표시"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'복사 위치'와 '이동 위치'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "삭제(휴지통으로 이동 외에)"
 
 msgid "Context Menu"
 msgstr "상황에 맞는 메뉴"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "정리:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "다음보다 오래된 파일 삭제"
 
 msgid "days"
-msgstr ""
+msgstr "일"
 
 msgid "Limit to"
-msgstr ""
+msgstr "제한"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "퍼센트(디스크 기준)"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "휴지통을 홈 폴더 드라이브에 유지"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "다른 드라이브에서 휴지통으로 이동한 파일은 홈 폴더의 휴지통으로 복사되므로 해당 드라이브에 .Trash-1000 폴더가 생기지 않습니다. 대신 큰 파일을 휴지통으로 옮기는 데 시간이 더 걸립니다."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "가득 찬 휴지통:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "한도에 도달하면:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "경고 표시"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "가장 오래된 항목 삭제"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "가장 큰 항목 삭제"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "이전에는 KDE 시스템 설정이었습니다. 한도는 Beluga가 시작될 때와 항목을 휴지통으로 옮긴 뒤에 적용됩니다."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "휴지통 크기 계산 중…"
 
 msgid "Trash:"
 msgstr "휴지통:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "휴지통이 현재 %s 사용 중입니다."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "지금 휴지통 비우기(_E)"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim 모드"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim 모드:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "보기에서 Vim 스타일 키 사용"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "일반 모드에서는 h j k l로 이동하고 아래 키를 실행합니다. v, V, Ctrl+V는 선택하고, i와 a는 이름을 바꾸며(삽입 모드), Esc는 일반 모드로 돌아가고, :는 명령줄을 엽니다. 여기에 없는 Ctrl 또는 Alt 키는 원래 의미를 유지합니다."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "리더 키:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "아래 키에서의 <leader>, 예: <Space> 또는 ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "추가 키 대기 시간:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (d 다음 dd, g 다음 gg)"
 
 msgid "Keys"
-msgstr ""
+msgstr "키"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim 표기, 여러 개는 공백으로 구분: h, gg, <C-v>, <CR>, <Esc>, <leader>t. 기본값을 쓰려면 비워 두십시오."
 
 msgid "Command line"
-msgstr ""
+msgstr "명령줄"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q는 창을 닫음(:q!는 탭을 묻지 않음), :qa는 Beluga 끝내기, :e 또는 :cd 경로는 폴더 열기, :tabnew [경로], :tabclose, :tabonly, :sp 또는 :vs [경로]는 보기 분할, :only는 다른 보기 닫기, :mkdir 이름, :touch 이름, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!명령은 폴더에서 셸 명령 실행."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "키보드 단축키"
 
 msgid "Details:"
 msgstr "자세한 정보:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "이 컴퓨터의 파일만 읽을 수 있습니다."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga가 FFmpeg 없이 빌드되었습니다."
 
 msgid "Reading…"
-msgstr ""
+msgstr "읽는 중…"
 
 msgid "No details found."
-msgstr ""
+msgstr "세부 정보를 찾을 수 없습니다."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "폴더 아이콘 변경"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "아이콘을 변경할 수 없습니다."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "항목 %zu개"
 
 msgid "Calculating…"
 msgstr "계산 중…"
 
 msgid "No default application"
-msgstr ""
+msgstr "기본 프로그램 없음"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "변경(_H)…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "다음으로 열기:"
 
 msgid "Free space:"
 msgstr "남은 공간:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%2$s 중 %1$s 사용 가능 (%3$d%% 사용됨)"
 
 #, c-format
 msgid "%llu byte"
@@ -2207,13 +2207,13 @@ msgid "Forbidden"
 msgstr "거부됨"
 
 msgid "Can View"
-msgstr ""
+msgstr "보기 가능"
 
 msgid "Can View & Modify"
 msgstr "보기 및 수정 가능"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "내용 보기 가능"
 
 msgid "Can View & Modify Content"
 msgstr "내용 보기 및 수정 가능"
@@ -2222,10 +2222,10 @@ msgid "Others:"
 msgstr "기타(T):"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "실행 가능(_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "모든 하위 폴더와 그 내용에 변경 사항 적용(_S)"
 
 msgid "User:"
 msgstr "사용자:"
@@ -2237,22 +2237,22 @@ msgid "Calculate"
 msgstr "계산하기"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "파일을 읽을 수 없습니다."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "비교할 체크섬 붙여넣기"
 
 msgid "Verify:"
-msgstr ""
+msgstr "확인:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "체크섬이 일치합니다."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "계산된 체크섬 중 일치하는 것이 없습니다. 먼저 해당 형식을 계산하십시오."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "권한을 변경할 수 없습니다."
 
 #, c-format
 msgid "Properties for %s"
@@ -2265,16 +2265,16 @@ msgid "Filter:"
 msgstr "필터:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "이름으로 필터(*.txt 같은 와일드카드 사용 가능)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "폴더를 바꿔도 필터 유지"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "이 폴더에서"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "내 파일에서"
 
 msgid "Everywhere"
 msgstr "어디서나"
@@ -2286,22 +2286,22 @@ msgid "File Names and Contents"
 msgstr "파일 이름과 내용"
 
 msgid "Any Time"
-msgstr ""
+msgstr "모든 시간"
 
 msgid "Today"
 msgstr "오늘"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "지난 7일"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "지난 30일"
 
 msgid "Last Year"
-msgstr ""
+msgstr "지난 1년"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "숨김 파일"
 
 msgid "Zoom:"
 msgstr "확대/축소:"
@@ -2314,7 +2314,7 @@ msgid "%s free"
 msgstr "%s 남음"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "탭 복제"
 
 msgid "Detach Tab"
 msgstr "탭 떼내기"
@@ -2329,31 +2329,31 @@ msgid "--- separator ---"
 msgstr "--- 구분선 ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "목록에서 위치 표시줄보다 위에 있는 동작은 그 왼쪽에, 나머지는 오른쪽에 놓입니다. *는 기본 도구 모음의 위치에 있지 않은 동작을 표시합니다."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "사용 가능한 동작(_V):"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "도구 모음에 추가"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "도구 모음에서 제거"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "위로 이동(도구 모음에서 왼쪽)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "아래로 이동(도구 모음에서 오른쪽)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "현재 동작(_U):"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "기본값(_D)"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "열 표시"
 
 #, c-format
 msgid "Size: %s"
@@ -2361,11 +2361,11 @@ msgstr "크기: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "수정됨: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "원래 위치: %s"
 
 msgid "Yesterday"
 msgstr "어제"
@@ -2392,19 +2392,19 @@ msgid "Big"
 msgstr "큼"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB 미만"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB ~ 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB ~ 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB 이상"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "아직 세지 않음"
 
 msgid "Searching…"
 msgstr "찾는 중…"
@@ -2413,7 +2413,7 @@ msgid "No items matching the filter"
 msgstr "필터와 일치하는 항목 없음"
 
 msgid "No items found"
-msgstr ""
+msgstr "항목을 찾을 수 없음"
 
 msgid "Trash is empty"
 msgstr "휴지통이 비어 있음"
@@ -2422,38 +2422,38 @@ msgid "Folder is empty"
 msgstr "폴더가 비어 있음"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "파일 이름에 “/”를 포함할 수 없습니다."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 이름을 바꾸면 확장자가 바뀝니다. 파일이 다른 프로그램으로 열리거나 아예 열리지 않을 수 있습니다."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "선택 모드: 파일이나 폴더를 클릭하여 선택하거나 선택 해제하십시오."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "선택 모드 끝내기(_E)"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "복제(_D)"
 
 msgid "De_lete"
-msgstr ""
+msgstr "삭제(_L)"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "속성(_O)"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "“%s” 폴더가 더 이상 없습니다."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "“%s” 선택됨 (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s 선택됨"
 
 msgid "Loading folder…"
 msgstr "폴더 불러오는 중…"
@@ -2461,86 +2461,86 @@ msgstr "폴더 불러오는 중…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
+msgstr[0] "%d개 선택됨"
 
 msgid "Move left"
-msgstr ""
+msgstr "왼쪽으로"
 
 msgid "Move down"
-msgstr ""
+msgstr "아래로"
 
 msgid "Move up"
-msgstr ""
+msgstr "위로"
 
 msgid "Move right"
-msgstr ""
+msgstr "오른쪽으로"
 
 msgid "First item"
-msgstr ""
+msgstr "첫 항목"
 
 msgid "Last item"
-msgstr ""
+msgstr "마지막 항목"
 
 msgid "Page down"
-msgstr ""
+msgstr "페이지 아래로"
 
 msgid "Page up"
-msgstr ""
+msgstr "페이지 위로"
 
 msgid "Parent folder"
 msgstr "부모 폴더"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "커서가 지나가는 항목 선택(비주얼)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Shift처럼 범위 선택(비주얼 줄)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "격자의 블록 선택(비주얼 블록)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "일반 모드로 돌아가기"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "커서 아래 항목 복사"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "이름 바꾸기, 커서를 처음에(삽입)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "이름 바꾸기, 커서를 이름 뒤에(추가)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "이름 바꾸기, 이름 선택됨(변경)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "위치 편집"
 
 msgid "Copied."
-msgstr ""
+msgstr "복사했습니다."
 
 msgid "Cut."
-msgstr ""
+msgstr "잘라냈습니다."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "“%s”을(를) 열 수 없습니다."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "이름이 필요합니다."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "알 수 없는 보기: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "알 수 없는 옵션: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "이름, 크기, 날짜 또는 형식으로 정렬하십시오."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "명령이 아님: %s"
