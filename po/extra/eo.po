@@ -1,0 +1,1492 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "Ne eblis malfermi la arkivon."
+
+msgid "The archive could not be read."
+msgstr "Ne eblis legi la arkivon."
+
+msgid "Cancelled."
+msgstr "Nuligite."
+
+msgid "This file is encrypted with a password."
+msgstr "La dosiero estas ĉifrita per pasvorto."
+
+msgid "“%s” could not be read."
+msgstr "Ne eblis legi “%s”."
+
+msgid "This is not a file in an archive."
+msgstr "Ĉi tio ne estas dosiero en arkivo."
+
+msgid "Extract Here"
+msgstr "Elpaki ĉi tien"
+
+msgid "Compress to .tar.gz"
+msgstr "Densigi al .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Neniu terminala imitilo troviĝis."
+
+msgid "Root"
+msgstr "Radiko"
+
+msgid "%s Volume"
+msgstr "Datumportilo %s"
+
+msgid "This device cannot be mounted."
+msgstr "Ĉi tiu aparato ne estas surmetebla."
+
+msgid "This device cannot be unmounted."
+msgstr "Ĉi tiu aparato ne estas demetebla."
+
+msgid "The device is gone."
+msgstr "La aparato ne plu ekzistas."
+
+msgid "Copying %s to “%s”"
+msgstr "Kopiado de %s al “%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Movado de %s al “%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Ligado de %s en “%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Movado de %s al la rubujo"
+
+msgid "Deleting %s"
+msgstr "Forigado de %s"
+
+msgid "Restoring %s"
+msgstr "Restarigado de %s"
+
+msgid "Emptying the trash"
+msgstr "Malplenigado de la rubujo"
+
+msgid "Counting files…"
+msgstr "Kalkulado de dosieroj…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Dosierujo ne estas movebla en sin mem."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Dosierujo ne estas kopiebla en sin mem."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Dosieroj estas elpakeblaj nur al lokaj dosierujoj."
+
+msgid "Extracting from “%s”"
+msgstr "Elpakado el “%s”"
+
+msgid "Disc:"
+msgstr "Disko:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bitrapido:"
+
+msgid "Cover:"
+msgstr "Kovrilo:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f kadroj/s"
+
+msgid ", %.3f fps"
+msgstr ", %.3f kadroj/s"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "monofonia"
+
+msgid "stereo"
+msgstr "stereofonia"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanalo"
+msgstr[1] "%d kanaloj"
+
+msgid ", %d bit"
+msgstr ", %d bitoj"
+
+msgid "Audio %d:"
+msgstr "Sono %d:"
+
+msgid "Subtitles:"
+msgstr "Subtekstoj:"
+
+msgid "Chapters:"
+msgstr "Ĉapitroj:"
+
+msgid "Images"
+msgstr "Bildoj"
+
+msgid "Archives"
+msgstr "Arkivoj"
+
+msgid "Search for “%s”"
+msgstr "Serĉi “%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Neniu terminala imitilo troviĝis. Agordu iun en Agordi Beluga › Ĝenerale › Terminalo."
+
+msgid "This file system has no trash."
+msgstr "Ĉi tiu dosiersistemo ne havas rubujon."
+
+msgid "Could not create the trash information file."
+msgstr "Ne eblis krei la informdosieron de la rubujo."
+
+msgid "“%s” already exists."
+msgstr "“%s” jam ekzistas."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "La rubujo superas sian limon de %s. Konsideru malplenigi ĝin."
+
+msgid "Create File"
+msgstr "Krei dosieron"
+
+msgid "Undo: %s"
+msgstr "Malfari: %s"
+
+msgid "Redo: %s"
+msgstr "Refari: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d dosiero"
+msgstr[1] "%d dosieroj"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d dosierujo"
+msgstr[1] "%d dosierujoj"
+
+msgid "Today at %s"
+msgstr "Hodiaŭ je %s"
+
+msgid "Yesterday at %s"
+msgstr "Hieraŭ je %s"
+
+msgid "%A at %H:%M"
+msgstr "%A je %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s kopio %d"
+
+msgid "Disk Usage"
+msgstr "Diskuzo"
+
+msgid "Extension"
+msgstr "Sufikso"
+
+msgid "Original Location"
+msgstr "Originala loko"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga ne povis agi kiel administranto."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "pkexec (polkit) necesas por peti la pasvorton de administranto. Instalu polkit kaj polkit-agenton por via labortablo."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Beluga-fenestro kun administrantaj rajtoj povas ŝanĝi kaj forigi ĉiun dosieron en ĉi tiu komputilo, ankaŭ tiujn, kiujn la sistemo bezonas por starti. Eraro tie povas igi la sistemon neuzebla. Uzu ĝin nur por dosieroj, kiujn vi ne povas ŝanĝi alimaniere, kaj fermu ĝin post la laboro.\n\nPoste Beluga petos la pasvorton de administranto."
+
+msgid "Columns View"
+msgstr "Kolumna vido"
+
+msgid "Reset Zoom"
+msgstr "Restarigi zomon"
+
+msgid "Pop out Split View"
+msgstr "Malfiksi dividitan vidon"
+
+msgid "Places Panel"
+msgstr "Panelo de lokoj"
+
+msgid "Disk Usage Panel"
+msgstr "Panelo de diskuzo"
+
+msgid "Go to Tab 1"
+msgstr "Iri al langeto 1"
+
+msgid "Go to Tab 2"
+msgstr "Iri al langeto 2"
+
+msgid "Go to Tab 3"
+msgstr "Iri al langeto 3"
+
+msgid "Go to Tab 4"
+msgstr "Iri al langeto 4"
+
+msgid "Go to Tab 5"
+msgstr "Iri al langeto 5"
+
+msgid "Go to Tab 6"
+msgstr "Iri al langeto 6"
+
+msgid "Go to Tab 7"
+msgstr "Iri al langeto 7"
+
+msgid "Go to Tab 8"
+msgstr "Iri al langeto 8"
+
+msgid "Go to Tab 9"
+msgstr "Iri al langeto 9"
+
+msgid "Configure Beluga"
+msgstr "Agordi Beluga"
+
+msgid "Undo failed."
+msgstr "Malfaro malsukcesis."
+
+msgid "Folder…"
+msgstr "Dosierujo…"
+
+msgid "Text File…"
+msgstr "Tekstdosiero…"
+
+msgid "Empty File…"
+msgstr "Malplena dosiero…"
+
+msgid "Link to File or Folder…"
+msgstr "Ligilo al dosiero aŭ dosierujo…"
+
+msgid "Other View (%s)"
+msgstr "Alia vido (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Memori la vidon por ĉi tiu dosierujo"
+
+msgid "Open in Beluga"
+msgstr "Malfermi en Beluga"
+
+msgid "Paste into Folder"
+msgstr "Alglui en dosierujon"
+
+msgid "_Cancel"
+msgstr "_Nuligi"
+
+msgid "The name cannot contain “/”."
+msgstr "Nomo ne povas enhavi “/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Nomo komenciĝanta per punkto estas kaŝita."
+
+msgid "Some items could not be renamed."
+msgstr "Kelkaj eroj ne estis renomeblaj."
+
+msgid "Rename “%s” to:"
+msgstr "Renomi “%s” al:"
+
+msgid "_Rename"
+msgstr "_Renomi"
+
+msgid "Could not rename “%s”."
+msgstr "Ne eblis renomi “%s”."
+
+msgid "Change the file type?"
+msgstr "Ĉu ŝanĝi la dosiertipon?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Renomi “%s” al “%s” ŝanĝas ĝian sufikson."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Renomi la %zu elektitajn erojn al:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# anstataŭiĝas per kreskantaj nombroj; uzu ## por antaŭaj nuloj. Sufiksoj restas."
+
+msgid "Start numbering at:"
+msgstr "Komenci la numeradon je:"
+
+msgid "_Move Here"
+msgstr "_Movi ĉi tien"
+
+msgid "_Copy Here"
+msgstr "_Kopii ĉi tien"
+
+msgid "_Link Here"
+msgstr "_Ligi ĉi tie"
+
+msgid "C_ancel"
+msgstr "N_uligi"
+
+msgid "Choose a folder"
+msgstr "Elektu dosierujon"
+
+msgid "C_hoose…"
+msgstr "_Elekti…"
+
+msgid "Icon name:"
+msgstr "Piktograma nomo:"
+
+msgid "Choose a Folder"
+msgstr "Elektu dosierujon"
+
+msgid "_Add"
+msgstr "_Aldoni"
+
+msgid "_Save"
+msgstr "_Konservi"
+
+msgid "Show _folders first"
+msgstr "Montri _dosierujojn unue"
+
+msgid "Show hidden files _last"
+msgstr "Montri kaŝitajn dosierojn _laste"
+
+msgid "Show _previews"
+msgstr "Montri _antaŭrigardojn"
+
+msgid "Show in _groups"
+msgstr "Montri en _grupoj"
+
+msgid "Show _hidden files"
+msgstr "Montri _kaŝitajn dosierojn"
+
+msgid "Current folder including all subfolders"
+msgstr "La nuna dosierujo kun ĉiuj subdosierujoj"
+
+msgid "_OK"
+msgstr "_Bone"
+
+msgid "modified %s"
+msgstr "modifita %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Dosierujo nomata “%s” jam ekzistas en “%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Dosiero nomata “%s” jam ekzistas en “%s”."
+
+msgid "Existing item"
+msgstr "Ekzistanta ero"
+
+msgid "New item"
+msgstr "Nova ero"
+
+msgid "_Suggest New Name"
+msgstr "_Proponi novan nomon"
+
+msgid "New name:"
+msgstr "Nova nomo:"
+
+msgid "Apply to _all"
+msgstr "Apliki al _ĉiuj"
+
+msgid "S_kip"
+msgstr "_Preterlasi"
+
+msgid "_Write Into"
+msgstr "_Skribi en ĝin"
+
+msgid "_Overwrite"
+msgstr "_Anstataŭigi"
+
+msgid "Search icons…"
+msgstr "Serĉi piktogramojn…"
+
+msgid "_Image File…"
+msgstr "_Bilddosiero…"
+
+msgid "_Default Icon"
+msgstr "_Defaŭlta piktogramo"
+
+msgid "Choose an Image"
+msgstr "Elektu bildon"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Retaj lokoj bezonas gvfs. Instalu la pakaĵon gvfs (kaj gvfs-smb por Windows-kunhavigoj, gvfs-nfs por NFS), poste elsalutu kaj ensalutu denove."
+
+msgid "This location is not a folder."
+msgstr "Ĉi tiu loko ne estas dosierujo."
+
+msgid "This location is not valid."
+msgstr "Ĉi tiu loko ne validas."
+
+msgid "This folder is not in the archive."
+msgstr "Ĉi tiu dosierujo ne estas en la arkivo."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s pli malgranda dosiero"
+msgstr[1] "%s pli malgrandaj dosieroj"
+
+msgid "(another drive, not counted)"
+msgstr "(alia disko, ne kalkulita)"
+
+msgid "Some of its contents could not be read."
+msgstr "Parto de ĝia enhavo ne estis legebla."
+
+msgid "%s in files"
+msgstr "%s en dosieroj"
+
+msgid "%s on disk"
+msgstr "%s sur disko"
+
+msgid "%s files and %s folders"
+msgstr "%s dosieroj kaj %s dosierujoj"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Legado… %s en %s dosieroj kaj %s dosierujoj"
+
+msgid "Stopped."
+msgstr "Haltigite."
+
+msgid "This folder could not be read."
+msgstr "Ne eblis legi ĉi tiun dosierujon."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, legita en %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s dosierujo ne estis legebla."
+msgstr[1] ". %s dosierujoj ne estis legeblaj."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Nur dosierujoj en ĉi tiu komputilo estas mezureblaj."
+
+msgid "read less than a minute ago"
+msgstr "legita antaŭ malpli ol minuto"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "legita antaŭ %d minuto"
+msgstr[1] "legita antaŭ %d minutoj"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "legita antaŭ %d horo"
+msgstr[1] "legita antaŭ %d horoj"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Reskanu por relegi ĝin."
+
+msgid "_Apparent size"
+msgstr "_Ŝajna grando"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Sumi la grandojn de dosieroj anstataŭ la spacon, kiun ili okupas sur la disko."
+
+msgid "_Stay on this drive"
+msgstr "_Resti sur ĉi tiu disko"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Ne kalkuli aliajn diskojn surmetitajn en ĉi tiu dosierujo (kiel muzikdosierujon sur alia disko). Ligiloj neniam estas sekvataj."
+
+msgid "Rescan"
+msgstr "Reskani"
+
+msgid "Close Disk Usage"
+msgstr "Fermi diskuzon"
+
+msgid "_Rescan"
+msgstr "_Reskani"
+
+msgid "S_top"
+msgstr "_Haltigi"
+
+msgid "Disk Usage – %s"
+msgstr "Diskuzo – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” jam ekzistas. Ĉu anstataŭigi ĝin?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu el ĉi tiuj dosieroj jam ekzistas. Ĉu anstataŭigi ilin?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "La programo, el kiu vi konservas, anstataŭigos la ekzistantan enhavon."
+
+msgid "Choose a folder to save in."
+msgstr "Elektu dosierujon por konservi."
+
+msgid "Select Folder"
+msgstr "Elekti dosierujon"
+
+msgid "Open Files"
+msgstr "Malfermi dosierojn"
+
+msgid "Open File"
+msgstr "Malfermi dosieron"
+
+msgid "Save File"
+msgstr "Konservi dosieron"
+
+msgid "Save Files"
+msgstr "Konservi dosierojn"
+
+msgid "_Folder:"
+msgstr "_Dosierujo:"
+
+msgid "_Name:"
+msgstr "_Nomo:"
+
+msgid "_Type:"
+msgstr "_Tipo:"
+
+msgid "_Select"
+msgstr "_Elekti"
+
+msgid "_Open"
+msgstr "_Malfermi"
+
+msgid "Create new folder in:\n%s"
+msgstr "Krei novan dosierujon en:\n%s"
+
+msgid "C_reate"
+msgstr "_Krei"
+
+msgid "Could not create the folder."
+msgstr "Ne eblis krei la dosierujon."
+
+msgid "%zu items selected"
+msgstr "%zu eroj elektitaj"
+
+msgid "Contents:"
+msgstr "Enhavo:"
+
+msgid "Contains:"
+msgstr "Enhavas:"
+
+msgid "Counting…"
+msgstr "Kalkulado…"
+
+msgid "Broken Link"
+msgstr "Rompita ligilo"
+
+msgid "%s (link)"
+msgstr "%s (ligilo)"
+
+msgid "other drive"
+msgstr "alia disko"
+
+msgid "%s of %s"
+msgstr "%s el %s"
+
+msgid "%s left"
+msgstr "%s restas"
+
+msgid "%d of %d"
+msgstr "%d el %d"
+
+msgid "File operations in progress"
+msgstr "Dosieraj operacioj okazas"
+
+msgid "No subfolders"
+msgstr "Neniuj subdosierujoj"
+
+msgid "Select the given files in their folders"
+msgstr "Elekti la donitajn dosierojn en iliaj dosierujoj"
+
+msgid "Open the window in split view"
+msgstr "Malfermi la fenestron en dividita vido"
+
+msgid "Always open a new window"
+msgstr "Ĉiam malfermi novan fenestron"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Daŭre ruliĝi fone por la D-Bus-servo FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Malkonekti de la terminalo (sen loko: malfermas la nunan dosierujon)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Ruli la dosierelektilon por xdg-desktop-portal (lanĉata de D-Bus)"
+
+msgid "Show the version"
+msgstr "Montri la version"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[DOSIERO aŭ DOSIERUJO…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Agante kiel administranto: ŝanĝoj en ĉi tiu fenestro povas damaĝi la sistemon."
+
+msgid "Close this window?"
+msgstr "Ĉu fermi ĉi tiun fenestron?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Ĉi tiu fenestro havas %zu malfermitajn langetojn. Fermi ĝin fermas ĉiujn."
+
+msgid "Close Window"
+msgstr "Fermi fenestron"
+
+msgid "Show _Toolbar"
+msgstr "Montri _ilobreton"
+
+msgid "_File"
+msgstr "_Dosiero"
+
+msgid "New _Window"
+msgstr "Nova _fenestro"
+
+msgid "New _Tab"
+msgstr "Nova _langeto"
+
+msgid "_Close Tab"
+msgstr "_Fermi langeton"
+
+msgid "Create _New"
+msgstr "Krei _novan"
+
+msgid "_Rename…"
+msgstr "_Renomi…"
+
+msgid "_Duplicate Here"
+msgstr "_Duobligi ĉi tie"
+
+msgid "Move to _Trash"
+msgstr "Movi al _rubujo"
+
+msgid "_Delete"
+msgstr "_Forigi"
+
+msgid "Restore from Trash"
+msgstr "Restarigi el la rubujo"
+
+msgid "_Properties"
+msgstr "_Ecoj"
+
+msgid "_Quit"
+msgstr "_Ĉesi"
+
+msgid "_Edit"
+msgstr "_Redakti"
+
+msgid "_Undo"
+msgstr "_Malfari"
+
+msgid "_Redo"
+msgstr "_Refari"
+
+msgid "Cu_t"
+msgstr "_Eltondi"
+
+msgid "_Copy"
+msgstr "_Kopii"
+
+msgid "_Paste"
+msgstr "_Alglui"
+
+msgid "_Search…"
+msgstr "_Serĉi…"
+
+msgid "Select _All"
+msgstr "Elekti _ĉion"
+
+msgid "_View"
+msgstr "_Vido"
+
+msgid "Zoom _In"
+msgstr "_Zomi"
+
+msgid "Zoom _Out"
+msgstr "_Malzomi"
+
+msgid "Re_load"
+msgstr "_Reŝargi"
+
+msgid "Show _Menubar"
+msgstr "Montri _menubreton"
+
+msgid "Show _Statusbar"
+msgstr "Montri _statobreton"
+
+msgid "_Go"
+msgstr "_Iri"
+
+msgid "_Back"
+msgstr "_Reen"
+
+msgid "_Forward"
+msgstr "_Antaŭen"
+
+msgid "_Up"
+msgstr "_Supren"
+
+msgid "_Home"
+msgstr "_Hejmo"
+
+msgid "_Tools"
+msgstr "_Iloj"
+
+msgid "Open _Terminal"
+msgstr "Malfermi _terminalon"
+
+msgid "Open Terminal _Here"
+msgstr "Malfermi terminalon _ĉi tie"
+
+msgid "_Disk Usage…"
+msgstr "_Diskuzo…"
+
+msgid "_Settings"
+msgstr "_Agordoj"
+
+msgid "Configure Tool_bars…"
+msgstr "Agordi _ilobretojn…"
+
+msgid "_Configure Beluga…"
+msgstr "_Agordi Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Neniuj lastatempe fermitaj langetoj"
+
+msgid "(Administrator)"
+msgstr "(Administranto)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Ĉu malfermi %zu dosierujojn en novaj langetoj?"
+
+msgid "Open Folders"
+msgstr "Malfermi dosierujojn"
+
+msgid "Could not open “%s”."
+msgstr "Ne eblis malfermi “%s”."
+
+msgid "Could not open a terminal."
+msgstr "Ne eblis malfermi terminalon."
+
+msgid "New Text File.txt"
+msgstr "Nova tekstdosiero.txt"
+
+msgid "New File"
+msgstr "Nova dosiero"
+
+msgid "Empty the trash?"
+msgstr "Ĉu malplenigi la rubujon?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Ĉiuj eroj en la rubujo estos definitive forigitaj. Tio ne estas malfarebla."
+
+msgid "Open %zu terminals?"
+msgstr "Ĉu malfermi %zu terminalojn?"
+
+msgid "Open Terminals"
+msgstr "Malfermi terminalojn"
+
+msgid "Create new file in:\n%s"
+msgstr "Krei novan dosieron en:\n%s"
+
+msgid "Could not create the file."
+msgstr "Ne eblis krei la dosieron."
+
+msgid "Link to File or Folder"
+msgstr "Ligilo al dosiero aŭ dosierujo"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Vojo de la ligota dosiero aŭ dosierujo:"
+
+msgid "Could not create the link."
+msgstr "Ne eblis krei la ligilon."
+
+msgid "Permanently delete %s?"
+msgstr "Ĉu definitive forigi %s?"
+
+msgid "This cannot be undone."
+msgstr "Tio ne estas malfarebla."
+
+msgid "Move %s to the trash?"
+msgstr "Ĉu movi %s al la rubujo?"
+
+msgid "Could not run “%s”."
+msgstr "Ne eblis ruli “%s”."
+
+msgid "Could not start %s."
+msgstr "Ne eblis lanĉi %s."
+
+msgid "Could not start the application."
+msgstr "Ne eblis lanĉi la aplikaĵon."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” estas plenumebla dosiero."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Ĉu vi volas ruli ĝin aŭ malfermi ĝin en aplikaĵo?"
+
+msgid "Run"
+msgstr "Ruli"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Elektu la aplikaĵon por malfermi %s (%s):"
+
+msgid "Or command:"
+msgstr "Aŭ komando:"
+
+msgid "Remember application association for this type of file"
+msgstr "Memori la aplikaĵan asocion por ĉi tiu dosiertipo"
+
+msgid "%s free of %s"
+msgstr "%s libera el %s"
+
+msgid "Configure Sections"
+msgstr "Agordi sekciojn"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "La markitaj sekcioj aperas en la panelo de lokoj en ĉi tiu ordo."
+
+msgid "Move Up"
+msgstr "Movi supren"
+
+msgid "Move Down"
+msgstr "Movi malsupren"
+
+msgid "Could not mount the device: %s"
+msgstr "Ne eblis surmeti la aparaton: %s"
+
+msgid "Configure Sections…"
+msgstr "Agordi sekciojn…"
+
+msgid "Hide Hidden Entries"
+msgstr "Kaŝi kaŝitajn elementojn"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Ĉiuj eroj en la rubujo estos definitive forigitaj."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Ne eblis sekure forigi la aparaton: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Ne eblis demeti la aparaton: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Uzi la _sisteman tiparon"
+
+msgid "Context Menu Action"
+msgstr "Ago de kunteksta menuo"
+
+msgid "Types:"
+msgstr "Tipoj:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f unua dosiero, %F ĉiuj dosieroj, %u / %U kiel URI-oj, %n / %N nomoj, %d nuna dosierujo."
+
+msgid "Show for _files"
+msgstr "Montri por _dosieroj"
+
+msgid "Show for f_olders"
+msgstr "Montri por d_osierujoj"
+
+msgid "Show when _several items are selected"
+msgstr "Montri kiam _pluraj eroj estas elektitaj"
+
+msgid "Run in a _terminal"
+msgstr "Ruli en _terminalo"
+
+msgid "Custom Actions"
+msgstr "Propraj agoj"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Viaj propraj elementoj por la kunteksta menuo de dosieroj kaj dosierujoj."
+
+msgid "_Add…"
+msgstr "_Aldoni…"
+
+msgid "_Edit…"
+msgstr "_Redakti…"
+
+msgid "_Remove"
+msgstr "_Forigi"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Fulmoklavoj estas skribataj kiel <Control>c aŭ <Shift>Delete. Disigu plurajn per komoj. Lasu kampon malplena por la defaŭlto."
+
+msgid "files below %d MiB"
+msgstr "dosieroj sub %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Restarigi defaŭltojn"
+
+msgid "_Apply"
+msgstr "_Apliki"
+
+msgid "Folders & Tabs"
+msgstr "Dosierujoj kaj langetoj"
+
+msgid "This location:"
+msgstr "Ĉi tiu loko:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Teni unu Beluga-fenestron kaj malfermi novajn dosierujojn en langetoj"
+
+msgid "Tabs:"
+msgstr "Langetoj:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Fiks-larĝaj langetoj mallarĝiĝas, ĉiuj same multe, kiam ili ne enspaciĝas."
+
+msgid "No terminal found"
+msgstr "Neniu terminalo troviĝis"
+
+msgid "Detected: %s"
+msgstr "Detektita: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Uzata de F4 kaj Malfermi terminalon ĉi tie. %d en la komando anstataŭiĝas per la dosierujo; alie la terminalo startas en ĝi. Ĉi tio antaŭe estis sistema agordo de KDE."
+
+msgid "New folders:"
+msgstr "Novaj dosierujoj:"
+
+msgid "Show _previews in new folders"
+msgstr "Montri _antaŭrigardojn en novaj dosierujoj"
+
+msgid "Audio (cover art)"
+msgstr "Sono (kovrilaj bildoj)"
+
+msgid "PDF documents"
+msgstr "PDF-dokumentoj"
+
+msgid "Text files"
+msgstr "Tekstdosieroj"
+
+msgid "Fonts"
+msgstr "Tiparoj"
+
+msgid "Office documents"
+msgstr "Oficejaj dokumentoj"
+
+msgid "Ask for confirmation when:"
+msgstr "Peti konfirmon kiam:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Peti konfirmon en Beluga kiam:"
+
+msgid "Use _long date format"
+msgstr "Uzi _longan datformon"
+
+msgid "Show _hidden folders"
+msgstr "Montri _kaŝitajn dosierujojn"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Rulumi _aŭtomate al la nuna dosierujo"
+
+msgid "Places Panel:"
+msgstr "Panelo de lokoj:"
+
+msgid "Status & Location bars"
+msgstr "Stato- kaj lokobretoj"
+
+msgid "Show free _space"
+msgstr "Montri la _liberan spacon"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Ĉiuokaze, Vido › Memori la vidon por ĉi tiu dosierujo donas al unu dosierujo sian propran stilon. Kelkaj specialaj vidoj, kiel serĉo, lastatempaj dosieroj aŭ rubujo, ankoraŭ uzas sian propran stilon."
+
+msgid "Open files and folders with a single click"
+msgstr "Malfermi dosierojn kaj dosierujojn per unu klako"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Teni _indekson de la hejma dosierujo por tuja serĉo"
+
+msgid "levels deep"
+msgstr "niveloj profunde"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativa (Hodiaŭ, Hieraŭ…)"
+
+msgid "Absolute"
+msgstr "Absoluta"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simbola (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Nombra (0755)"
+
+msgid "Combined"
+msgstr "Kombinita"
+
+msgid "Elide in the middle"
+msgstr "Mallongigi meze"
+
+msgid "Elide at the end"
+msgstr "Mallongigi fine"
+
+msgid "Disk usage:"
+msgstr "Diskuzo:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Montri kolumnon de _diskuzo"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "La spaco, kiun ĉiu dosiero kaj ĉiu tuta dosierujo okupas sur la disko, kun breto por ĝia parto de la dosierujo, kiel Iloj › Diskuzo. Dosierujoj estas plene legataj fone; ordigu laŭ la kolumno por vidi la plej grandajn unue. \"Resti sur ĉi tiu disko\" el la fenestro Diskuzo validas ankaŭ ĉi tie."
+
+msgid "Show in the context menu"
+msgstr "Montri en la kunteksta menuo"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Kopii al' kaj 'Movi al'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Forigi (aldone al Movi al rubujo)"
+
+msgid "Cleanup:"
+msgstr "Purigado:"
+
+msgid "Delete files older than"
+msgstr "Forigi dosierojn pli malnovajn ol"
+
+msgid "days"
+msgstr "tagoj"
+
+msgid "Limit to"
+msgstr "Limigi al"
+
+msgid "percent of the disk"
+msgstr "procentoj de la disko"
+
+msgid "Keep the trash on the home drive"
+msgstr "Teni la rubujon sur la disko de la hejma dosierujo"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Dosieroj movitaj al la rubujo el aliaj diskoj estas kopiataj al la rubujo en la hejma dosierujo, do tiuj diskoj ricevas neniun dosierujon .Trash-1000. Movi grandajn dosierojn al la rubujo tiam daŭras pli longe."
+
+msgid "Full trash:"
+msgstr "Plena rubujo:"
+
+msgid "When the limit is reached:"
+msgstr "Kiam la limo estas atingita:"
+
+msgid "Show a warning"
+msgstr "Montri averton"
+
+msgid "Delete the oldest items"
+msgstr "Forigi la plej malnovajn erojn"
+
+msgid "Delete the largest items"
+msgstr "Forigi la plej grandajn erojn"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Tiuj antaŭe estis sistemaj agordoj de KDE. La limoj estas aplikataj kiam Beluga startas kaj post movi erojn al la rubujo."
+
+msgid "Calculating trash size…"
+msgstr "Kalkulado de la grando de la rubujo…"
+
+msgid "The trash currently uses %s."
+msgstr "La rubujo nun uzas %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Malplenigi la rubujon nun"
+
+msgid "Vim Mode"
+msgstr "Vim-reĝimo"
+
+msgid "Vim mode:"
+msgstr "Vim-reĝimo:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Uzi Vim-stilajn klavojn en la vidoj"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normala reĝimo moviĝas per h j k l kaj rulas la klavojn sube; v, V kaj Ctrl+V elektas; i kaj a renomas (enmeta reĝimo); Esc revenas al normala reĝimo; : malfermas la komandlinion. Ctrl- aŭ Alt-klavoj ne listigitaj ĉi tie konservas sian kutiman signifon."
+
+msgid "Leader key:"
+msgstr "Gvida klavo:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> en la klavoj sube, ekz. <Space> aŭ ,"
+
+msgid "Wait for more keys:"
+msgstr "Atendi pliajn klavojn:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd post d, gg post g)"
+
+msgid "Keys"
+msgstr "Klavoj"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim-notacio, pluraj disigitaj per spacoj: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lasu kampon malplena por la defaŭlto."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q fermas la fenestron (:q! sen demandi pri ĝiaj langetoj), :qa ĉesigas Beluga, :e aŭ :cd VOJO malfermas dosierujon, :tabnew [VOJO], :tabclose, :tabonly, :sp aŭ :vs [VOJO] dividas la vidon, :only fermas la alian vidon, :mkdir NOMO, :touch NOMO, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMANDO rulas ŝelan komandon en la dosierujo."
+
+msgid "Keyboard Shortcuts"
+msgstr "Fulmoklavoj"
+
+msgid "Only files on this computer can be read."
+msgstr "Nur dosieroj en ĉi tiu komputilo estas legeblaj."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga estis kompilita sen FFmpeg."
+
+msgid "Reading…"
+msgstr "Legado…"
+
+msgid "No details found."
+msgstr "Neniuj detaloj troviĝis."
+
+msgid "Change the folder's icon"
+msgstr "Ŝanĝi la piktogramon de dosierujo"
+
+msgid "Could not change the icon."
+msgstr "Ne eblis ŝanĝi la piktogramon."
+
+msgid "%zu items"
+msgstr "%zu eroj"
+
+msgid "No default application"
+msgstr "Neniu defaŭlta aplikaĵo"
+
+msgid "C_hange…"
+msgstr "_Ŝanĝi…"
+
+msgid "Opens with:"
+msgstr "Malfermiĝas per:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu bajto"
+msgstr[1] "%llu bajtoj"
+
+msgid "Can View"
+msgstr "Povas vidi"
+
+msgid "Can View Content"
+msgstr "Povas vidi la enhavon"
+
+msgid "Is _executable"
+msgstr "Estas _plenumebla"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Apliki la ŝanĝojn al ĉiuj _subdosierujoj kaj ilia enhavo"
+
+msgid "Could not read the file."
+msgstr "Ne eblis legi la dosieron."
+
+msgid "Paste a checksum to compare"
+msgstr "Algluu kontrolsumon por kompari"
+
+msgid "Verify:"
+msgstr "Kontroli:"
+
+msgid "The checksums match."
+msgstr "La kontrolsumoj kongruas."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Neniu kalkulita kontrolsumo kongruas. Unue kalkulu la respondan tipon."
+
+msgid "Could not change the permissions."
+msgstr "Ne eblis ŝanĝi la permesojn."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtri laŭ nomo (ĵokeroj kiel *.txt funkcias)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Teni la filtrilon dum ŝanĝo de dosierujo"
+
+msgid "In This Folder"
+msgstr "En ĉi tiu dosierujo"
+
+msgid "In Your Files"
+msgstr "En viaj dosieroj"
+
+msgid "Any Time"
+msgstr "Iam ajn"
+
+msgid "Last 7 Days"
+msgstr "Lastaj 7 tagoj"
+
+msgid "Last 30 Days"
+msgstr "Lastaj 30 tagoj"
+
+msgid "Last Year"
+msgstr "Lasta jaro"
+
+msgid "Hidden files"
+msgstr "Kaŝitaj dosieroj"
+
+msgid "Duplicate Tab"
+msgstr "Duobligi langeton"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Agoj super la lokobreto en la listo estas maldekstre de ĝi, la ceteraj dekstre. * markas agojn, kiuj ne estas tie, kie la defaŭlta ilobreto metas ilin."
+
+msgid "A_vailable actions:"
+msgstr "_Disponeblaj agoj:"
+
+msgid "Add to the tool bar"
+msgstr "Aldoni al la ilobreto"
+
+msgid "Remove from the tool bar"
+msgstr "Forigi el la ilobreto"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Movi supren (maldekstren en la ilobreto)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Movi malsupren (dekstren en la ilobreto)"
+
+msgid "C_urrent actions:"
+msgstr "_Nunaj agoj:"
+
+msgid "_Defaults"
+msgstr "_Defaŭltoj"
+
+msgid "Show Columns"
+msgstr "Montri kolumnojn"
+
+msgid "Modified: %s"
+msgstr "Modifita: %s"
+
+msgid "Original location: %s"
+msgstr "Originala loko: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Malpli ol 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB ĝis 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB ĝis 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB aŭ pli"
+
+msgid "Not counted yet"
+msgstr "Ankoraŭ ne kalkulita"
+
+msgid "A file name cannot contain “/”."
+msgstr "Dosiernomo ne povas enhavi “/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Renomi “%s” al “%s” ŝanĝas ĝian sufikson. La dosiero eble malfermiĝos per alia aplikaĵo aŭ tute ne."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Elekta reĝimo: alklaku dosierojn aŭ dosierujojn por elekti aŭ malelekti ilin."
+
+msgid "_Exit Selection Mode"
+msgstr "_Eliri el elekta reĝimo"
+
+msgid "_Duplicate"
+msgstr "_Duobligi"
+
+msgid "De_lete"
+msgstr "_Forigi"
+
+msgid "Pr_operties"
+msgstr "_Ecoj"
+
+msgid "The folder “%s” no longer exists."
+msgstr "La dosierujo “%s” ne plu ekzistas."
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” elektita (%s%s)"
+
+msgid "%s selected"
+msgstr "%s elektitaj"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d elektita"
+msgstr[1] "%d elektitaj"
+
+msgid "Move left"
+msgstr "Maldekstren"
+
+msgid "Move down"
+msgstr "Malsupren"
+
+msgid "Move up"
+msgstr "Supren"
+
+msgid "Move right"
+msgstr "Dekstren"
+
+msgid "First item"
+msgstr "Unua ero"
+
+msgid "Last item"
+msgstr "Lasta ero"
+
+msgid "Page down"
+msgstr "Paĝon malsupren"
+
+msgid "Page up"
+msgstr "Paĝon supren"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Elekti la erojn, kiujn la kursoro trapasas (vida)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Elekti intervalon, kiel per Shift (vida linio)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Elekti blokon el la krado (vida bloko)"
+
+msgid "Back to normal mode"
+msgstr "Reveni al normala reĝimo"
+
+msgid "Copy the item under the cursor"
+msgstr "Kopii la eron sub la kursoro"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Renomi, kursoro ĉe la komenco (enmeti)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Renomi, kursoro post la nomo (postaldoni)"
+
+msgid "Rename, name selected (change)"
+msgstr "Renomi, nomo elektita (ŝanĝi)"
+
+msgid "Edit the location"
+msgstr "Redakti la lokon"
+
+msgid "Copied."
+msgstr "Kopiite."
+
+msgid "Cut."
+msgstr "Eltondite."
+
+msgid "Can't open “%s”."
+msgstr "Ne eblas malfermi “%s”."
+
+msgid "A name is needed."
+msgstr "Nomo estas bezonata."
+
+msgid "Unknown view: %s"
+msgstr "Nekonata vido: %s"
+
+msgid "Unknown option: %s"
+msgstr "Nekonata opcio: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ordigu laŭ name, size, date aŭ type."
+
+msgid "Not a command: %s"
+msgstr "Ne komando: %s"
+
+msgid "Move"
+msgstr "Movi"
+
+msgid "Focus Other View"
+msgstr "Fokusi la alian vidon"
+
+msgid "Split View to Tabs"
+msgstr "Dividita vido al langetoj"
+
+msgid "Folders Panel"
+msgstr "Panelo de dosierujoj"
+
+msgid "Columns"
+msgstr "Kolumnoj"
+
+msgid "Files"
+msgstr "Dosieroj"
+
+msgid "Restore to Defaults"
+msgstr "Restarigi defaŭltojn"
+
+msgid "Recommended Applications"
+msgstr "Rekomenditaj aplikaĵoj"
+
+msgid "Other Applications"
+msgstr "Aliaj aplikaĵoj"
+
+msgid "File names:"
+msgstr "Dosiernomoj:"
+
+msgid "Always show tab bar"
+msgstr "Ĉiam montri la langetobreton"
+
+msgid "Show close button on tabs"
+msgstr "Montri fermbutonon sur langetoj"
+
+msgid "Tab style:"
+msgstr "Langeta stilo:"
+
+msgid "Tab width adapts to folder name"
+msgstr "Langeta larĝo adaptiĝas al la dosieruja nomo"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Ĉiuj langetoj havas la saman fiksan larĝon"
+
+msgid "When closing a split view"
+msgstr "Fermante dividitan vidon"
+
+msgid "Close the active pane"
+msgstr "Fermi la aktivan panelon"
+
+msgid "Close the inactive pane"
+msgstr "Fermi la neaktivan panelon"
+
+msgid "Close the right pane"
+msgstr "Fermi la dekstran panelon"
+
+msgid "Open new windows in split view mode"
+msgstr "Malfermi novajn fenestrojn en dividita vido"
+
+msgid "Renaming a file will change its type"
+msgstr "Renomi dosieron ŝanĝos ĝian tipon"
+
+msgid "Folders Panel:"
+msgstr "Panelo de dosierujoj:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Limigi al la hejma dosierujo kiam en ĝi"
+
+msgid "Browse compressed files as folders"
+msgstr "Foliumi densigitajn dosierojn kiel dosierujojn"
+
+msgid "Long file names:"
+msgstr "Longaj dosiernomoj:"
+
+msgid "Spacing:"
+msgstr "Interspaco:"
+
+msgid "Command line"
+msgstr "Komandlinio"
+
+msgid "Everywhere"
+msgstr "Ĉie"
+
+msgid "File Names"
+msgstr "Dosiernomoj"
+
+msgid "File Names and Contents"
+msgstr "Dosiernomoj kaj enhavo"
+
+msgid "No items found"
+msgstr "Neniuj eroj troviĝis"
+
+msgid "Free space:"
+msgstr "Libera spaco:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s libera el %s (%d%% uzata)"

@@ -1,0 +1,1426 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "Ekki tókst að opna safnskrána."
+
+msgid "The archive could not be read."
+msgstr "Ekki tókst að lesa safnskrána."
+
+msgid "Cancelled."
+msgstr "Hætt við."
+
+msgid "This file is encrypted with a password."
+msgstr "Skráin er dulrituð með lykilorði."
+
+msgid "“%s” could not be read."
+msgstr "Ekki tókst að lesa „%s“."
+
+msgid "This is not a file in an archive."
+msgstr "Þetta er ekki skrá inni í safnskrá."
+
+msgid "Extract Here"
+msgstr "Afþjappa hingað"
+
+msgid "Compress to .tar.gz"
+msgstr "Þjappa í .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Ekkert útstöðvarhermiforrit fannst."
+
+msgid "Root"
+msgstr "Rót"
+
+msgid "%s Volume"
+msgstr "%s gagnahirsla"
+
+msgid "This device cannot be mounted."
+msgstr "Ekki er hægt að tengja þetta tæki."
+
+msgid "This device cannot be unmounted."
+msgstr "Ekki er hægt að aftengja þetta tæki."
+
+msgid "The device is gone."
+msgstr "Tækið er ekki lengur til."
+
+msgid "Copying %s to “%s”"
+msgstr "Afrita %s í „%s“"
+
+msgid "Moving %s to “%s”"
+msgstr "Færi %s í „%s“"
+
+msgid "Linking %s in “%s”"
+msgstr "Tengi %s í „%s“"
+
+msgid "Moving %s to the trash"
+msgstr "Færi %s í ruslið"
+
+msgid "Deleting %s"
+msgstr "Eyði %s"
+
+msgid "Restoring %s"
+msgstr "Endurheimti %s"
+
+msgid "Emptying the trash"
+msgstr "Tæmi ruslið"
+
+msgid "Counting files…"
+msgstr "Tel skrár…"
+
+msgid "“%s”: %s"
+msgstr "„%s“: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Ekki er hægt að færa möppu inn í sjálfa sig."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Ekki er hægt að afrita möppu inn í sjálfa sig."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Aðeins er hægt að afþjappa skrár í staðværar möppur."
+
+msgid "Extracting from “%s”"
+msgstr "Afþjappa úr „%s“"
+
+msgid "Disc:"
+msgstr "Diskur:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bitahraði:"
+
+msgid "Cover:"
+msgstr "Umslag:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f rammar/s"
+
+msgid ", %.3f fps"
+msgstr ", %.3f rammar/s"
+
+msgid "Video %d:"
+msgstr "Myndskeið %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "einóma"
+
+msgid "stereo"
+msgstr "víðóma"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d rás"
+msgstr[1] "%d rásir"
+
+msgid ", %d bit"
+msgstr ", %d bitar"
+
+msgid "Audio %d:"
+msgstr "Hljóð %d:"
+
+msgid "Subtitles:"
+msgstr "Skjátextar:"
+
+msgid "Chapters:"
+msgstr "Kaflar:"
+
+msgid "Images"
+msgstr "Myndir"
+
+msgid "Archives"
+msgstr "Safnskrár"
+
+msgid "Search for “%s”"
+msgstr "Leita að „%s“"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Ekkert útstöðvarhermiforrit fannst. Veldu eitt í Stilla Beluga › Almennt › Útstöð."
+
+msgid "This file system has no trash."
+msgstr "Þetta skráakerfi er ekki með rusl."
+
+msgid "Could not create the trash information file."
+msgstr "Ekki tókst að búa til upplýsingaskrá ruslsins."
+
+msgid "“%s” already exists."
+msgstr "„%s“ er þegar til."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Ruslið er stærra en %s hámarkið. Íhugaðu að tæma það."
+
+msgid "Create File"
+msgstr "Búa til skrá"
+
+msgid "Undo: %s"
+msgstr "Afturkalla: %s"
+
+msgid "Redo: %s"
+msgstr "Endurgera: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d skrá"
+msgstr[1] "%d skrár"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d mappa"
+msgstr[1] "%d möppur"
+
+msgid "Today at %s"
+msgstr "Í dag kl. %s"
+
+msgid "Yesterday at %s"
+msgstr "Í gær kl. %s"
+
+msgid "%A at %H:%M"
+msgstr "%A kl. %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld mín %ld sek"
+
+msgid "%ld h %ld min"
+msgstr "%ld klst %ld mín"
+
+msgid "%s copy %d"
+msgstr "%s afrit %d"
+
+msgid "Disk Usage"
+msgstr "Diskanotkun"
+
+msgid "Extension"
+msgstr "Skráarending"
+
+msgid "Original Location"
+msgstr "Upprunaleg staðsetning"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga gat ekki keyrt sem kerfisstjóri."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "pkexec (polkit) þarf til að biðja um lykilorð kerfisstjóra. Settu upp polkit og polkit-umboðsmann fyrir skjáborðið þitt."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Beluga-gluggi með kerfisstjóraréttindum getur breytt og eytt öllum skrám á þessari tölvu, líka þeim sem kerfið þarf til að ræsa. Mistök þar geta gert kerfið ónothæft. Notaðu hann aðeins fyrir skrár sem þú getur ekki breytt á annan hátt og lokaðu honum þegar þú ert búin(n).\n\nNæst biður Beluga um lykilorð kerfisstjóra."
+
+msgid "Columns View"
+msgstr "Dálkasýn"
+
+msgid "Reset Zoom"
+msgstr "Endurstilla aðdrátt"
+
+msgid "Pop out Split View"
+msgstr "Losa skipta sýn"
+
+msgid "Places Panel"
+msgstr "Staðaspjald"
+
+msgid "Disk Usage Panel"
+msgstr "Diskanotkunarspjald"
+
+msgid "Go to Tab 1"
+msgstr "Fara á flipa 1"
+
+msgid "Go to Tab 2"
+msgstr "Fara á flipa 2"
+
+msgid "Go to Tab 3"
+msgstr "Fara á flipa 3"
+
+msgid "Go to Tab 4"
+msgstr "Fara á flipa 4"
+
+msgid "Go to Tab 5"
+msgstr "Fara á flipa 5"
+
+msgid "Go to Tab 6"
+msgstr "Fara á flipa 6"
+
+msgid "Go to Tab 7"
+msgstr "Fara á flipa 7"
+
+msgid "Go to Tab 8"
+msgstr "Fara á flipa 8"
+
+msgid "Go to Tab 9"
+msgstr "Fara á flipa 9"
+
+msgid "Configure Beluga"
+msgstr "Stilla Beluga"
+
+msgid "Undo failed."
+msgstr "Afturköllun mistókst."
+
+msgid "Folder…"
+msgstr "Mappa…"
+
+msgid "Text File…"
+msgstr "Textaskrá…"
+
+msgid "Empty File…"
+msgstr "Tóm skrá…"
+
+msgid "Link to File or Folder…"
+msgstr "Tengill á skrá eða möppu…"
+
+msgid "Other View (%s)"
+msgstr "Hin sýnin (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Muna sýn fyrir þessa möppu"
+
+msgid "Open in Beluga"
+msgstr "Opna í Beluga"
+
+msgid "Paste into Folder"
+msgstr "Líma í möppu"
+
+msgid "_Cancel"
+msgstr "_Hætta við"
+
+msgid "The name cannot contain “/”."
+msgstr "Heitið má ekki innihalda „/“."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Heiti sem byrjar á punkti er falið."
+
+msgid "Some items could not be renamed."
+msgstr "Ekki tókst að endurnefna sum atriði."
+
+msgid "Rename “%s” to:"
+msgstr "Endurnefna „%s“ sem:"
+
+msgid "_Rename"
+msgstr "_Endurnefna"
+
+msgid "Could not rename “%s”."
+msgstr "Ekki tókst að endurnefna „%s“."
+
+msgid "Change the file type?"
+msgstr "Breyta skráartegund?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Að endurnefna „%s“ sem „%s“ breytir skráarendingunni."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Endurnefna %zu valin atriði sem:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# er skipt út fyrir hækkandi tölur; notaðu ## fyrir núll í upphafi. Skráarendingum er haldið."
+
+msgid "Start numbering at:"
+msgstr "Byrja tölusetningu á:"
+
+msgid "_Move Here"
+msgstr "_Færa hingað"
+
+msgid "_Copy Here"
+msgstr "_Afrita hingað"
+
+msgid "_Link Here"
+msgstr "_Tengja hingað"
+
+msgid "C_ancel"
+msgstr "Hætt_a við"
+
+msgid "Choose a folder"
+msgstr "Veldu möppu"
+
+msgid "C_hoose…"
+msgstr "_Velja…"
+
+msgid "Icon name:"
+msgstr "Heiti táknmyndar:"
+
+msgid "Choose a Folder"
+msgstr "Veldu möppu"
+
+msgid "_Add"
+msgstr "_Bæta við"
+
+msgid "_Save"
+msgstr "_Vista"
+
+msgid "Show _folders first"
+msgstr "Sýna _möppur fyrst"
+
+msgid "Show hidden files _last"
+msgstr "Sýna faldar skrár _síðast"
+
+msgid "Show _previews"
+msgstr "Sýna _forskoðanir"
+
+msgid "Show in _groups"
+msgstr "Sýna í _hópum"
+
+msgid "Show _hidden files"
+msgstr "Sýna _faldar skrár"
+
+msgid "Current folder including all subfolders"
+msgstr "Núverandi mappa með öllum undirmöppum"
+
+msgid "_OK"
+msgstr "Í _lagi"
+
+msgid "modified %s"
+msgstr "breytt %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Mappa sem heitir „%s“ er þegar til í „%s“."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Skrá sem heitir „%s“ er þegar til í „%s“."
+
+msgid "Existing item"
+msgstr "Fyrirliggjandi atriði"
+
+msgid "New item"
+msgstr "Nýtt atriði"
+
+msgid "_Suggest New Name"
+msgstr "_Stinga upp á nýju heiti"
+
+msgid "New name:"
+msgstr "Nýtt heiti:"
+
+msgid "Apply to _all"
+msgstr "Beita á _allt"
+
+msgid "S_kip"
+msgstr "_Sleppa"
+
+msgid "_Write Into"
+msgstr "_Skrifa inn í"
+
+msgid "_Overwrite"
+msgstr "_Skrifa yfir"
+
+msgid "Search icons…"
+msgstr "Leita að táknmyndum…"
+
+msgid "_Image File…"
+msgstr "_Myndskrá…"
+
+msgid "_Default Icon"
+msgstr "_Sjálfgefin táknmynd"
+
+msgid "Choose an Image"
+msgstr "Veldu mynd"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Netstaðir þurfa gvfs. Settu upp gvfs-pakkann (og gvfs-smb fyrir Windows-sameignir, gvfs-nfs fyrir NFS), skráðu þig svo út og aftur inn."
+
+msgid "This location is not a folder."
+msgstr "Þessi staðsetning er ekki mappa."
+
+msgid "This location is not valid."
+msgstr "Þessi staðsetning er ógild."
+
+msgid "This folder is not in the archive."
+msgstr "Þessi mappa er ekki í safnskránni."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s minni skrá"
+msgstr[1] "%s minni skrár"
+
+msgid "(another drive, not counted)"
+msgstr "(annað drif, ekki talið)"
+
+msgid "Some of its contents could not be read."
+msgstr "Ekki tókst að lesa hluta af innihaldinu."
+
+msgid "%s in files"
+msgstr "%s í skrám"
+
+msgid "%s on disk"
+msgstr "%s á diski"
+
+msgid "%s files and %s folders"
+msgstr "%s skrár og %s möppur"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Les… %s í %s skrám og %s möppum"
+
+msgid "Stopped."
+msgstr "Stöðvað."
+
+msgid "This folder could not be read."
+msgstr "Ekki tókst að lesa þessa möppu."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, lesið á %.1f sek"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Ekki tókst að lesa %s möppu."
+msgstr[1] ". Ekki tókst að lesa %s möppur."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Aðeins er hægt að mæla möppur á þessari tölvu."
+
+msgid "read less than a minute ago"
+msgstr "lesið fyrir minna en mínútu"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "lesið fyrir %d mínútu"
+msgstr[1] "lesið fyrir %d mínútum"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "lesið fyrir %d klukkustund"
+msgstr[1] "lesið fyrir %d klukkustundum"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Skannaðu aftur til að lesa það aftur."
+
+msgid "_Apparent size"
+msgstr "_Sýnileg stærð"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Leggja saman skráastærðir í stað plássins sem þær taka á diski."
+
+msgid "_Stay on this drive"
+msgstr "_Vera á þessu drifi"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Ekki telja önnur drif sem eru tengd inni í þessari möppu (eins og tónlistarmöppu á öðrum diski). Tenglum er aldrei fylgt."
+
+msgid "Rescan"
+msgstr "Skanna aftur"
+
+msgid "Close Disk Usage"
+msgstr "Loka diskanotkun"
+
+msgid "_Rescan"
+msgstr "Skanna _aftur"
+
+msgid "S_top"
+msgstr "S_töðva"
+
+msgid "Disk Usage – %s"
+msgstr "Diskanotkun – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "„%s“ er þegar til. Skipta henni út?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu af þessum skrám eru þegar til. Skipta þeim út?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Forritið sem þú vistar úr skrifar yfir núverandi innihald."
+
+msgid "Choose a folder to save in."
+msgstr "Veldu möppu til að vista í."
+
+msgid "Select Folder"
+msgstr "Velja möppu"
+
+msgid "Open Files"
+msgstr "Opna skrár"
+
+msgid "Open File"
+msgstr "Opna skrá"
+
+msgid "Save File"
+msgstr "Vista skrá"
+
+msgid "Save Files"
+msgstr "Vista skrár"
+
+msgid "_Folder:"
+msgstr "_Mappa:"
+
+msgid "_Name:"
+msgstr "_Heiti:"
+
+msgid "_Type:"
+msgstr "_Tegund:"
+
+msgid "_Select"
+msgstr "_Velja"
+
+msgid "_Open"
+msgstr "_Opna"
+
+msgid "Create new folder in:\n%s"
+msgstr "Búa til nýja möppu í:\n%s"
+
+msgid "C_reate"
+msgstr "_Búa til"
+
+msgid "Could not create the folder."
+msgstr "Ekki tókst að búa til möppuna."
+
+msgid "%zu items selected"
+msgstr "%zu atriði valin"
+
+msgid "Contents:"
+msgstr "Innihald:"
+
+msgid "Contains:"
+msgstr "Inniheldur:"
+
+msgid "Counting…"
+msgstr "Tel…"
+
+msgid "Broken Link"
+msgstr "Brotinn tengill"
+
+msgid "%s (link)"
+msgstr "%s (tengill)"
+
+msgid "other drive"
+msgstr "annað drif"
+
+msgid "%s of %s"
+msgstr "%s af %s"
+
+msgid "%s left"
+msgstr "%s eftir"
+
+msgid "%d of %d"
+msgstr "%d af %d"
+
+msgid "File operations in progress"
+msgstr "Skráaaðgerðir í gangi"
+
+msgid "No subfolders"
+msgstr "Engar undirmöppur"
+
+msgid "Select the given files in their folders"
+msgstr "Velja tilgreindar skrár í möppunum þeirra"
+
+msgid "Open the window in split view"
+msgstr "Opna gluggann í skiptri sýn"
+
+msgid "Always open a new window"
+msgstr "Opna alltaf nýjan glugga"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Halda áfram að keyra í bakgrunni fyrir FileManager1 D-Bus þjónustuna"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Losa frá útstöð (án staðsetningar: opnar núverandi möppu)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Keyra skráaveljara fyrir xdg-desktop-portal (ræstur af D-Bus)"
+
+msgid "Show the version"
+msgstr "Sýna útgáfu"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[SKRÁ eða MAPPA…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Keyrir sem kerfisstjóri: breytingar í þessum glugga geta skaðað kerfið."
+
+msgid "Close this window?"
+msgstr "Loka þessum glugga?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Þessi gluggi er með %zu flipa opna. Að loka honum lokar þeim öllum."
+
+msgid "Close Window"
+msgstr "Loka glugga"
+
+msgid "Show _Toolbar"
+msgstr "Sýna _verkfærastiku"
+
+msgid "_File"
+msgstr "_Skrá"
+
+msgid "New _Window"
+msgstr "Nýr _gluggi"
+
+msgid "New _Tab"
+msgstr "Nýr _flipi"
+
+msgid "_Close Tab"
+msgstr "_Loka flipa"
+
+msgid "Create _New"
+msgstr "Búa til _nýtt"
+
+msgid "_Rename…"
+msgstr "_Endurnefna…"
+
+msgid "_Duplicate Here"
+msgstr "_Tvöfalda hér"
+
+msgid "Move to _Trash"
+msgstr "Færa í _rusl"
+
+msgid "_Delete"
+msgstr "_Eyða"
+
+msgid "Restore from Trash"
+msgstr "Endurheimta úr rusli"
+
+msgid "_Properties"
+msgstr "_Eiginleikar"
+
+msgid "_Quit"
+msgstr "_Hætta"
+
+msgid "_Edit"
+msgstr "_Breyta"
+
+msgid "_Undo"
+msgstr "_Afturkalla"
+
+msgid "_Redo"
+msgstr "_Endurgera"
+
+msgid "Cu_t"
+msgstr "_Klippa"
+
+msgid "_Copy"
+msgstr "_Afrita"
+
+msgid "_Paste"
+msgstr "_Líma"
+
+msgid "_Search…"
+msgstr "_Leita…"
+
+msgid "Select _All"
+msgstr "Velja _allt"
+
+msgid "_View"
+msgstr "_Sýn"
+
+msgid "Zoom _In"
+msgstr "_Auka aðdrátt"
+
+msgid "Zoom _Out"
+msgstr "_Minnka aðdrátt"
+
+msgid "Re_load"
+msgstr "_Endurhlaða"
+
+msgid "Show _Menubar"
+msgstr "Sýna _valmyndastiku"
+
+msgid "Show _Statusbar"
+msgstr "Sýna _stöðustiku"
+
+msgid "_Go"
+msgstr "_Fara"
+
+msgid "_Back"
+msgstr "_Til baka"
+
+msgid "_Forward"
+msgstr "_Áfram"
+
+msgid "_Up"
+msgstr "_Upp"
+
+msgid "_Home"
+msgstr "_Heim"
+
+msgid "_Tools"
+msgstr "_Verkfæri"
+
+msgid "Open _Terminal"
+msgstr "Opna _útstöð"
+
+msgid "Open Terminal _Here"
+msgstr "Opna útstöð _hér"
+
+msgid "_Disk Usage…"
+msgstr "_Diskanotkun…"
+
+msgid "_Settings"
+msgstr "_Stillingar"
+
+msgid "Configure Tool_bars…"
+msgstr "Stilla _verkfærastikur…"
+
+msgid "_Configure Beluga…"
+msgstr "_Stilla Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Engir nýlega lokaðir flipar"
+
+msgid "(Administrator)"
+msgstr "(Kerfisstjóri)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Opna %zu möppur í nýjum flipum?"
+
+msgid "Open Folders"
+msgstr "Opna möppur"
+
+msgid "Could not open “%s”."
+msgstr "Ekki tókst að opna „%s“."
+
+msgid "Could not open a terminal."
+msgstr "Ekki tókst að opna útstöð."
+
+msgid "New Text File.txt"
+msgstr "Ný textaskrá.txt"
+
+msgid "New File"
+msgstr "Ný skrá"
+
+msgid "Empty the trash?"
+msgstr "Tæma ruslið?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Öllum atriðum í ruslinu verður eytt varanlega. Ekki er hægt að afturkalla þetta."
+
+msgid "Open %zu terminals?"
+msgstr "Opna %zu útstöðvar?"
+
+msgid "Open Terminals"
+msgstr "Opna útstöðvar"
+
+msgid "Create new file in:\n%s"
+msgstr "Búa til nýja skrá í:\n%s"
+
+msgid "Could not create the file."
+msgstr "Ekki tókst að búa til skrána."
+
+msgid "Link to File or Folder"
+msgstr "Tengill á skrá eða möppu"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Slóð skrárinnar eða möppunnar sem á að tengja:"
+
+msgid "Could not create the link."
+msgstr "Ekki tókst að búa til tengilinn."
+
+msgid "Permanently delete %s?"
+msgstr "Eyða %s varanlega?"
+
+msgid "This cannot be undone."
+msgstr "Ekki er hægt að afturkalla þetta."
+
+msgid "Move %s to the trash?"
+msgstr "Færa %s í ruslið?"
+
+msgid "Could not run “%s”."
+msgstr "Ekki tókst að keyra „%s“."
+
+msgid "Could not start %s."
+msgstr "Ekki tókst að ræsa %s."
+
+msgid "Could not start the application."
+msgstr "Ekki tókst að ræsa forritið."
+
+msgid "“%s” is an executable file."
+msgstr "„%s“ er keyrsluskrá."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Viltu keyra hana eða opna hana í forriti?"
+
+msgid "Run"
+msgstr "Keyra"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Veldu forritið til að opna %s (%s):"
+
+msgid "Or command:"
+msgstr "Eða skipun:"
+
+msgid "Remember application association for this type of file"
+msgstr "Muna forritatengingu fyrir þessa skráartegund"
+
+msgid "%s free of %s"
+msgstr "%s laust af %s"
+
+msgid "Configure Sections"
+msgstr "Stilla hluta"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Merktir hlutar birtast í staðaspjaldinu í þessari röð."
+
+msgid "Move Up"
+msgstr "Færa upp"
+
+msgid "Move Down"
+msgstr "Færa niður"
+
+msgid "Could not mount the device: %s"
+msgstr "Ekki tókst að tengja tækið: %s"
+
+msgid "Configure Sections…"
+msgstr "Stilla hluta…"
+
+msgid "Hide Hidden Entries"
+msgstr "Fela faldar færslur"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Öllum atriðum í ruslinu verður eytt varanlega."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Ekki tókst að fjarlægja tækið örugglega: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Ekki tókst að aftengja tækið: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Nota letur _kerfisins"
+
+msgid "Context Menu Action"
+msgstr "Aðgerð í samhengisvalmynd"
+
+msgid "Types:"
+msgstr "Tegundir:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f fyrsta skrá, %F allar skrár, %u / %U sem URI, %n / %N heiti, %d núverandi mappa."
+
+msgid "Show for _files"
+msgstr "Sýna fyrir _skrár"
+
+msgid "Show for f_olders"
+msgstr "Sýna fyrir _möppur"
+
+msgid "Show when _several items are selected"
+msgstr "Sýna þegar _nokkur atriði eru valin"
+
+msgid "Run in a _terminal"
+msgstr "Keyra í _útstöð"
+
+msgid "Custom Actions"
+msgstr "Sérsniðnar aðgerðir"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Þínar eigin færslur í samhengisvalmynd skráa og mappa."
+
+msgid "_Add…"
+msgstr "_Bæta við…"
+
+msgid "_Edit…"
+msgstr "_Breyta…"
+
+msgid "_Remove"
+msgstr "_Fjarlægja"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Flýtilyklar eru skrifaðir eins og <Control>c eða <Shift>Delete. Aðskildu nokkra með kommum. Skildu reit eftir auðan fyrir sjálfgefið."
+
+msgid "files below %d MiB"
+msgstr "skrár undir %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Endurheimta sjálfgefið"
+
+msgid "_Apply"
+msgstr "_Virkja"
+
+msgid "Folders & Tabs"
+msgstr "Möppur og flipar"
+
+msgid "This location:"
+msgstr "Þessi staðsetning:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Halda einum Beluga-glugga og opna nýjar möppur í flipum"
+
+msgid "Tabs:"
+msgstr "Flipar:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Flipar með fasta breidd verða mjórri, allir jafnmikið, þegar þeir komast ekki fyrir."
+
+msgid "No terminal found"
+msgstr "Engin útstöð fannst"
+
+msgid "Detected: %s"
+msgstr "Fannst: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Notað af F4 og Opna útstöð hér. %d í skipuninni er skipt út fyrir möppuna; annars ræsist útstöðin í henni. Þetta var áður kerfisstilling í KDE."
+
+msgid "New folders:"
+msgstr "Nýjar möppur:"
+
+msgid "Show _previews in new folders"
+msgstr "Sýna _forskoðanir í nýjum möppum"
+
+msgid "Audio (cover art)"
+msgstr "Hljóð (umslagsmyndir)"
+
+msgid "PDF documents"
+msgstr "PDF-skjöl"
+
+msgid "Text files"
+msgstr "Textaskrár"
+
+msgid "Fonts"
+msgstr "Letur"
+
+msgid "Office documents"
+msgstr "Skrifstofuskjöl"
+
+msgid "Ask for confirmation when:"
+msgstr "Biðja um staðfestingu þegar:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Biðja um staðfestingu í Beluga þegar:"
+
+msgid "Use _long date format"
+msgstr "Nota _langt dagsetningarsnið"
+
+msgid "Show _hidden folders"
+msgstr "Sýna _faldar möppur"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Skruna _sjálfvirkt að núverandi möppu"
+
+msgid "Places Panel:"
+msgstr "Staðaspjald:"
+
+msgid "Status & Location bars"
+msgstr "Stöðu- og staðsetningarstikur"
+
+msgid "Show free _space"
+msgstr "Sýna _laust pláss"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Hvort sem er gefur Sýn › Muna sýn fyrir þessa möppu einni möppu sinn eigin stíl. Sumar sérstakar sýnir, eins og leit, nýlegar skrár eða rusl, nota áfram sinn eigin stíl."
+
+msgid "Open files and folders with a single click"
+msgstr "Opna skrár og möppur með einum smelli"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Halda _atriðaskrá yfir heimamöppuna fyrir tafarlausa leit"
+
+msgid "levels deep"
+msgstr "stig djúpt"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Afstætt (Í dag, Í gær…)"
+
+msgid "Absolute"
+msgstr "Algilt"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Táknrænt (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Tölulegt (0755)"
+
+msgid "Combined"
+msgstr "Sameinað"
+
+msgid "Elide in the middle"
+msgstr "Stytta í miðju"
+
+msgid "Elide at the end"
+msgstr "Stytta í enda"
+
+msgid "Disk usage:"
+msgstr "Diskanotkun:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Sýna _diskanotkunardálk"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Plássið sem hver skrá og hver heil mappa tekur á diski, með stiku fyrir hlut hennar í möppunni, eins og Verkfæri › Diskanotkun. Möppur eru lesnar að fullu í bakgrunni; raðaðu eftir dálknum til að sjá þær stærstu fyrst. \"Vera á þessu drifi\" úr diskanotkunarglugganum gildir líka hér."
+
+msgid "Show in the context menu"
+msgstr "Sýna í samhengisvalmynd"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Afrita í' og 'Færa í'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Eyða (auk Færa í rusl)"
+
+msgid "Cleanup:"
+msgstr "Hreinsun:"
+
+msgid "Delete files older than"
+msgstr "Eyða skrám eldri en"
+
+msgid "days"
+msgstr "daga"
+
+msgid "Limit to"
+msgstr "Takmarka við"
+
+msgid "percent of the disk"
+msgstr "prósent af diski"
+
+msgid "Keep the trash on the home drive"
+msgstr "Halda ruslinu á drifi heimamöppunnar"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Skrár sem eru færðar í ruslið af öðrum drifum eru afritaðar í ruslið í heimamöppunni, svo þau drif fá enga .Trash-1000 möppu. Það tekur þá lengri tíma að færa stórar skrár í ruslið."
+
+msgid "Full trash:"
+msgstr "Fullt rusl:"
+
+msgid "When the limit is reached:"
+msgstr "Þegar hámarki er náð:"
+
+msgid "Show a warning"
+msgstr "Sýna viðvörun"
+
+msgid "Delete the oldest items"
+msgstr "Eyða elstu atriðunum"
+
+msgid "Delete the largest items"
+msgstr "Eyða stærstu atriðunum"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Þetta voru áður kerfisstillingar í KDE. Takmörkunum er beitt þegar Beluga ræsist og eftir að atriði eru færð í ruslið."
+
+msgid "Calculating trash size…"
+msgstr "Reikna stærð ruslsins…"
+
+msgid "The trash currently uses %s."
+msgstr "Ruslið notar nú %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Tæma ruslið núna"
+
+msgid "Vim Mode"
+msgstr "Vim-hamur"
+
+msgid "Vim mode:"
+msgstr "Vim-hamur:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Nota lykla í Vim-stíl í sýnum"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Venjulegur hamur hreyfist með h j k l og keyrir lyklana hér að neðan; v, V og Ctrl+V velja; i og a endurnefna (innsetningarhamur); Esc fer aftur í venjulegan ham; : opnar skipanalínuna. Ctrl- eða Alt-lyklar sem eru ekki taldir upp hér halda venjulegri merkingu sinni."
+
+msgid "Leader key:"
+msgstr "Forystulykill:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> í lyklunum hér að neðan, t.d. <Space> eða ,"
+
+msgid "Wait for more keys:"
+msgstr "Bíða eftir fleiri lyklum:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd á eftir d, gg á eftir g)"
+
+msgid "Keys"
+msgstr "Lyklar"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim-ritháttur, nokkrir aðskildir með bilum: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Skildu reit eftir auðan fyrir sjálfgefið."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q lokar glugganum (:q! án þess að spyrja um flipana), :qa hættir í Beluga, :e eða :cd SLÓÐ opnar möppu, :tabnew [SLÓÐ], :tabclose, :tabonly, :sp eða :vs [SLÓÐ] skipta sýninni, :only lokar hinni sýninni, :mkdir HEITI, :touch HEITI, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!SKIPUN keyrir skeljarskipun í möppunni."
+
+msgid "Keyboard Shortcuts"
+msgstr "Flýtilyklar"
+
+msgid "Only files on this computer can be read."
+msgstr "Aðeins er hægt að lesa skrár á þessari tölvu."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga var byggt án FFmpeg."
+
+msgid "Reading…"
+msgstr "Les…"
+
+msgid "No details found."
+msgstr "Engar upplýsingar fundust."
+
+msgid "Change the folder's icon"
+msgstr "Breyta táknmynd möppu"
+
+msgid "Could not change the icon."
+msgstr "Ekki tókst að breyta táknmyndinni."
+
+msgid "%zu items"
+msgstr "%zu atriði"
+
+msgid "No default application"
+msgstr "Ekkert sjálfgefið forrit"
+
+msgid "C_hange…"
+msgstr "_Breyta…"
+
+msgid "Opens with:"
+msgstr "Opnast með:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu bæti"
+msgstr[1] "%llu bæti"
+
+msgid "Can View"
+msgstr "Getur skoðað"
+
+msgid "Can View Content"
+msgstr "Getur skoðað innihald"
+
+msgid "Is _executable"
+msgstr "Er _keyranleg"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Beita breytingum á allar _undirmöppur og innihald þeirra"
+
+msgid "Could not read the file."
+msgstr "Ekki tókst að lesa skrána."
+
+msgid "Paste a checksum to compare"
+msgstr "Límdu inn gátsummu til samanburðar"
+
+msgid "Verify:"
+msgstr "Sannreyna:"
+
+msgid "The checksums match."
+msgstr "Gátsummurnar passa saman."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Engin reiknuð gátsumma passar. Reiknaðu fyrst samsvarandi tegund."
+
+msgid "Could not change the permissions."
+msgstr "Ekki tókst að breyta heimildum."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Sía eftir heiti (algildisstafir eins og *.txt virka)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Halda síunni þegar skipt er um möppu"
+
+msgid "In This Folder"
+msgstr "Í þessari möppu"
+
+msgid "In Your Files"
+msgstr "Í skránum þínum"
+
+msgid "Any Time"
+msgstr "Hvenær sem er"
+
+msgid "Last 7 Days"
+msgstr "Síðustu 7 daga"
+
+msgid "Last 30 Days"
+msgstr "Síðustu 30 daga"
+
+msgid "Last Year"
+msgstr "Síðasta ár"
+
+msgid "Hidden files"
+msgstr "Faldar skrár"
+
+msgid "Duplicate Tab"
+msgstr "Tvöfalda flipa"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Aðgerðir fyrir ofan staðsetningarstikuna í listanum eru vinstra megin við hana, hinar hægra megin. * merkir aðgerðir sem eru ekki þar sem sjálfgefna verkfærastikan setur þær."
+
+msgid "A_vailable actions:"
+msgstr "_Tiltækar aðgerðir:"
+
+msgid "Add to the tool bar"
+msgstr "Bæta á verkfærastiku"
+
+msgid "Remove from the tool bar"
+msgstr "Fjarlægja af verkfærastiku"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Færa upp (til vinstri á verkfærastikunni)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Færa niður (til hægri á verkfærastikunni)"
+
+msgid "C_urrent actions:"
+msgstr "_Núverandi aðgerðir:"
+
+msgid "_Defaults"
+msgstr "_Sjálfgefið"
+
+msgid "Show Columns"
+msgstr "Sýna dálka"
+
+msgid "Modified: %s"
+msgstr "Breytt: %s"
+
+msgid "Original location: %s"
+msgstr "Upprunaleg staðsetning: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Minna en 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB til 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB til 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB eða meira"
+
+msgid "Not counted yet"
+msgstr "Ekki talið enn"
+
+msgid "A file name cannot contain “/”."
+msgstr "Skráarheiti má ekki innihalda „/“."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Að endurnefna „%s“ sem „%s“ breytir skráarendingunni. Skráin gæti opnast með öðru forriti eða alls ekki."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Valhamur: smelltu á skrár eða möppur til að velja þær eða afvelja."
+
+msgid "_Exit Selection Mode"
+msgstr "_Hætta í valham"
+
+msgid "_Duplicate"
+msgstr "_Tvöfalda"
+
+msgid "De_lete"
+msgstr "_Eyða"
+
+msgid "Pr_operties"
+msgstr "_Eiginleikar"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Mappan „%s“ er ekki lengur til."
+
+msgid "“%s” selected (%s%s)"
+msgstr "„%s“ valið (%s%s)"
+
+msgid "%s selected"
+msgstr "%s valið"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d valið"
+msgstr[1] "%d valin"
+
+msgid "Move left"
+msgstr "Til vinstri"
+
+msgid "Move down"
+msgstr "Niður"
+
+msgid "Move up"
+msgstr "Upp"
+
+msgid "Move right"
+msgstr "Til hægri"
+
+msgid "First item"
+msgstr "Fyrsta atriði"
+
+msgid "Last item"
+msgstr "Síðasta atriði"
+
+msgid "Page down"
+msgstr "Síða niður"
+
+msgid "Page up"
+msgstr "Síða upp"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Velja atriðin sem bendillinn fer yfir (sjónrænt)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Velja bil, eins og með Shift (sjónræn lína)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Velja blokk úr hnitanetinu (sjónræn blokk)"
+
+msgid "Back to normal mode"
+msgstr "Fara aftur í venjulegan ham"
+
+msgid "Copy the item under the cursor"
+msgstr "Afrita atriðið undir bendlinum"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Endurnefna, bendill í upphafi (setja inn)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Endurnefna, bendill á eftir heitinu (bæta við)"
+
+msgid "Rename, name selected (change)"
+msgstr "Endurnefna, heiti valið (breyta)"
+
+msgid "Edit the location"
+msgstr "Breyta staðsetningu"
+
+msgid "Copied."
+msgstr "Afritað."
+
+msgid "Cut."
+msgstr "Klippt."
+
+msgid "Can't open “%s”."
+msgstr "Ekki hægt að opna „%s“."
+
+msgid "A name is needed."
+msgstr "Heiti vantar."
+
+msgid "Unknown view: %s"
+msgstr "Óþekkt sýn: %s"
+
+msgid "Unknown option: %s"
+msgstr "Óþekktur valkostur: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Raða eftir name, size, date eða type."
+
+msgid "Not a command: %s"
+msgstr "Ekki skipun: %s"
+
+msgid "Move"
+msgstr "Færa"
+
+msgid "Folders Panel"
+msgstr "Möppuspjald"
+
+msgid "Files"
+msgstr "Skrár"
+
+msgid "Recommended Applications"
+msgstr "Ráðlögð forrit"
+
+msgid "Other Applications"
+msgstr "Önnur forrit"
+
+msgid "Folders Panel:"
+msgstr "Möppuspjald:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Takmarka við heimamöppu þegar verið er inni í henni"
+
+msgid "Spacing:"
+msgstr "Bil:"
+
+msgid "Command line"
+msgstr "Skipanalína"
+
+msgid "No items found"
+msgstr "Engin atriði fundust"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s laust af %s (%d%% notað)"
