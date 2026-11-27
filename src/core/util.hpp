@@ -6,6 +6,7 @@
 #include <gio/gio.h>
 #include <glib/gi18n.h>
 
+#include <functional>
 #include <string>
 #include <utility>
 #include <vector>
@@ -91,6 +92,9 @@ GFile *file_for_input(const std::string &text, GFile *base); // ~, relative, URI
 // empty when it has none. set_folder_icon writes it (empty removes it).
 std::string folder_icon(const std::string &dirPath);
 bool set_folder_icon(const std::string &dirPath, const std::string &icon, GError **err);
+// Changes a folder's .directory file (the one Dolphin also uses): fn edits the loaded file, other groups and
+// comments are kept, and the file is deleted when nothing is left in it.
+bool edit_directory_file(const std::string &dirPath, const std::function<void(GKeyFile *)> &fn, GError **err);
 GIcon *icon_from_string(const std::string &icon);
 
 // "name.tar.gz" -> {"name", ".tar.gz"}; folders have no extension.

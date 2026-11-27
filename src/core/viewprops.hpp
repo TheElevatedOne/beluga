@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-// Beluga: view properties (mode, sorting, columns...). Either one global
-// set or one set per folder, stored in ~/.local/share/beluga/viewprops.conf
-// instead of .directory files inside the folders.
+// Beluga: view properties (mode, sorting, columns...). One default set in
+// ~/.local/share/beluga/viewprops.conf, and a folder's own set in the [Beluga]
+// group of its .directory file, so it stays with the folder when it is moved or
+// copied. Folders whose .directory can't be written keep theirs in viewprops.conf.
 #pragma once
 
 #include <map>

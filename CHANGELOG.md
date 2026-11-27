@@ -1,7 +1,12 @@
 # Changelog
 
-## Unreleased
+## 1.2.0
 
+- Changed: a folder's own view (**View → Remember View for This Folder**, **Adjust View Display Style…**, or every
+  folder when each remembers its own style) is saved in the `[Beluga]` group of the folder's `.directory` file, so
+  it stays with the folder when it is moved, copied or synced. Views remembered before are moved there the next
+  time the folder is opened. Folders where `.directory` can't be written (read only, remote, inside archives) keep
+  theirs in `~/.local/share/beluga/viewprops.conf`. "All folders" makes views saved before it stop counting.
 - Translations: all 63 languages are now complete (806 of 806 messages). 50 languages had only 24–46% before, and
   the 13 complete ones lacked the "weekday at time" date format.
 

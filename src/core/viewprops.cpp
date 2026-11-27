@@ -110,6 +110,62 @@ std::string own_group(const std::string &uri)
 
 void write_group(GKeyFile *kf, const std::string &g, const ViewProps &p);
 
+// A folder's own view lives in this group of its .directory file, so it moves and is copied with the
+// folder. Dolphin keeps its own [Dolphin] group in the same file; the two don't touch each other's.
+const char *kDirGroup = "Beluga";
+
+// The local folder whose .directory file can hold the view; empty for remote folders, archives and the
+// trash, search and recent views, which keep theirs in viewprops.conf.
+std::string dir_path(const std::string &uri)
+{
+    if (is_virtual_uri(uri)) return {};
+    GFile *f = g_file_new_for_uri(uri.c_str());
+    std::string path = g_file_is_native(f) ? take(g_file_get_path(f)) : std::string();
+    g_object_unref(f);
+    return path;
+}
+
+// "Apply to all folders" can't reach every .directory file, so it records when it ran: a folder's own
+// view saved before then no longer counts (as Dolphin does with its Timestamp key).
+gint64 reset_time(GKeyFile *store) { return g_key_file_get_int64(store, "global", "ResetTime", nullptr); }
+
+bool read_group(GKeyFile *kf, const std::string &g, ViewProps &p);
+
+// Reads the folder's own view from its .directory file. Returns false when it has none that counts.
+bool read_dir_file(const std::string &path, gint64 resetTime, ViewProps &p)
+{
+    std::string file = path + "/.directory";
+    if (!g_file_test(file.c_str(), G_FILE_TEST_IS_REGULAR)) return false;
+    GKeyFile *kf = g_key_file_new();
+    bool ok = g_key_file_load_from_file(kf, file.c_str(), G_KEY_FILE_NONE, nullptr)
+        && g_key_file_has_group(kf, kDirGroup)
+        && g_key_file_get_int64(kf, kDirGroup, "Timestamp", nullptr) > resetTime
+        && read_group(kf, kDirGroup, p);
+    g_key_file_free(kf);
+    return ok;
+}
+
+bool write_dir_file(const std::string &path, const ViewProps &p)
+{
+    return edit_directory_file(path, [&](GKeyFile *kf) {
+        g_key_file_remove_group(kf, kDirGroup, nullptr);
+        write_group(kf, kDirGroup, p);
+        g_key_file_set_int64(kf, kDirGroup, "Timestamp", g_get_real_time());
+    }, nullptr);
+}
+
+// Saves a folder's own view: into its .directory file when it can be written there (then any copy in
+// viewprops.conf is dropped), else into viewprops.conf (read-only folders, remote folders, archives).
+void save_own_into(GKeyFile *store, const std::string &uri, const ViewProps &p)
+{
+    std::string path = dir_path(uri);
+    if (!path.empty() && write_dir_file(path, p)) {
+        g_key_file_remove_group(store, own_group(uri).c_str(), nullptr);
+        return;
+    }
+    write_group(store, own_group(uri), p);
+}
+
 bool read_group(GKeyFile *kf, const std::string &g, ViewProps &p)
 {
     const char *G = g.c_str();
@@ -188,7 +244,14 @@ ViewProps load_view_props(const std::string &uri)
     // A folder's own settings win; every other folder uses the default ("global") settings.
     ViewProps p = default_view_props(uri);
     GKeyFile *kf = open_store();
-    read_group(kf, own_group(uri), p);
+    std::string path = dir_path(uri);
+    if (path.empty() || !read_dir_file(path, reset_time(kf), p)) {
+        if (read_group(kf, own_group(uri), p) && !path.empty()) {
+            // Remembered before views moved into .directory files: move it there now.
+            save_own_into(kf, uri, p);
+            g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
+        }
+    }
     g_key_file_free(kf);
     return p;
 }
@@ -196,44 +259,48 @@ ViewProps load_view_props(const std::string &uri)
 bool has_own_view_props(const std::string &uri)
 {
     GKeyFile *kf = open_store();
-    bool has = g_key_file_has_group(kf, own_group(uri).c_str());
+    std::string path = dir_path(uri);
+    ViewProps dummy;
+    bool has = (!path.empty() && read_dir_file(path, reset_time(kf), dummy)) || g_key_file_has_group(kf, own_group(uri).c_str());
     g_key_file_free(kf);
     return has;
 }
-
-namespace {
-void save_group(const std::string &g, const ViewProps &p)
-{
-    GKeyFile *kf = open_store();
-    write_group(kf, g, p);
-    g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
-    g_key_file_free(kf);
-}
-} // namespace
 
 void save_view_props(const std::string &uri, const ViewProps &p)
 {
     // A change in a folder that has its own settings stays there. Otherwise it changes the default
     // for all folders, unless each folder remembers its own view (the "same style" option is off).
-    bool own = is_virtual_uri(uri) || !settings().globalViewProps || has_own_view_props(uri);
-    save_group(own ? own_group(uri) : "global", p);
+    if (is_virtual_uri(uri) || !settings().globalViewProps || has_own_view_props(uri)) save_own_view_props(uri, p);
+    else save_default_view_props(p);
 }
 
-void save_own_view_props(const std::string &uri, const ViewProps &p) { save_group(own_group(uri), p); }
+void save_own_view_props(const std::string &uri, const ViewProps &p)
+{
+    save_own_view_props(std::vector<std::string>{uri}, p);
+}
 
 void save_own_view_props(const std::vector<std::string> &uris, const ViewProps &p)
 {
     GKeyFile *kf = open_store();
-    for (auto &u : uris) write_group(kf, own_group(u), p);
+    for (auto &u : uris) save_own_into(kf, u, p);
     g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
     g_key_file_free(kf);
 }
 
-void save_default_view_props(const ViewProps &p) { save_group("global", p); }
+void save_default_view_props(const ViewProps &p)
+{
+    GKeyFile *kf = open_store();
+    write_group(kf, "global", p);
+    g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
+    g_key_file_free(kf);
+}
 
 void remove_own_view_props(const std::string &uri)
 {
     if (is_virtual_uri(uri)) return;
+    std::string path = dir_path(uri);
+    if (!path.empty() && g_file_test((path + "/.directory").c_str(), G_FILE_TEST_IS_REGULAR))
+        edit_directory_file(path, [](GKeyFile *kf) { g_key_file_remove_group(kf, kDirGroup, nullptr); }, nullptr);
     GKeyFile *kf = open_store();
     if (g_key_file_remove_group(kf, own_group(uri).c_str(), nullptr)) g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
     g_key_file_free(kf);
@@ -270,6 +337,8 @@ void reset_all_view_props()
     char **groups = g_key_file_get_groups(kf, &n);
     for (gsize i = 0; i < n; ++i) g_key_file_remove_group(kf, groups[i], nullptr);
     g_strfreev(groups);
+    // Views saved in .directory files before now stop counting.
+    g_key_file_set_int64(kf, "global", "ResetTime", g_get_real_time());
     g_key_file_save_to_file(kf, store_path().c_str(), nullptr);
     g_key_file_free(kf);
 }

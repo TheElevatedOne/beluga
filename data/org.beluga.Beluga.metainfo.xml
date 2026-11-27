@@ -44,6 +44,12 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.2.0" date="2026-11-27">
+      <description>
+        <p>A folder's own view is saved in its .directory file, so it moves with the folder. All 63 translations
+          are complete.</p>
+      </description>
+    </release>
     <release version="1.1.1" date="2026-11-27">
       <description>
         <p>Search and file operations always report back on the main thread (a search could hang). Includes the

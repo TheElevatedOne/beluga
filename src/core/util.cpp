@@ -382,27 +382,37 @@ std::string folder_icon(const std::string &dirPath)
     return icon;
 }
 
-bool set_folder_icon(const std::string &dirPath, const std::string &icon, GError **err)
+bool edit_directory_file(const std::string &dirPath, const std::function<void(GKeyFile *)> &fn, GError **err)
 {
     std::string file = dirPath + "/.directory";
     GKeyFile *kf = g_key_file_new();
-    g_key_file_load_from_file(kf, file.c_str(), G_KEY_FILE_KEEP_COMMENTS, nullptr);
-    if (icon.empty()) g_key_file_remove_key(kf, "Desktop Entry", "Icon", nullptr);
-    else g_key_file_set_string(kf, "Desktop Entry", "Icon", icon.c_str());
-    if (g_key_file_has_group(kf, "Desktop Entry")) {
-        gsize n = 0;
-        char **keys = g_key_file_get_keys(kf, "Desktop Entry", &n, nullptr);
-        g_strfreev(keys);
-        if (n == 0) g_key_file_remove_group(kf, "Desktop Entry", nullptr);
-    }
+    g_key_file_load_from_file(kf, file.c_str(), GKeyFileFlags(G_KEY_FILE_KEEP_COMMENTS | G_KEY_FILE_KEEP_TRANSLATIONS), nullptr);
+    fn(kf);
+    // Drop groups that ended up empty.
     gsize groups = 0;
     char **g = g_key_file_get_groups(kf, &groups);
+    for (gsize i = 0; i < groups; ++i) {
+        gsize n = 0;
+        char **keys = g_key_file_get_keys(kf, g[i], &n, nullptr);
+        g_strfreev(keys);
+        if (n == 0) g_key_file_remove_group(kf, g[i], nullptr);
+    }
+    g_strfreev(g);
+    g = g_key_file_get_groups(kf, &groups);
     g_strfreev(g);
     bool ok;
     if (groups == 0) ok = g_unlink(file.c_str()) == 0 || errno == ENOENT;   // nothing left: no file
     else ok = g_key_file_save_to_file(kf, file.c_str(), err);
     g_key_file_free(kf);
     return ok;
+}
+
+bool set_folder_icon(const std::string &dirPath, const std::string &icon, GError **err)
+{
+    return edit_directory_file(dirPath, [&](GKeyFile *kf) {
+        if (icon.empty()) g_key_file_remove_key(kf, "Desktop Entry", "Icon", nullptr);
+        else g_key_file_set_string(kf, "Desktop Entry", "Icon", icon.c_str());
+    }, err);
 }
 
 GIcon *icon_from_string(const std::string &icon)

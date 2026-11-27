@@ -487,6 +487,18 @@ void gui_tests(GtkApplication *app)
         int other = go("Folder 2")->props().viewMode;
         pv = go("Folder 1");
         check(pv->hasOwnProps() && pv->props().viewMode == ModeDetails && other == ModeIcons, "a folder remembers its own view mode");
+        // It is kept in the folder's .directory file, so it goes with the folder when it is moved.
+        std::string f1 = take(g_file_get_path(F("Folder 1").get())), moved = f1 + " moved";
+        gchar *dirFile = nullptr;
+        g_file_get_contents((f1 + "/.directory").c_str(), &dirFile, nullptr, nullptr);
+        bool inFile = dirFile && strstr(dirFile, "[Beluga]");
+        g_free(dirFile);
+        go("Folder 2");
+        bool movedKeeps = g_rename(f1.c_str(), moved.c_str()) == 0
+            && load_view_props(file_uri(Ref<GFile>(g_file_new_for_path(moved.c_str())).get())).viewMode == ModeDetails;
+        g_rename(moved.c_str(), f1.c_str());
+        check(inFile && movedKeeps, "a folder's own view is saved in its .directory and moves with it");
+        pv = go("Folder 1");
         pv->setOwnProps(false);
         check(!pv->hasOwnProps() && pv->props().viewMode == ModeIcons, "a folder goes back to the default view mode");
     }
