@@ -1,0 +1,1714 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "The archive could not be opened."
+msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ບີບອັດໄດ້."
+
+msgid "The archive could not be read."
+msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ບີບອັດໄດ້."
+
+msgid "Cancelled."
+msgstr "ຍົກເລີກແລ້ວ."
+
+msgid "This file is encrypted with a password."
+msgstr "ໄຟລ໌ນີ້ຖືກເຂົ້າລະຫັດດ້ວຍລະຫັດຜ່ານ."
+
+msgid "“%s” could not be read."
+msgstr "ບໍ່ສາມາດອ່ານ “%s” ໄດ້."
+
+msgid "This is not a file in an archive."
+msgstr "ນີ້ບໍ່ແມ່ນໄຟລ໌ພາຍໃນໄຟລ໌ບີບອັດ."
+
+msgid "Extract Here"
+msgstr "ແຕກໄຟລ໌ໄວ້ທີ່ນີ້"
+
+msgid "Compress to .tar.gz"
+msgstr "ບີບອັດເປັນ .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "ບໍ່ພົບໂປຣແກຣມຈຳລອງເທີມິນອນ."
+
+msgid "Root"
+msgstr "ຮາກ"
+
+msgid "%s Volume"
+msgstr "ໂວລຸ່ມ %s"
+
+msgid "This device cannot be mounted."
+msgstr "ບໍ່ສາມາດເມົ້າອຸປະກອນນີ້ໄດ້."
+
+msgid "This device cannot be unmounted."
+msgstr "ບໍ່ສາມາດຖອດເມົ້າອຸປະກອນນີ້ໄດ້."
+
+msgid "The device is gone."
+msgstr "ອຸປະກອນບໍ່ມີຢູ່ອີກແລ້ວ."
+
+msgid "Copying %s to “%s”"
+msgstr "ກຳລັງສຳເນົາ %s ໄປ “%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "ກຳລັງຍ້າຍ %s ໄປ “%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "ກຳລັງສ້າງລິ້ງ %s ໃນ “%s”"
+
+msgid "Moving %s to the trash"
+msgstr "ກຳລັງຍ້າຍ %s ໄປຖັງຂີ້ເຫຍື້ອ"
+
+msgid "Deleting %s"
+msgstr "ກຳລັງລຶບ %s"
+
+msgid "Restoring %s"
+msgstr "ກຳລັງກູ້ຄືນ %s"
+
+msgid "Emptying the trash"
+msgstr "ກຳລັງລ້າງຖັງຂີ້ເຫຍື້ອ"
+
+msgid "Counting files…"
+msgstr "ກຳລັງນັບໄຟລ໌…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "ບໍ່ສາມາດຍ້າຍໂຟນເດີເຂົ້າໄປໃນຕົວມັນເອງໄດ້."
+
+msgid "A folder cannot be copied into itself."
+msgstr "ບໍ່ສາມາດສຳເນົາໂຟນເດີເຂົ້າໄປໃນຕົວມັນເອງໄດ້."
+
+msgid "Files can only be extracted into local folders."
+msgstr "ແຕກໄຟລ໌ໄດ້ສະເພາະໄປຍັງໂຟນເດີໃນເຄື່ອງເທົ່ານັ້ນ."
+
+msgid "Extracting from “%s”"
+msgstr "ກຳລັງແຕກໄຟລ໌ຈາກ “%s”"
+
+msgid "Disc:"
+msgstr "ດິສກ໌:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "ຮູບແບບ:"
+
+msgid "Bit rate:"
+msgstr "ອັດຕາບິດ:"
+
+msgid "Cover:"
+msgstr "ໜ້າປົກ:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "ວິດີໂອ %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "ໂມໂນ"
+
+msgid "stereo"
+msgstr "ສະເຕຣິໂອ"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d ຊ່ອງ"
+
+msgid ", %d bit"
+msgstr ", %d ບິດ"
+
+msgid "Audio %d:"
+msgstr "ສຽງ %d:"
+
+msgid "Subtitles:"
+msgstr "ຄຳບັນຍາຍ:"
+
+msgid "Chapters:"
+msgstr "ບົດ:"
+
+msgid "Images"
+msgstr "ຮູບພາບ"
+
+msgid "Archives"
+msgstr "ໄຟລ໌ບີບອັດ"
+
+msgid "Search for “%s”"
+msgstr "ຄົ້ນຫາ “%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "ບໍ່ພົບໂປຣແກຣມຈຳລອງເທີມິນອນ. ກຳນົດໄດ້ທີ່ ຕັ້ງຄ່າ Beluga › ທົ່ວໄປ › ເທີມິນອນ."
+
+msgid "This file system has no trash."
+msgstr "ລະບົບໄຟລ໌ນີ້ບໍ່ມີຖັງຂີ້ເຫຍື້ອ."
+
+msgid "Could not create the trash information file."
+msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ຂໍ້ມູນຂອງຖັງຂີ້ເຫຍື້ອໄດ້."
+
+msgid "“%s” already exists."
+msgstr "“%s” ມີຢູ່ແລ້ວ."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "ຖັງຂີ້ເຫຍື້ອໃຫຍ່ກວ່າຂີດຈຳກັດ %s. ຄວນລ້າງມັນ."
+
+msgid "Create File"
+msgstr "ສ້າງໄຟລ໌"
+
+msgid "Undo: %s"
+msgstr "ຍົກເລີກການກະທຳ: %s"
+
+msgid "Redo: %s"
+msgstr "ເຮັດຊ້ຳ: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d ໄຟລ໌"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d ໂຟນເດີ"
+
+msgid "Today at %s"
+msgstr "ມື້ນີ້ເວລາ %s"
+
+msgid "Yesterday at %s"
+msgstr "ມື້ວານເວລາ %s"
+
+msgid "%A at %H:%M"
+msgstr "%A ເວລາ %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld ນາທີ %ld ວິນາທີ"
+
+msgid "%ld h %ld min"
+msgstr "%ld ຊົ່ວໂມງ %ld ນາທີ"
+
+msgid "%s copy %d"
+msgstr "%s ສຳເນົາ %d"
+
+msgid "Disk Usage"
+msgstr "ການໃຊ້ດິສກ໌"
+
+msgid "Extension"
+msgstr "ນາມສະກຸນໄຟລ໌"
+
+msgid "Original Location"
+msgstr "ບ່ອນເດີມ"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga ບໍ່ສາມາດເຮັດວຽກເປັນຜູ້ເບິ່ງແຍງລະບົບໄດ້."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "ຕ້ອງໃຊ້ pkexec (polkit) ເພື່ອຖາມລະຫັດຜ່ານຜູ້ເບິ່ງແຍງລະບົບ. ຕິດຕັ້ງ polkit ແລະ polkit agent ສຳລັບເດັສທັອບຂອງທ່ານ."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "ໜ້າຕ່າງ Beluga ທີ່ມີສິດຜູ້ເບິ່ງແຍງລະບົບສາມາດປ່ຽນ ແລະ ລຶບໄຟລ໌ໃດກໍໄດ້ໃນຄອມພິວເຕີນີ້, ລວມທັງໄຟລ໌ທີ່ລະບົບຕ້ອງການເພື່ອເລີ່ມຕົ້ນ. ຄວາມຜິດພາດຢູ່ບ່ອນນັ້ນອາດເຮັດໃຫ້ລະບົບໃຊ້ງານບໍ່ໄດ້. ໃຊ້ມັນສະເພາະກັບໄຟລ໌ທີ່ທ່ານປ່ຽນດ້ວຍວິທີອື່ນບໍ່ໄດ້ ແລະ ປິດມັນເມື່ອເຮັດແລ້ວ.\n\nຈາກນັ້ນ Beluga ຈະຖາມລະຫັດຜ່ານຜູ້ເບິ່ງແຍງລະບົບ."
+
+msgid "Columns View"
+msgstr "ມຸມມອງຖັນ"
+
+msgid "Reset Zoom"
+msgstr "ຕັ້ງການຊູມຄືນໃໝ່"
+
+msgid "Pop out Split View"
+msgstr "ແຍກມຸມມອງແບ່ງອອກ"
+
+msgid "Places Panel"
+msgstr "ແຜງສະຖານທີ່"
+
+msgid "Disk Usage Panel"
+msgstr "ແຜງການໃຊ້ດິສກ໌"
+
+msgid "Go to Tab 1"
+msgstr "ໄປທີ່ແຖບ 1"
+
+msgid "Go to Tab 2"
+msgstr "ໄປທີ່ແຖບ 2"
+
+msgid "Go to Tab 3"
+msgstr "ໄປທີ່ແຖບ 3"
+
+msgid "Go to Tab 4"
+msgstr "ໄປທີ່ແຖບ 4"
+
+msgid "Go to Tab 5"
+msgstr "ໄປທີ່ແຖບ 5"
+
+msgid "Go to Tab 6"
+msgstr "ໄປທີ່ແຖບ 6"
+
+msgid "Go to Tab 7"
+msgstr "ໄປທີ່ແຖບ 7"
+
+msgid "Go to Tab 8"
+msgstr "ໄປທີ່ແຖບ 8"
+
+msgid "Go to Tab 9"
+msgstr "ໄປທີ່ແຖບ 9"
+
+msgid "Configure Beluga"
+msgstr "ຕັ້ງຄ່າ Beluga"
+
+msgid "Undo failed."
+msgstr "ການຍົກເລີກການກະທຳລົ້ມເຫລວ."
+
+msgid "Folder…"
+msgstr "ໂຟນເດີ…"
+
+msgid "Text File…"
+msgstr "ໄຟລ໌ຂໍ້ຄວາມ…"
+
+msgid "Empty File…"
+msgstr "ໄຟລ໌ເປົ່າ…"
+
+msgid "Link to File or Folder…"
+msgstr "ລິ້ງໄປຫາໄຟລ໌ ຫຼື ໂຟນເດີ…"
+
+msgid "Other View (%s)"
+msgstr "ມຸມມອງອື່ນ (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "ຈື່ມຸມມອງສຳລັບໂຟນເດີນີ້"
+
+msgid "Open in Beluga"
+msgstr "ເປີດໃນ Beluga"
+
+msgid "Paste into Folder"
+msgstr "ວາງໃນໂຟນເດີ"
+
+msgid "_Cancel"
+msgstr "ຍົກເລີກ (_C)"
+
+msgid "The name cannot contain “/”."
+msgstr "ຊື່ບໍ່ສາມາດມີ “/” ໄດ້."
+
+msgid "A name starting with a dot is hidden."
+msgstr "ຊື່ທີ່ຂຶ້ນຕົ້ນດ້ວຍຈຸດຈະຖືກເຊື່ອງ."
+
+msgid "Some items could not be renamed."
+msgstr "ບໍ່ສາມາດປ່ຽນຊື່ບາງລາຍການໄດ້."
+
+msgid "Rename “%s” to:"
+msgstr "ປ່ຽນຊື່ “%s” ເປັນ:"
+
+msgid "_Rename"
+msgstr "ປ່ຽນຊື່ (_R)"
+
+msgid "Could not rename “%s”."
+msgstr "ບໍ່ສາມາດປ່ຽນຊື່ “%s” ໄດ້."
+
+msgid "Change the file type?"
+msgstr "ປ່ຽນປະເພດໄຟລ໌ບໍ?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "ການປ່ຽນຊື່ “%s” ເປັນ “%s” ຈະປ່ຽນນາມສະກຸນຂອງມັນ."
+
+msgid "Rename the %zu selected items to:"
+msgstr "ປ່ຽນຊື່ %zu ລາຍການທີ່ເລືອກເປັນ:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# ຈະຖືກແທນດ້ວຍຕົວເລກທີ່ເພີ່ມຂຶ້ນ; ໃຊ້ ## ສຳລັບເລກສູນນຳໜ້າ. ນາມສະກຸນຈະຖືກຮັກສາໄວ້."
+
+msgid "Start numbering at:"
+msgstr "ເລີ່ມນັບຈາກ:"
+
+msgid "_Move Here"
+msgstr "ຍ້າຍມາທີ່ນີ້ (_M)"
+
+msgid "_Copy Here"
+msgstr "ສຳເນົາມາທີ່ນີ້ (_C)"
+
+msgid "_Link Here"
+msgstr "ລິ້ງທີ່ນີ້ (_L)"
+
+msgid "C_ancel"
+msgstr "ຍົກເລີກ (_A)"
+
+msgid "Choose a folder"
+msgstr "ເລືອກໂຟນເດີ"
+
+msgid "C_hoose…"
+msgstr "ເລືອກ (_H)…"
+
+msgid "Icon name:"
+msgstr "ຊື່ໄອຄອນ:"
+
+msgid "Choose a Folder"
+msgstr "ເລືອກໂຟນເດີ"
+
+msgid "_Add"
+msgstr "ເພີ່ມ (_A)"
+
+msgid "_Save"
+msgstr "ບັນທຶກ (_S)"
+
+msgid "Show _folders first"
+msgstr "ສະແດງໂຟນເດີກ່ອນ (_F)"
+
+msgid "Show hidden files _last"
+msgstr "ສະແດງໄຟລ໌ທີ່ເຊື່ອງໄວ້ທ້າຍສຸດ (_L)"
+
+msgid "Show _previews"
+msgstr "ສະແດງຕົວຢ່າງ (_P)"
+
+msgid "Show in _groups"
+msgstr "ສະແດງເປັນກຸ່ມ (_G)"
+
+msgid "Show _hidden files"
+msgstr "ສະແດງໄຟລ໌ທີ່ເຊື່ອງໄວ້ (_H)"
+
+msgid "Current folder including all subfolders"
+msgstr "ໂຟນເດີປັດຈຸບັນພ້ອມໂຟນເດີຍ່ອຍທັງໝົດ"
+
+msgid "_OK"
+msgstr "ຕົກລົງ (_O)"
+
+msgid "modified %s"
+msgstr "ແກ້ໄຂ %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "ໂຟນເດີຊື່ “%s” ມີຢູ່ແລ້ວໃນ “%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "ໄຟລ໌ຊື່ “%s” ມີຢູ່ແລ້ວໃນ “%s”."
+
+msgid "Existing item"
+msgstr "ລາຍການທີ່ມີຢູ່"
+
+msgid "New item"
+msgstr "ລາຍການໃໝ່"
+
+msgid "_Suggest New Name"
+msgstr "ແນະນຳຊື່ໃໝ່ (_S)"
+
+msgid "New name:"
+msgstr "ຊື່ໃໝ່:"
+
+msgid "Apply to _all"
+msgstr "ໃຊ້ກັບທັງໝົດ (_A)"
+
+msgid "S_kip"
+msgstr "ຂ້າມ (_K)"
+
+msgid "_Write Into"
+msgstr "ຂຽນລົງໃນມັນ (_W)"
+
+msgid "_Overwrite"
+msgstr "ຂຽນທັບ (_O)"
+
+msgid "Search icons…"
+msgstr "ຄົ້ນຫາໄອຄອນ…"
+
+msgid "_Image File…"
+msgstr "ໄຟລ໌ຮູບພາບ (_I)…"
+
+msgid "_Default Icon"
+msgstr "ໄອຄອນມາດຕະຖານ (_D)"
+
+msgid "Choose an Image"
+msgstr "ເລືອກຮູບພາບ"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "ສະຖານທີ່ໃນເຄືອຂ່າຍຕ້ອງໃຊ້ gvfs. ຕິດຕັ້ງແພັກເກດ gvfs (ແລະ gvfs-smb ສຳລັບການແບ່ງປັນ Windows, gvfs-nfs ສຳລັບ NFS), ແລ້ວອອກຈາກລະບົບ ແລະ ເຂົ້າສູ່ລະບົບໃໝ່."
+
+msgid "This location is not a folder."
+msgstr "ບ່ອນນີ້ບໍ່ແມ່ນໂຟນເດີ."
+
+msgid "This location is not valid."
+msgstr "ບ່ອນນີ້ບໍ່ຖືກຕ້ອງ."
+
+msgid "This folder is not in the archive."
+msgstr "ໂຟນເດີນີ້ບໍ່ຢູ່ໃນໄຟລ໌ບີບອັດ."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s ໄຟລ໌ທີ່ນ້ອຍກວ່າ"
+
+msgid "(another drive, not counted)"
+msgstr "(ໄດຣຟ໌ອື່ນ, ບໍ່ໄດ້ນັບ)"
+
+msgid "Some of its contents could not be read."
+msgstr "ບໍ່ສາມາດອ່ານບາງສ່ວນຂອງເນື້ອຫາໄດ້."
+
+msgid "%s in files"
+msgstr "%s ໃນໄຟລ໌"
+
+msgid "%s on disk"
+msgstr "%s ໃນດິສກ໌"
+
+msgid "%s files and %s folders"
+msgstr "%s ໄຟລ໌ ແລະ %s ໂຟນເດີ"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "ກຳລັງອ່ານ… %s ໃນ %s ໄຟລ໌ ແລະ %s ໂຟນເດີ"
+
+msgid "Stopped."
+msgstr "ຢຸດແລ້ວ."
+
+msgid "This folder could not be read."
+msgstr "ບໍ່ສາມາດອ່ານໂຟນເດີນີ້ໄດ້."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, ອ່ານໃນ %.1f ວິນາທີ"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". ບໍ່ສາມາດອ່ານ %s ໂຟນເດີໄດ້."
+
+msgid "Only folders on this computer can be measured."
+msgstr "ວັດແທກໄດ້ສະເພາະໂຟນເດີໃນຄອມພິວເຕີນີ້."
+
+msgid "read less than a minute ago"
+msgstr "ອ່ານບໍ່ເຖິງໜຶ່ງນາທີກ່ອນ"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "ອ່ານ %d ນາທີກ່ອນ"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "ອ່ານ %d ຊົ່ວໂມງກ່ອນ"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. ສະແກນໃໝ່ເພື່ອອ່ານອີກຄັ້ງ."
+
+msgid "_Apparent size"
+msgstr "ຂະໜາດທີ່ເຫັນ (_A)"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "ລວມຂະໜາດໄຟລ໌ແທນພື້ນທີ່ທີ່ພວກມັນໃຊ້ໃນດິສກ໌."
+
+msgid "_Stay on this drive"
+msgstr "ຢູ່ໃນໄດຣຟ໌ນີ້ (_S)"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "ບໍ່ນັບໄດຣຟ໌ອື່ນທີ່ເມົ້າໄວ້ພາຍໃນໂຟນເດີນີ້ (ເຊັ່ນ ໂຟນເດີເພງໃນດິສກ໌ອື່ນ). ບໍ່ຕິດຕາມລິ້ງເລີຍ."
+
+msgid "Rescan"
+msgstr "ສະແກນໃໝ່"
+
+msgid "Close Disk Usage"
+msgstr "ປິດການໃຊ້ດິສກ໌"
+
+msgid "_Rescan"
+msgstr "ສະແກນໃໝ່ (_R)"
+
+msgid "S_top"
+msgstr "ຢຸດ (_T)"
+
+msgid "Disk Usage – %s"
+msgstr "ການໃຊ້ດິສກ໌ – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” ມີຢູ່ແລ້ວ. ແທນທີ່ບໍ?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu ໄຟລ໌ໃນນີ້ມີຢູ່ແລ້ວ. ແທນທີ່ບໍ?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "ໂປຣແກຣມທີ່ທ່ານບັນທຶກຈາກຈະຂຽນທັບເນື້ອຫາທີ່ມີຢູ່."
+
+msgid "Choose a folder to save in."
+msgstr "ເລືອກໂຟນເດີເພື່ອບັນທຶກ."
+
+msgid "Select Folder"
+msgstr "ເລືອກໂຟນເດີ"
+
+msgid "Open Files"
+msgstr "ເປີດໄຟລ໌"
+
+msgid "Open File"
+msgstr "ເປີດໄຟລ໌"
+
+msgid "Save File"
+msgstr "ບັນທຶກໄຟລ໌"
+
+msgid "Save Files"
+msgstr "ບັນທຶກໄຟລ໌"
+
+msgid "_Folder:"
+msgstr "ໂຟນເດີ (_F):"
+
+msgid "_Name:"
+msgstr "ຊື່ (_N):"
+
+msgid "_Type:"
+msgstr "ປະເພດ (_T):"
+
+msgid "_Select"
+msgstr "ເລືອກ (_S)"
+
+msgid "_Open"
+msgstr "ເປີດ (_O)"
+
+msgid "Create new folder in:\n%s"
+msgstr "ສ້າງໂຟນເດີໃໝ່ໃນ:\n%s"
+
+msgid "C_reate"
+msgstr "ສ້າງ (_R)"
+
+msgid "Could not create the folder."
+msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີໄດ້."
+
+msgid "%zu items selected"
+msgstr "ເລືອກ %zu ລາຍການ"
+
+msgid "Contents:"
+msgstr "ເນື້ອຫາ:"
+
+msgid "Contains:"
+msgstr "ປະກອບມີ:"
+
+msgid "Counting…"
+msgstr "ກຳລັງນັບ…"
+
+msgid "Broken Link"
+msgstr "ລິ້ງເສຍ"
+
+msgid "%s (link)"
+msgstr "%s (ລິ້ງ)"
+
+msgid "other drive"
+msgstr "ໄດຣຟ໌ອື່ນ"
+
+msgid "%s of %s"
+msgstr "%s ຈາກ %s"
+
+msgid "%s left"
+msgstr "ເຫຼືອ %s"
+
+msgid "%d of %d"
+msgstr "%d ຈາກ %d"
+
+msgid "File operations in progress"
+msgstr "ກຳລັງດຳເນີນການກັບໄຟລ໌"
+
+msgid "No subfolders"
+msgstr "ບໍ່ມີໂຟນເດີຍ່ອຍ"
+
+msgid "Select the given files in their folders"
+msgstr "ເລືອກໄຟລ໌ທີ່ໃຫ້ມາໃນໂຟນເດີຂອງມັນ"
+
+msgid "Open the window in split view"
+msgstr "ເປີດໜ້າຕ່າງໃນມຸມມອງແບ່ງ"
+
+msgid "Always open a new window"
+msgstr "ເປີດໜ້າຕ່າງໃໝ່ສະເໝີ"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "ເຮັດວຽກຕໍ່ໃນພື້ນຫຼັງສຳລັບບໍລິການ D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "ແຍກຈາກເທີມິນອນ (ບໍ່ມີບ່ອນ: ເປີດໂຟນເດີປັດຈຸບັນ)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "ເປີດໂຕເລືອກໄຟລ໌ສຳລັບ xdg-desktop-portal (ເລີ່ມໂດຍ D-Bus)"
+
+msgid "Show the version"
+msgstr "ສະແດງລຸ້ນ"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[ໄຟລ໌ ຫຼື ໂຟນເດີ…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "ກຳລັງເຮັດວຽກເປັນຜູ້ເບິ່ງແຍງລະບົບ: ການປ່ຽນແປງໃນໜ້າຕ່າງນີ້ອາດເຮັດໃຫ້ລະບົບເສຍຫາຍ."
+
+msgid "Close this window?"
+msgstr "ປິດໜ້າຕ່າງນີ້ບໍ?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "ໜ້າຕ່າງນີ້ເປີດ %zu ແຖບຢູ່. ການປິດມັນຈະປິດທັງໝົດ."
+
+msgid "Close Window"
+msgstr "ປິດໜ້າຕ່າງ"
+
+msgid "Show _Toolbar"
+msgstr "ສະແດງແຖບເຄື່ອງມື (_T)"
+
+msgid "_File"
+msgstr "ໄຟລ໌ (_F)"
+
+msgid "New _Window"
+msgstr "ໜ້າຕ່າງໃໝ່ (_W)"
+
+msgid "New _Tab"
+msgstr "ແຖບໃໝ່ (_T)"
+
+msgid "_Close Tab"
+msgstr "ປິດແຖບ (_C)"
+
+msgid "Create _New"
+msgstr "ສ້າງໃໝ່ (_N)"
+
+msgid "_Rename…"
+msgstr "ປ່ຽນຊື່ (_R)…"
+
+msgid "_Duplicate Here"
+msgstr "ສຳເນົາຊ້ຳທີ່ນີ້ (_D)"
+
+msgid "Move to _Trash"
+msgstr "ຍ້າຍໄປຖັງຂີ້ເຫຍື້ອ (_T)"
+
+msgid "_Delete"
+msgstr "ລຶບ (_D)"
+
+msgid "Restore from Trash"
+msgstr "ກູ້ຄືນຈາກຖັງຂີ້ເຫຍື້ອ"
+
+msgid "_Properties"
+msgstr "ຄຸນສົມບັດ (_P)"
+
+msgid "_Quit"
+msgstr "ອອກ (_Q)"
+
+msgid "_Edit"
+msgstr "ແກ້ໄຂ (_E)"
+
+msgid "_Undo"
+msgstr "ຍົກເລີກການກະທຳ (_U)"
+
+msgid "_Redo"
+msgstr "ເຮັດຊ້ຳ (_R)"
+
+msgid "Cu_t"
+msgstr "ຕັດ (_T)"
+
+msgid "_Copy"
+msgstr "ສຳເນົາ (_C)"
+
+msgid "_Paste"
+msgstr "ວາງ (_P)"
+
+msgid "_Search…"
+msgstr "ຄົ້ນຫາ (_S)…"
+
+msgid "Select _All"
+msgstr "ເລືອກທັງໝົດ (_A)"
+
+msgid "_View"
+msgstr "ມຸມມອງ (_V)"
+
+msgid "Zoom _In"
+msgstr "ຂະຫຍາຍ (_I)"
+
+msgid "Zoom _Out"
+msgstr "ຫຍໍ້ (_O)"
+
+msgid "Re_load"
+msgstr "ໂຫຼດໃໝ່ (_L)"
+
+msgid "Show _Menubar"
+msgstr "ສະແດງແຖບເມນູ (_M)"
+
+msgid "Show _Statusbar"
+msgstr "ສະແດງແຖບສະຖານະ (_S)"
+
+msgid "_Go"
+msgstr "ໄປ (_G)"
+
+msgid "_Back"
+msgstr "ກັບຄືນ (_B)"
+
+msgid "_Forward"
+msgstr "ໄປໜ້າ (_F)"
+
+msgid "_Up"
+msgstr "ຂຶ້ນ (_U)"
+
+msgid "_Home"
+msgstr "ໜ້າຫຼັກ (_H)"
+
+msgid "_Tools"
+msgstr "ເຄື່ອງມື (_T)"
+
+msgid "Open _Terminal"
+msgstr "ເປີດເທີມິນອນ (_T)"
+
+msgid "Open Terminal _Here"
+msgstr "ເປີດເທີມິນອນທີ່ນີ້ (_H)"
+
+msgid "_Disk Usage…"
+msgstr "ການໃຊ້ດິສກ໌ (_D)…"
+
+msgid "_Settings"
+msgstr "ການຕັ້ງຄ່າ (_S)"
+
+msgid "Configure Tool_bars…"
+msgstr "ຕັ້ງຄ່າແຖບເຄື່ອງມື (_B)…"
+
+msgid "_Configure Beluga…"
+msgstr "ຕັ້ງຄ່າ Beluga (_C)…"
+
+msgid "No recently closed tabs"
+msgstr "ບໍ່ມີແຖບທີ່ປິດລ່າສຸດ"
+
+msgid "(Administrator)"
+msgstr "(ຜູ້ເບິ່ງແຍງລະບົບ)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "ເປີດ %zu ໂຟນເດີໃນແຖບໃໝ່ບໍ?"
+
+msgid "Open Folders"
+msgstr "ເປີດໂຟນເດີ"
+
+msgid "Could not open “%s”."
+msgstr "ບໍ່ສາມາດເປີດ “%s” ໄດ້."
+
+msgid "Could not open a terminal."
+msgstr "ບໍ່ສາມາດເປີດເທີມິນອນໄດ້."
+
+msgid "New Text File.txt"
+msgstr "ໄຟລ໌ຂໍ້ຄວາມໃໝ່.txt"
+
+msgid "New File"
+msgstr "ໄຟລ໌ໃໝ່"
+
+msgid "Empty the trash?"
+msgstr "ລ້າງຖັງຂີ້ເຫຍື້ອບໍ?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "ທຸກລາຍການໃນຖັງຂີ້ເຫຍື້ອຈະຖືກລຶບຖາວອນ. ບໍ່ສາມາດຍົກເລີກໄດ້."
+
+msgid "Open %zu terminals?"
+msgstr "ເປີດ %zu ເທີມິນອນບໍ?"
+
+msgid "Open Terminals"
+msgstr "ເປີດເທີມິນອນ"
+
+msgid "Create new file in:\n%s"
+msgstr "ສ້າງໄຟລ໌ໃໝ່ໃນ:\n%s"
+
+msgid "Could not create the file."
+msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ໄດ້."
+
+msgid "Link to File or Folder"
+msgstr "ລິ້ງໄປຫາໄຟລ໌ ຫຼື ໂຟນເດີ"
+
+msgid "Path of the file or folder to link to:"
+msgstr "ເສັ້ນທາງຂອງໄຟລ໌ ຫຼື ໂຟນເດີທີ່ຈະລິ້ງໄປ:"
+
+msgid "Could not create the link."
+msgstr "ບໍ່ສາມາດສ້າງລິ້ງໄດ້."
+
+msgid "Permanently delete %s?"
+msgstr "ລຶບ %s ຖາວອນບໍ?"
+
+msgid "This cannot be undone."
+msgstr "ບໍ່ສາມາດຍົກເລີກໄດ້."
+
+msgid "Move %s to the trash?"
+msgstr "ຍ້າຍ %s ໄປຖັງຂີ້ເຫຍື້ອບໍ?"
+
+msgid "Could not run “%s”."
+msgstr "ບໍ່ສາມາດເອີ້ນໃຊ້ “%s” ໄດ້."
+
+msgid "Could not start %s."
+msgstr "ບໍ່ສາມາດເລີ່ມ %s ໄດ້."
+
+msgid "Could not start the application."
+msgstr "ບໍ່ສາມາດເລີ່ມແອັບພລິເຄຊັນໄດ້."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” ເປັນໄຟລ໌ທີ່ເອີ້ນໃຊ້ໄດ້."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "ທ່ານຕ້ອງການເອີ້ນໃຊ້ມັນ ຫຼື ເປີດມັນໃນແອັບພລິເຄຊັນ?"
+
+msgid "Run"
+msgstr "ເອີ້ນໃຊ້"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "ເລືອກແອັບພລິເຄຊັນເພື່ອເປີດ %s (%s):"
+
+msgid "Or command:"
+msgstr "ຫຼື ຄຳສັ່ງ:"
+
+msgid "Remember application association for this type of file"
+msgstr "ຈື່ແອັບພລິເຄຊັນສຳລັບປະເພດໄຟລ໌ນີ້"
+
+msgid "%s free of %s"
+msgstr "ຫວ່າງ %s ຈາກ %s"
+
+msgid "Configure Sections"
+msgstr "ຕັ້ງຄ່າພາກສ່ວນ"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "ພາກສ່ວນທີ່ໝາຍໄວ້ຈະສະແດງໃນແຜງສະຖານທີ່ຕາມລຳດັບນີ້."
+
+msgid "Move Up"
+msgstr "ຍ້າຍຂຶ້ນ"
+
+msgid "Move Down"
+msgstr "ຍ້າຍລົງ"
+
+msgid "Could not mount the device: %s"
+msgstr "ບໍ່ສາມາດເມົ້າອຸປະກອນໄດ້: %s"
+
+msgid "Show"
+msgstr "ສະແດງ"
+
+msgid "Configure Sections…"
+msgstr "ຕັ້ງຄ່າພາກສ່ວນ…"
+
+msgid "Hide Hidden Entries"
+msgstr "ເຊື່ອງລາຍການທີ່ເຊື່ອງໄວ້"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "ທຸກລາຍການໃນຖັງຂີ້ເຫຍື້ອຈະຖືກລຶບຖາວອນ."
+
+msgid "Could not safely remove the device: %s"
+msgstr "ບໍ່ສາມາດຖອດອຸປະກອນຢ່າງປອດໄພໄດ້: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "ບໍ່ສາມາດຖອດເມົ້າອຸປະກອນໄດ້: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "ໃຊ້ຟອນຂອງລະບົບ (_S)"
+
+msgid "Context Menu Action"
+msgstr "ຄຳສັ່ງເມນູບໍລິບົດ"
+
+msgid "Command:"
+msgstr "ຄຳສັ່ງ:"
+
+msgid "Types:"
+msgstr "ປະເພດ:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f ໄຟລ໌ທຳອິດ, %F ທຸກໄຟລ໌, %u / %U ເປັນ URI, %n / %N ຊື່, %d ໂຟນເດີປັດຈຸບັນ."
+
+msgid "Show for _files"
+msgstr "ສະແດງສຳລັບໄຟລ໌ (_F)"
+
+msgid "Show for f_olders"
+msgstr "ສະແດງສຳລັບໂຟນເດີ (_O)"
+
+msgid "Show when _several items are selected"
+msgstr "ສະແດງເມື່ອເລືອກຫຼາຍລາຍການ (_S)"
+
+msgid "Run in a _terminal"
+msgstr "ເອີ້ນໃຊ້ໃນເທີມິນອນ (_T)"
+
+msgid "Custom Actions"
+msgstr "ຄຳສັ່ງທີ່ກຳນົດເອງ"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "ລາຍການຂອງທ່ານເອງສຳລັບເມນູບໍລິບົດຂອງໄຟລ໌ ແລະ ໂຟນເດີ."
+
+msgid "_Add…"
+msgstr "ເພີ່ມ (_A)…"
+
+msgid "_Edit…"
+msgstr "ແກ້ໄຂ (_E)…"
+
+msgid "_Remove"
+msgstr "ເອົາອອກ (_R)"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "ປຸ່ມລັດຂຽນແບບ <Control>c ຫຼື <Shift>Delete. ແຍກຫຼາຍອັນດ້ວຍຈຸດ. ປ່ອຍຊ່ອງວ່າງໄວ້ສຳລັບຄ່າມາດຕະຖານ."
+
+msgid "files below %d MiB"
+msgstr "ໄຟລ໌ທີ່ນ້ອຍກວ່າ %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "ກູ້ຄືນຄ່າມາດຕະຖານ (_R)"
+
+msgid "_Apply"
+msgstr "ນຳໃຊ້ (_A)"
+
+msgid "Folders & Tabs"
+msgstr "ໂຟນເດີ ແລະ ແຖບ"
+
+msgid "This location:"
+msgstr "ບ່ອນນີ້:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "ໃຊ້ໜ້າຕ່າງ Beluga ດຽວ ແລະ ເປີດໂຟນເດີໃໝ່ໃນແຖບ"
+
+msgid "Tabs:"
+msgstr "ແຖບ:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "ແຖບທີ່ມີຄວາມກວ້າງຄົງທີ່ຈະແຄບລົງເທົ່າກັນທັງໝົດ ເມື່ອບໍ່ພໍບ່ອນ."
+
+msgid "No terminal found"
+msgstr "ບໍ່ພົບເທີມິນອນ"
+
+msgid "Detected: %s"
+msgstr "ກວດພົບ: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "ໃຊ້ໂດຍ F4 ແລະ ເປີດເທີມິນອນທີ່ນີ້. %d ໃນຄຳສັ່ງຈະຖືກແທນດ້ວຍໂຟນເດີ; ຖ້າບໍ່ດັ່ງນັ້ນເທີມິນອນຈະເລີ່ມໃນມັນ. ນີ້ເຄີຍເປັນການຕັ້ງຄ່າລະບົບຂອງ KDE."
+
+msgid "New folders:"
+msgstr "ໂຟນເດີໃໝ່:"
+
+msgid "Show _previews in new folders"
+msgstr "ສະແດງຕົວຢ່າງໃນໂຟນເດີໃໝ່ (_P)"
+
+msgid "Audio (cover art)"
+msgstr "ສຽງ (ຮູບໜ້າປົກ)"
+
+msgid "PDF documents"
+msgstr "ເອກະສານ PDF"
+
+msgid "Text files"
+msgstr "ໄຟລ໌ຂໍ້ຄວາມ"
+
+msgid "Fonts"
+msgstr "ຟອນ"
+
+msgid "Office documents"
+msgstr "ເອກະສານສຳນັກງານ"
+
+msgid "Ask for confirmation when:"
+msgstr "ຂໍການຢືນຢັນເມື່ອ:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "ຂໍການຢືນຢັນໃນ Beluga ເມື່ອ:"
+
+msgid "Use _long date format"
+msgstr "ໃຊ້ຮູບແບບວັນທີແບບຍາວ (_L)"
+
+msgid "Show _hidden folders"
+msgstr "ສະແດງໂຟນເດີທີ່ເຊື່ອງໄວ້ (_H)"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "ເລື່ອນໄປຫາໂຟນເດີປັດຈຸບັນອັດຕະໂນມັດ (_A)"
+
+msgid "Places Panel:"
+msgstr "ແຜງສະຖານທີ່:"
+
+msgid "Status & Location bars"
+msgstr "ແຖບສະຖານະ ແລະ ແຖບບ່ອນ"
+
+msgid "Show free _space"
+msgstr "ສະແດງພື້ນທີ່ຫວ່າງ (_S)"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "ບໍ່ວ່າແນວໃດ, ມຸມມອງ › ຈື່ມຸມມອງສຳລັບໂຟນເດີນີ້ ຈະໃຫ້ໂຟນເດີໜຶ່ງມີຮູບແບບຂອງຕົນເອງ. ບາງມຸມມອງພິເສດ ເຊັ່ນ ການຄົ້ນຫາ, ໄຟລ໌ລ່າສຸດ ຫຼື ຖັງຂີ້ເຫຍື້ອ ຍັງໃຊ້ຮູບແບບຂອງຕົນເອງ."
+
+msgid "Open files and folders with a single click"
+msgstr "ເປີດໄຟລ໌ ແລະ ໂຟນເດີດ້ວຍການຄລິກດຽວ"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "ຮັກສາດັດຊະນີຂອງໂຟນເດີຫຼັກສຳລັບການຄົ້ນຫາທັນທີ (_I)"
+
+msgid "levels deep"
+msgstr "ລະດັບຄວາມເລິກ"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "ສຳພັດ (ມື້ນີ້, ມື້ວານ…)"
+
+msgid "Absolute"
+msgstr "ສົມບູນ"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "ສັນຍະລັກ (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "ຕົວເລກ (0755)"
+
+msgid "Combined"
+msgstr "ລວມກັນ"
+
+msgid "Elide in the middle"
+msgstr "ຫຍໍ້ຕອນກາງ"
+
+msgid "Elide at the end"
+msgstr "ຫຍໍ້ຕອນທ້າຍ"
+
+msgid "Disk usage:"
+msgstr "ການໃຊ້ດິສກ໌:"
+
+msgid "Show a Disk _Usage column"
+msgstr "ສະແດງຖັນການໃຊ້ດິສກ໌ (_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "ພື້ນທີ່ທີ່ແຕ່ລະໄຟລ໌ ແລະ ແຕ່ລະໂຟນເດີທັງໝົດໃຊ້ໃນດິສກ໌ ພ້ອມແຖບສະແດງສ່ວນແບ່ງໃນໂຟນເດີ ຄືກັບ ເຄື່ອງມື › ການໃຊ້ດິສກ໌. ໂຟນເດີຈະຖືກອ່ານທັງໝົດໃນພື້ນຫຼັງ; ຮຽງຕາມຖັນເພື່ອເບິ່ງອັນໃຫຍ່ທີ່ສຸດກ່ອນ. \"ຢູ່ໃນໄດຣຟ໌ນີ້\" ຈາກໜ້າຕ່າງການໃຊ້ດິສກ໌ກໍໃຊ້ໄດ້ທີ່ນີ້ເຊັ່ນກັນ."
+
+msgid "Show in the context menu"
+msgstr "ສະແດງໃນເມນູບໍລິບົດ"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'ສຳເນົາໄປ' ແລະ 'ຍ້າຍໄປ'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "ລຶບ (ນອກຈາກຍ້າຍໄປຖັງຂີ້ເຫຍື້ອ)"
+
+msgid "Cleanup:"
+msgstr "ການທຳຄວາມສະອາດ:"
+
+msgid "Delete files older than"
+msgstr "ລຶບໄຟລ໌ທີ່ເກົ່າກວ່າ"
+
+msgid "days"
+msgstr "ມື້"
+
+msgid "Limit to"
+msgstr "ຈຳກັດທີ່"
+
+msgid "percent of the disk"
+msgstr "ເປີເຊັນຂອງດິສກ໌"
+
+msgid "Keep the trash on the home drive"
+msgstr "ເກັບຖັງຂີ້ເຫຍື້ອໄວ້ໃນໄດຣຟ໌ຂອງໂຟນເດີຫຼັກ"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "ໄຟລ໌ທີ່ຍ້າຍໄປຖັງຂີ້ເຫຍື້ອຈາກໄດຣຟ໌ອື່ນຈະຖືກສຳເນົາໄປຖັງຂີ້ເຫຍື້ອໃນໂຟນເດີຫຼັກ, ດັ່ງນັ້ນໄດຣຟ໌ເຫຼົ່ານັ້ນຈະບໍ່ມີໂຟນເດີ .Trash-1000. ການຍ້າຍໄຟລ໌ໃຫຍ່ໄປຖັງຂີ້ເຫຍື້ອຈະໃຊ້ເວລາດົນຂຶ້ນ."
+
+msgid "Full trash:"
+msgstr "ຖັງຂີ້ເຫຍື້ອເຕັມ:"
+
+msgid "When the limit is reached:"
+msgstr "ເມື່ອເຖິງຂີດຈຳກັດ:"
+
+msgid "Show a warning"
+msgstr "ສະແດງຄຳເຕືອນ"
+
+msgid "Delete the oldest items"
+msgstr "ລຶບລາຍການທີ່ເກົ່າທີ່ສຸດ"
+
+msgid "Delete the largest items"
+msgstr "ລຶບລາຍການທີ່ໃຫຍ່ທີ່ສຸດ"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "ສິ່ງເຫຼົ່ານີ້ເຄີຍເປັນການຕັ້ງຄ່າລະບົບຂອງ KDE. ຂີດຈຳກັດຈະຖືກນຳໃຊ້ເມື່ອ Beluga ເລີ່ມ ແລະ ຫຼັງຈາກຍ້າຍລາຍການໄປຖັງຂີ້ເຫຍື້ອ."
+
+msgid "Calculating trash size…"
+msgstr "ກຳລັງຄິດໄລ່ຂະໜາດຖັງຂີ້ເຫຍື້ອ…"
+
+msgid "The trash currently uses %s."
+msgstr "ຖັງຂີ້ເຫຍື້ອໃຊ້ %s ຢູ່ໃນຕອນນີ້."
+
+msgid "_Empty Trash Now"
+msgstr "ລ້າງຖັງຂີ້ເຫຍື້ອດຽວນີ້ (_E)"
+
+msgid "Vim Mode"
+msgstr "ໂໝດ Vim"
+
+msgid "Vim mode:"
+msgstr "ໂໝດ Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "ໃຊ້ປຸ່ມແບບ Vim ໃນມຸມມອງ"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "ໂໝດປົກກະຕິເຄື່ອນທີ່ດ້ວຍ h j k l ແລະ ເອີ້ນໃຊ້ປຸ່ມຂ້າງລຸ່ມ; v, V ແລະ Ctrl+V ເລືອກ; i ແລະ a ປ່ຽນຊື່ (ໂໝດແຊກ); Esc ກັບໄປໂໝດປົກກະຕິ; : ເປີດແຖວຄຳສັ່ງ. ປຸ່ມ Ctrl ຫຼື Alt ທີ່ບໍ່ໄດ້ລະບຸໄວ້ນີ້ຍັງມີຄວາມໝາຍຕາມປົກກະຕິ."
+
+msgid "Leader key:"
+msgstr "ປຸ່ມນຳ:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> ໃນປຸ່ມຂ້າງລຸ່ມ, ເຊັ່ນ <Space> ຫຼື ,"
+
+msgid "Wait for more keys:"
+msgstr "ລໍຖ້າປຸ່ມເພີ່ມເຕີມ:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd ຫຼັງ d, gg ຫຼັງ g)"
+
+msgid "Keys"
+msgstr "ປຸ່ມ"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "ສັນຍາລັກ Vim, ຫຼາຍອັນແຍກດ້ວຍຍະຫວ່າງ: h, gg, <C-v>, <CR>, <Esc>, <leader>t. ປ່ອຍຊ່ອງວ່າງໄວ້ສຳລັບຄ່າມາດຕະຖານ."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q ປິດໜ້າຕ່າງ (:q! ໂດຍບໍ່ຖາມກ່ຽວກັບແຖບ), :qa ອອກຈາກ Beluga, :e ຫຼື :cd ເສັ້ນທາງ ເປີດໂຟນເດີ, :tabnew [ເສັ້ນທາງ], :tabclose, :tabonly, :sp ຫຼື :vs [ເສັ້ນທາງ] ແບ່ງມຸມມອງ, :only ປິດມຸມມອງອື່ນ, :mkdir ຊື່, :touch ຊື່, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ຄຳສັ່ງ ເອີ້ນໃຊ້ຄຳສັ່ງເຊວໃນໂຟນເດີ."
+
+msgid "Keyboard Shortcuts"
+msgstr "ປຸ່ມລັດແປ້ນພິມ"
+
+msgid "Only files on this computer can be read."
+msgstr "ອ່ານໄດ້ສະເພາະໄຟລ໌ໃນຄອມພິວເຕີນີ້."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga ຖືກສ້າງໂດຍບໍ່ມີ FFmpeg."
+
+msgid "Reading…"
+msgstr "ກຳລັງອ່ານ…"
+
+msgid "No details found."
+msgstr "ບໍ່ພົບລາຍລະອຽດ."
+
+msgid "Change the folder's icon"
+msgstr "ປ່ຽນໄອຄອນໂຟນເດີ"
+
+msgid "Could not change the icon."
+msgstr "ບໍ່ສາມາດປ່ຽນໄອຄອນໄດ້."
+
+msgid "%zu items"
+msgstr "%zu ລາຍການ"
+
+msgid "No default application"
+msgstr "ບໍ່ມີແອັບພລິເຄຊັນມາດຕະຖານ"
+
+msgid "C_hange…"
+msgstr "ປ່ຽນ (_H)…"
+
+msgid "Opens with:"
+msgstr "ເປີດດ້ວຍ:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu ໄບຕ໌"
+
+msgid "Can View"
+msgstr "ເບິ່ງໄດ້"
+
+msgid "Can View Content"
+msgstr "ເບິ່ງເນື້ອຫາໄດ້"
+
+msgid "Is _executable"
+msgstr "ເອີ້ນໃຊ້ໄດ້ (_E)"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "ນຳໃຊ້ການປ່ຽນແປງກັບໂຟນເດີຍ່ອຍທັງໝົດ ແລະ ເນື້ອຫາຂອງມັນ (_S)"
+
+msgid "Mode:"
+msgstr "ໂໝດ:"
+
+msgid "Could not read the file."
+msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌ໄດ້."
+
+msgid "Paste a checksum to compare"
+msgstr "ວາງ checksum ເພື່ອປຽບທຽບ"
+
+msgid "Verify:"
+msgstr "ກວດສອບ:"
+
+msgid "The checksums match."
+msgstr "checksum ກົງກັນ."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "ບໍ່ມີ checksum ທີ່ຄິດໄລ່ແລ້ວອັນໃດກົງກັນ. ຄິດໄລ່ປະເພດທີ່ສອດຄ່ອງກ່ອນ."
+
+msgid "Could not change the permissions."
+msgstr "ບໍ່ສາມາດປ່ຽນສິດທິໄດ້."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "ກັ່ນຕອງຕາມຊື່ (ໃຊ້ໄວລ໌ດຄາດເຊັ່ນ *.txt ໄດ້)"
+
+msgid "Keep the filter when changing folders"
+msgstr "ຮັກສາຕົວກັ່ນຕອງໄວ້ເມື່ອປ່ຽນໂຟນເດີ"
+
+msgid "In This Folder"
+msgstr "ໃນໂຟນເດີນີ້"
+
+msgid "In Your Files"
+msgstr "ໃນໄຟລ໌ຂອງທ່ານ"
+
+msgid "Any Time"
+msgstr "ທຸກເວລາ"
+
+msgid "Last 7 Days"
+msgstr "7 ມື້ທີ່ຜ່ານມາ"
+
+msgid "Last 30 Days"
+msgstr "30 ມື້ທີ່ຜ່ານມາ"
+
+msgid "Last Year"
+msgstr "ປີທີ່ຜ່ານມາ"
+
+msgid "Hidden files"
+msgstr "ໄຟລ໌ທີ່ເຊື່ອງໄວ້"
+
+msgid "Duplicate Tab"
+msgstr "ສຳເນົາແຖບ"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "ຄຳສັ່ງທີ່ຢູ່ເໜືອແຖບບ່ອນໃນລາຍການຈະຢູ່ທາງຊ້າຍຂອງມັນ, ສ່ວນທີ່ເຫຼືອຢູ່ທາງຂວາ. * ໝາຍຄຳສັ່ງທີ່ບໍ່ໄດ້ຢູ່ບ່ອນທີ່ແຖບເຄື່ອງມືມາດຕະຖານວາງໄວ້."
+
+msgid "A_vailable actions:"
+msgstr "ຄຳສັ່ງທີ່ມີ (_V):"
+
+msgid "Add to the tool bar"
+msgstr "ເພີ່ມໃສ່ແຖບເຄື່ອງມື"
+
+msgid "Remove from the tool bar"
+msgstr "ເອົາອອກຈາກແຖບເຄື່ອງມື"
+
+msgid "Move up (left on the tool bar)"
+msgstr "ຍ້າຍຂຶ້ນ (ໄປຊ້າຍໃນແຖບເຄື່ອງມື)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "ຍ້າຍລົງ (ໄປຂວາໃນແຖບເຄື່ອງມື)"
+
+msgid "C_urrent actions:"
+msgstr "ຄຳສັ່ງປັດຈຸບັນ (_U):"
+
+msgid "_Defaults"
+msgstr "ຄ່າມາດຕະຖານ (_D)"
+
+msgid "Show Columns"
+msgstr "ສະແດງຖັນ"
+
+msgid "Modified: %s"
+msgstr "ແກ້ໄຂ: %s"
+
+msgid "Original location: %s"
+msgstr "ບ່ອນເດີມ: %s"
+
+msgid "Less than 1 MiB"
+msgstr "ນ້ອຍກວ່າ 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB ຫາ 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB ຫາ 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB ຫຼື ຫຼາຍກວ່າ"
+
+msgid "Not counted yet"
+msgstr "ຍັງບໍ່ໄດ້ນັບ"
+
+msgid "A file name cannot contain “/”."
+msgstr "ຊື່ໄຟລ໌ບໍ່ສາມາດມີ “/” ໄດ້."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "ການປ່ຽນຊື່ “%s” ເປັນ “%s” ຈະປ່ຽນນາມສະກຸນຂອງມັນ. ໄຟລ໌ອາດເປີດດ້ວຍແອັບພລິເຄຊັນອື່ນ ຫຼື ບໍ່ເປີດເລີຍ."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "ໂໝດເລືອກ: ຄລິກໄຟລ໌ ຫຼື ໂຟນເດີເພື່ອເລືອກ ຫຼື ຍົກເລີກການເລືອກ."
+
+msgid "_Exit Selection Mode"
+msgstr "ອອກຈາກໂໝດເລືອກ (_E)"
+
+msgid "_Duplicate"
+msgstr "ສຳເນົາຊ້ຳ (_D)"
+
+msgid "De_lete"
+msgstr "ລຶບ (_L)"
+
+msgid "Pr_operties"
+msgstr "ຄຸນສົມບັດ (_O)"
+
+msgid "The folder “%s” no longer exists."
+msgstr "ໂຟນເດີ “%s” ບໍ່ມີຢູ່ອີກແລ້ວ."
+
+msgid "“%s” selected (%s%s)"
+msgstr "ເລືອກ “%s” (%s%s)"
+
+msgid "%s selected"
+msgstr "ເລືອກ %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "ເລືອກ %d"
+
+msgid "Move left"
+msgstr "ຊ້າຍ"
+
+msgid "Move down"
+msgstr "ລົງ"
+
+msgid "Move up"
+msgstr "ຂຶ້ນ"
+
+msgid "Move right"
+msgstr "ຂວາ"
+
+msgid "First item"
+msgstr "ລາຍການທຳອິດ"
+
+msgid "Last item"
+msgstr "ລາຍການສຸດທ້າຍ"
+
+msgid "Page down"
+msgstr "ໜ້າລົງ"
+
+msgid "Page up"
+msgstr "ໜ້າຂຶ້ນ"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "ເລືອກລາຍການທີ່ເຄີເຊີຜ່ານ (ພາບ)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "ເລືອກຊ່ວງ ຄືກັບ Shift (ແຖວພາບ)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "ເລືອກບລັອກຈາກຕາຕະລາງ (ບລັອກພາບ)"
+
+msgid "Back to normal mode"
+msgstr "ກັບໄປໂໝດປົກກະຕິ"
+
+msgid "Copy the item under the cursor"
+msgstr "ສຳເນົາລາຍການທີ່ຢູ່ໃຕ້ເຄີເຊີ"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "ປ່ຽນຊື່, ເຄີເຊີຢູ່ຕົ້ນ (ແຊກ)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "ປ່ຽນຊື່, ເຄີເຊີຫຼັງຊື່ (ຕໍ່ທ້າຍ)"
+
+msgid "Rename, name selected (change)"
+msgstr "ປ່ຽນຊື່, ເລືອກຊື່ໄວ້ (ປ່ຽນ)"
+
+msgid "Edit the location"
+msgstr "ແກ້ໄຂບ່ອນ"
+
+msgid "Copied."
+msgstr "ສຳເນົາແລ້ວ."
+
+msgid "Cut."
+msgstr "ຕັດແລ້ວ."
+
+msgid "Can't open “%s”."
+msgstr "ບໍ່ສາມາດເປີດ “%s” ໄດ້."
+
+msgid "A name is needed."
+msgstr "ຕ້ອງມີຊື່."
+
+msgid "Unknown view: %s"
+msgstr "ມຸມມອງທີ່ບໍ່ຮູ້ຈັກ: %s"
+
+msgid "Unknown option: %s"
+msgstr "ຕົວເລືອກທີ່ບໍ່ຮູ້ຈັກ: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "ຮຽງຕາມ name, size, date ຫຼື type."
+
+msgid "Not a command: %s"
+msgstr "ບໍ່ແມ່ນຄຳສັ່ງ: %s"
+
+msgid "Move"
+msgstr "ຍ້າຍ"
+
+msgid "Focus Other View"
+msgstr "ໂຟກັສມຸມມອງອື່ນ"
+
+msgid "Split View to Tabs"
+msgstr "ມຸມມອງແບ່ງເປັນແຖບ"
+
+msgid "Folders Panel"
+msgstr "ແຜງໂຟນເດີ"
+
+msgid "Columns"
+msgstr "ຖັນ"
+
+msgid "Files"
+msgstr "ໄຟລ໌"
+
+msgid "Configure Toolbars…"
+msgstr "ຕັ້ງຄ່າແຖບເຄື່ອງມື…"
+
+msgid "Restore to Defaults"
+msgstr "ກູ້ຄືນຄ່າມາດຕະຖານ"
+
+msgid "Recommended Applications"
+msgstr "ແອັບພລິເຄຊັນທີ່ແນະນຳ"
+
+msgid "Other Applications"
+msgstr "ແອັບພລິເຄຊັນອື່ນ"
+
+msgid "Always show tab bar"
+msgstr "ສະແດງແຖບແທັບສະເໝີ"
+
+msgid "Show close button on tabs"
+msgstr "ສະແດງປຸ່ມປິດໃນແຖບ"
+
+msgid "Tab style:"
+msgstr "ຮູບແບບແຖບ:"
+
+msgid "Tab width adapts to folder name"
+msgstr "ຄວາມກວ້າງແຖບປັບຕາມຊື່ໂຟນເດີ"
+
+msgid "Tabs all have the same fixed width"
+msgstr "ທຸກແຖບມີຄວາມກວ້າງຄົງທີ່ເທົ່າກັນ"
+
+msgid "Open new windows in split view mode"
+msgstr "ເປີດໜ້າຕ່າງໃໝ່ໃນໂໝດມຸມມອງແບ່ງ"
+
+msgid "Renaming a file will change its type"
+msgstr "ການປ່ຽນຊື່ໄຟລ໌ຈະປ່ຽນປະເພດຂອງມັນ"
+
+msgid "Folders Panel:"
+msgstr "ແຜງໂຟນເດີ:"
+
+msgid "Limit to home directory when inside it"
+msgstr "ຈຳກັດຢູ່ໂຟນເດີຫຼັກເມື່ອຢູ່ພາຍໃນມັນ"
+
+msgid "Spacing:"
+msgstr "ໄລຍະຫ່າງ:"
+
+msgid "Command line"
+msgstr "ແຖວຄຳສັ່ງ"
+
+msgid "No items found"
+msgstr "ບໍ່ພົບລາຍການ"
+
+msgid "Album artist:"
+msgstr "ສິລະປິນອັລບັມ:"
+
+msgid "Composer:"
+msgstr "ຜູ້ແຕ່ງເພງ:"
+
+msgid "Performer:"
+msgstr "ຜູ້ສະແດງ:"
+
+msgid "Copyright:"
+msgstr "ລິຂະສິດ:"
+
+msgid "%ld s"
+msgstr "%ld ວິນາທີ"
+
+msgid "Folder"
+msgstr "ໂຟນເດີ"
+
+msgid "Free space:"
+msgstr "ພື້ນທີ່ຫວ່າງ:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "ຫວ່າງ %s ຈາກ %s (ໃຊ້ໄປ %d%%)"
+
+msgid "Language:"
+msgstr "ພາສາ:"
+
+msgid "Open With…"
+msgstr "ເປີດດ້ວຍ…"
+
+msgid "Other Application…"
+msgstr "ແອັບພລິເຄຊັນອື່ນ…"
+
+msgid "Restore"
+msgstr "ກູ້ຄືນ"
+
+msgid "Calculating…"
+msgstr "ກຳລັງຄິດໄລ່…"
+
+msgid "Create Folder"
+msgstr "ສ້າງໂຟນເດີ"
+
+msgid "Share"
+msgstr "ແບ່ງປັນ"
+
+msgid "Search For"
+msgstr "ຄົ້ນຫາສຳລັບ"
+
+msgid "Devices"
+msgstr "ອຸປະກອນ"
+
+msgid "Documents"
+msgstr "ເອກະສານ"
+
+msgid "Downloads"
+msgstr "ດາວໂຫຼດ"
+
+msgid "Pictures"
+msgstr "ຮູບພາບ"
+
+msgid "Videos"
+msgstr "ວິດີໂອ"
+
+msgid "Network"
+msgstr "ເຄືອຂ່າຍ"
+
+msgid "All Files"
+msgstr "ໄຟລ໌ທັງໝົດ"
+
+msgid "%s, %s"
+msgstr "%s, %s"
+
+msgid "Icons View"
+msgstr "ມຸມມອງໄອຄອນ"
+
+msgid "Compact View"
+msgstr "ມຸມມອງແບບກະທັດຮັດ"
+
+msgid "Details View"
+msgstr "ມຸມມອງລາຍລະອຽດ"
+
+msgid "Move To"
+msgstr "ຍ້າຍໄປ"
+
+msgid "Copy To"
+msgstr "ສຳເນົາໄປ"
+
+msgid "Open with %s"
+msgstr "ເປີດດ້ວຍ %s"
+
+msgid "Open Containing Folder"
+msgstr "ເປີດໂຟນເດີທີ່ບັນຈຸ"
+
+msgid "Rename Item"
+msgstr "ປ່ຽນຊື່ລາຍການ"
+
+msgid "Rename Items"
+msgstr "ປ່ຽນຊື່ລາຍການ"
+
+msgid "New name #"
+msgstr "ຊື່ໃໝ່ #"
+
+msgid "Add Places Entry"
+msgstr "ເພີ່ມລາຍການສະຖານທີ່"
+
+msgid "Skip All"
+msgstr "ຂ້າມທັງໝົດ"
+
+msgid "Retry"
+msgstr "ລອງໃໝ່"
+
+msgid "New Folder"
+msgstr "ໂຟນເດີໃໝ່"
+
+msgid "Safely Remove"
+msgstr "ຖອດອອກຢ່າງປອດໄພ"
+
+msgid "Edit…"
+msgstr "ແກ້ໄຂ…"
+
+msgid "Hide Section"
+msgstr "ເຊື່ອງພາກສ່ວນ"
+
+msgid "Add Entry…"
+msgstr "ເພີ່ມລາຍການ…"
+
+msgid "Can View & Modify"
+msgstr "ເບິ່ງ ແລະ ແກ້ໄຂໄດ້"
+
+msgid "Checksums"
+msgstr "Checksum"
+
+msgid "Size: %s"
+msgstr "ຂະໜາດ: %s"
+
+msgid "Quit"
+msgstr "ອອກ"
+
+msgid "Zoom In"
+msgstr "ຂະຫຍາຍ"
+
+msgid "Zoom Out"
+msgstr "ຫຍໍ້"
+
+msgid "Show Menubar"
+msgstr "ສະແດງແຖບເມນູ"
+
+msgid "Show Statusbar"
+msgstr "ສະແດງແຖບສະຖານະ"
+
+msgid "Go Up"
+msgstr "ຂຶ້ນ"
+
+msgid "Date:"
+msgstr "ວັນທີ:"
+
+msgid "Remote"
+msgstr "ໄລຍະໄກ"
+
+msgid "Recent"
+msgstr "ລ່າສຸດ"
+
+msgid "Home"
+msgstr "ໜ້າຫຼັກ"
+
+msgid "Desktop"
+msgstr "ເດັສທັອບ"
+
+msgid "Recent Files"
+msgstr "ໄຟລ໌ລ່າສຸດ"
+
+msgid "Link"
+msgstr "ລິ້ງ"
+
+msgid "Select All"
+msgstr "ເລືອກທັງໝົດ"
+
+msgid "Back"
+msgstr "ກັບຄືນ"
+
+msgid "Forward"
+msgstr "ໄປໜ້າ"
+
+msgid "Up"
+msgstr "ຂຶ້ນ"
+
+msgid "Browse…"
+msgstr "ເລືອກ…"
+
+msgid "Open"
+msgstr "ເປີດ"
+
+msgid "Open With"
+msgstr "ເປີດດ້ວຍ"
+
+msgid "Edit Places Entry"
+msgstr "ແກ້ໄຂລາຍການສະຖານທີ່"
+
+msgid "Label:"
+msgstr "ປ້າຍ:"
+
+msgid "Folder Already Exists"
+msgstr "ມີໂຟນເດີຢູ່ແລ້ວ"
+
+msgid "File Already Exists"
+msgstr "ມີໄຟລ໌ຢູ່ແລ້ວ"
+
+msgid "Skip"
+msgstr "ຂ້າມ"
+
+msgid "Choose an Icon"
+msgstr "ເລືອກໄອຄອນ"
+
+msgid "Replace"
+msgstr "ແທນທີ່"
+
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
+msgid "Points to:"
+msgstr "ຊີ້ໄປທີ່:"
+
+msgid "Group:"
+msgstr "ກຸ່ມ:"
+
+msgid "Mount"
+msgstr "ເມົ້າ"
+
+msgid "Unmount"
+msgstr "ຖອດເມົ້າ"
+
+msgid "Show All Entries"
+msgstr "ສະແດງທຸກລາຍການ"
+
+msgid "Can View & Modify Content"
+msgstr "ເບິ່ງ ແລະ ແກ້ໄຂເນື້ອຫາໄດ້"
+
+msgid "User:"
+msgstr "ຜູ້ໃຊ້:"
+
+msgid "Calculate"
+msgstr "ຄິດໄລ່"
+
+msgid "Properties for %s"
+msgstr "ຄຸນສົມບັດຂອງ %s"
+
+msgid "Menu"
+msgstr "ເມນູ"
+
+msgid "Parent folder"
+msgstr "ໂຟນເດີແມ່"

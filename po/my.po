@@ -16,95 +16,95 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "မော်ကွန်းဖိုင်ကို ဖွင့်၍မရပါ။"
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "မော်ကွန်းဖိုင်ကို ဖတ်၍မရပါ။"
 
 msgid "Cancelled."
-msgstr ""
+msgstr "ပယ်ဖျက်လိုက်သည်။"
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "ဤဖိုင်ကို စကားဝှက်ဖြင့် ကုဒ်ဝှက်ထားသည်။"
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "“%s” ကို ဖတ်၍မရပါ။"
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "ဤအရာသည် မော်ကွန်းဖိုင်အတွင်းရှိ ဖိုင်မဟုတ်ပါ။"
 
 msgid "Extract Here"
-msgstr ""
+msgstr "ဤနေရာတွင် ဖြည်ထုတ်ရန်"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr ".tar.gz အဖြစ် ချုံ့ရန်"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "တာမီနယ် အတုယူစနစ် မတွေ့ပါ။"
 
 msgid "Root"
-msgstr ""
+msgstr "အရင်း"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s ဗော်လျူမ်"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "ဤစက်ပစ္စည်းကို တပ်ဆင်၍မရပါ။"
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "ဤစက်ပစ္စည်းကို ဖြုတ်၍မရပါ။"
 
 msgid "The device is gone."
-msgstr ""
+msgstr "စက်ပစ္စည်း မရှိတော့ပါ။"
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s ကို “%s” သို့ ကူးနေသည်"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s ကို “%s” သို့ ရွှေ့နေသည်"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s အတွက် လင့်ခ်ကို “%s” တွင် ပြုလုပ်နေသည်"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s ကို အမှိုက်ပုံးသို့ ရွှေ့နေသည်"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s ကို ဖျက်နေသည်"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s ကို ပြန်ယူနေသည်"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "အမှိုက်ပုံးကို ရှင်းနေသည်"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "ဖိုင်များကို ရေတွက်နေသည်…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "ဖိုဒါကို ၎င်းကိုယ်တိုင်အတွင်းသို့ ရွှေ့၍မရပါ။"
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "ဖိုဒါကို ၎င်းကိုယ်တိုင်အတွင်းသို့ ကူး၍မရပါ။"
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "ဖိုင်များကို စက်တွင်းဖိုဒါများသို့သာ ဖြည်ထုတ်နိုင်သည်။"
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "“%s” မှ ဖြည်ထုတ်နေသည်"
 
 msgid "Title:"
 msgstr "ခေါင်းစဉ်:"
@@ -113,7 +113,7 @@ msgid "Artist:"
 msgstr "အနုပညာရှင်:"
 
 msgid "Album artist:"
-msgstr ""
+msgstr "အယ်လ်ဘမ် အနုပညာရှင်:"
 
 msgid "Album:"
 msgstr "အယ်ဘမ်:"
@@ -122,7 +122,7 @@ msgid "Track:"
 msgstr "သံစဉ်:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "ဒစ်:"
 
 msgid "Date:"
 msgstr "ရက်စွဲ:"
@@ -131,16 +131,16 @@ msgid "Genre:"
 msgstr "အမျိုးအစား:"
 
 msgid "Composer:"
-msgstr ""
+msgstr "တေးရေးဆရာ:"
 
 msgid "Performer:"
-msgstr ""
+msgstr "တင်ဆက်သူ:"
 
 msgid "Publisher:"
-msgstr ""
+msgstr "ထုတ်ဝေသူ:"
 
 msgid "Copyright:"
-msgstr ""
+msgstr "မူပိုင်ခွင့်:"
 
 msgid "Comment:"
 msgstr "eမှတ်ချက် -"
@@ -149,74 +149,74 @@ msgid "Description:"
 msgstr "ဖော်ပြချက်:"
 
 msgid "Language:"
-msgstr ""
+msgstr "ဘာသာစကား:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "ကြာချိန်:"
 
 msgid "Format:"
-msgstr ""
+msgstr "ပုံစံ:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "ဘစ်နှုန်း:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "မျက်နှာဖုံး:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "ဗီဒီယို:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "ဗီဒီယို %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "မိုနို"
 
 msgid "stereo"
-msgstr ""
+msgstr "စတီရီယို"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
+msgstr[0] "ချန်နယ် %d ခု"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d ဘစ်"
 
 msgid "Audio:"
 msgstr "အသံ:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "အသံ %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "စာတန်းထိုး:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "အခန်းများ:"
 
 msgid "Places"
 msgstr "နေရာများ"
@@ -264,7 +264,7 @@ msgid "Recent Files"
 msgstr "မကြာသေးမီကဖိုင်များ"
 
 msgid "Images"
-msgstr ""
+msgstr "ပုံများ"
 
 msgid "Audio"
 msgstr "အသံ"
@@ -273,37 +273,37 @@ msgid "Folders"
 msgstr "ဖိုလ်ဒါများ"
 
 msgid "Archives"
-msgstr ""
+msgstr "မော်ကွန်းဖိုင်များ"
 
 msgid "All Files"
 msgstr "ဖိုင်အားလုံး"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "“%s” ကို ရှာရန်"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "တာမီနယ် အတုယူစနစ် မတွေ့ပါ။ Beluga ကို ပြင်ဆင်ရန် › အထွေထွေ › တာမီနယ် တွင် တစ်ခု သတ်မှတ်ပါ။"
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "ဤဖိုင်စနစ်တွင် အမှိုက်ပုံး မရှိပါ။"
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "အမှိုက်ပုံး၏ အချက်အလက်ဖိုင်ကို ဖန်တီး၍မရပါ။"
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” ရှိပြီးသားဖြစ်သည်။"
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "အမှိုက်ပုံးသည် ၎င်း၏ကန့်သတ်ချက် %s ထက် ကြီးနေသည်။ ရှင်းလင်းရန် စဉ်းစားပါ။"
 
 msgid "Copy"
 msgstr "ကူးယူရန်"
 
 msgid "Move"
-msgstr ""
+msgstr "ရွှေ့ရန်"
 
 msgid "Link"
 msgstr "လင့်ခ်"
@@ -318,21 +318,21 @@ msgid "Create Folder"
 msgstr "ဖိုင်တွဲကို ဖန်တီးပါ"
 
 msgid "Create File"
-msgstr ""
+msgstr "ဖိုင် ဖန်တီးရန်"
 
 msgid "Undo"
 msgstr "oပြန်ဆုတ်"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "ပြန်ဖျက်ရန်: %s"
 
 msgid "Redo"
 msgstr "ပြန်လုပ်"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "ပြန်လုပ်ရန်: %s"
 
 #, c-format
 msgid "%d item"
@@ -342,12 +342,12 @@ msgstr[0] "အိုင်တမ် %dခု"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
+msgstr[0] "ဖိုင် %d ခု"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
+msgstr[0] "ဖိုဒါ %d ခု"
 
 #, c-format
 msgid "%s, %s"
@@ -355,26 +355,26 @@ msgstr "%s၊ %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "ယနေ့ %s တွင်"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "မနေ့က %s တွင်"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A %H:%M တွင်"
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld စက္ကန့်"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld မိနစ် %ld စက္ကန့်"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld နာရီ %ld မိနစ်"
 
 #, c-format
 msgid "%s copy"
@@ -382,7 +382,7 @@ msgstr "%s မိတ္တူ"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s မိတ္တူ %d"
 
 msgid "Name"
 msgstr "အမည်"
@@ -391,7 +391,7 @@ msgid "Size"
 msgstr "အရွယ်အစား"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု"
 
 msgid "Modified"
 msgstr "မွမ်းမံခဲ့သည်"
@@ -406,7 +406,7 @@ msgid "Type"
 msgstr "ရိုက်သွင်းမည်"
 
 msgid "Extension"
-msgstr ""
+msgstr "နောက်ဆက်"
 
 msgid "Permissions"
 msgstr "ခွင့်ပြုချက်များ"
@@ -427,28 +427,28 @@ msgid "Deletion Time"
 msgstr "ဖျက်မည့်အချိန်"
 
 msgid "Original Location"
-msgstr ""
+msgstr "မူလတည်နေရာ"
 
 msgid "Dimensions"
 msgstr "အတိုင်းအတာ"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga သည် စီမံခန့်ခွဲသူအဖြစ် လုပ်ဆောင်၍မရပါ။"
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "စီမံခန့်ခွဲသူ စကားဝှက်ကို မေးရန် pkexec (polkit) လိုအပ်သည်။ polkit နှင့် သင့်ဒက်စ်တော့အတွက် polkit အေးဂျင့်ကို ထည့်သွင်းပါ။"
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "စီမံခန့်ခွဲသူအဖြစ် လုပ်ဆောင်ခြင်း၏ အန္တရာယ်များ"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "စီမံခန့်ခွဲသူ အခွင့်အရေးပါသော Beluga ဝင်းဒိုးသည် ဤကွန်ပျူတာရှိ မည်သည့်ဖိုင်ကိုမဆို ပြောင်းလဲ၊ ဖျက်နိုင်သည်၊ စနစ်စတင်ရန် လိုအပ်သော ဖိုင်များ အပါအဝင်ဖြစ်သည်။ ထိုနေရာတွင် အမှားတစ်ခုက စနစ်ကို အသုံးမပြုနိုင်အောင် ဖြစ်စေနိုင်သည်။ အခြားနည်းဖြင့် မပြောင်းနိုင်သော ဖိုင်များအတွက်သာ အသုံးပြုပြီး ပြီးဆုံးလျှင် ပိတ်ပါ။\n\nထို့နောက် Beluga က စီမံခန့်ခွဲသူ စကားဝှက်ကို မေးပါမည်။"
 
 msgid "Cancel"
 msgstr "ပယ်ဖျက်"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "ဤအန္တရာယ်များကို နားလည်ပြီး လက်ခံပါသည်"
 
 msgid "New Window"
 msgstr "Wဝင်းဒိုးအသစ်"
@@ -499,10 +499,10 @@ msgid "Invert Selection"
 msgstr "ရွေးထားသည်များ ပြောင်းပြန်လုပ်မည်"
 
 msgid "Copy to Other View"
-msgstr ""
+msgstr "အခြားမြင်ကွင်းသို့ ကူးရန်"
 
 msgid "Move to Other View"
-msgstr ""
+msgstr "အခြားမြင်ကွင်းသို့ ရွှေ့ရန်"
 
 msgid "Icons View"
 msgstr "အိုင်ကွန်နှင့်ပြသော မြင်ကွင်း"
@@ -514,7 +514,7 @@ msgid "Details View"
 msgstr "အသေးစိတ်ပြမြင်ကွင်း"
 
 msgid "Columns View"
-msgstr ""
+msgstr "ကော်လံမြင်ကွင်း"
 
 msgid "Zoom In"
 msgstr "ချဲ့ကားပါ"
@@ -523,25 +523,25 @@ msgid "Zoom Out"
 msgstr "ကျုံ့ပါ"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "ချဲ့ချုံ့မှု ပြန်ညှိရန်"
 
 msgid "Show Hidden Files"
 msgstr "ဖွက်ထားသောဖိုင်လ်များပြမည်"
 
 msgid "Act as Administrator"
-msgstr ""
+msgstr "စီမံခန့်ခွဲသူအဖြစ် လုပ်ဆောင်ရန်"
 
 msgid "Split View"
 msgstr "မြင်ကွင်းခွဲမည်"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "အခြားမြင်ကွင်းကို အာရုံစိုက်ရန်"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "ခွဲထားသော မြင်ကွင်းကို ခွဲထုတ်ရန်"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "ခွဲထားသော မြင်ကွင်းကို တက်ဘ်များအဖြစ်"
 
 msgid "Reload"
 msgstr "ပြန်တွန်းတင်"
@@ -553,25 +553,25 @@ msgid "Replace Location"
 msgstr "တည်နေရာအစားထိုးမည်"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "နေရာများ အကန့်"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "ဖိုဒါများ အကန့်"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "အချက်အလက် အကန့်"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု အကန့်"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "နေရာများ အကန့်ကို အာရုံစိုက်ရန်"
 
 msgid "Show Menubar"
-msgstr ""
+msgstr "မီနူးဘား ပြရန်"
 
 msgid "Show Statusbar"
-msgstr ""
+msgstr "အခြေအနေဘား ပြရန်"
 
 msgid "Back"
 msgstr "နောက်သို့"
@@ -583,34 +583,34 @@ msgid "Up"
 msgstr "အထက်သို့"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "တက်ဘ် 1 သို့ သွားရန်"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "တက်ဘ် 2 သို့ သွားရန်"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "တက်ဘ် 3 သို့ သွားရန်"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "တက်ဘ် 4 သို့ သွားရန်"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "တက်ဘ် 5 သို့ သွားရန်"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "တက်ဘ် 6 သို့ သွားရန်"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "တက်ဘ် 7 သို့ သွားရန်"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "တက်ဘ် 8 သို့ သွားရန်"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "တက်ဘ် 9 သို့ သွားရန်"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "နောက်ဆုံးတက်ဘ်သို့ သွားရန်"
 
 msgid "Next Tab"
 msgstr "နောက်တပ်ဘ်"
@@ -628,29 +628,29 @@ msgid "Configure Toolbars"
 msgstr "ကရိယာတန်းများပြင်ဆင်မည်"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga ကို ပြင်ဆင်ရန်"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "ပြန်ဖျက်ခြင်း မအောင်မြင်ပါ။"
 
 msgid "Folder…"
-msgstr ""
+msgstr "ဖိုဒါ…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "စာသားဖိုင်…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "ဖိုင်အလွတ်…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "ဖိုင် သို့မဟုတ် ဖိုဒါသို့ လင့်ခ်…"
 
 msgid "Create New"
 msgstr "အသစ်ဖန်တီးရန်"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "အခြားမြင်ကွင်း (%s)"
 
 msgid "Browse…"
 msgstr "Bရှောက်ကြည့်…"
@@ -690,10 +690,10 @@ msgid "View Mode"
 msgstr "မြင်ကွင်းထုံးနည်း"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "ဤဖိုဒါအတွက် မြင်ကွင်းကို မှတ်ထားရန်"
 
 msgid "Restore"
-msgstr ""
+msgstr "ပြန်ယူရန်"
 
 msgid "Open in New Tab"
 msgstr "တပ်ဘ်အသစ်တွင် ဖွင့်မည်"
@@ -705,16 +705,16 @@ msgid "Open in New Window"
 msgstr "ဝင်းဒိုးအသစ်တွင် ဖွင့်မည်"
 
 msgid "Open in Split View"
-msgstr ""
+msgstr "ခွဲထားသော မြင်ကွင်းတွင် ဖွင့်ရန်"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Beluga တွင် ဖွင့်ရန်"
 
 msgid "Open Containing Folder"
 msgstr "ဖိုင်ပါဝင်သောဖိုင်တွဲကို ဖွင့်မည်"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "ဖိုဒါထဲသို့ ကူးထည့်ရန်"
 
 msgid "Rename…"
 msgstr "အမည်ပြောင်းပါ…"
@@ -726,65 +726,65 @@ msgid "Close"
 msgstr "ပိတ်မည်"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "ပယ်ဖျက်ရန် (_C)"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "အမည်တွင် “/” မပါရပါ။"
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "အစက်ဖြင့် စသော အမည်ကို ဝှက်ထားသည်။"
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "အချို့အရာများ၏ အမည်ကို ပြောင်း၍မရပါ။"
 
 msgid "Rename Item"
 msgstr "အိုင်တမ်အမည်ပြောင်းရန်"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "“%s” ၏ အမည်သစ်:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "အမည်ပြောင်းရန် (_R)"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "“%s” ၏ အမည်ကို ပြောင်း၍မရပါ။"
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "ဖိုင်အမျိုးအစား ပြောင်းမလား?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "“%s” ကို “%s” ဟု အမည်ပြောင်းခြင်းသည် ၎င်း၏ နောက်ဆက်ကို ပြောင်းစေသည်။"
 
 msgid "Rename Items"
 msgstr "အိုင်တမ်များအမည်ပြောင်းရန်"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "ရွေးထားသော အရာ %zu ခု၏ အမည်သစ်:"
 
 msgid "New name #"
 msgstr "ဖိုင်အသစ် #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# ကို တိုးလာသော ဂဏန်းများဖြင့် အစားထိုးသည်; ရှေ့သုညများအတွက် ## ကို သုံးပါ။ နောက်ဆက်များကို ထိန်းထားသည်။"
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "နံပါတ်တပ်ခြင်းကို ဤမှ စရန်:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "ဤနေရာသို့ ရွှေ့ရန် (_M)"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "ဤနေရာသို့ ကူးရန် (_C)"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "ဤနေရာတွင် လင့်ခ်ချိတ်ရန် (_L)"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "ပယ်ဖျက်ရန် (_A)"
 
 msgid "Add Places Entry"
 msgstr "နေရာများစာရင်းမှတ်ချက် ထည့်မည်"
@@ -796,25 +796,25 @@ msgid "Label:"
 msgstr "aအညွှန်း -"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "ဖိုဒါ ရွေးပါ"
 
 msgid "Location:"
 msgstr "Lတည်နေရာ -"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "ရွေးရန် (_H)…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "အိုင်ကွန်အမည်:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "ဖိုဒါ ရွေးပါ"
 
 msgid "_Add"
-msgstr ""
+msgstr "ထည့်ရန် (_A)"
 
 msgid "_Save"
-msgstr ""
+msgstr "သိမ်းရန် (_S)"
 
 msgid "View Display Style"
 msgstr "ပြသ-စတိုင် ကြည့်မည်"
@@ -829,7 +829,7 @@ msgid "Details"
 msgstr "အသေးစိတ်"
 
 msgid "Columns"
-msgstr ""
+msgstr "ကော်လံများ"
 
 msgid "View mode:"
 msgstr "မြင်ကွင်းထုံးနည်း"
@@ -844,19 +844,19 @@ msgid "Descending"
 msgstr "ဆင်းနေသည်"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "ဖိုဒါများကို အရင်ပြရန် (_F)"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "ဝှက်ဖိုင်များကို နောက်ဆုံးတွင်ပြရန် (_L)"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "အစမ်းကြည့်ပုံများ ပြရန် (_P)"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "အုပ်စုလိုက် ပြရန် (_G)"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "ဝှက်ဖိုင်များ ပြရန် (_H)"
 
 msgid "Apply to"
 msgstr "သို့သက်ရောက်စေမည် -"
@@ -865,17 +865,17 @@ msgid "Current folder"
 msgstr "လက်ရှိဖိုလ်ဒါ"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "ဖိုဒါခွဲအားလုံးနှင့် လက်ရှိဖိုဒါ"
 
 msgid "All folders"
 msgstr "ဖိုလ်ဒါအားလုံး"
 
 msgid "_OK"
-msgstr ""
+msgstr "အိုကေ (_O)"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "ပြင်ဆင်ခဲ့သည် %s"
 
 msgid "Folder Already Exists"
 msgstr "ဖိုင်တွဲရှိနှင့်ပြီးဖြစ်ပါသည်"
@@ -885,35 +885,35 @@ msgstr "ဖိုင်ရှိနှင့်ပြီးဖြစ်ပါသ
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” အမည်ရှိ ဖိုဒါသည် “%s” တွင် ရှိပြီးသားဖြစ်သည်။"
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” အမည်ရှိ ဖိုင်သည် “%s” တွင် ရှိပြီးသားဖြစ်သည်။"
 
 msgid "Existing item"
-msgstr ""
+msgstr "ရှိပြီးသား အရာ"
 
 msgid "New item"
-msgstr ""
+msgstr "အရာသစ်"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "အမည်သစ် အကြံပြုရန် (_S)"
 
 msgid "New name:"
-msgstr ""
+msgstr "အမည်သစ်:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "အားလုံးတွင် အသုံးချရန် (_A)"
 
 msgid "S_kip"
-msgstr ""
+msgstr "ကျော်ရန် (_K)"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "အတွင်းသို့ ရေးရန် (_W)"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "ထပ်ရေးရန် (_O)"
 
 msgid "Skip"
 msgstr "Sကျော်"
@@ -928,117 +928,117 @@ msgid "Choose an Icon"
 msgstr "iအိုင်ကွန် ရွေးရန် -"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "အိုင်ကွန်များ ရှာရန်…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "ပုံဖိုင် (_I)…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "မူလ အိုင်ကွန် (_D)"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "ပုံ ရွေးပါ"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "ကွန်ရက်နေရာများအတွက် gvfs လိုအပ်သည်။ gvfs ပက်ကေ့ချ် (Windows မျှဝေမှုအတွက် gvfs-smb၊ NFS အတွက် gvfs-nfs) ကို ထည့်သွင်းပြီး ထွက်ကာ ပြန်ဝင်ပါ။"
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "ဤတည်နေရာသည် ဖိုဒါမဟုတ်ပါ။"
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "ဤတည်နေရာသည် မမှန်ကန်ပါ။"
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "ဤဖိုဒါသည် မော်ကွန်းဖိုင်တွင် မရှိပါ။"
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
+msgstr[0] "ပိုသေးသော ဖိုင် %s ခု"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(အခြားဒရိုက်၊ မရေတွက်ပါ)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "၎င်း၏ အကြောင်းအရာ အချို့ကို ဖတ်၍မရပါ။"
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "ဖိုင်များတွင် %s"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "ဒစ်ပေါ်တွင် %s"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "ဖိုင် %s ခုနှင့် ဖိုဒါ %s ခု"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "ဖတ်နေသည်… ဖိုင် %s ခုနှင့် ဖိုဒါ %s ခုတွင် %s"
 
 msgid "Stopped."
-msgstr ""
+msgstr "ရပ်လိုက်သည်။"
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "ဤဖိုဒါကို ဖတ်၍မရပါ။"
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s၊ %.1f စက္ကန့်အတွင်း ဖတ်ခဲ့သည်"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
+msgstr[0] ". ဖိုဒါ %s ခုကို ဖတ်၍မရပါ။"
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "ဤကွန်ပျူတာရှိ ဖိုဒါများကိုသာ တိုင်းတာနိုင်သည်။"
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "တစ်မိနစ်အတွင်း ဖတ်ခဲ့သည်"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
+msgstr[0] "လွန်ခဲ့သော %d မိနစ်က ဖတ်ခဲ့သည်"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
+msgstr[0] "လွန်ခဲ့သော %d နာရီက ဖတ်ခဲ့သည်"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s၊ %s။ ထပ်ဖတ်ရန် ပြန်စကင်ဖတ်ပါ။"
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "မြင်သာသော အရွယ်အစား (_A)"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "ဖိုင်များ ဒစ်ပေါ်တွင် ယူသောနေရာအစား ၎င်းတို့၏ အရွယ်အစားများကို ပေါင်းရန်။"
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "ဤဒရိုက်တွင်သာ နေရန် (_S)"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "ဤဖိုဒါအတွင်း တပ်ဆင်ထားသော အခြားဒရိုက်များ (အခြားဒစ်ပေါ်ရှိ ဂီတဖိုဒါကဲ့သို့) ကို မရေတွက်ပါနှင့်။ လင့်ခ်များကို ဘယ်တော့မှ မလိုက်ပါ။"
 
 msgid "Rescan"
-msgstr ""
+msgstr "ပြန်စကင်ဖတ်ရန်"
 
 msgid "Stop"
 msgstr "ရပ်မည်"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု ပိတ်ရန်"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "ပြန်စကင်ဖတ်ရန် (_R)"
 
 msgid "S_top"
-msgstr ""
+msgstr "ရပ်ရန် (_T)"
 
 msgid "Share"
 msgstr "ဝေမျှရန်"
@@ -1048,74 +1048,74 @@ msgstr "ဖိုင်များ"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” ရှိပြီးသားဖြစ်သည်။ အစားထိုးမလား?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "ဤဖိုင်များအနက် %zu ခု ရှိပြီးသားဖြစ်သည်။ အစားထိုးမလား?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "သင်သိမ်းနေသော ပရိုဂရမ်က ရှိပြီးသား အကြောင်းအရာကို ထပ်ရေးပါမည်။"
 
 msgid "Replace"
 msgstr "အစားထိုး"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "သိမ်းရန် ဖိုဒါ ရွေးပါ။"
 
 msgid "Select Folder"
-msgstr ""
+msgstr "ဖိုဒါ ရွေးရန်"
 
 msgid "Open Files"
-msgstr ""
+msgstr "ဖိုင်များ ဖွင့်ရန်"
 
 msgid "Open File"
-msgstr ""
+msgstr "ဖိုင် ဖွင့်ရန်"
 
 msgid "Save File"
-msgstr ""
+msgstr "ဖိုင် သိမ်းရန်"
 
 msgid "Save Files"
-msgstr ""
+msgstr "ဖိုင်များ သိမ်းရန်"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "ဖိုဒါ (_F):"
 
 msgid "_Name:"
-msgstr ""
+msgstr "အမည် (_N):"
 
 msgid "_Type:"
-msgstr ""
+msgstr "အမျိုးအစား (_T):"
 
 msgid "_Select"
-msgstr ""
+msgstr "ရွေးရန် (_S)"
 
 msgid "_Open"
-msgstr ""
+msgstr "ဖွင့်ရန် (_O)"
 
 msgid "New Folder"
 msgstr "ဖိုင်တွဲအသစ်"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "ဤနေရာတွင် ဖိုဒါသစ် ဖန်တီးရန်:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "ဖန်တီးရန် (_R)"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "ဖိုဒါကို ဖန်တီး၍မရပါ။"
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "အရာ %zu ခု ရွေးထားသည်"
 
 msgid "Contents:"
-msgstr ""
+msgstr "အကြောင်းအရာ:"
 
 msgid "Size:"
 msgstr "အရွယ်အစား -"
@@ -1124,13 +1124,13 @@ msgid "Type:"
 msgstr "အမျိုးအစား -"
 
 msgid "Folder"
-msgstr ""
+msgstr "ဖိုဒါ"
 
 msgid "Contains:"
-msgstr ""
+msgstr "ပါဝင်သည်:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "ရေတွက်နေသည်…"
 
 msgid "Unknown"
 msgstr "မသိ"
@@ -1160,75 +1160,75 @@ msgid "Dimensions:"
 msgstr "အတိုင်းအတာ:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "ပျက်နေသော လင့်ခ်"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (လင့်ခ်)"
 
 msgid "other drive"
-msgstr ""
+msgstr "အခြားဒရိုက်"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s ထဲမှ %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s ကျန်သည်"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d ထဲမှ %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "ဖိုင်လုပ်ဆောင်ချက်များ လုပ်ဆောင်နေသည်"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "ဖိုဒါခွဲ မရှိပါ"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "ပေးထားသော ဖိုင်များကို ၎င်းတို့၏ ဖိုဒါများတွင် ရွေးရန်"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "ဝင်းဒိုးကို ခွဲထားသော မြင်ကွင်းဖြင့် ဖွင့်ရန်"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "ဝင်းဒိုးသစ် အမြဲဖွင့်ရန်"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "FileManager1 D-Bus ဝန်ဆောင်မှုအတွက် နောက်ခံတွင် ဆက်လုပ်ဆောင်ရန်"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "တာမီနယ်မှ ခွဲထွက်ရန် (တည်နေရာမရှိလျှင် လက်ရှိဖိုဒါကို ဖွင့်သည်)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "xdg-desktop-portal အတွက် ဖိုင်ရွေးစနစ်ကို လုပ်ဆောင်ရန် (D-Bus မှ စတင်သည်)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "ဗားရှင်း ပြရန်"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[ဖိုင် သို့မဟုတ် ဖိုဒါ…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "စီမံခန့်ခွဲသူအဖြစ် လုပ်ဆောင်နေသည်: ဤဝင်းဒိုးရှိ ပြောင်းလဲမှုများက စနစ်ကို ထိခိုက်စေနိုင်သည်။"
 
 msgid "Close this window?"
-msgstr ""
+msgstr "ဤဝင်းဒိုးကို ပိတ်မလား?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "ဤဝင်းဒိုးတွင် တက်ဘ် %zu ခု ဖွင့်ထားသည်။ ၎င်းကို ပိတ်လျှင် အားလုံး ပိတ်သွားမည်။"
 
 msgid "Close Window"
-msgstr ""
+msgstr "ဝင်းဒိုး ပိတ်ရန်"
 
 msgid "Configure Toolbars…"
-msgstr ""
+msgstr "ကိရိယာဘားများ ပြင်ဆင်ရန်…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "ကိရိယာဘား ပြရန် (_T)"
 
 msgid "Split"
 msgstr "သီးခြားခွဲမည်"
@@ -1243,79 +1243,79 @@ msgid "Show in Groups"
 msgstr "အုပ်စုများတွင်ပြမည်"
 
 msgid "_File"
-msgstr ""
+msgstr "ဖိုင် (_F)"
 
 msgid "New _Window"
-msgstr ""
+msgstr "ဝင်းဒိုးသစ် (_W)"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "တက်ဘ်သစ် (_T)"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "တက်ဘ် ပိတ်ရန် (_C)"
 
 msgid "Create _New"
-msgstr ""
+msgstr "အသစ် ဖန်တီးရန် (_N)"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "အမည်ပြောင်းရန် (_R)…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "ဤနေရာတွင် ပွားရန် (_D)"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "အမှိုက်ပုံးသို့ ရွှေ့ရန် (_T)"
 
 msgid "_Delete"
-msgstr ""
+msgstr "ဖျက်ရန် (_D)"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "အမှိုက်ပုံးမှ ပြန်ယူရန်"
 
 msgid "_Properties"
-msgstr ""
+msgstr "ဂုဏ်သတ္တိများ (_P)"
 
 msgid "_Quit"
-msgstr ""
+msgstr "ထွက်ရန် (_Q)"
 
 msgid "_Edit"
-msgstr ""
+msgstr "တည်းဖြတ်ရန် (_E)"
 
 msgid "_Undo"
-msgstr ""
+msgstr "ပြန်ဖျက်ရန် (_U)"
 
 msgid "_Redo"
-msgstr ""
+msgstr "ပြန်လုပ်ရန် (_R)"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "ဖြတ်ရန် (_T)"
 
 msgid "_Copy"
-msgstr ""
+msgstr "ကူးရန် (_C)"
 
 msgid "_Paste"
-msgstr ""
+msgstr "ကူးထည့်ရန် (_P)"
 
 msgid "Filter…"
-msgstr ""
+msgstr "စစ်ထုတ်ရန်…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "ရှာရန် (_S)…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "အားလုံး ရွေးရန် (_A)"
 
 msgid "_View"
-msgstr ""
+msgstr "မြင်ကွင်း (_V)"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "ချဲ့ရန် (_I)"
 
 msgid "Reset Zoom Level"
 msgstr "ဇွန်းပမာဏ ပြန်သတ်မှတ်မည်"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "ချုံ့ရန် (_O)"
 
 msgid "Show Additional Information"
 msgstr "နောက်ထပ်သတင်းအချက်အလက်များ ပြမည်"
@@ -1324,16 +1324,16 @@ msgid "Show Previews"
 msgstr "အကြိုမြင်ကွင်းများ ပြမည်"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "မူလများ ပြန်ယူရန်"
 
 msgid "Adjust View Display Style…"
-msgstr ""
+msgstr "မြင်ကွင်း ပြသပုံစံ ချိန်ညှိရန်…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "ပြန်တင်ရန် (_L)"
 
 msgid "Panels"
-msgstr ""
+msgstr "အကန့်များ"
 
 msgid "Information"
 msgstr "သတင်းအချက်အလက်"
@@ -1342,175 +1342,175 @@ msgid "Location Bar"
 msgstr "တည်နေရာပြ-တန်း"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "မီနူးဘား ပြရန် (_M)"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "အခြေအနေဘား ပြရန် (_S)"
 
 msgid "_Go"
-msgstr ""
+msgstr "သွားရန် (_G)"
 
 msgid "_Back"
-msgstr ""
+msgstr "နောက်သို့ (_B)"
 
 msgid "_Forward"
-msgstr ""
+msgstr "ရှေ့သို့ (_F)"
 
 msgid "_Up"
-msgstr ""
+msgstr "အပေါ်သို့ (_U)"
 
 msgid "_Home"
-msgstr ""
+msgstr "ပင်မ (_H)"
 
 msgid "Recently Closed Tabs"
 msgstr "မကြာမီကပိတ်ခဲ့သောတပ်ဘ်များ"
 
 msgid "_Tools"
-msgstr ""
+msgstr "ကိရိယာများ (_T)"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "တာမီနယ် ဖွင့်ရန် (_T)"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "ဤနေရာတွင် တာမီနယ် ဖွင့်ရန် (_H)"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု (_D)…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "ဆက်တင်များ (_S)"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "ကိရိယာဘားများ ပြင်ဆင်ရန် (_B)…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga ကို ပြင်ဆင်ရန် (_C)…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "မကြာသေးမီက ပိတ်ထားသော တက်ဘ် မရှိပါ"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(စီမံခန့်ခွဲသူ)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "ဖိုဒါ %zu ခုကို တက်ဘ်သစ်များတွင် ဖွင့်မလား?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "ဖိုဒါများ ဖွင့်ရန်"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "“%s” ကို ဖွင့်၍မရပါ။"
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "တာမီနယ်ကို ဖွင့်၍မရပါ။"
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "စာသားဖိုင်သစ်.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "ဖိုင်သစ်"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "အမှိုက်ပုံးကို ရှင်းမလား?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "အမှိုက်ပုံးရှိ အရာအားလုံးကို အပြီးတိုင် ဖျက်ပါမည်။ ၎င်းကို ပြန်ဖျက်၍မရပါ။"
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "တာမီနယ် %zu ခု ဖွင့်မလား?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "တာမီနယ်များ ဖွင့်ရန်"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "ဤနေရာတွင် ဖိုင်သစ် ဖန်တီးရန်:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "ဖိုင်ကို ဖန်တီး၍မရပါ။"
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "ဖိုင် သို့မဟုတ် ဖိုဒါသို့ လင့်ခ်"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "လင့်ခ်ချိတ်မည့် ဖိုင် သို့မဟုတ် ဖိုဒါ၏ လမ်းကြောင်း:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "လင့်ခ်ကို ဖန်တီး၍မရပါ။"
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s ကို အပြီးတိုင် ဖျက်မလား?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "၎င်းကို ပြန်ဖျက်၍မရပါ။"
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s ကို အမှိုက်ပုံးသို့ ရွှေ့မလား?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "“%s” ကို လုပ်ဆောင်၍မရပါ။"
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s ကို စတင်၍မရပါ။"
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "အပလီကေးရှင်းကို စတင်၍မရပါ။"
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” သည် လုပ်ဆောင်နိုင်သော ဖိုင်ဖြစ်သည်။"
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "၎င်းကို လုပ်ဆောင်လိုပါသလား သို့မဟုတ် အပလီကေးရှင်းတစ်ခုတွင် ဖွင့်လိုပါသလား?"
 
 msgid "Run"
-msgstr ""
+msgstr "လုပ်ဆောင်ရန်"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "%s (%s) ကို ဖွင့်ရန် အပလီကေးရှင်း ရွေးပါ:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "အကြံပြုထားသော အပလီကေးရှင်းများ"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "အခြား အပလီကေးရှင်းများ"
 
 msgid "Or command:"
-msgstr ""
+msgstr "သို့မဟုတ် အမိန့်:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "ဤဖိုင်အမျိုးအစားအတွက် အပလီကေးရှင်း ဆက်စပ်မှုကို မှတ်ထားရန်"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%2$s ထဲမှ %1$s လွတ်သည်"
 
 msgid "Safely Remove"
 msgstr "Sအထိအခိုက်မရှိစွာဖယ်ရှားမည်"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "အပိုင်းများ ပြင်ဆင်ရန်"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "အမှတ်ခြစ်ထားသော အပိုင်းများကို နေရာများ အကန့်တွင် ဤအစီအစဉ်အတိုင်း ပြသည်။"
 
 msgid "Move Up"
-msgstr ""
+msgstr "အပေါ်သို့ ရွှေ့ရန်"
 
 msgid "Move Down"
-msgstr ""
+msgstr "အောက်သို့ ရွှေ့ရန်"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "စက်ပစ္စည်းကို တပ်ဆင်၍မရပါ: %s"
 
 msgid "Mount"
 msgstr "တပ်ဆင်"
@@ -1525,7 +1525,7 @@ msgid "Remove"
 msgstr "ဖယ်ရှား"
 
 msgid "Show"
-msgstr ""
+msgstr "ပြရန်"
 
 msgid "Hide"
 msgstr "Hဖွက်မည်"
@@ -1537,31 +1537,31 @@ msgid "Add Entry…"
 msgstr "စာရင်းမှတ်ချက်ထည့်မည်…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "အပိုင်းများ ပြင်ဆင်ရန်…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "ဝှက်ထားသော ထည့်သွင်းချက်များကို ဝှက်ရန်"
 
 msgid "Show All Entries"
 msgstr "Sစာရင်းမှတ်ချက်များအားလုံးပြမည်"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "အမှိုက်ပုံးရှိ အရာအားလုံးကို အပြီးတိုင် ဖျက်ပါမည်။"
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "စက်ပစ္စည်းကို ဘေးကင်းစွာ ဖယ်ရှား၍မရပါ: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "စက်ပစ္စည်းကို ဖြုတ်၍မရပါ: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "စနစ်ဖောင့်ကို သုံးရန် (_S)"
 
 msgid "Label font:"
 msgstr "အညွှန်းစာ ဖောင့် -"
@@ -1573,83 +1573,83 @@ msgid "Preview icon size:"
 msgstr "အိုင်ကွန်အရွယ်အစား အကြိုကြည့်မည်"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "ဆက်စပ်မီနူး လုပ်ဆောင်ချက်"
 
 msgid "Name:"
 msgstr "Nအမည် -"
 
 msgid "Command:"
-msgstr ""
+msgstr "အမိန့်:"
 
 msgid "File names:"
-msgstr ""
+msgstr "ဖိုင်အမည်များ:"
 
 msgid "Types:"
-msgstr ""
+msgstr "အမျိုးအစားများ:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f ပထမဖိုင်၊ %F ဖိုင်အားလုံး၊ %u / %U URI အဖြစ်၊ %n / %N အမည်များ၊ %d လက်ရှိဖိုဒါ။"
 
 msgid "Show for _files"
-msgstr ""
+msgstr "ဖိုင်များအတွက် ပြရန် (_F)"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "ဖိုဒါများအတွက် ပြရန် (_O)"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "အရာများစွာ ရွေးထားလျှင် ပြရန် (_S)"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "တာမီနယ်တွင် လုပ်ဆောင်ရန် (_T)"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "စိတ်ကြိုက် လုပ်ဆောင်ချက်များ"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "ဖိုင်နှင့် ဖိုဒါများ၏ ဆက်စပ်မီနူးအတွက် သင့်ကိုယ်ပိုင် ထည့်သွင်းချက်များ။"
 
 msgid "_Add…"
-msgstr ""
+msgstr "ထည့်ရန် (_A)…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "တည်းဖြတ်ရန် (_E)…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "ဖယ်ရှားရန် (_R)"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "ဖြတ်လမ်းများကို <Control>c သို့မဟုတ် <Shift>Delete ကဲ့သို့ ရေးသည်။ အများကို ကော်မာဖြင့် ခွဲပါ။ မူလအတွက် အကွက်ကို ဗလာထားပါ။"
 
 msgid "no file"
-msgstr ""
+msgstr "ဖိုင်မရှိ"
 
 msgid "files of any size"
-msgstr ""
+msgstr "မည်သည့်အရွယ်အစားမဆို ဖိုင်များ"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB အောက် ဖိုင်များ"
 
 msgid "Search…"
-msgstr ""
+msgstr "ရှာရန်…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "မူလများ ပြန်ယူရန် (_R)"
 
 msgid "_Apply"
-msgstr ""
+msgstr "အသုံးချရန် (_A)"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "ဖိုဒါများနှင့် တက်ဘ်များ"
 
 msgid "Show on startup:"
 msgstr "ပရိုဂရမ်စတင်ချိန်တွင် ပြမည် -"
 
 msgid "Folders, tabs, and window state from last time"
-msgstr ""
+msgstr "ယခင်အကြိမ်က ဖိုဒါများ၊ တက်ဘ်များနှင့် ဝင်းဒိုးအခြေအနေ"
 
 msgid "This location:"
-msgstr ""
+msgstr "ဤတည်နေရာ:"
 
 msgid "Use Current Location"
 msgstr "လက်ရှိတည်နေရာကို သုံးမည်"
@@ -1658,13 +1658,13 @@ msgid "Use Default Location"
 msgstr "ဒီဖော့တည်နေရာကို သုံးမည်"
 
 msgid "Opening Folders:"
-msgstr ""
+msgstr "ဖိုဒါများ ဖွင့်ခြင်း:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Beluga ဝင်းဒိုး တစ်ခုတည်းထားပြီး ဖိုဒါသစ်များကို တက်ဘ်များတွင် ဖွင့်ရန်"
 
 msgid "Window:"
-msgstr ""
+msgstr "ဝင်းဒိုး:"
 
 msgid "Show full path in title bar"
 msgstr "ခေါင်းစဉ်တန်းတွင် လမ်းကြောင်းအပြည့်အစုံပြမည်"
@@ -1673,25 +1673,25 @@ msgid "Show filter bar"
 msgstr "စစ်ထုတ်တန်း ပြမည်"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "တက်ဘ်များ:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "တက်ဘ်ဘားကို အမြဲပြရန်"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "တက်ဘ်များပေါ်တွင် ပိတ်ခလုတ် ပြရန်"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "တက်ဘ်ပုံစံ:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "တက်ဘ်အကျယ်သည် ဖိုဒါအမည်နှင့် လိုက်ညှိသည်"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "တက်ဘ်အားလုံးတွင် တူညီသော ပုံသေအကျယ် ရှိသည်"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "ပုံသေအကျယ် တက်ဘ်များသည် နေရာမဆံ့သောအခါ အားလုံး တူညီစွာ ကျဉ်းသွားသည်။"
 
 msgid "Open new tabs:"
 msgstr "တပ်ဘ်အသစ်များဖွင့်မည် - "
@@ -1706,75 +1706,75 @@ msgid "Split view:"
 msgstr "မြင်ကွင်းခွဲမည်:"
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "ခွဲထားသော မြင်ကွင်းကို ပိတ်သောအခါ"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "လက်ရှိ အကန့်ကို ပိတ်ရန်"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "မလုပ်ဆောင်နေသော အကန့်ကို ပိတ်ရန်"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "ညာဘက် အကန့်ကို ပိတ်ရန်"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "ဝင်းဒိုးသစ်များကို ခွဲထားသော မြင်ကွင်းမုဒ်ဖြင့် ဖွင့်ရန်"
 
 msgid "Terminal:"
 msgstr "တာမီနယ်:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "တာမီနယ် မတွေ့ပါ"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "တွေ့ရှိသည်: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "F4 နှင့် ဤနေရာတွင် တာမီနယ် ဖွင့်ရန် တို့က သုံးသည်။ အမိန့်ရှိ %d ကို ဖိုဒါဖြင့် အစားထိုးသည်; မဟုတ်လျှင် တာမီနယ်သည် ထိုဖိုဒါတွင် စတင်သည်။ ၎င်းသည် ယခင်က KDE စနစ်ဆက်တင် ဖြစ်ခဲ့သည်။"
 
 msgid "Previews"
 msgstr "အကြိုမြင်ကွင်းများ"
 
 msgid "New folders:"
-msgstr ""
+msgstr "ဖိုဒါသစ်များ:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "ဖိုဒါသစ်များတွင် အစမ်းကြည့်ပုံများ ပြရန် (_P)"
 
 msgid "Show previews in the view for:"
 msgstr "အောက်ပါအတွက် မြင်ကွင်းတွင် အကြိုမြင်ကွင်းများ ပြမည်"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "အသံ (မျက်နှာဖုံးပုံများ)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF စာရွက်စာတမ်းများ"
 
 msgid "Text files"
-msgstr ""
+msgstr "စာသားဖိုင်များ"
 
 msgid "Fonts"
-msgstr ""
+msgstr "ဖောင့်များ"
 
 msgid "Office documents"
-msgstr ""
+msgstr "ရုံးသုံး စာရွက်စာတမ်းများ"
 
 msgid "Local storage:"
-msgstr ""
+msgstr "စက်တွင်း သိုလှောင်မှု:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "အစမ်းကြည့်ပုံများ ပြရန်"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "အဝေး သိုလှောင်မှု:"
 
 msgid "Confirmations"
 msgstr "အတည်ပြုချက်များ"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "အတည်ပြုချက် မေးရန်:"
 
 msgid "Moving files or folders to trash"
 msgstr "ဖိုင်လ် သို့ ဖိုလ်ဒါ အမှိုက်ပုံးသို့ ရွေးခြင်း"
@@ -1786,22 +1786,22 @@ msgid "Deleting files or folders"
 msgstr "ဖိုင််လ်နှင့်ဖိုလ်ဒါများ ဖျက်သောအခါ"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "ဖိုင်အမည်ပြောင်းခြင်းသည် ၎င်း၏ အမျိုးအစားကို ပြောင်းပါမည်"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Beluga တွင် အတည်ပြုချက် မေးရန်:"
 
 msgid "Closing windows with multiple tabs"
-msgstr ""
+msgstr "တက်ဘ်များစွာပါသော ဝင်းဒိုးများ ပိတ်ခြင်း"
 
 msgid "Opening many folders at once"
-msgstr ""
+msgstr "ဖိုဒါများစွာကို တစ်ပြိုင်နက် ဖွင့်ခြင်း"
 
 msgid "Opening many terminals at once"
-msgstr ""
+msgstr "တာမီနယ်များစွာကို တစ်ပြိုင်နက် ဖွင့်ခြင်း"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "စီမံခန့်ခွဲသူအဖြစ် လုပ်ဆောင်ခြင်းသို့ ပြောင်းခြင်း"
 
 msgid "When opening an executable file:"
 msgstr "လုပ်ဆောင်-ဖိုင်လ်ဖွင်သောအခါ -"
@@ -1816,7 +1816,7 @@ msgid "Run script"
 msgstr "ညွှန်ကြားကုတ် ဆောင်ရွက်မည်"
 
 msgid "Information Panel:"
-msgstr ""
+msgstr "အချက်အလက် အကန့်:"
 
 msgid "Show previews"
 msgstr "အကြိုမြင်ကွင်းများ ပြမည်"
@@ -1825,40 +1825,40 @@ msgid "Auto-play media files"
 msgstr "မီဒီယာဖိုင်လ်အလိုအလျောက်ဖွင့်မည်"
 
 msgid "Show item on hover"
-msgstr ""
+msgstr "အပေါ်တင်ထားစဉ် အရာကို ပြရန်"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "ရှည်သော ရက်စွဲပုံစံ သုံးရန် (_L)"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "ဖိုဒါများ အကန့်:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "ပင်မဖိုဒါအတွင်း ရှိနေစဉ် ၎င်းသို့ ကန့်သတ်ရန်"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "ဝှက်ဖိုဒါများ ပြရန် (_H)"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "လက်ရှိဖိုဒါသို့ အလိုအလျောက် လှိမ့်ရန် (_A)"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "နေရာများ အကန့်:"
 
 msgid "Icon size:"
 msgstr "အိုင်ကွန်အရွယ်အစား:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "အခြေအနေနှင့် တည်နေရာ ဘားများ"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "အခြေအနေဘား:"
 
 msgid "Small"
 msgstr "သေးငယ်"
 
 msgid "Full width"
-msgstr ""
+msgstr "အကျယ်အပြည့်"
 
 msgid "Disabled"
 msgstr "ပိတ်ထားတယ်"
@@ -1867,7 +1867,7 @@ msgid "Show zoom slider"
 msgstr "ဇွန်း တိုး/လျော့တန်း ပြမည်"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "နေရာလွတ် ပြရန် (_S)"
 
 msgid "Location bar:"
 msgstr "တည်နေရာပြ-တန်း:"
@@ -1876,70 +1876,70 @@ msgid "Make location bar editable"
 msgstr "တည်နေရာပြ-တန်းကို တည်းဖြတ်ခွင့်ပြုမည်"
 
 msgid "Show full path inside location bar"
-msgstr ""
+msgstr "တည်နေရာဘားအတွင်း လမ်းကြောင်းအပြည့် ပြရန်"
 
 msgid "Interface"
-msgstr ""
+msgstr "အင်တာဖေ့စ်"
 
 msgid "General"
 msgstr "Gယေဘုယျ"
 
 msgid "Display style:"
-msgstr ""
+msgstr "ပြသပုံစံ:"
 
 msgid "Use common display style for all folders"
-msgstr ""
+msgstr "ဖိုဒါအားလုံးအတွက် ဘုံပြသပုံစံ သုံးရန်"
 
 msgid "Remember display style for each folder"
-msgstr ""
+msgstr "ဖိုဒါတစ်ခုစီအတွက် ပြသပုံစံကို မှတ်ထားရန်"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "မည်သို့ပင်ဖြစ်စေ၊ မြင်ကွင်း › ဤဖိုဒါအတွက် မြင်ကွင်းကို မှတ်ထားရန် သည် ဖိုဒါတစ်ခုကို ၎င်း၏ ကိုယ်ပိုင်ပုံစံ ပေးသည်။ ရှာဖွေမှု၊ မကြာသေးမီဖိုင်များ သို့မဟုတ် အမှိုက်ပုံးကဲ့သို့ အထူးမြင်ကွင်းအချို့သည် ၎င်းတို့၏ ကိုယ်ပိုင်ပုံစံကို ဆက်သုံးသည်။"
 
 msgid "Browsing:"
-msgstr ""
+msgstr "ကြည့်ရှုခြင်း:"
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "ချုံ့ထားသော ဖိုင်များကို ဖိုဒါများကဲ့သို့ ကြည့်ရှုရန်"
 
 msgid "Open folders during drag operations"
-msgstr ""
+msgstr "ဆွဲယူနေစဉ် ဖိုဒါများကို ဖွင့်ရန်"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "ဖိုင်နှင့် ဖိုဒါများကို တစ်ချက်နှိပ်ဖြင့် ဖွင့်ရန်"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "ချက်ချင်းရှာဖွေရန် ပင်မဖိုဒါ၏ အညွှန်းကို ထားရန် (_I)"
 
 msgid "Miscellaneous:"
 msgstr "တိုလီမိုလီများ - "
 
 msgid "Show item information on hover"
-msgstr ""
+msgstr "အပေါ်တင်ထားစဉ် အရာ၏ အချက်အလက် ပြရန်"
 
 msgid "Show selection marker"
 msgstr "ရွေးချယ်မှုအမှတ်အသား ပြမည်"
 
 msgid "Rename single items inline"
-msgstr ""
+msgstr "အရာတစ်ခုချင်းကို နေရာတွင်ပင် အမည်ပြောင်းရန်"
 
 msgid "Also hide backup files while hiding hidden files"
-msgstr ""
+msgstr "ဝှက်ဖိုင်များကို ဝှက်စဉ် အရန်ဖိုင်များကိုလည်း ဝှက်ရန်"
 
 msgid "Background:"
-msgstr ""
+msgstr "နောက်ခံ:"
 
 msgid "Double-click triggers"
-msgstr ""
+msgstr "နှစ်ချက်နှိပ်ခြင်းက လုပ်ဆောင်သည်"
 
 msgid "Nothing"
-msgstr ""
+msgstr "ဘာမှမလုပ်"
 
 msgid "Go Up"
-msgstr ""
+msgstr "အပေါ်သို့ သွားရန်"
 
 msgid "Content Display"
-msgstr ""
+msgstr "အကြောင်းအရာ ပြသမှု"
 
 msgid "Sorting mode:"
 msgstr "စီသည့်ထုံးနည်း - "
@@ -1954,49 +1954,49 @@ msgid "Alphabetical, case sensitive"
 msgstr "အက္ခရာစဉ်၊ စာလုံးအကြီးအသေး သတိပြုမည်"
 
 msgid "Folder size:"
-msgstr ""
+msgstr "ဖိုဒါအရွယ်အစား:"
 
 msgid "Show number of items"
-msgstr ""
+msgstr "အရာအရေအတွက် ပြရန်"
 
 msgid "Show size of contents, up to "
-msgstr ""
+msgstr "အကြောင်းအရာ အရွယ်အစား ပြရန်၊ အများဆုံး "
 
 msgid "Show no size"
-msgstr ""
+msgstr "အရွယ်အစား မပြရန်"
 
 msgid "levels deep"
-msgstr ""
+msgstr "အဆင့် နက်ရှိုင်းမှု"
 
 msgid "Date style:"
 msgstr "ရက်စွဲစတိုင် -"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "နှိုင်းရ (ယနေ့၊ မနေ့က…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "အကြွင်းမဲ့"
 
 msgid "Permissions style:"
-msgstr ""
+msgstr "ခွင့်ပြုချက် ပုံစံ:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "သင်္ကေတ (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "ဂဏန်း (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "ပေါင်းစပ်"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "ရှည်သော ဖိုင်အမည်များ:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "အလယ်တွင် အတိုချုံ့ရန်"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "အဆုံးတွင် အတိုချုံ့ရန်"
 
 msgid "Label width:"
 msgstr "အညွှန်းစာ အနံ"
@@ -2017,7 +2017,7 @@ msgid "Unlimited"
 msgstr "အကန့်အသတ်မရှိ"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "အကွာအဝေး:"
 
 msgid "Maximum width:"
 msgstr "အကျယ်ဆုံးအနံ -"
@@ -2029,189 +2029,189 @@ msgid "Expandable"
 msgstr "ဖွင့်ဖြန့်လို့ရသော"
 
 msgid "Open files and folders:"
-msgstr ""
+msgstr "ဖိုင်နှင့် ဖိုဒါများ ဖွင့်ရန်:"
 
 msgid "By clicking anywhere on the row"
-msgstr ""
+msgstr "အတန်းပေါ်ရှိ မည်သည့်နေရာကိုမဆို နှိပ်၍"
 
 msgid "By clicking on icon or name"
-msgstr ""
+msgstr "အိုင်ကွန် သို့မဟုတ် အမည်ကို နှိပ်၍"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "ဒစ်အသုံးပြုမှု ကော်လံ ပြရန် (_U)"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "ဖိုင်တစ်ခုစီနှင့် ဖိုဒါတစ်ခုလုံးစီ ဒစ်ပေါ်တွင် ယူသောနေရာ၊ ဖိုဒါအတွင်း ၎င်း၏အချိုးအတွက် ဘားနှင့်အတူ၊ ကိရိယာများ › ဒစ်အသုံးပြုမှု ကဲ့သို့။ ဖိုဒါများကို နောက်ခံတွင် အပြည့်ဖတ်သည်; အကြီးဆုံးများကို အရင်မြင်ရန် ကော်လံအလိုက် စီပါ။ ဒစ်အသုံးပြုမှု ဝင်းဒိုး၏ \"ဤဒရိုက်တွင်သာ နေရန်\" သည် ဤနေရာတွင်လည်း သက်ရောက်သည်။"
 
 msgid "View"
 msgstr "Vမြင်ကွင်း"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "ဆက်စပ်မီနူးတွင် ပြရန်"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'သို့ ကူးရန်' နှင့် 'သို့ ရွှေ့ရန်'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "ဖျက်ရန် (အမှိုက်ပုံးသို့ ရွှေ့ရန် အပြင်)"
 
 msgid "Context Menu"
 msgstr "ဆက်စပ်မီနူး"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "ရှင်းလင်းခြင်း:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "ဤထက် ဟောင်းသော ဖိုင်များကို ဖျက်ရန်:"
 
 msgid "days"
-msgstr ""
+msgstr "ရက်"
 
 msgid "Limit to"
-msgstr ""
+msgstr "ကန့်သတ်ရန်:"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "ဒစ်၏ ရာခိုင်နှုန်း"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "အမှိုက်ပုံးကို ပင်မဖိုဒါ၏ ဒရိုက်ပေါ်တွင် ထားရန်"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "အခြားဒရိုက်များမှ အမှိုက်ပုံးသို့ ရွှေ့သော ဖိုင်များကို ပင်မဖိုဒါရှိ အမှိုက်ပုံးသို့ ကူးသည်၊ ထို့ကြောင့် ထိုဒရိုက်များတွင် .Trash-1000 ဖိုဒါ မပေါ်ပါ။ ထိုအခါ ဖိုင်ကြီးများကို အမှိုက်ပုံးသို့ ရွှေ့ရန် ပိုကြာသည်။"
 
 msgid "Full trash:"
-msgstr ""
+msgstr "ပြည့်နေသော အမှိုက်ပုံး:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "ကန့်သတ်ချက်ရောက်သောအခါ:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "သတိပေးချက် ပြရန်"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "အဟောင်းဆုံး အရာများကို ဖျက်ရန်"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "အကြီးဆုံး အရာများကို ဖျက်ရန်"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "၎င်းတို့သည် ယခင်က KDE စနစ်ဆက်တင်များ ဖြစ်ခဲ့သည်။ ကန့်သတ်ချက်များကို Beluga စတင်ချိန်နှင့် အရာများကို အမှိုက်ပုံးသို့ ရွှေ့ပြီးနောက် အသုံးချသည်။"
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "အမှိုက်ပုံး၏ အရွယ်အစားကို တွက်နေသည်…"
 
 msgid "Trash:"
 msgstr "အမှိုက်ပုံး:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "အမှိုက်ပုံးသည် လောလောဆယ် %s သုံးနေသည်။"
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "အမှိုက်ပုံးကို ယခု ရှင်းရန် (_E)"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim မုဒ်"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim မုဒ်:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "မြင်ကွင်းများတွင် Vim ပုံစံ ကီးများကို သုံးရန်"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "ပုံမှန်မုဒ်သည် h j k l ဖြင့် ရွှေ့ပြီး အောက်ပါကီးများကို လုပ်ဆောင်သည်; v၊ V နှင့် Ctrl+V က ရွေးသည်; i နှင့် a က အမည်ပြောင်းသည် (ထည့်သွင်းမုဒ်); Esc က ပုံမှန်မုဒ်သို့ ပြန်သည်; : က အမိန့်လိုင်းကို ဖွင့်သည်။ ဤတွင် မဖော်ပြထားသော Ctrl သို့မဟုတ် Alt ကီးများသည် ၎င်းတို့၏ ပုံမှန်အဓိပ္ပာယ်ကို ထိန်းထားသည်။"
 
 msgid "Leader key:"
-msgstr ""
+msgstr "ဦးဆောင်ကီး:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "အောက်ပါကီးများရှိ <leader>၊ ဥပမာ <Space> သို့မဟုတ် ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "နောက်ထပ်ကီးများကို စောင့်ရန်:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (d နောက် dd၊ g နောက် gg)"
 
 msgid "Keys"
-msgstr ""
+msgstr "ကီးများ"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim သင်္ကေတ၊ အများကို နေရာလွတ်ဖြင့် ခွဲပါ: h, gg, <C-v>, <CR>, <Esc>, <leader>t. မူလအတွက် အကွက်ကို ဗလာထားပါ။"
 
 msgid "Command line"
 msgstr "အမိန့်ပေး လိုင်း"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q က ဝင်းဒိုးကို ပိတ်သည် (:q! က တက်ဘ်များအကြောင်း မမေးဘဲ)၊ :qa က Beluga မှ ထွက်သည်၊ :e သို့မဟုတ် :cd လမ်းကြောင်း က ဖိုဒါကို ဖွင့်သည်၊ :tabnew [လမ်းကြောင်း]၊ :tabclose၊ :tabonly၊ :sp သို့မဟုတ် :vs [လမ်းကြောင်း] က မြင်ကွင်းကို ခွဲသည်၊ :only က အခြားမြင်ကွင်းကို ပိတ်သည်၊ :mkdir အမည်၊ :touch အမည်၊ :set hidden / nohidden / hidden!၊ :set view=icons|compact|details|columns၊ :sort name|size|date|type၊ :pwd၊ :term၊ :du၊ :help၊ :!အမိန့် က ဖိုဒါတွင် shell အမိန့်ကို လုပ်ဆောင်သည်။"
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "ကီးဘုတ် ဖြတ်လမ်းများ"
 
 msgid "Details:"
 msgstr "အသေးစိတ် -"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "ဤကွန်ပျူတာရှိ ဖိုင်များကိုသာ ဖတ်နိုင်သည်။"
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga ကို FFmpeg မပါဘဲ တည်ဆောက်ထားသည်။"
 
 msgid "Reading…"
-msgstr ""
+msgstr "ဖတ်နေသည်…"
 
 msgid "No details found."
-msgstr ""
+msgstr "အသေးစိတ် မတွေ့ပါ။"
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "ဖိုဒါ အိုင်ကွန် ပြောင်းရန်"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "အိုင်ကွန်ကို ပြောင်း၍မရပါ။"
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "အရာ %zu ခု"
 
 msgid "Calculating…"
 msgstr "တွက်နေသည်…"
 
 msgid "No default application"
-msgstr ""
+msgstr "မူလ အပလီကေးရှင်း မရှိပါ"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "ပြောင်းရန် (_H)…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "ဖွင့်မည့်အရာ:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "နေရာလွတ်:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%2$s ထဲမှ %1$s လွတ်သည် (%3$d%% သုံးထားသည်)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
+msgstr[0] "%llu ဘိုက်"
 
 msgid "Forbidden"
-msgstr ""
+msgstr "ခွင့်မပြုပါ"
 
 msgid "Can View"
-msgstr ""
+msgstr "ကြည့်နိုင်သည်"
 
 msgid "Can View & Modify"
 msgstr "ကြည့်၍ မွမ်းမံနိုင်သည်"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "အကြောင်းအရာကို ကြည့်နိုင်သည်"
 
 msgid "Can View & Modify Content"
 msgstr "ပါဝင်သောအကြောင်းအရာ ကြည့်၍မွမ်းမံနိုင်သည်"
@@ -2220,37 +2220,37 @@ msgid "Others:"
 msgstr "tအခြားလူများ -"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "လုပ်ဆောင်နိုင်သည် (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "ပြောင်းလဲမှုများကို ဖိုဒါခွဲအားလုံးနှင့် ၎င်းတို့၏ အကြောင်းအရာတွင် အသုံးချရန် (_S)"
 
 msgid "User:"
 msgstr "အသုံးပြုသူ -"
 
 msgid "Mode:"
-msgstr ""
+msgstr "မုဒ်:"
 
 msgid "Calculate"
 msgstr "တွက်ချက်ရန်"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "ဖိုင်ကို ဖတ်၍မရပါ။"
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "နှိုင်းယှဉ်ရန် checksum ကူးထည့်ပါ"
 
 msgid "Verify:"
-msgstr ""
+msgstr "စစ်ဆေးရန်:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "checksum များ ကိုက်ညီသည်။"
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "တွက်ထားသော checksum တစ်ခုမှ မကိုက်ညီပါ။ သက်ဆိုင်ရာ အမျိုးအစားကို အရင်တွက်ပါ။"
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "ခွင့်ပြုချက်များကို ပြောင်း၍မရပါ။"
 
 #, c-format
 msgid "Properties for %s"
@@ -2263,43 +2263,43 @@ msgid "Filter:"
 msgstr "စစ်ထုတ်မည်:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "အမည်ဖြင့် စစ်ထုတ်ရန် (*.txt ကဲ့သို့ wildcard များ အလုပ်လုပ်သည်)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "ဖိုဒါပြောင်းသောအခါ စစ်ထုတ်မှုကို ထိန်းထားရန်"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "ဤဖိုဒါတွင်"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "သင့်ဖိုင်များတွင်"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "နေရာတိုင်း"
 
 msgid "File Names"
-msgstr ""
+msgstr "ဖိုင်အမည်များ"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "ဖိုင်အမည်များနှင့် အကြောင်းအရာ"
 
 msgid "Any Time"
-msgstr ""
+msgstr "အချိန်မရွေး"
 
 msgid "Today"
 msgstr "ယနေ့"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "နောက်ဆုံး ၇ ရက်"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "နောက်ဆုံး ၃၀ ရက်"
 
 msgid "Last Year"
-msgstr ""
+msgstr "နောက်ဆုံး တစ်နှစ်"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "ဝှက်ဖိုင်များ"
 
 msgid "Zoom:"
 msgstr "ဇွန်း -"
@@ -2312,7 +2312,7 @@ msgid "%s free"
 msgstr "%s ဖရီး"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "တက်ဘ် ပွားရန်"
 
 msgid "Detach Tab"
 msgstr "တပ်ဘ် ဖြုတ်ပစ်မည်"
@@ -2327,31 +2327,31 @@ msgid "--- separator ---"
 msgstr "--- ကန့်ထားမှု ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "စာရင်းတွင် တည်နေရာဘားအထက်ရှိ လုပ်ဆောင်ချက်များသည် ၎င်း၏ဘယ်ဘက်တွင်၊ ကျန်သည်များ ညာဘက်တွင် ရှိသည်။ * က မူလကိရိယာဘား ထားသောနေရာတွင် မရှိသည့် လုပ်ဆောင်ချက်များကို အမှတ်အသားပြုသည်။"
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "ရနိုင်သော လုပ်ဆောင်ချက်များ (_V):"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "ကိရိယာဘားသို့ ထည့်ရန်"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "ကိရိယာဘားမှ ဖယ်ရှားရန်"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "အပေါ်သို့ ရွှေ့ရန် (ကိရိယာဘားတွင် ဘယ်ဘက်)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "အောက်သို့ ရွှေ့ရန် (ကိရိယာဘားတွင် ညာဘက်)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "လက်ရှိ လုပ်ဆောင်ချက်များ (_U):"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "မူလများ (_D)"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "ကော်လံများ ပြရန်"
 
 #, c-format
 msgid "Size: %s"
@@ -2359,11 +2359,11 @@ msgstr "အရွယ်အစား - %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "ပြင်ဆင်ခဲ့သည်: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "မူလတည်နေရာ: %s"
 
 msgid "Yesterday"
 msgstr "မနေ့"
@@ -2390,22 +2390,22 @@ msgid "Big"
 msgstr "ကြီးမား"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB ထက်နည်း"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB မှ 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB မှ 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB သို့မဟုတ် ပို၍"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "မရေတွက်ရသေးပါ"
 
 msgid "Searching…"
-msgstr ""
+msgstr "ရှာဖွေနေသည်…"
 
 msgid "No items matching the filter"
 msgstr "မည်သည်အိုင်တမ်မှ စစ်ထုတ်ချက်နှင့် မကိုက်ညီပါ"
@@ -2420,125 +2420,125 @@ msgid "Folder is empty"
 msgstr "ဖိုလ်ဒါသည် ဗလာဖြစ်နေသည်"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "ဖိုင်အမည်တွင် “/” မပါရပါ။"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "“%s” ကို “%s” ဟု အမည်ပြောင်းခြင်းသည် ၎င်း၏ နောက်ဆက်ကို ပြောင်းစေသည်။ ဖိုင်ကို အခြားအပလီကေးရှင်းဖြင့် ဖွင့်မိနိုင်သည် သို့မဟုတ် လုံးဝ မဖွင့်နိုင်ပါ။"
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "ရွေးချယ်မုဒ်: ဖိုင် သို့မဟုတ် ဖိုဒါများကို ရွေးရန် သို့မဟုတ် ရွေးချယ်မှု ဖြုတ်ရန် နှိပ်ပါ။"
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "ရွေးချယ်မုဒ်မှ ထွက်ရန် (_E)"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "ပွားရန် (_D)"
 
 msgid "De_lete"
-msgstr ""
+msgstr "ဖျက်ရန် (_L)"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "ဂုဏ်သတ္တိများ (_O)"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "“%s” ဖိုဒါ မရှိတော့ပါ။"
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "“%s” ကို ရွေးထားသည် (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s ရွေးထားသည်"
 
 msgid "Loading folder…"
-msgstr ""
+msgstr "ဖိုဒါ တင်နေသည်…"
 
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
+msgstr[0] "%d ခု ရွေးထားသည်"
 
 msgid "Move left"
-msgstr ""
+msgstr "ဘယ်ဘက်"
 
 msgid "Move down"
-msgstr ""
+msgstr "အောက်"
 
 msgid "Move up"
-msgstr ""
+msgstr "အပေါ်"
 
 msgid "Move right"
-msgstr ""
+msgstr "ညာဘက်"
 
 msgid "First item"
-msgstr ""
+msgstr "ပထမ အရာ"
 
 msgid "Last item"
-msgstr ""
+msgstr "နောက်ဆုံး အရာ"
 
 msgid "Page down"
-msgstr ""
+msgstr "စာမျက်နှာ အောက်"
 
 msgid "Page up"
-msgstr ""
+msgstr "စာမျက်နှာ အပေါ်"
 
 msgid "Parent folder"
 msgstr "မိခင်ဖိုင်တွဲ"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "ကာဆာ ဖြတ်သွားသော အရာများကို ရွေးရန် (မြင်ကွင်း)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Shift ကဲ့သို့ အပိုင်းအခြားကို ရွေးရန် (မြင်ကွင်းလိုင်း)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "ဇယားကွက်မှ ဘလောက်ကို ရွေးရန် (မြင်ကွင်းဘလောက်)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "ပုံမှန်မုဒ်သို့ ပြန်ရန်"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "ကာဆာအောက်ရှိ အရာကို ကူးရန်"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "အမည်ပြောင်းရန်၊ ကာဆာ အစတွင် (ထည့်ရန်)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "အမည်ပြောင်းရန်၊ ကာဆာ အမည်နောက်တွင် (ပေါင်းထည့်ရန်)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "အမည်ပြောင်းရန်၊ အမည်ကို ရွေးထားသည် (ပြောင်းရန်)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "တည်နေရာ တည်းဖြတ်ရန်"
 
 msgid "Copied."
-msgstr ""
+msgstr "ကူးပြီးပြီ။"
 
 msgid "Cut."
-msgstr ""
+msgstr "ဖြတ်ပြီးပြီ။"
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "“%s” ကို ဖွင့်၍မရပါ။"
 
 msgid "A name is needed."
-msgstr ""
+msgstr "အမည် လိုအပ်သည်။"
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "မသိသော မြင်ကွင်း: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "မသိသော ရွေးချယ်စရာ: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "name၊ size၊ date သို့မဟုတ် type ဖြင့် စီပါ။"
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "အမိန့်မဟုတ်ပါ: %s"
