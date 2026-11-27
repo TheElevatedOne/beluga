@@ -22,95 +22,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Arsip tidak dapat dibuka."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Arsip tidak dapat dibaca."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Dibatalkan."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Berkas ini dienkripsi dengan kata sandi."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "“%s” tidak dapat dibaca."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Ini bukan berkas di dalam arsip."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Ekstrak di Sini"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Kompres ke .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Tidak ditemukan emulator terminal."
 
 msgid "Root"
-msgstr ""
+msgstr "Root"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Volume %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Perangkat ini tidak dapat dikaitkan."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Perangkat ini tidak dapat dilepas kaitnya."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Perangkat sudah tidak ada."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Menyalin %s ke “%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Memindahkan %s ke “%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Menautkan %s di “%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Memindahkan %s ke tong sampah"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Menghapus %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Memulihkan %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Mengosongkan tong sampah"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Menghitung berkas…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Folder tidak dapat dipindahkan ke dalam dirinya sendiri."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Folder tidak dapat disalin ke dalam dirinya sendiri."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Berkas hanya dapat diekstrak ke folder lokal."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Mengekstrak dari “%s”"
 
 msgid "Title:"
 msgstr "Judul:"
@@ -128,7 +128,7 @@ msgid "Track:"
 msgstr "Trek:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Cakram:"
 
 msgid "Date:"
 msgstr "Tanggal:"
@@ -159,11 +159,11 @@ msgstr "Bahasa:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Durasi:"
@@ -172,58 +172,58 @@ msgid "Format:"
 msgstr "Format:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Laju bit:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Sampul:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "Video:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "mono"
 
 msgid "stereo"
-msgstr ""
+msgstr "stereo"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanal"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bit"
 
 msgid "Audio:"
 msgstr "Audio:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Audio %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Subtitel:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Bab:"
 
 msgid "Places"
 msgstr "Tempat"
@@ -271,7 +271,7 @@ msgid "Recent Files"
 msgstr "Berkas Terkini"
 
 msgid "Images"
-msgstr ""
+msgstr "Gambar"
 
 msgid "Audio"
 msgstr "Audio"
@@ -280,37 +280,37 @@ msgid "Folders"
 msgstr "Folder"
 
 msgid "Archives"
-msgstr ""
+msgstr "Arsip"
 
 msgid "All Files"
 msgstr "Semua berkas"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Cari “%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Tidak ditemukan emulator terminal. Atur di Konfigurasi Beluga › Umum › Terminal."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Sistem berkas ini tidak memiliki tong sampah."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Berkas informasi tong sampah tidak dapat dibuat."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” sudah ada."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Tong sampah melebihi batasnya sebesar %s. Pertimbangkan untuk mengosongkannya."
 
 msgid "Copy"
 msgstr "Salin"
 
 msgid "Move"
-msgstr ""
+msgstr "Pindahkan"
 
 msgid "Link"
 msgstr "Taut"
@@ -325,21 +325,21 @@ msgid "Create Folder"
 msgstr "Buat Folder"
 
 msgid "Create File"
-msgstr ""
+msgstr "Buat Berkas"
 
 msgid "Undo"
 msgstr "Urung"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Urungkan: %s"
 
 msgid "Redo"
 msgstr "Ulang"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Ulangi: %s"
 
 #, c-format
 msgid "%d item"
@@ -350,14 +350,14 @@ msgstr[1] "%d butir"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d berkas"
+msgstr[1] "%d berkas"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d folder"
+msgstr[1] "%d folder"
 
 #, c-format
 msgid "%s, %s"
@@ -365,14 +365,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Hari ini pukul %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Kemarin pukul %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A pukul %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -380,11 +380,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld mnt %ld dtk"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld jam %ld mnt"
 
 #, c-format
 msgid "%s copy"
@@ -392,7 +392,7 @@ msgstr "%s salinan"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s salinan %d"
 
 msgid "Name"
 msgstr "Nama"
@@ -401,7 +401,7 @@ msgid "Size"
 msgstr "Ukuran"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Penggunaan Cakram"
 
 msgid "Modified"
 msgstr "Dimodifikasi"
@@ -416,7 +416,7 @@ msgid "Type"
 msgstr "Tipe"
 
 msgid "Extension"
-msgstr ""
+msgstr "Ekstensi"
 
 msgid "Permissions"
 msgstr "Perizinan"
@@ -437,28 +437,28 @@ msgid "Deletion Time"
 msgstr "Tanggal Hapus"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Lokasi Asli"
 
 msgid "Dimensions"
 msgstr "Dimensi"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga tidak dapat bertindak sebagai administrator."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "pkexec (polkit) diperlukan untuk meminta kata sandi administrator. Pasang polkit dan agen polkit untuk desktop Anda."
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "Risiko Bertindak sebagai Administrator"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Jendela Beluga dengan hak administrator dapat mengubah dan menghapus berkas apa pun di komputer ini, termasuk berkas yang diperlukan sistem untuk memulai. Kesalahan di sana dapat membuat sistem tidak dapat digunakan. Gunakan hanya untuk berkas yang tidak dapat Anda ubah dengan cara lain, dan tutup setelah selesai.\n\nSelanjutnya Beluga meminta kata sandi administrator."
 
 msgid "Cancel"
 msgstr "Batal"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "Saya Memahami dan Menerima Risiko Ini"
 
 msgid "New Window"
 msgstr "Jendela Baru"
@@ -524,7 +524,7 @@ msgid "Details View"
 msgstr "Tampilan Perinci"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Tampilan Kolom"
 
 msgid "Zoom In"
 msgstr "Zoom Perbesar"
@@ -533,25 +533,25 @@ msgid "Zoom Out"
 msgstr "Zoom Perkecil"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Atur Ulang Zum"
 
 msgid "Show Hidden Files"
 msgstr "Tampilkan File Tersembunyi"
 
 msgid "Act as Administrator"
-msgstr ""
+msgstr "Bertindak sebagai Administrator"
 
 msgid "Split View"
 msgstr "Tampilan belah"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "Fokus ke Tampilan Lain"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Lepaskan Tampilan Terpisah"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Tampilan Terpisah ke Tab"
 
 msgid "Reload"
 msgstr "Muat Ulang"
@@ -563,19 +563,19 @@ msgid "Replace Location"
 msgstr "Ganti Lokasi"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Panel Tempat"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Panel Folder"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "Panel Informasi"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Panel Penggunaan Cakram"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "Fokus ke Panel Tempat"
 
 msgid "Show Menubar"
 msgstr "Tampilkan Bilah Menu"
@@ -593,34 +593,34 @@ msgid "Up"
 msgstr "Atas"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Ke Tab 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Ke Tab 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Ke Tab 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Ke Tab 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Ke Tab 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Ke Tab 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Ke Tab 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Ke Tab 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Ke Tab 9"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "Ke Tab Terakhir"
 
 msgid "Next Tab"
 msgstr "Tab Selanjutnya"
@@ -638,29 +638,29 @@ msgid "Configure Toolbars"
 msgstr "Konfigurasikan Bilah Alat"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Konfigurasi Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Gagal mengurungkan."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Folder…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Berkas Teks…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Berkas Kosong…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Tautan ke Berkas atau Folder…"
 
 msgid "Create New"
 msgstr "Ciptakan Baru"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Tampilan Lain (%s)"
 
 msgid "Browse…"
 msgstr "Telusuri…"
@@ -675,14 +675,14 @@ msgid "Open"
 msgstr "Buka"
 
 msgid "Open With…"
-msgstr ""
+msgstr "Buka Dengan…"
 
 #, c-format
 msgid "Open with %s"
 msgstr "Buka dengan %s"
 
 msgid "Other Application…"
-msgstr ""
+msgstr "Aplikasi Lain…"
 
 msgid "Open With"
 msgstr "Buka Dengan"
@@ -700,7 +700,7 @@ msgid "View Mode"
 msgstr "Mode Tampilan"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Ingat Tampilan untuk Folder Ini"
 
 msgid "Restore"
 msgstr "Pulihkan"
@@ -715,19 +715,19 @@ msgid "Open in New Window"
 msgstr "Buka di Jendela Baru"
 
 msgid "Open in Split View"
-msgstr ""
+msgstr "Buka di Tampilan Terpisah"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Buka di Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Buka Folder Konten"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Tempel ke Folder"
 
 msgid "Rename…"
-msgstr ""
+msgstr "Ganti Nama…"
 
 msgid "Show Target"
 msgstr "Tampilkan Sasaran"
@@ -736,65 +736,65 @@ msgid "Close"
 msgstr "Tutup"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Batal"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Nama tidak boleh mengandung “/”."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Nama yang diawali titik akan tersembunyi."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Beberapa butir tidak dapat diganti namanya."
 
 msgid "Rename Item"
 msgstr "Ubah Nama Item"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Ganti nama “%s” menjadi:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Ganti Nama"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Tidak dapat mengganti nama “%s”."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Ubah tipe berkas?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Mengganti nama “%s” menjadi “%s” akan mengubah ekstensinya."
 
 msgid "Rename Items"
 msgstr "Ubah Nama Butir"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Ganti nama %zu butir terpilih menjadi:"
 
 msgid "New name #"
 msgstr "Nama baru #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# diganti dengan angka menaik; gunakan ## untuk nol di depan. Ekstensi dipertahankan."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Mulai penomoran dari:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Pindahkan ke Sini"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Salin ke Sini"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Tautkan di Sini"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "B_atal"
 
 msgid "Add Places Entry"
 msgstr "Tambah Entri Tempat"
@@ -806,25 +806,25 @@ msgid "Label:"
 msgstr "Label:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Pilih folder"
 
 msgid "Location:"
 msgstr "Lokasi:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Pilih…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Nama ikon:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Pilih Folder"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Tambah"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Simpan"
 
 msgid "View Display Style"
 msgstr "Lihat Gaya Tampilan"
@@ -839,7 +839,7 @@ msgid "Details"
 msgstr "Perincian"
 
 msgid "Columns"
-msgstr ""
+msgstr "Kolom"
 
 msgid "View mode:"
 msgstr "Mode tampilan:"
@@ -854,19 +854,19 @@ msgid "Descending"
 msgstr "Menurun"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Tampilkan _folder terlebih dahulu"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Tampilkan berkas tersembunyi di _akhir"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Tampilkan _pratinjau"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Tampilkan dalam _grup"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Tampilkan berkas _tersembunyi"
 
 msgid "Apply to"
 msgstr "Terapkan untuk"
@@ -875,17 +875,17 @@ msgid "Current folder"
 msgstr "Folder Saat Ini"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Folder saat ini beserta semua subfolder"
 
 msgid "All folders"
 msgstr "Semua Folder"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "diubah %s"
 
 msgid "Folder Already Exists"
 msgstr "Folder Sudah Ada"
@@ -895,35 +895,35 @@ msgstr "berkas Sudah Ada"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Folder bernama “%s” sudah ada di “%s”."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Berkas bernama “%s” sudah ada di “%s”."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Butir yang ada"
 
 msgid "New item"
-msgstr ""
+msgstr "Butir baru"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Sarankan Nama Baru"
 
 msgid "New name:"
-msgstr ""
+msgstr "Nama baru:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Terapkan ke _semua"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Lewati"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Tulis ke Dalam"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Timpa"
 
 msgid "Skip"
 msgstr "Lewati"
@@ -938,198 +938,198 @@ msgid "Choose an Icon"
 msgstr "Pilihlah sebuah ikon"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Cari ikon…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "Berkas _Gambar…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "Ikon _Bawaan"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Pilih Gambar"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Lokasi jaringan memerlukan gvfs. Pasang paket gvfs (serta gvfs-smb untuk berbagi Windows, gvfs-nfs untuk NFS), lalu keluar dan masuk kembali."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Lokasi ini bukan folder."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Lokasi ini tidak valid."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Folder ini tidak ada di arsip."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s berkas yang lebih kecil"
+msgstr[1] "%s berkas yang lebih kecil"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(drive lain, tidak dihitung)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Sebagian isinya tidak dapat dibaca."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s dalam berkas"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s di cakram"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s berkas dan %s folder"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Membaca… %s dalam %s berkas dan %s folder"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Dihentikan."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Folder ini tidak dapat dibaca."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, dibaca dalam %.1f dtk"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s folder tidak dapat dibaca."
+msgstr[1] ". %s folder tidak dapat dibaca."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Hanya folder di komputer ini yang dapat diukur."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "dibaca kurang dari semenit yang lalu"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "dibaca %d menit yang lalu"
+msgstr[1] "dibaca %d menit yang lalu"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "dibaca %d jam yang lalu"
+msgstr[1] "dibaca %d jam yang lalu"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Pindai ulang untuk membacanya lagi."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "Ukuran _semu"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Jumlahkan ukuran berkas, bukan ruang cakram yang dipakai berkas."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Tetap di drive ini"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Jangan hitung drive lain yang dikaitkan di dalam folder ini (seperti folder musik di cakram lain). Tautan tidak pernah diikuti."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Pindai Ulang"
 
 msgid "Stop"
 msgstr "Hentikan"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Tutup Penggunaan Cakram"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Pindai Ulang"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Hentikan"
 
 msgid "Share"
 msgstr "Bagikan"
 
 msgid "Files"
-msgstr ""
+msgstr "Berkas"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Penggunaan Cakram – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” sudah ada. Ganti?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu dari berkas ini sudah ada. Ganti?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Program tempat Anda menyimpan akan menimpa isi yang ada."
 
 msgid "Replace"
 msgstr "Ganti"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Pilih folder untuk menyimpan."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Pilih Folder"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Buka Berkas"
 
 msgid "Open File"
-msgstr ""
+msgstr "Buka Berkas"
 
 msgid "Save File"
-msgstr ""
+msgstr "Simpan Berkas"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Simpan Berkas"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Folder:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Nama:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Tipe:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Pilih"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Buka"
 
 msgid "New Folder"
 msgstr "Folder Baru"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Buat folder baru di:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Buat"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Folder tidak dapat dibuat."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu butir terpilih"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Isi:"
 
 msgid "Size:"
 msgstr "Ukuran:"
@@ -1141,10 +1141,10 @@ msgid "Folder"
 msgstr "Folder"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Berisi:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Menghitung…"
 
 msgid "Unknown"
 msgstr "Tidak diketahui"
@@ -1174,75 +1174,75 @@ msgid "Dimensions:"
 msgstr "Dimensi:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Tautan Rusak"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (tautan)"
 
 msgid "other drive"
-msgstr ""
+msgstr "drive lain"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s dari %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s tersisa"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d dari %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Operasi berkas sedang berjalan"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Tidak ada subfolder"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Pilih berkas yang diberikan di foldernya"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Buka jendela dalam tampilan terpisah"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Selalu buka jendela baru"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Tetap berjalan di latar belakang untuk layanan D-Bus FileManager1"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Lepaskan dari terminal (tanpa lokasi: buka folder saat ini)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Jalankan pemilih berkas untuk xdg-desktop-portal (dimulai oleh D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Tampilkan versi"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[BERKAS atau FOLDER…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Bertindak sebagai administrator: perubahan di jendela ini dapat merusak sistem."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Tutup jendela ini?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Jendela ini memiliki %zu tab terbuka. Menutupnya akan menutup semuanya."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Tutup Jendela"
 
 msgid "Configure Toolbars…"
-msgstr ""
+msgstr "Konfigurasi Bilah Alat…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Tampilkan Bilah _Alat"
 
 msgid "Split"
 msgstr "Belah"
@@ -1257,79 +1257,79 @@ msgid "Show in Groups"
 msgstr "Tampilkan dalam kelompok"
 
 msgid "_File"
-msgstr ""
+msgstr "_Berkas"
 
 msgid "New _Window"
-msgstr ""
+msgstr "_Jendela Baru"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "_Tab Baru"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Tutup Tab"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Buat _Baru"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Ganti Nama…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Gandakan di Sini"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Pindahkan ke _Tong Sampah"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Hapus"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Pulihkan dari Tong Sampah"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Properti"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Keluar"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Sunting"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Urungkan"
 
 msgid "_Redo"
-msgstr ""
+msgstr "U_langi"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Potong"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Salin"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Tempel"
 
 msgid "Filter…"
-msgstr ""
+msgstr "Saring…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Cari…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Pilih _Semua"
 
 msgid "_View"
-msgstr ""
+msgstr "_Tampilan"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "Per_besar"
 
 msgid "Reset Zoom Level"
 msgstr "Set ulang level zoom"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "Per_kecil"
 
 msgid "Show Additional Information"
 msgstr "Tampilkan Informasi Tambahan"
@@ -1338,16 +1338,16 @@ msgid "Show Previews"
 msgstr "Tampilkan Pratinjau"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "Kembalikan ke Bawaan"
 
 msgid "Adjust View Display Style…"
-msgstr ""
+msgstr "Sesuaikan Gaya Tampilan…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Muat Ulang"
 
 msgid "Panels"
-msgstr ""
+msgstr "Panel"
 
 msgid "Information"
 msgstr "Informasi"
@@ -1356,175 +1356,175 @@ msgid "Location Bar"
 msgstr "Bilah Lokasi"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Tampilkan Bilah _Menu"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Tampilkan Bilah _Status"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Pergi"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Mundur"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Maju"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Naik"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Rumah"
 
 msgid "Recently Closed Tabs"
 msgstr "Tab-tab Barusan Ditutup"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Alat"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Buka _Terminal"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Buka Terminal di _Sini"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Penggunaan Cakram…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Pengaturan"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Konfigurasi _Bilah Alat…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Konfigurasi Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Tidak ada tab yang baru ditutup"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Administrator)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Buka %zu folder di tab baru?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Buka Folder"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "Tidak dapat membuka “%s”."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Tidak dapat membuka terminal."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Berkas Teks Baru.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Berkas Baru"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Kosongkan tong sampah?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Semua butir di tong sampah akan dihapus permanen. Ini tidak dapat diurungkan."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Buka %zu terminal?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Buka Terminal"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Buat berkas baru di:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Berkas tidak dapat dibuat."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Tautan ke Berkas atau Folder"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Jalur berkas atau folder yang ditautkan:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Tautan tidak dapat dibuat."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Hapus %s secara permanen?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Ini tidak dapat diurungkan."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Pindahkan %s ke tong sampah?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "Tidak dapat menjalankan “%s”."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "Tidak dapat memulai %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Tidak dapat memulai aplikasi."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” adalah berkas yang dapat dieksekusi."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Anda ingin menjalankannya atau membukanya di aplikasi?"
 
 msgid "Run"
-msgstr ""
+msgstr "Jalankan"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Pilih aplikasi untuk membuka %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Aplikasi yang Disarankan"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Aplikasi Lain"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Atau perintah:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Ingat asosiasi aplikasi untuk tipe berkas ini"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s bebas dari %s"
 
 msgid "Safely Remove"
 msgstr "Lepas Dengan Aman"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Konfigurasi Bagian"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Bagian yang dicentang tampil di panel Tempat, dengan urutan ini."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Naikkan"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Turunkan"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Tidak dapat mengaitkan perangkat: %s"
 
 msgid "Mount"
 msgstr "Kaitkan"
@@ -1551,31 +1551,31 @@ msgid "Add Entry…"
 msgstr "Tambahkan Entri…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Konfigurasi Bagian…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Sembunyikan Entri Tersembunyi"
 
 msgid "Show All Entries"
 msgstr "Tampilkan Semua Entri"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Semua butir di tong sampah akan dihapus permanen."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Tidak dapat melepas perangkat dengan aman: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Tidak dapat melepas kait perangkat: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Gunakan fonta _sistem"
 
 msgid "Label font:"
 msgstr "Font label:"
@@ -1587,7 +1587,7 @@ msgid "Preview icon size:"
 msgstr "Ukuran ikon pratinjau:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Aksi Menu Konteks"
 
 msgid "Name:"
 msgstr "Nama:"
@@ -1596,74 +1596,74 @@ msgid "Command:"
 msgstr "perintah:"
 
 msgid "File names:"
-msgstr ""
+msgstr "Nama berkas:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Tipe:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f berkas pertama, %F semua berkas, %u / %U sebagai URI, %n / %N nama, %d folder saat ini."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Tampilkan untuk _berkas"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Tampilkan untuk _folder"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Tampilkan saat _beberapa butir dipilih"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Jalankan di _terminal"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Aksi Kustom"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Entri Anda sendiri untuk menu konteks berkas dan folder."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Tambah…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Sunting…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Buang"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Pintasan ditulis seperti <Control>c atau <Shift>Delete. Pisahkan beberapa dengan koma. Kosongkan bidang untuk memakai bawaan."
 
 msgid "no file"
-msgstr ""
+msgstr "tidak ada berkas"
 
 msgid "files of any size"
-msgstr ""
+msgstr "berkas berukuran apa pun"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "berkas di bawah %d MiB"
 
 msgid "Search…"
 msgstr "Cari…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Kembalikan Bawaan"
 
 msgid "_Apply"
-msgstr ""
+msgstr "_Terapkan"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Folder & Tab"
 
 msgid "Show on startup:"
 msgstr "Tampilkan saat pemulaian:"
 
 msgid "Folders, tabs, and window state from last time"
-msgstr ""
+msgstr "Folder, tab, dan keadaan jendela dari terakhir kali"
 
 msgid "This location:"
-msgstr ""
+msgstr "Lokasi ini:"
 
 msgid "Use Current Location"
 msgstr "Gunakan Lokasi Saat Ini"
@@ -1672,10 +1672,10 @@ msgid "Use Default Location"
 msgstr "Gunakan Lokasi Baku"
 
 msgid "Opening Folders:"
-msgstr ""
+msgstr "Membuka Folder:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Pertahankan satu jendela Beluga, buka folder baru di tab"
 
 msgid "Window:"
 msgstr "Jendela:"
@@ -1687,25 +1687,25 @@ msgid "Show filter bar"
 msgstr "Tampilkan Bilah Filter"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Tab:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "Selalu tampilkan bilah tab"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "Tampilkan tombol tutup pada tab"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "Gaya tab:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "Lebar tab menyesuaikan nama folder"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "Semua tab memiliki lebar tetap yang sama"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Tab dengan lebar tetap menyempit, semuanya dengan ukuran yang sama, bila tidak muat."
 
 msgid "Open new tabs:"
 msgstr "Buka Tab Baru: "
@@ -1720,75 +1720,75 @@ msgid "Split view:"
 msgstr "Tampilan belah: "
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "Saat menutup tampilan terpisah"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "Tutup panel aktif"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "Tutup panel tidak aktif"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "Tutup panel kanan"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "Buka jendela baru dalam mode tampilan terpisah"
 
 msgid "Terminal:"
 msgstr "Terminal:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Terminal tidak ditemukan"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Terdeteksi: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Dipakai oleh F4 dan Buka Terminal di Sini. %d dalam perintah diganti dengan folder; jika tidak, terminal dimulai di dalamnya. Ini dulunya pengaturan sistem KDE."
 
 msgid "Previews"
 msgstr "Pratinjau"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Folder baru:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Tampilkan _pratinjau di folder baru"
 
 msgid "Show previews in the view for:"
 msgstr "Tampilkan pratinjau di dalam tampilan untuk:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Audio (sampul)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Dokumen PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "Berkas teks"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Fonta"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Dokumen perkantoran"
 
 msgid "Local storage:"
-msgstr ""
+msgstr "Penyimpanan lokal:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "Tampilkan pratinjau untuk"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "Penyimpanan jarak jauh:"
 
 msgid "Confirmations"
 msgstr "Konfirmasi"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Minta konfirmasi saat:"
 
 msgid "Moving files or folders to trash"
 msgstr "Memindahkan file atau folder ke tong sampah"
@@ -1800,22 +1800,22 @@ msgid "Deleting files or folders"
 msgstr "Menghapus file atau folder"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "Mengganti nama berkas akan mengubah tipenya"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Minta konfirmasi di Beluga saat:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Penutupan jendela dengan tab yang banyak"
 
 msgid "Opening many folders at once"
-msgstr ""
+msgstr "Membuka banyak folder sekaligus"
 
 msgid "Opening many terminals at once"
-msgstr ""
+msgstr "Membuka banyak terminal sekaligus"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "Beralih ke bertindak sebagai administrator"
 
 msgid "When opening an executable file:"
 msgstr "Saat membuka file yang dapat dieksekusi:"
@@ -1830,7 +1830,7 @@ msgid "Run script"
 msgstr "Jalankan skripnya"
 
 msgid "Information Panel:"
-msgstr ""
+msgstr "Panel Informasi:"
 
 msgid "Show previews"
 msgstr "Tampilkan Pratinjau"
@@ -1842,37 +1842,37 @@ msgid "Show item on hover"
 msgstr "Tampilkan item saat melayanginya"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Gunakan format tanggal _panjang"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Panel Folder:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Batasi ke folder rumah saat berada di dalamnya"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Tampilkan folder _tersembunyi"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Gulir ke folder saat ini secara _otomatis"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Panel Tempat:"
 
 msgid "Icon size:"
 msgstr "Ukuran ikon:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Bilah Status & Lokasi"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "Bilah Status:"
 
 msgid "Small"
 msgstr "Kecil"
 
 msgid "Full width"
-msgstr ""
+msgstr "Lebar penuh"
 
 msgid "Disabled"
 msgstr "Dinonaktifkan"
@@ -1881,7 +1881,7 @@ msgid "Show zoom slider"
 msgstr "Tampilkan penggeser pembesaran"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Tampilkan _ruang kosong"
 
 msgid "Location bar:"
 msgstr "Bilah Lokasi:"
@@ -1899,7 +1899,7 @@ msgid "General"
 msgstr "Umum"
 
 msgid "Display style:"
-msgstr ""
+msgstr "Gaya tampilan:"
 
 msgid "Use common display style for all folders"
 msgstr "Gunakan gaya display pada umumnya untuk semua folder"
@@ -1908,52 +1908,52 @@ msgid "Remember display style for each folder"
 msgstr "Ingat gaya display untuk masing-masing folder"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Bagaimanapun, Tampilan › Ingat Tampilan untuk Folder Ini memberi satu folder gayanya sendiri. Beberapa tampilan khusus seperti pencarian, berkas terbaru, atau tong sampah tetap memakai gaya sendiri."
 
 msgid "Browsing:"
-msgstr ""
+msgstr "Penjelajahan:"
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "Jelajahi berkas terkompresi sebagai folder"
 
 msgid "Open folders during drag operations"
 msgstr "Buka folder ketika operasi penarikan"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Buka berkas dan folder dengan sekali klik"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Simpan _indeks folder rumah untuk pencarian instan"
 
 msgid "Miscellaneous:"
 msgstr "Beraneka: "
 
 msgid "Show item information on hover"
-msgstr ""
+msgstr "Tampilkan informasi butir saat diarahkan"
 
 msgid "Show selection marker"
 msgstr "Tampilkan penanda pemilihan"
 
 msgid "Rename single items inline"
-msgstr ""
+msgstr "Ganti nama butir tunggal secara langsung"
 
 msgid "Also hide backup files while hiding hidden files"
-msgstr ""
+msgstr "Sembunyikan juga berkas cadangan saat menyembunyikan berkas tersembunyi"
 
 msgid "Background:"
-msgstr ""
+msgstr "Latar belakang:"
 
 msgid "Double-click triggers"
-msgstr ""
+msgstr "Klik ganda memicu"
 
 msgid "Nothing"
-msgstr ""
+msgstr "Tidak ada"
 
 msgid "Go Up"
 msgstr "Menuju atas"
 
 msgid "Content Display"
-msgstr ""
+msgstr "Tampilan Isi"
 
 msgid "Sorting mode:"
 msgstr "Mode Pengurutan: "
@@ -1968,49 +1968,49 @@ msgid "Alphabetical, case sensitive"
 msgstr "Alfabet, sensitif huruf"
 
 msgid "Folder size:"
-msgstr ""
+msgstr "Ukuran folder:"
 
 msgid "Show number of items"
-msgstr ""
+msgstr "Tampilkan jumlah butir"
 
 msgid "Show size of contents, up to "
-msgstr ""
+msgstr "Tampilkan ukuran isi, hingga"
 
 msgid "Show no size"
-msgstr ""
+msgstr "Jangan tampilkan ukuran"
 
 msgid "levels deep"
-msgstr ""
+msgstr "tingkat kedalaman"
 
 msgid "Date style:"
 msgstr "Gaya tanggal:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Relatif (Hari ini, Kemarin…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Absolut"
 
 msgid "Permissions style:"
 msgstr "Gaya perizinan:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Simbolis (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Numerik (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Gabungan"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "Nama berkas panjang:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Singkat di tengah"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Singkat di akhir"
 
 msgid "Label width:"
 msgstr "Lebar label:"
@@ -2031,7 +2031,7 @@ msgid "Unlimited"
 msgstr "Tak Terbatas"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Jarak:"
 
 msgid "Maximum width:"
 msgstr "Lebar maksimal:"
@@ -2052,181 +2052,181 @@ msgid "By clicking on icon or name"
 msgstr "Dengan mengeklik pada ikon atau nama"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Penggunaan cakram:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Tampilkan kolom Penggunaan _Cakram"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Ruang yang dipakai setiap berkas dan setiap folder utuh di cakram, dengan bilah untuk bagiannya di folder, seperti Alat › Penggunaan Cakram. Folder dibaca penuh di latar belakang; urutkan menurut kolom untuk melihat yang terbesar lebih dulu. \"Tetap di drive ini\" di jendela Penggunaan Cakram juga berlaku di sini."
 
 msgid "View"
 msgstr "Tampilan"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Tampilkan di menu konteks"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'Salin Ke' dan 'Pindahkan Ke'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Hapus (selain Pindahkan ke Tong Sampah)"
 
 msgid "Context Menu"
 msgstr "Menu Konteks"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Pembersihan:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Hapus berkas yang lebih lama dari"
 
 msgid "days"
-msgstr ""
+msgstr "hari"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Batasi hingga"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "persen dari cakram"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Simpan tong sampah di drive folder rumah"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Berkas yang dipindahkan ke tong sampah dari drive lain disalin ke tong sampah di folder rumah Anda, sehingga drive itu tidak mendapat folder .Trash-1000. Memindahkan berkas besar ke tong sampah jadi lebih lama."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Tong sampah penuh:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Saat batas tercapai:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Tampilkan peringatan"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Hapus butir terlama"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Hapus butir terbesar"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Ini dulunya pengaturan sistem KDE. Batas diterapkan saat Beluga dimulai dan setelah memindahkan butir ke tong sampah."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Menghitung ukuran tong sampah…"
 
 msgid "Trash:"
 msgstr "Tong Sampah:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Tong sampah saat ini memakai %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Kosongkan Tong Sampah Sekarang"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Mode Vim"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Mode Vim:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Gunakan tombol mirip Vim di tampilan"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Mode normal bergerak dengan h j k l dan menjalankan tombol di bawah; v, V, dan Ctrl+V memilih; i dan a mengganti nama (mode sisip); Esc kembali ke mode normal; : membuka baris perintah. Tombol dengan Ctrl atau Alt yang tidak tercantum di sini tetap berfungsi seperti biasa."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Tombol pemimpin:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> pada tombol di bawah, mis. <Space> atau ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Tunggu tombol berikutnya:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "md (dd setelah d, gg setelah g)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Tombol"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Notasi Vim, beberapa dipisahkan spasi: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Kosongkan bidang untuk bawaan."
 
 msgid "Command line"
-msgstr ""
+msgstr "Baris perintah"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q menutup jendela (:q! tanpa menanyakan tabnya), :qa keluar dari Beluga, :e atau :cd JALUR membuka folder, :tabnew [JALUR], :tabclose, :tabonly, :sp atau :vs [JALUR] membagi tampilan, :only menutup tampilan lain, :mkdir NAMA, :touch NAMA, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!PERINTAH menjalankan perintah shell di folder."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Pintasan Papan Ketik"
 
 msgid "Details:"
 msgstr "Perincian:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Hanya berkas di komputer ini yang dapat dibaca."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga dibangun tanpa FFmpeg."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Membaca…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Tidak ada rincian ditemukan."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Ubah ikon folder"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Ikon tidak dapat diubah."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu butir"
 
 msgid "Calculating…"
-msgstr ""
+msgstr "Menghitung…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Tidak ada aplikasi bawaan"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Ubah…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Dibuka dengan:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "Ruang kosong:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s bebas dari %s (%d%% terpakai)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu bita"
+msgstr[1] "%llu bita"
 
 msgid "Forbidden"
 msgstr "Terlarang"
 
 msgid "Can View"
-msgstr ""
+msgstr "Dapat Melihat"
 
 msgid "Can View & Modify"
 msgstr "Bisa Lihat  Modifikasi"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Dapat Melihat Isi"
 
 msgid "Can View & Modify Content"
 msgstr "Bisa Lihat  Modifikasi Isi"
@@ -2235,10 +2235,10 @@ msgid "Others:"
 msgstr "Lainnya:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "Dapat _dieksekusi"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Terapkan perubahan ke semua _subfolder dan isinya"
 
 msgid "User:"
 msgstr "Pengguna:"
@@ -2250,22 +2250,22 @@ msgid "Calculate"
 msgstr "Menghitung"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Berkas tidak dapat dibaca."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Tempel checksum untuk dibandingkan"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Verifikasi:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Checksum cocok."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Tidak ada checksum terhitung yang cocok. Hitung tipe yang sesuai terlebih dahulu."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Izin tidak dapat diubah."
 
 #, c-format
 msgid "Properties for %s"
@@ -2278,43 +2278,43 @@ msgid "Filter:"
 msgstr "Filter:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Saring menurut nama (wildcard seperti *.txt berfungsi)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Pertahankan saringan saat berganti folder"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Di Folder Ini"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Di Berkas Anda"
 
 msgid "Everywhere"
 msgstr "Di Mana Saja"
 
 msgid "File Names"
-msgstr ""
+msgstr "Nama Berkas"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "Nama dan Isi Berkas"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Kapan Saja"
 
 msgid "Today"
 msgstr "Hari Ini"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "7 Hari Terakhir"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "30 Hari Terakhir"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Setahun Terakhir"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Berkas tersembunyi"
 
 msgid "Zoom:"
 msgstr "Zoom:"
@@ -2327,7 +2327,7 @@ msgid "%s free"
 msgstr "%s Bebas"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Gandakan Tab"
 
 msgid "Detach Tab"
 msgstr "Lepas Tab"
@@ -2342,31 +2342,31 @@ msgid "--- separator ---"
 msgstr "--- pemisah ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Aksi di atas bilah lokasi dalam daftar berada di kirinya, sisanya di kanannya. * menandai aksi yang tidak berada di posisi bilah alat bawaan."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "Aksi _tersedia:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Tambahkan ke bilah alat"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Buang dari bilah alat"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Naikkan (ke kiri di bilah alat)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Turunkan (ke kanan di bilah alat)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "Aksi _saat ini:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Bawaan"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Tampilkan Kolom"
 
 #, c-format
 msgid "Size: %s"
@@ -2374,11 +2374,11 @@ msgstr "Ukuran: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Diubah: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Lokasi asli: %s"
 
 msgid "Yesterday"
 msgstr "Kemarin"
@@ -2405,28 +2405,28 @@ msgid "Big"
 msgstr "Besar"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Kurang dari 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB hingga 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB hingga 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB atau lebih"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Belum dihitung"
 
 msgid "Searching…"
-msgstr ""
+msgstr "Mencari…"
 
 msgid "No items matching the filter"
 msgstr "Tidak ada butir yang cocok dengan penyaringan"
 
 msgid "No items found"
-msgstr ""
+msgstr "Tidak ada butir ditemukan"
 
 msgid "Trash is empty"
 msgstr "Tong Sampah kosong"
@@ -2435,126 +2435,126 @@ msgid "Folder is empty"
 msgstr "Folder ini kosong"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Nama berkas tidak boleh mengandung “/”."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Mengganti nama “%s” menjadi “%s” akan mengubah ekstensinya. Berkas mungkin terbuka dengan aplikasi lain atau tidak terbuka sama sekali."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Mode Pemilihan: klik berkas atau folder untuk memilih atau membatalkan pilihannya."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Keluar dari Mode Pemilihan"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Gandakan"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Hapus"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Properti"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Folder “%s” sudah tidak ada."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "“%s” dipilih (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s dipilih"
 
 msgid "Loading folder…"
-msgstr ""
+msgstr "Memuat folder…"
 
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dipilih"
+msgstr[1] "%d dipilih"
 
 msgid "Move left"
-msgstr ""
+msgstr "Ke kiri"
 
 msgid "Move down"
-msgstr ""
+msgstr "Ke bawah"
 
 msgid "Move up"
-msgstr ""
+msgstr "Ke atas"
 
 msgid "Move right"
-msgstr ""
+msgstr "Ke kanan"
 
 msgid "First item"
-msgstr ""
+msgstr "Butir pertama"
 
 msgid "Last item"
-msgstr ""
+msgstr "Butir terakhir"
 
 msgid "Page down"
-msgstr ""
+msgstr "Halaman bawah"
 
 msgid "Page up"
-msgstr ""
+msgstr "Halaman atas"
 
 msgid "Parent folder"
 msgstr "Folder Induk"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Pilih butir yang dilewati kursor (visual)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Pilih rentang, seperti Shift (baris visual)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Pilih blok dari kisi (blok visual)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Kembali ke mode normal"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Salin butir di bawah kursor"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Ganti nama, kursor di awal (sisip)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Ganti nama, kursor setelah nama (tambah)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Ganti nama, nama terpilih (ubah)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Sunting lokasi"
 
 msgid "Copied."
-msgstr ""
+msgstr "Disalin."
 
 msgid "Cut."
-msgstr ""
+msgstr "Dipotong."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "Tidak dapat membuka “%s”."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Nama diperlukan."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Tampilan tidak dikenal: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Opsi tidak dikenal: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Urutkan menurut nama, ukuran, tanggal, atau tipe."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Bukan perintah: %s"

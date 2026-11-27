@@ -1,0 +1,1447 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+
+msgid "The archive could not be opened."
+msgstr "Arhiva nu a putut fi deschisă."
+
+msgid "The archive could not be read."
+msgstr "Arhiva nu a putut fi citită."
+
+msgid "Cancelled."
+msgstr "Anulat."
+
+msgid "This file is encrypted with a password."
+msgstr "Fișierul este criptat cu o parolă."
+
+msgid "“%s” could not be read."
+msgstr "„%s” nu a putut fi citit."
+
+msgid "This is not a file in an archive."
+msgstr "Acesta nu este un fișier dintr-o arhivă."
+
+msgid "Extract Here"
+msgstr "Extrage aici"
+
+msgid "Compress to .tar.gz"
+msgstr "Comprimă în .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Nu s-a găsit niciun emulator de terminal."
+
+msgid "Root"
+msgstr "Rădăcină"
+
+msgid "%s Volume"
+msgstr "Volum %s"
+
+msgid "This device cannot be mounted."
+msgstr "Acest dispozitiv nu poate fi montat."
+
+msgid "This device cannot be unmounted."
+msgstr "Acest dispozitiv nu poate fi demontat."
+
+msgid "The device is gone."
+msgstr "Dispozitivul a dispărut."
+
+msgid "Copying %s to “%s”"
+msgstr "Se copiază %s în „%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Se mută %s în „%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Se leagă %s în „%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Se mută %s la gunoi"
+
+msgid "Deleting %s"
+msgstr "Se șterge %s"
+
+msgid "Restoring %s"
+msgstr "Se restaurează %s"
+
+msgid "Emptying the trash"
+msgstr "Se golește coșul de gunoi"
+
+msgid "Counting files…"
+msgstr "Se numără fișierele…"
+
+msgid "“%s”: %s"
+msgstr "„%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Un dosar nu poate fi mutat în el însuși."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Un dosar nu poate fi copiat în el însuși."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Fișierele pot fi extrase doar în dosare locale."
+
+msgid "Extracting from “%s”"
+msgstr "Se extrage din „%s”"
+
+msgid "Disc:"
+msgstr "Disc:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Rată de biți:"
+
+msgid "Cover:"
+msgstr "Copertă:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f cadre/s"
+
+msgid ", %.3f fps"
+msgstr ", %.3f cadre/s"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d canal"
+msgstr[1] "%d canale"
+msgstr[2] "%d de canale"
+
+msgid ", %d bit"
+msgstr ", %d biți"
+
+msgid "Audio %d:"
+msgstr "Audio %d:"
+
+msgid "Subtitles:"
+msgstr "Subtitrări:"
+
+msgid "Chapters:"
+msgstr "Capitole:"
+
+msgid "Images"
+msgstr "Imagini"
+
+msgid "Archives"
+msgstr "Arhive"
+
+msgid "Search for “%s”"
+msgstr "Caută „%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Nu s-a găsit niciun emulator de terminal. Alegeți unul în Configurează Beluga › General › Terminal."
+
+msgid "This file system has no trash."
+msgstr "Acest sistem de fișiere nu are coș de gunoi."
+
+msgid "Could not create the trash information file."
+msgstr "Fișierul de informații al coșului de gunoi nu a putut fi creat."
+
+msgid "“%s” already exists."
+msgstr "„%s” există deja."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Coșul de gunoi depășește limita de %s. Luați în considerare golirea lui."
+
+msgid "Create File"
+msgstr "Creează fișier"
+
+msgid "Undo: %s"
+msgstr "Anulează: %s"
+
+msgid "Redo: %s"
+msgstr "Refă: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d fișier"
+msgstr[1] "%d fișiere"
+msgstr[2] "%d de fișiere"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d dosar"
+msgstr[1] "%d dosare"
+msgstr[2] "%d de dosare"
+
+msgid "Today at %s"
+msgstr "Azi la %s"
+
+msgid "Yesterday at %s"
+msgstr "Ieri la %s"
+
+msgid "%A at %H:%M"
+msgstr "%A la %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld min %ld s"
+
+msgid "%ld h %ld min"
+msgstr "%ld h %ld min"
+
+msgid "%s copy %d"
+msgstr "%s copie %d"
+
+msgid "Disk Usage"
+msgstr "Utilizarea discului"
+
+msgid "Extension"
+msgstr "Extensie"
+
+msgid "Original Location"
+msgstr "Locația originală"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga nu a putut acționa ca administrator."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Este nevoie de pkexec (polkit) pentru a cere parola de administrator. Instalați polkit și un agent polkit pentru mediul dumneavoastră."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "O fereastră Beluga cu drepturi de administrator poate modifica și șterge orice fișier de pe acest calculator, inclusiv fișierele de care sistemul are nevoie ca să pornească. O greșeală acolo poate face sistemul inutilizabil. Folosiți-o doar pentru fișiere pe care nu le puteți modifica altfel și închideți-o când ați terminat.\n\nApoi Beluga cere parola de administrator."
+
+msgid "Columns View"
+msgstr "Vizualizare pe coloane"
+
+msgid "Reset Zoom"
+msgstr "Resetează mărirea"
+
+msgid "Pop out Split View"
+msgstr "Desprinde vizualizarea divizată"
+
+msgid "Places Panel"
+msgstr "Panou de locuri"
+
+msgid "Disk Usage Panel"
+msgstr "Panou de utilizare a discului"
+
+msgid "Go to Tab 1"
+msgstr "Mergi la fila 1"
+
+msgid "Go to Tab 2"
+msgstr "Mergi la fila 2"
+
+msgid "Go to Tab 3"
+msgstr "Mergi la fila 3"
+
+msgid "Go to Tab 4"
+msgstr "Mergi la fila 4"
+
+msgid "Go to Tab 5"
+msgstr "Mergi la fila 5"
+
+msgid "Go to Tab 6"
+msgstr "Mergi la fila 6"
+
+msgid "Go to Tab 7"
+msgstr "Mergi la fila 7"
+
+msgid "Go to Tab 8"
+msgstr "Mergi la fila 8"
+
+msgid "Go to Tab 9"
+msgstr "Mergi la fila 9"
+
+msgid "Configure Beluga"
+msgstr "Configurează Beluga"
+
+msgid "Undo failed."
+msgstr "Anularea a eșuat."
+
+msgid "Folder…"
+msgstr "Dosar…"
+
+msgid "Text File…"
+msgstr "Fișier text…"
+
+msgid "Empty File…"
+msgstr "Fișier gol…"
+
+msgid "Link to File or Folder…"
+msgstr "Legătură către fișier sau dosar…"
+
+msgid "Other View (%s)"
+msgstr "Altă vizualizare (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Ține minte vizualizarea pentru acest dosar"
+
+msgid "Open in Beluga"
+msgstr "Deschide în Beluga"
+
+msgid "Paste into Folder"
+msgstr "Lipește în dosar"
+
+msgid "_Cancel"
+msgstr "_Anulează"
+
+msgid "The name cannot contain “/”."
+msgstr "Numele nu poate conține „/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Un nume care începe cu punct este ascuns."
+
+msgid "Some items could not be renamed."
+msgstr "Unele elemente nu au putut fi redenumite."
+
+msgid "Rename “%s” to:"
+msgstr "Redenumește „%s” în:"
+
+msgid "_Rename"
+msgstr "_Redenumește"
+
+msgid "Could not rename “%s”."
+msgstr "„%s” nu a putut fi redenumit."
+
+msgid "Change the file type?"
+msgstr "Schimbați tipul fișierului?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Redenumirea „%s” în „%s” îi schimbă extensia."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Redenumește cele %zu elemente selectate în:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# se înlocuiește cu numere crescătoare; folosiți ## pentru zerouri în față. Extensiile se păstrează."
+
+msgid "Start numbering at:"
+msgstr "Începe numerotarea de la:"
+
+msgid "_Move Here"
+msgstr "_Mută aici"
+
+msgid "_Copy Here"
+msgstr "_Copiază aici"
+
+msgid "_Link Here"
+msgstr "_Leagă aici"
+
+msgid "C_ancel"
+msgstr "A_nulează"
+
+msgid "Choose a folder"
+msgstr "Alegeți un dosar"
+
+msgid "C_hoose…"
+msgstr "_Alege…"
+
+msgid "Icon name:"
+msgstr "Numele pictogramei:"
+
+msgid "Choose a Folder"
+msgstr "Alegeți un dosar"
+
+msgid "_Add"
+msgstr "_Adaugă"
+
+msgid "_Save"
+msgstr "_Salvează"
+
+msgid "Show _folders first"
+msgstr "Arată mai întâi _dosarele"
+
+msgid "Show hidden files _last"
+msgstr "Arată fișierele ascunse la _final"
+
+msgid "Show _previews"
+msgstr "Arată _previzualizări"
+
+msgid "Show in _groups"
+msgstr "Arată în _grupuri"
+
+msgid "Show _hidden files"
+msgstr "Arată fișierele _ascunse"
+
+msgid "Current folder including all subfolders"
+msgstr "Dosarul curent cu toate subdosarele"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "modificat %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Un dosar numit „%s” există deja în „%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Un fișier numit „%s” există deja în „%s”."
+
+msgid "Existing item"
+msgstr "Element existent"
+
+msgid "New item"
+msgstr "Element nou"
+
+msgid "_Suggest New Name"
+msgstr "_Sugerează un nume nou"
+
+msgid "New name:"
+msgstr "Nume nou:"
+
+msgid "Apply to _all"
+msgstr "Aplică la _toate"
+
+msgid "S_kip"
+msgstr "_Omite"
+
+msgid "_Write Into"
+msgstr "_Scrie în el"
+
+msgid "_Overwrite"
+msgstr "_Suprascrie"
+
+msgid "Search icons…"
+msgstr "Caută pictograme…"
+
+msgid "_Image File…"
+msgstr "Fișier _imagine…"
+
+msgid "_Default Icon"
+msgstr "Pictogramă _implicită"
+
+msgid "Choose an Image"
+msgstr "Alegeți o imagine"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Locațiile de rețea au nevoie de gvfs. Instalați pachetul gvfs (și gvfs-smb pentru partajări Windows, gvfs-nfs pentru NFS), apoi deconectați-vă și conectați-vă din nou."
+
+msgid "This location is not a folder."
+msgstr "Această locație nu este un dosar."
+
+msgid "This location is not valid."
+msgstr "Această locație nu este validă."
+
+msgid "This folder is not in the archive."
+msgstr "Acest dosar nu este în arhivă."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s fișier mai mic"
+msgstr[1] "%s fișiere mai mici"
+msgstr[2] "%s de fișiere mai mici"
+
+msgid "(another drive, not counted)"
+msgstr "(altă unitate, nenumărată)"
+
+msgid "Some of its contents could not be read."
+msgstr "O parte din conținut nu a putut fi citită."
+
+msgid "%s in files"
+msgstr "%s în fișiere"
+
+msgid "%s on disk"
+msgstr "%s pe disc"
+
+msgid "%s files and %s folders"
+msgstr "%s fișiere și %s dosare"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Se citește… %s în %s fișiere și %s dosare"
+
+msgid "Stopped."
+msgstr "Oprit."
+
+msgid "This folder could not be read."
+msgstr "Acest dosar nu a putut fi citit."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, citit în %.1f s"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s dosar nu a putut fi citit."
+msgstr[1] ". %s dosare nu au putut fi citite."
+msgstr[2] ". %s de dosare nu au putut fi citite."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Pot fi măsurate doar dosarele de pe acest calculator."
+
+msgid "read less than a minute ago"
+msgstr "citit acum mai puțin de un minut"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "citit acum %d minut"
+msgstr[1] "citit acum %d minute"
+msgstr[2] "citit acum %d de minute"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "citit acum %d oră"
+msgstr[1] "citit acum %d ore"
+msgstr[2] "citit acum %d de ore"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Rescanați pentru a-l citi din nou."
+
+msgid "_Apparent size"
+msgstr "Dimensiune _aparentă"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Adună dimensiunile fișierelor în loc de spațiul pe care îl ocupă pe disc."
+
+msgid "_Stay on this drive"
+msgstr "_Rămâi pe această unitate"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Nu număra alte unități montate în acest dosar (cum ar fi un dosar de muzică pe alt disc). Legăturile nu sunt urmate niciodată."
+
+msgid "Rescan"
+msgstr "Rescanează"
+
+msgid "Close Disk Usage"
+msgstr "Închide utilizarea discului"
+
+msgid "_Rescan"
+msgstr "_Rescanează"
+
+msgid "S_top"
+msgstr "_Oprește"
+
+msgid "Disk Usage – %s"
+msgstr "Utilizarea discului – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "„%s” există deja. Îl înlocuiți?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu dintre aceste fișiere există deja. Le înlocuiți?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Programul din care salvați va scrie peste conținutul existent."
+
+msgid "Choose a folder to save in."
+msgstr "Alegeți un dosar în care să salvați."
+
+msgid "Select Folder"
+msgstr "Selectează dosarul"
+
+msgid "Open Files"
+msgstr "Deschide fișiere"
+
+msgid "Open File"
+msgstr "Deschide fișier"
+
+msgid "Save File"
+msgstr "Salvează fișierul"
+
+msgid "Save Files"
+msgstr "Salvează fișierele"
+
+msgid "_Folder:"
+msgstr "_Dosar:"
+
+msgid "_Name:"
+msgstr "_Nume:"
+
+msgid "_Type:"
+msgstr "_Tip:"
+
+msgid "_Select"
+msgstr "_Selectează"
+
+msgid "_Open"
+msgstr "_Deschide"
+
+msgid "Create new folder in:\n%s"
+msgstr "Creează un dosar nou în:\n%s"
+
+msgid "C_reate"
+msgstr "_Creează"
+
+msgid "Could not create the folder."
+msgstr "Dosarul nu a putut fi creat."
+
+msgid "%zu items selected"
+msgstr "%zu elemente selectate"
+
+msgid "Contents:"
+msgstr "Conținut:"
+
+msgid "Contains:"
+msgstr "Conține:"
+
+msgid "Counting…"
+msgstr "Se numără…"
+
+msgid "Broken Link"
+msgstr "Legătură ruptă"
+
+msgid "%s (link)"
+msgstr "%s (legătură)"
+
+msgid "other drive"
+msgstr "altă unitate"
+
+msgid "%s of %s"
+msgstr "%s din %s"
+
+msgid "%s left"
+msgstr "au rămas %s"
+
+msgid "%d of %d"
+msgstr "%d din %d"
+
+msgid "File operations in progress"
+msgstr "Operații cu fișiere în curs"
+
+msgid "No subfolders"
+msgstr "Fără subdosare"
+
+msgid "Select the given files in their folders"
+msgstr "Selectează fișierele date în dosarele lor"
+
+msgid "Open the window in split view"
+msgstr "Deschide fereastra în vizualizare divizată"
+
+msgid "Always open a new window"
+msgstr "Deschide întotdeauna o fereastră nouă"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Continuă să ruleze în fundal pentru serviciul D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Detașează de terminal (fără locație: deschide dosarul curent)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Rulează selectorul de fișiere pentru xdg-desktop-portal (pornit de D-Bus)"
+
+msgid "Show the version"
+msgstr "Arată versiunea"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[FIȘIER sau DOSAR…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Acționați ca administrator: modificările din această fereastră pot deteriora sistemul."
+
+msgid "Close this window?"
+msgstr "Închideți această fereastră?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Această fereastră are %zu file deschise. Închiderea ei le închide pe toate."
+
+msgid "Close Window"
+msgstr "Închide fereastra"
+
+msgid "Show _Toolbar"
+msgstr "Arată bara de _unelte"
+
+msgid "_File"
+msgstr "_Fișier"
+
+msgid "New _Window"
+msgstr "_Fereastră nouă"
+
+msgid "New _Tab"
+msgstr "_Filă nouă"
+
+msgid "_Close Tab"
+msgstr "_Închide fila"
+
+msgid "Create _New"
+msgstr "Creează _nou"
+
+msgid "_Rename…"
+msgstr "_Redenumește…"
+
+msgid "_Duplicate Here"
+msgstr "_Duplică aici"
+
+msgid "Move to _Trash"
+msgstr "Mută la _gunoi"
+
+msgid "_Delete"
+msgstr "Ș_terge"
+
+msgid "Restore from Trash"
+msgstr "Restaurează din coșul de gunoi"
+
+msgid "_Properties"
+msgstr "_Proprietăți"
+
+msgid "_Quit"
+msgstr "_Ieșire"
+
+msgid "_Edit"
+msgstr "_Editare"
+
+msgid "_Undo"
+msgstr "_Anulează"
+
+msgid "_Redo"
+msgstr "_Refă"
+
+msgid "Cu_t"
+msgstr "_Taie"
+
+msgid "_Copy"
+msgstr "_Copiază"
+
+msgid "_Paste"
+msgstr "_Lipește"
+
+msgid "_Search…"
+msgstr "_Caută…"
+
+msgid "Select _All"
+msgstr "Selectează _tot"
+
+msgid "_View"
+msgstr "_Vizualizare"
+
+msgid "Zoom _In"
+msgstr "_Mărește"
+
+msgid "Zoom _Out"
+msgstr "_Micșorează"
+
+msgid "Re_load"
+msgstr "Re_încarcă"
+
+msgid "Show _Menubar"
+msgstr "Arată bara de _meniu"
+
+msgid "Show _Statusbar"
+msgstr "Arată bara de _stare"
+
+msgid "_Go"
+msgstr "_Navigare"
+
+msgid "_Back"
+msgstr "Î_napoi"
+
+msgid "_Forward"
+msgstr "Î_nainte"
+
+msgid "_Up"
+msgstr "_Sus"
+
+msgid "_Home"
+msgstr "_Acasă"
+
+msgid "_Tools"
+msgstr "_Unelte"
+
+msgid "Open _Terminal"
+msgstr "Deschide _terminal"
+
+msgid "Open Terminal _Here"
+msgstr "Deschide terminal _aici"
+
+msgid "_Disk Usage…"
+msgstr "_Utilizarea discului…"
+
+msgid "_Settings"
+msgstr "_Configurări"
+
+msgid "Configure Tool_bars…"
+msgstr "Configurează _barele de unelte…"
+
+msgid "_Configure Beluga…"
+msgstr "_Configurează Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Nicio filă închisă recent"
+
+msgid "(Administrator)"
+msgstr "(Administrator)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Deschideți %zu dosare în file noi?"
+
+msgid "Open Folders"
+msgstr "Deschide dosarele"
+
+msgid "Could not open “%s”."
+msgstr "„%s” nu a putut fi deschis."
+
+msgid "Could not open a terminal."
+msgstr "Nu s-a putut deschide un terminal."
+
+msgid "New Text File.txt"
+msgstr "Fișier text nou.txt"
+
+msgid "New File"
+msgstr "Fișier nou"
+
+msgid "Empty the trash?"
+msgstr "Goliți coșul de gunoi?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Toate elementele din coșul de gunoi vor fi șterse definitiv. Acest lucru nu poate fi anulat."
+
+msgid "Open %zu terminals?"
+msgstr "Deschideți %zu terminale?"
+
+msgid "Open Terminals"
+msgstr "Deschide terminalele"
+
+msgid "Create new file in:\n%s"
+msgstr "Creează un fișier nou în:\n%s"
+
+msgid "Could not create the file."
+msgstr "Fișierul nu a putut fi creat."
+
+msgid "Link to File or Folder"
+msgstr "Legătură către fișier sau dosar"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Calea fișierului sau dosarului către care se face legătura:"
+
+msgid "Could not create the link."
+msgstr "Legătura nu a putut fi creată."
+
+msgid "Permanently delete %s?"
+msgstr "Ștergeți definitiv %s?"
+
+msgid "This cannot be undone."
+msgstr "Acest lucru nu poate fi anulat."
+
+msgid "Move %s to the trash?"
+msgstr "Mutați %s la gunoi?"
+
+msgid "Could not run “%s”."
+msgstr "„%s” nu a putut fi rulat."
+
+msgid "Could not start %s."
+msgstr "%s nu a putut fi pornit."
+
+msgid "Could not start the application."
+msgstr "Aplicația nu a putut fi pornită."
+
+msgid "“%s” is an executable file."
+msgstr "„%s” este un fișier executabil."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Doriți să îl rulați sau să îl deschideți într-o aplicație?"
+
+msgid "Run"
+msgstr "Rulează"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Alegeți aplicația cu care să deschideți %s (%s):"
+
+msgid "Or command:"
+msgstr "Sau comanda:"
+
+msgid "Remember application association for this type of file"
+msgstr "Ține minte asocierea aplicației pentru acest tip de fișier"
+
+msgid "%s free of %s"
+msgstr "%s liberi din %s"
+
+msgid "Configure Sections"
+msgstr "Configurează secțiunile"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Secțiunile bifate apar în panoul de locuri, în această ordine."
+
+msgid "Move Up"
+msgstr "Mută în sus"
+
+msgid "Move Down"
+msgstr "Mută în jos"
+
+msgid "Could not mount the device: %s"
+msgstr "Dispozitivul nu a putut fi montat: %s"
+
+msgid "Configure Sections…"
+msgstr "Configurează secțiunile…"
+
+msgid "Hide Hidden Entries"
+msgstr "Ascunde intrările ascunse"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Toate elementele din coșul de gunoi vor fi șterse definitiv."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Dispozitivul nu a putut fi scos în siguranță: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Dispozitivul nu a putut fi demontat: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Folosește fontul _sistemului"
+
+msgid "Context Menu Action"
+msgstr "Acțiune în meniul contextual"
+
+msgid "Types:"
+msgstr "Tipuri:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f primul fișier, %F toate fișierele, %u / %U ca URI-uri, %n / %N nume, %d dosarul curent."
+
+msgid "Show for _files"
+msgstr "Arată pentru _fișiere"
+
+msgid "Show for f_olders"
+msgstr "Arată pentru _dosare"
+
+msgid "Show when _several items are selected"
+msgstr "Arată când sunt selectate _mai multe elemente"
+
+msgid "Run in a _terminal"
+msgstr "Rulează într-un _terminal"
+
+msgid "Custom Actions"
+msgstr "Acțiuni personalizate"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Propriile intrări pentru meniul contextual al fișierelor și dosarelor."
+
+msgid "_Add…"
+msgstr "_Adaugă…"
+
+msgid "_Edit…"
+msgstr "_Editează…"
+
+msgid "_Remove"
+msgstr "_Elimină"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Scurtăturile se scriu ca <Control>c sau <Shift>Delete. Separați mai multe prin virgule. Lăsați un câmp gol pentru a folosi valoarea implicită."
+
+msgid "files below %d MiB"
+msgstr "fișiere sub %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Restabilește valorile implicite"
+
+msgid "_Apply"
+msgstr "_Aplică"
+
+msgid "Folders & Tabs"
+msgstr "Dosare și file"
+
+msgid "This location:"
+msgstr "Această locație:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Păstrează o singură fereastră Beluga și deschide dosarele noi în file"
+
+msgid "Tabs:"
+msgstr "File:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Filele cu lățime fixă devin mai înguste, toate la fel, când nu încap."
+
+msgid "No terminal found"
+msgstr "Nu s-a găsit niciun terminal"
+
+msgid "Detected: %s"
+msgstr "Detectat: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Folosit de F4 și de Deschide terminal aici. %d din comandă este înlocuit cu dosarul; altfel terminalul pornește în el. Aceasta era o configurare de sistem KDE."
+
+msgid "New folders:"
+msgstr "Dosare noi:"
+
+msgid "Show _previews in new folders"
+msgstr "Arată _previzualizări în dosarele noi"
+
+msgid "Audio (cover art)"
+msgstr "Audio (coperți)"
+
+msgid "PDF documents"
+msgstr "Documente PDF"
+
+msgid "Text files"
+msgstr "Fișiere text"
+
+msgid "Fonts"
+msgstr "Fonturi"
+
+msgid "Office documents"
+msgstr "Documente de birou"
+
+msgid "Ask for confirmation when:"
+msgstr "Cere confirmare la:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Cere confirmare în Beluga la:"
+
+msgid "Use _long date format"
+msgstr "Folosește formatul _lung al datei"
+
+msgid "Show _hidden folders"
+msgstr "Arată dosarele _ascunse"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Derulează la dosarul curent _automat"
+
+msgid "Places Panel:"
+msgstr "Panou de locuri:"
+
+msgid "Status & Location bars"
+msgstr "Bare de stare și de locație"
+
+msgid "Show free _space"
+msgstr "Arată spațiul _liber"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "În orice caz, Vizualizare › Ține minte vizualizarea pentru acest dosar îi dă unui dosar propriul stil. Unele vizualizări speciale, precum căutarea, fișierele recente sau coșul de gunoi, folosesc tot un stil propriu."
+
+msgid "Open files and folders with a single click"
+msgstr "Deschide fișierele și dosarele cu un singur clic"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Păstrează un _index al dosarului personal pentru căutare instantanee"
+
+msgid "levels deep"
+msgstr "niveluri adâncime"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Relativă (Azi, Ieri…)"
+
+msgid "Absolute"
+msgstr "Absolută"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simbolic (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Numeric (0755)"
+
+msgid "Combined"
+msgstr "Combinat"
+
+msgid "Elide in the middle"
+msgstr "Prescurtează la mijloc"
+
+msgid "Elide at the end"
+msgstr "Prescurtează la final"
+
+msgid "Disk usage:"
+msgstr "Utilizarea discului:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Arată o coloană _Utilizarea discului"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Spațiul pe care fiecare fișier și fiecare dosar întreg îl ocupă pe disc, cu o bară pentru partea sa din dosar, ca în Unelte › Utilizarea discului. Dosarele sunt citite complet în fundal; sortați după coloană pentru a vedea întâi cele mai mari. \"Rămâi pe această unitate\" din fereastra Utilizarea discului se aplică și aici."
+
+msgid "Show in the context menu"
+msgstr "Arată în meniul contextual"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "„Copiază în” și „Mută în”"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Șterge (pe lângă Mută la gunoi)"
+
+msgid "Cleanup:"
+msgstr "Curățare:"
+
+msgid "Delete files older than"
+msgstr "Șterge fișierele mai vechi de"
+
+msgid "days"
+msgstr "zile"
+
+msgid "Limit to"
+msgstr "Limitează la"
+
+msgid "percent of the disk"
+msgstr "la sută din disc"
+
+msgid "Keep the trash on the home drive"
+msgstr "Păstrează coșul de gunoi pe unitatea dosarului personal"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Fișierele mutate la gunoi de pe alte unități sunt copiate în coșul de gunoi din dosarul personal, astfel încât acele unități nu primesc un dosar .Trash-1000. Mutarea fișierelor mari la gunoi durează atunci mai mult."
+
+msgid "Full trash:"
+msgstr "Coș de gunoi plin:"
+
+msgid "When the limit is reached:"
+msgstr "Când este atinsă limita:"
+
+msgid "Show a warning"
+msgstr "Arată un avertisment"
+
+msgid "Delete the oldest items"
+msgstr "Șterge cele mai vechi elemente"
+
+msgid "Delete the largest items"
+msgstr "Șterge cele mai mari elemente"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Acestea erau configurări de sistem KDE. Limitele se aplică la pornirea Beluga și după mutarea elementelor la gunoi."
+
+msgid "Calculating trash size…"
+msgstr "Se calculează dimensiunea coșului de gunoi…"
+
+msgid "The trash currently uses %s."
+msgstr "Coșul de gunoi ocupă acum %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Golește coșul de gunoi acum"
+
+msgid "Vim Mode"
+msgstr "Modul Vim"
+
+msgid "Vim mode:"
+msgstr "Modul Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Folosește taste de tip Vim în vizualizări"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Modul normal se deplasează cu h j k l și rulează tastele de mai jos; v, V și Ctrl+V selectează; i și a redenumesc (modul de inserare); Esc revine la modul normal; : deschide linia de comandă. Tastele cu Ctrl sau Alt care nu sunt aici își păstrează sensul obișnuit."
+
+msgid "Leader key:"
+msgstr "Tasta lider:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> în tastele de mai jos, de ex. <Space> sau ,"
+
+msgid "Wait for more keys:"
+msgstr "Așteaptă alte taste:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd după d, gg după g)"
+
+msgid "Keys"
+msgstr "Taste"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Notație Vim, mai multe separate prin spații: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Lăsați un câmp gol pentru valoarea implicită."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q închide fereastra (:q! fără să întrebe de file), :qa iese din Beluga, :e sau :cd CALE deschide un dosar, :tabnew [CALE], :tabclose, :tabonly, :sp sau :vs [CALE] divizează vizualizarea, :only închide cealaltă vizualizare, :mkdir NUME, :touch NUME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMANDĂ rulează o comandă shell în dosar."
+
+msgid "Keyboard Shortcuts"
+msgstr "Scurtături de tastatură"
+
+msgid "Only files on this computer can be read."
+msgstr "Pot fi citite doar fișierele de pe acest calculator."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga a fost compilat fără FFmpeg."
+
+msgid "Reading…"
+msgstr "Se citește…"
+
+msgid "No details found."
+msgstr "Nu s-au găsit detalii."
+
+msgid "Change the folder's icon"
+msgstr "Schimbă pictograma dosarului"
+
+msgid "Could not change the icon."
+msgstr "Pictograma nu a putut fi schimbată."
+
+msgid "%zu items"
+msgstr "%zu elemente"
+
+msgid "No default application"
+msgstr "Nicio aplicație implicită"
+
+msgid "C_hange…"
+msgstr "_Schimbă…"
+
+msgid "Opens with:"
+msgstr "Se deschide cu:"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu octet"
+msgstr[1] "%llu octeți"
+msgstr[2] "%llu de octeți"
+
+msgid "Can View"
+msgstr "Poate vedea"
+
+msgid "Can View Content"
+msgstr "Poate vedea conținutul"
+
+msgid "Is _executable"
+msgstr "Este _executabil"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Aplică modificările tuturor _subdosarelor și conținutului lor"
+
+msgid "Could not read the file."
+msgstr "Fișierul nu a putut fi citit."
+
+msgid "Paste a checksum to compare"
+msgstr "Lipiți o sumă de control pentru comparare"
+
+msgid "Verify:"
+msgstr "Verifică:"
+
+msgid "The checksums match."
+msgstr "Sumele de control se potrivesc."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Nicio sumă de control calculată nu se potrivește. Calculați întâi tipul corespunzător."
+
+msgid "Could not change the permissions."
+msgstr "Permisiunile nu au putut fi schimbate."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Filtrează după nume (caracterele joker precum *.txt funcționează)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Păstrează filtrul la schimbarea dosarului"
+
+msgid "In This Folder"
+msgstr "În acest dosar"
+
+msgid "In Your Files"
+msgstr "În fișierele dumneavoastră"
+
+msgid "Any Time"
+msgstr "Oricând"
+
+msgid "Last 7 Days"
+msgstr "Ultimele 7 zile"
+
+msgid "Last 30 Days"
+msgstr "Ultimele 30 de zile"
+
+msgid "Last Year"
+msgstr "Ultimul an"
+
+msgid "Hidden files"
+msgstr "Fișiere ascunse"
+
+msgid "Duplicate Tab"
+msgstr "Duplică fila"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Acțiunile de deasupra barei de locație din listă stau la stânga ei, celelalte la dreapta. * marchează acțiunile care nu sunt unde le are bara de unelte implicită."
+
+msgid "A_vailable actions:"
+msgstr "Acțiuni _disponibile:"
+
+msgid "Add to the tool bar"
+msgstr "Adaugă în bara de unelte"
+
+msgid "Remove from the tool bar"
+msgstr "Elimină din bara de unelte"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Mută în sus (la stânga pe bara de unelte)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Mută în jos (la dreapta pe bara de unelte)"
+
+msgid "C_urrent actions:"
+msgstr "Acțiuni _curente:"
+
+msgid "_Defaults"
+msgstr "_Implicite"
+
+msgid "Show Columns"
+msgstr "Arată coloanele"
+
+msgid "Modified: %s"
+msgstr "Modificat: %s"
+
+msgid "Original location: %s"
+msgstr "Locația originală: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Sub 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB – 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB – 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB sau mai mult"
+
+msgid "Not counted yet"
+msgstr "Încă nenumărat"
+
+msgid "A file name cannot contain “/”."
+msgstr "Un nume de fișier nu poate conține „/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Redenumirea „%s” în „%s” îi schimbă extensia. Fișierul se poate deschide cu altă aplicație sau deloc."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Mod de selecție: faceți clic pe fișiere sau dosare pentru a le selecta sau deselecta."
+
+msgid "_Exit Selection Mode"
+msgstr "_Ieși din modul de selecție"
+
+msgid "_Duplicate"
+msgstr "_Duplică"
+
+msgid "De_lete"
+msgstr "Ș_terge"
+
+msgid "Pr_operties"
+msgstr "_Proprietăți"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Dosarul „%s” nu mai există."
+
+msgid "“%s” selected (%s%s)"
+msgstr "„%s” selectat (%s%s)"
+
+msgid "%s selected"
+msgstr "%s selectat"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d selectat"
+msgstr[1] "%d selectate"
+msgstr[2] "%d de selectate"
+
+msgid "Move left"
+msgstr "Mută la stânga"
+
+msgid "Move down"
+msgstr "Mută în jos"
+
+msgid "Move up"
+msgstr "Mută în sus"
+
+msgid "Move right"
+msgstr "Mută la dreapta"
+
+msgid "First item"
+msgstr "Primul element"
+
+msgid "Last item"
+msgstr "Ultimul element"
+
+msgid "Page down"
+msgstr "Pagina în jos"
+
+msgid "Page up"
+msgstr "Pagina în sus"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Selectează elementele peste care trece cursorul (vizual)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Selectează un interval, ca cu Shift (linie vizuală)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Selectează un bloc din grilă (bloc vizual)"
+
+msgid "Back to normal mode"
+msgstr "Înapoi la modul normal"
+
+msgid "Copy the item under the cursor"
+msgstr "Copiază elementul de sub cursor"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Redenumește, cursorul la început (inserare)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Redenumește, cursorul după nume (adăugare)"
+
+msgid "Rename, name selected (change)"
+msgstr "Redenumește, numele selectat (modificare)"
+
+msgid "Edit the location"
+msgstr "Editează locația"
+
+msgid "Copied."
+msgstr "Copiat."
+
+msgid "Cut."
+msgstr "Tăiat."
+
+msgid "Can't open “%s”."
+msgstr "„%s” nu poate fi deschis."
+
+msgid "A name is needed."
+msgstr "Este nevoie de un nume."
+
+msgid "Unknown view: %s"
+msgstr "Vizualizare necunoscută: %s"
+
+msgid "Unknown option: %s"
+msgstr "Opțiune necunoscută: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sortează după nume, dimensiune, dată sau tip."
+
+msgid "Not a command: %s"
+msgstr "Nu este o comandă: %s"
+
+msgid "Move"
+msgstr "Mută"
+
+msgid "Focus Other View"
+msgstr "Focalizează cealaltă vizualizare"
+
+msgid "Split View to Tabs"
+msgstr "Vizualizare divizată în file"
+
+msgid "Folders Panel"
+msgstr "Panou de dosare"
+
+msgid "Files"
+msgstr "Fișiere"
+
+msgid "Recommended Applications"
+msgstr "Aplicații recomandate"
+
+msgid "Other Applications"
+msgstr "Alte aplicații"
+
+msgid "Renaming a file will change its type"
+msgstr "Redenumirea unui fișier îi schimbă tipul"
+
+msgid "Folders Panel:"
+msgstr "Panou de dosare:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Limitează la dosarul personal când ești în el"
+
+msgid "Spacing:"
+msgstr "Spațiere:"
+
+msgid "Command line"
+msgstr "Linie de comandă"
+
+msgid "No items found"
+msgstr "Nu s-au găsit elemente"
+
+msgid "Free space:"
+msgstr "Spațiu liber:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s liberi din %s (%d%% folosit)"

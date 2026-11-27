@@ -1,0 +1,1645 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "The archive could not be opened."
+msgstr "Không thể mở tệp nén."
+
+msgid "The archive could not be read."
+msgstr "Không thể đọc tệp nén."
+
+msgid "Cancelled."
+msgstr "Đã huỷ."
+
+msgid "This file is encrypted with a password."
+msgstr "Tệp này được mã hoá bằng mật khẩu."
+
+msgid "“%s” could not be read."
+msgstr "Không thể đọc “%s”."
+
+msgid "This is not a file in an archive."
+msgstr "Đây không phải là tệp trong tệp nén."
+
+msgid "Extract Here"
+msgstr "Giải nén vào đây"
+
+msgid "Compress to .tar.gz"
+msgstr "Nén thành .tar.gz"
+
+msgid "No terminal emulator was found."
+msgstr "Không tìm thấy trình giả lập dòng lệnh nào."
+
+msgid "Root"
+msgstr "Gốc"
+
+msgid "%s Volume"
+msgstr "Ổ %s"
+
+msgid "This device cannot be mounted."
+msgstr "Không thể gắn thiết bị này."
+
+msgid "This device cannot be unmounted."
+msgstr "Không thể tháo gắn thiết bị này."
+
+msgid "The device is gone."
+msgstr "Thiết bị không còn nữa."
+
+msgid "Copying %s to “%s”"
+msgstr "Đang sao chép %s vào “%s”"
+
+msgid "Moving %s to “%s”"
+msgstr "Đang di chuyển %s vào “%s”"
+
+msgid "Linking %s in “%s”"
+msgstr "Đang liên kết %s trong “%s”"
+
+msgid "Moving %s to the trash"
+msgstr "Đang chuyển %s vào thùng rác"
+
+msgid "Deleting %s"
+msgstr "Đang xoá %s"
+
+msgid "Restoring %s"
+msgstr "Đang khôi phục %s"
+
+msgid "Emptying the trash"
+msgstr "Đang dọn sạch thùng rác"
+
+msgid "Counting files…"
+msgstr "Đang đếm tệp…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Không thể di chuyển thư mục vào chính nó."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Không thể sao chép thư mục vào chính nó."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Chỉ có thể giải nén tệp vào thư mục cục bộ."
+
+msgid "Extracting from “%s”"
+msgstr "Đang giải nén từ “%s”"
+
+msgid "Disc:"
+msgstr "Đĩa:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "Định dạng:"
+
+msgid "Bit rate:"
+msgstr "Tốc độ bit:"
+
+msgid "Cover:"
+msgstr "Ảnh bìa:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f khung/giây"
+
+msgid ", %.3f fps"
+msgstr ", %.3f khung/giây"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "đơn kênh"
+
+msgid "stereo"
+msgstr "âm thanh nổi"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kênh"
+
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio %d:"
+msgstr "Âm thanh %d:"
+
+msgid "Subtitles:"
+msgstr "Phụ đề:"
+
+msgid "Chapters:"
+msgstr "Chương:"
+
+msgid "Images"
+msgstr "Ảnh"
+
+msgid "Archives"
+msgstr "Tệp nén"
+
+msgid "Search for “%s”"
+msgstr "Tìm “%s”"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Không tìm thấy trình giả lập dòng lệnh nào. Hãy đặt một trình trong Cấu hình Beluga › Chung › Dòng lệnh."
+
+msgid "This file system has no trash."
+msgstr "Hệ thống tệp này không có thùng rác."
+
+msgid "Could not create the trash information file."
+msgstr "Không thể tạo tệp thông tin thùng rác."
+
+msgid "“%s” already exists."
+msgstr "“%s” đã tồn tại."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Thùng rác lớn hơn giới hạn %s. Hãy cân nhắc dọn sạch nó."
+
+msgid "Create File"
+msgstr "Tạo tệp"
+
+msgid "Undo: %s"
+msgstr "Hoàn tác: %s"
+
+msgid "Redo: %s"
+msgstr "Làm lại: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d tệp"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d thư mục"
+
+msgid "Today at %s"
+msgstr "Hôm nay lúc %s"
+
+msgid "Yesterday at %s"
+msgstr "Hôm qua lúc %s"
+
+msgid "%A at %H:%M"
+msgstr "%A lúc %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld phút %ld giây"
+
+msgid "%ld h %ld min"
+msgstr "%ld giờ %ld phút"
+
+msgid "%s copy %d"
+msgstr "%s bản sao %d"
+
+msgid "Disk Usage"
+msgstr "Dung lượng đĩa đã dùng"
+
+msgid "Extension"
+msgstr "Phần mở rộng"
+
+msgid "Original Location"
+msgstr "Vị trí gốc"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga không thể hoạt động với quyền quản trị."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Cần pkexec (polkit) để hỏi mật khẩu quản trị. Hãy cài polkit và một tác tử polkit cho môi trường máy tính của bạn."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Một cửa sổ Beluga có quyền quản trị có thể thay đổi và xoá bất kỳ tệp nào trên máy tính này, kể cả những tệp hệ thống cần để khởi động. Một sai sót ở đó có thể khiến hệ thống không dùng được. Chỉ dùng nó cho những tệp bạn không thể thay đổi bằng cách khác, và đóng nó khi xong việc.\n\nTiếp theo Beluga sẽ hỏi mật khẩu quản trị."
+
+msgid "Columns View"
+msgstr "Xem dạng cột"
+
+msgid "Reset Zoom"
+msgstr "Đặt lại thu phóng"
+
+msgid "Pop out Split View"
+msgstr "Tách khung xem chia đôi"
+
+msgid "Places Panel"
+msgstr "Bảng Địa điểm"
+
+msgid "Disk Usage Panel"
+msgstr "Bảng Dung lượng đĩa"
+
+msgid "Go to Tab 1"
+msgstr "Đến thẻ 1"
+
+msgid "Go to Tab 2"
+msgstr "Đến thẻ 2"
+
+msgid "Go to Tab 3"
+msgstr "Đến thẻ 3"
+
+msgid "Go to Tab 4"
+msgstr "Đến thẻ 4"
+
+msgid "Go to Tab 5"
+msgstr "Đến thẻ 5"
+
+msgid "Go to Tab 6"
+msgstr "Đến thẻ 6"
+
+msgid "Go to Tab 7"
+msgstr "Đến thẻ 7"
+
+msgid "Go to Tab 8"
+msgstr "Đến thẻ 8"
+
+msgid "Go to Tab 9"
+msgstr "Đến thẻ 9"
+
+msgid "Configure Beluga"
+msgstr "Cấu hình Beluga"
+
+msgid "Undo failed."
+msgstr "Hoàn tác thất bại."
+
+msgid "Folder…"
+msgstr "Thư mục…"
+
+msgid "Text File…"
+msgstr "Tệp văn bản…"
+
+msgid "Empty File…"
+msgstr "Tệp trống…"
+
+msgid "Link to File or Folder…"
+msgstr "Liên kết tới tệp hoặc thư mục…"
+
+msgid "Other View (%s)"
+msgstr "Khung xem khác (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Nhớ kiểu xem cho thư mục này"
+
+msgid "Open in Beluga"
+msgstr "Mở trong Beluga"
+
+msgid "Paste into Folder"
+msgstr "Dán vào thư mục"
+
+msgid "_Cancel"
+msgstr "_Huỷ"
+
+msgid "The name cannot contain “/”."
+msgstr "Tên không được chứa “/”."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Tên bắt đầu bằng dấu chấm sẽ bị ẩn."
+
+msgid "Some items could not be renamed."
+msgstr "Không thể đổi tên một số mục."
+
+msgid "Rename “%s” to:"
+msgstr "Đổi tên “%s” thành:"
+
+msgid "_Rename"
+msgstr "Đổi _tên"
+
+msgid "Could not rename “%s”."
+msgstr "Không thể đổi tên “%s”."
+
+msgid "Change the file type?"
+msgstr "Đổi loại tệp?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "Đổi tên “%s” thành “%s” sẽ đổi phần mở rộng của nó."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Đổi tên %zu mục đã chọn thành:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# được thay bằng số tăng dần; dùng ## để có số 0 ở đầu. Phần mở rộng được giữ nguyên."
+
+msgid "Start numbering at:"
+msgstr "Bắt đầu đánh số từ:"
+
+msgid "_Move Here"
+msgstr "_Di chuyển vào đây"
+
+msgid "_Copy Here"
+msgstr "_Sao chép vào đây"
+
+msgid "_Link Here"
+msgstr "_Liên kết tại đây"
+
+msgid "C_ancel"
+msgstr "H_uỷ"
+
+msgid "Choose a folder"
+msgstr "Chọn một thư mục"
+
+msgid "C_hoose…"
+msgstr "_Chọn…"
+
+msgid "Icon name:"
+msgstr "Tên biểu tượng:"
+
+msgid "Choose a Folder"
+msgstr "Chọn thư mục"
+
+msgid "_Add"
+msgstr "_Thêm"
+
+msgid "_Save"
+msgstr "_Lưu"
+
+msgid "Show _folders first"
+msgstr "Hiện _thư mục trước"
+
+msgid "Show hidden files _last"
+msgstr "Hiện tệp ẩn ở _cuối"
+
+msgid "Show _previews"
+msgstr "Hiện ảnh _xem trước"
+
+msgid "Show in _groups"
+msgstr "Hiện theo _nhóm"
+
+msgid "Show _hidden files"
+msgstr "Hiện tệp _ẩn"
+
+msgid "Current folder including all subfolders"
+msgstr "Thư mục hiện tại gồm mọi thư mục con"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "modified %s"
+msgstr "sửa đổi %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "Đã có thư mục tên “%s” trong “%s”."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "Đã có tệp tên “%s” trong “%s”."
+
+msgid "Existing item"
+msgstr "Mục hiện có"
+
+msgid "New item"
+msgstr "Mục mới"
+
+msgid "_Suggest New Name"
+msgstr "_Gợi ý tên mới"
+
+msgid "New name:"
+msgstr "Tên mới:"
+
+msgid "Apply to _all"
+msgstr "Áp dụng cho _tất cả"
+
+msgid "S_kip"
+msgstr "_Bỏ qua"
+
+msgid "_Write Into"
+msgstr "_Ghi vào bên trong"
+
+msgid "_Overwrite"
+msgstr "_Ghi đè"
+
+msgid "Search icons…"
+msgstr "Tìm biểu tượng…"
+
+msgid "_Image File…"
+msgstr "Tệp _ảnh…"
+
+msgid "_Default Icon"
+msgstr "Biểu tượng _mặc định"
+
+msgid "Choose an Image"
+msgstr "Chọn ảnh"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Vị trí mạng cần gvfs. Hãy cài gói gvfs (và gvfs-smb cho chia sẻ Windows, gvfs-nfs cho NFS), rồi đăng xuất và đăng nhập lại."
+
+msgid "This location is not a folder."
+msgstr "Vị trí này không phải là thư mục."
+
+msgid "This location is not valid."
+msgstr "Vị trí này không hợp lệ."
+
+msgid "This folder is not in the archive."
+msgstr "Thư mục này không có trong tệp nén."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s tệp nhỏ hơn"
+
+msgid "(another drive, not counted)"
+msgstr "(ổ khác, không tính)"
+
+msgid "Some of its contents could not be read."
+msgstr "Không thể đọc một phần nội dung."
+
+msgid "%s in files"
+msgstr "%s trong tệp"
+
+msgid "%s on disk"
+msgstr "%s trên đĩa"
+
+msgid "%s files and %s folders"
+msgstr "%s tệp và %s thư mục"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Đang đọc… %s trong %s tệp và %s thư mục"
+
+msgid "Stopped."
+msgstr "Đã dừng."
+
+msgid "This folder could not be read."
+msgstr "Không thể đọc thư mục này."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, đọc trong %.1f giây"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". Không thể đọc %s thư mục."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Chỉ đo được thư mục trên máy tính này."
+
+msgid "read less than a minute ago"
+msgstr "đọc chưa đầy một phút trước"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "đọc %d phút trước"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "đọc %d giờ trước"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Quét lại để đọc lại."
+
+msgid "_Apparent size"
+msgstr "Kích thước _biểu kiến"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Cộng kích thước tệp thay vì dung lượng đĩa mà tệp chiếm."
+
+msgid "_Stay on this drive"
+msgstr "_Ở lại trên ổ này"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Không tính các ổ khác được gắn bên trong thư mục này (như thư mục nhạc trên một đĩa khác). Liên kết không bao giờ được theo."
+
+msgid "Rescan"
+msgstr "Quét lại"
+
+msgid "Close Disk Usage"
+msgstr "Đóng Dung lượng đĩa"
+
+msgid "_Rescan"
+msgstr "_Quét lại"
+
+msgid "S_top"
+msgstr "_Dừng"
+
+msgid "Disk Usage – %s"
+msgstr "Dung lượng đĩa – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” đã tồn tại. Thay thế nó?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "%zu tệp trong số này đã tồn tại. Thay thế chúng?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Chương trình bạn đang lưu từ đó sẽ ghi đè lên nội dung hiện có."
+
+msgid "Choose a folder to save in."
+msgstr "Chọn một thư mục để lưu vào."
+
+msgid "Select Folder"
+msgstr "Chọn thư mục"
+
+msgid "Open Files"
+msgstr "Mở tệp"
+
+msgid "Open File"
+msgstr "Mở tệp"
+
+msgid "Save File"
+msgstr "Lưu tệp"
+
+msgid "Save Files"
+msgstr "Lưu các tệp"
+
+msgid "_Folder:"
+msgstr "_Thư mục:"
+
+msgid "_Name:"
+msgstr "_Tên:"
+
+msgid "_Type:"
+msgstr "_Loại:"
+
+msgid "_Select"
+msgstr "_Chọn"
+
+msgid "_Open"
+msgstr "_Mở"
+
+msgid "Create new folder in:\n%s"
+msgstr "Tạo thư mục mới trong:\n%s"
+
+msgid "C_reate"
+msgstr "_Tạo"
+
+msgid "Could not create the folder."
+msgstr "Không thể tạo thư mục."
+
+msgid "%zu items selected"
+msgstr "Đã chọn %zu mục"
+
+msgid "Contents:"
+msgstr "Nội dung:"
+
+msgid "Contains:"
+msgstr "Chứa:"
+
+msgid "Counting…"
+msgstr "Đang đếm…"
+
+msgid "Broken Link"
+msgstr "Liên kết hỏng"
+
+msgid "%s (link)"
+msgstr "%s (liên kết)"
+
+msgid "other drive"
+msgstr "ổ khác"
+
+msgid "%s of %s"
+msgstr "%s / %s"
+
+msgid "%s left"
+msgstr "còn %s"
+
+msgid "%d of %d"
+msgstr "%d / %d"
+
+msgid "File operations in progress"
+msgstr "Đang thực hiện thao tác tệp"
+
+msgid "No subfolders"
+msgstr "Không có thư mục con"
+
+msgid "Select the given files in their folders"
+msgstr "Chọn các tệp đã cho trong thư mục của chúng"
+
+msgid "Open the window in split view"
+msgstr "Mở cửa sổ ở chế độ xem chia đôi"
+
+msgid "Always open a new window"
+msgstr "Luôn mở cửa sổ mới"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "Tiếp tục chạy nền cho dịch vụ D-Bus FileManager1"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Tách khỏi dòng lệnh (không có vị trí: mở thư mục hiện tại)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "Chạy trình chọn tệp cho xdg-desktop-portal (do D-Bus khởi chạy)"
+
+msgid "Show the version"
+msgstr "Hiện phiên bản"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[TỆP hoặc THƯ MỤC…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Đang hoạt động với quyền quản trị: thay đổi trong cửa sổ này có thể làm hỏng hệ thống."
+
+msgid "Close this window?"
+msgstr "Đóng cửa sổ này?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Cửa sổ này đang mở %zu thẻ. Đóng nó sẽ đóng tất cả."
+
+msgid "Close Window"
+msgstr "Đóng cửa sổ"
+
+msgid "Show _Toolbar"
+msgstr "Hiện thanh _công cụ"
+
+msgid "_File"
+msgstr "_Tệp"
+
+msgid "New _Window"
+msgstr "Cửa sổ _mới"
+
+msgid "New _Tab"
+msgstr "_Thẻ mới"
+
+msgid "_Close Tab"
+msgstr "Đó_ng thẻ"
+
+msgid "Create _New"
+msgstr "Tạo _mới"
+
+msgid "_Rename…"
+msgstr "Đổi _tên…"
+
+msgid "_Duplicate Here"
+msgstr "_Nhân đôi tại đây"
+
+msgid "Move to _Trash"
+msgstr "Chuyển vào _thùng rác"
+
+msgid "_Delete"
+msgstr "_Xoá"
+
+msgid "Restore from Trash"
+msgstr "Khôi phục từ thùng rác"
+
+msgid "_Properties"
+msgstr "Th_uộc tính"
+
+msgid "_Quit"
+msgstr "_Thoát"
+
+msgid "_Edit"
+msgstr "_Sửa"
+
+msgid "_Undo"
+msgstr "_Hoàn tác"
+
+msgid "_Redo"
+msgstr "_Làm lại"
+
+msgid "Cu_t"
+msgstr "_Cắt"
+
+msgid "_Copy"
+msgstr "_Sao chép"
+
+msgid "_Paste"
+msgstr "_Dán"
+
+msgid "_Search…"
+msgstr "_Tìm…"
+
+msgid "Select _All"
+msgstr "Chọn _tất cả"
+
+msgid "_View"
+msgstr "_Xem"
+
+msgid "Zoom _In"
+msgstr "Phóng _to"
+
+msgid "Zoom _Out"
+msgstr "Thu _nhỏ"
+
+msgid "Re_load"
+msgstr "_Tải lại"
+
+msgid "Show _Menubar"
+msgstr "Hiện thanh _trình đơn"
+
+msgid "Show _Statusbar"
+msgstr "Hiện thanh _trạng thái"
+
+msgid "_Go"
+msgstr "_Đi"
+
+msgid "_Back"
+msgstr "_Lùi"
+
+msgid "_Forward"
+msgstr "_Tiến"
+
+msgid "_Up"
+msgstr "_Lên"
+
+msgid "_Home"
+msgstr "Thư mục _nhà"
+
+msgid "_Tools"
+msgstr "_Công cụ"
+
+msgid "Open _Terminal"
+msgstr "Mở _dòng lệnh"
+
+msgid "Open Terminal _Here"
+msgstr "Mở dòng lệnh _tại đây"
+
+msgid "_Disk Usage…"
+msgstr "_Dung lượng đĩa…"
+
+msgid "_Settings"
+msgstr "_Thiết lập"
+
+msgid "Configure Tool_bars…"
+msgstr "Cấu hình _thanh công cụ…"
+
+msgid "_Configure Beluga…"
+msgstr "_Cấu hình Beluga…"
+
+msgid "No recently closed tabs"
+msgstr "Không có thẻ nào mới đóng"
+
+msgid "(Administrator)"
+msgstr "(Quản trị)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "Mở %zu thư mục trong thẻ mới?"
+
+msgid "Open Folders"
+msgstr "Mở thư mục"
+
+msgid "Could not open “%s”."
+msgstr "Không thể mở “%s”."
+
+msgid "Could not open a terminal."
+msgstr "Không thể mở dòng lệnh."
+
+msgid "New Text File.txt"
+msgstr "Tệp văn bản mới.txt"
+
+msgid "New File"
+msgstr "Tệp mới"
+
+msgid "Empty the trash?"
+msgstr "Dọn sạch thùng rác?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Mọi mục trong thùng rác sẽ bị xoá vĩnh viễn. Không thể hoàn tác."
+
+msgid "Open %zu terminals?"
+msgstr "Mở %zu dòng lệnh?"
+
+msgid "Open Terminals"
+msgstr "Mở dòng lệnh"
+
+msgid "Create new file in:\n%s"
+msgstr "Tạo tệp mới trong:\n%s"
+
+msgid "Could not create the file."
+msgstr "Không thể tạo tệp."
+
+msgid "Link to File or Folder"
+msgstr "Liên kết tới tệp hoặc thư mục"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Đường dẫn tới tệp hoặc thư mục cần liên kết:"
+
+msgid "Could not create the link."
+msgstr "Không thể tạo liên kết."
+
+msgid "Permanently delete %s?"
+msgstr "Xoá vĩnh viễn %s?"
+
+msgid "This cannot be undone."
+msgstr "Không thể hoàn tác."
+
+msgid "Move %s to the trash?"
+msgstr "Chuyển %s vào thùng rác?"
+
+msgid "Could not run “%s”."
+msgstr "Không thể chạy “%s”."
+
+msgid "Could not start %s."
+msgstr "Không thể khởi chạy %s."
+
+msgid "Could not start the application."
+msgstr "Không thể khởi chạy ứng dụng."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” là tệp thực thi."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Bạn muốn chạy nó hay mở nó bằng một ứng dụng?"
+
+msgid "Run"
+msgstr "Chạy"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "Chọn ứng dụng để mở %s (%s):"
+
+msgid "Or command:"
+msgstr "Hoặc lệnh:"
+
+msgid "Remember application association for this type of file"
+msgstr "Nhớ liên kết ứng dụng cho loại tệp này"
+
+msgid "%s free of %s"
+msgstr "Trống %s / %s"
+
+msgid "Configure Sections"
+msgstr "Cấu hình các phần"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "Các phần được đánh dấu hiện trong bảng Địa điểm theo thứ tự này."
+
+msgid "Move Up"
+msgstr "Chuyển lên"
+
+msgid "Move Down"
+msgstr "Chuyển xuống"
+
+msgid "Could not mount the device: %s"
+msgstr "Không thể gắn thiết bị: %s"
+
+msgid "Configure Sections…"
+msgstr "Cấu hình các phần…"
+
+msgid "Hide Hidden Entries"
+msgstr "Ẩn các mục bị ẩn"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Mọi mục trong thùng rác sẽ bị xoá vĩnh viễn."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Không thể gỡ thiết bị an toàn: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Không thể tháo gắn thiết bị: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "Dùng phông chữ _hệ thống"
+
+msgid "Context Menu Action"
+msgstr "Hành động trong trình đơn ngữ cảnh"
+
+msgid "Types:"
+msgstr "Loại:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f tệp đầu tiên, %F mọi tệp, %u / %U dạng URI, %n / %N tên, %d thư mục hiện tại."
+
+msgid "Show for _files"
+msgstr "Hiện cho _tệp"
+
+msgid "Show for f_olders"
+msgstr "Hiện cho thư _mục"
+
+msgid "Show when _several items are selected"
+msgstr "Hiện khi chọn _nhiều mục"
+
+msgid "Run in a _terminal"
+msgstr "Chạy trong _dòng lệnh"
+
+msgid "Custom Actions"
+msgstr "Hành động tuỳ chỉnh"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Mục riêng của bạn cho trình đơn ngữ cảnh của tệp và thư mục."
+
+msgid "_Add…"
+msgstr "_Thêm…"
+
+msgid "_Edit…"
+msgstr "_Sửa…"
+
+msgid "_Remove"
+msgstr "_Gỡ bỏ"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Phím tắt viết như <Control>c hoặc <Shift>Delete. Phân tách nhiều phím bằng dấu phẩy. Để trống để dùng mặc định."
+
+msgid "files below %d MiB"
+msgstr "tệp dưới %d MiB"
+
+msgid "_Restore Defaults"
+msgstr "_Khôi phục mặc định"
+
+msgid "_Apply"
+msgstr "Á_p dụng"
+
+msgid "Folders & Tabs"
+msgstr "Thư mục và thẻ"
+
+msgid "This location:"
+msgstr "Vị trí này:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Giữ một cửa sổ Beluga duy nhất, mở thư mục mới trong thẻ"
+
+msgid "Tabs:"
+msgstr "Thẻ:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Thẻ có độ rộng cố định sẽ hẹp lại, tất cả như nhau, khi không đủ chỗ."
+
+msgid "No terminal found"
+msgstr "Không tìm thấy dòng lệnh"
+
+msgid "Detected: %s"
+msgstr "Đã phát hiện: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "Được dùng bởi F4 và Mở dòng lệnh tại đây. %d trong lệnh được thay bằng thư mục; nếu không, dòng lệnh khởi động trong thư mục đó. Đây từng là thiết lập hệ thống KDE."
+
+msgid "New folders:"
+msgstr "Thư mục mới:"
+
+msgid "Show _previews in new folders"
+msgstr "Hiện ảnh _xem trước trong thư mục mới"
+
+msgid "Audio (cover art)"
+msgstr "Âm thanh (ảnh bìa)"
+
+msgid "PDF documents"
+msgstr "Tài liệu PDF"
+
+msgid "Text files"
+msgstr "Tệp văn bản"
+
+msgid "Fonts"
+msgstr "Phông chữ"
+
+msgid "Office documents"
+msgstr "Tài liệu văn phòng"
+
+msgid "Ask for confirmation when:"
+msgstr "Hỏi xác nhận khi:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Hỏi xác nhận trong Beluga khi:"
+
+msgid "Use _long date format"
+msgstr "Dùng định dạng ngày _dài"
+
+msgid "Show _hidden folders"
+msgstr "Hiện thư mục _ẩn"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Tự _động cuộn tới thư mục hiện tại"
+
+msgid "Places Panel:"
+msgstr "Bảng Địa điểm:"
+
+msgid "Status & Location bars"
+msgstr "Thanh trạng thái và vị trí"
+
+msgid "Show free _space"
+msgstr "Hiện dung lượng _trống"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Dù sao thì Xem › Nhớ kiểu xem cho thư mục này cũng cho một thư mục kiểu riêng. Một số khung xem đặc biệt như tìm kiếm, tệp gần đây hay thùng rác vẫn dùng kiểu riêng của chúng."
+
+msgid "Open files and folders with a single click"
+msgstr "Mở tệp và thư mục bằng một cú nhấp"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Giữ _chỉ mục thư mục nhà để tìm kiếm tức thì"
+
+msgid "levels deep"
+msgstr "cấp độ sâu"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Tương đối (Hôm nay, Hôm qua…)"
+
+msgid "Absolute"
+msgstr "Tuyệt đối"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Ký hiệu (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Số (0755)"
+
+msgid "Combined"
+msgstr "Kết hợp"
+
+msgid "Elide in the middle"
+msgstr "Rút gọn ở giữa"
+
+msgid "Elide at the end"
+msgstr "Rút gọn ở cuối"
+
+msgid "Disk usage:"
+msgstr "Dung lượng đĩa:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Hiện cột Dung lượng _đĩa"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Dung lượng mỗi tệp và mỗi thư mục trọn vẹn chiếm trên đĩa, kèm một thanh cho phần của nó trong thư mục, như Công cụ › Dung lượng đĩa. Thư mục được đọc toàn bộ ở chế độ nền; sắp xếp theo cột để thấy cái lớn nhất trước. \"Ở lại trên ổ này\" trong cửa sổ Dung lượng đĩa cũng áp dụng ở đây."
+
+msgid "Show in the context menu"
+msgstr "Hiện trong trình đơn ngữ cảnh"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Sao chép tới' và 'Di chuyển tới'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Xoá (ngoài Chuyển vào thùng rác)"
+
+msgid "Cleanup:"
+msgstr "Dọn dẹp:"
+
+msgid "Delete files older than"
+msgstr "Xoá tệp cũ hơn"
+
+msgid "days"
+msgstr "ngày"
+
+msgid "Limit to"
+msgstr "Giới hạn ở"
+
+msgid "percent of the disk"
+msgstr "phần trăm đĩa"
+
+msgid "Keep the trash on the home drive"
+msgstr "Giữ thùng rác trên ổ của thư mục nhà"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Tệp chuyển vào thùng rác từ các ổ khác được sao chép vào thùng rác trong thư mục nhà, nên các ổ đó không có thư mục .Trash-1000. Khi đó chuyển tệp lớn vào thùng rác sẽ lâu hơn."
+
+msgid "Full trash:"
+msgstr "Thùng rác đầy:"
+
+msgid "When the limit is reached:"
+msgstr "Khi đạt giới hạn:"
+
+msgid "Show a warning"
+msgstr "Hiện cảnh báo"
+
+msgid "Delete the oldest items"
+msgstr "Xoá các mục cũ nhất"
+
+msgid "Delete the largest items"
+msgstr "Xoá các mục lớn nhất"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Đây từng là thiết lập hệ thống KDE. Giới hạn được áp dụng khi Beluga khởi động và sau khi chuyển mục vào thùng rác."
+
+msgid "Calculating trash size…"
+msgstr "Đang tính kích thước thùng rác…"
+
+msgid "The trash currently uses %s."
+msgstr "Thùng rác hiện dùng %s."
+
+msgid "_Empty Trash Now"
+msgstr "_Dọn sạch thùng rác ngay"
+
+msgid "Vim Mode"
+msgstr "Chế độ Vim"
+
+msgid "Vim mode:"
+msgstr "Chế độ Vim:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Dùng phím kiểu Vim trong khung xem"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Chế độ thường di chuyển bằng h j k l và chạy các phím bên dưới; v, V và Ctrl+V để chọn; i và a để đổi tên (chế độ chèn); Esc trở về chế độ thường; : mở dòng lệnh. Các phím với Ctrl hoặc Alt không có ở đây vẫn giữ ý nghĩa thông thường."
+
+msgid "Leader key:"
+msgstr "Phím dẫn:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "<leader> trong các phím bên dưới, vd. <Space> hoặc ,"
+
+msgid "Wait for more keys:"
+msgstr "Chờ thêm phím:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (dd sau d, gg sau g)"
+
+msgid "Keys"
+msgstr "Phím"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Ký pháp Vim, nhiều phím cách nhau bằng dấu cách: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Để trống để dùng mặc định."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q đóng cửa sổ (:q! không hỏi về các thẻ), :qa thoát Beluga, :e hoặc :cd ĐƯỜNG-DẪN mở thư mục, :tabnew [ĐƯỜNG-DẪN], :tabclose, :tabonly, :sp hoặc :vs [ĐƯỜNG-DẪN] chia khung xem, :only đóng khung xem kia, :mkdir TÊN, :touch TÊN, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!LỆNH chạy lệnh shell trong thư mục."
+
+msgid "Keyboard Shortcuts"
+msgstr "Phím tắt"
+
+msgid "Only files on this computer can be read."
+msgstr "Chỉ đọc được tệp trên máy tính này."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga được biên dịch không có FFmpeg."
+
+msgid "Reading…"
+msgstr "Đang đọc…"
+
+msgid "No details found."
+msgstr "Không tìm thấy chi tiết."
+
+msgid "Change the folder's icon"
+msgstr "Đổi biểu tượng thư mục"
+
+msgid "Could not change the icon."
+msgstr "Không thể đổi biểu tượng."
+
+msgid "%zu items"
+msgstr "%zu mục"
+
+msgid "No default application"
+msgstr "Không có ứng dụng mặc định"
+
+msgid "C_hange…"
+msgstr "Đổ_i…"
+
+msgid "Opens with:"
+msgstr "Mở bằng:"
+
+msgid "Can View"
+msgstr "Được xem"
+
+msgid "Can View Content"
+msgstr "Được xem nội dung"
+
+msgid "Is _executable"
+msgstr "Có thể _thực thi"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Áp dụng thay đổi cho mọi thư mục _con và nội dung của chúng"
+
+msgid "Could not read the file."
+msgstr "Không thể đọc tệp."
+
+msgid "Paste a checksum to compare"
+msgstr "Dán mã kiểm tra để so sánh"
+
+msgid "Verify:"
+msgstr "Xác minh:"
+
+msgid "The checksums match."
+msgstr "Mã kiểm tra khớp."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Không có mã kiểm tra đã tính nào khớp. Hãy tính loại tương ứng trước."
+
+msgid "Could not change the permissions."
+msgstr "Không thể đổi quyền."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Lọc theo tên (ký tự đại diện như *.txt dùng được)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Giữ bộ lọc khi đổi thư mục"
+
+msgid "In This Folder"
+msgstr "Trong thư mục này"
+
+msgid "In Your Files"
+msgstr "Trong tệp của bạn"
+
+msgid "Any Time"
+msgstr "Bất kỳ lúc nào"
+
+msgid "Last 7 Days"
+msgstr "7 ngày qua"
+
+msgid "Last 30 Days"
+msgstr "30 ngày qua"
+
+msgid "Last Year"
+msgstr "Năm qua"
+
+msgid "Hidden files"
+msgstr "Tệp ẩn"
+
+msgid "Duplicate Tab"
+msgstr "Nhân đôi thẻ"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Các hành động phía trên thanh vị trí trong danh sách nằm bên trái nó, còn lại nằm bên phải. * đánh dấu các hành động không ở vị trí của thanh công cụ mặc định."
+
+msgid "A_vailable actions:"
+msgstr "Hành động _có sẵn:"
+
+msgid "Add to the tool bar"
+msgstr "Thêm vào thanh công cụ"
+
+msgid "Remove from the tool bar"
+msgstr "Gỡ khỏi thanh công cụ"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Chuyển lên (sang trái trên thanh công cụ)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Chuyển xuống (sang phải trên thanh công cụ)"
+
+msgid "C_urrent actions:"
+msgstr "Hành động _hiện tại:"
+
+msgid "_Defaults"
+msgstr "_Mặc định"
+
+msgid "Show Columns"
+msgstr "Hiện cột"
+
+msgid "Modified: %s"
+msgstr "Sửa đổi: %s"
+
+msgid "Original location: %s"
+msgstr "Vị trí gốc: %s"
+
+msgid "Less than 1 MiB"
+msgstr "Dưới 1 MiB"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB đến 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB đến 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB trở lên"
+
+msgid "Not counted yet"
+msgstr "Chưa được đếm"
+
+msgid "A file name cannot contain “/”."
+msgstr "Tên tệp không được chứa “/”."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "Đổi tên “%s” thành “%s” sẽ đổi phần mở rộng của nó. Tệp có thể mở bằng ứng dụng khác hoặc không mở được."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Chế độ chọn: nhấp vào tệp hoặc thư mục để chọn hoặc bỏ chọn."
+
+msgid "_Exit Selection Mode"
+msgstr "_Thoát chế độ chọn"
+
+msgid "_Duplicate"
+msgstr "_Nhân đôi"
+
+msgid "De_lete"
+msgstr "_Xoá"
+
+msgid "Pr_operties"
+msgstr "Th_uộc tính"
+
+msgid "The folder “%s” no longer exists."
+msgstr "Thư mục “%s” không còn tồn tại."
+
+msgid "“%s” selected (%s%s)"
+msgstr "Đã chọn “%s” (%s%s)"
+
+msgid "%s selected"
+msgstr "Đã chọn %s"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "Đã chọn %d"
+
+msgid "Move left"
+msgstr "Sang trái"
+
+msgid "Move down"
+msgstr "Xuống"
+
+msgid "Move up"
+msgstr "Lên"
+
+msgid "Move right"
+msgstr "Sang phải"
+
+msgid "First item"
+msgstr "Mục đầu tiên"
+
+msgid "Last item"
+msgstr "Mục cuối cùng"
+
+msgid "Page down"
+msgstr "Trang xuống"
+
+msgid "Page up"
+msgstr "Trang lên"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "Chọn các mục con trỏ đi qua (trực quan)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Chọn một khoảng, như Shift (dòng trực quan)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Chọn một khối của lưới (khối trực quan)"
+
+msgid "Back to normal mode"
+msgstr "Trở về chế độ thường"
+
+msgid "Copy the item under the cursor"
+msgstr "Sao chép mục dưới con trỏ"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Đổi tên, con trỏ ở đầu (chèn)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Đổi tên, con trỏ sau tên (nối)"
+
+msgid "Rename, name selected (change)"
+msgstr "Đổi tên, chọn sẵn tên (thay)"
+
+msgid "Edit the location"
+msgstr "Sửa vị trí"
+
+msgid "Copied."
+msgstr "Đã sao chép."
+
+msgid "Cut."
+msgstr "Đã cắt."
+
+msgid "Can't open “%s”."
+msgstr "Không thể mở “%s”."
+
+msgid "A name is needed."
+msgstr "Cần một cái tên."
+
+msgid "Unknown view: %s"
+msgstr "Kiểu xem không rõ: %s"
+
+msgid "Unknown option: %s"
+msgstr "Tuỳ chọn không rõ: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Sắp xếp theo tên, kích thước, ngày hoặc loại."
+
+msgid "Not a command: %s"
+msgstr "Không phải lệnh: %s"
+
+msgid "Move"
+msgstr "Di chuyển"
+
+msgid "Risks of Acting as an Administrator"
+msgstr "Rủi ro khi hoạt động với quyền quản trị"
+
+msgid "I Understand and Accept These Risks"
+msgstr "Tôi hiểu và chấp nhận các rủi ro này"
+
+msgid "Act as Administrator"
+msgstr "Hoạt động với quyền quản trị"
+
+msgid "Focus Other View"
+msgstr "Chuyển tiêu điểm sang khung xem kia"
+
+msgid "Split View to Tabs"
+msgstr "Chuyển khung xem chia đôi thành thẻ"
+
+msgid "Folders Panel"
+msgstr "Bảng Thư mục"
+
+msgid "Information Panel"
+msgstr "Bảng Thông tin"
+
+msgid "Focus Places Panel"
+msgstr "Chuyển tiêu điểm tới bảng Địa điểm"
+
+msgid "Go to Last Tab"
+msgstr "Đến thẻ cuối"
+
+msgid "Columns"
+msgstr "Cột"
+
+msgid "Files"
+msgstr "Tệp"
+
+msgid "Configure Toolbars…"
+msgstr "Cấu hình thanh công cụ…"
+
+msgid "Restore to Defaults"
+msgstr "Khôi phục mặc định"
+
+msgid "Panels"
+msgstr "Bảng"
+
+msgid "Recommended Applications"
+msgstr "Ứng dụng đề xuất"
+
+msgid "Other Applications"
+msgstr "Ứng dụng khác"
+
+msgid "File names:"
+msgstr "Tên tệp:"
+
+msgid "no file"
+msgstr "không có tệp"
+
+msgid "files of any size"
+msgstr "tệp mọi kích thước"
+
+msgid "Always show tab bar"
+msgstr "Luôn hiện thanh thẻ"
+
+msgid "Show close button on tabs"
+msgstr "Hiện nút đóng trên thẻ"
+
+msgid "Tab style:"
+msgstr "Kiểu thẻ:"
+
+msgid "Tab width adapts to folder name"
+msgstr "Độ rộng thẻ theo tên thư mục"
+
+msgid "Tabs all have the same fixed width"
+msgstr "Mọi thẻ có cùng độ rộng cố định"
+
+msgid "When closing a split view"
+msgstr "Khi đóng khung xem chia đôi"
+
+msgid "Close the active pane"
+msgstr "Đóng khung đang hoạt động"
+
+msgid "Close the inactive pane"
+msgstr "Đóng khung không hoạt động"
+
+msgid "Close the right pane"
+msgstr "Đóng khung bên phải"
+
+msgid "Open new windows in split view mode"
+msgstr "Mở cửa sổ mới ở chế độ xem chia đôi"
+
+msgid "Local storage:"
+msgstr "Bộ nhớ cục bộ:"
+
+msgid "Show previews for"
+msgstr "Hiện ảnh xem trước cho"
+
+msgid "Remote storage:"
+msgstr "Bộ nhớ từ xa:"
+
+msgid "Renaming a file will change its type"
+msgstr "Đổi tên tệp sẽ đổi loại của nó"
+
+msgid "Switching to act as an administrator"
+msgstr "Chuyển sang hoạt động với quyền quản trị"
+
+msgid "Information Panel:"
+msgstr "Bảng Thông tin:"
+
+msgid "Folders Panel:"
+msgstr "Bảng Thư mục:"
+
+msgid "Limit to home directory when inside it"
+msgstr "Giới hạn trong thư mục nhà khi đang ở bên trong"
+
+msgid "Status Bar:"
+msgstr "Thanh trạng thái:"
+
+msgid "Full width"
+msgstr "Toàn bộ chiều rộng"
+
+msgid "Browse compressed files as folders"
+msgstr "Duyệt tệp nén như thư mục"
+
+msgid "Show item information on hover"
+msgstr "Hiện thông tin mục khi rê chuột"
+
+msgid "Rename single items inline"
+msgstr "Đổi tên mục đơn lẻ tại chỗ"
+
+msgid "Also hide backup files while hiding hidden files"
+msgstr "Ẩn cả tệp sao lưu khi ẩn tệp ẩn"
+
+msgid "Background:"
+msgstr "Nền:"
+
+msgid "Double-click triggers"
+msgstr "Nhấp đúp sẽ"
+
+msgid "Nothing"
+msgstr "Không làm gì"
+
+msgid "Folder size:"
+msgstr "Kích thước thư mục:"
+
+msgid "Show number of items"
+msgstr "Hiện số mục"
+
+msgid "Show size of contents, up to "
+msgstr "Hiện kích thước nội dung, tối đa"
+
+msgid "Show no size"
+msgstr "Không hiện kích thước"
+
+msgid "Long file names:"
+msgstr "Tên tệp dài:"
+
+msgid "Spacing:"
+msgstr "Khoảng cách:"
+
+msgid "Command line"
+msgstr "Dòng lệnh"
+
+msgid "Everywhere"
+msgstr "Mọi nơi"
+
+msgid "File Names"
+msgstr "Tên tệp"
+
+msgid "File Names and Contents"
+msgstr "Tên và nội dung tệp"
+
+msgid "No items found"
+msgstr "Không tìm thấy mục nào"
+
+msgid "Album artist:"
+msgstr "Nghệ sĩ album:"
+
+msgid "Composer:"
+msgstr "Nhà soạn nhạc:"
+
+msgid "Performer:"
+msgstr "Người biểu diễn:"
+
+msgid "Copyright:"
+msgstr "Bản quyền:"
+
+msgid "%ld s"
+msgstr "%ld giây"
+
+msgid "Folder"
+msgstr "Thư mục"
+
+msgid "Free space:"
+msgstr "Dung lượng trống:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "Trống %s / %s (đã dùng %d%%)"
+
+msgid "Copy to Other View"
+msgstr "Sao chép sang khung xem kia"
+
+msgid "Move to Other View"
+msgstr "Di chuyển sang khung xem kia"
+
+msgid "Open With…"
+msgstr "Mở bằng…"
+
+msgid "Other Application…"
+msgstr "Ứng dụng khác…"
+
+msgid "Open in Split View"
+msgstr "Mở trong khung xem chia đôi"
+
+msgid "Filter…"
+msgstr "Lọc…"
+
+msgid "Adjust View Display Style…"
+msgstr "Điều chỉnh kiểu hiển thị…"
+
+msgid "Folders, tabs, and window state from last time"
+msgstr "Thư mục, thẻ và trạng thái cửa sổ lần trước"
+
+msgid "Opening Folders:"
+msgstr "Mở thư mục:"
+
+msgid "Opening many folders at once"
+msgstr "Mở nhiều thư mục cùng lúc"
+
+msgid "Opening many terminals at once"
+msgstr "Mở nhiều dòng lệnh cùng lúc"
+
+msgid "Show item on hover"
+msgstr "Hiện mục khi rê chuột"
+
+msgid "Interface"
+msgstr "Giao diện"
+
+msgid "Display style:"
+msgstr "Kiểu hiển thị:"
+
+msgid "Browsing:"
+msgstr "Duyệt:"
+
+msgid "Content Display"
+msgstr "Hiển thị nội dung"
+
+msgid "Calculating…"
+msgstr "Đang tính…"
+
+msgid "Searching…"
+msgstr "Đang tìm…"
+
+msgid "Loading folder…"
+msgstr "Đang tải thư mục…"
+
+msgid "Rename…"
+msgstr "Đổi tên…"
+
+msgid "%llu byte"
+msgid_plural "%llu bytes"
+msgstr[0] "%llu byte"

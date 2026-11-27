@@ -30,95 +30,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το άνοιγμα της αρχειοθήκης."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ανάγνωση της αρχειοθήκης."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Ακυρώθηκε."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Το αρχείο είναι κρυπτογραφημένο με κωδικό πρόσβασης."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ανάγνωση του «%s»."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Αυτό δεν είναι αρχείο μέσα σε αρχειοθήκη."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Αποσυμπίεση εδώ"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Συμπίεση σε .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Δεν βρέθηκε εξομοιωτής τερματικού."
 
 msgid "Root"
-msgstr ""
+msgstr "Ριζικός κατάλογος"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Τόμος %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Η συσκευή δεν μπορεί να προσαρτηθεί."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Η συσκευή δεν μπορεί να αποπροσαρτηθεί."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Η συσκευή δεν υπάρχει πια."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Αντιγραφή του %s στο «%s»"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Μετακίνηση του %s στο «%s»"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Σύνδεση του %s στο «%s»"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Μετακίνηση του %s στα απορρίμματα"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Διαγραφή του %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Επαναφορά του %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Άδειασμα των απορριμμάτων"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Καταμέτρηση αρχείων…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "«%s»: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Ένας φάκελος δεν μπορεί να μετακινηθεί μέσα στον εαυτό του."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Ένας φάκελος δεν μπορεί να αντιγραφεί μέσα στον εαυτό του."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Τα αρχεία μπορούν να αποσυμπιεστούν μόνο σε τοπικούς φακέλους."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Αποσυμπίεση από «%s»"
 
 msgid "Title:"
 msgstr "Τίτλος:"
@@ -136,7 +136,7 @@ msgid "Track:"
 msgstr "Κομμάτι:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Δίσκος:"
 
 msgid "Date:"
 msgstr "Ημερομηνία:"
@@ -167,71 +167,71 @@ msgstr "Γλώσσα:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Διάρκεια:"
 
 msgid "Format:"
-msgstr ""
+msgstr "Μορφή:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Ρυθμός bit:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Εξώφυλλο:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "Βίντεο:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Βίντεο %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "μονοφωνικό"
 
 msgid "stereo"
-msgstr ""
+msgstr "στερεοφωνικό"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d κανάλι"
+msgstr[1] "%d κανάλια"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bit"
 
 msgid "Audio:"
 msgstr "Ήχος:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Ήχος %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Υπότιτλοι:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Κεφάλαια:"
 
 msgid "Places"
 msgstr "Πίνακας θέσεων"
@@ -279,7 +279,7 @@ msgid "Recent Files"
 msgstr "Πρόσφατα αρχεία"
 
 msgid "Images"
-msgstr ""
+msgstr "Εικόνες"
 
 msgid "Audio"
 msgstr "Ήχος"
@@ -288,37 +288,37 @@ msgid "Folders"
 msgstr "Φάκελοι"
 
 msgid "Archives"
-msgstr ""
+msgstr "Αρχειοθήκες"
 
 msgid "All Files"
 msgstr "Όλα τα αρχεία"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Αναζήτηση για «%s»"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Δεν βρέθηκε εξομοιωτής τερματικού. Ορίστε έναν στο Διαμόρφωση του Beluga › Γενικά › Τερματικό."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Αυτό το σύστημα αρχείων δεν έχει απορρίμματα."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η δημιουργία του αρχείου πληροφοριών των απορριμμάτων."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "Το «%s» υπάρχει ήδη."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Τα απορρίμματα ξεπερνούν το όριο των %s. Σκεφτείτε να τα αδειάσετε."
 
 msgid "Copy"
 msgstr "Αντιγραφή"
 
 msgid "Move"
-msgstr ""
+msgstr "Μετακίνηση"
 
 msgid "Link"
 msgstr "Δεσμός"
@@ -333,21 +333,21 @@ msgid "Create Folder"
 msgstr "Δημιουργία φακέλου"
 
 msgid "Create File"
-msgstr ""
+msgstr "Δημιουργία αρχείου"
 
 msgid "Undo"
 msgstr "Αναίρεση"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Αναίρεση: %s"
 
 msgid "Redo"
 msgstr "Επανάληψη"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Επανάληψη: %s"
 
 #, c-format
 msgid "%d item"
@@ -358,14 +358,14 @@ msgstr[1] "%d αντικείμενα"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d αρχείο"
+msgstr[1] "%d αρχεία"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d φάκελος"
+msgstr[1] "%d φάκελοι"
 
 #, c-format
 msgid "%s, %s"
@@ -373,14 +373,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Σήμερα στις %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Χθες στις %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A στις %H:%M"
 
 #, c-format
 msgid "%ld s"
@@ -388,11 +388,11 @@ msgstr "%ld s"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld λεπ. %ld δευτ."
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld ώρ. %ld λεπ."
 
 #, c-format
 msgid "%s copy"
@@ -400,7 +400,7 @@ msgstr "%s αντίγραφο"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s αντίγραφο %d"
 
 msgid "Name"
 msgstr "Όνομα"
@@ -409,7 +409,7 @@ msgid "Size"
 msgstr "Μέγεθος"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Χρήση δίσκου"
 
 msgid "Modified"
 msgstr "Τροποποιήθηκε"
@@ -424,7 +424,7 @@ msgid "Type"
 msgstr "Τύπος"
 
 msgid "Extension"
-msgstr ""
+msgstr "Επέκταση"
 
 msgid "Permissions"
 msgstr "Δικαιώματα"
@@ -445,22 +445,22 @@ msgid "Deletion Time"
 msgstr "Χρόνος διαγραφής"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Αρχική τοποθεσία"
 
 msgid "Dimensions"
 msgstr "Διαστάσεις"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Το Beluga δεν μπόρεσε να ενεργήσει ως διαχειριστής."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "Χρειάζεται το pkexec (polkit) για να ζητηθεί ο κωδικός διαχειριστή. Εγκαταστήστε το polkit και έναν πράκτορα polkit για την επιφάνεια εργασίας σας."
 
 msgid "Risks of Acting as an Administrator"
 msgstr "Κίνδυνοι δράσης ως Διαχειριστής"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Ένα παράθυρο του Beluga με δικαιώματα διαχειριστή μπορεί να αλλάξει και να διαγράψει οποιοδήποτε αρχείο του υπολογιστή, ακόμη και τα αρχεία που χρειάζεται το σύστημα για να ξεκινήσει. Ένα λάθος εκεί μπορεί να καταστήσει το σύστημα άχρηστο. Χρησιμοποιήστε το μόνο για αρχεία που δεν μπορείτε να αλλάξετε αλλιώς και κλείστε το όταν τελειώσετε.\n\nΣτη συνέχεια το Beluga ζητά τον κωδικό διαχειριστή."
 
 msgid "Cancel"
 msgstr "Ακύρωση"
@@ -532,7 +532,7 @@ msgid "Details View"
 msgstr "Λεπτομερής προβολή"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Προβολή στηλών"
 
 msgid "Zoom In"
 msgstr "Μεγέθυνση"
@@ -541,7 +541,7 @@ msgid "Zoom Out"
 msgstr "Σμίκρυνση"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Επαναφορά εστίασης"
 
 msgid "Show Hidden Files"
 msgstr "Εμφάνιση κρυφών αρχείων"
@@ -556,7 +556,7 @@ msgid "Focus Other View"
 msgstr "Εστίαση στην άλλη προβολή"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Απόσπαση διαιρεμένης προβολής"
 
 msgid "Split View to Tabs"
 msgstr "Μετατροπή της διαιρεμένης προβολής σε καρτέλες"
@@ -571,7 +571,7 @@ msgid "Replace Location"
 msgstr "Αντικατάσταση τοποθεσίας"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Πίνακας τοποθεσιών"
 
 msgid "Folders Panel"
 msgstr "Πίνακας φακέλων"
@@ -580,7 +580,7 @@ msgid "Information Panel"
 msgstr "Πίνακας πληροφοριών"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Πίνακας χρήσης δίσκου"
 
 msgid "Focus Places Panel"
 msgstr "Εστίαση στον πίνακα τοποθεσιών"
@@ -601,31 +601,31 @@ msgid "Up"
 msgstr "Πάνω"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Μετάβαση στην καρτέλα 9"
 
 msgid "Go to Last Tab"
 msgstr "Μετάβαση στην τελευταία καρτέλα"
@@ -646,29 +646,29 @@ msgid "Configure Toolbars"
 msgstr "Διαμόρφωση γραμμών εργαλείων"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Διαμόρφωση του Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Η αναίρεση απέτυχε."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Φάκελος…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Αρχείο κειμένου…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Κενό αρχείο…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Σύνδεσμος σε αρχείο ή φάκελο…"
 
 msgid "Create New"
 msgstr "Δημιουργία νέου"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Άλλη προβολή (%s)"
 
 msgid "Browse…"
 msgstr "Εξερεύνηση…"
@@ -708,7 +708,7 @@ msgid "View Mode"
 msgstr "Τύπος προβολής"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Απομνημόνευση της προβολής για αυτόν τον φάκελο"
 
 msgid "Restore"
 msgstr "Επαναφορά"
@@ -726,13 +726,13 @@ msgid "Open in Split View"
 msgstr "Άνοιγμα σε διαιρεμένη προβολή"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Άνοιγμα στο Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Άνοιγμα περιέχοντος φακέλου"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Επικόλληση στον φάκελο"
 
 msgid "Rename…"
 msgstr "Μετονομασία…"
@@ -744,65 +744,65 @@ msgid "Close"
 msgstr "Κλείσιμο"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ακύρωση"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Το όνομα δεν μπορεί να περιέχει «/»."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Ένα όνομα που ξεκινά με τελεία είναι κρυφό."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η μετονομασία ορισμένων στοιχείων."
 
 msgid "Rename Item"
 msgstr "Μετονομασία αντικειμένου"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Μετονομασία του «%s» σε:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "_Μετονομασία"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η μετονομασία του «%s»."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Αλλαγή του τύπου αρχείου;"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Η μετονομασία του «%s» σε «%s» αλλάζει την επέκτασή του."
 
 msgid "Rename Items"
 msgstr "Μετονομασία αντικειμένων"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Μετονομασία των %zu επιλεγμένων στοιχείων σε:"
 
 msgid "New name #"
 msgstr "Νέο όνομα #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "Το # αντικαθίσταται από αύξουσους αριθμούς· χρησιμοποιήστε ## για αρχικά μηδενικά. Οι επεκτάσεις διατηρούνται."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Έναρξη αρίθμησης από:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Μετακίνηση εδώ"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Αντιγραφή εδώ"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Σύνδεση εδώ"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "Ακ_ύρωση"
 
 msgid "Add Places Entry"
 msgstr "Προσθήκη μιας τοποθεσίας"
@@ -814,25 +814,25 @@ msgid "Label:"
 msgstr "Ετικέτα:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Επιλέξτε φάκελο"
 
 msgid "Location:"
 msgstr "Τοποθεσία:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Επιλογή…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Όνομα εικονιδίου:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Επιλέξτε φάκελο"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Προσθήκη"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Αποθήκευση"
 
 msgid "View Display Style"
 msgstr "Στιλ εμφάνισης προβολής"
@@ -862,19 +862,19 @@ msgid "Descending"
 msgstr "Φθίνουσα"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Εμφάνιση των _φακέλων πρώτα"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Εμφάνιση των κρυφών αρχείων _τελευταία"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Εμφάνιση _προεπισκοπήσεων"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Εμφάνιση σε _ομάδες"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Εμφάνιση των _κρυφών αρχείων"
 
 msgid "Apply to"
 msgstr "Εφαρμόζεται σε"
@@ -883,17 +883,17 @@ msgid "Current folder"
 msgstr "Τρέχοντα φάκελο"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Τρέχων φάκελος μαζί με όλους τους υποφακέλους"
 
 msgid "All folders"
 msgstr "Όλους τους φακέλους"
 
 msgid "_OK"
-msgstr ""
+msgstr "_Εντάξει"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "τροποποιήθηκε %s"
 
 msgid "Folder Already Exists"
 msgstr "Ο φάκελος Υπάρχει Ήδη"
@@ -903,35 +903,35 @@ msgstr "Το αρχείο Υπάρχει Ήδη"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Υπάρχει ήδη φάκελος με όνομα «%s» στο «%s»."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Υπάρχει ήδη αρχείο με όνομα «%s» στο «%s»."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Υπάρχον στοιχείο"
 
 msgid "New item"
-msgstr ""
+msgstr "Νέο στοιχείο"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Πρόταση νέου ονόματος"
 
 msgid "New name:"
-msgstr ""
+msgstr "Νέο όνομα:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Εφαρμογή σε _όλα"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Παράλειψη"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Εγγραφή μέσα"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Αντικατάσταση"
 
 msgid "Skip"
 msgstr "Παράλειψη"
@@ -946,198 +946,198 @@ msgid "Choose an Icon"
 msgstr "Επιλέξτε ένα εικονίδιο"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Αναζήτηση εικονιδίων…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "Αρχείο _εικόνας…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "_Προεπιλεγμένο εικονίδιο"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Επιλέξτε εικόνα"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Οι τοποθεσίες δικτύου χρειάζονται το gvfs. Εγκαταστήστε το πακέτο gvfs (και το gvfs-smb για κοινόχρηστα Windows, το gvfs-nfs για NFS) και μετά αποσυνδεθείτε και συνδεθείτε ξανά."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Αυτή η τοποθεσία δεν είναι φάκελος."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Αυτή η τοποθεσία δεν είναι έγκυρη."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Αυτός ο φάκελος δεν βρίσκεται στην αρχειοθήκη."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s μικρότερο αρχείο"
+msgstr[1] "%s μικρότερα αρχεία"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(άλλος δίσκος, δεν μετρήθηκε)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Μέρος του περιεχομένου του δεν ήταν δυνατό να διαβαστεί."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s σε αρχεία"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s στον δίσκο"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s αρχεία και %s φάκελοι"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Ανάγνωση… %s σε %s αρχεία και %s φακέλους"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Διακόπηκε."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ανάγνωση αυτού του φακέλου."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, διαβάστηκε σε %.1f δευτ."
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s φάκελος δεν ήταν δυνατό να διαβαστεί."
+msgstr[1] ". %s φάκελοι δεν ήταν δυνατό να διαβαστούν."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Μόνο φάκελοι αυτού του υπολογιστή μπορούν να μετρηθούν."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "διαβάστηκε πριν από λιγότερο από ένα λεπτό"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "διαβάστηκε πριν από %d λεπτό"
+msgstr[1] "διαβάστηκε πριν από %d λεπτά"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "διαβάστηκε πριν από %d ώρα"
+msgstr[1] "διαβάστηκε πριν από %d ώρες"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Σαρώστε ξανά για να διαβαστεί πάλι."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "_Φαινομενικό μέγεθος"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Άθροιση των μεγεθών των αρχείων αντί για τον χώρο που καταλαμβάνουν στον δίσκο."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Παραμονή σε αυτόν τον δίσκο"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Να μη μετρώνται άλλοι δίσκοι προσαρτημένοι μέσα σε αυτόν τον φάκελο (όπως ένας φάκελος μουσικής σε άλλο δίσκο). Οι σύνδεσμοι δεν ακολουθούνται ποτέ."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Νέα σάρωση"
 
 msgid "Stop"
 msgstr "Διακοπή"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Κλείσιμο χρήσης δίσκου"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Νέα σάρωση"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Διακοπή"
 
 msgid "Share"
 msgstr "Κοινοποίηση"
 
 msgid "Files"
-msgstr ""
+msgstr "Αρχεία"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Χρήση δίσκου – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "Το «%s» υπάρχει ήδη. Να αντικατασταθεί;"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu από αυτά τα αρχεία υπάρχουν ήδη. Να αντικατασταθούν;"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Το πρόγραμμα από το οποίο αποθηκεύετε θα γράψει πάνω στο υπάρχον περιεχόμενο."
 
 msgid "Replace"
 msgstr "Αντικατάσταση"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Επιλέξτε φάκελο για αποθήκευση."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Επιλογή φακέλου"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Άνοιγμα αρχείων"
 
 msgid "Open File"
-msgstr ""
+msgstr "Άνοιγμα αρχείου"
 
 msgid "Save File"
-msgstr ""
+msgstr "Αποθήκευση αρχείου"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Αποθήκευση αρχείων"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Φάκελος:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "Ό_νομα:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Τύπος:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Επιλογή"
 
 msgid "_Open"
-msgstr ""
+msgstr "Ά_νοιγμα"
 
 msgid "New Folder"
 msgstr "Νέος φάκελος"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Δημιουργία νέου φακέλου στο:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Δημιουργία"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η δημιουργία του φακέλου."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu στοιχεία επιλεγμένα"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Περιεχόμενα:"
 
 msgid "Size:"
 msgstr "Μέγεθος:"
@@ -1149,10 +1149,10 @@ msgid "Folder"
 msgstr "Φάκελος"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Περιέχει:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Καταμέτρηση…"
 
 msgid "Unknown"
 msgstr "Άγνωστο"
@@ -1182,75 +1182,75 @@ msgid "Dimensions:"
 msgstr "Διαστάσεις:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Κατεστραμμένος σύνδεσμος"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (σύνδεσμος)"
 
 msgid "other drive"
-msgstr ""
+msgstr "άλλος δίσκος"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s από %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "απομένουν %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d από %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Λειτουργίες αρχείων σε εξέλιξη"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Χωρίς υποφακέλους"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Επιλογή των δοσμένων αρχείων στους φακέλους τους"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Άνοιγμα του παραθύρου σε διαιρεμένη προβολή"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Πάντα άνοιγμα νέου παραθύρου"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Συνέχιση εκτέλεσης στο παρασκήνιο για την υπηρεσία D-Bus FileManager1"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Αποσύνδεση από το τερματικό (χωρίς τοποθεσία: άνοιγμα του τρέχοντος φακέλου)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Εκτέλεση του επιλογέα αρχείων για το xdg-desktop-portal (εκκινείται από το D-Bus)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Εμφάνιση της έκδοσης"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[ΑΡΧΕΙΟ ή ΦΑΚΕΛΟΣ…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Ενέργεια ως διαχειριστής: οι αλλαγές σε αυτό το παράθυρο μπορούν να βλάψουν το σύστημα."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Κλείσιμο αυτού του παραθύρου;"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Αυτό το παράθυρο έχει %zu ανοιχτές καρτέλες. Το κλείσιμό του τις κλείνει όλες."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Κλείσιμο παραθύρου"
 
 msgid "Configure Toolbars…"
 msgstr "Διαμόρφωση γραμμών εργαλείων…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Εμφάνιση _γραμμής εργαλείων"
 
 msgid "Split"
 msgstr "Διαίρεση"
@@ -1265,79 +1265,79 @@ msgid "Show in Groups"
 msgstr "Εμφάνιση σε ομάδες"
 
 msgid "_File"
-msgstr ""
+msgstr "_Αρχείο"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Νέο _παράθυρο"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "Νέα _καρτέλα"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "_Κλείσιμο καρτέλας"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Δημιουργία _νέου"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "_Μετονομασία…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Διπλότυπο εδώ"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Μετακίνηση στα _απορρίμματα"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Διαγραφή"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Επαναφορά από τα απορρίμματα"
 
 msgid "_Properties"
-msgstr ""
+msgstr "_Ιδιότητες"
 
 msgid "_Quit"
-msgstr ""
+msgstr "Έ_ξοδος"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Επεξεργασία"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Αναίρεση"
 
 msgid "_Redo"
-msgstr ""
+msgstr "Επανά_ληψη"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "Απο_κοπή"
 
 msgid "_Copy"
-msgstr ""
+msgstr "Α_ντιγραφή"
 
 msgid "_Paste"
-msgstr ""
+msgstr "Επι_κόλληση"
 
 msgid "Filter…"
 msgstr "Φίλτρο…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "Ανα_ζήτηση…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Επιλογή ό_λων"
 
 msgid "_View"
-msgstr ""
+msgstr "_Προβολή"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "Μεγέ_θυνση"
 
 msgid "Reset Zoom Level"
 msgstr "Επαναφορά επιπέδου εστίασης"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "Σμί_κρυνση"
 
 msgid "Show Additional Information"
 msgstr "Εμφάνιση πρόσθετων πληροφοριών"
@@ -1352,7 +1352,7 @@ msgid "Adjust View Display Style…"
 msgstr "Ρυθμίστε το στυλ προβολής…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "Ανα_νέωση"
 
 msgid "Panels"
 msgstr "Πίνακες"
@@ -1364,175 +1364,175 @@ msgid "Location Bar"
 msgstr "Γραμμή τοποθεσίας"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Εμφάνιση γραμμής _μενού"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Εμφάνιση γραμμής _κατάστασης"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Μετάβαση"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Πίσω"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Μπροστά"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Πάνω"
 
 msgid "_Home"
-msgstr ""
+msgstr "_Προσωπικός φάκελος"
 
 msgid "Recently Closed Tabs"
 msgstr "Πρόσφατα κλεισμένες καρτέλες"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Εργαλεία"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Άνοιγμα _τερματικού"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Άνοιγμα τερματικού _εδώ"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Χρήση δίσκου…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Ρυθμίσεις"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Διαμόρφωση _γραμμών εργαλείων…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Διαμόρφωση του Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Καμία πρόσφατα κλεισμένη καρτέλα"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Διαχειριστής)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Άνοιγμα %zu φακέλων σε νέες καρτέλες;"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Άνοιγμα φακέλων"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το άνοιγμα του «%s»."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Δεν ήταν δυνατό το άνοιγμα τερματικού."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Νέο αρχείο κειμένου.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Νέο αρχείο"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Άδειασμα των απορριμμάτων;"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Όλα τα στοιχεία στα απορρίμματα θα διαγραφούν οριστικά. Αυτό δεν αναιρείται."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Άνοιγμα %zu τερματικών;"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Άνοιγμα τερματικών"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Δημιουργία νέου αρχείου στο:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η δημιουργία του αρχείου."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Σύνδεσμος σε αρχείο ή φάκελο"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Διαδρομή του αρχείου ή φακέλου προς σύνδεση:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η δημιουργία του συνδέσμου."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Οριστική διαγραφή του %s;"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Αυτό δεν αναιρείται."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Μετακίνηση του %s στα απορρίμματα;"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εκτέλεση του «%s»."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εκκίνηση του %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η εκκίνηση της εφαρμογής."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "Το «%s» είναι εκτελέσιμο αρχείο."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Θέλετε να το εκτελέσετε ή να το ανοίξετε σε μια εφαρμογή;"
 
 msgid "Run"
-msgstr ""
+msgstr "Εκτέλεση"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Επιλέξτε την εφαρμογή για το άνοιγμα του %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Προτεινόμενες εφαρμογές"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Άλλες εφαρμογές"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Ή εντολή:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Απομνημόνευση της συσχέτισης εφαρμογής για αυτόν τον τύπο αρχείου"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%s ελεύθερα από %s"
 
 msgid "Safely Remove"
 msgstr "Ασφαλής αφαίρεση"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Διαμόρφωση ενοτήτων"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Οι επιλεγμένες ενότητες εμφανίζονται στον πίνακα τοποθεσιών με αυτή τη σειρά."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Μετακίνηση πάνω"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Μετακίνηση κάτω"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η προσάρτηση της συσκευής: %s"
 
 msgid "Mount"
 msgstr "Προσάρτηση"
@@ -1559,31 +1559,31 @@ msgid "Add Entry…"
 msgstr "Προσθήκη καταχώρησης…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Διαμόρφωση ενοτήτων…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Απόκρυψη κρυφών καταχωρίσεων"
 
 msgid "Show All Entries"
 msgstr "Εμφάνιση όλων των καταχωρήσεων"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Όλα τα στοιχεία στα απορρίμματα θα διαγραφούν οριστικά."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ασφαλής αφαίρεση της συσκευής: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η αποπροσάρτηση της συσκευής: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Χρήση της γραμματοσειράς του _συστήματος"
 
 msgid "Label font:"
 msgstr "Γραμματοσειρά ετικέτας:"
@@ -1595,7 +1595,7 @@ msgid "Preview icon size:"
 msgstr "Μέγεθος προεπισκόπησης εικονιδίων:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Ενέργεια μενού περιεχομένου"
 
 msgid "Name:"
 msgstr "Όνομα:"
@@ -1607,40 +1607,40 @@ msgid "File names:"
 msgstr "Ονόματα αρχείων:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Τύποι:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f πρώτο αρχείο, %F όλα τα αρχεία, %u / %U ως URI, %n / %N ονόματα, %d τρέχων φάκελος."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Εμφάνιση για _αρχεία"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Εμφάνιση για _φακέλους"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Εμφάνιση όταν έχουν επιλεγεί _πολλά στοιχεία"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Εκτέλεση σε _τερματικό"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Προσαρμοσμένες ενέργειες"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Οι δικές σας καταχωρίσεις για το μενού περιεχομένου αρχείων και φακέλων."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Προσθήκη…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Επεξεργασία…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Αφαίρεση"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Οι συντομεύσεις γράφονται όπως <Control>c ή <Shift>Delete. Χωρίστε περισσότερες με κόμματα. Αφήστε ένα πεδίο κενό για την προεπιλογή."
 
 msgid "no file"
 msgstr "κανένα αρχείο"
@@ -1650,19 +1650,19 @@ msgstr "αρχεία οποιουδήποτε μεγέθους"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "αρχεία κάτω από %d MiB"
 
 msgid "Search…"
 msgstr "Αναζήτηση…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Επαναφορά προεπιλογών"
 
 msgid "_Apply"
-msgstr ""
+msgstr "Ε_φαρμογή"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Φάκελοι και καρτέλες"
 
 msgid "Show on startup:"
 msgstr "Εμφάνιση στην εκκίνηση:"
@@ -1671,7 +1671,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "Φάκελοι, καρτέλες και κατάσταση παραθύρου της τελευταίας φοράς"
 
 msgid "This location:"
-msgstr ""
+msgstr "Αυτή η τοποθεσία:"
 
 msgid "Use Current Location"
 msgstr "Χρήση τρέχουσας τοποθεσίας"
@@ -1683,7 +1683,7 @@ msgid "Opening Folders:"
 msgstr "Άνοιγμα φακέλων:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Διατήρηση ενός μόνο παραθύρου Beluga, με άνοιγμα των νέων φακέλων σε καρτέλες"
 
 msgid "Window:"
 msgstr "Παράθυρο:"
@@ -1695,7 +1695,7 @@ msgid "Show filter bar"
 msgstr "Εμφάνιση γραμμής φίλτρου"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Καρτέλες:"
 
 msgid "Always show tab bar"
 msgstr "Να εμφανίζεται πάντα η γραμμή καρτελών"
@@ -1713,7 +1713,7 @@ msgid "Tabs all have the same fixed width"
 msgstr "Όλες οι καρτέλες έχουν το ίδιο σταθερό πλάτος"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Οι καρτέλες σταθερού πλάτους στενεύουν, όλες εξίσου, όταν δεν χωρούν."
 
 msgid "Open new tabs:"
 msgstr "Άνοιγμα σε νέων καρτελών: "
@@ -1746,42 +1746,42 @@ msgid "Terminal:"
 msgstr "Τερματικό:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Δεν βρέθηκε τερματικό"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Εντοπίστηκε: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Χρησιμοποιείται από το F4 και το Άνοιγμα τερματικού εδώ. Το %d στην εντολή αντικαθίσταται από τον φάκελο· αλλιώς το τερματικό ξεκινά μέσα σε αυτόν. Αυτό ήταν παλιότερα ρύθμιση συστήματος του KDE."
 
 msgid "Previews"
 msgstr "Προεπισκοπήσεις"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Νέοι φάκελοι:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Εμφάνιση _προεπισκοπήσεων στους νέους φακέλους"
 
 msgid "Show previews in the view for:"
 msgstr "Εμφάνιση προεπισκοπήσεων στην προβολή για:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Ήχος (εξώφυλλα)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Έγγραφα PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "Αρχεία κειμένου"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Γραμματοσειρές"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Έγγραφα γραφείου"
 
 msgid "Local storage:"
 msgstr "Τοπική αποθήκευση:"
@@ -1796,7 +1796,7 @@ msgid "Confirmations"
 msgstr "Επιβεβαιώσεις"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Ερώτηση επιβεβαίωσης κατά:"
 
 msgid "Moving files or folders to trash"
 msgstr "Μετακίνηση αρχείων ή φακέλων στα απορρίμματα"
@@ -1811,7 +1811,7 @@ msgid "Renaming a file will change its type"
 msgstr "Η μετονομασία αρχείου θα αλλάξει τον τύπο του"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Ερώτηση επιβεβαίωσης στο Beluga κατά:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Κλείσιμο παραθύρων με πολλαπλές καρτέλες"
@@ -1850,7 +1850,7 @@ msgid "Show item on hover"
 msgstr "Εμφάνιση αντικειμένου στην αιώρηση"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Χρήση _μεγάλης μορφής ημερομηνίας"
 
 msgid "Folders Panel:"
 msgstr "Πίνακας φακέλων:"
@@ -1859,19 +1859,19 @@ msgid "Limit to home directory when inside it"
 msgstr "Περιορισμός στον προσωπικό κατάλογο όταν βρίσκεστε μέσα σε αυτόν"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Εμφάνιση _κρυφών φακέλων"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "_Αυτόματη κύλιση στον τρέχοντα φάκελο"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Πίνακας τοποθεσιών:"
 
 msgid "Icon size:"
 msgstr "Μέγεθος εικονιδίου:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Γραμμές κατάστασης και τοποθεσίας"
 
 msgid "Status Bar:"
 msgstr "Γραμμή κατάστασης:"
@@ -1889,7 +1889,7 @@ msgid "Show zoom slider"
 msgstr "Εμφάνιση κύλισης εστίασης"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Εμφάνιση ελεύθερου _χώρου"
 
 msgid "Location bar:"
 msgstr "Γραμμή τοποθεσίας"
@@ -1916,7 +1916,7 @@ msgid "Remember display style for each folder"
 msgstr "Να γίνεται απομνημόνευση του στιλ εμφάνισης για κάθε φάκελο"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Σε κάθε περίπτωση, το Προβολή › Απομνημόνευση της προβολής για αυτόν τον φάκελο δίνει σε έναν φάκελο δικό του στιλ. Ορισμένες ειδικές προβολές, όπως η αναζήτηση, τα πρόσφατα αρχεία ή τα απορρίμματα, χρησιμοποιούν ακόμη δικό τους στιλ."
 
 msgid "Browsing:"
 msgstr "Περιήγηση:"
@@ -1928,10 +1928,10 @@ msgid "Open folders during drag operations"
 msgstr "Άνοιγμα φακέλων κατά τις λειτουργίες έλκυσης"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Άνοιγμα αρχείων και φακέλων με ένα κλικ"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Διατήρηση _ευρετηρίου του προσωπικού φακέλου για άμεση αναζήτηση"
 
 msgid "Miscellaneous:"
 msgstr "Διάφορα: "
@@ -1988,37 +1988,37 @@ msgid "Show no size"
 msgstr "Εμφάνιση χωρίς μέγεθος"
 
 msgid "levels deep"
-msgstr ""
+msgstr "επίπεδα βάθος"
 
 msgid "Date style:"
 msgstr "Στυλ ημερομηνίας:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Σχετική (Σήμερα, Χθες…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Απόλυτη"
 
 msgid "Permissions style:"
 msgstr "Μορφή δικαιωμάτων:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Συμβολική (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Αριθμητική (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Συνδυασμένη"
 
 msgid "Long file names:"
 msgstr "Μεγάλα ονόματα αρχείων:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Περικοπή στη μέση"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Περικοπή στο τέλος"
 
 msgid "Label width:"
 msgstr "Πλάτος ετικέτας:"
@@ -2060,163 +2060,163 @@ msgid "By clicking on icon or name"
 msgstr "Με κλικ πάνω στο εικονίδιο ή στο όνομα"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Χρήση δίσκου:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Εμφάνιση στήλης _χρήσης δίσκου"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Ο χώρος που καταλαμβάνει στον δίσκο κάθε αρχείο και κάθε ολόκληρος φάκελος, με μια μπάρα για το μερίδιό του στον φάκελο, όπως στο Εργαλεία › Χρήση δίσκου. Οι φάκελοι διαβάζονται ολόκληροι στο παρασκήνιο· ταξινομήστε κατά τη στήλη για να δείτε πρώτα τους μεγαλύτερους. Το \"Παραμονή σε αυτόν τον δίσκο\" του παραθύρου Χρήση δίσκου ισχύει και εδώ."
 
 msgid "View"
 msgstr "Προβολή"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Εμφάνιση στο μενού περιεχομένου"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "«Αντιγραφή σε» και «Μετακίνηση σε»"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Διαγραφή (επιπλέον της Μετακίνησης στα απορρίμματα)"
 
 msgid "Context Menu"
 msgstr "Σχετικό μενού"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Εκκαθάριση:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Διαγραφή αρχείων παλαιότερων από"
 
 msgid "days"
-msgstr ""
+msgstr "ημέρες"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Όριο στο"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "τοις εκατό του δίσκου"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Διατήρηση των απορριμμάτων στον δίσκο του προσωπικού φακέλου"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Τα αρχεία που μετακινούνται στα απορρίμματα από άλλους δίσκους αντιγράφονται στα απορρίμματα του προσωπικού σας φακέλου, ώστε οι δίσκοι αυτοί να μην αποκτούν φάκελο .Trash-1000. Η μετακίνηση μεγάλων αρχείων στα απορρίμματα διαρκεί τότε περισσότερο."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Γεμάτα απορρίμματα:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Όταν συμπληρωθεί το όριο:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Εμφάνιση προειδοποίησης"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Διαγραφή των παλαιότερων στοιχείων"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Διαγραφή των μεγαλύτερων στοιχείων"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Αυτές ήταν παλιότερα ρυθμίσεις συστήματος του KDE. Τα όρια εφαρμόζονται όταν ξεκινά το Beluga και μετά τη μετακίνηση στοιχείων στα απορρίμματα."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Υπολογισμός μεγέθους απορριμμάτων…"
 
 msgid "Trash:"
 msgstr "Απορρίμματα:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Τα απορρίμματα καταλαμβάνουν τώρα %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "Ά_δειασμα απορριμμάτων τώρα"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Λειτουργία Vim"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Λειτουργία Vim:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Χρήση πλήκτρων τύπου Vim στις προβολές"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Η κανονική λειτουργία κινείται με h j k l και εκτελεί τα πλήκτρα παρακάτω· τα v, V και Ctrl+V επιλέγουν· τα i και a μετονομάζουν (λειτουργία εισαγωγής)· το Esc επιστρέφει στην κανονική λειτουργία· το : ανοίγει τη γραμμή εντολών. Τα πλήκτρα με Ctrl ή Alt που δεν αναφέρονται εδώ κρατούν τη συνήθη σημασία τους."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Πλήκτρο leader:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> στα πλήκτρα παρακάτω, π.χ. <Space> ή ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Αναμονή για περισσότερα πλήκτρα:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd μετά το d, gg μετά το g)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Πλήκτρα"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Σημειογραφία Vim, πολλά χωρισμένα με κενά: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Αφήστε ένα πεδίο κενό για την προεπιλογή."
 
 msgid "Command line"
-msgstr ""
+msgstr "Γραμμή εντολών"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q κλείνει το παράθυρο (:q! χωρίς ερώτηση για τις καρτέλες), :qa τερματίζει το Beluga, :e ή :cd ΔΙΑΔΡΟΜΗ ανοίγει φάκελο, :tabnew [ΔΙΑΔΡΟΜΗ], :tabclose, :tabonly, :sp ή :vs [ΔΙΑΔΡΟΜΗ] διαιρούν την προβολή, :only κλείνει την άλλη προβολή, :mkdir ΟΝΟΜΑ, :touch ΟΝΟΜΑ, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!ΕΝΤΟΛΗ εκτελεί εντολή κελύφους στον φάκελο."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Συντομεύσεις πληκτρολογίου"
 
 msgid "Details:"
 msgstr "Λεπτομέρειες:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Μόνο αρχεία αυτού του υπολογιστή μπορούν να διαβαστούν."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Το Beluga μεταγλωττίστηκε χωρίς FFmpeg."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Ανάγνωση…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Δεν βρέθηκαν λεπτομέρειες."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Αλλαγή του εικονιδίου του φακέλου"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η αλλαγή του εικονιδίου."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu στοιχεία"
 
 msgid "Calculating…"
 msgstr "Υπολογισμός…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Καμία προεπιλεγμένη εφαρμογή"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "_Αλλαγή…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Ανοίγει με:"
 
 msgid "Free space:"
 msgstr "Ελεύθερος χώρος:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%s ελεύθερα από %s (%d%% σε χρήση)"
 
 #, c-format
 msgid "%llu byte"
@@ -2228,13 +2228,13 @@ msgid "Forbidden"
 msgstr "Απαγορευμένο"
 
 msgid "Can View"
-msgstr ""
+msgstr "Μπορεί να δει"
 
 msgid "Can View & Modify"
 msgstr "Προβολή και τροποποίηση"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Μπορεί να δει περιεχόμενο"
 
 msgid "Can View & Modify Content"
 msgstr "Προβολή και τροποποίηση περιεχομένου"
@@ -2243,10 +2243,10 @@ msgid "Others:"
 msgstr "Άλλοι:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "Είναι _εκτελέσιμο"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Εφαρμογή των αλλαγών σε όλους τους _υποφακέλους και το περιεχόμενό τους"
 
 msgid "User:"
 msgstr "Χρήστης:"
@@ -2258,22 +2258,22 @@ msgid "Calculate"
 msgstr "Υπολογισμός"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η ανάγνωση του αρχείου."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Επικολλήστε ένα άθροισμα ελέγχου για σύγκριση"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Επαλήθευση:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Τα αθροίσματα ελέγχου ταιριάζουν."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Κανένα υπολογισμένο άθροισμα ελέγχου δεν ταιριάζει. Υπολογίστε πρώτα τον αντίστοιχο τύπο."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η αλλαγή των δικαιωμάτων."
 
 #, c-format
 msgid "Properties for %s"
@@ -2286,16 +2286,16 @@ msgid "Filter:"
 msgstr "Φιλτράρισμα:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Φιλτράρισμα κατά όνομα (λειτουργούν μπαλαντέρ όπως *.txt)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Διατήρηση του φίλτρου κατά την αλλαγή φακέλου"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Σε αυτόν τον φάκελο"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Στα αρχεία σας"
 
 msgid "Everywhere"
 msgstr "Παντού"
@@ -2307,22 +2307,22 @@ msgid "File Names and Contents"
 msgstr "Ονόματα και περιεχόμενο αρχείων"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Οποτεδήποτε"
 
 msgid "Today"
 msgstr "Σήμερα"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "Τελευταίες 7 ημέρες"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "Τελευταίες 30 ημέρες"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Τελευταίος χρόνος"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Κρυφά αρχεία"
 
 msgid "Zoom:"
 msgstr "Ζουμ:"
@@ -2335,7 +2335,7 @@ msgid "%s free"
 msgstr "%s ελεύθερα"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Διπλότυπο καρτέλας"
 
 msgid "Detach Tab"
 msgstr "Αποκόλληση καρτέλας"
@@ -2350,31 +2350,31 @@ msgid "--- separator ---"
 msgstr "--- διαχωριστικό ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Οι ενέργειες πάνω από τη γραμμή τοποθεσίας στη λίστα βρίσκονται αριστερά της, οι άλλες δεξιά της. Το * σημειώνει ενέργειες που δεν είναι εκεί όπου τις έχει η προεπιλεγμένη γραμμή εργαλείων."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "_Διαθέσιμες ενέργειες:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Προσθήκη στη γραμμή εργαλείων"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Αφαίρεση από τη γραμμή εργαλείων"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Μετακίνηση πάνω (αριστερά στη γραμμή εργαλείων)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Μετακίνηση κάτω (δεξιά στη γραμμή εργαλείων)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "_Τρέχουσες ενέργειες:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Προεπιλογές"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Εμφάνιση στηλών"
 
 #, c-format
 msgid "Size: %s"
@@ -2382,11 +2382,11 @@ msgstr "Μέγεθος: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Τροποποιήθηκε: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Αρχική τοποθεσία: %s"
 
 msgid "Yesterday"
 msgstr "Χθες"
@@ -2413,19 +2413,19 @@ msgid "Big"
 msgstr "Μεγάλο"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Λιγότερο από 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB έως 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB έως 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB ή περισσότερο"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Δεν έχει μετρηθεί ακόμη"
 
 msgid "Searching…"
 msgstr "Αναζήτηση…"
@@ -2434,7 +2434,7 @@ msgid "No items matching the filter"
 msgstr "Τα αντικείμενα δεν ταιριάζουν με το φίλτρο"
 
 msgid "No items found"
-msgstr ""
+msgstr "Δεν βρέθηκαν στοιχεία"
 
 msgid "Trash is empty"
 msgstr "Ο κάδος απορριμμάτων είναι άδειος"
@@ -2443,38 +2443,38 @@ msgid "Folder is empty"
 msgstr "Ο φάκελος είναι άδειος"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Ένα όνομα αρχείου δεν μπορεί να περιέχει «/»."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Η μετονομασία του «%s» σε «%s» αλλάζει την επέκτασή του. Το αρχείο μπορεί να ανοίξει με άλλη εφαρμογή ή καθόλου."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Λειτουργία επιλογής: κάντε κλικ σε αρχεία ή φακέλους για να τα επιλέξετε ή να αναιρέσετε την επιλογή."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "Έ_ξοδος από τη λειτουργία επιλογής"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Διπλότυπο"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Διαγραφή"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "_Ιδιότητες"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Ο φάκελος «%s» δεν υπάρχει πια."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "Επιλέχθηκε το «%s» (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "Επιλέχθηκαν %s"
 
 msgid "Loading folder…"
 msgstr "Φόρτωση φακέλου…"
@@ -2482,87 +2482,87 @@ msgstr "Φόρτωση φακέλου…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d επιλεγμένο"
+msgstr[1] "%d επιλεγμένα"
 
 msgid "Move left"
-msgstr ""
+msgstr "Μετακίνηση αριστερά"
 
 msgid "Move down"
-msgstr ""
+msgstr "Μετακίνηση κάτω"
 
 msgid "Move up"
-msgstr ""
+msgstr "Μετακίνηση πάνω"
 
 msgid "Move right"
-msgstr ""
+msgstr "Μετακίνηση δεξιά"
 
 msgid "First item"
-msgstr ""
+msgstr "Πρώτο στοιχείο"
 
 msgid "Last item"
-msgstr ""
+msgstr "Τελευταίο στοιχείο"
 
 msgid "Page down"
-msgstr ""
+msgstr "Σελίδα κάτω"
 
 msgid "Page up"
-msgstr ""
+msgstr "Σελίδα πάνω"
 
 msgid "Parent folder"
 msgstr "Γονικός φάκελος"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Επιλογή των στοιχείων από τα οποία περνά ο δρομέας (οπτική)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Επιλογή εύρους, όπως με το Shift (οπτική γραμμή)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Επιλογή ενός μπλοκ του πλέγματος (οπτικό μπλοκ)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Επιστροφή στην κανονική λειτουργία"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Αντιγραφή του στοιχείου κάτω από τον δρομέα"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Μετονομασία, δρομέας στην αρχή (εισαγωγή)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Μετονομασία, δρομέας μετά το όνομα (προσάρτηση)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Μετονομασία, όνομα επιλεγμένο (αλλαγή)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Επεξεργασία της τοποθεσίας"
 
 msgid "Copied."
-msgstr ""
+msgstr "Αντιγράφηκε."
 
 msgid "Cut."
-msgstr ""
+msgstr "Αποκόπηκε."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "Δεν είναι δυνατό το άνοιγμα του «%s»."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Χρειάζεται όνομα."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Άγνωστη προβολή: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Άγνωστη επιλογή: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Ταξινόμηση κατά όνομα, μέγεθος, ημερομηνία ή τύπο."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Δεν είναι εντολή: %s"

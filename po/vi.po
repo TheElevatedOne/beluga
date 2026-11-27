@@ -17,95 +17,95 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "Không thể mở tệp nén."
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "Không thể đọc tệp nén."
 
 msgid "Cancelled."
-msgstr ""
+msgstr "Đã huỷ."
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "Tệp này được mã hoá bằng mật khẩu."
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "Không thể đọc “%s”."
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "Đây không phải là tệp trong tệp nén."
 
 msgid "Extract Here"
-msgstr ""
+msgstr "Giải nén vào đây"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr "Nén thành .tar.gz"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "Không tìm thấy trình giả lập dòng lệnh nào."
 
 msgid "Root"
-msgstr ""
+msgstr "Gốc"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "Ổ %s"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "Không thể gắn thiết bị này."
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "Không thể tháo gắn thiết bị này."
 
 msgid "The device is gone."
-msgstr ""
+msgstr "Thiết bị không còn nữa."
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "Đang sao chép %s vào “%s”"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "Đang di chuyển %s vào “%s”"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "Đang liên kết %s trong “%s”"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "Đang chuyển %s vào thùng rác"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "Đang xoá %s"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "Đang khôi phục %s"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "Đang dọn sạch thùng rác"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "Đang đếm tệp…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "Không thể di chuyển thư mục vào chính nó."
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "Không thể sao chép thư mục vào chính nó."
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "Chỉ có thể giải nén tệp vào thư mục cục bộ."
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "Đang giải nén từ “%s”"
 
 msgid "Title:"
 msgstr "Tiêu đề:"
@@ -114,7 +114,7 @@ msgid "Artist:"
 msgstr "Nghệ sĩ:"
 
 msgid "Album artist:"
-msgstr ""
+msgstr "Nghệ sĩ album:"
 
 msgid "Album:"
 msgstr "Bộ:"
@@ -123,7 +123,7 @@ msgid "Track:"
 msgstr "Bài:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "Đĩa:"
 
 msgid "Date:"
 msgstr "Ngày:"
@@ -132,16 +132,16 @@ msgid "Genre:"
 msgstr "Thể loại:"
 
 msgid "Composer:"
-msgstr ""
+msgstr "Nhà soạn nhạc:"
 
 msgid "Performer:"
-msgstr ""
+msgstr "Người biểu diễn:"
 
 msgid "Publisher:"
 msgstr "Nhà xuất bản:"
 
 msgid "Copyright:"
-msgstr ""
+msgstr "Bản quyền:"
 
 msgid "Comment:"
 msgstr "Chú thích:"
@@ -154,70 +154,70 @@ msgstr "Ngôn ngữ:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "Thời lượng:"
 
 msgid "Format:"
-msgstr ""
+msgstr "Định dạng:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "Tốc độ bit:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "Ảnh bìa:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f khung/giây"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f khung/giây"
 
 msgid "Video:"
 msgstr "Phim:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "Video %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "đơn kênh"
 
 msgid "stereo"
-msgstr ""
+msgstr "âm thanh nổi"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
+msgstr[0] "%d kênh"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d bit"
 
 msgid "Audio:"
 msgstr "Âm thanh:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "Âm thanh %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "Phụ đề:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "Chương:"
 
 msgid "Places"
 msgstr "Địa điểm"
@@ -265,7 +265,7 @@ msgid "Recent Files"
 msgstr "Tệp gần đây"
 
 msgid "Images"
-msgstr ""
+msgstr "Ảnh"
 
 msgid "Audio"
 msgstr "Âm thanh"
@@ -274,37 +274,37 @@ msgid "Folders"
 msgstr "Thư mục"
 
 msgid "Archives"
-msgstr ""
+msgstr "Tệp nén"
 
 msgid "All Files"
 msgstr "Tất cả các tệp"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "Tìm “%s”"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "Không tìm thấy trình giả lập dòng lệnh nào. Hãy đặt một trình trong Cấu hình Beluga › Chung › Dòng lệnh."
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "Hệ thống tệp này không có thùng rác."
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "Không thể tạo tệp thông tin thùng rác."
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” đã tồn tại."
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "Thùng rác lớn hơn giới hạn %s. Hãy cân nhắc dọn sạch nó."
 
 msgid "Copy"
 msgstr "Chép"
 
 msgid "Move"
-msgstr ""
+msgstr "Di chuyển"
 
 msgid "Link"
 msgstr "Liên kết"
@@ -319,21 +319,21 @@ msgid "Create Folder"
 msgstr "Tạo thư mục"
 
 msgid "Create File"
-msgstr ""
+msgstr "Tạo tệp"
 
 msgid "Undo"
 msgstr "Đảo ngược"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "Hoàn tác: %s"
 
 msgid "Redo"
 msgstr "Làm lại"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "Làm lại: %s"
 
 #, c-format
 msgid "%d item"
@@ -343,12 +343,12 @@ msgstr[0] "%d thứ"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
+msgstr[0] "%d tệp"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
+msgstr[0] "%d thư mục"
 
 #, c-format
 msgid "%s, %s"
@@ -356,26 +356,26 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "Hôm nay lúc %s"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "Hôm qua lúc %s"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A lúc %H:%M"
 
 #, c-format
 msgid "%ld s"
-msgstr ""
+msgstr "%ld giây"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld phút %ld giây"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld giờ %ld phút"
 
 #, c-format
 msgid "%s copy"
@@ -383,7 +383,7 @@ msgstr "%s sao"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s bản sao %d"
 
 msgid "Name"
 msgstr "Tên"
@@ -392,7 +392,7 @@ msgid "Size"
 msgstr "Kích thước"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "Dung lượng đĩa đã dùng"
 
 msgid "Modified"
 msgstr "Chỉnh sửa"
@@ -407,7 +407,7 @@ msgid "Type"
 msgstr "Kiểu"
 
 msgid "Extension"
-msgstr ""
+msgstr "Phần mở rộng"
 
 msgid "Permissions"
 msgstr "Quyền truy cập"
@@ -428,28 +428,28 @@ msgid "Deletion Time"
 msgstr "Thời gian xoá"
 
 msgid "Original Location"
-msgstr ""
+msgstr "Vị trí gốc"
 
 msgid "Dimensions"
 msgstr "Kích thước"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga không thể hoạt động với quyền quản trị."
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "Cần pkexec (polkit) để hỏi mật khẩu quản trị. Hãy cài polkit và một tác tử polkit cho môi trường máy tính của bạn."
 
 msgid "Risks of Acting as an Administrator"
-msgstr ""
+msgstr "Rủi ro khi hoạt động với quyền quản trị"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "Một cửa sổ Beluga có quyền quản trị có thể thay đổi và xoá bất kỳ tệp nào trên máy tính này, kể cả những tệp hệ thống cần để khởi động. Một sai sót ở đó có thể khiến hệ thống không dùng được. Chỉ dùng nó cho những tệp bạn không thể thay đổi bằng cách khác, và đóng nó khi xong việc.\n\nTiếp theo Beluga sẽ hỏi mật khẩu quản trị."
 
 msgid "Cancel"
 msgstr "Huỷ"
 
 msgid "I Understand and Accept These Risks"
-msgstr ""
+msgstr "Tôi hiểu và chấp nhận các rủi ro này"
 
 msgid "New Window"
 msgstr "Cửa sổ mới"
@@ -500,10 +500,10 @@ msgid "Invert Selection"
 msgstr "Đảo chọn lựa"
 
 msgid "Copy to Other View"
-msgstr ""
+msgstr "Sao chép sang khung xem kia"
 
 msgid "Move to Other View"
-msgstr ""
+msgstr "Di chuyển sang khung xem kia"
 
 msgid "Icons View"
 msgstr "Khung xem biểu tượng"
@@ -515,7 +515,7 @@ msgid "Details View"
 msgstr "Khung xem chi tiết"
 
 msgid "Columns View"
-msgstr ""
+msgstr "Xem dạng cột"
 
 msgid "Zoom In"
 msgstr "Phóng to"
@@ -524,25 +524,25 @@ msgid "Zoom Out"
 msgstr "Thu nhỏ"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "Đặt lại thu phóng"
 
 msgid "Show Hidden Files"
 msgstr "Hiện tệp ẩn"
 
 msgid "Act as Administrator"
-msgstr ""
+msgstr "Hoạt động với quyền quản trị"
 
 msgid "Split View"
 msgstr "Chia đôi khung xem"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "Chuyển tiêu điểm sang khung xem kia"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "Tách khung xem chia đôi"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "Chuyển khung xem chia đôi thành thẻ"
 
 msgid "Reload"
 msgstr "Tải lại"
@@ -554,19 +554,19 @@ msgid "Replace Location"
 msgstr "Thay thế địa điểm"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "Bảng Địa điểm"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "Bảng Thư mục"
 
 msgid "Information Panel"
-msgstr ""
+msgstr "Bảng Thông tin"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "Bảng Dung lượng đĩa"
 
 msgid "Focus Places Panel"
-msgstr ""
+msgstr "Chuyển tiêu điểm tới bảng Địa điểm"
 
 msgid "Show Menubar"
 msgstr "Hiện thanh trình đơn"
@@ -584,34 +584,34 @@ msgid "Up"
 msgstr "Lên"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "Đến thẻ 1"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "Đến thẻ 2"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "Đến thẻ 3"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "Đến thẻ 4"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "Đến thẻ 5"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "Đến thẻ 6"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "Đến thẻ 7"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "Đến thẻ 8"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "Đến thẻ 9"
 
 msgid "Go to Last Tab"
-msgstr ""
+msgstr "Đến thẻ cuối"
 
 msgid "Next Tab"
 msgstr "Thẻ sau"
@@ -629,29 +629,29 @@ msgid "Configure Toolbars"
 msgstr "Cấu hình thanh công cụ"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Cấu hình Beluga"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "Hoàn tác thất bại."
 
 msgid "Folder…"
-msgstr ""
+msgstr "Thư mục…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "Tệp văn bản…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "Tệp trống…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "Liên kết tới tệp hoặc thư mục…"
 
 msgid "Create New"
 msgstr "Tạo mới"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "Khung xem khác (%s)"
 
 msgid "Browse…"
 msgstr "Duyệt…"
@@ -666,14 +666,14 @@ msgid "Open"
 msgstr "Mở"
 
 msgid "Open With…"
-msgstr ""
+msgstr "Mở bằng…"
 
 #, c-format
 msgid "Open with %s"
 msgstr "Mở bằng %s"
 
 msgid "Other Application…"
-msgstr ""
+msgstr "Ứng dụng khác…"
 
 msgid "Open With"
 msgstr "Mở bằng"
@@ -691,7 +691,7 @@ msgid "View Mode"
 msgstr "Chế độ xem"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "Nhớ kiểu xem cho thư mục này"
 
 msgid "Restore"
 msgstr "Phục hồi"
@@ -706,19 +706,19 @@ msgid "Open in New Window"
 msgstr "Mở trong cửa sổ mới"
 
 msgid "Open in Split View"
-msgstr ""
+msgstr "Mở trong khung xem chia đôi"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Mở trong Beluga"
 
 msgid "Open Containing Folder"
 msgstr "Mở thư mục chứa"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "Dán vào thư mục"
 
 msgid "Rename…"
-msgstr ""
+msgstr "Đổi tên…"
 
 msgid "Show Target"
 msgstr "Hiện đích"
@@ -727,65 +727,65 @@ msgid "Close"
 msgstr "Đóng"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "_Huỷ"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "Tên không được chứa “/”."
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "Tên bắt đầu bằng dấu chấm sẽ bị ẩn."
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "Không thể đổi tên một số mục."
 
 msgid "Rename Item"
 msgstr "Đổi tên"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "Đổi tên “%s” thành:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "Đổi _tên"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "Không thể đổi tên “%s”."
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "Đổi loại tệp?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "Đổi tên “%s” thành “%s” sẽ đổi phần mở rộng của nó."
 
 msgid "Rename Items"
 msgstr "Đổi tên"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "Đổi tên %zu mục đã chọn thành:"
 
 msgid "New name #"
 msgstr "Tên mới #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# được thay bằng số tăng dần; dùng ## để có số 0 ở đầu. Phần mở rộng được giữ nguyên."
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "Bắt đầu đánh số từ:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "_Di chuyển vào đây"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "_Sao chép vào đây"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "_Liên kết tại đây"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "H_uỷ"
 
 msgid "Add Places Entry"
 msgstr "Thêm mục địa điểm"
@@ -797,25 +797,25 @@ msgid "Label:"
 msgstr "Nhãn:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "Chọn một thư mục"
 
 msgid "Location:"
 msgstr "Địa điểm:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "_Chọn…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "Tên biểu tượng:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "Chọn thư mục"
 
 msgid "_Add"
-msgstr ""
+msgstr "_Thêm"
 
 msgid "_Save"
-msgstr ""
+msgstr "_Lưu"
 
 msgid "View Display Style"
 msgstr "Kiểu cách hiển thị khung xem"
@@ -830,7 +830,7 @@ msgid "Details"
 msgstr "Chi tiết"
 
 msgid "Columns"
-msgstr ""
+msgstr "Cột"
 
 msgid "View mode:"
 msgstr "Chế độ xem:"
@@ -845,19 +845,19 @@ msgid "Descending"
 msgstr "Giảm dần"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "Hiện _thư mục trước"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "Hiện tệp ẩn ở _cuối"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "Hiện ảnh _xem trước"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "Hiện theo _nhóm"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "Hiện tệp _ẩn"
 
 msgid "Apply to"
 msgstr "Áp dụng cho"
@@ -866,17 +866,17 @@ msgid "Current folder"
 msgstr "Thư mục hiện tại"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "Thư mục hiện tại gồm mọi thư mục con"
 
 msgid "All folders"
 msgstr "Tất cả thư mục"
 
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "sửa đổi %s"
 
 msgid "Folder Already Exists"
 msgstr "Thư mục đã tồn tại"
@@ -886,35 +886,35 @@ msgstr "Tệp đã tồn tại"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Đã có thư mục tên “%s” trong “%s”."
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "Đã có tệp tên “%s” trong “%s”."
 
 msgid "Existing item"
-msgstr ""
+msgstr "Mục hiện có"
 
 msgid "New item"
-msgstr ""
+msgstr "Mục mới"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "_Gợi ý tên mới"
 
 msgid "New name:"
-msgstr ""
+msgstr "Tên mới:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "Áp dụng cho _tất cả"
 
 msgid "S_kip"
-msgstr ""
+msgstr "_Bỏ qua"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "_Ghi vào bên trong"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "_Ghi đè"
 
 msgid "Skip"
 msgstr "Bỏ qua"
@@ -929,194 +929,194 @@ msgid "Choose an Icon"
 msgstr "Chọn một biểu tượng"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "Tìm biểu tượng…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "Tệp _ảnh…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "Biểu tượng _mặc định"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "Chọn ảnh"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "Vị trí mạng cần gvfs. Hãy cài gói gvfs (và gvfs-smb cho chia sẻ Windows, gvfs-nfs cho NFS), rồi đăng xuất và đăng nhập lại."
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "Vị trí này không phải là thư mục."
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "Vị trí này không hợp lệ."
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "Thư mục này không có trong tệp nén."
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
+msgstr[0] "%s tệp nhỏ hơn"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(ổ khác, không tính)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "Không thể đọc một phần nội dung."
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "%s trong tệp"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "%s trên đĩa"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s tệp và %s thư mục"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "Đang đọc… %s trong %s tệp và %s thư mục"
 
 msgid "Stopped."
-msgstr ""
+msgstr "Đã dừng."
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "Không thể đọc thư mục này."
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, đọc trong %.1f giây"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
+msgstr[0] ". Không thể đọc %s thư mục."
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "Chỉ đo được thư mục trên máy tính này."
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "đọc chưa đầy một phút trước"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
+msgstr[0] "đọc %d phút trước"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
+msgstr[0] "đọc %d giờ trước"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s. Quét lại để đọc lại."
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "Kích thước _biểu kiến"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "Cộng kích thước tệp thay vì dung lượng đĩa mà tệp chiếm."
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "_Ở lại trên ổ này"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "Không tính các ổ khác được gắn bên trong thư mục này (như thư mục nhạc trên một đĩa khác). Liên kết không bao giờ được theo."
 
 msgid "Rescan"
-msgstr ""
+msgstr "Quét lại"
 
 msgid "Stop"
 msgstr "Dừng"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "Đóng Dung lượng đĩa"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "_Quét lại"
 
 msgid "S_top"
-msgstr ""
+msgstr "_Dừng"
 
 msgid "Share"
 msgstr "Chia sẻ"
 
 msgid "Files"
-msgstr ""
+msgstr "Tệp"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "Dung lượng đĩa – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” đã tồn tại. Thay thế nó?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "%zu tệp trong số này đã tồn tại. Thay thế chúng?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "Chương trình bạn đang lưu từ đó sẽ ghi đè lên nội dung hiện có."
 
 msgid "Replace"
 msgstr "Thay thế"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "Chọn một thư mục để lưu vào."
 
 msgid "Select Folder"
-msgstr ""
+msgstr "Chọn thư mục"
 
 msgid "Open Files"
-msgstr ""
+msgstr "Mở tệp"
 
 msgid "Open File"
-msgstr ""
+msgstr "Mở tệp"
 
 msgid "Save File"
-msgstr ""
+msgstr "Lưu tệp"
 
 msgid "Save Files"
-msgstr ""
+msgstr "Lưu các tệp"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "_Thư mục:"
 
 msgid "_Name:"
-msgstr ""
+msgstr "_Tên:"
 
 msgid "_Type:"
-msgstr ""
+msgstr "_Loại:"
 
 msgid "_Select"
-msgstr ""
+msgstr "_Chọn"
 
 msgid "_Open"
-msgstr ""
+msgstr "_Mở"
 
 msgid "New Folder"
 msgstr "Thư mục mới"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "Tạo thư mục mới trong:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "_Tạo"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "Không thể tạo thư mục."
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "Đã chọn %zu mục"
 
 msgid "Contents:"
-msgstr ""
+msgstr "Nội dung:"
 
 msgid "Size:"
 msgstr "Kích thước:"
@@ -1125,13 +1125,13 @@ msgid "Type:"
 msgstr "Kiểu:"
 
 msgid "Folder"
-msgstr ""
+msgstr "Thư mục"
 
 msgid "Contains:"
-msgstr ""
+msgstr "Chứa:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "Đang đếm…"
 
 msgid "Unknown"
 msgstr "Không rõ"
@@ -1161,75 +1161,75 @@ msgid "Dimensions:"
 msgstr "Kích thước:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "Liên kết hỏng"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (liên kết)"
 
 msgid "other drive"
-msgstr ""
+msgstr "ổ khác"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "còn %s"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "Đang thực hiện thao tác tệp"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "Không có thư mục con"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "Chọn các tệp đã cho trong thư mục của chúng"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "Mở cửa sổ ở chế độ xem chia đôi"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "Luôn mở cửa sổ mới"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "Tiếp tục chạy nền cho dịch vụ D-Bus FileManager1"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "Tách khỏi dòng lệnh (không có vị trí: mở thư mục hiện tại)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "Chạy trình chọn tệp cho xdg-desktop-portal (do D-Bus khởi chạy)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "Hiện phiên bản"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[TỆP hoặc THƯ MỤC…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "Đang hoạt động với quyền quản trị: thay đổi trong cửa sổ này có thể làm hỏng hệ thống."
 
 msgid "Close this window?"
-msgstr ""
+msgstr "Đóng cửa sổ này?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "Cửa sổ này đang mở %zu thẻ. Đóng nó sẽ đóng tất cả."
 
 msgid "Close Window"
-msgstr ""
+msgstr "Đóng cửa sổ"
 
 msgid "Configure Toolbars…"
-msgstr ""
+msgstr "Cấu hình thanh công cụ…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "Hiện thanh _công cụ"
 
 msgid "Split"
 msgstr "Chia đôi"
@@ -1244,79 +1244,79 @@ msgid "Show in Groups"
 msgstr "Hiện theo nhóm"
 
 msgid "_File"
-msgstr ""
+msgstr "_Tệp"
 
 msgid "New _Window"
-msgstr ""
+msgstr "Cửa sổ _mới"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "_Thẻ mới"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "Đó_ng thẻ"
 
 msgid "Create _New"
-msgstr ""
+msgstr "Tạo _mới"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "Đổi _tên…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "_Nhân đôi tại đây"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "Chuyển vào _thùng rác"
 
 msgid "_Delete"
-msgstr ""
+msgstr "_Xoá"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "Khôi phục từ thùng rác"
 
 msgid "_Properties"
-msgstr ""
+msgstr "Th_uộc tính"
 
 msgid "_Quit"
-msgstr ""
+msgstr "_Thoát"
 
 msgid "_Edit"
-msgstr ""
+msgstr "_Sửa"
 
 msgid "_Undo"
-msgstr ""
+msgstr "_Hoàn tác"
 
 msgid "_Redo"
-msgstr ""
+msgstr "_Làm lại"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "_Cắt"
 
 msgid "_Copy"
-msgstr ""
+msgstr "_Sao chép"
 
 msgid "_Paste"
-msgstr ""
+msgstr "_Dán"
 
 msgid "Filter…"
-msgstr ""
+msgstr "Lọc…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "_Tìm…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "Chọn _tất cả"
 
 msgid "_View"
-msgstr ""
+msgstr "_Xem"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "Phóng _to"
 
 msgid "Reset Zoom Level"
 msgstr "Đặt lại cấp độ thu phóng"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "Thu _nhỏ"
 
 msgid "Show Additional Information"
 msgstr "Hiện thông tin bổ sung"
@@ -1325,16 +1325,16 @@ msgid "Show Previews"
 msgstr "Hiện xem thử"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "Khôi phục mặc định"
 
 msgid "Adjust View Display Style…"
-msgstr ""
+msgstr "Điều chỉnh kiểu hiển thị…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "_Tải lại"
 
 msgid "Panels"
-msgstr ""
+msgstr "Bảng"
 
 msgid "Information"
 msgstr "Thông tin"
@@ -1343,175 +1343,175 @@ msgid "Location Bar"
 msgstr "Thanh địa điểm"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "Hiện thanh _trình đơn"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "Hiện thanh _trạng thái"
 
 msgid "_Go"
-msgstr ""
+msgstr "_Đi"
 
 msgid "_Back"
-msgstr ""
+msgstr "_Lùi"
 
 msgid "_Forward"
-msgstr ""
+msgstr "_Tiến"
 
 msgid "_Up"
-msgstr ""
+msgstr "_Lên"
 
 msgid "_Home"
-msgstr ""
+msgstr "Thư mục _nhà"
 
 msgid "Recently Closed Tabs"
 msgstr "Thẻ đóng gần đây"
 
 msgid "_Tools"
-msgstr ""
+msgstr "_Công cụ"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Mở _dòng lệnh"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "Mở dòng lệnh _tại đây"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "_Dung lượng đĩa…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "_Thiết lập"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "Cấu hình _thanh công cụ…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "_Cấu hình Beluga…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "Không có thẻ nào mới đóng"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(Quản trị)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "Mở %zu thư mục trong thẻ mới?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "Mở thư mục"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "Không thể mở “%s”."
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "Không thể mở dòng lệnh."
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "Tệp văn bản mới.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "Tệp mới"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "Dọn sạch thùng rác?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "Mọi mục trong thùng rác sẽ bị xoá vĩnh viễn. Không thể hoàn tác."
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "Mở %zu dòng lệnh?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "Mở dòng lệnh"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "Tạo tệp mới trong:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "Không thể tạo tệp."
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "Liên kết tới tệp hoặc thư mục"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "Đường dẫn tới tệp hoặc thư mục cần liên kết:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "Không thể tạo liên kết."
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "Xoá vĩnh viễn %s?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "Không thể hoàn tác."
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "Chuyển %s vào thùng rác?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "Không thể chạy “%s”."
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "Không thể khởi chạy %s."
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "Không thể khởi chạy ứng dụng."
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” là tệp thực thi."
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "Bạn muốn chạy nó hay mở nó bằng một ứng dụng?"
 
 msgid "Run"
-msgstr ""
+msgstr "Chạy"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "Chọn ứng dụng để mở %s (%s):"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "Ứng dụng đề xuất"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "Ứng dụng khác"
 
 msgid "Or command:"
-msgstr ""
+msgstr "Hoặc lệnh:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "Nhớ liên kết ứng dụng cho loại tệp này"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "Trống %s / %s"
 
 msgid "Safely Remove"
 msgstr "Rút an toàn"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "Cấu hình các phần"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "Các phần được đánh dấu hiện trong bảng Địa điểm theo thứ tự này."
 
 msgid "Move Up"
-msgstr ""
+msgstr "Chuyển lên"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Chuyển xuống"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "Không thể gắn thiết bị: %s"
 
 msgid "Mount"
 msgstr "Gắn kết"
@@ -1538,31 +1538,31 @@ msgid "Add Entry…"
 msgstr "Thêm mục…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "Cấu hình các phần…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "Ẩn các mục bị ẩn"
 
 msgid "Show All Entries"
 msgstr "Hiện tất cả các mục"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "Mọi mục trong thùng rác sẽ bị xoá vĩnh viễn."
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "Không thể gỡ thiết bị an toàn: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "Không thể tháo gắn thiết bị: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "Dùng phông chữ _hệ thống"
 
 msgid "Label font:"
 msgstr "Phông chữ của nhãn:"
@@ -1574,7 +1574,7 @@ msgid "Preview icon size:"
 msgstr "Cỡ biểu tượng xem thử:"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "Hành động trong trình đơn ngữ cảnh"
 
 msgid "Name:"
 msgstr "Tên:"
@@ -1583,74 +1583,74 @@ msgid "Command:"
 msgstr "lệnh:"
 
 msgid "File names:"
-msgstr ""
+msgstr "Tên tệp:"
 
 msgid "Types:"
-msgstr ""
+msgstr "Loại:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f tệp đầu tiên, %F mọi tệp, %u / %U dạng URI, %n / %N tên, %d thư mục hiện tại."
 
 msgid "Show for _files"
-msgstr ""
+msgstr "Hiện cho _tệp"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "Hiện cho thư _mục"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "Hiện khi chọn _nhiều mục"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "Chạy trong _dòng lệnh"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "Hành động tuỳ chỉnh"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "Mục riêng của bạn cho trình đơn ngữ cảnh của tệp và thư mục."
 
 msgid "_Add…"
-msgstr ""
+msgstr "_Thêm…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "_Sửa…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "_Gỡ bỏ"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "Phím tắt viết như <Control>c hoặc <Shift>Delete. Phân tách nhiều phím bằng dấu phẩy. Để trống để dùng mặc định."
 
 msgid "no file"
-msgstr ""
+msgstr "không có tệp"
 
 msgid "files of any size"
-msgstr ""
+msgstr "tệp mọi kích thước"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "tệp dưới %d MiB"
 
 msgid "Search…"
 msgstr " Tìm kiếm…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "_Khôi phục mặc định"
 
 msgid "_Apply"
-msgstr ""
+msgstr "Á_p dụng"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "Thư mục và thẻ"
 
 msgid "Show on startup:"
 msgstr "Hiện khi khởi động:"
 
 msgid "Folders, tabs, and window state from last time"
-msgstr ""
+msgstr "Thư mục, thẻ và trạng thái cửa sổ lần trước"
 
 msgid "This location:"
-msgstr ""
+msgstr "Vị trí này:"
 
 msgid "Use Current Location"
 msgstr "Dùng địa điểm hiện tại"
@@ -1659,10 +1659,10 @@ msgid "Use Default Location"
 msgstr "Dùng địa điểm mặc định"
 
 msgid "Opening Folders:"
-msgstr ""
+msgstr "Mở thư mục:"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "Giữ một cửa sổ Beluga duy nhất, mở thư mục mới trong thẻ"
 
 msgid "Window:"
 msgstr "cửa sổ:"
@@ -1674,25 +1674,25 @@ msgid "Show filter bar"
 msgstr "Hiện thanh lọc"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "Thẻ:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "Luôn hiện thanh thẻ"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "Hiện nút đóng trên thẻ"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "Kiểu thẻ:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "Độ rộng thẻ theo tên thư mục"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "Mọi thẻ có cùng độ rộng cố định"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "Thẻ có độ rộng cố định sẽ hẹp lại, tất cả như nhau, khi không đủ chỗ."
 
 msgid "Open new tabs:"
 msgstr "Mở thẻ mới:"
@@ -1707,75 +1707,75 @@ msgid "Split view:"
 msgstr "Khung xem chia: "
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "Khi đóng khung xem chia đôi"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "Đóng khung đang hoạt động"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "Đóng khung không hoạt động"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "Đóng khung bên phải"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "Mở cửa sổ mới ở chế độ xem chia đôi"
 
 msgid "Terminal:"
 msgstr "Dòng lệnh:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "Không tìm thấy dòng lệnh"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "Đã phát hiện: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "Được dùng bởi F4 và Mở dòng lệnh tại đây. %d trong lệnh được thay bằng thư mục; nếu không, dòng lệnh khởi động trong thư mục đó. Đây từng là thiết lập hệ thống KDE."
 
 msgid "Previews"
 msgstr "Xem thử"
 
 msgid "New folders:"
-msgstr ""
+msgstr "Thư mục mới:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "Hiện ảnh _xem trước trong thư mục mới"
 
 msgid "Show previews in the view for:"
 msgstr "Hiện xem thử trong khung xem cho:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "Âm thanh (ảnh bìa)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "Tài liệu PDF"
 
 msgid "Text files"
-msgstr ""
+msgstr "Tệp văn bản"
 
 msgid "Fonts"
-msgstr ""
+msgstr "Phông chữ"
 
 msgid "Office documents"
-msgstr ""
+msgstr "Tài liệu văn phòng"
 
 msgid "Local storage:"
-msgstr ""
+msgstr "Bộ nhớ cục bộ:"
 
 msgid "Show previews for"
-msgstr ""
+msgstr "Hiện ảnh xem trước cho"
 
 msgid "Remote storage:"
-msgstr ""
+msgstr "Bộ nhớ từ xa:"
 
 msgid "Confirmations"
 msgstr "Xác nhận"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "Hỏi xác nhận khi:"
 
 msgid "Moving files or folders to trash"
 msgstr "Chuyển tệp, thư mục vào thùng rác"
@@ -1787,22 +1787,22 @@ msgid "Deleting files or folders"
 msgstr "Xoá tệp, thư mục"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "Đổi tên tệp sẽ đổi loại của nó"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Hỏi xác nhận trong Beluga khi:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "Đóng cửa sổ có nhiều thẻ"
 
 msgid "Opening many folders at once"
-msgstr ""
+msgstr "Mở nhiều thư mục cùng lúc"
 
 msgid "Opening many terminals at once"
-msgstr ""
+msgstr "Mở nhiều dòng lệnh cùng lúc"
 
 msgid "Switching to act as an administrator"
-msgstr ""
+msgstr "Chuyển sang hoạt động với quyền quản trị"
 
 msgid "When opening an executable file:"
 msgstr "Khi mở một tệp thực thi:"
@@ -1817,7 +1817,7 @@ msgid "Run script"
 msgstr "Chạy kịch bản"
 
 msgid "Information Panel:"
-msgstr ""
+msgstr "Bảng Thông tin:"
 
 msgid "Show previews"
 msgstr "Hiện xem thử"
@@ -1826,40 +1826,40 @@ msgid "Auto-play media files"
 msgstr "Tự động phát các tệp phương tiện"
 
 msgid "Show item on hover"
-msgstr ""
+msgstr "Hiện mục khi rê chuột"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "Dùng định dạng ngày _dài"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "Bảng Thư mục:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "Giới hạn trong thư mục nhà khi đang ở bên trong"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "Hiện thư mục _ẩn"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "Tự _động cuộn tới thư mục hiện tại"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "Bảng Địa điểm:"
 
 msgid "Icon size:"
 msgstr "Cỡ biểu tượng:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "Thanh trạng thái và vị trí"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "Thanh trạng thái:"
 
 msgid "Small"
 msgstr "Nhỏ"
 
 msgid "Full width"
-msgstr ""
+msgstr "Toàn bộ chiều rộng"
 
 msgid "Disabled"
 msgstr "Bị tắt"
@@ -1868,7 +1868,7 @@ msgid "Show zoom slider"
 msgstr "Hiện thanh trượt thu phóng"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "Hiện dung lượng _trống"
 
 msgid "Location bar:"
 msgstr "Thanh địa điểm:"
@@ -1880,13 +1880,13 @@ msgid "Show full path inside location bar"
 msgstr "Hiện đường dẫn đầy đủ trong thanh địa điểm"
 
 msgid "Interface"
-msgstr ""
+msgstr "Giao diện"
 
 msgid "General"
 msgstr "Chung"
 
 msgid "Display style:"
-msgstr ""
+msgstr "Kiểu hiển thị:"
 
 msgid "Use common display style for all folders"
 msgstr "Dùng kiểu cách hiển thị chung cho tất cả các thư mục"
@@ -1895,52 +1895,52 @@ msgid "Remember display style for each folder"
 msgstr "Nhớ kiểu cách hiển thị cho mỗi thư mục"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "Dù sao thì Xem › Nhớ kiểu xem cho thư mục này cũng cho một thư mục kiểu riêng. Một số khung xem đặc biệt như tìm kiếm, tệp gần đây hay thùng rác vẫn dùng kiểu riêng của chúng."
 
 msgid "Browsing:"
-msgstr ""
+msgstr "Duyệt:"
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "Duyệt tệp nén như thư mục"
 
 msgid "Open folders during drag operations"
 msgstr "Mở thư mục khi thực hiện thao tác kéo"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "Mở tệp và thư mục bằng một cú nhấp"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "Giữ _chỉ mục thư mục nhà để tìm kiếm tức thì"
 
 msgid "Miscellaneous:"
 msgstr "Hỗn hợp: "
 
 msgid "Show item information on hover"
-msgstr ""
+msgstr "Hiện thông tin mục khi rê chuột"
 
 msgid "Show selection marker"
 msgstr "Hiện dấu chọn"
 
 msgid "Rename single items inline"
-msgstr ""
+msgstr "Đổi tên mục đơn lẻ tại chỗ"
 
 msgid "Also hide backup files while hiding hidden files"
-msgstr ""
+msgstr "Ẩn cả tệp sao lưu khi ẩn tệp ẩn"
 
 msgid "Background:"
-msgstr ""
+msgstr "Nền:"
 
 msgid "Double-click triggers"
-msgstr ""
+msgstr "Nhấp đúp sẽ"
 
 msgid "Nothing"
-msgstr ""
+msgstr "Không làm gì"
 
 msgid "Go Up"
 msgstr "Đi lên"
 
 msgid "Content Display"
-msgstr ""
+msgstr "Hiển thị nội dung"
 
 msgid "Sorting mode:"
 msgstr "Chế độ sắp xếp: "
@@ -1955,49 +1955,49 @@ msgid "Alphabetical, case sensitive"
 msgstr "Bảng chữ cái, có phân biệt hoa thường"
 
 msgid "Folder size:"
-msgstr ""
+msgstr "Kích thước thư mục:"
 
 msgid "Show number of items"
-msgstr ""
+msgstr "Hiện số mục"
 
 msgid "Show size of contents, up to "
-msgstr ""
+msgstr "Hiện kích thước nội dung, tối đa"
 
 msgid "Show no size"
-msgstr ""
+msgstr "Không hiện kích thước"
 
 msgid "levels deep"
-msgstr ""
+msgstr "cấp độ sâu"
 
 msgid "Date style:"
 msgstr "Kiểu cách ngày:"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "Tương đối (Hôm nay, Hôm qua…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "Tuyệt đối"
 
 msgid "Permissions style:"
 msgstr "Kiểu cách quyền truy cập:"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "Ký hiệu (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "Số (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "Kết hợp"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "Tên tệp dài:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "Rút gọn ở giữa"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "Rút gọn ở cuối"
 
 msgid "Label width:"
 msgstr "Độ rộng nhãn:"
@@ -2018,7 +2018,7 @@ msgid "Unlimited"
 msgstr "Không giới hạn"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "Khoảng cách:"
 
 msgid "Maximum width:"
 msgstr "Độ rộng tối đa:"
@@ -2039,180 +2039,180 @@ msgid "By clicking on icon or name"
 msgstr "Bấm vào biểu tượng hoặc tên"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "Dung lượng đĩa:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "Hiện cột Dung lượng _đĩa"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "Dung lượng mỗi tệp và mỗi thư mục trọn vẹn chiếm trên đĩa, kèm một thanh cho phần của nó trong thư mục, như Công cụ › Dung lượng đĩa. Thư mục được đọc toàn bộ ở chế độ nền; sắp xếp theo cột để thấy cái lớn nhất trước. \"Ở lại trên ổ này\" trong cửa sổ Dung lượng đĩa cũng áp dụng ở đây."
 
 msgid "View"
 msgstr "Xem"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "Hiện trong trình đơn ngữ cảnh"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'Sao chép tới' và 'Di chuyển tới'"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "Xoá (ngoài Chuyển vào thùng rác)"
 
 msgid "Context Menu"
 msgstr "Trình đơn ngữ cảnh"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "Dọn dẹp:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "Xoá tệp cũ hơn"
 
 msgid "days"
-msgstr ""
+msgstr "ngày"
 
 msgid "Limit to"
-msgstr ""
+msgstr "Giới hạn ở"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "phần trăm đĩa"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "Giữ thùng rác trên ổ của thư mục nhà"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "Tệp chuyển vào thùng rác từ các ổ khác được sao chép vào thùng rác trong thư mục nhà, nên các ổ đó không có thư mục .Trash-1000. Khi đó chuyển tệp lớn vào thùng rác sẽ lâu hơn."
 
 msgid "Full trash:"
-msgstr ""
+msgstr "Thùng rác đầy:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "Khi đạt giới hạn:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "Hiện cảnh báo"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "Xoá các mục cũ nhất"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "Xoá các mục lớn nhất"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "Đây từng là thiết lập hệ thống KDE. Giới hạn được áp dụng khi Beluga khởi động và sau khi chuyển mục vào thùng rác."
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "Đang tính kích thước thùng rác…"
 
 msgid "Trash:"
 msgstr "Thùng rác:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "Thùng rác hiện dùng %s."
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "_Dọn sạch thùng rác ngay"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Chế độ Vim"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Chế độ Vim:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "Dùng phím kiểu Vim trong khung xem"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "Chế độ thường di chuyển bằng h j k l và chạy các phím bên dưới; v, V và Ctrl+V để chọn; i và a để đổi tên (chế độ chèn); Esc trở về chế độ thường; : mở dòng lệnh. Các phím với Ctrl hoặc Alt không có ở đây vẫn giữ ý nghĩa thông thường."
 
 msgid "Leader key:"
-msgstr ""
+msgstr "Phím dẫn:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "<leader> trong các phím bên dưới, vd. <Space> hoặc ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "Chờ thêm phím:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (dd sau d, gg sau g)"
 
 msgid "Keys"
-msgstr ""
+msgstr "Phím"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Ký pháp Vim, nhiều phím cách nhau bằng dấu cách: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Để trống để dùng mặc định."
 
 msgid "Command line"
-msgstr ""
+msgstr "Dòng lệnh"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q đóng cửa sổ (:q! không hỏi về các thẻ), :qa thoát Beluga, :e hoặc :cd ĐƯỜNG-DẪN mở thư mục, :tabnew [ĐƯỜNG-DẪN], :tabclose, :tabonly, :sp hoặc :vs [ĐƯỜNG-DẪN] chia khung xem, :only đóng khung xem kia, :mkdir TÊN, :touch TÊN, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!LỆNH chạy lệnh shell trong thư mục."
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Phím tắt"
 
 msgid "Details:"
 msgstr "Chi tiết:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "Chỉ đọc được tệp trên máy tính này."
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga được biên dịch không có FFmpeg."
 
 msgid "Reading…"
-msgstr ""
+msgstr "Đang đọc…"
 
 msgid "No details found."
-msgstr ""
+msgstr "Không tìm thấy chi tiết."
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "Đổi biểu tượng thư mục"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "Không thể đổi biểu tượng."
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu mục"
 
 msgid "Calculating…"
-msgstr ""
+msgstr "Đang tính…"
 
 msgid "No default application"
-msgstr ""
+msgstr "Không có ứng dụng mặc định"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "Đổ_i…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "Mở bằng:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "Dung lượng trống:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "Trống %s / %s (đã dùng %d%%)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
+msgstr[0] "%llu byte"
 
 msgid "Forbidden"
 msgstr "Cấm"
 
 msgid "Can View"
-msgstr ""
+msgstr "Được xem"
 
 msgid "Can View & Modify"
 msgstr "Có thể xem  chỉnh sửa"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "Được xem nội dung"
 
 msgid "Can View & Modify Content"
 msgstr "Có thể xem  chỉnh sửa nội dung"
@@ -2221,10 +2221,10 @@ msgid "Others:"
 msgstr "Khác:"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "Có thể _thực thi"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "Áp dụng thay đổi cho mọi thư mục _con và nội dung của chúng"
 
 msgid "User:"
 msgstr "Người dùng:"
@@ -2236,22 +2236,22 @@ msgid "Calculate"
 msgstr "Tính"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "Không thể đọc tệp."
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "Dán mã kiểm tra để so sánh"
 
 msgid "Verify:"
-msgstr ""
+msgstr "Xác minh:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "Mã kiểm tra khớp."
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "Không có mã kiểm tra đã tính nào khớp. Hãy tính loại tương ứng trước."
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "Không thể đổi quyền."
 
 #, c-format
 msgid "Properties for %s"
@@ -2264,43 +2264,43 @@ msgid "Filter:"
 msgstr "Lọc:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "Lọc theo tên (ký tự đại diện như *.txt dùng được)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "Giữ bộ lọc khi đổi thư mục"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "Trong thư mục này"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "Trong tệp của bạn"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "Mọi nơi"
 
 msgid "File Names"
-msgstr ""
+msgstr "Tên tệp"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "Tên và nội dung tệp"
 
 msgid "Any Time"
-msgstr ""
+msgstr "Bất kỳ lúc nào"
 
 msgid "Today"
 msgstr "Hôm nay"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "7 ngày qua"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "30 ngày qua"
 
 msgid "Last Year"
-msgstr ""
+msgstr "Năm qua"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "Tệp ẩn"
 
 msgid "Zoom:"
 msgstr "Thu phóng:"
@@ -2313,7 +2313,7 @@ msgid "%s free"
 msgstr "%s trống"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "Nhân đôi thẻ"
 
 msgid "Detach Tab"
 msgstr "Tách thẻ"
@@ -2328,31 +2328,31 @@ msgid "--- separator ---"
 msgstr "--- phần phân cách ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "Các hành động phía trên thanh vị trí trong danh sách nằm bên trái nó, còn lại nằm bên phải. * đánh dấu các hành động không ở vị trí của thanh công cụ mặc định."
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "Hành động _có sẵn:"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "Thêm vào thanh công cụ"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "Gỡ khỏi thanh công cụ"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "Chuyển lên (sang trái trên thanh công cụ)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "Chuyển xuống (sang phải trên thanh công cụ)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "Hành động _hiện tại:"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "_Mặc định"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "Hiện cột"
 
 #, c-format
 msgid "Size: %s"
@@ -2360,11 +2360,11 @@ msgstr "Kích thước: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "Sửa đổi: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "Vị trí gốc: %s"
 
 msgid "Yesterday"
 msgstr "Hôm qua"
@@ -2391,28 +2391,28 @@ msgid "Big"
 msgstr "Lớn"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "Dưới 1 MiB"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB đến 100 MiB"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB đến 1 GiB"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB trở lên"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "Chưa được đếm"
 
 msgid "Searching…"
-msgstr ""
+msgstr "Đang tìm…"
 
 msgid "No items matching the filter"
 msgstr "Không có thứ nào khớp với bộ lọc"
 
 msgid "No items found"
-msgstr ""
+msgstr "Không tìm thấy mục nào"
 
 msgid "Trash is empty"
 msgstr "Thùng rác trống"
@@ -2421,125 +2421,125 @@ msgid "Folder is empty"
 msgstr "Thư mục trống"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "Tên tệp không được chứa “/”."
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "Đổi tên “%s” thành “%s” sẽ đổi phần mở rộng của nó. Tệp có thể mở bằng ứng dụng khác hoặc không mở được."
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "Chế độ chọn: nhấp vào tệp hoặc thư mục để chọn hoặc bỏ chọn."
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "_Thoát chế độ chọn"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "_Nhân đôi"
 
 msgid "De_lete"
-msgstr ""
+msgstr "_Xoá"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "Th_uộc tính"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "Thư mục “%s” không còn tồn tại."
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "Đã chọn “%s” (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "Đã chọn %s"
 
 msgid "Loading folder…"
-msgstr ""
+msgstr "Đang tải thư mục…"
 
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
+msgstr[0] "Đã chọn %d"
 
 msgid "Move left"
-msgstr ""
+msgstr "Sang trái"
 
 msgid "Move down"
-msgstr ""
+msgstr "Xuống"
 
 msgid "Move up"
-msgstr ""
+msgstr "Lên"
 
 msgid "Move right"
-msgstr ""
+msgstr "Sang phải"
 
 msgid "First item"
-msgstr ""
+msgstr "Mục đầu tiên"
 
 msgid "Last item"
-msgstr ""
+msgstr "Mục cuối cùng"
 
 msgid "Page down"
-msgstr ""
+msgstr "Trang xuống"
 
 msgid "Page up"
-msgstr ""
+msgstr "Trang lên"
 
 msgid "Parent folder"
 msgstr "Thư mục cha"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "Chọn các mục con trỏ đi qua (trực quan)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Chọn một khoảng, như Shift (dòng trực quan)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "Chọn một khối của lưới (khối trực quan)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "Trở về chế độ thường"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "Sao chép mục dưới con trỏ"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "Đổi tên, con trỏ ở đầu (chèn)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "Đổi tên, con trỏ sau tên (nối)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "Đổi tên, chọn sẵn tên (thay)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "Sửa vị trí"
 
 msgid "Copied."
-msgstr ""
+msgstr "Đã sao chép."
 
 msgid "Cut."
-msgstr ""
+msgstr "Đã cắt."
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "Không thể mở “%s”."
 
 msgid "A name is needed."
-msgstr ""
+msgstr "Cần một cái tên."
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "Kiểu xem không rõ: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "Tuỳ chọn không rõ: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "Sắp xếp theo tên, kích thước, ngày hoặc loại."
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "Không phải lệnh: %s"

@@ -1,0 +1,1409 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "The archive could not be opened."
+msgstr "Arşiv açılamadı."
+
+msgid "The archive could not be read."
+msgstr "Arşiv okunamadı."
+
+msgid "Cancelled."
+msgstr "İptal edildi."
+
+msgid "This file is encrypted with a password."
+msgstr "Bu dosya bir parolayla şifrelenmiş."
+
+msgid "“%s” could not be read."
+msgstr "“%s” okunamadı."
+
+msgid "This is not a file in an archive."
+msgstr "Bu, arşivdeki bir dosya değil."
+
+msgid "Extract Here"
+msgstr "Buraya Çıkar"
+
+msgid "Compress to .tar.gz"
+msgstr ".tar.gz Olarak Sıkıştır"
+
+msgid "No terminal emulator was found."
+msgstr "Uçbirim öykünücüsü bulunamadı."
+
+msgid "Root"
+msgstr "Kök"
+
+msgid "%s Volume"
+msgstr "%s Birimi"
+
+msgid "This device cannot be mounted."
+msgstr "Bu aygıt bağlanamaz."
+
+msgid "This device cannot be unmounted."
+msgstr "Bu aygıtın bağlantısı kesilemez."
+
+msgid "The device is gone."
+msgstr "Aygıt artık yok."
+
+msgid "Copying %s to “%s”"
+msgstr "%s, “%s” konumuna kopyalanıyor"
+
+msgid "Moving %s to “%s”"
+msgstr "%s, “%s” konumuna taşınıyor"
+
+msgid "Linking %s in “%s”"
+msgstr "%s, “%s” içinde bağlanıyor"
+
+msgid "Moving %s to the trash"
+msgstr "%s çöpe taşınıyor"
+
+msgid "Deleting %s"
+msgstr "%s siliniyor"
+
+msgid "Restoring %s"
+msgstr "%s geri yükleniyor"
+
+msgid "Emptying the trash"
+msgstr "Çöp boşaltılıyor"
+
+msgid "Counting files…"
+msgstr "Dosyalar sayılıyor…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "Bir klasör kendi içine taşınamaz."
+
+msgid "A folder cannot be copied into itself."
+msgstr "Bir klasör kendi içine kopyalanamaz."
+
+msgid "Files can only be extracted into local folders."
+msgstr "Dosyalar yalnızca yerel klasörlere çıkarılabilir."
+
+msgid "Extracting from “%s”"
+msgstr "“%s” içinden çıkarılıyor"
+
+msgid "Disc:"
+msgstr "Disk:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Bit rate:"
+msgstr "Bit hızı:"
+
+msgid "Cover:"
+msgstr "Kapak:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "Video %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "mono"
+
+msgid "stereo"
+msgstr "stereo"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanal"
+
+msgid ", %d bit"
+msgstr ", %d bit"
+
+msgid "Audio %d:"
+msgstr "Ses %d:"
+
+msgid "Subtitles:"
+msgstr "Altyazılar:"
+
+msgid "Chapters:"
+msgstr "Bölümler:"
+
+msgid "Images"
+msgstr "Resimler"
+
+msgid "Archives"
+msgstr "Arşivler"
+
+msgid "Search for “%s”"
+msgstr "“%s” için ara"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "Uçbirim öykünücüsü bulunamadı. Beluga'yı Yapılandır › Genel › Uçbirim bölümünden birini ayarlayın."
+
+msgid "This file system has no trash."
+msgstr "Bu dosya sisteminde çöp yok."
+
+msgid "Could not create the trash information file."
+msgstr "Çöp bilgi dosyası oluşturulamadı."
+
+msgid "“%s” already exists."
+msgstr "“%s” zaten var."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "Çöp, %s olan sınırından büyük. Boşaltmayı düşünün."
+
+msgid "Create File"
+msgstr "Dosya Oluştur"
+
+msgid "Undo: %s"
+msgstr "Geri al: %s"
+
+msgid "Redo: %s"
+msgstr "Yinele: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d dosya"
+msgstr[1] "%d dosya"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d klasör"
+msgstr[1] "%d klasör"
+
+msgid "Today at %s"
+msgstr "Bugün %s"
+
+msgid "Yesterday at %s"
+msgstr "Dün %s"
+
+msgid "%A at %H:%M"
+msgstr "%A %H:%M"
+
+msgid "%ld min %ld s"
+msgstr "%ld dk %ld sn"
+
+msgid "%ld h %ld min"
+msgstr "%ld sa %ld dk"
+
+msgid "%s copy %d"
+msgstr "%s kopya %d"
+
+msgid "Disk Usage"
+msgstr "Disk Kullanımı"
+
+msgid "Extension"
+msgstr "Uzantı"
+
+msgid "Original Location"
+msgstr "Özgün Konum"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga yönetici olarak davranamadı."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "Yönetici parolasını sormak için pkexec (polkit) gerekir. Masaüstünüz için polkit ve bir polkit aracısı kurun."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "Yönetici haklarına sahip bir Beluga penceresi bu bilgisayardaki her dosyayı, sistemin başlaması için gereken dosyalar da dahil, değiştirebilir ve silebilir. Orada yapılan bir hata sistemi kullanılamaz hâle getirebilir. Yalnızca başka türlü değiştiremediğiniz dosyalar için kullanın ve işiniz bitince kapatın.\n\nArdından Beluga yönetici parolasını sorar."
+
+msgid "Columns View"
+msgstr "Sütun Görünümü"
+
+msgid "Reset Zoom"
+msgstr "Yakınlaştırmayı Sıfırla"
+
+msgid "Pop out Split View"
+msgstr "Bölünmüş Görünümü Ayır"
+
+msgid "Places Panel"
+msgstr "Yerler Paneli"
+
+msgid "Disk Usage Panel"
+msgstr "Disk Kullanımı Paneli"
+
+msgid "Go to Tab 1"
+msgstr "1. Sekmeye Git"
+
+msgid "Go to Tab 2"
+msgstr "2. Sekmeye Git"
+
+msgid "Go to Tab 3"
+msgstr "3. Sekmeye Git"
+
+msgid "Go to Tab 4"
+msgstr "4. Sekmeye Git"
+
+msgid "Go to Tab 5"
+msgstr "5. Sekmeye Git"
+
+msgid "Go to Tab 6"
+msgstr "6. Sekmeye Git"
+
+msgid "Go to Tab 7"
+msgstr "7. Sekmeye Git"
+
+msgid "Go to Tab 8"
+msgstr "8. Sekmeye Git"
+
+msgid "Go to Tab 9"
+msgstr "9. Sekmeye Git"
+
+msgid "Configure Beluga"
+msgstr "Beluga'yı Yapılandır"
+
+msgid "Undo failed."
+msgstr "Geri alma başarısız oldu."
+
+msgid "Folder…"
+msgstr "Klasör…"
+
+msgid "Text File…"
+msgstr "Metin Dosyası…"
+
+msgid "Empty File…"
+msgstr "Boş Dosya…"
+
+msgid "Link to File or Folder…"
+msgstr "Dosya veya Klasöre Bağlantı…"
+
+msgid "Other View (%s)"
+msgstr "Diğer Görünüm (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "Bu Klasörün Görünümünü Anımsa"
+
+msgid "Open in Beluga"
+msgstr "Beluga'da Aç"
+
+msgid "Paste into Folder"
+msgstr "Klasöre Yapıştır"
+
+msgid "_Cancel"
+msgstr "_İptal"
+
+msgid "The name cannot contain “/”."
+msgstr "Ad “/” içeremez."
+
+msgid "A name starting with a dot is hidden."
+msgstr "Nokta ile başlayan bir ad gizlidir."
+
+msgid "Some items could not be renamed."
+msgstr "Bazı ögeler yeniden adlandırılamadı."
+
+msgid "Rename “%s” to:"
+msgstr "“%s” ögesini yeniden adlandır:"
+
+msgid "_Rename"
+msgstr "_Yeniden Adlandır"
+
+msgid "Could not rename “%s”."
+msgstr "“%s” yeniden adlandırılamadı."
+
+msgid "Change the file type?"
+msgstr "Dosya türü değiştirilsin mi?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "“%s” ögesini “%s” olarak yeniden adlandırmak uzantısını değiştirir."
+
+msgid "Rename the %zu selected items to:"
+msgstr "Seçili %zu ögeyi yeniden adlandır:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# artan sayılarla değiştirilir; baştaki sıfırlar için ## kullanın. Uzantılar korunur."
+
+msgid "Start numbering at:"
+msgstr "Numaralandırmaya şuradan başla:"
+
+msgid "_Move Here"
+msgstr "Buraya _Taşı"
+
+msgid "_Copy Here"
+msgstr "Buraya _Kopyala"
+
+msgid "_Link Here"
+msgstr "Buraya _Bağla"
+
+msgid "C_ancel"
+msgstr "İ_ptal"
+
+msgid "Choose a folder"
+msgstr "Bir klasör seçin"
+
+msgid "C_hoose…"
+msgstr "_Seç…"
+
+msgid "Icon name:"
+msgstr "Simge adı:"
+
+msgid "Choose a Folder"
+msgstr "Bir Klasör Seçin"
+
+msgid "_Add"
+msgstr "_Ekle"
+
+msgid "_Save"
+msgstr "_Kaydet"
+
+msgid "Show _folders first"
+msgstr "Önce _klasörleri göster"
+
+msgid "Show hidden files _last"
+msgstr "Gizli dosyaları _sonda göster"
+
+msgid "Show _previews"
+msgstr "Ö_nizlemeleri göster"
+
+msgid "Show in _groups"
+msgstr "_Gruplar hâlinde göster"
+
+msgid "Show _hidden files"
+msgstr "_Gizli dosyaları göster"
+
+msgid "Current folder including all subfolders"
+msgstr "Tüm alt klasörler dahil geçerli klasör"
+
+msgid "_OK"
+msgstr "_Tamam"
+
+msgid "modified %s"
+msgstr "değiştirilme %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "“%s” adlı bir klasör “%s” içinde zaten var."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "“%s” adlı bir dosya “%s” içinde zaten var."
+
+msgid "Existing item"
+msgstr "Var olan öge"
+
+msgid "New item"
+msgstr "Yeni öge"
+
+msgid "_Suggest New Name"
+msgstr "Yeni Ad _Öner"
+
+msgid "New name:"
+msgstr "Yeni ad:"
+
+msgid "Apply to _all"
+msgstr "_Tümüne uygula"
+
+msgid "S_kip"
+msgstr "_Atla"
+
+msgid "_Write Into"
+msgstr "_İçine Yaz"
+
+msgid "_Overwrite"
+msgstr "Üzerine _Yaz"
+
+msgid "Search icons…"
+msgstr "Simge ara…"
+
+msgid "_Image File…"
+msgstr "_Resim Dosyası…"
+
+msgid "_Default Icon"
+msgstr "_Öntanımlı Simge"
+
+msgid "Choose an Image"
+msgstr "Bir Resim Seçin"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "Ağ konumları gvfs gerektirir. gvfs paketini (Windows paylaşımları için gvfs-smb, NFS için gvfs-nfs ile birlikte) kurun, sonra oturumu kapatıp yeniden açın."
+
+msgid "This location is not a folder."
+msgstr "Bu konum bir klasör değil."
+
+msgid "This location is not valid."
+msgstr "Bu konum geçerli değil."
+
+msgid "This folder is not in the archive."
+msgstr "Bu klasör arşivde yok."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s küçük dosya"
+msgstr[1] "%s küçük dosya"
+
+msgid "(another drive, not counted)"
+msgstr "(başka sürücü, sayılmadı)"
+
+msgid "Some of its contents could not be read."
+msgstr "İçeriğinin bir kısmı okunamadı."
+
+msgid "%s in files"
+msgstr "Dosyalarda %s"
+
+msgid "%s on disk"
+msgstr "Diskte %s"
+
+msgid "%s files and %s folders"
+msgstr "%s dosya ve %s klasör"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "Okunuyor… %s, %s dosya ve %s klasörde"
+
+msgid "Stopped."
+msgstr "Durduruldu."
+
+msgid "This folder could not be read."
+msgstr "Bu klasör okunamadı."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, %.1f sn'de okundu"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s klasör okunamadı."
+msgstr[1] ". %s klasör okunamadı."
+
+msgid "Only folders on this computer can be measured."
+msgstr "Yalnızca bu bilgisayardaki klasörler ölçülebilir."
+
+msgid "read less than a minute ago"
+msgstr "bir dakikadan kısa süre önce okundu"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d dakika önce okundu"
+msgstr[1] "%d dakika önce okundu"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d saat önce okundu"
+msgstr[1] "%d saat önce okundu"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. Yeniden okumak için yeniden tarayın."
+
+msgid "_Apparent size"
+msgstr "_Görünür boyut"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "Dosyaların diskte kapladığı alan yerine dosya boyutlarını topla."
+
+msgid "_Stay on this drive"
+msgstr "Bu _sürücüde kal"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "Bu klasörün içine bağlanmış diğer sürücüleri sayma (başka bir diskteki müzik klasörü gibi). Bağlantılar asla izlenmez."
+
+msgid "Rescan"
+msgstr "Yeniden Tara"
+
+msgid "Close Disk Usage"
+msgstr "Disk Kullanımını Kapat"
+
+msgid "_Rescan"
+msgstr "_Yeniden Tara"
+
+msgid "S_top"
+msgstr "_Durdur"
+
+msgid "Disk Usage – %s"
+msgstr "Disk Kullanımı – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” zaten var. Değiştirilsin mi?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "Bu dosyaların %zu tanesi zaten var. Değiştirilsinler mi?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "Kaydettiğiniz program mevcut içeriğin üzerine yazacak."
+
+msgid "Choose a folder to save in."
+msgstr "Kaydedilecek bir klasör seçin."
+
+msgid "Select Folder"
+msgstr "Klasör Seç"
+
+msgid "Open Files"
+msgstr "Dosyaları Aç"
+
+msgid "Open File"
+msgstr "Dosya Aç"
+
+msgid "Save File"
+msgstr "Dosyayı Kaydet"
+
+msgid "Save Files"
+msgstr "Dosyaları Kaydet"
+
+msgid "_Folder:"
+msgstr "_Klasör:"
+
+msgid "_Name:"
+msgstr "_Ad:"
+
+msgid "_Type:"
+msgstr "_Tür:"
+
+msgid "_Select"
+msgstr "_Seç"
+
+msgid "_Open"
+msgstr "_Aç"
+
+msgid "Create new folder in:\n%s"
+msgstr "Şurada yeni klasör oluştur:\n%s"
+
+msgid "C_reate"
+msgstr "_Oluştur"
+
+msgid "Could not create the folder."
+msgstr "Klasör oluşturulamadı."
+
+msgid "%zu items selected"
+msgstr "%zu öge seçildi"
+
+msgid "Contents:"
+msgstr "İçerik:"
+
+msgid "Contains:"
+msgstr "İçerir:"
+
+msgid "Counting…"
+msgstr "Sayılıyor…"
+
+msgid "Broken Link"
+msgstr "Bozuk Bağlantı"
+
+msgid "%s (link)"
+msgstr "%s (bağlantı)"
+
+msgid "other drive"
+msgstr "başka sürücü"
+
+msgid "%s of %s"
+msgstr "%s / %s"
+
+msgid "%s left"
+msgstr "%s kaldı"
+
+msgid "%d of %d"
+msgstr "%d / %d"
+
+msgid "File operations in progress"
+msgstr "Süren dosya işlemleri"
+
+msgid "No subfolders"
+msgstr "Alt klasör yok"
+
+msgid "Select the given files in their folders"
+msgstr "Verilen dosyaları klasörlerinde seç"
+
+msgid "Open the window in split view"
+msgstr "Pencereyi bölünmüş görünümde aç"
+
+msgid "Always open a new window"
+msgstr "Her zaman yeni pencere aç"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "FileManager1 D-Bus hizmeti için arka planda çalışmaya devam et"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "Uçbirimden ayrıl (konum yoksa: geçerli klasörü aç)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "xdg-desktop-portal için dosya seçiciyi çalıştır (D-Bus tarafından başlatılır)"
+
+msgid "Show the version"
+msgstr "Sürümü göster"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[DOSYA veya KLASÖR…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "Yönetici olarak davranılıyor: bu penceredeki değişiklikler sisteme zarar verebilir."
+
+msgid "Close this window?"
+msgstr "Bu pencere kapatılsın mı?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "Bu pencerede %zu sekme açık. Kapatmak hepsini kapatır."
+
+msgid "Close Window"
+msgstr "Pencereyi Kapat"
+
+msgid "Show _Toolbar"
+msgstr "_Araç Çubuğunu Göster"
+
+msgid "_File"
+msgstr "_Dosya"
+
+msgid "New _Window"
+msgstr "Yeni _Pencere"
+
+msgid "New _Tab"
+msgstr "Yeni _Sekme"
+
+msgid "_Close Tab"
+msgstr "Sekmeyi _Kapat"
+
+msgid "Create _New"
+msgstr "Ye_ni Oluştur"
+
+msgid "_Rename…"
+msgstr "_Yeniden Adlandır…"
+
+msgid "_Duplicate Here"
+msgstr "Buraya _Çoğalt"
+
+msgid "Move to _Trash"
+msgstr "_Çöpe Taşı"
+
+msgid "_Delete"
+msgstr "_Sil"
+
+msgid "Restore from Trash"
+msgstr "Çöpten Geri Yükle"
+
+msgid "_Properties"
+msgstr "Ö_zellikler"
+
+msgid "_Quit"
+msgstr "Çı_k"
+
+msgid "_Edit"
+msgstr "_Düzen"
+
+msgid "_Undo"
+msgstr "_Geri Al"
+
+msgid "_Redo"
+msgstr "_Yinele"
+
+msgid "Cu_t"
+msgstr "_Kes"
+
+msgid "_Copy"
+msgstr "K_opyala"
+
+msgid "_Paste"
+msgstr "_Yapıştır"
+
+msgid "_Search…"
+msgstr "_Ara…"
+
+msgid "Select _All"
+msgstr "_Tümünü Seç"
+
+msgid "_View"
+msgstr "_Görünüm"
+
+msgid "Zoom _In"
+msgstr "_Yakınlaştır"
+
+msgid "Zoom _Out"
+msgstr "_Uzaklaştır"
+
+msgid "Re_load"
+msgstr "_Yeniden Yükle"
+
+msgid "Show _Menubar"
+msgstr "_Menü Çubuğunu Göster"
+
+msgid "Show _Statusbar"
+msgstr "_Durum Çubuğunu Göster"
+
+msgid "_Go"
+msgstr "_Git"
+
+msgid "_Back"
+msgstr "_Geri"
+
+msgid "_Forward"
+msgstr "İ_leri"
+
+msgid "_Up"
+msgstr "_Yukarı"
+
+msgid "_Home"
+msgstr "_Ev"
+
+msgid "_Tools"
+msgstr "_Araçlar"
+
+msgid "Open _Terminal"
+msgstr "_Uçbirim Aç"
+
+msgid "Open Terminal _Here"
+msgstr "Uçbirimi _Burada Aç"
+
+msgid "_Disk Usage…"
+msgstr "_Disk Kullanımı…"
+
+msgid "_Settings"
+msgstr "_Ayarlar"
+
+msgid "Configure Tool_bars…"
+msgstr "_Araç Çubuklarını Yapılandır…"
+
+msgid "_Configure Beluga…"
+msgstr "Beluga'yı _Yapılandır…"
+
+msgid "No recently closed tabs"
+msgstr "Yakın zamanda kapatılan sekme yok"
+
+msgid "(Administrator)"
+msgstr "(Yönetici)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "%zu klasör yeni sekmelerde açılsın mı?"
+
+msgid "Open Folders"
+msgstr "Klasörleri Aç"
+
+msgid "Could not open “%s”."
+msgstr "“%s” açılamadı."
+
+msgid "Could not open a terminal."
+msgstr "Uçbirim açılamadı."
+
+msgid "New Text File.txt"
+msgstr "Yeni Metin Dosyası.txt"
+
+msgid "New File"
+msgstr "Yeni Dosya"
+
+msgid "Empty the trash?"
+msgstr "Çöp boşaltılsın mı?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "Çöpteki tüm ögeler kalıcı olarak silinecek. Bu geri alınamaz."
+
+msgid "Open %zu terminals?"
+msgstr "%zu uçbirim açılsın mı?"
+
+msgid "Open Terminals"
+msgstr "Uçbirimleri Aç"
+
+msgid "Create new file in:\n%s"
+msgstr "Şurada yeni dosya oluştur:\n%s"
+
+msgid "Could not create the file."
+msgstr "Dosya oluşturulamadı."
+
+msgid "Link to File or Folder"
+msgstr "Dosya veya Klasöre Bağlantı"
+
+msgid "Path of the file or folder to link to:"
+msgstr "Bağlanacak dosya veya klasörün yolu:"
+
+msgid "Could not create the link."
+msgstr "Bağlantı oluşturulamadı."
+
+msgid "Permanently delete %s?"
+msgstr "%s kalıcı olarak silinsin mi?"
+
+msgid "This cannot be undone."
+msgstr "Bu geri alınamaz."
+
+msgid "Move %s to the trash?"
+msgstr "%s çöpe taşınsın mı?"
+
+msgid "Could not run “%s”."
+msgstr "“%s” çalıştırılamadı."
+
+msgid "Could not start %s."
+msgstr "%s başlatılamadı."
+
+msgid "Could not start the application."
+msgstr "Uygulama başlatılamadı."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” çalıştırılabilir bir dosya."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "Çalıştırmak mı yoksa bir uygulamada açmak mı istiyorsunuz?"
+
+msgid "Run"
+msgstr "Çalıştır"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "%s (%s) dosyasını açacak uygulamayı seçin:"
+
+msgid "Or command:"
+msgstr "Veya komut:"
+
+msgid "Remember application association for this type of file"
+msgstr "Bu dosya türü için uygulama ilişkilendirmesini anımsa"
+
+msgid "%s free of %s"
+msgstr "%s / %s boş"
+
+msgid "Configure Sections"
+msgstr "Bölümleri Yapılandır"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "İşaretli bölümler Yerler panelinde bu sırayla görünür."
+
+msgid "Move Up"
+msgstr "Yukarı Taşı"
+
+msgid "Move Down"
+msgstr "Aşağı Taşı"
+
+msgid "Could not mount the device: %s"
+msgstr "Aygıt bağlanamadı: %s"
+
+msgid "Configure Sections…"
+msgstr "Bölümleri Yapılandır…"
+
+msgid "Hide Hidden Entries"
+msgstr "Gizli Girdileri Gizle"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "Çöpteki tüm ögeler kalıcı olarak silinecek."
+
+msgid "Could not safely remove the device: %s"
+msgstr "Aygıt güvenle kaldırılamadı: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "Aygıtın bağlantısı kesilemedi: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "_Sistem yazı tipini kullan"
+
+msgid "Context Menu Action"
+msgstr "Bağlam Menüsü Eylemi"
+
+msgid "Types:"
+msgstr "Türler:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f ilk dosya, %F tüm dosyalar, %u / %U URI olarak, %n / %N adlar, %d geçerli klasör."
+
+msgid "Show for _files"
+msgstr "_Dosyalar için göster"
+
+msgid "Show for f_olders"
+msgstr "_Klasörler için göster"
+
+msgid "Show when _several items are selected"
+msgstr "_Birden çok öge seçiliyken göster"
+
+msgid "Run in a _terminal"
+msgstr "_Uçbirimde çalıştır"
+
+msgid "Custom Actions"
+msgstr "Özel Eylemler"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "Dosya ve klasörlerin bağlam menüsü için kendi girdileriniz."
+
+msgid "_Add…"
+msgstr "_Ekle…"
+
+msgid "_Edit…"
+msgstr "_Düzenle…"
+
+msgid "_Remove"
+msgstr "_Kaldır"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "Kısayollar <Control>c veya <Shift>Delete gibi yazılır. Birden çoğunu virgülle ayırın. Öntanımlıyı kullanmak için alanı boş bırakın."
+
+msgid "files below %d MiB"
+msgstr "%d MiB altındaki dosyalar"
+
+msgid "_Restore Defaults"
+msgstr "Ö_ntanımlılara Dön"
+
+msgid "_Apply"
+msgstr "_Uygula"
+
+msgid "Folders & Tabs"
+msgstr "Klasörler ve Sekmeler"
+
+msgid "This location:"
+msgstr "Bu konum:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "Tek bir Beluga penceresi tut, yeni klasörleri sekmelerde aç"
+
+msgid "Tabs:"
+msgstr "Sekmeler:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "Sabit genişlikli sekmeler sığmadığında hepsi aynı miktarda daralır."
+
+msgid "No terminal found"
+msgstr "Uçbirim bulunamadı"
+
+msgid "Detected: %s"
+msgstr "Algılanan: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "F4 ve Uçbirimi Burada Aç tarafından kullanılır. Komuttaki %d klasörle değiştirilir; aksi hâlde uçbirim orada başlar. Bu eskiden bir KDE sistem ayarıydı."
+
+msgid "New folders:"
+msgstr "Yeni klasörler:"
+
+msgid "Show _previews in new folders"
+msgstr "Yeni klasörlerde ö_nizlemeleri göster"
+
+msgid "Audio (cover art)"
+msgstr "Ses (kapak resimleri)"
+
+msgid "PDF documents"
+msgstr "PDF belgeleri"
+
+msgid "Text files"
+msgstr "Metin dosyaları"
+
+msgid "Fonts"
+msgstr "Yazı tipleri"
+
+msgid "Office documents"
+msgstr "Ofis belgeleri"
+
+msgid "Ask for confirmation when:"
+msgstr "Şu durumlarda onay iste:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Beluga'da şu durumlarda onay iste:"
+
+msgid "Use _long date format"
+msgstr "_Uzun tarih biçimini kullan"
+
+msgid "Show _hidden folders"
+msgstr "_Gizli klasörleri göster"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "Geçerli klasöre _otomatik kaydır"
+
+msgid "Places Panel:"
+msgstr "Yerler Paneli:"
+
+msgid "Status & Location bars"
+msgstr "Durum ve Konum Çubukları"
+
+msgid "Show free _space"
+msgstr "Boş _alanı göster"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "Her durumda, Görünüm › Bu Klasörün Görünümünü Anımsa bir klasöre kendi biçemini verir. Arama, son dosyalar veya çöp gibi bazı özel görünümler yine kendi biçemlerini kullanır."
+
+msgid "Open files and folders with a single click"
+msgstr "Dosya ve klasörleri tek tıklamayla aç"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "Anında arama için ev klasörünün _dizinini tut"
+
+msgid "levels deep"
+msgstr "düzey derinlik"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "Göreli (Bugün, Dün…)"
+
+msgid "Absolute"
+msgstr "Mutlak"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "Simgesel (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "Sayısal (0755)"
+
+msgid "Combined"
+msgstr "Birleşik"
+
+msgid "Elide in the middle"
+msgstr "Ortadan kısalt"
+
+msgid "Elide at the end"
+msgstr "Sondan kısalt"
+
+msgid "Disk usage:"
+msgstr "Disk kullanımı:"
+
+msgid "Show a Disk _Usage column"
+msgstr "Bir Disk _Kullanımı sütunu göster"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "Her dosyanın ve her klasörün tümünün diskte kapladığı alan, klasördeki payını gösteren bir çubukla, Araçlar › Disk Kullanımı'ndaki gibi. Klasörler arka planda tümüyle okunur; en büyükleri önce görmek için sütuna göre sıralayın. Disk Kullanımı penceresindeki \"Bu sürücüde kal\" burada da geçerlidir."
+
+msgid "Show in the context menu"
+msgstr "Bağlam menüsünde göster"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'Şuraya Kopyala' ve 'Şuraya Taşı'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "Sil (Çöpe Taşı'ya ek olarak)"
+
+msgid "Cleanup:"
+msgstr "Temizlik:"
+
+msgid "Delete files older than"
+msgstr "Şundan eski dosyaları sil:"
+
+msgid "days"
+msgstr "gün"
+
+msgid "Limit to"
+msgstr "Şununla sınırla:"
+
+msgid "percent of the disk"
+msgstr "diskin yüzdesi"
+
+msgid "Keep the trash on the home drive"
+msgstr "Çöpü ev klasörünün sürücüsünde tut"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "Diğer sürücülerden çöpe taşınan dosyalar ev klasörünüzdeki çöpe kopyalanır, böylece o sürücülerde .Trash-1000 klasörü oluşmaz. Büyük dosyaları çöpe taşımak bu durumda daha uzun sürer."
+
+msgid "Full trash:"
+msgstr "Dolu çöp:"
+
+msgid "When the limit is reached:"
+msgstr "Sınıra ulaşıldığında:"
+
+msgid "Show a warning"
+msgstr "Uyarı göster"
+
+msgid "Delete the oldest items"
+msgstr "En eski ögeleri sil"
+
+msgid "Delete the largest items"
+msgstr "En büyük ögeleri sil"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "Bunlar eskiden KDE sistem ayarlarıydı. Sınırlar Beluga başladığında ve ögeler çöpe taşındıktan sonra uygulanır."
+
+msgid "Calculating trash size…"
+msgstr "Çöp boyutu hesaplanıyor…"
+
+msgid "The trash currently uses %s."
+msgstr "Çöp şu anda %s kullanıyor."
+
+msgid "_Empty Trash Now"
+msgstr "Çöpü Şimdi _Boşalt"
+
+msgid "Vim Mode"
+msgstr "Vim Kipi"
+
+msgid "Vim mode:"
+msgstr "Vim kipi:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "Görünümlerde Vim benzeri tuşlar kullan"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "Normal kip h j k l ile hareket eder ve aşağıdaki tuşları çalıştırır; v, V ve Ctrl+V seçer; i ve a yeniden adlandırır (ekleme kipi); Esc normal kipe döner; : komut satırını açar. Burada listelenmeyen Ctrl veya Alt tuşları olağan anlamlarını korur."
+
+msgid "Leader key:"
+msgstr "Lider tuşu:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "Aşağıdaki tuşlarda <leader>, ör. <Space> veya ,"
+
+msgid "Wait for more keys:"
+msgstr "Daha fazla tuş için bekle:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (d'den sonra dd, g'den sonra gg)"
+
+msgid "Keys"
+msgstr "Tuşlar"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim gösterimi, birkaçı boşlukla ayrılmış: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Öntanımlı için alanı boş bırakın."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q pencereyi kapatır (:q! sekmeleri sormadan), :qa Beluga'dan çıkar, :e veya :cd YOL bir klasör açar, :tabnew [YOL], :tabclose, :tabonly, :sp veya :vs [YOL] görünümü böler, :only diğer görünümü kapatır, :mkdir AD, :touch AD, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!KOMUT klasörde bir kabuk komutu çalıştırır."
+
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+msgid "Only files on this computer can be read."
+msgstr "Yalnızca bu bilgisayardaki dosyalar okunabilir."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga FFmpeg olmadan derlenmiş."
+
+msgid "Reading…"
+msgstr "Okunuyor…"
+
+msgid "No details found."
+msgstr "Ayrıntı bulunamadı."
+
+msgid "Change the folder's icon"
+msgstr "Klasörün simgesini değiştir"
+
+msgid "Could not change the icon."
+msgstr "Simge değiştirilemedi."
+
+msgid "%zu items"
+msgstr "%zu öge"
+
+msgid "No default application"
+msgstr "Öntanımlı uygulama yok"
+
+msgid "C_hange…"
+msgstr "_Değiştir…"
+
+msgid "Opens with:"
+msgstr "Şununla açılır:"
+
+msgid "Can View"
+msgstr "Görüntüleyebilir"
+
+msgid "Can View Content"
+msgstr "İçeriği Görüntüleyebilir"
+
+msgid "Is _executable"
+msgstr "_Çalıştırılabilir"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "Değişiklikleri tüm _alt klasörlere ve içeriklerine uygula"
+
+msgid "Could not read the file."
+msgstr "Dosya okunamadı."
+
+msgid "Paste a checksum to compare"
+msgstr "Karşılaştırmak için bir sağlama toplamı yapıştırın"
+
+msgid "Verify:"
+msgstr "Doğrula:"
+
+msgid "The checksums match."
+msgstr "Sağlama toplamları eşleşiyor."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "Hesaplanan hiçbir sağlama toplamı eşleşmiyor. Önce eşleşen türü hesaplayın."
+
+msgid "Could not change the permissions."
+msgstr "İzinler değiştirilemedi."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "Ada göre süz (*.txt gibi joker karakterler çalışır)"
+
+msgid "Keep the filter when changing folders"
+msgstr "Klasör değiştirirken süzgeci koru"
+
+msgid "In This Folder"
+msgstr "Bu Klasörde"
+
+msgid "In Your Files"
+msgstr "Dosyalarınızda"
+
+msgid "Any Time"
+msgstr "Herhangi Bir Zaman"
+
+msgid "Last 7 Days"
+msgstr "Son 7 Gün"
+
+msgid "Last 30 Days"
+msgstr "Son 30 Gün"
+
+msgid "Last Year"
+msgstr "Son Yıl"
+
+msgid "Hidden files"
+msgstr "Gizli dosyalar"
+
+msgid "Duplicate Tab"
+msgstr "Sekmeyi Çoğalt"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "Listede konum çubuğunun üstündeki eylemler onun soluna, diğerleri sağına yerleşir. * öntanımlı araç çubuğundaki yerinde olmayan eylemleri işaretler."
+
+msgid "A_vailable actions:"
+msgstr "_Kullanılabilir eylemler:"
+
+msgid "Add to the tool bar"
+msgstr "Araç çubuğuna ekle"
+
+msgid "Remove from the tool bar"
+msgstr "Araç çubuğundan kaldır"
+
+msgid "Move up (left on the tool bar)"
+msgstr "Yukarı taşı (araç çubuğunda sola)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "Aşağı taşı (araç çubuğunda sağa)"
+
+msgid "C_urrent actions:"
+msgstr "_Geçerli eylemler:"
+
+msgid "_Defaults"
+msgstr "Ö_ntanımlılar"
+
+msgid "Show Columns"
+msgstr "Sütunları Göster"
+
+msgid "Modified: %s"
+msgstr "Değiştirilme: %s"
+
+msgid "Original location: %s"
+msgstr "Özgün konum: %s"
+
+msgid "Less than 1 MiB"
+msgstr "1 MiB'den az"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB – 100 MiB"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB – 1 GiB"
+
+msgid "1 GiB or more"
+msgstr "1 GiB veya daha fazla"
+
+msgid "Not counted yet"
+msgstr "Henüz sayılmadı"
+
+msgid "A file name cannot contain “/”."
+msgstr "Dosya adı “/” içeremez."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "“%s” ögesini “%s” olarak yeniden adlandırmak uzantısını değiştirir. Dosya başka bir uygulamayla açılabilir ya da hiç açılmayabilir."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "Seçim Kipi: seçmek veya seçimi kaldırmak için dosyalara ya da klasörlere tıklayın."
+
+msgid "_Exit Selection Mode"
+msgstr "Seçim Kipinden _Çık"
+
+msgid "_Duplicate"
+msgstr "_Çoğalt"
+
+msgid "De_lete"
+msgstr "_Sil"
+
+msgid "Pr_operties"
+msgstr "Ö_zellikler"
+
+msgid "The folder “%s” no longer exists."
+msgstr "“%s” klasörü artık yok."
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” seçildi (%s%s)"
+
+msgid "%s selected"
+msgstr "%s seçildi"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d seçildi"
+msgstr[1] "%d seçildi"
+
+msgid "Move left"
+msgstr "Sola git"
+
+msgid "Move down"
+msgstr "Aşağı git"
+
+msgid "Move up"
+msgstr "Yukarı git"
+
+msgid "Move right"
+msgstr "Sağa git"
+
+msgid "First item"
+msgstr "İlk öge"
+
+msgid "Last item"
+msgstr "Son öge"
+
+msgid "Page down"
+msgstr "Sayfa aşağı"
+
+msgid "Page up"
+msgstr "Sayfa yukarı"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "İmlecin geçtiği ögeleri seç (görsel)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Shift gibi bir aralık seç (görsel satır)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "Izgaradan bir blok seç (görsel blok)"
+
+msgid "Back to normal mode"
+msgstr "Normal kipe dön"
+
+msgid "Copy the item under the cursor"
+msgstr "İmlecin altındaki ögeyi kopyala"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "Yeniden adlandır, imleç başta (ekle)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "Yeniden adlandır, imleç addan sonra (sona ekle)"
+
+msgid "Rename, name selected (change)"
+msgstr "Yeniden adlandır, ad seçili (değiştir)"
+
+msgid "Edit the location"
+msgstr "Konumu düzenle"
+
+msgid "Copied."
+msgstr "Kopyalandı."
+
+msgid "Cut."
+msgstr "Kesildi."
+
+msgid "Can't open “%s”."
+msgstr "“%s” açılamıyor."
+
+msgid "A name is needed."
+msgstr "Bir ad gerekli."
+
+msgid "Unknown view: %s"
+msgstr "Bilinmeyen görünüm: %s"
+
+msgid "Unknown option: %s"
+msgstr "Bilinmeyen seçenek: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "Ada, boyuta, tarihe veya türe göre sırala."
+
+msgid "Not a command: %s"
+msgstr "Komut değil: %s"
+
+msgid "Move"
+msgstr "Taşı"
+
+msgid "Files"
+msgstr "Dosyalar"
+
+msgid "Recommended Applications"
+msgstr "Önerilen Uygulamalar"
+
+msgid "Other Applications"
+msgstr "Diğer Uygulamalar"
+
+msgid "Command line"
+msgstr "Komut satırı"
+
+msgid "No items found"
+msgstr "Öge bulunamadı"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%s / %s boş (%%%d kullanıldı)"
