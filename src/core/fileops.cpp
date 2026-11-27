@@ -50,16 +50,31 @@ void drop_trash_info(const std::string &info, GFile *f)
 
 void set_job_ui(JobUi *ui) { g_ui = ui; }
 
+namespace {
+const std::thread::id g_mainThread = std::this_thread::get_id();   // static initialisation runs on the main thread
+}
+
 void run_on_main(std::function<void()> fn)
 {
+    // On the main thread: now. From another thread: always queued on the main loop. (g_main_context_invoke runs it
+    // right there on the calling thread whenever the main loop isn't running at that moment, which both touches GTK
+    // off the main thread and never wakes a main loop that is about to wait.)
+    if (std::this_thread::get_id() == g_mainThread) {
+        fn();
+        return;
+    }
     auto *p = new std::function<void()>(std::move(fn));
-    g_main_context_invoke_full(
-        nullptr, G_PRIORITY_DEFAULT,
+    GSource *src = g_idle_source_new();
+    g_source_set_priority(src, G_PRIORITY_DEFAULT);
+    g_source_set_callback(
+        src,
         [](gpointer d) -> gboolean {
             (*static_cast<std::function<void()> *>(d))();
             return G_SOURCE_REMOVE;
         },
         p, [](gpointer d) { delete static_cast<std::function<void()> *>(d); });
+    g_source_attach(src, nullptr);
+    g_source_unref(src);
 }
 
 FileJob::FileJob(OpKind k) : kind_(k), id_(g_nextId++)

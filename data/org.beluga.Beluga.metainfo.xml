@@ -44,6 +44,12 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.1.1" date="2026-11-27">
+      <description>
+        <p>Search and file operations always report back on the main thread (a search could hang). Includes the
+          changes of 1.1.0, which was not released.</p>
+      </description>
+    </release>
     <release version="1.1.0" date="2026-11-27">
       <description>
         <p>Folder icons (also from .directory files), a Details tab in Properties, Configure Sections for the Places

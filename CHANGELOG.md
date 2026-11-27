@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1
+
+- Fixed: work finished in the background (search results, file operations) could be handed back on the background
+  thread instead of the main one, which sometimes left a search hanging. 1.1.0 was tagged but never released
+  because of this; its changes are below.
+
 ## 1.1.0
 
 - Added: folder icons. Click the icon in a folder's Properties to pick one of the theme's icons or an image; it is
