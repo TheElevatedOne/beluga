@@ -18,95 +18,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 msgid "The archive could not be opened."
-msgstr ""
+msgstr "संग्रहं उद्घाटयितुं न शक्तम्।"
 
 msgid "The archive could not be read."
-msgstr ""
+msgstr "संग्रहं पठितुं न शक्तम्।"
 
 msgid "Cancelled."
-msgstr ""
+msgstr "निरस्तम्।"
 
 msgid "This file is encrypted with a password."
-msgstr ""
+msgstr "इयं सञ्चिका गूढशब्देन कूटीकृता अस्ति।"
 
 #, c-format
 msgid "“%s” could not be read."
-msgstr ""
+msgstr "“%s” पठितुं न शक्तम्।"
 
 msgid "This is not a file in an archive."
-msgstr ""
+msgstr "इयं संग्रहस्य अन्तः सञ्चिका नास्ति।"
 
 msgid "Extract Here"
-msgstr ""
+msgstr "अत्र निष्कासयतु"
 
 msgid "Compress to .tar.gz"
-msgstr ""
+msgstr ".tar.gz रूपेण सम्पीडयतु"
 
 msgid "No terminal emulator was found."
-msgstr ""
+msgstr "टर्मिनल्-अनुकारकः न प्राप्तः।"
 
 msgid "Root"
-msgstr ""
+msgstr "मूलम्"
 
 #, c-format
 msgid "%s Volume"
-msgstr ""
+msgstr "%s खण्डः"
 
 msgid "This device cannot be mounted."
-msgstr ""
+msgstr "इदम् उपकरणं संचयितुं न शक्यते।"
 
 msgid "This device cannot be unmounted."
-msgstr ""
+msgstr "इदम् उपकरणम् असंचयितुं न शक्यते।"
 
 msgid "The device is gone."
-msgstr ""
+msgstr "उपकरणम् इदानीं नास्ति।"
 
 #, c-format
 msgid "Copying %s to “%s”"
-msgstr ""
+msgstr "%s “%s” इत्यत्र प्रतिलिप्यते"
 
 #, c-format
 msgid "Moving %s to “%s”"
-msgstr ""
+msgstr "%s “%s” इत्यत्र स्थानान्तर्यते"
 
 #, c-format
 msgid "Linking %s in “%s”"
-msgstr ""
+msgstr "%s इत्यस्य सम्पर्कः “%s” इत्यत्र रच्यते"
 
 #, c-format
 msgid "Moving %s to the trash"
-msgstr ""
+msgstr "%s तुच्छद्रव्ये स्थाप्यते"
 
 #, c-format
 msgid "Deleting %s"
-msgstr ""
+msgstr "%s विलोप्यते"
 
 #, c-format
 msgid "Restoring %s"
-msgstr ""
+msgstr "%s पुनःस्थाप्यते"
 
 msgid "Emptying the trash"
-msgstr ""
+msgstr "तुच्छद्रव्यं रिक्तीक्रियते"
 
 msgid "Counting files…"
-msgstr ""
+msgstr "सञ्चिकाः गण्यन्ते…"
 
 #, c-format
 msgid "“%s”: %s"
-msgstr ""
+msgstr "“%s”: %s"
 
 msgid "A folder cannot be moved into itself."
-msgstr ""
+msgstr "पुटं स्वस्य अन्तः स्थानान्तरयितुं न शक्यते।"
 
 msgid "A folder cannot be copied into itself."
-msgstr ""
+msgstr "पुटं स्वस्य अन्तः प्रतिलिपितुं न शक्यते।"
 
 msgid "Files can only be extracted into local folders."
-msgstr ""
+msgstr "सञ्चिकाः केवलं स्थानीयपुटेषु निष्कासयितुं शक्यन्ते।"
 
 #, c-format
 msgid "Extracting from “%s”"
-msgstr ""
+msgstr "“%s” इत्यस्मात् निष्कास्यते"
 
 msgid "Title:"
 msgstr "शीर्षक:"
@@ -124,7 +124,7 @@ msgid "Track:"
 msgstr "मार्ग:"
 
 msgid "Disc:"
-msgstr ""
+msgstr "चक्रिका:"
 
 msgid "Date:"
 msgstr "तिथि:"
@@ -155,71 +155,71 @@ msgstr "भाषा:"
 
 #, c-format
 msgid "%.1f Mbit/s"
-msgstr ""
+msgstr "%.1f Mbit/s"
 
 #, c-format
 msgid "%lld kbit/s"
-msgstr ""
+msgstr "%lld kbit/s"
 
 msgid "Duration:"
 msgstr "अवधि:"
 
 msgid "Format:"
-msgstr ""
+msgstr "प्रारूपम्:"
 
 msgid "Bit rate:"
-msgstr ""
+msgstr "बिट्-गतिः:"
 
 msgid "Cover:"
-msgstr ""
+msgstr "आवरणम्:"
 
 #, c-format
 msgid ", %.0f fps"
-msgstr ""
+msgstr ", %.0f fps"
 
 #, c-format
 msgid ", %.3f fps"
-msgstr ""
+msgstr ", %.3f fps"
 
 msgid "Video:"
 msgstr "विडिओ:"
 
 #, c-format
 msgid "Video %d:"
-msgstr ""
+msgstr "चलचित्रम् %d:"
 
 #, c-format
 msgid ", %d Hz"
-msgstr ""
+msgstr ", %d Hz"
 
 msgid "mono"
-msgstr ""
+msgstr "एकस्वनम्"
 
 msgid "stereo"
-msgstr ""
+msgstr "द्विस्वनम्"
 
 #, c-format
 msgid "%d channel"
 msgid_plural "%d channels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d वाहिनी"
+msgstr[1] "%d वाहिन्यः"
 
 #, c-format
 msgid ", %d bit"
-msgstr ""
+msgstr ", %d बिट्"
 
 msgid "Audio:"
 msgstr "श्रव्यः:"
 
 #, c-format
 msgid "Audio %d:"
-msgstr ""
+msgstr "श्रव्यम् %d:"
 
 msgid "Subtitles:"
-msgstr ""
+msgstr "उपशीर्षकाणि:"
 
 msgid "Chapters:"
-msgstr ""
+msgstr "अध्यायाः:"
 
 msgid "Places"
 msgstr "स्थानाः"
@@ -267,7 +267,7 @@ msgid "Recent Files"
 msgstr "सद्यः एव उद्घाटिताः सञ्चिकाः"
 
 msgid "Images"
-msgstr ""
+msgstr "चित्राणि"
 
 msgid "Audio"
 msgstr "श्रव्यः"
@@ -276,37 +276,37 @@ msgid "Folders"
 msgstr "पुटम्"
 
 msgid "Archives"
-msgstr ""
+msgstr "संग्रहाः"
 
 msgid "All Files"
 msgstr "सर्वाणि सञ्चिकानि"
 
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "“%s” अन्विष्यतु"
 
 msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
-msgstr ""
+msgstr "टर्मिनल्-अनुकारकः न प्राप्तः। Beluga विन्यस्यतु › सामान्यम् › टर्मिनल् इत्यत्र एकं निर्दिशतु।"
 
 msgid "This file system has no trash."
-msgstr ""
+msgstr "अस्मिन् सञ्चिकातन्त्रे तुच्छद्रव्यं नास्ति।"
 
 msgid "Could not create the trash information file."
-msgstr ""
+msgstr "तुच्छद्रव्यस्य सूचनासञ्चिका रचयितुं न शक्ता।"
 
 #, c-format
 msgid "“%s” already exists."
-msgstr ""
+msgstr "“%s” पूर्वमेव अस्ति।"
 
 #, c-format
 msgid "The trash is larger than its limit of %s. Consider emptying it."
-msgstr ""
+msgstr "तुच्छद्रव्यं स्वसीमायाः %s अधिकम् अस्ति। तत् रिक्तीकर्तुं विचारयतु।"
 
 msgid "Copy"
 msgstr "प्रतिलिपि"
 
 msgid "Move"
-msgstr ""
+msgstr "स्थानान्तरयतु"
 
 msgid "Link"
 msgstr "सम्बन्ध स्थापितु"
@@ -318,24 +318,24 @@ msgid "Move to Trash"
 msgstr "Trash इत्यत्र गच्छन्तु"
 
 msgid "Create Folder"
-msgstr ""
+msgstr "पुटं रचयतु"
 
 msgid "Create File"
-msgstr ""
+msgstr "सञ्चिकां रचयतु"
 
 msgid "Undo"
 msgstr "अपाकरोति"
 
 #, c-format
 msgid "Undo: %s"
-msgstr ""
+msgstr "पूर्ववत् करोतु: %s"
 
 msgid "Redo"
 msgstr "पुनः कुरु"
 
 #, c-format
 msgid "Redo: %s"
-msgstr ""
+msgstr "पुनः करोतु: %s"
 
 #, c-format
 msgid "%d item"
@@ -346,14 +346,14 @@ msgstr[1] "%d द्रव्यम्"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d सञ्चिका"
+msgstr[1] "%d सञ्चिकाः"
 
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d पुटम्"
+msgstr[1] "%d पुटानि"
 
 #, c-format
 msgid "%s, %s"
@@ -361,14 +361,14 @@ msgstr "%s, %s"
 
 #, c-format
 msgid "Today at %s"
-msgstr ""
+msgstr "अद्य %s वादने"
 
 #, c-format
 msgid "Yesterday at %s"
-msgstr ""
+msgstr "ह्यः %s वादने"
 
 msgid "%A at %H:%M"
-msgstr ""
+msgstr "%A %H:%M वादने"
 
 #, c-format
 msgid "%ld s"
@@ -376,11 +376,11 @@ msgstr "%ld स"
 
 #, c-format
 msgid "%ld min %ld s"
-msgstr ""
+msgstr "%ld निमेषाः %ld क्षणाः"
 
 #, c-format
 msgid "%ld h %ld min"
-msgstr ""
+msgstr "%ld होराः %ld निमेषाः"
 
 #, c-format
 msgid "%s copy"
@@ -388,7 +388,7 @@ msgstr "%s प्रतिलिपिः"
 
 #, c-format
 msgid "%s copy %d"
-msgstr ""
+msgstr "%s प्रतिलिपिः %d"
 
 msgid "Name"
 msgstr "नामः"
@@ -397,7 +397,7 @@ msgid "Size"
 msgstr "आकृति"
 
 msgid "Disk Usage"
-msgstr ""
+msgstr "चक्रिका-उपयोगः"
 
 msgid "Modified"
 msgstr "परिवर्तित"
@@ -412,7 +412,7 @@ msgid "Type"
 msgstr "प्रकारः"
 
 msgid "Extension"
-msgstr ""
+msgstr "विस्तारः"
 
 msgid "Permissions"
 msgstr "अनुमतिः"
@@ -433,22 +433,22 @@ msgid "Deletion Time"
 msgstr "लोपसमयः"
 
 msgid "Original Location"
-msgstr ""
+msgstr "मूलस्थानम्"
 
 msgid "Dimensions"
 msgstr "आयामाः"
 
 msgid "Beluga could not act as administrator."
-msgstr ""
+msgstr "Beluga प्रशासकरूपेण कार्यं कर्तुं न अशक्नोत्।"
 
 msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
-msgstr ""
+msgstr "प्रशासकस्य गूढशब्दं प्रष्टुं pkexec (polkit) आवश्यकम्। polkit तथा भवतः डेस्क्टॉप्-कृते polkit-प्रतिनिधिं स्थापयतु।"
 
 msgid "Risks of Acting as an Administrator"
 msgstr "प्रशासकरूपेण कार्यं कर्तुं जोखिमाः"
 
 msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
-msgstr ""
+msgstr "प्रशासक-अधिकारयुक्तः Beluga गवाक्षः अस्मिन् सङ्गणके कामपि सञ्चिकां परिवर्तयितुं विलोपयितुं च शक्नोति, तासु सञ्चिकासु अपि याः तन्त्रस्य आरम्भाय आवश्यकाः। तत्र एका त्रुटिः तन्त्रम् अनुपयोज्यं कर्तुं शक्नोति। अन्येन प्रकारेण परिवर्तयितुम् अशक्यानां सञ्चिकानां कृते एव तस्य उपयोगं करोतु, कार्यसमाप्तौ च तं पिदधातु।\n\nततः Beluga प्रशासकस्य गूढशब्दं प्रक्ष्यति।"
 
 msgid "Cancel"
 msgstr "निरसयतु"
@@ -520,7 +520,7 @@ msgid "Details View"
 msgstr "विवरणं दृश्यम्"
 
 msgid "Columns View"
-msgstr ""
+msgstr "स्तम्भदृश्यम्"
 
 msgid "Zoom In"
 msgstr "जूम In"
@@ -529,7 +529,7 @@ msgid "Zoom Out"
 msgstr "जूम आउट"
 
 msgid "Reset Zoom"
-msgstr ""
+msgstr "आवर्धनं पुनःस्थापयतु"
 
 msgid "Show Hidden Files"
 msgstr "गुप्तसञ्चिकाः दर्शयतु"
@@ -541,13 +541,13 @@ msgid "Split View"
 msgstr "विभक्त दृश्य"
 
 msgid "Focus Other View"
-msgstr ""
+msgstr "अन्यदृश्ये केन्द्रीकरोतु"
 
 msgid "Pop out Split View"
-msgstr ""
+msgstr "विभक्तदृश्यं पृथक् करोतु"
 
 msgid "Split View to Tabs"
-msgstr ""
+msgstr "विभक्तदृश्यं ट्याब् मध्ये"
 
 msgid "Reload"
 msgstr "पुनः लोड करें"
@@ -559,16 +559,16 @@ msgid "Replace Location"
 msgstr "स्थानं प्रतिस्थापयतु"
 
 msgid "Places Panel"
-msgstr ""
+msgstr "स्थानपटलम्"
 
 msgid "Folders Panel"
-msgstr ""
+msgstr "पुटपटलम्"
 
 msgid "Information Panel"
 msgstr "सूचनापरिषदः"
 
 msgid "Disk Usage Panel"
-msgstr ""
+msgstr "चक्रिका-उपयोगपटलम्"
 
 msgid "Focus Places Panel"
 msgstr "फोकस स्थान पटल"
@@ -589,31 +589,31 @@ msgid "Up"
 msgstr "उपरि"
 
 msgid "Go to Tab 1"
-msgstr ""
+msgstr "ट्याब् 1 प्रति गच्छतु"
 
 msgid "Go to Tab 2"
-msgstr ""
+msgstr "ट्याब् 2 प्रति गच्छतु"
 
 msgid "Go to Tab 3"
-msgstr ""
+msgstr "ट्याब् 3 प्रति गच्छतु"
 
 msgid "Go to Tab 4"
-msgstr ""
+msgstr "ट्याब् 4 प्रति गच्छतु"
 
 msgid "Go to Tab 5"
-msgstr ""
+msgstr "ट्याब् 5 प्रति गच्छतु"
 
 msgid "Go to Tab 6"
-msgstr ""
+msgstr "ट्याब् 6 प्रति गच्छतु"
 
 msgid "Go to Tab 7"
-msgstr ""
+msgstr "ट्याब् 7 प्रति गच्छतु"
 
 msgid "Go to Tab 8"
-msgstr ""
+msgstr "ट्याब् 8 प्रति गच्छतु"
 
 msgid "Go to Tab 9"
-msgstr ""
+msgstr "ट्याब् 9 प्रति गच्छतु"
 
 msgid "Go to Last Tab"
 msgstr "Last Tab इत्यत्र गच्छन्तु"
@@ -634,29 +634,29 @@ msgid "Configure Toolbars"
 msgstr "साधनशलाकाम् विन्यस्यताम्"
 
 msgid "Configure Beluga"
-msgstr ""
+msgstr "Beluga विन्यस्यतु"
 
 msgid "Undo failed."
-msgstr ""
+msgstr "पूर्ववत्करणं विफलम्।"
 
 msgid "Folder…"
-msgstr ""
+msgstr "पुटम्…"
 
 msgid "Text File…"
-msgstr ""
+msgstr "पाठसञ्चिका…"
 
 msgid "Empty File…"
-msgstr ""
+msgstr "रिक्तसञ्चिका…"
 
 msgid "Link to File or Folder…"
-msgstr ""
+msgstr "सञ्चिकायाः पुटस्य वा सम्पर्कः…"
 
 msgid "Create New"
 msgstr "New रचयतु"
 
 #, c-format
 msgid "Other View (%s)"
-msgstr ""
+msgstr "अन्यत् दृश्यम् (%s)"
 
 msgid "Browse…"
 msgstr "अन्वेषय…"
@@ -696,10 +696,10 @@ msgid "View Mode"
 msgstr "दृश्यविधिः"
 
 msgid "Remember View for This Folder"
-msgstr ""
+msgstr "अस्य पुटस्य दृश्यं स्मरतु"
 
 msgid "Restore"
-msgstr ""
+msgstr "पुनःस्थापयतु"
 
 msgid "Open in New Tab"
 msgstr "New Tab इत्यत्र उद्घाटयन्तु"
@@ -714,13 +714,13 @@ msgid "Open in Split View"
 msgstr "Split View इत्यत्र उद्घाटयन्तु"
 
 msgid "Open in Beluga"
-msgstr ""
+msgstr "Beluga मध्ये उद्घाटयतु"
 
 msgid "Open Containing Folder"
 msgstr "यत्र स्थितम् अस्ति तत्र पुटं उद्घाटयन्तु"
 
 msgid "Paste into Folder"
-msgstr ""
+msgstr "पुटे संलग्नयतु"
 
 msgid "Rename…"
 msgstr "पुनर्नामकरणं…"
@@ -732,65 +732,65 @@ msgid "Close"
 msgstr "पिधानं करोतु"
 
 msgid "_Cancel"
-msgstr ""
+msgstr "निरसयतु (_C)"
 
 msgid "The name cannot contain “/”."
-msgstr ""
+msgstr "नाम्नि “/” न भवितुम् अर्हति।"
 
 msgid "A name starting with a dot is hidden."
-msgstr ""
+msgstr "बिन्दुना आरभमाणं नाम गुप्तं भवति।"
 
 msgid "Some items could not be renamed."
-msgstr ""
+msgstr "केषाञ्चित् वस्तूनां नामान्तरं कर्तुं न शक्तम्।"
 
 msgid "Rename Item"
 msgstr "द्रव्यस्य नाम परिवर्तनं कुर्वन्तु"
 
 #, c-format
 msgid "Rename “%s” to:"
-msgstr ""
+msgstr "“%s” इत्यस्य नूतनं नाम:"
 
 msgid "_Rename"
-msgstr ""
+msgstr "नामान्तरं करोतु (_R)"
 
 #, c-format
 msgid "Could not rename “%s”."
-msgstr ""
+msgstr "“%s” इत्यस्य नामान्तरं कर्तुं न शक्तम्।"
 
 msgid "Change the file type?"
-msgstr ""
+msgstr "सञ्चिकाप्रकारं परिवर्तयतु वा?"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension."
-msgstr ""
+msgstr "“%s” इत्यस्य “%s” इति नामान्तरेण तस्य विस्तारः परिवर्तते।"
 
 msgid "Rename Items"
 msgstr "द्रव्याणां नामकरणं कुर्वन्तु"
 
 #, c-format
 msgid "Rename the %zu selected items to:"
-msgstr ""
+msgstr "चितानां %zu वस्तूनां नूतनं नाम:"
 
 msgid "New name #"
 msgstr "नव नाम #"
 
 msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
-msgstr ""
+msgstr "# वर्धमानैः अङ्कैः प्रतिस्थाप्यते; आदौ शून्यानां कृते ## प्रयुङ्क्ताम्। विस्ताराः रक्ष्यन्ते।"
 
 msgid "Start numbering at:"
-msgstr ""
+msgstr "अङ्कनम् अतः आरभताम्:"
 
 msgid "_Move Here"
-msgstr ""
+msgstr "अत्र स्थानान्तरयतु (_M)"
 
 msgid "_Copy Here"
-msgstr ""
+msgstr "अत्र प्रतिलिपिं करोतु (_C)"
 
 msgid "_Link Here"
-msgstr ""
+msgstr "अत्र सम्पर्कं करोतु (_L)"
 
 msgid "C_ancel"
-msgstr ""
+msgstr "निरसयतु (_A)"
 
 msgid "Add Places Entry"
 msgstr "स्थानप्रविष्टिः योजयतु"
@@ -802,25 +802,25 @@ msgid "Label:"
 msgstr "नामपत्र:"
 
 msgid "Choose a folder"
-msgstr ""
+msgstr "पुटं चिनोतु"
 
 msgid "Location:"
 msgstr "स्थानम्:"
 
 msgid "C_hoose…"
-msgstr ""
+msgstr "चिनोतु (_H)…"
 
 msgid "Icon name:"
-msgstr ""
+msgstr "प्रतीकनाम:"
 
 msgid "Choose a Folder"
-msgstr ""
+msgstr "पुटं चिनोतु"
 
 msgid "_Add"
-msgstr ""
+msgstr "योजयतु (_A)"
 
 msgid "_Save"
-msgstr ""
+msgstr "रक्षतु (_S)"
 
 msgid "View Display Style"
 msgstr "प्रदर्शनशैलीं पश्यन्तु"
@@ -835,7 +835,7 @@ msgid "Details"
 msgstr "वर्णन"
 
 msgid "Columns"
-msgstr ""
+msgstr "स्तम्भाः"
 
 msgid "View mode:"
 msgstr "दृश्यविधिः :"
@@ -850,19 +850,19 @@ msgid "Descending"
 msgstr "अवतरन्"
 
 msgid "Show _folders first"
-msgstr ""
+msgstr "पुटानि प्रथमं दर्शयतु (_F)"
 
 msgid "Show hidden files _last"
-msgstr ""
+msgstr "गुप्तसञ्चिकाः अन्ते दर्शयतु (_L)"
 
 msgid "Show _previews"
-msgstr ""
+msgstr "पूर्वावलोकनानि दर्शयतु (_P)"
 
 msgid "Show in _groups"
-msgstr ""
+msgstr "समूहेषु दर्शयतु (_G)"
 
 msgid "Show _hidden files"
-msgstr ""
+msgstr "गुप्तसञ्चिकाः दर्शयतु (_H)"
 
 msgid "Apply to"
 msgstr "आवेदनं कुर्वन्तु"
@@ -871,17 +871,17 @@ msgid "Current folder"
 msgstr "वर्तमान पुटम्"
 
 msgid "Current folder including all subfolders"
-msgstr ""
+msgstr "सर्वैः उपपुटैः सह वर्तमानपुटम्"
 
 msgid "All folders"
 msgstr "सर्वाणि पुटानि"
 
 msgid "_OK"
-msgstr ""
+msgstr "अस्तु (_O)"
 
 #, c-format
 msgid "modified %s"
-msgstr ""
+msgstr "परिवर्तितम् %s"
 
 msgid "Folder Already Exists"
 msgstr "पुटं पूर्वमेव विद्यते"
@@ -891,35 +891,35 @@ msgstr "सञ्चिका पूर्वमेव विद्यते"
 
 #, c-format
 msgid "A folder named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” नामकं पुटं “%s” इत्यत्र पूर्वमेव अस्ति।"
 
 #, c-format
 msgid "A file named “%s” already exists in “%s”."
-msgstr ""
+msgstr "“%s” नामिका सञ्चिका “%s” इत्यत्र पूर्वमेव अस्ति।"
 
 msgid "Existing item"
-msgstr ""
+msgstr "विद्यमानं वस्तु"
 
 msgid "New item"
-msgstr ""
+msgstr "नूतनं वस्तु"
 
 msgid "_Suggest New Name"
-msgstr ""
+msgstr "नूतनं नाम सूचयतु (_S)"
 
 msgid "New name:"
-msgstr ""
+msgstr "नूतनं नाम:"
 
 msgid "Apply to _all"
-msgstr ""
+msgstr "सर्वेषु प्रयोजयतु (_A)"
 
 msgid "S_kip"
-msgstr ""
+msgstr "त्यजतु (_K)"
 
 msgid "_Write Into"
-msgstr ""
+msgstr "अन्तः लिखतु (_W)"
 
 msgid "_Overwrite"
-msgstr ""
+msgstr "उपरि लिखतु (_O)"
 
 msgid "Skip"
 msgstr "क्षिपते"
@@ -934,198 +934,198 @@ msgid "Choose an Icon"
 msgstr "एकं चिह्नं चिनोतु"
 
 msgid "Search icons…"
-msgstr ""
+msgstr "प्रतीकानि अन्विष्यतु…"
 
 msgid "_Image File…"
-msgstr ""
+msgstr "चित्रसञ्चिका (_I)…"
 
 msgid "_Default Icon"
-msgstr ""
+msgstr "पूर्वनिर्धारितं प्रतीकम् (_D)"
 
 msgid "Choose an Image"
-msgstr ""
+msgstr "चित्रं चिनोतु"
 
 msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
-msgstr ""
+msgstr "जालस्थानेभ्यः gvfs आवश्यकम्। gvfs सङ्कुलं (Windows-भागेभ्यः gvfs-smb, NFS कृते gvfs-nfs च) स्थापयतु, ततः निर्गत्य पुनः प्रविशतु।"
 
 msgid "This location is not a folder."
-msgstr ""
+msgstr "इदं स्थानं पुटं नास्ति।"
 
 msgid "This location is not valid."
-msgstr ""
+msgstr "इदं स्थानम् अमान्यम्।"
 
 msgid "This folder is not in the archive."
-msgstr ""
+msgstr "इदं पुटं संग्रहे नास्ति।"
 
 #, c-format
 msgid "%s smaller file"
 msgid_plural "%s smaller files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s लघुतरा सञ्चिका"
+msgstr[1] "%s लघुतराः सञ्चिकाः"
 
 msgid "(another drive, not counted)"
-msgstr ""
+msgstr "(अन्यत् चालकम्, न गणितम्)"
 
 msgid "Some of its contents could not be read."
-msgstr ""
+msgstr "तस्य विषयस्य कश्चन भागः पठितुं न शक्तः।"
 
 #, c-format
 msgid "%s in files"
-msgstr ""
+msgstr "सञ्चिकासु %s"
 
 #, c-format
 msgid "%s on disk"
-msgstr ""
+msgstr "चक्रिकायां %s"
 
 #, c-format
 msgid "%s files and %s folders"
-msgstr ""
+msgstr "%s सञ्चिकाः %s पुटानि च"
 
 #, c-format
 msgid "Reading… %s in %s files and %s folders"
-msgstr ""
+msgstr "पठ्यते… %s सञ्चिकासु %s पुटेषु च %s"
 
 msgid "Stopped."
-msgstr ""
+msgstr "स्थगितम्।"
 
 msgid "This folder could not be read."
-msgstr ""
+msgstr "इदं पुटं पठितुं न शक्तम्।"
 
 #, c-format
 msgid "%s, read in %.1f s"
-msgstr ""
+msgstr "%s, %.1f क्षणेषु पठितम्"
 
 #, c-format
 msgid ". %s folder could not be read."
 msgid_plural ". %s folders could not be read."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] ". %s पुटं पठितुं न शक्तम्।"
+msgstr[1] ". %s पुटानि पठितुं न शक्तानि।"
 
 msgid "Only folders on this computer can be measured."
-msgstr ""
+msgstr "केवलम् अस्य सङ्गणकस्य पुटानि मातुं शक्यन्ते।"
 
 msgid "read less than a minute ago"
-msgstr ""
+msgstr "एकनिमेषात् न्यूनं पूर्वं पठितम्"
 
 #, c-format
 msgid "read %d minute ago"
 msgid_plural "read %d minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d निमेषात् पूर्वं पठितम्"
+msgstr[1] "%d निमेषेभ्यः पूर्वं पठितम्"
 
 #, c-format
 msgid "read %d hour ago"
 msgid_plural "read %d hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d होरायाः पूर्वं पठितम्"
+msgstr[1] "%d होराभ्यः पूर्वं पठितम्"
 
 #, c-format
 msgid "%s, %s. Rescan to read it again."
-msgstr ""
+msgstr "%s, %s। पुनः पठितुं पुनः परीक्षतु।"
 
 msgid "_Apparent size"
-msgstr ""
+msgstr "दृश्यमानः आकारः (_A)"
 
 msgid "Add up the file sizes instead of the disk space the files take up."
-msgstr ""
+msgstr "सञ्चिकाभिः चक्रिकायां गृहीतस्य स्थानस्य स्थाने तासाम् आकारान् योजयतु।"
 
 msgid "_Stay on this drive"
-msgstr ""
+msgstr "अस्मिन् चालके एव तिष्ठतु (_S)"
 
 msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
-msgstr ""
+msgstr "अस्य पुटस्य अन्तः संचितानि अन्यानि चालकानि (यथा अन्यचक्रिकायां सङ्गीतपुटम्) मा गणयतु। सम्पर्काः कदापि न अनुस्रियन्ते।"
 
 msgid "Rescan"
-msgstr ""
+msgstr "पुनः परीक्षतु"
 
 msgid "Stop"
 msgstr "विरमतु"
 
 msgid "Close Disk Usage"
-msgstr ""
+msgstr "चक्रिका-उपयोगं पिदधातु"
 
 msgid "_Rescan"
-msgstr ""
+msgstr "पुनः परीक्षतु (_R)"
 
 msgid "S_top"
-msgstr ""
+msgstr "स्थगयतु (_T)"
 
 msgid "Share"
 msgstr "वण्टतु"
 
 msgid "Files"
-msgstr ""
+msgstr "सञ्चिकाः"
 
 #, c-format
 msgid "Disk Usage – %s"
-msgstr ""
+msgstr "चक्रिका-उपयोगः – %s"
 
 #, c-format
 msgid "“%s” already exists. Replace it?"
-msgstr ""
+msgstr "“%s” पूर्वमेव अस्ति। प्रतिस्थापयतु वा?"
 
 #, c-format
 msgid "%zu of these files already exist. Replace them?"
-msgstr ""
+msgstr "आसु सञ्चिकासु %zu पूर्वमेव सन्ति। प्रतिस्थापयतु वा?"
 
 msgid "The program you are saving from will write over the existing contents."
-msgstr ""
+msgstr "यस्मात् कार्यक्रमात् भवान् रक्षति सः विद्यमानं विषयम् उपरि लेखिष्यति।"
 
 msgid "Replace"
 msgstr "पुनरादधाति"
 
 msgid "Choose a folder to save in."
-msgstr ""
+msgstr "रक्षणाय पुटं चिनोतु।"
 
 msgid "Select Folder"
-msgstr ""
+msgstr "पुटं चिनोतु"
 
 msgid "Open Files"
-msgstr ""
+msgstr "सञ्चिकाः उद्घाटयतु"
 
 msgid "Open File"
-msgstr ""
+msgstr "सञ्चिकाम् उद्घाटयतु"
 
 msgid "Save File"
-msgstr ""
+msgstr "सञ्चिकां रक्षतु"
 
 msgid "Save Files"
-msgstr ""
+msgstr "सञ्चिकाः रक्षतु"
 
 msgid "_Folder:"
-msgstr ""
+msgstr "पुटम् (_F):"
 
 msgid "_Name:"
-msgstr ""
+msgstr "नाम (_N):"
 
 msgid "_Type:"
-msgstr ""
+msgstr "प्रकारः (_T):"
 
 msgid "_Select"
-msgstr ""
+msgstr "चिनोतु (_S)"
 
 msgid "_Open"
-msgstr ""
+msgstr "उद्घाटयतु (_O)"
 
 msgid "New Folder"
 msgstr "नूतनं पुटम्"
 
 #, c-format
 msgid "Create new folder in:\n%s"
-msgstr ""
+msgstr "अत्र नूतनं पुटं रचयतु:\n%s"
 
 msgid "C_reate"
-msgstr ""
+msgstr "रचयतु (_R)"
 
 msgid "Could not create the folder."
-msgstr ""
+msgstr "पुटं रचयितुं न शक्तम्।"
 
 #, c-format
 msgid "%zu items selected"
-msgstr ""
+msgstr "%zu वस्तूनि चितानि"
 
 msgid "Contents:"
-msgstr ""
+msgstr "विषयः:"
 
 msgid "Size:"
 msgstr "आकृति:"
@@ -1137,10 +1137,10 @@ msgid "Folder"
 msgstr "समुच्चय"
 
 msgid "Contains:"
-msgstr ""
+msgstr "अन्तर्गतम्:"
 
 msgid "Counting…"
-msgstr ""
+msgstr "गण्यते…"
 
 msgid "Unknown"
 msgstr "अज्ञात्"
@@ -1170,75 +1170,75 @@ msgid "Dimensions:"
 msgstr "आयामाः:"
 
 msgid "Broken Link"
-msgstr ""
+msgstr "भग्नः सम्पर्कः"
 
 #, c-format
 msgid "%s (link)"
-msgstr ""
+msgstr "%s (सम्पर्कः)"
 
 msgid "other drive"
-msgstr ""
+msgstr "अन्यत् चालकम्"
 
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s मध्ये %s"
 
 #, c-format
 msgid "%s left"
-msgstr ""
+msgstr "%s अवशिष्टम्"
 
 #, c-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d मध्ये %d"
 
 msgid "File operations in progress"
-msgstr ""
+msgstr "सञ्चिका-क्रियाः प्रचलन्ति"
 
 msgid "No subfolders"
-msgstr ""
+msgstr "उपपुटानि न सन्ति"
 
 msgid "Select the given files in their folders"
-msgstr ""
+msgstr "दत्ताः सञ्चिकाः तासां पुटेषु चिनोतु"
 
 msgid "Open the window in split view"
-msgstr ""
+msgstr "गवाक्षं विभक्तदृश्ये उद्घाटयतु"
 
 msgid "Always open a new window"
-msgstr ""
+msgstr "सदा नूतनं गवाक्षम् उद्घाटयतु"
 
 msgid "Keep running in the background for the FileManager1 D-Bus service"
-msgstr ""
+msgstr "FileManager1 D-Bus सेवायै पृष्ठभूमौ चलतु"
 
 msgid "Detach from the terminal (without a location: open the current folder)"
-msgstr ""
+msgstr "टर्मिनल् तः पृथक् भवतु (स्थानं विना: वर्तमानपुटम् उद्घाटयति)"
 
 msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
-msgstr ""
+msgstr "xdg-desktop-portal कृते सञ्चिका-चयनकं चालयतु (D-Bus द्वारा आरब्धम्)"
 
 msgid "Show the version"
-msgstr ""
+msgstr "संस्करणं दर्शयतु"
 
 msgid "[FILE or FOLDER…]"
-msgstr ""
+msgstr "[सञ्चिका अथवा पुटम्…]"
 
 msgid "Acting as administrator: changes in this window can damage the system."
-msgstr ""
+msgstr "प्रशासकरूपेण कार्यं क्रियते: अस्मिन् गवाक्षे परिवर्तनानि तन्त्रं हानिं कर्तुं शक्नुवन्ति।"
 
 msgid "Close this window?"
-msgstr ""
+msgstr "इमं गवाक्षं पिदधातु वा?"
 
 #, c-format
 msgid "This window has %zu tabs open. Closing it closes all of them."
-msgstr ""
+msgstr "अस्मिन् गवाक्षे %zu ट्याब् उद्घाटिताः सन्ति। तस्य पिधानेन सर्वे पिधीयन्ते।"
 
 msgid "Close Window"
-msgstr ""
+msgstr "गवाक्षं पिदधातु"
 
 msgid "Configure Toolbars…"
 msgstr "Toolbars विन्यस्तं कुर्वन्तु…"
 
 msgid "Show _Toolbar"
-msgstr ""
+msgstr "उपकरणपट्टिकां दर्शयतु (_T)"
 
 msgid "Split"
 msgstr "भंज"
@@ -1253,79 +1253,79 @@ msgid "Show in Groups"
 msgstr "समूहेषु दर्शयतु"
 
 msgid "_File"
-msgstr ""
+msgstr "सञ्चिका (_F)"
 
 msgid "New _Window"
-msgstr ""
+msgstr "नूतनः गवाक्षः (_W)"
 
 msgid "New _Tab"
-msgstr ""
+msgstr "नूतनः ट्याब् (_T)"
 
 msgid "_Close Tab"
-msgstr ""
+msgstr "ट्याब् पिदधातु (_C)"
 
 msgid "Create _New"
-msgstr ""
+msgstr "नूतनं रचयतु (_N)"
 
 msgid "_Rename…"
-msgstr ""
+msgstr "नामान्तरं करोतु (_R)…"
 
 msgid "_Duplicate Here"
-msgstr ""
+msgstr "अत्र द्विगुणीकरोतु (_D)"
 
 msgid "Move to _Trash"
-msgstr ""
+msgstr "तुच्छद्रव्ये स्थापयतु (_T)"
 
 msgid "_Delete"
-msgstr ""
+msgstr "विलोपयतु (_D)"
 
 msgid "Restore from Trash"
-msgstr ""
+msgstr "तुच्छद्रव्यात् पुनःस्थापयतु"
 
 msgid "_Properties"
-msgstr ""
+msgstr "गुणाः (_P)"
 
 msgid "_Quit"
-msgstr ""
+msgstr "निर्गच्छतु (_Q)"
 
 msgid "_Edit"
-msgstr ""
+msgstr "सम्पादनम् (_E)"
 
 msgid "_Undo"
-msgstr ""
+msgstr "पूर्ववत् करोतु (_U)"
 
 msgid "_Redo"
-msgstr ""
+msgstr "पुनः करोतु (_R)"
 
 msgid "Cu_t"
-msgstr ""
+msgstr "कर्तयतु (_T)"
 
 msgid "_Copy"
-msgstr ""
+msgstr "प्रतिलिपिं करोतु (_C)"
 
 msgid "_Paste"
-msgstr ""
+msgstr "संलग्नयतु (_P)"
 
 msgid "Filter…"
 msgstr "फ़िल्टर…"
 
 msgid "_Search…"
-msgstr ""
+msgstr "अन्विष्यतु (_S)…"
 
 msgid "Select _All"
-msgstr ""
+msgstr "सर्वं चिनोतु (_A)"
 
 msgid "_View"
-msgstr ""
+msgstr "दृश्यम् (_V)"
 
 msgid "Zoom _In"
-msgstr ""
+msgstr "आवर्धयतु (_I)"
 
 msgid "Reset Zoom Level"
 msgstr "जूम स्तर पुनः सेट् करें"
 
 msgid "Zoom _Out"
-msgstr ""
+msgstr "लघूकरोतु (_O)"
 
 msgid "Show Additional Information"
 msgstr "अतिरिक्तसूचना दर्शयतु"
@@ -1334,13 +1334,13 @@ msgid "Show Previews"
 msgstr "पूर्वावलोकनानि दर्शयतु"
 
 msgid "Restore to Defaults"
-msgstr ""
+msgstr "पूर्वनिर्धारितानि पुनःस्थापयतु"
 
 msgid "Adjust View Display Style…"
 msgstr "दृश्यप्रदर्शनशैलीं समायोजयन्तु…"
 
 msgid "Re_load"
-msgstr ""
+msgstr "पुनः आरोपयतु (_L)"
 
 msgid "Panels"
 msgstr "फलकम्"
@@ -1352,175 +1352,175 @@ msgid "Location Bar"
 msgstr "स्थान बार"
 
 msgid "Show _Menubar"
-msgstr ""
+msgstr "सूचीपट्टिकां दर्शयतु (_M)"
 
 msgid "Show _Statusbar"
-msgstr ""
+msgstr "स्थितिपट्टिकां दर्शयतु (_S)"
 
 msgid "_Go"
-msgstr ""
+msgstr "गच्छतु (_G)"
 
 msgid "_Back"
-msgstr ""
+msgstr "पृष्ठतः (_B)"
 
 msgid "_Forward"
-msgstr ""
+msgstr "अग्रतः (_F)"
 
 msgid "_Up"
-msgstr ""
+msgstr "उपरि (_U)"
 
 msgid "_Home"
-msgstr ""
+msgstr "गृहम् (_H)"
 
 msgid "Recently Closed Tabs"
 msgstr "सद्यः बन्दाः ट्याब्स्"
 
 msgid "_Tools"
-msgstr ""
+msgstr "उपकरणानि (_T)"
 
 msgid "Open _Terminal"
-msgstr ""
+msgstr "टर्मिनल् उद्घाटयतु (_T)"
 
 msgid "Open Terminal _Here"
-msgstr ""
+msgstr "अत्र टर्मिनल् उद्घाटयतु (_H)"
 
 msgid "_Disk Usage…"
-msgstr ""
+msgstr "चक्रिका-उपयोगः (_D)…"
 
 msgid "_Settings"
-msgstr ""
+msgstr "विन्यासाः (_S)"
 
 msgid "Configure Tool_bars…"
-msgstr ""
+msgstr "उपकरणपट्टिकाः विन्यस्यतु (_B)…"
 
 msgid "_Configure Beluga…"
-msgstr ""
+msgstr "Beluga विन्यस्यतु (_C)…"
 
 msgid "No recently closed tabs"
-msgstr ""
+msgstr "अधुना पिहिताः ट्याब् न सन्ति"
 
 msgid "(Administrator)"
-msgstr ""
+msgstr "(प्रशासकः)"
 
 #, c-format
 msgid "Open %zu folders in new tabs?"
-msgstr ""
+msgstr "%zu पुटानि नूतनेषु ट्याब् मध्ये उद्घाटयतु वा?"
 
 msgid "Open Folders"
-msgstr ""
+msgstr "पुटानि उद्घाटयतु"
 
 #, c-format
 msgid "Could not open “%s”."
-msgstr ""
+msgstr "“%s” उद्घाटयितुं न शक्तम्।"
 
 msgid "Could not open a terminal."
-msgstr ""
+msgstr "टर्मिनल् उद्घाटयितुं न शक्तम्।"
 
 msgid "New Text File.txt"
-msgstr ""
+msgstr "नूतना पाठसञ्चिका.txt"
 
 msgid "New File"
-msgstr ""
+msgstr "नूतना सञ्चिका"
 
 msgid "Empty the trash?"
-msgstr ""
+msgstr "तुच्छद्रव्यं रिक्तीकरोतु वा?"
 
 msgid "All items in the trash will be deleted permanently. This cannot be undone."
-msgstr ""
+msgstr "तुच्छद्रव्ये सर्वाणि वस्तूनि स्थायिरूपेण विलोप्स्यन्ते। इदं पूर्ववत् कर्तुं न शक्यते।"
 
 #, c-format
 msgid "Open %zu terminals?"
-msgstr ""
+msgstr "%zu टर्मिनल् उद्घाटयतु वा?"
 
 msgid "Open Terminals"
-msgstr ""
+msgstr "टर्मिनल् उद्घाटयतु"
 
 #, c-format
 msgid "Create new file in:\n%s"
-msgstr ""
+msgstr "अत्र नूतनां सञ्चिकां रचयतु:\n%s"
 
 msgid "Could not create the file."
-msgstr ""
+msgstr "सञ्चिका रचयितुं न शक्ता।"
 
 msgid "Link to File or Folder"
-msgstr ""
+msgstr "सञ्चिकायाः पुटस्य वा सम्पर्कः"
 
 msgid "Path of the file or folder to link to:"
-msgstr ""
+msgstr "सम्पर्कणीयायाः सञ्चिकायाः पुटस्य वा मार्गः:"
 
 msgid "Could not create the link."
-msgstr ""
+msgstr "सम्पर्कः रचयितुं न शक्तः।"
 
 #, c-format
 msgid "Permanently delete %s?"
-msgstr ""
+msgstr "%s स्थायिरूपेण विलोपयतु वा?"
 
 msgid "This cannot be undone."
-msgstr ""
+msgstr "इदं पूर्ववत् कर्तुं न शक्यते।"
 
 #, c-format
 msgid "Move %s to the trash?"
-msgstr ""
+msgstr "%s तुच्छद्रव्ये स्थापयतु वा?"
 
 #, c-format
 msgid "Could not run “%s”."
-msgstr ""
+msgstr "“%s” चालयितुं न शक्तम्।"
 
 #, c-format
 msgid "Could not start %s."
-msgstr ""
+msgstr "%s आरब्धुं न शक्तम्।"
 
 msgid "Could not start the application."
-msgstr ""
+msgstr "अनुप्रयोगः आरब्धुं न शक्तः।"
 
 #, c-format
 msgid "“%s” is an executable file."
-msgstr ""
+msgstr "“%s” निष्पाद्या सञ्चिका अस्ति।"
 
 msgid "Do you want to run it, or open it in an application?"
-msgstr ""
+msgstr "किं भवान् तां चालयितुम् इच्छति अथवा अनुप्रयोगे उद्घाटयितुम्?"
 
 msgid "Run"
-msgstr ""
+msgstr "चालयतु"
 
 #, c-format
 msgid "Choose the application to open %s (%s):"
-msgstr ""
+msgstr "%s (%s) उद्घाटयितुम् अनुप्रयोगं चिनोतु:"
 
 msgid "Recommended Applications"
-msgstr ""
+msgstr "अनुशंसिताः अनुप्रयोगाः"
 
 msgid "Other Applications"
-msgstr ""
+msgstr "अन्ये अनुप्रयोगाः"
 
 msgid "Or command:"
-msgstr ""
+msgstr "अथवा आदेशः:"
 
 msgid "Remember application association for this type of file"
-msgstr ""
+msgstr "अस्य सञ्चिकाप्रकारस्य कृते अनुप्रयोगसम्बन्धं स्मरतु"
 
 #, c-format
 msgid "%s free of %s"
-msgstr ""
+msgstr "%2$s मध्ये %1$s रिक्तम्"
 
 msgid "Safely Remove"
 msgstr "सुरक्षितरूपेण निष्कासयन्तु"
 
 msgid "Configure Sections"
-msgstr ""
+msgstr "विभागान् विन्यस्यतु"
 
 msgid "Ticked sections show in the Places panel, in this order."
-msgstr ""
+msgstr "चिह्निताः विभागाः स्थानपटले अनेन क्रमेण दृश्यन्ते।"
 
 msgid "Move Up"
-msgstr ""
+msgstr "उपरि नयतु"
 
 msgid "Move Down"
-msgstr ""
+msgstr "अधः नयतु"
 
 #, c-format
 msgid "Could not mount the device: %s"
-msgstr ""
+msgstr "उपकरणं संचयितुं न शक्तम्: %s"
 
 msgid "Mount"
 msgstr "संचयतु"
@@ -1535,7 +1535,7 @@ msgid "Remove"
 msgstr "निष्कासयतु"
 
 msgid "Show"
-msgstr ""
+msgstr "दर्शयतु"
 
 msgid "Hide"
 msgstr "गोपयतु"
@@ -1547,31 +1547,31 @@ msgid "Add Entry…"
 msgstr "प्रविष्टि योजयतु…"
 
 msgid "Configure Sections…"
-msgstr ""
+msgstr "विभागान् विन्यस्यतु…"
 
 msgid "Hide Hidden Entries"
-msgstr ""
+msgstr "गुप्तप्रविष्टीः गोपयतु"
 
 msgid "Show All Entries"
 msgstr "सर्वाणि प्रविष्टयः दर्शयतु"
 
 msgid "All items in the trash will be deleted permanently."
-msgstr ""
+msgstr "तुच्छद्रव्ये सर्वाणि वस्तूनि स्थायिरूपेण विलोप्स्यन्ते।"
 
 #, c-format
 msgid "Could not safely remove the device: %s"
-msgstr ""
+msgstr "उपकरणं सुरक्षितरूपेण निष्कासयितुं न शक्तम्: %s"
 
 #, c-format
 msgid "Could not unmount the device: %s"
-msgstr ""
+msgstr "उपकरणम् असंचयितुं न शक्तम्: %s"
 
 #, c-format
 msgid "%d px"
-msgstr ""
+msgstr "%d px"
 
 msgid "Use the system _font"
-msgstr ""
+msgstr "तन्त्रस्य अक्षरशैलीं प्रयुङ्क्ताम् (_S)"
 
 msgid "Label font:"
 msgstr "लेबल फ़ॉन्ट् :"
@@ -1583,52 +1583,52 @@ msgid "Preview icon size:"
 msgstr "पूर्वावलोकनचिह्न आकारः :"
 
 msgid "Context Menu Action"
-msgstr ""
+msgstr "सन्दर्भसूच्याः क्रिया"
 
 msgid "Name:"
 msgstr "नामः:"
 
 msgid "Command:"
-msgstr ""
+msgstr "आदेशः:"
 
 msgid "File names:"
-msgstr ""
+msgstr "सञ्चिकानामानि:"
 
 msgid "Types:"
-msgstr ""
+msgstr "प्रकाराः:"
 
 msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
-msgstr ""
+msgstr "%f प्रथमा सञ्चिका, %F सर्वाः सञ्चिकाः, %u / %U URI रूपेण, %n / %N नामानि, %d वर्तमानपुटम्।"
 
 msgid "Show for _files"
-msgstr ""
+msgstr "सञ्चिकाभ्यः दर्शयतु (_F)"
 
 msgid "Show for f_olders"
-msgstr ""
+msgstr "पुटेभ्यः दर्शयतु (_O)"
 
 msgid "Show when _several items are selected"
-msgstr ""
+msgstr "अनेकेषु वस्तुषु चितेषु दर्शयतु (_S)"
 
 msgid "Run in a _terminal"
-msgstr ""
+msgstr "टर्मिनल् मध्ये चालयतु (_T)"
 
 msgid "Custom Actions"
-msgstr ""
+msgstr "स्वनिर्मिताः क्रियाः"
 
 msgid "Your own entries for the context menu of files and folders."
-msgstr ""
+msgstr "सञ्चिकानां पुटानां च सन्दर्भसूच्यै भवतः स्वकीयाः प्रविष्टयः।"
 
 msgid "_Add…"
-msgstr ""
+msgstr "योजयतु (_A)…"
 
 msgid "_Edit…"
-msgstr ""
+msgstr "सम्पादयतु (_E)…"
 
 msgid "_Remove"
-msgstr ""
+msgstr "अपसारयतु (_R)"
 
 msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
-msgstr ""
+msgstr "लघुमार्गाः <Control>c अथवा <Shift>Delete इव लिख्यन्ते। अनेकान् अल्पविरामेण पृथक् करोतु। पूर्वनिर्धारितस्य कृते क्षेत्रं रिक्तं त्यजतु।"
 
 msgid "no file"
 msgstr "न सञ्चिका"
@@ -1638,19 +1638,19 @@ msgstr "कस्यापि आकारस्य सञ्चिकाः"
 
 #, c-format
 msgid "files below %d MiB"
-msgstr ""
+msgstr "%d MiB तः लघुतराः सञ्चिकाः"
 
 msgid "Search…"
 msgstr "अन्वेषण…"
 
 msgid "_Restore Defaults"
-msgstr ""
+msgstr "पूर्वनिर्धारितानि पुनःस्थापयतु (_R)"
 
 msgid "_Apply"
-msgstr ""
+msgstr "प्रयोजयतु (_A)"
 
 msgid "Folders & Tabs"
-msgstr ""
+msgstr "पुटानि ट्याब् च"
 
 msgid "Show on startup:"
 msgstr "प्रारम्भे दर्शयतु :"
@@ -1659,7 +1659,7 @@ msgid "Folders, tabs, and window state from last time"
 msgstr "अन्तिमसमयात् समुच्चय, ट्याब्स्, विण्डो स्टेट् च"
 
 msgid "This location:"
-msgstr ""
+msgstr "इदं स्थानम्:"
 
 msgid "Use Current Location"
 msgstr "वर्तमानस्थानस्य उपयोगं कुर्वन्तु"
@@ -1671,7 +1671,7 @@ msgid "Opening Folders:"
 msgstr "समुच्चय उद्घाटनम् :"
 
 msgid "Keep a single Beluga window, opening new folders in tabs"
-msgstr ""
+msgstr "एकमेव Beluga गवाक्षं धारयतु नूतनानि पुटानि ट्याब् मध्ये उद्घाटयतु च"
 
 msgid "Window:"
 msgstr "कोष्ठ:"
@@ -1683,25 +1683,25 @@ msgid "Show filter bar"
 msgstr "फ़िल्टर बार दर्शयतु"
 
 msgid "Tabs:"
-msgstr ""
+msgstr "ट्याब्:"
 
 msgid "Always show tab bar"
-msgstr ""
+msgstr "ट्याब्-पट्टिकां सदा दर्शयतु"
 
 msgid "Show close button on tabs"
-msgstr ""
+msgstr "ट्याब् उपरि पिधानपिञ्जं दर्शयतु"
 
 msgid "Tab style:"
-msgstr ""
+msgstr "ट्याब्-शैली:"
 
 msgid "Tab width adapts to folder name"
-msgstr ""
+msgstr "ट्याब्-विस्तारः पुटनाम्नः अनुसारम्"
 
 msgid "Tabs all have the same fixed width"
-msgstr ""
+msgstr "सर्वेषां ट्याब् समानः स्थिरविस्तारः"
 
 msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
-msgstr ""
+msgstr "स्थिरविस्तारयुक्ताः ट्याब् स्थानाभावे सर्वे समानतया सङ्कीर्णाः भवन्ति।"
 
 msgid "Open new tabs:"
 msgstr "नूतनानि ट्याब्स् उद्घाटयन्तु: "
@@ -1716,60 +1716,60 @@ msgid "Split view:"
 msgstr "विभक्तदृश्यम् : "
 
 msgid "When closing a split view"
-msgstr ""
+msgstr "विभक्तदृश्यस्य पिधाने"
 
 msgid "Close the active pane"
-msgstr ""
+msgstr "सक्रियपटलं पिदधातु"
 
 msgid "Close the inactive pane"
-msgstr ""
+msgstr "निष्क्रियपटलं पिदधातु"
 
 msgid "Close the right pane"
-msgstr ""
+msgstr "दक्षिणपटलं पिदधातु"
 
 msgid "Open new windows in split view mode"
-msgstr ""
+msgstr "नूतनान् गवाक्षान् विभक्तदृश्यविधौ उद्घाटयतु"
 
 msgid "Terminal:"
 msgstr "टर्मिनल्:"
 
 msgid "No terminal found"
-msgstr ""
+msgstr "टर्मिनल् न प्राप्तम्"
 
 #, c-format
 msgid "Detected: %s"
-msgstr ""
+msgstr "ज्ञातम्: %s"
 
 #, c-format
 msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
-msgstr ""
+msgstr "F4 तथा अत्र टर्मिनल् उद्घाटयतु इत्यनेन प्रयुज्यते। आदेशे %d पुटेन प्रतिस्थाप्यते; अन्यथा टर्मिनल् तस्मिन् आरभते। इदं पूर्वं KDE तन्त्रविन्यासः आसीत्।"
 
 msgid "Previews"
 msgstr "पूर्वावलोकनम्"
 
 msgid "New folders:"
-msgstr ""
+msgstr "नूतनानि पुटानि:"
 
 msgid "Show _previews in new folders"
-msgstr ""
+msgstr "नूतनेषु पुटेषु पूर्वावलोकनानि दर्शयतु (_P)"
 
 msgid "Show previews in the view for:"
 msgstr "कृते दृश्ये पूर्वावलोकनं दर्शयतु:"
 
 msgid "Audio (cover art)"
-msgstr ""
+msgstr "श्रव्यम् (आवरणचित्राणि)"
 
 msgid "PDF documents"
-msgstr ""
+msgstr "PDF लेखाः"
 
 msgid "Text files"
-msgstr ""
+msgstr "पाठसञ्चिकाः"
 
 msgid "Fonts"
-msgstr ""
+msgstr "अक्षरशैल्यः"
 
 msgid "Office documents"
-msgstr ""
+msgstr "कार्यालयलेखाः"
 
 msgid "Local storage:"
 msgstr "स्थानीय भण्डारणम् :"
@@ -1784,7 +1784,7 @@ msgid "Confirmations"
 msgstr "पुष्टिः"
 
 msgid "Ask for confirmation when:"
-msgstr ""
+msgstr "पुष्टिं पृच्छतु यदा:"
 
 msgid "Moving files or folders to trash"
 msgstr "सञ्चिकाः अथवा पुटं कचरे स्थानान्तरयति"
@@ -1796,10 +1796,10 @@ msgid "Deleting files or folders"
 msgstr "सञ्चिकाः अथवा पुटं विलोपयन्"
 
 msgid "Renaming a file will change its type"
-msgstr ""
+msgstr "सञ्चिकायाः नामान्तरेण तस्याः प्रकारः परिवर्तिष्यते"
 
 msgid "Ask for confirmation in Beluga when:"
-msgstr ""
+msgstr "Beluga मध्ये पुष्टिं पृच्छतु यदा:"
 
 msgid "Closing windows with multiple tabs"
 msgstr "बहुभिः ट्याब्भिः सह विण्डोः बन्दं करणम्"
@@ -1838,46 +1838,46 @@ msgid "Show item on hover"
 msgstr "hover इत्यत्र मदं दर्शयतु"
 
 msgid "Use _long date format"
-msgstr ""
+msgstr "दीर्घं दिनाङ्कप्रारूपं प्रयुङ्क्ताम् (_L)"
 
 msgid "Folders Panel:"
-msgstr ""
+msgstr "पुटपटलम्:"
 
 msgid "Limit to home directory when inside it"
-msgstr ""
+msgstr "गृहपुटस्य अन्तः सति तस्मिन् एव सीमितं करोतु"
 
 msgid "Show _hidden folders"
-msgstr ""
+msgstr "गुप्तपुटानि दर्शयतु (_H)"
 
 msgid "Scroll to the current folder _automatically"
-msgstr ""
+msgstr "वर्तमानपुटं प्रति स्वयं सर्पतु (_A)"
 
 msgid "Places Panel:"
-msgstr ""
+msgstr "स्थानपटलम्:"
 
 msgid "Icon size:"
 msgstr "चिह्न आकार:"
 
 msgid "Status & Location bars"
-msgstr ""
+msgstr "स्थिति-स्थानपट्टिके"
 
 msgid "Status Bar:"
-msgstr ""
+msgstr "स्थितिपट्टिका:"
 
 msgid "Small"
 msgstr "लघु"
 
 msgid "Full width"
-msgstr ""
+msgstr "पूर्णविस्तारः"
 
 msgid "Disabled"
-msgstr ""
+msgstr "निष्क्रियम्"
 
 msgid "Show zoom slider"
 msgstr "जूम स्लाइडरं दर्शयतु"
 
 msgid "Show free _space"
-msgstr ""
+msgstr "रिक्तस्थानं दर्शयतु (_S)"
 
 msgid "Location bar:"
 msgstr "स्थानपट्टिका :"
@@ -1904,22 +1904,22 @@ msgid "Remember display style for each folder"
 msgstr "प्रत्येकस्य पुटे प्रदर्शनशैलीं स्मर्यताम्"
 
 msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
-msgstr ""
+msgstr "सर्वथा, दृश्यम् › अस्य पुटस्य दृश्यं स्मरतु एकस्मै पुटाय स्वकीयां शैलीं ददाति। अन्वेषणम्, अद्यतनसञ्चिकाः, तुच्छद्रव्यम् इत्यादीनि कानिचन विशेषदृश्यानि अद्यापि स्वशैलीं प्रयुञ्जते।"
 
 msgid "Browsing:"
 msgstr "ब्राउजिंग् : "
 
 msgid "Browse compressed files as folders"
-msgstr ""
+msgstr "सम्पीडितसञ्चिकाः पुटानीव अवलोकयतु"
 
 msgid "Open folders during drag operations"
 msgstr "drag operations इत्यस्य समये समुच्चय उद्घाटयन्तु"
 
 msgid "Open files and folders with a single click"
-msgstr ""
+msgstr "एकेन क्लिक् द्वारा सञ्चिकाः पुटानि च उद्घाटयतु"
 
 msgid "Keep an _index of the home folder for instant search"
-msgstr ""
+msgstr "तत्कालान्वेषणाय गृहपुटस्य अनुक्रमणिकां धारयतु (_I)"
 
 msgid "Miscellaneous:"
 msgstr "विविध: "
@@ -1976,37 +1976,37 @@ msgid "Show no size"
 msgstr "आकारं न दर्शयतु"
 
 msgid "levels deep"
-msgstr ""
+msgstr "स्तराः गभीरम्"
 
 msgid "Date style:"
 msgstr "तिथिशैली :"
 
 msgid "Relative (Today, Yesterday…)"
-msgstr ""
+msgstr "सापेक्षम् (अद्य, ह्यः…)"
 
 msgid "Absolute"
-msgstr ""
+msgstr "निरपेक्षम्"
 
 msgid "Permissions style:"
 msgstr "अनुमतिशैली :"
 
 msgid "Symbolic (rwxr-xr-x)"
-msgstr ""
+msgstr "प्रतीकात्मकम् (rwxr-xr-x)"
 
 msgid "Numeric (0755)"
-msgstr ""
+msgstr "साङ्ख्यिकम् (0755)"
 
 msgid "Combined"
-msgstr ""
+msgstr "संयुक्तम्"
 
 msgid "Long file names:"
-msgstr ""
+msgstr "दीर्घाणि सञ्चिकानामानि:"
 
 msgid "Elide in the middle"
-msgstr ""
+msgstr "मध्ये सङ्क्षिपतु"
 
 msgid "Elide at the end"
-msgstr ""
+msgstr "अन्ते सङ्क्षिपतु"
 
 msgid "Label width:"
 msgstr "लेबलस्य विस्तारः :"
@@ -2027,7 +2027,7 @@ msgid "Unlimited"
 msgstr "असीमित"
 
 msgid "Spacing:"
-msgstr ""
+msgstr "अन्तरालः:"
 
 msgid "Maximum width:"
 msgstr "अधिकतमं चौड़ाई :"
@@ -2048,181 +2048,181 @@ msgid "By clicking on icon or name"
 msgstr "icon अथवा name इत्यत्र क्लिक् कृत्वा"
 
 msgid "Disk usage:"
-msgstr ""
+msgstr "चक्रिका-उपयोगः:"
 
 msgid "Show a Disk _Usage column"
-msgstr ""
+msgstr "चक्रिका-उपयोगस्तम्भं दर्शयतु (_U)"
 
 msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
-msgstr ""
+msgstr "प्रत्येका सञ्चिका प्रत्येकं सम्पूर्णं पुटं च चक्रिकायां यावत् स्थानं गृह्णाति, पुटे तस्य भागस्य पट्टिकया सह, यथा उपकरणानि › चक्रिका-उपयोगः। पुटानि पृष्ठभूमौ पूर्णतया पठ्यन्ते; बृहत्तमानि प्रथमं द्रष्टुं स्तम्भेन क्रमयतु। चक्रिका-उपयोगगवाक्षस्य \"अस्मिन् चालके एव तिष्ठतु\" अत्रापि प्रवर्तते।"
 
 msgid "View"
 msgstr "दृश्यं"
 
 msgid "Show in the context menu"
-msgstr ""
+msgstr "सन्दर्भसूच्यां दर्शयतु"
 
 msgid "'Copy To' and 'Move To'"
-msgstr ""
+msgstr "'अत्र प्रतिलिपिः' 'अत्र स्थानान्तरम्' च"
 
 msgid "Delete (in addition to Move to Trash)"
-msgstr ""
+msgstr "विलोपयतु (तुच्छद्रव्ये स्थापनात् अतिरिक्तम्)"
 
 msgid "Context Menu"
 msgstr "सन्दर्भ मेनू"
 
 msgid "Cleanup:"
-msgstr ""
+msgstr "स्वच्छता:"
 
 msgid "Delete files older than"
-msgstr ""
+msgstr "एतस्मात् पुरातनाः सञ्चिकाः विलोपयतु:"
 
 msgid "days"
-msgstr ""
+msgstr "दिनानि"
 
 msgid "Limit to"
-msgstr ""
+msgstr "सीमितं करोतु:"
 
 msgid "percent of the disk"
-msgstr ""
+msgstr "चक्रिकायाः प्रतिशतम्"
 
 msgid "Keep the trash on the home drive"
-msgstr ""
+msgstr "तुच्छद्रव्यं गृहपुटस्य चालके धारयतु"
 
 msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
-msgstr ""
+msgstr "अन्येभ्यः चालकेभ्यः तुच्छद्रव्ये स्थापिताः सञ्चिकाः गृहपुटस्य तुच्छद्रव्ये प्रतिलिप्यन्ते, अतः तेषु चालकेषु .Trash-1000 पुटं न भवति। तदा बृहत्सञ्चिकानां तुच्छद्रव्ये स्थापने अधिकः कालः लगति।"
 
 msgid "Full trash:"
-msgstr ""
+msgstr "पूर्णं तुच्छद्रव्यम्:"
 
 msgid "When the limit is reached:"
-msgstr ""
+msgstr "सीमां प्राप्ते:"
 
 msgid "Show a warning"
-msgstr ""
+msgstr "चेतावनीं दर्शयतु"
 
 msgid "Delete the oldest items"
-msgstr ""
+msgstr "पुरातनतमानि वस्तूनि विलोपयतु"
 
 msgid "Delete the largest items"
-msgstr ""
+msgstr "बृहत्तमानि वस्तूनि विलोपयतु"
 
 msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
-msgstr ""
+msgstr "एते पूर्वं KDE तन्त्रविन्यासाः आसन्। सीमाः Beluga आरम्भे वस्तूनां तुच्छद्रव्ये स्थापनात् परं च प्रयुज्यन्ते।"
 
 msgid "Calculating trash size…"
-msgstr ""
+msgstr "तुच्छद्रव्यस्य आकारः गण्यते…"
 
 msgid "Trash:"
 msgstr "तुच्छद्रव्य:"
 
 #, c-format
 msgid "The trash currently uses %s."
-msgstr ""
+msgstr "तुच्छद्रव्यम् इदानीं %s उपयुङ्क्ते।"
 
 msgid "_Empty Trash Now"
-msgstr ""
+msgstr "तुच्छद्रव्यम् इदानीं रिक्तीकरोतु (_E)"
 
 msgid "Vim Mode"
-msgstr ""
+msgstr "Vim विधिः"
 
 msgid "Vim mode:"
-msgstr ""
+msgstr "Vim विधिः:"
 
 msgid "Use Vim-like keys in the views"
-msgstr ""
+msgstr "दृश्येषु Vim-शैल्याः कुञ्चिकाः प्रयुङ्क्ताम्"
 
 msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
-msgstr ""
+msgstr "सामान्यविधिः h j k l द्वारा चलति अधस्तनकुञ्चिकाः च चालयति; v, V, Ctrl+V च चिन्वन्ति; i a च नामान्तरं कुर्वन्ति (निवेशविधिः); Esc सामान्यविधिं प्रति प्रत्यागच्छति; : आदेशपङ्क्तिम् उद्घाटयति। अत्र असूचिताः Ctrl अथवा Alt कुञ्चिकाः स्वसामान्यार्थं धारयन्ति।"
 
 msgid "Leader key:"
-msgstr ""
+msgstr "नायककुञ्चिका:"
 
 msgid "<leader> in the keys below, e.g. <Space> or ,"
-msgstr ""
+msgstr "अधस्तनकुञ्चिकासु <leader>, यथा <Space> अथवा ,"
 
 msgid "Wait for more keys:"
-msgstr ""
+msgstr "अधिककुञ्चिकानां प्रतीक्षां करोतु:"
 
 msgid "ms (dd after d, gg after g)"
-msgstr ""
+msgstr "ms (d पश्चात् dd, g पश्चात् gg)"
 
 msgid "Keys"
-msgstr ""
+msgstr "कुञ्चिकाः"
 
 msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
-msgstr ""
+msgstr "Vim सङ्केतः, अनेकाः रिक्तस्थानेन पृथक्कृताः: h, gg, <C-v>, <CR>, <Esc>, <leader>t. पूर्वनिर्धारितस्य कृते क्षेत्रं रिक्तं त्यजतु।"
 
 msgid "Command line"
-msgstr ""
+msgstr "आदेशपङ्क्तिः"
 
 msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
-msgstr ""
+msgstr ":q गवाक्षं पिदधाति (:q! ट्याब्-विषये अपृष्ट्वा), :qa Beluga तः निर्गच्छति, :e अथवा :cd मार्गः पुटम् उद्घाटयति, :tabnew [मार्गः], :tabclose, :tabonly, :sp अथवा :vs [मार्गः] दृश्यं विभजतः, :only अन्यद् दृश्यं पिदधाति, :mkdir नाम, :touch नाम, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!आदेशः पुटे शेल्-आदेशं चालयति।"
 
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "कुञ्चिकापटल-लघुमार्गाः"
 
 msgid "Details:"
 msgstr "विवरणम्:"
 
 msgid "Only files on this computer can be read."
-msgstr ""
+msgstr "केवलम् अस्य सङ्गणकस्य सञ्चिकाः पठितुं शक्यन्ते।"
 
 msgid "Beluga was built without FFmpeg."
-msgstr ""
+msgstr "Beluga FFmpeg विना निर्मितम्।"
 
 msgid "Reading…"
-msgstr ""
+msgstr "पठ्यते…"
 
 msgid "No details found."
-msgstr ""
+msgstr "विवरणानि न प्राप्तानि।"
 
 msgid "Change the folder's icon"
-msgstr ""
+msgstr "पुटप्रतीकं परिवर्तयतु"
 
 msgid "Could not change the icon."
-msgstr ""
+msgstr "प्रतीकं परिवर्तयितुं न शक्तम्।"
 
 #, c-format
 msgid "%zu items"
-msgstr ""
+msgstr "%zu वस्तूनि"
 
 msgid "Calculating…"
 msgstr "गणनां कुर्वन्…"
 
 msgid "No default application"
-msgstr ""
+msgstr "पूर्वनिर्धारितः अनुप्रयोगः नास्ति"
 
 msgid "C_hange…"
-msgstr ""
+msgstr "परिवर्तयतु (_H)…"
 
 msgid "Opens with:"
-msgstr ""
+msgstr "अनेन उद्घाट्यते:"
 
 msgid "Free space:"
-msgstr ""
+msgstr "रिक्तस्थानम्:"
 
 #, c-format
 msgid "%s free of %s (%d%% used)"
-msgstr ""
+msgstr "%2$s मध्ये %1$s रिक्तम् (%3$d%% उपयुक्तम्)"
 
 #, c-format
 msgid "%llu byte"
 msgid_plural "%llu bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu बाइट्"
+msgstr[1] "%llu बाइट्स्"
 
 msgid "Forbidden"
 msgstr "प्रतिबंधित"
 
 msgid "Can View"
-msgstr ""
+msgstr "द्रष्टुं शक्नोति"
 
 msgid "Can View & Modify"
 msgstr "द्रष्टुं परिवर्तनं च कर्तुं शक्नोति"
 
 msgid "Can View Content"
-msgstr ""
+msgstr "विषयं द्रष्टुं शक्नोति"
 
 msgid "Can View & Modify Content"
 msgstr "सामग्रीं द्रष्टुं परिवर्तनं च कर्तुं शक्नोति"
@@ -2231,37 +2231,37 @@ msgid "Others:"
 msgstr "अन्यः :"
 
 msgid "Is _executable"
-msgstr ""
+msgstr "निष्पाद्यम् (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
-msgstr ""
+msgstr "परिवर्तनानि सर्वेषु उपपुटेषु तेषां विषये च प्रयोजयतु (_S)"
 
 msgid "User:"
 msgstr "उपयोक्ता :"
 
 msgid "Mode:"
-msgstr ""
+msgstr "विधिः:"
 
 msgid "Calculate"
 msgstr "गणनां कुरुत"
 
 msgid "Could not read the file."
-msgstr ""
+msgstr "सञ्चिका पठितुं न शक्ता।"
 
 msgid "Paste a checksum to compare"
-msgstr ""
+msgstr "तुलनायै परीक्षणयोगं संलग्नयतु"
 
 msgid "Verify:"
-msgstr ""
+msgstr "सत्यापयतु:"
 
 msgid "The checksums match."
-msgstr ""
+msgstr "परीक्षणयोगाः मेलन्ति।"
 
 msgid "No calculated checksum matches. Calculate the matching type first."
-msgstr ""
+msgstr "गणितः कोऽपि परीक्षणयोगः न मेलति। प्रथमं सम्बद्धं प्रकारं गणयतु।"
 
 msgid "Could not change the permissions."
-msgstr ""
+msgstr "अनुमतयः परिवर्तयितुं न शक्ताः।"
 
 #, c-format
 msgid "Properties for %s"
@@ -2274,43 +2274,43 @@ msgid "Filter:"
 msgstr "फ़िल्टर:"
 
 msgid "Filter by name (wildcards like *.txt work)"
-msgstr ""
+msgstr "नाम्ना छन्दयतु (*.txt इत्यादयः वन्यचिह्नाः कार्यं कुर्वन्ति)"
 
 msgid "Keep the filter when changing folders"
-msgstr ""
+msgstr "पुटपरिवर्तने छन्दकं धारयतु"
 
 msgid "In This Folder"
-msgstr ""
+msgstr "अस्मिन् पुटे"
 
 msgid "In Your Files"
-msgstr ""
+msgstr "भवतः सञ्चिकासु"
 
 msgid "Everywhere"
-msgstr ""
+msgstr "सर्वत्र"
 
 msgid "File Names"
-msgstr ""
+msgstr "सञ्चिकानामानि"
 
 msgid "File Names and Contents"
-msgstr ""
+msgstr "सञ्चिकानामानि विषयाः च"
 
 msgid "Any Time"
-msgstr ""
+msgstr "कदापि"
 
 msgid "Today"
 msgstr "अद्य"
 
 msgid "Last 7 Days"
-msgstr ""
+msgstr "अन्तिमानि 7 दिनानि"
 
 msgid "Last 30 Days"
-msgstr ""
+msgstr "अन्तिमानि 30 दिनानि"
 
 msgid "Last Year"
-msgstr ""
+msgstr "अन्तिमं वर्षम्"
 
 msgid "Hidden files"
-msgstr ""
+msgstr "गुप्तसञ्चिकाः"
 
 msgid "Zoom:"
 msgstr "जूम :"
@@ -2323,7 +2323,7 @@ msgid "%s free"
 msgstr "%s मुक्तम्"
 
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "ट्याब् द्विगुणीकरोतु"
 
 msgid "Detach Tab"
 msgstr "ट्याब् विच्छेदं कुर्वन्तु"
@@ -2338,31 +2338,31 @@ msgid "--- separator ---"
 msgstr "--- विच्छेदकः ---"
 
 msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
-msgstr ""
+msgstr "सूच्यां स्थानपट्टिकायाः उपरि स्थिताः क्रियाः तस्याः वामतः, अवशिष्टाः दक्षिणतः भवन्ति। * ताः क्रियाः चिह्नयति याः पूर्वनिर्धारितोपकरणपट्टिकया स्थापिते स्थाने न सन्ति।"
 
 msgid "A_vailable actions:"
-msgstr ""
+msgstr "उपलब्धाः क्रियाः (_V):"
 
 msgid "Add to the tool bar"
-msgstr ""
+msgstr "उपकरणपट्टिकायां योजयतु"
 
 msgid "Remove from the tool bar"
-msgstr ""
+msgstr "उपकरणपट्टिकातः अपसारयतु"
 
 msgid "Move up (left on the tool bar)"
-msgstr ""
+msgstr "उपरि नयतु (उपकरणपट्टिकायां वामतः)"
 
 msgid "Move down (right on the tool bar)"
-msgstr ""
+msgstr "अधः नयतु (उपकरणपट्टिकायां दक्षिणतः)"
 
 msgid "C_urrent actions:"
-msgstr ""
+msgstr "वर्तमानक्रियाः (_U):"
 
 msgid "_Defaults"
-msgstr ""
+msgstr "पूर्वनिर्धारितानि (_D)"
 
 msgid "Show Columns"
-msgstr ""
+msgstr "स्तम्भान् दर्शयतु"
 
 #, c-format
 msgid "Size: %s"
@@ -2370,11 +2370,11 @@ msgstr "आकृति: %s"
 
 #, c-format
 msgid "Modified: %s"
-msgstr ""
+msgstr "परिवर्तितम्: %s"
 
 #, c-format
 msgid "Original location: %s"
-msgstr ""
+msgstr "मूलस्थानम्: %s"
 
 msgid "Yesterday"
 msgstr "ह्यः"
@@ -2401,19 +2401,19 @@ msgid "Big"
 msgstr "विशालः"
 
 msgid "Less than 1 MiB"
-msgstr ""
+msgstr "1 MiB तः न्यूनम्"
 
 msgid "1 MiB to 100 MiB"
-msgstr ""
+msgstr "1 MiB तः 100 MiB पर्यन्तम्"
 
 msgid "100 MiB to 1 GiB"
-msgstr ""
+msgstr "100 MiB तः 1 GiB पर्यन्तम्"
 
 msgid "1 GiB or more"
-msgstr ""
+msgstr "1 GiB अथवा अधिकम्"
 
 msgid "Not counted yet"
-msgstr ""
+msgstr "अद्यापि न गणितम्"
 
 msgid "Searching…"
 msgstr "अन्वेषणं कुर्वन्…"
@@ -2422,7 +2422,7 @@ msgid "No items matching the filter"
 msgstr "फ़िल्टरेन सह मेलनं कुर्वन्तः वस्तूनि न सन्ति"
 
 msgid "No items found"
-msgstr ""
+msgstr "वस्तूनि न प्राप्तानि"
 
 msgid "Trash is empty"
 msgstr "कचरा रिक्तः अस्ति"
@@ -2431,38 +2431,38 @@ msgid "Folder is empty"
 msgstr "पुटं रिक्तम् अस्ति"
 
 msgid "A file name cannot contain “/”."
-msgstr ""
+msgstr "सञ्चिकानाम्नि “/” न भवितुम् अर्हति।"
 
 #, c-format
 msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
-msgstr ""
+msgstr "“%s” इत्यस्य “%s” इति नामान्तरेण तस्य विस्तारः परिवर्तते। सञ्चिका अन्येन अनुप्रयोगेण उद्घाट्येत अथवा सर्वथा न उद्घाट्येत।"
 
 msgid "Selection Mode: click files or folders to select or deselect them."
-msgstr ""
+msgstr "चयनविधिः: सञ्चिकाः पुटानि वा चेतुं चयनं निरसितुं वा तेषु क्लिक् करोतु।"
 
 msgid "_Exit Selection Mode"
-msgstr ""
+msgstr "चयनविधितः निर्गच्छतु (_E)"
 
 msgid "_Duplicate"
-msgstr ""
+msgstr "द्विगुणीकरोतु (_D)"
 
 msgid "De_lete"
-msgstr ""
+msgstr "विलोपयतु (_L)"
 
 msgid "Pr_operties"
-msgstr ""
+msgstr "गुणाः (_O)"
 
 #, c-format
 msgid "The folder “%s” no longer exists."
-msgstr ""
+msgstr "“%s” पुटम् इदानीं नास्ति।"
 
 #, c-format
 msgid "“%s” selected (%s%s)"
-msgstr ""
+msgstr "“%s” चितम् (%s%s)"
 
 #, c-format
 msgid "%s selected"
-msgstr ""
+msgstr "%s चितानि"
 
 msgid "Loading folder…"
 msgstr "समुच्चय लोड् भवति…"
@@ -2470,87 +2470,87 @@ msgstr "समुच्चय लोड् भवति…"
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d चितम्"
+msgstr[1] "%d चितानि"
 
 msgid "Move left"
-msgstr ""
+msgstr "वामतः"
 
 msgid "Move down"
-msgstr ""
+msgstr "अधः"
 
 msgid "Move up"
-msgstr ""
+msgstr "उपरि"
 
 msgid "Move right"
-msgstr ""
+msgstr "दक्षिणतः"
 
 msgid "First item"
-msgstr ""
+msgstr "प्रथमं वस्तु"
 
 msgid "Last item"
-msgstr ""
+msgstr "अन्तिमं वस्तु"
 
 msgid "Page down"
-msgstr ""
+msgstr "पृष्ठम् अधः"
 
 msgid "Page up"
-msgstr ""
+msgstr "पृष्ठम् उपरि"
 
 msgid "Parent folder"
 msgstr "मातापितृपुटम्"
 
 msgid "Select the items the cursor passes (visual)"
-msgstr ""
+msgstr "सूचकः यानि वस्तूनि अतिक्रामति तानि चिनोतु (दृश्यम्)"
 
 msgid "Select a range, like Shift (visual line)"
-msgstr ""
+msgstr "Shift इव परिधिं चिनोतु (दृश्यपङ्क्तिः)"
 
 msgid "Select a block of the grid (visual block)"
-msgstr ""
+msgstr "जालकात् खण्डं चिनोतु (दृश्यखण्डः)"
 
 msgid "Back to normal mode"
-msgstr ""
+msgstr "सामान्यविधिं प्रति प्रत्यागच्छतु"
 
 msgid "Copy the item under the cursor"
-msgstr ""
+msgstr "सूचकस्य अधः स्थितं वस्तु प्रतिलिपतु"
 
 msgid "Rename, cursor at the start (insert)"
-msgstr ""
+msgstr "नामान्तरम्, सूचकः आदौ (निवेशः)"
 
 msgid "Rename, cursor after the name (append)"
-msgstr ""
+msgstr "नामान्तरम्, सूचकः नाम्नः परम् (योजनम्)"
 
 msgid "Rename, name selected (change)"
-msgstr ""
+msgstr "नामान्तरम्, नाम चितम् (परिवर्तनम्)"
 
 msgid "Edit the location"
-msgstr ""
+msgstr "स्थानं सम्पादयतु"
 
 msgid "Copied."
-msgstr ""
+msgstr "प्रतिलिपितम्।"
 
 msgid "Cut."
-msgstr ""
+msgstr "कर्तितम्।"
 
 #, c-format
 msgid "Can't open “%s”."
-msgstr ""
+msgstr "“%s” उद्घाटयितुं न शक्यते।"
 
 msgid "A name is needed."
-msgstr ""
+msgstr "नाम आवश्यकम्।"
 
 #, c-format
 msgid "Unknown view: %s"
-msgstr ""
+msgstr "अज्ञातं दृश्यम्: %s"
 
 #, c-format
 msgid "Unknown option: %s"
-msgstr ""
+msgstr "अज्ञातः विकल्पः: %s"
 
 msgid "Sort by name, size, date or type."
-msgstr ""
+msgstr "name, size, date अथवा type द्वारा क्रमयतु।"
 
 #, c-format
 msgid "Not a command: %s"
-msgstr ""
+msgstr "आदेशः नास्ति: %s"

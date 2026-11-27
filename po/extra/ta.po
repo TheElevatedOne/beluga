@@ -1,0 +1,1421 @@
+# Beluga: translations of Beluga's own messages (not in KDE's catalogs), used by po/import-kde-translations.py.
+# This file is distributed under the same license as the beluga package (GPL-2.0-or-later).
+msgid ""
+msgstr ""
+"Project-Id-Version: beluga\n"
+"PO-Revision-Date: 2026-11-27 12:00+0100\n"
+"Last-Translator: Beluga contributors\n"
+"Language-Team: none\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "The archive could not be opened."
+msgstr "காப்பகத்தைத் திறக்க முடியவில்லை."
+
+msgid "The archive could not be read."
+msgstr "காப்பகத்தைப் படிக்க முடியவில்லை."
+
+msgid "Cancelled."
+msgstr "ரத்து செய்யப்பட்டது."
+
+msgid "This file is encrypted with a password."
+msgstr "இந்தக் கோப்பு கடவுச்சொல்லால் மறையாக்கப்பட்டுள்ளது."
+
+msgid "“%s” could not be read."
+msgstr "“%s” ஐப் படிக்க முடியவில்லை."
+
+msgid "This is not a file in an archive."
+msgstr "இது காப்பகத்தினுள் உள்ள கோப்பு அல்ல."
+
+msgid "Extract Here"
+msgstr "இங்கே பிரித்தெடு"
+
+msgid "Compress to .tar.gz"
+msgstr ".tar.gz ஆகச் சுருக்கு"
+
+msgid "No terminal emulator was found."
+msgstr "முனைய முன்மாதிரி எதுவும் கிடைக்கவில்லை."
+
+msgid "Root"
+msgstr "வேர்"
+
+msgid "%s Volume"
+msgstr "%s தொகுதி"
+
+msgid "This device cannot be mounted."
+msgstr "இந்தச் சாதனத்தை ஏற்ற முடியாது."
+
+msgid "This device cannot be unmounted."
+msgstr "இந்தச் சாதனத்தை இறக்க முடியாது."
+
+msgid "The device is gone."
+msgstr "சாதனம் இனி இல்லை."
+
+msgid "Copying %s to “%s”"
+msgstr "%s ஐ “%s” க்கு நகலெடுக்கிறது"
+
+msgid "Moving %s to “%s”"
+msgstr "%s ஐ “%s” க்கு நகர்த்துகிறது"
+
+msgid "Linking %s in “%s”"
+msgstr "%s க்கான இணைப்பை “%s” இல் உருவாக்குகிறது"
+
+msgid "Moving %s to the trash"
+msgstr "%s ஐக் குப்பைக்கு நகர்த்துகிறது"
+
+msgid "Deleting %s"
+msgstr "%s ஐ நீக்குகிறது"
+
+msgid "Restoring %s"
+msgstr "%s ஐ மீட்டமைக்கிறது"
+
+msgid "Emptying the trash"
+msgstr "குப்பையைக் காலியாக்குகிறது"
+
+msgid "Counting files…"
+msgstr "கோப்புகளை எண்ணுகிறது…"
+
+msgid "“%s”: %s"
+msgstr "“%s”: %s"
+
+msgid "A folder cannot be moved into itself."
+msgstr "ஒரு அடைவை அதனுள்ளேயே நகர்த்த முடியாது."
+
+msgid "A folder cannot be copied into itself."
+msgstr "ஒரு அடைவை அதனுள்ளேயே நகலெடுக்க முடியாது."
+
+msgid "Files can only be extracted into local folders."
+msgstr "கோப்புகளை உள்ளூர் அடைவுகளுக்கு மட்டுமே பிரித்தெடுக்க முடியும்."
+
+msgid "Extracting from “%s”"
+msgstr "“%s” இலிருந்து பிரித்தெடுக்கிறது"
+
+msgid "Disc:"
+msgstr "வட்டு:"
+
+msgid "%.1f Mbit/s"
+msgstr "%.1f Mbit/s"
+
+msgid "%lld kbit/s"
+msgstr "%lld kbit/s"
+
+msgid "Format:"
+msgstr "வடிவம்:"
+
+msgid "Bit rate:"
+msgstr "பிட் வீதம்:"
+
+msgid "Cover:"
+msgstr "அட்டை:"
+
+msgid ", %.0f fps"
+msgstr ", %.0f fps"
+
+msgid ", %.3f fps"
+msgstr ", %.3f fps"
+
+msgid "Video %d:"
+msgstr "காணொளி %d:"
+
+msgid ", %d Hz"
+msgstr ", %d Hz"
+
+msgid "mono"
+msgstr "மோனோ"
+
+msgid "stereo"
+msgstr "ஸ்டீரியோ"
+
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d அலைவரிசை"
+msgstr[1] "%d அலைவரிசைகள்"
+
+msgid ", %d bit"
+msgstr ", %d பிட்"
+
+msgid "Audio %d:"
+msgstr "ஒலி %d:"
+
+msgid "Subtitles:"
+msgstr "துணைத்தலைப்புகள்:"
+
+msgid "Chapters:"
+msgstr "அத்தியாயங்கள்:"
+
+msgid "Images"
+msgstr "படங்கள்"
+
+msgid "Archives"
+msgstr "காப்பகங்கள்"
+
+msgid "Search for “%s”"
+msgstr "“%s” ஐத் தேடு"
+
+msgid "No terminal emulator was found. Set one in Configure Beluga › General › Terminal."
+msgstr "முனைய முன்மாதிரி எதுவும் கிடைக்கவில்லை. Beluga ஐ அமை › பொது › முனையம் இல் ஒன்றை அமைக்கவும்."
+
+msgid "This file system has no trash."
+msgstr "இந்தக் கோப்பு முறைமைக்குக் குப்பை இல்லை."
+
+msgid "Could not create the trash information file."
+msgstr "குப்பையின் தகவல் கோப்பை உருவாக்க முடியவில்லை."
+
+msgid "“%s” already exists."
+msgstr "“%s” ஏற்கெனவே உள்ளது."
+
+msgid "The trash is larger than its limit of %s. Consider emptying it."
+msgstr "குப்பை அதன் %s வரம்பை விடப் பெரியது. அதைக் காலியாக்குவதைக் கருதுக."
+
+msgid "Create File"
+msgstr "கோப்பை உருவாக்கு"
+
+msgid "Undo: %s"
+msgstr "செயல்தவிர்: %s"
+
+msgid "Redo: %s"
+msgstr "மீண்டும் செய்: %s"
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d கோப்பு"
+msgstr[1] "%d கோப்புகள்"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d அடைவு"
+msgstr[1] "%d அடைவுகள்"
+
+msgid "Today at %s"
+msgstr "இன்று %s மணிக்கு"
+
+msgid "Yesterday at %s"
+msgstr "நேற்று %s மணிக்கு"
+
+msgid "%A at %H:%M"
+msgstr "%A %H:%M மணிக்கு"
+
+msgid "%ld min %ld s"
+msgstr "%ld நிமி %ld வி"
+
+msgid "%ld h %ld min"
+msgstr "%ld மணி %ld நிமி"
+
+msgid "%s copy %d"
+msgstr "%s நகல் %d"
+
+msgid "Disk Usage"
+msgstr "வட்டுப் பயன்பாடு"
+
+msgid "Extension"
+msgstr "நீட்டிப்பு"
+
+msgid "Original Location"
+msgstr "அசல் இருப்பிடம்"
+
+msgid "Beluga could not act as administrator."
+msgstr "Beluga நிர்வாகியாகச் செயல்பட முடியவில்லை."
+
+msgid "pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit agent for your desktop."
+msgstr "நிர்வாகி கடவுச்சொல்லைக் கேட்க pkexec (polkit) தேவை. polkit மற்றும் உங்கள் மேசைச் சூழலுக்கான polkit முகவரை நிறுவவும்."
+
+msgid "A Beluga window with administrator rights can change and delete any file on this computer, including the files the system needs to start. A mistake there can make the system unusable. Use it only for files you can't change otherwise, and close it when you're done.\n\nBeluga asks for the administrator password next."
+msgstr "நிர்வாகி உரிமைகளுடன் கூடிய Beluga சாளரம் இந்தக் கணினியில் உள்ள எந்தக் கோப்பையும் மாற்றவும் நீக்கவும் முடியும், கணினி தொடங்கத் தேவையான கோப்புகள் உட்பட. அங்கு ஏற்படும் தவறு கணினியைப் பயன்படுத்த முடியாததாக்கலாம். வேறு வழியில் மாற்ற முடியாத கோப்புகளுக்கு மட்டும் இதைப் பயன்படுத்தி, வேலை முடிந்ததும் மூடவும்.\n\nஅதன்பின் Beluga நிர்வாகி கடவுச்சொல்லைக் கேட்கும்."
+
+msgid "Columns View"
+msgstr "நெடுவரிசைக் காட்சி"
+
+msgid "Reset Zoom"
+msgstr "பெரிதாக்கலை மீட்டமை"
+
+msgid "Pop out Split View"
+msgstr "பிரிந்த காட்சியைத் தனியாக்கு"
+
+msgid "Places Panel"
+msgstr "இடங்கள் பலகம்"
+
+msgid "Disk Usage Panel"
+msgstr "வட்டுப் பயன்பாட்டுப் பலகம்"
+
+msgid "Go to Tab 1"
+msgstr "தாவல் 1 க்குச் செல்"
+
+msgid "Go to Tab 2"
+msgstr "தாவல் 2 க்குச் செல்"
+
+msgid "Go to Tab 3"
+msgstr "தாவல் 3 க்குச் செல்"
+
+msgid "Go to Tab 4"
+msgstr "தாவல் 4 க்குச் செல்"
+
+msgid "Go to Tab 5"
+msgstr "தாவல் 5 க்குச் செல்"
+
+msgid "Go to Tab 6"
+msgstr "தாவல் 6 க்குச் செல்"
+
+msgid "Go to Tab 7"
+msgstr "தாவல் 7 க்குச் செல்"
+
+msgid "Go to Tab 8"
+msgstr "தாவல் 8 க்குச் செல்"
+
+msgid "Go to Tab 9"
+msgstr "தாவல் 9 க்குச் செல்"
+
+msgid "Configure Beluga"
+msgstr "Beluga ஐ அமை"
+
+msgid "Undo failed."
+msgstr "செயல்தவிர்ப்பு தோல்வியடைந்தது."
+
+msgid "Folder…"
+msgstr "அடைவு…"
+
+msgid "Text File…"
+msgstr "உரைக் கோப்பு…"
+
+msgid "Empty File…"
+msgstr "வெற்றுக் கோப்பு…"
+
+msgid "Link to File or Folder…"
+msgstr "கோப்பு அல்லது அடைவுக்கான இணைப்பு…"
+
+msgid "Other View (%s)"
+msgstr "மற்ற காட்சி (%s)"
+
+msgid "Remember View for This Folder"
+msgstr "இந்த அடைவுக்கான காட்சியை நினைவில் கொள்"
+
+msgid "Open in Beluga"
+msgstr "Beluga இல் திற"
+
+msgid "Paste into Folder"
+msgstr "அடைவில் ஒட்டு"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "The name cannot contain “/”."
+msgstr "பெயரில் “/” இருக்கக் கூடாது."
+
+msgid "A name starting with a dot is hidden."
+msgstr "புள்ளியுடன் தொடங்கும் பெயர் மறைக்கப்படும்."
+
+msgid "Some items could not be renamed."
+msgstr "சில உருப்படிகளின் பெயரை மாற்ற முடியவில்லை."
+
+msgid "Rename “%s” to:"
+msgstr "“%s” இன் புதிய பெயர்:"
+
+msgid "_Rename"
+msgstr "பெயர்மாற்று (_R)"
+
+msgid "Could not rename “%s”."
+msgstr "“%s” இன் பெயரை மாற்ற முடியவில்லை."
+
+msgid "Change the file type?"
+msgstr "கோப்பு வகையை மாற்றவா?"
+
+msgid "Renaming “%s” to “%s” changes its extension."
+msgstr "“%s” ஐ “%s” எனப் பெயர்மாற்றுவது அதன் நீட்டிப்பை மாற்றும்."
+
+msgid "Rename the %zu selected items to:"
+msgstr "தேர்ந்தெடுத்த %zu உருப்படிகளின் புதிய பெயர்:"
+
+msgid "# is replaced by ascending numbers; use ## for leading zeros. Extensions are kept."
+msgstr "# ஏறுவரிசை எண்களால் மாற்றப்படும்; முன்னணி பூஜ்ஜியங்களுக்கு ## பயன்படுத்தவும். நீட்டிப்புகள் வைக்கப்படும்."
+
+msgid "Start numbering at:"
+msgstr "எண்ணிடலை இதிலிருந்து தொடங்கு:"
+
+msgid "_Move Here"
+msgstr "இங்கே நகர்த்து (_M)"
+
+msgid "_Copy Here"
+msgstr "இங்கே நகலெடு (_C)"
+
+msgid "_Link Here"
+msgstr "இங்கே இணை (_L)"
+
+msgid "C_ancel"
+msgstr "ரத்துசெய் (_A)"
+
+msgid "Choose a folder"
+msgstr "ஒரு அடைவைத் தேர்ந்தெடுக்கவும்"
+
+msgid "C_hoose…"
+msgstr "தேர்ந்தெடு (_H)…"
+
+msgid "Icon name:"
+msgstr "சின்னத்தின் பெயர்:"
+
+msgid "Choose a Folder"
+msgstr "ஒரு அடைவைத் தேர்ந்தெடுக்கவும்"
+
+msgid "_Add"
+msgstr "சேர் (_A)"
+
+msgid "_Save"
+msgstr "சேமி (_S)"
+
+msgid "Show _folders first"
+msgstr "அடைவுகளை முதலில் காட்டு (_F)"
+
+msgid "Show hidden files _last"
+msgstr "மறைந்த கோப்புகளை இறுதியில் காட்டு (_L)"
+
+msgid "Show _previews"
+msgstr "முன்தோற்றங்களைக் காட்டு (_P)"
+
+msgid "Show in _groups"
+msgstr "குழுக்களாகக் காட்டு (_G)"
+
+msgid "Show _hidden files"
+msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
+
+msgid "Current folder including all subfolders"
+msgstr "அனைத்து துணை அடைவுகளுடன் தற்போதைய அடைவு"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "modified %s"
+msgstr "மாற்றப்பட்டது %s"
+
+msgid "A folder named “%s” already exists in “%s”."
+msgstr "“%s” என்ற பெயருள்ள அடைவு “%s” இல் ஏற்கெனவே உள்ளது."
+
+msgid "A file named “%s” already exists in “%s”."
+msgstr "“%s” என்ற பெயருள்ள கோப்பு “%s” இல் ஏற்கெனவே உள்ளது."
+
+msgid "Existing item"
+msgstr "உள்ள உருப்படி"
+
+msgid "New item"
+msgstr "புதிய உருப்படி"
+
+msgid "_Suggest New Name"
+msgstr "புதிய பெயரைப் பரிந்துரை (_S)"
+
+msgid "New name:"
+msgstr "புதிய பெயர்:"
+
+msgid "Apply to _all"
+msgstr "அனைத்துக்கும் பொருத்து (_A)"
+
+msgid "S_kip"
+msgstr "தவிர் (_K)"
+
+msgid "_Write Into"
+msgstr "அதனுள் எழுது (_W)"
+
+msgid "_Overwrite"
+msgstr "மேலெழுது (_O)"
+
+msgid "Search icons…"
+msgstr "சின்னங்களைத் தேடு…"
+
+msgid "_Image File…"
+msgstr "படக் கோப்பு (_I)…"
+
+msgid "_Default Icon"
+msgstr "இயல்புநிலைச் சின்னம் (_D)"
+
+msgid "Choose an Image"
+msgstr "ஒரு படத்தைத் தேர்ந்தெடுக்கவும்"
+
+msgid "Network locations need gvfs. Install the gvfs package (and gvfs-smb for Windows shares, gvfs-nfs for NFS), then log out and back in."
+msgstr "பிணைய இடங்களுக்கு gvfs தேவை. gvfs தொகுப்பை (Windows பகிர்வுகளுக்கு gvfs-smb, NFS க்கு gvfs-nfs ஐயும்) நிறுவி, பின் வெளியேறி மீண்டும் உள்நுழையவும்."
+
+msgid "This location is not a folder."
+msgstr "இந்த இருப்பிடம் ஒரு அடைவு அல்ல."
+
+msgid "This location is not valid."
+msgstr "இந்த இருப்பிடம் செல்லாதது."
+
+msgid "This folder is not in the archive."
+msgstr "இந்த அடைவு காப்பகத்தில் இல்லை."
+
+msgid "%s smaller file"
+msgid_plural "%s smaller files"
+msgstr[0] "%s சிறிய கோப்பு"
+msgstr[1] "%s சிறிய கோப்புகள்"
+
+msgid "(another drive, not counted)"
+msgstr "(வேறு இயக்ககம், எண்ணப்படவில்லை)"
+
+msgid "Some of its contents could not be read."
+msgstr "அதன் உள்ளடக்கத்தில் சில பகுதியைப் படிக்க முடியவில்லை."
+
+msgid "%s in files"
+msgstr "கோப்புகளில் %s"
+
+msgid "%s on disk"
+msgstr "வட்டில் %s"
+
+msgid "%s files and %s folders"
+msgstr "%s கோப்புகள், %s அடைவுகள்"
+
+msgid "Reading… %s in %s files and %s folders"
+msgstr "படிக்கிறது… %s கோப்புகள், %s அடைவுகளில் %s"
+
+msgid "Stopped."
+msgstr "நிறுத்தப்பட்டது."
+
+msgid "This folder could not be read."
+msgstr "இந்த அடைவைப் படிக்க முடியவில்லை."
+
+msgid "%s, read in %.1f s"
+msgstr "%s, %.1f வி இல் படிக்கப்பட்டது"
+
+msgid ". %s folder could not be read."
+msgid_plural ". %s folders could not be read."
+msgstr[0] ". %s அடைவைப் படிக்க முடியவில்லை."
+msgstr[1] ". %s அடைவுகளைப் படிக்க முடியவில்லை."
+
+msgid "Only folders on this computer can be measured."
+msgstr "இந்தக் கணினியில் உள்ள அடைவுகளை மட்டுமே அளக்க முடியும்."
+
+msgid "read less than a minute ago"
+msgstr "ஒரு நிமிடத்துக்குள் படிக்கப்பட்டது"
+
+msgid "read %d minute ago"
+msgid_plural "read %d minutes ago"
+msgstr[0] "%d நிமிடத்துக்கு முன் படிக்கப்பட்டது"
+msgstr[1] "%d நிமிடங்களுக்கு முன் படிக்கப்பட்டது"
+
+msgid "read %d hour ago"
+msgid_plural "read %d hours ago"
+msgstr[0] "%d மணிநேரத்துக்கு முன் படிக்கப்பட்டது"
+msgstr[1] "%d மணிநேரங்களுக்கு முன் படிக்கப்பட்டது"
+
+msgid "%s, %s. Rescan to read it again."
+msgstr "%s, %s. மீண்டும் படிக்க மீண்டும் வருடவும்."
+
+msgid "_Apparent size"
+msgstr "தோற்ற அளவு (_A)"
+
+msgid "Add up the file sizes instead of the disk space the files take up."
+msgstr "கோப்புகள் வட்டில் எடுக்கும் இடத்துக்குப் பதிலாக அவற்றின் அளவுகளைக் கூட்டு."
+
+msgid "_Stay on this drive"
+msgstr "இந்த இயக்ககத்திலேயே இரு (_S)"
+
+msgid "Don't count other drives mounted inside this folder (such as a music folder on another disk). Links are never followed."
+msgstr "இந்த அடைவினுள் ஏற்றப்பட்ட பிற இயக்ககங்களை (வேறு வட்டில் உள்ள இசை அடைவு போன்றவை) எண்ண வேண்டாம். இணைப்புகள் ஒருபோதும் பின்தொடரப்படாது."
+
+msgid "Rescan"
+msgstr "மீண்டும் வருடு"
+
+msgid "Close Disk Usage"
+msgstr "வட்டுப் பயன்பாட்டை மூடு"
+
+msgid "_Rescan"
+msgstr "மீண்டும் வருடு (_R)"
+
+msgid "S_top"
+msgstr "நிறுத்து (_T)"
+
+msgid "Disk Usage – %s"
+msgstr "வட்டுப் பயன்பாடு – %s"
+
+msgid "“%s” already exists. Replace it?"
+msgstr "“%s” ஏற்கெனவே உள்ளது. மாற்றவா?"
+
+msgid "%zu of these files already exist. Replace them?"
+msgstr "இவற்றில் %zu கோப்புகள் ஏற்கெனவே உள்ளன. மாற்றவா?"
+
+msgid "The program you are saving from will write over the existing contents."
+msgstr "நீங்கள் சேமிக்கும் நிரல் உள்ள உள்ளடக்கத்தை மேலெழுதும்."
+
+msgid "Choose a folder to save in."
+msgstr "சேமிக்க ஒரு அடைவைத் தேர்ந்தெடுக்கவும்."
+
+msgid "Select Folder"
+msgstr "அடைவைத் தேர்ந்தெடு"
+
+msgid "Open Files"
+msgstr "கோப்புகளைத் திற"
+
+msgid "Open File"
+msgstr "கோப்பைத் திற"
+
+msgid "Save File"
+msgstr "கோப்பைச் சேமி"
+
+msgid "Save Files"
+msgstr "கோப்புகளைச் சேமி"
+
+msgid "_Folder:"
+msgstr "அடைவு (_F):"
+
+msgid "_Name:"
+msgstr "பெயர் (_N):"
+
+msgid "_Type:"
+msgstr "வகை (_T):"
+
+msgid "_Select"
+msgstr "தேர்ந்தெடு (_S)"
+
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgid "Create new folder in:\n%s"
+msgstr "இங்கே புதிய அடைவை உருவாக்கு:\n%s"
+
+msgid "C_reate"
+msgstr "உருவாக்கு (_R)"
+
+msgid "Could not create the folder."
+msgstr "அடைவை உருவாக்க முடியவில்லை."
+
+msgid "%zu items selected"
+msgstr "%zu உருப்படிகள் தேர்ந்தெடுக்கப்பட்டன"
+
+msgid "Contents:"
+msgstr "உள்ளடக்கம்:"
+
+msgid "Contains:"
+msgstr "கொண்டுள்ளது:"
+
+msgid "Counting…"
+msgstr "எண்ணுகிறது…"
+
+msgid "Broken Link"
+msgstr "உடைந்த இணைப்பு"
+
+msgid "%s (link)"
+msgstr "%s (இணைப்பு)"
+
+msgid "other drive"
+msgstr "வேறு இயக்ககம்"
+
+msgid "%s of %s"
+msgstr "%s இல் %s"
+
+msgid "%s left"
+msgstr "%s மீதம்"
+
+msgid "%d of %d"
+msgstr "%d இல் %d"
+
+msgid "File operations in progress"
+msgstr "கோப்புச் செயல்பாடுகள் நடைபெறுகின்றன"
+
+msgid "No subfolders"
+msgstr "துணை அடைவுகள் இல்லை"
+
+msgid "Select the given files in their folders"
+msgstr "கொடுக்கப்பட்ட கோப்புகளை அவற்றின் அடைவுகளில் தேர்ந்தெடு"
+
+msgid "Open the window in split view"
+msgstr "சாளரத்தைப் பிரிந்த காட்சியில் திற"
+
+msgid "Always open a new window"
+msgstr "எப்போதும் புதிய சாளரத்தைத் திற"
+
+msgid "Keep running in the background for the FileManager1 D-Bus service"
+msgstr "FileManager1 D-Bus சேவைக்காகப் பின்னணியில் இயங்கிக் கொண்டிரு"
+
+msgid "Detach from the terminal (without a location: open the current folder)"
+msgstr "முனையத்திலிருந்து பிரி (இருப்பிடம் இல்லையெனில்: தற்போதைய அடைவைத் திறக்கும்)"
+
+msgid "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
+msgstr "xdg-desktop-portal க்கான கோப்புத் தேர்வியை இயக்கு (D-Bus ஆல் தொடங்கப்படும்)"
+
+msgid "Show the version"
+msgstr "பதிப்பைக் காட்டு"
+
+msgid "[FILE or FOLDER…]"
+msgstr "[கோப்பு அல்லது அடைவு…]"
+
+msgid "Acting as administrator: changes in this window can damage the system."
+msgstr "நிர்வாகியாகச் செயல்படுகிறது: இந்தச் சாளரத்தில் செய்யும் மாற்றங்கள் கணினிக்குத் தீங்கு விளைவிக்கலாம்."
+
+msgid "Close this window?"
+msgstr "இந்தச் சாளரத்தை மூடவா?"
+
+msgid "This window has %zu tabs open. Closing it closes all of them."
+msgstr "இந்தச் சாளரத்தில் %zu தாவல்கள் திறந்துள்ளன. இதை மூடினால் அனைத்தும் மூடும்."
+
+msgid "Close Window"
+msgstr "சாளரத்தை மூடு"
+
+msgid "Show _Toolbar"
+msgstr "கருவிப்பட்டையைக் காட்டு (_T)"
+
+msgid "_File"
+msgstr "கோப்பு (_F)"
+
+msgid "New _Window"
+msgstr "புதிய சாளரம் (_W)"
+
+msgid "New _Tab"
+msgstr "புதிய தாவல் (_T)"
+
+msgid "_Close Tab"
+msgstr "தாவலை மூடு (_C)"
+
+msgid "Create _New"
+msgstr "புதியதை உருவாக்கு (_N)"
+
+msgid "_Rename…"
+msgstr "பெயர்மாற்று (_R)…"
+
+msgid "_Duplicate Here"
+msgstr "இங்கே நகல் உருவாக்கு (_D)"
+
+msgid "Move to _Trash"
+msgstr "குப்பைக்கு நகர்த்து (_T)"
+
+msgid "_Delete"
+msgstr "நீக்கு (_D)"
+
+msgid "Restore from Trash"
+msgstr "குப்பையிலிருந்து மீட்டமை"
+
+msgid "_Properties"
+msgstr "பண்புகள் (_P)"
+
+msgid "_Quit"
+msgstr "வெளியேறு (_Q)"
+
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+msgid "_Undo"
+msgstr "செயல்தவிர் (_U)"
+
+msgid "_Redo"
+msgstr "மீண்டும் செய் (_R)"
+
+msgid "Cu_t"
+msgstr "வெட்டு (_T)"
+
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+msgid "_Search…"
+msgstr "தேடு (_S)…"
+
+msgid "Select _All"
+msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+msgid "_View"
+msgstr "காட்சி (_V)"
+
+msgid "Zoom _In"
+msgstr "பெரிதாக்கு (_I)"
+
+msgid "Zoom _Out"
+msgstr "சிறிதாக்கு (_O)"
+
+msgid "Re_load"
+msgstr "மீளேற்று (_L)"
+
+msgid "Show _Menubar"
+msgstr "பட்டிப்பட்டையைக் காட்டு (_M)"
+
+msgid "Show _Statusbar"
+msgstr "நிலைப்பட்டையைக் காட்டு (_S)"
+
+msgid "_Go"
+msgstr "செல் (_G)"
+
+msgid "_Back"
+msgstr "பின் (_B)"
+
+msgid "_Forward"
+msgstr "முன் (_F)"
+
+msgid "_Up"
+msgstr "மேல் (_U)"
+
+msgid "_Home"
+msgstr "இல்லம் (_H)"
+
+msgid "_Tools"
+msgstr "கருவிகள் (_T)"
+
+msgid "Open _Terminal"
+msgstr "முனையத்தைத் திற (_T)"
+
+msgid "Open Terminal _Here"
+msgstr "இங்கே முனையத்தைத் திற (_H)"
+
+msgid "_Disk Usage…"
+msgstr "வட்டுப் பயன்பாடு (_D)…"
+
+msgid "_Settings"
+msgstr "அமைப்புகள் (_S)"
+
+msgid "Configure Tool_bars…"
+msgstr "கருவிப்பட்டைகளை அமை (_B)…"
+
+msgid "_Configure Beluga…"
+msgstr "Beluga ஐ அமை (_C)…"
+
+msgid "No recently closed tabs"
+msgstr "சமீபத்தில் மூடிய தாவல்கள் இல்லை"
+
+msgid "(Administrator)"
+msgstr "(நிர்வாகி)"
+
+msgid "Open %zu folders in new tabs?"
+msgstr "%zu அடைவுகளைப் புதிய தாவல்களில் திறக்கவா?"
+
+msgid "Open Folders"
+msgstr "அடைவுகளைத் திற"
+
+msgid "Could not open “%s”."
+msgstr "“%s” ஐத் திறக்க முடியவில்லை."
+
+msgid "Could not open a terminal."
+msgstr "முனையத்தைத் திறக்க முடியவில்லை."
+
+msgid "New Text File.txt"
+msgstr "புதிய உரைக் கோப்பு.txt"
+
+msgid "New File"
+msgstr "புதிய கோப்பு"
+
+msgid "Empty the trash?"
+msgstr "குப்பையைக் காலியாக்கவா?"
+
+msgid "All items in the trash will be deleted permanently. This cannot be undone."
+msgstr "குப்பையிலுள்ள அனைத்து உருப்படிகளும் நிரந்தரமாக நீக்கப்படும். இதைச் செயல்தவிர்க்க முடியாது."
+
+msgid "Open %zu terminals?"
+msgstr "%zu முனையங்களைத் திறக்கவா?"
+
+msgid "Open Terminals"
+msgstr "முனையங்களைத் திற"
+
+msgid "Create new file in:\n%s"
+msgstr "இங்கே புதிய கோப்பை உருவாக்கு:\n%s"
+
+msgid "Could not create the file."
+msgstr "கோப்பை உருவாக்க முடியவில்லை."
+
+msgid "Link to File or Folder"
+msgstr "கோப்பு அல்லது அடைவுக்கான இணைப்பு"
+
+msgid "Path of the file or folder to link to:"
+msgstr "இணைக்க வேண்டிய கோப்பு அல்லது அடைவின் பாதை:"
+
+msgid "Could not create the link."
+msgstr "இணைப்பை உருவாக்க முடியவில்லை."
+
+msgid "Permanently delete %s?"
+msgstr "%s ஐ நிரந்தரமாக நீக்கவா?"
+
+msgid "This cannot be undone."
+msgstr "இதைச் செயல்தவிர்க்க முடியாது."
+
+msgid "Move %s to the trash?"
+msgstr "%s ஐக் குப்பைக்கு நகர்த்தவா?"
+
+msgid "Could not run “%s”."
+msgstr "“%s” ஐ இயக்க முடியவில்லை."
+
+msgid "Could not start %s."
+msgstr "%s ஐத் தொடங்க முடியவில்லை."
+
+msgid "Could not start the application."
+msgstr "பயன்பாட்டைத் தொடங்க முடியவில்லை."
+
+msgid "“%s” is an executable file."
+msgstr "“%s” ஒரு இயக்கக்கூடிய கோப்பு."
+
+msgid "Do you want to run it, or open it in an application?"
+msgstr "அதை இயக்க விரும்புகிறீர்களா அல்லது ஒரு பயன்பாட்டில் திறக்கவா?"
+
+msgid "Run"
+msgstr "இயக்கு"
+
+msgid "Choose the application to open %s (%s):"
+msgstr "%s (%s) ஐத் திறக்கப் பயன்பாட்டைத் தேர்ந்தெடுக்கவும்:"
+
+msgid "Or command:"
+msgstr "அல்லது கட்டளை:"
+
+msgid "Remember application association for this type of file"
+msgstr "இந்தக் கோப்பு வகைக்கான பயன்பாட்டுத் தொடர்பை நினைவில் கொள்"
+
+msgid "%s free of %s"
+msgstr "%2$s இல் %1$s காலி"
+
+msgid "Configure Sections"
+msgstr "பிரிவுகளை அமை"
+
+msgid "Ticked sections show in the Places panel, in this order."
+msgstr "குறியிடப்பட்ட பிரிவுகள் இடங்கள் பலகத்தில் இந்த வரிசையில் காட்டப்படும்."
+
+msgid "Move Up"
+msgstr "மேலே நகர்த்து"
+
+msgid "Move Down"
+msgstr "கீழே நகர்த்து"
+
+msgid "Could not mount the device: %s"
+msgstr "சாதனத்தை ஏற்ற முடியவில்லை: %s"
+
+msgid "Show"
+msgstr "காட்டு"
+
+msgid "Configure Sections…"
+msgstr "பிரிவுகளை அமை…"
+
+msgid "Hide Hidden Entries"
+msgstr "மறைந்த உள்ளீடுகளை மறை"
+
+msgid "All items in the trash will be deleted permanently."
+msgstr "குப்பையிலுள்ள அனைத்து உருப்படிகளும் நிரந்தரமாக நீக்கப்படும்."
+
+msgid "Could not safely remove the device: %s"
+msgstr "சாதனத்தைப் பாதுகாப்பாக அகற்ற முடியவில்லை: %s"
+
+msgid "Could not unmount the device: %s"
+msgstr "சாதனத்தை இறக்க முடியவில்லை: %s"
+
+msgid "%d px"
+msgstr "%d px"
+
+msgid "Use the system _font"
+msgstr "கணினி எழுத்துருவைப் பயன்படுத்து (_S)"
+
+msgid "Context Menu Action"
+msgstr "சூழல் பட்டிச் செயல்"
+
+msgid "Command:"
+msgstr "கட்டளை:"
+
+msgid "Types:"
+msgstr "வகைகள்:"
+
+msgid "%f first file, %F all files, %u / %U as URIs, %n / %N names, %d current folder."
+msgstr "%f முதல் கோப்பு, %F அனைத்து கோப்புகள், %u / %U URI களாக, %n / %N பெயர்கள், %d தற்போதைய அடைவு."
+
+msgid "Show for _files"
+msgstr "கோப்புகளுக்குக் காட்டு (_F)"
+
+msgid "Show for f_olders"
+msgstr "அடைவுகளுக்குக் காட்டு (_O)"
+
+msgid "Show when _several items are selected"
+msgstr "பல உருப்படிகள் தேர்ந்தெடுக்கப்பட்டால் காட்டு (_S)"
+
+msgid "Run in a _terminal"
+msgstr "முனையத்தில் இயக்கு (_T)"
+
+msgid "Custom Actions"
+msgstr "தனிப்பயன் செயல்கள்"
+
+msgid "Your own entries for the context menu of files and folders."
+msgstr "கோப்புகள் மற்றும் அடைவுகளின் சூழல் பட்டிக்கான உங்கள் சொந்த உள்ளீடுகள்."
+
+msgid "_Add…"
+msgstr "சேர் (_A)…"
+
+msgid "_Edit…"
+msgstr "திருத்து (_E)…"
+
+msgid "_Remove"
+msgstr "அகற்று (_R)"
+
+msgid "Accelerators are written like <Control>c or <Shift>Delete. Separate several with commas. Leave a field empty to use the default."
+msgstr "குறுக்குவழிகள் <Control>c அல்லது <Shift>Delete போல எழுதப்படும். பலவற்றைக் காற்புள்ளியால் பிரிக்கவும். இயல்புநிலைக்குப் புலத்தைக் காலியாக விடவும்."
+
+msgid "files below %d MiB"
+msgstr "%d MiB க்குக் குறைவான கோப்புகள்"
+
+msgid "_Restore Defaults"
+msgstr "இயல்புநிலைகளை மீட்டமை (_R)"
+
+msgid "_Apply"
+msgstr "பொருத்து (_A)"
+
+msgid "Folders & Tabs"
+msgstr "அடைவுகள் மற்றும் தாவல்கள்"
+
+msgid "This location:"
+msgstr "இந்த இருப்பிடம்:"
+
+msgid "Keep a single Beluga window, opening new folders in tabs"
+msgstr "ஒரே Beluga சாளரத்தை வைத்துப் புதிய அடைவுகளைத் தாவல்களில் திற"
+
+msgid "Tabs:"
+msgstr "தாவல்கள்:"
+
+msgid "Fixed-width tabs get narrower, all by the same amount, when they don't fit."
+msgstr "நிலையான அகலமுள்ள தாவல்கள் இடம் போதாதபோது அனைத்தும் சமமாகக் குறுகும்."
+
+msgid "No terminal found"
+msgstr "முனையம் எதுவும் கிடைக்கவில்லை"
+
+msgid "Detected: %s"
+msgstr "கண்டறியப்பட்டது: %s"
+
+msgid "Used by F4 and Open Terminal Here. %d in the command is replaced by the folder; otherwise the terminal starts in it. This used to be a KDE system setting."
+msgstr "F4 மற்றும் இங்கே முனையத்தைத் திற பயன்படுத்துகின்றன. கட்டளையில் உள்ள %d அடைவால் மாற்றப்படும்; இல்லையெனில் முனையம் அதில் தொடங்கும். இது முன்பு KDE கணினி அமைப்பாக இருந்தது."
+
+msgid "New folders:"
+msgstr "புதிய அடைவுகள்:"
+
+msgid "Show _previews in new folders"
+msgstr "புதிய அடைவுகளில் முன்தோற்றங்களைக் காட்டு (_P)"
+
+msgid "Audio (cover art)"
+msgstr "ஒலி (அட்டைப் படங்கள்)"
+
+msgid "PDF documents"
+msgstr "PDF ஆவணங்கள்"
+
+msgid "Text files"
+msgstr "உரைக் கோப்புகள்"
+
+msgid "Fonts"
+msgstr "எழுத்துருக்கள்"
+
+msgid "Office documents"
+msgstr "அலுவலக ஆவணங்கள்"
+
+msgid "Ask for confirmation when:"
+msgstr "உறுதிப்படுத்தலைக் கேள், எப்போது:"
+
+msgid "Ask for confirmation in Beluga when:"
+msgstr "Beluga இல் உறுதிப்படுத்தலைக் கேள், எப்போது:"
+
+msgid "Use _long date format"
+msgstr "நீண்ட தேதி வடிவத்தைப் பயன்படுத்து (_L)"
+
+msgid "Show _hidden folders"
+msgstr "மறைந்த அடைவுகளைக் காட்டு (_H)"
+
+msgid "Scroll to the current folder _automatically"
+msgstr "தற்போதைய அடைவுக்குத் தானாக உருட்டு (_A)"
+
+msgid "Places Panel:"
+msgstr "இடங்கள் பலகம்:"
+
+msgid "Status & Location bars"
+msgstr "நிலை மற்றும் இருப்பிடப் பட்டைகள்"
+
+msgid "Show free _space"
+msgstr "காலி இடத்தைக் காட்டு (_S)"
+
+msgid "Either way, View › Remember View for This Folder gives one folder its own style. Some special views like search, recent files, or trash still use a style of their own."
+msgstr "எப்படியிருந்தாலும், காட்சி › இந்த அடைவுக்கான காட்சியை நினைவில் கொள் ஒரு அடைவுக்கு அதன் சொந்தப் பாணியைத் தரும். தேடல், சமீபத்திய கோப்புகள் அல்லது குப்பை போன்ற சில சிறப்புக் காட்சிகள் இன்னும் தங்கள் சொந்தப் பாணியைப் பயன்படுத்தும்."
+
+msgid "Open files and folders with a single click"
+msgstr "கோப்புகள் மற்றும் அடைவுகளை ஒரே சொடுக்கில் திற"
+
+msgid "Keep an _index of the home folder for instant search"
+msgstr "உடனடித் தேடலுக்கு இல்ல அடைவின் அட்டவணையை வை (_I)"
+
+msgid "levels deep"
+msgstr "நிலைகள் ஆழம்"
+
+msgid "Relative (Today, Yesterday…)"
+msgstr "சார்பு (இன்று, நேற்று…)"
+
+msgid "Absolute"
+msgstr "முழுமை"
+
+msgid "Symbolic (rwxr-xr-x)"
+msgstr "குறியீட்டு (rwxr-xr-x)"
+
+msgid "Numeric (0755)"
+msgstr "எண் (0755)"
+
+msgid "Combined"
+msgstr "இணைந்தது"
+
+msgid "Elide in the middle"
+msgstr "நடுவில் சுருக்கு"
+
+msgid "Elide at the end"
+msgstr "இறுதியில் சுருக்கு"
+
+msgid "Disk usage:"
+msgstr "வட்டுப் பயன்பாடு:"
+
+msgid "Show a Disk _Usage column"
+msgstr "வட்டுப் பயன்பாட்டு நெடுவரிசையைக் காட்டு (_U)"
+
+msgid "The space each file and each whole folder takes up on disk, with a bar for its share of the folder, like Tools › Disk Usage. Folders are read in full in the background; sort by the column to see the biggest first. \"Stay on this drive\" in the Disk Usage window applies here too."
+msgstr "ஒவ்வொரு கோப்பும் ஒவ்வொரு முழு அடைவும் வட்டில் எடுக்கும் இடம், அடைவில் அதன் பங்கிற்கான பட்டையுடன், கருவிகள் › வட்டுப் பயன்பாடு போல. அடைவுகள் பின்னணியில் முழுமையாகப் படிக்கப்படும்; பெரியவற்றை முதலில் காண நெடுவரிசையால் வரிசைப்படுத்தவும். வட்டுப் பயன்பாட்டுச் சாளரத்தின் \"இந்த இயக்ககத்திலேயே இரு\" இங்கும் பொருந்தும்."
+
+msgid "Show in the context menu"
+msgstr "சூழல் பட்டியில் காட்டு"
+
+msgid "'Copy To' and 'Move To'"
+msgstr "'இதற்கு நகலெடு' மற்றும் 'இதற்கு நகர்த்து'"
+
+msgid "Delete (in addition to Move to Trash)"
+msgstr "நீக்கு (குப்பைக்கு நகர்த்துவதுடன் கூடுதலாக)"
+
+msgid "Cleanup:"
+msgstr "சுத்தம்:"
+
+msgid "Delete files older than"
+msgstr "இதை விடப் பழைய கோப்புகளை நீக்கு:"
+
+msgid "days"
+msgstr "நாட்கள்"
+
+msgid "Limit to"
+msgstr "இதற்கு வரம்பிடு:"
+
+msgid "percent of the disk"
+msgstr "வட்டின் சதவீதம்"
+
+msgid "Keep the trash on the home drive"
+msgstr "குப்பையை இல்ல அடைவின் இயக்ககத்தில் வை"
+
+msgid "Files moved to the trash from other drives are copied into the trash in your home folder, so those drives get no .Trash-1000 folder. Moving large files to the trash then takes longer."
+msgstr "பிற இயக்ககங்களிலிருந்து குப்பைக்கு நகர்த்தப்பட்ட கோப்புகள் இல்ல அடைவின் குப்பைக்கு நகலெடுக்கப்படும், எனவே அந்த இயக்ககங்களில் .Trash-1000 அடைவு உருவாகாது. அப்போது பெரிய கோப்புகளைக் குப்பைக்கு நகர்த்த அதிக நேரம் ஆகும்."
+
+msgid "Full trash:"
+msgstr "நிறைந்த குப்பை:"
+
+msgid "When the limit is reached:"
+msgstr "வரம்பை அடைந்தால்:"
+
+msgid "Show a warning"
+msgstr "எச்சரிக்கையைக் காட்டு"
+
+msgid "Delete the oldest items"
+msgstr "மிகப் பழைய உருப்படிகளை நீக்கு"
+
+msgid "Delete the largest items"
+msgstr "மிகப் பெரிய உருப்படிகளை நீக்கு"
+
+msgid "These used to be KDE system settings. Limits are applied when Beluga starts and after moving items to the trash."
+msgstr "இவை முன்பு KDE கணினி அமைப்புகளாக இருந்தன. Beluga தொடங்கும்போதும் உருப்படிகளைக் குப்பைக்கு நகர்த்திய பின்னும் வரம்புகள் பொருந்தும்."
+
+msgid "Calculating trash size…"
+msgstr "குப்பையின் அளவைக் கணக்கிடுகிறது…"
+
+msgid "The trash currently uses %s."
+msgstr "குப்பை தற்போது %s பயன்படுத்துகிறது."
+
+msgid "_Empty Trash Now"
+msgstr "குப்பையை இப்போதே காலியாக்கு (_E)"
+
+msgid "Vim Mode"
+msgstr "Vim பயன்முறை"
+
+msgid "Vim mode:"
+msgstr "Vim பயன்முறை:"
+
+msgid "Use Vim-like keys in the views"
+msgstr "காட்சிகளில் Vim-பாணி விசைகளைப் பயன்படுத்து"
+
+msgid "Normal mode moves with h j k l and runs the keys below; v, V and Ctrl+V select; i and a rename (insert mode); Esc goes back to normal mode; : opens the command line. Keys with Ctrl or Alt that aren't listed here keep their usual meaning."
+msgstr "இயல்புப் பயன்முறை h j k l மூலம் நகர்ந்து கீழுள்ள விசைகளை இயக்கும்; v, V மற்றும் Ctrl+V தேர்ந்தெடுக்கும்; i மற்றும் a பெயர்மாற்றும் (செருகல் பயன்முறை); Esc இயல்புப் பயன்முறைக்குத் திரும்பும்; : கட்டளை வரியைத் திறக்கும். இங்கு பட்டியலிடப்படாத Ctrl அல்லது Alt விசைகள் தங்கள் வழக்கமான பொருளை வைத்திருக்கும்."
+
+msgid "Leader key:"
+msgstr "தலைமை விசை:"
+
+msgid "<leader> in the keys below, e.g. <Space> or ,"
+msgstr "கீழுள்ள விசைகளில் <leader>, எ.கா. <Space> அல்லது ,"
+
+msgid "Wait for more keys:"
+msgstr "மேலும் விசைகளுக்குக் காத்திரு:"
+
+msgid "ms (dd after d, gg after g)"
+msgstr "ms (d க்குப் பின் dd, g க்குப் பின் gg)"
+
+msgid "Keys"
+msgstr "விசைகள்"
+
+msgid "Vim notation, several separated by spaces: h, gg, <C-v>, <CR>, <Esc>, <leader>t. Leave a field empty for the default."
+msgstr "Vim குறியீடு, பலவற்றை இடைவெளியால் பிரிக்கவும்: h, gg, <C-v>, <CR>, <Esc>, <leader>t. இயல்புநிலைக்குப் புலத்தைக் காலியாக விடவும்."
+
+msgid ":q closes the window (:q! without asking about its tabs), :qa quits Beluga, :e or :cd PATH opens a folder, :tabnew [PATH], :tabclose, :tabonly, :sp or :vs [PATH] split the view, :only closes the other view, :mkdir NAME, :touch NAME, :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!COMMAND runs a shell command in the folder."
+msgstr ":q சாளரத்தை மூடும் (:q! அதன் தாவல்களைப் பற்றிக் கேட்காமல்), :qa Beluga இலிருந்து வெளியேறும், :e அல்லது :cd பாதை ஒரு அடைவைத் திறக்கும், :tabnew [பாதை], :tabclose, :tabonly, :sp அல்லது :vs [பாதை] காட்சியைப் பிரிக்கும், :only மற்ற காட்சியை மூடும், :mkdir பெயர், :touch பெயர், :set hidden / nohidden / hidden!, :set view=icons|compact|details|columns, :sort name|size|date|type, :pwd, :term, :du, :help, :!கட்டளை அடைவில் ஷெல் கட்டளையை இயக்கும்."
+
+msgid "Keyboard Shortcuts"
+msgstr "விசைப்பலகைக் குறுக்குவழிகள்"
+
+msgid "Only files on this computer can be read."
+msgstr "இந்தக் கணினியில் உள்ள கோப்புகளை மட்டுமே படிக்க முடியும்."
+
+msgid "Beluga was built without FFmpeg."
+msgstr "Beluga FFmpeg இல்லாமல் கட்டமைக்கப்பட்டது."
+
+msgid "Reading…"
+msgstr "படிக்கிறது…"
+
+msgid "No details found."
+msgstr "விவரங்கள் எதுவும் கிடைக்கவில்லை."
+
+msgid "Change the folder's icon"
+msgstr "அடைவுச் சின்னத்தை மாற்று"
+
+msgid "Could not change the icon."
+msgstr "சின்னத்தை மாற்ற முடியவில்லை."
+
+msgid "%zu items"
+msgstr "%zu உருப்படிகள்"
+
+msgid "No default application"
+msgstr "இயல்புநிலைப் பயன்பாடு இல்லை"
+
+msgid "C_hange…"
+msgstr "மாற்று (_H)…"
+
+msgid "Opens with:"
+msgstr "இதில் திறக்கும்:"
+
+msgid "Can View"
+msgstr "பார்க்கலாம்"
+
+msgid "Can View Content"
+msgstr "உள்ளடக்கத்தைப் பார்க்கலாம்"
+
+msgid "Is _executable"
+msgstr "இயக்கக்கூடியது (_E)"
+
+msgid "Apply changes to all _subfolders and their contents"
+msgstr "மாற்றங்களை அனைத்து துணை அடைவுகளுக்கும் அவற்றின் உள்ளடக்கத்துக்கும் பொருத்து (_S)"
+
+msgid "Could not read the file."
+msgstr "கோப்பைப் படிக்க முடியவில்லை."
+
+msgid "Paste a checksum to compare"
+msgstr "ஒப்பிடச் சரிபார்ப்புத் தொகையை ஒட்டவும்"
+
+msgid "Verify:"
+msgstr "சரிபார்:"
+
+msgid "The checksums match."
+msgstr "சரிபார்ப்புத் தொகைகள் பொருந்துகின்றன."
+
+msgid "No calculated checksum matches. Calculate the matching type first."
+msgstr "கணக்கிட்ட எந்தச் சரிபார்ப்புத் தொகையும் பொருந்தவில்லை. முதலில் தொடர்புடைய வகையைக் கணக்கிடவும்."
+
+msgid "Could not change the permissions."
+msgstr "அனுமதிகளை மாற்ற முடியவில்லை."
+
+msgid "Filter by name (wildcards like *.txt work)"
+msgstr "பெயரால் வடிகட்டு (*.txt போன்ற வைல்டுகார்டுகள் வேலை செய்யும்)"
+
+msgid "Keep the filter when changing folders"
+msgstr "அடைவை மாற்றும்போது வடிகட்டியை வை"
+
+msgid "In This Folder"
+msgstr "இந்த அடைவில்"
+
+msgid "In Your Files"
+msgstr "உங்கள் கோப்புகளில்"
+
+msgid "Any Time"
+msgstr "எந்த நேரமும்"
+
+msgid "Last 7 Days"
+msgstr "கடந்த 7 நாட்கள்"
+
+msgid "Last 30 Days"
+msgstr "கடந்த 30 நாட்கள்"
+
+msgid "Last Year"
+msgstr "கடந்த ஆண்டு"
+
+msgid "Hidden files"
+msgstr "மறைந்த கோப்புகள்"
+
+msgid "Duplicate Tab"
+msgstr "தாவலின் நகல் உருவாக்கு"
+
+msgid "Actions above the location bar in the list sit left of it, the others right of it. * marks actions that aren't where the default tool bar has them."
+msgstr "பட்டியலில் இருப்பிடப் பட்டைக்கு மேலுள்ள செயல்கள் அதன் இடப்பக்கத்திலும், மற்றவை வலப்பக்கத்திலும் இருக்கும். * இயல்புநிலைக் கருவிப்பட்டை வைக்கும் இடத்தில் இல்லாத செயல்களைக் குறிக்கும்."
+
+msgid "A_vailable actions:"
+msgstr "கிடைக்கும் செயல்கள் (_V):"
+
+msgid "Add to the tool bar"
+msgstr "கருவிப்பட்டையில் சேர்"
+
+msgid "Remove from the tool bar"
+msgstr "கருவிப்பட்டையிலிருந்து அகற்று"
+
+msgid "Move up (left on the tool bar)"
+msgstr "மேலே நகர்த்து (கருவிப்பட்டையில் இடப்புறம்)"
+
+msgid "Move down (right on the tool bar)"
+msgstr "கீழே நகர்த்து (கருவிப்பட்டையில் வலப்புறம்)"
+
+msgid "C_urrent actions:"
+msgstr "தற்போதைய செயல்கள் (_U):"
+
+msgid "_Defaults"
+msgstr "இயல்புநிலைகள் (_D)"
+
+msgid "Show Columns"
+msgstr "நெடுவரிசைகளைக் காட்டு"
+
+msgid "Modified: %s"
+msgstr "மாற்றப்பட்டது: %s"
+
+msgid "Original location: %s"
+msgstr "அசல் இருப்பிடம்: %s"
+
+msgid "Less than 1 MiB"
+msgstr "1 MiB க்குக் குறைவு"
+
+msgid "1 MiB to 100 MiB"
+msgstr "1 MiB முதல் 100 MiB வரை"
+
+msgid "100 MiB to 1 GiB"
+msgstr "100 MiB முதல் 1 GiB வரை"
+
+msgid "1 GiB or more"
+msgstr "1 GiB அல்லது அதற்கு மேல்"
+
+msgid "Not counted yet"
+msgstr "இன்னும் எண்ணப்படவில்லை"
+
+msgid "A file name cannot contain “/”."
+msgstr "கோப்புப் பெயரில் “/” இருக்கக் கூடாது."
+
+msgid "Renaming “%s” to “%s” changes its extension. The file may open with a different application or not at all."
+msgstr "“%s” ஐ “%s” எனப் பெயர்மாற்றுவது அதன் நீட்டிப்பை மாற்றும். கோப்பு வேறு பயன்பாட்டில் திறக்கலாம் அல்லது திறக்காமலே போகலாம்."
+
+msgid "Selection Mode: click files or folders to select or deselect them."
+msgstr "தேர்வுப் பயன்முறை: கோப்புகள் அல்லது அடைவுகளைத் தேர்ந்தெடுக்க அல்லது தேர்வுநீக்க அவற்றைச் சொடுக்கவும்."
+
+msgid "_Exit Selection Mode"
+msgstr "தேர்வுப் பயன்முறையிலிருந்து வெளியேறு (_E)"
+
+msgid "_Duplicate"
+msgstr "நகல் உருவாக்கு (_D)"
+
+msgid "De_lete"
+msgstr "நீக்கு (_L)"
+
+msgid "Pr_operties"
+msgstr "பண்புகள் (_O)"
+
+msgid "The folder “%s” no longer exists."
+msgstr "“%s” அடைவு இனி இல்லை."
+
+msgid "“%s” selected (%s%s)"
+msgstr "“%s” தேர்ந்தெடுக்கப்பட்டது (%s%s)"
+
+msgid "%s selected"
+msgstr "%s தேர்ந்தெடுக்கப்பட்டன"
+
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d தேர்ந்தெடுக்கப்பட்டது"
+msgstr[1] "%d தேர்ந்தெடுக்கப்பட்டன"
+
+msgid "Move left"
+msgstr "இடப்புறம்"
+
+msgid "Move down"
+msgstr "கீழே"
+
+msgid "Move up"
+msgstr "மேலே"
+
+msgid "Move right"
+msgstr "வலப்புறம்"
+
+msgid "First item"
+msgstr "முதல் உருப்படி"
+
+msgid "Last item"
+msgstr "கடைசி உருப்படி"
+
+msgid "Page down"
+msgstr "பக்கம் கீழே"
+
+msgid "Page up"
+msgstr "பக்கம் மேலே"
+
+msgid "Select the items the cursor passes (visual)"
+msgstr "சுட்டி கடந்து செல்லும் உருப்படிகளைத் தேர்ந்தெடு (காட்சி)"
+
+msgid "Select a range, like Shift (visual line)"
+msgstr "Shift போல ஒரு வரம்பைத் தேர்ந்தெடு (காட்சி வரி)"
+
+msgid "Select a block of the grid (visual block)"
+msgstr "கட்டத்திலிருந்து ஒரு தொகுதியைத் தேர்ந்தெடு (காட்சித் தொகுதி)"
+
+msgid "Back to normal mode"
+msgstr "இயல்புப் பயன்முறைக்குத் திரும்பு"
+
+msgid "Copy the item under the cursor"
+msgstr "சுட்டியின் கீழுள்ள உருப்படியை நகலெடு"
+
+msgid "Rename, cursor at the start (insert)"
+msgstr "பெயர்மாற்று, சுட்டி தொடக்கத்தில் (செருகு)"
+
+msgid "Rename, cursor after the name (append)"
+msgstr "பெயர்மாற்று, சுட்டி பெயருக்குப் பின் (இணை)"
+
+msgid "Rename, name selected (change)"
+msgstr "பெயர்மாற்று, பெயர் தேர்ந்தெடுக்கப்பட்டது (மாற்று)"
+
+msgid "Edit the location"
+msgstr "இருப்பிடத்தைத் திருத்து"
+
+msgid "Copied."
+msgstr "நகலெடுக்கப்பட்டது."
+
+msgid "Cut."
+msgstr "வெட்டப்பட்டது."
+
+msgid "Can't open “%s”."
+msgstr "“%s” ஐத் திறக்க முடியாது."
+
+msgid "A name is needed."
+msgstr "ஒரு பெயர் தேவை."
+
+msgid "Unknown view: %s"
+msgstr "அறியாத காட்சி: %s"
+
+msgid "Unknown option: %s"
+msgstr "அறியாத விருப்பம்: %s"
+
+msgid "Sort by name, size, date or type."
+msgstr "name, size, date அல்லது type மூலம் வரிசைப்படுத்தவும்."
+
+msgid "Not a command: %s"
+msgstr "கட்டளை அல்ல: %s"
+
+msgid "Move"
+msgstr "நகர்த்து"
+
+msgid "Split View to Tabs"
+msgstr "பிரிந்த காட்சியைத் தாவல்களாக"
+
+msgid "Folders Panel"
+msgstr "அடைவுகள் பலகம்"
+
+msgid "Columns"
+msgstr "நெடுவரிசைகள்"
+
+msgid "Folders Panel:"
+msgstr "அடைவுகள் பலகம்:"
+
+msgid "Limit to home directory when inside it"
+msgstr "இல்ல அடைவினுள் இருக்கும்போது அதற்கே வரம்பிடு"
+
+msgid "Spacing:"
+msgstr "இடைவெளி:"
+
+msgid "%s free of %s (%d%% used)"
+msgstr "%2$s இல் %1$s காலி (%3$d%% பயன்பாட்டில்)"
