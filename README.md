@@ -110,10 +110,8 @@ limits, places) live in Beluga's own preferences.
 - **File chooser for other programs**: an xdg-desktop-portal backend, like the KDE one that uses Dolphin: Places,
   the folder in a Beluga view, name, file types and the program's own options. See
   [Beluga as the file chooser](#beluga-as-the-file-chooser).
-- **Translations**: 63 languages. Czech, Slovak, German, French, Spanish, Italian, Brazilian Portuguese, Polish,
-  Russian, Ukrainian, Dutch, Japanese and Simplified Chinese are complete (805 of 806 messages). The other 50 have
-  24–46% of the messages, taken from Dolphin, KDE Frameworks and GTK where the English text is the same; the rest
-  is shown in English.
+- **Translations**: 63 languages, all complete (806 of 806 messages). Where the English text matches,
+  the translation comes from Dolphin, KDE Frameworks or GTK; Beluga's own messages were translated for it.
 - **Vim mode** (off by default): h j k l, counts, three visual modes (each item the cursor passes, a range, a block
   of the grid), y / d / dd / p, the leader key and a `:` command line. See [Vim mode](#vim-mode).
 - **Look**: laid out like Dolphin: Back, Forward, Up and the view mode left of the location bar (two side by side in

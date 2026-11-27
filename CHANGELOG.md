@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Translations: all 63 languages are now complete (806 of 806 messages). 50 languages had only 24–46% before, and
+  the 13 complete ones lacked the "weekday at time" date format.
+
 ## 1.1.1
 
 - Fixed: work finished in the background (search results, file operations) could be handed back on the background
