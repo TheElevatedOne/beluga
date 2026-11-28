@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.4.0
 
 - Added: `--log[=1|2|3]` writes a log to the terminal for bug reports: 1 errors, 2 also actions (folders opened,
   file operations, searches, mounts, portal and D-Bus requests, programs started), 3 also details (timings, item

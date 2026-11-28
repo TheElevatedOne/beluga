@@ -44,6 +44,12 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.4.0" date="2026-11-28">
+      <description>
+        <p>Logging for bug reports (--log, --log-file), shell completions for bash, zsh and fish, and Rename and
+          Remove for servers in Network, which now updates when Places change.</p>
+      </description>
+    </release>
     <release version="1.3.1" date="2026-11-28">
       <description>
         <p>Remote folders show their address in the location bar and no longer print GLib warnings. Network lists
