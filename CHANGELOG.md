@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.3.1
 
 - Fixed: the location bar showed remote folders as gvfs's mount folder (`/run/user/1000/gvfs/ftp:host=…`) instead
   of their address (`ftp://user@host:2121/`).
