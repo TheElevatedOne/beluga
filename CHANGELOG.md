@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added: **Remove** in the context menu of a server in Network takes it out of Places.
+- Fixed: Network didn't update when a server was added to or removed from Places.
+
 ## 1.3.1
 
 - Fixed: the location bar showed remote folders as gvfs's mount folder (`/run/user/1000/gvfs/ftp:host=…`) instead

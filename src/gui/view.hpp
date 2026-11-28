@@ -172,6 +172,7 @@ private:
     std::set<std::string> cutUris_;
     std::shared_ptr<int> alive_;
     int settingsListener_ = 0;
+    int placesListener_ = 0;
 };
 
 } // namespace beluga

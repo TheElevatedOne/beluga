@@ -765,8 +765,14 @@ void gui_tests(GtkApplication *app)
             GAction *del = g_action_map_lookup_action(G_ACTION_MAP(w->window()), "delete");
             GAction *ren = g_action_map_lookup_action(G_ACTION_MAP(w->window()), "rename");
             bool locked = del && ren && !g_action_get_enabled(del) && !g_action_get_enabled(ren);
-            Places::instance().remove(Places::instance().indexOf(rp.uri));
-            check(listed && locked, "Network lists servers from Places and can't delete or rename them");
+            GAction *rm = g_action_map_lookup_action(G_ACTION_MAP(w->window()), "remove-network-place");
+            bool canRemove = rm && g_action_get_enabled(rm);
+            if (canRemove) g_action_activate(rm, nullptr);
+            wait_ms(800);
+            bool removed = Places::instance().indexOf(rp.uri) < 0 && !nv->findItem(rp.uri);
+            if (Places::instance().indexOf(rp.uri) >= 0) Places::instance().remove(Places::instance().indexOf(rp.uri));
+            check(listed && locked && canRemove && removed,
+                  "Network lists servers from Places, can't delete or rename them, Remove takes them out at once");
             w->activeContainer()->navigate(file_uri(F("").get()));
             wait_ms(300);
         }

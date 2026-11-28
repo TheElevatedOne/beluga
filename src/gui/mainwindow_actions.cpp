@@ -122,6 +122,14 @@ const std::vector<ActionDef> &action_defs()
         {"folder-properties", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              if (AV(w) && !AV(w)->isVirtual()) w->showProperties({AV(w)->locationFile()});
          }},
+        {"remove-network-place", nullptr, nullptr, [](MainWindow *w, GVariant *) {
+             std::vector<std::string> uris;
+             for (BelugaItem *it : w->selectedItems()) uris.push_back(item_data(it).uri);
+             for (const std::string &u : uris) {
+                 int i = Places::instance().indexOf(u);
+                 if (i >= 0) Places::instance().remove(i);
+             }
+         }},
         {"add-network-location", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              add_network_location_dialog(w->widget(), [w](const NetLocation &n, const std::string &name) { w->addNetworkLocation(n, name); });
          }},
@@ -545,6 +553,10 @@ void MainWindow::updateActions()
     enable(this, "rename", sel && !readOnly);
     enable(this, "move-to-trash", sel && !readOnly);
     enable(this, "delete", sel && !inArchive && !network);
+    bool placeSelected = network && std::any_of(items.begin(), items.end(), [](BelugaItem *i) {
+        return Places::instance().indexOf(item_data(i).uri) >= 0;
+    });
+    enable(this, "remove-network-place", placeSelected);
     enable(this, "duplicate", sel && !virt);
     enable(this, "restore", sel && trashView);
     enable(this, "empty-trash", trashView || !trash::is_empty());

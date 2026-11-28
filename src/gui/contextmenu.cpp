@@ -206,6 +206,15 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
         item(s, _("Copy"), "win.copy", "edit-copy");
         item(s, _("Delete"), "win.delete", "edit-delete");
         item(sec(m), _("Properties"), "win.properties", "document-properties");
+    } else if (v->isNetwork()) {
+        // Servers: open them, or take them out of Places (which is where Network lists them from).
+        GMenu *s = sec(m);
+        if (items.size() == 1) item(s, _("Open"), "win.open-selected", "document-open");
+        if (st.ctxOpenInNewTab) item(s, items.size() == 1 ? _("Open in New Tab") : _("Open in New Tabs"), "win.open-in-new-tab", "tab-new");
+        if (st.ctxOpenInNewWindow) item(s, _("Open in New Window"), "win.open-in-new-window", "window-new");
+        s = sec(m);
+        if (st.ctxCopyLocation) item(s, _("Copy Location"), "win.copy-location", "edit-copy-path");
+        item(sec(m), _("Remove"), "win.remove-network-place", "list-remove");
     } else {
         bool allDirs = std::all_of(items.begin(), items.end(), [](BelugaItem *i) { return item_data(i).isDir; });
         bool anyDir = std::any_of(items.begin(), items.end(), [](BelugaItem *i) { return item_data(i).isDir; });

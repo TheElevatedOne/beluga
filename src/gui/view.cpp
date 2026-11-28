@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "view.hpp"
 
+#include "places.hpp"
+
 #include "archive.hpp"
 #include "dialogs.hpp"
 #include "dirsize.hpp"
@@ -182,6 +184,10 @@ View::View()
     lister_.mountOperation = [this]() -> GMountOperation * { return mountOperation ? mountOperation() : nullptr; };
 
     settingsListener_ = add_settings_listener([this] { settingsChanged(); });
+    // Network lists the servers in Places: added or removed ones show at once.
+    placesListener_ = Places::instance().addListener([this] {
+        if (isNetwork()) reload();
+    });
     buildPipeline();
 }
 
@@ -189,6 +195,7 @@ View::~View()
 {
     if (usageSource_) g_source_remove(usageSource_);
     remove_settings_listener(settingsListener_);
+    Places::instance().removeListener(placesListener_);
     alive_.reset();
     lister_.stop();
     g_clear_weak_pointer(&hovered_);
