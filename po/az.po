@@ -724,6 +724,12 @@ msgstr "Yeni Vərəqlərdə açmaq"
 msgid "Open in New Window"
 msgstr "Yeni Pəncərədə açmaq"
 
+msgid "Rename…"
+msgstr "Adını dəyişin…"
+
+msgid "Remove"
+msgstr "Sil"
+
 msgid "Open in Split View"
 msgstr "Bölünmüş pəncərədə açın"
 
@@ -735,9 +741,6 @@ msgstr "Bu tərkibli qovluğu açın"
 
 msgid "Paste into Folder"
 msgstr "Qovluğa yapışdır"
-
-msgid "Rename…"
-msgstr "Adını dəyişin…"
 
 msgid "Show Target"
 msgstr "Hədəfi göstərmək"
@@ -1286,6 +1289,15 @@ msgstr "xdg-desktop-portal üçün fayl seçicini işə sal (D-Bus tərəfindən
 msgid "Show the version"
 msgstr "Versiyanı göstər"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Terminala jurnal yaz: 1 xətalar, 2 həm də əməliyyatlar (standart), 3 həm də təfərrüatlar; ayrıca Beluga işə salır"
+
+msgid "Also write the log to this file"
+msgstr "Jurnalı həm də bu fayla yaz"
+
+msgid "FILE"
+msgstr "Fayl"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FAYL və ya QOVLUQ…]"
 
@@ -1601,9 +1613,6 @@ msgstr "Ayırmaq"
 
 msgid "Edit…"
 msgstr "Dəyişin…"
-
-msgid "Remove"
-msgstr "Sil"
 
 msgid "Show"
 msgstr "Göstər"

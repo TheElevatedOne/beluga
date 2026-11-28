@@ -1492,3 +1492,9 @@ msgstr "Valitse avaintiedosto"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Avaimen lisääminen tiedostoon ~/.ssh/config epäonnistui."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Loki päätteeseen: 1 virheet, 2 myös toiminnot (oletus), 3 myös yksityiskohdat; käynnistää oman Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Kirjoita loki myös tähän tiedostoon"

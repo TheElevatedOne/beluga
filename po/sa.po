@@ -725,6 +725,12 @@ msgstr "New Tabs इत्यत्र उद्घाटयन्तु"
 msgid "Open in New Window"
 msgstr "New Window इत्यत्र उद्घाटयन्तु"
 
+msgid "Rename…"
+msgstr "पुनर्नामकरणं…"
+
+msgid "Remove"
+msgstr "निष्कासयतु"
+
 msgid "Open in Split View"
 msgstr "Split View इत्यत्र उद्घाटयन्तु"
 
@@ -736,9 +742,6 @@ msgstr "यत्र स्थितम् अस्ति तत्र पु�
 
 msgid "Paste into Folder"
 msgstr "पुटे संलग्नयतु"
-
-msgid "Rename…"
-msgstr "पुनर्नामकरणं…"
 
 msgid "Show Target"
 msgstr "लक्ष्यं दर्शयतु"
@@ -1287,6 +1290,15 @@ msgstr "xdg-desktop-portal कृते सञ्चिका-चयनकं �
 msgid "Show the version"
 msgstr "संस्करणं दर्शयतु"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "टर्मिनल्-मध्ये अभिलेखः: 1 दोषाः, 2 क्रियाः अपि (पूर्वनिर्धारितम्), 3 विवरणानि अपि; स्वकीयं Beluga चालयति"
+
+msgid "Also write the log to this file"
+msgstr "अभिलेखं अस्यां सञ्चिकायाम् अपि लिखतु"
+
+msgid "FILE"
+msgstr "सञ्चिका"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[सञ्चिका अथवा पुटम्…]"
 
@@ -1602,9 +1614,6 @@ msgstr "असंचादयति"
 
 msgid "Edit…"
 msgstr "सम्पादयतु…"
-
-msgid "Remove"
-msgstr "निष्कासयतु"
 
 msgid "Show"
 msgstr "दर्शयतु"

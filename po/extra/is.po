@@ -1481,3 +1481,9 @@ msgstr "Veldu lykilskrá"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Ekki tókst að bæta lyklinum í ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Annáll í útstöð: 1 villur, 2 einnig aðgerðir (sjálfgefið), 3 einnig smáatriði; keyrir eigin Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Skrifa annálinn einnig í þessa skrá"

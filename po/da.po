@@ -727,6 +727,12 @@ msgstr "Åbn i nye faneblade"
 msgid "Open in New Window"
 msgstr "Åbn i nyt vindue"
 
+msgid "Rename…"
+msgstr "Omdøb…"
+
+msgid "Remove"
+msgstr "Fjern"
+
 msgid "Open in Split View"
 msgstr "Åbn i opdelt visning"
 
@@ -738,9 +744,6 @@ msgstr "Åbn indeholdende mappe"
 
 msgid "Paste into Folder"
 msgstr "Indsæt i mappe"
-
-msgid "Rename…"
-msgstr "Omdøb…"
 
 msgid "Show Target"
 msgstr "Vis mål"
@@ -1289,6 +1292,15 @@ msgstr "Kør filvælgeren til xdg-desktop-portal (startes af D-Bus)"
 msgid "Show the version"
 msgstr "Vis versionen"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Log til terminalen: 1 fejl, 2 også handlinger (standard), 3 også detaljer; kører sin egen Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Skriv også loggen til denne fil"
+
+msgid "FILE"
+msgstr "FIL"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FIL eller MAPPE…]"
 
@@ -1604,9 +1616,6 @@ msgstr "Afmontér"
 
 msgid "Edit…"
 msgstr "Redigér…"
-
-msgid "Remove"
-msgstr "Fjern"
 
 msgid "Show"
 msgstr "Vis"

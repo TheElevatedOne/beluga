@@ -719,6 +719,12 @@ msgstr "တပ်ဘ်အသစ်များတွင် ဖွင့်မ�
 msgid "Open in New Window"
 msgstr "ဝင်းဒိုးအသစ်တွင် ဖွင့်မည်"
 
+msgid "Rename…"
+msgstr "အမည်ပြောင်းပါ…"
+
+msgid "Remove"
+msgstr "ဖယ်ရှား"
+
 msgid "Open in Split View"
 msgstr "ခွဲထားသော မြင်ကွင်းတွင် ဖွင့်ရန်"
 
@@ -730,9 +736,6 @@ msgstr "ဖိုင်ပါဝင်သောဖိုင်တွဲကို
 
 msgid "Paste into Folder"
 msgstr "ဖိုဒါထဲသို့ ကူးထည့်ရန်"
-
-msgid "Rename…"
-msgstr "အမည်ပြောင်းပါ…"
 
 msgid "Show Target"
 msgstr "ဦိးတည်ပစ်မှတ် ပြမည်"
@@ -1277,6 +1280,15 @@ msgstr "xdg-desktop-portal အတွက် ဖိုင်ရွေးစနစ�
 msgid "Show the version"
 msgstr "ဗားရှင်း ပြရန်"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "တာမီနယ်သို့ မှတ်တမ်း: 1 အမှားများ၊ 2 လုပ်ဆောင်ချက်များပါ (မူလ)၊ 3 အသေးစိတ်များပါ၊ ကိုယ်ပိုင် Beluga ကို ဖွင့်သည်"
+
+msgid "Also write the log to this file"
+msgstr "မှတ်တမ်းကို ဤဖိုင်ထဲသို့လည်း ရေးရန်"
+
+msgid "FILE"
+msgstr "ဖိုင်"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ဖိုင် သို့မဟုတ် ဖိုဒါ…]"
 
@@ -1592,9 +1604,6 @@ msgstr "Uဖြုတ်ရန်"
 
 msgid "Edit…"
 msgstr "တည်းဖြတ်…"
-
-msgid "Remove"
-msgstr "ဖယ်ရှား"
 
 msgid "Show"
 msgstr "ပြရန်"

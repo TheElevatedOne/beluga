@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added: `--log[=1|2|3]` writes a log to the terminal for bug reports: 1 errors, 2 also actions (folders opened,
+  file operations, searches, mounts, portal and D-Bus requests, programs started), 3 also details (timings, item
+  counts, every file of a copy). `--log-file=FILE` writes it to a file too, with GLib's and GTK's warnings. A
+  logging Beluga runs on its own. `BELUGA_LOG` and `BELUGA_LOG_FILE` do the same for a Beluga started by D-Bus.
 - Added: shell completions for bash, zsh and fish (installed to `share/bash-completion/completions`,
   `share/zsh/site-functions` and `share/fish/vendor_completions.d`).
 - Added: **Rename…** (<kbd>F2</kbd>) and **Remove** in the context menu of a server in Network: rename edits its Places

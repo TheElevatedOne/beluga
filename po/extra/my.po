@@ -1748,3 +1748,9 @@ msgstr "သော့ဖိုင် ရွေးရန်"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "သော့ကို ~/.ssh/config သို့ ထည့်၍မရပါ။"
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "တာမီနယ်သို့ မှတ်တမ်း: 1 အမှားများ၊ 2 လုပ်ဆောင်ချက်များပါ (မူလ)၊ 3 အသေးစိတ်များပါ၊ ကိုယ်ပိုင် Beluga ကို ဖွင့်သည်"
+
+msgid "Also write the log to this file"
+msgstr "မှတ်တမ်းကို ဤဖိုင်ထဲသို့လည်း ရေးရန်"

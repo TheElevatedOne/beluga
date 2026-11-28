@@ -1501,3 +1501,9 @@ msgstr "Pasirinkite rakto failą"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Nepavyko pridėti rakto į ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Žurnalas į terminalą: 1 klaidos, 2 ir veiksmai (numatytasis), 3 ir išsami informacija; paleidžia atskirą Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Žurnalą rašyti ir į šį failą"

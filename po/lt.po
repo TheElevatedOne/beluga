@@ -737,6 +737,12 @@ msgstr "Atverti naujose kortelėse"
 msgid "Open in New Window"
 msgstr "Atverti naujame lange"
 
+msgid "Rename…"
+msgstr "Pervadinti…"
+
+msgid "Remove"
+msgstr "Šalinti"
+
 msgid "Open in Split View"
 msgstr "Atverti padalytame rodinyje"
 
@@ -748,9 +754,6 @@ msgstr "Atverti vidinį aplanką"
 
 msgid "Paste into Folder"
 msgstr "Įdėti į aplanką"
-
-msgid "Rename…"
-msgstr "Pervadinti…"
 
 msgid "Show Target"
 msgstr "Rodyti paskirtį"
@@ -1307,6 +1310,15 @@ msgstr "Paleisti xdg-desktop-portal failų parinkiklį (paleidžia D-Bus)"
 msgid "Show the version"
 msgstr "Rodyti versiją"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Žurnalas į terminalą: 1 klaidos, 2 ir veiksmai (numatytasis), 3 ir išsami informacija; paleidžia atskirą Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Žurnalą rašyti ir į šį failą"
+
+msgid "FILE"
+msgstr "FAILAS"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FAILAS arba APLANKAS…]"
 
@@ -1622,9 +1634,6 @@ msgstr "Atjungti"
 
 msgid "Edit…"
 msgstr "Taisyti…"
-
-msgid "Remove"
-msgstr "Šalinti"
 
 msgid "Show"
 msgstr "Rodyti"

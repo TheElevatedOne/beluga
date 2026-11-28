@@ -63,6 +63,7 @@ private:
     friend struct ListOp;
     GListStore *store_;
     std::string uri_;
+    gint64 loadStart_ = 0;
     Ref<GFile> dir_;
     GCancellable *cancellable_ = nullptr;
     std::vector<GFileMonitor *> monitors_;

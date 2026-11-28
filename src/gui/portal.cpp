@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "portal.hpp"
+#include "log.hpp"
 
 #include "filechooser.hpp"
 #include "settings.hpp"
@@ -89,6 +90,7 @@ ChooserRequest parse_request(const std::string &method, const char *parent, cons
     req.mode = method == "SaveFile" ? ChooserRequest::Mode::Save : method == "SaveFiles" ? ChooserRequest::Mode::SaveFiles : ChooserRequest::Mode::Open;
     req.title = str(title);
     req.parentWindow = str(parent);
+    BLOG_INFO("portal", "%s from window %s: \"%s\"", method.c_str(), req.parentWindow.c_str(), req.title.c_str());
     GVariantDict d;
     g_variant_dict_init(&d, opts);
     const char *s = nullptr;
@@ -215,6 +217,7 @@ void chooser_call(GDBusConnection *bus, const char *, const char *, const char *
             if (r.filter >= 0 && r.filter < (int)p->req.filters.size())
                 g_variant_builder_add(&results, "{sv}", "current_filter", filter_variant(p->req.filters[r.filter]));
         }
+        BLOG_INFO("portal", "%s, %zu file(s)", r.accepted ? "accepted" : "cancelled", r.accepted ? r.uris.size() : (size_t)0);
         // 0: done, 1: cancelled.
         g_dbus_method_invocation_return_value(p->invocation, g_variant_new("(ua{sv})", r.accepted ? 0u : 1u, &results));
         p->invocation = nullptr;

@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "dirmodel.hpp"
+#include "log.hpp"
 
 #include "archive.hpp"
 #include "fileops.hpp"
@@ -77,6 +78,9 @@ void DirLister::setLoading(bool on)
 {
     if (loading_ == on) return;
     loading_ = on;
+    if (on) loadStart_ = g_get_monotonic_time();
+    else BLOG_DEBUG("list", "%s: %u items in %.0f ms", uri_.c_str(), g_list_model_get_n_items(G_LIST_MODEL(store_)),
+                    (g_get_monotonic_time() - loadStart_) / 1000.0);
     if (on && onStarted) onStarted();
     if (!on && onFinished) onFinished();
 }
@@ -237,6 +241,7 @@ void DirLister::startFolder(bool mountTried)
                 g_error_free(err);
                 GMountOperation *mo = self->mountOperation();
                 op->mountTried = true;
+                BLOG_INFO("mount", "mounting %s", self->uri_.c_str());
                 g_file_mount_enclosing_volume(G_FILE(src), G_MOUNT_MOUNT_NONE, mo, self->cancellable_, mount_cb, op);
                 if (mo) g_object_unref(mo);
                 return;
@@ -286,12 +291,14 @@ static void mount_cb(GObject *src, GAsyncResult *res, gpointer data)
         return;
     }
     if (!ok && !g_error_matches(err, G_IO_ERROR, G_IO_ERROR_ALREADY_MOUNTED)) {
+        BLOG_ERROR("mount", "%s: %s", self->uri().c_str(), err->message);
         self->stop();
         if (self->onError && !g_error_matches(err, G_IO_ERROR, G_IO_ERROR_FAILED_HANDLED)) self->onError(err->message);
         g_clear_error(&err);
         return;
     }
     g_clear_error(&err);
+    BLOG_INFO("mount", "mounted %s", self->uri().c_str());
     self->startFolder(true);
 }
 

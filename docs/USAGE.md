@@ -25,7 +25,18 @@ Application Options:
   --detach                  Detach from the terminal (without a location: open the current folder)
   --portal                  Run the file chooser for xdg-desktop-portal (started by D-Bus)
   -v, --version             Show the version
+  --log=1|2|3               Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own
+  --log-file=FILE           Also write the log to this file
 ```
+
+### Logging
+
+`beluga --log` writes what Beluga does to the terminal, for bug reports: `--log=1` only errors, `--log=2` (the
+default) also actions such as folders opened, file operations, searches, mounts and portal requests, `--log=3` also
+details (timings, item counts, every file of a copy). `--log-file=FILE` also writes it to a file, with GLib's and
+GTK's warnings. A logging Beluga runs on its own instead of handing the call to a Beluga that is already running.
+Beluga started by D-Bus (the file chooser, FileManager1) logs with `BELUGA_LOG=1|2|3` and `BELUGA_LOG_FILE=FILE` in
+its environment, for example `systemctl --user set-environment BELUGA_LOG=3`.
 
 A second `beluga` call opens a new window in the running instance, or a new tab when **Configure Beluga → Interface →
 Folders & Tabs → Keep a single Beluga window, opening new folders in tabs** is on.

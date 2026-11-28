@@ -725,6 +725,12 @@ msgstr "Hape në Skeda të Reja"
 msgid "Open in New Window"
 msgstr "Hape në Një Dritare të Re"
 
+msgid "Rename…"
+msgstr "Riemërto…"
+
+msgid "Remove"
+msgstr "Hiqe"
+
 msgid "Open in Split View"
 msgstr "Hap në pamje të ndarë"
 
@@ -736,9 +742,6 @@ msgstr "Hap Dosjen Që e Përmban"
 
 msgid "Paste into Folder"
 msgstr "Ngjite në dosje"
-
-msgid "Rename…"
-msgstr "Riemërto…"
 
 msgid "Show Target"
 msgstr "Shfaq cakun"
@@ -1287,6 +1290,15 @@ msgstr "Xhiro zgjedhësin e kartelave për xdg-desktop-portal (nisur nga D-Bus)"
 msgid "Show the version"
 msgstr "Shfaq versionin"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Regjistër në terminal: 1 gabime, 2 edhe veprime (parazgjedhje), 3 edhe hollësi; xhiron një Beluga më vete"
+
+msgid "Also write the log to this file"
+msgstr "Shkruaje regjistrin edhe te kjo kartelë"
+
+msgid "FILE"
+msgstr "Skedë"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[KARTELË ose DOSJE…]"
 
@@ -1602,9 +1614,6 @@ msgstr "Çmontoje"
 
 msgid "Edit…"
 msgstr "Përpunoni…"
-
-msgid "Remove"
-msgstr "Hiqe"
 
 msgid "Show"
 msgstr "Shfaq"

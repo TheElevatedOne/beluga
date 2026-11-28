@@ -1802,3 +1802,9 @@ msgstr "कुंजी फ़ाइल चुनें"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "कुंजी को ~/.ssh/config में नहीं जोड़ा जा सका।"
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "टर्मिनल में लॉग: 1 त्रुटियाँ, 2 क्रियाएँ भी (डिफ़ॉल्ट), 3 विवरण भी; अपना अलग Beluga चलाता है"
+
+msgid "Also write the log to this file"
+msgstr "लॉग को इस फ़ाइल में भी लिखें"

@@ -726,6 +726,12 @@ msgstr "در برگه‌های جدید باز شود‌"
 msgid "Open in New Window"
 msgstr "باز کردن در پنجره جدید"
 
+msgid "Rename…"
+msgstr "تغییر نام…"
+
+msgid "Remove"
+msgstr "حذف"
+
 msgid "Open in Split View"
 msgstr "باز کردن در نمای تقسیم‌شده"
 
@@ -737,9 +743,6 @@ msgstr "گشودن پروندهٔ محتوی"
 
 msgid "Paste into Folder"
 msgstr "چسباندن در پوشه"
-
-msgid "Rename…"
-msgstr "تغییر نام…"
 
 msgid "Show Target"
 msgstr "نمایش مقصد"
@@ -1288,6 +1291,15 @@ msgstr "اجرای گزینشگر پرونده برای xdg-desktop-portal (با
 msgid "Show the version"
 msgstr "نمایش نگارش"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "گزارش در پایانه: ۱ خطاها، ۲ همچنین کنش‌ها (پیش‌فرض)، ۳ همچنین جزئیات؛ یک Beluga جداگانه اجرا می‌کند"
+
+msgid "Also write the log to this file"
+msgstr "گزارش را در این پرونده هم بنویس"
+
+msgid "FILE"
+msgstr "پرونده"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[پرونده یا پوشه…]"
 
@@ -1603,9 +1615,6 @@ msgstr "پیاده کردن"
 
 msgid "Edit…"
 msgstr "ویرایش…"
-
-msgid "Remove"
-msgstr "حذف"
 
 msgid "Show"
 msgstr "نمایش"

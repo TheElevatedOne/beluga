@@ -1481,3 +1481,9 @@ msgstr "Izvēlieties atslēgas datni"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Neizdevās pievienot atslēgu datnei ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Žurnāls terminālī: 1 kļūdas, 2 arī darbības (noklusējums), 3 arī sīkāka informācija; palaiž savu Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Rakstīt žurnālu arī šajā datnē"

@@ -1813,3 +1813,9 @@ msgstr "Zgjidhni një kartelë kyçi"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Kyçi s’u shtua dot te ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Regjistër në terminal: 1 gabime, 2 edhe veprime (parazgjedhje), 3 edhe hollësi; xhiron një Beluga më vete"
+
+msgid "Also write the log to this file"
+msgstr "Shkruaje regjistrin edhe te kjo kartelë"

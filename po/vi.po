@@ -720,6 +720,12 @@ msgstr "Mở trong thẻ mới"
 msgid "Open in New Window"
 msgstr "Mở trong cửa sổ mới"
 
+msgid "Rename…"
+msgstr "Đổi tên…"
+
+msgid "Remove"
+msgstr "Bỏ"
+
 msgid "Open in Split View"
 msgstr "Mở trong khung xem chia đôi"
 
@@ -731,9 +737,6 @@ msgstr "Mở thư mục chứa"
 
 msgid "Paste into Folder"
 msgstr "Dán vào thư mục"
-
-msgid "Rename…"
-msgstr "Đổi tên…"
 
 msgid "Show Target"
 msgstr "Hiện đích"
@@ -1278,6 +1281,15 @@ msgstr "Chạy trình chọn tệp cho xdg-desktop-portal (do D-Bus khởi chạ
 msgid "Show the version"
 msgstr "Hiện phiên bản"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Ghi nhật ký ra terminal: 1 lỗi, 2 cả thao tác (mặc định), 3 cả chi tiết; chạy một Beluga riêng"
+
+msgid "Also write the log to this file"
+msgstr "Ghi nhật ký vào cả tệp này"
+
+msgid "FILE"
+msgstr "TẬPTIN"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[TỆP hoặc THƯ MỤC…]"
 
@@ -1593,9 +1605,6 @@ msgstr "Bỏ gắn kết"
 
 msgid "Edit…"
 msgstr "Sửa…"
-
-msgid "Remove"
-msgstr "Bỏ"
 
 msgid "Show"
 msgstr "Hiện"

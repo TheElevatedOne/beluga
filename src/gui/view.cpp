@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "view.hpp"
+#include "log.hpp"
 
 #include "places.hpp"
 
@@ -179,7 +180,10 @@ View::View()
         checkPendingSelection();
         if (onLoading) onLoading(false);
     };
-    lister_.onError = [this](const std::string &e) { if (onError) onError(e); };
+    lister_.onError = [this](const std::string &e) {
+        BLOG_ERROR("view", "%s: %s", uri_.c_str(), e.c_str());
+        if (onError) onError(e);
+    };
     lister_.onLocationGone = [this] { if (onLocationGone) onLocationGone(); };
     lister_.mountOperation = [this]() -> GMountOperation * { return mountOperation ? mountOperation() : nullptr; };
 

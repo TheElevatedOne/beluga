@@ -729,6 +729,12 @@ msgstr "Buka di Tab Baru"
 msgid "Open in New Window"
 msgstr "Buka di Jendela Baru"
 
+msgid "Rename…"
+msgstr "Ganti Nama…"
+
+msgid "Remove"
+msgstr "Buang"
+
 msgid "Open in Split View"
 msgstr "Buka di Tampilan Terpisah"
 
@@ -740,9 +746,6 @@ msgstr "Buka Folder Konten"
 
 msgid "Paste into Folder"
 msgstr "Tempel ke Folder"
-
-msgid "Rename…"
-msgstr "Ganti Nama…"
 
 msgid "Show Target"
 msgstr "Tampilkan Sasaran"
@@ -1291,6 +1294,15 @@ msgstr "Jalankan pemilih berkas untuk xdg-desktop-portal (dimulai oleh D-Bus)"
 msgid "Show the version"
 msgstr "Tampilkan versi"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Log ke terminal: 1 galat, 2 juga tindakan (bawaan), 3 juga detail; menjalankan Beluga sendiri"
+
+msgid "Also write the log to this file"
+msgstr "Tulis juga log ke berkas ini"
+
+msgid "FILE"
+msgstr "BERKAS"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[BERKAS atau FOLDER…]"
 
@@ -1606,9 +1618,6 @@ msgstr "Lepaskan"
 
 msgid "Edit…"
 msgstr "Sunting…"
-
-msgid "Remove"
-msgstr "Buang"
 
 msgid "Show"
 msgstr "Tampilkan"

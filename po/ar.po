@@ -748,6 +748,12 @@ msgstr "افتح في ألسنة جديدة"
 msgid "Open in New Window"
 msgstr "افتح في نافذة جديدة"
 
+msgid "Rename…"
+msgstr "أعد التسمية…"
+
+msgid "Remove"
+msgstr "أزِل"
+
 msgid "Open in Split View"
 msgstr "افتح في عرض منقسم"
 
@@ -759,9 +765,6 @@ msgstr "افتح المجلد الحاوي"
 
 msgid "Paste into Folder"
 msgstr "ألصق في المجلد"
-
-msgid "Rename…"
-msgstr "أعد التسمية…"
 
 msgid "Show Target"
 msgstr "اظهر المقصد"
@@ -1326,6 +1329,15 @@ msgstr "شغّل منتقي الملفات لـ xdg-desktop-portal (يبدؤه D
 msgid "Show the version"
 msgstr "اعرض الإصدارة"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "السجل في الطرفية: 1 الأخطاء، 2 والإجراءات أيضًا (الافتراضي)، 3 والتفاصيل أيضًا؛ يشغّل Beluga خاصًا به"
+
+msgid "Also write the log to this file"
+msgstr "اكتب السجل في هذا الملف أيضًا"
+
+msgid "FILE"
+msgstr "الملفّ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ملف أو مجلد…]"
 
@@ -1641,9 +1653,6 @@ msgstr "أزل الوصل"
 
 msgid "Edit…"
 msgstr "حرّر…"
-
-msgid "Remove"
-msgstr "أزِل"
 
 msgid "Show"
 msgstr "اعرض"

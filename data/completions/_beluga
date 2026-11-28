@@ -9,6 +9,8 @@ _arguments -s \
     '--detach[detach from the terminal (without a location: open the current folder)]' \
     '--portal[run the file chooser for xdg-desktop-portal (started by D-Bus)]' \
     '(- *)'{-v,--version}'[show the version]' \
+    '--log=-[log to the terminal: 1 errors, 2 also actions, 3 also details]::level:(1 2 3)' \
+    '--log-file=[also write the log to this file]:file:_files' \
     '(- *)'{-h,--help}'[show help options]' \
     '(- *)--help-all[show all help options]' \
     '(- *)--help-gapplication[show GApplication options]' \

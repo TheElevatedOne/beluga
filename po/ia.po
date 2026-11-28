@@ -725,6 +725,12 @@ msgstr "Aperi in nove schedas"
 msgid "Open in New Window"
 msgstr "Aperi in nove fenestra"
 
+msgid "Rename…"
+msgstr "Renomina…"
+
+msgid "Remove"
+msgstr "Remove"
+
 msgid "Open in Split View"
 msgstr "Aperi in Vista scindite"
 
@@ -736,9 +742,6 @@ msgstr "Aperi dossier continente"
 
 msgid "Paste into Folder"
 msgstr "Colla in le dossier"
-
-msgid "Rename…"
-msgstr "Renomina…"
 
 msgid "Show Target"
 msgstr "Monstra Objectivo"
@@ -1287,6 +1290,15 @@ msgstr "Executa le seligitor de files pro xdg-desktop-portal (initiate per D-Bus
 msgid "Show the version"
 msgstr "Monstra le version"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Registro al terminal: 1 errores, 2 anque actiones (predefinite), 3 anque detalios; exeque un Beluga proprie"
+
+msgid "Also write the log to this file"
+msgstr "Scribe le registro anque in iste file"
+
+msgid "FILE"
+msgstr "File"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FILE o DOSSIER…]"
 
@@ -1602,9 +1614,6 @@ msgstr "Dismonta"
 
 msgid "Edit…"
 msgstr "Modifica…"
-
-msgid "Remove"
-msgstr "Remove"
 
 msgid "Show"
 msgstr "Monstrar"

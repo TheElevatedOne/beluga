@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 // Beluga: window actions ("win.*"), their state, and the helpers behind them.
 #include "mainwindow.hpp"
+#include "log.hpp"
 
 #include "admin.hpp"
 #include "app.hpp"
@@ -826,10 +827,12 @@ void MainWindow::copyOrMoveTo(const std::string &destUri, bool move)
 void MainWindow::addNetworkLocation(const NetLocation &n, const std::string &name)
 {
     std::string uri = net_location_uri(n);
+    BLOG_INFO("network", "add %s (logon %d)", uri.c_str(), (int)n.logon);
     if (n.logon == Logon::KeyFile) {
         // gvfs runs ssh without -i: the key goes into a Host alias in the ssh config.
         std::string error;
         if (!write_ssh_alias(home_dir() + "/.ssh/config", n, &error)) {
+            BLOG_ERROR("network", "~/.ssh/config: %s", error.c_str());
             show_error(widget(), _("Could not add the key to ~/.ssh/config."), error);
             return;
         }
@@ -876,7 +879,10 @@ void MainWindow::addNetworkLocation(const NetLocation &n, const std::string &nam
     Ref<GFile> file(g_file_new_for_uri(uri.c_str()));
     g_file_mount_enclosing_volume(file.get(), G_MOUNT_MOUNT_NONE, op, nullptr, [](GObject *src, GAsyncResult *res, gpointer d) {
         auto *c = static_cast<Ctx *>(d);
-        g_file_mount_enclosing_volume_finish(G_FILE(src), res, nullptr);
+        GError *merr = nullptr;
+        if (g_file_mount_enclosing_volume_finish(G_FILE(src), res, &merr)) BLOG_INFO("network", "connected to %s", c->uri.c_str());
+        else BLOG_ERROR("network", "%s: %s", c->uri.c_str(), merr ? merr->message : "?");
+        g_clear_error(&merr);
         // Mounted or not: the view shows the folder, or its own error and password prompt.
         if (MainWindow *mw = MainWindow::from(GTK_WINDOW(c->win.get())))
             if (AC(mw)) AC(mw)->navigate(c->uri);

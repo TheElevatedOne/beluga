@@ -1813,3 +1813,9 @@ msgstr "鍵ファイルを選択"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "鍵を ~/.ssh/config に追加できませんでした。"
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "端末にログを出力: 1 エラー、2 操作も (既定)、3 詳細も。専用の Beluga を起動します"
+
+msgid "Also write the log to this file"
+msgstr "ログをこのファイルにも書き込む"

@@ -1477,3 +1477,9 @@ msgstr "키 파일 선택"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "키를 ~/.ssh/config에 추가할 수 없습니다."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "터미널에 로그 출력: 1 오류, 2 작업도(기본값), 3 세부 정보도. 별도의 Beluga를 실행합니다"
+
+msgid "Also write the log to this file"
+msgstr "이 파일에도 로그 기록"

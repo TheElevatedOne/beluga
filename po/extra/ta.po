@@ -1476,3 +1476,9 @@ msgstr "சாவிக் கோப்பைத் தேர்ந்தெட�
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "சாவியை ~/.ssh/config-இல் சேர்க்க முடியவில்லை."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "முனையத்தில் பதிவு: 1 பிழைகள், 2 செயல்களும் (இயல்பு), 3 விவரங்களும்; தனி Beluga-வை இயக்கும்"
+
+msgid "Also write the log to this file"
+msgstr "பதிவை இந்தக் கோப்பிலும் எழுது"

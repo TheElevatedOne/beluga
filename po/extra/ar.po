@@ -1505,3 +1505,9 @@ msgstr "اختر ملف مفتاح"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "تعذّرت إضافة المفتاح إلى ‎~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "السجل في الطرفية: 1 الأخطاء، 2 والإجراءات أيضًا (الافتراضي)، 3 والتفاصيل أيضًا؛ يشغّل Beluga خاصًا به"
+
+msgid "Also write the log to this file"
+msgstr "اكتب السجل في هذا الملف أيضًا"

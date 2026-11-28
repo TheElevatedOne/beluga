@@ -1526,3 +1526,9 @@ msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ ਚੁਣੋ"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "ਕੁੰਜੀ ਨੂੰ ~/.ssh/config ਵਿੱਚ ਜੋੜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "ਟਰਮੀਨਲ ਵਿੱਚ ਲਾਗ: 1 ਗਲਤੀਆਂ, 2 ਕਾਰਵਾਈਆਂ ਵੀ (ਮੂਲ), 3 ਵੇਰਵੇ ਵੀ; ਆਪਣਾ ਵੱਖਰਾ Beluga ਚਲਾਉਂਦਾ ਹੈ"
+
+msgid "Also write the log to this file"
+msgstr "ਲਾਗ ਇਸ ਫ਼ਾਈਲ ਵਿੱਚ ਵੀ ਲਿਖੋ"

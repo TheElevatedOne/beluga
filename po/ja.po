@@ -730,6 +730,12 @@ msgstr "新しいタブで開く"
 msgid "Open in New Window"
 msgstr "新しいウィンドウで開く"
 
+msgid "Rename…"
+msgstr "名前を変更…"
+
+msgid "Remove"
+msgstr "削除"
+
 msgid "Open in Split View"
 msgstr "分割ビューで開く"
 
@@ -741,9 +747,6 @@ msgstr "保存フォルダを開く"
 
 msgid "Paste into Folder"
 msgstr "フォルダーに貼り付け"
-
-msgid "Rename…"
-msgstr "名前を変更…"
 
 msgid "Show Target"
 msgstr "ターゲットを表示"
@@ -1288,6 +1291,15 @@ msgstr "xdg-desktop-portal 用のファイル選択を実行 (D-Bus から起動
 msgid "Show the version"
 msgstr "バージョンを表示"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "端末にログを出力: 1 エラー、2 操作も (既定)、3 詳細も。専用の Beluga を起動します"
+
+msgid "Also write the log to this file"
+msgstr "ログをこのファイルにも書き込む"
+
+msgid "FILE"
+msgstr "ファイル"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ファイルまたはフォルダー…]"
 
@@ -1603,9 +1615,6 @@ msgstr "アンマウント(U)"
 
 msgid "Edit…"
 msgstr "編集…"
-
-msgid "Remove"
-msgstr "削除"
 
 msgid "Show"
 msgstr "表示"

@@ -2113,3 +2113,9 @@ msgstr "انتخاب پرونده کلید"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "افزودن کلید به ‎~/.ssh/config ممکن نشد."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "گزارش در پایانه: ۱ خطاها، ۲ همچنین کنش‌ها (پیش‌فرض)، ۳ همچنین جزئیات؛ یک Beluga جداگانه اجرا می‌کند"
+
+msgid "Also write the log to this file"
+msgstr "گزارش را در این پرونده هم بنویس"

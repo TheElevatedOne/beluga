@@ -43,6 +43,7 @@ set(BELUGA_DEFS
 # File-manager engine: settings, places, trash, file operations, search,
 # thumbnails, devices. GLib/GIO only, no GTK.
 add_library(belugacore STATIC
+  src/core/log.cpp
   src/core/netlocation.cpp
   src/core/util.cpp
   src/core/settings.cpp

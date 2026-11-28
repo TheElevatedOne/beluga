@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "places.hpp"
+#include "log.hpp"
 
 #include "search.hpp"
 #include "util.hpp"
@@ -265,12 +266,14 @@ void Places::add(const Place &p, int index)
 {
     if (index < 0 || index > (int)places_.size()) places_.push_back(p);
     else places_.insert(places_.begin() + index, p);
+    BLOG_INFO("places", "add \"%s\" %s", p.label.c_str(), p.uri.c_str());
     changed();
 }
 
 void Places::remove(int index)
 {
     if (index < 0 || index >= (int)places_.size()) return;
+    BLOG_INFO("places", "remove \"%s\" %s", places_[index].label.c_str(), places_[index].uri.c_str());
     places_.erase(places_.begin() + index);
     changed();
 }
@@ -278,6 +281,7 @@ void Places::remove(int index)
 void Places::update(int index, const Place &p)
 {
     if (index < 0 || index >= (int)places_.size()) return;
+    BLOG_INFO("places", "edit \"%s\" -> \"%s\" %s", places_[index].label.c_str(), p.label.c_str(), p.uri.c_str());
     places_[index] = p;
     changed();
 }

@@ -726,6 +726,12 @@ msgstr "Ava uutel kaartidel"
 msgid "Open in New Window"
 msgstr "Ava uues aknas"
 
+msgid "Rename…"
+msgstr "Muuda nime…"
+
+msgid "Remove"
+msgstr "Eemalda"
+
 msgid "Open in Split View"
 msgstr "Ava poolitatud vaates"
 
@@ -737,9 +743,6 @@ msgstr "Ava sisaldav kataloog"
 
 msgid "Paste into Folder"
 msgstr "Aseta kausta"
-
-msgid "Rename…"
-msgstr "Muuda nime…"
 
 msgid "Show Target"
 msgstr "Näita sihtkohta"
@@ -1288,6 +1291,15 @@ msgstr "Käivita xdg-desktop-portali failivalija (käivitab D-Bus)"
 msgid "Show the version"
 msgstr "Näita versiooni"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Logi terminali: 1 vead, 2 ka toimingud (vaikimisi), 3 ka üksikasjad; käivitab oma Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Kirjuta logi ka sellesse faili"
+
+msgid "FILE"
+msgstr "Fail"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FAIL või KAUST…]"
 
@@ -1603,9 +1615,6 @@ msgstr "Lahuta"
 
 msgid "Edit…"
 msgstr "Muuda …"
-
-msgid "Remove"
-msgstr "Eemalda"
 
 msgid "Show"
 msgstr "Näita"

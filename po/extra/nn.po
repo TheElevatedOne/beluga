@@ -1557,3 +1557,9 @@ msgstr "Vel ei nøkkelfil"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Klarte ikkje leggja nøkkelen til i ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Logg til terminalen: 1 feil, 2 også handlingar (standard), 3 også detaljar; køyrer sin eigen Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Skriv loggen òg til denne fila"

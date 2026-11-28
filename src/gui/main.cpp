@@ -2,6 +2,7 @@
 // Beluga: program entry point and command line.
 #include "admin.hpp"
 #include "app.hpp"
+#include "log.hpp"
 #include "mainwindow.hpp"
 #include "settings.hpp"
 
@@ -11,7 +12,9 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+#include <algorithm>
 #include <clocale>
+#include <cstdlib>
 #include <cstdio>
 #include <cstring>
 #include <iostream>
@@ -117,7 +120,58 @@ static GLogWriterOutput log_writer(GLogLevelFlags level, const GLogField *fields
         if (!strcmp(fields[i].key, "MESSAGE") && fields[i].length != 0 && fields[i].value
             && strstr(static_cast<const char *>(fields[i].value), "gdk_frame_timings"))
             return G_LOG_WRITER_HANDLED;
+    // With --log-file, GLib's and GTK's own warnings go into the file too, next to Beluga's lines.
+    if (log_level() > LogOff && (level & (G_LOG_LEVEL_ERROR | G_LOG_LEVEL_CRITICAL | G_LOG_LEVEL_WARNING | G_LOG_LEVEL_MESSAGE))) {
+        char *line = g_log_writer_format_fields(level, fields, n, FALSE);
+        log_write_raw_to_file(line);
+        g_free(line);
+    }
     return g_log_writer_default(level, fields, n, data);
+}
+
+// --log[=LEVEL] and --log-file=FILE (or --log-file FILE) are taken out of argv before anything else, so they work
+// for --portal and --selftest too. BELUGA_LOG=LEVEL and BELUGA_LOG_FILE=FILE do the same for copies D-Bus starts.
+// Returns whether --log was on the command line.
+static bool take_log_options(int &argc, char **argv)
+{
+    int level = LogOff;
+    std::string file;
+    if (const char *e = g_getenv("BELUGA_LOG")) level = std::max(0, log_parse_level(e));
+    if (const char *e = g_getenv("BELUGA_LOG_FILE")) file = e;
+    bool given = false;
+    int out = 1;
+    for (int i = 1; i < argc; ++i) {
+        std::string a = argv[i];
+        if (a == "--") {
+            for (; i < argc; ++i) argv[out++] = argv[i];
+            break;
+        }
+        if (a == "--log" || a.rfind("--log=", 0) == 0) {
+            int l = log_parse_level(a == "--log" ? std::string() : a.substr(6));
+            if (l < 0) {
+                std::fprintf(stderr, "beluga: unknown log level \"%s\" (use 1, 2 or 3)\n", a.substr(6).c_str());
+                std::exit(2);
+            }
+            level = l;
+            given = true;
+            continue;
+        }
+        if (a.rfind("--log-file=", 0) == 0) {
+            file = a.substr(11);
+            continue;
+        }
+        if (a == "--log-file" && i + 1 < argc) {
+            file = argv[++i];
+            continue;
+        }
+        argv[out++] = argv[i];
+    }
+    argv[out] = nullptr;
+    argc = out;
+    // A log file alone means the default level.
+    if (level == LogOff && !file.empty()) level = LogInfo;
+    log_init(level, file);
+    return given;
 }
 
 int main(int argc, char **argv)
@@ -127,6 +181,7 @@ int main(int argc, char **argv)
     bindtextdomain(GETTEXT_PACKAGE, BELUGA_LOCALEDIR);
     bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
     textdomain(GETTEXT_PACKAGE);
+    bool logRequested = take_log_options(argc, argv);
     for (int i = 1; i < argc; ++i) {
         if (!strcmp(argv[i], "--selftest")) return run_selftest(argc, argv);
         if (!strcmp(argv[i], "--portal")) return run_portal(argc, argv);
@@ -138,7 +193,10 @@ int main(int argc, char **argv)
     prepare_root_environment(argc, argv);   // as root (Act as Administrator, sudo): a display, a bus and a runtime folder
 
     settings().load();
-    GtkApplication *app = gtk_application_new(BELUGA_APP_ID, G_APPLICATION_HANDLES_COMMAND_LINE);
+    // A Beluga that is already running would get this call and the log would stay empty: --log runs its own.
+    GApplicationFlags flags = G_APPLICATION_HANDLES_COMMAND_LINE;
+    if (logRequested) flags = GApplicationFlags(flags | G_APPLICATION_NON_UNIQUE);
+    GtkApplication *app = gtk_application_new(BELUGA_APP_ID, flags);
     static const GOptionEntry entries[] = {
         {"select", 's', 0, G_OPTION_ARG_NONE, nullptr, N_("Select the given files in their folders"), nullptr},
         {"split", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Open the window in split view"), nullptr},
@@ -147,6 +205,10 @@ int main(int argc, char **argv)
         {"detach", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Detach from the terminal (without a location: open the current folder)"), nullptr},
         {"portal", 0, 0, G_OPTION_ARG_NONE, nullptr, N_("Run the file chooser for xdg-desktop-portal (started by D-Bus)"), nullptr},
         {"version", 'v', 0, G_OPTION_ARG_NONE, nullptr, N_("Show the version"), nullptr},
+        // Read before GApplication parses (take_log_options); listed here for --help.
+        {"log", 0, 0, G_OPTION_ARG_STRING, nullptr,
+         N_("Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"), "1|2|3"},
+        {"log-file", 0, 0, G_OPTION_ARG_FILENAME, nullptr, N_("Also write the log to this file"), N_("FILE")},
         {G_OPTION_REMAINING, 0, 0, G_OPTION_ARG_FILENAME_ARRAY, nullptr, nullptr, N_("[FILE or FOLDER…]")},
         {nullptr, 0, 0, G_OPTION_ARG_NONE, nullptr, nullptr, nullptr},
     };

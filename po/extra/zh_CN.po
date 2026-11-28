@@ -1794,3 +1794,9 @@ msgstr "选择密钥文件"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "无法将密钥添加到 ~/.ssh/config。"
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "输出日志到终端：1 错误，2 另加操作（默认），3 另加详细信息；会运行独立的 Beluga"
+
+msgid "Also write the log to this file"
+msgstr "同时将日志写入此文件"

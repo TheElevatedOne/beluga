@@ -733,6 +733,12 @@ msgstr "Адкрыць у новых укладках"
 msgid "Open in New Window"
 msgstr "Адкрыць у новым акне"
 
+msgid "Rename…"
+msgstr "Змяніць назву…"
+
+msgid "Remove"
+msgstr "Выдаліць"
+
 msgid "Open in Split View"
 msgstr "Адкрыць у рэжыме падзеленага выгляду"
 
@@ -744,9 +750,6 @@ msgstr "Адкрыць каталог змесціва"
 
 msgid "Paste into Folder"
 msgstr "Уставіць у каталог"
-
-msgid "Rename…"
-msgstr "Змяніць назву…"
 
 msgid "Show Target"
 msgstr "Паказаць мэту"
@@ -1303,6 +1306,15 @@ msgstr "Запусціць выбар файлаў для xdg-desktop-portal (з
 msgid "Show the version"
 msgstr "Паказаць версію"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Журнал у тэрмінал: 1 памылкі, 2 таксама дзеянні (па змаўчанні), 3 таксама падрабязнасці; запускае асобны Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Таксама запісваць журнал у гэты файл"
+
+msgid "FILE"
+msgstr "ФАЙЛ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ФАЙЛ або КАТАЛОГ…]"
 
@@ -1618,9 +1630,6 @@ msgstr "Адмантаваць"
 
 msgid "Edit…"
 msgstr "Рэдагаваць…"
-
-msgid "Remove"
-msgstr "Выдаліць"
 
 msgid "Show"
 msgstr "Паказаць"

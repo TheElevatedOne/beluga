@@ -727,6 +727,12 @@ msgstr "Opna í nýjum flipum"
 msgid "Open in New Window"
 msgstr "Opna í nýjum glugga"
 
+msgid "Rename…"
+msgstr "Endurnefna…"
+
+msgid "Remove"
+msgstr "Fjarlægja"
+
 msgid "Open in Split View"
 msgstr "Opna í tvískiptu yfirliti"
 
@@ -738,9 +744,6 @@ msgstr "Opna umlykjandi möppu"
 
 msgid "Paste into Folder"
 msgstr "Líma í möppu"
-
-msgid "Rename…"
-msgstr "Endurnefna…"
 
 msgid "Show Target"
 msgstr "Sýna viðtökustað"
@@ -1289,6 +1292,15 @@ msgstr "Keyra skráaveljara fyrir xdg-desktop-portal (ræstur af D-Bus)"
 msgid "Show the version"
 msgstr "Sýna útgáfu"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Annáll í útstöð: 1 villur, 2 einnig aðgerðir (sjálfgefið), 3 einnig smáatriði; keyrir eigin Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Skrifa annálinn einnig í þessa skrá"
+
+msgid "FILE"
+msgstr "SKRÁ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[SKRÁ eða MAPPA…]"
 
@@ -1604,9 +1616,6 @@ msgstr "Aftengja skráakerfinu"
 
 msgid "Edit…"
 msgstr "Breyta…"
-
-msgid "Remove"
-msgstr "Fjarlægja"
 
 msgid "Show"
 msgstr "Birta"

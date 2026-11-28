@@ -735,6 +735,12 @@ msgstr "Otvoriť v nových kartách"
 msgid "Open in New Window"
 msgstr "Otvoriť v novom okne"
 
+msgid "Rename…"
+msgstr "Premenovať…"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
 msgid "Open in Split View"
 msgstr "Otvoriť v rozdelenom zobrazení"
 
@@ -746,9 +752,6 @@ msgstr "Otvoriť priečinok s obsahom"
 
 msgid "Paste into Folder"
 msgstr "Vložiť do priečinka"
-
-msgid "Rename…"
-msgstr "Premenovať…"
 
 msgid "Show Target"
 msgstr "Zobraziť cieľ"
@@ -1301,6 +1304,15 @@ msgstr "Spustiť výber súborov pre xdg-desktop-portal (spúšťa D-Bus)"
 msgid "Show the version"
 msgstr "Zobraziť verziu"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Záznam do terminálu: 1 chyby, 2 aj akcie (predvolené), 3 aj podrobnosti; spustí vlastnú Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Zapisovať záznam aj do tohto súboru"
+
+msgid "FILE"
+msgstr "SÚBOR"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[SÚBOR alebo PRIEČINOK…]"
 
@@ -1616,9 +1628,6 @@ msgstr "Odpojiť"
 
 msgid "Edit…"
 msgstr "Upraviť"
-
-msgid "Remove"
-msgstr "Odstrániť"
 
 msgid "Show"
 msgstr "Zobraziť"

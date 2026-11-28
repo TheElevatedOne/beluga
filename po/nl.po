@@ -726,6 +726,12 @@ msgstr "In nieuwe tabbladen openen"
 msgid "Open in New Window"
 msgstr "In nieuw venster openen"
 
+msgid "Rename…"
+msgstr "Hernoemen…"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
 msgid "Open in Split View"
 msgstr "In gesplitste weergave openen"
 
@@ -737,9 +743,6 @@ msgstr "De map openen waarin het zich bevindt"
 
 msgid "Paste into Folder"
 msgstr "In map plakken"
-
-msgid "Rename…"
-msgstr "Hernoemen…"
 
 msgid "Show Target"
 msgstr "Doel tonen"
@@ -1288,6 +1291,15 @@ msgstr "De bestandskiezer voor xdg-desktop-portal uitvoeren (gestart door D-Bus)
 msgid "Show the version"
 msgstr "De versie tonen"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Log naar de terminal: 1 fouten, 2 ook acties (standaard), 3 ook details; start een eigen Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Het log ook naar dit bestand schrijven"
+
+msgid "FILE"
+msgstr "BESTAND"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[BESTAND of MAP…]"
 
@@ -1603,9 +1615,6 @@ msgstr "Afkoppelen"
 
 msgid "Edit…"
 msgstr "Bewerken…"
-
-msgid "Remove"
-msgstr "Verwijderen"
 
 msgid "Show"
 msgstr "Tonen"

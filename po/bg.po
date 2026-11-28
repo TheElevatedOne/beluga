@@ -723,6 +723,12 @@ msgstr "Отваряне в нови раздели"
 msgid "Open in New Window"
 msgstr "Отваряне в нов прозорец"
 
+msgid "Rename…"
+msgstr "Преименуване…"
+
+msgid "Remove"
+msgstr "Изтриване"
+
 msgid "Open in Split View"
 msgstr "Отваряне в разделен изглед"
 
@@ -734,9 +740,6 @@ msgstr "Отваряне на съдържащата папка"
 
 msgid "Paste into Folder"
 msgstr "Поставяне в папката"
-
-msgid "Rename…"
-msgstr "Преименуване…"
 
 msgid "Show Target"
 msgstr "Показване на целта"
@@ -1285,6 +1288,15 @@ msgstr "Изпълнение на избора на файлове за xdg-desk
 msgid "Show the version"
 msgstr "Показване на версията"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Дневник в терминала: 1 грешки, 2 и действия (по подразбиране), 3 и подробности; стартира отделен Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Записване на дневника и в този файл"
+
+msgid "FILE"
+msgstr "ФАЙЛ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ФАЙЛ или ПАПКА…]"
 
@@ -1600,9 +1612,6 @@ msgstr "Демонтиране"
 
 msgid "Edit…"
 msgstr "Редактиране…"
-
-msgid "Remove"
-msgstr "Изтриване"
 
 msgid "Show"
 msgstr "Показване"

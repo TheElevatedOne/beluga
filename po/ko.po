@@ -721,6 +721,12 @@ msgstr "새 탭으로 열기"
 msgid "Open in New Window"
 msgstr "새 창으로 열기"
 
+msgid "Rename…"
+msgstr "이름 바꾸기…"
+
+msgid "Remove"
+msgstr "삭제"
+
 msgid "Open in Split View"
 msgstr "분할 보기로 열기"
 
@@ -732,9 +738,6 @@ msgstr "포함하는 폴더 열기"
 
 msgid "Paste into Folder"
 msgstr "폴더에 붙여넣기"
-
-msgid "Rename…"
-msgstr "이름 바꾸기…"
 
 msgid "Show Target"
 msgstr "대상 표시"
@@ -1279,6 +1282,15 @@ msgstr "xdg-desktop-portal용 파일 선택기 실행(D-Bus가 시작)"
 msgid "Show the version"
 msgstr "버전 표시"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "터미널에 로그 출력: 1 오류, 2 작업도(기본값), 3 세부 정보도. 별도의 Beluga를 실행합니다"
+
+msgid "Also write the log to this file"
+msgstr "이 파일에도 로그 기록"
+
+msgid "FILE"
+msgstr "<파일>"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[파일 또는 폴더…]"
 
@@ -1594,9 +1606,6 @@ msgstr "마운트 해제(U)"
 
 msgid "Edit…"
 msgstr "편집…"
-
-msgid "Remove"
-msgstr "삭제"
 
 msgid "Show"
 msgstr "보이기"

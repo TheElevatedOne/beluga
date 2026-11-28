@@ -725,6 +725,12 @@ msgstr "புதிய கீற்றுகளில் திற"
 msgid "Open in New Window"
 msgstr "புதிய சாளரத்தில் திற"
 
+msgid "Rename…"
+msgstr "மறுபெயரிடு…"
+
+msgid "Remove"
+msgstr "நீக்கு"
+
 msgid "Open in Split View"
 msgstr "துண்டாக்கப்பட்ட காட்சிப்பகுதியில் திற"
 
@@ -736,9 +742,6 @@ msgstr "கொண்டுள்ள அடைவை திற"
 
 msgid "Paste into Folder"
 msgstr "அடைவில் ஒட்டு"
-
-msgid "Rename…"
-msgstr "மறுபெயரிடு…"
 
 msgid "Show Target"
 msgstr "இலக்கைக் காட்டு"
@@ -1287,6 +1290,15 @@ msgstr "xdg-desktop-portal க்கான கோப்புத் தேர்
 msgid "Show the version"
 msgstr "பதிப்பைக் காட்டு"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "முனையத்தில் பதிவு: 1 பிழைகள், 2 செயல்களும் (இயல்பு), 3 விவரங்களும்; தனி Beluga-வை இயக்கும்"
+
+msgid "Also write the log to this file"
+msgstr "பதிவை இந்தக் கோப்பிலும் எழுது"
+
+msgid "FILE"
+msgstr "கோப்பு"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[கோப்பு அல்லது அடைவு…]"
 
@@ -1602,9 +1614,6 @@ msgstr "இறக்கு"
 
 msgid "Edit…"
 msgstr "திருத்து…"
-
-msgid "Remove"
-msgstr "நீக்கு"
 
 msgid "Show"
 msgstr "காட்டு"

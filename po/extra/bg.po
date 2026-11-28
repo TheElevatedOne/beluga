@@ -1464,3 +1464,9 @@ msgstr "Избор на ключов файл"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Ключът не можа да бъде добавен в ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Дневник в терминала: 1 грешки, 2 и действия (по подразбиране), 3 и подробности; стартира отделен Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Записване на дневника и в този файл"

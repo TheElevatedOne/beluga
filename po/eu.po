@@ -728,6 +728,12 @@ msgstr "Ireki fitxa berrietan"
 msgid "Open in New Window"
 msgstr "Ireki leiho berrian"
 
+msgid "Rename…"
+msgstr "Berrizendatu…"
+
+msgid "Remove"
+msgstr "Ezabatu"
+
 msgid "Open in Split View"
 msgstr "Ireki ikuspegi zatituan"
 
@@ -739,9 +745,6 @@ msgstr "Ireki hau barnean duen karpeta"
 
 msgid "Paste into Folder"
 msgstr "Itsatsi karpetan"
-
-msgid "Rename…"
-msgstr "Berrizendatu…"
 
 msgid "Show Target"
 msgstr "Erakutsi jomuga"
@@ -1290,6 +1293,15 @@ msgstr "Exekutatu xdg-desktop-portal-erako fitxategi-hautatzailea (D-Busek abiar
 msgid "Show the version"
 msgstr "Erakutsi bertsioa"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Erregistroa terminalean: 1 erroreak, 2 ekintzak ere (lehenetsia), 3 xehetasunak ere; Beluga propio bat exekutatzen du"
+
+msgid "Also write the log to this file"
+msgstr "Idatzi erregistroa fitxategi honetan ere"
+
+msgid "FILE"
+msgstr "FITXATEGIA"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FITXATEGIA edo KARPETA…]"
 
@@ -1605,9 +1617,6 @@ msgstr "Desmuntatu"
 
 msgid "Edit…"
 msgstr "Editatu…"
-
-msgid "Remove"
-msgstr "Ezabatu"
 
 msgid "Show"
 msgstr "Erakutsi"

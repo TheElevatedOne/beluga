@@ -1789,3 +1789,9 @@ msgstr "Vyberte soubor klíče"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Klíč nelze přidat do ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Záznam do terminálu: 1 chyby, 2 i akce (výchozí), 3 i podrobnosti; spustí vlastní Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Zapisovat záznam také do tohoto souboru"

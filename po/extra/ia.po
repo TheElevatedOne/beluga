@@ -1464,3 +1464,9 @@ msgstr "Selige un file de clave"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Non pote adder le clave a ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Registro al terminal: 1 errores, 2 anque actiones (predefinite), 3 anque detalios; exeque un Beluga proprie"
+
+msgid "Also write the log to this file"
+msgstr "Scribe le registro anque in iste file"

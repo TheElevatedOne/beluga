@@ -1456,3 +1456,9 @@ msgstr "選擇金鑰檔案"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "無法將金鑰新增至 ~/.ssh/config。"
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "輸出日誌到終端機：1 錯誤，2 另加操作（預設），3 另加詳細資訊；會執行獨立的 Beluga"
+
+msgid "Also write the log to this file"
+msgstr "同時將日誌寫入此檔案"

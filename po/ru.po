@@ -745,6 +745,12 @@ msgstr "Открыть в новых вкладках"
 msgid "Open in New Window"
 msgstr "Открыть в новом окне"
 
+msgid "Rename…"
+msgstr "Переименовать…"
+
+msgid "Remove"
+msgstr "Удалить"
+
 msgid "Open in Split View"
 msgstr "Открыть в разделённом окне"
 
@@ -756,9 +762,6 @@ msgstr "Открыть содержащую папку"
 
 msgid "Paste into Folder"
 msgstr "Вставить в папку"
-
-msgid "Rename…"
-msgstr "Переименовать…"
 
 msgid "Show Target"
 msgstr "Показать цель"
@@ -1315,6 +1318,15 @@ msgstr "Запустить диалог выбора файлов для xdg-des
 msgid "Show the version"
 msgstr "Показать версию"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Журнал в терминал: 1 ошибки, 2 также действия (по умолчанию), 3 также подробности; запускает отдельный Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Также записывать журнал в этот файл"
+
+msgid "FILE"
+msgstr "ФАЙЛ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ФАЙЛ или ПАПКА…]"
 
@@ -1630,9 +1642,6 @@ msgstr "Размонтировать"
 
 msgid "Edit…"
 msgstr "Изменить…"
-
-msgid "Remove"
-msgstr "Удалить"
 
 msgid "Show"
 msgstr "Показать"

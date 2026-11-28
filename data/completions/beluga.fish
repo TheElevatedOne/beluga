@@ -7,6 +7,8 @@ complete -c beluga -l daemon -d 'Keep running for the FileManager1 D-Bus service
 complete -c beluga -l detach -d 'Detach from the terminal'
 complete -c beluga -l portal -d 'Run the file chooser for xdg-desktop-portal'
 complete -c beluga -s v -l version -d 'Show the version'
+complete -c beluga -l log -a '1 2 3' -d 'Log to the terminal: 1 errors, 2 actions, 3 details'
+complete -c beluga -l log-file -r -F -d 'Also write the log to this file'
 complete -c beluga -s h -l help -d 'Show help options'
 complete -c beluga -l help-all -d 'Show all help options'
 complete -c beluga -l help-gapplication -d 'Show GApplication options'

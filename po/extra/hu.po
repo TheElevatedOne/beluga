@@ -1565,3 +1565,9 @@ msgstr "Kulcsfájl kiválasztása"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Nem sikerült hozzáadni a kulcsot a ~/.ssh/config fájlhoz."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Naplózás a terminálba: 1 hibák, 2 műveletek is (alapértelmezett), 3 részletek is; saját Belugát indít"
+
+msgid "Also write the log to this file"
+msgstr "A napló írása ebbe a fájlba is"

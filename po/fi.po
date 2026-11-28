@@ -739,6 +739,12 @@ msgstr "Avaa uusiin välilehtiin"
 msgid "Open in New Window"
 msgstr "Avaa uuteen ikkunaan"
 
+msgid "Rename…"
+msgstr "Muuta nimeä…"
+
+msgid "Remove"
+msgstr "Poista"
+
 msgid "Open in Split View"
 msgstr "Avaa jaettuun näkymään"
 
@@ -750,9 +756,6 @@ msgstr "Avaa yläkansio"
 
 msgid "Paste into Folder"
 msgstr "Liitä kansioon"
-
-msgid "Rename…"
-msgstr "Muuta nimeä…"
 
 msgid "Show Target"
 msgstr "Näytä kohde"
@@ -1301,6 +1304,15 @@ msgstr "Suorita xdg-desktop-portalin tiedostovalitsin (D-Busin käynnistämä)"
 msgid "Show the version"
 msgstr "Näytä versio"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Loki päätteeseen: 1 virheet, 2 myös toiminnot (oletus), 3 myös yksityiskohdat; käynnistää oman Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Kirjoita loki myös tähän tiedostoon"
+
+msgid "FILE"
+msgstr "TIEDOSTO"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[TIEDOSTO tai KANSIO…]"
 
@@ -1616,9 +1628,6 @@ msgstr "Irrota"
 
 msgid "Edit…"
 msgstr "Muokkaa…"
-
-msgid "Remove"
-msgstr "Poista"
 
 msgid "Show"
 msgstr "Näytä"

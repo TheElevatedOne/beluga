@@ -719,6 +719,12 @@ msgstr "ເປີດໃນແຖບໃຫມ່"
 msgid "Open in New Window"
 msgstr "ເປີດໃນປ່ອງຢ້ຽມໃຫມ່"
 
+msgid "Rename…"
+msgstr "ປ່ຽນຊື່…"
+
+msgid "Remove"
+msgstr "ເອົາອອກ"
+
 msgid "Open in Split View"
 msgstr "ເປີດໃນມຸມມອງແບ່ງເຄິ່ງ"
 
@@ -730,9 +736,6 @@ msgstr "ເປີດໂຟນເດີທີ່ບັນຈຸ"
 
 msgid "Paste into Folder"
 msgstr "ວາງໃນໂຟນເດີ"
-
-msgid "Rename…"
-msgstr "ປ່ຽນຊື່…"
 
 msgid "Show Target"
 msgstr "ສະແດງເປົ້າໝາຍ"
@@ -1277,6 +1280,15 @@ msgstr "ເປີດໂຕເລືອກໄຟລ໌ສຳລັບ xdg-desktop
 msgid "Show the version"
 msgstr "ສະແດງລຸ້ນ"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "ບັນທຶກໃສ່ເທີມິນອນ: 1 ຂໍ້ຜິດພາດ, 2 ລວມການກະທຳ (ຄ່າເລີ່ມຕົ້ນ), 3 ລວມລາຍລະອຽດ; ເປີດ Beluga ຂອງມັນເອງ"
+
+msgid "Also write the log to this file"
+msgstr "ຂຽນບັນທຶກໃສ່ໄຟລ໌ນີ້ນຳ"
+
+msgid "FILE"
+msgstr "ໄຟລ໌"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ໄຟລ໌ ຫຼື ໂຟນເດີ…]"
 
@@ -1592,9 +1604,6 @@ msgstr "ຖອດເມົ້າ"
 
 msgid "Edit…"
 msgstr "ແກ້ໄຂ…"
-
-msgid "Remove"
-msgstr "ເອົາອອກ"
 
 msgid "Show"
 msgstr "ສະແດງ"

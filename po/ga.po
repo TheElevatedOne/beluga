@@ -738,6 +738,12 @@ msgstr "Oscail i gCluaisíní Nua"
 msgid "Open in New Window"
 msgstr "Oscail i bhFuinneog Nua"
 
+msgid "Rename…"
+msgstr "Athainmnigh…"
+
+msgid "Remove"
+msgstr "Bain"
+
 msgid "Open in Split View"
 msgstr "Oscail i Radharc Scoilte"
 
@@ -749,9 +755,6 @@ msgstr "Oscail an Fillteán ina bhfuil"
 
 msgid "Paste into Folder"
 msgstr "Greamaigh san fhillteán"
-
-msgid "Rename…"
-msgstr "Athainmnigh…"
 
 msgid "Show Target"
 msgstr "Taispeáin Sprioc"
@@ -1312,6 +1315,15 @@ msgstr "Rith roghnóir na gcomhad do xdg-desktop-portal (tosaithe ag D-Bus)"
 msgid "Show the version"
 msgstr "Taispeáin an leagan"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Logáil chuig an teirminéal: 1 earráidí, 2 gníomhartha freisin (réamhshocrú), 3 sonraí freisin; ritheann sé Beluga dá chuid féin"
+
+msgid "Also write the log to this file"
+msgstr "Scríobh an logchomhad sa chomhad seo freisin"
+
+msgid "FILE"
+msgstr "Comhad"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[COMHAD nó FILLTEÁN…]"
 
@@ -1627,9 +1639,6 @@ msgstr "Dífheistigh"
 
 msgid "Edit…"
 msgstr "Cuir in eagar…"
-
-msgid "Remove"
-msgstr "Bain"
 
 msgid "Show"
 msgstr "Taispeáin"

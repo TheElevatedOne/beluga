@@ -732,6 +732,12 @@ msgstr "在新分頁開啟"
 msgid "Open in New Window"
 msgstr "在新視窗開啟"
 
+msgid "Rename…"
+msgstr "重新命名…"
+
+msgid "Remove"
+msgstr "移除"
+
 msgid "Open in Split View"
 msgstr "用分割檢視開啟"
 
@@ -743,9 +749,6 @@ msgstr "開啟包含資料夾"
 
 msgid "Paste into Folder"
 msgstr "貼上到資料夾"
-
-msgid "Rename…"
-msgstr "重新命名…"
 
 msgid "Show Target"
 msgstr "顯示目標"
@@ -1290,6 +1293,15 @@ msgstr "執行 xdg-desktop-portal 的檔案選擇器（由 D-Bus 啟動）"
 msgid "Show the version"
 msgstr "顯示版本"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "輸出日誌到終端機：1 錯誤，2 另加操作（預設），3 另加詳細資訊；會執行獨立的 Beluga"
+
+msgid "Also write the log to this file"
+msgstr "同時將日誌寫入此檔案"
+
+msgid "FILE"
+msgstr "FILE"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[檔案或資料夾…]"
 
@@ -1605,9 +1617,6 @@ msgstr "卸載(U)"
 
 msgid "Edit…"
 msgstr "編輯…"
-
-msgid "Remove"
-msgstr "移除"
 
 msgid "Show"
 msgstr "顯示"

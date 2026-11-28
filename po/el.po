@@ -737,6 +737,12 @@ msgstr "Άνοιγμα σε νέες καρτέλες"
 msgid "Open in New Window"
 msgstr "Άνοιγμα σε νέο παράθυρο"
 
+msgid "Rename…"
+msgstr "Μετονομασία…"
+
+msgid "Remove"
+msgstr "Αφαίρεση"
+
 msgid "Open in Split View"
 msgstr "Άνοιγμα σε διαιρεμένη προβολή"
 
@@ -748,9 +754,6 @@ msgstr "Άνοιγμα περιέχοντος φακέλου"
 
 msgid "Paste into Folder"
 msgstr "Επικόλληση στον φάκελο"
-
-msgid "Rename…"
-msgstr "Μετονομασία…"
 
 msgid "Show Target"
 msgstr "Εμφάνιση προορισμού"
@@ -1299,6 +1302,15 @@ msgstr "Εκτέλεση του επιλογέα αρχείων για το xdg-
 msgid "Show the version"
 msgstr "Εμφάνιση της έκδοσης"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Καταγραφή στο τερματικό: 1 σφάλματα, 2 και ενέργειες (προεπιλογή), 3 και λεπτομέρειες· εκτελεί δικό του Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Εγγραφή του αρχείου καταγραφής και σε αυτό το αρχείο"
+
+msgid "FILE"
+msgstr "ΑΡΧΕΙΟ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ΑΡΧΕΙΟ ή ΦΑΚΕΛΟΣ…]"
 
@@ -1614,9 +1626,6 @@ msgstr "Αποπροσάρτηση"
 
 msgid "Edit…"
 msgstr "Επεξεργασία…"
-
-msgid "Remove"
-msgstr "Αφαίρεση"
 
 msgid "Show"
 msgstr "Προβολή"

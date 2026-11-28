@@ -736,6 +736,12 @@ msgstr "Odpri v novih zavihkih"
 msgid "Open in New Window"
 msgstr "Odpri v novem oknu"
 
+msgid "Rename…"
+msgstr "Preimenuj …"
+
+msgid "Remove"
+msgstr "Odstrani"
+
 msgid "Open in Split View"
 msgstr "Odpri v razdeljenem pogledu"
 
@@ -747,9 +753,6 @@ msgstr "Odpri vsebujočo mapo"
 
 msgid "Paste into Folder"
 msgstr "Prilepi v mapo"
-
-msgid "Rename…"
-msgstr "Preimenuj …"
 
 msgid "Show Target"
 msgstr "Prikaži cilj"
@@ -1306,6 +1309,15 @@ msgstr "Zaženi izbirnik datotek za xdg-desktop-portal (zažene ga D-Bus)"
 msgid "Show the version"
 msgstr "Prikaži različico"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Dnevnik v terminal: 1 napake, 2 tudi dejanja (privzeto), 3 tudi podrobnosti; zažene svojo Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Dnevnik zapiši tudi v to datoteko"
+
+msgid "FILE"
+msgstr "DATOTEKA"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[DATOTEKA ali MAPA …]"
 
@@ -1621,9 +1633,6 @@ msgstr "Odklopi"
 
 msgid "Edit…"
 msgstr "Uredi…"
-
-msgid "Remove"
-msgstr "Odstrani"
 
 msgid "Show"
 msgstr "Pokaži"

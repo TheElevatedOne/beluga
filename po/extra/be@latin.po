@@ -1757,3 +1757,9 @@ msgstr "Vybierycie fajl kluča"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Nie ŭdałosia dadać kluč u ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Žurnał u terminał: 1 pamyłki, 2 taksama dziejańni (pa zmaŭčańni), 3 taksama padrabiaznaści; zapuskaje asobny Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Taksama zapisvać žurnał u hety fajl"

@@ -723,6 +723,12 @@ msgstr "ახალ ჩანართებში გახსნა"
 msgid "Open in New Window"
 msgstr "ახალ ფანჯარაში გახსნა"
 
+msgid "Rename…"
+msgstr "სახელის გადარქმევა…"
+
+msgid "Remove"
+msgstr "წაშლა"
+
 msgid "Open in Split View"
 msgstr "დაყოფილ ხედში გახსნა"
 
@@ -734,9 +740,6 @@ msgstr "შემცველი საქაღალდის გახსნ�
 
 msgid "Paste into Folder"
 msgstr "საქაღალდეში ჩასმა"
-
-msgid "Rename…"
-msgstr "სახელის გადარქმევა…"
 
 msgid "Show Target"
 msgstr "სამიზნეს ჩვენება"
@@ -1285,6 +1288,15 @@ msgstr "ფაილის ამრჩევის გაშვება xdg-de
 msgid "Show the version"
 msgstr "ვერსიის ჩვენება"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "ჟურნალი ტერმინალში: 1 შეცდომები, 2 ასევე მოქმედებები (ნაგულისხმევი), 3 ასევე დეტალები; უშვებს საკუთარ Beluga-ს"
+
+msgid "Also write the log to this file"
+msgstr "ჟურნალის ამ ფაილშიც ჩაწერა"
+
+msgid "FILE"
+msgstr "FILE"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ფაილი ან საქაღალდე…]"
 
@@ -1600,9 +1612,6 @@ msgstr "მიმაგრების მოხსნა (unmount)"
 
 msgid "Edit…"
 msgstr "ჩასწორება…"
-
-msgid "Remove"
-msgstr "წაშლა"
 
 msgid "Show"
 msgstr "ჩვენება"

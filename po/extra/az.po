@@ -1626,3 +1626,9 @@ msgstr "Açar faylını seçin"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Açarı ~/.ssh/config faylına əlavə etmək mümkün olmadı."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Terminala jurnal yaz: 1 xətalar, 2 həm də əməliyyatlar (standart), 3 həm də təfərrüatlar; ayrıca Beluga işə salır"
+
+msgid "Also write the log to this file"
+msgstr "Jurnalı həm də bu fayla yaz"

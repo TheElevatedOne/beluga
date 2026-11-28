@@ -728,6 +728,12 @@ msgstr "Obre en pestanyes noves"
 msgid "Open in New Window"
 msgstr "Obre en una finestra nova"
 
+msgid "Rename…"
+msgstr "Reanomena…"
+
+msgid "Remove"
+msgstr "Elimina"
+
 msgid "Open in Split View"
 msgstr "Obre en una vista dividida"
 
@@ -739,9 +745,6 @@ msgstr "Obre la carpeta contenidora"
 
 msgid "Paste into Folder"
 msgstr "Enganxa a la carpeta"
-
-msgid "Rename…"
-msgstr "Reanomena…"
 
 msgid "Show Target"
 msgstr "Mostra la destinació"
@@ -1290,6 +1293,15 @@ msgstr "Executa el selector de fitxers per a xdg-desktop-portal (iniciat pel D-B
 msgid "Show the version"
 msgstr "Mostra la versió"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Registre al terminal: 1 errors, 2 també accions (per defecte), 3 també detalls; executa un Beluga propi"
+
+msgid "Also write the log to this file"
+msgstr "Escriu també el registre en aquest fitxer"
+
+msgid "FILE"
+msgstr "FITXER"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FITXER o CARPETA…]"
 
@@ -1605,9 +1617,6 @@ msgstr "Desmunta"
 
 msgid "Edit…"
 msgstr "Edita…"
-
-msgid "Remove"
-msgstr "Elimina"
 
 msgid "Show"
 msgstr "Mostra"

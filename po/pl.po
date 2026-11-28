@@ -733,6 +733,12 @@ msgstr "Otwórz w nowych kartach"
 msgid "Open in New Window"
 msgstr "Otwórz w nowym oknie"
 
+msgid "Rename…"
+msgstr "Zmień nazwę…"
+
+msgid "Remove"
+msgstr "Usuń"
+
 msgid "Open in Split View"
 msgstr "Otwórz w oddzielnym widoku"
 
@@ -744,9 +750,6 @@ msgstr "Otwórz jego katalog"
 
 msgid "Paste into Folder"
 msgstr "Wklej do katalogu"
-
-msgid "Rename…"
-msgstr "Zmień nazwę…"
 
 msgid "Show Target"
 msgstr "Pokaż element docelowy"
@@ -1299,6 +1302,15 @@ msgstr "Uruchom okno wyboru plików dla xdg-desktop-portal (uruchamiane przez D-
 msgid "Show the version"
 msgstr "Pokaż wersję"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Dziennik w terminalu: 1 błędy, 2 także działania (domyślnie), 3 także szczegóły; uruchamia własną Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Zapisuj dziennik także do tego pliku"
+
+msgid "FILE"
+msgstr "PLIK"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[PLIK lub KATALOG…]"
 
@@ -1614,9 +1626,6 @@ msgstr "Odepnij"
 
 msgid "Edit…"
 msgstr "Edytuj…"
-
-msgid "Remove"
-msgstr "Usuń"
 
 msgid "Show"
 msgstr "Wyświetlanie"

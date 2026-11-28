@@ -734,6 +734,12 @@ msgstr "Отвори у новим језичцима"
 msgid "Open in New Window"
 msgstr "Отвори у новом прозору"
 
+msgid "Rename…"
+msgstr "Преименуј…"
+
+msgid "Remove"
+msgstr "Уклони"
+
 msgid "Open in Split View"
 msgstr "Отвори у подијељеном приказу"
 
@@ -745,9 +751,6 @@ msgstr "Отвори обухватајућу фасциклу"
 
 msgid "Paste into Folder"
 msgstr "Налепи у фасциклу"
-
-msgid "Rename…"
-msgstr "Преименуј…"
 
 msgid "Show Target"
 msgstr "Прикажи циљ"
@@ -1304,6 +1307,15 @@ msgstr "Покрени бирач фајлова за xdg-desktop-portal (пок
 msgid "Show the version"
 msgstr "Прикажи верзију"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Дневник у терминал: 1 грешке, 2 и радње (подразумијевано), 3 и детаљи; покреће засебну Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Дневник пиши и у овај фајл"
+
+msgid "FILE"
+msgstr "Фајл"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ФАЈЛ или ФАСЦИКЛА…]"
 
@@ -1619,9 +1631,6 @@ msgstr "Демонтирај"
 
 msgid "Edit…"
 msgstr "Уреди…"
-
-msgid "Remove"
-msgstr "Уклони"
 
 msgid "Show"
 msgstr "Прикажи"

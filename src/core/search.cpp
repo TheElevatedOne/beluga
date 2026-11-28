@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "search.hpp"
+#include "log.hpp"
 
 #include "fileindex.hpp"
 #include "fileops.hpp"
@@ -208,6 +209,7 @@ bool SearchJob::matchesLocal(const std::string &path, const char *name, const st
 
 void SearchJob::run()
 {
+    BLOG_INFO("search", "\"%s\" in %s%s", q_.text.c_str(), q_.rootUri.c_str(), q_.content ? " (contents)" : "");
     Ref<GFile> root(g_file_new_for_uri(q_.rootUri.c_str()));
     std::string path = take(g_file_get_path(root.get()));
     if (path.empty() || !g_file_is_native(root.get())) {
@@ -280,6 +282,7 @@ void SearchJob::runIndexed(const std::string &rootPath)
     }
     std::thread([] { fileindex::save(); }).detach();
     run_on_main([self] {
+        BLOG_DEBUG("search", "done");
         if (self->onDone_) self->onDone_();
     });
 }
@@ -329,6 +332,7 @@ void SearchJob::runLocal(const std::string &rootPath, bool finish)
     }
     if (!finish) return;
     run_on_main([self] {
+        BLOG_DEBUG("search", "done");
         if (self->onDone_) self->onDone_();
     });
 }
@@ -376,6 +380,7 @@ void SearchJob::runGio()
     }
     flush();
     run_on_main([self] {
+        BLOG_DEBUG("search", "done");
         if (self->onDone_) self->onDone_();
     });
 }

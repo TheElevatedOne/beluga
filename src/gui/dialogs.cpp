@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "dialogs.hpp"
+#include "log.hpp"
 
 #include "netlocation.hpp"
 
@@ -44,6 +45,7 @@ void ask(GtkWidget *parent, const std::string &message, const std::string &detai
 
 void show_error(GtkWidget *parent, const std::string &message, const std::string &detail)
 {
+    BLOG_ERROR("dialog", "%s%s%s", message.c_str(), detail.empty() ? "" : " ", detail.c_str());
     ask(parent, message, detail, {_("Close")}, 0, 0, nullptr);
 }
 

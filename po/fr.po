@@ -741,6 +741,12 @@ msgstr "Ouvrir dans de nouveaux onglets"
 msgid "Open in New Window"
 msgstr "Ouvrir dans une nouvelle fenêtre"
 
+msgid "Rename…"
+msgstr "Renommer…"
+
+msgid "Remove"
+msgstr "Supprimer"
+
 msgid "Open in Split View"
 msgstr "Ouvrir dans une fenêtre scindée"
 
@@ -752,9 +758,6 @@ msgstr "Ouvrir le dossier contenant"
 
 msgid "Paste into Folder"
 msgstr "Coller dans le dossier"
-
-msgid "Rename…"
-msgstr "Renommer…"
 
 msgid "Show Target"
 msgstr "Afficher à la cible"
@@ -1303,6 +1306,15 @@ msgstr "Lancer le sélecteur de fichiers pour xdg-desktop-portal (démarré par 
 msgid "Show the version"
 msgstr "Afficher la version"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Journal dans le terminal : 1 erreurs, 2 aussi les actions (par défaut), 3 aussi les détails ; lance son propre Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Écrire aussi le journal dans ce fichier"
+
+msgid "FILE"
+msgstr "FICHIER"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FICHIER ou DOSSIER…]"
 
@@ -1618,9 +1630,6 @@ msgstr "Libérer"
 
 msgid "Edit…"
 msgstr "Modifier…"
-
-msgid "Remove"
-msgstr "Supprimer"
 
 msgid "Show"
 msgstr "Afficher"

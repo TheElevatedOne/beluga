@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "admin.hpp"
+#include "log.hpp"
 
 #include "dialogs.hpp"
 #include "settings.hpp"
@@ -188,7 +189,9 @@ void act_as_admin(GtkWidget *parent, const std::string &uri)
 {
     auto run = [parent, uri] {
         char *pkexec = g_find_program_in_path("pkexec");
+        BLOG_INFO("admin", "Act as Administrator for %s", uri.c_str());
         if (!pkexec) {
+            BLOG_ERROR("admin", "pkexec not found");
             show_error(parent, _("Beluga could not act as administrator."),
                        _("pkexec (polkit) is needed to ask for the administrator password. Install polkit and a polkit "
                          "agent for your desktop."));

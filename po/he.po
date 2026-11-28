@@ -738,6 +738,12 @@ msgstr "פתיחה בלשוניות חדשות"
 msgid "Open in New Window"
 msgstr "פתיחה בחלון חדש"
 
+msgid "Rename…"
+msgstr "שינוי שם…"
+
+msgid "Remove"
+msgstr "הסרה"
+
 msgid "Open in Split View"
 msgstr "פתיחה בתצוגה מפוצלת"
 
@@ -749,9 +755,6 @@ msgstr "פתיחת התיקייה המכיל"
 
 msgid "Paste into Folder"
 msgstr "הדבקה לתיקייה"
-
-msgid "Rename…"
-msgstr "שינוי שם…"
 
 msgid "Show Target"
 msgstr "הצגת יעד"
@@ -1308,6 +1311,15 @@ msgstr "הפעלת בורר הקבצים עבור xdg-desktop-portal (מופעל
 msgid "Show the version"
 msgstr "הצגת הגרסה"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "רישום למסוף: 1 שגיאות, 2 גם פעולות (בררת המחדל), 3 גם פרטים; מריץ Beluga משלו"
+
+msgid "Also write the log to this file"
+msgstr "לכתוב את היומן גם לקובץ הזה"
+
+msgid "FILE"
+msgstr "FILE"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[קובץ או תיקייה…]"
 
@@ -1623,9 +1635,6 @@ msgstr "ניתוק"
 
 msgid "Edit…"
 msgstr "עריכה…"
-
-msgid "Remove"
-msgstr "הסרה"
 
 msgid "Show"
 msgstr "הצגה"

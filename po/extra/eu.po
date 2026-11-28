@@ -1467,3 +1467,9 @@ msgstr "Aukeratu gako-fitxategi bat"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Ezin izan da gakoa ~/.ssh/config-era gehitu."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Erregistroa terminalean: 1 erroreak, 2 ekintzak ere (lehenetsia), 3 xehetasunak ere; Beluga propio bat exekutatzen du"
+
+msgid "Also write the log to this file"
+msgstr "Idatzi erregistroa fitxategi honetan ere"

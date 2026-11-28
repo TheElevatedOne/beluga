@@ -729,6 +729,12 @@ msgstr "Yeni Sekmelerde Aç"
 msgid "Open in New Window"
 msgstr "Yeni Pencerede Aç"
 
+msgid "Rename…"
+msgstr "Yeniden Adlandır…"
+
+msgid "Remove"
+msgstr "Kaldır"
+
 msgid "Open in Split View"
 msgstr "Bölünmüş Görünümde Aç"
 
@@ -740,9 +746,6 @@ msgstr "İçeren Klasörü Aç"
 
 msgid "Paste into Folder"
 msgstr "Klasöre Yapıştır"
-
-msgid "Rename…"
-msgstr "Yeniden Adlandır…"
 
 msgid "Show Target"
 msgstr "Hedefi Göster"
@@ -1291,6 +1294,15 @@ msgstr "xdg-desktop-portal için dosya seçiciyi çalıştır (D-Bus tarafından
 msgid "Show the version"
 msgstr "Sürümü göster"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Terminale günlük: 1 hatalar, 2 eylemler de (varsayılan), 3 ayrıntılar da; kendi Beluga'sını çalıştırır"
+
+msgid "Also write the log to this file"
+msgstr "Günlüğü bu dosyaya da yaz"
+
+msgid "FILE"
+msgstr "DOSYA"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[DOSYA veya KLASÖR…]"
 
@@ -1606,9 +1618,6 @@ msgstr "Bağlantıyı Kes"
 
 msgid "Edit…"
 msgstr "Düzenle…"
-
-msgid "Remove"
-msgstr "Kaldır"
 
 msgid "Show"
 msgstr "Göster"

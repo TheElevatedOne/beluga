@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "openwith.hpp"
+#include "log.hpp"
 
 #include "dialogs.hpp"
 #include "gtkutil.hpp"
@@ -60,6 +61,8 @@ bool launch_with(GtkWidget *parent, GAppInfo *app, const std::vector<Ref<GFile>>
         g_list_free(list);
     }
     g_object_unref(ctx);
+    if (ok) BLOG_INFO("launch", "%s with %zu file(s)", g_app_info_get_display_name(app), files.size());
+    else BLOG_ERROR("launch", "%s: %s", g_app_info_get_display_name(app), err ? err->message : "?");
     if (!ok) {
         show_error(parent, printf_str(_("Could not start %s."), g_app_info_get_display_name(app)), err ? err->message : "");
         g_clear_error(&err);

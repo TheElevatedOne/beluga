@@ -723,6 +723,12 @@ msgstr "Aperter in nov cartes"
 msgid "Open in New Window"
 msgstr "Aperter in un nov fenestre"
 
+msgid "Rename…"
+msgstr "Renominar…"
+
+msgid "Remove"
+msgstr "Remover"
+
 msgid "Open in Split View"
 msgstr "Aperter in vise fendet"
 
@@ -734,9 +740,6 @@ msgstr "Aperter li contenent fólder"
 
 msgid "Paste into Folder"
 msgstr "Collar in li fólder"
-
-msgid "Rename…"
-msgstr "Renominar…"
 
 msgid "Show Target"
 msgstr "Monstrar li cible"
@@ -1285,6 +1288,15 @@ msgstr "Executer li selector de files por xdg-desktop-portal (lansat per D-Bus)"
 msgid "Show the version"
 msgstr "Monstrar li version"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Registrar al terminal: 1 errores, 2 anc actiones (predefinit), 3 anc detallies; lansa un propri Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Anc scrir li registre in ti-ci file"
+
+msgid "FILE"
+msgstr "FILE"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FILE o FÓLDER…]"
 
@@ -1600,9 +1612,6 @@ msgstr "Desmonter"
 
 msgid "Edit…"
 msgstr "Modificar…"
-
-msgid "Remove"
-msgstr "Remover"
 
 msgid "Show"
 msgstr "Monstrar"

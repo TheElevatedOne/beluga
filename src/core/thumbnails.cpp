@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "thumbnails.hpp"
+#include "log.hpp"
 
 #include "fileops.hpp"
 #include "settings.hpp"
@@ -192,6 +193,7 @@ void save(GdkPixbuf *p, const std::string &path, const Request &r)
 
 void mark_failed(const Request &r)
 {
+    BLOG_DEBUG("thumbnails", "no preview for %s", r.uri.c_str());
     GdkPixbuf *p = gdk_pixbuf_new(GDK_COLORSPACE_RGB, TRUE, 8, 1, 1);
     gdk_pixbuf_fill(p, 0);
     save(p, fail_path(r), r);

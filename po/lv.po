@@ -734,6 +734,12 @@ msgstr "Atvērt jaunās cilnēs"
 msgid "Open in New Window"
 msgstr "Atvērt jaunā logā"
 
+msgid "Rename…"
+msgstr "Pārdēvēt…"
+
+msgid "Remove"
+msgstr "Izņemt"
+
 msgid "Open in Split View"
 msgstr "Atvērt sadalītā skatā"
 
@@ -745,9 +751,6 @@ msgstr "Atvērt saturošo mapi"
 
 msgid "Paste into Folder"
 msgstr "Ielīmēt mapē"
-
-msgid "Rename…"
-msgstr "Pārdēvēt…"
 
 msgid "Show Target"
 msgstr "Rādīt mērķi"
@@ -1300,6 +1303,15 @@ msgstr "Palaist xdg-desktop-portal datņu izvēlētāju (palaiž D-Bus)"
 msgid "Show the version"
 msgstr "Rādīt versiju"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Žurnāls terminālī: 1 kļūdas, 2 arī darbības (noklusējums), 3 arī sīkāka informācija; palaiž savu Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Rakstīt žurnālu arī šajā datnē"
+
+msgid "FILE"
+msgstr "DATNE"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[DATNE vai MAPE…]"
 
@@ -1615,9 +1627,6 @@ msgstr "Atmontēt"
 
 msgid "Edit…"
 msgstr "Rediģēt…"
-
-msgid "Remove"
-msgstr "Izņemt"
 
 msgid "Show"
 msgstr "Rādīt"

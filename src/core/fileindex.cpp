@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "fileindex.hpp"
+#include "log.hpp"
 
 #include "settings.hpp"
 #include "util.hpp"
@@ -221,8 +222,11 @@ void start(const std::string &root)
     g_cacheDir = g_get_user_cache_dir();
     g_unlink((std::string(g_get_user_cache_dir()) + "/beluga/index-v1").c_str());   // without hidden entries
     std::thread([] {
+        gint64 t0 = g_get_monotonic_time();
         if (load()) g_ready = true;
+        BLOG_DEBUG("index", "loaded in %.0f ms", (g_get_monotonic_time() - t0) / 1000.0);
         refresh(g_root);
+        BLOG_DEBUG("index", "%s refreshed in %.0f ms", g_root.c_str(), (g_get_monotonic_time() - t0) / 1000.0);
         g_ready = true;   // now complete, also when there was nothing saved
         save();
 #ifdef __GLIBC__

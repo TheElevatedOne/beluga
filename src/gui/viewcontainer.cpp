@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "viewcontainer.hpp"
+#include "log.hpp"
 
 #include "archive.hpp"
 
@@ -351,6 +352,7 @@ void ViewContainer::updateColumns()
 void ViewContainer::navigate(const std::string &targetIn, bool addHistory)
 {
     if (targetIn.empty()) return;
+    BLOG_INFO("view", "open %s", targetIn.c_str());
     // A typed path that runs into an archive (~/x.zip/docs) opens inside it.
     std::string target = targetIn;
     if (starts_with(target, "file:")) {

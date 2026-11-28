@@ -732,6 +732,12 @@ msgstr "Abrir en lapelas"
 msgid "Open in New Window"
 msgstr "Abrir nunha xanela"
 
+msgid "Rename…"
+msgstr "Renomear…"
+
+msgid "Remove"
+msgstr "Retirar"
+
 msgid "Open in Split View"
 msgstr "Abrir nunha vista dividida"
 
@@ -743,9 +749,6 @@ msgstr "Abrir o cartafol contedor"
 
 msgid "Paste into Folder"
 msgstr "Pegar no cartafol"
-
-msgid "Rename…"
-msgstr "Renomear…"
 
 msgid "Show Target"
 msgstr "Amosar o destino"
@@ -1294,6 +1297,15 @@ msgstr "Executar o selector de ficheiros para xdg-desktop-portal (iniciado por D
 msgid "Show the version"
 msgstr "Mostrar a versión"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Rexistro no terminal: 1 erros, 2 tamén accións (predeterminado), 3 tamén detalles; executa un Beluga propio"
+
+msgid "Also write the log to this file"
+msgstr "Escribir tamén o rexistro neste ficheiro"
+
+msgid "FILE"
+msgstr "FICHEIRO"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FICHEIRO ou CARTAFOL…]"
 
@@ -1609,9 +1621,6 @@ msgstr "Desmontar"
 
 msgid "Edit…"
 msgstr "Editar…"
-
-msgid "Remove"
-msgstr "Retirar"
 
 msgid "Show"
 msgstr "Mostrar"

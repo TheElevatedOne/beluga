@@ -1673,3 +1673,9 @@ msgstr "Pilih Berkas Kunci"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Tidak dapat menambahkan kunci ke ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Log ke terminal: 1 galat, 2 juga tindakan (bawaan), 3 juga detail; menjalankan Beluga sendiri"
+
+msgid "Also write the log to this file"
+msgstr "Tulis juga log ke berkas ini"

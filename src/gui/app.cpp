@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "app.hpp"
+#include "log.hpp"
 
 #include "admin.hpp"
 
@@ -215,6 +216,7 @@ MainWindow *App::newWindow(const std::vector<std::string> &uris, bool split)
 {
     auto *w = new MainWindow(app_);
     windows_.push_back(w);
+    BLOG_INFO("app", "new window (%zu open)", windows_.size());
     std::vector<std::string> list = uris;
     if (list.empty()) list.push_back(settings().homeUrl);
     for (size_t i = 0; i < list.size(); ++i) w->openTab(list[i], {}, i == 0);
@@ -444,6 +446,7 @@ void App::saveSession()
 
 bool App::restoreSession()
 {
+    BLOG_INFO("app", "restoring the last session");
     GKeyFile *kf = g_key_file_new();
     bool any = false;
     if (g_key_file_load_from_file(kf, (state_dir() + "/session.conf").c_str(), G_KEY_FILE_NONE, nullptr)) {
@@ -491,6 +494,7 @@ static void fm1_call(GDBusConnection *, const char *, const char *, const char *
     g_variant_iter_free(iter);
     App &app = App::instance();
     std::string m = method;
+    BLOG_INFO("dbus", "FileManager1.%s, %zu item(s)", method, uris.size());
     if (m == "ShowItemProperties") {
         std::vector<Ref<GFile>> files;
         for (auto &x : uris) files.push_back(Ref<GFile>(g_file_new_for_uri(x.c_str())));

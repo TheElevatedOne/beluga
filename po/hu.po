@@ -728,6 +728,12 @@ msgstr "Megnyitás új lapokon"
 msgid "Open in New Window"
 msgstr "Megnyitás új ablakban"
 
+msgid "Rename…"
+msgstr "Átnevezés…"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
 msgid "Open in Split View"
 msgstr "Megnyitás osztott nézetben"
 
@@ -739,9 +745,6 @@ msgstr "Tartalmazó mappa megnyitása"
 
 msgid "Paste into Folder"
 msgstr "Beillesztés a mappába"
-
-msgid "Rename…"
-msgstr "Átnevezés…"
 
 msgid "Show Target"
 msgstr "Cél megjelenítése"
@@ -1290,6 +1293,15 @@ msgstr "Az xdg-desktop-portal fájlválasztójának futtatása (a D-Bus indítja
 msgid "Show the version"
 msgstr "A verzió megjelenítése"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Naplózás a terminálba: 1 hibák, 2 műveletek is (alapértelmezett), 3 részletek is; saját Belugát indít"
+
+msgid "Also write the log to this file"
+msgstr "A napló írása ebbe a fájlba is"
+
+msgid "FILE"
+msgstr "FÁJL"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FÁJL vagy MAPPA…]"
 
@@ -1605,9 +1617,6 @@ msgstr "Leválasztás"
 
 msgid "Edit…"
 msgstr "Szerkesztés…"
-
-msgid "Remove"
-msgstr "Eltávolítás"
 
 msgid "Show"
 msgstr "Megjelenítés"

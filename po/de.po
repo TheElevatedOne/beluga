@@ -736,6 +736,12 @@ msgstr "In neuen Unterfenstern öffnen"
 msgid "Open in New Window"
 msgstr "In neuem Fenster öffnen"
 
+msgid "Rename…"
+msgstr "Umbenennen …"
+
+msgid "Remove"
+msgstr "Entfernen"
+
 msgid "Open in Split View"
 msgstr "In geteilter Ansicht öffnen"
 
@@ -747,9 +753,6 @@ msgstr "Ordner mit diesem Inhalt öffnen"
 
 msgid "Paste into Folder"
 msgstr "In Ordner einfügen"
-
-msgid "Rename…"
-msgstr "Umbenennen …"
 
 msgid "Show Target"
 msgstr "Ziel anzeigen"
@@ -1298,6 +1301,15 @@ msgstr "Den Dateiauswahldialog für xdg-desktop-portal ausführen (von D-Bus ges
 msgid "Show the version"
 msgstr "Die Version anzeigen"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Protokoll im Terminal: 1 Fehler, 2 auch Aktionen (Standard), 3 auch Details; startet ein eigenes Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Das Protokoll auch in diese Datei schreiben"
+
+msgid "FILE"
+msgstr "DATEI"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[DATEI oder ORDNER …]"
 
@@ -1613,9 +1625,6 @@ msgstr "Aushängen"
 
 msgid "Edit…"
 msgstr "Bearbeiten …"
-
-msgid "Remove"
-msgstr "Entfernen"
 
 msgid "Show"
 msgstr "Anzeigen"

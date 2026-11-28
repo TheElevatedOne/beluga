@@ -736,6 +736,12 @@ msgstr "Відкрити у нових вкладках"
 msgid "Open in New Window"
 msgstr "Відкрити у новому вікні"
 
+msgid "Rename…"
+msgstr "Перейменувати…"
+
+msgid "Remove"
+msgstr "Вилучити"
+
 msgid "Open in Split View"
 msgstr "Відкрити у розділеному перегляді"
 
@@ -747,9 +753,6 @@ msgstr "Відкрити теку об'єкта"
 
 msgid "Paste into Folder"
 msgstr "Вставити до теки"
-
-msgid "Rename…"
-msgstr "Перейменувати…"
 
 msgid "Show Target"
 msgstr "Показати призначення"
@@ -1306,6 +1309,15 @@ msgstr "Запустити вибір файлів для xdg-desktop-portal (з
 msgid "Show the version"
 msgstr "Показати версію"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Журнал у термінал: 1 помилки, 2 також дії (типово), 3 також подробиці; запускає окремий Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Також записувати журнал до цього файла"
+
+msgid "FILE"
+msgstr "ФАЙЛ"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ФАЙЛ або ТЕКА…]"
 
@@ -1621,9 +1633,6 @@ msgstr "Демонтувати"
 
 msgid "Edit…"
 msgstr "Змінити…"
-
-msgid "Remove"
-msgstr "Вилучити"
 
 msgid "Show"
 msgstr "Показати"

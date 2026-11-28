@@ -731,6 +731,12 @@ msgstr "Adkryć u novych ukladkach"
 msgid "Open in New Window"
 msgstr "Adkryć u novym aknie"
 
+msgid "Rename…"
+msgstr "Źmiani nazvu…"
+
+msgid "Remove"
+msgstr "Vydalić"
+
 msgid "Open in Split View"
 msgstr "Adkryć u padzielenym vyhladzie"
 
@@ -742,9 +748,6 @@ msgstr "Adkryć kataloh zmiesciva"
 
 msgid "Paste into Folder"
 msgstr "Ustavić u kataloh"
-
-msgid "Rename…"
-msgstr "Źmiani nazvu…"
 
 msgid "Show Target"
 msgstr "Pakazać metu"
@@ -1301,6 +1304,15 @@ msgstr "Zapuscić vybar fajlaŭ dla xdg-desktop-portal (zapuskajecca praz D-Bus)
 msgid "Show the version"
 msgstr "Pakazać viersiju"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Žurnał u terminał: 1 pamyłki, 2 taksama dziejańni (pa zmaŭčańni), 3 taksama padrabiaznaści; zapuskaje asobny Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Taksama zapisvać žurnał u hety fajl"
+
+msgid "FILE"
+msgstr "Fajl"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FAJL abo KATALOH…]"
 
@@ -1616,9 +1628,6 @@ msgstr "Admantavać"
 
 msgid "Edit…"
 msgstr "Redahavannie…"
-
-msgid "Remove"
-msgstr "Vydalić"
 
 msgid "Show"
 msgstr "Pakazać"

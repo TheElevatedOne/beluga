@@ -1494,3 +1494,9 @@ msgstr "בחירת קובץ מפתח"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "לא ניתן להוסיף את המפתח ל־‎~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "רישום למסוף: 1 שגיאות, 2 גם פעולות (בררת המחדל), 3 גם פרטים; מריץ Beluga משלו"
+
+msgid "Also write the log to this file"
+msgstr "לכתוב את היומן גם לקובץ הזה"

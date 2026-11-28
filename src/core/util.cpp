@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "util.hpp"
+#include "log.hpp"
 
 #include "archive.hpp"
 
@@ -377,6 +378,8 @@ bool spawn_command(const std::string &cmdline, const std::string &workdir, GErro
     if (!g_shell_parse_argv(cmdline.c_str(), &argc, &argv, err)) return false;
     bool ok = g_spawn_async(workdir.empty() ? nullptr : workdir.c_str(), argv, nullptr,
                             GSpawnFlags(G_SPAWN_SEARCH_PATH | G_SPAWN_STDOUT_TO_DEV_NULL), nullptr, nullptr, nullptr, err);
+    if (ok) BLOG_INFO("launch", "%s (in %s)", cmdline.c_str(), workdir.empty() ? "." : workdir.c_str());
+    else BLOG_ERROR("launch", "%s: %s", cmdline.c_str(), err && *err ? (*err)->message : "?");
     g_strfreev(argv);
     return ok;
 }

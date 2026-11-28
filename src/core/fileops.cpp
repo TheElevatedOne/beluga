@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "fileops.hpp"
+#include "log.hpp"
 
 #include "archive.hpp"
 #include "undo.hpp"
@@ -164,10 +165,14 @@ void FileJob::start()
     running_ = true;
     self_ = shared_from_this();
     startTime_ = g_get_monotonic_time();
+    BLOG_INFO("fileops", "start: %s", title().c_str());
     JobManager::instance().add(self_);
     std::thread([self = self_] {
         self->run();
         run_on_main([self] {
+            BLOG_INFO("fileops", "%s: %s in %.2f s, %zu error(s)", self->title().c_str(),
+                      self->cancelled() ? "cancelled" : "done", (g_get_monotonic_time() - self->startTime_) / 1e6,
+                      self->errors().size());
             self->running_ = false;
             self->finished_ = true;
             if (self->onFinished) self->onFinished(*self);
@@ -358,6 +363,8 @@ ErrorChoice FileJob::askError(const std::string &msg, bool canSkip)
 ErrorChoice FileJob::handleError(GError *err, GFile *f)
 {
     if (!err) return ErrorChoice::Skip;
+    if (!g_error_matches(err, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+        BLOG_ERROR("fileops", "%s: %s", f ? parse_name(f).c_str() : "?", err->message);
     if (g_error_matches(err, G_IO_ERROR, G_IO_ERROR_CANCELLED) || cancelled_) {
         g_error_free(err);
         return ErrorChoice::Cancel;
@@ -394,6 +401,7 @@ bool FileJob::copyOne(GFile *srcIn, GFile *destIn, bool isTop, bool move, OpItem
 {
     Ref<GFile> src = Ref<GFile>::share(srcIn);
     Ref<GFile> dest = Ref<GFile>::share(destIn);
+    BLOG_DEBUG("fileops", "%s %s -> %s", move ? "move" : "copy", parse_name(srcIn).c_str(), parse_name(destIn).c_str());
     bool merge = false;
     bool overwrite = false;
     for (;;) {
@@ -654,6 +662,7 @@ bool FileJob::linkOne(GFile *src, GFile *dest, OpItem *result)
 bool FileJob::deleteTree(GFile *f)
 {
     if (cancelled_) return false;
+    BLOG_DEBUG("fileops", "delete %s", parse_name(f).c_str());
     setCurrent(parse_name(f));
     GFileInfo *info = g_file_query_info(f, G_FILE_ATTRIBUTE_STANDARD_TYPE, G_FILE_QUERY_INFO_NOFOLLOW_SYMLINKS, cancellable_, nullptr);
     bool ok = true;

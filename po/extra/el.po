@@ -1467,3 +1467,9 @@ msgstr "Επιλογή αρχείου κλειδιού"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Αδυναμία προσθήκης του κλειδιού στο ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Καταγραφή στο τερματικό: 1 σφάλματα, 2 και ενέργειες (προεπιλογή), 3 και λεπτομέρειες· εκτελεί δικό του Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Εγγραφή του αρχείου καταγραφής και σε αυτό το αρχείο"

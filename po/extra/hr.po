@@ -2141,3 +2141,9 @@ msgstr "Odaberite datoteku ključa"
 
 msgid "Could not add the key to ~/.ssh/config."
 msgstr "Nije moguće dodati ključ u ~/.ssh/config."
+
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Zapisnik u terminal: 1 greške, 2 i radnje (zadano), 3 i pojedinosti; pokreće zaseban Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Zapisnik piši i u ovu datoteku"

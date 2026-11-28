@@ -728,6 +728,12 @@ msgstr "नया टैबों मे खोलें"
 msgid "Open in New Window"
 msgstr "नया विंडो मे खोलें"
 
+msgid "Rename…"
+msgstr "नाम बदलें…"
+
+msgid "Remove"
+msgstr "हटाएँ"
+
 msgid "Open in Split View"
 msgstr "विभाजित दृश्य में खोलें"
 
@@ -739,9 +745,6 @@ msgstr "युक्त फ़ोल्डर खोलें"
 
 msgid "Paste into Folder"
 msgstr "फ़ोल्डर में चिपकाएँ"
-
-msgid "Rename…"
-msgstr "नाम बदलें…"
 
 msgid "Show Target"
 msgstr "लक्ष्य दिखाएँ"
@@ -1290,6 +1293,15 @@ msgstr "xdg-desktop-portal के लिए फ़ाइल चयनकर्�
 msgid "Show the version"
 msgstr "संस्करण दिखाएँ"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "टर्मिनल में लॉग: 1 त्रुटियाँ, 2 क्रियाएँ भी (डिफ़ॉल्ट), 3 विवरण भी; अपना अलग Beluga चलाता है"
+
+msgid "Also write the log to this file"
+msgstr "लॉग को इस फ़ाइल में भी लिखें"
+
+msgid "FILE"
+msgstr "फाइल"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[फ़ाइल या फ़ोल्डर…]"
 
@@ -1605,9 +1617,6 @@ msgstr "अनारोहित करें"
 
 msgid "Edit…"
 msgstr "संपादित करें…"
-
-msgid "Remove"
-msgstr "हटाएँ"
 
 msgid "Show"
 msgstr "दिखाएं"

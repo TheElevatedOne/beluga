@@ -726,6 +726,12 @@ msgstr "Open in New Tabs"
 msgid "Open in New Window"
 msgstr "Open in New Window"
 
+msgid "Rename…"
+msgstr "Rename…"
+
+msgid "Remove"
+msgstr "Remove"
+
 msgid "Open in Split View"
 msgstr "Open in Split View"
 
@@ -737,9 +743,6 @@ msgstr "Open Containing Folder"
 
 msgid "Paste into Folder"
 msgstr "Paste into Folder"
-
-msgid "Rename…"
-msgstr "Rename…"
 
 msgid "Show Target"
 msgstr "Show Target"
@@ -1288,6 +1291,15 @@ msgstr "Run the file chooser for xdg-desktop-portal (started by D-Bus)"
 msgid "Show the version"
 msgstr "Show the version"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+
+msgid "Also write the log to this file"
+msgstr "Also write the log to this file"
+
+msgid "FILE"
+msgstr "FILE"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FILE or FOLDER…]"
 
@@ -1603,9 +1615,6 @@ msgstr "Unmount"
 
 msgid "Edit…"
 msgstr "Edit…"
-
-msgid "Remove"
-msgstr "Remove"
 
 msgid "Show"
 msgstr "Show"

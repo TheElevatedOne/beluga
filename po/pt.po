@@ -723,6 +723,12 @@ msgstr "Abrir em Novas Páginas"
 msgid "Open in New Window"
 msgstr "Abrir numa Nova Janela"
 
+msgid "Rename…"
+msgstr "Mudar o Nome…"
+
+msgid "Remove"
+msgstr "Remover"
+
 msgid "Open in Split View"
 msgstr "Abrir em Vista Dividida"
 
@@ -734,9 +740,6 @@ msgstr "Abrir Localização do Ficheiro"
 
 msgid "Paste into Folder"
 msgstr "Colar na Pasta"
-
-msgid "Rename…"
-msgstr "Mudar o Nome…"
 
 msgid "Show Target"
 msgstr "Mostrar o Destino"
@@ -1285,6 +1288,15 @@ msgstr "Executar o seletor de ficheiros do xdg-desktop-portal (iniciado pelo D-B
 msgid "Show the version"
 msgstr "Mostrar a versão"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Registo no terminal: 1 erros, 2 também acções (predefinição), 3 também detalhes; executa um Beluga próprio"
+
+msgid "Also write the log to this file"
+msgstr "Gravar também o registo neste ficheiro"
+
+msgid "FILE"
+msgstr "FICHEIRO"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FICHEIRO ou PASTA…]"
 
@@ -1600,9 +1612,6 @@ msgstr "Desmontar"
 
 msgid "Edit…"
 msgstr "Editar…"
-
-msgid "Remove"
-msgstr "Remover"
 
 msgid "Show"
 msgstr "Mostrar"

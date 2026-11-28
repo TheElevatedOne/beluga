@@ -727,6 +727,12 @@ msgstr "Malfermi en Novaj Langetoj"
 msgid "Open in New Window"
 msgstr "Malfermi en Nova Fenestro"
 
+msgid "Rename…"
+msgstr "Alinomi…"
+
+msgid "Remove"
+msgstr "Forigi"
+
 msgid "Open in Split View"
 msgstr "Malfermi en Dividita Vido"
 
@@ -738,9 +744,6 @@ msgstr "Malfermi Enhavan Dosierujon"
 
 msgid "Paste into Folder"
 msgstr "Alglui en dosierujon"
-
-msgid "Rename…"
-msgstr "Alinomi…"
 
 msgid "Show Target"
 msgstr "Montri Celon"
@@ -1289,6 +1292,15 @@ msgstr "Ruli la dosierelektilon por xdg-desktop-portal (lanĉata de D-Bus)"
 msgid "Show the version"
 msgstr "Montri la version"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Protokoli en la terminalo: 1 eraroj, 2 ankaŭ agoj (implicite), 3 ankaŭ detaloj; lanĉas propran Beluga"
+
+msgid "Also write the log to this file"
+msgstr "Skribi la protokolon ankaŭ al ĉi tiu dosiero"
+
+msgid "FILE"
+msgstr "DOSIERO"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[DOSIERO aŭ DOSIERUJO…]"
 
@@ -1604,9 +1616,6 @@ msgstr "Malmunti"
 
 msgid "Edit…"
 msgstr "Redakti…"
-
-msgid "Remove"
-msgstr "Forigi"
 
 msgid "Show"
 msgstr "Montri"

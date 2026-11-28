@@ -720,6 +720,12 @@ msgstr "يېڭى بەتكۈچلەردە ئاچ"
 msgid "Open in New Window"
 msgstr "يېڭى كۆزنەكتە ئاچ"
 
+msgid "Rename…"
+msgstr "ئات ئۆزگەرت…"
+
+msgid "Remove"
+msgstr "چىقىرىۋەت"
+
 msgid "Open in Split View"
 msgstr "بۆلۈنمە كۆرۈنۈشتە ئاچ"
 
@@ -731,9 +737,6 @@ msgstr "ئىچىدىكى قىسقۇچنى ئاچ"
 
 msgid "Paste into Folder"
 msgstr "قىسقۇچقا چاپلا"
-
-msgid "Rename…"
-msgstr "ئات ئۆزگەرت…"
 
 msgid "Show Target"
 msgstr "نىشاننى كۆرسەت"
@@ -1278,6 +1281,15 @@ msgstr "xdg-desktop-portal ئۈچۈن ھۆججەت تاللىغۇچنى ئىجر
 msgid "Show the version"
 msgstr "نەشرىنى كۆرسەت"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "تېرمىنالغا خاتىرە: 1 خاتالىقلار، 2 مەشغۇلاتلارمۇ (كۆڭۈلدىكى)، 3 تەپسىلاتلارمۇ؛ ئۆزىنىڭ Beluga سىنى ئىجرا قىلىدۇ"
+
+msgid "Also write the log to this file"
+msgstr "خاتىرىنى بۇ ھۆججەتكىمۇ يېز"
+
+msgid "FILE"
+msgstr "ھۆججەت"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[ھۆججەت ياكى قىسقۇچ…]"
 
@@ -1593,9 +1605,6 @@ msgstr "ئېگەرسىزلە(U)"
 
 msgid "Edit…"
 msgstr "تەھرىر…"
-
-msgid "Remove"
-msgstr "چىقىرىۋەت"
 
 msgid "Show"
 msgstr "كۆرسەت"

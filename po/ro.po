@@ -732,6 +732,12 @@ msgstr "Deschide în file noi"
 msgid "Open in New Window"
 msgstr "Deschide în fereastră nouă"
 
+msgid "Rename…"
+msgstr "Redenumește…"
+
+msgid "Remove"
+msgstr "Elimină"
+
 msgid "Open in Split View"
 msgstr "Deschide în vizualizare despărțită"
 
@@ -743,9 +749,6 @@ msgstr "Deschide dosarul conținător"
 
 msgid "Paste into Folder"
 msgstr "Lipește în dosar"
-
-msgid "Rename…"
-msgstr "Redenumește…"
 
 msgid "Show Target"
 msgstr "Arată ținta"
@@ -1298,6 +1301,15 @@ msgstr "Rulează selectorul de fișiere pentru xdg-desktop-portal (pornit de D-B
 msgid "Show the version"
 msgstr "Arată versiunea"
 
+msgid "Log to the terminal: 1 errors, 2 also actions (the default), 3 also details; runs a Beluga of its own"
+msgstr "Jurnal în terminal: 1 erori, 2 și acțiuni (implicit), 3 și detalii; pornește un Beluga propriu"
+
+msgid "Also write the log to this file"
+msgstr "Scrie jurnalul și în acest fișier"
+
+msgid "FILE"
+msgstr "FIȘIER"
+
 msgid "[FILE or FOLDER…]"
 msgstr "[FIȘIER sau DOSAR…]"
 
@@ -1613,9 +1625,6 @@ msgstr "Demontează"
 
 msgid "Edit…"
 msgstr "Modifică…"
-
-msgid "Remove"
-msgstr "Elimină"
 
 msgid "Show"
 msgstr "Arată"
