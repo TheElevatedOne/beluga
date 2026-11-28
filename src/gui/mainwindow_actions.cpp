@@ -92,7 +92,22 @@ const std::vector<ActionDef> &action_defs()
              w->newFile(path, basename_of(path));
          }},
         {"create-link", nullptr, nullptr, [](MainWindow *w, GVariant *) { w->newLink(); }},
-        {"rename", nullptr, nullptr, [](MainWindow *w, GVariant *) { if (AV(w)) AV(w)->renameSelected(); }},
+        {"rename", nullptr, nullptr, [](MainWindow *w, GVariant *) {
+             if (!AV(w)) return;
+             // A server in Network is a Places entry: rename it there (name, address, icon).
+             if (AV(w)->isNetwork()) {
+                 auto items = w->selectedItems();
+                 int i = items.size() == 1 ? Places::instance().indexOf(item_data(items[0]).uri) : -1;
+                 if (i < 0) return;
+                 std::string uri = Places::instance().list()[i].uri;
+                 edit_place_dialog(w->widget(), Places::instance().list()[i], false, [uri](const Place &np) {
+                     int j = Places::instance().indexOf(uri);
+                     if (j >= 0) Places::instance().update(j, np);
+                 });
+                 return;
+             }
+             AV(w)->renameSelected();
+         }},
         {"move-to-trash", nullptr, nullptr, [](MainWindow *w, GVariant *) { w->trashOrDelete(false); }},
         {"delete", nullptr, nullptr, [](MainWindow *w, GVariant *) { w->trashOrDelete(true); }},
         {"duplicate", nullptr, nullptr, [](MainWindow *w, GVariant *) {
@@ -550,13 +565,14 @@ void MainWindow::updateActions()
     enable(this, "create-empty-file", writable);
     enable(this, "new-from-template", writable);
     enable(this, "create-link", writable);
-    enable(this, "rename", sel && !readOnly);
+
     enable(this, "move-to-trash", sel && !readOnly);
     enable(this, "delete", sel && !inArchive && !network);
     bool placeSelected = network && std::any_of(items.begin(), items.end(), [](BelugaItem *i) {
         return Places::instance().indexOf(item_data(i).uri) >= 0;
     });
     enable(this, "remove-network-place", placeSelected);
+    enable(this, "rename", network ? placeSelected && items.size() == 1 : sel && !readOnly);
     enable(this, "duplicate", sel && !virt);
     enable(this, "restore", sel && trashView);
     enable(this, "empty-trash", trashView || !trash::is_empty());

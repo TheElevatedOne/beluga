@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-- Added: **Remove** in the context menu of a server in Network takes it out of Places.
+- Added: **Rename…** (<kbd>F2</kbd>) and **Remove** in the context menu of a server in Network: rename edits its Places
+  entry (name, address, icon), Remove takes it out of Places.
 - Fixed: Network didn't update when a server was added to or removed from Places.
 
 ## 1.3.1

@@ -214,7 +214,9 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
         if (st.ctxOpenInNewWindow) item(s, _("Open in New Window"), "win.open-in-new-window", "window-new");
         s = sec(m);
         if (st.ctxCopyLocation) item(s, _("Copy Location"), "win.copy-location", "edit-copy-path");
-        item(sec(m), _("Remove"), "win.remove-network-place", "list-remove");
+        s = sec(m);
+        item(s, _("Rename…"), "win.rename", "edit-rename");
+        item(s, _("Remove"), "win.remove-network-place", "list-remove");
     } else {
         bool allDirs = std::all_of(items.begin(), items.end(), [](BelugaItem *i) { return item_data(i).isDir; });
         bool anyDir = std::any_of(items.begin(), items.end(), [](BelugaItem *i) { return item_data(i).isDir; });
