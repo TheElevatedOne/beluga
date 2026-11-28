@@ -1,0 +1,15 @@
+# fish completion for beluga
+
+complete -c beluga -s s -l select -d 'Select the given files in their folders'
+complete -c beluga -l split -d 'Open the window in split view'
+complete -c beluga -l new-window -d 'Always open a new window'
+complete -c beluga -l daemon -d 'Keep running for the FileManager1 D-Bus service'
+complete -c beluga -l detach -d 'Detach from the terminal'
+complete -c beluga -l portal -d 'Run the file chooser for xdg-desktop-portal'
+complete -c beluga -s v -l version -d 'Show the version'
+complete -c beluga -s h -l help -d 'Show help options'
+complete -c beluga -l help-all -d 'Show all help options'
+complete -c beluga -l help-gapplication -d 'Show GApplication options'
+complete -c beluga -l gapplication-service -d 'Enter GApplication service mode'
+complete -c beluga -l selftest -d 'Run the built-in tests in a temporary folder'
+complete -c beluga -l screenshots -r -a '(__fish_complete_directories)' -d 'Save screenshots of the self-test'

@@ -136,6 +136,9 @@ configure_file(data/org.beluga.Beluga.policy.in ${CMAKE_CURRENT_BINARY_DIR}/org.
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.beluga.Beluga.policy DESTINATION ${CMAKE_INSTALL_DATADIR}/polkit-1/actions)
 # The file chooser for xdg-desktop-portal. Installing it changes nothing until portals.conf picks "beluga".
 install(FILES data/beluga.portal DESTINATION ${CMAKE_INSTALL_DATADIR}/xdg-desktop-portal/portals)
+install(FILES data/completions/beluga.bash DESTINATION ${CMAKE_INSTALL_DATADIR}/bash-completion/completions RENAME beluga)
+install(FILES data/completions/_beluga DESTINATION ${CMAKE_INSTALL_DATADIR}/zsh/site-functions)
+install(FILES data/completions/beluga.fish DESTINATION ${CMAKE_INSTALL_DATADIR}/fish/vendor_completions.d)
 configure_file(data/org.freedesktop.impl.portal.desktop.beluga.service.in
                ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.impl.portal.desktop.beluga.service @ONLY)
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.freedesktop.impl.portal.desktop.beluga.service

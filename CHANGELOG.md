@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added: shell completions for bash, zsh and fish (installed to `share/bash-completion/completions`,
+  `share/zsh/site-functions` and `share/fish/vendor_completions.d`).
 - Added: **Rename…** (<kbd>F2</kbd>) and **Remove** in the context menu of a server in Network: rename edits its Places
   entry (name, address, icon), Remove takes it out of Places.
 - Fixed: Network didn't update when a server was added to or removed from Places.

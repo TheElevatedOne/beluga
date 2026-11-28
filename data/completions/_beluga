@@ -1,0 +1,18 @@
+#compdef beluga
+# zsh completion for beluga
+
+_arguments -s \
+    '(-s --select)'{-s,--select}'[select the given files in their folders]' \
+    '--split[open the window in split view]' \
+    '--new-window[always open a new window]' \
+    '--daemon[keep running in the background for the FileManager1 D-Bus service]' \
+    '--detach[detach from the terminal (without a location: open the current folder)]' \
+    '--portal[run the file chooser for xdg-desktop-portal (started by D-Bus)]' \
+    '(- *)'{-v,--version}'[show the version]' \
+    '(- *)'{-h,--help}'[show help options]' \
+    '(- *)--help-all[show all help options]' \
+    '(- *)--help-gapplication[show GApplication options]' \
+    '--gapplication-service[enter GApplication service mode]' \
+    '--selftest[run the built-in tests in a temporary folder]' \
+    '--screenshots[save screenshots of the self-test]:folder:_files -/' \
+    '*:file or folder:_files'
