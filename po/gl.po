@@ -693,6 +693,9 @@ msgstr "Abrir con"
 msgid "Empty Trash"
 msgstr "Baleirar o lixo"
 
+msgid "Add Network Location…"
+msgstr "Engadir unha localización de rede…"
+
 msgid "Add to Places"
 msgstr "Engadir a Lugares"
 
@@ -828,6 +831,33 @@ msgstr "_Engadir"
 
 msgid "_Save"
 msgstr "_Gardar"
+
+msgid "Windows share (SMB)"
+msgstr "Compartición de Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV seguro"
+
+msgid "Add Network Location"
+msgstr "Engadir unha localización de rede"
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "Server:"
+msgstr "Servidor:"
+
+msgid "Port:"
+msgstr "Porto:"
+
+msgid "User:"
+msgstr "Persoa usuaria:"
+
+msgid "Folder:"
+msgstr "Cartafol:"
+
+msgid "Name:"
+msgstr "Nome:"
 
 msgid "View Display Style"
 msgstr "Estilo visual da vista"
@@ -1136,9 +1166,6 @@ msgstr "Contido:"
 
 msgid "Size:"
 msgstr "Tamaño:"
-
-msgid "Type:"
-msgstr "Tipo:"
 
 msgid "Folder"
 msgstr "Cartafol"
@@ -1591,9 +1618,6 @@ msgstr "Vista previa do tamaño de icona:"
 
 msgid "Context Menu Action"
 msgstr "Acción do menú contextual"
-
-msgid "Name:"
-msgstr "Nome:"
 
 msgid "Command:"
 msgstr "orde:"
@@ -2242,9 +2266,6 @@ msgstr "É _executábel"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Aplicar os cambios a todos os _subcartafoles e ao seu contido"
-
-msgid "User:"
-msgstr "Persoa usuaria:"
 
 msgid "Mode:"
 msgstr "Modo:"

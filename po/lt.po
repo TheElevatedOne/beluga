@@ -698,6 +698,9 @@ msgstr "Atverti naudojant"
 msgid "Empty Trash"
 msgstr "Išvalyti šiukšlinę"
 
+msgid "Add Network Location…"
+msgstr "Pridėti tinklo vietą…"
+
 msgid "Add to Places"
 msgstr "Pridėti prie vietų"
 
@@ -833,6 +836,33 @@ msgstr "_Pridėti"
 
 msgid "_Save"
 msgstr "_Įrašyti"
+
+msgid "Windows share (SMB)"
+msgstr "Windows bendrinimas (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Saugus WebDAV"
+
+msgid "Add Network Location"
+msgstr "Pridėti tinklo vietą"
+
+msgid "Type:"
+msgstr "Tipas:"
+
+msgid "Server:"
+msgstr "Serveris:"
+
+msgid "Port:"
+msgstr "Prievadas:"
+
+msgid "User:"
+msgstr "Naudotojas:"
+
+msgid "Folder:"
+msgstr "Aplankas:"
+
+msgid "Name:"
+msgstr "Pavadinimas:"
 
 msgid "View Display Style"
 msgstr "Rodinio atvaizdavimo stilius"
@@ -1149,9 +1179,6 @@ msgstr "Turinys:"
 
 msgid "Size:"
 msgstr "Dydis:"
-
-msgid "Type:"
-msgstr "Tipas:"
 
 msgid "Folder"
 msgstr "Aplankas"
@@ -1604,9 +1631,6 @@ msgstr "Peržiūros piktogramų dydis:"
 
 msgid "Context Menu Action"
 msgstr "Kontekstinio meniu veiksmas"
-
-msgid "Name:"
-msgstr "Pavadinimas:"
 
 msgid "Command:"
 msgstr "komanda:"
@@ -2257,9 +2281,6 @@ msgstr "_Vykdomasis"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Taikyti pakeitimus visiems _poaplankiams ir jų turiniui"
-
-msgid "User:"
-msgstr "Naudotojas:"
 
 msgid "Mode:"
 msgstr "Veiksena:"

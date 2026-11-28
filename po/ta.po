@@ -686,6 +686,9 @@ msgstr "இதனால் திற"
 msgid "Empty Trash"
 msgstr "அகற்றிடத்தை காலியாக்கு"
 
+msgid "Add Network Location…"
+msgstr "வலையமைப்பு இடத்தைச் சேர்…"
+
 msgid "Add to Places"
 msgstr "இடங்களுக்கு சேர்"
 
@@ -821,6 +824,33 @@ msgstr "சேர் (_A)"
 
 msgid "_Save"
 msgstr "சேமி (_S)"
+
+msgid "Windows share (SMB)"
+msgstr "விண்டோஸ் பகிர்வு (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "பாதுகாப்பான WebDAV"
+
+msgid "Add Network Location"
+msgstr "வலையமைப்பு இடத்தைச் சேர்"
+
+msgid "Type:"
+msgstr "வகை:"
+
+msgid "Server:"
+msgstr "சேவையகம்:"
+
+msgid "Port:"
+msgstr "துறை:"
+
+msgid "User:"
+msgstr "பயனர்:"
+
+msgid "Folder:"
+msgstr "அடைவு:"
+
+msgid "Name:"
+msgstr "பெயர்:"
 
 msgid "View Display Style"
 msgstr "காட்சி காட்டப்படும் விதம்"
@@ -1129,9 +1159,6 @@ msgstr "உள்ளடக்கம்:"
 
 msgid "Size:"
 msgstr "அளவு:"
-
-msgid "Type:"
-msgstr "வகை:"
 
 msgid "Folder"
 msgstr "அடைவு"
@@ -1584,9 +1611,6 @@ msgstr "முன்தோற்ற சின்னங்களின் அள�
 
 msgid "Context Menu Action"
 msgstr "சூழல் பட்டிச் செயல்"
-
-msgid "Name:"
-msgstr "பெயர்:"
 
 msgid "Command:"
 msgstr "கட்டளை:"
@@ -2235,9 +2259,6 @@ msgstr "இயக்கக்கூடியது (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "மாற்றங்களை அனைத்து துணை அடைவுகளுக்கும் அவற்றின் உள்ளடக்கத்துக்கும் பொருத்து (_S)"
-
-msgid "User:"
-msgstr "பயனர்:"
 
 msgid "Mode:"
 msgstr "முறை:"

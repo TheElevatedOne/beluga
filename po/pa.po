@@ -689,6 +689,9 @@ msgstr "ਇਸ ਨਾਲ ਖੋਲ੍ਹੋ(O)"
 msgid "Empty Trash"
 msgstr "ਰੱਦੀ ਨੂੰ ਖਾਲੀ ਕਰੋ"
 
+msgid "Add Network Location…"
+msgstr "ਨੈੱਟਵਰਕ ਟਿਕਾਣਾ ਜੋੜੋ…"
+
 msgid "Add to Places"
 msgstr "ਥਾਵਾਂ ਵਿੱਚ ਜੋੜੋ"
 
@@ -824,6 +827,33 @@ msgstr "ਜੋੜੋ (_A)"
 
 msgid "_Save"
 msgstr "ਸੰਭਾਲੋ (_S)"
+
+msgid "Windows share (SMB)"
+msgstr "ਵਿੰਡੋਜ਼ ਸਾਂਝ (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "ਸੁਰੱਖਿਅਤ WebDAV"
+
+msgid "Add Network Location"
+msgstr "ਨੈੱਟਵਰਕ ਟਿਕਾਣਾ ਜੋੜੋ"
+
+msgid "Type:"
+msgstr "ਕਿਸਮ:"
+
+msgid "Server:"
+msgstr "ਸਰਵਰ:"
+
+msgid "Port:"
+msgstr "ਪੋਰਟ:"
+
+msgid "User:"
+msgstr "ਵਰਤੋਂਕਾਰ:"
+
+msgid "Folder:"
+msgstr "ਫ਼ੋਲਡਰ:"
+
+msgid "Name:"
+msgstr "ਨਾਂ(N):"
 
 msgid "View Display Style"
 msgstr "ਦਿਖਾਉਣ ਸਟਾਈਲ ਵੇਖੋ"
@@ -1132,9 +1162,6 @@ msgstr "ਸਮੱਗਰੀ:"
 
 msgid "Size:"
 msgstr "ਆਕਾਰ:"
-
-msgid "Type:"
-msgstr "ਕਿਸਮ:"
 
 msgid "Folder"
 msgstr "ਫ਼ੋਲਡਰ"
@@ -1587,9 +1614,6 @@ msgstr "ਝਲਕ ਆਈਕਾਨ ਆਕਾਰ:"
 
 msgid "Context Menu Action"
 msgstr "ਪ੍ਰਸੰਗ ਮੀਨੂ ਕਾਰਵਾਈ"
-
-msgid "Name:"
-msgstr "ਨਾਂ(N):"
 
 msgid "Command:"
 msgstr "ਕਮਾਂਡ:"
@@ -2238,9 +2262,6 @@ msgstr "ਚੱਲਣਯੋਗ ਹੈ (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "ਤਬਦੀਲੀਆਂ ਸਾਰੇ ਸਬ-ਫ਼ੋਲਡਰਾਂ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਸਮੱਗਰੀ ’ਤੇ ਲਾਗੂ ਕਰੋ (_S)"
-
-msgid "User:"
-msgstr "ਵਰਤੋਂਕਾਰ:"
 
 msgid "Mode:"
 msgstr "ਮੋਡ:"

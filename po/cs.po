@@ -695,6 +695,9 @@ msgstr "Otevřít pomocí"
 msgid "Empty Trash"
 msgstr "Vyprázdnit koš"
 
+msgid "Add Network Location…"
+msgstr "Přidat síťové umístění…"
+
 msgid "Add to Places"
 msgstr "Přidat do míst"
 
@@ -830,6 +833,33 @@ msgstr "_Přidat"
 
 msgid "_Save"
 msgstr "_Uložit"
+
+msgid "Windows share (SMB)"
+msgstr "Sdílení Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Zabezpečený WebDAV"
+
+msgid "Add Network Location"
+msgstr "Přidat síťové umístění"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Uživatel:"
+
+msgid "Folder:"
+msgstr "Složka:"
+
+msgid "Name:"
+msgstr "Název:"
 
 msgid "View Display Style"
 msgstr "Styl zobrazení"
@@ -1142,9 +1172,6 @@ msgstr "Obsah:"
 
 msgid "Size:"
 msgstr "Velikost:"
-
-msgid "Type:"
-msgstr "Typ:"
 
 msgid "Folder"
 msgstr "Složka"
@@ -1597,9 +1624,6 @@ msgstr "Velikost ikony náhledu:"
 
 msgid "Context Menu Action"
 msgstr "Akce kontextové nabídky"
-
-msgid "Name:"
-msgstr "Název:"
 
 msgid "Command:"
 msgstr "příkaz:"
@@ -2249,9 +2273,6 @@ msgstr "Je _spustitelný"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Použít změny na všechny _podsložky a jejich obsah"
-
-msgid "User:"
-msgstr "Uživatel:"
 
 msgid "Mode:"
 msgstr "Režim:"

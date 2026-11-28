@@ -680,6 +680,9 @@ msgstr "Oဖြင့်ဖွင့်ရန်"
 msgid "Empty Trash"
 msgstr "အမှိုက်ပုံးရှင်း"
 
+msgid "Add Network Location…"
+msgstr "ကွန်ရက်တည်နေရာ ထည့်ရန်…"
+
 msgid "Add to Places"
 msgstr "နေရာများ သို့ ထည့်မည်"
 
@@ -815,6 +818,33 @@ msgstr "ထည့်ရန် (_A)"
 
 msgid "_Save"
 msgstr "သိမ်းရန် (_S)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows မျှဝေမှု (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "လုံခြုံသော WebDAV"
+
+msgid "Add Network Location"
+msgstr "ကွန်ရက်တည်နေရာ ထည့်ရန်"
+
+msgid "Type:"
+msgstr "အမျိုးအစား -"
+
+msgid "Server:"
+msgstr "ဆာဗာ:"
+
+msgid "Port:"
+msgstr "ပို့တ်:"
+
+msgid "User:"
+msgstr "အသုံးပြုသူ -"
+
+msgid "Folder:"
+msgstr "ဖိုင်တွဲ:"
+
+msgid "Name:"
+msgstr "Nအမည် -"
 
 msgid "View Display Style"
 msgstr "ပြသ-စတိုင် ကြည့်မည်"
@@ -1119,9 +1149,6 @@ msgstr "အကြောင်းအရာ:"
 
 msgid "Size:"
 msgstr "အရွယ်အစား -"
-
-msgid "Type:"
-msgstr "အမျိုးအစား -"
 
 msgid "Folder"
 msgstr "ဖိုဒါ"
@@ -1574,9 +1601,6 @@ msgstr "အိုင်ကွန်အရွယ်အစား အကြို�
 
 msgid "Context Menu Action"
 msgstr "ဆက်စပ်မီနူး လုပ်ဆောင်ချက်"
-
-msgid "Name:"
-msgstr "Nအမည် -"
 
 msgid "Command:"
 msgstr "အမိန့်:"
@@ -2224,9 +2248,6 @@ msgstr "လုပ်ဆောင်နိုင်သည် (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "ပြောင်းလဲမှုများကို ဖိုဒါခွဲအားလုံးနှင့် ၎င်းတို့၏ အကြောင်းအရာတွင် အသုံးချရန် (_S)"
-
-msgid "User:"
-msgstr "အသုံးပြုသူ -"
 
 msgid "Mode:"
 msgstr "မုဒ်:"

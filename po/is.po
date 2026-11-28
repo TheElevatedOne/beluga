@@ -688,6 +688,9 @@ msgstr "Opna með"
 msgid "Empty Trash"
 msgstr "Tæma rusl"
 
+msgid "Add Network Location…"
+msgstr "Bæta við netstaðsetningu…"
+
 msgid "Add to Places"
 msgstr "Bæta við Staði"
 
@@ -823,6 +826,33 @@ msgstr "_Bæta við"
 
 msgid "_Save"
 msgstr "_Vista"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-deilisvæði (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Öruggt WebDAV"
+
+msgid "Add Network Location"
+msgstr "Bæta við netstaðsetningu"
+
+msgid "Type:"
+msgstr "Tegund:"
+
+msgid "Server:"
+msgstr "Þjónn:"
+
+msgid "Port:"
+msgstr "Gátt:"
+
+msgid "User:"
+msgstr "Notandi:"
+
+msgid "Folder:"
+msgstr "Mappa:"
+
+msgid "Name:"
+msgstr "Heiti:"
 
 msgid "View Display Style"
 msgstr "Birtingarsnið í yfirliti"
@@ -1131,9 +1161,6 @@ msgstr "Innihald:"
 
 msgid "Size:"
 msgstr "Stærð:"
-
-msgid "Type:"
-msgstr "Tegund:"
 
 msgid "Folder"
 msgstr "Mappa"
@@ -1586,9 +1613,6 @@ msgstr "Stærð tákna í forskoðun:"
 
 msgid "Context Menu Action"
 msgstr "Aðgerð í samhengisvalmynd"
-
-msgid "Name:"
-msgstr "Heiti:"
 
 msgid "Command:"
 msgstr "skipun:"
@@ -2237,9 +2261,6 @@ msgstr "Er _keyranleg"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Beita breytingum á allar _undirmöppur og innihald þeirra"
-
-msgid "User:"
-msgstr "Notandi:"
 
 msgid "Mode:"
 msgstr "Hamur:"

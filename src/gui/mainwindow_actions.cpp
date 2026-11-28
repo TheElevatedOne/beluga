@@ -121,6 +121,12 @@ const std::vector<ActionDef> &action_defs()
         {"folder-properties", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              if (AV(w) && !AV(w)->isVirtual()) w->showProperties({AV(w)->locationFile()});
          }},
+        {"add-network-location", nullptr, nullptr, [](MainWindow *w, GVariant *) {
+             add_network_location_dialog(w->widget(), [w](const Place &p) {
+                 if (Places::instance().indexOf(p.uri) < 0) Places::instance().add(p);
+                 if (AC(w)) AC(w)->navigate(p.uri);
+             });
+         }},
         {"add-to-places", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              auto items = w->selectedItems();
              if (items.size() == 1 && item_data(items[0]).isDir) w->addToPlaces(item_data(items[0]).uri);
@@ -511,7 +517,7 @@ void MainWindow::updateActions()
     bool sel = !items.empty();
     bool trashView = v && v->isTrash();
     bool virt = v && v->isVirtual();
-    bool writable = v && !virt;
+    bool writable = v && !virt && !v->isNetwork();
     // Only for local folders: this runs on every selection change, and for sftp:// or smb:// it
     // would be a network round trip each time. Elsewhere the operation reports the error.
     if (writable && g_file_is_native(v->locationFile().get())) {

@@ -697,6 +697,9 @@ msgstr "Öffnen mit"
 msgid "Empty Trash"
 msgstr "Papierkorb leeren"
 
+msgid "Add Network Location…"
+msgstr "Netzwerkort hinzufügen…"
+
 msgid "Add to Places"
 msgstr "Zu „Orte“ hinzufügen"
 
@@ -832,6 +835,33 @@ msgstr "_Hinzufügen"
 
 msgid "_Save"
 msgstr "_Speichern"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-Freigabe (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Sicheres WebDAV"
+
+msgid "Add Network Location"
+msgstr "Netzwerkort hinzufügen"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Benutzer:"
+
+msgid "Folder:"
+msgstr "Ordner:"
+
+msgid "Name:"
+msgstr "Name:"
 
 msgid "View Display Style"
 msgstr "Anzeigestil"
@@ -1140,9 +1170,6 @@ msgstr "Inhalt:"
 
 msgid "Size:"
 msgstr "Größe:"
-
-msgid "Type:"
-msgstr "Typ:"
 
 msgid "Folder"
 msgstr "Ordner"
@@ -1595,9 +1622,6 @@ msgstr "Vorschau-Symbolgröße:"
 
 msgid "Context Menu Action"
 msgstr "Kontextmenü-Aktion"
-
-msgid "Name:"
-msgstr "Name:"
 
 msgid "Command:"
 msgstr "Befehl:"
@@ -2246,9 +2270,6 @@ msgstr "_Ausführbar"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Änderungen auf alle _Unterordner und deren Inhalt anwenden"
-
-msgid "User:"
-msgstr "Benutzer:"
 
 msgid "Mode:"
 msgstr "Modus:"

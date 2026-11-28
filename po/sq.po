@@ -686,6 +686,9 @@ msgstr "Hape Me"
 msgid "Empty Trash"
 msgstr "Zbraz Koshin"
 
+msgid "Add Network Location…"
+msgstr "Shto vendndodhje rrjeti…"
+
 msgid "Add to Places"
 msgstr "Shto tek Vendet"
 
@@ -821,6 +824,33 @@ msgstr "_Shtoje"
 
 msgid "_Save"
 msgstr "_Ruaje"
+
+msgid "Windows share (SMB)"
+msgstr "Ndarje Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV i sigurt"
+
+msgid "Add Network Location"
+msgstr "Shto vendndodhje rrjeti"
+
+msgid "Type:"
+msgstr "Lloj:"
+
+msgid "Server:"
+msgstr "Shërbyes:"
+
+msgid "Port:"
+msgstr "Portë:"
+
+msgid "User:"
+msgstr "Përdorues:"
+
+msgid "Folder:"
+msgstr "Dosje:"
+
+msgid "Name:"
+msgstr "Emër:"
 
 msgid "View Display Style"
 msgstr "Stil Shfaqjeje Pamjeje"
@@ -1129,9 +1159,6 @@ msgstr "Lëndë:"
 
 msgid "Size:"
 msgstr "Madhësi:"
-
-msgid "Type:"
-msgstr "Lloj:"
 
 msgid "Folder"
 msgstr "Dosje"
@@ -1584,9 +1611,6 @@ msgstr "Madhësi ikonash paraparjeje:"
 
 msgid "Context Menu Action"
 msgstr "Veprim menuje kontekstuale"
-
-msgid "Name:"
-msgstr "Emër:"
 
 msgid "Command:"
 msgstr "Urdhër:"
@@ -2235,9 +2259,6 @@ msgstr "Është e _ekzekutueshme"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Zbatoji ndryshimet te krejt _nëndosjet dhe lënda e tyre"
-
-msgid "User:"
-msgstr "Përdorues:"
 
 msgid "Mode:"
 msgstr "Mënyrë:"

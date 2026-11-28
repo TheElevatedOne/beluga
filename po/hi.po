@@ -689,6 +689,9 @@ msgstr "के साथ खोलें"
 msgid "Empty Trash"
 msgstr "कूड़ा खाली करें"
 
+msgid "Add Network Location…"
+msgstr "नेटवर्क स्थान जोड़ें…"
+
 msgid "Add to Places"
 msgstr "स्थान में जोड़ें"
 
@@ -824,6 +827,33 @@ msgstr "जोड़ें (_A)"
 
 msgid "_Save"
 msgstr "सहेजें (_S)"
+
+msgid "Windows share (SMB)"
+msgstr "विंडोज़ साझा (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "सुरक्षित WebDAV"
+
+msgid "Add Network Location"
+msgstr "नेटवर्क स्थान जोड़ें"
+
+msgid "Type:"
+msgstr "क़िस्मः"
+
+msgid "Server:"
+msgstr "सर्वर:"
+
+msgid "Port:"
+msgstr "पोर्ट:"
+
+msgid "User:"
+msgstr "उपयोक्ता:"
+
+msgid "Folder:"
+msgstr "फ़ोल्डर:"
+
+msgid "Name:"
+msgstr "नाम: (N)"
 
 msgid "View Display Style"
 msgstr "दृश्य प्रदर्शन शैली"
@@ -1132,9 +1162,6 @@ msgstr "सामग्री:"
 
 msgid "Size:"
 msgstr "आकारः"
-
-msgid "Type:"
-msgstr "क़िस्मः"
 
 msgid "Folder"
 msgstr "फ़ोल्डर"
@@ -1587,9 +1614,6 @@ msgstr "पूर्वावलोकन प्रतीक आकार :"
 
 msgid "Context Menu Action"
 msgstr "संदर्भ मेनू क्रिया"
-
-msgid "Name:"
-msgstr "नाम: (N)"
 
 msgid "Command:"
 msgstr "कमांड:"
@@ -2238,9 +2262,6 @@ msgstr "निष्पादन योग्य है (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "बदलाव सभी उप-फ़ोल्डरों और उनकी सामग्री पर लागू करें (_S)"
-
-msgid "User:"
-msgstr "उपयोक्ता:"
 
 msgid "Mode:"
 msgstr "मोड:"

@@ -702,6 +702,9 @@ msgstr "Ouvrir avec"
 msgid "Empty Trash"
 msgstr "Vider la corbeille"
 
+msgid "Add Network Location…"
+msgstr "Ajouter un emplacement réseau…"
+
 msgid "Add to Places"
 msgstr "Ajouter aux emplacements"
 
@@ -837,6 +840,33 @@ msgstr "_Ajouter"
 
 msgid "_Save"
 msgstr "_Enregistrer"
+
+msgid "Windows share (SMB)"
+msgstr "Partage Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV sécurisé"
+
+msgid "Add Network Location"
+msgstr "Ajouter un emplacement réseau"
+
+msgid "Type:"
+msgstr "Type :"
+
+msgid "Server:"
+msgstr "Serveur :"
+
+msgid "Port:"
+msgstr "Port :"
+
+msgid "User:"
+msgstr "Utilisateur :"
+
+msgid "Folder:"
+msgstr "Dossier:"
+
+msgid "Name:"
+msgstr "Nom :"
 
 msgid "View Display Style"
 msgstr "Style d'affichage de la vue"
@@ -1145,9 +1175,6 @@ msgstr "Contenu :"
 
 msgid "Size:"
 msgstr "Taille :"
-
-msgid "Type:"
-msgstr "Type :"
 
 msgid "Folder"
 msgstr "Dossier"
@@ -1600,9 +1627,6 @@ msgstr "Taille d'icône de l'aperçu :"
 
 msgid "Context Menu Action"
 msgstr "Action du menu contextuel"
-
-msgid "Name:"
-msgstr "Nom :"
 
 msgid "Command:"
 msgstr "commande:"
@@ -2251,9 +2275,6 @@ msgstr "Est _exécutable"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Appliquer les modifications à tous les _sous-dossiers et à leur contenu"
-
-msgid "User:"
-msgstr "Utilisateur :"
 
 msgid "Mode:"
 msgstr "Mode:"

@@ -691,6 +691,9 @@ msgstr "Otvori pomoÄ‡u"
 msgid "Empty Trash"
 msgstr "Isprazni smeće"
 
+msgid "Add Network Location…"
+msgstr "Dodaj mrežnu lokaciju…"
+
 msgid "Add to Places"
 msgstr "Dodaj na mjesta"
 
@@ -826,6 +829,33 @@ msgstr "_Dodaj"
 
 msgid "_Save"
 msgstr "_Spremi"
+
+msgid "Windows share (SMB)"
+msgstr "Windows dijeljenje (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Sigurni WebDAV"
+
+msgid "Add Network Location"
+msgstr "Dodaj mrežnu lokaciju"
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Korisnik:"
+
+msgid "Folder:"
+msgstr "Direktorij:"
+
+msgid "Name:"
+msgstr "Ime:"
 
 msgid "View Display Style"
 msgstr "Stil prikaza"
@@ -1138,9 +1168,6 @@ msgstr "Sadržaj:"
 
 msgid "Size:"
 msgstr "VeliÄina:"
-
-msgid "Type:"
-msgstr "Tip:"
 
 msgid "Folder"
 msgstr "Mapa"
@@ -1593,9 +1620,6 @@ msgstr "Veličina ikona pretpregleda:"
 
 msgid "Context Menu Action"
 msgstr "Radnja kontekstnog izbornika"
-
-msgid "Name:"
-msgstr "Ime:"
 
 msgid "Command:"
 msgstr "Naredba:"
@@ -2245,9 +2269,6 @@ msgstr "_Izvršna"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Primijeni promjene na sve _podmape i njihov sadržaj"
-
-msgid "User:"
-msgstr "Korisnik:"
 
 msgid "Mode:"
 msgstr "Način rada:"

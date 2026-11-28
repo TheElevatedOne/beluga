@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added: **Add Network Location…** in the context menu of Network (`network:///`), in place of Create New: type
+  (SFTP, SMB, FTP, WebDAV), server, port, user and folder; the location is added to Places and opened. Nothing can be
+  created or pasted inside Network any more.
 - Fixed: the file chooser's tool bar showed as a white strip with some themes (pywal); it now looks like the main
   window's. The empty part of usage bars (Disk Usage column, devices in Places) is no longer white.
 

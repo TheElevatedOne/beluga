@@ -686,6 +686,9 @@ msgstr "एतेन उद्घाटयन्तु"
 msgid "Empty Trash"
 msgstr "रिक्त कचरा"
 
+msgid "Add Network Location…"
+msgstr "जालस्थानं योजयतु…"
+
 msgid "Add to Places"
 msgstr "स्थानेषु योजयतु"
 
@@ -821,6 +824,33 @@ msgstr "योजयतु (_A)"
 
 msgid "_Save"
 msgstr "रक्षतु (_S)"
+
+msgid "Windows share (SMB)"
+msgstr "विण्डोज्-सहभागः (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "सुरक्षितं WebDAV"
+
+msgid "Add Network Location"
+msgstr "जालस्थानं योजयतु"
+
+msgid "Type:"
+msgstr "प्रकारः:"
+
+msgid "Server:"
+msgstr "सेवकः :"
+
+msgid "Port:"
+msgstr "द्वारम् :"
+
+msgid "User:"
+msgstr "उपयोक्ता :"
+
+msgid "Folder:"
+msgstr "समुच्चय:"
+
+msgid "Name:"
+msgstr "नामः:"
 
 msgid "View Display Style"
 msgstr "प्रदर्शनशैलीं पश्यन्तु"
@@ -1129,9 +1159,6 @@ msgstr "विषयः:"
 
 msgid "Size:"
 msgstr "आकृति:"
-
-msgid "Type:"
-msgstr "प्रकारः:"
 
 msgid "Folder"
 msgstr "समुच्चय"
@@ -1584,9 +1611,6 @@ msgstr "पूर्वावलोकनचिह्न आकारः :"
 
 msgid "Context Menu Action"
 msgstr "सन्दर्भसूच्याः क्रिया"
-
-msgid "Name:"
-msgstr "नामः:"
 
 msgid "Command:"
 msgstr "आदेशः:"
@@ -2235,9 +2259,6 @@ msgstr "निष्पाद्यम् (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "परिवर्तनानि सर्वेषु उपपुटेषु तेषां विषये च प्रयोजयतु (_S)"
-
-msgid "User:"
-msgstr "उपयोक्ता :"
 
 msgid "Mode:"
 msgstr "विधिः:"

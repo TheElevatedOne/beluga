@@ -688,6 +688,9 @@ msgstr "Malfermi Per"
 msgid "Empty Trash"
 msgstr "Malplenigi la rubujon"
 
+msgid "Add Network Location…"
+msgstr "Aldoni retan lokon…"
+
 msgid "Add to Places"
 msgstr "Aldoni al lokoj"
 
@@ -823,6 +826,33 @@ msgstr "_Aldoni"
 
 msgid "_Save"
 msgstr "_Konservi"
+
+msgid "Windows share (SMB)"
+msgstr "Vindoza kundivido (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Sekura WebDAV"
+
+msgid "Add Network Location"
+msgstr "Aldoni retan lokon"
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "Server:"
+msgstr "Servilo:"
+
+msgid "Port:"
+msgstr "Pordo:"
+
+msgid "User:"
+msgstr "Uzanto:"
+
+msgid "Folder:"
+msgstr "Dosierujo:"
+
+msgid "Name:"
+msgstr "Nomo:"
 
 msgid "View Display Style"
 msgstr "Vidi Vidigan Stilon"
@@ -1131,9 +1161,6 @@ msgstr "Enhavo:"
 
 msgid "Size:"
 msgstr "Grandeco:"
-
-msgid "Type:"
-msgstr "Tipo:"
 
 msgid "Folder"
 msgstr "Dosierujo"
@@ -1586,9 +1613,6 @@ msgstr "Antaŭrigardi piktogramgrandecon:"
 
 msgid "Context Menu Action"
 msgstr "Ago de kunteksta menuo"
-
-msgid "Name:"
-msgstr "Nomo:"
 
 msgid "Command:"
 msgstr "komando:"
@@ -2237,9 +2261,6 @@ msgstr "Estas _plenumebla"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Apliki la ŝanĝojn al ĉiuj _subdosierujoj kaj ilia enhavo"
-
-msgid "User:"
-msgstr "Uzanto:"
 
 msgid "Mode:"
 msgstr "Reĝimo:"

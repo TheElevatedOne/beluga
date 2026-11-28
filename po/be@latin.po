@@ -692,6 +692,9 @@ msgstr "Adkryć z dapamohaj"
 msgid "Empty Trash"
 msgstr "Ačyscić smietnicu"
 
+msgid "Add Network Location…"
+msgstr "Dadać sietkavaje miesca…"
+
 msgid "Add to Places"
 msgstr "Dadać u razmiaščenni"
 
@@ -827,6 +830,33 @@ msgstr "_Dadać"
 
 msgid "_Save"
 msgstr "_Zachavać"
+
+msgid "Windows share (SMB)"
+msgstr "Ahulnaja tečka Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Abaronieny WebDAV"
+
+msgid "Add Network Location"
+msgstr "Dadać sietkavaje miesca"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Server:"
+msgstr "Siervier:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Karystaĺnik:"
+
+msgid "Folder:"
+msgstr "Tečka:"
+
+msgid "Name:"
+msgstr "Nazva:"
 
 msgid "View Display Style"
 msgstr "Styĺ vyhliadu"
@@ -1143,9 +1173,6 @@ msgstr "Zmiesciva:"
 
 msgid "Size:"
 msgstr "Pamier:"
-
-msgid "Type:"
-msgstr "Typ:"
 
 msgid "Folder"
 msgstr "Kataloh"
@@ -1598,9 +1625,6 @@ msgstr "Pamier značkoŭ papiaredniaha prahliadu:"
 
 msgid "Context Menu Action"
 msgstr "Dziejannie kantekstnaha mieniu"
-
-msgid "Name:"
-msgstr "Nazva:"
 
 msgid "Command:"
 msgstr "Kamanda:"
@@ -2251,9 +2275,6 @@ msgstr "_Vykanaĺny"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Užyć zmieny da ŭsich _padkatalohaŭ i ich zmiesciva"
-
-msgid "User:"
-msgstr "Karystaĺnik:"
 
 msgid "Mode:"
 msgstr "Režym:"

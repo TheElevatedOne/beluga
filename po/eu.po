@@ -689,6 +689,9 @@ msgstr "Ireki honekin"
 msgid "Empty Trash"
 msgstr "Hustu zakarrontzia"
 
+msgid "Add Network Location…"
+msgstr "Gehitu sareko kokalekua…"
+
 msgid "Add to Places"
 msgstr "Gehitu lekuetara"
 
@@ -824,6 +827,33 @@ msgstr "_Gehitu"
 
 msgid "_Save"
 msgstr "_Gorde"
+
+msgid "Windows share (SMB)"
+msgstr "Windows partekatzea (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV segurua"
+
+msgid "Add Network Location"
+msgstr "Gehitu sareko kokalekua"
+
+msgid "Type:"
+msgstr "Mota:"
+
+msgid "Server:"
+msgstr "Zerbitzaria:"
+
+msgid "Port:"
+msgstr "Ataka:"
+
+msgid "User:"
+msgstr "Erabiltzailea:"
+
+msgid "Folder:"
+msgstr "Karpeta:"
+
+msgid "Name:"
+msgstr "Izena:"
 
 msgid "View Display Style"
 msgstr "Ikuspegiaren azaltze estiloa"
@@ -1132,9 +1162,6 @@ msgstr "Edukia:"
 
 msgid "Size:"
 msgstr "Tamaina:"
-
-msgid "Type:"
-msgstr "Mota:"
 
 msgid "Folder"
 msgstr "Karpeta"
@@ -1587,9 +1614,6 @@ msgstr "Aurreikuspegi ikonoen neurria:"
 
 msgid "Context Menu Action"
 msgstr "Laster-menuko ekintza"
-
-msgid "Name:"
-msgstr "Izena:"
 
 msgid "Command:"
 msgstr "komandoa:"
@@ -2238,9 +2262,6 @@ msgstr "_Exekutagarria da"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Aplikatu aldaketak _azpikarpeta guztiei eta haien edukiari"
-
-msgid "User:"
-msgstr "Erabiltzailea:"
 
 msgid "Mode:"
 msgstr "Modua:"

@@ -680,6 +680,9 @@ msgstr "ເປີດດ້ວຍ"
 msgid "Empty Trash"
 msgstr "ເທຖັງຂີ້ເຫຍື້ອ"
 
+msgid "Add Network Location…"
+msgstr "ເພີ່ມບ່ອນເຄືອຂ່າຍ…"
+
 msgid "Add to Places"
 msgstr "ເພີ່ມໄປຍັງ Places"
 
@@ -815,6 +818,33 @@ msgstr "ເພີ່ມ (_A)"
 
 msgid "_Save"
 msgstr "ບັນທຶກ (_S)"
+
+msgid "Windows share (SMB)"
+msgstr "ການແບ່ງປັນ Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV ທີ່ປອດໄພ"
+
+msgid "Add Network Location"
+msgstr "ເພີ່ມບ່ອນເຄືອຂ່າຍ"
+
+msgid "Type:"
+msgstr "ປະເພດ:"
+
+msgid "Server:"
+msgstr "ເຊີບເວີ:"
+
+msgid "Port:"
+msgstr "ພອດ:"
+
+msgid "User:"
+msgstr "ຜູ້ໃຊ້:"
+
+msgid "Folder:"
+msgstr "ໂຟນເດີ:"
+
+msgid "Name:"
+msgstr "ຊື່:"
 
 msgid "View Display Style"
 msgstr "ຮູບແບບການສະແດງຜົນມຸມມອງ"
@@ -1119,9 +1149,6 @@ msgstr "ເນື້ອຫາ:"
 
 msgid "Size:"
 msgstr "ຂະໜາດ:"
-
-msgid "Type:"
-msgstr "ປະເພດ:"
 
 msgid "Folder"
 msgstr "ໂຟນເດີ"
@@ -1574,9 +1601,6 @@ msgstr "ຂະໜາດໄອຄອນຕົວຢ່າງ:"
 
 msgid "Context Menu Action"
 msgstr "ຄຳສັ່ງເມນູບໍລິບົດ"
-
-msgid "Name:"
-msgstr "ຊື່:"
 
 msgid "Command:"
 msgstr "ຄຳສັ່ງ:"
@@ -2224,9 +2248,6 @@ msgstr "ເອີ້ນໃຊ້ໄດ້ (_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "ນຳໃຊ້ການປ່ຽນແປງກັບໂຟນເດີຍ່ອຍທັງໝົດ ແລະ ເນື້ອຫາຂອງມັນ (_S)"
-
-msgid "User:"
-msgstr "ຜູ້ໃຊ້:"
 
 msgid "Mode:"
 msgstr "ໂໝດ:"

@@ -684,6 +684,9 @@ msgstr "Abrir Com"
 msgid "Empty Trash"
 msgstr "Esvaziar o Lixo"
 
+msgid "Add Network Location…"
+msgstr "Adicionar uma Localização de Rede…"
+
 msgid "Add to Places"
 msgstr "Adicionar aos Locais"
 
@@ -819,6 +822,33 @@ msgstr "_Adicionar"
 
 msgid "_Save"
 msgstr "_Gravar"
+
+msgid "Windows share (SMB)"
+msgstr "Partilha do Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV Seguro"
+
+msgid "Add Network Location"
+msgstr "Adicionar uma Localização de Rede"
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "Server:"
+msgstr "Servidor:"
+
+msgid "Port:"
+msgstr "Porto:"
+
+msgid "User:"
+msgstr "Utilizador:"
+
+msgid "Folder:"
+msgstr "Pasta:"
+
+msgid "Name:"
+msgstr "Nome:"
 
 msgid "View Display Style"
 msgstr "Estilo de Apresentação da Vista"
@@ -1127,9 +1157,6 @@ msgstr "Conteúdo:"
 
 msgid "Size:"
 msgstr "Dimensões:"
-
-msgid "Type:"
-msgstr "Tipo:"
 
 msgid "Folder"
 msgstr "Pasta"
@@ -1582,9 +1609,6 @@ msgstr "Tamanho dos ícones da antevisão:"
 
 msgid "Context Menu Action"
 msgstr "Ação do Menu de Contexto"
-
-msgid "Name:"
-msgstr "Nome:"
 
 msgid "Command:"
 msgstr "comando:"
@@ -2233,9 +2257,6 @@ msgstr "É _executável"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Aplicar as alterações a todas as _subpastas e ao seu conteúdo"
-
-msgid "User:"
-msgstr "Utilizador:"
 
 msgid "Mode:"
 msgstr "Modo:"

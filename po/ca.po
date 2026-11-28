@@ -689,6 +689,9 @@ msgstr "Obre amb"
 msgid "Empty Trash"
 msgstr "Buida la paperera"
 
+msgid "Add Network Location…"
+msgstr "Afegeix una ubicació de xarxa…"
+
 msgid "Add to Places"
 msgstr "Afegeix a Llocs"
 
@@ -824,6 +827,33 @@ msgstr "_Afegeix"
 
 msgid "_Save"
 msgstr "_Desa"
+
+msgid "Windows share (SMB)"
+msgstr "Compartició de Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV segur"
+
+msgid "Add Network Location"
+msgstr "Afegeix una ubicació de xarxa"
+
+msgid "Type:"
+msgstr "Tipus:"
+
+msgid "Server:"
+msgstr "Servidor:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Usuari:"
+
+msgid "Folder:"
+msgstr "Carpeta:"
+
+msgid "Name:"
+msgstr "Nom:"
 
 msgid "View Display Style"
 msgstr "Estil de presentació de la vista"
@@ -1132,9 +1162,6 @@ msgstr "Contingut:"
 
 msgid "Size:"
 msgstr "Mida:"
-
-msgid "Type:"
-msgstr "Tipus:"
 
 msgid "Folder"
 msgstr "Carpeta"
@@ -1587,9 +1614,6 @@ msgstr "Mida de la vista prèvia de les icones:"
 
 msgid "Context Menu Action"
 msgstr "Acció del menú contextual"
-
-msgid "Name:"
-msgstr "Nom:"
 
 msgid "Command:"
 msgstr "ordre:"
@@ -2238,9 +2262,6 @@ msgstr "És _executable"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Aplica els canvis a totes les _subcarpetes i al seu contingut"
-
-msgid "User:"
-msgstr "Usuari:"
 
 msgid "Mode:"
 msgstr "Mode:"

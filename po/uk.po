@@ -697,6 +697,9 @@ msgstr "Відкрити за допомогою"
 msgid "Empty Trash"
 msgstr "Спорожнити смітник"
 
+msgid "Add Network Location…"
+msgstr "Додати мережеве місце…"
+
 msgid "Add to Places"
 msgstr "Додати до Місць"
 
@@ -832,6 +835,33 @@ msgstr "_Додати"
 
 msgid "_Save"
 msgstr "_Зберегти"
+
+msgid "Windows share (SMB)"
+msgstr "Спільний ресурс Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Захищений WebDAV"
+
+msgid "Add Network Location"
+msgstr "Додати мережеве місце"
+
+msgid "Type:"
+msgstr "Тип:"
+
+msgid "Server:"
+msgstr "Сервер:"
+
+msgid "Port:"
+msgstr "Порт:"
+
+msgid "User:"
+msgstr "Користувач:"
+
+msgid "Folder:"
+msgstr "Тека:"
+
+msgid "Name:"
+msgstr "Назва:"
 
 msgid "View Display Style"
 msgstr "Стиль показу"
@@ -1148,9 +1178,6 @@ msgstr "Вміст:"
 
 msgid "Size:"
 msgstr "Розмір:"
-
-msgid "Type:"
-msgstr "Тип:"
 
 msgid "Folder"
 msgstr "Тека"
@@ -1603,9 +1630,6 @@ msgstr "Розмір мініатюр перегляду:"
 
 msgid "Context Menu Action"
 msgstr "Дія контекстного меню"
-
-msgid "Name:"
-msgstr "Назва:"
 
 msgid "Command:"
 msgstr "команда:"
@@ -2256,9 +2280,6 @@ msgstr "_Виконуваний"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Застосувати зміни до всіх _підтек і їхнього вмісту"
-
-msgid "User:"
-msgstr "Користувач:"
 
 msgid "Mode:"
 msgstr "Режим:"

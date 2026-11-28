@@ -695,6 +695,9 @@ msgstr "Atvērt ar"
 msgid "Empty Trash"
 msgstr "Iztukšot atkritni"
 
+msgid "Add Network Location…"
+msgstr "Pievienot tīkla vietu…"
+
 msgid "Add to Places"
 msgstr "Pievienot vietām"
 
@@ -830,6 +833,33 @@ msgstr "_Pievienot"
 
 msgid "_Save"
 msgstr "_Saglabāt"
+
+msgid "Windows share (SMB)"
+msgstr "Windows koplietojums (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Drošs WebDAV"
+
+msgid "Add Network Location"
+msgstr "Pievienot tīkla vietu"
+
+msgid "Type:"
+msgstr "Tips:"
+
+msgid "Server:"
+msgstr "Serveris:"
+
+msgid "Port:"
+msgstr "Ports:"
+
+msgid "User:"
+msgstr "Lietotājs:"
+
+msgid "Folder:"
+msgstr "Mape:"
+
+msgid "Name:"
+msgstr "Nosaukums:"
 
 msgid "View Display Style"
 msgstr "Skatīt displeja stilu"
@@ -1142,9 +1172,6 @@ msgstr "Saturs:"
 
 msgid "Size:"
 msgstr "Izmērs:"
-
-msgid "Type:"
-msgstr "Tips:"
 
 msgid "Folder"
 msgstr "Mape"
@@ -1597,9 +1624,6 @@ msgstr "Priekšskatījuma ikonu izmērs:"
 
 msgid "Context Menu Action"
 msgstr "Konteksta izvēlnes darbība"
-
-msgid "Name:"
-msgstr "Nosaukums:"
 
 msgid "Command:"
 msgstr "komanda:"
@@ -2249,9 +2273,6 @@ msgstr "Ir _izpildāms"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Lietot izmaiņas visām _apakšmapēm un to saturam"
-
-msgid "User:"
-msgstr "Lietotājs:"
 
 msgid "Mode:"
 msgstr "Režīms:"

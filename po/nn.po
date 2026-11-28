@@ -686,6 +686,9 @@ msgstr "Opna med"
 msgid "Empty Trash"
 msgstr "Tøm papirkorga"
 
+msgid "Add Network Location…"
+msgstr "Legg til nettverksstad…"
+
 msgid "Add to Places"
 msgstr "Legg til i «Stadar»"
 
@@ -821,6 +824,33 @@ msgstr "_Legg til"
 
 msgid "_Save"
 msgstr "_Lagra"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-deling (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Sikker WebDAV"
+
+msgid "Add Network Location"
+msgstr "Legg til nettverksstad"
+
+msgid "Type:"
+msgstr "Type:"
+
+msgid "Server:"
+msgstr "Tenar:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Brukar:"
+
+msgid "Folder:"
+msgstr "Mappe:"
+
+msgid "Name:"
+msgstr "Namn:"
 
 msgid "View Display Style"
 msgstr "Vis visingsstil"
@@ -1129,9 +1159,6 @@ msgstr "Innhald:"
 
 msgid "Size:"
 msgstr "Storleik:"
-
-msgid "Type:"
-msgstr "Type:"
 
 msgid "Folder"
 msgstr "Mappe"
@@ -1584,9 +1611,6 @@ msgstr "Ikonstorleik for førehandsvising:"
 
 msgid "Context Menu Action"
 msgstr "Handling i sprettoppmeny"
-
-msgid "Name:"
-msgstr "Namn:"
 
 msgid "Command:"
 msgstr "kommando:"
@@ -2235,9 +2259,6 @@ msgstr "Er _køyrbar"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Bruk endringane på alle _undermapper og innhaldet deira"
-
-msgid "User:"
-msgstr "Brukar:"
 
 msgid "Mode:"
 msgstr "Modus:"

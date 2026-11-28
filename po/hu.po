@@ -689,6 +689,9 @@ msgstr "Megnyitás mással"
 msgid "Empty Trash"
 msgstr "A Kuka ürítése"
 
+msgid "Add Network Location…"
+msgstr "Hálózati hely hozzáadása…"
+
 msgid "Add to Places"
 msgstr "Hozzáadás a Helyekhez"
 
@@ -824,6 +827,33 @@ msgstr "_Hozzáadás"
 
 msgid "_Save"
 msgstr "_Mentés"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-megosztás (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Biztonságos WebDAV"
+
+msgid "Add Network Location"
+msgstr "Hálózati hely hozzáadása"
+
+msgid "Type:"
+msgstr "Típus:"
+
+msgid "Server:"
+msgstr "Kiszolgáló:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Felhasználó:"
+
+msgid "Folder:"
+msgstr "Mappa:"
+
+msgid "Name:"
+msgstr "Név:"
 
 msgid "View Display Style"
 msgstr "Nézettulajdonság stílusa"
@@ -1132,9 +1162,6 @@ msgstr "Tartalom:"
 
 msgid "Size:"
 msgstr "Méret:"
-
-msgid "Type:"
-msgstr "Típus:"
 
 msgid "Folder"
 msgstr "Mappa"
@@ -1587,9 +1614,6 @@ msgstr "Előnézet ikonmérete:"
 
 msgid "Context Menu Action"
 msgstr "Helyi menü művelete"
-
-msgid "Name:"
-msgstr "Név:"
 
 msgid "Command:"
 msgstr "parancs:"
@@ -2238,9 +2262,6 @@ msgstr "_Futtatható"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "A módosítások alkalmazása minden _almappára és azok tartalmára"
-
-msgid "User:"
-msgstr "Felhasználó:"
 
 msgid "Mode:"
 msgstr "Mód:"

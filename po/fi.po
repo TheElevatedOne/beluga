@@ -700,6 +700,9 @@ msgstr "Avaa ohjelmalla"
 msgid "Empty Trash"
 msgstr "tyhjennä roskakori"
 
+msgid "Add Network Location…"
+msgstr "Lisää verkkosijainti…"
+
 msgid "Add to Places"
 msgstr "Lisää sijainteihin"
 
@@ -835,6 +838,33 @@ msgstr "_Lisää"
 
 msgid "_Save"
 msgstr "_Tallenna"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-jako (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Suojattu WebDAV"
+
+msgid "Add Network Location"
+msgstr "Lisää verkkosijainti"
+
+msgid "Type:"
+msgstr "Tyyppi:"
+
+msgid "Server:"
+msgstr "Palvelin:"
+
+msgid "Port:"
+msgstr "Portti:"
+
+msgid "User:"
+msgstr "Käyttäjä:"
+
+msgid "Folder:"
+msgstr "Kansio:"
+
+msgid "Name:"
+msgstr "Nimi:"
 
 msgid "View Display Style"
 msgstr "Näytä näkymätyyli"
@@ -1143,9 +1173,6 @@ msgstr "Sisältö:"
 
 msgid "Size:"
 msgstr "Koko:"
-
-msgid "Type:"
-msgstr "Tyyppi:"
 
 msgid "Folder"
 msgstr "Kansio"
@@ -1598,9 +1625,6 @@ msgstr "Esikatselun kuvakekoko:"
 
 msgid "Context Menu Action"
 msgstr "Pikavalikon toiminto"
-
-msgid "Name:"
-msgstr "Nimi:"
 
 msgid "Command:"
 msgstr "komento:"
@@ -2249,9 +2273,6 @@ msgstr "On _suoritettava"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Käytä muutoksia kaikkiin _alikansioihin ja niiden sisältöön"
-
-msgid "User:"
-msgstr "Käyttäjä:"
 
 msgid "Mode:"
 msgstr "Tila:"

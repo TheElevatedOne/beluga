@@ -169,6 +169,8 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
     if (items.empty()) {
         if (v->isTrash()) {
             item(sec(m), _("Empty Trash"), "win.empty-trash", "trash-empty");
+        } else if (v->isNetwork()) {
+            item(sec(m), _("Add Network Location…"), "win.add-network-location", "folder-remote");
         } else if (!v->isVirtual()) {
             GMenu *s = sec(m);
             add_create_new(s);
@@ -192,7 +194,7 @@ void MainWindow::showContextMenu(ViewContainer *c, int pos, double x, double y)
         }
         item(s, _("Show Hidden Files"), "win.show-hidden");
         if (!v->isVirtual()) item(s, _("Remember View for This Folder"), "win.remember-view");
-        if (!v->isVirtual()) {
+        if (!v->isVirtual() && !v->isNetwork()) {
             GMenu *t = sec(m);
             item(t, _("Disk Usage"), "win.disk-usage", "drive-harddisk");
             item(t, _("Properties"), "win.folder-properties", "document-properties");

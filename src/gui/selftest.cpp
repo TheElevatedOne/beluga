@@ -675,6 +675,44 @@ void gui_tests(GtkApplication *app)
             }
             check(editor != nullptr, "Configure Toolbars window");
         }
+        // Add Network Location: the fields make an sftp:// address, OK adds it to Places.
+        {
+            Place got;
+            add_network_location_dialog(w->widget(), [&got](const Place &pl) { got = pl; });
+            wait_ms(200);
+            GtkWindow *dlg = nullptr;
+            GList *tops = gtk_window_list_toplevels();
+            for (GList *l = tops; l; l = l->next) {
+                const char *t = gtk_window_get_title(GTK_WINDOW(l->data));
+                if (t && !strcmp(t, _("Add Network Location"))) dlg = GTK_WINDOW(l->data);
+            }
+            g_list_free(tops);
+            std::vector<GtkWidget *> entries;
+            GtkWidget *ok = nullptr;
+            std::function<void(GtkWidget *)> walk = [&](GtkWidget *x) {
+                if (GTK_IS_ENTRY(x)) entries.push_back(x);
+                if (GTK_IS_BUTTON(x) && gtk_widget_has_css_class(x, "suggested-action")) ok = x;
+                for (GtkWidget *ch = gtk_widget_get_first_child(x); ch; ch = gtk_widget_get_next_sibling(ch)) walk(ch);
+            };
+            if (dlg) walk(GTK_WIDGET(dlg));
+            bool added = false;
+            const std::string want = "sftp://me@example.com:2222/srv/data";
+            if (dlg && entries.size() == 5 && ok) {
+                // server, port, user, folder, name
+                gtk_editable_set_text(GTK_EDITABLE(entries[0]), "example.com");
+                gtk_editable_set_text(GTK_EDITABLE(entries[1]), "2222");
+                gtk_editable_set_text(GTK_EDITABLE(entries[2]), "me");
+                gtk_editable_set_text(GTK_EDITABLE(entries[3]), "srv/data");
+                wait_ms(100);
+                shoot(GTK_WIDGET(dlg), "17-network-location");
+                g_signal_emit_by_name(ok, "clicked");
+                wait_ms(200);
+                added = got.uri == want && got.label == "example.com" && got.icon == "folder-remote";
+            } else if (dlg) {
+                gtk_window_destroy(dlg);
+            }
+            check(added, "Add Network Location makes " + want + " (got " + got.uri + ")");
+        }
         // Vim mode: motions, the three visual modes, counts, sequences with a timeout, the command line.
         {
             settings().vimMode = true;

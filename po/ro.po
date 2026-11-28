@@ -693,6 +693,9 @@ msgstr "Deschide cu"
 msgid "Empty Trash"
 msgstr "Golește gunoiul"
 
+msgid "Add Network Location…"
+msgstr "Adaugă o locație de rețea…"
+
 msgid "Add to Places"
 msgstr "Adaugă la locuri"
 
@@ -828,6 +831,33 @@ msgstr "_Adaugă"
 
 msgid "_Save"
 msgstr "_Salvează"
+
+msgid "Windows share (SMB)"
+msgstr "Partajare Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV securizat"
+
+msgid "Add Network Location"
+msgstr "Adaugă o locație de rețea"
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Utilizator:"
+
+msgid "Folder:"
+msgstr "Dosar:"
+
+msgid "Name:"
+msgstr "Denumire:"
 
 msgid "View Display Style"
 msgstr "Stilul afișării vizualizării"
@@ -1140,9 +1170,6 @@ msgstr "Conținut:"
 
 msgid "Size:"
 msgstr "Dimensiune:"
-
-msgid "Type:"
-msgstr "Tip:"
 
 msgid "Folder"
 msgstr "Dosar"
@@ -1595,9 +1622,6 @@ msgstr "Dimens. previzualizare pictograme:"
 
 msgid "Context Menu Action"
 msgstr "Acțiune în meniul contextual"
-
-msgid "Name:"
-msgstr "Denumire:"
 
 msgid "Command:"
 msgstr "comandă:"
@@ -2247,9 +2271,6 @@ msgstr "Este _executabil"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Aplică modificările tuturor _subdosarelor și conținutului lor"
-
-msgid "User:"
-msgstr "Utilizator:"
 
 msgid "Mode:"
 msgstr "Mod:"

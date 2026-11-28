@@ -38,6 +38,8 @@ public:
     // view when that setting is on.
     std::vector<std::string> shownRoles() const;
     bool isTrash() const { return is_trash_uri(uri_); }
+    // network:/// lists servers and shares; nothing can be created in it.
+    bool isNetwork() const { return starts_with(uri_, "network:"); }
     bool isSearch() const { return is_search_uri(uri_); }
 
     // View properties.

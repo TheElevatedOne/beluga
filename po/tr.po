@@ -690,6 +690,9 @@ msgstr "Birlikte Aç"
 msgid "Empty Trash"
 msgstr "Çöp Kutusunu Boşalt"
 
+msgid "Add Network Location…"
+msgstr "Ağ Konumu Ekle…"
+
 msgid "Add to Places"
 msgstr "Yerlere Ekle"
 
@@ -825,6 +828,33 @@ msgstr "_Ekle"
 
 msgid "_Save"
 msgstr "_Kaydet"
+
+msgid "Windows share (SMB)"
+msgstr "Windows paylaşımı (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Güvenli WebDAV"
+
+msgid "Add Network Location"
+msgstr "Ağ Konumu Ekle"
+
+msgid "Type:"
+msgstr "Tür:"
+
+msgid "Server:"
+msgstr "Sunucu:"
+
+msgid "Port:"
+msgstr "Bağlantı noktası:"
+
+msgid "User:"
+msgstr "Kullanıcı:"
+
+msgid "Folder:"
+msgstr "Klasör:"
+
+msgid "Name:"
+msgstr "Ad:"
 
 msgid "View Display Style"
 msgstr "Görünüm Stili"
@@ -1133,9 +1163,6 @@ msgstr "İçerik:"
 
 msgid "Size:"
 msgstr "Boyut:"
-
-msgid "Type:"
-msgstr "Tür:"
 
 msgid "Folder"
 msgstr "Klasör"
@@ -1588,9 +1615,6 @@ msgstr "Önizleme simgesi boyutu:"
 
 msgid "Context Menu Action"
 msgstr "Bağlam Menüsü Eylemi"
-
-msgid "Name:"
-msgstr "Ad:"
 
 msgid "Command:"
 msgstr "komut:"
@@ -2239,9 +2263,6 @@ msgstr "_Çalıştırılabilir"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Değişiklikleri tüm _alt klasörlere ve içeriklerine uygula"
-
-msgid "User:"
-msgstr "Kullanıcı:"
 
 msgid "Mode:"
 msgstr "Kip:"

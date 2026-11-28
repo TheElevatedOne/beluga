@@ -687,6 +687,9 @@ msgstr "گشودن با"
 msgid "Empty Trash"
 msgstr "زباله‌دان را خالی کن"
 
+msgid "Add Network Location…"
+msgstr "افزودن مکان شبکه…"
+
 msgid "Add to Places"
 msgstr "افزودن به مکانها"
 
@@ -822,6 +825,33 @@ msgstr "_افزودن"
 
 msgid "_Save"
 msgstr "_ذخیره"
+
+msgid "Windows share (SMB)"
+msgstr "اشتراک ویندوز (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV امن"
+
+msgid "Add Network Location"
+msgstr "افزودن مکان شبکه"
+
+msgid "Type:"
+msgstr "نوع:"
+
+msgid "Server:"
+msgstr "کارساز:"
+
+msgid "Port:"
+msgstr "درگاه:"
+
+msgid "User:"
+msgstr "کاربر:"
+
+msgid "Folder:"
+msgstr "پوشه:"
+
+msgid "Name:"
+msgstr "نام:"
 
 msgid "View Display Style"
 msgstr "سبک نمایش نما"
@@ -1130,9 +1160,6 @@ msgstr "محتوا:"
 
 msgid "Size:"
 msgstr "اندازه:"
-
-msgid "Type:"
-msgstr "نوع:"
 
 msgid "Folder"
 msgstr "پوشه"
@@ -1585,9 +1612,6 @@ msgstr "اندازهٔ نماد پیش‌نمایش:"
 
 msgid "Context Menu Action"
 msgstr "کنش فهرست زمینه"
-
-msgid "Name:"
-msgstr "نام:"
 
 msgid "Command:"
 msgstr "فرمان:"
@@ -2236,9 +2260,6 @@ msgstr "_اجرایی است"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "اعمال تغییرات بر همهٔ _زیرپوشه‌ها و محتوای آن‌ها"
-
-msgid "User:"
-msgstr "کاربر:"
 
 msgid "Mode:"
 msgstr "حالت:"

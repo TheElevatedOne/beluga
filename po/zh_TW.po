@@ -693,6 +693,9 @@ msgstr "開啟方式(O)"
 msgid "Empty Trash"
 msgstr "清空垃圾桶"
 
+msgid "Add Network Location…"
+msgstr "新增網路位置…"
+
 msgid "Add to Places"
 msgstr "新增到書籤"
 
@@ -828,6 +831,33 @@ msgstr "新增(_A)"
 
 msgid "_Save"
 msgstr "儲存(_S)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows 分享 (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "安全 WebDAV"
+
+msgid "Add Network Location"
+msgstr "新增網路位置"
+
+msgid "Type:"
+msgstr "類型："
+
+msgid "Server:"
+msgstr "伺服器："
+
+msgid "Port:"
+msgstr "連接埠："
+
+msgid "User:"
+msgstr "使用者："
+
+msgid "Folder:"
+msgstr "資料夾:"
+
+msgid "Name:"
+msgstr "名稱(N)："
 
 msgid "View Display Style"
 msgstr "檢視顯示方式"
@@ -1132,9 +1162,6 @@ msgstr "內容："
 
 msgid "Size:"
 msgstr "大小："
-
-msgid "Type:"
-msgstr "類型："
 
 msgid "Folder"
 msgstr "資料夾"
@@ -1587,9 +1614,6 @@ msgstr "預覽圖示大小："
 
 msgid "Context Menu Action"
 msgstr "右鍵選單動作"
-
-msgid "Name:"
-msgstr "名稱(N)："
 
 msgid "Command:"
 msgstr "指令:"
@@ -2237,9 +2261,6 @@ msgstr "可執行(_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "將更改應用到所有子資料夾及其內容(_S)"
-
-msgid "User:"
-msgstr "使用者："
 
 msgid "Mode:"
 msgstr "模式:"

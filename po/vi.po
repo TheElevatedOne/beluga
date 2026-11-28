@@ -681,6 +681,9 @@ msgstr "Mở bằng"
 msgid "Empty Trash"
 msgstr "Đổ rác"
 
+msgid "Add Network Location…"
+msgstr "Thêm vị trí mạng…"
+
 msgid "Add to Places"
 msgstr "Thêm vào bảng Địa điểm"
 
@@ -816,6 +819,33 @@ msgstr "_Thêm"
 
 msgid "_Save"
 msgstr "_Lưu"
+
+msgid "Windows share (SMB)"
+msgstr "Chia sẻ Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV bảo mật"
+
+msgid "Add Network Location"
+msgstr "Thêm vị trí mạng"
+
+msgid "Type:"
+msgstr "Kiểu:"
+
+msgid "Server:"
+msgstr "Máy chủ:"
+
+msgid "Port:"
+msgstr "Cổng:"
+
+msgid "User:"
+msgstr "Người dùng:"
+
+msgid "Folder:"
+msgstr "Thư mục:"
+
+msgid "Name:"
+msgstr "Tên:"
 
 msgid "View Display Style"
 msgstr "Kiểu cách hiển thị khung xem"
@@ -1120,9 +1150,6 @@ msgstr "Nội dung:"
 
 msgid "Size:"
 msgstr "Kích thước:"
-
-msgid "Type:"
-msgstr "Kiểu:"
 
 msgid "Folder"
 msgstr "Thư mục"
@@ -1575,9 +1602,6 @@ msgstr "Cỡ biểu tượng xem thử:"
 
 msgid "Context Menu Action"
 msgstr "Hành động trong trình đơn ngữ cảnh"
-
-msgid "Name:"
-msgstr "Tên:"
 
 msgid "Command:"
 msgstr "lệnh:"
@@ -2225,9 +2249,6 @@ msgstr "Có thể _thực thi"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Áp dụng thay đổi cho mọi thư mục _con và nội dung của chúng"
-
-msgid "User:"
-msgstr "Người dùng:"
 
 msgid "Mode:"
 msgstr "Chế độ:"

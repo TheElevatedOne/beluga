@@ -681,6 +681,9 @@ msgstr "ئاچقۇز(O)"
 msgid "Empty Trash"
 msgstr "ئەخلەتخانىنى بوشات"
 
+msgid "Add Network Location…"
+msgstr "تور ئورنى قوش…"
+
 msgid "Add to Places"
 msgstr "ئورۇنغا قوش"
 
@@ -816,6 +819,33 @@ msgstr "قوش(_A)"
 
 msgid "_Save"
 msgstr "ساقلا(_S)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows ھەمبەھىرى (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "بىخەتەر WebDAV"
+
+msgid "Add Network Location"
+msgstr "تور ئورنى قوش"
+
+msgid "Type:"
+msgstr "تۈرى:"
+
+msgid "Server:"
+msgstr "مۇلازىمېتىر:"
+
+msgid "Port:"
+msgstr "ئېغىز:"
+
+msgid "User:"
+msgstr "ئىشلەتكۈچى:"
+
+msgid "Folder:"
+msgstr "قىسقۇچ:"
+
+msgid "Name:"
+msgstr "ئاتى(N):"
 
 msgid "View Display Style"
 msgstr "كۆرۈنۈش كۆرسىتىش ئۇسلۇبى"
@@ -1120,9 +1150,6 @@ msgstr "مەزمۇن:"
 
 msgid "Size:"
 msgstr "چوڭلۇقى:"
-
-msgid "Type:"
-msgstr "تۈرى:"
 
 msgid "Folder"
 msgstr "قىسقۇچ"
@@ -1575,9 +1602,6 @@ msgstr "ئالدىن كۆزىتىش سىنبەلگە چوڭلۇقى:"
 
 msgid "Context Menu Action"
 msgstr "تىل مۇھىت تىزىملىك مەشغۇلاتى"
-
-msgid "Name:"
-msgstr "ئاتى(N):"
 
 msgid "Command:"
 msgstr "بۇيرۇق:"
@@ -2225,9 +2249,6 @@ msgstr "ئىجرا قىلغىلى بولىدۇ(_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "ئۆزگەرتىشلەرنى بارلىق تارماق قىسقۇچلار ۋە ئۇلارنىڭ مەزمۇنىغا قوللان(_S)"
-
-msgid "User:"
-msgstr "ئىشلەتكۈچى:"
 
 msgid "Mode:"
 msgstr "ھالىتى:"

@@ -687,6 +687,9 @@ msgstr "Open With"
 msgid "Empty Trash"
 msgstr "Empty Wastebin"
 
+msgid "Add Network Location…"
+msgstr "Add Network Location…"
+
 msgid "Add to Places"
 msgstr "Add to Places"
 
@@ -822,6 +825,33 @@ msgstr "_Add"
 
 msgid "_Save"
 msgstr "_Save"
+
+msgid "Windows share (SMB)"
+msgstr "Windows share (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Secure WebDAV"
+
+msgid "Add Network Location"
+msgstr "Add Network Location"
+
+msgid "Type:"
+msgstr "Type:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "User:"
+
+msgid "Folder:"
+msgstr "Folder:"
+
+msgid "Name:"
+msgstr "Name:"
 
 msgid "View Display Style"
 msgstr "View Display Style"
@@ -1130,9 +1160,6 @@ msgstr "Contents:"
 
 msgid "Size:"
 msgstr "Size:"
-
-msgid "Type:"
-msgstr "Type:"
 
 msgid "Folder"
 msgstr "Folder"
@@ -1585,9 +1612,6 @@ msgstr "Preview icon size:"
 
 msgid "Context Menu Action"
 msgstr "Context Menu Action"
-
-msgid "Name:"
-msgstr "Name:"
 
 msgid "Command:"
 msgstr "command:"
@@ -2236,9 +2260,6 @@ msgstr "Is _executable"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Apply changes to all _subfolders and their contents"
-
-msgid "User:"
-msgstr "User:"
 
 msgid "Mode:"
 msgstr "Mode:"

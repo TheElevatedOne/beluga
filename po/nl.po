@@ -687,6 +687,9 @@ msgstr "Openen met"
 msgid "Empty Trash"
 msgstr "Prullenbak legen"
 
+msgid "Add Network Location…"
+msgstr "Netwerklocatie toevoegen…"
+
 msgid "Add to Places"
 msgstr "Aan Plaatsen toevoegen"
 
@@ -822,6 +825,33 @@ msgstr "_Toevoegen"
 
 msgid "_Save"
 msgstr "Op_slaan"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-share (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Beveiligde WebDAV"
+
+msgid "Add Network Location"
+msgstr "Netwerklocatie toevoegen"
+
+msgid "Type:"
+msgstr "Type:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Poort:"
+
+msgid "User:"
+msgstr "Gebruiker:"
+
+msgid "Folder:"
+msgstr "Map:"
+
+msgid "Name:"
+msgstr "Naam:"
 
 msgid "View Display Style"
 msgstr "Weergavestijl"
@@ -1130,9 +1160,6 @@ msgstr "Inhoud:"
 
 msgid "Size:"
 msgstr "Grootte:"
-
-msgid "Type:"
-msgstr "Type:"
 
 msgid "Folder"
 msgstr "Map"
@@ -1585,9 +1612,6 @@ msgstr "Pictogramgrootte van voorbeeld:"
 
 msgid "Context Menu Action"
 msgstr "Contextmenu-actie"
-
-msgid "Name:"
-msgstr "Naam:"
 
 msgid "Command:"
 msgstr "opdracht:"
@@ -2236,9 +2260,6 @@ msgstr "Is _uitvoerbaar"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Wijzigingen toepassen op alle _submappen en hun inhoud"
-
-msgid "User:"
-msgstr "Gebruiker:"
 
 msgid "Mode:"
 msgstr "Modus:"

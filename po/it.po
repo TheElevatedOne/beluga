@@ -686,6 +686,9 @@ msgstr "Apri con"
 msgid "Empty Trash"
 msgstr "Svuota il cestino"
 
+msgid "Add Network Location…"
+msgstr "Aggiungi posizione di rete…"
+
 msgid "Add to Places"
 msgstr "Aggiungi a Risorse"
 
@@ -821,6 +824,33 @@ msgstr "_Aggiungi"
 
 msgid "_Save"
 msgstr "_Salva"
+
+msgid "Windows share (SMB)"
+msgstr "Condivisione Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV sicuro"
+
+msgid "Add Network Location"
+msgstr "Aggiungi posizione di rete"
+
+msgid "Type:"
+msgstr "Tipo:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Porta:"
+
+msgid "User:"
+msgstr "Utente:"
+
+msgid "Folder:"
+msgstr "Cartella:"
+
+msgid "Name:"
+msgstr "Nome:"
 
 msgid "View Display Style"
 msgstr "Stile di visualizzazione della vista"
@@ -1129,9 +1159,6 @@ msgstr "Contenuto:"
 
 msgid "Size:"
 msgstr "Dimensione:"
-
-msgid "Type:"
-msgstr "Tipo:"
 
 msgid "Folder"
 msgstr "Cartella"
@@ -1584,9 +1611,6 @@ msgstr "Dimensione delle icone delle anteprime:"
 
 msgid "Context Menu Action"
 msgstr "Azione del menu contestuale"
-
-msgid "Name:"
-msgstr "Nome:"
 
 msgid "Command:"
 msgstr "comando:"
@@ -2235,9 +2259,6 @@ msgstr "È _eseguibile"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Applica le modifiche a tutte le _sottocartelle e al loro contenuto"
-
-msgid "User:"
-msgstr "Utente:"
 
 msgid "Mode:"
 msgstr "Modalità:"

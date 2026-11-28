@@ -699,6 +699,9 @@ msgstr "פתיחה עם"
 msgid "Empty Trash"
 msgstr "פינוי האשפה"
 
+msgid "Add Network Location…"
+msgstr "הוספת מיקום רשת…"
+
 msgid "Add to Places"
 msgstr "הוספה למקומות"
 
@@ -834,6 +837,33 @@ msgstr "הו_ספה"
 
 msgid "_Save"
 msgstr "_שמירה"
+
+msgid "Windows share (SMB)"
+msgstr "שיתוף Windows‏ (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV מאובטח"
+
+msgid "Add Network Location"
+msgstr "הוספת מיקום רשת"
+
+msgid "Type:"
+msgstr "סוג:"
+
+msgid "Server:"
+msgstr "שרת:"
+
+msgid "Port:"
+msgstr "פתחה:"
+
+msgid "User:"
+msgstr "משתמש:"
+
+msgid "Folder:"
+msgstr "תיקייה:"
+
+msgid "Name:"
+msgstr "שם:"
 
 msgid "View Display Style"
 msgstr "סגנון הצגת התצוגות"
@@ -1150,9 +1180,6 @@ msgstr "תוכן:"
 
 msgid "Size:"
 msgstr "גודל:"
-
-msgid "Type:"
-msgstr "סוג:"
 
 msgid "Folder"
 msgstr "תיקייה"
@@ -1605,9 +1632,6 @@ msgstr "גודל סמל תצוגה מקדימה:"
 
 msgid "Context Menu Action"
 msgstr "פעולת תפריט הקשר"
-
-msgid "Name:"
-msgstr "שם:"
 
 msgid "Command:"
 msgstr "פקודה:"
@@ -2258,9 +2282,6 @@ msgstr "_ניתן להפעלה"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "החלת השינויים על כל תתי־ה_תיקיות ועל תוכנן"
-
-msgid "User:"
-msgstr "משתמש:"
 
 msgid "Mode:"
 msgstr "מצב:"

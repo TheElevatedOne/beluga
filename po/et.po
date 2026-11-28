@@ -687,6 +687,9 @@ msgstr "Ava rakendusega"
 msgid "Empty Trash"
 msgstr "Tühjenda prügikast"
 
+msgid "Add Network Location…"
+msgstr "Lisa võrgukoht…"
+
 msgid "Add to Places"
 msgstr "Lisa asukohtadesse"
 
@@ -822,6 +825,33 @@ msgstr "_Lisa"
 
 msgid "_Save"
 msgstr "_Salvesta"
+
+msgid "Windows share (SMB)"
+msgstr "Windowsi ühiskasutus (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Turvaline WebDAV"
+
+msgid "Add Network Location"
+msgstr "Lisa võrgukoht"
+
+msgid "Type:"
+msgstr "Tüüp:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Kasutaja:"
+
+msgid "Folder:"
+msgstr "Kataloog:"
+
+msgid "Name:"
+msgstr "Nimi:"
 
 msgid "View Display Style"
 msgstr "Vaatestiil"
@@ -1130,9 +1160,6 @@ msgstr "Sisu:"
 
 msgid "Size:"
 msgstr "Suurus:"
-
-msgid "Type:"
-msgstr "Tüüp:"
 
 msgid "Folder"
 msgstr "Kataloog"
@@ -1585,9 +1612,6 @@ msgstr "Eelvaatluse ikoonisuurus:"
 
 msgid "Context Menu Action"
 msgstr "Kontekstimenüü toiming"
-
-msgid "Name:"
-msgstr "Nimi:"
 
 msgid "Command:"
 msgstr "Käsk:"
@@ -2236,9 +2260,6 @@ msgstr "On _käivitatav"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Rakenda muudatused kõigile _alamkaustadele ja nende sisule"
-
-msgid "User:"
-msgstr "Kasutaja:"
 
 msgid "Mode:"
 msgstr "Režiim:"

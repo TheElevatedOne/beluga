@@ -685,6 +685,9 @@ msgstr "Bununla açın"
 msgid "Empty Trash"
 msgstr "Səbəti boşalt"
 
+msgid "Add Network Location…"
+msgstr "Şəbəkə məkanı əlavə et…"
+
 msgid "Add to Places"
 msgstr "\"Giriş Nöqtələri\" -nə əlavə etmək"
 
@@ -820,6 +823,33 @@ msgstr "_Əlavə et"
 
 msgid "_Save"
 msgstr "_Saxla"
+
+msgid "Windows share (SMB)"
+msgstr "Windows paylaşımı (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Təhlükəsiz WebDAV"
+
+msgid "Add Network Location"
+msgstr "Şəbəkə məkanı əlavə et"
+
+msgid "Type:"
+msgstr "Növ:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "İstifadəçi:"
+
+msgid "Folder:"
+msgstr "Qovluq:"
+
+msgid "Name:"
+msgstr "Ad:"
 
 msgid "View Display Style"
 msgstr "Baxış rejimi"
@@ -1128,9 +1158,6 @@ msgstr "Məzmun:"
 
 msgid "Size:"
 msgstr "Ölçü:"
-
-msgid "Type:"
-msgstr "Növ:"
 
 msgid "Folder"
 msgstr "Qovluq"
@@ -1583,9 +1610,6 @@ msgstr "Miniatür ikon ölçüsü:"
 
 msgid "Context Menu Action"
 msgstr "Kontekst menyusu əməli"
-
-msgid "Name:"
-msgstr "Ad:"
 
 msgid "Command:"
 msgstr "Əmr:"
@@ -2234,9 +2258,6 @@ msgstr "_İcra edilə bilər"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Dəyişiklikləri bütün _alt qovluqlara və onların məzmununa tətbiq et"
-
-msgid "User:"
-msgstr "İstifadəçi:"
 
 msgid "Mode:"
 msgstr "Rejim:"

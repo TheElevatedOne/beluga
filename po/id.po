@@ -690,6 +690,9 @@ msgstr "Buka Dengan"
 msgid "Empty Trash"
 msgstr "Kosongkan Tong Sampah"
 
+msgid "Add Network Location…"
+msgstr "Tambah Lokasi Jaringan…"
+
 msgid "Add to Places"
 msgstr "Tambah ke Tempat"
 
@@ -825,6 +828,33 @@ msgstr "_Tambah"
 
 msgid "_Save"
 msgstr "_Simpan"
+
+msgid "Windows share (SMB)"
+msgstr "Berbagi Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV Aman"
+
+msgid "Add Network Location"
+msgstr "Tambah Lokasi Jaringan"
+
+msgid "Type:"
+msgstr "Tipe:"
+
+msgid "Server:"
+msgstr "Server:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Pengguna:"
+
+msgid "Folder:"
+msgstr "Folder:"
+
+msgid "Name:"
+msgstr "Nama:"
 
 msgid "View Display Style"
 msgstr "Lihat Gaya Tampilan"
@@ -1133,9 +1163,6 @@ msgstr "Isi:"
 
 msgid "Size:"
 msgstr "Ukuran:"
-
-msgid "Type:"
-msgstr "Tipe:"
 
 msgid "Folder"
 msgstr "Folder"
@@ -1588,9 +1615,6 @@ msgstr "Ukuran ikon pratinjau:"
 
 msgid "Context Menu Action"
 msgstr "Aksi Menu Konteks"
-
-msgid "Name:"
-msgstr "Nama:"
 
 msgid "Command:"
 msgstr "perintah:"
@@ -2239,9 +2263,6 @@ msgstr "Dapat _dieksekusi"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Terapkan perubahan ke semua _subfolder dan isinya"
-
-msgid "User:"
-msgstr "Pengguna:"
 
 msgid "Mode:"
 msgstr "Mode:"

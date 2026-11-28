@@ -699,6 +699,9 @@ msgstr "Oscail Le"
 msgid "Empty Trash"
 msgstr "Folmhaigh an Bruscar"
 
+msgid "Add Network Location…"
+msgstr "Cuir suíomh líonra leis…"
+
 msgid "Add to Places"
 msgstr "Cuir le hÁiteanna"
 
@@ -834,6 +837,33 @@ msgstr "_Cuir leis"
 
 msgid "_Save"
 msgstr "_Sábháil"
+
+msgid "Windows share (SMB)"
+msgstr "Comhroinnt Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV slán"
+
+msgid "Add Network Location"
+msgstr "Cuir suíomh líonra leis"
+
+msgid "Type:"
+msgstr "Cineál:"
+
+msgid "Server:"
+msgstr "Freastalaí:"
+
+msgid "Port:"
+msgstr "Port:"
+
+msgid "User:"
+msgstr "Úsáideoir:"
+
+msgid "Folder:"
+msgstr "Fillteán:"
+
+msgid "Name:"
+msgstr "Ainm:"
 
 msgid "View Display Style"
 msgstr "Stíl Taispeána Féach"
@@ -1154,9 +1184,6 @@ msgstr "Ábhar:"
 
 msgid "Size:"
 msgstr "Méid:"
-
-msgid "Type:"
-msgstr "Cineál:"
 
 msgid "Folder"
 msgstr "Fillteán"
@@ -1609,9 +1636,6 @@ msgstr "Méid deilbhín réamhamhairc:"
 
 msgid "Context Menu Action"
 msgstr "Gníomh roghchláir chomhthéacs"
-
-msgid "Name:"
-msgstr "Ainm:"
 
 msgid "Command:"
 msgstr "Ordú:"
@@ -2263,9 +2287,6 @@ msgstr "Is _inrite é"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Cuir na hathruithe i bhfeidhm ar gach _fofhillteán agus a n-ábhar"
-
-msgid "User:"
-msgstr "Úsáideoir:"
 
 msgid "Mode:"
 msgstr "Mód:"

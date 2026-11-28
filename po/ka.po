@@ -684,6 +684,9 @@ msgstr "გამხსნელი პროგრამა"
 msgid "Empty Trash"
 msgstr "ნაგვის ყუთის დაცარიელება"
 
+msgid "Add Network Location…"
+msgstr "ქსელური მდებარეობის დამატება…"
+
 msgid "Add to Places"
 msgstr "ადგილებში ჩამატება"
 
@@ -819,6 +822,33 @@ msgstr "_დამატება"
 
 msgid "_Save"
 msgstr "_შენახვა"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-ის გაზიარება (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "დაცული WebDAV"
+
+msgid "Add Network Location"
+msgstr "ქსელური მდებარეობის დამატება"
+
+msgid "Type:"
+msgstr "ტიპი:"
+
+msgid "Server:"
+msgstr "სერვერი:"
+
+msgid "Port:"
+msgstr "პორტი:"
+
+msgid "User:"
+msgstr "მომხმარებელი:"
+
+msgid "Folder:"
+msgstr "საქაღალდე:"
+
+msgid "Name:"
+msgstr "სახელი:"
 
 msgid "View Display Style"
 msgstr "ჩვენების სტილის ნახვა"
@@ -1127,9 +1157,6 @@ msgstr "შემცველობა:"
 
 msgid "Size:"
 msgstr "ზომა:"
-
-msgid "Type:"
-msgstr "ტიპი:"
 
 msgid "Folder"
 msgstr "საქაღალდე"
@@ -1582,9 +1609,6 @@ msgstr "ხატულას მინიატურის ზომა:"
 
 msgid "Context Menu Action"
 msgstr "კონტექსტური მენიუს ქმედება"
-
-msgid "Name:"
-msgstr "სახელი:"
 
 msgid "Command:"
 msgstr "ბრძანება:"
@@ -2233,9 +2257,6 @@ msgstr "_გაშვებადია"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "ცვლილებების ყველა _ქვესაქაღალდეზე და მათ შემცველობაზე გადატარება"
-
-msgid "User:"
-msgstr "მომხმარებელი:"
 
 msgid "Mode:"
 msgstr "რეჟიმი:"

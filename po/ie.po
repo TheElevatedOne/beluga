@@ -684,6 +684,9 @@ msgstr "Aperter per"
 msgid "Empty Trash"
 msgstr "Vacuar li Paper-corb"
 
+msgid "Add Network Location…"
+msgstr "Adjunter un localisation de rete…"
+
 msgid "Add to Places"
 msgstr "Adjunter al Locs"
 
@@ -819,6 +822,33 @@ msgstr "_Adjunter"
 
 msgid "_Save"
 msgstr "_Gardar"
+
+msgid "Windows share (SMB)"
+msgstr "Compartiment de Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV secur"
+
+msgid "Add Network Location"
+msgstr "Adjunter un localisation de rete"
+
+msgid "Type:"
+msgstr "Tip:"
+
+msgid "Server:"
+msgstr "Servitor:"
+
+msgid "Port:"
+msgstr "Porta:"
+
+msgid "User:"
+msgstr "Usator:"
+
+msgid "Folder:"
+msgstr "Fólder:"
+
+msgid "Name:"
+msgstr "Nómine:"
 
 msgid "View Display Style"
 msgstr "Stil de vise"
@@ -1127,9 +1157,6 @@ msgstr "Contenete:"
 
 msgid "Size:"
 msgstr "Grandore:"
-
-msgid "Type:"
-msgstr "Tip:"
 
 msgid "Folder"
 msgstr "Fólder"
@@ -1582,9 +1609,6 @@ msgstr "Grandore de icones de previsiones:"
 
 msgid "Context Menu Action"
 msgstr "Action del contextual menú"
-
-msgid "Name:"
-msgstr "Nómine:"
 
 msgid "Command:"
 msgstr "comande:"
@@ -2233,9 +2257,6 @@ msgstr "Es _executibil"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Applicar li modificationes a omni _subfólderes e lor contenete"
-
-msgid "User:"
-msgstr "Usator:"
 
 msgid "Mode:"
 msgstr "Mode:"

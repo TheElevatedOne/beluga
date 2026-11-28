@@ -691,6 +691,9 @@ msgstr "アプリケーションで開く(O)"
 msgid "Empty Trash"
 msgstr "ごみ箱を空にする"
 
+msgid "Add Network Location…"
+msgstr "ネットワークの場所を追加…"
+
 msgid "Add to Places"
 msgstr "場所に追加"
 
@@ -826,6 +829,33 @@ msgstr "追加(_A)"
 
 msgid "_Save"
 msgstr "保存(_S)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows 共有 (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "セキュア WebDAV"
+
+msgid "Add Network Location"
+msgstr "ネットワークの場所を追加"
+
+msgid "Type:"
+msgstr "タイプ:"
+
+msgid "Server:"
+msgstr "サーバ:"
+
+msgid "Port:"
+msgstr "ポート:"
+
+msgid "User:"
+msgstr "ユーザ:"
+
+msgid "Folder:"
+msgstr "フォルダ:"
+
+msgid "Name:"
+msgstr "名前(N):"
 
 msgid "View Display Style"
 msgstr "表示スタイル"
@@ -1130,9 +1160,6 @@ msgstr "内容:"
 
 msgid "Size:"
 msgstr "サイズ:"
-
-msgid "Type:"
-msgstr "タイプ:"
 
 msgid "Folder"
 msgstr "フォルダ"
@@ -1585,9 +1612,6 @@ msgstr "プレビューのアイコンサイズ:"
 
 msgid "Context Menu Action"
 msgstr "コンテキストメニューのアクション"
-
-msgid "Name:"
-msgstr "名前(N):"
 
 msgid "Command:"
 msgstr "コマンド:"
@@ -2235,9 +2259,6 @@ msgstr "実行可能(_E)"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "すべてのサブフォルダーとその内容に変更を適用(_S)"
-
-msgid "User:"
-msgstr "ユーザ:"
 
 msgid "Mode:"
 msgstr "モード:"

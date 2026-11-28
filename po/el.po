@@ -698,6 +698,9 @@ msgstr "Άνοιγμα με"
 msgid "Empty Trash"
 msgstr "Άδειασμα απορριμμάτων"
 
+msgid "Add Network Location…"
+msgstr "Προσθήκη τοποθεσίας δικτύου…"
+
 msgid "Add to Places"
 msgstr "Προσθήκη στον πίνακα θέσεων"
 
@@ -833,6 +836,33 @@ msgstr "_Προσθήκη"
 
 msgid "_Save"
 msgstr "_Αποθήκευση"
+
+msgid "Windows share (SMB)"
+msgstr "Κοινόχρηστος φάκελος Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Ασφαλές WebDAV"
+
+msgid "Add Network Location"
+msgstr "Προσθήκη τοποθεσίας δικτύου"
+
+msgid "Type:"
+msgstr "Τύπος:"
+
+msgid "Server:"
+msgstr "Εξυπηρετητής:"
+
+msgid "Port:"
+msgstr "Θύρα:"
+
+msgid "User:"
+msgstr "Χρήστης:"
+
+msgid "Folder:"
+msgstr "Φάκελος:"
+
+msgid "Name:"
+msgstr "Όνομα:"
 
 msgid "View Display Style"
 msgstr "Στιλ εμφάνισης προβολής"
@@ -1141,9 +1171,6 @@ msgstr "Περιεχόμενα:"
 
 msgid "Size:"
 msgstr "Μέγεθος:"
-
-msgid "Type:"
-msgstr "Τύπος:"
 
 msgid "Folder"
 msgstr "Φάκελος"
@@ -1596,9 +1623,6 @@ msgstr "Μέγεθος προεπισκόπησης εικονιδίων:"
 
 msgid "Context Menu Action"
 msgstr "Ενέργεια μενού περιεχομένου"
-
-msgid "Name:"
-msgstr "Όνομα:"
 
 msgid "Command:"
 msgstr "εντολή:"
@@ -2247,9 +2271,6 @@ msgstr "Είναι _εκτελέσιμο"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "Εφαρμογή των αλλαγών σε όλους τους _υποφακέλους και το περιεχόμενό τους"
-
-msgid "User:"
-msgstr "Χρήστης:"
 
 msgid "Mode:"
 msgstr "Κατάσταση:"

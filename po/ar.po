@@ -709,6 +709,9 @@ msgstr "افتح في"
 msgid "Empty Trash"
 msgstr "أفرغ المهملات"
 
+msgid "Add Network Location…"
+msgstr "إضافة موقع شبكي…"
+
 msgid "Add to Places"
 msgstr "أضف إلى الأماكن"
 
@@ -844,6 +847,33 @@ msgstr "أ_ضف"
 
 msgid "_Save"
 msgstr "ا_حفظ"
+
+msgid "Windows share (SMB)"
+msgstr "مشاركة ويندوز (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV آمن"
+
+msgid "Add Network Location"
+msgstr "إضافة موقع شبكي"
+
+msgid "Type:"
+msgstr "النّوع:"
+
+msgid "Server:"
+msgstr "الخادم:"
+
+msgid "Port:"
+msgstr "المنفذ:"
+
+msgid "User:"
+msgstr "المستخدم:"
+
+msgid "Folder:"
+msgstr "مجلد:"
+
+msgid "Name:"
+msgstr "الاسم:"
 
 msgid "View Display Style"
 msgstr "نمط مشاهدة العرض"
@@ -1168,9 +1198,6 @@ msgstr "المحتوى:"
 
 msgid "Size:"
 msgstr "الحجم:"
-
-msgid "Type:"
-msgstr "النّوع:"
 
 msgid "Folder"
 msgstr "مجلد"
@@ -1623,9 +1650,6 @@ msgstr "حجم أيقونة المعاينة:"
 
 msgid "Context Menu Action"
 msgstr "إجراء قائمة السياق"
-
-msgid "Name:"
-msgstr "الاسم:"
 
 msgid "Command:"
 msgstr "الأمر:"
@@ -2278,9 +2302,6 @@ msgstr "_قابل للتنفيذ"
 
 msgid "Apply changes to all _subfolders and their contents"
 msgstr "طبّق التغييرات على كل المجلدات ال_فرعية ومحتواها"
-
-msgid "User:"
-msgstr "المستخدم:"
 
 msgid "Mode:"
 msgstr "الوضع:"

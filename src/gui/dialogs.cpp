@@ -526,6 +526,138 @@ void edit_place_dialog(GtkWidget *parent, const Place &initial, bool isNew, std:
     gtk_window_present(GTK_WINDOW(p.window));
 }
 
+namespace {
+
+struct NetType { const char *scheme; const char *label; int port; };
+const NetType kNetTypes[] = {
+    {"sftp", "SSH (SFTP)", 22},
+    {"smb", N_("Windows share (SMB)"), 0},
+    {"ftp", "FTP", 21},
+    {"dav", "WebDAV", 80},
+    {"davs", N_("Secure WebDAV"), 443},
+};
+
+struct NetForm {
+    GtkWidget *name, *type, *server, *port, *user, *folder, *preview, *ok;
+    bool nameEdited = false;
+    // The fields are read after the dialog is destroyed (OK closes it first), so the form keeps them.
+    ~NetForm()
+    {
+        for (GtkWidget *w : {name, type, server, port, user, folder})
+            if (w) g_object_unref(w);
+    }
+};
+
+// sftp://user@server:port/folder from the fields; empty while there is no server.
+std::string net_uri(NetForm *f)
+{
+    const NetType &t = kNetTypes[gtk_drop_down_get_selected(GTK_DROP_DOWN(f->type))];
+    std::string server = trim(gtk_editable_get_text(GTK_EDITABLE(f->server)));
+    if (server.empty()) return {};
+    std::string user = trim(gtk_editable_get_text(GTK_EDITABLE(f->user)));
+    std::string port = trim(gtk_editable_get_text(GTK_EDITABLE(f->port)));
+    std::string folder = trim(gtk_editable_get_text(GTK_EDITABLE(f->folder)));
+    int portNum = port.empty() ? -1 : atoi(port.c_str());
+    if (portNum <= 0 || portNum > 65535) portNum = -1;
+    if (!folder.empty() && folder[0] != '/') folder = "/" + folder;
+    if (folder.empty()) folder = "/";
+    char *uri = g_uri_join(G_URI_FLAGS_NONE, t.scheme, user.empty() ? nullptr : user.c_str(), server.c_str(), portNum,
+                           folder.c_str(), nullptr, nullptr);
+    std::string r = uri ? uri : "";
+    g_free(uri);
+    return r;
+}
+
+void net_update(NetForm *f)
+{
+    const NetType &t = kNetTypes[gtk_drop_down_get_selected(GTK_DROP_DOWN(f->type))];
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->port), t.port ? std::to_string(t.port).c_str() : "");
+    std::string uri = net_uri(f);
+    gtk_label_set_text(GTK_LABEL(f->preview), uri.c_str());
+    gtk_widget_set_sensitive(f->ok, !uri.empty());
+    if (!f->nameEdited) {
+        std::string server = trim(gtk_editable_get_text(GTK_EDITABLE(f->server)));
+        g_signal_handlers_block_matched(f->name, G_SIGNAL_MATCH_DATA, 0, 0, nullptr, nullptr, f);
+        gtk_editable_set_text(GTK_EDITABLE(f->name), server.c_str());
+        g_signal_handlers_unblock_matched(f->name, G_SIGNAL_MATCH_DATA, 0, 0, nullptr, nullptr, f);
+    }
+}
+
+} // namespace
+
+void add_network_location_dialog(GtkWidget *parent, std::function<void(const Place &)> cb)
+{
+    DialogParts p = make_dialog(parent, _("Add Network Location"), 460);
+    GtkWidget *grid = gtk_grid_new();
+    gtk_grid_set_row_spacing(GTK_GRID(grid), 8);
+    gtk_grid_set_column_spacing(GTK_GRID(grid), 8);
+    int row = 0;
+    auto addRow = [&](const char *label, GtkWidget *w) {
+        GtkWidget *l = gtk_label_new_with_mnemonic(label);
+        gtk_label_set_xalign(GTK_LABEL(l), 1);
+        gtk_label_set_mnemonic_widget(GTK_LABEL(l), w);
+        gtk_grid_attach(GTK_GRID(grid), l, 0, row, 1, 1);
+        gtk_widget_set_hexpand(w, TRUE);
+        gtk_grid_attach(GTK_GRID(grid), w, 1, row++, 1, 1);
+    };
+    auto form = std::make_shared<NetForm>();
+    NetForm *f = form.get();
+    std::vector<const char *> labels;
+    for (auto &t : kNetTypes) labels.push_back(_(t.label));
+    labels.push_back(nullptr);
+    f->type = gtk_drop_down_new_from_strings(labels.data());
+    addRow(_("Type:"), f->type);
+    f->server = gtk_entry_new();
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->server), "example.com");
+    addRow(_("Server:"), f->server);
+    f->port = gtk_entry_new();
+    gtk_entry_set_input_purpose(GTK_ENTRY(f->port), GTK_INPUT_PURPOSE_DIGITS);
+    gtk_editable_set_max_width_chars(GTK_EDITABLE(f->port), 6);
+    addRow(_("Port:"), f->port);
+    f->user = gtk_entry_new();
+    addRow(_("User:"), f->user);
+    f->folder = gtk_entry_new();
+    addRow(_("Folder:"), f->folder);
+    f->name = gtk_entry_new();
+    addRow(_("Name:"), f->name);
+    f->preview = gtk_label_new("");
+    gtk_label_set_xalign(GTK_LABEL(f->preview), 0);
+    gtk_label_set_selectable(GTK_LABEL(f->preview), TRUE);
+    gtk_label_set_ellipsize(GTK_LABEL(f->preview), PANGO_ELLIPSIZE_MIDDLE);
+    gtk_widget_add_css_class(f->preview, "dim-label");
+    addRow(_("Location:"), f->preview);
+    gtk_box_append(GTK_BOX(p.content), grid);
+    for (GtkWidget *w : {f->name, f->type, f->server, f->port, f->user, f->folder}) g_object_ref(w);
+
+    GtkWidget *cancel = add_button(p, _("_Cancel"));
+    f->ok = add_button(p, _("_Add"), true);
+    gtk_window_set_default_widget(GTK_WINDOW(p.window), f->ok);
+    for (GtkWidget *e : {f->server, f->port, f->user, f->folder, f->name}) gtk_entry_set_activates_default(GTK_ENTRY(e), TRUE);
+    for (GtkWidget *e : {f->server, f->port, f->user, f->folder})
+        g_signal_connect(e, "changed", CB([](GtkEditable *, gpointer d) { net_update(static_cast<NetForm *>(d)); }), f);
+    g_signal_connect(f->type, "notify::selected", CB([](GObject *, GParamSpec *, gpointer d) { net_update(static_cast<NetForm *>(d)); }), f);
+    g_signal_connect(f->name, "changed", CB([](GtkEditable *e, gpointer d) {
+        static_cast<NetForm *>(d)->nameEdited = *gtk_editable_get_text(e) != 0;
+    }), f);
+    g_object_set_data_full(G_OBJECT(p.window), "beluga-net-form", new std::shared_ptr<NetForm>(form),
+                           [](gpointer d) { delete static_cast<std::shared_ptr<NetForm> *>(d); });
+    net_update(f);
+
+    on_click_close(cancel, p.window, nullptr);
+    on_click_close(f->ok, p.window, [form, cb] {
+        NetForm *f = form.get();
+        Place pl;
+        pl.uri = net_uri(f);
+        if (pl.uri.empty()) return;
+        pl.label = trim(gtk_editable_get_text(GTK_EDITABLE(f->name)));
+        if (pl.label.empty()) pl.label = trim(gtk_editable_get_text(GTK_EDITABLE(f->server)));
+        pl.icon = "folder-remote";
+        if (cb) cb(pl);
+    });
+    gtk_window_present(GTK_WINDOW(p.window));
+    gtk_widget_grab_focus(f->server);
+}
+
 // ---- view display style -----------------------------------------------------------------------
 
 void view_properties_dialog(GtkWidget *parent, const std::string &uri, const ViewProps &current,
