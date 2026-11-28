@@ -44,6 +44,12 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.3.0" date="2026-11-28">
+      <description>
+        <p>Add Network Location in the Network folder: SFTP, FTP, FTP over TLS, SMB and WebDAV, with a password, a
+          key file or anonymous logon. The file chooser's tool bar and empty usage bars follow the theme.</p>
+      </description>
+    </release>
     <release version="1.2.0" date="2026-11-27">
       <description>
         <p>A folder's own view is saved in its .directory file, so it moves with the folder. All 63 translations

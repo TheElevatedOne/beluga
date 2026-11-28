@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.3.0
 
 - Added: **Add Network Location…** in the context menu of Network (`network:///`), in place of Create New. Like
   FileZilla's Site Manager: protocol (SFTP, FTP, FTP over TLS, SMB, WebDAV), host, port, logon type (Anonymous,

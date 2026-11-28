@@ -832,6 +832,16 @@ void MainWindow::addNetworkLocation(const NetLocation &n, const std::string &nam
         g_mount_operation_reply(o, tries == 0 && (canAnon || !g_mount_operation_get_anonymous(o)) ? G_MOUNT_OPERATION_HANDLED
                                                                                                   : G_MOUNT_OPERATION_ABORTED);
     }), nullptr);
+    // Questions (an SFTP server's host key on the first connection) go to GTK's own dialog, then back here.
+    GMountOperation *gtkOp = gtk_mount_operation_new(window());
+    g_object_set_data_full(G_OBJECT(op), "beluga-gtk-op", gtkOp, g_object_unref);
+    g_signal_connect(gtkOp, "reply", G_CALLBACK(+[](GMountOperation *g, GMountOperationResult result, gpointer o) {
+        g_mount_operation_set_choice(G_MOUNT_OPERATION(o), g_mount_operation_get_choice(g));
+        g_mount_operation_reply(G_MOUNT_OPERATION(o), result);
+    }), op);
+    g_signal_connect(op, "ask-question", G_CALLBACK(+[](GMountOperation *o, char *message, GStrv choices, gpointer) {
+        g_signal_emit_by_name(g_object_get_data(G_OBJECT(o), "beluga-gtk-op"), "ask-question", message, choices);
+    }), nullptr);
     struct Ctx { Ref<GtkWidget> win; std::string uri; };
     auto *ctx = new Ctx{Ref<GtkWidget>::share(GTK_WIDGET(window())), uri};
     Ref<GFile> file(g_file_new_for_uri(uri.c_str()));

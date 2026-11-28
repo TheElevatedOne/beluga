@@ -624,7 +624,7 @@ void net_update(NetForm *f)
     std::string uri = net_location_uri(n);
     set_text_quietly(f, f->address, uri);
     gtk_entry_set_placeholder_text(GTK_ENTRY(f->name), n.host.c_str());
-    gtk_widget_set_sensitive(f->ok, !uri.empty() && (!key || !n.keyFile.empty()));
+    gtk_widget_set_sensitive(f->ok, !uri.empty() && (!key || g_file_test(n.keyFile.c_str(), G_FILE_TEST_IS_REGULAR)));
     f->syncing = false;
 }
 

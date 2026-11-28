@@ -2,7 +2,7 @@
 
 pkgname=beluga-bin
 _pkgname=beluga
-pkgver=1.2.0
+pkgver=1.3.0
 pkgrel=1
 pkgdesc='File manager written with plain GTK 4, a rewrite of KDE Dolphin without Qt or KDE Frameworks (prebuilt)'
 arch=('x86_64')
