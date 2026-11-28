@@ -960,6 +960,7 @@ void gui_tests(GtkApplication *app)
             }
             if (dch) {
                 wait_ms(600);
+                shoot(dch, "16-file-chooser");
                 file_chooser_view(dch)->selectUris({uri("a.txt")});
                 wait_ms(200);
                 file_chooser_accept(dch);

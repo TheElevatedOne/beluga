@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Fixed: the file chooser's tool bar showed as a white strip with some themes (pywal); it now looks like the main
+  window's. The empty part of usage bars (Disk Usage column, devices in Places) is no longer white.
+
 ## 1.2.0
 
 - Changed: a folder's own view (**View → Remember View for This Folder**, **Adjust View Display Style…**, or every

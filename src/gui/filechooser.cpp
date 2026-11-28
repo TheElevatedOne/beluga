@@ -408,10 +408,7 @@ GtkWidget *show_file_chooser(GtkApplication *app, const ChooserRequest &req, std
     // Tool bar: history, the location, view modes, hidden files, new folder.
     GtkWidget *bar = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 4);
     gtk_widget_add_css_class(bar, "toolbar");
-    gtk_widget_set_margin_start(bar, 6);
-    gtk_widget_set_margin_end(bar, 6);
-    gtk_widget_set_margin_top(bar, 4);
-    gtk_widget_set_margin_bottom(bar, 4);
+    gtk_widget_add_css_class(bar, "beluga-toolbar");
     static const char *const back[] = {"go-previous", "go-previous-symbolic", nullptr};
     static const char *const fwd[] = {"go-next", "go-next-symbolic", nullptr};
     static const char *const upIcon[] = {"go-up", "go-up-symbolic", nullptr};

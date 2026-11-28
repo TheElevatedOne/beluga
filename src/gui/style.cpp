@@ -178,6 +178,8 @@ popover.menu button.beluga-menu-row:hover { background-color: mix(@beluga_popove
 .beluga-places, .beluga-folders, .beluga-info { background-color: @beluga_window_bg; }
 .beluga-places .places-header { font-weight: bold; font-size: 0.9em; padding: 8px 8px 2px 8px; }
 .beluga-places levelbar.places-usage trough { min-height: 3px; }
+/* The unfilled part of usage bars: themes such as pywal's leave it at the base theme's light grey. */
+levelbar block.empty { background-color: mix(@beluga_window_bg, @beluga_window_fg, 0.15); border-color: transparent; }
 .beluga-places levelbar.places-usage block { min-height: 3px; }
 notebook > header.top { padding: 3px 3px 0 3px; }
 notebook > header > tabs > tab { padding: 3px 6px; margin: 0 3px 0 0; min-height: 0; }
