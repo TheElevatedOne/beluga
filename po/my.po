@@ -218,6 +218,18 @@ msgstr "စာတန်းထိုး:"
 msgid "Chapters:"
 msgstr "အခန်းများ:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS ဖြင့် FTP (ထင်ရှားသော)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS ဖြင့် FTP (သွယ်ဝိုက်သော)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows မျှဝေမှု (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "လုံခြုံသော WebDAV"
+
 msgid "Places"
 msgstr "နေရာများ"
 
@@ -819,32 +831,59 @@ msgstr "ထည့်ရန် (_A)"
 msgid "_Save"
 msgstr "သိမ်းရန် (_S)"
 
-msgid "Windows share (SMB)"
-msgstr "Windows မျှဝေမှု (SMB)"
+msgid "Anonymous"
+msgstr "အမည်မသိ"
 
-msgid "Secure WebDAV"
-msgstr "လုံခြုံသော WebDAV"
+msgid "Normal"
+msgstr "ပုံမှန်"
+
+msgid "Ask for password"
+msgstr "စကားဝှက်မေးရန်"
+
+msgid "Key file"
+msgstr "သော့ဖိုင်"
 
 msgid "Add Network Location"
 msgstr "ကွန်ရက်တည်နေရာ ထည့်ရန်"
 
-msgid "Type:"
-msgstr "အမျိုးအစား -"
-
-msgid "Server:"
-msgstr "ဆာဗာ:"
+msgid "Protocol:"
+msgstr "ပရိုတိုကော:"
 
 msgid "Port:"
 msgstr "ပို့တ်:"
 
+msgid "Host:"
+msgstr "ဟို့စ်:"
+
+msgid "Logon type:"
+msgstr "ဝင်ရောက်မှုအမျိုးအစား:"
+
 msgid "User:"
 msgstr "အသုံးပြုသူ -"
+
+msgid "Password:"
+msgstr "စကားဝှက် -"
+
+msgid "Key file:"
+msgstr "သော့ဖိုင်:"
 
 msgid "Folder:"
 msgstr "ဖိုင်တွဲ:"
 
 msgid "Name:"
 msgstr "Nအမည် -"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "အထက်ပါအကွက်များ ဖြည့်ရန် လိပ်စာကို ရိုက်ပါ သို့မဟုတ် ကူးထည့်ပါ။"
+
+msgid "Address:"
+msgstr "လိပ်စာ -"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP ချိတ်ဆက်မှုသည် ssh ၏ ဆက်တင်များကို သုံးသောကြောင့် Beluga က ဤသော့အတွက် Host ထည့်သွင်းချက်ကို ~/.ssh/config သို့ ထည့်သည်။"
+
+msgid "Choose a Key File"
+msgstr "သော့ဖိုင် ရွေးရန်"
 
 msgid "View Display Style"
 msgstr "ပြသ-စတိုင် ကြည့်မည်"
@@ -1149,6 +1188,9 @@ msgstr "အကြောင်းအရာ:"
 
 msgid "Size:"
 msgstr "အရွယ်အစား -"
+
+msgid "Type:"
+msgstr "အမျိုးအစား -"
 
 msgid "Folder"
 msgstr "ဖိုဒါ"
@@ -1478,6 +1520,9 @@ msgstr "၎င်းကို ပြန်ဖျက်၍မရပါ။"
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s ကို အမှိုက်ပုံးသို့ ရွှေ့မလား?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "သော့ကို ~/.ssh/config သို့ ထည့်၍မရပါ။"
 
 #, c-format
 msgid "Could not run “%s”."

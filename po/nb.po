@@ -225,6 +225,18 @@ msgstr "Undertekster:"
 msgid "Chapters:"
 msgstr "Kapitler:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP over TLS (eksplisitt)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP over TLS (implisitt)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-deling (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Sikker WebDAV"
+
 msgid "Places"
 msgstr "Steder"
 
@@ -829,32 +841,59 @@ msgstr "_Legg til"
 msgid "_Save"
 msgstr "_Lagre"
 
-msgid "Windows share (SMB)"
-msgstr "Windows-deling (SMB)"
+msgid "Anonymous"
+msgstr "Anonym"
 
-msgid "Secure WebDAV"
-msgstr "Sikker WebDAV"
+msgid "Normal"
+msgstr "Vanlig"
+
+msgid "Ask for password"
+msgstr "Spør om passord"
+
+msgid "Key file"
+msgstr "Nøkkelfil"
 
 msgid "Add Network Location"
 msgstr "Legg til nettverkssted"
 
-msgid "Type:"
-msgstr "Type:"
-
-msgid "Server:"
-msgstr "Tjener:"
+msgid "Protocol:"
+msgstr "Protokoll:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Vert:"
+
+msgid "Logon type:"
+msgstr "Innloggingstype:"
+
 msgid "User:"
 msgstr "Bruker:"
+
+msgid "Password:"
+msgstr "Passord:"
+
+msgid "Key file:"
+msgstr "Nøkkelfil:"
 
 msgid "Folder:"
 msgstr "Mappe:"
 
 msgid "Name:"
 msgstr "Navn:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Skriv eller lim inn en adresse for å fylle ut feltene over."
+
+msgid "Address:"
+msgstr "Adresse:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP-tilkoblingen bruker innstillingene til ssh, så Beluga legger til en Host-oppføring for denne nøkkelen i ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Velg en nøkkelfil"
 
 msgid "View Display Style"
 msgstr "Vis visningsvalg"
@@ -1163,6 +1202,9 @@ msgstr "Innhold:"
 
 msgid "Size:"
 msgstr "Størrelse:"
+
+msgid "Type:"
+msgstr "Type:"
 
 msgid "Folder"
 msgstr "Mappe"
@@ -1492,6 +1534,9 @@ msgstr "Dette kan ikke angres."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Flytte %s til papirkurven?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Klarte ikke å legge nøkkelen til i ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

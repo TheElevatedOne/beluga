@@ -220,6 +220,18 @@ msgstr "자막:"
 msgid "Chapters:"
 msgstr "챕터:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS를 통한 FTP (명시적)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS를 통한 FTP (암시적)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows 공유(SMB)"
+
+msgid "Secure WebDAV"
+msgstr "보안 WebDAV"
+
 msgid "Places"
 msgstr "위치"
 
@@ -821,32 +833,59 @@ msgstr "추가(_A)"
 msgid "_Save"
 msgstr "저장(_S)"
 
-msgid "Windows share (SMB)"
-msgstr "Windows 공유(SMB)"
+msgid "Anonymous"
+msgstr "익명(A)"
 
-msgid "Secure WebDAV"
-msgstr "보안 WebDAV"
+msgid "Normal"
+msgstr "일반"
+
+msgid "Ask for password"
+msgstr "암호 묻기"
+
+msgid "Key file"
+msgstr "키 파일"
 
 msgid "Add Network Location"
 msgstr "네트워크 위치 추가"
 
-msgid "Type:"
-msgstr "형식:"
-
-msgid "Server:"
-msgstr "서버:"
+msgid "Protocol:"
+msgstr "프로토콜:"
 
 msgid "Port:"
 msgstr "포트:"
 
+msgid "Host:"
+msgstr "호스트:"
+
+msgid "Logon type:"
+msgstr "로그온 유형:"
+
 msgid "User:"
 msgstr "사용자:"
+
+msgid "Password:"
+msgstr "암호:"
+
+msgid "Key file:"
+msgstr "키 파일:"
 
 msgid "Folder:"
 msgstr "폴더:"
 
 msgid "Name:"
 msgstr "이름(N):"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "위 칸을 채우려면 주소를 입력하거나 붙여 넣으십시오."
+
+msgid "Address:"
+msgstr "주소:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP 연결은 ssh 설정을 사용하므로 Beluga는 이 키에 대한 Host 항목을 ~/.ssh/config에 추가합니다."
+
+msgid "Choose a Key File"
+msgstr "키 파일 선택"
 
 msgid "View Display Style"
 msgstr "보기 표시 스타일"
@@ -1151,6 +1190,9 @@ msgstr "내용:"
 
 msgid "Size:"
 msgstr "크기:"
+
+msgid "Type:"
+msgstr "형식:"
 
 msgid "Folder"
 msgstr "폴더"
@@ -1480,6 +1522,9 @@ msgstr "되돌릴 수 없습니다."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s을(를) 휴지통으로 이동하시겠습니까?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "키를 ~/.ssh/config에 추가할 수 없습니다."
 
 #, c-format
 msgid "Could not run “%s”."

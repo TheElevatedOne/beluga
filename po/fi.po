@@ -235,6 +235,18 @@ msgstr "Tekstitykset:"
 msgid "Chapters:"
 msgstr "Kappaleet:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP TLS:n yli (eksplisiittinen)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP TLS:n yli (implisiittinen)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-jako (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Suojattu WebDAV"
+
 msgid "Places"
 msgstr "Sijainnit"
 
@@ -839,32 +851,59 @@ msgstr "_Lisää"
 msgid "_Save"
 msgstr "_Tallenna"
 
-msgid "Windows share (SMB)"
-msgstr "Windows-jako (SMB)"
+msgid "Anonymous"
+msgstr "Anonyymisti"
 
-msgid "Secure WebDAV"
-msgstr "Suojattu WebDAV"
+msgid "Normal"
+msgstr "Tavallinen"
+
+msgid "Ask for password"
+msgstr "Kysy salasanaa"
+
+msgid "Key file"
+msgstr "Avaintiedosto"
 
 msgid "Add Network Location"
 msgstr "Lisää verkkosijainti"
 
-msgid "Type:"
-msgstr "Tyyppi:"
-
-msgid "Server:"
-msgstr "Palvelin:"
+msgid "Protocol:"
+msgstr "Yhteyskäytäntö:"
 
 msgid "Port:"
 msgstr "Portti:"
 
+msgid "Host:"
+msgstr "Palvelin:"
+
+msgid "Logon type:"
+msgstr "Kirjautumistapa:"
+
 msgid "User:"
 msgstr "Käyttäjä:"
+
+msgid "Password:"
+msgstr "Salasana:"
+
+msgid "Key file:"
+msgstr "Avaintiedosto:"
 
 msgid "Folder:"
 msgstr "Kansio:"
 
 msgid "Name:"
 msgstr "Nimi:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Kirjoita tai liitä osoite, niin yllä olevat kentät täyttyvät."
+
+msgid "Address:"
+msgstr "Osoite:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP-yhteys käyttää ssh:n asetuksia, joten Beluga lisää tälle avaimelle Host-merkinnän tiedostoon ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Valitse avaintiedosto"
 
 msgid "View Display Style"
 msgstr "Näytä näkymätyyli"
@@ -1173,6 +1212,9 @@ msgstr "Sisältö:"
 
 msgid "Size:"
 msgstr "Koko:"
+
+msgid "Type:"
+msgstr "Tyyppi:"
 
 msgid "Folder"
 msgstr "Kansio"
@@ -1502,6 +1544,9 @@ msgstr "Tätä ei voi kumota."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Siirretäänkö %s roskakoriin?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Avaimen lisääminen tiedostoon ~/.ssh/config epäonnistui."
 
 #, c-format
 msgid "Could not run “%s”."

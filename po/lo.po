@@ -218,6 +218,18 @@ msgstr "ຄຳບັນຍາຍ:"
 msgid "Chapters:"
 msgstr "ບົດ:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP ຜ່ານ TLS (ແບບຊັດເຈນ)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP ຜ່ານ TLS (ແບບແຝງ)"
+
+msgid "Windows share (SMB)"
+msgstr "ການແບ່ງປັນ Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV ທີ່ປອດໄພ"
+
 msgid "Places"
 msgstr "Places"
 
@@ -819,32 +831,59 @@ msgstr "ເພີ່ມ (_A)"
 msgid "_Save"
 msgstr "ບັນທຶກ (_S)"
 
-msgid "Windows share (SMB)"
-msgstr "ການແບ່ງປັນ Windows (SMB)"
+msgid "Anonymous"
+msgstr "ບໍ່ລະບຸຊື່"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV ທີ່ປອດໄພ"
+msgid "Normal"
+msgstr "ປົກກະຕິ"
+
+msgid "Ask for password"
+msgstr "ຖາມລະຫັດຜ່ານ"
+
+msgid "Key file"
+msgstr "ໄຟລ໌ກະແຈ"
 
 msgid "Add Network Location"
 msgstr "ເພີ່ມບ່ອນເຄືອຂ່າຍ"
 
-msgid "Type:"
-msgstr "ປະເພດ:"
-
-msgid "Server:"
-msgstr "ເຊີບເວີ:"
+msgid "Protocol:"
+msgstr "ໂປຣໂຕຄໍ:"
 
 msgid "Port:"
 msgstr "ພອດ:"
 
+msgid "Host:"
+msgstr "ໂຮສ:"
+
+msgid "Logon type:"
+msgstr "ປະເພດການເຂົ້າລະບົບ:"
+
 msgid "User:"
 msgstr "ຜູ້ໃຊ້:"
+
+msgid "Password:"
+msgstr "ລະຫັດຜ່ານ:"
+
+msgid "Key file:"
+msgstr "ໄຟລ໌ກະແຈ:"
 
 msgid "Folder:"
 msgstr "ໂຟນເດີ:"
 
 msgid "Name:"
 msgstr "ຊື່:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "ພິມ ຫຼື ວາງທີ່ຢູ່ເພື່ອຕື່ມຊ່ອງຂ້າງເທິງ."
+
+msgid "Address:"
+msgstr "ທີ່ຢູ່:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "ການເຊື່ອມຕໍ່ SFTP ໃຊ້ການຕັ້ງຄ່າຂອງ ssh, ສະນັ້ນ Beluga ຈຶ່ງເພີ່ມລາຍການ Host ສຳລັບກະແຈນີ້ໃສ່ ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "ເລືອກໄຟລ໌ກະແຈ"
 
 msgid "View Display Style"
 msgstr "ຮູບແບບການສະແດງຜົນມຸມມອງ"
@@ -1149,6 +1188,9 @@ msgstr "ເນື້ອຫາ:"
 
 msgid "Size:"
 msgstr "ຂະໜາດ:"
+
+msgid "Type:"
+msgstr "ປະເພດ:"
 
 msgid "Folder"
 msgstr "ໂຟນເດີ"
@@ -1478,6 +1520,9 @@ msgstr "ບໍ່ສາມາດຍົກເລີກໄດ້."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "ຍ້າຍ %s ໄປຖັງຂີ້ເຫຍື້ອບໍ?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "ບໍ່ສາມາດເພີ່ມກະແຈໃສ່ ~/.ssh/config ໄດ້."
 
 #, c-format
 msgid "Could not run “%s”."

@@ -1442,3 +1442,42 @@ msgstr "Þjónn:"
 
 msgid "Port:"
 msgstr "Gátt:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP yfir TLS (beint)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP yfir TLS (óbeint)"
+
+msgid "Normal"
+msgstr "Venjulegt"
+
+msgid "Ask for password"
+msgstr "Spyrja um lykilorð"
+
+msgid "Key file"
+msgstr "Lykilskrá"
+
+msgid "Protocol:"
+msgstr "Samskiptamáti:"
+
+msgid "Host:"
+msgstr "Hýsill:"
+
+msgid "Logon type:"
+msgstr "Innskráningarmáti:"
+
+msgid "Key file:"
+msgstr "Lykilskrá:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Skrifaðu eða límdu vistfang til að fylla út reitina hér fyrir ofan."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP-tengingin notar stillingar ssh, svo Beluga bætir Host-færslu fyrir þennan lykil í ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Veldu lykilskrá"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Ekki tókst að bæta lyklinum í ~/.ssh/config."

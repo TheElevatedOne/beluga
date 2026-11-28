@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include "dialogs.hpp"
 
+#include "netlocation.hpp"
+
 #include "gtkutil.hpp"
 #include "settings.hpp"
 #include "undo.hpp"
@@ -528,66 +530,136 @@ void edit_place_dialog(GtkWidget *parent, const Place &initial, bool isNew, std:
 
 namespace {
 
-struct NetType { const char *scheme; const char *label; int port; };
-const NetType kNetTypes[] = {
-    {"sftp", "SSH (SFTP)", 22},
-    {"smb", N_("Windows share (SMB)"), 0},
-    {"ftp", "FTP", 21},
-    {"dav", "WebDAV", 80},
-    {"davs", N_("Secure WebDAV"), 443},
-};
-
 struct NetForm {
-    GtkWidget *name, *type, *server, *port, *user, *folder, *preview, *ok;
-    bool nameEdited = false;
-    // The fields are read after the dialog is destroyed (OK closes it first), so the form keeps them.
+    GtkWidget *protocol, *host, *port, *logon, *user, *password, *keyRow, *key, *folder, *name, *address, *note, *ok;
+    GtkWidget *userLabel, *passwordLabel, *keyLabel;
+    std::vector<Logon> logons;   // what each row of the Logon type list means
+    bool syncing = false;
     ~NetForm()
     {
-        for (GtkWidget *w : {name, type, server, port, user, folder})
+        for (GtkWidget *w : {protocol, host, port, logon, user, password, key, folder, name, address})
             if (w) g_object_unref(w);
     }
 };
 
-// sftp://user@server:port/folder from the fields; empty while there is no server.
-std::string net_uri(NetForm *f)
+std::string text_of(GtkWidget *e) { return trim(gtk_editable_get_text(GTK_EDITABLE(e))); }
+
+void set_text_quietly(NetForm *f, GtkWidget *e, const std::string &t)
 {
-    const NetType &t = kNetTypes[gtk_drop_down_get_selected(GTK_DROP_DOWN(f->type))];
-    std::string server = trim(gtk_editable_get_text(GTK_EDITABLE(f->server)));
-    if (server.empty()) return {};
-    std::string user = trim(gtk_editable_get_text(GTK_EDITABLE(f->user)));
-    std::string port = trim(gtk_editable_get_text(GTK_EDITABLE(f->port)));
-    std::string folder = trim(gtk_editable_get_text(GTK_EDITABLE(f->folder)));
-    int portNum = port.empty() ? -1 : atoi(port.c_str());
-    if (portNum <= 0 || portNum > 65535) portNum = -1;
-    if (!folder.empty() && folder[0] != '/') folder = "/" + folder;
-    if (folder.empty()) folder = "/";
-    char *uri = g_uri_join(G_URI_FLAGS_NONE, t.scheme, user.empty() ? nullptr : user.c_str(), server.c_str(), portNum,
-                           folder.c_str(), nullptr, nullptr);
-    std::string r = uri ? uri : "";
-    g_free(uri);
-    return r;
+    if (text_of(e) != t) gtk_editable_set_text(GTK_EDITABLE(e), t.c_str());
 }
 
+const char *logon_label(Logon l)
+{
+    switch (l) {
+    case Logon::Anonymous: return _("Anonymous");
+    case Logon::Normal: return _("Normal");
+    case Logon::Ask: return _("Ask for password");
+    case Logon::KeyFile: return _("Key file");
+    }
+    return "";
+}
+
+Logon current_logon(NetForm *f)
+{
+    guint i = gtk_drop_down_get_selected(GTK_DROP_DOWN(f->logon));
+    return i < f->logons.size() ? f->logons[i] : Logon::Ask;
+}
+
+NetLocation form_location(NetForm *f)
+{
+    NetLocation n;
+    n.protocol = (int)gtk_drop_down_get_selected(GTK_DROP_DOWN(f->protocol));
+    n.host = text_of(f->host);
+    n.user = text_of(f->user);
+    n.folder = text_of(f->folder);
+    std::string port = text_of(f->port);
+    n.port = port.empty() ? 0 : atoi(port.c_str());
+    if (n.port < 0 || n.port > 65535) n.port = 0;
+    n.logon = current_logon(f);
+    n.password = gtk_editable_get_text(GTK_EDITABLE(f->password));
+    n.keyFile = text_of(f->key);
+    return n;
+}
+
+// The Logon type list offers what the protocol can do: no Anonymous for SFTP, Key file only for SFTP.
+void fill_logons(NetForm *f)
+{
+    const NetProtocol &p = net_protocols()[gtk_drop_down_get_selected(GTK_DROP_DOWN(f->protocol))];
+    Logon was = current_logon(f);
+    f->logons.clear();
+    if (p.anonymous) f->logons.push_back(Logon::Anonymous);
+    f->logons.push_back(Logon::Normal);
+    f->logons.push_back(Logon::Ask);
+    if (p.keyFile) f->logons.push_back(Logon::KeyFile);
+    GtkStringList *list = gtk_string_list_new(nullptr);
+    guint sel = 0;
+    for (size_t i = 0; i < f->logons.size(); ++i) {
+        gtk_string_list_append(list, logon_label(f->logons[i]));
+        if (f->logons[i] == was) sel = (guint)i;
+        else if (f->logons[i] == Logon::Ask && std::find(f->logons.begin(), f->logons.end(), was) == f->logons.end()) sel = (guint)i;
+    }
+    gtk_drop_down_set_model(GTK_DROP_DOWN(f->logon), G_LIST_MODEL(list));
+    g_object_unref(list);
+    gtk_drop_down_set_selected(GTK_DROP_DOWN(f->logon), sel);
+}
+
+// Fields → address, and which fields the logon type needs.
 void net_update(NetForm *f)
 {
-    const NetType &t = kNetTypes[gtk_drop_down_get_selected(GTK_DROP_DOWN(f->type))];
-    gtk_entry_set_placeholder_text(GTK_ENTRY(f->port), t.port ? std::to_string(t.port).c_str() : "");
-    std::string uri = net_uri(f);
-    gtk_label_set_text(GTK_LABEL(f->preview), uri.c_str());
-    gtk_widget_set_sensitive(f->ok, !uri.empty());
-    if (!f->nameEdited) {
-        std::string server = trim(gtk_editable_get_text(GTK_EDITABLE(f->server)));
-        g_signal_handlers_block_matched(f->name, G_SIGNAL_MATCH_DATA, 0, 0, nullptr, nullptr, f);
-        gtk_editable_set_text(GTK_EDITABLE(f->name), server.c_str());
-        g_signal_handlers_unblock_matched(f->name, G_SIGNAL_MATCH_DATA, 0, 0, nullptr, nullptr, f);
+    if (f->syncing) return;
+    f->syncing = true;
+    const NetProtocol &p = net_protocols()[gtk_drop_down_get_selected(GTK_DROP_DOWN(f->protocol))];
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->port), p.port ? std::to_string(p.port).c_str() : "");
+    Logon l = current_logon(f);
+    bool user = l != Logon::Anonymous, password = l == Logon::Normal, key = l == Logon::KeyFile;
+    gtk_widget_set_visible(f->user, user);
+    gtk_widget_set_visible(f->userLabel, user);
+    gtk_widget_set_visible(f->password, password);
+    gtk_widget_set_visible(f->passwordLabel, password);
+    gtk_widget_set_visible(f->keyRow, key);
+    gtk_widget_set_visible(f->keyLabel, key);
+    gtk_widget_set_visible(f->note, key);
+    NetLocation n = form_location(f);
+    std::string uri = net_location_uri(n);
+    set_text_quietly(f, f->address, uri);
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->name), n.host.c_str());
+    gtk_widget_set_sensitive(f->ok, !uri.empty() && (!key || !n.keyFile.empty()));
+    f->syncing = false;
+}
+
+// Address → fields, for pasting a whole sftp://user@host:port/folder.
+void address_changed(NetForm *f)
+{
+    if (f->syncing) return;
+    NetLocation n;
+    if (!net_location_from_uri(text_of(f->address), n)) return;
+    f->syncing = true;
+    if ((int)gtk_drop_down_get_selected(GTK_DROP_DOWN(f->protocol)) != n.protocol) {
+        gtk_drop_down_set_selected(GTK_DROP_DOWN(f->protocol), (guint)n.protocol);
+        fill_logons(f);
     }
+    set_text_quietly(f, f->host, n.host);
+    set_text_quietly(f, f->port, n.port ? std::to_string(n.port) : std::string());
+    set_text_quietly(f, f->folder, n.folder);
+    if (!n.user.empty()) {
+        set_text_quietly(f, f->user, n.user);
+        if (current_logon(f) == Logon::Anonymous) gtk_drop_down_set_selected(GTK_DROP_DOWN(f->logon), 1);
+    }
+    f->syncing = false;
+    // Show the fields the logon needs, but leave the address as typed.
+    std::string typed = text_of(f->address);
+    net_update(f);
+    f->syncing = true;
+    set_text_quietly(f, f->address, typed);
+    f->syncing = false;
 }
 
 } // namespace
 
-void add_network_location_dialog(GtkWidget *parent, std::function<void(const Place &)> cb)
+void add_network_location_dialog(GtkWidget *parent, std::function<void(const NetLocation &, const std::string &)> cb)
 {
-    DialogParts p = make_dialog(parent, _("Add Network Location"), 460);
+    DialogParts p = make_dialog(parent, _("Add Network Location"), 480);
     GtkWidget *grid = gtk_grid_new();
     gtk_grid_set_row_spacing(GTK_GRID(grid), 8);
     gtk_grid_set_column_spacing(GTK_GRID(grid), 8);
@@ -599,63 +671,117 @@ void add_network_location_dialog(GtkWidget *parent, std::function<void(const Pla
         gtk_grid_attach(GTK_GRID(grid), l, 0, row, 1, 1);
         gtk_widget_set_hexpand(w, TRUE);
         gtk_grid_attach(GTK_GRID(grid), w, 1, row++, 1, 1);
+        return l;
     };
     auto form = std::make_shared<NetForm>();
     NetForm *f = form.get();
+
+    // Like FileZilla's Site Manager: protocol, host and port, then how to log on.
     std::vector<const char *> labels;
-    for (auto &t : kNetTypes) labels.push_back(_(t.label));
+    for (auto &pr : net_protocols()) labels.push_back(_(pr.label));
     labels.push_back(nullptr);
-    f->type = gtk_drop_down_new_from_strings(labels.data());
-    addRow(_("Type:"), f->type);
-    f->server = gtk_entry_new();
-    gtk_entry_set_placeholder_text(GTK_ENTRY(f->server), "example.com");
-    addRow(_("Server:"), f->server);
+    f->protocol = gtk_drop_down_new_from_strings(labels.data());
+    addRow(_("Protocol:"), f->protocol);
+    GtkWidget *hostRow = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);
+    f->host = gtk_entry_new();
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->host), "example.com");
+    gtk_widget_set_hexpand(f->host, TRUE);
+    gtk_box_append(GTK_BOX(hostRow), f->host);
+    GtkWidget *portLabel = gtk_label_new_with_mnemonic(_("Port:"));
+    gtk_box_append(GTK_BOX(hostRow), portLabel);
     f->port = gtk_entry_new();
     gtk_entry_set_input_purpose(GTK_ENTRY(f->port), GTK_INPUT_PURPOSE_DIGITS);
+    gtk_editable_set_width_chars(GTK_EDITABLE(f->port), 6);
     gtk_editable_set_max_width_chars(GTK_EDITABLE(f->port), 6);
-    addRow(_("Port:"), f->port);
+    gtk_widget_set_hexpand(f->port, FALSE);
+    gtk_label_set_mnemonic_widget(GTK_LABEL(portLabel), f->port);
+    gtk_box_append(GTK_BOX(hostRow), f->port);
+    GtkWidget *hostLabel = addRow(_("Host:"), hostRow);
+    gtk_label_set_mnemonic_widget(GTK_LABEL(hostLabel), f->host);
+    f->logon = gtk_drop_down_new(nullptr, nullptr);
+    addRow(_("Logon type:"), f->logon);
     f->user = gtk_entry_new();
-    addRow(_("User:"), f->user);
+    f->userLabel = addRow(_("User:"), f->user);
+    f->password = gtk_password_entry_new();
+    gtk_password_entry_set_show_peek_icon(GTK_PASSWORD_ENTRY(f->password), TRUE);
+    f->passwordLabel = addRow(_("Password:"), f->password);
+    f->keyRow = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 4);
+    f->key = gtk_entry_new();
+    gtk_widget_set_hexpand(f->key, TRUE);
+    GtkWidget *browse = gtk_button_new_with_mnemonic(_("Browse…"));
+    gtk_box_append(GTK_BOX(f->keyRow), f->key);
+    gtk_box_append(GTK_BOX(f->keyRow), browse);
+    f->keyLabel = addRow(_("Key file:"), f->keyRow);
+    gtk_label_set_mnemonic_widget(GTK_LABEL(f->keyLabel), f->key);
     f->folder = gtk_entry_new();
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->folder), "/");
     addRow(_("Folder:"), f->folder);
     f->name = gtk_entry_new();
     addRow(_("Name:"), f->name);
-    f->preview = gtk_label_new("");
-    gtk_label_set_xalign(GTK_LABEL(f->preview), 0);
-    gtk_label_set_selectable(GTK_LABEL(f->preview), TRUE);
-    gtk_label_set_ellipsize(GTK_LABEL(f->preview), PANGO_ELLIPSIZE_MIDDLE);
-    gtk_widget_add_css_class(f->preview, "dim-label");
-    addRow(_("Location:"), f->preview);
+    f->address = gtk_entry_new();
+    gtk_entry_set_placeholder_text(GTK_ENTRY(f->address), "sftp://user@example.com/folder");
+    gtk_widget_set_tooltip_text(f->address, _("Type or paste an address to fill in the fields above."));
+    addRow(_("Address:"), f->address);
     gtk_box_append(GTK_BOX(p.content), grid);
-    for (GtkWidget *w : {f->name, f->type, f->server, f->port, f->user, f->folder}) g_object_ref(w);
+    f->note = gtk_label_new(_("The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to "
+                              "~/.ssh/config."));
+    gtk_label_set_wrap(GTK_LABEL(f->note), TRUE);
+    gtk_label_set_xalign(GTK_LABEL(f->note), 0);
+    gtk_widget_set_margin_top(f->note, 8);
+    gtk_widget_add_css_class(f->note, "dim-label");
+    gtk_box_append(GTK_BOX(p.content), f->note);
+    for (GtkWidget *w : {f->protocol, f->host, f->port, f->logon, f->user, f->password, f->key, f->folder, f->name, f->address})
+        g_object_ref(w);
 
     GtkWidget *cancel = add_button(p, _("_Cancel"));
     f->ok = add_button(p, _("_Add"), true);
     gtk_window_set_default_widget(GTK_WINDOW(p.window), f->ok);
-    for (GtkWidget *e : {f->server, f->port, f->user, f->folder, f->name}) gtk_entry_set_activates_default(GTK_ENTRY(e), TRUE);
-    for (GtkWidget *e : {f->server, f->port, f->user, f->folder})
+    for (GtkWidget *e : {f->host, f->port, f->user, f->key, f->folder, f->name, f->address})
+        gtk_entry_set_activates_default(GTK_ENTRY(e), TRUE);
+    for (GtkWidget *e : {f->host, f->port, f->user, f->key, f->folder})
         g_signal_connect(e, "changed", CB([](GtkEditable *, gpointer d) { net_update(static_cast<NetForm *>(d)); }), f);
-    g_signal_connect(f->type, "notify::selected", CB([](GObject *, GParamSpec *, gpointer d) { net_update(static_cast<NetForm *>(d)); }), f);
-    g_signal_connect(f->name, "changed", CB([](GtkEditable *e, gpointer d) {
-        static_cast<NetForm *>(d)->nameEdited = *gtk_editable_get_text(e) != 0;
+    g_signal_connect(f->address, "changed", CB([](GtkEditable *, gpointer d) { address_changed(static_cast<NetForm *>(d)); }), f);
+    g_signal_connect(f->protocol, "notify::selected", CB([](GObject *, GParamSpec *, gpointer d) {
+        auto *nf = static_cast<NetForm *>(d);
+        if (nf->syncing) return;
+        nf->syncing = true;
+        fill_logons(nf);
+        nf->syncing = false;
+        net_update(nf);
     }), f);
+    g_signal_connect(f->logon, "notify::selected", CB([](GObject *, GParamSpec *, gpointer d) { net_update(static_cast<NetForm *>(d)); }), f);
+    g_signal_connect(browse, "clicked", CB([](GtkButton *b, gpointer entry) {
+        GtkFileDialog *fd = gtk_file_dialog_new();
+        gtk_file_dialog_set_title(fd, _("Choose a Key File"));
+        Ref<GFile> ssh(g_file_new_for_path((home_dir() + "/.ssh").c_str()));
+        gtk_file_dialog_set_initial_folder(fd, ssh.get());
+        gtk_file_dialog_open(fd, window_of(GTK_WIDGET(b)), nullptr, [](GObject *src, GAsyncResult *res, gpointer e) {
+            GFile *file = gtk_file_dialog_open_finish(GTK_FILE_DIALOG(src), res, nullptr);
+            if (file) {
+                char *path = g_file_get_path(file);
+                if (path) gtk_editable_set_text(GTK_EDITABLE(e), path);
+                g_free(path);
+                g_object_unref(file);
+            }
+            g_object_unref(e);
+        }, g_object_ref(entry));
+        g_object_unref(fd);
+    }), f->key);
     g_object_set_data_full(G_OBJECT(p.window), "beluga-net-form", new std::shared_ptr<NetForm>(form),
                            [](gpointer d) { delete static_cast<std::shared_ptr<NetForm> *>(d); });
+    fill_logons(f);
     net_update(f);
 
     on_click_close(cancel, p.window, nullptr);
     on_click_close(f->ok, p.window, [form, cb] {
-        NetForm *f = form.get();
-        Place pl;
-        pl.uri = net_uri(f);
-        if (pl.uri.empty()) return;
-        pl.label = trim(gtk_editable_get_text(GTK_EDITABLE(f->name)));
-        if (pl.label.empty()) pl.label = trim(gtk_editable_get_text(GTK_EDITABLE(f->server)));
-        pl.icon = "folder-remote";
-        if (cb) cb(pl);
+        NetForm *nf = form.get();
+        NetLocation n = form_location(nf);
+        if (net_location_uri(n).empty()) return;
+        std::string name = text_of(nf->name);
+        if (cb) cb(n, name.empty() ? n.host : name);
     });
     gtk_window_present(GTK_WINDOW(p.window));
-    gtk_widget_grab_focus(f->server);
+    gtk_widget_grab_focus(f->host);
 }
 
 // ---- view display style -----------------------------------------------------------------------

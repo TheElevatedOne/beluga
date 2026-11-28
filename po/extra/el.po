@@ -1428,3 +1428,42 @@ msgstr "Εξυπηρετητής:"
 
 msgid "Port:"
 msgstr "Θύρα:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP μέσω TLS (ρητό)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP μέσω TLS (σιωπηρό)"
+
+msgid "Normal"
+msgstr "Κανονική"
+
+msgid "Ask for password"
+msgstr "Ερώτηση για κωδικό πρόσβασης"
+
+msgid "Key file"
+msgstr "Αρχείο κλειδιού"
+
+msgid "Protocol:"
+msgstr "Πρωτόκολλο:"
+
+msgid "Host:"
+msgstr "Υπολογιστής:"
+
+msgid "Logon type:"
+msgstr "Τύπος σύνδεσης:"
+
+msgid "Key file:"
+msgstr "Αρχείο κλειδιού:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Πληκτρολογήστε ή επικολλήστε μια διεύθυνση για να συμπληρωθούν τα παραπάνω πεδία."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Η σύνδεση SFTP χρησιμοποιεί τις ρυθμίσεις του ssh, γι' αυτό το Beluga προσθέτει μια καταχώριση Host για αυτό το κλειδί στο ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Επιλογή αρχείου κλειδιού"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Αδυναμία προσθήκης του κλειδιού στο ~/.ssh/config."

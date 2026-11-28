@@ -1706,3 +1706,45 @@ msgstr "ပို့တ်:"
 
 msgid "Folder:"
 msgstr "ဖိုင်တွဲ:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "TLS ဖြင့် FTP (ထင်ရှားသော)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS ဖြင့် FTP (သွယ်ဝိုက်သော)"
+
+msgid "Anonymous"
+msgstr "အမည်မသိ"
+
+msgid "Normal"
+msgstr "ပုံမှန်"
+
+msgid "Ask for password"
+msgstr "စကားဝှက်မေးရန်"
+
+msgid "Key file"
+msgstr "သော့ဖိုင်"
+
+msgid "Protocol:"
+msgstr "ပရိုတိုကော:"
+
+msgid "Host:"
+msgstr "ဟို့စ်:"
+
+msgid "Logon type:"
+msgstr "ဝင်ရောက်မှုအမျိုးအစား:"
+
+msgid "Key file:"
+msgstr "သော့ဖိုင်:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "အထက်ပါအကွက်များ ဖြည့်ရန် လိပ်စာကို ရိုက်ပါ သို့မဟုတ် ကူးထည့်ပါ။"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP ချိတ်ဆက်မှုသည် ssh ၏ ဆက်တင်များကို သုံးသောကြောင့် Beluga က ဤသော့အတွက် Host ထည့်သွင်းချက်ကို ~/.ssh/config သို့ ထည့်သည်။"
+
+msgid "Choose a Key File"
+msgstr "သော့ဖိုင် ရွေးရန်"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "သော့ကို ~/.ssh/config သို့ ထည့်၍မရပါ။"

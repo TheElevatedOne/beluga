@@ -1423,3 +1423,42 @@ msgstr "مۇلازىمېتىر:"
 
 msgid "Port:"
 msgstr "ئېغىز:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "TLS ئارقىلىق FTP (ئوچۇق)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS ئارقىلىق FTP (يوشۇرۇن)"
+
+msgid "Normal"
+msgstr "ئادەتتىكى"
+
+msgid "Ask for password"
+msgstr "ئىم سورا"
+
+msgid "Key file"
+msgstr "ئاچقۇچ ھۆججىتى"
+
+msgid "Protocol:"
+msgstr "كېلىشىم:"
+
+msgid "Host:"
+msgstr "باش ماشىنا:"
+
+msgid "Logon type:"
+msgstr "كىرىش تىپى:"
+
+msgid "Key file:"
+msgstr "ئاچقۇچ ھۆججىتى:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "يۇقىرىدىكى بۆلەكلەرنى تولدۇرۇش ئۈچۈن ئادرېس كىرگۈزۈڭ ياكى چاپلاڭ."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP باغلىنىشى ssh تەڭشەكلىرىنى ئىشلىتىدۇ، شۇڭا Beluga بۇ ئاچقۇچ ئۈچۈن ‎~/.ssh/config غا Host تۈرى قوشىدۇ."
+
+msgid "Choose a Key File"
+msgstr "ئاچقۇچ ھۆججىتى تاللاڭ"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "ئاچقۇچنى ‎~/.ssh/config غا قوشالمىدى."

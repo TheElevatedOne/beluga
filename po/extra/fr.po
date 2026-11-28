@@ -1742,3 +1742,42 @@ msgstr "Serveur :"
 
 msgid "Port:"
 msgstr "Port :"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP sur TLS (explicite)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP sur TLS (implicite)"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Demander le mot de passe"
+
+msgid "Key file"
+msgstr "Fichier de clé"
+
+msgid "Protocol:"
+msgstr "Protocole :"
+
+msgid "Host:"
+msgstr "Hôte :"
+
+msgid "Logon type:"
+msgstr "Type d'authentification :"
+
+msgid "Key file:"
+msgstr "Fichier de clé :"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Saisissez ou collez une adresse pour remplir les champs ci-dessus."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "La connexion SFTP utilise les réglages de ssh, Beluga ajoute donc une entrée Host pour cette clé dans ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Choisir un fichier de clé"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Impossible d'ajouter la clé à ~/.ssh/config."

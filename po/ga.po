@@ -225,6 +225,18 @@ msgstr "Fotheidil:"
 msgid "Chapters:"
 msgstr "Caibidlí:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP thar TLS (follasach)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP thar TLS (intuigthe)"
+
+msgid "Windows share (SMB)"
+msgstr "Comhroinnt Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV slán"
+
 msgid "Places"
 msgstr "Áiteanna"
 
@@ -838,32 +850,59 @@ msgstr "_Cuir leis"
 msgid "_Save"
 msgstr "_Sábháil"
 
-msgid "Windows share (SMB)"
-msgstr "Comhroinnt Windows (SMB)"
+msgid "Anonymous"
+msgstr "Gan Ainm"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV slán"
+msgid "Normal"
+msgstr "Gnáth"
+
+msgid "Ask for password"
+msgstr "Iarr focal faire"
+
+msgid "Key file"
+msgstr "Comhad eochrach"
 
 msgid "Add Network Location"
 msgstr "Cuir suíomh líonra leis"
 
-msgid "Type:"
-msgstr "Cineál:"
-
-msgid "Server:"
-msgstr "Freastalaí:"
+msgid "Protocol:"
+msgstr "Prótacal:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Óstach:"
+
+msgid "Logon type:"
+msgstr "Cineál logála isteach:"
+
 msgid "User:"
 msgstr "Úsáideoir:"
+
+msgid "Password:"
+msgstr "Focal Faire:"
+
+msgid "Key file:"
+msgstr "Comhad eochrach:"
 
 msgid "Folder:"
 msgstr "Fillteán:"
 
 msgid "Name:"
 msgstr "Ainm:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Clóscríobh nó greamaigh seoladh chun na réimsí thuas a líonadh."
+
+msgid "Address:"
+msgstr "Seoladh:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Úsáideann an ceangal SFTP socruithe ssh, mar sin cuireann Beluga iontráil Host don eochair seo le ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Roghnaigh comhad eochrach"
 
 msgid "View Display Style"
 msgstr "Stíl Taispeána Féach"
@@ -1184,6 +1223,9 @@ msgstr "Ábhar:"
 
 msgid "Size:"
 msgstr "Méid:"
+
+msgid "Type:"
+msgstr "Cineál:"
 
 msgid "Folder"
 msgstr "Fillteán"
@@ -1513,6 +1555,9 @@ msgstr "Ní féidir é seo a chealú."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "An mbogfar %s go dtí an bruscar?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Níorbh fhéidir an eochair a chur le ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

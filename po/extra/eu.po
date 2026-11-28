@@ -1428,3 +1428,42 @@ msgstr "Zerbitzaria:"
 
 msgid "Port:"
 msgstr "Ataka:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP TLS bidez (esplizitua)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP TLS bidez (inplizitua)"
+
+msgid "Normal"
+msgstr "Arrunta"
+
+msgid "Ask for password"
+msgstr "Galdetu pasahitza"
+
+msgid "Key file"
+msgstr "Gako-fitxategia"
+
+msgid "Protocol:"
+msgstr "Protokoloa:"
+
+msgid "Host:"
+msgstr "Ostalaria:"
+
+msgid "Logon type:"
+msgstr "Saio-hasiera mota:"
+
+msgid "Key file:"
+msgstr "Gako-fitxategia:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Idatzi edo itsatsi helbide bat goiko eremuak betetzeko."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP konexioak ssh-ren ezarpenak erabiltzen ditu, beraz Beluga-k Host sarrera bat gehitzen du gako honentzat ~/.ssh/config fitxategian."
+
+msgid "Choose a Key File"
+msgstr "Aukeratu gako-fitxategi bat"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Ezin izan da gakoa ~/.ssh/config-era gehitu."

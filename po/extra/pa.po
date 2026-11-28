@@ -1487,3 +1487,42 @@ msgstr "ਸਰਵਰ:"
 
 msgid "Port:"
 msgstr "ਪੋਰਟ:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "TLS ਰਾਹੀਂ FTP (ਸਪਸ਼ਟ)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS ਰਾਹੀਂ FTP (ਅਪਰੋਖ)"
+
+msgid "Normal"
+msgstr "ਆਮ"
+
+msgid "Ask for password"
+msgstr "ਪਾਸਵਰਡ ਪੁੱਛੋ"
+
+msgid "Key file"
+msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ"
+
+msgid "Protocol:"
+msgstr "ਪਰੋਟੋਕੋਲ:"
+
+msgid "Host:"
+msgstr "ਹੋਸਟ:"
+
+msgid "Logon type:"
+msgstr "ਲਾਗਆਨ ਕਿਸਮ:"
+
+msgid "Key file:"
+msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "ਉੱਪਰਲੇ ਖੇਤਰ ਭਰਨ ਲਈ ਸਿਰਨਾਵਾਂ ਲਿਖੋ ਜਾਂ ਚਿਪਕਾਓ।"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP ਕਨੈਕਸ਼ਨ ssh ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਰਤਦਾ ਹੈ, ਇਸ ਲਈ Beluga ਇਸ ਕੁੰਜੀ ਲਈ ~/.ssh/config ਵਿੱਚ Host ਐਂਟਰੀ ਜੋੜਦਾ ਹੈ।"
+
+msgid "Choose a Key File"
+msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ ਚੁਣੋ"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "ਕੁੰਜੀ ਨੂੰ ~/.ssh/config ਵਿੱਚ ਜੋੜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"

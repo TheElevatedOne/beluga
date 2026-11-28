@@ -1417,3 +1417,42 @@ msgstr "伺服器："
 
 msgid "Port:"
 msgstr "連接埠："
+
+msgid "FTP over TLS (explicit)"
+msgstr "透過 TLS 的 FTP (明確)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "透過 TLS 的 FTP (隱含)"
+
+msgid "Normal"
+msgstr "一般"
+
+msgid "Ask for password"
+msgstr "詢問密碼"
+
+msgid "Key file"
+msgstr "金鑰檔案"
+
+msgid "Protocol:"
+msgstr "協定："
+
+msgid "Host:"
+msgstr "主機："
+
+msgid "Logon type:"
+msgstr "登入類型："
+
+msgid "Key file:"
+msgstr "金鑰檔案："
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "輸入或貼上位址以填入上方欄位。"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP 連線使用 ssh 的設定，因此 Beluga 會在 ~/.ssh/config 中為此金鑰新增 Host 項目。"
+
+msgid "Choose a Key File"
+msgstr "選擇金鑰檔案"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "無法將金鑰新增至 ~/.ssh/config。"

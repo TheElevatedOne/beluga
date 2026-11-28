@@ -224,6 +224,18 @@ msgstr "ਉਪਸਿਰਲੇਖ:"
 msgid "Chapters:"
 msgstr "ਅਧਿਆਇ:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS ਰਾਹੀਂ FTP (ਸਪਸ਼ਟ)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS ਰਾਹੀਂ FTP (ਅਪਰੋਖ)"
+
+msgid "Windows share (SMB)"
+msgstr "ਵਿੰਡੋਜ਼ ਸਾਂਝ (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "ਸੁਰੱਖਿਅਤ WebDAV"
+
 msgid "Places"
 msgstr "ਥਾਵਾਂ"
 
@@ -828,32 +840,59 @@ msgstr "ਜੋੜੋ (_A)"
 msgid "_Save"
 msgstr "ਸੰਭਾਲੋ (_S)"
 
-msgid "Windows share (SMB)"
-msgstr "ਵਿੰਡੋਜ਼ ਸਾਂਝ (SMB)"
+msgid "Anonymous"
+msgstr "ਅਣਪਛਾਤਾ(A)"
 
-msgid "Secure WebDAV"
-msgstr "ਸੁਰੱਖਿਅਤ WebDAV"
+msgid "Normal"
+msgstr "ਆਮ"
+
+msgid "Ask for password"
+msgstr "ਪਾਸਵਰਡ ਪੁੱਛੋ"
+
+msgid "Key file"
+msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ"
 
 msgid "Add Network Location"
 msgstr "ਨੈੱਟਵਰਕ ਟਿਕਾਣਾ ਜੋੜੋ"
 
-msgid "Type:"
-msgstr "ਕਿਸਮ:"
-
-msgid "Server:"
-msgstr "ਸਰਵਰ:"
+msgid "Protocol:"
+msgstr "ਪਰੋਟੋਕੋਲ:"
 
 msgid "Port:"
 msgstr "ਪੋਰਟ:"
 
+msgid "Host:"
+msgstr "ਹੋਸਟ:"
+
+msgid "Logon type:"
+msgstr "ਲਾਗਆਨ ਕਿਸਮ:"
+
 msgid "User:"
 msgstr "ਵਰਤੋਂਕਾਰ:"
+
+msgid "Password:"
+msgstr "ਪਾਸਵਰਡ:"
+
+msgid "Key file:"
+msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ:"
 
 msgid "Folder:"
 msgstr "ਫ਼ੋਲਡਰ:"
 
 msgid "Name:"
 msgstr "ਨਾਂ(N):"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "ਉੱਪਰਲੇ ਖੇਤਰ ਭਰਨ ਲਈ ਸਿਰਨਾਵਾਂ ਲਿਖੋ ਜਾਂ ਚਿਪਕਾਓ।"
+
+msgid "Address:"
+msgstr "ਐਡਰੈੱਸ:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP ਕਨੈਕਸ਼ਨ ssh ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਵਰਤਦਾ ਹੈ, ਇਸ ਲਈ Beluga ਇਸ ਕੁੰਜੀ ਲਈ ~/.ssh/config ਵਿੱਚ Host ਐਂਟਰੀ ਜੋੜਦਾ ਹੈ।"
+
+msgid "Choose a Key File"
+msgstr "ਕੁੰਜੀ ਫ਼ਾਈਲ ਚੁਣੋ"
 
 msgid "View Display Style"
 msgstr "ਦਿਖਾਉਣ ਸਟਾਈਲ ਵੇਖੋ"
@@ -1162,6 +1201,9 @@ msgstr "ਸਮੱਗਰੀ:"
 
 msgid "Size:"
 msgstr "ਆਕਾਰ:"
+
+msgid "Type:"
+msgstr "ਕਿਸਮ:"
 
 msgid "Folder"
 msgstr "ਫ਼ੋਲਡਰ"
@@ -1491,6 +1533,9 @@ msgstr "ਇਸਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲਿਆ ਜਾ ਸਕਦਾ�
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜਣਾ ਹੈ?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "ਕੁੰਜੀ ਨੂੰ ~/.ssh/config ਵਿੱਚ ਜੋੜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"
 
 #, c-format
 msgid "Could not run “%s”."

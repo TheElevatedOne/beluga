@@ -222,6 +222,18 @@ msgstr "زیرنویس‌ها:"
 msgid "Chapters:"
 msgstr "فصل‌ها:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP روی TLS (صریح)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP روی TLS (ضمنی)"
+
+msgid "Windows share (SMB)"
+msgstr "اشتراک ویندوز (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV امن"
+
 msgid "Places"
 msgstr "مکان‌ها"
 
@@ -826,32 +838,59 @@ msgstr "_افزودن"
 msgid "_Save"
 msgstr "_ذخیره"
 
-msgid "Windows share (SMB)"
-msgstr "اشتراک ویندوز (SMB)"
+msgid "Anonymous"
+msgstr "ناشناس"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV امن"
+msgid "Normal"
+msgstr "عادی"
+
+msgid "Ask for password"
+msgstr "پرسیدن گذرواژه"
+
+msgid "Key file"
+msgstr "پرونده کلید"
 
 msgid "Add Network Location"
 msgstr "افزودن مکان شبکه"
 
-msgid "Type:"
-msgstr "نوع:"
-
-msgid "Server:"
-msgstr "کارساز:"
+msgid "Protocol:"
+msgstr "پروتکل:"
 
 msgid "Port:"
 msgstr "درگاه:"
 
+msgid "Host:"
+msgstr "میزبان:"
+
+msgid "Logon type:"
+msgstr "نوع ورود:"
+
 msgid "User:"
 msgstr "کاربر:"
+
+msgid "Password:"
+msgstr "گذرواژه:"
+
+msgid "Key file:"
+msgstr "پرونده کلید:"
 
 msgid "Folder:"
 msgstr "پوشه:"
 
 msgid "Name:"
 msgstr "نام:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "برای پر کردن فیلدهای بالا، نشانی را بنویسید یا بچسبانید."
+
+msgid "Address:"
+msgstr "نشانی‌ها:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "اتصال SFTP از تنظیمات ssh استفاده می‌کند، پس Beluga یک ورودی Host برای این کلید به ‎~/.ssh/config اضافه می‌کند."
+
+msgid "Choose a Key File"
+msgstr "انتخاب پرونده کلید"
 
 msgid "View Display Style"
 msgstr "سبک نمایش نما"
@@ -1160,6 +1199,9 @@ msgstr "محتوا:"
 
 msgid "Size:"
 msgstr "اندازه:"
+
+msgid "Type:"
+msgstr "نوع:"
 
 msgid "Folder"
 msgstr "پوشه"
@@ -1489,6 +1531,9 @@ msgstr "این کار برگشت‌پذیر نیست."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s به زباله‌دان منتقل شود؟"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "افزودن کلید به ‎~/.ssh/config ممکن نشد."
 
 #, c-format
 msgid "Could not run “%s”."

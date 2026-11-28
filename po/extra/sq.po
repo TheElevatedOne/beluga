@@ -1771,3 +1771,45 @@ msgstr "Portë:"
 
 msgid "Folder:"
 msgstr "Dosje:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP përmes TLS (i shprehur)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP përmes TLS (i nënkuptuar)"
+
+msgid "Anonymous"
+msgstr "Anonim"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Kërko fjalëkalim"
+
+msgid "Key file"
+msgstr "Kartelë kyçi"
+
+msgid "Protocol:"
+msgstr "Protokoll:"
+
+msgid "Host:"
+msgstr "Strehë:"
+
+msgid "Logon type:"
+msgstr "Lloj hyrjeje:"
+
+msgid "Key file:"
+msgstr "Kartelë kyçi:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Shtypni ose ngjitni një adresë që të plotësohen fushat më sipër."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Lidhja SFTP përdor rregullimet e ssh-së, ndaj Beluga shton një zë Host për këtë kyç te ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Zgjidhni një kartelë kyçi"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Kyçi s’u shtua dot te ~/.ssh/config."

@@ -219,6 +219,18 @@ msgstr "خەت ئاستى:"
 msgid "Chapters:"
 msgstr "بابلار:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS ئارقىلىق FTP (ئوچۇق)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS ئارقىلىق FTP (يوشۇرۇن)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows ھەمبەھىرى (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "بىخەتەر WebDAV"
+
 msgid "Places"
 msgstr "ئورۇن"
 
@@ -820,32 +832,59 @@ msgstr "قوش(_A)"
 msgid "_Save"
 msgstr "ساقلا(_S)"
 
-msgid "Windows share (SMB)"
-msgstr "Windows ھەمبەھىرى (SMB)"
+msgid "Anonymous"
+msgstr "ئاتسىز"
 
-msgid "Secure WebDAV"
-msgstr "بىخەتەر WebDAV"
+msgid "Normal"
+msgstr "ئادەتتىكى"
+
+msgid "Ask for password"
+msgstr "ئىم سورا"
+
+msgid "Key file"
+msgstr "ئاچقۇچ ھۆججىتى"
 
 msgid "Add Network Location"
 msgstr "تور ئورنى قوش"
 
-msgid "Type:"
-msgstr "تۈرى:"
-
-msgid "Server:"
-msgstr "مۇلازىمېتىر:"
+msgid "Protocol:"
+msgstr "كېلىشىم:"
 
 msgid "Port:"
 msgstr "ئېغىز:"
 
+msgid "Host:"
+msgstr "باش ماشىنا:"
+
+msgid "Logon type:"
+msgstr "كىرىش تىپى:"
+
 msgid "User:"
 msgstr "ئىشلەتكۈچى:"
+
+msgid "Password:"
+msgstr "ئىم:"
+
+msgid "Key file:"
+msgstr "ئاچقۇچ ھۆججىتى:"
 
 msgid "Folder:"
 msgstr "قىسقۇچ:"
 
 msgid "Name:"
 msgstr "ئاتى(N):"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "يۇقىرىدىكى بۆلەكلەرنى تولدۇرۇش ئۈچۈن ئادرېس كىرگۈزۈڭ ياكى چاپلاڭ."
+
+msgid "Address:"
+msgstr "ئادرېس:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP باغلىنىشى ssh تەڭشەكلىرىنى ئىشلىتىدۇ، شۇڭا Beluga بۇ ئاچقۇچ ئۈچۈن ‎~/.ssh/config غا Host تۈرى قوشىدۇ."
+
+msgid "Choose a Key File"
+msgstr "ئاچقۇچ ھۆججىتى تاللاڭ"
 
 msgid "View Display Style"
 msgstr "كۆرۈنۈش كۆرسىتىش ئۇسلۇبى"
@@ -1150,6 +1189,9 @@ msgstr "مەزمۇن:"
 
 msgid "Size:"
 msgstr "چوڭلۇقى:"
+
+msgid "Type:"
+msgstr "تۈرى:"
 
 msgid "Folder"
 msgstr "قىسقۇچ"
@@ -1479,6 +1521,9 @@ msgstr "بۇنى يېنىۋالغىلى بولمايدۇ."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s نى ئەخلەت ساندۇقىغا يۆتكەمسىز؟"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "ئاچقۇچنى ‎~/.ssh/config غا قوشالمىدى."
 
 #, c-format
 msgid "Could not run “%s”."

@@ -675,10 +675,11 @@ void gui_tests(GtkApplication *app)
             }
             check(editor != nullptr, "Configure Toolbars window");
         }
-        // Add Network Location: the fields make an sftp:// address, OK adds it to Places.
+        // Add Network Location: a pasted address fills the fields; the fields make the address again.
         {
-            Place got;
-            add_network_location_dialog(w->widget(), [&got](const Place &pl) { got = pl; });
+            NetLocation got;
+            std::string gotName;
+            add_network_location_dialog(w->widget(), [&](const NetLocation &n, const std::string &name) { got = n; gotName = name; });
             wait_ms(200);
             GtkWindow *dlg = nullptr;
             GList *tops = gtk_window_list_toplevels();
@@ -687,31 +688,65 @@ void gui_tests(GtkApplication *app)
                 if (t && !strcmp(t, _("Add Network Location"))) dlg = GTK_WINDOW(l->data);
             }
             g_list_free(tops);
-            std::vector<GtkWidget *> entries;
-            GtkWidget *ok = nullptr;
+            GtkWidget *address = nullptr, *host = nullptr, *ok = nullptr;
+            std::vector<GtkWidget *> drops;
             std::function<void(GtkWidget *)> walk = [&](GtkWidget *x) {
-                if (GTK_IS_ENTRY(x)) entries.push_back(x);
+                if (GTK_IS_ENTRY(x)) {
+                    const char *ph = gtk_entry_get_placeholder_text(GTK_ENTRY(x));
+                    if (ph && starts_with(ph, "sftp://")) address = x;
+                    if (ph && !strcmp(ph, "example.com")) host = x;
+                }
                 if (GTK_IS_BUTTON(x) && gtk_widget_has_css_class(x, "suggested-action")) ok = x;
+                if (GTK_IS_DROP_DOWN(x)) drops.push_back(x);
                 for (GtkWidget *ch = gtk_widget_get_first_child(x); ch; ch = gtk_widget_get_next_sibling(ch)) walk(ch);
             };
             if (dlg) walk(GTK_WIDGET(dlg));
-            bool added = false;
             const std::string want = "sftp://me@example.com:2222/srv/data";
-            if (dlg && entries.size() == 5 && ok) {
-                // server, port, user, folder, name
-                gtk_editable_set_text(GTK_EDITABLE(entries[0]), "example.com");
-                gtk_editable_set_text(GTK_EDITABLE(entries[1]), "2222");
-                gtk_editable_set_text(GTK_EDITABLE(entries[2]), "me");
-                gtk_editable_set_text(GTK_EDITABLE(entries[3]), "srv/data");
+            bool filled = false;
+            if (dlg && address && host && ok) {
+                gtk_editable_set_text(GTK_EDITABLE(address), want.c_str());
                 wait_ms(100);
+                filled = std::string(gtk_editable_get_text(GTK_EDITABLE(host))) == "example.com";
                 shoot(GTK_WIDGET(dlg), "17-network-location");
+                if (drops.size() == 2) {
+                    // SFTP offers Normal, Ask for password, Key file.
+                    gtk_drop_down_set_selected(GTK_DROP_DOWN(drops[1]), 0);
+                    wait_ms(100);
+                    shoot(GTK_WIDGET(dlg), "17-network-location-password");
+                    gtk_drop_down_set_selected(GTK_DROP_DOWN(drops[1]), 2);
+                    wait_ms(100);
+                    shoot(GTK_WIDGET(dlg), "17-network-location-key");
+                    gtk_drop_down_set_selected(GTK_DROP_DOWN(drops[1]), 1);
+                    wait_ms(100);
+                }
                 g_signal_emit_by_name(ok, "clicked");
                 wait_ms(200);
-                added = got.uri == want && got.label == "example.com" && got.icon == "folder-remote";
             } else if (dlg) {
                 gtk_window_destroy(dlg);
             }
-            check(added, "Add Network Location makes " + want + " (got " + got.uri + ")");
+            check(filled && net_location_uri(got) == want && got.logon == Logon::Ask && gotName == "example.com",
+                  "Add Network Location: an address fills the fields and comes back (" + net_location_uri(got) + ")");
+            // Key files go into an ssh Host alias; adding it again replaces the block.
+            std::string cfg = g_root + "/ssh_config";
+            g_file_set_contents(cfg.c_str(), "Host other\n    User x\n", -1, nullptr);
+            NetLocation k;
+            k.host = "example.com";
+            k.user = "me";
+            k.port = 2222;
+            k.keyFile = "/home/me/.ssh/id_test";
+            k.logon = Logon::KeyFile;
+            bool w1 = write_ssh_alias(cfg, k, nullptr), w2 = write_ssh_alias(cfg, k, nullptr);
+            gchar *txt = nullptr;
+            g_file_get_contents(cfg.c_str(), &txt, nullptr, nullptr);
+            std::string t = txt ? txt : "";
+            g_free(txt);
+            size_t first = t.find("Host beluga-me-example.com");
+            check(w1 && w2 && starts_with(t, "Host other\n") && first != std::string::npos
+                      && t.find("Host beluga-me-example.com", first + 1) == std::string::npos
+                      && t.find("    IdentityFile \"/home/me/.ssh/id_test\"\n") != std::string::npos
+                      && t.find("    Port 2222\n") != std::string::npos
+                      && net_location_alias_uri(k) == "sftp://beluga-me-example.com/",
+                  "Key file logon: one Host alias in the ssh config, kept on a second add");
         }
         // Vim mode: motions, the three visual modes, counts, sequences with a timeout, the command line.
         {

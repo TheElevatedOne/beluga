@@ -1664,3 +1664,42 @@ msgstr "Cổng:"
 
 msgid "Folder:"
 msgstr "Thư mục:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP qua TLS (tường minh)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP qua TLS (ngầm định)"
+
+msgid "Normal"
+msgstr "Thông thường"
+
+msgid "Ask for password"
+msgstr "Hỏi mật khẩu"
+
+msgid "Key file"
+msgstr "Tệp khoá"
+
+msgid "Protocol:"
+msgstr "Giao thức:"
+
+msgid "Host:"
+msgstr "Máy chủ:"
+
+msgid "Logon type:"
+msgstr "Kiểu đăng nhập:"
+
+msgid "Key file:"
+msgstr "Tệp khoá:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Gõ hoặc dán một địa chỉ để điền các trường ở trên."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Kết nối SFTP dùng thiết lập của ssh, nên Beluga thêm một mục Host cho khoá này vào ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Chọn tệp khoá"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Không thể thêm khoá vào ~/.ssh/config."

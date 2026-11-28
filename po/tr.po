@@ -225,6 +225,18 @@ msgstr "Altyazılar:"
 msgid "Chapters:"
 msgstr "Bölümler:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS üzerinden FTP (açık)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS üzerinden FTP (örtük)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows paylaşımı (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Güvenli WebDAV"
+
 msgid "Places"
 msgstr "Yerler"
 
@@ -829,32 +841,59 @@ msgstr "_Ekle"
 msgid "_Save"
 msgstr "_Kaydet"
 
-msgid "Windows share (SMB)"
-msgstr "Windows paylaşımı (SMB)"
+msgid "Anonymous"
+msgstr "Anonim"
 
-msgid "Secure WebDAV"
-msgstr "Güvenli WebDAV"
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Parola sor"
+
+msgid "Key file"
+msgstr "Anahtar dosyası"
 
 msgid "Add Network Location"
 msgstr "Ağ Konumu Ekle"
 
-msgid "Type:"
-msgstr "Tür:"
-
-msgid "Server:"
-msgstr "Sunucu:"
+msgid "Protocol:"
+msgstr "Protokol:"
 
 msgid "Port:"
 msgstr "Bağlantı noktası:"
 
+msgid "Host:"
+msgstr "Ana makine:"
+
+msgid "Logon type:"
+msgstr "Oturum açma türü:"
+
 msgid "User:"
 msgstr "Kullanıcı:"
+
+msgid "Password:"
+msgstr "Parola:"
+
+msgid "Key file:"
+msgstr "Anahtar dosyası:"
 
 msgid "Folder:"
 msgstr "Klasör:"
 
 msgid "Name:"
 msgstr "Ad:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Yukarıdaki alanları doldurmak için bir adres yazın veya yapıştırın."
+
+msgid "Address:"
+msgstr "Adres:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP bağlantısı ssh ayarlarını kullanır, bu yüzden Beluga bu anahtar için ~/.ssh/config dosyasına bir Host girdisi ekler."
+
+msgid "Choose a Key File"
+msgstr "Anahtar Dosyası Seç"
 
 msgid "View Display Style"
 msgstr "Görünüm Stili"
@@ -1163,6 +1202,9 @@ msgstr "İçerik:"
 
 msgid "Size:"
 msgstr "Boyut:"
+
+msgid "Type:"
+msgstr "Tür:"
 
 msgid "Folder"
 msgstr "Klasör"
@@ -1492,6 +1534,9 @@ msgstr "Bu geri alınamaz."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s çöpe taşınsın mı?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Anahtar ~/.ssh/config dosyasına eklenemedi."
 
 #, c-format
 msgid "Could not run “%s”."

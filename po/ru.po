@@ -235,6 +235,18 @@ msgstr "Субтитры:"
 msgid "Chapters:"
 msgstr "Главы:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP через TLS (явный)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP через TLS (неявный)"
+
+msgid "Windows share (SMB)"
+msgstr "Общая папка Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Защищённый WebDAV"
+
 msgid "Places"
 msgstr "Точки входа"
 
@@ -845,32 +857,59 @@ msgstr "_Добавить"
 msgid "_Save"
 msgstr "_Сохранить"
 
-msgid "Windows share (SMB)"
-msgstr "Общая папка Windows (SMB)"
+msgid "Anonymous"
+msgstr "Подключиться анонимно"
 
-msgid "Secure WebDAV"
-msgstr "Защищённый WebDAV"
+msgid "Normal"
+msgstr "Обычный"
+
+msgid "Ask for password"
+msgstr "Запрашивать пароль"
+
+msgid "Key file"
+msgstr "Файл ключа"
 
 msgid "Add Network Location"
 msgstr "Добавить сетевое расположение"
 
-msgid "Type:"
-msgstr "Тип:"
-
-msgid "Server:"
-msgstr "Сервер:"
+msgid "Protocol:"
+msgstr "Протокол:"
 
 msgid "Port:"
 msgstr "Порт:"
 
+msgid "Host:"
+msgstr "Узел:"
+
+msgid "Logon type:"
+msgstr "Тип входа:"
+
 msgid "User:"
 msgstr "Владелец:"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Key file:"
+msgstr "Файл ключа:"
 
 msgid "Folder:"
 msgstr "Папка:"
 
 msgid "Name:"
 msgstr "Имя:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Введите или вставьте адрес, чтобы заполнить поля выше."
+
+msgid "Address:"
+msgstr "Адрес:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Подключение SFTP использует настройки ssh, поэтому Beluga добавляет для этого ключа запись Host в ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Выбор файла ключа"
 
 msgid "View Display Style"
 msgstr "Режим просмотра"
@@ -1187,6 +1226,9 @@ msgstr "Содержимое:"
 
 msgid "Size:"
 msgstr "Размер:"
+
+msgid "Type:"
+msgstr "Тип:"
 
 msgid "Folder"
 msgstr "Папка"
@@ -1516,6 +1558,9 @@ msgstr "Это действие нельзя отменить."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Переместить %s в корзину?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Не удалось добавить ключ в ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

@@ -1442,3 +1442,42 @@ msgstr "Serveris:"
 
 msgid "Port:"
 msgstr "Ports:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP caur TLS (tiešs)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP caur TLS (netiešs)"
+
+msgid "Normal"
+msgstr "Parasts"
+
+msgid "Ask for password"
+msgstr "Prasīt paroli"
+
+msgid "Key file"
+msgstr "Atslēgas datne"
+
+msgid "Protocol:"
+msgstr "Protokols:"
+
+msgid "Host:"
+msgstr "Resursdators:"
+
+msgid "Logon type:"
+msgstr "Pieteikšanās veids:"
+
+msgid "Key file:"
+msgstr "Atslēgas datne:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Ierakstiet vai ielīmējiet adresi, lai aizpildītu laukus augstāk."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP savienojums izmanto ssh iestatījumus, tāpēc Beluga pievieno šai atslēgai Host ierakstu datnē ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Izvēlieties atslēgas datni"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Neizdevās pievienot atslēgu datnei ~/.ssh/config."

@@ -1715,3 +1715,45 @@ msgstr "Port:"
 
 msgid "Folder:"
 msgstr "Tečka:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP praz TLS (jaŭny)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP praz TLS (niajaŭny)"
+
+msgid "Anonymous"
+msgstr "Ananimna"
+
+msgid "Normal"
+msgstr "Zvyčajny"
+
+msgid "Ask for password"
+msgstr "Pytać parol"
+
+msgid "Key file"
+msgstr "Fajl kluča"
+
+msgid "Protocol:"
+msgstr "Pratakol:"
+
+msgid "Host:"
+msgstr "Chost:"
+
+msgid "Logon type:"
+msgstr "Typ uvachodu:"
+
+msgid "Key file:"
+msgstr "Fajl kluča:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Uviadzicie albo ŭstaŭcie adras, kab zapoŭnić pali vyšej."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Zlučeńnie SFTP vykarystoŭvaje nalady ssh, tamu Beluga dadaje zapis Host dla hetaha kluča ŭ ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Vybierycie fajl kluča"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Nie ŭdałosia dadać kluč u ~/.ssh/config."

@@ -221,6 +221,18 @@ msgstr "துணைத்தலைப்புகள்:"
 msgid "Chapters:"
 msgstr "அத்தியாயங்கள்:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS வழியாக FTP (வெளிப்படை)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS வழியாக FTP (மறைமுக)"
+
+msgid "Windows share (SMB)"
+msgstr "விண்டோஸ் பகிர்வு (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "பாதுகாப்பான WebDAV"
+
 msgid "Places"
 msgstr "இடங்கள்"
 
@@ -825,32 +837,59 @@ msgstr "சேர் (_A)"
 msgid "_Save"
 msgstr "சேமி (_S)"
 
-msgid "Windows share (SMB)"
-msgstr "விண்டோஸ் பகிர்வு (SMB)"
+msgid "Anonymous"
+msgstr "பெயரில்லாமல் (A)"
 
-msgid "Secure WebDAV"
-msgstr "பாதுகாப்பான WebDAV"
+msgid "Normal"
+msgstr "இயல்பு"
+
+msgid "Ask for password"
+msgstr "கடவுச்சொல்லைக் கேள்"
+
+msgid "Key file"
+msgstr "சாவிக் கோப்பு"
 
 msgid "Add Network Location"
 msgstr "வலையமைப்பு இடத்தைச் சேர்"
 
-msgid "Type:"
-msgstr "வகை:"
-
-msgid "Server:"
-msgstr "சேவையகம்:"
+msgid "Protocol:"
+msgstr "நெறிமுறை:"
 
 msgid "Port:"
 msgstr "துறை:"
 
+msgid "Host:"
+msgstr "புரவலர்:"
+
+msgid "Logon type:"
+msgstr "உள்நுழைவு வகை:"
+
 msgid "User:"
 msgstr "பயனர்:"
+
+msgid "Password:"
+msgstr "கடவுச்சொல்:"
+
+msgid "Key file:"
+msgstr "சாவிக் கோப்பு:"
 
 msgid "Folder:"
 msgstr "அடைவு:"
 
 msgid "Name:"
 msgstr "பெயர்:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "மேலுள்ள புலங்களை நிரப்ப முகவரியைத் தட்டச்சு செய்யவும் அல்லது ஒட்டவும்."
+
+msgid "Address:"
+msgstr "முகவரி:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP இணைப்பு ssh-இன் அமைப்புகளைப் பயன்படுத்துவதால், Beluga இந்தச் சாவிக்கு ~/.ssh/config-இல் ஒரு Host பதிவைச் சேர்க்கிறது."
+
+msgid "Choose a Key File"
+msgstr "சாவிக் கோப்பைத் தேர்ந்தெடு"
 
 msgid "View Display Style"
 msgstr "காட்சி காட்டப்படும் விதம்"
@@ -1159,6 +1198,9 @@ msgstr "உள்ளடக்கம்:"
 
 msgid "Size:"
 msgstr "அளவு:"
+
+msgid "Type:"
+msgstr "வகை:"
 
 msgid "Folder"
 msgstr "அடைவு"
@@ -1488,6 +1530,9 @@ msgstr "இதைச் செயல்தவிர்க்க முடிய�
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s ஐக் குப்பைக்கு நகர்த்தவா?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "சாவியை ~/.ssh/config-இல் சேர்க்க முடியவில்லை."
 
 #, c-format
 msgid "Could not run “%s”."

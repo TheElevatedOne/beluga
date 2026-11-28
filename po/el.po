@@ -233,6 +233,18 @@ msgstr "Υπότιτλοι:"
 msgid "Chapters:"
 msgstr "Κεφάλαια:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP μέσω TLS (ρητό)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP μέσω TLS (σιωπηρό)"
+
+msgid "Windows share (SMB)"
+msgstr "Κοινόχρηστος φάκελος Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Ασφαλές WebDAV"
+
 msgid "Places"
 msgstr "Πίνακας θέσεων"
 
@@ -837,32 +849,59 @@ msgstr "_Προσθήκη"
 msgid "_Save"
 msgstr "_Αποθήκευση"
 
-msgid "Windows share (SMB)"
-msgstr "Κοινόχρηστος φάκελος Windows (SMB)"
+msgid "Anonymous"
+msgstr "Ανώνυμος"
 
-msgid "Secure WebDAV"
-msgstr "Ασφαλές WebDAV"
+msgid "Normal"
+msgstr "Κανονική"
+
+msgid "Ask for password"
+msgstr "Ερώτηση για κωδικό πρόσβασης"
+
+msgid "Key file"
+msgstr "Αρχείο κλειδιού"
 
 msgid "Add Network Location"
 msgstr "Προσθήκη τοποθεσίας δικτύου"
 
-msgid "Type:"
-msgstr "Τύπος:"
-
-msgid "Server:"
-msgstr "Εξυπηρετητής:"
+msgid "Protocol:"
+msgstr "Πρωτόκολλο:"
 
 msgid "Port:"
 msgstr "Θύρα:"
 
+msgid "Host:"
+msgstr "Υπολογιστής:"
+
+msgid "Logon type:"
+msgstr "Τύπος σύνδεσης:"
+
 msgid "User:"
 msgstr "Χρήστης:"
+
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+msgid "Key file:"
+msgstr "Αρχείο κλειδιού:"
 
 msgid "Folder:"
 msgstr "Φάκελος:"
 
 msgid "Name:"
 msgstr "Όνομα:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Πληκτρολογήστε ή επικολλήστε μια διεύθυνση για να συμπληρωθούν τα παραπάνω πεδία."
+
+msgid "Address:"
+msgstr "Διεύθυνση:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Η σύνδεση SFTP χρησιμοποιεί τις ρυθμίσεις του ssh, γι' αυτό το Beluga προσθέτει μια καταχώριση Host για αυτό το κλειδί στο ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Επιλογή αρχείου κλειδιού"
 
 msgid "View Display Style"
 msgstr "Στιλ εμφάνισης προβολής"
@@ -1171,6 +1210,9 @@ msgstr "Περιεχόμενα:"
 
 msgid "Size:"
 msgstr "Μέγεθος:"
+
+msgid "Type:"
+msgstr "Τύπος:"
 
 msgid "Folder"
 msgstr "Φάκελος"
@@ -1500,6 +1542,9 @@ msgstr "Αυτό δεν αναιρείται."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Μετακίνηση του %s στα απορρίμματα;"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Αδυναμία προσθήκης του κλειδιού στο ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

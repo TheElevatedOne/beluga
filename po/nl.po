@@ -222,6 +222,18 @@ msgstr "Ondertitels:"
 msgid "Chapters:"
 msgstr "Hoofdstukken:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP over TLS (expliciet)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP over TLS (impliciet)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-share (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Beveiligde WebDAV"
+
 msgid "Places"
 msgstr "Plaatsen"
 
@@ -826,32 +838,59 @@ msgstr "_Toevoegen"
 msgid "_Save"
 msgstr "Op_slaan"
 
-msgid "Windows share (SMB)"
-msgstr "Windows-share (SMB)"
+msgid "Anonymous"
+msgstr "Anoniem"
 
-msgid "Secure WebDAV"
-msgstr "Beveiligde WebDAV"
+msgid "Normal"
+msgstr "Normaal"
+
+msgid "Ask for password"
+msgstr "Om wachtwoord vragen"
+
+msgid "Key file"
+msgstr "Sleutelbestand"
 
 msgid "Add Network Location"
 msgstr "Netwerklocatie toevoegen"
 
-msgid "Type:"
-msgstr "Type:"
-
-msgid "Server:"
-msgstr "Server:"
+msgid "Protocol:"
+msgstr "Protocol:"
 
 msgid "Port:"
 msgstr "Poort:"
 
+msgid "Host:"
+msgstr "Host:"
+
+msgid "Logon type:"
+msgstr "Aanmeldtype:"
+
 msgid "User:"
 msgstr "Gebruiker:"
+
+msgid "Password:"
+msgstr "Wachtwoord:"
+
+msgid "Key file:"
+msgstr "Sleutelbestand:"
 
 msgid "Folder:"
 msgstr "Map:"
 
 msgid "Name:"
 msgstr "Naam:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Typ of plak een adres om de velden hierboven in te vullen."
+
+msgid "Address:"
+msgstr "Adres:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "De SFTP-verbinding gebruikt de instellingen van ssh, daarom voegt Beluga voor deze sleutel een Host-item toe aan ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Kies een sleutelbestand"
 
 msgid "View Display Style"
 msgstr "Weergavestijl"
@@ -1160,6 +1199,9 @@ msgstr "Inhoud:"
 
 msgid "Size:"
 msgstr "Grootte:"
+
+msgid "Type:"
+msgstr "Type:"
 
 msgid "Folder"
 msgstr "Map"
@@ -1489,6 +1531,9 @@ msgstr "Dit kan niet ongedaan worden gemaakt."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s naar de prullenbak verplaatsen?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Kon de sleutel niet toevoegen aan ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

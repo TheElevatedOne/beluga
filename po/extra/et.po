@@ -1658,3 +1658,42 @@ msgstr "Server:"
 
 msgid "Port:"
 msgstr "Port:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP üle TLS-i (otsene)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP üle TLS-i (kaudne)"
+
+msgid "Normal"
+msgstr "Tavaline"
+
+msgid "Ask for password"
+msgstr "Küsi parooli"
+
+msgid "Key file"
+msgstr "Võtmefail"
+
+msgid "Protocol:"
+msgstr "Protokoll:"
+
+msgid "Host:"
+msgstr "Masin:"
+
+msgid "Logon type:"
+msgstr "Sisselogimise viis:"
+
+msgid "Key file:"
+msgstr "Võtmefail:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Kirjuta või aseta aadress, et ülalolevad väljad täita."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP-ühendus kasutab ssh seadistusi, seepärast lisab Beluga selle võtme jaoks Host-kirje faili ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Vali võtmefail"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Võtit ei õnnestunud lisada faili ~/.ssh/config."

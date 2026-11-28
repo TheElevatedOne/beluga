@@ -223,6 +223,18 @@ msgstr "Skjátextar:"
 msgid "Chapters:"
 msgstr "Kaflar:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP yfir TLS (beint)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP yfir TLS (óbeint)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows-deilisvæði (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Öruggt WebDAV"
+
 msgid "Places"
 msgstr "Staðir"
 
@@ -827,32 +839,59 @@ msgstr "_Bæta við"
 msgid "_Save"
 msgstr "_Vista"
 
-msgid "Windows share (SMB)"
-msgstr "Windows-deilisvæði (SMB)"
+msgid "Anonymous"
+msgstr "Nafnlaus"
 
-msgid "Secure WebDAV"
-msgstr "Öruggt WebDAV"
+msgid "Normal"
+msgstr "Venjulegt"
+
+msgid "Ask for password"
+msgstr "Spyrja um lykilorð"
+
+msgid "Key file"
+msgstr "Lykilskrá"
 
 msgid "Add Network Location"
 msgstr "Bæta við netstaðsetningu"
 
-msgid "Type:"
-msgstr "Tegund:"
-
-msgid "Server:"
-msgstr "Þjónn:"
+msgid "Protocol:"
+msgstr "Samskiptamáti:"
 
 msgid "Port:"
 msgstr "Gátt:"
 
+msgid "Host:"
+msgstr "Hýsill:"
+
+msgid "Logon type:"
+msgstr "Innskráningarmáti:"
+
 msgid "User:"
 msgstr "Notandi:"
+
+msgid "Password:"
+msgstr "Lykilorð:"
+
+msgid "Key file:"
+msgstr "Lykilskrá:"
 
 msgid "Folder:"
 msgstr "Mappa:"
 
 msgid "Name:"
 msgstr "Heiti:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Skrifaðu eða límdu vistfang til að fylla út reitina hér fyrir ofan."
+
+msgid "Address:"
+msgstr "Vistfang:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP-tengingin notar stillingar ssh, svo Beluga bætir Host-færslu fyrir þennan lykil í ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Veldu lykilskrá"
 
 msgid "View Display Style"
 msgstr "Birtingarsnið í yfirliti"
@@ -1161,6 +1200,9 @@ msgstr "Innihald:"
 
 msgid "Size:"
 msgstr "Stærð:"
+
+msgid "Type:"
+msgstr "Tegund:"
 
 msgid "Folder"
 msgstr "Mappa"
@@ -1490,6 +1532,9 @@ msgstr "Ekki er hægt að afturkalla þetta."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Færa %s í ruslið?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Ekki tókst að bæta lyklinum í ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

@@ -226,6 +226,18 @@ msgstr "Napisy:"
 msgid "Chapters:"
 msgstr "Rozdziały:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP przez TLS (jawny)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP przez TLS (niejawny)"
+
+msgid "Windows share (SMB)"
+msgstr "Udział Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Bezpieczny WebDAV"
+
 msgid "Places"
 msgstr "Miejsca"
 
@@ -833,32 +845,59 @@ msgstr "_Dodaj"
 msgid "_Save"
 msgstr "_Zapisz"
 
-msgid "Windows share (SMB)"
-msgstr "Udział Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anonimowy"
 
-msgid "Secure WebDAV"
-msgstr "Bezpieczny WebDAV"
+msgid "Normal"
+msgstr "Zwykłe"
+
+msgid "Ask for password"
+msgstr "Pytaj o hasło"
+
+msgid "Key file"
+msgstr "Plik klucza"
 
 msgid "Add Network Location"
 msgstr "Dodaj położenie sieciowe"
 
-msgid "Type:"
-msgstr "Rodzaj:"
-
-msgid "Server:"
-msgstr "Serwer:"
+msgid "Protocol:"
+msgstr "Protokół:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Gospodarz:"
+
+msgid "Logon type:"
+msgstr "Rodzaj logowania:"
+
 msgid "User:"
 msgstr "Użytkownik:"
+
+msgid "Password:"
+msgstr "Hasło:"
+
+msgid "Key file:"
+msgstr "Plik klucza:"
 
 msgid "Folder:"
 msgstr "Katalog:"
 
 msgid "Name:"
 msgstr "Nazwa:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Wpisz lub wklej adres, aby wypełnić pola powyżej."
+
+msgid "Address:"
+msgstr "Adres:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Połączenie SFTP używa ustawień ssh, więc Beluga dodaje wpis Host dla tego klucza do ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Wybierz plik klucza"
 
 msgid "View Display Style"
 msgstr "Wygląd widoku"
@@ -1171,6 +1210,9 @@ msgstr "Zawartość:"
 
 msgid "Size:"
 msgstr "Rozmiar:"
+
+msgid "Type:"
+msgstr "Rodzaj:"
 
 msgid "Folder"
 msgstr "Katalog"
@@ -1500,6 +1542,9 @@ msgstr "Tego nie można cofnąć."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Przenieść %s do kosza?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Nie można dodać klucza do ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

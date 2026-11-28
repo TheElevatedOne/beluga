@@ -1455,3 +1455,42 @@ msgstr "שרת:"
 
 msgid "Port:"
 msgstr "פתחה:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP על גבי TLS (מפורש)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP על גבי TLS (מרומז)"
+
+msgid "Normal"
+msgstr "רגיל"
+
+msgid "Ask for password"
+msgstr "לשאול לססמה"
+
+msgid "Key file"
+msgstr "קובץ מפתח"
+
+msgid "Protocol:"
+msgstr "פרוטוקול:"
+
+msgid "Host:"
+msgstr "מארח:"
+
+msgid "Logon type:"
+msgstr "סוג כניסה:"
+
+msgid "Key file:"
+msgstr "קובץ מפתח:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "יש להקליד או להדביק כתובת כדי למלא את השדות שלמעלה."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "החיבור ב־SFTP משתמש בהגדרות של ssh, לכן Beluga מוסיף רשומת Host למפתח הזה ב־‎~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "בחירת קובץ מפתח"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "לא ניתן להוסיף את המפתח ל־‎~/.ssh/config."

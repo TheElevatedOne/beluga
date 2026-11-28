@@ -1462,3 +1462,42 @@ msgstr "Serveris:"
 
 msgid "Port:"
 msgstr "Prievadas:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP per TLS (aiškus)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP per TLS (numanomas)"
+
+msgid "Normal"
+msgstr "Įprastas"
+
+msgid "Ask for password"
+msgstr "Klausti slaptažodžio"
+
+msgid "Key file"
+msgstr "Rakto failas"
+
+msgid "Protocol:"
+msgstr "Protokolas:"
+
+msgid "Host:"
+msgstr "Kompiuteris:"
+
+msgid "Logon type:"
+msgstr "Prisijungimo būdas:"
+
+msgid "Key file:"
+msgstr "Rakto failas:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Įveskite arba įdėkite adresą, kad būtų užpildyti aukščiau esantys laukai."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP ryšys naudoja ssh nustatymus, todėl Beluga prideda šiam raktui Host įrašą į ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Pasirinkite rakto failą"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Nepavyko pridėti rakto į ~/.ssh/config."

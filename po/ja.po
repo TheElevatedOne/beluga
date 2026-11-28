@@ -229,6 +229,18 @@ msgstr "字幕:"
 msgid "Chapters:"
 msgstr "チャプター:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP over TLS (明示的)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP over TLS (暗黙的)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows 共有 (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "セキュア WebDAV"
+
 msgid "Places"
 msgstr "場所|/|$[~setProps ~full '場所パネルを表示']"
 
@@ -830,32 +842,59 @@ msgstr "追加(_A)"
 msgid "_Save"
 msgstr "保存(_S)"
 
-msgid "Windows share (SMB)"
-msgstr "Windows 共有 (SMB)"
+msgid "Anonymous"
+msgstr "匿名(A)"
 
-msgid "Secure WebDAV"
-msgstr "セキュア WebDAV"
+msgid "Normal"
+msgstr "通常"
+
+msgid "Ask for password"
+msgstr "パスワードを尋ねる"
+
+msgid "Key file"
+msgstr "鍵ファイル"
 
 msgid "Add Network Location"
 msgstr "ネットワークの場所を追加"
 
-msgid "Type:"
-msgstr "タイプ:"
-
-msgid "Server:"
-msgstr "サーバ:"
+msgid "Protocol:"
+msgstr "プロトコル:"
 
 msgid "Port:"
 msgstr "ポート:"
 
+msgid "Host:"
+msgstr "ホスト:"
+
+msgid "Logon type:"
+msgstr "ログオンの種類:"
+
 msgid "User:"
 msgstr "ユーザ:"
+
+msgid "Password:"
+msgstr "パスワード:"
+
+msgid "Key file:"
+msgstr "鍵ファイル:"
 
 msgid "Folder:"
 msgstr "フォルダ:"
 
 msgid "Name:"
 msgstr "名前(N):"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "アドレスを入力または貼り付けると上の欄が埋まります。"
+
+msgid "Address:"
+msgstr "アドレス:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP 接続は ssh の設定を使うため、Beluga はこの鍵の Host エントリを ~/.ssh/config に追加します。"
+
+msgid "Choose a Key File"
+msgstr "鍵ファイルを選択"
 
 msgid "View Display Style"
 msgstr "表示スタイル"
@@ -1160,6 +1199,9 @@ msgstr "内容:"
 
 msgid "Size:"
 msgstr "サイズ:"
+
+msgid "Type:"
+msgstr "タイプ:"
 
 msgid "Folder"
 msgstr "フォルダ"
@@ -1489,6 +1531,9 @@ msgstr "この操作は元に戻せません。"
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s をごみ箱に移動しますか?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "鍵を ~/.ssh/config に追加できませんでした。"
 
 #, c-format
 msgid "Could not run “%s”."

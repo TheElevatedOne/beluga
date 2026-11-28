@@ -6,6 +6,7 @@
 - [Beluga as the file chooser](#beluga-as-the-file-chooser)
 - [Folder views](#folder-views)
 - [Search and Disk Usage](#search-and-disk-usage)
+- [Network locations](#network-locations)
 - [Archives](#archives)
 - [Testing](#testing)
 - [Translating](#translating)
@@ -140,6 +141,19 @@ biggest first, like [dust](https://github.com/bootandy/dust). It counts hard lin
 **Stay on this drive** leaves out other drives mounted inside the folder. Results are remembered in `~/.cache/beluga`
 until the folder changes. **Configure Beluga → View → Details → Show a Disk Usage column** adds the same numbers to
 the Details view.
+
+## Network locations
+
+Right-click in **Network** and pick **Add Network Location…**: protocol (SFTP, FTP, FTP over TLS, SMB, WebDAV),
+host, port, logon type, user and folder, or paste a whole address such as `sftp://me@example.com:2222/srv` into
+**Address**. The location is added to Places and opened. Connections go through gvfs.
+
+| Logon type | What happens |
+|---|---|
+| Anonymous | FTP, SMB and WebDAV without a user |
+| Normal | Beluga connects with the password at once; gvfs keeps it in your keyring |
+| Ask for password | the password is asked when the location is opened |
+| Key file (SFTP) | a `Host beluga-<user>-<host>` block with `IdentityFile` is added to `~/.ssh/config`, because gvfs runs `ssh` without `-i`; the place uses that alias |
 
 ## Archives
 

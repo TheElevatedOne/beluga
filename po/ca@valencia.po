@@ -224,6 +224,18 @@ msgstr "Subtítols:"
 msgid "Chapters:"
 msgstr "Capítols:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP sobre TLS (explícit)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP sobre TLS (implícit)"
+
+msgid "Windows share (SMB)"
+msgstr "Compartició de Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV segur"
+
 msgid "Places"
 msgstr "Llocs"
 
@@ -828,32 +840,59 @@ msgstr "_Afig"
 msgid "_Save"
 msgstr "_Guarda"
 
-msgid "Windows share (SMB)"
-msgstr "Compartició de Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anònim"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV segur"
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Demana la contrasenya"
+
+msgid "Key file"
+msgstr "Fitxer de clau"
 
 msgid "Add Network Location"
 msgstr "Afig una ubicació de xarxa"
 
-msgid "Type:"
-msgstr "Tipus:"
-
-msgid "Server:"
-msgstr "Servidor:"
+msgid "Protocol:"
+msgstr "Protocol:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Amfitrió:"
+
+msgid "Logon type:"
+msgstr "Tipus d'inici de sessió:"
+
 msgid "User:"
 msgstr "Usuari:"
+
+msgid "Password:"
+msgstr "Contrasenya:"
+
+msgid "Key file:"
+msgstr "Fitxer de clau:"
 
 msgid "Folder:"
 msgstr "Carpeta:"
 
 msgid "Name:"
 msgstr "Nom:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Escriviu o apegueu una adreça per a omplir els camps de dalt."
+
+msgid "Address:"
+msgstr "Adreça:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "La connexió SFTP utilitza la configuració de l'ssh, per això el Beluga afig una entrada Host per a esta clau a ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Trieu un fitxer de clau"
 
 msgid "View Display Style"
 msgstr "Estil de presentació de la vista"
@@ -1162,6 +1201,9 @@ msgstr "Contingut:"
 
 msgid "Size:"
 msgstr "Mida:"
+
+msgid "Type:"
+msgstr "Tipus:"
 
 msgid "Folder"
 msgstr "Carpeta"
@@ -1491,6 +1533,9 @@ msgstr "Això no es pot desfer."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Voleu moure %s a la paperera?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "No s'ha pogut afegir la clau a ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

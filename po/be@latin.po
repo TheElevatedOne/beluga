@@ -221,6 +221,18 @@ msgstr "Subcitry:"
 msgid "Chapters:"
 msgstr "Razdziely:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP praz TLS (jaŭny)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP praz TLS (niajaŭny)"
+
+msgid "Windows share (SMB)"
+msgstr "Ahulnaja tečka Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Abaronieny WebDAV"
+
 msgid "Places"
 msgstr "Razmiaščenni"
 
@@ -831,32 +843,59 @@ msgstr "_Dadać"
 msgid "_Save"
 msgstr "_Zachavać"
 
-msgid "Windows share (SMB)"
-msgstr "Ahulnaja tečka Windows (SMB)"
+msgid "Anonymous"
+msgstr "Ananimna"
 
-msgid "Secure WebDAV"
-msgstr "Abaronieny WebDAV"
+msgid "Normal"
+msgstr "Zvyčajny"
+
+msgid "Ask for password"
+msgstr "Pytać parol"
+
+msgid "Key file"
+msgstr "Fajl kluča"
 
 msgid "Add Network Location"
 msgstr "Dadać sietkavaje miesca"
 
-msgid "Type:"
-msgstr "Typ:"
-
-msgid "Server:"
-msgstr "Siervier:"
+msgid "Protocol:"
+msgstr "Pratakol:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Chost:"
+
+msgid "Logon type:"
+msgstr "Typ uvachodu:"
+
 msgid "User:"
 msgstr "Karystaĺnik:"
+
+msgid "Password:"
+msgstr "Parol:"
+
+msgid "Key file:"
+msgstr "Fajl kluča:"
 
 msgid "Folder:"
 msgstr "Tečka:"
 
 msgid "Name:"
 msgstr "Nazva:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Uviadzicie albo ŭstaŭcie adras, kab zapoŭnić pali vyšej."
+
+msgid "Address:"
+msgstr "Adrasy:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Zlučeńnie SFTP vykarystoŭvaje nalady ssh, tamu Beluga dadaje zapis Host dla hetaha kluča ŭ ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Vybierycie fajl kluča"
 
 msgid "View Display Style"
 msgstr "Styĺ vyhliadu"
@@ -1173,6 +1212,9 @@ msgstr "Zmiesciva:"
 
 msgid "Size:"
 msgstr "Pamier:"
+
+msgid "Type:"
+msgstr "Typ:"
 
 msgid "Folder"
 msgstr "Kataloh"
@@ -1502,6 +1544,9 @@ msgstr "Heta nieĺha adrabić."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Pieramiascić %s u smietnicu?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Nie ŭdałosia dadać kluč u ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

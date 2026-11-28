@@ -222,6 +222,18 @@ msgstr "Subtiitrid:"
 msgid "Chapters:"
 msgstr "Peatükid:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP üle TLS-i (otsene)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP üle TLS-i (kaudne)"
+
+msgid "Windows share (SMB)"
+msgstr "Windowsi ühiskasutus (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Turvaline WebDAV"
+
 msgid "Places"
 msgstr "Asukohad"
 
@@ -826,32 +838,59 @@ msgstr "_Lisa"
 msgid "_Save"
 msgstr "_Salvesta"
 
-msgid "Windows share (SMB)"
-msgstr "Windowsi ühiskasutus (SMB)"
+msgid "Anonymous"
+msgstr "Anonüümne"
 
-msgid "Secure WebDAV"
-msgstr "Turvaline WebDAV"
+msgid "Normal"
+msgstr "Tavaline"
+
+msgid "Ask for password"
+msgstr "Küsi parooli"
+
+msgid "Key file"
+msgstr "Võtmefail"
 
 msgid "Add Network Location"
 msgstr "Lisa võrgukoht"
 
-msgid "Type:"
-msgstr "Tüüp:"
-
-msgid "Server:"
-msgstr "Server:"
+msgid "Protocol:"
+msgstr "Protokoll:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Masin:"
+
+msgid "Logon type:"
+msgstr "Sisselogimise viis:"
+
 msgid "User:"
 msgstr "Kasutaja:"
+
+msgid "Password:"
+msgstr "Parool:"
+
+msgid "Key file:"
+msgstr "Võtmefail:"
 
 msgid "Folder:"
 msgstr "Kataloog:"
 
 msgid "Name:"
 msgstr "Nimi:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Kirjuta või aseta aadress, et ülalolevad väljad täita."
+
+msgid "Address:"
+msgstr "Aadress:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP-ühendus kasutab ssh seadistusi, seepärast lisab Beluga selle võtme jaoks Host-kirje faili ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Vali võtmefail"
 
 msgid "View Display Style"
 msgstr "Vaatestiil"
@@ -1160,6 +1199,9 @@ msgstr "Sisu:"
 
 msgid "Size:"
 msgstr "Suurus:"
+
+msgid "Type:"
+msgstr "Tüüp:"
 
 msgid "Folder"
 msgstr "Kataloog"
@@ -1489,6 +1531,9 @@ msgstr "Seda ei saa tagasi võtta."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Kas visata %s prügikasti?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Võtit ei õnnestunud lisada faili ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

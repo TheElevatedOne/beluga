@@ -2,9 +2,12 @@
 
 ## Unreleased
 
-- Added: **Add Network Location…** in the context menu of Network (`network:///`), in place of Create New: type
-  (SFTP, SMB, FTP, WebDAV), server, port, user and folder; the location is added to Places and opened. Nothing can be
-  created or pasted inside Network any more.
+- Added: **Add Network Location…** in the context menu of Network (`network:///`), in place of Create New. Like
+  FileZilla's Site Manager: protocol (SFTP, FTP, FTP over TLS, SMB, WebDAV), host, port, logon type (Anonymous,
+  Normal with a password, Ask for password, Key file for SFTP), user, folder and name. An address typed or pasted
+  into **Address** fills in the fields. With Normal, Beluga connects at once and the password is kept in the keyring;
+  a key file is added to `~/.ssh/config` as a `Host` alias, because gvfs connects through ssh's settings. The
+  location is added to Places and opened. Nothing can be created or pasted inside Network any more.
 - Fixed: the file chooser's tool bar showed as a white strip with some themes (pywal); it now looks like the main
   window's. The empty part of usage bars (Disk Usage column, devices in Places) is no longer white.
 

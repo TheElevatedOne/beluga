@@ -226,6 +226,18 @@ msgstr "Субтитри:"
 msgid "Chapters:"
 msgstr "Розділи:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP через TLS (явний)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP через TLS (неявний)"
+
+msgid "Windows share (SMB)"
+msgstr "Спільний ресурс Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Захищений WebDAV"
+
 msgid "Places"
 msgstr "Місця"
 
@@ -836,32 +848,59 @@ msgstr "_Додати"
 msgid "_Save"
 msgstr "_Зберегти"
 
-msgid "Windows share (SMB)"
-msgstr "Спільний ресурс Windows (SMB)"
+msgid "Anonymous"
+msgstr "Анонімний користувач"
 
-msgid "Secure WebDAV"
-msgstr "Захищений WebDAV"
+msgid "Normal"
+msgstr "Звичайний"
+
+msgid "Ask for password"
+msgstr "Питати пароль"
+
+msgid "Key file"
+msgstr "Файл ключа"
 
 msgid "Add Network Location"
 msgstr "Додати мережеве місце"
 
-msgid "Type:"
-msgstr "Тип:"
-
-msgid "Server:"
-msgstr "Сервер:"
+msgid "Protocol:"
+msgstr "Протокол:"
 
 msgid "Port:"
 msgstr "Порт:"
 
+msgid "Host:"
+msgstr "Вузол:"
+
+msgid "Logon type:"
+msgstr "Тип входу:"
+
 msgid "User:"
 msgstr "Користувач:"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Key file:"
+msgstr "Файл ключа:"
 
 msgid "Folder:"
 msgstr "Тека:"
 
 msgid "Name:"
 msgstr "Назва:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Введіть або вставте адресу, щоб заповнити поля вище."
+
+msgid "Address:"
+msgstr "Адреса:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "З'єднання SFTP використовує параметри ssh, тому Beluga додає для цього ключа запис Host до ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Виберіть файл ключа"
 
 msgid "View Display Style"
 msgstr "Стиль показу"
@@ -1178,6 +1217,9 @@ msgstr "Вміст:"
 
 msgid "Size:"
 msgstr "Розмір:"
+
+msgid "Type:"
+msgstr "Тип:"
 
 msgid "Folder"
 msgstr "Тека"
@@ -1507,6 +1549,9 @@ msgstr "Цю дію неможливо скасувати."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Перенести %s до смітника?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Не вдалося додати ключ до ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

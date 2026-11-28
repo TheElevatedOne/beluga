@@ -1425,3 +1425,42 @@ msgstr "Servidor:"
 
 msgid "Port:"
 msgstr "Port:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP sobre TLS (explícit)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP sobre TLS (implícit)"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Demana la contrasenya"
+
+msgid "Key file"
+msgstr "Fitxer de clau"
+
+msgid "Protocol:"
+msgstr "Protocol:"
+
+msgid "Host:"
+msgstr "Amfitrió:"
+
+msgid "Logon type:"
+msgstr "Tipus d'inici de sessió:"
+
+msgid "Key file:"
+msgstr "Fitxer de clau:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Escriviu o enganxeu una adreça per a omplir els camps de dalt."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "La connexió SFTP usa la configuració de l'ssh, per això el Beluga afegeix una entrada Host per a aquesta clau a ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Trieu un fitxer de clau"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "No s'ha pogut afegir la clau a ~/.ssh/config."

@@ -1750,3 +1750,42 @@ msgstr "Server:"
 
 msgid "Port:"
 msgstr "Port:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP přes TLS (explicitní)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP přes TLS (implicitní)"
+
+msgid "Normal"
+msgstr "Normální"
+
+msgid "Ask for password"
+msgstr "Ptát se na heslo"
+
+msgid "Key file"
+msgstr "Soubor klíče"
+
+msgid "Protocol:"
+msgstr "Protokol:"
+
+msgid "Host:"
+msgstr "Hostitel:"
+
+msgid "Logon type:"
+msgstr "Typ přihlášení:"
+
+msgid "Key file:"
+msgstr "Soubor klíče:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Napište nebo vložte adresu a pole výše se vyplní."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Spojení SFTP používá nastavení ssh, proto Beluga přidá pro tento klíč položku Host do ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Vyberte soubor klíče"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Klíč nelze přidat do ~/.ssh/config."

@@ -10,6 +10,7 @@
 #include "dialogs.hpp"
 #include "diskusagewindow.hpp"
 #include "fileops.hpp"
+#include "netlocation.hpp"
 #include "gtkutil.hpp"
 #include "openwith.hpp"
 #include "places.hpp"
@@ -122,10 +123,7 @@ const std::vector<ActionDef> &action_defs()
              if (AV(w) && !AV(w)->isVirtual()) w->showProperties({AV(w)->locationFile()});
          }},
         {"add-network-location", nullptr, nullptr, [](MainWindow *w, GVariant *) {
-             add_network_location_dialog(w->widget(), [w](const Place &p) {
-                 if (Places::instance().indexOf(p.uri) < 0) Places::instance().add(p);
-                 if (AC(w)) AC(w)->navigate(p.uri);
-             });
+             add_network_location_dialog(w->widget(), [w](const NetLocation &n, const std::string &name) { w->addNetworkLocation(n, name); });
          }},
         {"add-to-places", nullptr, nullptr, [](MainWindow *w, GVariant *) {
              auto items = w->selectedItems();
@@ -794,6 +792,58 @@ void MainWindow::copyOrMoveTo(const std::string &destUri, bool move)
     }
     Ref<GFile> dest(g_file_new_for_uri(destUri.c_str()));
     dropFiles(dest.get(), files, move ? GDK_ACTION_MOVE : GDK_ACTION_COPY);
+}
+
+void MainWindow::addNetworkLocation(const NetLocation &n, const std::string &name)
+{
+    std::string uri = net_location_uri(n);
+    if (n.logon == Logon::KeyFile) {
+        // gvfs runs ssh without -i: the key goes into a Host alias in the ssh config.
+        std::string error;
+        if (!write_ssh_alias(home_dir() + "/.ssh/config", n, &error)) {
+            show_error(widget(), _("Could not add the key to ~/.ssh/config."), error);
+            return;
+        }
+        uri = net_location_alias_uri(n);
+    }
+    if (Places::instance().indexOf(uri) < 0) {
+        Place p;
+        p.uri = uri;
+        p.label = name;
+        p.icon = "folder-remote";
+        Places::instance().add(p);
+    }
+    if (n.logon != Logon::Normal && n.logon != Logon::Anonymous) {
+        if (AC(this)) AC(this)->navigate(uri);
+        return;
+    }
+    // Normal: log on with the password now and let gvfs keep it in the keyring, so the next connection
+    // doesn't ask. Anonymous: answer the server's question for the user.
+    GMountOperation *op = g_mount_operation_new();
+    g_mount_operation_set_username(op, n.user.c_str());
+    g_mount_operation_set_password(op, n.password.c_str());
+    g_mount_operation_set_anonymous(op, n.logon == Logon::Anonymous);
+    g_mount_operation_set_password_save(op, G_PASSWORD_SAVE_PERMANENTLY);
+    g_signal_connect(op, "ask-password", G_CALLBACK(+[](GMountOperation *o, char *, char *, char *, GAskPasswordFlags flags, gpointer) {
+        // Asked again after a wrong password: give up instead of looping, the view then asks.
+        int tries = GPOINTER_TO_INT(g_object_get_data(G_OBJECT(o), "beluga-tries"));
+        g_object_set_data(G_OBJECT(o), "beluga-tries", GINT_TO_POINTER(tries + 1));
+        bool canAnon = flags & G_ASK_PASSWORD_ANONYMOUS_SUPPORTED;
+        g_mount_operation_reply(o, tries == 0 && (canAnon || !g_mount_operation_get_anonymous(o)) ? G_MOUNT_OPERATION_HANDLED
+                                                                                                  : G_MOUNT_OPERATION_ABORTED);
+    }), nullptr);
+    struct Ctx { Ref<GtkWidget> win; std::string uri; };
+    auto *ctx = new Ctx{Ref<GtkWidget>::share(GTK_WIDGET(window())), uri};
+    Ref<GFile> file(g_file_new_for_uri(uri.c_str()));
+    g_file_mount_enclosing_volume(file.get(), G_MOUNT_MOUNT_NONE, op, nullptr, [](GObject *src, GAsyncResult *res, gpointer d) {
+        auto *c = static_cast<Ctx *>(d);
+        g_file_mount_enclosing_volume_finish(G_FILE(src), res, nullptr);
+        // Mounted or not: the view shows the folder, or its own error and password prompt.
+        if (MainWindow *mw = MainWindow::from(GTK_WINDOW(c->win.get())))
+            if (AC(mw)) AC(mw)->navigate(c->uri);
+        delete c;
+    }, ctx);
+    g_object_unref(op);
 }
 
 void MainWindow::addToPlaces(const std::string &uri)

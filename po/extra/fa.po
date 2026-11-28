@@ -2074,3 +2074,42 @@ msgstr "درگاه:"
 
 msgid "Folder:"
 msgstr "پوشه:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP روی TLS (صریح)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP روی TLS (ضمنی)"
+
+msgid "Normal"
+msgstr "عادی"
+
+msgid "Ask for password"
+msgstr "پرسیدن گذرواژه"
+
+msgid "Key file"
+msgstr "پرونده کلید"
+
+msgid "Protocol:"
+msgstr "پروتکل:"
+
+msgid "Host:"
+msgstr "میزبان:"
+
+msgid "Logon type:"
+msgstr "نوع ورود:"
+
+msgid "Key file:"
+msgstr "پرونده کلید:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "برای پر کردن فیلدهای بالا، نشانی را بنویسید یا بچسبانید."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "اتصال SFTP از تنظیمات ssh استفاده می‌کند، پس Beluga یک ورودی Host برای این کلید به ‎~/.ssh/config اضافه می‌کند."
+
+msgid "Choose a Key File"
+msgstr "انتخاب پرونده کلید"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "افزودن کلید به ‎~/.ssh/config ممکن نشد."

@@ -219,6 +219,18 @@ msgstr "Subtitules:"
 msgid "Chapters:"
 msgstr "Capitules:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP per TLS (explicit)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP per TLS (implicit)"
+
+msgid "Windows share (SMB)"
+msgstr "Compartiment de Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV secur"
+
 msgid "Places"
 msgstr "Locs"
 
@@ -823,32 +835,59 @@ msgstr "_Adjunter"
 msgid "_Save"
 msgstr "_Gardar"
 
-msgid "Windows share (SMB)"
-msgstr "Compartiment de Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anonim"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV secur"
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Demandar li contrasigne"
+
+msgid "Key file"
+msgstr "File de clave"
 
 msgid "Add Network Location"
 msgstr "Adjunter un localisation de rete"
 
-msgid "Type:"
-msgstr "Tip:"
-
-msgid "Server:"
-msgstr "Servitor:"
+msgid "Protocol:"
+msgstr "Protocol:"
 
 msgid "Port:"
 msgstr "Porta:"
 
+msgid "Host:"
+msgstr "Hospite:"
+
+msgid "Logon type:"
+msgstr "Tip de apertion:"
+
 msgid "User:"
 msgstr "Usator:"
+
+msgid "Password:"
+msgstr "Contrasigne:"
+
+msgid "Key file:"
+msgstr "File de clave:"
 
 msgid "Folder:"
 msgstr "Fólder:"
 
 msgid "Name:"
 msgstr "Nómine:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Tippa o inserte un adresse por plenar li campes ad-supra."
+
+msgid "Address:"
+msgstr "Adresse:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Li conexion SFTP usa li parametres de ssh, pro to Beluga adjunte un intrada Host por ti-ci clave a ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Selecter un file de clave"
 
 msgid "View Display Style"
 msgstr "Stil de vise"
@@ -1157,6 +1196,9 @@ msgstr "Contenete:"
 
 msgid "Size:"
 msgstr "Grandore:"
+
+msgid "Type:"
+msgstr "Tip:"
 
 msgid "Folder"
 msgstr "Fólder"
@@ -1486,6 +1528,9 @@ msgstr "On ne posse defar it."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Mover %s al Paper-corb?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Ne successat adjunter li clave a ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

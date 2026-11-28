@@ -1733,3 +1733,51 @@ msgstr "ພອດ:"
 
 msgid "Folder:"
 msgstr "ໂຟນເດີ:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP ຜ່ານ TLS (ແບບຊັດເຈນ)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP ຜ່ານ TLS (ແບບແຝງ)"
+
+msgid "Anonymous"
+msgstr "ບໍ່ລະບຸຊື່"
+
+msgid "Normal"
+msgstr "ປົກກະຕິ"
+
+msgid "Ask for password"
+msgstr "ຖາມລະຫັດຜ່ານ"
+
+msgid "Key file"
+msgstr "ໄຟລ໌ກະແຈ"
+
+msgid "Protocol:"
+msgstr "ໂປຣໂຕຄໍ:"
+
+msgid "Host:"
+msgstr "ໂຮສ:"
+
+msgid "Logon type:"
+msgstr "ປະເພດການເຂົ້າລະບົບ:"
+
+msgid "Key file:"
+msgstr "ໄຟລ໌ກະແຈ:"
+
+msgid "Password:"
+msgstr "ລະຫັດຜ່ານ:"
+
+msgid "Address:"
+msgstr "ທີ່ຢູ່:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "ພິມ ຫຼື ວາງທີ່ຢູ່ເພື່ອຕື່ມຊ່ອງຂ້າງເທິງ."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "ການເຊື່ອມຕໍ່ SFTP ໃຊ້ການຕັ້ງຄ່າຂອງ ssh, ສະນັ້ນ Beluga ຈຶ່ງເພີ່ມລາຍການ Host ສຳລັບກະແຈນີ້ໃສ່ ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "ເລືອກໄຟລ໌ກະແຈ"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "ບໍ່ສາມາດເພີ່ມກະແຈໃສ່ ~/.ssh/config ໄດ້."

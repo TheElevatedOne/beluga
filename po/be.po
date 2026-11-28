@@ -223,6 +223,18 @@ msgstr "Субцітры:"
 msgid "Chapters:"
 msgstr "Раздзелы:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP праз TLS (яўны)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP праз TLS (няяўны)"
+
+msgid "Windows share (SMB)"
+msgstr "Агульная тэчка Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Абаронены WebDAV"
+
 msgid "Places"
 msgstr "Размяшчэнні"
 
@@ -833,32 +845,59 @@ msgstr "_Дадаць"
 msgid "_Save"
 msgstr "_Захаваць"
 
-msgid "Windows share (SMB)"
-msgstr "Агульная тэчка Windows (SMB)"
+msgid "Anonymous"
+msgstr "Ананімна"
 
-msgid "Secure WebDAV"
-msgstr "Абаронены WebDAV"
+msgid "Normal"
+msgstr "Звычайны"
+
+msgid "Ask for password"
+msgstr "Пытаць пароль"
+
+msgid "Key file"
+msgstr "Файл ключа"
 
 msgid "Add Network Location"
 msgstr "Дадаць сеткавае месца"
 
-msgid "Type:"
-msgstr "Тып:"
-
-msgid "Server:"
-msgstr "Сервер:"
+msgid "Protocol:"
+msgstr "Пратакол:"
 
 msgid "Port:"
 msgstr "Порт:"
 
+msgid "Host:"
+msgstr "Хост:"
+
+msgid "Logon type:"
+msgstr "Тып уваходу:"
+
 msgid "User:"
 msgstr "Карыстальнік:"
+
+msgid "Password:"
+msgstr "Пароль:"
+
+msgid "Key file:"
+msgstr "Файл ключа:"
 
 msgid "Folder:"
 msgstr "Тэчка:"
 
 msgid "Name:"
 msgstr "Назва:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Увядзіце або ўстаўце адрас, каб запоўніць палі вышэй."
+
+msgid "Address:"
+msgstr "Адрасы:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Злучэнне SFTP выкарыстоўвае налады ssh, таму Beluga дадае запіс Host для гэтага ключа ў ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Выберыце файл ключа"
 
 msgid "View Display Style"
 msgstr "Стыль выгляду"
@@ -1175,6 +1214,9 @@ msgstr "Змесціва:"
 
 msgid "Size:"
 msgstr "Памер:"
+
+msgid "Type:"
+msgstr "Тып:"
 
 msgid "Folder"
 msgstr "Каталог"
@@ -1504,6 +1546,9 @@ msgstr "Гэта нельга адрабіць."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Перамясціць %s у сметніцу?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Не ўдалося дадаць ключ у ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

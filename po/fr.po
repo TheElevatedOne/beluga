@@ -237,6 +237,18 @@ msgstr "Sous-titres :"
 msgid "Chapters:"
 msgstr "Chapitres :"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP sur TLS (explicite)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP sur TLS (implicite)"
+
+msgid "Windows share (SMB)"
+msgstr "Partage Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV sécurisé"
+
 msgid "Places"
 msgstr "Emplacements"
 
@@ -841,32 +853,59 @@ msgstr "_Ajouter"
 msgid "_Save"
 msgstr "_Enregistrer"
 
-msgid "Windows share (SMB)"
-msgstr "Partage Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anonyme"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV sécurisé"
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Demander le mot de passe"
+
+msgid "Key file"
+msgstr "Fichier de clé"
 
 msgid "Add Network Location"
 msgstr "Ajouter un emplacement réseau"
 
-msgid "Type:"
-msgstr "Type :"
-
-msgid "Server:"
-msgstr "Serveur :"
+msgid "Protocol:"
+msgstr "Protocole :"
 
 msgid "Port:"
 msgstr "Port :"
 
+msgid "Host:"
+msgstr "Hôte :"
+
+msgid "Logon type:"
+msgstr "Type d'authentification :"
+
 msgid "User:"
 msgstr "Utilisateur :"
+
+msgid "Password:"
+msgstr "Mot de passe :"
+
+msgid "Key file:"
+msgstr "Fichier de clé :"
 
 msgid "Folder:"
 msgstr "Dossier:"
 
 msgid "Name:"
 msgstr "Nom :"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Saisissez ou collez une adresse pour remplir les champs ci-dessus."
+
+msgid "Address:"
+msgstr "Adresse :"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "La connexion SFTP utilise les réglages de ssh, Beluga ajoute donc une entrée Host pour cette clé dans ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Choisir un fichier de clé"
 
 msgid "View Display Style"
 msgstr "Style d'affichage de la vue"
@@ -1175,6 +1214,9 @@ msgstr "Contenu :"
 
 msgid "Size:"
 msgstr "Taille :"
+
+msgid "Type:"
+msgstr "Type :"
 
 msgid "Folder"
 msgstr "Dossier"
@@ -1504,6 +1546,9 @@ msgstr "Cette action est irréversible."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Mettre %s à la corbeille ?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Impossible d'ajouter la clé à ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

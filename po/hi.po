@@ -224,6 +224,18 @@ msgstr "उपशीर्षक:"
 msgid "Chapters:"
 msgstr "अध्याय:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "TLS पर FTP (स्पष्ट)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS पर FTP (अंतर्निहित)"
+
+msgid "Windows share (SMB)"
+msgstr "विंडोज़ साझा (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "सुरक्षित WebDAV"
+
 msgid "Places"
 msgstr "स्थान"
 
@@ -828,32 +840,59 @@ msgstr "जोड़ें (_A)"
 msgid "_Save"
 msgstr "सहेजें (_S)"
 
-msgid "Windows share (SMB)"
-msgstr "विंडोज़ साझा (SMB)"
+msgid "Anonymous"
+msgstr "बेनाम (A)"
 
-msgid "Secure WebDAV"
-msgstr "सुरक्षित WebDAV"
+msgid "Normal"
+msgstr "सामान्य"
+
+msgid "Ask for password"
+msgstr "पासवर्ड पूछें"
+
+msgid "Key file"
+msgstr "कुंजी फ़ाइल"
 
 msgid "Add Network Location"
 msgstr "नेटवर्क स्थान जोड़ें"
 
-msgid "Type:"
-msgstr "क़िस्मः"
-
-msgid "Server:"
-msgstr "सर्वर:"
+msgid "Protocol:"
+msgstr "प्रोटोकॉल:"
 
 msgid "Port:"
 msgstr "पोर्ट:"
 
+msgid "Host:"
+msgstr "होस्ट:"
+
+msgid "Logon type:"
+msgstr "लॉगऑन प्रकार:"
+
 msgid "User:"
 msgstr "उपयोक्ता:"
+
+msgid "Password:"
+msgstr "पासवर्ड:"
+
+msgid "Key file:"
+msgstr "कुंजी फ़ाइल:"
 
 msgid "Folder:"
 msgstr "फ़ोल्डर:"
 
 msgid "Name:"
 msgstr "नाम: (N)"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "ऊपर के क्षेत्र भरने के लिए पता लिखें या चिपकाएँ।"
+
+msgid "Address:"
+msgstr "पता:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP कनेक्शन ssh की सेटिंग्स का उपयोग करता है, इसलिए Beluga इस कुंजी के लिए ~/.ssh/config में एक Host प्रविष्टि जोड़ता है।"
+
+msgid "Choose a Key File"
+msgstr "कुंजी फ़ाइल चुनें"
 
 msgid "View Display Style"
 msgstr "दृश्य प्रदर्शन शैली"
@@ -1162,6 +1201,9 @@ msgstr "सामग्री:"
 
 msgid "Size:"
 msgstr "आकारः"
+
+msgid "Type:"
+msgstr "क़िस्मः"
 
 msgid "Folder"
 msgstr "फ़ोल्डर"
@@ -1491,6 +1533,9 @@ msgstr "इसे पूर्ववत नहीं किया जा सक�
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "%s को कचरे में ले जाएँ?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "कुंजी को ~/.ssh/config में नहीं जोड़ा जा सका।"
 
 #, c-format
 msgid "Could not run “%s”."

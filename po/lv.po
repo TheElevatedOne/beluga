@@ -227,6 +227,18 @@ msgstr "Subtitri:"
 msgid "Chapters:"
 msgstr "Nodaļas:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP caur TLS (tiešs)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP caur TLS (netiešs)"
+
+msgid "Windows share (SMB)"
+msgstr "Windows koplietojums (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Drošs WebDAV"
+
 msgid "Places"
 msgstr "Vietas"
 
@@ -834,32 +846,59 @@ msgstr "_Pievienot"
 msgid "_Save"
 msgstr "_Saglabāt"
 
-msgid "Windows share (SMB)"
-msgstr "Windows koplietojums (SMB)"
+msgid "Anonymous"
+msgstr "Anonīms lietotājs"
 
-msgid "Secure WebDAV"
-msgstr "Drošs WebDAV"
+msgid "Normal"
+msgstr "Parasts"
+
+msgid "Ask for password"
+msgstr "Prasīt paroli"
+
+msgid "Key file"
+msgstr "Atslēgas datne"
 
 msgid "Add Network Location"
 msgstr "Pievienot tīkla vietu"
 
-msgid "Type:"
-msgstr "Tips:"
-
-msgid "Server:"
-msgstr "Serveris:"
+msgid "Protocol:"
+msgstr "Protokols:"
 
 msgid "Port:"
 msgstr "Ports:"
 
+msgid "Host:"
+msgstr "Resursdators:"
+
+msgid "Logon type:"
+msgstr "Pieteikšanās veids:"
+
 msgid "User:"
 msgstr "Lietotājs:"
+
+msgid "Password:"
+msgstr "Parole:"
+
+msgid "Key file:"
+msgstr "Atslēgas datne:"
 
 msgid "Folder:"
 msgstr "Mape:"
 
 msgid "Name:"
 msgstr "Nosaukums:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Ierakstiet vai ielīmējiet adresi, lai aizpildītu laukus augstāk."
+
+msgid "Address:"
+msgstr "Adrese:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP savienojums izmanto ssh iestatījumus, tāpēc Beluga pievieno šai atslēgai Host ierakstu datnē ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Izvēlieties atslēgas datni"
 
 msgid "View Display Style"
 msgstr "Skatīt displeja stilu"
@@ -1172,6 +1211,9 @@ msgstr "Saturs:"
 
 msgid "Size:"
 msgstr "Izmērs:"
+
+msgid "Type:"
+msgstr "Tips:"
 
 msgid "Folder"
 msgstr "Mape"
@@ -1501,6 +1543,9 @@ msgstr "To nevar atsaukt."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Pārvietot %s uz miskasti?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Neizdevās pievienot atslēgu datnei ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

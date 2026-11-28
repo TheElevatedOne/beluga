@@ -1526,3 +1526,42 @@ msgstr "Kiszolgáló:"
 
 msgid "Port:"
 msgstr "Port:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP TLS-en keresztül (explicit)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP TLS-en keresztül (implicit)"
+
+msgid "Normal"
+msgstr "Normál"
+
+msgid "Ask for password"
+msgstr "Jelszó kérése"
+
+msgid "Key file"
+msgstr "Kulcsfájl"
+
+msgid "Protocol:"
+msgstr "Protokoll:"
+
+msgid "Host:"
+msgstr "Gép:"
+
+msgid "Logon type:"
+msgstr "Bejelentkezés típusa:"
+
+msgid "Key file:"
+msgstr "Kulcsfájl:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Írjon be vagy illesszen be egy címet a fenti mezők kitöltéséhez."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Az SFTP-kapcsolat az ssh beállításait használja, ezért a Beluga Host bejegyzést ad a kulcshoz a ~/.ssh/config fájlban."
+
+msgid "Choose a Key File"
+msgstr "Kulcsfájl kiválasztása"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Nem sikerült hozzáadni a kulcsot a ~/.ssh/config fájlhoz."

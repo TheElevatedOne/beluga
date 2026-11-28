@@ -1466,3 +1466,42 @@ msgstr "الخادم:"
 
 msgid "Port:"
 msgstr "المنفذ:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP عبر TLS (صريح)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP عبر TLS (ضمني)"
+
+msgid "Normal"
+msgstr "عادي"
+
+msgid "Ask for password"
+msgstr "اطلب كلمة السر"
+
+msgid "Key file"
+msgstr "ملف مفتاح"
+
+msgid "Protocol:"
+msgstr "البروتوكول:"
+
+msgid "Host:"
+msgstr "المضيف:"
+
+msgid "Logon type:"
+msgstr "نوع الولوج:"
+
+msgid "Key file:"
+msgstr "ملف مفتاح:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "اكتب عنوانًا أو الصقه لملء الحقول أعلاه."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "يستخدم اتصال SFTP إعدادات ssh، لذا يضيف Beluga مدخل Host لهذا المفتاح إلى ‎~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "اختر ملف مفتاح"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "تعذّرت إضافة المفتاح إلى ‎~/.ssh/config."

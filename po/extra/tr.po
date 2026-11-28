@@ -1425,3 +1425,42 @@ msgstr "Sunucu:"
 
 msgid "Port:"
 msgstr "Bağlantı noktası:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "TLS üzerinden FTP (açık)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS üzerinden FTP (örtük)"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Parola sor"
+
+msgid "Key file"
+msgstr "Anahtar dosyası"
+
+msgid "Protocol:"
+msgstr "Protokol:"
+
+msgid "Host:"
+msgstr "Ana makine:"
+
+msgid "Logon type:"
+msgstr "Oturum açma türü:"
+
+msgid "Key file:"
+msgstr "Anahtar dosyası:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Yukarıdaki alanları doldurmak için bir adres yazın veya yapıştırın."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP bağlantısı ssh ayarlarını kullanır, bu yüzden Beluga bu anahtar için ~/.ssh/config dosyasına bir Host girdisi ekler."
+
+msgid "Choose a Key File"
+msgstr "Anahtar Dosyası Seç"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Anahtar ~/.ssh/config dosyasına eklenemedi."

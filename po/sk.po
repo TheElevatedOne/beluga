@@ -228,6 +228,18 @@ msgstr "Titulky:"
 msgid "Chapters:"
 msgstr "Kapitoly:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP cez TLS (explicitné)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP cez TLS (implicitné)"
+
+msgid "Windows share (SMB)"
+msgstr "Zdieľanie Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Zabezpečený WebDAV"
+
 msgid "Places"
 msgstr "Miesta"
 
@@ -835,32 +847,59 @@ msgstr "_Pridať"
 msgid "_Save"
 msgstr "_Uložiť"
 
-msgid "Windows share (SMB)"
-msgstr "Zdieľanie Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anonymný"
 
-msgid "Secure WebDAV"
-msgstr "Zabezpečený WebDAV"
+msgid "Normal"
+msgstr "Normálne"
+
+msgid "Ask for password"
+msgstr "Pýtať sa na heslo"
+
+msgid "Key file"
+msgstr "Súbor kľúča"
 
 msgid "Add Network Location"
 msgstr "Pridať sieťové umiestnenie"
 
-msgid "Type:"
-msgstr "Typ:"
-
-msgid "Server:"
-msgstr "Server:"
+msgid "Protocol:"
+msgstr "Protokol:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Hostiteľ:"
+
+msgid "Logon type:"
+msgstr "Typ prihlásenia:"
+
 msgid "User:"
 msgstr "Užívateľ:"
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Key file:"
+msgstr "Súbor kľúča:"
 
 msgid "Folder:"
 msgstr "Priečinok:"
 
 msgid "Name:"
 msgstr "Názov:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Napíšte alebo vložte adresu a polia vyššie sa vyplnia."
+
+msgid "Address:"
+msgstr "Adresa:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Spojenie SFTP používa nastavenia ssh, preto Beluga pridá pre tento kľúč položku Host do ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Vyberte súbor kľúča"
 
 msgid "View Display Style"
 msgstr "Zobraziť štýl zobrazenia"
@@ -1173,6 +1212,9 @@ msgstr "Obsah:"
 
 msgid "Size:"
 msgstr "Veľkosť:"
+
+msgid "Type:"
+msgstr "Typ:"
 
 msgid "Folder"
 msgstr "Priečinok"
@@ -1502,6 +1544,9 @@ msgstr "Túto akciu nemožno vrátiť späť."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Presunúť %s do koša?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Kľúč sa nepodarilo pridať do ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

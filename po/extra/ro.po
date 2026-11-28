@@ -1463,3 +1463,42 @@ msgstr "Server:"
 
 msgid "Port:"
 msgstr "Port:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP prin TLS (explicit)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP prin TLS (implicit)"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Cere parola"
+
+msgid "Key file"
+msgstr "Fișier cheie"
+
+msgid "Protocol:"
+msgstr "Protocol:"
+
+msgid "Host:"
+msgstr "Gazdă:"
+
+msgid "Logon type:"
+msgstr "Tip de autentificare:"
+
+msgid "Key file:"
+msgstr "Fișier cheie:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Scrieți sau lipiți o adresă pentru a completa câmpurile de mai sus."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Conexiunea SFTP folosește configurările ssh, așa că Beluga adaugă o intrare Host pentru această cheie în ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Alegeți un fișier cheie"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Cheia nu a putut fi adăugată în ~/.ssh/config."

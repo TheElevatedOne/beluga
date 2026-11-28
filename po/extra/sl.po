@@ -1441,3 +1441,42 @@ msgstr "Strežnik:"
 
 msgid "Port:"
 msgstr "Vrata:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "FTP prek TLS (izrecno)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP prek TLS (implicitno)"
+
+msgid "Normal"
+msgstr "Običajno"
+
+msgid "Ask for password"
+msgstr "Vprašaj za geslo"
+
+msgid "Key file"
+msgstr "Datoteka ključa"
+
+msgid "Protocol:"
+msgstr "Protokol:"
+
+msgid "Host:"
+msgstr "Gostitelj:"
+
+msgid "Logon type:"
+msgstr "Vrsta prijave:"
+
+msgid "Key file:"
+msgstr "Datoteka ključa:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Vpišite ali prilepite naslov, da izpolnite polja zgoraj."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Povezava SFTP uporablja nastavitve ssh, zato Beluga za ta ključ doda vnos Host v ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Izberite datoteko ključa"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Ključa ni bilo mogoče dodati v ~/.ssh/config."

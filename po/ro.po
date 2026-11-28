@@ -225,6 +225,18 @@ msgstr "Subtitrări:"
 msgid "Chapters:"
 msgstr "Capitole:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP prin TLS (explicit)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP prin TLS (implicit)"
+
+msgid "Windows share (SMB)"
+msgstr "Partajare Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV securizat"
+
 msgid "Places"
 msgstr "Locuri"
 
@@ -832,32 +844,59 @@ msgstr "_Adaugă"
 msgid "_Save"
 msgstr "_Salvează"
 
-msgid "Windows share (SMB)"
-msgstr "Partajare Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anonim"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV securizat"
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Cere parola"
+
+msgid "Key file"
+msgstr "Fișier cheie"
 
 msgid "Add Network Location"
 msgstr "Adaugă o locație de rețea"
 
-msgid "Type:"
-msgstr "Tip:"
-
-msgid "Server:"
-msgstr "Server:"
+msgid "Protocol:"
+msgstr "Protocol:"
 
 msgid "Port:"
 msgstr "Port:"
 
+msgid "Host:"
+msgstr "Gazdă:"
+
+msgid "Logon type:"
+msgstr "Tip de autentificare:"
+
 msgid "User:"
 msgstr "Utilizator:"
+
+msgid "Password:"
+msgstr "Parola:"
+
+msgid "Key file:"
+msgstr "Fișier cheie:"
 
 msgid "Folder:"
 msgstr "Dosar:"
 
 msgid "Name:"
 msgstr "Denumire:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Scrieți sau lipiți o adresă pentru a completa câmpurile de mai sus."
+
+msgid "Address:"
+msgstr "Adresă:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Conexiunea SFTP folosește configurările ssh, așa că Beluga adaugă o intrare Host pentru această cheie în ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Alegeți un fișier cheie"
 
 msgid "View Display Style"
 msgstr "Stilul afișării vizualizării"
@@ -1170,6 +1209,9 @@ msgstr "Conținut:"
 
 msgid "Size:"
 msgstr "Dimensiune:"
+
+msgid "Type:"
+msgstr "Tip:"
 
 msgid "Folder"
 msgstr "Dosar"
@@ -1499,6 +1541,9 @@ msgstr "Acest lucru nu poate fi anulat."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Mutați %s la gunoi?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Cheia nu a putut fi adăugată în ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

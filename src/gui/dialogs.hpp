@@ -8,6 +8,8 @@
 #include "places.hpp"
 #include "viewprops.hpp"
 
+#include "netlocation.hpp"
+
 #include <functional>
 #include <string>
 #include <vector>
@@ -27,8 +29,9 @@ void ask_name(GtkWidget *parent, const std::string &title, const std::string &la
 void show_rename_dialog(GtkWidget *parent, const std::vector<BelugaItem *> &items);
 // Move / Copy / Link menu at a point. Callback gets 0 when cancelled.
 void show_drop_menu(GtkWidget *widget, double x, double y, bool canMove, std::function<void(GdkDragAction)> cb);
-// Asks for a server (SFTP, SMB, FTP, WebDAV) and gives back a Places entry for it.
-void add_network_location_dialog(GtkWidget *parent, std::function<void(const Place &)> cb);
+// Asks for a server like FileZilla's Site Manager (protocol, host, port, logon type) and gives back the
+// location and its name.
+void add_network_location_dialog(GtkWidget *parent, std::function<void(const NetLocation &, const std::string &)> cb);
 void edit_place_dialog(GtkWidget *parent, const Place &initial, bool isNew, std::function<void(const Place &)> cb);
 void view_properties_dialog(GtkWidget *parent, const std::string &uri, const ViewProps &current,
                             std::function<void(const ViewProps &, int scope)> cb);   // scope 0 folder, 1 subfolders, 2 all

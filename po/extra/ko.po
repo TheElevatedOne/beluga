@@ -1438,3 +1438,42 @@ msgstr "서버:"
 
 msgid "Port:"
 msgstr "포트:"
+
+msgid "FTP over TLS (explicit)"
+msgstr "TLS를 통한 FTP (명시적)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS를 통한 FTP (암시적)"
+
+msgid "Normal"
+msgstr "일반"
+
+msgid "Ask for password"
+msgstr "암호 묻기"
+
+msgid "Key file"
+msgstr "키 파일"
+
+msgid "Protocol:"
+msgstr "프로토콜:"
+
+msgid "Host:"
+msgstr "호스트:"
+
+msgid "Logon type:"
+msgstr "로그온 유형:"
+
+msgid "Key file:"
+msgstr "키 파일:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "위 칸을 채우려면 주소를 입력하거나 붙여 넣으십시오."
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP 연결은 ssh 설정을 사용하므로 Beluga는 이 키에 대한 Host 항목을 ~/.ssh/config에 추가합니다."
+
+msgid "Choose a Key File"
+msgstr "키 파일 선택"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "키를 ~/.ssh/config에 추가할 수 없습니다."

@@ -223,6 +223,18 @@ msgstr "Subtekstoj:"
 msgid "Chapters:"
 msgstr "Ĉapitroj:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP per TLS (eksplicita)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP per TLS (implicita)"
+
+msgid "Windows share (SMB)"
+msgstr "Vindoza kundivido (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Sekura WebDAV"
+
 msgid "Places"
 msgstr "Lokoj"
 
@@ -827,32 +839,59 @@ msgstr "_Aldoni"
 msgid "_Save"
 msgstr "_Konservi"
 
-msgid "Windows share (SMB)"
-msgstr "Vindoza kundivido (SMB)"
+msgid "Anonymous"
+msgstr "Anonime"
 
-msgid "Secure WebDAV"
-msgstr "Sekura WebDAV"
+msgid "Normal"
+msgstr "Normala"
+
+msgid "Ask for password"
+msgstr "Demandi pasvorton"
+
+msgid "Key file"
+msgstr "Ŝlosildosiero"
 
 msgid "Add Network Location"
 msgstr "Aldoni retan lokon"
 
-msgid "Type:"
-msgstr "Tipo:"
-
-msgid "Server:"
-msgstr "Servilo:"
+msgid "Protocol:"
+msgstr "Protokolo:"
 
 msgid "Port:"
 msgstr "Pordo:"
 
+msgid "Host:"
+msgstr "Gastiganto:"
+
+msgid "Logon type:"
+msgstr "Speco de ensaluto:"
+
 msgid "User:"
 msgstr "Uzanto:"
+
+msgid "Password:"
+msgstr "Pasvorto:"
+
+msgid "Key file:"
+msgstr "Ŝlosildosiero:"
 
 msgid "Folder:"
 msgstr "Dosierujo:"
 
 msgid "Name:"
 msgstr "Nomo:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Tajpu aŭ algluu adreson por plenigi la suprajn kampojn."
+
+msgid "Address:"
+msgstr "Adreso:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "La SFTP-konekto uzas la agordojn de ssh, do Beluga aldonas Host-eron por ĉi tiu ŝlosilo al ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Elekti ŝlosildosieron"
 
 msgid "View Display Style"
 msgstr "Vidi Vidigan Stilon"
@@ -1161,6 +1200,9 @@ msgstr "Enhavo:"
 
 msgid "Size:"
 msgstr "Grandeco:"
+
+msgid "Type:"
+msgstr "Tipo:"
 
 msgid "Folder"
 msgstr "Dosierujo"
@@ -1490,6 +1532,9 @@ msgstr "Tio ne estas malfarebla."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Ĉu movi %s al la rubujo?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Ne eblis aldoni la ŝlosilon al ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

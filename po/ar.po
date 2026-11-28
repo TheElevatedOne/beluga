@@ -232,6 +232,18 @@ msgstr "الترجمات:"
 msgid "Chapters:"
 msgstr "الفصول:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP عبر TLS (صريح)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP عبر TLS (ضمني)"
+
+msgid "Windows share (SMB)"
+msgstr "مشاركة ويندوز (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV آمن"
+
 msgid "Places"
 msgstr "الأماكن"
 
@@ -848,32 +860,59 @@ msgstr "أ_ضف"
 msgid "_Save"
 msgstr "ا_حفظ"
 
-msgid "Windows share (SMB)"
-msgstr "مشاركة ويندوز (SMB)"
+msgid "Anonymous"
+msgstr "مجهول"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV آمن"
+msgid "Normal"
+msgstr "عادي"
+
+msgid "Ask for password"
+msgstr "اطلب كلمة السر"
+
+msgid "Key file"
+msgstr "ملف مفتاح"
 
 msgid "Add Network Location"
 msgstr "إضافة موقع شبكي"
 
-msgid "Type:"
-msgstr "النّوع:"
-
-msgid "Server:"
-msgstr "الخادم:"
+msgid "Protocol:"
+msgstr "البروتوكول:"
 
 msgid "Port:"
 msgstr "المنفذ:"
 
+msgid "Host:"
+msgstr "المضيف:"
+
+msgid "Logon type:"
+msgstr "نوع الولوج:"
+
 msgid "User:"
 msgstr "المستخدم:"
+
+msgid "Password:"
+msgstr "كلمة السر:"
+
+msgid "Key file:"
+msgstr "ملف مفتاح:"
 
 msgid "Folder:"
 msgstr "مجلد:"
 
 msgid "Name:"
 msgstr "الاسم:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "اكتب عنوانًا أو الصقه لملء الحقول أعلاه."
+
+msgid "Address:"
+msgstr "العنوان:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "يستخدم اتصال SFTP إعدادات ssh، لذا يضيف Beluga مدخل Host لهذا المفتاح إلى ‎~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "اختر ملف مفتاح"
 
 msgid "View Display Style"
 msgstr "نمط مشاهدة العرض"
@@ -1198,6 +1237,9 @@ msgstr "المحتوى:"
 
 msgid "Size:"
 msgstr "الحجم:"
+
+msgid "Type:"
+msgstr "النّوع:"
 
 msgid "Folder"
 msgstr "مجلد"
@@ -1527,6 +1569,9 @@ msgstr "لا يمكن التراجع عن هذا."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "أتريد نقل %s إلى المهملات؟"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "تعذّرت إضافة المفتاح إلى ‎~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

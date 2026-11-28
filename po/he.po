@@ -228,6 +228,18 @@ msgstr "כתוביות:"
 msgid "Chapters:"
 msgstr "פרקים:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP על גבי TLS (מפורש)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP על גבי TLS (מרומז)"
+
+msgid "Windows share (SMB)"
+msgstr "שיתוף Windows‏ (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV מאובטח"
+
 msgid "Places"
 msgstr "מקומות"
 
@@ -838,32 +850,59 @@ msgstr "הו_ספה"
 msgid "_Save"
 msgstr "_שמירה"
 
-msgid "Windows share (SMB)"
-msgstr "שיתוף Windows‏ (SMB)"
+msgid "Anonymous"
+msgstr "אלמוני"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV מאובטח"
+msgid "Normal"
+msgstr "רגיל"
+
+msgid "Ask for password"
+msgstr "לשאול לססמה"
+
+msgid "Key file"
+msgstr "קובץ מפתח"
 
 msgid "Add Network Location"
 msgstr "הוספת מיקום רשת"
 
-msgid "Type:"
-msgstr "סוג:"
-
-msgid "Server:"
-msgstr "שרת:"
+msgid "Protocol:"
+msgstr "פרוטוקול:"
 
 msgid "Port:"
 msgstr "פתחה:"
 
+msgid "Host:"
+msgstr "מארח:"
+
+msgid "Logon type:"
+msgstr "סוג כניסה:"
+
 msgid "User:"
 msgstr "משתמש:"
+
+msgid "Password:"
+msgstr "ססמה:"
+
+msgid "Key file:"
+msgstr "קובץ מפתח:"
 
 msgid "Folder:"
 msgstr "תיקייה:"
 
 msgid "Name:"
 msgstr "שם:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "יש להקליד או להדביק כתובת כדי למלא את השדות שלמעלה."
+
+msgid "Address:"
+msgstr "כתובת:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "החיבור ב־SFTP משתמש בהגדרות של ssh, לכן Beluga מוסיף רשומת Host למפתח הזה ב־‎~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "בחירת קובץ מפתח"
 
 msgid "View Display Style"
 msgstr "סגנון הצגת התצוגות"
@@ -1180,6 +1219,9 @@ msgstr "תוכן:"
 
 msgid "Size:"
 msgstr "גודל:"
+
+msgid "Type:"
+msgstr "סוג:"
 
 msgid "Folder"
 msgstr "תיקייה"
@@ -1509,6 +1551,9 @@ msgstr "אי אפשר לבטל זאת."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "להעביר את %s לאשפה?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "לא ניתן להוסיף את המפתח ל־‎~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

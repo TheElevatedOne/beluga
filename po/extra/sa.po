@@ -1535,3 +1535,48 @@ msgstr "सेवकः :"
 
 msgid "Port:"
 msgstr "द्वारम् :"
+
+msgid "FTP over TLS (explicit)"
+msgstr "TLS द्वारा FTP (स्पष्टम्)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "TLS द्वारा FTP (अन्तर्निहितम्)"
+
+msgid "Anonymous"
+msgstr "अनामम्"
+
+msgid "Normal"
+msgstr "सामान्यम्"
+
+msgid "Ask for password"
+msgstr "कूटशब्दं पृच्छतु"
+
+msgid "Key file"
+msgstr "कुञ्चिकासञ्चिका"
+
+msgid "Protocol:"
+msgstr "प्रोटोकॉल् :"
+
+msgid "Host:"
+msgstr "आतिथेयः :"
+
+msgid "Logon type:"
+msgstr "प्रवेशप्रकारः :"
+
+msgid "Key file:"
+msgstr "कुञ्चिकासञ्चिका :"
+
+msgid "Password:"
+msgstr "कूटशब्दः :"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "उपरि क्षेत्राणि पूरयितुं सङ्केतं लिखतु अथवा संलग्नयतु।"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP संयोजनं ssh इत्यस्य विन्यासान् उपयुङ्क्ते, अतः Beluga अस्याः कुञ्चिकायाः कृते ~/.ssh/config मध्ये Host प्रविष्टिं योजयति।"
+
+msgid "Choose a Key File"
+msgstr "कुञ्चिकासञ्चिकां चिनोतु"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "कुञ्चिका ~/.ssh/config मध्ये योजयितुं न शक्यते।"

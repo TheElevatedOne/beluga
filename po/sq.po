@@ -221,6 +221,18 @@ msgstr "Titra:"
 msgid "Chapters:"
 msgstr "Kapituj:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP përmes TLS (i shprehur)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP përmes TLS (i nënkuptuar)"
+
+msgid "Windows share (SMB)"
+msgstr "Ndarje Windows (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "WebDAV i sigurt"
+
 msgid "Places"
 msgstr "Vendet"
 
@@ -825,32 +837,59 @@ msgstr "_Shtoje"
 msgid "_Save"
 msgstr "_Ruaje"
 
-msgid "Windows share (SMB)"
-msgstr "Ndarje Windows (SMB)"
+msgid "Anonymous"
+msgstr "Anonim"
 
-msgid "Secure WebDAV"
-msgstr "WebDAV i sigurt"
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Ask for password"
+msgstr "Kërko fjalëkalim"
+
+msgid "Key file"
+msgstr "Kartelë kyçi"
 
 msgid "Add Network Location"
 msgstr "Shto vendndodhje rrjeti"
 
-msgid "Type:"
-msgstr "Lloj:"
-
-msgid "Server:"
-msgstr "Shërbyes:"
+msgid "Protocol:"
+msgstr "Protokoll:"
 
 msgid "Port:"
 msgstr "Portë:"
 
+msgid "Host:"
+msgstr "Strehë:"
+
+msgid "Logon type:"
+msgstr "Lloj hyrjeje:"
+
 msgid "User:"
 msgstr "Përdorues:"
+
+msgid "Password:"
+msgstr "Fjalëkalimi:"
+
+msgid "Key file:"
+msgstr "Kartelë kyçi:"
 
 msgid "Folder:"
 msgstr "Dosje:"
 
 msgid "Name:"
 msgstr "Emër:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Shtypni ose ngjitni një adresë që të plotësohen fushat më sipër."
+
+msgid "Address:"
+msgstr "Adresë:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "Lidhja SFTP përdor rregullimet e ssh-së, ndaj Beluga shton një zë Host për këtë kyç te ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Zgjidhni një kartelë kyçi"
 
 msgid "View Display Style"
 msgstr "Stil Shfaqjeje Pamjeje"
@@ -1159,6 +1198,9 @@ msgstr "Lëndë:"
 
 msgid "Size:"
 msgstr "Madhësi:"
+
+msgid "Type:"
+msgstr "Lloj:"
 
 msgid "Folder"
 msgstr "Dosje"
@@ -1488,6 +1530,9 @@ msgstr "Kjo s’mund të zhbëhet."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Të shpihet %s te koshi?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Kyçi s’u shtua dot te ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

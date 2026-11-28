@@ -224,6 +224,18 @@ msgstr "Титлови:"
 msgid "Chapters:"
 msgstr "Поглавља:"
 
+msgid "FTP over TLS (explicit)"
+msgstr "FTP преко TLS-а (експлицитно)"
+
+msgid "FTP over TLS (implicit)"
+msgstr "FTP преко TLS-а (имплицитно)"
+
+msgid "Windows share (SMB)"
+msgstr "Виндоуз дељење (SMB)"
+
+msgid "Secure WebDAV"
+msgstr "Безбедни WebDAV"
+
 msgid "Places"
 msgstr "Места"
 
@@ -834,32 +846,59 @@ msgstr "_Додај"
 msgid "_Save"
 msgstr "_Сачувај"
 
-msgid "Windows share (SMB)"
-msgstr "Виндоуз дељење (SMB)"
+msgid "Anonymous"
+msgstr "Безимено"
 
-msgid "Secure WebDAV"
-msgstr "Безбедни WebDAV"
+msgid "Normal"
+msgstr "Нормално"
+
+msgid "Ask for password"
+msgstr "Питај за лозинку"
+
+msgid "Key file"
+msgstr "Фајл кључа"
 
 msgid "Add Network Location"
 msgstr "Додај мрежну локацију"
 
-msgid "Type:"
-msgstr "Тип:"
-
-msgid "Server:"
-msgstr "Сервер:"
+msgid "Protocol:"
+msgstr "Протокол:"
 
 msgid "Port:"
 msgstr "Порт:"
 
+msgid "Host:"
+msgstr "Домаћин:"
+
+msgid "Logon type:"
+msgstr "Врста пријаве:"
+
 msgid "User:"
 msgstr "Корисник:"
+
+msgid "Password:"
+msgstr "Лозинка:"
+
+msgid "Key file:"
+msgstr "Фајл кључа:"
 
 msgid "Folder:"
 msgstr "фасцикла:"
 
 msgid "Name:"
 msgstr "Име:"
+
+msgid "Type or paste an address to fill in the fields above."
+msgstr "Упишите или налепите адресу да попуните поља изнад."
+
+msgid "Address:"
+msgstr "Адреса:"
+
+msgid "The SFTP connection uses ssh's settings, so Beluga adds a Host entry for this key to ~/.ssh/config."
+msgstr "SFTP веза користи поставке ssh-а, па Beluga додаје Host унос за овај кључ у ~/.ssh/config."
+
+msgid "Choose a Key File"
+msgstr "Изаберите фајл кључа"
 
 msgid "View Display Style"
 msgstr "Стил приказа"
@@ -1176,6 +1215,9 @@ msgstr "Садржај:"
 
 msgid "Size:"
 msgstr "Величина:"
+
+msgid "Type:"
+msgstr "Тип:"
 
 msgid "Folder"
 msgstr "фасцикла"
@@ -1505,6 +1547,9 @@ msgstr "Ово не може да се опозове."
 #, c-format
 msgid "Move %s to the trash?"
 msgstr "Преместити %s у смеће?"
+
+msgid "Could not add the key to ~/.ssh/config."
+msgstr "Није могуће додати кључ у ~/.ssh/config."
 
 #, c-format
 msgid "Could not run “%s”."

@@ -12,6 +12,7 @@
 #include <vector>
 
 namespace beluga {
+struct NetLocation;
 
 class TabPage;
 class ViewContainer;
@@ -95,6 +96,7 @@ public:
     void copySelection(bool cut);
     void copyOrMoveTo(const std::string &destUri, bool move);
     void addToPlaces(const std::string &uri);
+    void addNetworkLocation(const NetLocation &n, const std::string &name);
     void runCustomAction(int index);
     std::vector<Ref<GFile>> selectedFiles() const;
     std::vector<BelugaItem *> selectedItems() const;
