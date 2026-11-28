@@ -530,7 +530,8 @@ void MainWindow::updateActions()
     bool split = t && t->split();
     // Inside an archive: read only, and entries aren't files that other programs can use.
     bool inArchive = v && archive::is_archive_uri(v->location());
-    bool readOnly = trashView || inArchive;
+    bool network = v && v->isNetwork();
+    bool readOnly = trashView || inArchive || network;
 
     enable(this, "back", c && c->canGoBack());
     enable(this, "forward", c && c->canGoForward());
@@ -543,7 +544,7 @@ void MainWindow::updateActions()
     enable(this, "create-link", writable);
     enable(this, "rename", sel && !readOnly);
     enable(this, "move-to-trash", sel && !readOnly);
-    enable(this, "delete", sel && !inArchive);
+    enable(this, "delete", sel && !inArchive && !network);
     enable(this, "duplicate", sel && !virt);
     enable(this, "restore", sel && trashView);
     enable(this, "empty-trash", trashView || !trash::is_empty());

@@ -51,6 +51,7 @@ private:
     void startTrash();
     void startArchive();
     void startRecent();
+    void addNetworkPlaces();
     void startSearch();
     void setLoading(bool on);
     void monitorEvent(GFile *file, GFile *other, GFileMonitorEvent ev);

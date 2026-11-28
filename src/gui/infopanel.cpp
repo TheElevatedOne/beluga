@@ -181,7 +181,7 @@ void InfoPanel::render()
             if (g_file_info_get_file_type(info) == G_FILE_TYPE_DIRECTORY) folders++;
             else {
                 files++;
-                total += g_file_info_get_size(info);
+                total += info_size(info);
             }
             g_object_unref(info);
         }
@@ -207,7 +207,7 @@ void InfoPanel::render()
     std::string mime = content_type_of(info);
     auto t64 = [&](const char *a) { return (gint64)g_file_info_get_attribute_uint64(info, a); };
     gint64 mtime = t64(G_FILE_ATTRIBUTE_TIME_MODIFIED);
-    guint64 size = g_file_info_get_size(info);
+    guint64 size = info_size(info);
     setPreview(f, info, mime, mtime, size);
     DateStyle ds = settings().infoLongDates ? DateStyle::Long : DateStyle::Short;
     addRow(_("Type:"), dir ? std::string(_("Folder")) : take(g_content_type_get_description(mime.c_str())));
@@ -227,7 +227,7 @@ void InfoPanel::render()
     addRow(_("Accessed:"), format_date(t64(G_FILE_ATTRIBUTE_TIME_ACCESS), ds));
     Ref<GFile> parent(g_file_get_parent(f));
     if (parent) addRow(_("Location:"), display_location(parent.get()));
-    if (g_file_info_get_is_symlink(info)) addRow(_("Points to:"), str(g_file_info_get_symlink_target(info)));
+    if (info_is_symlink(info)) addRow(_("Points to:"), str(g_file_info_get_symlink_target(info)));
     if (g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_UNIX_MODE))
         addRow(_("Permissions:"), format_permissions(g_file_info_get_attribute_uint32(info, G_FILE_ATTRIBUTE_UNIX_MODE), settings().permissionsFormat));
     addRow(_("Owner:"), str(g_file_info_get_attribute_string(info, G_FILE_ATTRIBUTE_OWNER_USER)));

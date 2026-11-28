@@ -45,7 +45,7 @@ void walk(GFile *f, Totals &t, const std::weak_ptr<void> &alive, int depth)
         }
     } else {
         if (depth > 0) t.files++;
-        t.size += g_file_info_get_size(info);
+        t.size += info_size(info);
     }
     g_object_unref(info);
 }
@@ -275,7 +275,7 @@ GtkWidget *general_page(State *st, GtkWidget *parent)
         g.text(_("Created:"), format_date(t(G_FILE_ATTRIBUTE_TIME_CREATED), DateStyle::Long));
         g.text(_("Modified:"), format_date(t(G_FILE_ATTRIBUTE_TIME_MODIFIED), DateStyle::Long));
         g.text(_("Accessed:"), format_date(t(G_FILE_ATTRIBUTE_TIME_ACCESS), DateStyle::Long));
-        if (g_file_info_get_is_symlink(info)) g.text(_("Points to:"), str(g_file_info_get_symlink_target(info)));
+        if (info_is_symlink(info)) g.text(_("Points to:"), str(g_file_info_get_symlink_target(info)));
         if (!st->isDir) {
             // The program's icon and name, centred with the Change button.
             GtkWidget *row = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 8);

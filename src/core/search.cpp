@@ -167,7 +167,7 @@ bool SearchJob::matches(GFile *f, GFileInfo *info)
         if (dt) g_date_time_unref(dt);
         if (t < limit) return false;
     }
-    if (q_.minSize > 0 && (isDir || (guint64)g_file_info_get_size(info) < q_.minSize)) return false;
+    if (q_.minSize > 0 && (isDir || (guint64)info_size(info) < q_.minSize)) return false;
     if (q_.text.empty()) return true;
     const char *name = g_file_info_get_display_name(info);
     if (filter_match(q_.text, name ? name : "")) return true;

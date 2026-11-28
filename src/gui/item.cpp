@@ -42,15 +42,18 @@ void item_set_info(BelugaItem *item, GFileInfo *info)
 {
     ItemData &d = *item->d;
     d.info = Ref<GFileInfo>::share(info);
-    const char *dn = g_file_info_get_display_name(info);
-    d.name = dn ? dn : str(g_file_info_get_name(info));
-    d.isDir = g_file_info_get_file_type(info) == G_FILE_TYPE_DIRECTORY;
-    d.isHidden = g_file_info_get_is_hidden(info);
-    d.isBackup = g_file_info_get_is_backup(info) || ends_with(d.name, "~");
-    d.isLink = g_file_info_get_is_symlink(info);
+    // Some gvfs backends (ftp) leave standard attributes out, and GLib's getters then warn on every file.
+    auto has = [info](const char *a) { return g_file_info_has_attribute(info, a); };
+    const char *dn = has(G_FILE_ATTRIBUTE_STANDARD_DISPLAY_NAME) ? g_file_info_get_display_name(info) : nullptr;
+    d.name = dn ? dn : (has(G_FILE_ATTRIBUTE_STANDARD_NAME) ? str(g_file_info_get_name(info)) : basename_of(file_uri(item->d->file.get())));
+    GFileType type = has(G_FILE_ATTRIBUTE_STANDARD_TYPE) ? g_file_info_get_file_type(info) : G_FILE_TYPE_UNKNOWN;
+    d.isDir = type == G_FILE_TYPE_DIRECTORY;
+    d.isHidden = has(G_FILE_ATTRIBUTE_STANDARD_IS_HIDDEN) ? g_file_info_get_is_hidden(info) : starts_with(d.name, ".");
+    d.isBackup = (has(G_FILE_ATTRIBUTE_STANDARD_IS_BACKUP) && g_file_info_get_is_backup(info)) || ends_with(d.name, "~");
+    d.isLink = has(G_FILE_ATTRIBUTE_STANDARD_IS_SYMLINK) && g_file_info_get_is_symlink(info);
     d.mime = content_type_of(info);
-    d.brokenLink = d.isLink && g_file_info_get_file_type(info) == G_FILE_TYPE_SYMBOLIC_LINK;
-    d.size = d.isDir ? 0 : (guint64)g_file_info_get_size(info);
+    d.brokenLink = d.isLink && type == G_FILE_TYPE_SYMBOLIC_LINK;
+    d.size = d.isDir || !has(G_FILE_ATTRIBUTE_STANDARD_SIZE) ? 0 : (guint64)g_file_info_get_size(info);
     d.mtime = info_time(info, G_FILE_ATTRIBUTE_TIME_MODIFIED);
     d.ctime = info_time(info, G_FILE_ATTRIBUTE_TIME_CREATED);
     d.atime = info_time(info, G_FILE_ATTRIBUTE_TIME_ACCESS);
@@ -58,7 +61,7 @@ void item_set_info(BelugaItem *item, GFileInfo *info)
               || g_file_info_get_attribute_boolean(info, G_FILE_ATTRIBUTE_ACCESS_CAN_READ);
     d.writable = !g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE)
               || g_file_info_get_attribute_boolean(info, G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE);
-    GIcon *icon = g_file_info_get_icon(info);
+    GIcon *icon = has(G_FILE_ATTRIBUTE_STANDARD_ICON) ? g_file_info_get_icon(info) : nullptr;
     d.icon = Ref<GIcon>::share(icon);
     if (!icon) d.icon = Ref<GIcon>(g_themed_icon_new(d.isDir ? "folder" : "text-x-generic"));
     // A folder's own icon (.directory, as Dolphin writes it).

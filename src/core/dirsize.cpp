@@ -29,7 +29,7 @@ guint64 tree_size(GFile *dir, int depth, int limit, const std::weak_ptr<void> &o
             total += tree_size(child, depth + 1, limit, owner);
             g_object_unref(child);
         } else {
-            total += g_file_info_get_size(info);
+            total += info_size(info);
         }
         g_object_unref(info);
     }

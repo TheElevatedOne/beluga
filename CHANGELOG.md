@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Fixed: the location bar showed remote folders as gvfs's mount folder (`/run/user/1000/gvfs/ftp:host=…`) instead
+  of their address (`ftp://user@host:2121/`).
+- Fixed: FTP folders filled the terminal with GLib warnings (`GFileInfo created without standard::is-backup`).
+- Changed: Network lists the servers in Places, so locations added with **Add Network Location** show there. Network
+  is read only: its entries can't be renamed, deleted, cut or dragged, and it has no Disk Usage column.
+
 ## 1.3.0
 
 - Added: **Add Network Location…** in the context menu of Network (`network:///`), in place of Create New. Like

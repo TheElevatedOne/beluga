@@ -257,7 +257,7 @@ guint64 FileJob::scanFile(GFile *f, int depth)
             g_object_unref(en);
         }
     } else {
-        size = g_file_info_get_size(info);
+        size = info_size(info);
     }
     g_object_unref(info);
     return size;
@@ -472,7 +472,7 @@ bool FileJob::copyOne(GFile *srcIn, GFile *destIn, bool isTop, bool move, OpItem
                 cancel();
                 return false;
             case ConflictChoice::Skip:
-                doneBytes_ += isDir ? 0 : g_file_info_get_size(srcInfo.get());
+                doneBytes_ += isDir ? 0 : info_size(srcInfo.get());
                 fileBase_ = doneBytes_.load();
                 doneFiles_++;
                 return false;
@@ -526,7 +526,7 @@ bool FileJob::copyOne(GFile *srcIn, GFile *destIn, bool isTop, bool move, OpItem
             if (c == ErrorChoice::Retry) continue;
             return false;
         }
-        fileBase_ += g_file_info_get_size(srcInfo.get());
+        fileBase_ += info_size(srcInfo.get());
         doneBytes_ = fileBase_.load();
         doneFiles_++;
         if (move) {

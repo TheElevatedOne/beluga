@@ -747,6 +747,28 @@ void gui_tests(GtkApplication *app)
                       && t.find("    Port 2222\n") != std::string::npos
                       && net_location_alias_uri(k) == "sftp://beluga-me-example.com/",
                   "Key file logon: one Host alias in the ssh config, kept on a second add");
+            // Remote addresses show as addresses, not as gvfs's FUSE folder.
+            check(display_location("ftp://a@192.168.1.124:2121/pub") == "ftp://a@192.168.1.124:2121/pub",
+                  "a remote location shows its address (" + display_location("ftp://a@192.168.1.124:2121/pub") + ")");
+            // Network lists the servers in Places, read only.
+            Place rp;
+            rp.uri = "sftp://beluga-selftest.invalid/";
+            rp.label = "Selftest server";
+            rp.icon = "folder-remote";
+            Places::instance().add(rp);
+            View *nv = w->activeView();
+            w->activeContainer()->navigate("network:///");
+            wait_ms(800);
+            bool listed = nv->findItem(rp.uri) != nullptr;
+            if (listed) nv->selectUris({rp.uri});
+            wait_ms(100);
+            GAction *del = g_action_map_lookup_action(G_ACTION_MAP(w->window()), "delete");
+            GAction *ren = g_action_map_lookup_action(G_ACTION_MAP(w->window()), "rename");
+            bool locked = del && ren && !g_action_get_enabled(del) && !g_action_get_enabled(ren);
+            Places::instance().remove(Places::instance().indexOf(rp.uri));
+            check(listed && locked, "Network lists servers from Places and can't delete or rename them");
+            w->activeContainer()->navigate(file_uri(F("").get()));
+            wait_ms(300);
         }
         // Vim mode: motions, the three visual modes, counts, sequences with a timeout, the command line.
         {

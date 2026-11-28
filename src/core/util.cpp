@@ -231,8 +231,11 @@ std::string display_location(GFile *f)
 {
     if (!f) return {};
     if (g_file_has_uri_scheme(f, archive::kScheme)) return archive::display_path(file_uri(f));
-    char *p = g_file_get_path(f);
-    if (p) return take(p);
+    // Remote files have a path too (gvfs's FUSE folder, /run/user/…/gvfs/ftp:host=…); show their address.
+    if (g_file_is_native(f)) {
+        char *p = g_file_get_path(f);
+        if (p) return take(p);
+    }
     return take(g_file_get_parse_name(f));
 }
 
@@ -320,6 +323,16 @@ std::string collate_key(const std::string &name, int sortingChoice)
     case 1: return take(g_utf8_collate_key(casefold(name).c_str(), -1));
     default: return take(g_utf8_collate_key_for_filename(casefold(name).c_str(), -1));
     }
+}
+
+goffset info_size(GFileInfo *info)
+{
+    return info && g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_STANDARD_SIZE) ? g_file_info_get_size(info) : 0;
+}
+
+bool info_is_symlink(GFileInfo *info)
+{
+    return info && g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_STANDARD_IS_SYMLINK) && g_file_info_get_is_symlink(info);
 }
 
 std::string content_type_of(GFileInfo *info)

@@ -3,6 +3,7 @@
 
 #include "archive.hpp"
 #include "fileops.hpp"
+#include "places.hpp"
 #include "trash.hpp"
 
 #include <algorithm>
@@ -99,9 +100,39 @@ void DirLister::open(const std::string &uri)
     else if (is_recent_uri(uri)) startRecent();
     else if (is_search_uri(uri)) startSearch();
     else {
+        if (starts_with(uri, "network:")) addNetworkPlaces();
         dir_ = Ref<GFile>(g_file_new_for_uri(uri.c_str()));
         startFolder(false);
     }
+}
+
+// Network shows the servers in Places (Add Network Location adds them there) next to what gvfs finds on the
+// network, like Dolphin's network folders.
+void DirLister::addNetworkPlaces()
+{
+    std::vector<BelugaItem *> items;
+    for (const Place &p : Places::instance().list()) {
+        if (p.hidden || section_for_uri(p.uri) != PlaceSection::Remote || starts_with(p.uri, "network:")) continue;
+        Ref<GFile> f(g_file_new_for_uri(p.uri.c_str()));
+        Ref<GFileInfo> info(g_file_info_new());
+        g_file_info_set_name(info.get(), p.label.c_str());
+        g_file_info_set_display_name(info.get(), p.label.c_str());
+        g_file_info_set_file_type(info.get(), G_FILE_TYPE_DIRECTORY);
+        g_file_info_set_content_type(info.get(), "inode/directory");
+        g_file_info_set_is_hidden(info.get(), FALSE);
+        g_file_info_set_attribute_boolean(info.get(), G_FILE_ATTRIBUTE_STANDARD_IS_BACKUP, FALSE);
+        g_file_info_set_is_symlink(info.get(), FALSE);
+        g_file_info_set_size(info.get(), 0);
+        Ref<GIcon> icon(g_themed_icon_new(p.icon.empty() ? "folder-remote" : p.icon.c_str()));
+        g_file_info_set_icon(info.get(), icon.get());
+        g_file_info_set_attribute_string(info.get(), G_FILE_ATTRIBUTE_STANDARD_TARGET_URI, p.uri.c_str());
+        g_file_info_set_attribute_boolean(info.get(), G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE, FALSE);
+        g_file_info_set_attribute_boolean(info.get(), G_FILE_ATTRIBUTE_ACCESS_CAN_DELETE, FALSE);
+        g_file_info_set_attribute_boolean(info.get(), G_FILE_ATTRIBUTE_ACCESS_CAN_RENAME, FALSE);
+        g_file_info_set_attribute_boolean(info.get(), G_FILE_ATTRIBUTE_ACCESS_CAN_TRASH, FALSE);
+        items.push_back(item_new(f.get(), info.get()));
+    }
+    addItems(items);
 }
 
 void DirLister::reload() { open(uri_); }

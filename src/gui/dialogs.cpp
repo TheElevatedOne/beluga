@@ -897,7 +897,7 @@ static GtkWidget *file_summary(const char *title, GFileInfo *info)
     std::string detail;
     if (info) {
         bool dir = g_file_info_get_file_type(info) == G_FILE_TYPE_DIRECTORY;
-        if (!dir) detail = format_size(g_file_info_get_size(info));
+        if (!dir) detail = format_size(info_size(info));
         GDateTime *dt = g_file_info_get_modification_date_time(info);
         if (dt) {
             if (!detail.empty()) detail += ", ";

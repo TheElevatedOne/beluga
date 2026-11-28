@@ -146,6 +146,8 @@ View::View()
         if (it && item_data(it).isDir && onSpringLoad) onSpringLoad(item_data(it).uri);
     };
     iv_->dragContent = [this](const std::vector<int> &positions) -> GdkContentProvider * {
+        // Network lists servers: dragging one would move or copy the whole server.
+        if (isNetwork()) return nullptr;
         std::vector<GFile *> files;
         for (int p : positions)
             if (BelugaItem *it = itemAt(p)) files.push_back(item_data(it).file.get());
@@ -871,7 +873,7 @@ void View::requestDirSize(BelugaItem *item)
 std::vector<std::string> View::shownRoles() const
 {
     auto roles = props_.rolesForMode(props_.viewMode);
-    if (props_.viewMode == ModeDetails && settings().detailsDiskUsage && !isVirtual()
+    if (props_.viewMode == ModeDetails && settings().detailsDiskUsage && !isVirtual() && !isNetwork()
         && std::find(roles.begin(), roles.end(), "diskusage") == roles.end()) {
         auto size = std::find(roles.begin(), roles.end(), "size");
         roles.insert(size == roles.end() ? roles.end() : size + 1, "diskusage");

@@ -110,6 +110,9 @@ std::string collate_key(const std::string &name, int sortingChoice);
 bool is_executable_file(GFileInfo *info);
 bool is_desktop_file(GFileInfo *info);
 std::string content_type_of(GFileInfo *info);
+// GFileInfo getters that don't warn when a backend (gvfs ftp) left the attribute out.
+goffset info_size(GFileInfo *info);
+bool info_is_symlink(GFileInfo *info);
 
 // Disk space of the filesystem holding f: returns false when unknown.
 bool filesystem_space(GFile *f, guint64 &total, guint64 &free);
